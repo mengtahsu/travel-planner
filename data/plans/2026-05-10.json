@@ -1,113 +1,161 @@
 {
-  "destination_en": "Paris, France",
-  "title_zh": "五月巴黎 · 浪漫五天之旅",
+  "destination_en": "Tokyo, Japan",
+  "title_zh": "五月東京 · 燒肉浪漫之旅",
   "date_range": "2026/05/15–05/20",
   "start_date": "2026-05-15",
   "end_date": "2026-05-20",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "CDG",
+  "destination_code": "NRT",
   "travelers": 2,
   "days": 5,
   "budget_ntd": 150000,
   "flight": {
-    "airline": "長榮航空 EVA Air",
+    "airline": "中華航空 China Airlines",
     "departure_date": "5月15日",
     "return_date": "5月20日",
-    "total_price_ntd": 38000,
+    "total_price_ntd": 26000,
     "outbound": {
-      "flight_no": "BR 87",
-      "route": "TPE → CDG 直飛",
-      "depart_time": "23:40",
-      "arrive_time": "07:30 (+1)",
-      "duration": "13h 50m",
+      "flight_no": "CI 100",
+      "route": "TPE → NRT 直飛",
+      "depart_time": "08:55",
+      "arrive_time": "13:15",
+      "duration": "3h 20m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "BR 88",
-      "route": "CDG → TPE 直飛",
-      "depart_time": "11:20",
-      "arrive_time": "06:30 (+1)",
-      "duration": "13h 10m",
+      "flight_no": "CI 105",
+      "route": "NRT → TPE 直飛",
+      "depart_time": "17:45",
+      "arrive_time": "20:35",
+      "duration": "3h 50m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Hôtel Le Narcisse Blanc & Spa",
-      "name_zh": "水仙花白酒店",
-      "district": "巴黎 6 區",
+      "name": "The Tokyo Station Hotel",
+      "name_zh": "東京車站飯店",
+      "district": "千代田區",
       "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 39000,
-      "stars": "★★★★☆",
-      "room_type": "經典豪華雙人房",
-      "breakfast": "含法式早餐",
-      "amenities": "🏊 室內泳池 · 💆 SPA & 土耳其浴 · 🍽️ 庭院餐廳 · 🌿 私密花園",
-      "search_query": "Hôtel Le Narcisse Blanc Paris France",
+      "price_ntd": 42000,
+      "stars": "★★★★★",
+      "room_type": "經典雙人房",
+      "breakfast": "含日式/西式自助早餐",
+      "amenities": "🏋️ 健身房 · 🧖 大浴場 · 🍣 館內餐廳 · 🚉 直通東京車站",
+      "search_query": "The Tokyo Station Hotel Tokyo Japan",
       "photos": [
         {
-          "url": "",
-          "label": "Hôtel Le Narcisse Blanc Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A bedroom with a large bed and wooden floors"
         },
         {
-          "url": "",
-          "label": "Hôtel Le Narcisse Blanc Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1688092807560-b13005bba132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room with large windows and a view of a city"
         },
         {
-          "url": "",
-          "label": "Hôtel Le Narcisse Blanc Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1706839638674-b15b4f0576e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a city at sunset from a window"
         },
         {
-          "url": "",
-          "label": "Hôtel Le Narcisse Blanc Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a city at night from the top of a building"
         },
         {
-          "url": "",
-          "label": "Hôtel Le Narcisse Blanc Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1765297824468-c6176d6c7a8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "City skyline with skyscrapers under a cloudy sky."
         },
         {
-          "url": "",
-          "label": "Hôtel Le Narcisse Blanc Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1581567129473-7c57c2d885d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "people standing on white building during nighttime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A bedroom with a large bed and wooden floors"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1688092807560-b13005bba132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room with large windows and a view of a city"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1706839638674-b15b4f0576e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a city at sunset from a window"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a city at night from the top of a building"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1765297824468-c6176d6c7a8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "City skyline with skyscrapers under a cloudy sky."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1581567129473-7c57c2d885d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "people standing on white building during nighttime"
         }
       ]
     },
     {
-      "name": "Hôtel Particulier Montmartre",
-      "name_zh": "蒙馬特私密精品酒店",
-      "district": "巴黎 18 區 (蒙馬特)",
+      "name": "Andaz Tokyo Toranomon Hills",
+      "name_zh": "安達仕東京虎之門之丘",
+      "district": "港區",
       "day_range": "3–5",
       "nights": 2,
-      "price_ntd": 48000,
+      "price_ntd": 36000,
       "stars": "★★★★★",
-      "room_type": "奢華花園套房",
-      "breakfast": "含歐陸早餐",
-      "amenities": "🌹 私密花園 · 🎨 藝術沙龍 · 🍷 免費紅酒迎賓 · 🛁 浴缸",
-      "search_query": "Hôtel Particulier Montmartre Paris France",
+      "room_type": "天際線景觀雙人房",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 頂樓無邊際泳池 · 🏙️ 東京鐵塔景觀 · 🍸 高空酒吧 · 🧖 SPA",
+      "search_query": "Andaz Tokyo Toranomon Hills Japan",
       "photos": [
         {
-          "url": "",
-          "label": "Hôtel Particulier Montmartre Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A bedroom with a large bed and wooden floors"
         },
         {
-          "url": "",
-          "label": "Hôtel Particulier Montmartre Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1688092807560-b13005bba132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room with large windows and a view of a city"
         },
         {
-          "url": "",
-          "label": "Hôtel Particulier Montmartre Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1706839638674-b15b4f0576e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a city at sunset from a window"
         },
         {
-          "url": "",
-          "label": "Hôtel Particulier Montmartre Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a city at night from the top of a building"
         },
         {
-          "url": "",
-          "label": "Hôtel Particulier Montmartre Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1765297824468-c6176d6c7a8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "City skyline with skyscrapers under a cloudy sky."
         },
         {
-          "url": "",
-          "label": "Hôtel Particulier Montmartre Paris France hotel room pool lobby"
+          "url": "https://images.unsplash.com/photo-1581567129473-7c57c2d885d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "people standing on white building during nighttime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A bedroom with a large bed and wooden floors"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1688092807560-b13005bba132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room with large windows and a view of a city"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1706839638674-b15b4f0576e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a city at sunset from a window"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a city at night from the top of a building"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1765297824468-c6176d6c7a8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "City skyline with skyscrapers under a cloudy sky."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1581567129473-7c57c2d885d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "people standing on white building during nighttime"
         }
       ]
     }
@@ -115,105 +163,93 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Le Cinq",
-        "name_zh": "四季酒店米其林三星",
-        "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：龍蝦濃湯佐黑松露",
-        "address": "31 Av. George V, 8區",
-        "price_ntd": 5000,
-        "price_label": "晚餐套餐 €145/人 · NT$5,000",
-        "hours": "19:00–22:00 · 需預約",
-        "search_query": "Le Cinq restaurant Four Seasons Paris food",
+        "name": "Yakiniku Jumbo Hanare",
+        "name_zh": "燒肉JUMB 離れ · 頂級和牛燒肉",
+        "stars": "⭐",
+        "dish": "🥩 招牌：特選和牛五種拼盤 · 幻之牛舌",
+        "address": "東京都港區西麻布2-24-14 B1F",
+        "price_ntd": 7500,
+        "price_label": "晚餐套餐 ¥18,000/人 · NT$7,500",
+        "hours": "17:00–23:00 · 需提前預約",
+        "search_query": "Yakiniku Jumbo Hanare Tokyo",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwRm91ciUyMFNlYXNvbnMlMjBQYXJpcyUyMGZvb2QlMjBkaXNoJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc3ODQyNDk3Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "cooked food on black cooking pan"
+            "url": "",
+            "label": "Yakiniku Jumbo Hanare restaurant Tokyo food dish"
           },
           {
-            "url": "https://images.unsplash.com/photo-1732525819066-88074e2d2748?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwRm91ciUyMFNlYXNvbnMlMjBQYXJpcyUyMGZvb2QlMjBkaXNoJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc3ODQyNDk3Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A restaurant with a round table and red stools"
+            "url": "",
+            "label": "Yakiniku Jumbo Hanare restaurant Tokyo food dish"
           },
           {
-            "url": "https://images.unsplash.com/photo-1732206048727-81dd4e6e9124?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwRm91ciUyMFNlYXNvbnMlMjBQYXJpcyUyMGZvb2QlMjBkaXNoJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc3ODQyNDk3Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A white plate topped with different types of sushi"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwRm91ciUyMFNlYXNvbnMlMjBQYXJpcyUyMGZvb2QlMjBkaXNoJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc3ODQyNDk3Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "cooked food on black cooking pan"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1732525819066-88074e2d2748?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwRm91ciUyMFNlYXNvbnMlMjBQYXJpcyUyMGZvb2QlMjBkaXNoJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc3ODQyNDk3Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A restaurant with a round table and red stools"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1732206048727-81dd4e6e9124?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwRm91ciUyMFNlYXNvbnMlMjBQYXJpcyUyMGZvb2QlMjBkaXNoJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc3ODQyNDk3Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A white plate topped with different types of sushi"
+            "url": "",
+            "label": "Yakiniku Jumbo Hanare restaurant Tokyo food dish"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Septime",
-        "name_zh": "新派法式小酒館 · 米其林一星",
-        "stars": "⭐",
-        "dish": "🥩 招牌：熟成肋眼牛排 · 煙燻甜菜根",
-        "address": "80 Rue de Charonne, 11區",
-        "price_ntd": 1900,
-        "price_label": "午餐套餐 €55/人 · NT$1,900",
-        "hours": "12:15–14:00 / 19:30–22:00",
-        "search_query": "Septime restaurant Paris food",
+        "name": "Ushigoro S. Ginza",
+        "name_zh": "牛五郎 S. 銀座 · 精緻燒肉割烹",
+        "stars": "",
+        "dish": "🥢 招牌：A5黑毛和牛壽喜燒風燒肉 · 松露生拌牛肉",
+        "address": "東京都中央區銀座7-2-8 8F",
+        "price_ntd": 5000,
+        "price_label": "晚餐套餐 ¥12,000/人 · NT$5,000",
+        "hours": "17:00–23:30 · 可預約",
+        "search_query": "Ushigoro S Ginza Tokyo",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1775199903279-673b4a384833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2glMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzc4NDI0OTc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Restaurant entrance with cars parked outside"
+            "url": "https://images.unsplash.com/photo-1740895362852-8ea88c9ab65d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A table topped with plates and bowls of food"
           },
           {
-            "url": "https://images.unsplash.com/photo-1546940071-03b96ed021c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2glMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzc4NDI0OTc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "gray throw pillow"
+            "url": "https://images.unsplash.com/photo-1584671986324-fc1ce89a5b07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "person holding black chopsticks with brown food"
           },
           {
-            "url": "https://images.unsplash.com/photo-1646474648031-f5629d22cf64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2glMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzc4NDI0OTc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a blue cup and saucer with a spoon on a table"
+            "url": "https://images.unsplash.com/photo-1681519031560-f26c67891322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a group of people sitting at tables in a restaurant"
           },
           {
-            "url": "https://images.unsplash.com/photo-1775199903279-673b4a384833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2glMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzc4NDI0OTc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Restaurant entrance with cars parked outside"
+            "url": "https://images.unsplash.com/photo-1740895362852-8ea88c9ab65d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A table topped with plates and bowls of food"
           },
           {
-            "url": "https://images.unsplash.com/photo-1546940071-03b96ed021c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2glMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzc4NDI0OTc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "gray throw pillow"
+            "url": "https://images.unsplash.com/photo-1584671986324-fc1ce89a5b07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "person holding black chopsticks with brown food"
           },
           {
-            "url": "https://images.unsplash.com/photo-1646474648031-f5629d22cf64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2glMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzc4NDI0OTc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a blue cup and saucer with a spoon on a table"
+            "url": "https://images.unsplash.com/photo-1681519031560-f26c67891322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a group of people sitting at tables in a restaurant"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Café de Flore",
-        "name_zh": "花神咖啡館 · 1887年開業",
+        "name": "Higashiya Ginza",
+        "name_zh": "東屋銀座 · 和風甘味處",
         "stars": "",
-        "dish": "☕ 招牌：熱巧克力 · 可頌 · 焦糖布丁",
-        "address": "172 Bd Saint-Germain, 6區",
-        "price_ntd": 1200,
-        "price_label": "兩人早午餐 €35 · NT$1,200",
-        "hours": "07:30–01:30 · 文人雅士最愛",
-        "search_query": "Cafe de Flore Paris interior",
+        "dish": "🍡 招牌：抹茶蕨餅 · 季節和菓子 · 煎茶",
+        "address": "東京都中央區銀座1-7-7 2F",
+        "price_ntd": 1800,
+        "price_label": "兩人下午茶 ¥4,000 · NT$1,800",
+        "hours": "11:00–19:00 · 和風靜謐空間",
+        "search_query": "Higashiya Ginza Tokyo cafe",
         "photos": [
           {
             "url": "",
-            "label": "Cafe de Flore Paris interior dish interior"
+            "label": "Higashiya Ginza cafe coffee Tokyo dessert"
           },
           {
             "url": "",
-            "label": "Cafe de Flore Paris interior dish interior"
+            "label": "Higashiya Ginza cafe coffee Tokyo dessert"
           },
           {
             "url": "",
-            "label": "Cafe de Flore Paris interior dish interior"
+            "label": "Higashiya Ginza cafe coffee Tokyo dessert"
           }
         ]
       }
@@ -222,217 +258,245 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "May 15 · Thu",
-      "label_zh": "抵達日",
-      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
-      "hotel_name_zh": "水仙花白酒店 · 經典雙人房",
+      "date": "May 15 · Fri",
+      "label_zh": "抵達日 · 銀座之夜",
+      "hotel_name": "The Tokyo Station Hotel",
+      "hotel_name_zh": "東京車站飯店 · 經典雙人房",
       "hotel_room": "經典雙人房",
-      "weather": "⛅ 18°/10°",
-      "rain_pct": "10%",
+      "weather": "☀️ 24°/16°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李 · Arrive at CDG Terminal 1, customs and baggage claim"
+          "time": "08:55",
+          "desc": "✈️ 桃園機場TPE出發 · 中華航空CI100 · 預計13:15抵達成田"
         },
         {
-          "time": "09:00",
-          "desc": "🚇 搭乘 RER B + 地鐵至 Saint-Germain-des-Prés 站 (約50分鐘) · Take RER B + metro to Saint-Germain-des-Prés (approx. 50 min)"
+          "time": "13:15",
+          "desc": "🛬 抵達成田NRT · 入境、領取行李"
         },
         {
-          "time": "10:30",
-          "desc": "🥐 Café de Flore 早午餐 · 熱巧克力 + 可頌 · Brunch at Café de Flore: hot chocolate and croissant"
+          "time": "14:30",
+          "desc": "🚄 搭乘N'EX成田特快至東京車站（約1小時）· 建議購買Suica卡"
         },
         {
-          "time": "12:00",
-          "desc": "🏨 步行至 Hôtel Le Narcisse Blanc & Spa 寄放行李 · Walk to hotel to drop luggage"
+          "time": "15:45",
+          "desc": "🏨 入住東京車站飯店 · 經典雙人房 · 飯店直通車站超方便"
         },
         {
-          "time": "14:00",
-          "desc": "🎨 羅浮宮 Musée du Louvre（預約票 €17/人）· 蒙娜麗莎、維納斯 · Louvre Museum (pre-booked tickets €17/pp) – Mona Lisa, Venus de Milo"
+          "time": "17:00",
+          "desc": "🚶 散步至銀座 · 感受高級購物區氛圍"
         },
         {
-          "time": "18:00",
-          "desc": "🌆 杜樂麗花園散步 · 噴泉與雕像 · Stroll in Tuileries Garden – fountains and statues"
+          "time": "18:30",
+          "desc": "🥩 晚餐：Ushigoro S. Ginza 牛五郎 · 頂級A5和牛燒肉 · 浪漫兩人時光"
         },
         {
-          "time": "19:30",
-          "desc": "🍽️ 晚餐：Le Cinq（米其林三星）· 龍蝦濃湯佐黑松露 · Dinner at Le Cinq (Michelin 3-star): lobster bisque with black truffle"
+          "time": "21:00",
+          "desc": "🌃 銀座夜景散步 · 欣賞歌舞伎座與和光鐘塔"
         },
         {
           "time": "22:00",
-          "desc": "🚶 夜遊羅浮宮金字塔 · 回酒店 · Night walk to Louvre Pyramid, return to hotel"
+          "desc": "🛁 返回飯店 · 享用戶內大浴場 · 放鬆入眠"
         }
       ]
     },
     {
       "day": 2,
-      "date": "May 16 · Fri",
-      "label_zh": "浪漫塞納河日",
-      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
-      "hotel_name_zh": "水仙花白酒店 · 經典雙人房",
+      "date": "May 16 · Sat",
+      "label_zh": "淺草文化 · 天空樹夜景",
+      "hotel_name": "The Tokyo Station Hotel",
+      "hotel_name_zh": "東京車站飯店 · 經典雙人房",
       "hotel_room": "經典雙人房",
-      "weather": "☀️ 20°/12°",
-      "rain_pct": "5%",
+      "weather": "☀️ 26°/18°",
+      "rain_pct": "10%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 酒店法式早餐 · 可頌、咖啡、鮮榨果汁 · Hotel French breakfast: croissant, coffee, fresh juice"
+          "desc": "🍳 飯店早餐 · 日式定食或自助餐"
         },
         {
-          "time": "09:30",
-          "desc": "⛪ 聖母院 · 外觀與廣場 · Notre-Dame Cathedral exterior and square"
+          "time": "09:00",
+          "desc": "🚇 搭JR至淺草站 · 參觀淺草寺雷門"
         },
         {
-          "time": "10:30",
-          "desc": "📚 莎士比亞書店 · 買一本二手書 · Shakespeare and Company – buy a secondhand book"
+          "time": "10:00",
+          "desc": "🏮 仲見世通商店街 · 品嚐人形燒、抹茶冰淇淋"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 午餐：Septime（米其林一星）· 熟成肋眼牛排 · Lunch at Septime (Michelin 1-star): aged ribeye steak"
+          "time": "11:30",
+          "desc": "🚢 搭乘水上巴士從淺草至台場（約50分鐘）· 浪漫河景"
         },
         {
-          "time": "14:30",
-          "desc": "🚢 塞納河遊船（1小時）· 從奧賽碼頭上船 · Seine river cruise (1 hour) from Quai d'Orsay"
+          "time": "12:30",
+          "desc": "🍜 台場Decks Tokyo Beach · 午餐：拉麵或壽司"
+        },
+        {
+          "time": "14:00",
+          "desc": "🎡 台場自由女神像 · 維納斯城堡購物"
         },
         {
           "time": "16:00",
-          "desc": "🎨 奧賽博物館（預約 €16/人）· 印象派畫作 · Musée d'Orsay (pre-book €16/pp) – Impressionist masterpieces"
+          "desc": "🚇 返回淺草 · 前往晴空塔"
+        },
+        {
+          "time": "17:30",
+          "desc": "🗼 東京晴空塔展望台（門票¥2,100/人）· 日落美景"
         },
         {
           "time": "19:00",
-          "desc": "🌇 蒙帕納斯大廈觀景台（€18/人）· 夕陽全景 · Montparnasse Tower observation deck (€18/pp) – sunset panorama"
+          "desc": "🍛 晚餐：晴空塔內「六厘舍」沾麵或「敘敘苑」燒肉（可選）"
         },
         {
-          "time": "20:30",
-          "desc": "🍽️ 晚餐：燒肉！Yakiniku Paris（日式燒肉）· 和牛拼盤 · Dinner: Yakiniku Paris (Japanese BBQ) – Wagyu platter · 一餐吃燒肉"
+          "time": "21:00",
+          "desc": "🚇 返回飯店 · 大浴場泡湯"
         }
       ]
     },
     {
       "day": 3,
-      "date": "May 17 · Sat",
-      "label_zh": "蒙馬特與換酒店",
-      "hotel_name": "Hôtel Particulier Montmartre",
-      "hotel_name_zh": "蒙馬特私密精品酒店 · 奢華花園套房",
-      "hotel_room": "奢華花園套房",
-      "weather": "⛅ 19°/11°",
-      "rain_pct": "15%",
+      "date": "May 17 · Sun",
+      "label_zh": "澀谷新宿 · 燒肉極致體驗",
+      "hotel_name": "Andaz Tokyo Toranomon Hills",
+      "hotel_name_zh": "安達仕東京虎之門之丘 · 天際線景觀雙人房",
+      "hotel_room": "天際線景觀雙人房",
+      "weather": "☁️ 23°/17°",
+      "rain_pct": "20%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 酒店早餐 · 收拾行李 · Hotel breakfast, pack luggage"
+          "desc": "🍳 飯店早餐 · 退房並寄放行李"
         },
         {
           "time": "09:30",
-          "desc": "🏛️ 退房 Hôtel Le Narcisse Blanc · 寄放行李 · Check-out from Hôtel Le Narcisse Blanc, leave luggage"
+          "desc": "🚇 前往澀谷 · 參觀新地標Shibuya Sky（門票¥1,500/人）"
         },
         {
-          "time": "10:00",
-          "desc": "⛰️ 聖心堂 · 階梯俯瞰巴黎 · Sacré-Cœur Basilica – steps with panoramic view"
+          "time": "11:00",
+          "desc": "🐕 澀谷忠犬八公像 · 十字路口拍照"
         },
         {
-          "time": "11:30",
-          "desc": "🎨 畫家廣場 · 街頭藝術家 · Place du Tertre – street artists"
+          "time": "12:00",
+          "desc": "🍣 午餐：澀谷「美登利壽司」· 新鮮握壽司"
         },
         {
-          "time": "13:00",
-          "desc": "🍽️ 午餐：Le Relais de l'Entrecôte · 牛排薯條 · Lunch at Le Relais de l'Entrecôte – steak frites"
+          "time": "13:30",
+          "desc": "🛍️ 新宿逛街 · 伊勢丹百貨、BEAMS"
         },
         {
-          "time": "14:30",
-          "desc": "🏨 前往 Hôtel Particulier Montmartre 入住 · 搭乘計程車 · Check-in to Hôtel Particulier Montmartre (taxi)"
+          "time": "15:00",
+          "desc": "☕ Higashiya Ginza 下午茶 · 抹茶和菓子（順路至銀座）"
         },
         {
-          "time": "16:00",
-          "desc": "🛁 酒店SPA或花園放鬆 · Relax at hotel spa or garden"
+          "time": "16:30",
+          "desc": "🏨 返回東京車站取行李 · 前往Andaz Tokyo入住"
+        },
+        {
+          "time": "17:30",
+          "desc": "🏨 入住安達仕東京 · 天際線景觀房 · 欣賞東京鐵塔"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 晚餐：Le Grenier à Pain（蒙馬特小餐館）· 法式洋蔥湯、油封鴨 · Dinner at Le Grenier à Pain – French onion soup, duck confit"
+          "desc": "🥩 晚餐：Yakiniku Jumbo Hanare 西麻布 · 極上和牛燒肉 · 必點特選拼盤"
+        },
+        {
+          "time": "21:30",
+          "desc": "🍸 飯店頂樓酒吧Andaz Tavern · 夜景小酌"
         }
       ]
     },
     {
       "day": 4,
-      "date": "May 18 · Sun",
-      "label_zh": "凡爾賽宮日",
-      "hotel_name": "Hôtel Particulier Montmartre",
-      "hotel_name_zh": "蒙馬特私密精品酒店 · 奢華花園套房",
-      "hotel_room": "奢華花園套房",
-      "weather": "☀️ 22°/14°",
-      "rain_pct": "5%",
+      "date": "May 18 · Mon",
+      "label_zh": "明治神宮 · 表參道 · 浪漫晚餐",
+      "hotel_name": "Andaz Tokyo Toranomon Hills",
+      "hotel_name_zh": "安達仕東京虎之門之丘 · 天際線景觀雙人房",
+      "hotel_room": "天際線景觀雙人房",
+      "weather": "🌤️ 22°/15°",
+      "rain_pct": "15%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🥐 酒店歐陸早餐 · Hotel continental breakfast"
-        },
-        {
           "time": "08:30",
-          "desc": "🚇 地鐵至 Gare Montparnasse 轉 RER C · Metro to Gare Montparnasse, then RER C to Versailles"
+          "desc": "🍳 飯店早餐 · 品嚐日式與西式料理"
         },
         {
-          "time": "09:45",
-          "desc": "🏰 凡爾賽宮（預約 €21.5/人）· 鏡廳、花園 · Palace of Versailles (pre-book €21.5/pp) – Hall of Mirrors, gardens"
+          "time": "10:00",
+          "desc": "🌳 明治神宮 · 參拜並漫步森林小徑"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 午餐：凡爾賽市場野餐（自購麵包、起司、酒）· Picnic from Versailles market – bread, cheese, wine"
+          "time": "11:30",
+          "desc": "🛍️ 表參道逛街 · 旗艦店與設計師品牌"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍝 午餐：表參道「Bills」· 招牌鬆餅與早午餐"
         },
         {
           "time": "14:30",
-          "desc": "🌳 凡爾賽花園散步 · 大運河 · Stroll in Versailles gardens, Grand Canal"
+          "desc": "🎨 根津美術館（門票¥1,300/人）· 日式庭園"
         },
         {
-          "time": "17:00",
-          "desc": "🚇 返回巴黎 · 回酒店休息 · Return to Paris, rest at hotel"
+          "time": "16:00",
+          "desc": "🚶 散步至六本木 · 東京中城購物"
+        },
+        {
+          "time": "18:00",
+          "desc": "🥢 晚餐：Ushigoro S. Ginza 再次光顧或試試「今井屋」燒鳥"
         },
         {
           "time": "20:00",
-          "desc": "🍽️ 晚餐：Bouillon Pigalle（傳統法式食堂）· 焗蝸牛、紅酒燉牛肉 · Dinner at Bouillon Pigalle – escargot, beef bourguignon"
+          "desc": "🗼 東京鐵塔夜景 · 從飯店步行即可"
+        },
+        {
+          "time": "21:30",
+          "desc": "🛁 飯店SPA或泳池 · 浪漫夜晚"
         }
       ]
     },
     {
       "day": 5,
-      "date": "May 19 · Mon",
-      "label_zh": "最後探索日",
-      "hotel_name": "Hôtel Particulier Montmartre",
-      "hotel_name_zh": "蒙馬特私密精品酒店 · 奢華花園套房",
-      "hotel_room": "奢華花園套房",
-      "weather": "⛅ 20°/12°",
-      "rain_pct": "20%",
+      "date": "May 19 · Tue",
+      "label_zh": "自由之丘 · 返回台灣",
+      "hotel_name": "Andaz Tokyo Toranomon Hills",
+      "hotel_name_zh": "安達仕東京虎之門之丘 · 天際線景觀雙人房",
+      "hotel_room": "天際線景觀雙人房",
+      "weather": "☀️ 25°/17°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 酒店早餐 · Hotel breakfast"
+          "desc": "🍳 飯店早餐 · 退房並寄放行李"
         },
         {
           "time": "09:30",
-          "desc": "🛍️ 瑪黑區購物 · 精品店、古董店 · Le Marais shopping – boutiques, antique shops"
+          "desc": "🚇 前往自由之丘 · 雜貨與甜點之旅"
+        },
+        {
+          "time": "10:30",
+          "desc": "🍰 自由之丘「Mont St. Clair」· 法式甜點"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 午餐：L'As du Fallafel（瑪黑區）· 中東口袋餅 · Lunch at L'As du Fallafel – falafel pita"
+          "desc": "🍜 午餐：自由之丘「蔦」拉麵 · 米其林推薦"
         },
         {
-          "time": "14:00",
-          "desc": "🎨 龐畢度中心（預約 €15/人）· 現代藝術 · Centre Pompidou (pre-book €15/pp) – modern art"
+          "time": "13:30",
+          "desc": "🛍️ 最後購物 · 藥妝、伴手禮"
         },
         {
-          "time": "16:30",
-          "desc": "🍰 甜點：Pierre Hermé 馬卡龍 · 品嚐 Ispahan · Dessert at Pierre Hermé – macarons, Ispahan"
+          "time": "15:00",
+          "desc": "🏨 返回飯店取行李 · 前往成田機場"
         },
         {
-          "time": "18:00",
-          "desc": "🏨 回酒店取行李 · Return to hotel for luggage"
+          "time": "16:00",
+          "desc": "🚄 搭乘N'EX至成田機場"
         },
         {
-          "time": "19:30",
-          "desc": "🚇 搭乘 RER B 前往 CDG 機場 · Take RER B to CDG airport"
+          "time": "17:45",
+          "desc": "✈️ 成田出發CI105 · 預計20:35抵達桃園"
         },
         {
-          "time": "21:00",
-          "desc": "✈️ 抵達機場 · 辦理登機與退稅 · Arrive at airport, check-in and tax refund"
+          "time": "20:35",
+          "desc": "🛬 抵達台灣 · 結束浪漫東京之旅"
         }
       ]
     }
@@ -440,101 +504,101 @@
   "costs": [
     {
       "label": "✈️ 來回機票",
-      "amount_ntd": 38000
+      "amount_ntd": 26000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 87000
+      "amount_ntd": 78000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 20000
+      "amount_ntd": 22000
     },
     {
       "label": "🎫 景點門票",
-      "amount_ntd": 12500
+      "amount_ntd": 8000
     },
     {
       "label": "🚇 交通",
-      "amount_ntd": 5000
+      "amount_ntd": 10000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 8000
+      "amount_ntd": 6000
     }
   ],
-  "cost_total_ntd": 148500,
-  "budget_remaining_ntd": 1500,
+  "cost_total_ntd": 150000,
+  "budget_remaining_ntd": 0,
   "photos": {
     "hero": [
       {
-        "url": "https://images.unsplash.com/photo-1770823276212-1567563db64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyQyUyMEZyYW5jZSUyMGxhbmRtYXJrJTIwc2t5bGluZSUyMGJlYXV0aWZ1bHxlbnwwfDB8fHwxNzc4NDI0OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower silhouette against a vibrant sunset sky."
+        "url": "https://images.unsplash.com/photo-1766582931871-273cb8232c8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyQyUyMEphcGFuJTIwbGFuZG1hcmslMjBza3lsaW5lJTIwYmVhdXRpZnVsfGVufDB8MHx8fDE3Nzg0MjgyOTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Illuminated bridge over water at night"
       },
       {
-        "url": "https://images.unsplash.com/photo-1769374343053-9a7a3a6d0c6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyQyUyMEZyYW5jZSUyMGxhbmRtYXJrJTIwc2t5bGluZSUyMGJlYXV0aWZ1bHxlbnwwfDB8fHwxNzc4NDI0OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower silhouette at dusk over the seine river."
+        "url": "https://images.unsplash.com/photo-1766582931801-dab5686e6a82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyQyUyMEphcGFuJTIwbGFuZG1hcmslMjBza3lsaW5lJTIwYmVhdXRpZnVsfGVufDB8MHx8fDE3Nzg0MjgyOTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Illuminated suspension bridge at night with city lights."
       },
       {
-        "url": "https://images.unsplash.com/photo-1770823276212-1567563db64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyQyUyMEZyYW5jZSUyMGxhbmRtYXJrJTIwc2t5bGluZSUyMGJlYXV0aWZ1bHxlbnwwfDB8fHwxNzc4NDI0OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower silhouette against a vibrant sunset sky."
+        "url": "https://images.unsplash.com/photo-1766582931871-273cb8232c8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyQyUyMEphcGFuJTIwbGFuZG1hcmslMjBza3lsaW5lJTIwYmVhdXRpZnVsfGVufDB8MHx8fDE3Nzg0MjgyOTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Illuminated bridge over water at night"
       },
       {
-        "url": "https://images.unsplash.com/photo-1769374343053-9a7a3a6d0c6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyQyUyMEZyYW5jZSUyMGxhbmRtYXJrJTIwc2t5bGluZSUyMGJlYXV0aWZ1bHxlbnwwfDB8fHwxNzc4NDI0OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower silhouette at dusk over the seine river."
+        "url": "https://images.unsplash.com/photo-1766582931801-dab5686e6a82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyQyUyMEphcGFuJTIwbGFuZG1hcmslMjBza3lsaW5lJTIwYmVhdXRpZnVsfGVufDB8MHx8fDE3Nzg0MjgyOTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Illuminated suspension bridge at night with city lights."
       }
     ],
     "destination": [
       {
-        "url": "https://images.unsplash.com/photo-1774877759066-5347117c3161?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Sunset over city buildings with a soft pink sky"
+        "url": "https://images.unsplash.com/photo-1766582931871-273cb8232c8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Illuminated bridge over water at night"
       },
       {
-        "url": "https://images.unsplash.com/photo-1770823276212-1567563db64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower silhouette against a vibrant sunset sky."
+        "url": "https://images.unsplash.com/photo-1766582931801-dab5686e6a82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Illuminated suspension bridge at night with city lights."
       },
       {
-        "url": "https://images.unsplash.com/photo-1768245076659-d3dafb1c8466?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower visible over parisian rooftops under blue sky"
+        "url": "https://images.unsplash.com/photo-1774711141002-c4c07c186366?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Pink cherry blossoms frame a red building entrance."
       },
       {
-        "url": "https://images.unsplash.com/photo-1769374343053-9a7a3a6d0c6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower silhouette at dusk over the seine river."
+        "url": "https://images.unsplash.com/photo-1775572272680-28268648e764?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cherry blossom trees line a suburban street in bloom."
       },
       {
-        "url": "https://images.unsplash.com/photo-1758648998075-35a07a4865c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower seen through green trees under blue sky."
+        "url": "https://images.unsplash.com/photo-1763469030014-b3cb4ec1633d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "City street at night with illuminated tokyo tower."
       },
       {
-        "url": "https://images.unsplash.com/photo-1772488572407-aa451dc596cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower and seine river with a boat"
+        "url": "https://images.unsplash.com/photo-1766867484087-76b2da4788a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "City skyline with tall illuminated tower at dusk"
       },
       {
-        "url": "https://images.unsplash.com/photo-1774877759066-5347117c3161?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Sunset over city buildings with a soft pink sky"
+        "url": "https://images.unsplash.com/photo-1766582931871-273cb8232c8d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Illuminated bridge over water at night"
       },
       {
-        "url": "https://images.unsplash.com/photo-1770823276212-1567563db64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower silhouette against a vibrant sunset sky."
+        "url": "https://images.unsplash.com/photo-1766582931801-dab5686e6a82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Illuminated suspension bridge at night with city lights."
       },
       {
-        "url": "https://images.unsplash.com/photo-1768245076659-d3dafb1c8466?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower visible over parisian rooftops under blue sky"
+        "url": "https://images.unsplash.com/photo-1774711141002-c4c07c186366?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Pink cherry blossoms frame a red building entrance."
       },
       {
-        "url": "https://images.unsplash.com/photo-1769374343053-9a7a3a6d0c6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower silhouette at dusk over the seine river."
+        "url": "https://images.unsplash.com/photo-1775572272680-28268648e764?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cherry blossom trees line a suburban street in bloom."
       },
       {
-        "url": "https://images.unsplash.com/photo-1758648998075-35a07a4865c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower seen through green trees under blue sky."
+        "url": "https://images.unsplash.com/photo-1763469030014-b3cb4ec1633d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "City street at night with illuminated tokyo tower."
       },
       {
-        "url": "https://images.unsplash.com/photo-1772488572407-aa451dc596cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel tower and seine river with a boat"
+        "url": "https://images.unsplash.com/photo-1766867484087-76b2da4788a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDI4MjkxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "City skyline with tall illuminated tower at dusk"
       }
     ]
   },
-  "chat_hash": "ea8af2591cf9683136e511a929ebd22b85c462e6eb699422b58ad7b33ba60368",
-  "generated_at": "2026-05-10T23:40:05.505168"
+  "chat_hash": "40e56103a6244fff6248580bf8aaf2d655c01f82848413268a2757d3a4156dab",
+  "generated_at": "2026-05-10T23:51:35.990128"
 }
