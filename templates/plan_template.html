@@ -140,7 +140,7 @@
             <div class="zh-name">{{ r.name_zh }}{% if r.stars %} · {{ r.stars }}{% endif %}</div>
             <div class="dish">{{ r.dish }}</div>
             <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
-              📍 {{ r.address }}<br>
+              📍 <a href="https://www.google.com/maps/search/?api=1&query={{ r.name | urlencode }}+{{ r.address | urlencode }}" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">{{ r.address }}</a><br>
               💰 {{ r.price_label }}<br>
               🕐 {{ r.hours }}
             </div>

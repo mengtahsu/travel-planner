@@ -20,8 +20,15 @@ PLANS_DIR = ROOT / "data" / "plans"
 TEMPLATES_DIR = ROOT / "templates"
 OUTPUT_HTML = ROOT / "index.html"
 
-DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
-UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
+def _load_key(filename, env_name):
+    """Load API key from file, then env var, in that order."""
+    key_file = ROOT / filename
+    if key_file.exists():
+        return key_file.read_text(encoding="utf-8").strip()
+    return os.environ.get(env_name, "")
+
+DEEPSEEK_API_KEY = _load_key("deep_seek_api_key.txt", "DEEPSEEK_API_KEY")
+UNSPLASH_ACCESS_KEY = _load_key("unsplash_access_key.txt", "UNSPLASH_ACCESS_KEY")
 
 
 # ═══════════════════════════════════════════════════════════════
