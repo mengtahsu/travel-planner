@@ -118,7 +118,7 @@
   <div class="full-card">
     <div class="full-card-header">
       <h2>🍽️ 美食 Dining</h2>
-      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">{{ plan.days }}天 · {% set total_restaurants = plan.restaurants.values() | sum(attribute='length') if plan.restaurants.values() is iterable else 0 %}{{ plan.restaurants.fine_dining|length + plan.restaurants.bistros|length + plan.restaurants.cafes|length }} 間餐廳 · 預算 NT${{ plan.costs | selectattr('label', 'search', '餐飲') | map(attribute='amount_ntd') | sum | format_number if plan.costs else '20,000' }}</span>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">{{ plan.days }}天 · {{ plan.restaurants.fine_dining|length + plan.restaurants.bistros|length + plan.restaurants.cafes|length }} 間餐廳 · NT${{ (plan.costs | selectattr('label', 'in', '餐飲') | map(attribute='amount_ntd') | sum) if plan.costs else '20,000' }}</span>
     </div>
 
     {% set categories = {
