@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Log 日誌 — Travel Planner</title>
+<link rel="stylesheet" href="templates/shared.css">
+</head>
+<body>
+<nav>
+  <a href="index.html">Today 今日</a>
+  <a href="settings.html">Settings 設定</a>
+  <a href="log.html" class="active">Log 日誌</a>
+  <a href="chat.html">Chat 聊聊</a>
+</nav>
+
+<div class="container">
+  <h2 class="section-title">📋 研究日誌 Log</h2>
+  <p class="section-sub">查看每日 AI 生成進度與過往計畫記錄。</p>
+  <div id="log-entries"></div>
+</div>
+
+<script src="templates/shared.js"></script>
+<script>
+async function loadLogs() {
+  const container = document.getElementById('log-entries');
+  const today = new Date();
+  let found = false;
+
+  for(let i = 0; i < 30; i++) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - i);
+    const key = d.toISOString().split('T')[0];
+    try {
+      const resp = await fetch(`/data/plans/${key}.json`);
+      if(!resp.ok) continue;
+      const plan = await resp.json();
+      found = true;
+
+      const hasChat = plan.chat_hash && plan.chat_hash.length > 0 && plan.chat_hash !== '';
+      const statusClass = hasChat ? 'chatting' : 'generated';
+      const statusText = hasChat ? '聊天修改' : '已生成';
+
+      const entry = document.createElement('div');
+      entry.className = 'log-entry';
+      entry.innerHTML = `
+        <span class="log-date">${key}</span>
+        <span class="log-status ${statusClass}">${statusText}</span>
+        <p style="margin-top:0.4rem;font-size:0.85rem;">
+          ✨ 生成 ${plan.days || '?'} 天 ${plan.destination_en || ''} 計畫
+          · 花費 NT$${(plan.cost_total_ntd || 0).toLocaleString()}/${(plan.budget_ntd || 0).toLocaleString()}
+          · ${plan.flight?.airline || ''}
+          · ${(plan.hotels || []).length} 間飯店
+        </p>
+      `;
+      container.appendChild(entry);
+    } catch(e) {
+      // Skip missing/corrupt files
+    }
+  }
+
+  if(!found) {
+    container.innerHTML = '<p style="color:var(--warm-gray);font-family:\'Noto Serif TC\',serif;">尚無紀錄。等待首次生成...</p>';
+  }
+}
+
+loadLogs();
+</script>
+</body>
+</html>

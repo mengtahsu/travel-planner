@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Chat 聊聊 — Travel Planner</title>
+<link rel="stylesheet" href="templates/shared.css">
+</head>
+<body>
+<nav>
+  <a href="index.html">Today 今日</a>
+  <a href="settings.html">Settings 設定</a>
+  <a href="log.html">Log 日誌</a>
+  <a href="chat.html" class="active">Chat 聊聊</a>
+</nav>
+
+<div class="container">
+  <h2 class="section-title">💬 聊聊 Chat</h2>
+  <p class="section-sub">你在這裡寫下的修改建議，將在<strong>下一個整點</strong>自動套用，重新生成主頁。</p>
+  <div class="chat-box">
+    <div class="chat-date-label" id="date-label">📅 編輯計畫：...</div>
+    <div style="background:rgba(201,168,76,0.08);border-radius:8px;padding:0.75rem 1rem;margin-bottom:1rem;font-size:0.85rem;line-height:1.6;">
+      ⏱️ <strong>每小時自動檢查</strong>：若你修改了此內容並儲存，系統將在下一個整點（如 15:00、16:00...）自動重新生成主頁。<br>
+      🏆 <strong>優先級</strong>：Chat 永遠優先於 Settings · 你在這裡寫的一切都會覆蓋設定頁的預設值。<br>
+      🛡️ <strong>無修改不觸發</strong>：若內容未變，保留原計畫不動，不消耗 AI 額度。
+    </div>
+    <textarea id="chat-text" placeholder="跟 AI 說說你想怎麼改這份計畫...
+
+例如：
+- 前 3 天住 Le Narcisse Blanc，後 2 天換到香格里拉
+- 第三天下午加一場 SPA
+- 羅浮宮改去奧賽美術館
+- 晚餐都要燭光晚餐，越浪漫越好
+- 餐飲預算調高到 NT$ 25,000，購物調低
+- 多安排甜點店跟咖啡館
+- 第四天晚餐要在可以看到鐵塔的屋頂餐廳
+
+你寫的內容會完整保留，AI 一次處理所有建議。（上限 2000 字）"></textarea>
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-top:0.5rem;flex-wrap:wrap;gap:0.5rem;">
+      <p class="chat-hint" style="margin-top:0;">✏️ 隨時回來編輯 · 下個整點自動套用 · 無修改不觸發 · 上限 2000 字</p>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--gold);" id="next-check">下次檢查：...</span>
+    </div>
+    <button class="save-btn" style="margin-top:0.75rem;" onclick="saveChat()">💾 儲存修改 Save Notes</button>
+  </div>
+</div>
+
+<script src="templates/shared.js"></script>
+<script>
+const REPO = 'mengtahsu/travel-planner';
+
+function getTodayKey() {
+  return new Date().toISOString().split('T')[0];
+}
+
+function getNextHour() {
+  const now = new Date();
+  now.setHours(now.getHours() + 1, 0, 0, 0);
+  return now.toTimeString().slice(0,5);
+}
+
+async function loadChat() {
+  const key = getTodayKey();
+  document.getElementById('date-label').textContent = `📅 編輯計畫：${key}`;
+  document.getElementById('next-check').textContent = `下次檢查：${getNextHour()}`;
+
+  try {
+    const resp = await fetch(`/data/chat/${key}.txt`);
+    if(resp.ok) {
+      const text = await resp.text();
+      document.getElementById('chat-text').value = text;
+    }
+  } catch(e) {
+    // No chat yet
+  }
+}
+
+async function saveChat() {
+  const key = getTodayKey();
+  const text = document.getElementById('chat-text').value;
+  const token = localStorage.getItem('github_chat_token');
+  if(!token) { alert('請先在 Settings 頁面設定 Chat Token'); return; }
+
+  const content = btoa(unescape(encodeURIComponent(text)));
+
+  let sha = '';
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/data/chat/${key}.txt`, {
+      headers: { 'Authorization': `Bearer ${token}` }
+    });
+    if(resp.ok) { const data = await resp.json(); sha = data.sha || ''; }
+  } catch(e) {}
+
+  const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/data/chat/${key}.txt`, {
+    method: 'PUT',
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      message: `Update chat notes for ${key}`,
+      content: content,
+      sha: sha
+    })
+  });
+
+  if(resp.ok) {
+    alert('✅ 已儲存！將在 ' + getNextHour() + ' 自動套用修改。');
+  } else {
+    const err = await resp.json();
+    alert('❌ 儲存失敗：' + err.message);
+  }
+}
+
+loadChat();
+</script>
+</body>
+</html>

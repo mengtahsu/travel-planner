@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Settings 設定 — Travel Planner</title>
+<link rel="stylesheet" href="templates/shared.css">
+</head>
+<body>
+<nav>
+  <a href="index.html">Today 今日</a>
+  <a href="settings.html" class="active">Settings 設定</a>
+  <a href="log.html">Log 日誌</a>
+  <a href="chat.html">Chat 聊聊</a>
+</nav>
+
+<div class="container">
+  <h2 class="section-title">⚙️ 設定 Settings</h2>
+  <p class="section-sub">修改設定後，將在下一個整點檢查時生效。</p>
+  <div class="settings-grid">
+    <div class="setting-group">
+      <label>Year 年份</label>
+      <select id="year"><option>2026</option><option>2027</option></select>
+    </div>
+    <div class="setting-group">
+      <label>Month 月份</label>
+      <select id="month">
+        <option value="1">一月 January</option>
+        <option value="2">二月 February</option>
+        <option value="3">三月 March</option>
+        <option value="4">四月 April</option>
+        <option value="5" selected>五月 May</option>
+        <option value="6">六月 June</option>
+        <option value="7">七月 July</option>
+        <option value="8">八月 August</option>
+        <option value="9">九月 September</option>
+        <option value="10">十月 October</option>
+        <option value="11">十一月 November</option>
+        <option value="12">十二月 December</option>
+      </select>
+    </div>
+    <div class="setting-group">
+      <label>Travelers 旅客人數</label>
+      <select id="travelers">
+        <option value="1">1 人</option><option value="2" selected>2 人</option>
+        <option value="3">3 人</option><option value="4">4 人</option>
+        <option value="5">5 人</option><option value="6">6 人以上</option>
+      </select>
+    </div>
+    <div class="setting-group">
+      <label>Trip Length 天數</label>
+      <select id="days">
+        <option value="3">3 天</option><option value="4">4 天</option>
+        <option value="5" selected>5 天</option><option value="6">6 天</option>
+        <option value="7">7 天</option><option value="9">8–10 天</option>
+        <option value="12">11–14 天</option><option value="17">15–20 天</option>
+      </select>
+    </div>
+    <div class="setting-group">
+      <label>Budget 預算 (NTD 新台幣)</label>
+      <input type="number" id="budget_ntd" value="150000" placeholder="例如 150000">
+      <div class="zh-label">預設幣別：新台幣 NTD</div>
+    </div>
+    <div class="setting-group">
+      <label>目的地 Destination（留空 = AI 推薦）</label>
+      <input type="text" id="destination" placeholder="例如：Japan · Korea · 留空讓 AI 幫你選">
+      <div class="zh-label">可填國家、城市、或留白</div>
+    </div>
+    <div class="setting-group">
+      <label>出發地 Departure City</label>
+      <input type="text" id="departure" value="Taiwan 台灣 (TPE)">
+      <div class="zh-label">預設：台灣 Taiwan（桃園 TPE）</div>
+    </div>
+    <div class="setting-group">
+      <label>Chat Token（網頁寫回用）</label>
+      <input type="password" id="chat_token" placeholder="Fine-grained GitHub token">
+      <div class="zh-label">僅需 data/chat/ 目錄寫入權限的精細令牌</div>
+    </div>
+  </div>
+  <button class="save-btn" onclick="saveSettings()">💾 儲存設定 Save Settings</button>
+  <p style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.6rem;font-family:'Noto Serif TC',sans-serif;">
+    設定儲存至 config/settings.json，下個整點檢查時自動套用生效。
+  </p>
+</div>
+
+<script src="templates/shared.js"></script>
+<script>
+const REPO = 'mengtahsu/travel-planner';
+
+async function loadSettings() {
+  try {
+    const resp = await fetch('/config/settings.json');
+    if(!resp.ok) return;
+    const data = await resp.json();
+    document.getElementById('year').value = data.year || 2026;
+    document.getElementById('month').value = data.month || 5;
+    document.getElementById('travelers').value = data.travelers || 2;
+    document.getElementById('days').value = data.days || 5;
+    document.getElementById('budget_ntd').value = data.budget_ntd || 150000;
+    document.getElementById('destination').value = data.destination || '';
+    document.getElementById('departure').value = data.departure || 'Taiwan 台灣 (TPE)';
+    document.getElementById('chat_token').value = localStorage.getItem('github_chat_token') || '';
+  } catch(e) {
+    console.error('Failed to load settings:', e);
+  }
+}
+
+async function saveSettings() {
+  const settings = {
+    year: parseInt(document.getElementById('year').value),
+    month: parseInt(document.getElementById('month').value),
+    travelers: parseInt(document.getElementById('travelers').value),
+    days: parseInt(document.getElementById('days').value),
+    budget_ntd: parseInt(document.getElementById('budget_ntd').value),
+    destination: document.getElementById('destination').value,
+    departure: document.getElementById('departure').value,
+    chat_token: document.getElementById('chat_token').value
+  };
+
+  if(settings.chat_token) {
+    localStorage.setItem('github_chat_token', settings.chat_token);
+  }
+
+  const token = settings.chat_token || localStorage.getItem('github_chat_token');
+  if(!token) { alert('請先輸入 Chat Token'); return; }
+
+  const json = JSON.stringify(settings, null, 2);
+  const content = btoa(unescape(encodeURIComponent(json)));
+
+  let sha = '';
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
+      headers: { 'Authorization': `Bearer ${token}` }
+    });
+    if(resp.ok) { const data = await resp.json(); sha = data.sha || ''; }
+  } catch(e) {}
+
+  const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
+    method: 'PUT',
+    headers: {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      message: 'Update settings from web',
+      content: content,
+      sha: sha
+    })
+  });
+
+  if(resp.ok) {
+    alert('✅ 設定已儲存！將在下個整點生效。');
+  } else {
+    const err = await resp.json();
+    alert('❌ 儲存失敗：' + err.message);
+  }
+}
+
+loadSettings();
+</script>
+</body>
+</html>
