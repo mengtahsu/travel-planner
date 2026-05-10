@@ -99,6 +99,7 @@ async function loadSettings() {
     document.getElementById('budget_ntd').value = data.budget_ntd || 150000;
     document.getElementById('destination').value = data.destination || '';
     document.getElementById('departure').value = data.departure || 'Taiwan 台灣 (TPE)';
+    // Token only from localStorage, never from repo
     document.getElementById('chat_token').value = localStorage.getItem('github_chat_token') || '';
   } catch(e) {
     console.error('Failed to load settings:', e);
@@ -123,7 +124,7 @@ async function saveSettings() {
     chat_token: document.getElementById('chat_token').value
   };
 
-  // Always save token to localStorage
+  // Always save token to localStorage FIRST
   if(settings.chat_token) {
     localStorage.setItem('github_chat_token', settings.chat_token);
   }
@@ -131,7 +132,8 @@ async function saveSettings() {
   const token = settings.chat_token || localStorage.getItem('github_chat_token');
   if(!token) { alert('請先輸入 Chat Token'); return; }
 
-  // Try to save settings to GitHub, but token in localStorage is what matters
+  // Remove token from settings before committing — NEVER push secrets to repo
+  delete settings.chat_token;
   const json = JSON.stringify(settings, null, 2);
   const content = toBase64(json);
 
