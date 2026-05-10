@@ -295,14 +295,26 @@ def resolve_all_photos(plan):
         "destination": search_unsplash(f"{dest} travel beautiful scenery", 6),
     }
 
+    dest = plan.get("destination_en", "travel").split(",")[0].strip()
     for hotel in plan.get("hotels", []):
-        query = hotel.get("search_query", hotel["name"])
-        hotel["photos"] = search_unsplash(f"{query} hotel room pool lobby", 6)
+        # Use generic terms — specific hotel names rarely exist on Unsplash
+        stars = hotel.get("stars", "").count("★")
+        if stars >= 5:
+            query = f"luxury 5 star hotel {dest} room suite spa"
+        elif stars >= 4:
+            query = f"boutique hotel {dest} room pool"
+        else:
+            query = f"hotel {dest} room"
+        hotel["photos"] = search_unsplash(query, 6)
 
     for category in ["fine_dining", "bistros", "cafes"]:
         for rest in plan.get("restaurants", {}).get(category, []):
-            query = rest.get("search_query", rest["name"])
-            rest["photos"] = search_unsplash(f"{query} dish interior", 3)
+            rest_name = rest.get("name", "")
+            if category == "cafes":
+                query = f"{rest_name} cafe coffee {dest} dessert"
+            else:
+                query = f"{rest_name} restaurant {dest} food dish"
+            rest["photos"] = search_unsplash(query, 3)
 
     return plan
 
