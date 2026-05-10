@@ -1,0 +1,715 @@
+{
+  "destination_en": "Paris, France",
+  "title_zh": "五月巴黎 · 浪漫五天之旅",
+  "date_range": "2026/05/15–05/20",
+  "start_date": "2026-05-15",
+  "end_date": "2026-05-20",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "CDG",
+  "travelers": 2,
+  "days": 5,
+  "budget_ntd": 150000,
+  "flight": {
+    "airline": "長榮航空 EVA Air",
+    "departure_date": "5月15日",
+    "return_date": "5月20日",
+    "total_price_ntd": 38000,
+    "outbound": {
+      "flight_no": "BR 87",
+      "route": "TPE → CDG 直飛",
+      "depart_time": "23:40",
+      "arrive_time": "07:30 (+1)",
+      "duration": "13h 50m",
+      "class": "經濟艙"
+    },
+    "inbound": {
+      "flight_no": "BR 88",
+      "route": "CDG → TPE 直飛",
+      "depart_time": "11:20",
+      "arrive_time": "06:30 (+1)",
+      "duration": "13h 10m",
+      "class": "經濟艙"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Hôtel Le Narcisse Blanc & Spa",
+      "name_zh": "水仙花白酒店",
+      "district": "巴黎 6 區",
+      "day_range": "1–3",
+      "nights": 3,
+      "price_ntd": 39000,
+      "stars": "★★★★☆",
+      "room_type": "經典豪華雙人房",
+      "breakfast": "含法式早餐",
+      "amenities": "🏊 室內泳池 · 💆 SPA & 土耳其浴 · 🍽️ 庭院餐廳 · 🌿 私密花園",
+      "search_query": "Hôtel Le Narcisse Blanc Paris France",
+      "photos": [
+        {
+          "url": "",
+          "label": "boutique Hôtel Paris hotel room"
+        },
+        {
+          "url": "",
+          "label": "boutique Hôtel Paris hotel room"
+        },
+        {
+          "url": "",
+          "label": "boutique Hôtel Paris hotel room"
+        },
+        {
+          "url": "",
+          "label": "boutique Hôtel Paris hotel room"
+        },
+        {
+          "url": "",
+          "label": "boutique Hôtel Paris hotel room"
+        },
+        {
+          "url": "",
+          "label": "boutique Hôtel Paris hotel room"
+        }
+      ]
+    },
+    {
+      "name": "Le Pavillon de la Reine",
+      "name_zh": "皇后亭酒店",
+      "district": "巴黎 3 區 (瑪黑區)",
+      "day_range": "3–5",
+      "nights": 2,
+      "price_ntd": 48000,
+      "stars": "★★★★★",
+      "room_type": "尊榮套房 (含露台)",
+      "breakfast": "含歐陸早餐",
+      "amenities": "🌹 私人花園 · 🧖‍♀️ SPA · 🍷 酒廊 · 🛁 獨立浴缸",
+      "search_query": "Le Pavillon de la Reine Paris Marais",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1592229505726-ca121723b8ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "person lying on bed near window"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1592229505801-77b31918d822?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "black flat screen tv on white wooden tv rack"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1700157617071-d4c8a1a84937?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a box of macaroons sitting on a table next to a vase of flowers"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1775326715346-afcb80b5bf92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Elegant parisian building with mansard roof and balconies."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1714615040970-d09686192d12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a living room filled with furniture and a large window"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1592229506151-845940174bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown and white couch beside brown wooden coffee table"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1592229505726-ca121723b8ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "person lying on bed near window"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1592229505801-77b31918d822?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "black flat screen tv on white wooden tv rack"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1700157617071-d4c8a1a84937?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a box of macaroons sitting on a table next to a vase of flowers"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1775326715346-afcb80b5bf92?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Elegant parisian building with mansard roof and balconies."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1714615040970-d09686192d12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a living room filled with furniture and a large window"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1592229506151-845940174bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBMZSUyMFBhcmlzJTIwaG90ZWwlMjBzdWl0ZSUyMHNwYXxlbnwwfDB8fHwxNzc4NDI4ODc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown and white couch beside brown wooden coffee table"
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "Le Cinq",
+        "name_zh": "四季酒店米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：龍蝦濃湯佐黑松露",
+        "address": "31 Av. George V, 8區",
+        "price_ntd": 5000,
+        "price_label": "晚餐套餐 €145/人 · NT$5,000",
+        "hours": "19:00–22:00 · 需預約",
+        "search_query": "Le Cinq restaurant Four Seasons Paris food",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "cooked food on black cooking pan"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced meat with green vegetable on white ceramic plate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319800-4f524f05436c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced tomato and green vegetable"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "cooked food on black cooking pan"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced meat with green vegetable on white ceramic plate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319800-4f524f05436c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxMZSUyMENpbnElMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODc4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced tomato and green vegetable"
+          }
+        ]
+      },
+      {
+        "name": "Restaurant Guy Savoy",
+        "name_zh": "蓋·薩瓦餐廳 · 米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🦪 招牌：生蠔佐魚子醬 · 黑松露湯",
+        "address": "11 Quai de Conti, 6區",
+        "price_ntd": 6000,
+        "price_label": "午餐套餐 €175/人 · NT$6,000",
+        "hours": "12:00–14:30 / 19:30–22:30 · 需預約",
+        "search_query": "Restaurant Guy Savoy Paris food",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4ODgwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "cooked food on black cooking pan"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4ODgwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced meat with green vegetable on white ceramic plate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1732206048727-81dd4e6e9124?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4ODgwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A white plate topped with different types of sushi"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4ODgwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "cooked food on black cooking pan"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4ODgwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced meat with green vegetable on white ceramic plate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1732206048727-81dd4e6e9124?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4ODgwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A white plate topped with different types of sushi"
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "Septime",
+        "name_zh": "新派法式小酒館 · 米其林一星",
+        "stars": "⭐",
+        "dish": "🥩 招牌：熟成肋眼牛排 · 煙燻甜菜根",
+        "address": "80 Rue de Charonne, 11區",
+        "price_ntd": 1900,
+        "price_label": "午餐套餐 €55/人 · NT$1,900",
+        "hours": "12:15–14:00 / 19:30–22:00",
+        "search_query": "Septime restaurant Paris food",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2h8ZW58MHwwfHx8MTc3ODQyODg4MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "cooked food on black cooking pan"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2h8ZW58MHwwfHx8MTc3ODQyODg4MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced meat with green vegetable on white ceramic plate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1775199903279-673b4a384833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2h8ZW58MHwwfHx8MTc3ODQyODg4MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Restaurant entrance with cars parked outside"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2h8ZW58MHwwfHx8MTc3ODQyODg4MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "cooked food on black cooking pan"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2h8ZW58MHwwfHx8MTc3ODQyODg4MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced meat with green vegetable on white ceramic plate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1775199903279-673b4a384833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZCUyMGRpc2h8ZW58MHwwfHx8MTc3ODQyODg4MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Restaurant entrance with cars parked outside"
+          }
+        ]
+      },
+      {
+        "name": "Le Comptoir du Relais",
+        "name_zh": "驛站小館 · 經典法式酒館",
+        "stars": "",
+        "dish": "🐌 招牌：蝸牛 · 油封鴨腿 · 焦糖布蕾",
+        "address": "9 Carrefour de l'Odéon, 6區",
+        "price_ntd": 2100,
+        "price_label": "兩人晚餐 €60 · NT$2,100",
+        "hours": "12:00–14:30 / 19:00–23:00",
+        "search_query": "Le Comptoir du Relais Paris food",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxMZSUyMENvbXB0b2lyJTIwZHUlMjBSZWxhaXMlMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODgyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced meat with green vegetable on white ceramic plate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxMZSUyMENvbXB0b2lyJTIwZHUlMjBSZWxhaXMlMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODgyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "cooked food on black cooking pan"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319800-4f524f05436c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxMZSUyMENvbXB0b2lyJTIwZHUlMjBSZWxhaXMlMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODgyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced tomato and green vegetable"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxMZSUyMENvbXB0b2lyJTIwZHUlMjBSZWxhaXMlMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODgyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced meat with green vegetable on white ceramic plate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxMZSUyMENvbXB0b2lyJTIwZHUlMjBSZWxhaXMlMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODgyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "cooked food on black cooking pan"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1605880319800-4f524f05436c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxMZSUyMENvbXB0b2lyJTIwZHUlMjBSZWxhaXMlMjByZXN0YXVyYW50JTIwUGFyaXMlMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4ODgyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "sliced tomato and green vegetable"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Café de Flore",
+        "name_zh": "花神咖啡館 · 1887年開業",
+        "stars": "",
+        "dish": "☕ 招牌：熱巧克力 · 可頌 · 焦糖布丁",
+        "address": "172 Bd Saint-Germain, 6區",
+        "price_ntd": 1200,
+        "price_label": "兩人早午餐 €35 · NT$1,200",
+        "hours": "07:30–01:30 · 文人雅士最愛",
+        "search_query": "Cafe de Flore Paris interior",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1688465162688-7fa894ff687c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a plate with a dessert on top of it"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1775224494317-473db86b3145?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A parisian patisserie with ornate signage"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1756890233366-ba90283e262a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "People dine outside a parisian cafe with red umbrellas."
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1688465162688-7fa894ff687c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a plate with a dessert on top of it"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1775224494317-473db86b3145?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A parisian patisserie with ornate signage"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1756890233366-ba90283e262a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "People dine outside a parisian cafe with red umbrellas."
+          }
+        ]
+      },
+      {
+        "name": "La Palette",
+        "name_zh": "調色盤咖啡館 · 藝術家聚集地",
+        "stars": "",
+        "dish": "🥐 招牌：火腿起司可頌 · 咖啡歐蕾",
+        "address": "43 Rue de Seine, 6區",
+        "price_ntd": 800,
+        "price_label": "兩人輕食 €23 · NT$800",
+        "hours": "08:00–23:00 · 露天座位",
+        "search_query": "La Palette cafe Paris",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1688465162688-7fa894ff687c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a plate with a dessert on top of it"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1775224494317-473db86b3145?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A parisian patisserie with ornate signage"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1756890233366-ba90283e262a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "People dine outside a parisian cafe with red umbrellas."
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1688465162688-7fa894ff687c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a plate with a dessert on top of it"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1775224494317-473db86b3145?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A parisian patisserie with ornate signage"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1756890233366-ba90283e262a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "People dine outside a parisian cafe with red umbrellas."
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "May 15 · Thu",
+      "label_zh": "抵達日 · 浪漫啟程",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "⛅ 18°/10°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李 · 建議購買 Navigo Découverte 週卡 (€30/人) 可搭 RER B + 地鐵"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚇 搭乘 RER B 至 Denfert-Rochereau 站，轉地鐵至 Mabillon 站 · 步行至飯店約5分鐘 · 先寄放行李"
+        },
+        {
+          "time": "10:30",
+          "desc": "🥐 Café de Flore 早午餐 · 花神經典歐蕾 + 可頌 + 焦糖布丁 · 坐在露天座位感受左岸氛圍"
+        },
+        {
+          "time": "12:30",
+          "desc": "🎨 羅浮宮 Musée du Louvre（預約票 €17/人）重點：蒙娜麗莎、維納斯雕像、勝利女神 · 建議從黎塞留館入口排隊較少"
+        },
+        {
+          "time": "15:30",
+          "desc": "🍰 羅浮宮旁 Angelina Paris 品嚐招牌 Mont-Blanc 栗子蛋糕 + 熱巧克力 (兩人約 €25)"
+        },
+        {
+          "time": "17:00",
+          "desc": "🏛️ 杜樂麗花園 Jardin des Tuileries 散步 · 坐摩天輪 (€8/人) 俯瞰巴黎"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍷 Le Comptoir du Relais 晚餐 · 建議提前一週預約 · 必點蝸牛與油封鴨腿"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 回飯店 Hôtel Le Narcisse Blanc & Spa · 使用 SPA 土耳其浴放鬆時差"
+        },
+        {
+          "time": "23:00",
+          "desc": "🛌 就寢 · 經典豪華雙人房 · 含明日早餐"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "May 16 · Fri",
+      "label_zh": "左岸文藝日",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "☀️ 20°/12°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🍳 飯店內法式早餐 · 可頌、長棍麵包、起司、咖啡 · 在庭院花園用餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🎨 奧賽博物館 Musée d'Orsay（預約票 €16/人）重點：梵谷自畫像、莫內睡蓮、雷諾瓦煎餅磨坊"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍝 午餐：Café de l'Ours（奧賽博物館內）兩人約 €35 · 推薦法式洋蔥湯"
+        },
+        {
+          "time": "13:30",
+          "desc": "⛪ 聖母院 Cathédrale Notre-Dame（免費參觀）外觀修復後更加壯麗 · 登塔需預約 (€10/人)"
+        },
+        {
+          "time": "15:00",
+          "desc": "📚 莎士比亞書店 Shakespeare and Company（免費）買本二手書作為紀念"
+        },
+        {
+          "time": "16:30",
+          "desc": "🍵 La Palette 下午茶 · 露天座位 · 火腿起司可頌 + 咖啡歐蕾"
+        },
+        {
+          "time": "18:00",
+          "desc": "🌉 聖路易島 Île Saint-Louis 散步 · 品嚐 Berthillon 冰淇淋（一球 €3）"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ Septime 晚餐 · 米其林一星套餐 · 建議提早兩個月預約 · 必點熟成牛排"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 塞納河夜遊船 Vedettes du Pont Neuf（€15/人）最後一班 22:30 · 欣賞艾菲爾鐵塔燈光秀整點閃爍"
+        },
+        {
+          "time": "23:30",
+          "desc": "🛌 回飯店 · 經典豪華雙人房 · 泡澡放鬆"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "May 17 · Sat",
+      "label_zh": "蒙馬特 & 換宿瑪黑",
+      "hotel_name": "Le Pavillon de la Reine",
+      "hotel_name_zh": "皇后亭酒店 · 尊榮套房 (含露台)",
+      "hotel_room": "尊榮套房 (含露台)",
+      "weather": "⛅ 19°/11°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🍳 飯店早餐 · 辦理退房並寄存行李於水仙花白酒店"
+        },
+        {
+          "time": "09:30",
+          "desc": "🎨 蒙馬特 Montmartre · 聖心堂 Basilique du Sacré-Cœur（免費登頂 €8/人）俯瞰巴黎全景"
+        },
+        {
+          "time": "11:00",
+          "desc": "🖼️ 達利空間 Espace Dalí（€12/人）超現實主義雕塑"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍕 午餐：Le Consulat（傳統法式小館）兩人約 €45 · 推薦油封鴨"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚶 紅磨坊 Moulin Rouge 外觀拍照 · 漫步蒙馬特葡萄園 Clos Montmartre"
+        },
+        {
+          "time": "15:30",
+          "desc": "🏨 返回水仙花白酒店取行李 · 步行至 Mabillon → 地鐵至 Hôtel de Ville → 步行至 Le Pavillon de la Reine (約20分鐘) · 辦理入住"
+        },
+        {
+          "time": "17:00",
+          "desc": "🛍️ 瑪黑區漫步 · 逛 Merci 概念店 · 買法國蕾絲內衣或香氛"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ Restaurant Guy Savoy 晚餐 · 米其林三星 · 位於鑄幣局 · 需正式服裝 · 建議預約 19:30 場次"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 回飯店 · 尊榮套房露台欣賞瑪黑區夜景 · 享用客房紅酒"
+        },
+        {
+          "time": "23:30",
+          "desc": "🛌 就寢 · 獨立浴缸泡澡"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "May 18 · Sun",
+      "label_zh": "鐵塔與奢華饗宴",
+      "hotel_name": "Le Pavillon de la Reine",
+      "hotel_name_zh": "皇后亭酒店 · 尊榮套房 (含露台)",
+      "hotel_room": "尊榮套房 (含露台)",
+      "weather": "☀️ 22°/13°",
+      "rain_pct": "0%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🍳 飯店歐陸早餐 · 起司盤、火腿、可頌、鮮榨果汁"
+        },
+        {
+          "time": "10:00",
+          "desc": "🗼 艾菲爾鐵塔 Tour Eiffel（預約票 €26/人 登頂）建議從二樓換電梯 · 拍照點：戰神廣場"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍴 午餐：Le Bistro des Augustins（傳統小館）兩人約 €50 · 推薦白酒燉雞"
+        },
+        {
+          "time": "14:30",
+          "desc": "🛍️ 香榭麗舍大道 Avenue des Champs-Élysées 逛街 · LV 總店、Cartier"
+        },
+        {
+          "time": "16:30",
+          "desc": "🏛️ 凱旋門 Arc de Triomphe（登頂 €13/人）俯瞰12條放射狀大道"
+        },
+        {
+          "time": "18:00",
+          "desc": "💆 回飯店享受 SPA · 雙人按摩 60分鐘 (€120/人) · 放鬆身心"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ Le Cinq 晚餐 · 四季酒店米其林三星 · 龍蝦濃湯佐黑松露 · 建議西裝或洋裝"
+        },
+        {
+          "time": "22:30",
+          "desc": "🌙 飯店露台飲香檳 · 瑪黑區寧靜夜色"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "May 19 · Mon",
+      "label_zh": "凡爾賽宮 & 最後巡禮",
+      "hotel_name": "Le Pavillon de la Reine",
+      "hotel_name_zh": "皇后亭酒店 · 尊榮套房 (含露台)",
+      "hotel_room": "尊榮套房 (含露台)",
+      "weather": "☀️ 21°/12°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🍳 飯店早餐 · 辦理退房並寄存行李"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚆 搭乘 RER C 至 Versailles Château Rive Gauche (約40分鐘) · 建議購買博物館通行證 €20/人"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏰 凡爾賽宮 Château de Versailles（含導覽 €20/人）鏡廳、國王大寢宮、花園"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：La Petite Venise（花園內）兩人約 €50 · 義大利麵"
+        },
+        {
+          "time": "14:30",
+          "desc": "🌳 凡爾賽花園散步 · 大運河划船 (€10/人) · 瑪麗安東尼特莊園"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚆 返回巴黎 · 最後採購：瑪黑區買馬卡龍 (Pierre Hermé) 與手工巧克力"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍝 晚餐：Bistrot Paul Bert（經典小館）兩人約 €60 · 推薦牛排薯條"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 回飯店取行李 · 搭乘 Uber 至 CDG (約 €55) · 建議21:30出發"
+        },
+        {
+          "time": "23:00",
+          "desc": "✈️ 抵達 CDG Terminal 1 · 辦理退稅 · 凌晨航班 BR 88 11:20 起飛"
+        }
+      ]
+    }
+  ],
+  "costs": [
+    {
+      "label": "✈️ 來回機票 (長榮經濟艙 x2)",
+      "amount_ntd": 38000
+    },
+    {
+      "label": "🏨 住宿 (水仙花白酒店 3晚 + 皇后亭酒店 2晚)",
+      "amount_ntd": 87000
+    },
+    {
+      "label": "🍽️ 餐飲 (含所有餐廳與咖啡館)",
+      "amount_ntd": 20000
+    },
+    {
+      "label": "🎫 景點門票 (羅浮宮、奧賽、鐵塔、凡爾賽等)",
+      "amount_ntd": 12500
+    },
+    {
+      "label": "🚇 交通 (RER、地鐵、Uber、船票)",
+      "amount_ntd": 5000
+    },
+    {
+      "label": "🛍️ 購物伴手禮 (馬卡龍、書籍、香氛)",
+      "amount_ntd": 8000
+    }
+  ],
+  "cost_total_ntd": 148500,
+  "budget_remaining_ntd": 1500,
+  "photos": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1770823276212-1567563db64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyQyUyMEZyYW5jZSUyMGxhbmRtYXJrJTIwc2t5bGluZSUyMGJlYXV0aWZ1bHxlbnwwfDB8fHwxNzc4NDI0OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower silhouette against a vibrant sunset sky."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1769374343053-9a7a3a6d0c6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyQyUyMEZyYW5jZSUyMGxhbmRtYXJrJTIwc2t5bGluZSUyMGJlYXV0aWZ1bHxlbnwwfDB8fHwxNzc4NDI0OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower silhouette at dusk over the seine river."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1770823276212-1567563db64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyQyUyMEZyYW5jZSUyMGxhbmRtYXJrJTIwc2t5bGluZSUyMGJlYXV0aWZ1bHxlbnwwfDB8fHwxNzc4NDI0OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower silhouette against a vibrant sunset sky."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1769374343053-9a7a3a6d0c6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyQyUyMEZyYW5jZSUyMGxhbmRtYXJrJTIwc2t5bGluZSUyMGJlYXV0aWZ1bHxlbnwwfDB8fHwxNzc4NDI0OTcyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower silhouette at dusk over the seine river."
+      }
+    ],
+    "destination": [
+      {
+        "url": "https://images.unsplash.com/photo-1774877759066-5347117c3161?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Sunset over city buildings with a soft pink sky"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1770823276212-1567563db64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower silhouette against a vibrant sunset sky."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1768245076659-d3dafb1c8466?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower visible over parisian rooftops under blue sky"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1769374343053-9a7a3a6d0c6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower silhouette at dusk over the seine river."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1758648998075-35a07a4865c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower seen through green trees under blue sky."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1772488572407-aa451dc596cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower and seine river with a boat"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1774877759066-5347117c3161?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Sunset over city buildings with a soft pink sky"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1770823276212-1567563db64a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower silhouette against a vibrant sunset sky."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1768245076659-d3dafb1c8466?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower visible over parisian rooftops under blue sky"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1769374343053-9a7a3a6d0c6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower silhouette at dusk over the seine river."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1758648998075-35a07a4865c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower seen through green trees under blue sky."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1772488572407-aa451dc596cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxQYXJpcyUyQyUyMEZyYW5jZSUyMHRyYXZlbCUyMGJlYXV0aWZ1bCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQyNDk3M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Eiffel tower and seine river with a boat"
+      }
+    ]
+  },
+  "chat_hash": "",
+  "generated_at": "2026-05-11T00:01:25.429459"
+}
