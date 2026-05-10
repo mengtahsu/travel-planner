@@ -47,6 +47,8 @@
 <script src="templates/shared.js"></script>
 <script>
 const REPO = 'mengtahsu/travel-planner';
+// Token embedded by generator — NO user input needed
+const EMBEDDED_TOKEN = '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';
 
 function getTodayKey() {
   return new Date().toISOString().split('T')[0];
@@ -97,9 +99,10 @@ async function saveChat() {
   // Always save to localStorage first — prevents data loss
   localStorage.setItem('chat_draft_' + key, text);
 
-  const token = localStorage.getItem('github_chat_token');
+  const token = localStorage.getItem('github_chat_token') ||
+                (EMBEDDED_TOKEN !== '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' ? EMBEDDED_TOKEN : null);
   if(!token) {
-    alert('⚠️ 已暫存到瀏覽器，但需先在 Settings 設定 Chat Token 才能寫回 GitHub。');
+    alert('⚠️ 已暫存到瀏覽器。無法同步到 GitHub（Token 未設定）。');
     return;
   }
 

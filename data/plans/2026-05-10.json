@@ -1,9 +1,9 @@
 {
   "destination_en": "Tokyo, Japan",
-  "title_zh": "五月東京 · 燒肉浪漫之旅",
-  "date_range": "2026/05/15–05/20",
+  "title_zh": "五月東京 · 浪漫燒肉之旅",
+  "date_range": "2026/05/15–05/19",
   "start_date": "2026-05-15",
-  "end_date": "2026-05-20",
+  "end_date": "2026-05-19",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
   "destination_code": "NRT",
@@ -13,101 +13,101 @@
   "flight": {
     "airline": "中華航空 China Airlines",
     "departure_date": "5月15日",
-    "return_date": "5月20日",
-    "total_price_ntd": 26000,
+    "return_date": "5月19日",
+    "total_price_ntd": 30000,
     "outbound": {
       "flight_no": "CI 100",
       "route": "TPE → NRT 直飛",
-      "depart_time": "08:55",
-      "arrive_time": "13:15",
-      "duration": "3h 20m",
+      "depart_time": "09:00",
+      "arrive_time": "13:30",
+      "duration": "3h 30m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 105",
+      "flight_no": "CI 101",
       "route": "NRT → TPE 直飛",
-      "depart_time": "17:45",
-      "arrive_time": "20:35",
-      "duration": "3h 50m",
+      "depart_time": "14:30",
+      "arrive_time": "17:30",
+      "duration": "3h 00m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "The Tokyo Station Hotel",
-      "name_zh": "東京車站飯店",
-      "district": "千代田區",
+      "name": "The Gate Hotel Tokyo by Hulic",
+      "name_zh": "東京門飯店 by Hulic",
+      "district": "千代田區 · 大手町",
       "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 42000,
-      "stars": "★★★★★",
-      "room_type": "經典雙人房",
+      "price_ntd": 48000,
+      "stars": "★★★★☆",
+      "room_type": "豪華雙人房（附東京鐵塔景）",
       "breakfast": "含日式/西式自助早餐",
-      "amenities": "🏋️ 健身房 · 🧖 大浴場 · 🍣 館內餐廳 · 🚉 直通東京車站",
-      "search_query": "The Tokyo Station Hotel Tokyo Japan",
+      "amenities": "🏙️ 頂樓觀景台 · 🛁 獨立浴缸 · 🍣 餐廳Sato · 🚇 大手町站步行3分",
+      "search_query": "The Gate Hotel Tokyo Hulic",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "url": "https://images.unsplash.com/photo-1567872722364-63eaa830e485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room with a view of the city"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1647154824240-e0aae65cddec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a building from a rooftop"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
           "label": "A bedroom with a large bed and wooden floors"
         },
         {
-          "url": "https://images.unsplash.com/photo-1688092807560-b13005bba132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "url": "https://images.unsplash.com/photo-1692852063367-1eb92038489d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room with a large glass door that has a large white object in it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1746529745120-6281edda175f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Nighttime skyline of a city with buildings."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1688092807560-b13005bba132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
           "label": "a room with large windows and a view of a city"
         },
         {
-          "url": "https://images.unsplash.com/photo-1706839638674-b15b4f0576e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at sunset from a window"
+          "url": "https://images.unsplash.com/photo-1567872722364-63eaa830e485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room with a view of the city"
         },
         {
-          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at night from the top of a building"
+          "url": "https://images.unsplash.com/photo-1647154824240-e0aae65cddec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a building from a rooftop"
         },
         {
-          "url": "https://images.unsplash.com/photo-1765297824468-c6176d6c7a8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "City skyline with skyscrapers under a cloudy sky."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1581567129473-7c57c2d885d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "people standing on white building during nighttime"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
           "label": "A bedroom with a large bed and wooden floors"
         },
         {
-          "url": "https://images.unsplash.com/photo-1688092807560-b13005bba132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "url": "https://images.unsplash.com/photo-1692852063367-1eb92038489d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room with a large glass door that has a large white object in it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1746529745120-6281edda175f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Nighttime skyline of a city with buildings."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1688092807560-b13005bba132?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxib3V0aXF1ZSUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwcG9vbHxlbnwwfDB8fHwxNzc4NDI4NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
           "label": "a room with large windows and a view of a city"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1706839638674-b15b4f0576e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at sunset from a window"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at night from the top of a building"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1765297824468-c6176d6c7a8e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "City skyline with skyscrapers under a cloudy sky."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1581567129473-7c57c2d885d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "people standing on white building during nighttime"
         }
       ]
     },
     {
-      "name": "Andaz Tokyo Toranomon Hills",
-      "name_zh": "安達仕東京虎之門之丘",
-      "district": "港區",
-      "day_range": "3–5",
+      "name": "Hoshinoya Tokyo",
+      "name_zh": "虹夕諾雅 東京",
+      "district": "中央區 · 銀座",
+      "day_range": "4–5",
       "nights": 2,
-      "price_ntd": 36000,
+      "price_ntd": 54000,
       "stars": "★★★★★",
-      "room_type": "天際線景觀雙人房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 頂樓無邊際泳池 · 🏙️ 東京鐵塔景觀 · 🍸 高空酒吧 · 🧖 SPA",
-      "search_query": "Andaz Tokyo Toranomon Hills Japan",
+      "room_type": "櫻花雙人房（附日式浴衣）",
+      "breakfast": "含日式早餐（旅籠風格）",
+      "amenities": "♨️ 屋頂露天溫泉 · 🍵 茶室 · 🥢 懷石料理晚餐 · 🚶 銀座徒步圈",
+      "search_query": "Hoshinoya Tokyo Ginza",
       "photos": [
         {
           "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjA1JTIwc3RhciUyMGhvdGVsJTIwVG9reW8lMjByb29tJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQyODI5Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
@@ -164,65 +164,77 @@
     "fine_dining": [
       {
         "name": "Yakiniku Jumbo Hanare",
-        "name_zh": "燒肉JUMB 離れ · 頂級和牛燒肉",
-        "stars": "⭐",
-        "dish": "🥩 招牌：特選和牛五種拼盤 · 幻之牛舌",
-        "address": "東京都港區西麻布2-24-14 B1F",
-        "price_ntd": 7500,
-        "price_label": "晚餐套餐 ¥18,000/人 · NT$7,500",
-        "hours": "17:00–23:00 · 需提前預約",
-        "search_query": "Yakiniku Jumbo Hanare Tokyo",
+        "name_zh": "燒肉JUMBO 離れ",
+        "stars": "⭐⭐⭐",
+        "dish": "🥩 招牌：特選和牛厚切牛舌 · 夏多布里昂牛排",
+        "address": "東京都港区六本木7-14-4",
+        "price_ntd": 12000,
+        "price_label": "晚餐套餐 ¥15,000/人 · NT$12,000（兩人）",
+        "hours": "17:00–23:00 · 需預約",
+        "search_query": "Yakiniku Jumbo Hanare Roppongi",
         "photos": [
           {
-            "url": "",
-            "label": "Yakiniku Jumbo Hanare restaurant Tokyo food dish"
+            "url": "https://images.unsplash.com/photo-1766582931794-b7bc2936ce6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4NjUyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Long table set for a meal in a restaurant"
           },
           {
-            "url": "",
-            "label": "Yakiniku Jumbo Hanare restaurant Tokyo food dish"
+            "url": "https://images.unsplash.com/photo-1584671986324-fc1ce89a5b07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4NjUyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "person holding black chopsticks with brown food"
           },
           {
-            "url": "",
-            "label": "Yakiniku Jumbo Hanare restaurant Tokyo food dish"
+            "url": "https://images.unsplash.com/photo-1602487252207-8b3678b20d51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4NjUyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white ceramic plate on brown wooden table"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1766582931794-b7bc2936ce6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4NjUyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Long table set for a meal in a restaurant"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1584671986324-fc1ce89a5b07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4NjUyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "person holding black chopsticks with brown food"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1602487252207-8b3678b20d51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDI4NjUyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white ceramic plate on brown wooden table"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Ushigoro S. Ginza",
-        "name_zh": "牛五郎 S. 銀座 · 精緻燒肉割烹",
-        "stars": "",
-        "dish": "🥢 招牌：A5黑毛和牛壽喜燒風燒肉 · 松露生拌牛肉",
-        "address": "東京都中央區銀座7-2-8 8F",
-        "price_ntd": 5000,
-        "price_label": "晚餐套餐 ¥12,000/人 · NT$5,000",
-        "hours": "17:00–23:30 · 可預約",
-        "search_query": "Ushigoro S Ginza Tokyo",
+        "name": "Yakiniku Ushigoro S. Ginza",
+        "name_zh": "燒肉うしごろ S. 銀座",
+        "stars": "⭐",
+        "dish": "🥩 招牌：究極和牛燒肉拼盤 · 松露和牛壽司",
+        "address": "東京都中央区銀座1-6-6",
+        "price_ntd": 8000,
+        "price_label": "晚餐套餐 ¥10,000/人 · NT$8,000（兩人）",
+        "hours": "17:00–23:30 · 需預約",
+        "search_query": "Yakiniku Ushigoro S Ginza",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1740895362852-8ea88c9ab65d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1740895362852-8ea88c9ab65d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxZYWtpbmlrdSUyMFVzaGlnb3JvJTIwUy4lMjBHaW56YSUyMHJlc3RhdXJhbnQlMjBUb2t5byUyMGZvb2QlMjBkaXNofGVufDB8MHx8fDE3Nzg0Mjg2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "A table topped with plates and bowls of food"
           },
           {
-            "url": "https://images.unsplash.com/photo-1584671986324-fc1ce89a5b07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "person holding black chopsticks with brown food"
+            "url": "https://images.unsplash.com/photo-1602487252207-8b3678b20d51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxZYWtpbmlrdSUyMFVzaGlnb3JvJTIwUy4lMjBHaW56YSUyMHJlc3RhdXJhbnQlMjBUb2t5byUyMGZvb2QlMjBkaXNofGVufDB8MHx8fDE3Nzg0Mjg2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white ceramic plate on brown wooden table"
           },
           {
-            "url": "https://images.unsplash.com/photo-1681519031560-f26c67891322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people sitting at tables in a restaurant"
+            "url": "https://images.unsplash.com/photo-1580679630809-03fd24148ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxZYWtpbmlrdSUyMFVzaGlnb3JvJTIwUy4lMjBHaW56YSUyMHJlc3RhdXJhbnQlMjBUb2t5byUyMGZvb2QlMjBkaXNofGVufDB8MHx8fDE3Nzg0Mjg2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "grilled meat on black tray"
           },
           {
-            "url": "https://images.unsplash.com/photo-1740895362852-8ea88c9ab65d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1740895362852-8ea88c9ab65d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxZYWtpbmlrdSUyMFVzaGlnb3JvJTIwUy4lMjBHaW56YSUyMHJlc3RhdXJhbnQlMjBUb2t5byUyMGZvb2QlMjBkaXNofGVufDB8MHx8fDE3Nzg0Mjg2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "A table topped with plates and bowls of food"
           },
           {
-            "url": "https://images.unsplash.com/photo-1584671986324-fc1ce89a5b07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "person holding black chopsticks with brown food"
+            "url": "https://images.unsplash.com/photo-1602487252207-8b3678b20d51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxZYWtpbmlrdSUyMFVzaGlnb3JvJTIwUy4lMjBHaW56YSUyMHJlc3RhdXJhbnQlMjBUb2t5byUyMGZvb2QlMjBkaXNofGVufDB8MHx8fDE3Nzg0Mjg2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white ceramic plate on brown wooden table"
           },
           {
-            "url": "https://images.unsplash.com/photo-1681519031560-f26c67891322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxVc2hpZ29ybyUyMFMuJTIwR2luemElMjByZXN0YXVyYW50JTIwVG9reW8lMjBmb29kJTIwZGlzaHxlbnwwfDB8fHwxNzc4NDI4Mjk0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people sitting at tables in a restaurant"
+            "url": "https://images.unsplash.com/photo-1580679630809-03fd24148ecf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxZYWtpbmlrdSUyMFVzaGlnb3JvJTIwUy4lMjBHaW56YSUyMHJlc3RhdXJhbnQlMjBUb2t5byUyMGZvb2QlMjBkaXNofGVufDB8MHx8fDE3Nzg0Mjg2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "grilled meat on black tray"
           }
         ]
       }
@@ -230,26 +242,38 @@
     "cafes": [
       {
         "name": "Higashiya Ginza",
-        "name_zh": "東屋銀座 · 和風甘味處",
+        "name_zh": "東屋 銀座",
         "stars": "",
-        "dish": "🍡 招牌：抹茶蕨餅 · 季節和菓子 · 煎茶",
-        "address": "東京都中央區銀座1-7-7 2F",
-        "price_ntd": 1800,
-        "price_label": "兩人下午茶 ¥4,000 · NT$1,800",
-        "hours": "11:00–19:00 · 和風靜謐空間",
-        "search_query": "Higashiya Ginza Tokyo cafe",
+        "dish": "🍵 抹茶蕨餅 · 和紅茶 · 季節和菓子",
+        "address": "東京都中央区銀座1-20-10",
+        "price_ntd": 2000,
+        "price_label": "兩人下午茶 ¥2,500 · NT$2,000",
+        "hours": "10:00–19:00 · 日式摩登茶室",
+        "search_query": "Higashiya Ginza tea house",
         "photos": [
           {
-            "url": "",
-            "label": "Higashiya Ginza cafe coffee Tokyo dessert"
+            "url": "https://images.unsplash.com/photo-1578241873976-9e4fa81ebeb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "cake on display photograph"
           },
           {
-            "url": "",
-            "label": "Higashiya Ginza cafe coffee Tokyo dessert"
+            "url": "https://images.unsplash.com/photo-1592139626163-f3cdffc6126a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "clear drinking glass with brown liquid on brown wooden table"
           },
           {
-            "url": "",
-            "label": "Higashiya Ginza cafe coffee Tokyo dessert"
+            "url": "https://images.unsplash.com/photo-1694211493881-76411bdb31ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a couple of plates of food on a table"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1578241873976-9e4fa81ebeb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "cake on display photograph"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1592139626163-f3cdffc6126a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "clear drinking glass with brown liquid on brown wooden table"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1694211493881-76411bdb31ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMGNhZmUlMjBjb2ZmZWUlMjBkZXNzZXJ0JTIwcGFzdHJ5fGVufDB8MHx8fDE3Nzg0Mjg2NTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a couple of plates of food on a table"
           }
         ]
       }
@@ -259,244 +283,204 @@
     {
       "day": 1,
       "date": "May 15 · Fri",
-      "label_zh": "抵達日 · 銀座之夜",
-      "hotel_name": "The Tokyo Station Hotel",
-      "hotel_name_zh": "東京車站飯店 · 經典雙人房",
-      "hotel_room": "經典雙人房",
-      "weather": "☀️ 24°/16°",
-      "rain_pct": "5%",
+      "label_zh": "抵達日 · 銀座漫步",
+      "hotel_name": "The Gate Hotel Tokyo by Hulic",
+      "hotel_name_zh": "東京門飯店 by Hulic",
+      "hotel_room": "豪華雙人房（東京鐵塔景）",
+      "weather": "☀️ 24°/15°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:55",
-          "desc": "✈️ 桃園機場TPE出發 · 中華航空CI100 · 預計13:15抵達成田"
+          "time": "09:00",
+          "desc": "✈️ 桃園TPE出發 · 中華航空CI100 · 09:00–13:30"
         },
         {
-          "time": "13:15",
-          "desc": "🛬 抵達成田NRT · 入境、領取行李"
+          "time": "13:30",
+          "desc": "🛬 抵達成田NRT · 搭乘N'EX往東京站（約1h）"
         },
         {
-          "time": "14:30",
-          "desc": "🚄 搭乘N'EX成田特快至東京車站（約1小時）· 建議購買Suica卡"
-        },
-        {
-          "time": "15:45",
-          "desc": "🏨 入住東京車站飯店 · 經典雙人房 · 飯店直通車站超方便"
+          "time": "15:30",
+          "desc": "🏨 入住 The Gate Hotel Tokyo · 大手町站步行3分"
         },
         {
           "time": "17:00",
-          "desc": "🚶 散步至銀座 · 感受高級購物區氛圍"
+          "desc": "🍵 Higashiya Ginza 日式茶室下午茶 · 品嚐抹茶蕨餅"
         },
         {
-          "time": "18:30",
-          "desc": "🥩 晚餐：Ushigoro S. Ginza 牛五郎 · 頂級A5和牛燒肉 · 浪漫兩人時光"
+          "time": "19:00",
+          "desc": "🥩 燒肉うしごろ S. 銀座 · 究極和牛燒肉（NT$8,000）"
         },
         {
           "time": "21:00",
-          "desc": "🌃 銀座夜景散步 · 欣賞歌舞伎座與和光鐘塔"
+          "desc": "🌃 銀座散步 · 欣賞和光百貨鐘樓夜景"
         },
         {
           "time": "22:00",
-          "desc": "🛁 返回飯店 · 享用戶內大浴場 · 放鬆入眠"
+          "desc": "🏨 返回飯店 · 頂樓觀景台小酌 · 東京鐵塔燈光"
         }
       ]
     },
     {
       "day": 2,
       "date": "May 16 · Sat",
-      "label_zh": "淺草文化 · 天空樹夜景",
-      "hotel_name": "The Tokyo Station Hotel",
-      "hotel_name_zh": "東京車站飯店 · 經典雙人房",
-      "hotel_room": "經典雙人房",
-      "weather": "☀️ 26°/18°",
-      "rain_pct": "10%",
+      "label_zh": "淺草 · 晴空塔 · 燒肉之夜",
+      "hotel_name": "The Gate Hotel Tokyo by Hulic",
+      "hotel_name_zh": "東京門飯店 by Hulic",
+      "hotel_room": "豪華雙人房（東京鐵塔景）",
+      "weather": "☀️ 25°/16°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🍳 飯店早餐 · 日式定食或自助餐"
+          "desc": "🥐 飯店早餐 · 日式/西式自助"
         },
         {
-          "time": "09:00",
-          "desc": "🚇 搭JR至淺草站 · 參觀淺草寺雷門"
-        },
-        {
-          "time": "10:00",
-          "desc": "🏮 仲見世通商店街 · 品嚐人形燒、抹茶冰淇淋"
+          "time": "09:30",
+          "desc": "⛩️ 淺草寺 · 雷門拍照 · 仲見世通買人形燒"
         },
         {
           "time": "11:30",
-          "desc": "🚢 搭乘水上巴士從淺草至台場（約50分鐘）· 浪漫河景"
+          "desc": "🍜 淺草「並木藪蕎麥」百年蕎麥麵（午餐約NT$1,200）"
         },
         {
-          "time": "12:30",
-          "desc": "🍜 台場Decks Tokyo Beach · 午餐：拉麵或壽司"
+          "time": "13:00",
+          "desc": "🗼 晴空塔展望台（預約票 ¥2,100/人 · NT$1,900）"
         },
         {
-          "time": "14:00",
-          "desc": "🎡 台場自由女神像 · 維納斯城堡購物"
+          "time": "15:30",
+          "desc": "🛍️ 東京車站一番街 · 伴手禮採購"
         },
         {
-          "time": "16:00",
-          "desc": "🚇 返回淺草 · 前往晴空塔"
-        },
-        {
-          "time": "17:30",
-          "desc": "🗼 東京晴空塔展望台（門票¥2,100/人）· 日落美景"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍛 晚餐：晴空塔內「六厘舍」沾麵或「敘敘苑」燒肉（可選）"
+          "time": "18:00",
+          "desc": "🥩 燒肉JUMBO 離れ · 特選和牛厚切牛舌（NT$12,000）"
         },
         {
           "time": "21:00",
-          "desc": "🚇 返回飯店 · 大浴場泡湯"
+          "desc": "🍸 飯店頂樓Sky Bar · 夜景約會"
         }
       ]
     },
     {
       "day": 3,
       "date": "May 17 · Sun",
-      "label_zh": "澀谷新宿 · 燒肉極致體驗",
-      "hotel_name": "Andaz Tokyo Toranomon Hills",
-      "hotel_name_zh": "安達仕東京虎之門之丘 · 天際線景觀雙人房",
-      "hotel_room": "天際線景觀雙人房",
-      "weather": "☁️ 23°/17°",
+      "label_zh": "明治神宮 · 涉谷 · 代官山",
+      "hotel_name": "The Gate Hotel Tokyo by Hulic",
+      "hotel_name_zh": "東京門飯店 by Hulic",
+      "hotel_room": "豪華雙人房（東京鐵塔景）",
+      "weather": "⛅ 23°/14°",
       "rain_pct": "20%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🍳 飯店早餐 · 退房並寄放行李"
+          "desc": "🥐 飯店早餐"
         },
         {
           "time": "09:30",
-          "desc": "🚇 前往澀谷 · 參觀新地標Shibuya Sky（門票¥1,500/人）"
+          "desc": "🌳 明治神宮 · 參拜 · 森林步道"
         },
         {
-          "time": "11:00",
-          "desc": "🐕 澀谷忠犬八公像 · 十字路口拍照"
+          "time": "11:30",
+          "desc": "🛍️ 表參道逛街 · 設計品牌與咖啡店"
         },
         {
-          "time": "12:00",
-          "desc": "🍣 午餐：澀谷「美登利壽司」· 新鮮握壽司"
-        },
-        {
-          "time": "13:30",
-          "desc": "🛍️ 新宿逛街 · 伊勢丹百貨、BEAMS"
+          "time": "13:00",
+          "desc": "🍝 代官山「IVY PLACE」義式午餐（NT$2,500）"
         },
         {
           "time": "15:00",
-          "desc": "☕ Higashiya Ginza 下午茶 · 抹茶和菓子（順路至銀座）"
+          "desc": "📚 蔦屋書店代官山 · 文青時光"
         },
         {
-          "time": "16:30",
-          "desc": "🏨 返回東京車站取行李 · 前往Andaz Tokyo入住"
-        },
-        {
-          "time": "17:30",
-          "desc": "🏨 入住安達仕東京 · 天際線景觀房 · 欣賞東京鐵塔"
+          "time": "17:00",
+          "desc": "🐶 澀谷SKY展望台 · 日落與十字路口"
         },
         {
           "time": "19:00",
-          "desc": "🥩 晚餐：Yakiniku Jumbo Hanare 西麻布 · 極上和牛燒肉 · 必點特選拼盤"
+          "desc": "🍜 涉谷「AFURI」柚子鹽拉麵（NT$800）"
         },
         {
-          "time": "21:30",
-          "desc": "🍸 飯店頂樓酒吧Andaz Tavern · 夜景小酌"
+          "time": "21:00",
+          "desc": "🏨 返回飯店 · 整理行李準備換宿"
         }
       ]
     },
     {
       "day": 4,
       "date": "May 18 · Mon",
-      "label_zh": "明治神宮 · 表參道 · 浪漫晚餐",
-      "hotel_name": "Andaz Tokyo Toranomon Hills",
-      "hotel_name_zh": "安達仕東京虎之門之丘 · 天際線景觀雙人房",
-      "hotel_room": "天際線景觀雙人房",
-      "weather": "🌤️ 22°/15°",
+      "label_zh": "換宿日 · 箱根一日遊",
+      "hotel_name": "Hoshinoya Tokyo",
+      "hotel_name_zh": "虹夕諾雅 東京",
+      "hotel_room": "櫻花雙人房（附日式浴衣）",
+      "weather": "☀️ 22°/13°",
       "rain_pct": "15%",
       "slots": [
         {
-          "time": "08:30",
-          "desc": "🍳 飯店早餐 · 品嚐日式與西式料理"
+          "time": "08:00",
+          "desc": "🏨 退房 The Gate Hotel · 行李寄放"
         },
         {
-          "time": "10:00",
-          "desc": "🌳 明治神宮 · 參拜並漫步森林小徑"
+          "time": "09:00",
+          "desc": "🚄 搭乘浪漫特快前往箱根（約1.5h）"
         },
         {
-          "time": "11:30",
-          "desc": "🛍️ 表參道逛街 · 旗艦店與設計師品牌"
+          "time": "11:00",
+          "desc": "🚢 蘆之湖海盜船 · 遠眺富士山"
         },
         {
-          "time": "13:00",
-          "desc": "🍝 午餐：表參道「Bills」· 招牌鬆餅與早午餐"
+          "time": "12:30",
+          "desc": "🍜 箱根湯本「田むら銀かつ亭」炸豬排（NT$1,500）"
         },
         {
-          "time": "14:30",
-          "desc": "🎨 根津美術館（門票¥1,300/人）· 日式庭園"
+          "time": "14:00",
+          "desc": "♨️ 箱根雕刻之森美術館（門票¥1,600/人）"
         },
         {
           "time": "16:00",
-          "desc": "🚶 散步至六本木 · 東京中城購物"
+          "desc": "🚄 返回東京 · 前往銀座"
         },
         {
           "time": "18:00",
-          "desc": "🥢 晚餐：Ushigoro S. Ginza 再次光顧或試試「今井屋」燒鳥"
+          "desc": "🏨 入住 Hoshinoya Tokyo · 屋頂溫泉放鬆"
         },
         {
           "time": "20:00",
-          "desc": "🗼 東京鐵塔夜景 · 從飯店步行即可"
-        },
-        {
-          "time": "21:30",
-          "desc": "🛁 飯店SPA或泳池 · 浪漫夜晚"
+          "desc": "🥢 飯店內懷石料理晚餐（預約制 · NT$6,000）"
         }
       ]
     },
     {
       "day": 5,
       "date": "May 19 · Tue",
-      "label_zh": "自由之丘 · 返回台灣",
-      "hotel_name": "Andaz Tokyo Toranomon Hills",
-      "hotel_name_zh": "安達仕東京虎之門之丘 · 天際線景觀雙人房",
-      "hotel_room": "天際線景觀雙人房",
-      "weather": "☀️ 25°/17°",
-      "rain_pct": "5%",
+      "label_zh": "最後巡禮 · 返國",
+      "hotel_name": "Hoshinoya Tokyo",
+      "hotel_name_zh": "虹夕諾雅 東京",
+      "hotel_room": "櫻花雙人房（附日式浴衣）",
+      "weather": "☀️ 24°/15°",
+      "rain_pct": "10%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🍳 飯店早餐 · 退房並寄放行李"
+          "desc": "🥢 飯店日式早餐 · 旅籠風格"
         },
         {
           "time": "09:30",
-          "desc": "🚇 前往自由之丘 · 雜貨與甜點之旅"
+          "desc": "🛍️ 銀座最後採購 · 松屋百貨 · 日系保養品"
         },
         {
-          "time": "10:30",
-          "desc": "🍰 自由之丘「Mont St. Clair」· 法式甜點"
+          "time": "11:00",
+          "desc": "🏨 退房 · 搭乘N'EX往成田機場"
         },
         {
-          "time": "12:00",
-          "desc": "🍜 午餐：自由之丘「蔦」拉麵 · 米其林推薦"
+          "time": "12:30",
+          "desc": "🍱 機場內「壽司田」最後的握壽司（NT$2,000）"
         },
         {
-          "time": "13:30",
-          "desc": "🛍️ 最後購物 · 藥妝、伴手禮"
+          "time": "14:30",
+          "desc": "✈️ 成田NRT出發 · 中華航空CI101 · 14:30–17:30"
         },
         {
-          "time": "15:00",
-          "desc": "🏨 返回飯店取行李 · 前往成田機場"
-        },
-        {
-          "time": "16:00",
-          "desc": "🚄 搭乘N'EX至成田機場"
-        },
-        {
-          "time": "17:45",
-          "desc": "✈️ 成田出發CI105 · 預計20:35抵達桃園"
-        },
-        {
-          "time": "20:35",
-          "desc": "🛬 抵達台灣 · 結束浪漫東京之旅"
+          "time": "17:30",
+          "desc": "🛬 抵達桃園TPE · 結束浪漫燒肉之旅 ♥"
         }
       ]
     }
@@ -504,31 +488,31 @@
   "costs": [
     {
       "label": "✈️ 來回機票",
-      "amount_ntd": 26000
+      "amount_ntd": 30000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 78000
+      "amount_ntd": 102000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 22000
+      "amount_ntd": 36000
     },
     {
       "label": "🎫 景點門票",
-      "amount_ntd": 8000
+      "amount_ntd": 5000
     },
     {
       "label": "🚇 交通",
-      "amount_ntd": 10000
+      "amount_ntd": 8000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 6000
+      "amount_ntd": 4000
     }
   ],
-  "cost_total_ntd": 150000,
-  "budget_remaining_ntd": 0,
+  "cost_total_ntd": 185000,
+  "budget_remaining_ntd": -35000,
   "photos": {
     "hero": [
       {
@@ -600,5 +584,5 @@
     ]
   },
   "chat_hash": "40e56103a6244fff6248580bf8aaf2d655c01f82848413268a2757d3a4156dab",
-  "generated_at": "2026-05-10T23:51:35.990128"
+  "generated_at": "2026-05-10T23:57:35.250337"
 }
