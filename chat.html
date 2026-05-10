@@ -74,13 +74,19 @@ async function loadChat() {
   }
 }
 
+function toBase64(str) {
+  const bytes = new TextEncoder().encode(str);
+  const binStr = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
+  return btoa(binStr);
+}
+
 async function saveChat() {
   const key = getTodayKey();
   const text = document.getElementById('chat-text').value;
   const token = localStorage.getItem('github_chat_token');
   if(!token) { alert('請先在 Settings 頁面設定 Chat Token'); return; }
 
-  const content = btoa(unescape(encodeURIComponent(text)));
+  const content = toBase64(text);
 
   let sha = '';
   try {
@@ -90,24 +96,28 @@ async function saveChat() {
     if(resp.ok) { const data = await resp.json(); sha = data.sha || ''; }
   } catch(e) {}
 
-  const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/data/chat/${key}.txt`, {
-    method: 'PUT',
-    headers: {
-      'Authorization': `Bearer ${token}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      message: `Update chat notes for ${key}`,
-      content: content,
-      sha: sha
-    })
-  });
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/data/chat/${key}.txt`, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        message: `Update chat notes for ${key}`,
+        content: content,
+        sha: sha || undefined
+      })
+    });
 
-  if(resp.ok) {
-    alert('✅ 已儲存！將在 ' + getNextHour() + ' 自動套用修改。');
-  } else {
-    const err = await resp.json();
-    alert('❌ 儲存失敗：' + err.message);
+    if(resp.ok) {
+      alert('✅ 已儲存！將在 ' + getNextHour() + ' 自動套用修改。');
+    } else {
+      const err = await resp.json();
+      alert('❌ 儲存失敗：' + err.message);
+    }
+  } catch(e) {
+    alert('❌ 無法連接 GitHub。請檢查網路或 Token。');
   }
 }
 

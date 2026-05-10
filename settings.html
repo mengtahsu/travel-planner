@@ -105,6 +105,12 @@ async function loadSettings() {
   }
 }
 
+function toBase64(str) {
+  const bytes = new TextEncoder().encode(str);
+  const binStr = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
+  return btoa(binStr);
+}
+
 async function saveSettings() {
   const settings = {
     year: parseInt(document.getElementById('year').value),
@@ -117,6 +123,7 @@ async function saveSettings() {
     chat_token: document.getElementById('chat_token').value
   };
 
+  // Always save token to localStorage
   if(settings.chat_token) {
     localStorage.setItem('github_chat_token', settings.chat_token);
   }
@@ -124,8 +131,9 @@ async function saveSettings() {
   const token = settings.chat_token || localStorage.getItem('github_chat_token');
   if(!token) { alert('請先輸入 Chat Token'); return; }
 
+  // Try to save settings to GitHub, but token in localStorage is what matters
   const json = JSON.stringify(settings, null, 2);
-  const content = btoa(unescape(encodeURIComponent(json)));
+  const content = toBase64(json);
 
   let sha = '';
   try {
@@ -135,24 +143,28 @@ async function saveSettings() {
     if(resp.ok) { const data = await resp.json(); sha = data.sha || ''; }
   } catch(e) {}
 
-  const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
-    method: 'PUT',
-    headers: {
-      'Authorization': `Bearer ${token}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      message: 'Update settings from web',
-      content: content,
-      sha: sha
-    })
-  });
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        message: 'Update settings from web',
+        content: content,
+        sha: sha || undefined
+      })
+    });
 
-  if(resp.ok) {
-    alert('✅ 設定已儲存！將在下個整點生效。');
-  } else {
-    const err = await resp.json();
-    alert('❌ 儲存失敗：' + err.message);
+    if(resp.ok) {
+      alert('✅ 設定已儲存！Token 已保存，將在下個整點生效。');
+    } else {
+      const err = await resp.json();
+      alert('⚠️ Token 已保存到瀏覽器，但 GitHub 寫入失敗：' + err.message + '\nChat 功能仍可使用，但變更不會寫回 repo。');
+    }
+  } catch(e) {
+    alert('⚠️ Token 已保存到瀏覽器，但無法連接 GitHub。Chat 功能仍可使用。');
   }
 }
 
