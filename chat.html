@@ -63,14 +63,24 @@ async function loadChat() {
   document.getElementById('date-label').textContent = `📅 編輯計畫：${key}`;
   document.getElementById('next-check').textContent = `下次檢查：${getNextHour()}`;
 
+  // Load from localStorage first (instant, survives navigation)
+  const saved = localStorage.getItem('chat_draft_' + key);
+  if(saved) {
+    document.getElementById('chat-text').value = saved;
+  }
+
+  // Then try to sync from GitHub
   try {
     const resp = await fetch(`/data/chat/${key}.txt`);
     if(resp.ok) {
       const text = await resp.text();
-      document.getElementById('chat-text').value = text;
+      if(text && text !== saved) {
+        document.getElementById('chat-text').value = text;
+        localStorage.setItem('chat_draft_' + key, text);
+      }
     }
   } catch(e) {
-    // No chat yet
+    // No chat yet on GitHub, use localStorage version
   }
 }
 
@@ -83,8 +93,15 @@ function toBase64(str) {
 async function saveChat() {
   const key = getTodayKey();
   const text = document.getElementById('chat-text').value;
+
+  // Always save to localStorage first — prevents data loss
+  localStorage.setItem('chat_draft_' + key, text);
+
   const token = localStorage.getItem('github_chat_token');
-  if(!token) { alert('請先在 Settings 頁面設定 Chat Token'); return; }
+  if(!token) {
+    alert('⚠️ 已暫存到瀏覽器，但需先在 Settings 設定 Chat Token 才能寫回 GitHub。');
+    return;
+  }
 
   const content = toBase64(text);
 
@@ -114,12 +131,20 @@ async function saveChat() {
       alert('✅ 已儲存！將在 ' + getNextHour() + ' 自動套用修改。');
     } else {
       const err = await resp.json();
-      alert('❌ 儲存失敗：' + err.message);
+      alert('⚠️ 已暫存到瀏覽器，但 GitHub 寫入失敗：' + err.message);
     }
   } catch(e) {
-    alert('❌ 無法連接 GitHub。請檢查網路或 Token。');
+    alert('⚠️ 已暫存到瀏覽器，但無法連接 GitHub。');
   }
 }
+
+// Auto-save to localStorage on every keystroke
+document.addEventListener('DOMContentLoaded', function(){
+  document.getElementById('chat-text').addEventListener('input', function(){
+    var key = getTodayKey();
+    localStorage.setItem('chat_draft_' + key, this.value);
+  });
+});
 
 loadChat();
 </script>
