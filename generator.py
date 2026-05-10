@@ -297,14 +297,16 @@ def resolve_all_photos(plan):
 
     dest = plan.get("destination_en", "travel").split(",")[0].strip()
     for hotel in plan.get("hotels", []):
-        # Use generic terms — specific hotel names rarely exist on Unsplash
+        # Mix hotel name with generic terms for unique per-hotel photos
+        name = hotel.get("name", "").split(" ")[0]  # first word of hotel name
+        district = hotel.get("district", "")
         stars = hotel.get("stars", "").count("★")
         if stars >= 5:
-            query = f"luxury 5 star hotel {dest} room suite spa"
+            query = f"luxury {name} {dest} hotel suite spa"
         elif stars >= 4:
-            query = f"boutique hotel {dest} room pool"
+            query = f"boutique {name} {dest} hotel room"
         else:
-            query = f"hotel {dest} room"
+            query = f"{name} {dest} hotel room"
         hotel["photos"] = search_unsplash(query, 6)
 
     for category in ["fine_dining", "bistros", "cafes"]:
@@ -312,9 +314,15 @@ def resolve_all_photos(plan):
             rest_name = rest.get("name", "")
             if category == "cafes":
                 query = f"{rest_name} cafe coffee {dest} dessert"
+                fallback = f"{dest} cafe coffee dessert pastry"
             else:
                 query = f"{rest_name} restaurant {dest} food dish"
-            rest["photos"] = search_unsplash(query, 3)
+                fallback = f"{dest} {category.replace('_',' ')} restaurant food"
+            photos = search_unsplash(query, 3)
+            # If search returned empty, fall back to generic terms
+            if not photos or not photos[0]["url"]:
+                photos = search_unsplash(fallback, 3)
+            rest["photos"] = photos
 
     return plan
 
@@ -355,10 +363,34 @@ def render_html(plan):
 # Task 12: Git commit and push
 # ═══════════════════════════════════════════════════════════════
 
+def render_chat_html():
+    """Render chat.html with GitHub token embedded (so non-tech users can save)."""
+    github_token = ""
+    token_file = ROOT / "github_token.txt"
+    if token_file.exists():
+        github_token = token_file.read_text(encoding="utf-8").strip()
+
+    chat_src = ROOT / "chat.html"
+    if not chat_src.exists():
+        print("Warning: chat.html not found, skipping")
+        return
+
+    chat_html = chat_src.read_text(encoding="utf-8")
+    # Replace placeholder or update existing token
+    import re
+    chat_html = re.sub(
+        r"const EMBEDDED_TOKEN = '.*?';",
+        f"const EMBEDDED_TOKEN = '{github_token}';",
+        chat_html
+    )
+    chat_src.write_text(chat_html, encoding="utf-8")
+    print(f"Embedded token into chat.html (token length: {len(github_token)})")
+
+
 def git_commit_and_push(today_key):
     try:
         subprocess.run(
-            ["git", "-C", str(ROOT), "add", "index.html",
+            ["git", "-C", str(ROOT), "add", "index.html", "chat.html",
              f"data/plans/{today_key}.json"],
             check=True, capture_output=True, text=True
         )
@@ -426,6 +458,10 @@ def main():
 
     # Render HTML
     render_html(plan)
+
+    # Also render chat.html with embedded token (so wife doesn't need a key)
+    render_chat_html()
+    print(f"Rendered chat.html with embedded token")
 
     # Push to GitHub
     print("Pushing to GitHub...")
