@@ -82,7 +82,25 @@ def has_chat_changed():
 # Task 6: AI plan generation with Claude
 # ═══════════════════════════════════════════════════════════════
 
-def build_prompt(config, chat_text):
+def get_exchange_rates():
+    """Fetch current NTD exchange rates from frankfurter.app (free, no key)."""
+    try:
+        resp = requests.get("https://api.frankfurter.app/latest?from=TWD", timeout=5)
+        if resp.status_code == 200:
+            rates = resp.json().get("rates", {})
+            return {
+                "JPY": round(1 / rates.get("JPY", 0.23), 2),   # TWD→JPY
+                "EUR": round(1 / rates.get("EUR", 0.028), 2),  # TWD→EUR
+                "USD": round(1 / rates.get("USD", 0.033), 2),  # TWD→USD
+                "KRW": round(1 / rates.get("KRW", 0.044), 2),  # TWD→KRW
+            }
+    except Exception as e:
+        print(f"Exchange rate API failed: {e}")
+    # Fallback rates
+    return {"JPY": 4.5, "EUR": 35.0, "USD": 30.0, "KRW": 0.035}
+
+
+def build_prompt(config, chat_text, rates):
     destination = config.get("destination", "") or "any destination you think is perfect"
     return f"""You are a luxury travel planner. Generate a detailed romantic travel itinerary.
 
@@ -228,7 +246,12 @@ IMPORTANT:
 - Include hotel switching logistics (退房/入住) in the day where hotels change.
 - Restaurant categories: "fine_dining", "bistros", "cafes"
 - All text must be bilingual: English + Traditional Chinese (繁體中文).
-- Prices in NTD. Be realistic about conversion rates (roughly NT$35 = €1, NT$30 = US$1, NT$4.5 = ¥100).
+- Prices in NTD. Use these LIVE exchange rates (1 NTD = ? foreign):
+  JPY: 1 NTD = {rates['JPY']} JPY  (so ¥100 = NT$ {100/rates['JPY']:.0f})
+  EUR: 1 NTD = {rates['EUR']} EUR  (so €1 = NT$ {1/rates['EUR']:.0f})
+  USD: 1 NTD = {rates['USD']} USD  (so $1 = NT$ {1/rates['USD']:.0f})
+  KRW: 1 NTD = {rates['KRW']} KRW
+  Convert ALL local prices to NTD using these exact rates.
 """
 
 
@@ -387,26 +410,60 @@ def render_chat_html():
     print(f"Embedded token into chat.html (token length: {len(github_token)})")
 
 
-def git_commit_and_push(today_key):
-    try:
-        subprocess.run(
-            ["git", "-C", str(ROOT), "add", "index.html", "chat.html",
-             f"data/plans/{today_key}.json"],
-            check=True, capture_output=True, text=True
+def push_via_api(today_key):
+    """Push files via GitHub REST API (works with fine-grained tokens)."""
+    token_file = ROOT / "github_token.txt"
+    token = ""
+    if token_file.exists():
+        token = token_file.read_text(encoding="utf-8").strip()
+
+    if not token:
+        print("Warning: No GitHub token found, skipping push")
+        return
+
+    files_to_push = {
+        "index.html": OUTPUT_HTML,
+        f"data/plans/{today_key}.json": PLANS_DIR / f"{today_key}.json",
+        "chat.html": ROOT / "chat.html",
+    }
+
+    owner = "mengtahsu"
+    repo = "travel-planner"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json"
+    }
+
+    for path, filepath in files_to_push.items():
+        if not filepath.exists():
+            continue
+        content_bytes = filepath.read_bytes()
+        body = {
+            "message": f"Update {path} for {today_key}",
+            "content": __import__("base64").b64encode(content_bytes).decode(),
+            "branch": "main"
+        }
+
+        try:
+            resp = requests.get(
+                f"https://api.github.com/repos/{owner}/{repo}/contents/{path}",
+                headers=headers
+            )
+            if resp.status_code == 200:
+                body["sha"] = resp.json()["sha"]
+        except Exception:
+            pass
+
+        resp = requests.put(
+            f"https://api.github.com/repos/{owner}/{repo}/contents/{path}",
+            headers=headers,
+            json=body
         )
-        subprocess.run(
-            ["git", "-C", str(ROOT), "commit", "-m",
-             f"Generate plan for {today_key}"],
-            check=True, capture_output=True, text=True
-        )
-        subprocess.run(
-            ["git", "-C", str(ROOT), "push"],
-            check=True, capture_output=True, text=True
-        )
-        print("Pushed to GitHub successfully.")
-    except subprocess.CalledProcessError as e:
-        print(f"Git error: {e.stderr}")
-        # Non-fatal: page is generated locally even if push fails
+        if resp.status_code in (200, 201):
+            print(f"  Pushed {path}")
+        else:
+            print(f"  Failed {path}: {resp.status_code} {resp.text[:150]}")
+    print("Push complete via API.")
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -435,8 +492,12 @@ def main():
     if chat_text:
         print(f"Chat text ({len(chat_text)} chars): {chat_text[:100]}...")
 
+    # Fetch live exchange rates
+    rates = get_exchange_rates()
+    print(f"Exchange rates: JPY={rates['JPY']}, EUR={rates['EUR']}, USD={rates['USD']}")
+
     # Build prompt and call AI
-    prompt = build_prompt(config, chat_text)
+    prompt = build_prompt(config, chat_text, rates)
     print("Calling DeepSeek API...")
     plan = call_ai(prompt)
     print(f"Plan generated: {plan.get('destination_en')} - {plan.get('title_zh')}")
@@ -465,7 +526,7 @@ def main():
 
     # Push to GitHub
     print("Pushing to GitHub...")
-    git_commit_and_push(today)
+    push_via_api(today)
 
     print("Done!")
 
