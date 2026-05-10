@@ -82,7 +82,25 @@ def has_chat_changed():
 # Task 6: AI plan generation with Claude
 # ═══════════════════════════════════════════════════════════════
 
-def build_prompt(config, chat_text):
+def get_exchange_rates():
+    """Fetch current NTD exchange rates from frankfurter.app (free, no key)."""
+    try:
+        resp = requests.get("https://api.frankfurter.app/latest?from=TWD", timeout=5)
+        if resp.status_code == 200:
+            rates = resp.json().get("rates", {})
+            return {
+                "JPY": round(1 / rates.get("JPY", 0.23), 2),   # TWD→JPY
+                "EUR": round(1 / rates.get("EUR", 0.028), 2),  # TWD→EUR
+                "USD": round(1 / rates.get("USD", 0.033), 2),  # TWD→USD
+                "KRW": round(1 / rates.get("KRW", 0.044), 2),  # TWD→KRW
+            }
+    except Exception as e:
+        print(f"Exchange rate API failed: {e}")
+    # Fallback rates
+    return {"JPY": 4.5, "EUR": 35.0, "USD": 30.0, "KRW": 0.035}
+
+
+def build_prompt(config, chat_text, rates):
     destination = config.get("destination", "") or "any destination you think is perfect"
     return f"""You are a luxury travel planner. Generate a detailed romantic travel itinerary.
 
@@ -228,7 +246,12 @@ IMPORTANT:
 - Include hotel switching logistics (退房/入住) in the day where hotels change.
 - Restaurant categories: "fine_dining", "bistros", "cafes"
 - All text must be bilingual: English + Traditional Chinese (繁體中文).
-- Prices in NTD. Be realistic about conversion rates (roughly NT$35 = €1, NT$30 = US$1, NT$4.5 = ¥100).
+- Prices in NTD. Use these LIVE exchange rates (1 NTD = ? foreign):
+  JPY: 1 NTD = {rates['JPY']} JPY  (so ¥100 = NT$ {100/rates['JPY']:.0f})
+  EUR: 1 NTD = {rates['EUR']} EUR  (so €1 = NT$ {1/rates['EUR']:.0f})
+  USD: 1 NTD = {rates['USD']} USD  (so $1 = NT$ {1/rates['USD']:.0f})
+  KRW: 1 NTD = {rates['KRW']} KRW
+  Convert ALL local prices to NTD using these exact rates.
 """
 
 
@@ -435,8 +458,12 @@ def main():
     if chat_text:
         print(f"Chat text ({len(chat_text)} chars): {chat_text[:100]}...")
 
+    # Fetch live exchange rates
+    rates = get_exchange_rates()
+    print(f"Exchange rates: JPY={rates['JPY']}, EUR={rates['EUR']}, USD={rates['USD']}")
+
     # Build prompt and call AI
-    prompt = build_prompt(config, chat_text)
+    prompt = build_prompt(config, chat_text, rates)
     print("Calling DeepSeek API...")
     plan = call_ai(prompt)
     print(f"Plan generated: {plan.get('destination_en')} - {plan.get('title_zh')}")
