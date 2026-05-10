@@ -10,7 +10,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import requests
-from anthropic import Anthropic
+from openai import OpenAI
 from jinja2 import Environment, FileSystemLoader
 
 ROOT = Path(__file__).parent
@@ -20,7 +20,7 @@ PLANS_DIR = ROOT / "data" / "plans"
 TEMPLATES_DIR = ROOT / "templates"
 OUTPUT_HTML = ROOT / "index.html"
 
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY", "")
 
 
@@ -225,21 +225,24 @@ IMPORTANT:
 """
 
 
-def call_claude(prompt):
-    if not ANTHROPIC_API_KEY:
-        raise RuntimeError("ANTHROPIC_API_KEY not set in environment")
-    client = Anthropic(api_key=ANTHROPIC_API_KEY)
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
+def call_ai(prompt):
+    if not DEEPSEEK_API_KEY:
+        raise RuntimeError("DEEPSEEK_API_KEY not set in environment")
+    client = OpenAI(
+        api_key=DEEPSEEK_API_KEY,
+        base_url="https://api.deepseek.com/v1"
+    )
+    response = client.chat.completions.create(
+        model="deepseek-chat",
         max_tokens=8192,
         temperature=0.7,
         messages=[{"role": "user", "content": prompt}]
     )
-    text = response.content[0].text
+    text = response.choices[0].message.content
     start = text.find("{")
     end = text.rfind("}") + 1
     if start == -1 or end <= start:
-        raise ValueError(f"Could not find JSON in Claude response: {text[:200]}...")
+        raise ValueError(f"Could not find JSON in DeepSeek response: {text[:200]}...")
     return json.loads(text[start:end])
 
 
@@ -366,20 +369,25 @@ def main():
     today = get_today_key()
     print(f"Today: {today}")
 
-    # Check chat changes
+    # Check if plan exists and chat changed
     changed, chat_text, chat_hash = has_chat_changed()
-    if not changed:
+    plan_exists = (PLANS_DIR / f"{today}.json").exists()
+    if not changed and plan_exists:
         print("No chat changes detected. Skipping generation.")
         return
 
-    print(f"Chat changed! Generating new plan...")
+    if not plan_exists:
+        print("First generation of the day!")
+    else:
+        print("Chat changed! Regenerating...")
+
     if chat_text:
         print(f"Chat text ({len(chat_text)} chars): {chat_text[:100]}...")
 
     # Build prompt and call AI
     prompt = build_prompt(config, chat_text)
-    print("Calling Claude API...")
-    plan = call_claude(prompt)
+    print("Calling DeepSeek API...")
+    plan = call_ai(prompt)
     print(f"Plan generated: {plan.get('destination_en')} - {plan.get('title_zh')}")
 
     # Resolve photos
@@ -408,4 +416,9 @@ def main():
 
 
 if __name__ == "__main__":
+    # Fix Windows console encoding for emoji/Chinese output
+    try:
+        sys.stdout.reconfigure(encoding='utf-8')
+    except Exception:
+        pass
     main()
