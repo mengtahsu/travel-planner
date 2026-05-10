@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>{{ plan.title_zh }} — Travel Planner</title>
+<style>
+{% include 'shared.css' %}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="active">Today 今日</a>
+  <a href="settings.html">Settings 設定</a>
+  <a href="log.html">Log 日誌</a>
+  <a href="chat.html">Chat 聊聊</a>
+</nav>
+
+<div class="container">
+
+  <!-- Hero -->
+  <div class="hero">
+    <img class="hero-placeholder" src="{{ plan.photos.hero[0].url }}" alt="{{ plan.destination_en }}">
+    <div class="hero-overlay">
+      <h1>{{ plan.destination_en }}</h1>
+      <div class="zh-title">{{ plan.title_zh }}</div>
+      <div class="hero-stats">
+        <span>✈️ {{ plan.date_range }}</span>
+        <span>👥 {{ plan.travelers }} 人</span>
+        <span>💰 NT${{ plan.budget_ntd | format_number }}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Destination image slider -->
+  <div class="slider">
+    <div class="slider-track">
+      {% for photo in plan.photos.destination %}
+      <img src="{{ photo.url }}" alt="{{ photo.label }}">
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- ✈️ FLIGHT -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>✈️ 航班 Flight</h2>
+      <a class="external-btn google" href="{{ plan.google_flights_url }}" target="_blank">
+        ↗ Google Flights 搜尋更多航班
+      </a>
+    </div>
+    <div class="flight-detail">
+      <div class="flight-info">
+        <div class="label">出發 Departure · {{ plan.flight.departure_date }}</div>
+        <div class="airline">{{ plan.flight.airline }}</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">{{ plan.flight.outbound.flight_no }}</span> · {{ plan.flight.outbound.route }}<br>
+          {{ plan.flight.outbound.depart_time }} 出發 · {{ plan.flight.outbound.arrive_time }} 抵達<br>
+          飛行 {{ plan.flight.outbound.duration }} · {{ plan.flight.outbound.class }}
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="flight-info">
+        <div class="label">回程 Return · {{ plan.flight.return_date }}</div>
+        <div class="airline">{{ plan.flight.airline }}</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">{{ plan.flight.inbound.flight_no }}</span> · {{ plan.flight.inbound.route }}<br>
+          {{ plan.flight.inbound.depart_time }} 出發 · {{ plan.flight.inbound.arrive_time }} 抵達<br>
+          飛行 {{ plan.flight.inbound.duration }} · {{ plan.flight.inbound.class }}
+        </div>
+      </div>
+    </div>
+    <div style="text-align:right; margin-top:1rem; font-size:0.9rem;">
+      來回 NT$ <strong>{{ plan.flight.total_price_ntd | format_number }}</strong> / {{ plan.travelers }}人
+    </div>
+  </div>
+
+  <!-- 🏨 HOTELS -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🏨 住宿 Hotel</h2>
+      <a class="external-btn agoda" href="{{ plan.agoda_url }}" target="_blank">
+        ↗ Agoda 搜尋更多住宿
+      </a>
+    </div>
+
+    {% for hotel in plan.hotels %}
+    <div style="background:var(--cream);border-radius:10px;padding:1.25rem;margin-bottom:{% if not loop.last %}1.5rem{% else %}1rem{% endif %};border:1px solid rgba(201,168,76,0.1);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">{{ hotel.name }}</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">{{ hotel.name_zh }} · {{ hotel.district }}</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">📅 DAY {{ hotel.day_range }}</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">{{ hotel.nights }} 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ {{ hotel.price_ntd | format_number }}</div>
+        </div>
+      </div>
+      <div style="font-size:0.85rem;color:var(--ink);margin-bottom:0.75rem;">
+        {{ hotel.stars }} · {{ hotel.room_type }} · {{ hotel.breakfast }}<br>
+        {{ hotel.amenities }}
+      </div>
+      <!-- Hotel photo gallery -->
+      <div class="slider" style="margin-bottom:0.25rem;">
+        <div class="slider-track">
+          {% for photo in hotel.photos %}
+          <img src="{{ photo.url }}" alt="{{ photo.label }}">
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- 🍽️ DINING -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🍽️ 美食 Dining</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">{{ plan.days }}天 · {% set total_restaurants = plan.restaurants.values() | sum(attribute='length') if plan.restaurants.values() is iterable else 0 %}{{ plan.restaurants.fine_dining|length + plan.restaurants.bistros|length + plan.restaurants.cafes|length }} 間餐廳 · 預算 NT${{ plan.costs | selectattr('label', 'search', '餐飲') | map(attribute='amount_ntd') | sum | format_number if plan.costs else '20,000' }}</span>
+    </div>
+
+    {% set categories = {
+      'fine_dining': '✦ 米其林星級 Fine Dining',
+      'bistros': '✦ 法式小館 Bistros & Casual',
+      'cafes': '✦ 咖啡甜點 Cafés & Sweets'
+    } %}
+
+    {% for cat_key, cat_label in categories.items() %}
+    {% if plan.restaurants[cat_key] and plan.restaurants[cat_key] | length > 0 %}
+    <div style="margin-bottom:{% if not loop.last %}1.5rem{% else %}0{% endif %};">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">{{ cat_label }}</h3>
+      <div class="dining-grid">
+        {% for r in plan.restaurants[cat_key] %}
+        <div class="dining-card">
+          <img class="food-img" src="{{ r.photos[0].url if r.photos else '' }}" alt="{{ r.name }}">
+          <div class="dining-info">
+            <h4>{{ r.name }}</h4>
+            <div class="zh-name">{{ r.name_zh }}{% if r.stars %} · {{ r.stars }}{% endif %}</div>
+            <div class="dish">{{ r.dish }}</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 {{ r.address }}<br>
+              💰 {{ r.price_label }}<br>
+              🕐 {{ r.hours }}
+            </div>
+          </div>
+          {% if r.photos and r.photos | length > 1 %}
+          <div class="food-thumbs">
+            {% for p in r.photos[1:3] %}
+            <img src="{{ p.url }}" alt="{{ p.label }}">
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+
+    <!-- Food image slider -->
+    <div class="slider" style="margin-top:1rem;">
+      <div class="slider-track">
+        {% for cat_key in ['fine_dining', 'bistros', 'cafes'] %}
+        {% for r in plan.restaurants[cat_key] %}
+        {% for p in r.photos[:2] %}
+        <img src="{{ p.url }}" alt="{{ p.label }}">
+        {% endfor %}
+        {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- 📅 DAY BY DAY -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>📅 每日行程 Day by Day</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">{{ plan.start_date }} – {{ plan.end_date }}</span>
+    </div>
+
+    {% for day in plan.itinerary %}
+    <div class="day-card">
+      <div>
+        <div class="day-num">{{ day.day }}</div>
+        <div class="day-label">{{ day.date }}</div>
+        <div class="day-zh">{{ day.label_zh }}</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 {{ day.hotel_name_zh.split('·')[0].strip() if '·' in day.hotel_name_zh else day.hotel_name_zh.split(' ')[0] }}</div>
+      </div>
+      <div class="day-schedule">
+        {% for slot in day.slots %}
+        {% if slot.time %}
+        <div class="time-slot"><span class="time">{{ slot.time }}</span> {{ slot.desc }}</div>
+        {% else %}
+        <div class="time-slot">&nbsp;&nbsp;&nbsp;&nbsp;{{ slot.desc }}</div>
+        {% endif %}
+        {% endfor %}
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> {{ day.hotel_name }} · {{ day.hotel_room }}</div>
+      </div>
+      <div class="day-weather">
+        {{ day.weather }}<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 {{ day.rain_pct }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- 💰 COST BREAKDOWN -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>💰 花費明細 Cost</h2>
+      <span style="font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">所有金額以新台幣 NTD 計算</span>
+    </div>
+    {% for cost in plan.costs %}
+    <div class="cost-row"><span>{{ cost.label }}</span><span>NT$ <strong>{{ cost.amount_ntd | format_number }}</strong></span></div>
+    {% endfor %}
+    <div class="cost-row" style="font-weight:600; border-top:2px solid var(--gold); padding-top:0.5rem; margin-top:0.2rem;">
+      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>{{ plan.cost_total_ntd | format_number }}</strong></span>
+    </div>
+    <div class="cost-bar"><div class="cost-bar-fill" style="width:{{ (plan.cost_total_ntd / plan.budget_ntd * 100) | round if plan.budget_ntd else 95 }}%"></div></div>
+    <div style="text-align:right; font-size:0.8rem; color:var(--warm-gray);">
+      NT$ {{ plan.cost_total_ntd | format_number }} / NT$ {{ plan.budget_ntd | format_number }} · 剩餘 NT$ {{ plan.budget_remaining_ntd | format_number }}
+    </div>
+  </div>
+
+</div>
+
+<script>
+{% include 'shared.js' %}
+</script>
+</body>
+</html>
