@@ -18,7 +18,7 @@
 </nav>
 
 <div class="container">
-  <h2 class="section-title">⚙️ 設定 Settings <span style="font-size:0.55rem;background:var(--gold);color:#000;padding:2px 6px;border-radius:3px;vertical-align:middle;font-family:monospace;" id="version-badge">v250511.1</span></h2>
+  <h2 class="section-title">⚙️ 設定 Settings <span style="font-size:0.55rem;background:var(--gold);color:#000;padding:2px 6px;border-radius:3px;vertical-align:middle;font-family:monospace;" id="version-badge">v250511.2</span></h2>
   <p class="section-sub">修改設定後，將在下一個整點檢查時生效。</p>
   <div class="settings-grid">
     <div class="setting-group">
@@ -81,8 +81,12 @@
     </div>
     <div class="setting-group">
       <label>出發地 Departure City</label>
-      <input type="text" id="departure" value="Taiwan 台灣 (TPE)">
-      <div class="zh-label">預設：台灣 Taiwan（桃園 TPE）</div>
+      <select id="departure">
+        <option value="Taiwan 台灣 (TPE)">台灣桃園 TPE</option>
+        <option value="Taiwan 台灣 (TSA)">台北松山 TSA</option>
+        <option value="Taiwan 台灣 (KHH)">高雄 KHH</option>
+      </select>
+      <div class="zh-label">選擇出發機場</div>
     </div>
     <div class="setting-group">
       <label>Chat Token（網頁寫回用）</label>
@@ -125,7 +129,8 @@ async function loadSettings() {
       });
       if(resp.ok) {
         const raw = await resp.json();
-        const data = JSON.parse(atob(raw.content));
+        const bytes = Uint8Array.from(atob(raw.content), function(c) { return c.charCodeAt(0); });
+        const data = JSON.parse(new TextDecoder().decode(bytes));
         setFormValues(data);
         localStorage.setItem('travel_settings', JSON.stringify(data));
         loaded = true;
