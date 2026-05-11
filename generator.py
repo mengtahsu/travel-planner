@@ -401,6 +401,10 @@ def push_via_api(today_key):
         f"data/plans/{today_key}.json": PLANS_DIR / f"{today_key}.json",
     }
 
+    # Also push all HTML files (chat, settings, log) if they've changed
+    for html_file in ROOT.glob("*.html"):
+        files_to_push[html_file.name] = html_file
+
     owner = "mengtahsu"
     repo = "travel-planner"
     headers = {
