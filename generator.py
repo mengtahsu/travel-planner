@@ -64,7 +64,39 @@ def get_today_key():
     return date.today().isoformat()
 
 
+def _get_github_token():
+    token_file = ROOT / "github_token.txt"
+    if token_file.exists():
+        return token_file.read_text(encoding="utf-8").strip()
+    return ""
+
+
+def _github_api_get(path):
+    """Fetch file content (UTF-8 text) from GitHub API. Returns None on failure."""
+    token = _get_github_token()
+    if not token:
+        return None
+    try:
+        resp = requests.get(
+            f"https://api.github.com/repos/mengtahsu/travel-planner/contents/{path}",
+            headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"},
+            timeout=10
+        )
+        if resp.status_code == 200:
+            import base64
+            return base64.b64decode(resp.json()["content"]).decode("utf-8")
+    except Exception as e:
+        print(f"GitHub API GET {path} failed: {e}")
+    return None
+
+
 def get_chat_text(today_key):
+    # Try GitHub API first (reflects web saves)
+    content = _github_api_get(f"data/chat/{today_key}.txt")
+    if content is not None:
+        return content.strip()
+
+    # Fall back to local file
     chat_file = CHAT_DIR / f"{today_key}.txt"
     if chat_file.exists():
         return chat_file.read_text(encoding="utf-8").strip()
@@ -75,27 +107,39 @@ def get_chat_hash(text):
     return hashlib.sha256(text.encode()).hexdigest() if text else ""
 
 
-def get_last_chat_hash(today_key):
+def get_config_hash(config):
+    return hashlib.sha256(json.dumps(config, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+
+
+def get_last_hashes(today_key):
     plan_file = PLANS_DIR / f"{today_key}.json"
     if plan_file.exists():
         plan = json.loads(plan_file.read_text(encoding="utf-8"))
-        return plan.get("chat_hash", "")
-    return ""
+        return plan.get("chat_hash", ""), plan.get("config_hash", "")
+    return "", ""
 
 
-def save_plan_json(today_key, plan_data, chat_hash):
+def save_plan_json(today_key, plan_data, chat_hash, config_hash):
     plan_data["chat_hash"] = chat_hash
+    plan_data["config_hash"] = config_hash
     plan_data["generated_at"] = datetime.now().isoformat()
     plan_file = PLANS_DIR / f"{today_key}.json"
     plan_file.write_text(json.dumps(plan_data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def has_chat_changed():
+def has_changes():
+    """Check if chat text or settings have changed since last generation."""
     today = get_today_key()
     chat_text = get_chat_text(today)
-    current_hash = get_chat_hash(chat_text)
-    last_hash = get_last_chat_hash(today)
-    return current_hash != last_hash, chat_text, current_hash
+    current_chat_hash = get_chat_hash(chat_text)
+    config = load_config()
+    current_config_hash = get_config_hash(config)
+    last_chat_hash, last_config_hash = get_last_hashes(today)
+
+    chat_changed = current_chat_hash != last_chat_hash
+    config_changed = current_config_hash != last_config_hash
+
+    return chat_changed or config_changed, chat_text, current_chat_hash, current_config_hash
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -476,17 +520,17 @@ def main():
     today = get_today_key()
     print(f"Today: {today}")
 
-    # Check if plan exists and chat changed
-    changed, chat_text, chat_hash = has_chat_changed()
+    # Check if chat or settings changed
+    changed, chat_text, chat_hash, config_hash = has_changes()
     plan_exists = (PLANS_DIR / f"{today}.json").exists()
     if not changed and plan_exists:
-        print("No chat changes detected. Skipping generation.")
+        print("No changes detected (chat + settings unchanged). Skipping generation.")
         return
 
     if not plan_exists:
         print("First generation of the day!")
     else:
-        print("Chat changed! Regenerating...")
+        print("Changes detected! Regenerating...")
 
     if chat_text:
         print(f"Chat text ({len(chat_text)} chars): {chat_text[:100]}...")
@@ -513,7 +557,7 @@ def main():
     print(f"Photos resolved: {hotel_photos} hotel, {rest_photos} restaurant photos")
 
     # Save plan JSON
-    save_plan_json(today, plan, chat_hash)
+    save_plan_json(today, plan, chat_hash, config_hash)
     print(f"Plan saved to data/plans/{today}.json")
 
     # Render HTML
