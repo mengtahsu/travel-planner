@@ -101,30 +101,50 @@
 const REPO = 'mengtahsu/travel-planner';
 
 async function loadSettings() {
-  // Load from localStorage FIRST (instant, survives navigation)
+  let loaded = false;
+
+  // 1. Load from localStorage FIRST (instant, always reflects last save)
   const saved = localStorage.getItem('travel_settings');
   if(saved) {
     try {
       const data = JSON.parse(saved);
       setFormValues(data);
+      loaded = true;
     } catch(e) {}
   }
 
   // Token only from localStorage, never from repo
   document.getElementById('chat_token').value = localStorage.getItem('github_chat_token') || '';
 
-  // Then try to sync from GitHub (relative path works on both local and GitHub Pages)
-  try {
-    const resp = await fetch('config/settings.json');
-    if(resp.ok) {
-      const data = await resp.json();
-      setFormValues(data);
-      // Sync to localStorage
-      const store = Object.assign({}, data);
-      localStorage.setItem('travel_settings', JSON.stringify(store));
+  // 2. Sync from GitHub API (authenticated — gets the REAL latest, not stale Pages CDN)
+  const token = localStorage.getItem('github_chat_token');
+  if(token) {
+    try {
+      const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
+      if(resp.ok) {
+        const raw = await resp.json();
+        const data = JSON.parse(atob(raw.content));
+        setFormValues(data);
+        localStorage.setItem('travel_settings', JSON.stringify(data));
+        loaded = true;
+      }
+    } catch(e) {
+      console.error('Failed to sync from GitHub API:', e);
     }
-  } catch(e) {
-    console.error('Failed to sync settings from GitHub:', e);
+  }
+
+  // 3. Fallback: try static file from Pages (may be stale but better than nothing)
+  if(!loaded) {
+    try {
+      const resp = await fetch('config/settings.json');
+      if(resp.ok) {
+        const data = await resp.json();
+        setFormValues(data);
+        localStorage.setItem('travel_settings', JSON.stringify(data));
+      }
+    } catch(e) {}
   }
 
   function setFormValues(data) {
