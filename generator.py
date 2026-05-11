@@ -27,7 +27,6 @@ def _load_key(filename, env_name):
     return os.environ.get(env_name, "")
 
 DEEPSEEK_API_KEY = _load_key("deep_seek_api_key.txt", "DEEPSEEK_API_KEY")
-UNSPLASH_ACCESS_KEY = _load_key("unsplash_access_key.txt", "UNSPLASH_ACCESS_KEY")
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -341,81 +340,7 @@ def call_ai(prompt):
 
 
 # ═══════════════════════════════════════════════════════════════
-# Task 7: Unsplash photo resolution
-# ═══════════════════════════════════════════════════════════════
-
-def search_unsplash(query, count=4):
-    if not UNSPLASH_ACCESS_KEY:
-        print(f"Warning: UNSPLASH_ACCESS_KEY not set, using empty photos for '{query}'")
-        return [{"url": "", "label": query}] * max(count, 1)
-
-    try:
-        resp = requests.get(
-            "https://api.unsplash.com/search/photos",
-            params={"query": query, "per_page": count, "orientation": "landscape"},
-            headers={"Authorization": f"Client-ID {UNSPLASH_ACCESS_KEY}"},
-            timeout=10
-        )
-        resp.raise_for_status()
-        results = resp.json().get("results", [])
-        photos = []
-        for r in results:
-            photos.append({
-                "url": r["urls"]["regular"] + "&w=400&h=300&fit=crop",
-                "label": r.get("alt_description", query)
-            })
-        if not photos:
-            return [{"url": "", "label": query}] * max(count, 1)
-        # Duplicate for seamless slider loop
-        if len(photos) < count * 2:
-            photos = photos + photos
-        return photos
-    except Exception as e:
-        print(f"Unsplash error for '{query}': {e}")
-        return [{"url": "", "label": query}] * max(count, 1)
-
-
-def resolve_all_photos(plan):
-    dest = plan.get("destination_en", "travel")
-    plan["photos"] = {
-        "hero": search_unsplash(f"{dest} landmark skyline beautiful", 2),
-        "destination": search_unsplash(f"{dest} travel beautiful scenery", 6),
-    }
-
-    dest = plan.get("destination_en", "travel").split(",")[0].strip()
-    for hotel in plan.get("hotels", []):
-        # Mix hotel name with generic terms for unique per-hotel photos
-        name = hotel.get("name", "").split(" ")[0]  # first word of hotel name
-        district = hotel.get("district", "")
-        stars = hotel.get("stars", "").count("★")
-        if stars >= 5:
-            query = f"luxury {name} {dest} hotel suite spa"
-        elif stars >= 4:
-            query = f"boutique {name} {dest} hotel room"
-        else:
-            query = f"{name} {dest} hotel room"
-        hotel["photos"] = search_unsplash(query, 6)
-
-    for category in ["fine_dining", "bistros", "cafes"]:
-        for rest in plan.get("restaurants", {}).get(category, []):
-            rest_name = rest.get("name", "")
-            if category == "cafes":
-                query = f"{rest_name} cafe coffee {dest} dessert"
-                fallback = f"{dest} cafe coffee dessert pastry"
-            else:
-                query = f"{rest_name} restaurant {dest} food dish"
-                fallback = f"{dest} {category.replace('_',' ')} restaurant food"
-            photos = search_unsplash(query, 3)
-            # If search returned empty, fall back to generic terms
-            if not photos or not photos[0]["url"]:
-                photos = search_unsplash(fallback, 3)
-            rest["photos"] = photos
-
-    return plan
-
-
-# ═══════════════════════════════════════════════════════════════
-# Task 8: HTML rendering + URL building
+# HTML rendering + URL building
 # ═══════════════════════════════════════════════════════════════
 
 def render_html(plan):
@@ -593,23 +518,12 @@ def main():
     progress(65, "AI response received!")
     print(f"        Destination: {plan.get('destination_en')} — {plan.get('title_zh')}")
 
-    # Resolve photos
-    progress(70, "Fetching photos from Unsplash...")
-    plan = resolve_all_photos(plan)
-    hotel_photos = sum(len(h.get("photos", [])) for h in plan.get("hotels", []))
-    rest_photos = sum(
-        len(r.get("photos", []))
-        for cats in plan.get("restaurants", {}).values()
-        for r in cats
-    )
-    progress(85, f"Photos: {hotel_photos} hotel + {rest_photos} restaurant")
-
     # Save plan JSON
-    progress(90, "Saving plan JSON...")
+    progress(70, "Saving plan JSON...")
     save_plan_json(today, plan, chat_hash, config_hash)
 
     # Render HTML
-    progress(95, "Rendering HTML...")
+    progress(75, "Rendering HTML...")
     render_html(plan)
 
     # Log this run
@@ -619,7 +533,7 @@ def main():
             chat_chars=len(chat_text))
 
     # Push to GitHub
-    progress(98, "Pushing to GitHub...")
+    progress(90, "Pushing to GitHub...")
     push_via_api(today)
 
     progress(100, "Done!")
