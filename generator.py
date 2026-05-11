@@ -4,7 +4,6 @@
 import json
 import hashlib
 import os
-import subprocess
 import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -386,30 +385,6 @@ def render_html(plan):
 # Task 12: Git commit and push
 # ═══════════════════════════════════════════════════════════════
 
-def render_chat_html():
-    """Render chat.html with GitHub token embedded (so non-tech users can save)."""
-    github_token = ""
-    token_file = ROOT / "github_token.txt"
-    if token_file.exists():
-        github_token = token_file.read_text(encoding="utf-8").strip()
-
-    chat_src = ROOT / "chat.html"
-    if not chat_src.exists():
-        print("Warning: chat.html not found, skipping")
-        return
-
-    chat_html = chat_src.read_text(encoding="utf-8")
-    # Replace placeholder or update existing token
-    import re
-    chat_html = re.sub(
-        r"const EMBEDDED_TOKEN = '.*?';",
-        f"const EMBEDDED_TOKEN = '{github_token}';",
-        chat_html
-    )
-    chat_src.write_text(chat_html, encoding="utf-8")
-    print(f"Embedded token into chat.html (token length: {len(github_token)})")
-
-
 def push_via_api(today_key):
     """Push files via GitHub REST API (works with fine-grained tokens)."""
     token_file = ROOT / "github_token.txt"
@@ -424,7 +399,6 @@ def push_via_api(today_key):
     files_to_push = {
         "index.html": OUTPUT_HTML,
         f"data/plans/{today_key}.json": PLANS_DIR / f"{today_key}.json",
-        "chat.html": ROOT / "chat.html",
     }
 
     owner = "mengtahsu"
@@ -519,10 +493,6 @@ def main():
 
     # Render HTML
     render_html(plan)
-
-    # Also render chat.html with embedded token (so wife doesn't need a key)
-    render_chat_html()
-    print(f"Rendered chat.html with embedded token")
 
     # Push to GitHub
     print("Pushing to GitHub...")
