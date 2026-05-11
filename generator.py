@@ -514,39 +514,50 @@ def push_via_api(today_key):
 # ═══════════════════════════════════════════════════════════════
 
 def main():
-    print(f"[{datetime.now()}] Travel Planner Generator starting...")
+    def progress(pct, msg):
+        bar = "█" * (pct // 4) + "░" * (25 - pct // 4)
+        print(f"[{bar}] {pct:3d}%  {msg}", flush=True)
 
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    print(f"\n{'═'*60}")
+    print(f"[{ts}] Travel Planner Generator")
+    print(f"{'═'*60}")
+
+    progress(5, "Loading config...")
     config = load_config()
     today = get_today_key()
-    print(f"Today: {today}")
+    print(f"        Today: {today}  Destination: {config.get('destination') or '(AI pick)'}  Budget: NT${config.get('budget_ntd', 0):,}")
 
     # Check if chat or settings changed
+    progress(10, "Checking for changes...")
     changed, chat_text, chat_hash, config_hash = has_changes()
     plan_exists = (PLANS_DIR / f"{today}.json").exists()
+
     if not changed and plan_exists:
-        print("No changes detected (chat + settings unchanged). Skipping generation.")
+        progress(100, "No changes — skipping generation.")
+        print(f"{'═'*60}\n")
         return
 
-    if not plan_exists:
-        print("First generation of the day!")
-    else:
-        print("Changes detected! Regenerating...")
-
+    print(f"        {'First run today!' if not plan_exists else 'Changes detected — regenerating...'}")
     if chat_text:
-        print(f"Chat text ({len(chat_text)} chars): {chat_text[:100]}...")
+        print(f"        Chat: {len(chat_text)} chars — \"{chat_text[:80]}{'...' if len(chat_text)>80 else ''}\"")
 
     # Fetch live exchange rates
+    progress(15, "Fetching live exchange rates...")
     rates = get_exchange_rates()
-    print(f"Exchange rates: JPY={rates['JPY']}, EUR={rates['EUR']}, USD={rates['USD']}")
+    print(f"        JPY={rates['JPY']}  EUR={rates['EUR']}  USD={rates['USD']}")
 
     # Build prompt and call AI
+    progress(20, "Building AI prompt...")
     prompt = build_prompt(config, chat_text, rates)
-    print("Calling DeepSeek API...")
+
+    progress(25, "Calling AI (DeepSeek) — this takes ~30–60s...")
     plan = call_ai(prompt)
-    print(f"Plan generated: {plan.get('destination_en')} - {plan.get('title_zh')}")
+    progress(65, "AI response received!")
+    print(f"        Destination: {plan.get('destination_en')} — {plan.get('title_zh')}")
 
     # Resolve photos
-    print("Fetching photos from Unsplash...")
+    progress(70, "Fetching photos from Unsplash...")
     plan = resolve_all_photos(plan)
     hotel_photos = sum(len(h.get("photos", [])) for h in plan.get("hotels", []))
     rest_photos = sum(
@@ -554,20 +565,22 @@ def main():
         for cats in plan.get("restaurants", {}).values()
         for r in cats
     )
-    print(f"Photos resolved: {hotel_photos} hotel, {rest_photos} restaurant photos")
+    progress(85, f"Photos: {hotel_photos} hotel + {rest_photos} restaurant")
 
     # Save plan JSON
+    progress(90, "Saving plan JSON...")
     save_plan_json(today, plan, chat_hash, config_hash)
-    print(f"Plan saved to data/plans/{today}.json")
 
     # Render HTML
+    progress(95, "Rendering HTML...")
     render_html(plan)
 
     # Push to GitHub
-    print("Pushing to GitHub...")
+    progress(98, "Pushing to GitHub...")
     push_via_api(today)
 
-    print("Done!")
+    progress(100, "Done!")
+    print(f"{'═'*60}\n")
 
 
 if __name__ == "__main__":
