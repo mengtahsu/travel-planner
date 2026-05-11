@@ -16,7 +16,8 @@
     font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
     background: var(--cream);
     color: var(--ink);
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.65;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
@@ -44,7 +45,7 @@
     text-decoration: none;
     color: var(--warm-gray);
     font-family: 'Inter', sans-serif;
-    font-size: 0.72rem;
+    font-size: 0.78rem;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     transition: color 0.3s;
@@ -127,7 +128,7 @@
   /* ─── SECTION HEADER ─── */
   .section-title {
     font-family: 'Playfair Display', 'Noto Serif TC', serif;
-    font-size: 1.4rem; color: var(--ink); margin-bottom: 0.5rem;
+    font-size: 1.55rem; color: var(--ink); margin-bottom: 0.5rem;
     position: relative;
   }
   .section-title::after {
@@ -136,7 +137,7 @@
   }
   .section-sub {
     font-family: 'Noto Serif TC', serif;
-    font-size: 0.9rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+    font-size: 0.95rem; color: var(--warm-gray); margin-bottom: 1.25rem;
   }
 
   /* ─── FULL CARDS ─── */
@@ -158,14 +159,14 @@
   }
   .full-card-header h2 {
     font-family: 'Playfair Display', 'Noto Serif TC', serif;
-    font-size: 1.3rem; font-weight: 500;
+    font-size: 1.4rem; font-weight: 500;
   }
   .external-btn {
     display: inline-flex; align-items: center; gap: 0.3rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.1rem;
     background: var(--ink); color: #fff;
     border-radius: 20px;
-    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    font-family: 'Inter', sans-serif; font-size: 0.75rem;
     text-transform: uppercase; letter-spacing: 0.5px;
     text-decoration: none;
     transition: opacity 0.2s;
@@ -188,13 +189,13 @@
     background: linear-gradient(to bottom, transparent, var(--gold), transparent);
     justify-self: center;
   }
-  .flight-info { font-size: 0.9rem; }
+  .flight-info { font-size: 0.95rem; }
   .flight-info .label {
-    font-family: 'Inter', sans-serif; font-size: 0.6rem;
+    font-family: 'Inter', sans-serif; font-size: 0.65rem;
     text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
   }
   .flight-info .airline {
-    font-family: 'Playfair Display', serif; font-size: 1.15rem;
+    font-family: 'Playfair Display', serif; font-size: 1.2rem;
     color: var(--ink); margin: 0.2rem 0;
   }
 
@@ -206,16 +207,16 @@
     margin-bottom: 1rem;
   }
   .hotel-card-inner {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
   .hotel-card-inner h3 {
     font-family: 'Playfair Display','Noto Serif TC',serif;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     margin-bottom: 0.2rem;
   }
   .hotel-card-inner .zh {
     font-family: 'Noto Serif TC',serif;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: var(--warm-gray);
   }
 
@@ -257,14 +258,14 @@
   }
   .dining-info h4 {
     font-family: 'Playfair Display', 'Noto Serif TC', serif;
-    font-size: 0.95rem; margin-bottom: 0.15rem;
+    font-size: 1rem; margin-bottom: 0.15rem;
   }
   .dining-info .zh-name {
     font-family: 'Noto Serif TC', serif;
-    font-size: 0.8rem; color: var(--warm-gray);
+    font-size: 0.85rem; color: var(--warm-gray);
   }
   .dining-info .dish {
-    font-size: 0.75rem; color: var(--gold);
+    font-size: 0.8rem; color: var(--gold);
     font-style: italic; margin-top: 0.25rem;
   }
 
@@ -287,16 +288,16 @@
     text-align: center; line-height: 1;
   }
   .day-label {
-    font-family: 'Inter', sans-serif; font-size: 0.6rem;
+    font-family: 'Inter', sans-serif; font-size: 0.65rem;
     text-transform: uppercase; letter-spacing: 1.5px;
     color: var(--warm-gray); text-align: center;
   }
   .day-zh {
     font-family: 'Noto Serif TC', serif;
-    font-size: 0.75rem; color: var(--ink); text-align: center;
+    font-size: 0.8rem; color: var(--ink); text-align: center;
     margin-top: 0.2rem;
   }
-  .day-schedule { font-size: 0.85rem; }
+  .day-schedule { font-size: 0.92rem; }
   .day-schedule .time-slot {
     padding: 0.4rem 0;
     border-bottom: 1px solid rgba(0,0,0,0.03);
@@ -304,12 +305,12 @@
   }
   .time-slot .time {
     font-family: 'Inter', sans-serif;
-    font-size: 0.65rem; color: var(--gold);
-    min-width: 48px; letter-spacing: 0.5px;
+    font-size: 0.72rem; color: var(--gold);
+    min-width: 50px; letter-spacing: 0.5px;
     text-transform: uppercase;
   }
   .day-weather {
-    font-size: 0.75rem; color: var(--warm-gray);
+    font-size: 0.8rem; color: var(--warm-gray);
     text-align: right; padding-top: 0.25rem;
   }
 
@@ -321,7 +322,7 @@
   }
   .cost-row {
     display: flex; justify-content: space-between;
-    padding: 0.4rem 0; font-size: 0.9rem;
+    padding: 0.4rem 0; font-size: 0.95rem;
     border-bottom: 1px solid rgba(0,0,0,0.03);
     flex-wrap: wrap;
   }
@@ -351,19 +352,19 @@
     border: 1px solid rgba(201,168,76,0.12);
   }
   .setting-group label {
-    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
     text-transform: uppercase; letter-spacing: 1.5px;
     color: var(--warm-gray); display: block; margin-bottom: 0.3rem;
   }
   .setting-group .zh-label {
     font-family: 'Noto Serif TC', serif;
-    font-size: 0.75rem; color: var(--ink); margin-bottom: 0.5rem;
+    font-size: 0.8rem; color: var(--ink); margin-bottom: 0.5rem;
   }
   .setting-group input, .setting-group select {
-    width: 100%; padding: 0.65rem 0.85rem;
+    width: 100%; padding: 0.7rem 0.85rem;
     border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
     font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
-    font-size: 1rem; background: var(--cream); color: var(--ink);
+    font-size: 1.05rem; background: var(--cream); color: var(--ink);
     -webkit-appearance: none;
   }
   .setting-group input:focus, .setting-group select:focus {
@@ -373,8 +374,8 @@
   .save-btn {
     background: linear-gradient(135deg, var(--gold), #b8942f);
     color: #fff; border: none;
-    padding: 0.7rem 1.8rem; border-radius: 8px;
-    font-family: 'Inter', sans-serif; font-size: 0.75rem;
+    padding: 0.75rem 2rem; border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
     text-transform: uppercase; letter-spacing: 1.5px;
     cursor: pointer; margin-top: 1.25rem;
     transition: opacity 0.2s;
@@ -389,12 +390,12 @@
     border: 1px solid rgba(201,168,76,0.1);
   }
   .log-date {
-    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
     text-transform: uppercase; letter-spacing: 2px; color: var(--gold);
   }
   .log-status {
     display: inline-block; padding: 0.15rem 0.6rem; border-radius: 10px;
-    font-family: 'Inter', sans-serif; font-size: 0.65rem; margin-left: 0.4rem;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem; margin-left: 0.4rem;
   }
   .log-status.generated { background: rgba(76,175,80,0.12); color: #388e3c; }
   .log-status.chatting { background: rgba(201,168,76,0.15); color: #8b6914; }
@@ -414,7 +415,7 @@
     width: 100%; height: 200px; padding: 1rem;
     border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
     font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
-    font-size: 1rem; background: var(--cream); color: var(--ink);
+    font-size: 1.05rem; background: var(--cream); color: var(--ink);
     line-height: 1.7; resize: vertical;
     -webkit-appearance: none;
   }
@@ -423,7 +424,7 @@
     box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
   }
   .chat-hint {
-    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    font-family: 'Inter', sans-serif; font-size: 0.75rem;
     color: var(--warm-gray); margin-top: 0.4rem; font-style: italic;
   }
 
