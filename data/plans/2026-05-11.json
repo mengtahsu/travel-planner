@@ -1,6 +1,6 @@
 {
-  "destination_en": "Osaka & Kyoto, Japan",
-  "title_zh": "大阪京都 · 浪漫五天購物之旅",
+  "destination_en": "Kyoto, Japan",
+  "title_zh": "京都大阪 · 浪漫五天之旅",
   "date_range": "2026/06/01–06/05",
   "start_date": "2026-06-01",
   "end_date": "2026-06-05",
@@ -11,326 +11,452 @@
   "days": 5,
   "budget_ntd": 150000,
   "flight": {
-    "airline": "樂桃航空 Peach Aviation",
+    "airline": "長榮航空 EVA Air",
     "departure_date": "6月1日",
     "return_date": "6月5日",
-    "total_price_ntd": 12000,
+    "total_price_ntd": 30000,
     "outbound": {
-      "flight_no": "MM 24",
+      "flight_no": "BR 178",
       "route": "TPE → KIX 直飛",
-      "depart_time": "22:00",
-      "arrive_time": "01:30 (+1)",
-      "duration": "2h 30m",
+      "depart_time": "20:30",
+      "arrive_time": "00:30 (+1)",
+      "duration": "3h 00m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "MM 23",
+      "flight_no": "BR 179",
       "route": "KIX → TPE 直飛",
       "depart_time": "07:00",
       "arrive_time": "09:00",
-      "duration": "2h 00m",
+      "duration": "3h 00m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
+      "name": "Hoshinoya Kyoto",
+      "name_zh": "虹夕諾雅 京都",
+      "district": "嵐山",
+      "day_range": "2–3",
+      "nights": 2,
+      "price_ntd": 72000,
+      "stars": "★★★★★",
+      "room_type": "水之庭園雙人房",
+      "breakfast": "含日式早餐",
+      "amenities": "♨️ 溫泉 · 🛶 渡船接送 · 🌸 日式庭園 · 🍵 茶道體驗",
+      "search_query": "Hoshinoya Kyoto Japan",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1718078942860-7138dddafddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a group of buildings that are next to each other"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1761205403571-d108936e4b91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese street with cherry blossoms and mountains."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1771030668987-9ce977c5056c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese rooftops on a cloudy day."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1748719722302-3b9301a1c893?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "People relax by a river in a japanese city."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1741445293052-46c64b7b0782?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A narrow street in kyoto, japan."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1720573167086-7bdd1eb9a501?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A group of people standing outside of a building"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1718078942860-7138dddafddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a group of buildings that are next to each other"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1761205403571-d108936e4b91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese street with cherry blossoms and mountains."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1771030668987-9ce977c5056c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese rooftops on a cloudy day."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1748719722302-3b9301a1c893?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "People relax by a river in a japanese city."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1741445293052-46c64b7b0782?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A narrow street in kyoto, japan."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1720573167086-7bdd1eb9a501?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3NoaW5veWElMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A group of people standing outside of a building"
+        }
+      ]
+    },
+    {
       "name": "Hotel Nikko Kansai Airport",
       "name_zh": "關西機場日航酒店",
       "district": "關西機場",
-      "day_range": "1",
-      "nights": 1,
-      "price_ntd": 4500,
-      "stars": "★★★★☆",
-      "room_type": "標準雙人房",
-      "breakfast": "不含早餐",
-      "amenities": "🚿 24小時櫃檯 · 機場直結",
-      "search_query": "Hotel Nikko Kansai Airport Japan"
-    },
-    {
-      "name": "Hoshinoya Kyoto",
-      "name_zh": "虹夕諾雅 京都",
-      "district": "京都 嵐山",
-      "day_range": "2–3",
-      "nights": 2,
-      "price_ntd": 80000,
-      "stars": "★★★★★",
-      "room_type": "水之房間（雙人）",
-      "breakfast": "含日式早餐",
-      "amenities": "♨️ 露天溫泉 · 🍽️ 懷石料理 · 🛶 接送船",
-      "search_query": "Hoshinoya Kyoto Japan"
-    },
-    {
-      "name": "Swissotel Nankai Osaka",
-      "name_zh": "瑞士南海大阪酒店",
-      "district": "大阪 難波",
       "day_range": "4",
       "nights": 1,
       "price_ntd": 8000,
-      "stars": "★★★★★",
-      "room_type": "高級雙人房",
+      "stars": "★★★★☆",
+      "room_type": "標準雙人房",
       "breakfast": "含自助早餐",
-      "amenities": "🚇 難波站直結 · 🛍️ 高島屋百貨",
-      "search_query": "Swissotel Nankai Osaka Japan"
+      "amenities": "🚌 接駁巴士 · 🛍️ 機場購物 · 🍽️ 餐廳",
+      "search_query": "Hotel Nikko Kansai Airport Japan",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1658825183336-18ab30ecbc97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a building with a sign on it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1733669493130-a5671525ca0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A night view of a hotel and a body of water"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1736132920404-b87f625fcd17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large white building with a clock in front of it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1741121622806-7e5f66e5d13b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large building with a wide entryway."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1756512551803-3971bcae897e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Modern white hotel building by the water"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1762018937916-e366c803b9eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Hotel sign on a building against blue sky"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1658825183336-18ab30ecbc97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a building with a sign on it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1733669493130-a5671525ca0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A night view of a hotel and a body of water"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1736132920404-b87f625fcd17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large white building with a clock in front of it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1741121622806-7e5f66e5d13b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large building with a wide entryway."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1756512551803-3971bcae897e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Modern white hotel building by the water"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1762018937916-e366c803b9eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Hotel sign on a building against blue sky"
+        }
+      ]
     }
   ],
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Kikunoi Honten",
-        "name_zh": "菊乃井 本店 · 米其林三星懷石",
+        "name": "Kikunoi",
+        "name_zh": "菊乃井 · 米其林三星懷石",
         "stars": "⭐⭐⭐",
-        "dish": "🍣 招牌：季節懷石料理（午餐）",
-        "address": "459 Shimokawara-cho, Yasaka, Higashiyama-ku, Kyoto",
+        "dish": "🍣 招牌：季節懷石料理 · 松葉蟹與和牛",
+        "address": "459 Shimokawaracho, Higashiyama Ward, Kyoto",
         "price_ntd": 9000,
-        "price_label": "午餐懷石 ¥20,000/人 · NT$9,000",
-        "hours": "12:00–15:00 · 需預約",
-        "search_query": "Kikunoi Honten Kyoto"
+        "price_label": "晚餐套餐 ¥20,000/人 · NT$9,000",
+        "hours": "12:00–13:30 / 17:00–20:00 · 需預約",
+        "search_query": "Kikunoi Kyoto Michelin 3 star",
+        "photos": [
+          {
+            "url": "",
+            "label": "Kikunoi Kyoto Michelin 3 star"
+          },
+          {
+            "url": "",
+            "label": "Kikunoi Kyoto Michelin 3 star"
+          },
+          {
+            "url": "",
+            "label": "Kikunoi Kyoto Michelin 3 star"
+          }
+        ]
       }
     ],
     "bistros": [
       {
-        "name": "Gion Sasaki",
-        "name_zh": "祇園佐佐木 · 米其林一星割烹",
-        "stars": "⭐",
-        "dish": "🐟 招牌：炭烤鰻魚 · 季節野菜",
-        "address": "570-195 Gionmachi Minamigawa, Higashiyama-ku, Kyoto",
-        "price_ntd": 5400,
-        "price_label": "晚餐套餐 ¥12,000/人 · NT$5,400",
-        "hours": "17:30–22:00 · 需預約",
-        "search_query": "Gion Sasaki Kyoto"
+        "name": "Arashiyama Yoshimura",
+        "name_zh": "嵐山よしむら · 手打蕎麥麵",
+        "stars": "",
+        "dish": "🍜 招牌：天婦羅蕎麥麵 · 豆腐田樂",
+        "address": "3-27 Susukinobaba-cho, Arashiyama, Ukyo Ward, Kyoto",
+        "price_ntd": 1800,
+        "price_label": "午餐套餐 ¥4,000/人 · NT$1,800",
+        "hours": "11:00–17:00 · 近竹林",
+        "search_query": "Arashiyama Yoshimura soba",
+        "photos": [
+          {
+            "url": "",
+            "label": "Arashiyama Yoshimura soba"
+          },
+          {
+            "url": "",
+            "label": "Arashiyama Yoshimura soba"
+          },
+          {
+            "url": "",
+            "label": "Arashiyama Yoshimura soba"
+          }
+        ]
       }
     ],
     "cafes": [
       {
         "name": "% Arabica Kyoto Arashiyama",
-        "name_zh": "% Arabica 嵐山店 · 網紅咖啡",
+        "name_zh": "% Arabica 嵐山咖啡",
         "stars": "",
         "dish": "☕ 招牌：拿鐵 · 抹茶拿鐵 · 可頌",
-        "address": "3-47 Sagatenryuji Susukinobaba-cho, Ukyo-ku, Kyoto",
+        "address": "3-47 Sagatenryuji Susukinobaba-cho, Ukyo Ward, Kyoto",
         "price_ntd": 450,
-        "price_label": "兩杯咖啡 + 甜點 ¥1,000 · NT$450",
-        "hours": "08:00–18:00 · 嵐山渡月橋旁",
-        "search_query": "Arabica Arashiyama Kyoto"
-      },
-      {
-        "name": "Takoyaki Wanaka Namba",
-        "name_zh": "章魚燒 わなか なんば店",
-        "stars": "",
-        "dish": "🐙 招牌：章魚燒（8個）· 明石燒",
-        "address": "1-5-10 Namba, Chuo-ku, Osaka",
-        "price_ntd": 540,
-        "price_label": "兩人份 ¥1,200 · NT$540",
-        "hours": "10:00–23:00 · 道頓堀旁",
-        "search_query": "Takoyaki Wanaka Namba Osaka"
+        "price_label": "兩杯拿鐵 ¥1,000 · NT$450",
+        "hours": "08:00–18:00 · 渡月橋旁",
+        "search_query": "Arabica Arashiyama coffee",
+        "photos": [
+          {
+            "url": "",
+            "label": "Arabica Arashiyama coffee"
+          },
+          {
+            "url": "",
+            "label": "Arabica Arashiyama coffee"
+          },
+          {
+            "url": "",
+            "label": "Arabica Arashiyama coffee"
+          }
+        ]
       }
     ]
   },
   "itinerary": [
     {
       "day": 1,
-      "date": "June 1 · Mon",
-      "label_zh": "抵達日 · 晚班機",
+      "date": "6月1日 · 一",
+      "label_zh": "抵達大阪 · 深夜入住",
       "hotel_name": "Hotel Nikko Kansai Airport",
       "hotel_name_zh": "關西機場日航酒店",
       "hotel_room": "標準雙人房",
-      "weather": "🌙 22°/18°",
-      "rain_pct": "20%",
+      "weather": "🌧️ 24°/19°",
+      "rain_pct": "70%",
       "slots": [
         {
-          "time": "19:00",
-          "desc": "🚖 前往桃園機場第二航廈 · 建議18:00前到機場"
+          "time": "20:30",
+          "desc": "✈️ 桃園機場TPE出發 · 長榮BR178 · 20:30起飛"
         },
         {
-          "time": "21:00",
-          "desc": "✈️ 辦理登機 · 樂桃航空 MM24 · 22:00起飛"
+          "time": "00:30",
+          "desc": "🛬 抵達關西機場KIX · 入境通關取行李"
         },
         {
           "time": "01:30",
-          "desc": "🛬 抵達關西國際機場 · 入境、取行李"
+          "desc": "🚶 步行至關西機場日航酒店（連接通道）· 入住休息"
         },
         {
-          "time": "02:30",
-          "desc": "🏨 步行至關西機場日航酒店（機場內連通道）· 入住休息"
-        },
-        {
-          "time": "03:00",
-          "desc": "🛌 就寢 · 明天前往京都嵐山"
+          "time": "02:00",
+          "desc": "🛌 就寢 · 準備明天前往嵐山"
         }
       ]
     },
     {
       "day": 2,
-      "date": "June 2 · Tue",
+      "date": "6月2日 · 二",
       "label_zh": "嵐山一日 · 入住虹夕諾雅",
       "hotel_name": "Hoshinoya Kyoto",
-      "hotel_name_zh": "虹夕諾雅 京都 · 水之房間",
-      "hotel_room": "水之房間（雙人）",
-      "weather": "☀️ 26°/18°",
+      "hotel_name_zh": "虹夕諾雅 京都",
+      "hotel_room": "水之庭園雙人房",
+      "weather": "☀️ 27°/18°",
       "rain_pct": "10%",
       "slots": [
         {
+          "time": "07:00",
+          "desc": "🌅 起床 · 飯店早餐（含自助早餐）"
+        },
+        {
           "time": "08:00",
-          "desc": "🍽️ 機場內早餐（Lawson或First Kitchen）· 退房"
+          "desc": "🚃 前往嵐山：從關西機場站搭「關空快速」到「京都站」（約75分，¥1,880/人），再轉「JR嵯峨野線」到「嵯峨嵐山站」（約15分，¥240/人）。建議購買ICOCA卡（¥2,000，可儲值）"
         },
         {
-          "time": "09:00",
-          "desc": "🚄 關西機場站 → 京都站（搭乘Haruka特急，75分鐘，¥3,600/人 · NT$1,620）"
-        },
-        {
-          "time": "10:30",
-          "desc": "🚃 京都站 → 嵐山站（JR嵯峨野線，約15分鐘，¥240/人 · NT$108）"
+          "time": "10:00",
+          "desc": "🎋 嵐山竹林之道（免費）· 清晨人少，拍照最佳"
         },
         {
           "time": "11:00",
-          "desc": "⛩️ 嵐山漫步 · 渡月橋 · 天龍寺（門票¥500/人 · NT$225）"
+          "desc": "☕ % Arabica 嵐山咖啡 · 渡月橋旁喝拿鐵"
         },
         {
-          "time": "12:30",
-          "desc": "☕ % Arabica 嵐山店 · 拿鐵 + 可頌（¥1,000 · NT$450）"
+          "time": "12:00",
+          "desc": "🍜 午餐：嵐山よしむら · 天婦羅蕎麥麵（需排隊約20分鐘）"
         },
         {
-          "time": "13:30",
-          "desc": "🎋 竹林小徑 · 野宮神社 · 常寂光寺"
+          "time": "14:00",
+          "desc": "🏯 天龍寺（¥500/人）· 曹源池庭園，世界文化遺產"
         },
         {
-          "time": "15:00",
-          "desc": "🛶 虹夕諾雅專屬接駁船（從嵐山渡月橋旁碼頭出發）· 入住酒店"
+          "time": "15:30",
+          "desc": "🚤 前往虹夕諾雅：從嵐山渡月橋旁的碼頭，搭乘飯店專屬渡船（免費，需預約）沿大堰川而上，約10分鐘抵達飯店"
         },
         {
           "time": "16:00",
-          "desc": "♨️ 酒店內露天溫泉 · 休息"
+          "desc": "🏨 入住虹夕諾雅京都 · 迎賓抹茶與和菓子"
+        },
+        {
+          "time": "17:00",
+          "desc": "♨️ 享受飯店溫泉 · 露天風呂俯瞰桂川"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 酒店內懷石料理晚餐（預約制，¥25,000/人 · NT$11,250）"
+          "desc": "🍽️ 飯店內晚餐 · 懷石料理（¥15,000/人，需預約）"
         }
       ]
     },
     {
       "day": 3,
-      "date": "June 3 · Wed",
-      "label_zh": "嵐山深度遊 · 虹夕諾雅第二晚",
+      "date": "6月3日 · 三",
+      "label_zh": "嵐山深度遊 · 虹夕諾雅慢活",
       "hotel_name": "Hoshinoya Kyoto",
-      "hotel_name_zh": "虹夕諾雅 京都 · 水之房間",
-      "hotel_room": "水之房間（雙人）",
-      "weather": "⛅ 25°/17°",
-      "rain_pct": "20%",
+      "hotel_name_zh": "虹夕諾雅 京都",
+      "hotel_room": "水之庭園雙人房",
+      "weather": "☀️ 28°/19°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🍽️ 酒店內日式早餐（含在房價）"
+          "time": "07:00",
+          "desc": "🌅 晨間瑜珈（飯店免費活動）· 在大堰川畔舒展身心"
         },
         {
-          "time": "09:00",
-          "desc": "🚃 嵐山 → 京都站（JR嵯峨野線，15分鐘）"
+          "time": "08:00",
+          "desc": "🍵 日式早餐（飯店內）· 精緻京料理"
         },
         {
           "time": "09:30",
-          "desc": "⛩️ 伏見稻荷大社 · 千本鳥居（免費）"
+          "desc": "🚶 退房行李寄存飯店 · 步行至嵐山猴子公園（¥550/人）· 山頂俯瞰京都"
         },
         {
-          "time": "12:00",
-          "desc": "🍣 菊乃井 本店 · 米其林三星懷石午餐（預約12:00，¥20,000/人 · NT$9,000）"
+          "time": "11:30",
+          "desc": "🎋 嵐山小鎮散步 · 逛竹林、野宮神社（免費）"
         },
         {
-          "time": "14:30",
-          "desc": "🚃 返回嵐山 · 酒店休息"
+          "time": "12:30",
+          "desc": "🍣 午餐：菊乃井嵐山店 · 米其林三星懷石（¥20,000/人，需提前一個月預約）"
+        },
+        {
+          "time": "15:00",
+          "desc": "☕ 嵯峨野湯咖啡（老澡堂改建）· 抹茶拿鐵 ¥600"
         },
         {
           "time": "16:00",
-          "desc": "🛶 嵐山保津川遊船（¥4,100/人 · NT$1,845）"
+          "desc": "🚤 返回飯店 · 再搭渡船回虹夕諾雅"
         },
         {
-          "time": "18:00",
-          "desc": "♨️ 酒店溫泉 · 休息"
+          "time": "17:00",
+          "desc": "♨️ 午後溫泉 · 或參加茶道體驗（飯店免費活動）"
         },
         {
-          "time": "19:30",
-          "desc": "🍽️ 酒店內輕懷石晚餐（預約制，¥18,000/人 · NT$8,100）"
+          "time": "19:00",
+          "desc": "🍽️ 飯店內晚餐 · 特別會席料理（¥18,000/人）"
         }
       ]
     },
     {
       "day": 4,
-      "date": "June 4 · Thu",
-      "label_zh": "移動至大阪 · 購物日",
-      "hotel_name": "Swissotel Nankai Osaka",
-      "hotel_name_zh": "瑞士南海大阪酒店 · 高級雙人房",
-      "hotel_room": "高級雙人房",
-      "weather": "☀️ 27°/20°",
-      "rain_pct": "5%",
+      "date": "6月4日 · 四",
+      "label_zh": "大阪購物日",
+      "hotel_name": "Hotel Nikko Kansai Airport",
+      "hotel_name_zh": "關西機場日航酒店",
+      "hotel_room": "標準雙人房",
+      "weather": "☁️ 26°/20°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🍽️ 酒店內日式早餐 · 退房"
+          "time": "07:00",
+          "desc": "🌅 起床 · 日式早餐"
         },
         {
-          "time": "09:00",
-          "desc": "🛶 虹夕諾雅接駁船 → 嵐山渡月橋"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚃 嵐山站 → 桂站 → 大阪梅田（阪急京都線，約40分鐘，¥640/人 · NT$288）"
+          "time": "08:30",
+          "desc": "🚃 前往大阪：從虹夕諾雅搭渡船回嵐山，步行至「嵯峨嵐山站」搭JR嵯峨野線到「京都站」（15分），轉JR東海道線到「大阪站」（30分，¥580/人）。再轉地鐵御堂筋線到「難波站」（10分，¥240/人）"
         },
         {
           "time": "10:30",
-          "desc": "🏨 抵達瑞士南海大阪酒店 · 寄放行李"
+          "desc": "🏨 行李寄放：難波車站寄物櫃（¥700/個）或飯店（若可提早入住）"
         },
         {
           "time": "11:00",
-          "desc": "🛍️ 難波高島屋百貨 · 購物（精品、化妝品）"
+          "desc": "🛍️ 心齋橋商店街 · 逛UNIQLO、GU、藥妝店"
         },
         {
-          "time": "13:00",
-          "desc": "🐙 章魚燒 わなか · 午餐（¥1,200 · NT$540）"
+          "time": "12:30",
+          "desc": "🍜 午餐：金龍拉麵（¥950/碗）· 自由軒咖哩飯（¥1,100）"
         },
         {
           "time": "14:00",
-          "desc": "🛍️ 道頓堀 · 心齋橋筋商店街 · 藥妝、服飾"
+          "desc": "🛍️ 道頓堀購物 · 唐吉訶德、大創、Bic Camera"
         },
         {
-          "time": "17:00",
-          "desc": "🏨 入住瑞士南海大阪酒店 · 休息"
+          "time": "16:00",
+          "desc": "🛍️ 難波Parks百貨 · 精品與潮流品牌"
         },
         {
-          "time": "18:30",
-          "desc": "🍜 一蘭拉麵 道頓堀店（¥1,490/人 · NT$670）"
+          "time": "18:00",
+          "desc": "🍣 晚餐：はり重壽喜燒（¥8,000/人）· 近難波站"
         },
         {
           "time": "20:00",
-          "desc": "🌃 道頓堀夜景 · 固力果跑跑人 · 唐吉訶德購物"
+          "desc": "🚃 前往關西機場：從難波站搭南海特急Rapit到關西機場（35分，¥1,450/人）"
+        },
+        {
+          "time": "21:00",
+          "desc": "🏨 入住關西機場日航酒店 · 整理行李"
         }
       ]
     },
     {
       "day": 5,
-      "date": "June 5 · Fri",
-      "label_zh": "返台日 · 早班機",
-      "hotel_name": "",
-      "hotel_name_zh": "",
-      "hotel_room": "",
-      "weather": "☀️ 26°/20°",
-      "rain_pct": "10%",
+      "date": "6月5日 · 五",
+      "label_zh": "返國日",
+      "hotel_name": "Hotel Nikko Kansai Airport",
+      "hotel_name_zh": "關西機場日航酒店",
+      "hotel_room": "標準雙人房",
+      "weather": "☀️ 25°/19°",
+      "rain_pct": "0%",
       "slots": [
         {
           "time": "05:00",
-          "desc": "⏰ 起床 · 退房"
+          "desc": "🌅 起床 · 飯店早餐（外帶便當可提前預訂）"
         },
         {
           "time": "05:30",
-          "desc": "🚃 難波站 → 關西機場（南海電鐵空港急行，45分鐘，¥930/人 · NT$418）"
+          "desc": "🏨 退房 · 步行至關西機場第一航廈"
         },
         {
-          "time": "06:15",
-          "desc": "✈️ 抵達關西機場 · 辦理登機 · 樂桃航空 MM23"
+          "time": "06:00",
+          "desc": "🛂 辦理登機 · 出境安檢"
+        },
+        {
+          "time": "06:30",
+          "desc": "🛍️ 機場免稅店最後採購 · 白色戀人、Royce、清酒"
         },
         {
           "time": "07:00",
-          "desc": "🛫 起飛回台灣"
+          "desc": "✈️ 登機 · 長榮BR179 · 07:00起飛"
         },
         {
           "time": "09:00",
-          "desc": "🛬 抵達桃園機場 · 結束浪漫旅程"
+          "desc": "🛬 抵達桃園機場TPE · 旅程結束"
         }
       ]
     }
@@ -338,15 +464,15 @@
   "costs": [
     {
       "label": "✈️ 來回機票",
-      "amount_ntd": 12000
+      "amount_ntd": 30000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 92500
+      "amount_ntd": 80000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 28000
+      "amount_ntd": 25000
     },
     {
       "label": "🎫 景點門票",
@@ -358,12 +484,82 @@
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 4000
+      "amount_ntd": 2000
     }
   ],
-  "cost_total_ntd": 149500,
-  "budget_remaining_ntd": 500,
+  "cost_total_ntd": 150000,
+  "budget_remaining_ntd": 0,
+  "photos": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1763783334029-8abdcb9b3f95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLeW90byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NDc3NzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Tall tower illuminated with red light at night"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1777648939922-8f4763039f10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLeW90byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NDc3NzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Three colorful modern sculptures with a tower in background"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1763783334029-8abdcb9b3f95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLeW90byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NDc3NzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Tall tower illuminated with red light at night"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1777648939922-8f4763039f10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLeW90byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NDc3NzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Three colorful modern sculptures with a tower in background"
+      }
+    ],
+    "destination": [
+      {
+        "url": "https://images.unsplash.com/photo-1723041521037-02d51b5320cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A group of people riding bikes down a street"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1726286680724-a7fd1fc2cafc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A building on a hill with people standing on it"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1699803010080-92bce6e4eb62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a view of a city from a distance"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1762178907271-b03ad46fdc14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Autumn trees reflect in a calm pond with hills background."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1581536762992-59613146684a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown boat on river during daytime"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1777905685903-b1cd64d07f56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Green trees in foreground with city and mountains beyond."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1723041521037-02d51b5320cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A group of people riding bikes down a street"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1726286680724-a7fd1fc2cafc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A building on a hill with people standing on it"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1699803010080-92bce6e4eb62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a view of a city from a distance"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1762178907271-b03ad46fdc14?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Autumn trees reflect in a calm pond with hills background."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1581536762992-59613146684a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown boat on river during daytime"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1777905685903-b1cd64d07f56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODQ3NzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Green trees in foreground with city and mountains beyond."
+      }
+    ]
+  },
   "chat_hash": "051d9cea04fe23a779f42de5780d63bfe1f79e6a263b5925fd93db78acbeb0e1",
   "config_hash": "47a5ef73f4142c750f797797a972bc2576ed152513dc4a8a86fd6b48ba1c3599",
-  "generated_at": "2026-05-11T13:26:56.762241"
+  "generated_at": "2026-05-11T13:35:16.632383"
 }
