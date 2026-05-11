@@ -3,8 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>Settings 設定 — Travel Planner</title>
-<link rel="stylesheet" href="templates/shared.css">
+<link rel="stylesheet" href="templates/shared.css?v=2">
 </head>
 <body>
 <nav>
@@ -15,12 +18,12 @@
 </nav>
 
 <div class="container">
-  <h2 class="section-title">⚙️ 設定 Settings</h2>
+  <h2 class="section-title">⚙️ 設定 Settings <span style="font-size:0.55rem;background:var(--gold);color:#000;padding:2px 6px;border-radius:3px;vertical-align:middle;font-family:monospace;" id="version-badge">v250511.1</span></h2>
   <p class="section-sub">修改設定後，將在下一個整點檢查時生效。</p>
   <div class="settings-grid">
     <div class="setting-group">
       <label>Year 年份</label>
-      <select id="year"><option>2026</option><option>2027</option></select>
+      <select id="year"><option>2025</option><option>2026</option><option>2027</option><option>2028</option><option>2029</option><option>2030</option></select>
     </div>
     <div class="setting-group">
       <label>Month 月份</label>
@@ -50,16 +53,26 @@
     <div class="setting-group">
       <label>Trip Length 天數</label>
       <select id="days">
-        <option value="3">3 天</option><option value="4">4 天</option>
-        <option value="5" selected>5 天</option><option value="6">6 天</option>
-        <option value="7">7 天</option><option value="9">8–10 天</option>
-        <option value="12">11–14 天</option><option value="17">15–20 天</option>
+        <option value="3-4">3–4 天</option>
+        <option value="4-5">4–5 天</option>
+        <option value="5-6" selected>5–6 天</option>
+        <option value="6-7">6–7 天</option>
+        <option value="7-9">7–9 天</option>
+        <option value="10-14">10–14 天</option>
+        <option value="15-21">15–21 天</option>
       </select>
     </div>
     <div class="setting-group">
       <label>Budget 預算 (NTD 新台幣)</label>
-      <input type="number" id="budget_ntd" value="150000" placeholder="例如 150000">
-      <div class="zh-label">預設幣別：新台幣 NTD</div>
+      <div style="display:flex;align-items:center;gap:0.75rem;flex-wrap:wrap;">
+        <input type="range" id="budget_ntd" min="50000" max="500000" step="10000" value="150000"
+               style="flex:1;min-width:180px;accent-color:var(--gold);height:6px;"
+               oninput="document.getElementById('budget_display').textContent = 'NT$ ' + Number(this.value).toLocaleString()">
+        <span id="budget_display" style="font-family:'Inter',sans-serif;font-weight:700;color:var(--gold);min-width:100px;font-size:0.95rem;">NT$ 150,000</span>
+      </div>
+      <div class="zh-label" style="display:flex;justify-content:space-between;font-size:0.7rem;">
+        <span>NT$ 50,000</span><span>NT$ 500,000</span>
+      </div>
     </div>
     <div class="setting-group">
       <label>目的地 Destination（留空 = AI 推薦）</label>
@@ -93,13 +106,7 @@ async function loadSettings() {
   if(saved) {
     try {
       const data = JSON.parse(saved);
-      document.getElementById('year').value = data.year || 2026;
-      document.getElementById('month').value = data.month || 5;
-      document.getElementById('travelers').value = data.travelers || 2;
-      document.getElementById('days').value = data.days || 5;
-      document.getElementById('budget_ntd').value = data.budget_ntd || 150000;
-      document.getElementById('destination').value = data.destination || '';
-      document.getElementById('departure').value = data.departure || 'Taiwan 台灣 (TPE)';
+      setFormValues(data);
     } catch(e) {}
   }
 
@@ -111,18 +118,24 @@ async function loadSettings() {
     const resp = await fetch('config/settings.json');
     if(resp.ok) {
       const data = await resp.json();
-      document.getElementById('year').value = data.year || 2026;
-      document.getElementById('month').value = data.month || 5;
-      document.getElementById('travelers').value = data.travelers || 2;
-      document.getElementById('days').value = data.days || 5;
-      document.getElementById('budget_ntd').value = data.budget_ntd || 150000;
-      document.getElementById('destination').value = data.destination || '';
-      document.getElementById('departure').value = data.departure || 'Taiwan 台灣 (TPE)';
+      setFormValues(data);
       // Sync to localStorage
-      localStorage.setItem('travel_settings', JSON.stringify(data));
+      const store = Object.assign({}, data);
+      localStorage.setItem('travel_settings', JSON.stringify(store));
     }
   } catch(e) {
     console.error('Failed to sync settings from GitHub:', e);
+  }
+
+  function setFormValues(data) {
+    document.getElementById('year').value = data.year || 2026;
+    document.getElementById('month').value = data.month || 5;
+    document.getElementById('travelers').value = data.travelers || 2;
+    document.getElementById('days').value = data.days || '5-6';
+    document.getElementById('budget_ntd').value = data.budget_ntd || 150000;
+    document.getElementById('budget_display').textContent = 'NT$ ' + Number(data.budget_ntd || 150000).toLocaleString();
+    document.getElementById('destination').value = data.destination || '';
+    document.getElementById('departure').value = data.departure || 'Taiwan 台灣 (TPE)';
   }
 }
 
