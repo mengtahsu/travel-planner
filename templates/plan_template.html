@@ -19,10 +19,9 @@
 
 <div class="container">
 
-  <!-- Hero -->
-  <div class="hero">
-    <img class="hero-placeholder" src="{{ plan.photos.hero[0].url }}" alt="{{ plan.destination_en }}">
-    <div class="hero-overlay">
+  <!-- Hero (text only - no stock photos) -->
+  <div class="hero" style="background:linear-gradient(135deg,#1a1a2e 0%,#3d2e1e 100%);min-height:200px;display:flex;align-items:center;justify-content:center;">
+    <div class="hero-overlay" style="position:static;text-align:center;padding:2rem;">
       <h1>{{ plan.destination_en }}</h1>
       <div class="zh-title">{{ plan.title_zh }}</div>
       <div class="hero-stats">
@@ -30,15 +29,6 @@
         <span>👥 {{ plan.travelers }} 人</span>
         <span>💰 NT${{ plan.budget_ntd | format_number }}</span>
       </div>
-    </div>
-  </div>
-
-  <!-- Destination image slider -->
-  <div class="slider">
-    <div class="slider-track">
-      {% for photo in plan.photos.destination %}
-      <img src="{{ photo.url }}" alt="{{ photo.label }}">
-      {% endfor %}
     </div>
   </div>
 
@@ -102,14 +92,11 @@
         {{ hotel.stars }} · {{ hotel.room_type }} · {{ hotel.breakfast }}<br>
         {{ hotel.amenities }}
       </div>
-      <!-- Hotel photo gallery -->
-      <div class="slider" style="margin-bottom:0.25rem;">
-        <div class="slider-track">
-          {% for photo in hotel.photos %}
-          <img src="{{ photo.url }}" alt="{{ photo.label }}">
-          {% endfor %}
-        </div>
-      </div>
+      <!-- Hotel photo link -->
+      <a href="https://www.google.com/search?tbm=isch&q={{ (hotel.name + ' ' + hotel.district) | urlencode }}" target="_blank"
+         style="display:inline-block;margin-top:0.5rem;padding:6px 12px;background:var(--gold);color:#000;border-radius:6px;font-size:0.8rem;text-decoration:none;font-weight:600;">
+        📷 View real photos of {{ hotel.name }}
+      </a>
     </div>
     {% endfor %}
   </div>
@@ -134,7 +121,6 @@
       <div class="dining-grid">
         {% for r in plan.restaurants[cat_key] %}
         <div class="dining-card">
-          <img class="food-img" src="{{ r.photos[0].url if r.photos else '' }}" alt="{{ r.name }}">
           <div class="dining-info">
             <h4>{{ r.name }}</h4>
             <div class="zh-name">{{ r.name_zh }}{% if r.stars %} · {{ r.stars }}{% endif %}</div>
@@ -144,14 +130,11 @@
               💰 {{ r.price_label }}<br>
               🕐 {{ r.hours }}
             </div>
+            <a href="https://www.google.com/search?tbm=isch&q={{ (r.name + ' restaurant food') | urlencode }}" target="_blank"
+               style="display:inline-block;margin-top:0.5rem;font-size:0.75rem;color:var(--gold);text-decoration:none;border-bottom:1px dotted var(--gold);">
+              📷 View real photos of {{ r.name }}
+            </a>
           </div>
-          {% if r.photos and r.photos | length > 1 %}
-          <div class="food-thumbs">
-            {% for p in r.photos[1:3] %}
-            <img src="{{ p.url }}" alt="{{ p.label }}">
-            {% endfor %}
-          </div>
-          {% endif %}
         </div>
         {% endfor %}
       </div>
@@ -159,18 +142,6 @@
     {% endif %}
     {% endfor %}
 
-    <!-- Food image slider -->
-    <div class="slider" style="margin-top:1rem;">
-      <div class="slider-track">
-        {% for cat_key in ['fine_dining', 'bistros', 'cafes'] %}
-        {% for r in plan.restaurants[cat_key] %}
-        {% for p in r.photos[:2] %}
-        <img src="{{ p.url }}" alt="{{ p.label }}">
-        {% endfor %}
-        {% endfor %}
-        {% endfor %}
-      </div>
-    </div>
   </div>
 
   <!-- 📅 DAY BY DAY -->
