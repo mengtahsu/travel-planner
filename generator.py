@@ -377,13 +377,26 @@ def resolve_all_photos(plan):
     }
 
     for hotel in plan.get("hotels", []):
-        q = hotel.get("search_query", f"{hotel.get('name','')} {city}")
-        hotel["photos"] = search_unsplash(q, 6)
+        name = hotel.get("name", "")
+        q = hotel.get("search_query", f"{name} {city}")
+        photos = search_unsplash(q, 6)
+        # Fallback: if no results, try broader hotel search
+        if not photos or not photos[0]["url"]:
+            photos = search_unsplash(f"luxury hotel {city}", 6)
+        hotel["photos"] = photos
 
     for category in ["fine_dining", "bistros", "cafes"]:
         for r in plan.get("restaurants", {}).get(category, []):
-            q = r.get("search_query", r.get("name", ""))
-            r["photos"] = search_unsplash(q, 3)
+            name = r.get("name", "")
+            q = r.get("search_query", f"{name} {city}")
+            photos = search_unsplash(q, 3)
+            # Fallback: if no results, try broader food/category search
+            if not photos or not photos[0]["url"]:
+                if category == "cafes":
+                    photos = search_unsplash(f"cafe coffee {city}", 3)
+                else:
+                    photos = search_unsplash(f"{category.replace('_',' ')} food {city}", 3)
+            r["photos"] = photos
 
     return plan
 
