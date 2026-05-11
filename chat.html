@@ -19,11 +19,11 @@
 
 <div class="container">
   <h2 class="section-title">💬 聊聊 Chat <span style="font-size:0.55rem;background:var(--gold);color:#000;padding:2px 6px;border-radius:3px;vertical-align:middle;font-family:monospace;">v250511.2</span></h2>
-  <p class="section-sub">你在這裡寫下的修改建議，將在<strong>下一個整點</strong>自動套用，重新生成主頁。</p>
+  <p class="section-sub">你在這裡寫下的修改建議，將在<strong>排程時間</strong>自動套用，重新生成主頁。</p>
   <div class="chat-box">
     <div class="chat-date-label" id="date-label">📅 編輯計畫：...</div>
     <div style="background:rgba(201,168,76,0.08);border-radius:8px;padding:0.75rem 1rem;margin-bottom:1rem;font-size:0.85rem;line-height:1.6;">
-      ⏱️ <strong>每小時自動檢查</strong>：若你修改了此內容並儲存，系統將在下一個整點（如 15:00、16:00...）自動重新生成主頁。<br>
+      ⏱️ <strong>每10分鐘自動檢查</strong>：若你修改了此內容並儲存，系統將在排程時間自動重新生成主頁。<br>
       🏆 <strong>優先級</strong>：Chat 永遠優先於 Settings · 你在這裡寫的一切都會覆蓋設定頁的預設值。<br>
       🛡️ <strong>無修改不觸發</strong>：若內容未變，保留原計畫不動，不消耗 AI 額度。
     </div>
@@ -40,8 +40,7 @@
 
 你寫的內容會完整保留，AI 一次處理所有建議。（上限 2000 字）"></textarea>
     <div style="display:flex;justify-content:space-between;align-items:center;margin-top:0.5rem;flex-wrap:wrap;gap:0.5rem;">
-      <p class="chat-hint" style="margin-top:0;">✏️ 隨時回來編輯 · 下個整點自動套用 · 無修改不觸發 · 上限 2000 字</p>
-      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--gold);" id="next-check">下次檢查：...</span>
+      <p class="chat-hint" style="margin-top:0;">✏️ 隨時回來編輯 · 排程自動套用 · 無修改不觸發 · 上限 2000 字</p>
     </div>
     <div style="font-size:0.7rem;margin-top:0.4rem;" id="token-status"></div>
     <button class="save-btn" style="margin-top:0.75rem;" onclick="saveChat()">💾 儲存修改 Save Notes</button>
@@ -56,16 +55,9 @@ function getTodayKey() {
   return new Date().toISOString().split('T')[0];
 }
 
-function getNextHour() {
-  const now = new Date();
-  now.setHours(now.getHours() + 1, 0, 0, 0);
-  return now.toTimeString().slice(0,5);
-}
-
 async function loadChat() {
   const key = getTodayKey();
   document.getElementById('date-label').textContent = `📅 編輯計畫：${key}`;
-  document.getElementById('next-check').textContent = `下次檢查：${getNextHour()}`;
 
   // Token status indicator
   const tok = localStorage.getItem('github_chat_token');
@@ -167,7 +159,7 @@ async function saveChat() {
     });
 
     if(resp.ok) {
-      alert('✅ 已儲存！將在 ' + getNextHour() + ' 自動套用修改。');
+      alert('✅ 已儲存！將在排程時間自動套用修改。');
     } else {
       const body = await resp.text();
       if(resp.status === 401) {

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Travel Planner Generator — runs hourly, generates index.html from AI + Unsplash."""
+"""Travel Planner Generator — scheduled runs, generates index.html from AI + Unsplash."""
 
 import json
 import hashlib
