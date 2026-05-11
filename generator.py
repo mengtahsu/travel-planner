@@ -470,6 +470,10 @@ def push_via_api(today_key):
     for html_file in ROOT.glob("*.html"):
         files_to_push[html_file.name] = html_file
 
+    # Push run log
+    if RUNS_LOG.exists():
+        files_to_push["data/runs.json"] = RUNS_LOG
+
     owner = "mengtahsu"
     repo = "travel-planner"
     headers = {
@@ -510,18 +514,50 @@ def push_via_api(today_key):
 
 
 # ═══════════════════════════════════════════════════════════════
+# Run logging
+# ═══════════════════════════════════════════════════════════════
+
+RUNS_LOG = ROOT / "data" / "runs.json"
+
+def log_run(status, summary="", destination="", chat_chars=0):
+    """Append a run entry to runs.json (keeps last 90 days)."""
+    runs = []
+    if RUNS_LOG.exists():
+        try:
+            runs = json.loads(RUNS_LOG.read_text(encoding="utf-8"))
+        except Exception:
+            runs = []
+
+    entry = {
+        "ts": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "status": status,
+        "summary": summary,
+        "destination": destination,
+        "chat_chars": chat_chars
+    }
+    runs.insert(0, entry)
+
+    # Keep last 90 days
+    cutoff = (datetime.now() - timedelta(days=90)).strftime("%Y-%m-%d")
+    runs = [r for r in runs if r["ts"][:10] >= cutoff]
+
+    RUNS_LOG.write_text(json.dumps(runs, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+# ═══════════════════════════════════════════════════════════════
 # Main flow
 # ═══════════════════════════════════════════════════════════════
 
 def main():
     def progress(pct, msg):
-        bar = "█" * (pct // 4) + "░" * (25 - pct // 4)
+        filled = pct // 4
+        bar = "#" * filled + "-" * (25 - filled)
         print(f"[{bar}] {pct:3d}%  {msg}", flush=True)
 
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"\n{'═'*60}")
+    print(f"\n{'='*60}")
     print(f"[{ts}] Travel Planner Generator")
-    print(f"{'═'*60}")
+    print(f"{'='*60}")
 
     progress(5, "Loading config...")
     config = load_config()
@@ -535,7 +571,8 @@ def main():
 
     if not changed and plan_exists:
         progress(100, "No changes — skipping generation.")
-        print(f"{'═'*60}\n")
+        log_run("skipped", "No changes detected")
+        print(f"{'='*60}\n")
         return
 
     print(f"        {'First run today!' if not plan_exists else 'Changes detected — regenerating...'}")
@@ -575,12 +612,18 @@ def main():
     progress(95, "Rendering HTML...")
     render_html(plan)
 
+    # Log this run
+    log_run("generated",
+            summary=plan.get("title_zh", ""),
+            destination=plan.get("destination_en", ""),
+            chat_chars=len(chat_text))
+
     # Push to GitHub
     progress(98, "Pushing to GitHub...")
     push_via_api(today)
 
     progress(100, "Done!")
-    print(f"{'═'*60}\n")
+    print(f"{'='*60}\n")
 
 
 if __name__ == "__main__":
