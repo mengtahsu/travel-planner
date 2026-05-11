@@ -55,12 +55,12 @@ async function loadLogs() {
     }
   } catch(e) {}
 
-  // 2. Load plan summaries (past plans)
+  // 2. Load recent plan summaries (last 7 days, stop after 3 found)
   const today = new Date();
-  let found = false;
+  let planCount = 0;
   let planHtml = '';
 
-  for(let i = 0; i < 30; i++) {
+  for(let i = 0; i < 7 && planCount < 3; i++) {
     const d = new Date(today);
     d.setDate(d.getDate() - i);
     const key = d.toISOString().split('T')[0];
@@ -68,7 +68,7 @@ async function loadLogs() {
       const resp = await fetch(`data/plans/${key}.json`);
       if(!resp.ok) continue;
       const plan = await resp.json();
-      found = true;
+      planCount++;
 
       const hasChat = plan.chat_hash && plan.chat_hash.length > 0;
       const statusText = hasChat ? 'Chat modified' : 'Auto generated';
@@ -89,8 +89,8 @@ async function loadLogs() {
     }
   }
 
-  if(found) {
-    html += '<h3 style="margin-top:1.5rem;margin-bottom:0.5rem;color:var(--gold);">Generated Plans</h3>';
+  if(planCount > 0) {
+    html += '<h3 style="margin-top:1.5rem;margin-bottom:0.5rem;color:var(--gold);">Recent Plans</h3>';
     html += planHtml;
   }
 
