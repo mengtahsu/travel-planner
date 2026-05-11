@@ -18,7 +18,7 @@
 </nav>
 
 <div class="container">
-  <h2 class="section-title">📋 研究日誌 Log <span style="font-size:0.55rem;background:var(--gold);color:#000;padding:2px 6px;border-radius:3px;vertical-align:middle;font-family:monospace;">v250511.1</span></h2>
+  <h2 class="section-title">📋 研究日誌 Log <span style="font-size:0.55rem;background:var(--gold);color:#000;padding:2px 6px;border-radius:3px;vertical-align:middle;font-family:monospace;">v250511.2</span></h2>
   <p class="section-sub">查看每日 AI 生成進度與過往計畫記錄。</p>
   <div id="log-entries"></div>
 </div>
@@ -27,8 +27,38 @@
 <script>
 async function loadLogs() {
   const container = document.getElementById('log-entries');
+  let html = '';
+
+  // 1. Load run history from runs.json (every generator execution)
+  try {
+    const resp = await fetch('data/runs.json');
+    if(resp.ok) {
+      const runs = await resp.json();
+      if(runs.length > 0) {
+        html += '<h3 style="margin-top:1rem;margin-bottom:0.5rem;color:var(--gold);">Run History</h3>';
+        html += '<table style="width:100%;font-size:0.8rem;border-collapse:collapse;">';
+        html += '<tr style="color:var(--warm-gray);border-bottom:1px solid rgba(255,255,255,0.1);"><th style="text-align:left;padding:4px 8px;">Time</th><th style="text-align:left;padding:4px 8px;">Status</th><th style="text-align:left;padding:4px 8px;">Destination</th><th style="text-align:left;padding:4px 8px;">Chat</th></tr>';
+        for(const r of runs.slice(0, 50)) {
+          const statusEmoji = r.status === 'skipped' ? '⏭️' : '✨';
+          const statusLabel = r.status === 'skipped' ? 'Skipped' : 'Generated';
+          const dest = r.destination || '-';
+          const chat = r.chat_chars > 0 ? r.chat_chars + ' chars' : '-';
+          html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+            <td style="padding:4px 8px;">${r.ts}</td>
+            <td style="padding:4px 8px;">${statusEmoji} ${statusLabel}</td>
+            <td style="padding:4px 8px;">${dest}</td>
+            <td style="padding:4px 8px;">${chat}</td>
+          </tr>`;
+        }
+        html += '</table>';
+      }
+    }
+  } catch(e) {}
+
+  // 2. Load plan summaries (past plans)
   const today = new Date();
   let found = false;
+  let planHtml = '';
 
   for(let i = 0; i < 30; i++) {
     const d = new Date(today);
@@ -40,31 +70,35 @@ async function loadLogs() {
       const plan = await resp.json();
       found = true;
 
-      const hasChat = plan.chat_hash && plan.chat_hash.length > 0 && plan.chat_hash !== '';
-      const statusClass = hasChat ? 'chatting' : 'generated';
-      const statusText = hasChat ? '聊天修改' : '已生成';
+      const hasChat = plan.chat_hash && plan.chat_hash.length > 0;
+      const statusText = hasChat ? 'Chat modified' : 'Auto generated';
+      const days = typeof plan.days === 'string' ? plan.days : (plan.days + ' days');
 
-      const entry = document.createElement('div');
-      entry.className = 'log-entry';
-      entry.innerHTML = `
+      planHtml += `<div class="log-entry">
         <span class="log-date">${key}</span>
-        <span class="log-status ${statusClass}">${statusText}</span>
+        <span class="log-status ${hasChat ? 'chatting' : 'generated'}">${statusText}</span>
         <p style="margin-top:0.4rem;font-size:0.85rem;">
-          ✨ 生成 ${plan.days || '?'} 天 ${plan.destination_en || ''} 計畫
-          · 花費 NT$${(plan.cost_total_ntd || 0).toLocaleString()}/${(plan.budget_ntd || 0).toLocaleString()}
+          ${plan.destination_en || '?'} - ${plan.title_zh || ''}
+          · ${days}
+          · NT$${(plan.cost_total_ntd || 0).toLocaleString()}
           · ${plan.flight?.airline || ''}
-          · ${(plan.hotels || []).length} 間飯店
         </p>
-      `;
-      container.appendChild(entry);
+      </div>`;
     } catch(e) {
       // Skip missing/corrupt files
     }
   }
 
-  if(!found) {
-    container.innerHTML = '<p style="color:var(--warm-gray);font-family:\'Noto Serif TC\',serif;">尚無紀錄。等待首次生成...</p>';
+  if(found) {
+    html += '<h3 style="margin-top:1.5rem;margin-bottom:0.5rem;color:var(--gold);">Generated Plans</h3>';
+    html += planHtml;
   }
+
+  if(!html) {
+    html = '<p style="color:var(--warm-gray);font-family:\'Noto Serif TC\',serif;">No records yet. Waiting for first run...</p>';
+  }
+
+  container.innerHTML = html;
 }
 
 loadLogs();
