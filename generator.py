@@ -27,6 +27,7 @@ def _load_key(filename, env_name):
     return os.environ.get(env_name, "")
 
 DEEPSEEK_API_KEY = _load_key("deep_seek_api_key.txt", "DEEPSEEK_API_KEY")
+UNSPLASH_ACCESS_KEY = _load_key("unsplash_access_key.txt", "UNSPLASH_ACCESS_KEY")
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -340,6 +341,54 @@ def call_ai(prompt):
 
 
 # ═══════════════════════════════════════════════════════════════
+# Unsplash photo resolution (for atmosphere/visual appeal)
+# ═══════════════════════════════════════════════════════════════
+
+def search_unsplash(query, count=4):
+    if not UNSPLASH_ACCESS_KEY:
+        return [{"url": "", "label": query}] * max(count, 1)
+    try:
+        resp = requests.get(
+            "https://api.unsplash.com/search/photos",
+            params={"query": query, "per_page": count, "orientation": "landscape"},
+            headers={"Authorization": f"Client-ID {UNSPLASH_ACCESS_KEY}"},
+            timeout=10
+        )
+        resp.raise_for_status()
+        results = resp.json().get("results", [])
+        photos = [{"url": r["urls"]["regular"] + "&w=400&h=300&fit=crop", "label": r.get("alt_description", query)} for r in results]
+        if not photos:
+            return [{"url": "", "label": query}] * max(count, 1)
+        if len(photos) < count * 2:
+            photos = photos + photos
+        return photos
+    except Exception as e:
+        print(f"        Unsplash: {e}")
+        return [{"url": "", "label": query}] * max(count, 1)
+
+
+def resolve_all_photos(plan):
+    dest = plan.get("destination_en", "travel")
+    city = dest.split(",")[0].strip()
+
+    plan["photos"] = {
+        "hero": search_unsplash(f"{city} skyline landmark", 2),
+        "destination": search_unsplash(f"{city} travel scenery", 6),
+    }
+
+    for hotel in plan.get("hotels", []):
+        q = hotel.get("search_query", f"{hotel.get('name','')} {city}")
+        hotel["photos"] = search_unsplash(q, 6)
+
+    for category in ["fine_dining", "bistros", "cafes"]:
+        for r in plan.get("restaurants", {}).get(category, []):
+            q = r.get("search_query", r.get("name", ""))
+            r["photos"] = search_unsplash(q, 3)
+
+    return plan
+
+
+# ═══════════════════════════════════════════════════════════════
 # HTML rendering + URL building
 # ═══════════════════════════════════════════════════════════════
 
@@ -518,12 +567,19 @@ def main():
     progress(65, "AI response received!")
     print(f"        Destination: {plan.get('destination_en')} — {plan.get('title_zh')}")
 
+    # Resolve photos from Unsplash (atmosphere/visual appeal)
+    progress(70, "Fetching atmosphere photos...")
+    plan = resolve_all_photos(plan)
+    hotel_pics = sum(1 for h in plan.get("hotels", []) for p in h.get("photos", []) if p["url"])
+    rest_pics = sum(1 for cat in plan.get("restaurants", {}).values() for r in cat for p in r.get("photos", []) if p["url"])
+    progress(80, f"Photos: {hotel_pics} hotel + {rest_pics} restaurant")
+
     # Save plan JSON
-    progress(70, "Saving plan JSON...")
+    progress(85, "Saving plan JSON...")
     save_plan_json(today, plan, chat_hash, config_hash)
 
     # Render HTML
-    progress(75, "Rendering HTML...")
+    progress(90, "Rendering HTML...")
     render_html(plan)
 
     # Log this run
