@@ -1,22 +1,22 @@
 {
   "destination_en": "Kyoto, Japan",
-  "title_zh": "六月京都 · 浪漫四日之旅",
-  "date_range": "2026/06/01–06/04",
+  "title_zh": "京都嵐山 · 六月浪漫五日遊",
+  "date_range": "2026/06/01–06/05",
   "start_date": "2026-06-01",
-  "end_date": "2026-06-04",
+  "end_date": "2026-06-05",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
   "destination_code": "KIX",
   "travelers": 2,
-  "days": 4,
-  "budget_ntd": 150000,
+  "days": 5,
+  "budget_ntd": 140000,
   "flight": {
-    "airline": "長榮航空 EVA Air",
+    "airline": "中華航空 China Airlines",
     "departure_date": "6月1日",
-    "return_date": "6月4日",
-    "total_price_ntd": 32000,
+    "return_date": "6月5日",
+    "total_price_ntd": 24000,
     "outbound": {
-      "flight_no": "BR 132",
+      "flight_no": "CI 156",
       "route": "TPE → KIX 直飛",
       "depart_time": "08:30",
       "arrive_time": "12:10",
@@ -24,138 +24,90 @@
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "BR 131",
+      "flight_no": "CI 157",
       "route": "KIX → TPE 直飛",
-      "depart_time": "13:10",
-      "arrive_time": "15:00",
-      "duration": "2h 50m",
+      "depart_time": "13:20",
+      "arrive_time": "15:30",
+      "duration": "3h 10m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "The Ritz-Carlton Kyoto",
-      "name_zh": "京都麗思卡爾頓酒店",
-      "district": "中京區 · 鴨川畔",
+      "name": "Matsui Honkan",
+      "name_zh": "松井本館",
+      "district": "京都四条河原町",
       "day_range": "1–2",
       "nights": 2,
-      "price_ntd": 52000,
-      "stars": "★★★★★",
-      "room_type": "豪華河景雙人房",
-      "breakfast": "含日式/西式自助早餐",
-      "amenities": "🏊 室內泳池 · 💆 SPA · 🍽️ 米其林餐廳 · 🌸 日式庭園",
-      "search_query": "The Ritz-Carlton Kyoto hotel",
+      "price_ntd": 18000,
+      "stars": "★★★★☆",
+      "room_type": "日式雙人房（含早餐）",
+      "breakfast": "含日式早餐",
+      "amenities": "♨️ 大浴場 · 🍵 迎賓抹茶 · 🏯 傳統町屋風格",
+      "search_query": "Matsui Honkan Kyoto Japan",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1600872479434-429ffb4e4ec4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "pink and black umbrella near brown wooden fence"
+          "url": "",
+          "label": "boutique Matsui Kyoto hotel room"
         },
         {
-          "url": "https://images.unsplash.com/flagged/photo-1565080636132-56952ee2861c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "woman siting inside room"
+          "url": "",
+          "label": "boutique Matsui Kyoto hotel room"
         },
         {
-          "url": "https://images.unsplash.com/photo-1742868111133-b686090414db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A cozy, dark room with dimly lit decoration."
+          "url": "",
+          "label": "boutique Matsui Kyoto hotel room"
         },
         {
-          "url": "https://images.unsplash.com/photo-1739076184852-3efa0996e71a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A room with a chair and a window in it"
+          "url": "",
+          "label": "boutique Matsui Kyoto hotel room"
         },
         {
-          "url": "https://images.unsplash.com/photo-1669711671802-7efa7074bd3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "umbrellas in a garden"
+          "url": "",
+          "label": "boutique Matsui Kyoto hotel room"
         },
         {
-          "url": "https://images.unsplash.com/photo-1771030667899-e7a6938b2e81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Traditional japanese hallway with sliding doors and wooden railings"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1600872479434-429ffb4e4ec4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "pink and black umbrella near brown wooden fence"
-        },
-        {
-          "url": "https://images.unsplash.com/flagged/photo-1565080636132-56952ee2861c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "woman siting inside room"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1742868111133-b686090414db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A cozy, dark room with dimly lit decoration."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1739076184852-3efa0996e71a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A room with a chair and a window in it"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1669711671802-7efa7074bd3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "umbrellas in a garden"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1771030667899-e7a6938b2e81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBUaGUlMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Traditional japanese hallway with sliding doors and wooden railings"
+          "url": "",
+          "label": "boutique Matsui Kyoto hotel room"
         }
       ]
     },
     {
-      "name": "Hoshinoya Kyoto",
-      "name_zh": "星野京都 · 嵐山",
-      "district": "嵐山 · 桂川畔",
-      "day_range": "3–4",
-      "nights": 2,
-      "price_ntd": 56000,
+      "name": "Suiran, a Luxury Collection Hotel, Kyoto",
+      "name_zh": "京都翠嵐豪華精選酒店",
+      "district": "嵐山",
+      "day_range": "3–5",
+      "nights": 3,
+      "price_ntd": 72000,
       "stars": "★★★★★",
-      "room_type": "水邊雙人房",
-      "breakfast": "含精緻和式朝食",
-      "amenities": "🛶 接駁船 · ♨️ 露天風呂 · 🍵 茶室 · 🎋 竹林小徑",
-      "search_query": "Hoshinoya Kyoto hotel",
+      "room_type": "豪華河景房（含早餐）",
+      "breakfast": "含日式/西式早餐",
+      "amenities": "♨️ 溫泉 · 🌳 嵐山竹林景觀 · 🍽️ 米其林餐廳 · 🛶 渡月橋旁",
+      "search_query": "Suiran Luxury Collection Hotel Kyoto",
       "photos": [
         {
-          "url": "https://images.unsplash.com/flagged/photo-1565080636132-56952ee2861c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "woman siting inside room"
+          "url": "",
+          "label": "luxury Suiran, Kyoto hotel suite spa"
         },
         {
-          "url": "https://images.unsplash.com/photo-1739076184852-3efa0996e71a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A room with a chair and a window in it"
+          "url": "",
+          "label": "luxury Suiran, Kyoto hotel suite spa"
         },
         {
-          "url": "https://images.unsplash.com/photo-1771030667899-e7a6938b2e81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Traditional japanese hallway with sliding doors and wooden railings"
+          "url": "",
+          "label": "luxury Suiran, Kyoto hotel suite spa"
         },
         {
-          "url": "https://images.unsplash.com/photo-1631336682619-0dce5d3b596b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white wooden framed glass window"
+          "url": "",
+          "label": "luxury Suiran, Kyoto hotel suite spa"
         },
         {
-          "url": "https://images.unsplash.com/photo-1740532603749-189c539fb6b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A room with a bed and a table with a box of food on it"
+          "url": "",
+          "label": "luxury Suiran, Kyoto hotel suite spa"
         },
         {
-          "url": "https://images.unsplash.com/photo-1771030669954-a02e803c68a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Traditional japanese kitchen with shoji screens"
-        },
-        {
-          "url": "https://images.unsplash.com/flagged/photo-1565080636132-56952ee2861c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "woman siting inside room"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1739076184852-3efa0996e71a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A room with a chair and a window in it"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1771030667899-e7a6938b2e81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Traditional japanese hallway with sliding doors and wooden railings"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1631336682619-0dce5d3b596b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white wooden framed glass window"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1740532603749-189c539fb6b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A room with a bed and a table with a box of food on it"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1771030669954-a02e803c68a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBIb3NoaW5veWElMjBLeW90byUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3MDIwN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Traditional japanese kitchen with shoji screens"
+          "url": "",
+          "label": "luxury Suiran, Kyoto hotel suite spa"
         }
       ]
     }
@@ -163,15 +115,15 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Kikunoi Honten",
-        "name_zh": "菊乃井本店 · 米其林三星懷石",
+        "name": "Kikunoi",
+        "name_zh": "菊乃井 · 米其林三星懷石",
         "stars": "⭐⭐⭐",
-        "dish": "🦐 招牌：海膽鮑魚蒸 · 季節旬菜",
-        "address": "東山區下河原通",
-        "price_ntd": 16000,
-        "price_label": "晚餐懷石 ¥36,000/人 · NT$16,000",
-        "hours": "12:00–13:00 / 17:00–19:00 · 需預約",
-        "search_query": "Kikunoi Honten Kyoto",
+        "dish": "🍣 招牌：季節懷石料理（午餐）",
+        "address": "459 Shimokawaracho, Higashiyama Ward",
+        "price_ntd": 8800,
+        "price_label": "午餐懷石 ¥19,800/人 · NT$8,800",
+        "hours": "12:00–15:00 · 需預約",
+        "search_query": "Kikunoi Kyoto restaurant",
         "photos": [
           {
             "url": "https://images.unsplash.com/photo-1752552750868-b0b57e545e35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLeW90byUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDcwMjA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
@@ -202,15 +154,15 @@
     ],
     "bistros": [
       {
-        "name": "Gion Karyo",
-        "name_zh": "祇園花鄉 · 創作和食",
-        "stars": "",
-        "dish": "🍣 招牌：炙燒鮭魚壽司 · 抹茶蕎麥麵",
-        "address": "祇園町南側",
-        "price_ntd": 4500,
-        "price_label": "晚餐套餐 ¥10,000/人 · NT$4,500",
+        "name": "Otsuka",
+        "name_zh": "おおつか · 京都家庭料理",
+        "stars": "⭐",
+        "dish": "🍜 招牌：京風おでん（關東煮）",
+        "address": "〒616-8385 京都府京都市右京区嵯峨天龍寺芒ノ馬場町",
+        "price_ntd": 1800,
+        "price_label": "晚餐套餐 ¥4,000/人 · NT$1,800",
         "hours": "17:00–22:00",
-        "search_query": "Gion Karyo restaurant Kyoto",
+        "search_query": "Otsuka Arashiyama Kyoto",
         "photos": [
           {
             "url": "",
@@ -230,14 +182,14 @@
     "cafes": [
       {
         "name": "% Arabica Kyoto Arashiyama",
-        "name_zh": "% Arabica 嵐山店 · 網紅咖啡",
+        "name_zh": "% Arabica 嵐山店",
         "stars": "",
         "dish": "☕ 招牌：拿鐵 · 抹茶拿鐵 · 可頌",
-        "address": "右京區嵯峨天龍寺芒之馬場町",
-        "price_ntd": 600,
-        "price_label": "兩人咖啡 ¥1,300 · NT$600",
-        "hours": "08:00–18:00 · 嵐山渡月橋旁",
-        "search_query": "% Arabica Kyoto Arashiyama",
+        "address": "3-47 Sagatenryuji Susukinobabacho, Ukyo Ward",
+        "price_ntd": 450,
+        "price_label": "兩杯飲品 ¥1,000 · NT$450",
+        "hours": "08:00–18:00 · 渡月橋畔",
+        "search_query": "Arabica Arashiyama Kyoto",
         "photos": [
           {
             "url": "https://images.unsplash.com/photo-1707126186318-a3dde00d600e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHwlMjUlMjBBcmFiaWNhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwY2FmZSUyMGNvZmZlZSUyMEt5b3RvJTIwZGVzc2VydHxlbnwwfDB8fHwxNzc4NDcwMjEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
@@ -270,217 +222,237 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "June 1 · Mon",
-      "label_zh": "抵達日 · 探索京都",
-      "hotel_name": "The Ritz-Carlton Kyoto",
-      "hotel_name_zh": "京都麗思卡爾頓酒店 · 豪華河景雙人房",
-      "hotel_room": "豪華河景雙人房",
-      "weather": "⛅ 26°/18°",
-      "rain_pct": "20%",
+      "date": "Jun 1 · Mon",
+      "label_zh": "抵達京都 · 河原町漫步",
+      "hotel_name": "Matsui Honkan",
+      "hotel_name_zh": "松井本館",
+      "hotel_room": "日式雙人房",
+      "weather": "☁️ 26°/19°",
+      "rain_pct": "30%",
       "slots": [
         {
           "time": "08:30",
-          "desc": "✈️ 桃園機場 TPE 出發 · 長榮 BR132 · 08:30→12:10"
+          "desc": "✈️ 桃園機場 TPE 出發 · 中華航空 CI156"
         },
         {
           "time": "12:10",
-          "desc": "🛬 抵達關西機場 KIX · 入境通關 · 購買 ICOCA 卡"
+          "desc": "🛬 抵達關西機場 KIX · 購買 ICOCA 卡 · 搭乘 Haruka 特急至京都站（約75分鐘）"
         },
         {
-          "time": "13:30",
-          "desc": "🚄 搭乘 Haruka 特急列車 往京都站 · 約75分鐘"
+          "time": "14:00",
+          "desc": "🏨 松井本館 Check-in · 迎賓抹茶 · 稍作休息"
         },
         {
-          "time": "15:00",
-          "desc": "🏨 入住 The Ritz-Carlton Kyoto · 鴨川畔 · 豪華河景房"
+          "time": "15:30",
+          "desc": "🚶 散步至錦市場 · 品嚐京漬物、豆乳甜甜圈"
         },
         {
-          "time": "16:30",
-          "desc": "🚶 散步至錦市場 · 體驗京都廚房 · 品嚐小食"
+          "time": "17:00",
+          "desc": "⛩️ 八坂神社 · 祇園花見小路散策"
         },
         {
           "time": "18:30",
-          "desc": "🍽️ 晚餐：祇園花鄉 Gion Karyo · 創作和食套餐"
+          "desc": "🍜 晚餐：おおつか · 京風おでん"
         },
         {
           "time": "20:00",
-          "desc": "🌙 夜遊祇園 · 花見小路 · 運氣好可遇藝伎"
+          "desc": "♨️ 返回松井本館 · 大浴場泡湯 · 休息"
         },
         {
-          "time": "21:00",
-          "desc": "♨️ 返回酒店 · 享受 SPA 或泳池"
-        },
-        {
-          "time": "22:00",
-          "desc": "🛌 酒店休息 · 明天早起"
+          "time": "21:30",
+          "desc": "🌙 睡前散步至鴨川 · 欣賞納涼床夜景"
         }
       ]
     },
     {
       "day": 2,
-      "date": "June 2 · Tue",
-      "label_zh": "文化洗禮 · 清水寺 & 和服體驗",
-      "hotel_name": "The Ritz-Carlton Kyoto",
-      "hotel_name_zh": "京都麗思卡爾頓酒店 · 豪華河景雙人房",
-      "hotel_room": "豪華河景雙人房",
-      "weather": "☀️ 28°/19°",
-      "rain_pct": "10%",
+      "date": "Jun 2 · Tue",
+      "label_zh": "清水寺 · 和服體驗",
+      "hotel_name": "Matsui Honkan",
+      "hotel_name_zh": "松井本館",
+      "hotel_room": "日式雙人房",
+      "weather": "⛅ 27°/20°",
+      "rain_pct": "20%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🥐 酒店早餐 · 日式/西式自助 · 鴨川景觀"
+          "desc": "🍵 松井本館日式早餐 · 烤魚、味噌湯、漬物"
         },
         {
-          "time": "08:30",
-          "desc": "🎎 前往清水寺 · 租借和服（預約：夢館和服）"
+          "time": "09:00",
+          "desc": "👘 前往「夢館」和服租借 · 選擇夏季浴衣（約1小時）"
         },
         {
-          "time": "09:30",
-          "desc": "⛩️ 清水寺 · 地主神社 · 音羽瀑布"
+          "time": "10:30",
+          "desc": "⛩️ 清水寺 · 地主神社戀愛石 · 音羽之瀧"
         },
         {
-          "time": "11:00",
-          "desc": "🚶 散步二年坂、三年坂 · 買抹茶冰淇淋"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍜 午餐：祇園名代 · 豬排飯或和式定食"
+          "time": "12:00",
+          "desc": "🍦 二年坂、三年坂散步 · 抹茶冰淇淋 · 午餐：京料理 ひさご（親子丼）"
         },
         {
           "time": "14:00",
-          "desc": "🌳 哲學之道 · 從若王子橋走到銀閣寺"
+          "desc": "🌳 哲学之道散步（若紫陽花盛開更美）"
         },
         {
-          "time": "15:30",
-          "desc": "🏯 銀閣寺 · 枯山水庭園"
+          "time": "16:00",
+          "desc": "🛍️ 返回和服店歸還 · 逛河原町商圈"
         },
         {
-          "time": "17:00",
-          "desc": "👘 歸還和服 · 回酒店稍作休息"
+          "time": "18:00",
+          "desc": "🍣 晚餐：菊乃井 · 米其林三星懷石料理（需預約）"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 晚餐：菊乃井本店 Kikunoi Honten · 米其林三星懷石"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 鴨川河畔散步 · 欣賞納涼床"
-        },
-        {
-          "time": "22:00",
-          "desc": "🛌 酒店休息"
+          "time": "20:30",
+          "desc": "🌙 回松井本館 · 大浴場泡湯 · 整理行李準備隔日換宿"
         }
       ]
     },
     {
       "day": 3,
-      "date": "June 3 · Wed",
-      "label_zh": "嵐山 · 竹林 & 星野渡假",
-      "hotel_name": "Hoshinoya Kyoto",
-      "hotel_name_zh": "星野京都 · 水邊雙人房",
-      "hotel_room": "水邊雙人房",
-      "weather": "☁️ 27°/20°",
-      "rain_pct": "30%",
+      "date": "Jun 3 · Wed",
+      "label_zh": "嵐山竹林 · 渡月橋",
+      "hotel_name": "Suiran, a Luxury Collection Hotel, Kyoto",
+      "hotel_name_zh": "京都翠嵐豪華精選酒店",
+      "hotel_room": "豪華河景房",
+      "weather": "🌤️ 28°/21°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🥐 酒店早餐 · 整理行李"
-        },
-        {
-          "time": "09:00",
-          "desc": "🏨 退房 The Ritz-Carlton · 寄存行李或寄送"
+          "time": "08:00",
+          "desc": "🍵 松井本館最後的日式早餐"
         },
         {
           "time": "09:30",
-          "desc": "🚃 搭嵐電前往嵐山 · 約20分鐘"
+          "desc": "🏨 退房 · 寄放行李或請飯店協助寄送至翠嵐（需事先安排）"
         },
         {
           "time": "10:00",
-          "desc": "🎋 嵐山竹林小徑 · 天龍寺庭園"
+          "desc": "🚃 搭乘京福電鐵（嵐電）至嵐山站 · 沿途風景"
+        },
+        {
+          "time": "10:45",
+          "desc": "🎋 嵐山竹林之道 · 清晨光線最佳"
         },
         {
           "time": "11:30",
-          "desc": "☕ % Arabica 嵐山店 · 渡月橋旁咖啡"
+          "desc": "⛩️ 天龍寺 · 曹源池庭園"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 午餐：嵐山よしむら · 蕎麥麵"
-        },
-        {
-          "time": "14:00",
-          "desc": "🛶 搭接駁船前往星野京都酒店 · 桂川逆流而上"
+          "time": "13:00",
+          "desc": "🍜 午餐：% Arabica 拿鐵 + 嵐山よしむら（蕎麥麵）"
         },
         {
           "time": "14:30",
-          "desc": "🏨 入住 Hoshinoya Kyoto · 水邊房 · 露天風呂"
+          "desc": "🏨 翠嵐酒店 Check-in · 豪華河景房 · 享用迎賓飲料"
         },
         {
           "time": "16:00",
-          "desc": "♨️ 享受酒店溫泉 · 茶室體驗"
+          "desc": "🛶 嵐山保津川遊船（約90分鐘）"
         },
         {
           "time": "18:30",
-          "desc": "🍽️ 晚餐：星野京都內 · 精緻和式會席料理（預約）"
+          "desc": "🍽️ 翠嵐酒店晚餐 · 米其林一星日本料理「京 翠嵐」"
         },
         {
           "time": "20:30",
-          "desc": "🌙 夜晚燈籠點燈 · 庭園散步"
-        },
-        {
-          "time": "21:30",
-          "desc": "🛌 榻榻米寢具 · 星空入眠"
+          "desc": "♨️ 翠嵐溫泉 · 星空下泡湯"
         }
       ]
     },
     {
       "day": 4,
-      "date": "June 4 · Thu",
-      "label_zh": "伏見稻荷 · 回程",
-      "hotel_name": "Hoshinoya Kyoto",
-      "hotel_name_zh": "星野京都 · 水邊雙人房",
-      "hotel_room": "水邊雙人房",
+      "date": "Jun 4 · Thu",
+      "label_zh": "嵯峨野小火車 · 愛之京都",
+      "hotel_name": "Suiran, a Luxury Collection Hotel, Kyoto",
+      "hotel_name_zh": "京都翠嵐豪華精選酒店",
+      "hotel_room": "豪華河景房",
+      "weather": "☀️ 30°/22°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🥐 翠嵐酒店早餐 · 日式或西式套餐"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚂 嵯峨野觀光小火車 · 嵯峨站→龜岡站（25分鐘）"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚶 龜岡站下車 · 散步至保津川乘船處（或搭接駁巴士回嵐山）"
+        },
+        {
+          "time": "11:00",
+          "desc": "⛩️ 野宮神社 · 良緣祈願"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍣 午餐：廣川鰻魚飯（預約制）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛍️ 嵐山商店街購物 · ちりめん細工館"
+        },
+        {
+          "time": "16:00",
+          "desc": "🌿 回到翠嵐酒店 · 河邊下午茶 · 享受酒店設施"
+        },
+        {
+          "time": "18:00",
+          "desc": "♨️ 翠嵐溫泉 · 泡湯放鬆"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 晚餐：嵐山 オムライス 北村（蛋包飯）或酒店內用餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 渡月橋夜間散步 · 燈光倒影"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "Jun 5 · Fri",
+      "label_zh": "回程日 · 再會京都",
+      "hotel_name": "Suiran, a Luxury Collection Hotel, Kyoto",
+      "hotel_name_zh": "京都翠嵐豪華精選酒店",
+      "hotel_room": "豪華河景房",
       "weather": "☀️ 29°/21°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 精緻和式朝食"
+          "time": "07:30",
+          "desc": "🥐 翠嵐酒店最後的早餐 · 享受河景"
         },
         {
-          "time": "08:30",
-          "desc": "🏨 退房 Hoshinoya · 搭接駁船回嵐山"
+          "time": "09:00",
+          "desc": "🏨 退房 · 寄放行李"
         },
         {
           "time": "09:30",
-          "desc": "🚃 嵐山→京都站→伏見稻荷"
+          "desc": "🛍️ 嵐山最後採購 · よーじや吸油面紙、抹茶伴手禮"
         },
         {
-          "time": "10:00",
-          "desc": "⛩️ 伏見稻荷大社 · 千本鳥居"
+          "time": "11:00",
+          "desc": "🚃 搭乘 JR 嵯峨野線至京都站"
         },
         {
-          "time": "11:30",
-          "desc": "🍡 參道吃烤糰子 · 狐狸煎餅"
-        },
-        {
-          "time": "12:00",
-          "desc": "🚃 返回京都站 · 購買伴手禮（抹茶甜點、漬物）"
+          "time": "11:45",
+          "desc": "🚄 搭乘 Haruka 特急至關西機場"
         },
         {
           "time": "13:00",
-          "desc": "🚄 Haruka 特急往關西機場"
+          "desc": "✈️ 關西機場 Check-in · 免稅店購物"
         },
         {
-          "time": "14:00",
-          "desc": "🛬 抵達關西機場 · 辦理登機"
+          "time": "13:20",
+          "desc": "🛫 中華航空 CI157 返回台灣"
         },
         {
-          "time": "15:00",
-          "desc": "✈️ 長榮 BR131 · 13:10→15:00 · 返回台灣"
-        },
-        {
-          "time": "17:30",
-          "desc": "🏠 抵達桃園 · 結束浪漫京都之旅"
+          "time": "15:30",
+          "desc": "🛬 抵達桃園機場 · 旅程結束"
         }
       ]
     }
@@ -488,31 +460,31 @@
   "costs": [
     {
       "label": "✈️ 來回機票",
-      "amount_ntd": 32000
+      "amount_ntd": 24000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 108000
+      "amount_ntd": 90000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 28000
+      "amount_ntd": 18000
     },
     {
       "label": "🎫 景點門票",
-      "amount_ntd": 8000
+      "amount_ntd": 5000
     },
     {
       "label": "🚇 交通",
-      "amount_ntd": 7000
+      "amount_ntd": 4000
     },
     {
       "label": "🛍️ 購物伴手禮",
       "amount_ntd": 6000
     }
   ],
-  "cost_total_ntd": 149000,
-  "budget_remaining_ntd": 1000,
+  "cost_total_ntd": 147000,
+  "budget_remaining_ntd": 0,
   "photos": {
     "hero": [
       {
@@ -583,7 +555,7 @@
       }
     ]
   },
-  "chat_hash": "0f3d8a21129d31ce206f7e1e91d82cb985e8013710f777273debd433aec76a47",
-  "config_hash": "ec7a2f863d2bba050279bbcbd88c257051f14f0502d0ba451ea6dfd48be80053",
-  "generated_at": "2026-05-11T11:30:13.525638"
+  "chat_hash": "cec1ee51238bc82486232ec891bcf0cb1b6249b056a76ffddc1ef595cbc1df2f",
+  "config_hash": "67c21d8b9ad15de4a3b6dbb6dac83f6a58dce2f7ec7112dc47e5aa66837fa2dd",
+  "generated_at": "2026-05-11T11:37:17.331677"
 }
