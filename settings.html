@@ -19,7 +19,7 @@
 
 <div class="container">
   <h2 class="section-title">⚙️ 設定 Settings <span style="font-size:0.55rem;background:var(--gold);color:#000;padding:2px 6px;border-radius:3px;vertical-align:middle;font-family:monospace;" id="version-badge">v250511.2</span></h2>
-  <p class="section-sub">修改設定後，將在下一個整點檢查時生效。</p>
+  <p class="section-sub">修改設定後，將在排程檢查時自動生效。</p>
   <div class="settings-grid">
     <div class="setting-group">
       <label>Year 年份</label>
@@ -96,7 +96,7 @@
   </div>
   <button class="save-btn" onclick="saveSettings()">💾 儲存設定 Save Settings</button>
   <p style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.6rem;font-family:'Noto Serif TC',sans-serif;">
-    設定儲存至 config/settings.json，下個整點檢查時自動套用生效。
+    設定儲存至 config/settings.json，排程檢查時自動套用生效。
   </p>
 </div>
 
@@ -238,7 +238,7 @@ async function saveSettings() {
     });
 
     if(resp.ok) {
-      alert('✅ 設定已儲存！Token 已保存，將在下個整點生效。');
+      alert('✅ 設定已儲存！Token 已保存，將在排程時間生效。');
     } else {
       const err = await resp.json();
       alert('⚠️ Token 已保存到瀏覽器，但 GitHub 寫入失敗：' + err.message + '\nChat 功能仍可使用，但變更不會寫回 repo。');
