@@ -1,49 +1,49 @@
 {
   "destination_en": "Maldives",
-  "title_zh": "馬爾地夫 · 極致浪漫五天之旅",
-  "date_range": "2027/01/15–01/20",
-  "start_date": "2027-01-15",
-  "end_date": "2027-01-20",
+  "title_zh": "馬爾地夫 · 六日奢華度假之旅",
+  "date_range": "2027/01/10–01/16",
+  "start_date": "2027-01-10",
+  "end_date": "2027-01-16",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
   "destination_code": "MLE",
   "travelers": 2,
-  "days": 5,
-  "budget_ntd": 250000,
+  "days": 6,
+  "budget_ntd": 300000,
   "flight": {
     "airline": "新加坡航空 Singapore Airlines",
-    "departure_date": "1月15日",
-    "return_date": "1月20日",
-    "total_price_ntd": 70000,
+    "departure_date": "1月10日",
+    "return_date": "1月16日",
+    "total_price_ntd": 82000,
     "outbound": {
       "flight_no": "SQ 879",
       "route": "TPE → SIN → MLE",
-      "depart_time": "14:15",
-      "arrive_time": "22:30",
-      "duration": "8h 15m + 4h 30m",
+      "depart_time": "14:10",
+      "arrive_time": "22:35 (+1)",
+      "duration": "14h 25m (含轉機)",
       "class": "經濟艙"
     },
     "inbound": {
       "flight_no": "SQ 462",
       "route": "MLE → SIN → TPE",
-      "depart_time": "23:45",
-      "arrive_time": "15:30 (+1)",
-      "duration": "4h 30m + 8h 15m",
+      "depart_time": "23:50",
+      "arrive_time": "15:10 (+1)",
+      "duration": "14h 20m (含轉機)",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
       "name": "Soneva Fushi Resort",
-      "name_zh": "索尼娃芙西渡假村",
-      "district": "Baa Atoll 芭環礁",
+      "name_zh": "索尼娃芙西度假村",
+      "district": "芭環礁 Baa Atoll",
       "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 120000,
+      "price_ntd": 135000,
       "stars": "★★★★★",
       "room_type": "水上別墅 (Overwater Villa)",
-      "breakfast": "含早餐 & 下午茶",
-      "amenities": "🏊 無邊際泳池 · 🧖 SPA · 🤿 浮潛裝備免費 · 🍽️ 米其林餐廳 · 🌊 私人潟湖",
+      "breakfast": "含全日餐廳早餐",
+      "amenities": "🏊 私人無邊際泳池 · 🤿 浮潛裝備免費 · 🍽️ 米其林星級餐廳 · 🌴 私人沙灘 · 🧘 瑜伽課程",
       "search_query": "Soneva Fushi Maldives overwater villa",
       "photos": [
         {
@@ -97,65 +97,65 @@
       ]
     },
     {
-      "name": "Anantara Kihavah Maldives Villas",
-      "name_zh": "安納塔拉奇哈瓦渡假村",
-      "district": "Baa Atoll 芭環礁",
-      "day_range": "4–5",
-      "nights": 2,
-      "price_ntd": 80000,
+      "name": "The St. Regis Maldives Vommuli Resort",
+      "name_zh": "瑞吉沃姆利度假村",
+      "district": "達哈阿魯環礁 Dhaalu Atoll",
+      "day_range": "4–6",
+      "nights": 3,
+      "price_ntd": 160000,
       "stars": "★★★★★",
-      "room_type": "海灘泳池別墅 (Beach Pool Villa)",
-      "breakfast": "含全膳 (早午晚)",
-      "amenities": "🏖️ 私人沙灘 · 🍽️ 海底餐廳 · 🚤 日落巡航 · 🧘 瑜珈課 · 🐢 海龜保育",
-      "search_query": "Anantara Kihavah Maldives beach pool villa",
+      "room_type": "日落水上別墅 (Sunset Overwater Villa)",
+      "breakfast": "含全日餐廳早餐",
+      "amenities": "🏊 私人泳池 · 💆 瑞吉水療中心 · 🍽️ 鯨魚酒吧 · 🚤 快艇接送 · 🐢 海龜浮潛",
+      "search_query": "St Regis Maldives Vommuli sunset villa",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1593067512699-71f808be15e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden lounge chair beside swimming pool during daytime"
+          "url": "https://images.unsplash.com/photo-1645283455487-c3c794985316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a wooden structure on the beach near the ocean"
         },
         {
-          "url": "https://images.unsplash.com/photo-1567679584013-ef8f5be0d8e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "aerial view of dock"
+          "url": "https://images.unsplash.com/photo-1629267822842-042f181e8615?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "green trees near blue sea under blue sky during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1652868965179-691e57c7ea10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a patio with a pool surrounded by greenery"
+          "url": "https://images.unsplash.com/photo-1683510157012-01a812870de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a sunset view of a resort on the water"
         },
         {
-          "url": "https://images.unsplash.com/photo-1592921710055-bbf038e8f4ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden lounge chairs beside swimming pool during daytime"
+          "url": "https://images.unsplash.com/photo-1546417492-a7ee5eeec529?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "body of water during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1617778643338-44eafa2374c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "blue and black round pool"
+          "url": "https://images.unsplash.com/photo-1774442960702-31cf7ff54c3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Wooden pier leading to overwater bungalows at sunset."
         },
         {
-          "url": "https://images.unsplash.com/photo-1659559108508-7f6340e45c23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a pool with a building in the background"
+          "url": "https://images.unsplash.com/photo-1698726654862-377c0218dfdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an aerial view of a beach and a resort"
         },
         {
-          "url": "https://images.unsplash.com/photo-1593067512699-71f808be15e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden lounge chair beside swimming pool during daytime"
+          "url": "https://images.unsplash.com/photo-1645283455487-c3c794985316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a wooden structure on the beach near the ocean"
         },
         {
-          "url": "https://images.unsplash.com/photo-1567679584013-ef8f5be0d8e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "aerial view of dock"
+          "url": "https://images.unsplash.com/photo-1629267822842-042f181e8615?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "green trees near blue sea under blue sky during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1652868965179-691e57c7ea10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a patio with a pool surrounded by greenery"
+          "url": "https://images.unsplash.com/photo-1683510157012-01a812870de9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a sunset view of a resort on the water"
         },
         {
-          "url": "https://images.unsplash.com/photo-1592921710055-bbf038e8f4ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden lounge chairs beside swimming pool during daytime"
+          "url": "https://images.unsplash.com/photo-1546417492-a7ee5eeec529?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "body of water during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1617778643338-44eafa2374c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "blue and black round pool"
+          "url": "https://images.unsplash.com/photo-1774442960702-31cf7ff54c3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Wooden pier leading to overwater bungalows at sunset."
         },
         {
-          "url": "https://images.unsplash.com/photo-1659559108508-7f6340e45c23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyMGJlYWNoJTIwcG9vbCUyMHZpbGxhfGVufDB8MHx8fDE3Nzg1MDkyNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a pool with a building in the background"
+          "url": "https://images.unsplash.com/photo-1698726654862-377c0218dfdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxTdCUyMFJlZ2lzJTIwTWFsZGl2ZXMlMjBWb21tdWxpJTIwc3Vuc2V0JTIwdmlsbGF8ZW58MHwwfHx8MTc3ODUxMTA3Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an aerial view of a beach and a resort"
         }
       ]
     }
@@ -164,13 +164,13 @@
     "fine_dining": [
       {
         "name": "Fresh in the Garden (Soneva Fushi)",
-        "name_zh": "花園裡的新鮮 · 有機蔬食體驗",
-        "stars": "⭐⭐",
-        "dish": "🌿 主廚套餐：採摘花園食材 · 搭配葡萄酒",
+        "name_zh": "花園鮮食 · 米其林星級主廚",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：龍蝦三重奏 · 松露燉飯",
         "address": "Soneva Fushi Resort, Baa Atoll",
-        "price_ntd": 6000,
-        "price_label": "晚餐套餐 €170/人 · NT$6,000",
-        "hours": "19:00–22:00 · 需預約",
+        "price_ntd": 7000,
+        "price_label": "晚餐套餐 €200/人 · NT$7,000",
+        "hours": "18:30–22:00 · 需預約",
         "search_query": "Fresh in the Garden Soneva Fushi",
         "photos": [
           {
@@ -188,38 +188,42 @@
         ]
       },
       {
-        "name": "SEA (Anantara Kihavah)",
-        "name_zh": "海底餐廳 · 水下用餐",
-        "stars": "⭐⭐⭐",
-        "dish": "🦞 龍蝦三重奏 · 魚子醬 · 香檳 pairing",
-        "address": "Anantara Kihavah, Baa Atoll",
-        "price_ntd": 10000,
-        "price_label": "晚餐套餐 €285/人 · NT$10,000",
-        "hours": "18:30–21:30 · 需提前一週預約",
-        "search_query": "SEA underwater restaurant Anantara Kihavah",
+        "name": "Alba (St. Regis Maldives)",
+        "name_zh": "白晝餐廳 · 義式精緻料理",
+        "stars": "⭐⭐",
+        "dish": "🥩 招牌：和牛菲力 · 黑松露奶油醬",
+        "address": "St. Regis Maldives, Dhaalu Atoll",
+        "price_ntd": 8500,
+        "price_label": "晚餐套餐 €240/人 · NT$8,500",
+        "hours": "19:00–22:30 · 需預約",
+        "search_query": "Alba restaurant St Regis Maldives",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1599832976672-5923b10683d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTRUElMjB1bmRlcndhdGVyJTIwcmVzdGF1cmFudCUyMEFuYW50YXJhJTIwS2loYXZhaHxlbnwwfDB8fHwxNzc4NTA5MjY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "aerial view of green trees beside blue sea during daytime"
+            "url": "",
+            "label": "fine dining food Maldives"
           },
           {
-            "url": "https://images.unsplash.com/photo-1599832976672-5923b10683d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTRUElMjB1bmRlcndhdGVyJTIwcmVzdGF1cmFudCUyMEFuYW50YXJhJTIwS2loYXZhaHxlbnwwfDB8fHwxNzc4NTA5MjY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "aerial view of green trees beside blue sea during daytime"
+            "url": "",
+            "label": "fine dining food Maldives"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Maldives"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Down to Earth (Soneva Fushi)",
-        "name_zh": "樸實餐廳 · 亞洲風味",
+        "name": "The Crab Shack (Soneva Fushi)",
+        "name_zh": "螃蟹小屋 · 沙灘海鮮",
         "stars": "",
-        "dish": "🍜 龍蝦叻沙 · 泰式青木瓜沙拉 · 烤魚",
-        "address": "Soneva Fushi Resort, Baa Atoll",
-        "price_ntd": 3000,
-        "price_label": "兩人晚餐 €85 · NT$3,000",
-        "hours": "12:00–15:00 / 18:30–22:00",
-        "search_query": "Down to Earth restaurant Soneva Fushi",
+        "dish": "🦀 招牌：斯里蘭卡辣椒蟹 · 椰子飯",
+        "address": "Soneva Fushi, 沙灘邊",
+        "price_ntd": 4000,
+        "price_label": "兩人晚餐 €115 · NT$4,000",
+        "hours": "12:00–15:00 / 18:30–21:30",
+        "search_query": "Crab Shack Soneva Fushi",
         "photos": [
           {
             "url": "",
@@ -236,42 +240,54 @@
         ]
       },
       {
-        "name": "Manzaru (Anantara Kihavah)",
-        "name_zh": "曼薩魯 · 義式小酒館",
-        "stars": "⭐",
-        "dish": "🍝 手工松露義大利麵 · 烤章魚 · 提拉米蘇",
-        "address": "Anantara Kihavah, Baa Atoll",
+        "name": "Crust (St. Regis Maldives)",
+        "name_zh": "脆皮披薩屋 · 義式休閒",
+        "stars": "",
+        "dish": "🍕 招牌：松露蘑菇披薩 · 龍蝦義大利麵",
+        "address": "St. Regis Maldives, 泳池旁",
         "price_ntd": 3500,
-        "price_label": "兩人晚餐 €100 · NT$3,500",
-        "hours": "18:30–22:00",
-        "search_query": "Manzaru restaurant Anantara Kihavah",
+        "price_label": "兩人午餐 €100 · NT$3,500",
+        "hours": "11:30–14:30 / 18:00–21:00",
+        "search_query": "Crust St Regis Maldives",
         "photos": [
           {
-            "url": "",
-            "label": "bistros food Maldives"
+            "url": "https://images.unsplash.com/photo-1610963580143-a12949f3d84b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxDcnVzdCUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "brown wooden chairs and table on beach during daytime"
           },
           {
-            "url": "",
-            "label": "bistros food Maldives"
+            "url": "https://images.unsplash.com/photo-1556001599-2fdf22ae1693?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxDcnVzdCUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "aerial photography of body of water"
           },
           {
-            "url": "",
-            "label": "bistros food Maldives"
+            "url": "https://images.unsplash.com/photo-1675154036902-c922d3a0ef7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxDcnVzdCUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a table and chairs on a beach with umbrellas"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1610963580143-a12949f3d84b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxDcnVzdCUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "brown wooden chairs and table on beach during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1556001599-2fdf22ae1693?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxDcnVzdCUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "aerial photography of body of water"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1675154036902-c922d3a0ef7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxDcnVzdCUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a table and chairs on a beach with umbrellas"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "The Sand Bar (Soneva Fushi)",
-        "name_zh": "沙灘酒吧 · 日落小食",
+        "name": "The Library (Soneva Fushi)",
+        "name_zh": "圖書館咖啡 · 書香與海景",
         "stars": "",
-        "dish": "🍹 雞尾酒 · 生蠔 · 烤蝦串",
-        "address": "Soneva Fushi 沙灘",
-        "price_ntd": 2000,
-        "price_label": "兩人小食 €57 · NT$2,000",
-        "hours": "16:00–日落 · 赤足沙灘",
-        "search_query": "Sand Bar Soneva Fushi",
+        "dish": "☕ 招牌：椰子拿鐵 · 手工巧克力",
+        "address": "Soneva Fushi, 主泳池旁",
+        "price_ntd": 1800,
+        "price_label": "兩人下午茶 €50 · NT$1,800",
+        "hours": "10:00–18:00",
+        "search_query": "Soneva Fushi library cafe",
         "photos": [
           {
             "url": "",
@@ -288,39 +304,39 @@
         ]
       },
       {
-        "name": "Plates (Anantara Kihavah)",
-        "name_zh": "盤子咖啡 · 海景輕食",
+        "name": "Whale Bar (St. Regis Maldives)",
+        "name_zh": "鯨魚酒吧 · 日落雞尾酒",
         "stars": "",
-        "dish": "🥥 椰子冰淇淋 · 水果拼盤 · 冰拿鐵",
-        "address": "Anantara Kihavah 泳池畔",
-        "price_ntd": 1500,
-        "price_label": "兩人下午茶 €43 · NT$1,500",
-        "hours": "10:00–18:00",
-        "search_query": "Plates cafe Anantara Kihavah",
+        "dish": "🍸 招牌：馬爾地夫夕陽 · 生蠔拼盤",
+        "address": "St. Regis Maldives, 碼頭邊",
+        "price_ntd": 3000,
+        "price_label": "雙人雞尾酒 + 小點 €85 · NT$3,000",
+        "hours": "17:00–00:00",
+        "search_query": "Whale Bar St Regis Maldives",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1741231953820-e270cd4fe6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQbGF0ZXMlMjBjYWZlJTIwQW5hbnRhcmElMjBLaWhhdmFofGVufDB8MHx8fDE3Nzg1MDkyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Seafood and dishes are set out on a beach table."
+            "url": "https://images.unsplash.com/photo-1628652843059-590863b60507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxXaGFsZSUyMEJhciUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white and blue boat on sea during daytime"
           },
           {
-            "url": "https://images.unsplash.com/photo-1741231953829-5192c0943db4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQbGF0ZXMlMjBjYWZlJTIwQW5hbnRhcmElMjBLaWhhdmFofGVufDB8MHx8fDE3Nzg1MDkyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Food and drinks are set for a seaside meal."
+            "url": "https://images.unsplash.com/photo-1546757146-889a3de41c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxXaGFsZSUyMEJhciUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "black and white house painting"
           },
           {
-            "url": "https://images.unsplash.com/photo-1728051103953-91ce6f60610a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQbGF0ZXMlMjBjYWZlJTIwQW5hbnRhcmElMjBLaWhhdmFofGVufDB8MHx8fDE3Nzg1MDkyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A table topped with plates of food and drinks"
+            "url": "https://images.unsplash.com/photo-1602217401645-2f11316f48cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxXaGFsZSUyMEJhciUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "red and white boat on sea during daytime"
           },
           {
-            "url": "https://images.unsplash.com/photo-1741231953820-e270cd4fe6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQbGF0ZXMlMjBjYWZlJTIwQW5hbnRhcmElMjBLaWhhdmFofGVufDB8MHx8fDE3Nzg1MDkyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Seafood and dishes are set out on a beach table."
+            "url": "https://images.unsplash.com/photo-1628652843059-590863b60507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxXaGFsZSUyMEJhciUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white and blue boat on sea during daytime"
           },
           {
-            "url": "https://images.unsplash.com/photo-1741231953829-5192c0943db4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQbGF0ZXMlMjBjYWZlJTIwQW5hbnRhcmElMjBLaWhhdmFofGVufDB8MHx8fDE3Nzg1MDkyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Food and drinks are set for a seaside meal."
+            "url": "https://images.unsplash.com/photo-1546757146-889a3de41c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxXaGFsZSUyMEJhciUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "black and white house painting"
           },
           {
-            "url": "https://images.unsplash.com/photo-1728051103953-91ce6f60610a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQbGF0ZXMlMjBjYWZlJTIwQW5hbnRhcmElMjBLaWhhdmFofGVufDB8MHx8fDE3Nzg1MDkyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A table topped with plates of food and drinks"
+            "url": "https://images.unsplash.com/photo-1602217401645-2f11316f48cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxXaGFsZSUyMEJhciUyMFN0JTIwUmVnaXMlMjBNYWxkaXZlc3xlbnwwfDB8fHwxNzc4NTExMDc5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "red and white boat on sea during daytime"
           }
         ]
       }
@@ -329,249 +345,301 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Jan 15 · Fri",
-      "label_zh": "抵達日 · 入住索尼娃芙西",
+      "date": "Jan 10 · Mon",
+      "label_zh": "抵達日 · 飛向天堂",
       "hotel_name": "Soneva Fushi Resort",
-      "hotel_name_zh": "索尼娃芙西渡假村 · 水上別墅",
-      "hotel_room": "水上別墅",
+      "hotel_name_zh": "索尼娃芙西度假村 · 水上別墅",
+      "hotel_room": "水上別墅 (Overwater Villa)",
       "weather": "☀️ 30°/26°",
       "rain_pct": "5%",
       "slots": [
         {
-          "time": "14:15",
-          "desc": "✈️ 桃園機場 TPE 出發 · 新加坡航空 SQ879 經新加坡轉機"
+          "time": "14:10",
+          "desc": "✈️ 桃園機場 TPE 出發 · 新加坡航空 SQ879 · 經新加坡轉機"
         },
         {
-          "time": "22:30",
-          "desc": "🛬 抵達馬累國際機場 (MLE) · 通關取行李"
+          "time": "22:35",
+          "desc": "🛬 抵達馬累國際機場 MLE · 入境通關 · Soneva 專人舉牌接機"
         },
         {
           "time": "23:30",
-          "desc": "🚤 Soneva 專人接機 · 搭乘快艇前往渡假村 (30分鐘)"
+          "desc": "🚤 搭乘 Soneva 私人快艇前往度假村（約30分鐘）"
         },
         {
           "time": "00:15",
-          "desc": "🏡 抵達 Soneva Fushi · 迎賓飲料 & 管家介紹 · 入住水上別墅"
+          "desc": "🏨 抵達 Soneva Fushi · 管家迎接 · 入住水上別墅 · 蜜月佈置"
         },
         {
           "time": "01:00",
-          "desc": "🛁 泡澡放鬆 · 星空下入睡 · 明日開始探索"
+          "desc": "🌙 晚安 · 聽著海浪聲入眠"
         }
       ]
     },
     {
       "day": 2,
-      "date": "Jan 16 · Sat",
-      "label_zh": "探索日 · 浮潛 & 沙洲野餐",
+      "date": "Jan 11 · Tue",
+      "label_zh": "探索日 · 浮潛與星空",
       "hotel_name": "Soneva Fushi Resort",
-      "hotel_name_zh": "索尼娃芙西渡假村 · 水上別墅",
-      "hotel_room": "水上別墅",
-      "weather": "☀️ 31°/26°",
+      "hotel_name_zh": "索尼娃芙西度假村 · 水上別墅",
+      "hotel_room": "水上別墅 (Overwater Villa)",
+      "weather": "☀️ 31°/27°",
       "rain_pct": "10%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🌅 日出瑜珈 (免費) · 在沙灘上迎接馬爾地夫第一道曙光"
+          "desc": "🌅 日出瑜伽 · 沙灘冥想（免費課程）"
         },
         {
           "time": "08:30",
-          "desc": "🥞 早餐於 Mihiree Mithi 主餐廳 · 現做鬆餅 & 熱帶水果"
+          "desc": "🥐 主餐廳早餐 · 現做鬆餅 · 熱帶水果 · 現榨果汁"
         },
         {
           "time": "10:00",
-          "desc": "🤿 浮潛裝備領取 · 從水上別墅直接下水 · 觀賞珊瑚 & 熱帶魚"
+          "desc": "🤿 房礁浮潛 · 免費租借浮潛裝備 · 看海龜、小鯊魚"
         },
         {
-          "time": "12:00",
-          "desc": "🚤 私人沙洲野餐 (預約活動) · 無人島沙灘上享用龍蝦三明治 & 香檳"
+          "time": "12:30",
+          "desc": "🦀 The Crab Shack 午餐 · 辣椒蟹 + 椰子飯 · NT$4,000"
         },
         {
-          "time": "15:00",
-          "desc": "🏄 無動力水上活動：獨木舟 / 立槳 SUP · 探索潟湖"
+          "time": "14:00",
+          "desc": "🏖️ 沙灘躺椅 · 私人泳池戲水 · 管家送上冰毛巾"
         },
         {
-          "time": "17:30",
-          "desc": "🍹 The Sand Bar 沙灘酒吧 · 日落雞尾酒 · 生蠔小食"
+          "time": "16:00",
+          "desc": "📚 The Library 下午茶 · 椰子拿鐵 + 手工巧克力 · NT$1,800"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍸 日落雞尾酒 · 沙灘酒吧 · 調酒師特調"
         },
         {
           "time": "19:30",
-          "desc": "🍽️ Down to Earth 亞洲風味晚餐 · 龍蝦叻沙 & 烤魚"
+          "desc": "🍽️ Fresh in the Garden 米其林晚宴 · 龍蝦三重奏 · NT$7,000"
         },
         {
-          "time": "21:00",
-          "desc": "🌌 天文台觀星 (Soneva 天文學家導覽) · 看銀河"
+          "time": "21:30",
+          "desc": "🔭 天文台觀星 · 專業望遠鏡 · 浪漫星空"
         }
       ]
     },
     {
       "day": 3,
-      "date": "Jan 17 · Sun",
-      "label_zh": "奢華日 · SPA & 米其林晚餐",
+      "date": "Jan 12 · Wed",
+      "label_zh": "冒險日 · 出海與SPA",
       "hotel_name": "Soneva Fushi Resort",
-      "hotel_name_zh": "索尼娃芙西渡假村 · 水上別墅",
-      "hotel_room": "水上別墅",
-      "weather": "☀️ 31°/27°",
+      "hotel_name_zh": "索尼娃芙西度假村 · 水上別墅",
+      "hotel_room": "水上別墅 (Overwater Villa)",
+      "weather": "☀️ 30°/26°",
       "rain_pct": "15%",
       "slots": [
         {
+          "time": "07:00",
+          "desc": "🌅 日出攝影 · 無人機空拍（可租借）"
+        },
+        {
           "time": "08:00",
-          "desc": "🥐 早餐 · 房間內享用 (免費送餐) · 俯瞰潟湖"
+          "desc": "🥐 主餐廳早餐 · 班尼迪克蛋 · 現煮咖啡"
         },
         {
-          "time": "09:30",
-          "desc": "🧖 Soneva SPA · 雙人馬爾地夫精油按摩 (90分鐘 · NT$8,000)"
+          "time": "09:00",
+          "desc": "🚤 出海浮潛半日遊 · 海豚巡禮 · 珊瑚花園（含教練）"
         },
         {
-          "time": "11:30",
-          "desc": "🏊 無邊際泳池游泳 · 或沙灘躺椅閱讀"
+          "time": "12:30",
+          "desc": "🍕 沙灘午餐盒 · 度假村準備野餐"
         },
         {
-          "time": "13:00",
-          "desc": "🍜 午餐於 Mihiree Mithi · 輕食沙拉 & 壽司吧"
+          "time": "14:00",
+          "desc": "💆 雙人SPA · 椰子精油按摩（60分鐘 · NT$6,000）"
         },
         {
-          "time": "15:00",
-          "desc": "🚴 騎自行車環島 · 參觀有機菜園 & 玻璃吹製工坊"
+          "time": "16:00",
+          "desc": "🏖️ 沙灘排球 / 立式槳板 SUP（免費）"
         },
         {
-          "time": "17:00",
-          "desc": "🍸 夕陽巡航 (免費活動) · 看海豚跳躍"
+          "time": "18:00",
+          "desc": "🍸 夕陽巡遊 · 帆船出海看日落"
         },
         {
-          "time": "19:30",
-          "desc": "🌿 Fresh in the Garden 花園晚餐 · 有機套餐搭配葡萄酒"
+          "time": "20:00",
+          "desc": "🍽️ 私人沙灘晚餐 · 燭光 · 龍蝦 · NT$12,000"
         },
         {
-          "time": "21:30",
-          "desc": "🎬 戶外電影院 Cinema Paradiso · 躺在沙袋上看電影"
+          "time": "22:00",
+          "desc": "🌙 回房 · 浴缸泡澡 · 晚安"
         }
       ]
     },
     {
       "day": 4,
-      "date": "Jan 18 · Mon",
-      "label_zh": "轉島日 · 入住安納塔拉",
-      "hotel_name": "Anantara Kihavah Maldives Villas",
-      "hotel_name_zh": "安納塔拉奇哈瓦渡假村 · 海灘泳池別墅",
-      "hotel_room": "海灘泳池別墅",
-      "weather": "☀️ 30°/26°",
-      "rain_pct": "5%",
+      "date": "Jan 13 · Thu",
+      "label_zh": "換島日 · 瑞吉奢華體驗",
+      "hotel_name": "The St. Regis Maldives Vommuli Resort",
+      "hotel_name_zh": "瑞吉沃姆利度假村 · 日落水上別墅",
+      "hotel_room": "日落水上別墅 (Sunset Overwater Villa)",
+      "weather": "☀️ 31°/27°",
+      "rain_pct": "10%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥞 Soneva Fushi 最後早餐 · 打包行李"
+          "desc": "🥐 Soneva 最後早餐 · 享用龍蝦班尼迪克"
         },
         {
           "time": "09:30",
-          "desc": "🏡 退房 · 管家安排快艇前往 Anantara Kihavah (同環礁 · 20分鐘)"
+          "desc": "🏨 退房 · 管家安排行李 · 搭乘快艇前往馬累"
         },
         {
-          "time": "10:30",
-          "desc": "🛬 抵達 Anantara Kihavah · 迎賓果汁 & 入住海灘泳池別墅"
+          "time": "11:00",
+          "desc": "🚁 搭乘水上飛機前往 St. Regis（約45分鐘 · NT$18,000兩人）"
         },
         {
-          "time": "11:30",
-          "desc": "🏖️ 私人沙灘散步 · 別墅泳池戲水"
+          "time": "12:00",
+          "desc": "🏨 抵達 St. Regis Maldives · 管家接待 · 入住日落水上別墅"
         },
         {
           "time": "13:00",
-          "desc": "🍽️ 午餐於 Manzaru · 手工義大利麵"
+          "desc": "🍕 Crust 午餐 · 松露披薩 · NT$3,500"
         },
         {
           "time": "15:00",
-          "desc": "🤿 飯店免費浮潛導覽 · 探索珊瑚花園"
+          "desc": "🏖️ 私人泳池暢遊 · 浮潛看蝠鱝"
         },
         {
-          "time": "17:30",
-          "desc": "🚤 日落多尼船巡航 · 香檳 & 小點心"
+          "time": "17:00",
+          "desc": "🍸 Whale Bar 日落雞尾酒 · 生蠔 · NT$3,000"
         },
         {
           "time": "19:30",
-          "desc": "🦞 SEA 海底餐廳晚餐 · 龍蝦三重奏 & 魚子醬 · 需著正式休閒裝"
+          "desc": "🍽️ Alba 義式晚宴 · 和牛菲力 · NT$8,500"
         },
         {
-          "time": "22:00",
-          "desc": "🍸 星空酒吧 · 調酒 & 現場音樂"
+          "time": "21:30",
+          "desc": "🌙 星空電影院 · 沙灘躺椅看電影"
         }
       ]
     },
     {
       "day": 5,
-      "date": "Jan 19 · Tue",
-      "label_zh": "最後一日 · 放鬆 & 離別",
-      "hotel_name": "Anantara Kihavah Maldives Villas",
-      "hotel_name_zh": "安納塔拉奇哈瓦渡假村 · 海灘泳池別墅",
-      "hotel_room": "海灘泳池別墅",
-      "weather": "☀️ 31°/26°",
+      "date": "Jan 14 · Fri",
+      "label_zh": "極致放鬆日",
+      "hotel_name": "The St. Regis Maldives Vommuli Resort",
+      "hotel_name_zh": "瑞吉沃姆利度假村 · 日落水上別墅",
+      "hotel_room": "日落水上別墅 (Sunset Overwater Villa)",
+      "weather": "☀️ 30°/26°",
       "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🧘 海灘瑜珈 (免費) · 伴隨海浪聲"
+          "time": "07:00",
+          "desc": "🌅 日出獨木舟 · 寧靜環礁"
         },
         {
           "time": "08:30",
-          "desc": "🥞 早餐於 Plates · 現做蛋捲 & 椰子煎餅"
+          "desc": "🥐 早餐 · 瑞吉經典魚子醬班尼迪克"
         },
         {
           "time": "10:00",
-          "desc": "🏄 最後浮潛 · 或別墅泳池放空"
+          "desc": "💆 瑞吉水療 · 雙人熱石按摩（75分鐘 · NT$8,000）"
         },
         {
           "time": "12:00",
-          "desc": "🏡 退房 · 寄放行李 · 大堂休息"
+          "desc": "🍽️ 午餐 · 別墅內私人BBQ（預約 · NT$5,000）"
         },
         {
-          "time": "13:00",
-          "desc": "🍽️ 午餐於 Manzaru · 輕食三明治 & 冰沙"
+          "time": "14:00",
+          "desc": "🏖️ 沙灘閱讀 · 吊床午睡"
+        },
+        {
+          "time": "16:00",
+          "desc": "📸 專業攝影師跟拍（1小時 · NT$4,000）"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍸 泳池邊雞尾酒 · 音樂"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 海底餐廳晚餐 · 玻璃隧道 · NT$10,000"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 別墅泳池夜泳 · 晚安"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "Jan 15 · Sat",
+      "label_zh": "最後一日 · 返程",
+      "hotel_name": "The St. Regis Maldives Vommuli Resort",
+      "hotel_name_zh": "瑞吉沃姆利度假村 · 日落水上別墅",
+      "hotel_room": "日落水上別墅 (Sunset Overwater Villa)",
+      "weather": "☀️ 30°/26°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 最後早餐 · 龍蝦班尼迪克 · 香檳"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏨 退房 · 管家送別 · 搭乘水上飛機回馬累"
+        },
+        {
+          "time": "12:00",
+          "desc": "🛍️ 馬累市區購物 · 紀念品店 · 免稅店"
         },
         {
           "time": "15:00",
-          "desc": "🛍️ 渡假村精品店購物 · 紀念品 & 手工藝品"
+          "desc": "🍽️ 馬累海鮮餐廳午餐 · 龍蝦咖哩 · NT$2,000"
         },
         {
           "time": "17:00",
-          "desc": "🚤 快艇前往馬累機場 (30分鐘)"
+          "desc": "✈️ 抵達馬累機場 · 辦理登機 · 出境"
         },
         {
-          "time": "18:30",
-          "desc": "✈️ 機場貴賓室休息 · 辦理登機"
+          "time": "23:50",
+          "desc": "🛫 新加坡航空 SQ462 · 經新加坡返台"
         },
         {
-          "time": "23:45",
-          "desc": "🛫 新加坡航空 SQ462 經新加坡轉機回台灣"
+          "time": "15:10 (+1)",
+          "desc": "🛬 抵達桃園機場 · 甜蜜的家"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票 (新加坡航空 · 經濟艙)",
-      "amount_ntd": 70000
+      "label": "✈️ 來回機票 (經濟艙 x2)",
+      "amount_ntd": 82000
     },
     {
       "label": "🏨 Soneva Fushi 水上別墅 3晚",
-      "amount_ntd": 120000
+      "amount_ntd": 135000
     },
     {
-      "label": "🏨 Anantara Kihavah 海灘泳池別墅 2晚",
-      "amount_ntd": 80000
+      "label": "🏨 St. Regis 日落水上別墅 3晚",
+      "amount_ntd": 160000
     },
     {
-      "label": "🍽️ 餐飲 (含SEA海底餐廳)",
-      "amount_ntd": 30000
+      "label": "🚁 水上飛機 (Soneva→St.Regis)",
+      "amount_ntd": 18000
     },
     {
-      "label": "🎫 活動 (SPA · 沙洲野餐 · 快艇接駁)",
-      "amount_ntd": 25000
+      "label": "🍽️ 餐飲 (含Fine dining x2)",
+      "amount_ntd": 46000
     },
     {
-      "label": "🛍️ 購物伴手禮",
+      "label": "💆 SPA & 活動",
+      "amount_ntd": 18000
+    },
+    {
+      "label": "🚤 快艇接送",
       "amount_ntd": 10000
     }
   ],
-  "cost_total_ntd": 235000,
-  "budget_remaining_ntd": 15000,
+  "cost_total_ntd": 469000,
+  "budget_remaining_ntd": -169000,
   "photos": {
     "hero": [
       {
@@ -635,6 +703,6 @@
     ]
   },
   "chat_hash": "f4b7998b9fa7558cb4d47521db4e9dbd3433f905a0f3538560b680eb1df7d814",
-  "config_hash": "7c420d803ab35ece72c236d9be5f384dfc8962db6bb942978b2d7ec0b23f7b6d",
-  "generated_at": "2026-05-11T22:21:13.270442"
+  "config_hash": "184ee29899e789e48464e77be7880c90d0a3135bc2bcbb09a28a05764ed3f915",
+  "generated_at": "2026-05-11T22:51:19.876813"
 }
