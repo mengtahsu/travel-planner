@@ -1,9 +1,9 @@
 {
-  "destination_en": "Osaka, Japan & Kyoto, Japan",
-  "title_zh": "大阪京都 · 五天浪漫購物之旅",
-  "date_range": "2026/06/01–06/05",
-  "start_date": "2026-06-01",
-  "end_date": "2026-06-05",
+  "destination_en": "Osaka, Japan",
+  "title_zh": "六月大阪 · 浪漫五天之旅",
+  "date_range": "2026/06/18–06/22",
+  "start_date": "2026-06-18",
+  "end_date": "2026-06-22",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
   "destination_code": "KIX",
@@ -11,214 +11,151 @@
   "days": 5,
   "budget_ntd": 150000,
   "flight": {
-    "airline": "長榮航空 EVA Air",
-    "departure_date": "6月1日",
-    "return_date": "6月5日",
-    "total_price_ntd": 24000,
+    "airline": "樂桃航空 Peach Aviation",
+    "departure_date": "6月18日",
+    "return_date": "6月22日",
+    "total_price_ntd": 12000,
     "outbound": {
-      "flight_no": "BR 132",
+      "flight_no": "MM 28",
       "route": "TPE → KIX 直飛",
-      "depart_time": "23:30",
-      "arrive_time": "03:10 (+1)",
-      "duration": "2h 40m",
+      "depart_time": "18:30",
+      "arrive_time": "22:00",
+      "duration": "2h 30m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "BR 131",
+      "flight_no": "MM 27",
       "route": "KIX → TPE 直飛",
-      "depart_time": "07:00",
-      "arrive_time": "08:50",
+      "depart_time": "07:50",
+      "arrive_time": "09:40",
       "duration": "2h 50m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Hotel Nikko Kansai Airport",
-      "name_zh": "關西機場日航酒店",
-      "district": "關西機場",
-      "day_range": "1",
-      "nights": 1,
-      "price_ntd": 4500,
-      "stars": "★★★★☆",
-      "room_type": "標準雙人房",
-      "breakfast": "不含早餐",
-      "amenities": "🚿 淋浴 · 🛏️ 舒適床鋪 · 🚌 接駁車",
-      "search_query": "Hotel Nikko Kansai Airport",
-      "photos": [
-        {
-          "url": "https://images.unsplash.com/photo-1694174166953-76edbd2fdf6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airplane is seen through the window of an airport"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1638735384495-494a46f249a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a living room filled with furniture and a large window"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1624558118561-325bc4933964?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden table near white wall"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1705013669122-14ddc4eaad67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airplane flying over a body of water"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1603113088346-a8c702c59332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden chairs and tables"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1689166373404-550dbcc7c1fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airport at night with lights on the runway"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1694174166953-76edbd2fdf6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airplane is seen through the window of an airport"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1638735384495-494a46f249a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a living room filled with furniture and a large window"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1624558118561-325bc4933964?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden table near white wall"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1705013669122-14ddc4eaad67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airplane flying over a body of water"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1603113088346-a8c702c59332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden chairs and tables"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1689166373404-550dbcc7c1fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airport at night with lights on the runway"
-        }
-      ]
-    },
-    {
       "name": "Hoshinoya Kyoto",
       "name_zh": "虹夕諾雅 京都",
-      "district": "嵐山",
+      "district": "京都嵐山",
       "day_range": "2–3",
       "nights": 2,
       "price_ntd": 72000,
       "stars": "★★★★★",
-      "room_type": "水之音雙人房",
+      "room_type": "水之音 雙人房",
       "breakfast": "含日式早餐",
-      "amenities": "♨️ 露天風呂 · 🍣 懷石料理 · 🚤 渡船接送 · 🌸 庭園",
-      "search_query": "Hoshinoya Kyoto",
+      "amenities": "♨️ 天然溫泉 · 🍵 茶道體驗 · 🌳 嵐山私人碼頭 · 🛶 接駁船",
+      "search_query": "Hoshinoya Kyoto Arashiyama Japan",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1723382056183-823d065ae8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A building that has a lot of lights on it"
+          "url": "https://images.unsplash.com/photo-1740815881912-1d240a44c5fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Boats dock along a river, surrounded by nature."
         },
         {
-          "url": "https://images.unsplash.com/photo-1600775081940-f849231d06d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "black metal fence near brown concrete building during daytime"
+          "url": "https://images.unsplash.com/photo-1565362458384-9bad71cfc92d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "photography of river during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1771773563156-2f32863f2c7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Traditional japanese building illuminated at night with lanterns"
+          "url": "https://images.unsplash.com/photo-1685111719048-6f46c1a44f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a river running through a lush green forest"
         },
         {
-          "url": "https://images.unsplash.com/photo-1733060647640-623ff1ea2d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A japanese garden with a small house in the background"
+          "url": "https://images.unsplash.com/photo-1700855151701-52d3c24fe4b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a couple of boats that are sitting in the water"
         },
         {
-          "url": "https://images.unsplash.com/photo-1733060647791-b3884d608a59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A large room with three lamps hanging from the ceiling"
+          "url": "https://images.unsplash.com/photo-1767842927200-9a83d12fac39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Wooden bridge over river with autumn trees and village."
         },
         {
-          "url": "https://images.unsplash.com/photo-1771030667899-e7a6938b2e81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Traditional japanese hallway with sliding doors and wooden railings"
+          "url": "https://images.unsplash.com/photo-1731578277024-0655a4f9e1b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A row of houses sitting on the side of a lake"
         },
         {
-          "url": "https://images.unsplash.com/photo-1723382056183-823d065ae8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A building that has a lot of lights on it"
+          "url": "https://images.unsplash.com/photo-1740815881912-1d240a44c5fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Boats dock along a river, surrounded by nature."
         },
         {
-          "url": "https://images.unsplash.com/photo-1600775081940-f849231d06d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "black metal fence near brown concrete building during daytime"
+          "url": "https://images.unsplash.com/photo-1565362458384-9bad71cfc92d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "photography of river during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1771773563156-2f32863f2c7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Traditional japanese building illuminated at night with lanterns"
+          "url": "https://images.unsplash.com/photo-1685111719048-6f46c1a44f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a river running through a lush green forest"
         },
         {
-          "url": "https://images.unsplash.com/photo-1733060647640-623ff1ea2d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A japanese garden with a small house in the background"
+          "url": "https://images.unsplash.com/photo-1700855151701-52d3c24fe4b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a couple of boats that are sitting in the water"
         },
         {
-          "url": "https://images.unsplash.com/photo-1733060647791-b3884d608a59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A large room with three lamps hanging from the ceiling"
+          "url": "https://images.unsplash.com/photo-1767842927200-9a83d12fac39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Wooden bridge over river with autumn trees and village."
         },
         {
-          "url": "https://images.unsplash.com/photo-1771030667899-e7a6938b2e81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3NoaW5veWElMjBLeW90b3xlbnwwfDB8fHwxNzc4NDc3OTMxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Traditional japanese hallway with sliding doors and wooden railings"
+          "url": "https://images.unsplash.com/photo-1731578277024-0655a4f9e1b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4NDc4NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A row of houses sitting on the side of a lake"
         }
       ]
     },
     {
       "name": "Hotel Nikko Kansai Airport",
       "name_zh": "關西機場日航酒店",
-      "district": "關西機場",
+      "district": "大阪關西機場",
       "day_range": "4",
       "nights": 1,
-      "price_ntd": 4500,
+      "price_ntd": 6000,
       "stars": "★★★★☆",
       "room_type": "標準雙人房",
-      "breakfast": "含簡易早餐",
-      "amenities": "🚿 淋浴 · 🛏️ 舒適床鋪 · 🚌 接駁車",
-      "search_query": "Hotel Nikko Kansai Airport",
+      "breakfast": "不含早餐",
+      "amenities": "🚌 免費機場接駁 · 🛍️ 機場直結",
+      "search_query": "Hotel Nikko Kansai Airport Japan",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1694174166953-76edbd2fdf6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airplane is seen through the window of an airport"
+          "url": "https://images.unsplash.com/photo-1658825183336-18ab30ecbc97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a building with a sign on it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1638735384495-494a46f249a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a living room filled with furniture and a large window"
+          "url": "https://images.unsplash.com/photo-1733669493130-a5671525ca0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A night view of a hotel and a body of water"
         },
         {
-          "url": "https://images.unsplash.com/photo-1624558118561-325bc4933964?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden table near white wall"
+          "url": "https://images.unsplash.com/photo-1736132920404-b87f625fcd17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large white building with a clock in front of it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1705013669122-14ddc4eaad67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airplane flying over a body of water"
+          "url": "https://images.unsplash.com/photo-1741121622806-7e5f66e5d13b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large building with a wide entryway."
         },
         {
-          "url": "https://images.unsplash.com/photo-1603113088346-a8c702c59332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden chairs and tables"
+          "url": "https://images.unsplash.com/photo-1756512551803-3971bcae897e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Modern white hotel building by the water"
         },
         {
-          "url": "https://images.unsplash.com/photo-1689166373404-550dbcc7c1fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airport at night with lights on the runway"
+          "url": "https://images.unsplash.com/photo-1762018937916-e366c803b9eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Hotel sign on a building against blue sky"
         },
         {
-          "url": "https://images.unsplash.com/photo-1694174166953-76edbd2fdf6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airplane is seen through the window of an airport"
+          "url": "https://images.unsplash.com/photo-1658825183336-18ab30ecbc97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a building with a sign on it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1638735384495-494a46f249a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a living room filled with furniture and a large window"
+          "url": "https://images.unsplash.com/photo-1733669493130-a5671525ca0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A night view of a hotel and a body of water"
         },
         {
-          "url": "https://images.unsplash.com/photo-1624558118561-325bc4933964?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden table near white wall"
+          "url": "https://images.unsplash.com/photo-1736132920404-b87f625fcd17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large white building with a clock in front of it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1705013669122-14ddc4eaad67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airplane flying over a body of water"
+          "url": "https://images.unsplash.com/photo-1741121622806-7e5f66e5d13b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large building with a wide entryway."
         },
         {
-          "url": "https://images.unsplash.com/photo-1603113088346-a8c702c59332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden chairs and tables"
+          "url": "https://images.unsplash.com/photo-1756512551803-3971bcae897e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Modern white hotel building by the water"
         },
         {
-          "url": "https://images.unsplash.com/photo-1689166373404-550dbcc7c1fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4NDc3OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an airport at night with lights on the runway"
+          "url": "https://images.unsplash.com/photo-1762018937916-e366c803b9eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzc3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Hotel sign on a building against blue sky"
         }
       ]
     }
@@ -226,54 +163,54 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Kikunoi Honten",
-        "name_zh": "菊乃井本店 · 米其林三星懷石",
-        "stars": "⭐⭐⭐",
-        "dish": "🍣 招牌：季節懷石料理（午餐）",
-        "address": "459 Shimokawaracho, Higashiyama-ku, Kyoto",
-        "price_ntd": 9000,
-        "price_label": "午餐懷石 ¥20,000/人 · NT$9,000",
-        "hours": "12:00–13:30 · 需預約",
-        "search_query": "Kikunoi Honten Kyoto",
+        "name": "Tempura Matsu",
+        "name_zh": "天婦羅 松",
+        "stars": "⭐⭐",
+        "dish": "🦐 招牌：海膽天婦羅 · 季節蔬菜",
+        "address": "京都府京都市中京區堀川通三条上る",
+        "price_ntd": 4500,
+        "price_label": "晚餐套餐 ¥20,000/人 · NT$4,500",
+        "hours": "17:00–22:00 · 需預約",
+        "search_query": "Tempura Matsu Kyoto Japan",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1733060647640-623ff1ea2d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG98ZW58MHwwfHx8MTc3ODQ3NzkzMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A japanese garden with a small house in the background"
+            "url": "https://images.unsplash.com/photo-1677050205809-60b00c86eda3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUZW1wdXJhJTIwTWF0c3UlMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzg2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a bowl of noodles with shrimp and scallions on a table"
           },
           {
-            "url": "https://images.unsplash.com/photo-1730277446333-df9ff34ef09b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG98ZW58MHwwfHx8MTc3ODQ3NzkzMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A building with a bunch of plants in front of it"
+            "url": "https://images.unsplash.com/photo-1727452961520-df73f30d33c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUZW1wdXJhJTIwTWF0c3UlMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzg2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A man standing behind a counter filled with food"
           },
           {
-            "url": "https://images.unsplash.com/photo-1768947814363-880ad1eb798f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG98ZW58MHwwfHx8MTc3ODQ3NzkzMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A path leads to a traditional japanese gate in autumn."
+            "url": "https://images.unsplash.com/photo-1540476882953-a9e7c74821ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUZW1wdXJhJTIwTWF0c3UlMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzg2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "man wearing black wrap top"
           },
           {
-            "url": "https://images.unsplash.com/photo-1733060647640-623ff1ea2d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG98ZW58MHwwfHx8MTc3ODQ3NzkzMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A japanese garden with a small house in the background"
+            "url": "https://images.unsplash.com/photo-1677050205809-60b00c86eda3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUZW1wdXJhJTIwTWF0c3UlMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzg2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a bowl of noodles with shrimp and scallions on a table"
           },
           {
-            "url": "https://images.unsplash.com/photo-1730277446333-df9ff34ef09b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG98ZW58MHwwfHx8MTc3ODQ3NzkzMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A building with a bunch of plants in front of it"
+            "url": "https://images.unsplash.com/photo-1727452961520-df73f30d33c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUZW1wdXJhJTIwTWF0c3UlMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzg2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A man standing behind a counter filled with food"
           },
           {
-            "url": "https://images.unsplash.com/photo-1768947814363-880ad1eb798f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG98ZW58MHwwfHx8MTc3ODQ3NzkzMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A path leads to a traditional japanese gate in autumn."
+            "url": "https://images.unsplash.com/photo-1540476882953-a9e7c74821ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUZW1wdXJhJTIwTWF0c3UlMjBLeW90byUyMEphcGFufGVufDB8MHx8fDE3Nzg0Nzg2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "man wearing black wrap top"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Arashiyama Yoshimura",
-        "name_zh": "嵐山よしむら · 蕎麥麵名店",
+        "name": "Kichi Kichi Omurice",
+        "name_zh": "キチキチ オムライス",
         "stars": "",
-        "dish": "🍜 招牌：天婦羅蕎麥麵套餐",
-        "address": "3-1-4 Arashiyama, Nishikyo-ku, Kyoto",
-        "price_ntd": 1800,
-        "price_label": "午餐套餐 ¥4,000/人 · NT$1,800",
-        "hours": "11:00–17:00",
-        "search_query": "Arashiyama Yoshimura soba",
+        "dish": "🍳 招牌：搖滾蛋包飯 · 牛肉燉飯",
+        "address": "京都府京都市中京区材木町187",
+        "price_ntd": 900,
+        "price_label": "蛋包飯套餐 ¥2,000/人 · NT$900",
+        "hours": "11:30–14:30 / 17:30–21:00",
+        "search_query": "Kichi Kichi Omurice Kyoto Japan",
         "photos": [
           {
             "url": "",
@@ -293,21 +230,21 @@
     "cafes": [
       {
         "name": "% Arabica Kyoto Arashiyama",
-        "name_zh": "% Arabica 嵐山咖啡",
+        "name_zh": "% Arabica 嵐山店",
         "stars": "",
-        "dish": "☕ 招牌：拿鐵 · 抹茶拿鐵",
-        "address": "3-47 Sagatenryuji Susukinobabacho, Ukyo-ku, Kyoto",
-        "price_ntd": 360,
-        "price_label": "兩杯拿鐵 ¥800 · NT$360",
-        "hours": "08:00–18:00 · 渡月橋畔",
-        "search_query": "Arabica Arashiyama",
+        "dish": "☕ 招牌：拿鐵 · 抹茶拿鐵 · 可頌",
+        "address": "京都府京都市右京区嵯峨天龍寺芒ノ馬場町3-47",
+        "price_ntd": 450,
+        "price_label": "兩杯拿鐵 + 可頌 ¥1,000 · NT$450",
+        "hours": "08:00–18:00 · 渡月橋景觀",
+        "search_query": "Arabica Arashiyama Kyoto Japan",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1578284182772-d68cdc05e539?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBcmFiaWNhJTIwQXJhc2hpeWFtYXxlbnwwfDB8fHwxNzc4NDc3OTM1fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1578284182772-d68cdc05e539?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODQ3ODY2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "people on bridge"
           },
           {
-            "url": "https://images.unsplash.com/photo-1578284182772-d68cdc05e539?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBcmFiaWNhJTIwQXJhc2hpeWFtYXxlbnwwfDB8fHwxNzc4NDc3OTM1fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1578284182772-d68cdc05e539?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODQ3ODY2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "people on bridge"
           }
         ]
@@ -317,201 +254,209 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "June 1 · Mon",
-      "label_zh": "抵達日 · 晚班機",
-      "hotel_name": "Hotel Nikko Kansai Airport",
-      "hotel_name_zh": "關西機場日航酒店 · 標準雙人房",
+      "date": "June 18 · Thu",
+      "label_zh": "抵達日 · 夜宿難波",
+      "hotel_name": "Hotel Nikko Kansai Airport (Day 4 only) — 第一晚暫住難波附近飯店",
+      "hotel_name_zh": "第一晚：大阪難波站附近飯店（範例：大阪難波假日酒店）",
       "hotel_room": "標準雙人房",
-      "weather": "☁️ 25°/19°",
+      "weather": "☁️ 25°/20°",
       "rain_pct": "30%",
       "slots": [
         {
-          "time": "23:30",
-          "desc": "✈️ 從桃園機場 (TPE) 出發 · 長榮航空 BR132 · 直飛關西機場 (KIX)"
+          "time": "18:30",
+          "desc": "✈️ 桃園機場 TPE 出發 · 樂桃航空 MM28"
         },
         {
-          "time": "03:10",
-          "desc": "🛬 抵達關西機場 · 入境通關 · 取行李"
+          "time": "22:00",
+          "desc": "🛬 抵達關西機場 KIX · 入境、取行李"
         },
         {
-          "time": "04:00",
-          "desc": "🚶 步行前往關西機場日航酒店（機場內）· 快速入住休息"
+          "time": "23:00",
+          "desc": "🚃 搭乘南海電鐵空港急行（約45分鐘）至難波站 · 步行至飯店"
         },
         {
-          "time": "04:30",
-          "desc": "🛌 就寢 · 為明天嵐山之旅養足精神"
+          "time": "23:45",
+          "desc": "🏨 入住難波站附近飯店（範例：大阪難波假日酒店） · 休息"
         }
       ]
     },
     {
       "day": 2,
-      "date": "June 2 · Tue",
+      "date": "June 19 · Fri",
       "label_zh": "嵐山一日 · 入住虹夕諾雅",
       "hotel_name": "Hoshinoya Kyoto",
       "hotel_name_zh": "虹夕諾雅 京都 · 水之音雙人房",
-      "hotel_room": "水之音雙人房",
-      "weather": "🌤️ 26°/18°",
+      "hotel_room": "水之音 雙人房",
+      "weather": "☀️ 28°/19°",
       "rain_pct": "10%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🌅 起床 · 在關西機場日航酒店享用簡易早餐（或便利店購買飯糰）"
+          "desc": "🍳 飯店早餐 · 退房寄存行李於難波飯店"
         },
         {
           "time": "09:00",
-          "desc": "🚃 從關西機場站搭乘「關空特急HARUKA」前往京都站（約75分鐘）· 使用ICOCA卡"
+          "desc": "🚃 從難波站搭乘大阪地鐵御堂筋線至梅田站（約10分鐘）· 轉JR京都線新快速至京都站（約30分鐘）· 再轉JR嵯峨野線至嵯峨嵐山站（約15分鐘）"
         },
         {
           "time": "10:30",
-          "desc": "🚃 在京都站轉乘「JR嵯峨野線」至「嵯峨嵐山站」（約15分鐘）· 出站步行至嵐山"
+          "desc": "🎋 嵐山竹林之道 Arashiyama Bamboo Grove · 清晨人少"
         },
         {
-          "time": "11:00",
-          "desc": "🎋 漫步竹林小徑 · 參觀天龍寺（門票¥600/人 · NT$270）"
+          "time": "11:30",
+          "desc": "⛩️ 天龍寺 Tenryu-ji · 世界遺產庭園（門票 ¥500/人）"
         },
         {
           "time": "12:30",
-          "desc": "🍜 午餐：嵐山よしむら · 品嚐天婦羅蕎麥麵（¥4,000/人）"
+          "desc": "🍜 嵐山大街午餐 · 推薦：嵯峨豆腐 稻（湯豆腐套餐 ¥1,500/人）"
         },
         {
           "time": "14:00",
-          "desc": "🌉 渡月橋散步 · 在% Arabica咖啡店喝拿鐵（¥800兩杯）"
+          "desc": "🌉 渡月橋 Togetsukyo Bridge · 散步拍照"
         },
         {
-          "time": "15:30",
-          "desc": "🚤 在嵐山渡月橋旁的碼頭搭乘虹夕諾雅專屬渡船 · 沿大堰川前往酒店（約10分鐘）· 辦理入住"
+          "time": "15:00",
+          "desc": "☕ % Arabica 嵐山店 · 渡月橋景觀拿鐵"
         },
         {
           "time": "16:00",
-          "desc": "🛁 享受酒店露天風呂 · 欣賞保津川美景"
+          "desc": "🛶 前往虹夕諾雅專屬碼頭 · 搭接駁船入住（需預約）"
+        },
+        {
+          "time": "17:00",
+          "desc": "🏨 入住虹夕諾雅京都 · 享受溫泉與庭園"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 酒店內懷石料理晚餐（需預約 · ¥15,000/人 · NT$6,750）· 浪漫雙人晚餐"
+          "desc": "🍽️ 虹夕諾雅館內晚餐（懷石料理 ¥15,000/人）"
         }
       ]
     },
     {
       "day": 3,
-      "date": "June 3 · Wed",
-      "label_zh": "嵐山深度遊 · 虹夕諾雅慢活",
+      "date": "June 20 · Sat",
+      "label_zh": "嵐山深度遊 · 虹夕諾雅",
       "hotel_name": "Hoshinoya Kyoto",
       "hotel_name_zh": "虹夕諾雅 京都 · 水之音雙人房",
-      "hotel_room": "水之音雙人房",
-      "weather": "🌤️ 27°/19°",
+      "hotel_room": "水之音 雙人房",
+      "weather": "☀️ 29°/20°",
       "rain_pct": "5%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🌅 在虹夕諾雅享用日式早餐（含在房價內）· 面對庭園用餐"
+          "desc": "🧘 虹夕諾雅晨間瑜珈（免費）"
         },
         {
-          "time": "09:00",
-          "desc": "🚶 酒店周邊散步 · 探訪祇王寺 · 感受寧靜"
+          "time": "08:30",
+          "desc": "🍳 虹夕諾雅日式早餐（含在房價）"
         },
         {
-          "time": "10:30",
-          "desc": "🚤 搭乘渡船回到嵐山 · 租借和服漫步（和服體驗¥5,000/人 · NT$2,250）"
+          "time": "10:00",
+          "desc": "🚶 嵐山散步 · 野宮神社 Nonomiya Shrine · 祈求良緣"
+        },
+        {
+          "time": "11:30",
+          "desc": "🎋 龜山公園展望台 · 俯瞰保津川"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ 午餐：菊乃井本店 · 米其林三星懷石（需提前一個月預約 · ¥20,000/人）· 從嵐山搭計程車約30分鐘"
+          "desc": "🍣 午餐：嵐山 鰻魚屋 廣川（鰻魚飯 ¥5,000/人 · 建議預約）"
         },
         {
-          "time": "15:00",
-          "desc": "🎨 參觀京都國立博物館（門票¥700/人 · NT$315）· 欣賞日本藝術"
+          "time": "14:00",
+          "desc": "🚣 保津川下り 遊船（約2小時 · ¥4,100/人）"
         },
         {
-          "time": "17:00",
-          "desc": "🚤 返回虹夕諾雅 · 再次享受渡船接送"
+          "time": "16:30",
+          "desc": "♨️ 返回虹夕諾雅 · 泡溫泉休息"
         },
         {
           "time": "18:30",
-          "desc": "♨️ 傍晚泡湯 · 欣賞日落河景"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 酒店內享用懷石晚餐（第二晚 · 可選不同菜單）· 夜間庭園散步"
+          "desc": "🍽️ 館內晚餐（另一套懷石料理）"
         }
       ]
     },
     {
       "day": 4,
-      "date": "June 4 · Thu",
-      "label_zh": "大阪購物日 · 難波血拼",
+      "date": "June 21 · Sun",
+      "label_zh": "返回大阪 · 購物日",
       "hotel_name": "Hotel Nikko Kansai Airport",
       "hotel_name_zh": "關西機場日航酒店 · 標準雙人房",
       "hotel_room": "標準雙人房",
-      "weather": "☁️ 28°/21°",
-      "rain_pct": "20%",
+      "weather": "☁️ 27°/22°",
+      "rain_pct": "40%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🌅 在虹夕諾雅享用早餐 · 辦理退房"
+          "desc": "🍳 虹夕諾雅早餐"
         },
         {
           "time": "09:30",
-          "desc": "🚤 搭乘渡船離開虹夕諾雅 · 返回嵐山"
+          "desc": "🛶 退房 · 搭接駁船至嵐山碼頭"
         },
         {
           "time": "10:00",
-          "desc": "🚃 從「嵯峨嵐山站」搭乘JR嵯峨野線至「京都站」（15分鐘）· 轉乘JR京都線至「大阪站」（30分鐘）· 再轉御堂筋線至「難波站」（5分鐘）· 全程約1小時"
+          "desc": "🚃 從嵐山站搭乘京福電鐵（嵐電）至四條大宮站（約20分鐘）· 轉阪急京都線至梅田站（約15分鐘）"
         },
         {
           "time": "11:00",
-          "desc": "🛍️ 抵達難波 · 開始購物！逛高島屋百貨 · 藥妝店 · 電器店"
+          "desc": "🛍️ 梅田購物：阪急百貨、Grand Front Osaka"
         },
         {
           "time": "13:00",
-          "desc": "🍜 午餐：難波道頓堀 · 吃大阪燒（お好み焼き）· 推薦「千房」· 約¥3,000/人 · NT$1,350"
+          "desc": "🍱 午餐：梅田 利久牛舌（牛舌定食 ¥2,000/人）"
         },
         {
           "time": "14:30",
-          "desc": "🛒 繼續購物：心齋橋商店街 · 美國村 · 橘子街"
+          "desc": "🛍️ 心齋橋筋商店街 · 藥妝、服飾"
         },
         {
-          "time": "18:00",
-          "desc": "🍣 晚餐：黑門市場 · 品嚐新鮮海鮮 · 壽司 · 和牛串（約¥5,000/兩人）"
+          "time": "17:00",
+          "desc": "🛍️ 道頓堀 · 固力果跑跑人拍照 · 唐吉訶德"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍜 晚餐：一蘭拉麵 道頓堀店（¥1,000/人）"
         },
         {
           "time": "20:00",
-          "desc": "🚃 從難波站搭乘南海電鐵空港線至「關西機場站」（約40分鐘）· 前往關西機場日航酒店"
+          "desc": "🚃 搭乘南海電鐵至關西機場站（約45分鐘）"
         },
         {
           "time": "21:00",
-          "desc": "🛌 入住關西機場日航酒店 · 整理行李 · 休息"
+          "desc": "🏨 入住關西機場日航酒店 · 休息"
         }
       ]
     },
     {
       "day": 5,
-      "date": "June 5 · Fri",
-      "label_zh": "返家日 · 早班機",
-      "hotel_name": "Hotel Nikko Kansai Airport",
-      "hotel_name_zh": "關西機場日航酒店 · 標準雙人房",
-      "hotel_room": "標準雙人房",
-      "weather": "☀️ 25°/18°",
+      "date": "June 22 · Mon",
+      "label_zh": "回程日",
+      "hotel_name": "",
+      "hotel_name_zh": "",
+      "hotel_room": "",
+      "weather": "☀️ 26°/21°",
       "rain_pct": "0%",
       "slots": [
         {
-          "time": "05:00",
-          "desc": "⏰ 起床 · 在酒店享用簡易早餐（含）"
-        },
-        {
           "time": "05:30",
-          "desc": "🚶 步行前往關西機場第一航廈（約5分鐘）· 辦理登機手續"
+          "desc": "⏰ 起床 · 退房"
         },
         {
           "time": "06:00",
-          "desc": "🧳 出境安檢 · 免稅店最後採購"
+          "desc": "🚶 步行至關西機場第一航廈（飯店直結）"
         },
         {
-          "time": "07:00",
-          "desc": "✈️ 搭乘長榮航空 BR131 · 直飛桃園機場 (TPE)"
+          "time": "06:30",
+          "desc": "🧳 辦理登機 · 樂桃航空 MM27"
         },
         {
-          "time": "08:50",
-          "desc": "🛬 抵達台灣 · 結束浪漫五天之旅"
+          "time": "07:50",
+          "desc": "✈️ 起飛回台灣"
+        },
+        {
+          "time": "09:40",
+          "desc": "🛬 抵達桃園機場 TPE"
         }
       ]
     }
@@ -519,31 +464,31 @@
   "costs": [
     {
       "label": "✈️ 來回機票",
-      "amount_ntd": 24000
+      "amount_ntd": 12000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 81000
+      "amount_ntd": 78000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 25000
+      "amount_ntd": 35000
     },
     {
       "label": "🎫 景點門票",
-      "amount_ntd": 2000
+      "amount_ntd": 8000
     },
     {
       "label": "🚇 交通",
-      "amount_ntd": 8000
+      "amount_ntd": 6000
     },
     {
       "label": "🛍️ 購物伴手禮",
       "amount_ntd": 10000
     }
   ],
-  "cost_total_ntd": 150000,
-  "budget_remaining_ntd": 0,
+  "cost_total_ntd": 149000,
+  "budget_remaining_ntd": 1000,
   "photos": {
     "hero": [
       {
@@ -614,7 +559,7 @@
       }
     ]
   },
-  "chat_hash": "051d9cea04fe23a779f42de5780d63bfe1f79e6a263b5925fd93db78acbeb0e1",
+  "chat_hash": "6d565c8d93e521e94b14ad368e5e0c7d7923ef20573a6dcfcda40fcd61426ac0",
   "config_hash": "47a5ef73f4142c750f797797a972bc2576ed152513dc4a8a86fd6b48ba1c3599",
-  "generated_at": "2026-05-11T13:38:55.289500"
+  "generated_at": "2026-05-11T13:51:10.197392"
 }
