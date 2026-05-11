@@ -88,21 +88,41 @@
 const REPO = 'mengtahsu/travel-planner';
 
 async function loadSettings() {
+  // Load from localStorage FIRST (instant, survives navigation)
+  const saved = localStorage.getItem('travel_settings');
+  if(saved) {
+    try {
+      const data = JSON.parse(saved);
+      document.getElementById('year').value = data.year || 2026;
+      document.getElementById('month').value = data.month || 5;
+      document.getElementById('travelers').value = data.travelers || 2;
+      document.getElementById('days').value = data.days || 5;
+      document.getElementById('budget_ntd').value = data.budget_ntd || 150000;
+      document.getElementById('destination').value = data.destination || '';
+      document.getElementById('departure').value = data.departure || 'Taiwan 台灣 (TPE)';
+    } catch(e) {}
+  }
+
+  // Token only from localStorage, never from repo
+  document.getElementById('chat_token').value = localStorage.getItem('github_chat_token') || '';
+
+  // Then try to sync from GitHub (relative path works on both local and GitHub Pages)
   try {
-    const resp = await fetch('/config/settings.json');
-    if(!resp.ok) return;
-    const data = await resp.json();
-    document.getElementById('year').value = data.year || 2026;
-    document.getElementById('month').value = data.month || 5;
-    document.getElementById('travelers').value = data.travelers || 2;
-    document.getElementById('days').value = data.days || 5;
-    document.getElementById('budget_ntd').value = data.budget_ntd || 150000;
-    document.getElementById('destination').value = data.destination || '';
-    document.getElementById('departure').value = data.departure || 'Taiwan 台灣 (TPE)';
-    // Token only from localStorage, never from repo
-    document.getElementById('chat_token').value = localStorage.getItem('github_chat_token') || '';
+    const resp = await fetch('config/settings.json');
+    if(resp.ok) {
+      const data = await resp.json();
+      document.getElementById('year').value = data.year || 2026;
+      document.getElementById('month').value = data.month || 5;
+      document.getElementById('travelers').value = data.travelers || 2;
+      document.getElementById('days').value = data.days || 5;
+      document.getElementById('budget_ntd').value = data.budget_ntd || 150000;
+      document.getElementById('destination').value = data.destination || '';
+      document.getElementById('departure').value = data.departure || 'Taiwan 台灣 (TPE)';
+      // Sync to localStorage
+      localStorage.setItem('travel_settings', JSON.stringify(data));
+    }
   } catch(e) {
-    console.error('Failed to load settings:', e);
+    console.error('Failed to sync settings from GitHub:', e);
   }
 }
 
@@ -146,6 +166,11 @@ async function saveSettings() {
   if(settings.chat_token) {
     localStorage.setItem('github_chat_token', settings.chat_token);
   }
+
+  // Save settings to localStorage FIRST (survives navigation, offline-safe)
+  const settingsForStorage = Object.assign({}, settings);
+  delete settingsForStorage.chat_token;
+  localStorage.setItem('travel_settings', JSON.stringify(settingsForStorage));
 
   // Remove token from settings before committing — NEVER push secrets to repo
   delete settings.chat_token;

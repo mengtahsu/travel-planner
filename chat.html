@@ -83,7 +83,7 @@ async function loadChat() {
 
   // Then try to sync from GitHub
   try {
-    const resp = await fetch(`/data/chat/${key}.txt`);
+    const resp = await fetch(`data/chat/${key}.txt`);
     if(resp.ok) {
       const text = await resp.text();
       if(text && text !== saved) {
