@@ -1,6 +1,6 @@
 {
-  "destination_en": "Osaka, Japan",
-  "title_zh": "六月大阪 · 浪漫五天之旅",
+  "destination_en": "Osaka & Kyoto, Japan",
+  "title_zh": "大阪京都 · 浪漫五天購物之旅",
   "date_range": "2026/06/01–06/05",
   "start_date": "2026-06-01",
   "end_date": "2026-06-05",
@@ -11,129 +11,66 @@
   "days": 5,
   "budget_ntd": 150000,
   "flight": {
-    "airline": "中華航空 China Airlines",
+    "airline": "樂桃航空 Peach Aviation",
     "departure_date": "6月1日",
     "return_date": "6月5日",
-    "total_price_ntd": 24000,
+    "total_price_ntd": 12000,
     "outbound": {
-      "flight_no": "CI 156",
+      "flight_no": "MM 24",
       "route": "TPE → KIX 直飛",
-      "depart_time": "20:30",
-      "arrive_time": "00:10 (+1)",
-      "duration": "2h 40m",
+      "depart_time": "22:00",
+      "arrive_time": "01:30 (+1)",
+      "duration": "2h 30m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 157",
+      "flight_no": "MM 23",
       "route": "KIX → TPE 直飛",
-      "depart_time": "08:30",
-      "arrive_time": "10:30",
-      "duration": "3h 00m",
+      "depart_time": "07:00",
+      "arrive_time": "09:00",
+      "duration": "2h 00m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Hotel Vista Grande Osaka Namba",
-      "name_zh": "大阪難波威斯特大酒店",
-      "district": "大阪難波站附近",
-      "day_range": "1 & 4",
-      "nights": 2,
-      "price_ntd": 12000,
+      "name": "Hotel Nikko Kansai Airport",
+      "name_zh": "關西機場日航酒店",
+      "district": "關西機場",
+      "day_range": "1",
+      "nights": 1,
+      "price_ntd": 4500,
       "stars": "★★★★☆",
       "room_type": "標準雙人房",
       "breakfast": "不含早餐",
-      "amenities": "🛏️ 舒適客房 · 🚿 淋浴 · 📶 免費WiFi · 🧳 行李寄存",
-      "search_query": "Hotel Vista Grande Osaka Namba Japan",
-      "photos": [
-        {
-          "url": "",
-          "label": "boutique Hotel Osaka hotel room"
-        },
-        {
-          "url": "",
-          "label": "boutique Hotel Osaka hotel room"
-        },
-        {
-          "url": "",
-          "label": "boutique Hotel Osaka hotel room"
-        },
-        {
-          "url": "",
-          "label": "boutique Hotel Osaka hotel room"
-        },
-        {
-          "url": "",
-          "label": "boutique Hotel Osaka hotel room"
-        },
-        {
-          "url": "",
-          "label": "boutique Hotel Osaka hotel room"
-        }
-      ]
+      "amenities": "🚿 24小時櫃檯 · 機場直結",
+      "search_query": "Hotel Nikko Kansai Airport Japan"
     },
     {
       "name": "Hoshinoya Kyoto",
       "name_zh": "虹夕諾雅 京都",
-      "district": "京都嵐山",
+      "district": "京都 嵐山",
       "day_range": "2–3",
       "nights": 2,
-      "price_ntd": 72000,
+      "price_ntd": 80000,
       "stars": "★★★★★",
-      "room_type": "水之庭園雙人房",
+      "room_type": "水之房間（雙人）",
       "breakfast": "含日式早餐",
-      "amenities": "♨️ 露天溫泉 · 🍵 茶室 · 🚤 接駁船 · 🌸 庭園景觀",
-      "search_query": "Hoshinoya Kyoto Japan",
-      "photos": [
-        {
-          "url": "https://images.unsplash.com/photo-1732522158761-6dbc6266e47f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A woman walking down a hallway between two elevators"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1741851374578-e618a8bb5eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Japanese architecture with a natural pathway."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1709365954278-73b63ca659a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a suitcase sitting on a bed in a dimly lit room"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1763419161907-1e00b2f883c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Two beds with a nightstand and clock between them."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1723789548110-01c66cd5fddc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A room with a wooden floor and a window"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1741851373855-5fb305ee6d70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Bamboo trees frame a traditional japanese house."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1732522158761-6dbc6266e47f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A woman walking down a hallway between two elevators"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1741851374578-e618a8bb5eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Japanese architecture with a natural pathway."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1709365954278-73b63ca659a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a suitcase sitting on a bed in a dimly lit room"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1763419161907-1e00b2f883c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Two beds with a nightstand and clock between them."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1723789548110-01c66cd5fddc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A room with a wooden floor and a window"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1741851373855-5fb305ee6d70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBIb3NoaW5veWElMjBPc2FrYSUyMGhvdGVsJTIwc3VpdGUlMjBzcGF8ZW58MHwwfHx8MTc3ODQ3NTA2OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Bamboo trees frame a traditional japanese house."
-        }
-      ]
+      "amenities": "♨️ 露天溫泉 · 🍽️ 懷石料理 · 🛶 接送船",
+      "search_query": "Hoshinoya Kyoto Japan"
+    },
+    {
+      "name": "Swissotel Nankai Osaka",
+      "name_zh": "瑞士南海大阪酒店",
+      "district": "大阪 難波",
+      "day_range": "4",
+      "nights": 1,
+      "price_ntd": 8000,
+      "stars": "★★★★★",
+      "room_type": "高級雙人房",
+      "breakfast": "含自助早餐",
+      "amenities": "🚇 難波站直結 · 🛍️ 高島屋百貨",
+      "search_query": "Swissotel Nankai Osaka Japan"
     }
   ],
   "restaurants": {
@@ -142,420 +79,291 @@
         "name": "Kikunoi Honten",
         "name_zh": "菊乃井 本店 · 米其林三星懷石",
         "stars": "⭐⭐⭐",
-        "dish": "🍣 招牌：季節懷石料理（含鮑魚、和牛、抹茶甜點）",
-        "address": "459 Shimokawara-cho, Higashiyama-ku, Kyoto",
+        "dish": "🍣 招牌：季節懷石料理（午餐）",
+        "address": "459 Shimokawara-cho, Yasaka, Higashiyama-ku, Kyoto",
         "price_ntd": 9000,
-        "price_label": "晚餐套餐 ¥20,000/人 · NT$9,000",
-        "hours": "12:00–13:30 / 17:00–20:00 · 需預約",
-        "search_query": "Kikunoi Honten Kyoto Michelin",
-        "photos": [
-          {
-            "url": "https://images.unsplash.com/photo-1730324771372-54e211b86b22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDc1MDcxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A wooden table topped with plates of food"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1768162125959-8a35d4ede7dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDc1MDcxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Chicken skewers topped with chopped green onions."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1752135534175-44aa59a1bb50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDc1MDcxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Sushi chefs preparing food in a japanese restaurant."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1730324771372-54e211b86b22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDc1MDcxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A wooden table topped with plates of food"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1768162125959-8a35d4ede7dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDc1MDcxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Chicken skewers topped with chopped green onions."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1752135534175-44aa59a1bb50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyMGZpbmUlMjBkaW5pbmclMjByZXN0YXVyYW50JTIwZm9vZHxlbnwwfDB8fHwxNzc4NDc1MDcxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Sushi chefs preparing food in a japanese restaurant."
-          }
-        ]
+        "price_label": "午餐懷石 ¥20,000/人 · NT$9,000",
+        "hours": "12:00–15:00 · 需預約",
+        "search_query": "Kikunoi Honten Kyoto"
       }
     ],
     "bistros": [
       {
-        "name": "Arashiyama Yoshimura",
-        "name_zh": "嵐山よしむら · 蕎麥麵名店",
-        "stars": "",
-        "dish": "🍜 招牌：天婦羅蕎麥麵 · 豆腐料理",
-        "address": "3-47-10 Arashiyama Nakaoshitacho, Nishikyo-ku, Kyoto",
-        "price_ntd": 1800,
-        "price_label": "午餐套餐 ¥4,000/人 · NT$1,800",
-        "hours": "11:00–17:00",
-        "search_query": "Arashiyama Yoshimura soba",
-        "photos": [
-          {
-            "url": "",
-            "label": "Osaka bistros restaurant food"
-          },
-          {
-            "url": "",
-            "label": "Osaka bistros restaurant food"
-          },
-          {
-            "url": "",
-            "label": "Osaka bistros restaurant food"
-          }
-        ]
+        "name": "Gion Sasaki",
+        "name_zh": "祇園佐佐木 · 米其林一星割烹",
+        "stars": "⭐",
+        "dish": "🐟 招牌：炭烤鰻魚 · 季節野菜",
+        "address": "570-195 Gionmachi Minamigawa, Higashiyama-ku, Kyoto",
+        "price_ntd": 5400,
+        "price_label": "晚餐套餐 ¥12,000/人 · NT$5,400",
+        "hours": "17:30–22:00 · 需預約",
+        "search_query": "Gion Sasaki Kyoto"
       }
     ],
     "cafes": [
       {
         "name": "% Arabica Kyoto Arashiyama",
-        "name_zh": "% Arabica 嵐山店 · 渡月橋畔咖啡",
+        "name_zh": "% Arabica 嵐山店 · 網紅咖啡",
         "stars": "",
         "dish": "☕ 招牌：拿鐵 · 抹茶拿鐵 · 可頌",
-        "address": "3-47-15 Arashiyama Nakaoshitacho, Nishikyo-ku, Kyoto",
+        "address": "3-47 Sagatenryuji Susukinobaba-cho, Ukyo-ku, Kyoto",
         "price_ntd": 450,
-        "price_label": "兩人咖啡 ¥1,000 · NT$450",
-        "hours": "08:00–18:00 · 河景座位",
-        "search_query": "Arabica Arashiyama coffee",
-        "photos": [
-          {
-            "url": "https://images.unsplash.com/photo-1747892736991-69c2be823e0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHwlMjUlMjBBcmFiaWNhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwY2FmZSUyMGNvZmZlZSUyME9zYWthJTIwZGVzc2VydHxlbnwwfDB8fHwxNzc4NDc1MDczfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A barista makes coffee with a scenic view."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1626030403865-23ab67860152?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHwlMjUlMjBBcmFiaWNhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwY2FmZSUyMGNvZmZlZSUyME9zYWthJTIwZGVzc2VydHxlbnwwfDB8fHwxNzc4NDc1MDczfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white and black wooden wall decor"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1553739340-4043e61e457a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHwlMjUlMjBBcmFiaWNhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwY2FmZSUyMGNvZmZlZSUyME9zYWthJTIwZGVzc2VydHxlbnwwfDB8fHwxNzc4NDc1MDczfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "chocolate ball and cube"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1747892736991-69c2be823e0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHwlMjUlMjBBcmFiaWNhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwY2FmZSUyMGNvZmZlZSUyME9zYWthJTIwZGVzc2VydHxlbnwwfDB8fHwxNzc4NDc1MDczfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A barista makes coffee with a scenic view."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1626030403865-23ab67860152?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHwlMjUlMjBBcmFiaWNhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwY2FmZSUyMGNvZmZlZSUyME9zYWthJTIwZGVzc2VydHxlbnwwfDB8fHwxNzc4NDc1MDczfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white and black wooden wall decor"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1553739340-4043e61e457a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHwlMjUlMjBBcmFiaWNhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwY2FmZSUyMGNvZmZlZSUyME9zYWthJTIwZGVzc2VydHxlbnwwfDB8fHwxNzc4NDc1MDczfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "chocolate ball and cube"
-          }
-        ]
+        "price_label": "兩杯咖啡 + 甜點 ¥1,000 · NT$450",
+        "hours": "08:00–18:00 · 嵐山渡月橋旁",
+        "search_query": "Arabica Arashiyama Kyoto"
+      },
+      {
+        "name": "Takoyaki Wanaka Namba",
+        "name_zh": "章魚燒 わなか なんば店",
+        "stars": "",
+        "dish": "🐙 招牌：章魚燒（8個）· 明石燒",
+        "address": "1-5-10 Namba, Chuo-ku, Osaka",
+        "price_ntd": 540,
+        "price_label": "兩人份 ¥1,200 · NT$540",
+        "hours": "10:00–23:00 · 道頓堀旁",
+        "search_query": "Takoyaki Wanaka Namba Osaka"
       }
     ]
   },
   "itinerary": [
     {
       "day": 1,
-      "date": "6月1日 · Mon",
-      "label_zh": "抵達日 · 深夜入住",
-      "hotel_name": "Hotel Vista Grande Osaka Namba",
-      "hotel_name_zh": "大阪難波威斯特大酒店 · 標準雙人房",
+      "date": "June 1 · Mon",
+      "label_zh": "抵達日 · 晚班機",
+      "hotel_name": "Hotel Nikko Kansai Airport",
+      "hotel_name_zh": "關西機場日航酒店",
       "hotel_room": "標準雙人房",
-      "weather": "🌙 24°/20°",
+      "weather": "🌙 22°/18°",
       "rain_pct": "20%",
       "slots": [
         {
-          "time": "20:30",
-          "desc": "✈️ 桃園機場TPE出發 · 中華航空CI156 · 20:30起飛"
+          "time": "19:00",
+          "desc": "🚖 前往桃園機場第二航廈 · 建議18:00前到機場"
         },
         {
-          "time": "00:10",
-          "desc": "🛬 抵達關西國際機場KIX · 入境通關 · 領行李"
+          "time": "21:00",
+          "desc": "✈️ 辦理登機 · 樂桃航空 MM24 · 22:00起飛"
         },
         {
-          "time": "01:00",
-          "desc": "🚌 搭乘深夜巴士（關空→難波）約50分鐘 · 每人¥1,600（NT$720）"
-        },
-        {
-          "time": "02:00",
-          "desc": "🏨 抵達Hotel Vista Grande Osaka Namba · 步行3分鐘 · 入住標準雙人房"
+          "time": "01:30",
+          "desc": "🛬 抵達關西國際機場 · 入境、取行李"
         },
         {
           "time": "02:30",
-          "desc": "🛌 休息 · 不安排活動 · 為明天養精蓄銳"
+          "desc": "🏨 步行至關西機場日航酒店（機場內連通道）· 入住休息"
+        },
+        {
+          "time": "03:00",
+          "desc": "🛌 就寢 · 明天前往京都嵐山"
         }
       ]
     },
     {
       "day": 2,
-      "date": "6月2日 · Tue",
-      "label_zh": "嵐山探索日 · 入住虹夕諾雅",
+      "date": "June 2 · Tue",
+      "label_zh": "嵐山一日 · 入住虹夕諾雅",
       "hotel_name": "Hoshinoya Kyoto",
-      "hotel_name_zh": "虹夕諾雅 京都 · 水之庭園雙人房",
-      "hotel_room": "水之庭園雙人房",
-      "weather": "☀️ 28°/20°",
+      "hotel_name_zh": "虹夕諾雅 京都 · 水之房間",
+      "hotel_room": "水之房間（雙人）",
+      "weather": "☀️ 26°/18°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🌅 起床 · 整理行李 · 退房（Hotel Vista Grande）"
-        },
-        {
           "time": "08:00",
-          "desc": "🚃 前往嵐山：從難波站搭乘御堂筋線至梅田站（¥290, 約10分鐘），轉JR京都線至京都站（¥580, 約30分鐘），再轉JR嵯峨野線至嵯峨嵐山站（¥240, 約15分鐘）· 總車程約1小時 · 每人¥1,110（NT$500）"
+          "desc": "🍽️ 機場內早餐（Lawson或First Kitchen）· 退房"
         },
         {
-          "time": "09:30",
-          "desc": "🏯 抵達嵐山 · 行李寄放嵯峨嵐山站置物櫃（¥700/個）"
+          "time": "09:00",
+          "desc": "🚄 關西機場站 → 京都站（搭乘Haruka特急，75分鐘，¥3,600/人 · NT$1,620）"
         },
         {
-          "time": "10:00",
-          "desc": "🎋 竹林小徑（竹の道）· 漫步竹林 · 拍照打卡"
+          "time": "10:30",
+          "desc": "🚃 京都站 → 嵐山站（JR嵯峨野線，約15分鐘，¥240/人 · NT$108）"
         },
         {
           "time": "11:00",
-          "desc": "⛩️ 天龍寺 · 世界遺產 · 庭園參拜 · 門票¥800/人（NT$360）"
+          "desc": "⛩️ 嵐山漫步 · 渡月橋 · 天龍寺（門票¥500/人 · NT$225）"
         },
         {
           "time": "12:30",
-          "desc": "🍜 午餐：Arashiyama Yoshimura · 天婦羅蕎麥麵 · 每人¥4,000（NT$1,800）"
+          "desc": "☕ % Arabica 嵐山店 · 拿鐵 + 可頌（¥1,000 · NT$450）"
         },
         {
-          "time": "14:00",
-          "desc": "🌉 渡月橋散步 · 河景拍照 · 前往% Arabica喝咖啡（拿鐵¥550, NT$248）"
+          "time": "13:30",
+          "desc": "🎋 竹林小徑 · 野宮神社 · 常寂光寺"
         },
         {
-          "time": "15:30",
-          "desc": "🚤 前往虹夕諾雅：從渡月橋旁碼頭搭乘飯店專屬接駁船（免費）· 約10分鐘 · 入住水之庭園雙人房"
+          "time": "15:00",
+          "desc": "🛶 虹夕諾雅專屬接駁船（從嵐山渡月橋旁碼頭出發）· 入住酒店"
         },
         {
           "time": "16:00",
-          "desc": "♨️ 飯店設施：露天溫泉 · 茶室體驗 · 庭園散步"
+          "desc": "♨️ 酒店內露天溫泉 · 休息"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 晚餐：虹夕諾雅館內懷石料理（含在房價內）· 品嚐精緻京料理"
+          "desc": "🍽️ 酒店內懷石料理晚餐（預約制，¥25,000/人 · NT$11,250）"
         }
       ]
     },
     {
       "day": 3,
-      "date": "6月3日 · Wed",
-      "label_zh": "嵐山深度遊 · 虹夕諾雅續住",
+      "date": "June 3 · Wed",
+      "label_zh": "嵐山深度遊 · 虹夕諾雅第二晚",
       "hotel_name": "Hoshinoya Kyoto",
-      "hotel_name_zh": "虹夕諾雅 京都 · 水之庭園雙人房",
-      "hotel_room": "水之庭園雙人房",
-      "weather": "⛅ 27°/21°",
+      "hotel_name_zh": "虹夕諾雅 京都 · 水之房間",
+      "hotel_room": "水之房間（雙人）",
+      "weather": "⛅ 25°/17°",
       "rain_pct": "20%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🍳 飯店日式早餐（含在房價內）· 俯瞰大堰川"
+          "desc": "🍽️ 酒店內日式早餐（含在房價）"
         },
         {
           "time": "09:00",
-          "desc": "🚣 嵐山保津川遊船（預約）· 每人¥4,500（NT$2,025）· 約2小時"
+          "desc": "🚃 嵐山 → 京都站（JR嵯峨野線，15分鐘）"
         },
         {
-          "time": "11:30",
-          "desc": "🌿 常寂光寺 · 苔庭與多寶塔 · 門票¥500/人（NT$225）"
+          "time": "09:30",
+          "desc": "⛩️ 伏見稻荷大社 · 千本鳥居（免費）"
         },
         {
-          "time": "13:00",
-          "desc": "🍣 午餐：嵐山廣川鰻魚飯（うなぎ廣川）· 每人¥5,000（NT$2,250）"
+          "time": "12:00",
+          "desc": "🍣 菊乃井 本店 · 米其林三星懷石午餐（預約12:00，¥20,000/人 · NT$9,000）"
         },
         {
           "time": "14:30",
-          "desc": "🎨 嵐山美術館（如：福田美術館）· 門票¥1,500/人（NT$675）"
+          "desc": "🚃 返回嵐山 · 酒店休息"
         },
         {
           "time": "16:00",
-          "desc": "🛍️ 嵐山商店街購物 · 抹茶甜點、和風小物"
+          "desc": "🛶 嵐山保津川遊船（¥4,100/人 · NT$1,845）"
         },
         {
-          "time": "17:30",
-          "desc": "♨️ 返回虹夕諾雅 · 泡溫泉 · 休息"
+          "time": "18:00",
+          "desc": "♨️ 酒店溫泉 · 休息"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：菊乃井本店（米其林三星懷石）· 需預約 · 每人¥20,000（NT$9,000）· 從嵐山搭計程車約20分鐘（¥2,500, NT$1,125）"
+          "time": "19:30",
+          "desc": "🍽️ 酒店內輕懷石晚餐（預約制，¥18,000/人 · NT$8,100）"
         }
       ]
     },
     {
       "day": 4,
-      "date": "6月4日 · Thu",
-      "label_zh": "大阪購物日 · 入住難波",
-      "hotel_name": "Hotel Vista Grande Osaka Namba",
-      "hotel_name_zh": "大阪難波威斯特大酒店 · 標準雙人房",
-      "hotel_room": "標準雙人房",
-      "weather": "☀️ 29°/23°",
-      "rain_pct": "10%",
+      "date": "June 4 · Thu",
+      "label_zh": "移動至大阪 · 購物日",
+      "hotel_name": "Swissotel Nankai Osaka",
+      "hotel_name_zh": "瑞士南海大阪酒店 · 高級雙人房",
+      "hotel_room": "高級雙人房",
+      "weather": "☀️ 27°/20°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🌅 起床 · 虹夕諾雅早餐（含）"
+          "time": "07:30",
+          "desc": "🍽️ 酒店內日式早餐 · 退房"
         },
         {
           "time": "09:00",
-          "desc": "🚤 退房 · 搭乘接駁船返回嵐山渡月橋"
+          "desc": "🛶 虹夕諾雅接駁船 → 嵐山渡月橋"
         },
         {
           "time": "09:30",
-          "desc": "🚃 前往大阪：從嵯峨嵐山站搭乘JR嵯峨野線至京都站（¥240, 15分鐘），轉JR京都線至大阪站（¥580, 30分鐘），再轉御堂筋線至難波站（¥290, 10分鐘）· 總車程約1小時 · 每人¥1,110（NT$500）"
+          "desc": "🚃 嵐山站 → 桂站 → 大阪梅田（阪急京都線，約40分鐘，¥640/人 · NT$288）"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏨 抵達瑞士南海大阪酒店 · 寄放行李"
         },
         {
           "time": "11:00",
-          "desc": "🏨 抵達Hotel Vista Grande Osaka Namba · 寄放行李（14:00入住）"
+          "desc": "🛍️ 難波高島屋百貨 · 購物（精品、化妝品）"
         },
         {
-          "time": "12:00",
-          "desc": "🛍️ 購物開始：道頓堀商店街 · 藥妝店 · 唐吉訶德"
+          "time": "13:00",
+          "desc": "🐙 章魚燒 わなか · 午餐（¥1,200 · NT$540）"
         },
         {
-          "time": "13:30",
-          "desc": "🍣 午餐：大起水產迴轉壽司（道頓堀店）· 每人¥2,000（NT$900）"
-        },
-        {
-          "time": "15:00",
-          "desc": "🛍️ 心齋橋筋商店街 · 服飾、雜貨、精品店"
+          "time": "14:00",
+          "desc": "🛍️ 道頓堀 · 心齋橋筋商店街 · 藥妝、服飾"
         },
         {
           "time": "17:00",
-          "desc": "🏨 返回飯店入住 · 稍作休息"
+          "desc": "🏨 入住瑞士南海大阪酒店 · 休息"
         },
         {
           "time": "18:30",
-          "desc": "🍜 晚餐：一蘭拉麵（道頓堀店）· 每人¥1,500（NT$675）"
+          "desc": "🍜 一蘭拉麵 道頓堀店（¥1,490/人 · NT$670）"
         },
         {
           "time": "20:00",
-          "desc": "🌃 難波夜遊 · 戎橋拍照 · 固力果跑跑人看板"
+          "desc": "🌃 道頓堀夜景 · 固力果跑跑人 · 唐吉訶德購物"
         }
       ]
     },
     {
       "day": 5,
-      "date": "6月5日 · Fri",
-      "label_zh": "返程日 · 清晨出發",
-      "hotel_name": "Hotel Vista Grande Osaka Namba",
-      "hotel_name_zh": "大阪難波威斯特大酒店 · 標準雙人房",
-      "hotel_room": "標準雙人房",
-      "weather": "☀️ 26°/22°",
-      "rain_pct": "5%",
+      "date": "June 5 · Fri",
+      "label_zh": "返台日 · 早班機",
+      "hotel_name": "",
+      "hotel_name_zh": "",
+      "hotel_room": "",
+      "weather": "☀️ 26°/20°",
+      "rain_pct": "10%",
       "slots": [
         {
           "time": "05:00",
-          "desc": "⏰ 起床 · 退房 · 整理行李"
+          "desc": "⏰ 起床 · 退房"
         },
         {
           "time": "05:30",
-          "desc": "🚌 從難波搭乘南海特急Rapi:t至關西機場（¥1,450, 約40分鐘）· 每人NT$653"
+          "desc": "🚃 難波站 → 關西機場（南海電鐵空港急行，45分鐘，¥930/人 · NT$418）"
         },
         {
-          "time": "06:30",
-          "desc": "🛫 抵達關西國際機場 · 辦理登機 · 安檢"
+          "time": "06:15",
+          "desc": "✈️ 抵達關西機場 · 辦理登機 · 樂桃航空 MM23"
         },
         {
-          "time": "08:30",
-          "desc": "✈️ 中華航空CI157 · 08:30起飛返回台灣"
+          "time": "07:00",
+          "desc": "🛫 起飛回台灣"
         },
         {
-          "time": "10:30",
-          "desc": "🛬 抵達桃園機場TPE · 結束浪漫大阪之旅"
+          "time": "09:00",
+          "desc": "🛬 抵達桃園機場 · 結束浪漫旅程"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（中華航空）",
-      "amount_ntd": 24000
+      "label": "✈️ 來回機票",
+      "amount_ntd": 12000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 84000
+      "amount_ntd": 92500
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 24000
+      "amount_ntd": 28000
     },
     {
       "label": "🎫 景點門票",
+      "amount_ntd": 5000
+    },
+    {
+      "label": "🚇 交通",
       "amount_ntd": 8000
     },
     {
-      "label": "🚇 交通（含機場巴士、JR、地鐵）",
-      "amount_ntd": 7000
-    },
-    {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 3000
+      "amount_ntd": 4000
     }
   ],
-  "cost_total_ntd": 150000,
-  "budget_remaining_ntd": 0,
-  "photos": {
-    "hero": [
-      {
-        "url": "https://images.unsplash.com/photo-1706649448171-918e3334237e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyQyUyMEphcGFuJTIwbGFuZG1hcmslMjBza3lsaW5lJTIwYmVhdXRpZnVsfGVufDB8MHx8fDE3Nzg0NzUwNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a view of a city with tall buildings"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1558429121-8cebc52d40a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyQyUyMEphcGFuJTIwbGFuZG1hcmslMjBza3lsaW5lJTIwYmVhdXRpZnVsfGVufDB8MHx8fDE3Nzg0NzUwNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white and gray pagoda temple surrounded by trees during daytime"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1706649448171-918e3334237e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyQyUyMEphcGFuJTIwbGFuZG1hcmslMjBza3lsaW5lJTIwYmVhdXRpZnVsfGVufDB8MHx8fDE3Nzg0NzUwNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a view of a city with tall buildings"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1558429121-8cebc52d40a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyQyUyMEphcGFuJTIwbGFuZG1hcmslMjBza3lsaW5lJTIwYmVhdXRpZnVsfGVufDB8MHx8fDE3Nzg0NzUwNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white and gray pagoda temple surrounded by trees during daytime"
-      }
-    ],
-    "destination": [
-      {
-        "url": "https://images.unsplash.com/photo-1764071289160-eb89980c24be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Cityscape at sunset with a river and highway."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1762245751809-fc4f6bccbf6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Ancient japanese castle walls and structure"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1768117123236-b79e01571e12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Osaka castle with bridge and people walking"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1769304728309-6089231df81d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Japanese castle surrounded by autumn foliage"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1762245751530-8ce2a339bf24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Castle viewed through trees in a park"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1764071289163-a9d157926156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Golden sun setting behind hazy mountains over city."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1764071289160-eb89980c24be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Cityscape at sunset with a river and highway."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1762245751809-fc4f6bccbf6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Ancient japanese castle walls and structure"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1768117123236-b79e01571e12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Osaka castle with bridge and people walking"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1769304728309-6089231df81d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Japanese castle surrounded by autumn foliage"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1762245751530-8ce2a339bf24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Castle viewed through trees in a park"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1764071289163-a9d157926156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPc2FrYSUyQyUyMEphcGFuJTIwdHJhdmVsJTIwYmVhdXRpZnVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NDc1MDY3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Golden sun setting behind hazy mountains over city."
-      }
-    ]
-  },
+  "cost_total_ntd": 149500,
+  "budget_remaining_ntd": 500,
   "chat_hash": "051d9cea04fe23a779f42de5780d63bfe1f79e6a263b5925fd93db78acbeb0e1",
   "config_hash": "47a5ef73f4142c750f797797a972bc2576ed152513dc4a8a86fd6b48ba1c3599",
-  "generated_at": "2026-05-11T12:51:14.003876"
+  "generated_at": "2026-05-11T13:26:56.762241"
 }
