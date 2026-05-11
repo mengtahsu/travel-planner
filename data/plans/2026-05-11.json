@@ -1,6 +1,6 @@
 {
   "destination_en": "Tahiti, French Polynesia",
-  "title_zh": "大溪地 · 波拉波拉島 · 浪漫蜜月之旅",
+  "title_zh": "大溪地 · 夢幻雙島浪漫之旅",
   "date_range": "2026/08/14–08/26",
   "start_date": "2026-08-14",
   "end_date": "2026-08-26",
@@ -12,23 +12,23 @@
   "budget_ntd": 500000,
   "flight": {
     "airline": "紐西蘭航空 Air New Zealand",
-    "departure_date": "8月14日",
+    "departure_date": "8月13日",
     "return_date": "8月26日",
     "total_price_ntd": 120000,
     "outbound": {
       "flight_no": "NZ 78",
       "route": "TPE → AKL → PPT",
-      "depart_time": "23:30",
-      "arrive_time": "02:00 (+2)",
-      "duration": "14h 30m + 5h 10m",
+      "depart_time": "18:50",
+      "arrive_time": "02:00 (+1)",
+      "duration": "15h 10m (轉機奧克蘭 2h)",
       "class": "經濟艙"
     },
     "inbound": {
       "flight_no": "NZ 77",
       "route": "PPT → AKL → TPE",
       "depart_time": "23:55",
-      "arrive_time": "06:00 (+2)",
-      "duration": "4h 55m + 11h 30m",
+      "arrive_time": "06:30 (+2)",
+      "duration": "14h 20m (轉機奧克蘭 3h)",
       "class": "經濟艙"
     }
   },
@@ -36,163 +36,163 @@
     {
       "name": "Tahiti Airport Motel",
       "name_zh": "大溪地機場旅館",
-      "district": "法阿國際機場旁",
-      "day_range": "1 (日間休息)",
+      "district": "Faa'a",
+      "day_range": "14",
       "nights": 0,
-      "price_ntd": 3000,
+      "price_ntd": 4000,
       "stars": "★★★☆☆",
-      "room_type": "標準雙人房（日間使用）",
-      "breakfast": "無",
-      "amenities": "🛏️ 空調 · 🚿 淋浴 · 免費WiFi",
-      "search_query": "Tahiti Airport Motel",
+      "room_type": "標準雙人房（日間休息）",
+      "breakfast": "不含早餐",
+      "amenities": "🛌 空調 · 🚿 淋浴 · 📶 免費WiFi",
+      "search_query": "Tahiti Airport Motel Faa'a",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1599250300452-136337850819?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "blue plastic armchair beside white wooden house"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1657592385829-4884d1c8e696?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a city street with cars and buildings"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1720335567984-ac2bb1ced7fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A parking lot with a row of colorful buildings"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1598660991182-3010c2e1e8a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "url": "https://images.unsplash.com/photo-1598660991182-3010c2e1e8a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
           "label": "white and blue airplane on gray asphalt road during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1666577647210-a1dfbd406416?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a building with a sign on it"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1645072488151-36b2afec8128?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a boat sitting on top of a beach next to the ocean"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1599250300452-136337850819?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "url": "https://images.unsplash.com/photo-1599250300452-136337850819?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
           "label": "blue plastic armchair beside white wooden house"
         },
         {
-          "url": "https://images.unsplash.com/photo-1657592385829-4884d1c8e696?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "url": "https://images.unsplash.com/photo-1657592385829-4884d1c8e696?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
           "label": "a city street with cars and buildings"
         },
         {
-          "url": "https://images.unsplash.com/photo-1720335567984-ac2bb1ced7fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A parking lot with a row of colorful buildings"
+          "url": "https://images.unsplash.com/photo-1764102471078-87f1f1ee4a3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Turboprop airplane parked at an airport tarmac."
         },
         {
-          "url": "https://images.unsplash.com/photo-1598660991182-3010c2e1e8a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "url": "https://images.unsplash.com/photo-1664183237238-bdf61161310f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a body of water with trees and buildings around it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1550293808-c0a49764d974?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "blue and brown airplane"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1598660991182-3010c2e1e8a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
           "label": "white and blue airplane on gray asphalt road during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1666577647210-a1dfbd406416?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a building with a sign on it"
+          "url": "https://images.unsplash.com/photo-1599250300452-136337850819?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "blue plastic armchair beside white wooden house"
         },
         {
-          "url": "https://images.unsplash.com/photo-1645072488151-36b2afec8128?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWx8ZW58MHwwfHx8MTc3ODQ4NjQ1Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a boat sitting on top of a beach next to the ocean"
+          "url": "https://images.unsplash.com/photo-1657592385829-4884d1c8e696?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a city street with cars and buildings"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1764102471078-87f1f1ee4a3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Turboprop airplane parked at an airport tarmac."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1664183237238-bdf61161310f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a body of water with trees and buildings around it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1550293808-c0a49764d974?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUYWhpdGklMjBBaXJwb3J0JTIwTW90ZWwlMjBGYWElMjdhfGVufDB8MHx8fDE3Nzg0OTkyMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "blue and brown airplane"
         }
       ]
     },
     {
       "name": "Hilton Tahiti",
-      "name_zh": "大溪地希爾頓度假村",
-      "district": "帕皮提",
-      "day_range": "1–2",
+      "name_zh": "大溪地希爾頓酒店",
+      "district": "Papeete",
+      "day_range": "14–15",
       "nights": 2,
       "price_ntd": 32000,
-      "stars": "★★★★☆",
-      "room_type": "花園景觀雙人房",
+      "stars": "★★★★★",
+      "room_type": "海景豪華雙人房",
       "breakfast": "含自助早餐",
-      "amenities": "🏊 無邊際泳池 · 🌴 熱帶花園 · 🍽️ 海景餐廳 · 🚣 獨木舟",
-      "search_query": "Hilton Tahiti",
+      "amenities": "🏊 無邊際泳池 · 🌴 熱帶花園 · 🍽️ 海景餐廳 · 💆 水療中心",
+      "search_query": "Hilton Tahiti Papeete",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1738692620483-e4255eb3e80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIaWx0b24lMjBUYWhpdGl8ZW58MHwwfHx8MTc3ODQ4NjQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "url": "https://images.unsplash.com/photo-1738692620483-e4255eb3e80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIaWx0b24lMjBUYWhpdGklMjBQYXBlZXRlfGVufDB8MHx8fDE3Nzg0OTkyMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
           "label": "An aerial view of a resort with a swimming pool"
         },
         {
-          "url": "https://images.unsplash.com/photo-1738692620483-e4255eb3e80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIaWx0b24lMjBUYWhpdGl8ZW58MHwwfHx8MTc3ODQ4NjQ1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "url": "https://images.unsplash.com/photo-1738692620483-e4255eb3e80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIaWx0b24lMjBUYWhpdGklMjBQYXBlZXRlfGVufDB8MHx8fDE3Nzg0OTkyMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
           "label": "An aerial view of a resort with a swimming pool"
         }
       ]
     },
     {
-      "name": "Kaveka Hotel Moorea",
-      "name_zh": "莫雷阿島卡維卡酒店",
-      "district": "莫雷阿島",
-      "day_range": "3–6",
+      "name": "Hotel Kaveka",
+      "name_zh": "卡維卡酒店",
+      "district": "Moorea, Maharepa",
+      "day_range": "16–19",
       "nights": 4,
-      "price_ntd": 56000,
+      "price_ntd": 72000,
       "stars": "★★★★☆",
-      "room_type": "海景豪華雙人房",
-      "breakfast": "含歐陸式早餐",
-      "amenities": "🏖️ 私人沙灘 · 🤿 免費浮潛裝備 · 🍹 池畔酒吧 · 🚲 免費單車",
-      "search_query": "Kaveka Hotel Moorea",
+      "room_type": "花園平房（雙人房）",
+      "breakfast": "含早餐",
+      "amenities": "🏖️ 私人海灘 · 🤿 免費浮潛裝備 · 🛶 獨木舟 · 🌺 泳池",
+      "search_query": "Hotel Kaveka Moorea",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1594805938839-c581da5d8129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "pink roses in clear glass vase on white table"
+          "url": "https://images.unsplash.com/photo-1658591049748-4937f0a9051a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a group of buildings and trees"
         },
         {
-          "url": "https://images.unsplash.com/photo-1594805938422-b330ad42a7bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "red rose on white ceramic plate"
+          "url": "https://images.unsplash.com/photo-1675815348112-0ec31302a062?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an aerial view of a resort on the beach"
         },
         {
-          "url": "https://images.unsplash.com/photo-1520451020015-dce5223e9a75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a hut with a thatched roof overlooks the ocean"
+          "url": "https://images.unsplash.com/photo-1575231611635-df21ba3e8363?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "gray and white houses and green palm trees"
         },
         {
-          "url": "https://images.unsplash.com/photo-1605801969809-72de806f795e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white sail boat on sea during daytime"
+          "url": "https://images.unsplash.com/photo-1737478914294-4fd3b68ec5ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "An aerial view of a beach with a hotel in the background"
         },
         {
-          "url": "https://images.unsplash.com/photo-1601604416791-312e61493baa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white wooden chairs on green grass field near body of water during daytime"
+          "url": "https://images.unsplash.com/photo-1713849607869-8709c3fd7ec0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large white building sitting on top of a lush green field"
         },
         {
-          "url": "https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "building with infinity pool"
+          "url": "https://images.unsplash.com/photo-1553512649-af49cddeb143?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "aerial beach island view"
         },
         {
-          "url": "https://images.unsplash.com/photo-1594805938839-c581da5d8129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "pink roses in clear glass vase on white table"
+          "url": "https://images.unsplash.com/photo-1658591049748-4937f0a9051a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a group of buildings and trees"
         },
         {
-          "url": "https://images.unsplash.com/photo-1594805938422-b330ad42a7bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "red rose on white ceramic plate"
+          "url": "https://images.unsplash.com/photo-1675815348112-0ec31302a062?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an aerial view of a resort on the beach"
         },
         {
-          "url": "https://images.unsplash.com/photo-1520451020015-dce5223e9a75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a hut with a thatched roof overlooks the ocean"
+          "url": "https://images.unsplash.com/photo-1575231611635-df21ba3e8363?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "gray and white houses and green palm trees"
         },
         {
-          "url": "https://images.unsplash.com/photo-1605801969809-72de806f795e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white sail boat on sea during daytime"
+          "url": "https://images.unsplash.com/photo-1737478914294-4fd3b68ec5ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "An aerial view of a beach with a hotel in the background"
         },
         {
-          "url": "https://images.unsplash.com/photo-1601604416791-312e61493baa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white wooden chairs on green grass field near body of water during daytime"
+          "url": "https://images.unsplash.com/photo-1713849607869-8709c3fd7ec0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large white building sitting on top of a lush green field"
         },
         {
-          "url": "https://images.unsplash.com/photo-1561501900-3701fa6a0864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzU5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "building with infinity pool"
+          "url": "https://images.unsplash.com/photo-1553512649-af49cddeb143?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyMEthdmVrYSUyME1vb3JlYXxlbnwwfDB8fHwxNzc4NDk5MjE3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "aerial beach island view"
         }
       ]
     },
     {
       "name": "Westin Bora Bora Resort & Spa",
-      "name_zh": "波拉波拉威斯汀度假村（海上屋）",
-      "district": "波拉波拉島",
-      "day_range": "7–10",
+      "name_zh": "威斯汀波拉波拉度假村",
+      "district": "Bora Bora, Motu Piti Aau",
+      "day_range": "20–23",
       "nights": 4,
       "price_ntd": 180000,
       "stars": "★★★★★",
-      "room_type": "礁湖景觀水上別墅",
-      "breakfast": "含美式自助早餐",
-      "amenities": "🏡 玻璃地板 · 🤿 私人瀉湖 · 💆 SPA · 🛶 獨木舟 · 🍽️ 法式餐廳",
+      "room_type": "海上屋（Overwater Bungalow）",
+      "breakfast": "含自助早餐",
+      "amenities": "🏡 玻璃地板 · 🏊 私人泳池 · 🤿 珊瑚花園 · 🍽️ 法式餐廳 · 💆 水療",
       "search_query": "Westin Bora Bora Resort & Spa overwater bungalow",
       "photos": [
         {
@@ -247,64 +247,32 @@
     },
     {
       "name": "InterContinental Tahiti Resort & Spa",
-      "name_zh": "大溪地洲際度假村",
-      "district": "帕皮提",
-      "day_range": "11–12",
+      "name_zh": "大溪地洲際度假酒店",
+      "district": "Papeete",
+      "day_range": "24–25",
       "nights": 2,
-      "price_ntd": 36000,
-      "stars": "★★★★☆",
-      "room_type": "瀉湖景觀雙人房",
+      "price_ntd": 38000,
+      "stars": "★★★★★",
+      "room_type": "潟湖景豪華雙人房",
       "breakfast": "含自助早餐",
-      "amenities": "🏊 無邊際泳池 · 🌺 SPA · 🦈 鯊魚餵食秀 · 🍽️ 海景餐廳",
-      "search_query": "InterContinental Tahiti Resort & Spa",
+      "amenities": "🏊 潟湖泳池 · 🌴 熱帶花園 · 🍽️ 日落餐廳 · 🛍️ 精品店",
+      "search_query": "InterContinental Tahiti Resort Papeete",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1589806036187-fcbc6a7a23b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden houses on water near green mountain under blue sky during daytime"
+          "url": "https://images.unsplash.com/photo-1738692620483-e4255eb3e80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwUGFwZWV0ZXxlbnwwfDB8fHwxNzc4NDk5MjE4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "An aerial view of a resort with a swimming pool"
         },
         {
-          "url": "https://images.unsplash.com/photo-1605801969809-72de806f795e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white sail boat on sea during daytime"
+          "url": "https://images.unsplash.com/photo-1666055043779-bd81e9518d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwUGFwZWV0ZXxlbnwwfDB8fHwxNzc4NDk5MjE4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a patio with tables and chairs"
         },
         {
-          "url": "https://images.unsplash.com/photo-1520451020015-dce5223e9a75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a hut with a thatched roof overlooks the ocean"
+          "url": "https://images.unsplash.com/photo-1738692620483-e4255eb3e80a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwUGFwZWV0ZXxlbnwwfDB8fHwxNzc4NDk5MjE4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "An aerial view of a resort with a swimming pool"
         },
         {
-          "url": "https://images.unsplash.com/photo-1706460560309-cedbdc9c458b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an island in the middle of a body of water"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1723516908281-06862bdb683d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A large swimming pool surrounded by palm trees"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1579117460782-ffbb1ec4bafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "wooden dock over sea near huts and mountain at daytime"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1589806036187-fcbc6a7a23b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden houses on water near green mountain under blue sky during daytime"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1605801969809-72de806f795e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white sail boat on sea during daytime"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1520451020015-dce5223e9a75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a hut with a thatched roof overlooks the ocean"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1706460560309-cedbdc9c458b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "an island in the middle of a body of water"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1723516908281-06862bdb683d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A large swimming pool surrounded by palm trees"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1579117460782-ffbb1ec4bafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwJTI2JTIwU3BhfGVufDB8MHx8fDE3Nzg0ODY0NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "wooden dock over sea near huts and mountain at daytime"
+          "url": "https://images.unsplash.com/photo-1666055043779-bd81e9518d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxJbnRlckNvbnRpbmVudGFsJTIwVGFoaXRpJTIwUmVzb3J0JTIwUGFwZWV0ZXxlbnwwfDB8fHwxNzc4NDk5MjE4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a patio with tables and chairs"
         }
       ]
     }
@@ -312,15 +280,15 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Le Corail",
-        "name_zh": "珊瑚餐廳 · 洲際酒店內",
-        "stars": "⭐⭐",
-        "dish": "🐟 招牌：香煎鸚哥魚佐香草奶油 · 龍蝦濃湯",
-        "address": "InterContinental Tahiti, 帕皮提",
-        "price_ntd": 7000,
-        "price_label": "晚餐套餐 €95/人 · NT$7,000",
+        "name": "Le Corail (InterContinental Tahiti)",
+        "name_zh": "珊瑚餐廳 · 洲際酒店",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：大溪地香草龍蝦 · 椰奶醬",
+        "address": "InterContinental Tahiti, Papeete",
+        "price_ntd": 6000,
+        "price_label": "晚餐套餐 €175/人 · NT$6,000",
         "hours": "18:30–21:30 · 需預約",
-        "search_query": "Le Corail restaurant Tahiti",
+        "search_query": "Le Corail restaurant InterContinental Tahiti",
         "photos": [
           {
             "url": "",
@@ -337,14 +305,14 @@
         ]
       },
       {
-        "name": "La Villa Mahana",
+        "name": "La Villa Mahana (Bora Bora)",
         "name_zh": "瑪哈納別墅 · 波拉波拉",
-        "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：龍蝦燉飯 · 香草烤乳豬",
-        "address": "BP 502, 波拉波拉",
-        "price_ntd": 10000,
-        "price_label": "晚餐套餐 €135/人 · NT$10,000",
-        "hours": "19:00–22:00 · 僅6桌 · 需提前預約",
+        "stars": "⭐⭐",
+        "dish": "🥩 招牌：和牛菲力 · 松露薯泥",
+        "address": "Vaitape, Bora Bora",
+        "price_ntd": 7500,
+        "price_label": "晚餐套餐 €220/人 · NT$7,500",
+        "hours": "18:30–21:00 · 需預約",
         "search_query": "La Villa Mahana Bora Bora",
         "photos": [
           {
@@ -376,14 +344,43 @@
     ],
     "bistros": [
       {
-        "name": "Snack Mahana",
-        "name_zh": "瑪哈納小吃 · 在地人推薦",
+        "name": "Le Mayflower (Papeete)",
+        "name_zh": "五月花小館 · 帕皮提",
         "stars": "",
-        "dish": "🥥 招牌：椰子咖哩雞 · 烤魚配香草飯",
-        "address": "PK 7, 莫雷阿島",
-        "price_ntd": 1500,
-        "price_label": "雙人套餐 €20/人 · NT$1,500",
-        "hours": "11:00–14:00 · 18:00–21:00",
+        "dish": "🐟 招牌：椰汁生魚沙拉 · 炸春捲",
+        "address": "Rue François Cardella, Papeete",
+        "price_ntd": 2500,
+        "price_label": "雙人晚餐 NT$2,500",
+        "hours": "11:30–14:00 / 18:00–21:30",
+        "search_query": "Le Mayflower Papeete",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1594805938422-b330ad42a7bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "red rose on white ceramic plate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1594805938839-c581da5d8129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "pink roses in clear glass vase on white table"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1594805938422-b330ad42a7bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "red rose on white ceramic plate"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1594805938839-c581da5d8129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "pink roses in clear glass vase on white table"
+          }
+        ]
+      },
+      {
+        "name": "Snack Mahana (Moorea)",
+        "name_zh": "瑪哈納小吃 · 茉莉亞",
+        "stars": "",
+        "dish": "🥘 招牌：大溪地式咖喱雞 · 芋頭泥",
+        "address": "PK 8, Côtier, Moorea",
+        "price_ntd": 1800,
+        "price_label": "雙人晚餐 NT$1,800",
+        "hours": "11:30–14:00 / 18:00–20:30",
         "search_query": "Snack Mahana Moorea",
         "photos": [
           {
@@ -411,48 +408,19 @@
             "label": "a tray of food"
           }
         ]
-      },
-      {
-        "name": "Le Saint James",
-        "name_zh": "聖詹姆斯餐廳 · 希爾頓內",
-        "stars": "",
-        "dish": "🍣 招牌：生魚片拼盤 · 大溪地香草牛排",
-        "address": "Hilton Tahiti, 帕皮提",
-        "price_ntd": 3500,
-        "price_label": "雙人晚餐 €47/人 · NT$3,500",
-        "hours": "18:00–22:00",
-        "search_query": "Le Saint James Hilton Tahiti",
-        "photos": [
-          {
-            "url": "https://images.unsplash.com/photo-1594805938422-b330ad42a7bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "red rose on white ceramic plate"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1594805938839-c581da5d8129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "pink roses in clear glass vase on white table"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1594805938422-b330ad42a7bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "red rose on white ceramic plate"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1594805938839-c581da5d8129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMFRhaGl0aXxlbnwwfDB8fHwxNzc4NDg1MzY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "pink roses in clear glass vase on white table"
-          }
-        ]
       }
     ],
     "cafes": [
       {
-        "name": "Café Maeva",
-        "name_zh": "瑪埃瓦咖啡 · 海景露台",
+        "name": "Café de la Gare (Papeete)",
+        "name_zh": "車站咖啡 · 帕皮提",
         "stars": "",
-        "dish": "☕ 招牌：大溪地香草拿鐵 · 椰子可頌 · 熱帶水果拼盤",
-        "address": "濱海大道, 帕皮提",
+        "dish": "☕ 招牌：大溪地香草拿鐵 · 椰子可頌",
+        "address": "Avenue du Général de Gaulle, Papeete",
         "price_ntd": 800,
-        "price_label": "雙人早午餐 €11/人 · NT$800",
-        "hours": "07:00–17:00",
-        "search_query": "Cafe Maeva Papeete",
+        "price_label": "兩人輕食 NT$800",
+        "hours": "06:30–17:00 · 當地人氣",
+        "search_query": "Café de la Gare Papeete",
         "photos": [
           {
             "url": "",
@@ -469,39 +437,27 @@
         ]
       },
       {
-        "name": "Le Bora Bora Café",
-        "name_zh": "波拉波拉咖啡館",
+        "name": "Le Bora Bora Café (Vaitape)",
+        "name_zh": "波拉波拉咖啡 · 瓦伊塔佩",
         "stars": "",
-        "dish": "🍹 招牌：冰火鳳梨飲 · 法式吐司 · 香草冰淇淋",
-        "address": "維塔佩海灘, 波拉波拉",
-        "price_ntd": 1200,
-        "price_label": "雙人輕食 €16/人 · NT$1,200",
-        "hours": "08:00–18:00",
-        "search_query": "Le Bora Bora Cafe",
+        "dish": "🍹 招牌：冰鎮椰子水 · 鳳梨鬆餅",
+        "address": "Vaitape Ferry Terminal, Bora Bora",
+        "price_ntd": 1000,
+        "price_label": "兩人下午茶 NT$1,000",
+        "hours": "07:00–16:30",
+        "search_query": "Le Bora Bora Café Vaitape",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1750857964409-bf2d6d725e21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxMZSUyMEJvcmElMjBCb3JhJTIwQ2FmZXxlbnwwfDB8fHwxNzc4NDg2NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A cozy cafe's counter ready for service."
+            "url": "",
+            "label": "cafe coffee Tahiti"
           },
           {
-            "url": "https://images.unsplash.com/photo-1670761482077-eca3e9c9e2bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxMZSUyMEJvcmElMjBCb3JhJTIwQ2FmZXxlbnwwfDB8fHwxNzc4NDg2NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a black store front with many signs on it"
+            "url": "",
+            "label": "cafe coffee Tahiti"
           },
           {
-            "url": "https://images.unsplash.com/photo-1755766914004-38d44e5415fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxMZSUyMEJvcmElMjBCb3JhJTIwQ2FmZXxlbnwwfDB8fHwxNzc4NDg2NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "People dining under a rustic outdoor canopy at dusk"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1750857964409-bf2d6d725e21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxMZSUyMEJvcmElMjBCb3JhJTIwQ2FmZXxlbnwwfDB8fHwxNzc4NDg2NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A cozy cafe's counter ready for service."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1670761482077-eca3e9c9e2bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxMZSUyMEJvcmElMjBCb3JhJTIwQ2FmZXxlbnwwfDB8fHwxNzc4NDg2NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a black store front with many signs on it"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1755766914004-38d44e5415fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxMZSUyMEJvcmElMjBCb3JhJTIwQ2FmZXxlbnwwfDB8fHwxNzc4NDg2NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "People dining under a rustic outdoor canopy at dusk"
+            "url": "",
+            "label": "cafe coffee Tahiti"
           }
         ]
       }
@@ -513,574 +469,650 @@
       "date": "Aug 14 · Fri",
       "label_zh": "抵達大溪地 · 機場休息",
       "hotel_name": "Tahiti Airport Motel (日間休息) → Hilton Tahiti",
-      "hotel_name_zh": "大溪地機場旅館（日間休息）→ 大溪地希爾頓度假村",
-      "hotel_room": "標準雙人房（日間使用）",
-      "weather": "☀️ 28°/22°",
-      "rain_pct": "20%",
+      "hotel_name_zh": "大溪地機場旅館（日間休息） → 大溪地希爾頓酒店",
+      "hotel_room": "標準雙人房（日間休息）→ 海景豪華雙人房",
+      "weather": "☀️ 28°/24°",
+      "rain_pct": "10%",
       "slots": [
         {
           "time": "02:00",
-          "desc": "✈️ 抵達大溪地法阿國際機場（PPT）· 入境通關 · 領取行李"
+          "desc": "✈️ 抵達大溪地法阿國際機場 (PPT) · 入境通關 · 提領行李"
         },
         {
-          "time": "02:45",
-          "desc": "🛏️ 步行至機場旅館 · 辦理日間休息（06:00–12:00）· 補眠"
+          "time": "02:30",
+          "desc": "🛌 步行至 Tahiti Airport Motel（機場旁）· 入住日間休息房 · 補眠"
         },
         {
           "time": "12:00",
-          "desc": "🥐 退房 · Café Maeva 早午餐 · 香草拿鐵 + 椰子可頌"
+          "desc": "⏰ 退房 · 搭計程車至 Hilton Tahiti（約10分鐘）· 辦理入住"
         },
         {
-          "time": "14:00",
-          "desc": "🚕 搭乘計程車前往希爾頓度假村（車程15分鐘）· 辦理入住"
+          "time": "13:00",
+          "desc": "🍽️ 午餐：Le Mayflower · 品嚐椰汁生魚沙拉 · NT$2,500"
         },
         {
-          "time": "15:30",
-          "desc": "🏊 無邊際泳池暢泳 · 花園散步 · 享受度假村設施"
+          "time": "14:30",
+          "desc": "🏖️ 希爾頓泳池放鬆 · 享受熱帶陽光"
+        },
+        {
+          "time": "17:00",
+          "desc": "🌅 散步至帕皮提市區 · 參觀大溪地聖母教堂"
         },
         {
           "time": "18:30",
-          "desc": "🍽️ Le Saint James 晚餐 · 生魚片拼盤 + 香草牛排"
+          "desc": "🍽️ 晚餐：Le Corail 珊瑚餐廳（洲際酒店）· 香草龍蝦套餐 · NT$6,000 · 需預約"
         },
         {
-          "time": "20:30",
-          "desc": "🌅 海邊散步 · 欣賞夕陽 · 返回房間休息"
+          "time": "21:00",
+          "desc": "🌙 返回 Hilton Tahiti · 海景陽台觀星"
+        },
+        {
+          "time": "22:00",
+          "desc": "🛌 就寢"
         }
       ]
     },
     {
       "day": 2,
       "date": "Aug 15 · Sat",
-      "label_zh": "大溪地主島探索",
+      "label_zh": "大溪地 · 帕皮提探索",
       "hotel_name": "Hilton Tahiti",
-      "hotel_name_zh": "大溪地希爾頓度假村",
-      "hotel_room": "花園景觀雙人房",
-      "weather": "☀️ 29°/23°",
-      "rain_pct": "15%",
+      "hotel_name_zh": "大溪地希爾頓酒店",
+      "hotel_room": "海景豪華雙人房",
+      "weather": "☀️ 29°/25°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🥐 度假村自助早餐 · 新鮮熱帶水果 · 法式麵包"
+          "desc": "🌅 晨間海灘散步 · 欣賞日出"
         },
         {
-          "time": "09:00",
-          "desc": "🚗 租車自駕 · 前往帕皮提市區 · 參觀大溪地珍珠市集"
+          "time": "08:30",
+          "desc": "🥐 飯店自助早餐 · 大溪地水果拼盤"
         },
         {
-          "time": "11:00",
-          "desc": "🏛️ 大溪地博物館 · 了解波利尼西亞文化"
+          "time": "10:00",
+          "desc": "🏛️ 參觀大溪地博物館 · 了解玻里尼西亞文化 · 門票 €10/人 · NT$350"
         },
         {
-          "time": "13:00",
-          "desc": "🍽️ 市區午餐 · 在地小吃 Roulettes · 品嚐中國炒麵與海鮮"
+          "time": "12:30",
+          "desc": "🍽️ 午餐：Café de la Gare · 香草拿鐵 · 椰子可頌 · NT$800"
         },
         {
-          "time": "15:00",
-          "desc": "🌊 帕皮提海濱長廊漫步 · 拍照留念"
+          "time": "14:00",
+          "desc": "🛍️ 帕皮提市場購物 · 黑珍珠 · 手工藝品"
         },
         {
-          "time": "17:00",
-          "desc": "🛍️ 購物：黑珍珠專賣店 · 選購紀念品"
+          "time": "16:00",
+          "desc": "🏖️ 飯店泳池時光 · 雞尾酒"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ Le Corail 精緻晚餐 · 龍蝦濃湯 + 香煎鸚哥魚"
+          "time": "18:30",
+          "desc": "🍽️ 晚餐：Hilton Tahiti 海景餐廳 · 雙人套餐 NT$4,000"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 飯店花園漫步 · 聆聽南太平洋浪聲"
         },
         {
           "time": "21:30",
-          "desc": "🌙 返回度假村 · 泳池畔小酌 · 休息"
+          "desc": "🛌 就寢"
         }
       ]
     },
     {
       "day": 3,
       "date": "Aug 16 · Sun",
-      "label_zh": "莫雷阿島 · 換島日",
-      "hotel_name": "Kaveka Hotel Moorea",
-      "hotel_name_zh": "莫雷阿島卡維卡酒店",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "☀️ 28°/22°",
-      "rain_pct": "10%",
+      "label_zh": "茉莉亞島 · 抵達與探索",
+      "hotel_name": "Hotel Kaveka",
+      "hotel_name_zh": "卡維卡酒店",
+      "hotel_room": "花園平房",
+      "weather": "☀️ 28°/24°",
+      "rain_pct": "15%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 希爾頓自助早餐 · 退房"
+          "time": "07:30",
+          "desc": "🌅 希爾頓早餐 · 整理行李"
         },
         {
-          "time": "08:30",
-          "desc": "🚤 搭乘快艇前往莫雷阿島（航程約30分鐘）"
+          "time": "09:00",
+          "desc": "🚢 退房 · 搭計程車至碼頭 · 搭乘渡輪前往茉莉亞島（約30分鐘）· 船票 €15/人 · NT$525"
         },
         {
-          "time": "09:30",
-          "desc": "🛏️ 抵達Kaveka Hotel · 辦理入住 · 寄放行李"
+          "time": "10:00",
+          "desc": "🚗 抵達茉莉亞 · 租車（約NT$2,000/天）· 前往 Hotel Kaveka · 辦理入住"
         },
         {
-          "time": "10:30",
-          "desc": "🤿 飯店免費浮潛 · 探索珊瑚礁與熱帶魚"
+          "time": "11:30",
+          "desc": "🏖️ 平房安頓 · 花園漫步"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ Snack Mahana 午餐 · 椰子咖哩雞 + 烤魚"
+          "desc": "🍽️ 午餐：Snack Mahana · 咖喱雞 · NT$1,800"
         },
         {
           "time": "14:00",
-          "desc": "🚲 騎單車環島 · 沿途參觀香草農場與菠蘿園"
+          "desc": "🤿 飯店海灘浮潛 · 提供免費裝備 · 欣賞珊瑚魚群"
         },
         {
           "time": "17:00",
-          "desc": "🌅 海灘散步 · 欣賞莫雷阿島日落"
+          "desc": "🌅 前往 Magical Mountain 觀景台 · 俯瞰海灣日落"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 飯店餐廳晚餐 · 大溪地生魚片 + 香草冰淇淋"
+          "desc": "🍽️ 晚餐：Hotel Kaveka 餐廳 · 當地風味晚餐 NT$2,500"
         },
         {
           "time": "21:00",
-          "desc": "🌙 星空下散步 · 返回房間休息"
+          "desc": "🌙 花園吊床觀星 · 聆聽海浪"
+        },
+        {
+          "time": "22:00",
+          "desc": "🛌 就寢"
         }
       ]
     },
     {
       "day": 4,
       "date": "Aug 17 · Mon",
-      "label_zh": "莫雷阿島 · 海豚與鯨魚",
-      "hotel_name": "Kaveka Hotel Moorea",
-      "hotel_name_zh": "莫雷阿島卡維卡酒店",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "☀️ 29°/23°",
-      "rain_pct": "5%",
+      "label_zh": "茉莉亞 · 環島與海豚",
+      "hotel_name": "Hotel Kaveka",
+      "hotel_name_zh": "卡維卡酒店",
+      "hotel_room": "花園平房",
+      "weather": "☀️ 28°/24°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 飯店早餐 · 新鮮果汁 · 法式可頌"
+          "time": "07:30",
+          "desc": "🌅 晨間海灘瑜伽（自備墊子）"
         },
         {
           "time": "08:30",
-          "desc": "🐬 參加海豚與鯨魚觀賞半日遊（含浮潛）"
+          "desc": "🥐 飯店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚗 自駕環島 · 第一站：Belvédère Lookout · 壯觀火山景"
+        },
+        {
+          "time": "11:00",
+          "desc": "🌴 參觀 Lycée Agricole 鳳梨園 · 品嚐新鮮鳳梨"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ 船上簡餐 · 三明治與水果"
+          "desc": "🍽️ 午餐：Le Petit Village · 海鮮拼盤 NT$2,200"
         },
         {
           "time": "14:00",
-          "desc": "🏖️ 返回飯店 · 沙灘放鬆 · 閱讀或小睡"
+          "desc": "🐬 海豚中心（Dolphin Center）互動體驗 · 門票 €60/人 · NT$2,100 · 需預約"
         },
         {
-          "time": "16:00",
-          "desc": "🚣 划獨木舟 · 探索紅樹林水道"
+          "time": "16:30",
+          "desc": "🏖️ 返回飯店 · 沙灘放鬆 · 划獨木舟"
         },
         {
           "time": "18:30",
-          "desc": "🍽️ Snack Mahana 晚餐 · 烤龍蝦 + 香草飯"
+          "desc": "🍽️ 晚餐：飯店海灘BBQ晚餐 · NT$3,000"
         },
         {
           "time": "20:30",
-          "desc": "🌙 夜間沙灘散步 · 觀星"
+          "desc": "🌙 夜間浮潛看魔鬼魚（自備手電筒）"
+        },
+        {
+          "time": "22:00",
+          "desc": "🛌 就寢"
         }
       ]
     },
     {
       "day": 5,
       "date": "Aug 18 · Tue",
-      "label_zh": "莫雷阿島 · 四驅車探險",
-      "hotel_name": "Kaveka Hotel Moorea",
-      "hotel_name_zh": "莫雷阿島卡維卡酒店",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "☀️ 28°/22°",
-      "rain_pct": "20%",
+      "label_zh": "茉莉亞 · 潛水與瀑布",
+      "hotel_name": "Hotel Kaveka",
+      "hotel_name_zh": "卡維卡酒店",
+      "hotel_room": "花園平房",
+      "weather": "☀️ 29°/25°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:30",
+          "time": "07:00",
+          "desc": "🌅 晨跑海灘"
+        },
+        {
+          "time": "08:00",
           "desc": "🥐 飯店早餐"
         },
         {
           "time": "09:00",
-          "desc": "🚙 四驅車叢林探險 · 穿越熱帶雨林 · 登頂觀景台"
+          "desc": "🤿 水肺潛水體驗（飯店安排）· 探索珊瑚花園 · 2瓶氣瓶 · €100/人 · NT$3,500"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 山頂野餐 · 當地水果與三明治"
+          "time": "12:30",
+          "desc": "🍽️ 午餐：Snack Mahana · 魚排三明治 NT$1,500"
         },
         {
           "time": "14:00",
-          "desc": "💆 飯店SPA · 情侶按摩60分鐘"
+          "desc": "🌿 徒步前往 Afareaitu 瀑布 · 清涼戲水"
         },
         {
-          "time": "16:00",
-          "desc": "🏊 泳池暢泳 · 池畔酒吧冰沙"
+          "time": "16:30",
+          "desc": "🏖️ 飯店泳池 · 享受下午茶"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 飯店內法式晚餐 · 香草羊排 + 紅酒"
+          "time": "18:00",
+          "desc": "🌅 海灘日落雞尾酒"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：飯店餐廳 · 當地特色套餐 NT$2,800"
         },
         {
           "time": "21:00",
-          "desc": "🌙 海邊躺椅 · 聽浪聲 · 休息"
+          "desc": "🌙 星空電影院（飯店活動）"
+        },
+        {
+          "time": "22:30",
+          "desc": "🛌 就寢"
         }
       ]
     },
     {
       "day": 6,
       "date": "Aug 19 · Wed",
-      "label_zh": "莫雷阿島 · 自由日",
-      "hotel_name": "Kaveka Hotel Moorea",
-      "hotel_name_zh": "莫雷阿島卡維卡酒店",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "☀️ 29°/23°",
+      "label_zh": "茉莉亞 · 最後一日",
+      "hotel_name": "Hotel Kaveka",
+      "hotel_name_zh": "卡維卡酒店",
+      "hotel_room": "花園平房",
+      "weather": "☀️ 28°/24°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐 · 慵懶早晨"
+          "time": "07:30",
+          "desc": "🌅 日出獨木舟之旅 · 飯店免費"
+        },
+        {
+          "time": "09:00",
+          "desc": "🥐 飯店早餐"
         },
         {
           "time": "10:00",
-          "desc": "🤿 飯店珊瑚花園浮潛 · 餵魚"
+          "desc": "🚗 自駕探索茉莉亞東海岸 · Tiki Village 文化村"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 飯店午餐 · 大溪地漢堡 + 薯條"
+          "desc": "🍽️ 午餐：Le Bounty · 漢堡 NT$1,800"
         },
         {
-          "time": "14:00",
-          "desc": "🚲 單車漫遊 · 探訪當地手工藝品店"
+          "time": "13:30",
+          "desc": "🏖️ 沙灘放鬆 · 最後浮潛 · 拍照"
         },
         {
           "time": "16:00",
-          "desc": "🏖️ 沙灘排球 · 或躺椅日光浴"
+          "desc": "🛍️ 紀念品購物 · 當地市集"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ Snack Mahana 最後晚餐 · 烤魚 + 椰奶布丁"
+          "time": "18:00",
+          "desc": "🌅 海灘日落 · 香檳"
         },
         {
-          "time": "20:30",
-          "desc": "🌙 打包行李 · 準備明日前往波拉波拉"
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：飯店海鮮自助餐 · NT$3,500"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 打包行李"
+        },
+        {
+          "time": "22:00",
+          "desc": "🛌 就寢"
         }
       ]
     },
     {
       "day": 7,
       "date": "Aug 20 · Thu",
-      "label_zh": "波拉波拉島 · 海上屋",
+      "label_zh": "波拉波拉 · 海上屋天堂",
       "hotel_name": "Westin Bora Bora Resort & Spa",
-      "hotel_name_zh": "波拉波拉威斯汀度假村（海上屋）",
-      "hotel_room": "礁湖景觀水上別墅",
-      "weather": "☀️ 28°/22°",
-      "rain_pct": "10%",
+      "hotel_name_zh": "威斯汀波拉波拉度假村",
+      "hotel_room": "海上屋",
+      "weather": "☀️ 28°/25°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "07:00",
+          "desc": "🌅 最後一次茉莉亞沙灘漫步"
+        },
+        {
+          "time": "08:00",
           "desc": "🥐 飯店早餐 · 退房"
         },
         {
-          "time": "08:30",
-          "desc": "🚤 搭乘快艇前往莫雷阿島機場"
+          "time": "09:00",
+          "desc": "🚗 還車 · 搭渡輪返回大溪地（30分鐘）"
         },
         {
-          "time": "10:00",
-          "desc": "✈️ 莫雷阿島直飛波拉波拉（小型飛機，40分鐘）"
+          "time": "10:30",
+          "desc": "✈️ 大溪地國內航班 Air Tahiti 飛往波拉波拉（50分鐘）· 機票 €180/人 · NT$6,300"
         },
         {
-          "time": "11:00",
-          "desc": "🚤 機場快艇接駁至威斯汀度假村"
+          "time": "11:30",
+          "desc": "🚤 飯店快艇接駁至 Westin（20分鐘）· 免費"
         },
         {
           "time": "12:00",
-          "desc": "🛏️ 辦理入住 · 海上屋 · 玻璃地板看魚"
+          "desc": "🏡 入住海上屋 · 玻璃地板 · 私人泳池 · 驚嘆"
         },
         {
           "time": "13:00",
-          "desc": "🍽️ 飯店餐廳午餐 · 海鮮拼盤"
+          "desc": "🍽️ 午餐：Westin 餐廳 · 輕食 NT$3,000"
         },
         {
-          "time": "15:00",
-          "desc": "🤿 私人瀉湖浮潛 · 與魔鬼魚共游"
+          "time": "14:30",
+          "desc": "🤿 從房間直接下海浮潛 · 豐富魚群"
         },
         {
-          "time": "18:00",
-          "desc": "🌅 海上屋陽台欣賞日落 · 香檳"
+          "time": "17:00",
+          "desc": "🌅 日落巡航（飯店安排）· 香檳 · NT$5,000/兩人"
         },
         {
           "time": "19:30",
-          "desc": "🍽️ La Villa Mahana 頂級晚餐 · 龍蝦燉飯"
+          "desc": "🍽️ 晚餐：La Villa Mahana · 和牛菲力 · NT$7,500 · 需預約"
         },
         {
           "time": "22:00",
-          "desc": "🌙 返回海上屋 · 玻璃地板夜間觀魚"
+          "desc": "🌙 海上屋陽台觀星 · 海浪聲中入眠"
         }
       ]
     },
     {
       "day": 8,
       "date": "Aug 21 · Fri",
-      "label_zh": "波拉波拉 · 環礁探險",
+      "label_zh": "波拉波拉 · 潟湖探險",
       "hotel_name": "Westin Bora Bora Resort & Spa",
-      "hotel_name_zh": "波拉波拉威斯汀度假村（海上屋）",
-      "hotel_room": "礁湖景觀水上別墅",
-      "weather": "☀️ 29°/23°",
-      "rain_pct": "5%",
+      "hotel_name_zh": "威斯汀波拉波拉度假村",
+      "hotel_room": "海上屋",
+      "weather": "☀️ 29°/25°",
+      "rain_pct": "10%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🥐 海上屋早餐送至房間 · 漂浮早餐"
+          "desc": "🌅 海上屋早餐送到房 · 漂浮早餐 NT$2,000"
         },
         {
           "time": "09:00",
-          "desc": "🚤 半日環礁之旅 · 鯊魚餵食 · 魔鬼魚浮潛"
+          "desc": "🚤 潟湖之旅（半日）· 看魔鬼魚 · 鯊魚 · 珊瑚花園 · €100/人 · NT$3,500"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ 無人島午餐 · 沙灘BBQ"
+          "desc": "🍽️ 午餐：潟湖船上BBQ（含於行程）"
         },
         {
-          "time": "14:30",
-          "desc": "🏖️ 沙灘放鬆 · 吊床午睡"
+          "time": "14:00",
+          "desc": "🏖️ 返回飯店 · 沙灘躺椅放鬆"
         },
         {
           "time": "16:00",
-          "desc": "💆 情侶SPA · 波利尼西亞按摩90分鐘"
+          "desc": "💆 雙人SPA（Westin 水療）· 60分鐘 · €150/人 · NT$5,250"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 飯店法式餐廳晚餐 · 香草烤龍蝦"
+          "time": "18:00",
+          "desc": "🌅 海上屋陽台欣賞日落"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 海上獨木舟夜划 · 螢光浮游生物體驗"
+          "time": "19:30",
+          "desc": "🍽️ 晚餐：Westin 法式餐廳 · 雙人套餐 NT$5,500"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 海上屋玻璃地板看夜間魚群"
         }
       ]
     },
     {
       "day": 9,
       "date": "Aug 22 · Sat",
-      "label_zh": "波拉波拉 · 純粹浪漫",
+      "label_zh": "波拉波拉 · 摩托車環島",
       "hotel_name": "Westin Bora Bora Resort & Spa",
-      "hotel_name_zh": "波拉波拉威斯汀度假村（海上屋）",
-      "hotel_room": "礁湖景觀水上別墅",
-      "weather": "☀️ 28°/22°",
-      "rain_pct": "10%",
+      "hotel_name_zh": "威斯汀波拉波拉度假村",
+      "hotel_room": "海上屋",
+      "weather": "☀️ 28°/24°",
+      "rain_pct": "15%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 飯店自助早餐 · 現做鬆餅"
+          "desc": "🥐 飯店自助早餐"
+        },
+        {
+          "time": "09:00",
+          "desc": "🛵 租摩托車環島（約NT$2,500/天）· 探索主島"
         },
         {
           "time": "10:00",
-          "desc": "🚣 雙人獨木舟 · 探索瀉湖"
+          "desc": "⛰️ 登 Mt. Pahia 觀景台（健行1小時）· 全景"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 飯店午餐 · 凱撒沙拉 + 烤鮪魚"
+          "time": "12:30",
+          "desc": "🍽️ 午餐：Le Bora Bora Café · 鳳梨鬆餅 · NT$1,000"
         },
         {
           "time": "14:00",
-          "desc": "🏊 無邊際泳池 · 池畔雞尾酒"
+          "desc": "🏖️ 公共海灘 Matira Beach · 游泳 · 拍照"
         },
         {
           "time": "16:00",
-          "desc": "📸 沙灘拍照 · 婚紗照風格"
+          "desc": "🛍️ Vaitape 購物 · 黑珍珠專賣店"
         },
         {
-          "time": "18:00",
-          "desc": "🌅 日落巡航 · 香檳 + 小點心"
+          "time": "17:30",
+          "desc": "🛵 還摩托車 · 返回飯店"
         },
         {
-          "time": "20:00",
-          "desc": "🍽️ Le Bora Bora Café 晚餐 · 法式吐司 + 鳳梨飲"
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：飯店海濱燒烤 · NT$4,500"
         },
         {
-          "time": "22:00",
-          "desc": "🌙 海上屋陽台 · 星空談心"
+          "time": "21:00",
+          "desc": "🌙 海上屋陽台 · 星空泡泡浴（自備浴鹽）"
         }
       ]
     },
     {
       "day": 10,
       "date": "Aug 23 · Sun",
-      "label_zh": "波拉波拉 · 最後一日",
+      "label_zh": "波拉波拉 · 最後悠閒日",
       "hotel_name": "Westin Bora Bora Resort & Spa",
-      "hotel_name_zh": "波拉波拉威斯汀度假村（海上屋）",
-      "hotel_room": "礁湖景觀水上別墅",
-      "weather": "☀️ 29°/23°",
+      "hotel_name_zh": "威斯汀波拉波拉度假村",
+      "hotel_room": "海上屋",
+      "weather": "☀️ 29°/25°",
       "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🥐 最後一次海上屋早餐"
+          "time": "08:00",
+          "desc": "🥐 早餐 · 最後一天海上屋"
         },
         {
-          "time": "09:00",
-          "desc": "🤿 飯店珊瑚花園最後浮潛"
+          "time": "09:30",
+          "desc": "🤿 飯店珊瑚花園浮潛 · 餵魚"
         },
         {
           "time": "11:00",
-          "desc": "🛍️ 度假村精品店 · 購買紀念品"
+          "desc": "🏖️ 泳池畔 · 雞尾酒"
         },
         {
-          "time": "13:00",
-          "desc": "🍽️ 飯店午餐 · 告別餐"
+          "time": "12:30",
+          "desc": "🍽️ 午餐：飯店輕食 NT$2,500"
         },
         {
-          "time": "15:00",
-          "desc": "🏖️ 沙灘最後漫步 · 拍照留念"
+          "time": "14:00",
+          "desc": "📸 專業攝影師拍攝紀念照（飯店服務）· €100 · NT$3,500"
         },
         {
-          "time": "17:00",
-          "desc": "🚤 快艇前往機場 · 準備飛回大溪地"
+          "time": "16:00",
+          "desc": "💆 雙人SPA 再次放鬆 · 60分鐘 · NT$5,250"
         },
         {
-          "time": "18:30",
-          "desc": "✈️ 波拉波拉飛回大溪地（小型飛機，50分鐘）"
+          "time": "18:00",
+          "desc": "🌅 最後日落 · 海上屋陽台香檳"
         },
         {
-          "time": "20:00",
-          "desc": "🛏️ 入住洲際度假村 · 休息"
+          "time": "19:30",
+          "desc": "🍽️ 晚餐：飯店高級套餐 · NT$6,000"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 打包行李 · 星空下告別"
         }
       ]
     },
     {
       "day": 11,
       "date": "Aug 24 · Mon",
-      "label_zh": "大溪地 · 悠閒一日",
+      "label_zh": "返回大溪地 · 洲際酒店",
       "hotel_name": "InterContinental Tahiti Resort & Spa",
-      "hotel_name_zh": "大溪地洲際度假村",
-      "hotel_room": "瀉湖景觀雙人房",
-      "weather": "☀️ 28°/22°",
-      "rain_pct": "20%",
+      "hotel_name_zh": "大溪地洲際度假酒店",
+      "hotel_room": "潟湖景豪華雙人房",
+      "weather": "☀️ 28°/24°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🥐 洲際自助早餐 · 現點法式薄餅"
+          "time": "07:30",
+          "desc": "🌅 海上屋最後早餐"
         },
         {
-          "time": "10:00",
-          "desc": "🏊 無邊際泳池 · 瀉湖景觀"
+          "time": "09:00",
+          "desc": "⏰ 退房 · 快艇接駁至機場"
+        },
+        {
+          "time": "10:30",
+          "desc": "✈️ 波拉波拉飛回大溪地（50分鐘）· 機票 €180/人 · NT$6,300"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 飯店午餐 · 大溪地風味拼盤"
+          "desc": "🚕 計程車至 InterContinental Tahiti · 辦理入住"
         },
         {
-          "time": "14:00",
-          "desc": "🦈 觀賞飯店鯊魚餵食秀"
+          "time": "13:00",
+          "desc": "🍽️ 午餐：飯店餐廳 · NT$2,500"
+        },
+        {
+          "time": "14:30",
+          "desc": "🏖️ 潟湖泳池放鬆 · 沙灘"
         },
         {
           "time": "16:00",
-          "desc": "💆 SPA療程 · 深層放鬆"
+          "desc": "🛍️ 帕皮提最後購物 · 黑珍珠 · 諾麗果"
         },
         {
           "time": "18:30",
-          "desc": "🍽️ Le Corail 最後晚餐 · 龍蝦濃湯"
+          "desc": "🍽️ 晚餐：Le Corail 珊瑚餐廳（再次）· 龍蝦 · NT$6,000"
         },
         {
           "time": "21:00",
-          "desc": "🌙 海邊散步 · 打包行李"
+          "desc": "🌙 飯店花園酒吧 · 現場音樂"
         }
       ]
     },
     {
       "day": 12,
       "date": "Aug 25 · Tue",
-      "label_zh": "大溪地 · 最後採購",
+      "label_zh": "大溪地 · 最後悠閒日",
       "hotel_name": "InterContinental Tahiti Resort & Spa",
-      "hotel_name_zh": "大溪地洲際度假村",
-      "hotel_room": "瀉湖景觀雙人房",
-      "weather": "☀️ 29°/23°",
-      "rain_pct": "15%",
+      "hotel_name_zh": "大溪地洲際度假酒店",
+      "hotel_room": "潟湖景豪華雙人房",
+      "weather": "☀️ 29°/25°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
           "desc": "🥐 飯店早餐"
         },
         {
-          "time": "10:00",
-          "desc": "🛍️ 帕皮提市區最後採購 · 黑珍珠 · 香草製品"
+          "time": "09:30",
+          "desc": "🏖️ 沙灘瑜珈 · 冥想"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏛️ 最後參觀：Pointe Vénus 燈塔"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ Café Maeva 午餐 · 熱帶水果拼盤"
+          "desc": "🍽️ 午餐：Café de la Gare · NT$800"
         },
         {
           "time": "14:00",
-          "desc": "🏛️ 參觀帕皮提市政廳 · 市場閒逛"
+          "desc": "🛍️ 紀念品市場 · 最後補貨"
         },
         {
           "time": "16:00",
-          "desc": "🏖️ 返回飯店 · 泳池最後暢泳"
+          "desc": "🏖️ 飯店泳池 · 享受最後熱帶時光"
         },
         {
           "time": "18:00",
-          "desc": "🍽️ 飯店晚餐 · 告別晚宴"
+          "desc": "🌅 日落雞尾酒 · 告別晚餐：飯店自助餐 NT$3,500"
         },
         {
           "time": "20:00",
-          "desc": "🛏️ 退房 · 前往機場"
+          "desc": "🧳 打包行李 · 退房（晚間）"
         },
         {
           "time": "22:00",
-          "desc": "✈️ 辦理登機 · 候機"
+          "desc": "🚕 前往機場 · 辦理登機"
         }
       ]
     },
     {
       "day": 13,
       "date": "Aug 26 · Wed",
-      "label_zh": "返回台灣",
+      "label_zh": "凌晨返程",
       "hotel_name": "機上",
       "hotel_name_zh": "機上",
-      "hotel_room": "經濟艙座位",
-      "weather": "☀️ 28°/22°",
-      "rain_pct": "0%",
+      "hotel_room": "經濟艙",
+      "weather": "",
+      "rain_pct": "",
       "slots": [
         {
-          "time": "00:10",
-          "desc": "✈️ 紐西蘭航空 NZ 77 起飛前往奧克蘭"
+          "time": "00:30",
+          "desc": "✈️ 紐西蘭航空 NZ 77 起飛 · 經奧克蘭轉機回台灣"
         },
         {
-          "time": "05:05",
-          "desc": "🛬 抵達奧克蘭 · 轉機"
-        },
-        {
-          "time": "06:30",
-          "desc": "✈️ 轉機 NZ 78 前往台北"
-        },
-        {
-          "time": "18:00",
-          "desc": "🛬 抵達台灣桃園國際機場 · 行程結束"
+          "time": "06:30 (+1)",
+          "desc": "🛬 抵達台灣桃園機場 (TPE) · 甜蜜的家"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 國際機票（紐西蘭航空）",
+      "label": "✈️ 國際機票（紐西蘭航空 TPE→AKL→PPT 來回）",
       "amount_ntd": 120000
     },
     {
-      "label": "🏨 住宿（機場旅館+希爾頓+卡維卡+威斯汀+洲際）",
-      "amount_ntd": 307000
+      "label": "✈️ 國內機票（PPT→BOB 來回）",
+      "amount_ntd": 25200
     },
     {
-      "label": "🍽️ 餐飲（含精緻晚餐與小館）",
-      "amount_ntd": 40000
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 326000
     },
     {
-      "label": "🎫 活動（觀鯨、四驅車、SPA、環礁之旅）",
-      "amount_ntd": 25000
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 72000
     },
     {
-      "label": "🚤 島間交通（快艇+小飛機）",
-      "amount_ntd": 15000
+      "label": "🎫 活動與景點（潛水、SPA、潟湖之旅等）",
+      "amount_ntd": 35000
+    },
+    {
+      "label": "🚕 交通（租車、計程車、渡輪）",
+      "amount_ntd": 18000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 8000
+      "amount_ntd": 15000
     }
   ],
-  "cost_total_ntd": 515000,
-  "budget_remaining_ntd": -15000,
+  "cost_total_ntd": 611200,
+  "budget_remaining_ntd": -111200,
   "photos": {
     "hero": [
       {
@@ -1145,5 +1177,5 @@
   },
   "chat_hash": "109b2052a4c02552d8e467d7cf47df1f1eccdd7c1f0b8730a716f9c5936ca4b7",
   "config_hash": "0320776ddaf54141e1ccc82090a359ce52e7f69f28d3f00c09ab2724cb866927",
-  "generated_at": "2026-05-11T16:01:06.471215"
+  "generated_at": "2026-05-11T19:33:45.542426"
 }
