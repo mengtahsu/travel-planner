@@ -124,13 +124,28 @@ async function saveSettings() {
     chat_token: document.getElementById('chat_token').value
   };
 
-  // Always save token to localStorage FIRST
+  const token = settings.chat_token || localStorage.getItem('github_chat_token');
+  if(!token) { alert('請先輸入 Chat Token'); return; }
+
+  // Validate token against the actual repo (not /user — fine-grained tokens may fail /user but pass repo checks, or vice versa)
+  try {
+    const check = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
+      headers: { 'Authorization': `Bearer ${token}` }
+    });
+    if(!check.ok && check.status !== 404) {
+      const err = await check.json().catch(() => ({}));
+      alert('❌ Token 驗證失敗：' + (err.message || check.status + ' ' + check.statusText) + '\n\n請確認：\n1. Token 未過期\n2. Token 有權限存取 mengtahsu/travel-planner 這個 repo\n3. Token 有 Contents 讀寫權限');
+      return;
+    }
+  } catch(e) {
+    alert('⚠️ 無法連線 GitHub，請檢查網路。');
+    return;
+  }
+
+  // Save valid token to localStorage
   if(settings.chat_token) {
     localStorage.setItem('github_chat_token', settings.chat_token);
   }
-
-  const token = settings.chat_token || localStorage.getItem('github_chat_token');
-  if(!token) { alert('請先輸入 Chat Token'); return; }
 
   // Remove token from settings before committing — NEVER push secrets to repo
   delete settings.chat_token;

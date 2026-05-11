@@ -4,7 +4,6 @@
 import json
 import hashlib
 import os
-import subprocess
 import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -386,50 +385,59 @@ def render_html(plan):
 # Task 12: Git commit and push
 # ═══════════════════════════════════════════════════════════════
 
-def render_chat_html():
-    """Render chat.html with GitHub token embedded (so non-tech users can save)."""
-    github_token = ""
+def push_via_api(today_key):
+    """Push files via GitHub REST API (works with fine-grained tokens)."""
     token_file = ROOT / "github_token.txt"
+    token = ""
     if token_file.exists():
-        github_token = token_file.read_text(encoding="utf-8").strip()
+        token = token_file.read_text(encoding="utf-8").strip()
 
-    chat_src = ROOT / "chat.html"
-    if not chat_src.exists():
-        print("Warning: chat.html not found, skipping")
+    if not token:
+        print("Warning: No GitHub token found, skipping push")
         return
 
-    chat_html = chat_src.read_text(encoding="utf-8")
-    # Replace placeholder or update existing token
-    import re
-    chat_html = re.sub(
-        r"const EMBEDDED_TOKEN = '.*?';",
-        f"const EMBEDDED_TOKEN = '{github_token}';",
-        chat_html
-    )
-    chat_src.write_text(chat_html, encoding="utf-8")
-    print(f"Embedded token into chat.html (token length: {len(github_token)})")
+    files_to_push = {
+        "index.html": OUTPUT_HTML,
+        f"data/plans/{today_key}.json": PLANS_DIR / f"{today_key}.json",
+    }
 
+    owner = "mengtahsu"
+    repo = "travel-planner"
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json"
+    }
 
-def git_commit_and_push(today_key):
-    try:
-        subprocess.run(
-            ["git", "-C", str(ROOT), "add", "index.html", "chat.html",
-             f"data/plans/{today_key}.json"],
-            check=True, capture_output=True, text=True
+    for path, filepath in files_to_push.items():
+        if not filepath.exists():
+            continue
+        content_bytes = filepath.read_bytes()
+        body = {
+            "message": f"Update {path} for {today_key}",
+            "content": __import__("base64").b64encode(content_bytes).decode(),
+            "branch": "main"
+        }
+
+        try:
+            resp = requests.get(
+                f"https://api.github.com/repos/{owner}/{repo}/contents/{path}",
+                headers=headers
+            )
+            if resp.status_code == 200:
+                body["sha"] = resp.json()["sha"]
+        except Exception:
+            pass
+
+        resp = requests.put(
+            f"https://api.github.com/repos/{owner}/{repo}/contents/{path}",
+            headers=headers,
+            json=body
         )
-        subprocess.run(
-            ["git", "-C", str(ROOT), "commit", "-m",
-             f"Generate plan for {today_key}"],
-            check=True, capture_output=True, text=True
-        )
-        subprocess.run(
-            ["git", "-C", str(ROOT), "push"],
-            check=True, capture_output=True, text=True
-        )
-        print("Pushed to GitHub successfully.")
-    except subprocess.CalledProcessError as e:
-        print(f"Git error: {e.stderr}")
-        # Non-fatal: page is generated locally even if push fails
+        if resp.status_code in (200, 201):
+            print(f"  Pushed {path}")
+        else:
+            print(f"  Failed {path}: {resp.status_code} {resp.text[:150]}")
+    print("Push complete via API.")
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -486,13 +494,9 @@ def main():
     # Render HTML
     render_html(plan)
 
-    # Also render chat.html with embedded token (so wife doesn't need a key)
-    render_chat_html()
-    print(f"Rendered chat.html with embedded token")
-
     # Push to GitHub
     print("Pushing to GitHub...")
-    git_commit_and_push(today)
+    push_via_api(today)
 
     print("Done!")
 
