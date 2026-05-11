@@ -35,6 +35,27 @@ UNSPLASH_ACCESS_KEY = _load_key("unsplash_access_key.txt", "UNSPLASH_ACCESS_KEY"
 # ═══════════════════════════════════════════════════════════════
 
 def load_config():
+    """Load settings from GitHub API first (so web changes take effect), fall back to local file."""
+    token_file = ROOT / "github_token.txt"
+    token = ""
+    if token_file.exists():
+        token = token_file.read_text(encoding="utf-8").strip()
+
+    if token:
+        try:
+            resp = requests.get(
+                "https://api.github.com/repos/mengtahsu/travel-planner/contents/config/settings.json",
+                headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"},
+                timeout=10
+            )
+            if resp.status_code == 200:
+                import base64
+                content = resp.json().get("content", "")
+                return json.loads(base64.b64decode(content).decode("utf-8"))
+        except Exception as e:
+            print(f"Failed to fetch config from GitHub: {e}")
+
+    # Fall back to local file
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
 
