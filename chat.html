@@ -40,6 +40,7 @@
       <p class="chat-hint" style="margin-top:0;">✏️ 隨時回來編輯 · 下個整點自動套用 · 無修改不觸發 · 上限 2000 字</p>
       <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--gold);" id="next-check">下次檢查：...</span>
     </div>
+    <div style="font-size:0.7rem;margin-top:0.4rem;" id="token-status"></div>
     <button class="save-btn" style="margin-top:0.75rem;" onclick="saveChat()">💾 儲存修改 Save Notes</button>
   </div>
 </div>
@@ -47,8 +48,6 @@
 <script src="templates/shared.js"></script>
 <script>
 const REPO = 'mengtahsu/travel-planner';
-// Token embedded by generator — NO user input needed
-const EMBEDDED_TOKEN = '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';
 
 function getTodayKey() {
   return new Date().toISOString().split('T')[0];
@@ -64,6 +63,17 @@ async function loadChat() {
   const key = getTodayKey();
   document.getElementById('date-label').textContent = `📅 編輯計畫：${key}`;
   document.getElementById('next-check').textContent = `下次檢查：${getNextHour()}`;
+
+  // Token status indicator
+  const tok = localStorage.getItem('github_chat_token');
+  const st = document.getElementById('token-status');
+  if(tok) {
+    st.innerHTML = '🟢 Token: ' + tok.substring(0,8) + '...' + tok.substring(tok.length-4) + ' (from localStorage)';
+    st.style.color = '#4a9';
+  } else {
+    st.innerHTML = '🔴 尚未設定 Token — <a href="settings.html" style="color:var(--gold);">前往 Settings 設定</a>';
+    st.style.color = '#e88';
+  }
 
   // Load from localStorage first (instant, survives navigation)
   const saved = localStorage.getItem('chat_draft_' + key);
@@ -99,27 +109,41 @@ async function saveChat() {
   // Always save to localStorage first — prevents data loss
   localStorage.setItem('chat_draft_' + key, text);
 
-  // Use embedded token (always up-to-date from generator), fallback to localStorage
-  const token = (EMBEDDED_TOKEN && EMBEDDED_TOKEN !== 'GITHUB_TOKEN_PLACEHOLDER')
-                ? EMBEDDED_TOKEN
-                : localStorage.getItem('github_chat_token');
+  const token = localStorage.getItem('github_chat_token');
   if(!token) {
-    alert('⚠️ 已暫存到瀏覽器。無法同步到 GitHub（Token 未設定）。');
+    alert('⚠️ 已暫存到瀏覽器。\n\n請先在 Settings 頁面輸入 GitHub Token（需 repo 權限），即可跨裝置同步。');
     return;
   }
 
+  // Diagnostic: show token prefix
+  const tokPrefix = token.substring(0, 10) + '...' + token.substring(token.length - 4);
+
   const content = toBase64(text);
+  const url = `https://api.github.com/repos/${REPO}/contents/data/chat/${key}.txt`;
 
   let sha = '';
   try {
-    const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/data/chat/${key}.txt`, {
+    const resp = await fetch(url, {
       headers: { 'Authorization': `Bearer ${token}` }
     });
-    if(resp.ok) { const data = await resp.json(); sha = data.sha || ''; }
-  } catch(e) {}
+    if(resp.ok) {
+      const data = await resp.json(); sha = data.sha || '';
+    } else if(resp.status === 401) {
+      const body = await resp.text();
+      alert('⚠️ Token 驗證失敗 (GET 401)。\n\n使用中 Token: ' + tokPrefix + '\nServer 回應: ' + body + '\n\n請到 Settings 頁面重新輸入 GitHub Token。\n\n已暫存到瀏覽器，不會遺失。');
+      return;
+    } else if(resp.status === 403) {
+      const body = await resp.text();
+      alert('⚠️ Token 無權限 (GET 403)。\n\n使用中 Token: ' + tokPrefix + '\nServer 回應: ' + body + '\n\n請確認 Token 有 repo 權限且已授權給 mengtahsu/travel-planner。\n\n已暫存到瀏覽器，不會遺失。');
+      return;
+    }
+  } catch(e) {
+    alert('⚠️ 網路錯誤 (GET): ' + e.message + '\n使用中 Token: ' + tokPrefix + '\n\n已暫存到瀏覽器。');
+    return;
+  }
 
   try {
-    const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/data/chat/${key}.txt`, {
+    const resp = await fetch(url, {
       method: 'PUT',
       headers: {
         'Authorization': `Bearer ${token}`,
@@ -135,8 +159,14 @@ async function saveChat() {
     if(resp.ok) {
       alert('✅ 已儲存！將在 ' + getNextHour() + ' 自動套用修改。');
     } else {
-      const err = await resp.json();
-      alert('⚠️ 已暫存到瀏覽器，但 GitHub 寫入失敗：' + err.message);
+      const body = await resp.text();
+      if(resp.status === 401) {
+        alert('⚠️ Token 驗證失敗 (PUT 401)。\n\n使用中 Token: ' + tokPrefix + '\nServer 回應: ' + body + '\n\n請到 Settings 頁面重新輸入 GitHub Token。\n\n已暫存到瀏覽器，不會遺失。');
+      } else if(resp.status === 403) {
+        alert('⚠️ Token 無權限 (PUT 403)。\n\n使用中 Token: ' + tokPrefix + '\nServer 回應: ' + body + '\n\n請確認 Token 有 Contents 寫入權限。\n\n已暫存到瀏覽器，不會遺失。');
+      } else {
+        alert('⚠️ 已暫存到瀏覽器，但 GitHub 寫入失敗 (' + resp.status + ')：' + body);
+      }
     }
   } catch(e) {
     alert('⚠️ 已暫存到瀏覽器，但無法連接 GitHub。');
