@@ -3,8 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>Log 日誌 — Travel Planner</title>
-<link rel="stylesheet" href="templates/shared.css">
+<link rel="stylesheet" href="templates/shared.css?v=2">
 </head>
 <body>
 <nav>
@@ -15,7 +18,7 @@
 </nav>
 
 <div class="container">
-  <h2 class="section-title">📋 研究日誌 Log</h2>
+  <h2 class="section-title">📋 研究日誌 Log <span style="font-size:0.55rem;background:var(--gold);color:#000;padding:2px 6px;border-radius:3px;vertical-align:middle;font-family:monospace;">v250511.1</span></h2>
   <p class="section-sub">查看每日 AI 生成進度與過往計畫記錄。</p>
   <div id="log-entries"></div>
 </div>
@@ -32,7 +35,7 @@ async function loadLogs() {
     d.setDate(d.getDate() - i);
     const key = d.toISOString().split('T')[0];
     try {
-      const resp = await fetch(`/data/plans/${key}.json`);
+      const resp = await fetch(`data/plans/${key}.json`);
       if(!resp.ok) continue;
       const plan = await resp.json();
       found = true;
