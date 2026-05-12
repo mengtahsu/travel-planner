@@ -16,8 +16,8 @@
     font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
     background: var(--cream);
     color: var(--ink);
-    font-size: 17px;
-    line-height: 1.65;
+    font-size: 18px;
+    line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
@@ -45,7 +45,7 @@
     text-decoration: none;
     color: var(--warm-gray);
     font-family: 'Inter', sans-serif;
-    font-size: 0.78rem;
+    font-size: 0.82rem;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     transition: color 0.3s;
@@ -128,7 +128,7 @@
   /* ─── SECTION HEADER ─── */
   .section-title {
     font-family: 'Playfair Display', 'Noto Serif TC', serif;
-    font-size: 1.55rem; color: var(--ink); margin-bottom: 0.5rem;
+    font-size: 1.7rem; color: var(--ink); margin-bottom: 0.5rem;
     position: relative;
   }
   .section-title::after {
@@ -137,7 +137,7 @@
   }
   .section-sub {
     font-family: 'Noto Serif TC', serif;
-    font-size: 0.95rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+    font-size: 1rem; color: var(--warm-gray); margin-bottom: 1.25rem;
   }
 
   /* ─── FULL CARDS ─── */
@@ -159,7 +159,7 @@
   }
   .full-card-header h2 {
     font-family: 'Playfair Display', 'Noto Serif TC', serif;
-    font-size: 1.4rem; font-weight: 500;
+    font-size: 1.5rem; font-weight: 500;
   }
   .external-btn {
     display: inline-flex; align-items: center; gap: 0.3rem;
@@ -189,13 +189,13 @@
     background: linear-gradient(to bottom, transparent, var(--gold), transparent);
     justify-self: center;
   }
-  .flight-info { font-size: 0.95rem; }
+  .flight-info { font-size: 1rem; }
   .flight-info .label {
-    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    font-family: 'Inter', sans-serif; font-size: 0.68rem;
     text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
   }
   .flight-info .airline {
-    font-family: 'Playfair Display', serif; font-size: 1.2rem;
+    font-family: 'Playfair Display', serif; font-size: 1.25rem;
     color: var(--ink); margin: 0.2rem 0;
   }
 
@@ -207,16 +207,16 @@
     margin-bottom: 1rem;
   }
   .hotel-card-inner {
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
   .hotel-card-inner h3 {
     font-family: 'Playfair Display','Noto Serif TC',serif;
-    font-size: 1.15rem;
+    font-size: 1.2rem;
     margin-bottom: 0.2rem;
   }
   .hotel-card-inner .zh {
     font-family: 'Noto Serif TC',serif;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     color: var(--warm-gray);
   }
 
@@ -258,14 +258,14 @@
   }
   .dining-info h4 {
     font-family: 'Playfair Display', 'Noto Serif TC', serif;
-    font-size: 1rem; margin-bottom: 0.15rem;
+    font-size: 1.05rem; margin-bottom: 0.15rem;
   }
   .dining-info .zh-name {
     font-family: 'Noto Serif TC', serif;
-    font-size: 0.85rem; color: var(--warm-gray);
+    font-size: 0.9rem; color: var(--warm-gray);
   }
   .dining-info .dish {
-    font-size: 0.8rem; color: var(--gold);
+    font-size: 0.85rem; color: var(--gold);
     font-style: italic; margin-top: 0.25rem;
   }
 
@@ -297,20 +297,20 @@
     font-size: 0.8rem; color: var(--ink); text-align: center;
     margin-top: 0.2rem;
   }
-  .day-schedule { font-size: 0.92rem; }
+  .day-schedule { font-size: 1rem; }
   .day-schedule .time-slot {
-    padding: 0.4rem 0;
+    padding: 0.45rem 0;
     border-bottom: 1px solid rgba(0,0,0,0.03);
     display: flex; gap: 0.5rem; align-items: baseline;
   }
   .time-slot .time {
     font-family: 'Inter', sans-serif;
-    font-size: 0.72rem; color: var(--gold);
-    min-width: 50px; letter-spacing: 0.5px;
+    font-size: 0.78rem; color: var(--gold);
+    min-width: 52px; letter-spacing: 0.5px;
     text-transform: uppercase;
   }
   .day-weather {
-    font-size: 0.8rem; color: var(--warm-gray);
+    font-size: 0.82rem; color: var(--warm-gray);
     text-align: right; padding-top: 0.25rem;
   }
 
@@ -322,7 +322,7 @@
   }
   .cost-row {
     display: flex; justify-content: space-between;
-    padding: 0.4rem 0; font-size: 0.95rem;
+    padding: 0.45rem 0; font-size: 1rem;
     border-bottom: 1px solid rgba(0,0,0,0.03);
     flex-wrap: wrap;
   }
@@ -361,10 +361,10 @@
     font-size: 0.8rem; color: var(--ink); margin-bottom: 0.5rem;
   }
   .setting-group input, .setting-group select {
-    width: 100%; padding: 0.7rem 0.85rem;
+    width: 100%; padding: 0.75rem 0.85rem;
     border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
     font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
-    font-size: 1.05rem; background: var(--cream); color: var(--ink);
+    font-size: 1.1rem; background: var(--cream); color: var(--ink);
     -webkit-appearance: none;
   }
   .setting-group input:focus, .setting-group select:focus {
@@ -415,7 +415,7 @@
     width: 100%; height: 200px; padding: 1rem;
     border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
     font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
-    font-size: 1.05rem; background: var(--cream); color: var(--ink);
+    font-size: 1.1rem; background: var(--cream); color: var(--ink);
     line-height: 1.7; resize: vertical;
     -webkit-appearance: none;
   }
