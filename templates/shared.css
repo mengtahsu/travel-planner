@@ -16,8 +16,8 @@
     font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
     background: var(--cream);
     color: var(--ink);
-    font-size: 18px;
-    line-height: 1.7;
+    font-size: 20px;
+    line-height: 1.75;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
@@ -45,7 +45,7 @@
     text-decoration: none;
     color: var(--warm-gray);
     font-family: 'Inter', sans-serif;
-    font-size: 0.82rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     transition: color 0.3s;
@@ -128,7 +128,7 @@
   /* ─── SECTION HEADER ─── */
   .section-title {
     font-family: 'Playfair Display', 'Noto Serif TC', serif;
-    font-size: 1.7rem; color: var(--ink); margin-bottom: 0.5rem;
+    font-size: 1.9rem; color: var(--ink); margin-bottom: 0.5rem;
     position: relative;
   }
   .section-title::after {
@@ -137,7 +137,7 @@
   }
   .section-sub {
     font-family: 'Noto Serif TC', serif;
-    font-size: 1rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+    font-size: 1.05rem; color: var(--warm-gray); margin-bottom: 1.25rem;
   }
 
   /* ─── FULL CARDS ─── */
@@ -159,14 +159,14 @@
   }
   .full-card-header h2 {
     font-family: 'Playfair Display', 'Noto Serif TC', serif;
-    font-size: 1.5rem; font-weight: 500;
+    font-size: 1.6rem; font-weight: 500;
   }
   .external-btn {
     display: inline-flex; align-items: center; gap: 0.3rem;
-    padding: 0.5rem 1.1rem;
+    padding: 0.55rem 1.1rem;
     background: var(--ink); color: #fff;
     border-radius: 20px;
-    font-family: 'Inter', sans-serif; font-size: 0.75rem;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
     text-transform: uppercase; letter-spacing: 0.5px;
     text-decoration: none;
     transition: opacity 0.2s;
@@ -189,13 +189,13 @@
     background: linear-gradient(to bottom, transparent, var(--gold), transparent);
     justify-self: center;
   }
-  .flight-info { font-size: 1rem; }
+  .flight-info { font-size: 1.05rem; }
   .flight-info .label {
-    font-family: 'Inter', sans-serif; font-size: 0.68rem;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
     text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
   }
   .flight-info .airline {
-    font-family: 'Playfair Display', serif; font-size: 1.25rem;
+    font-family: 'Playfair Display', serif; font-size: 1.3rem;
     color: var(--ink); margin: 0.2rem 0;
   }
 
@@ -207,16 +207,16 @@
     margin-bottom: 1rem;
   }
   .hotel-card-inner {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
   .hotel-card-inner h3 {
     font-family: 'Playfair Display','Noto Serif TC',serif;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     margin-bottom: 0.2rem;
   }
   .hotel-card-inner .zh {
     font-family: 'Noto Serif TC',serif;
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: var(--warm-gray);
   }
 
@@ -258,14 +258,14 @@
   }
   .dining-info h4 {
     font-family: 'Playfair Display', 'Noto Serif TC', serif;
-    font-size: 1.05rem; margin-bottom: 0.15rem;
+    font-size: 1.1rem; margin-bottom: 0.15rem;
   }
   .dining-info .zh-name {
     font-family: 'Noto Serif TC', serif;
-    font-size: 0.9rem; color: var(--warm-gray);
+    font-size: 0.95rem; color: var(--warm-gray);
   }
   .dining-info .dish {
-    font-size: 0.85rem; color: var(--gold);
+    font-size: 0.9rem; color: var(--gold);
     font-style: italic; margin-top: 0.25rem;
   }
 
@@ -297,20 +297,20 @@
     font-size: 0.8rem; color: var(--ink); text-align: center;
     margin-top: 0.2rem;
   }
-  .day-schedule { font-size: 1rem; }
+  .day-schedule { font-size: 1.05rem; }
   .day-schedule .time-slot {
-    padding: 0.45rem 0;
+    padding: 0.5rem 0;
     border-bottom: 1px solid rgba(0,0,0,0.03);
     display: flex; gap: 0.5rem; align-items: baseline;
   }
   .time-slot .time {
     font-family: 'Inter', sans-serif;
-    font-size: 0.78rem; color: var(--gold);
-    min-width: 52px; letter-spacing: 0.5px;
+    font-size: 0.82rem; color: var(--gold);
+    min-width: 54px; letter-spacing: 0.5px;
     text-transform: uppercase;
   }
   .day-weather {
-    font-size: 0.82rem; color: var(--warm-gray);
+    font-size: 0.85rem; color: var(--warm-gray);
     text-align: right; padding-top: 0.25rem;
   }
 
@@ -322,7 +322,7 @@
   }
   .cost-row {
     display: flex; justify-content: space-between;
-    padding: 0.45rem 0; font-size: 1rem;
+    padding: 0.5rem 0; font-size: 1.05rem;
     border-bottom: 1px solid rgba(0,0,0,0.03);
     flex-wrap: wrap;
   }
@@ -364,7 +364,7 @@
     width: 100%; padding: 0.75rem 0.85rem;
     border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
     font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
-    font-size: 1.1rem; background: var(--cream); color: var(--ink);
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
     -webkit-appearance: none;
   }
   .setting-group input:focus, .setting-group select:focus {
@@ -374,8 +374,8 @@
   .save-btn {
     background: linear-gradient(135deg, var(--gold), #b8942f);
     color: #fff; border: none;
-    padding: 0.75rem 2rem; border-radius: 8px;
-    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    padding: 0.8rem 2rem; border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 0.85rem;
     text-transform: uppercase; letter-spacing: 1.5px;
     cursor: pointer; margin-top: 1.25rem;
     transition: opacity 0.2s;
@@ -415,8 +415,8 @@
     width: 100%; height: 200px; padding: 1rem;
     border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
     font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
-    font-size: 1.1rem; background: var(--cream); color: var(--ink);
-    line-height: 1.7; resize: vertical;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    line-height: 1.8; resize: vertical;
     -webkit-appearance: none;
   }
   .chat-box textarea:focus {
@@ -424,7 +424,7 @@
     box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
   }
   .chat-hint {
-    font-family: 'Inter', sans-serif; font-size: 0.75rem;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
     color: var(--warm-gray); margin-top: 0.4rem; font-style: italic;
   }
 
