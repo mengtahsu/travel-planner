@@ -1,0 +1,617 @@
+{
+  "destination_en": "Hakone & Tokyo, Japan",
+  "title_zh": "一月箱根 · 東京浪漫溫泉之旅",
+  "date_range": "2027/01/15–01/20",
+  "start_date": "2027-01-15",
+  "end_date": "2027-01-20",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "NRT",
+  "travelers": 2,
+  "days": 6,
+  "budget_ntd": 350000,
+  "flight": {
+    "airline": "長榮航空 EVA Air",
+    "departure_date": "1月15日",
+    "return_date": "1月20日",
+    "total_price_ntd": 28000,
+    "outbound": {
+      "flight_no": "BR 198",
+      "route": "TPE → NRT 直飛",
+      "depart_time": "09:00",
+      "arrive_time": "13:00",
+      "duration": "3h 00m",
+      "class": "經濟艙"
+    },
+    "inbound": {
+      "flight_no": "BR 197",
+      "route": "NRT → TPE 直飛",
+      "depart_time": "14:00",
+      "arrive_time": "17:00",
+      "duration": "3h 00m",
+      "class": "經濟艙"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Gora Kadan (強羅花壇)",
+      "name_zh": "強羅花壇 · 箱根",
+      "district": "箱根 強羅",
+      "day_range": "1–2",
+      "nights": 2,
+      "price_ntd": 72000,
+      "stars": "★★★★★",
+      "room_type": "和洋室附露天風呂",
+      "breakfast": "含懷石早餐",
+      "amenities": "♨️ 天然溫泉 · 🍽️ 懷石料理 · 🏞️ 箱根山景 · 👘 浴衣",
+      "search_query": "Gora Kadan Hakone Japan",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1774014045714-a31eb272bcec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Building with japanese signage and red lanterns at night"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1742615869902-6e5573b0d643?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A brightly lit japanese restaurant at night."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1638422659524-207740747768?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a man standing in front of a store at night"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593344788696-44f40f542e11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "text"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1568222115029-c93fd44cbd32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "group of people in front of temple"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1770451176679-74daaa03dc33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A street lined with traditional japanese buildings."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1774014045714-a31eb272bcec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Building with japanese signage and red lanterns at night"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1742615869902-6e5573b0d643?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A brightly lit japanese restaurant at night."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1638422659524-207740747768?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a man standing in front of a store at night"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1593344788696-44f40f542e11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "text"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1568222115029-c93fd44cbd32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "group of people in front of temple"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1770451176679-74daaa03dc33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxHb3JhJTIwS2FkYW4lMjBIYWtvbmUlMjBKYXBhbnxlbnwwfDB8fHwxNzc4NjAxNjU2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A street lined with traditional japanese buildings."
+        }
+      ]
+    },
+    {
+      "name": "Palace Hotel Tokyo",
+      "name_zh": "東京皇宮酒店",
+      "district": "東京 丸之內",
+      "day_range": "3–5",
+      "nights": 3,
+      "price_ntd": 105000,
+      "stars": "★★★★★",
+      "room_type": "豪華雙人房",
+      "breakfast": "含自助式早餐",
+      "amenities": "🏊 室內泳池 · 🏋️ 健身中心 · 🍽️ 米其林餐廳 · 🏯 皇居景觀",
+      "search_query": "Palace Hotel Tokyo Japan",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1566484444878-f5456ec7e1b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building with a lot of lights in front of it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1633097254841-d48447706118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building with a fountain in front of it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533559694830-9f8d535740c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "low angle of brown concrete building under dark sky"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1774564152011-b9e382603694?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Historic building illuminated at night with reflections on wet ground."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1633097254856-b5c727fba1ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building that is next to a body of water"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1699204836495-4e0caf278784?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building lit up at night with a clock on it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1566484444878-f5456ec7e1b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building with a lot of lights in front of it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1633097254841-d48447706118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building with a fountain in front of it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1533559694830-9f8d535740c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "low angle of brown concrete building under dark sky"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1774564152011-b9e382603694?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Historic building illuminated at night with reflections on wet ground."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1633097254856-b5c727fba1ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building that is next to a body of water"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1699204836495-4e0caf278784?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxQYWxhY2UlMjBIb3RlbCUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODYwMTY1N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building lit up at night with a clock on it"
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "Ryugin (龍吟)",
+        "name_zh": "龍吟 · 米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🍣 招牌：鮑魚海膽蒸蛋 · 和牛涮涮鍋",
+        "address": "7-17-24 Roppongi, Minato, Tokyo",
+        "price_ntd": 18000,
+        "price_label": "晚餐套餐 ¥40,000/人 · NT$18,000",
+        "hours": "18:00–22:00 · 需預約",
+        "search_query": "Ryugin Tokyo Michelin 3 star",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1580679630536-a997fa14f618?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSeXVnaW4lMjBUb2t5byUyME1pY2hlbGluJTIwMyUyMHN0YXJ8ZW58MHwwfHx8MTc3ODU2MjY2NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "man in black under armour crew neck t-shirt and black knit cap"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1705734810487-b78b2f503204?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSeXVnaW4lMjBUb2t5byUyME1pY2hlbGluJTIwMyUyMHN0YXJ8ZW58MHwwfHx8MTc3ODU2MjY2NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a city street at night with people walking on the sidewalk"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1746150361891-d55977b2af64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxSeXVnaW4lMjBUb2t5byUyME1pY2hlbGluJTIwMyUyMHN0YXJ8ZW58MHwwfHx8MTc3ODU2MjY2NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "An ikinari steak restaurant storefront at night."
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1580679630536-a997fa14f618?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSeXVnaW4lMjBUb2t5byUyME1pY2hlbGluJTIwMyUyMHN0YXJ8ZW58MHwwfHx8MTc3ODU2MjY2NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "man in black under armour crew neck t-shirt and black knit cap"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1705734810487-b78b2f503204?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSeXVnaW4lMjBUb2t5byUyME1pY2hlbGluJTIwMyUyMHN0YXJ8ZW58MHwwfHx8MTc3ODU2MjY2NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a city street at night with people walking on the sidewalk"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1746150361891-d55977b2af64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxSeXVnaW4lMjBUb2t5byUyME1pY2hlbGluJTIwMyUyMHN0YXJ8ZW58MHwwfHx8MTc3ODU2MjY2NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "An ikinari steak restaurant storefront at night."
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "Kikunoi (菊乃井)",
+        "name_zh": "菊乃井 · 米其林二星",
+        "stars": "⭐⭐",
+        "dish": "🍱 招牌：季節懷石便當 · 抹茶甜點",
+        "address": "2-7-2 Akasaka, Minato, Tokyo",
+        "price_ntd": 9000,
+        "price_label": "午餐套餐 ¥20,000/人 · NT$9,000",
+        "hours": "12:00–15:00 / 17:00–22:00",
+        "search_query": "Kikunoi Tokyo Akasaka",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1769321309141-ad2591be0c62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLaWt1bm9pJTIwVG9reW8lMjBBa2FzYWthfGVufDB8MHx8fDE3Nzg2MDE2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "People walking down a narrow street with shops and signs."
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1686933021162-49c06f7a0b9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLaWt1bm9pJTIwVG9reW8lMjBBa2FzYWthfGVufDB8MHx8fDE3Nzg2MDE2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a group of people walking down a street next to tall buildings"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1565708049686-61fa0faf406a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLaWt1bm9pJTIwVG9reW8lMjBBa2FzYWthfGVufDB8MHx8fDE3Nzg2MDE2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white high-rise building"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1769321309141-ad2591be0c62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLaWt1bm9pJTIwVG9reW8lMjBBa2FzYWthfGVufDB8MHx8fDE3Nzg2MDE2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "People walking down a narrow street with shops and signs."
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1686933021162-49c06f7a0b9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLaWt1bm9pJTIwVG9reW8lMjBBa2FzYWthfGVufDB8MHx8fDE3Nzg2MDE2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a group of people walking down a street next to tall buildings"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1565708049686-61fa0faf406a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLaWt1bm9pJTIwVG9reW8lMjBBa2FzYWthfGVufDB8MHx8fDE3Nzg2MDE2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white high-rise building"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Higashiya Ginza",
+        "name_zh": "東屋銀座 · 和風茶室",
+        "stars": "",
+        "dish": "🍵 招牌：抹茶拿鐵 · 和菓子 · 櫻花羊羹",
+        "address": "5-2-1 Ginza, Chuo, Tokyo",
+        "price_ntd": 1800,
+        "price_label": "兩人下午茶 ¥4,000 · NT$1,800",
+        "hours": "11:00–19:00 · 銀座靜巷",
+        "search_query": "Higashiya Ginza tea house",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1600775081940-f849231d06d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIaWdhc2hpeWElMjBHaW56YSUyMHRlYSUyMGhvdXNlfGVufDB8MHx8fDE3Nzg2MDE2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "black metal fence near brown concrete building during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1637762806445-1d2a825cda18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIaWdhc2hpeWElMjBHaW56YSUyMHRlYSUyMGhvdXNlfGVufDB8MHx8fDE3Nzg2MDE2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a building that has a lot of windows on it"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1609753827490-6225e2efe6d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIaWdhc2hpeWElMjBHaW56YSUyMHRlYSUyMGhvdXNlfGVufDB8MHx8fDE3Nzg2MDE2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "brown wooden framed glass door"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1600775081940-f849231d06d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIaWdhc2hpeWElMjBHaW56YSUyMHRlYSUyMGhvdXNlfGVufDB8MHx8fDE3Nzg2MDE2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "black metal fence near brown concrete building during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1637762806445-1d2a825cda18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIaWdhc2hpeWElMjBHaW56YSUyMHRlYSUyMGhvdXNlfGVufDB8MHx8fDE3Nzg2MDE2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a building that has a lot of windows on it"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1609753827490-6225e2efe6d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIaWdhc2hpeWElMjBHaW56YSUyMHRlYSUyMGhvdXNlfGVufDB8MHx8fDE3Nzg2MDE2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "brown wooden framed glass door"
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "Jan 15 · Sat",
+      "label_zh": "抵達箱根",
+      "hotel_name": "Gora Kadan",
+      "hotel_name_zh": "強羅花壇",
+      "hotel_room": "和洋室附露天風呂",
+      "weather": "❄️ 5°/-1°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "✈️ 桃園機場 TPE 出發 · 長榮 BR198 直飛東京成田"
+        },
+        {
+          "time": "13:00",
+          "desc": "🛬 抵達成田機場 · 購買箱根周遊券 (¥6,100/人) · 搭乘特急浪漫號前往箱根湯本"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚃 抵達箱根湯本站 · 旅館接駁車至強羅花壇 · 辦理入住"
+        },
+        {
+          "time": "17:00",
+          "desc": "♨️ 享受旅館露天風呂 · 泡湯後換上浴衣"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 旅館內懷石料理晚餐 · 享用當季食材（已含住宿費）"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 夜空漫步 · 回房後再次泡湯 · 早睡養足精神"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "Jan 16 · Sun",
+      "label_zh": "箱根一日遊",
+      "hotel_name": "Gora Kadan",
+      "hotel_name_zh": "強羅花壇",
+      "hotel_room": "和洋室附露天風呂",
+      "weather": "❄️ 4°/-2°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥢 旅館內懷石早餐 · 欣賞箱根山景"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚠 箱根空中纜車 · 前往大涌谷 · 觀賞火山硫磺景觀 · 品嚐黑蛋 (¥500/5顆)"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚢 箱根海賊觀光船 · 蘆之湖遊覽 · 遠眺富士山"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍜 午餐：箱根湯本「湯葉丼 直吉」 · 豆腐皮丼 ¥1,500/人 · NT$675"
+        },
+        {
+          "time": "14:30",
+          "desc": "🏛️ 箱根雕刻之森美術館 · 戶外雕塑與畢卡索館 (¥1,600/人)"
+        },
+        {
+          "time": "17:00",
+          "desc": "♨️ 返回旅館 · 泡湯放鬆"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 旅館內懷石料理晚餐（已含住宿費）"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 夜間溫泉 · 星空下泡湯"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "Jan 17 · Mon",
+      "label_zh": "箱根→東京 · 皇居漫步",
+      "hotel_name": "Palace Hotel Tokyo",
+      "hotel_name_zh": "東京皇宮酒店",
+      "hotel_room": "豪華雙人房",
+      "weather": "☀️ 8°/2°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥢 旅館內懷石早餐 · 整理行李 · 退房"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚃 箱根湯本搭乘浪漫號特急前往新宿 (約90分鐘)"
+        },
+        {
+          "time": "11:30",
+          "desc": "🏨 抵達東京 · 入住 Palace Hotel Tokyo · 寄放行李"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍜 午餐：東京車站「斑鳩拉麵」 · 豚骨魚介拉麵 ¥1,200/人 · NT$540"
+        },
+        {
+          "time": "14:00",
+          "desc": "🏯 皇居東御苑 · 參觀皇居外苑與二重橋 · 散步拍照"
+        },
+        {
+          "time": "16:00",
+          "desc": "☕ 下午茶：Higashiya Ginza · 抹茶與和菓子"
+        },
+        {
+          "time": "18:00",
+          "desc": "🌆 銀座逛街 · 和光百貨、伊東屋文具"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：菊乃井 · 米其林二星懷石（已預約）"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店 · 享用酒店泳池或酒吧"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "Jan 18 · Tue",
+      "label_zh": "淺草 · 晴空塔 · 台場",
+      "hotel_name": "Palace Hotel Tokyo",
+      "hotel_name_zh": "東京皇宮酒店",
+      "hotel_room": "豪華雙人房",
+      "weather": "☁️ 9°/3°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店內自助早餐 · 皇居景觀"
+        },
+        {
+          "time": "09:30",
+          "desc": "⛩️ 淺草寺 · 雷門拍照 · 仲見世通買人形燒"
+        },
+        {
+          "time": "11:00",
+          "desc": "🗼 晴空塔 · 展望台眺望關東平原 (¥2,100/人)"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍣 午餐：晴空塔「六厘舍」沾麵 ¥1,200/人 · NT$540"
+        },
+        {
+          "time": "15:00",
+          "desc": "🚢 水上巴士前往台場 · 從淺草出發 (¥1,200/人)"
+        },
+        {
+          "time": "16:30",
+          "desc": "🛍️ 台場購物 · DiverCity Tokyo Plaza · 自由女神像"
+        },
+        {
+          "time": "18:30",
+          "desc": "🎡 台場摩天輪 · 彩虹橋夜景"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：台場「和食 銀座おのでら」 · 壽司套餐 ¥8,000/人 · NT$3,600"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店 · 放鬆休息"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "Jan 19 · Wed",
+      "label_zh": "澀谷 · 原宿 · 表參道",
+      "hotel_name": "Palace Hotel Tokyo",
+      "hotel_name_zh": "東京皇宮酒店",
+      "hotel_room": "豪華雙人房",
+      "weather": "☀️ 10°/4°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店內自助早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🐶 澀谷十字路口 · 忠犬八公像 · 新地標Shibuya Sky (¥2,000/人)"
+        },
+        {
+          "time": "11:30",
+          "desc": "🛍️ 原宿竹下通 · 可麗餅 · 潮牌店"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 午餐：表參道「Afuri」柚子鹽拉麵 ¥1,300/人 · NT$585"
+        },
+        {
+          "time": "14:30",
+          "desc": "🏛️ 根津美術館 · 日式庭園與藝術品 (¥1,300/人)"
+        },
+        {
+          "time": "16:30",
+          "desc": "☕ 下午茶：表參道「Bills」 · 鬆餅與拿鐵 ¥2,000/人 · NT$900"
+        },
+        {
+          "time": "18:30",
+          "desc": "🌆 六本木之丘 · 展望台夜景 (¥1,800/人)"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：龍吟 · 米其林三星（已預約）"
+        },
+        {
+          "time": "22:30",
+          "desc": "🌙 返回酒店 · 收拾行李"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "Jan 20 · Thu",
+      "label_zh": "返程日",
+      "hotel_name": "Palace Hotel Tokyo",
+      "hotel_name_zh": "東京皇宮酒店",
+      "hotel_room": "豪華雙人房",
+      "weather": "☁️ 8°/2°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店內自助早餐 · 退房 · 寄放行李"
+        },
+        {
+          "time": "09:30",
+          "desc": "🛍️ 上野阿美橫町 · 最後採購藥妝、伴手禮"
+        },
+        {
+          "time": "11:30",
+          "desc": "🍜 午餐：上野「伊豆榮」鰻魚飯 ¥3,500/人 · NT$1,575"
+        },
+        {
+          "time": "13:00",
+          "desc": "🚃 搭乘成田特快N'EX前往成田機場 (¥3,200/人)"
+        },
+        {
+          "time": "14:00",
+          "desc": "✈️ 成田機場報到 · 免稅店購物"
+        },
+        {
+          "time": "14:00",
+          "desc": "✈️ 長榮 BR197 返回台灣 · 17:00抵達桃園"
+        },
+        {
+          "time": "17:00",
+          "desc": "🛬 抵達台灣 · 旅程結束"
+        }
+      ]
+    }
+  ],
+  "costs": [
+    {
+      "label": "✈️ 來回機票",
+      "amount_ntd": 28000
+    },
+    {
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 177000
+    },
+    {
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 60000
+    },
+    {
+      "label": "🎫 景點門票",
+      "amount_ntd": 20000
+    },
+    {
+      "label": "🚇 交通",
+      "amount_ntd": 15000
+    },
+    {
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 25000
+    }
+  ],
+  "cost_total_ntd": 325000,
+  "budget_remaining_ntd": 25000,
+  "photos": {
+    "hero": [
+      {
+        "url": "",
+        "label": "Hakone & Tokyo skyline landmark"
+      },
+      {
+        "url": "",
+        "label": "Hakone & Tokyo skyline landmark"
+      }
+    ],
+    "destination": [
+      {
+        "url": "",
+        "label": "Hakone & Tokyo travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Hakone & Tokyo travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Hakone & Tokyo travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Hakone & Tokyo travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Hakone & Tokyo travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Hakone & Tokyo travel scenery"
+      }
+    ]
+  },
+  "chat_hash": "",
+  "config_hash": "ec3cd88a44df940db4f60af83a4607e4468087a8fec05212ab6b59b73e343ffe",
+  "generated_at": "2026-05-13T00:01:00.169233"
+}
