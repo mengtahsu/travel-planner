@@ -1,161 +1,161 @@
 {
-  "destination_en": "Paris, France",
-  "title_zh": "一月巴黎 · 浪漫六天之旅",
-  "date_range": "2027/01/10–01/15",
-  "start_date": "2027-01-10",
-  "end_date": "2027-01-15",
+  "destination_en": "Hakone, Japan",
+  "title_zh": "箱根溫泉 · 親子六日之旅",
+  "date_range": "2027/01/15–01/21",
+  "start_date": "2027-01-15",
+  "end_date": "2027-01-21",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "CDG",
-  "travelers": 2,
-  "days": 6,
-  "budget_ntd": 240000,
+  "destination_code": "NRT",
+  "travelers": 5,
+  "days": 7,
+  "budget_ntd": 350000,
   "flight": {
-    "airline": "長榮航空 EVA Air",
-    "departure_date": "1月10日",
-    "return_date": "1月15日",
-    "total_price_ntd": 52000,
+    "airline": "中華航空 China Airlines",
+    "departure_date": "1月15日",
+    "return_date": "1月21日",
+    "total_price_ntd": 75000,
     "outbound": {
-      "flight_no": "BR 87",
-      "route": "TPE → CDG 直飛",
-      "depart_time": "23:40",
-      "arrive_time": "07:30 (+1)",
-      "duration": "13h 50m",
+      "flight_no": "CI 104",
+      "route": "TPE → NRT 直飛",
+      "depart_time": "08:55",
+      "arrive_time": "13:15",
+      "duration": "3h 20m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "BR 88",
-      "route": "CDG → TPE 直飛",
-      "depart_time": "11:20",
-      "arrive_time": "06:30 (+1)",
-      "duration": "13h 10m",
+      "flight_no": "CI 105",
+      "route": "NRT → TPE 直飛",
+      "depart_time": "14:30",
+      "arrive_time": "17:45",
+      "duration": "3h 15m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Hôtel Le Narcisse Blanc & Spa",
-      "name_zh": "水仙花白酒店",
-      "district": "巴黎 6 區",
+      "name": "Hakone Ginyu",
+      "name_zh": "箱根吟遊",
+      "district": "箱根 宮之下",
       "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 54000,
-      "stars": "★★★★☆",
-      "room_type": "經典豪華雙人房",
-      "breakfast": "含法式早餐",
-      "amenities": "🏊 室內泳池 · 💆 SPA & 土耳其浴 · 🍽️ 庭院餐廳 · 🌿 私密花園",
-      "search_query": "Hôtel Le Narcisse Blanc Paris France",
+      "price_ntd": 120000,
+      "stars": "★★★★★",
+      "room_type": "兩間和洋室（一間雙人+一間四人）",
+      "breakfast": "含日式早餐",
+      "amenities": "♨️ 露天風呂 · 🍽️ 懷石料理晚餐 · 🏞️ 富士山景 · 🚌 免費接駁",
+      "search_query": "Hakone Ginyu ryokan Japan",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1592229505801-77b31918d822?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "black flat screen tv on white wooden tv rack"
+          "url": "https://images.unsplash.com/photo-1777499701221-abf9b5c8072b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A multi-story building beside a rocky river with a bridge."
         },
         {
-          "url": "https://images.unsplash.com/photo-1596289925085-cd4a73583de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white and blue concrete building"
+          "url": "https://images.unsplash.com/photo-1729258068754-4a082b3cf3c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A building lit up at night with lights on"
         },
         {
-          "url": "https://images.unsplash.com/photo-1592229506151-845940174bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown and white couch beside brown wooden coffee table"
+          "url": "https://images.unsplash.com/photo-1699996800071-8211267e51f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building with a clock on the front of it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "cooked food on black cooking pan"
+          "url": "https://images.unsplash.com/photo-1777499700985-4e18d881b80b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Building beside a rocky river in a wooded area."
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "sliced meat with green vegetable on white ceramic plate"
+          "url": "https://images.unsplash.com/photo-1745395602855-edd5232e3445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A lit-up japanese building is covered in snow."
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319800-4f524f05436c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "sliced tomato and green vegetable"
+          "url": "https://images.unsplash.com/photo-1552616958-62df7245f4cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "white and brown house near mountain"
         },
         {
-          "url": "https://images.unsplash.com/photo-1592229505801-77b31918d822?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "black flat screen tv on white wooden tv rack"
+          "url": "https://images.unsplash.com/photo-1777499701221-abf9b5c8072b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A multi-story building beside a rocky river with a bridge."
         },
         {
-          "url": "https://images.unsplash.com/photo-1596289925085-cd4a73583de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white and blue concrete building"
+          "url": "https://images.unsplash.com/photo-1729258068754-4a082b3cf3c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A building lit up at night with lights on"
         },
         {
-          "url": "https://images.unsplash.com/photo-1592229506151-845940174bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown and white couch beside brown wooden coffee table"
+          "url": "https://images.unsplash.com/photo-1699996800071-8211267e51f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building with a clock on the front of it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "cooked food on black cooking pan"
+          "url": "https://images.unsplash.com/photo-1777499700985-4e18d881b80b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Building beside a rocky river in a wooded area."
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "sliced meat with green vegetable on white ceramic plate"
+          "url": "https://images.unsplash.com/photo-1745395602855-edd5232e3445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A lit-up japanese building is covered in snow."
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319800-4f524f05436c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "sliced tomato and green vegetable"
+          "url": "https://images.unsplash.com/photo-1552616958-62df7245f4cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "white and brown house near mountain"
         }
       ]
     },
     {
-      "name": "Shangri-La Paris",
-      "name_zh": "巴黎香格里拉大酒店",
-      "district": "巴黎 16 區",
-      "day_range": "3–6",
+      "name": "Hakone Kowakien Tenyu",
+      "name_zh": "箱根小涌園 天悠",
+      "district": "箱根 小涌谷",
+      "day_range": "4–6",
       "nights": 3,
       "price_ntd": 90000,
-      "stars": "★★★★★",
-      "room_type": "高級套房（可眺望艾菲爾鐵塔）",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 室內泳池 · 💆 SPA · 🍽️ L'Abeille 米其林二星餐廳 · 🗼 鐵塔景觀露台",
-      "search_query": "Shangri-La Paris hotel",
+      "stars": "★★★★☆",
+      "room_type": "兩間現代和室（一間雙人+一間三人）",
+      "breakfast": "含日式/西式早餐",
+      "amenities": "♨️ 大浴場 · 🌿 空中庭園 · 🍣 自助晚餐 · 🎮 兒童遊戲區",
+      "search_query": "Hakone Kowakien Tenyu Japan",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1592229505801-77b31918d822?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "black flat screen tv on white wooden tv rack"
+          "url": "https://images.unsplash.com/photo-1595344695255-76eaa93a48cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "girl in white dress standing beside girl in blue dress"
         },
         {
-          "url": "https://images.unsplash.com/photo-1596289925085-cd4a73583de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white and blue concrete building"
+          "url": "https://images.unsplash.com/photo-1638422659524-207740747768?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a man standing in front of a store at night"
         },
         {
-          "url": "https://images.unsplash.com/photo-1592229506151-845940174bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown and white couch beside brown wooden coffee table"
+          "url": "https://images.unsplash.com/photo-1593344788696-44f40f542e11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "text"
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "cooked food on black cooking pan"
+          "url": "https://images.unsplash.com/photo-1770479025314-aba17acd28c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Neon sign glows on a street at night"
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "sliced meat with green vegetable on white ceramic plate"
+          "url": "https://images.unsplash.com/photo-1731384626680-a697c6e48326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A white truck driving down a street next to tall buildings"
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319800-4f524f05436c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "sliced tomato and green vegetable"
+          "url": "https://images.unsplash.com/photo-1768663319855-d0fda9b91d1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A busy street lined with illuminated signs at dusk."
         },
         {
-          "url": "https://images.unsplash.com/photo-1592229505801-77b31918d822?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "black flat screen tv on white wooden tv rack"
+          "url": "https://images.unsplash.com/photo-1595344695255-76eaa93a48cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "girl in white dress standing beside girl in blue dress"
         },
         {
-          "url": "https://images.unsplash.com/photo-1596289925085-cd4a73583de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "white and blue concrete building"
+          "url": "https://images.unsplash.com/photo-1638422659524-207740747768?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a man standing in front of a store at night"
         },
         {
-          "url": "https://images.unsplash.com/photo-1592229506151-845940174bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown and white couch beside brown wooden coffee table"
+          "url": "https://images.unsplash.com/photo-1593344788696-44f40f542e11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "text"
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319307-757c2d258a3f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "cooked food on black cooking pan"
+          "url": "https://images.unsplash.com/photo-1770479025314-aba17acd28c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Neon sign glows on a street at night"
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "sliced meat with green vegetable on white ceramic plate"
+          "url": "https://images.unsplash.com/photo-1731384626680-a697c6e48326?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A white truck driving down a street next to tall buildings"
         },
         {
-          "url": "https://images.unsplash.com/photo-1605880319800-4f524f05436c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "sliced tomato and green vegetable"
+          "url": "https://images.unsplash.com/photo-1768663319855-d0fda9b91d1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIYWtvbmUlMjBLb3dha2llbiUyMFRlbnl1JTIwSmFwYW58ZW58MHwwfHx8MTc3ODU0NjQ0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A busy street lined with illuminated signs at dusk."
         }
       ]
     }
@@ -163,117 +163,93 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Le Cinq",
-        "name_zh": "四季酒店米其林三星",
-        "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：龍蝦濃湯佐黑松露",
-        "address": "31 Av. George V, 8區",
-        "price_ntd": 14000,
-        "price_label": "晚餐套餐 €395/人 · NT$14,000",
-        "hours": "19:00–22:00 · 需預約",
-        "search_query": "Le Cinq restaurant Four Seasons Paris food",
+        "name": "Gora Kadan",
+        "name_zh": "強羅花壇 懷石料理",
+        "stars": "⭐⭐",
+        "dish": "🍣 招牌：季節會席 · 伊勢龍蝦 · 和牛涮涮鍋",
+        "address": "1300 Gora, Hakone, Kanagawa",
+        "price_ntd": 13500,
+        "price_label": "晚餐套餐 ¥30,000/人 · NT$6,750",
+        "hours": "17:30–20:30 · 需預約",
+        "search_query": "Gora Kadan kaiseki dinner",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1762117863153-6db91d93eb66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Pastry display case with chefs preparing food in background."
+            "url": "https://images.unsplash.com/photo-1766582931800-fd79665257fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxHb3JhJTIwS2FkYW4lMjBrYWlzZWtpJTIwZGlubmVyfGVufDB8MHx8fDE3Nzg1NDY0NDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A japanese multi-course meal with various small dishes."
           },
           {
-            "url": "https://images.unsplash.com/photo-1761594607277-305e41d972d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Fresh mushrooms and lemons displayed at a market."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1768775134268-6068c6d7c841?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Assortment of delicious pastries in a display case."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1762117863153-6db91d93eb66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Pastry display case with chefs preparing food in background."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1761594607277-305e41d972d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Fresh mushrooms and lemons displayed at a market."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1768775134268-6068c6d7c841?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMFBhcmlzfGVufDB8MHx8fDE3Nzg1MTUyNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Assortment of delicious pastries in a display case."
+            "url": "https://images.unsplash.com/photo-1766582931800-fd79665257fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxHb3JhJTIwS2FkYW4lMjBrYWlzZWtpJTIwZGlubmVyfGVufDB8MHx8fDE3Nzg1NDY0NDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A japanese multi-course meal with various small dishes."
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Septime",
-        "name_zh": "新派法式小酒館 · 米其林一星",
+        "name": "Itoh Dining by Nobu",
+        "name_zh": "伊藤餐廳 · 法式日料",
         "stars": "⭐",
-        "dish": "🥩 招牌：熟成肋眼牛排 · 煙燻甜菜根",
-        "address": "80 Rue de Charonne, 11區",
+        "dish": "🥩 招牌：箱根牛鐵板燒 · 黑松露燉飯",
+        "address": "1245-22 Sengokuhara, Hakone",
         "price_ntd": 5400,
-        "price_label": "午餐套餐 €155/人 · NT$5,400",
-        "hours": "12:15–14:00 / 19:30–22:00",
-        "search_query": "Septime restaurant Paris food",
+        "price_label": "午餐套餐 ¥12,000/人 · NT$2,700",
+        "hours": "11:30–14:30 / 17:30–21:00",
+        "search_query": "Itoh Dining by Nobu Hakone",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1674280146905-76713cb61661?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZHxlbnwwfDB8fHwxNzc4NTE1MjY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a wooden table topped with bowls of food"
+            "url": "https://images.unsplash.com/photo-1553692499-33f38fe5a177?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "clear disposable cup on left human hnad"
           },
           {
-            "url": "https://images.unsplash.com/photo-1688465162688-7fa894ff687c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZHxlbnwwfDB8fHwxNzc4NTE1MjY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a plate with a dessert on top of it"
+            "url": "https://images.unsplash.com/photo-1535141686549-11c66f6e324b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "blue throw pillow on blue couch"
           },
           {
-            "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZHxlbnwwfDB8fHwxNzc4NTE1MjY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "sliced meat with green vegetable on white ceramic plate"
+            "url": "https://images.unsplash.com/photo-1549735777-dacfcc07574e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxiaXN0cm9zJTIwZm9vZCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "bar neon light signage"
           },
           {
-            "url": "https://images.unsplash.com/photo-1674280146905-76713cb61661?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZHxlbnwwfDB8fHwxNzc4NTE1MjY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a wooden table topped with bowls of food"
+            "url": "https://images.unsplash.com/photo-1553692499-33f38fe5a177?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "clear disposable cup on left human hnad"
           },
           {
-            "url": "https://images.unsplash.com/photo-1688465162688-7fa894ff687c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZHxlbnwwfDB8fHwxNzc4NTE1MjY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a plate with a dessert on top of it"
+            "url": "https://images.unsplash.com/photo-1535141686549-11c66f6e324b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "blue throw pillow on blue couch"
           },
           {
-            "url": "https://images.unsplash.com/photo-1605880319718-163216d8b95c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTZXB0aW1lJTIwcmVzdGF1cmFudCUyMFBhcmlzJTIwZm9vZHxlbnwwfDB8fHwxNzc4NTE1MjY4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "sliced meat with green vegetable on white ceramic plate"
+            "url": "https://images.unsplash.com/photo-1549735777-dacfcc07574e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxiaXN0cm9zJTIwZm9vZCUyMEhha29uZXxlbnwwfDB8fHwxNzc4NTQ2NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "bar neon light signage"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Café de Flore",
-        "name_zh": "花神咖啡館 · 1887年開業",
+        "name": "Hakone Bakery & Table",
+        "name_zh": "箱根麵包工坊",
         "stars": "",
-        "dish": "☕ 招牌：熱巧克力 · 可頌 · 焦糖布丁",
-        "address": "172 Bd Saint-Germain, 6區",
-        "price_ntd": 1400,
-        "price_label": "兩人早午餐 €40 · NT$1,400",
-        "hours": "07:30–01:30 · 文人雅士最愛",
-        "search_query": "Cafe de Flore Paris interior",
+        "dish": "🥐 招牌：現烤可頌 · 蒙布朗 · 手沖咖啡",
+        "address": "65 Miyanoshita, Hakone",
+        "price_ntd": 1800,
+        "price_label": "五人輕食 ¥4,000 · NT$900",
+        "hours": "09:00–17:00 · 週三休",
+        "search_query": "Hakone Bakery and Table",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1632658443249-f2d8c2abd60c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxjYWZlJTIwY29mZmVlJTIwUGFyaXN8ZW58MHwwfHx8MTc3ODUxNTI3MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people walking across a street"
+            "url": "https://images.unsplash.com/photo-1567745219000-b99afacf5ef6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIYWtvbmUlMjBCYWtlcnklMjBhbmQlMjBUYWJsZXxlbnwwfDB8fHwxNzc4NTQ2NDUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "people sitting on tables"
           },
           {
-            "url": "https://images.unsplash.com/photo-1749661804436-f74e4a25e9da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxjYWZlJTIwY29mZmVlJTIwUGFyaXN8ZW58MHwwfHx8MTc3ODUxNTI3MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A dog enters a parisian cafe."
+            "url": "https://images.unsplash.com/photo-1567745218675-7f3e09766bbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIYWtvbmUlMjBCYWtlcnklMjBhbmQlMjBUYWJsZXxlbnwwfDB8fHwxNzc4NTQ2NDUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "clear glass window"
           },
           {
-            "url": "https://images.unsplash.com/photo-1611916656173-875e4277bea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxjYWZlJTIwY29mZmVlJTIwUGFyaXN8ZW58MHwwfHx8MTc3ODUxNTI3MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white ceramic plate with cappuccino"
+            "url": "https://images.unsplash.com/photo-1567745219000-b99afacf5ef6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIYWtvbmUlMjBCYWtlcnklMjBhbmQlMjBUYWJsZXxlbnwwfDB8fHwxNzc4NTQ2NDUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "people sitting on tables"
           },
           {
-            "url": "https://images.unsplash.com/photo-1632658443249-f2d8c2abd60c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxjYWZlJTIwY29mZmVlJTIwUGFyaXN8ZW58MHwwfHx8MTc3ODUxNTI3MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people walking across a street"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1749661804436-f74e4a25e9da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxjYWZlJTIwY29mZmVlJTIwUGFyaXN8ZW58MHwwfHx8MTc3ODUxNTI3MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A dog enters a parisian cafe."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1611916656173-875e4277bea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxjYWZlJTIwY29mZmVlJTIwUGFyaXN8ZW58MHwwfHx8MTc3ODUxNTI3MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white ceramic plate with cappuccino"
+            "url": "https://images.unsplash.com/photo-1567745218675-7f3e09766bbf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIYWtvbmUlMjBCYWtlcnklMjBhbmQlMjBUYWJsZXxlbnwwfDB8fHwxNzc4NTQ2NDUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "clear glass window"
           }
         ]
       }
@@ -282,364 +258,396 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Jan 10 · Sun",
-      "label_zh": "抵達日",
-      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
-      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
-      "hotel_room": "經典豪華雙人房",
-      "weather": "❄️ 6°/-1°",
+      "date": "Jan 15 · Sat",
+      "label_zh": "抵達日 · 箱根吟遊",
+      "hotel_name": "Hakone Ginyu",
+      "hotel_name_zh": "箱根吟遊",
+      "hotel_room": "兩間和洋室（一間雙人+一間四人）",
+      "weather": "❄️ 3°/-2°",
       "rain_pct": "20%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李"
+          "time": "08:55",
+          "desc": "✈️ 桃園機場 TPE 出發 · 搭乘中華航空 CI 104"
         },
         {
-          "time": "09:00",
-          "desc": "🚇 搭乘 RER B 前往市中心（約1小時）· 建議購買 Navigo Découverte 交通卡（€30/人）"
+          "time": "13:15",
+          "desc": "🛬 抵達成田機場 NRT · 入境通關取行李"
         },
         {
-          "time": "10:30",
-          "desc": "🏨 抵達水仙花白酒店 · 寄放行李 · 換裝保暖衣物"
-        },
-        {
-          "time": "11:30",
-          "desc": "🥐 Café de Flore 早午餐 · 花神經典歐蕾 + 可頌 + 焦糖布丁"
-        },
-        {
-          "time": "13:30",
-          "desc": "🎨 羅浮宮 Musée du Louvre（預約票 €17/人）· 必看：蒙娜麗莎、維納斯雕像"
+          "time": "14:30",
+          "desc": "🚄 搭乘N'EX成田特快至新宿站（約80分鐘）· 購買箱根周遊券"
         },
         {
           "time": "16:30",
-          "desc": "☕ 杜樂麗花園 Jardin des Tuileries 散步 · 冬季聖誕市集（至1月中）"
+          "desc": "🚃 新宿站轉乘小田急浪漫特快至箱根湯本站（約90分鐘）"
         },
         {
-          "time": "18:00",
-          "desc": "🏨 入住水仙花白酒店 · 整理行李 · 稍作休息"
+          "time": "18:30",
+          "desc": "♨️ 入住箱根吟遊 · 旅館接駁車在箱根湯本站接送"
         },
         {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：Le Cinq 四季酒店米其林三星 · 龍蝦濃湯佐黑松露 · 需正裝"
+          "time": "19:30",
+          "desc": "🍽️ 旅館內享用懷石料理晚餐 · 預約私人露天風呂"
         },
         {
-          "time": "23:00",
-          "desc": "🌙 返回酒店 · 享受 SPA 土耳其浴（開放至 22:00，建議明晚使用）"
+          "time": "21:30",
+          "desc": "🌙 泡溫泉 · 休息 · 欣賞夜間山景"
         }
       ]
     },
     {
       "day": 2,
-      "date": "Jan 11 · Mon",
-      "label_zh": "藝術與美食日",
-      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
-      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
-      "hotel_room": "經典豪華雙人房",
-      "weather": "☁️ 5°/-2°",
-      "rain_pct": "15%",
+      "date": "Jan 16 · Sun",
+      "label_zh": "蘆之湖 · 箱根神社",
+      "hotel_name": "Hakone Ginyu",
+      "hotel_name_zh": "箱根吟遊",
+      "hotel_room": "兩間和洋室（一間雙人+一間四人）",
+      "weather": "❄️ 2°/-3°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🍳 酒店內法式早餐 · 可頌、奶油、果醬、咖啡"
+          "time": "07:30",
+          "desc": "🌅 早起泡晨湯 · 欣賞富士山日出"
+        },
+        {
+          "time": "08:30",
+          "desc": "🍳 旅館享用日式早餐 · 納豆 · 烤魚 · 味噌湯"
         },
         {
           "time": "09:30",
-          "desc": "🎨 橘園美術館 Musée de l'Orangerie（預約票 €12.5/人）· 莫內睡蓮系列"
+          "desc": "🚌 搭乘箱根登山巴士至元箱根港（約30分鐘）"
         },
         {
-          "time": "11:30",
-          "desc": "🛍️ 聖日耳曼德佩區漫步 · 逛 Le Bon Marché 百貨"
+          "time": "10:30",
+          "desc": "⛩️ 箱根神社 · 參拜 · 湖上鳥居拍照（建議穿防滑鞋）"
+        },
+        {
+          "time": "12:00",
+          "desc": "🚢 搭乘箱根海盜船遊蘆之湖（約40分鐘）· 湖景富士山"
         },
         {
           "time": "13:00",
-          "desc": "🍽️ 午餐：Septime 米其林一星小酒館 · 熟成肋眼牛排"
+          "desc": "🍜 午餐：箱根麵包工坊 + 周邊小店"
         },
         {
-          "time": "15:00",
-          "desc": "🗼 艾菲爾鐵塔（預約頂層門票 €28/人）· 建議乘電梯"
+          "time": "14:30",
+          "desc": "🎨 箱根雕刻之森美術館（戶外展區 · 小孩可跑跳）"
         },
         {
           "time": "17:00",
-          "desc": "🚢 塞納河遊船（Bateaux Parisiens）· 冬季黃昏燈光 · €15/人"
+          "desc": "♨️ 回旅館泡溫泉 · 休息"
         },
         {
-          "time": "19:30",
-          "desc": "🍽️ 晚餐：Le Comptoir du Relais 經典法式小館 · 油封鴨腿 €28/人"
-        },
-        {
-          "time": "21:30",
-          "desc": "💆 返回酒店 · 預約 SPA 情侶按摩（90分鐘 €200）"
+          "time": "19:00",
+          "desc": "🍽️ 旅館懷石晚餐（第二晚菜色不同）"
         }
       ]
     },
     {
       "day": 3,
-      "date": "Jan 12 · Tue",
-      "label_zh": "蒙馬特與換酒店日",
-      "hotel_name": "Shangri-La Paris",
-      "hotel_name_zh": "巴黎香格里拉大酒店 · 高級套房（鐵塔景）",
-      "hotel_room": "高級套房（可眺望艾菲爾鐵塔）",
-      "weather": "🌧️ 4°/-1°",
-      "rain_pct": "60%",
+      "date": "Jan 17 · Mon",
+      "label_zh": "大涌谷 · 玻璃之森",
+      "hotel_name": "Hakone Ginyu",
+      "hotel_name_zh": "箱根吟遊",
+      "hotel_room": "兩間和洋室（一間雙人+一間四人）",
+      "weather": "❄️ 1°/-4°",
+      "rain_pct": "30%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🍳 酒店早餐 · 退房前收拾行李"
+          "desc": "🍳 旅館早餐"
         },
         {
-          "time": "09:30",
-          "desc": "⛪ 聖心堂 Basilique du Sacré-Cœur · 蒙馬特高地全景"
+          "time": "09:00",
+          "desc": "🚡 箱根空中纜車（早雲山–大涌谷）· 觀賞火山硫磺"
         },
         {
-          "time": "11:00",
-          "desc": "🎨 蒙馬特博物館 + 達利空間 · 探索藝術家廣場"
+          "time": "10:00",
+          "desc": "🥚 大涌谷 · 吃黑蛋（延壽傳說）· 買伴手禮"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚡 纜車至桃源台 · 轉巴士"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ 午餐：La Mère Catherine 傳統法式洋蔥湯 · €25/人"
+          "desc": "🍽️ 午餐：Itoh Dining by Nobu · 箱根牛鐵板燒"
         },
         {
-          "time": "14:00",
-          "desc": "🏨 退房水仙花白酒店 · 前往香格里拉大酒店（約30分鐘車程）"
+          "time": "14:30",
+          "desc": "✨ 箱根玻璃之森美術館 · 威尼斯玻璃 · 庭園咖啡"
         },
         {
-          "time": "15:00",
-          "desc": "🏨 入住香格里拉大酒店 · 高級套房 · 享受鐵塔景觀"
-        },
-        {
-          "time": "16:30",
-          "desc": "☕ 酒店下午茶（可選 L'Abeille 沙龍）· €60/人"
+          "time": "17:00",
+          "desc": "♨️ 回旅館泡溫泉 · 整理行李"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 晚餐：L'Abeille 米其林二星餐廳（酒店內）· 品嘗主廚 Christophe Moret 創意料理"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 套房內欣賞艾菲爾鐵塔每小時閃燈 · 浪漫時刻"
+          "desc": "🍽️ 旅館懷石晚餐（最後一晚）"
         }
       ]
     },
     {
       "day": 4,
-      "date": "Jan 13 · Wed",
-      "label_zh": "凡爾賽宮日",
-      "hotel_name": "Shangri-La Paris",
-      "hotel_name_zh": "巴黎香格里拉大酒店 · 高級套房（鐵塔景）",
-      "hotel_room": "高級套房（可眺望艾菲爾鐵塔）",
-      "weather": "☁️ 3°/-3°",
-      "rain_pct": "30%",
+      "date": "Jan 18 · Tue",
+      "label_zh": "換宿 · 箱根小涌園天悠",
+      "hotel_name": "Hakone Kowakien Tenyu",
+      "hotel_name_zh": "箱根小涌園 天悠",
+      "hotel_room": "兩間現代和室（一間雙人+一間三人）",
+      "weather": "❄️ 3°/-2°",
+      "rain_pct": "15%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🍳 酒店自助早餐 · 建議早出發避開人潮"
+          "desc": "🍳 旅館早餐 · 最後一次享受箱根吟遊"
         },
         {
-          "time": "08:30",
-          "desc": "🚄 從 Gare Montparnasse 搭乘 TER 前往凡爾賽宮（約40分鐘）"
+          "time": "09:00",
+          "desc": "🏨 退房 · 寄放行李於櫃檯"
         },
         {
-          "time": "09:30",
-          "desc": "🏰 凡爾賽宮 Château de Versailles（預約票 €21/人）· 含導覽機"
+          "time": "10:00",
+          "desc": "🎭 箱根小王子博物館（室內 · 適合小孩）"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 午餐：凡爾賽宮內 Angelina 餐廳 · 栗子蒙布朗 · €35/人"
+          "time": "12:00",
+          "desc": "🍜 午餐：箱根湯本站周邊 · そば處 はつ花"
         },
         {
-          "time": "14:00",
-          "desc": "🌳 凡爾賽花園散步 · 大特里亞農宮"
+          "time": "13:30",
+          "desc": "🏨 取行李 · 搭乘接駁車至箱根小涌園天悠（約15分鐘）"
         },
         {
-          "time": "16:30",
-          "desc": "🚄 返回巴黎 · 回酒店稍作休息"
+          "time": "14:30",
+          "desc": "🏨 入住天悠 · 兩間現代和室（雙人+三人）"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：Le Jules Verne（艾菲爾鐵塔內米其林一星）· €190/人 · 可欣賞夜景"
+          "time": "15:30",
+          "desc": "♨️ 天悠空中庭園足湯 · 兒童遊戲區"
         },
         {
-          "time": "22:00",
-          "desc": "🌙 返回酒店 · 享受 SPA 或套房內放鬆"
+          "time": "18:00",
+          "desc": "🍽️ 旅館自助晚餐 · 螃蟹 · 壽司 · 甜點"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 大浴場泡湯 · 休息"
         }
       ]
     },
     {
       "day": 5,
-      "date": "Jan 14 · Thu",
-      "label_zh": "購物與自由日",
-      "hotel_name": "Shangri-La Paris",
-      "hotel_name_zh": "巴黎香格里拉大酒店 · 高級套房（鐵塔景）",
-      "hotel_room": "高級套房（可眺望艾菲爾鐵塔）",
-      "weather": "🌤️ 5°/-1°",
-      "rain_pct": "10%",
+      "date": "Jan 19 · Wed",
+      "label_zh": "富士山一日遊",
+      "hotel_name": "Hakone Kowakien Tenyu",
+      "hotel_name_zh": "箱根小涌園 天悠",
+      "hotel_room": "兩間現代和室（一間雙人+一間三人）",
+      "weather": "❄️ 1°/-5°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "09:00",
-          "desc": "🍳 慵懶早餐 · 酒店內享用"
+          "time": "07:00",
+          "desc": "🍳 旅館早餐"
         },
         {
-          "time": "10:30",
-          "desc": "🛍️ 香榭麗舍大道購物 · LV 旗艦店、Cartier、Longchamp"
+          "time": "08:00",
+          "desc": "🚌 參加富士山一日遊（箱根出發）· 含河口湖 · 忍野八海"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏔️ 河口湖 · 拍攝逆富士 · 纜車上天上山公園"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ 午餐：Ladurée 馬卡龍餐廳 · 經典午餐套餐 €45/人"
+          "desc": "🍜 午餐：ほうとう不動 · 河口湖鄉土麵"
         },
         {
           "time": "14:00",
-          "desc": "🎁 瑪黑區 Le Marais 逛獨立設計店 · 買伴手禮"
+          "desc": "💧 忍野八海 · 湧泉 · 買水蜜桃酒"
         },
         {
-          "time": "16:00",
-          "desc": "☕ 下午茶：Café de Flore 再次造訪 · 熱巧克力"
+          "time": "16:30",
+          "desc": "🚌 返回箱根"
         },
         {
-          "time": "18:00",
-          "desc": "🏨 回酒店打包行李 · 休息"
+          "time": "18:30",
+          "desc": "♨️ 天悠泡湯 · 休息"
         },
         {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：Chez L'Ami Jean 巴斯克料理 · 招牌鴨胸 €50/人"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 最後一晚 · 鐵塔夜景散步 · 浪漫告別"
+          "time": "19:30",
+          "desc": "🍽️ 旅館自助晚餐（主題變化）"
         }
       ]
     },
     {
       "day": 6,
-      "date": "Jan 15 · Fri",
-      "label_zh": "返程日",
-      "hotel_name": "Shangri-La Paris",
-      "hotel_name_zh": "巴黎香格里拉大酒店 · 高級套房（鐵塔景）",
-      "hotel_room": "高級套房（可眺望艾菲爾鐵塔）",
-      "weather": "☁️ 4°/-2°",
+      "date": "Jan 20 · Thu",
+      "label_zh": "箱根自由日",
+      "hotel_name": "Hakone Kowakien Tenyu",
+      "hotel_name_zh": "箱根小涌園 天悠",
+      "hotel_room": "兩間現代和室（一間雙人+一間三人）",
+      "weather": "❄️ 2°/-3°",
       "rain_pct": "20%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🍳 酒店最後早餐 · 退房"
+          "desc": "🍳 旅館早餐"
         },
         {
-          "time": "09:00",
-          "desc": "🚇 搭乘 RER B 前往 CDG 機場（約1小時）"
+          "time": "09:30",
+          "desc": "🎡 箱根拉利克美術館 · 珠寶 · 水晶展"
         },
         {
-          "time": "10:00",
-          "desc": "✈️ 抵達機場 · 辦理退稅 · 免稅店最後採購"
+          "time": "12:00",
+          "desc": "🍽️ 午餐：Gora Kadan 懷石午餐（高級體驗）"
         },
         {
-          "time": "11:20",
-          "desc": "🛫 搭乘 BR 88 返回台灣 · 飛行 13h 10m"
+          "time": "14:30",
+          "desc": "🛍️ 箱根湯本商店街 · 買藥妝 · 零食 · 工藝品"
         },
         {
-          "time": "06:30 (+1)",
-          "desc": "🏠 抵達台灣桃園機場 · 帶著滿滿回憶回家"
+          "time": "17:00",
+          "desc": "♨️ 回旅館泡湯 · 打包行李"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 旅館最後晚餐 · 特別預約壽喜燒"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "Jan 21 · Fri",
+      "label_zh": "返台日",
+      "hotel_name": "Hakone Kowakien Tenyu",
+      "hotel_name_zh": "箱根小涌園 天悠",
+      "hotel_room": "兩間現代和室（一間雙人+一間三人）",
+      "weather": "❄️ 3°/-1°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🍳 旅館早餐"
+        },
+        {
+          "time": "08:30",
+          "desc": "🏨 退房 · 搭乘接駁車至箱根湯本站"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚃 箱根湯本站 → 小田急浪漫特快 → 新宿"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚄 新宿站 → N'EX成田特快 → 成田機場"
+        },
+        {
+          "time": "13:00",
+          "desc": "🛍️ 成田機場免稅店 · 最後購物"
+        },
+        {
+          "time": "14:30",
+          "desc": "✈️ 搭乘中華航空 CI 105 返回台灣"
+        },
+        {
+          "time": "17:45",
+          "desc": "🛬 抵達桃園機場 · 旅程結束"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票",
-      "amount_ntd": 52000
+      "label": "✈️ 來回機票（5人）",
+      "amount_ntd": 75000
     },
     {
-      "label": "🏨 住宿（總計）",
-      "amount_ntd": 144000
+      "label": "🏨 住宿（兩間房6晚）",
+      "amount_ntd": 210000
     },
     {
-      "label": "🍽️ 餐飲",
-      "amount_ntd": 54000
+      "label": "🍽️ 餐飲（含旅館晚餐）",
+      "amount_ntd": 35000
     },
     {
       "label": "🎫 景點門票",
-      "amount_ntd": 15000
+      "amount_ntd": 12000
     },
     {
-      "label": "🚇 交通",
-      "amount_ntd": 8000
+      "label": "🚇 交通（含周遊券）",
+      "amount_ntd": 10000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 10000
+      "amount_ntd": 8000
     }
   ],
-  "cost_total_ntd": 283000,
-  "budget_remaining_ntd": -43000,
+  "cost_total_ntd": 350000,
+  "budget_remaining_ntd": 0,
   "photos": {
     "hero": [
       {
-        "url": "https://images.unsplash.com/photo-1636834620871-d22004dd9e07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NTE1MjYxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a view of a city at night from a bridge"
+        "url": "",
+        "label": "Hakone skyline landmark"
       },
       {
-        "url": "https://images.unsplash.com/photo-1699076702974-7e194a0b6804?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NTE1MjYxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "the eiffel tower towering over the city of paris"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1636834620871-d22004dd9e07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NTE1MjYxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a view of a city at night from a bridge"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1699076702974-7e194a0b6804?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NTE1MjYxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "the eiffel tower towering over the city of paris"
+        "url": "",
+        "label": "Hakone skyline landmark"
       }
     ],
     "destination": [
       {
-        "url": "https://images.unsplash.com/photo-1589390512160-4b7c7d057032?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view of city buildings during daytime"
+        "url": "https://images.unsplash.com/photo-1576397753762-206624e9a2cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "body of water"
       },
       {
-        "url": "https://images.unsplash.com/photo-1580654842869-9ab94465f1a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white concrete building during daytime"
+        "url": "https://images.unsplash.com/photo-1767334851654-07b879a5f1dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cable cars ascend a misty mountain with buildings below."
       },
       {
-        "url": "https://images.unsplash.com/photo-1580654842706-866e5fbac10b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white and red concrete building during daytime"
+        "url": "https://images.unsplash.com/photo-1759924438292-2e87c305310e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cable car travels over a lush green mountain landscape."
       },
       {
-        "url": "https://images.unsplash.com/photo-1581683703111-01f1b6fa56a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown wooden door on gray concrete building"
+        "url": "https://images.unsplash.com/photo-1767334851108-dfc65b0d7df9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cable cars moving through the sky at dusk"
       },
       {
-        "url": "https://images.unsplash.com/photo-1587313924795-3cdfa4117d37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white and black checkered textile"
+        "url": "https://images.unsplash.com/photo-1767008485633-3a2392ca2aa4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Small building on a grassy hill under blue sky"
       },
       {
-        "url": "https://images.unsplash.com/photo-1581683703690-f2ee757c98bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "black motorcycle parked beside brown concrete building during daytime"
+        "url": "https://images.unsplash.com/photo-1776951797583-f7c1cc395648?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A large ship sails on a calm lake near mountains."
       },
       {
-        "url": "https://images.unsplash.com/photo-1589390512160-4b7c7d057032?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view of city buildings during daytime"
+        "url": "https://images.unsplash.com/photo-1576397753762-206624e9a2cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "body of water"
       },
       {
-        "url": "https://images.unsplash.com/photo-1580654842869-9ab94465f1a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white concrete building during daytime"
+        "url": "https://images.unsplash.com/photo-1767334851654-07b879a5f1dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cable cars ascend a misty mountain with buildings below."
       },
       {
-        "url": "https://images.unsplash.com/photo-1580654842706-866e5fbac10b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white and red concrete building during daytime"
+        "url": "https://images.unsplash.com/photo-1759924438292-2e87c305310e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cable car travels over a lush green mountain landscape."
       },
       {
-        "url": "https://images.unsplash.com/photo-1581683703111-01f1b6fa56a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown wooden door on gray concrete building"
+        "url": "https://images.unsplash.com/photo-1767334851108-dfc65b0d7df9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cable cars moving through the sky at dusk"
       },
       {
-        "url": "https://images.unsplash.com/photo-1587313924795-3cdfa4117d37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white and black checkered textile"
+        "url": "https://images.unsplash.com/photo-1767008485633-3a2392ca2aa4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Small building on a grassy hill under blue sky"
       },
       {
-        "url": "https://images.unsplash.com/photo-1581683703690-f2ee757c98bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxQYXJpcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODUxNTI2Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "black motorcycle parked beside brown concrete building during daytime"
+        "url": "https://images.unsplash.com/photo-1776951797583-f7c1cc395648?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIYWtvbmUlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1NDY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A large ship sails on a calm lake near mountains."
       }
     ]
   },
-  "chat_hash": "",
-  "config_hash": "5785a7ffc6a3d8cb4c9ba2a3cf9beec46e8ee2379c39d936cf3509bb725171f4",
-  "generated_at": "2026-05-12T08:30:47.388061"
+  "chat_hash": "1962d43290ced17a50fc5fea3b8344ac503965cfd55919160ad15bbebe51c925",
+  "config_hash": "abff67a42754c4a772691e3caaf47ba072115defaad3a6f4d861dab7af526aab",
+  "generated_at": "2026-05-12T08:40:50.749777"
 }
