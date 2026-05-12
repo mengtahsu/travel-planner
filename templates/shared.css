@@ -284,33 +284,33 @@
   }
   .day-num {
     font-family: 'Playfair Display', serif;
-    font-size: 2rem; color: var(--gold);
+    font-size: 2.2rem; color: var(--gold);
     text-align: center; line-height: 1;
   }
   .day-label {
-    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
     text-transform: uppercase; letter-spacing: 1.5px;
     color: var(--warm-gray); text-align: center;
   }
   .day-zh {
     font-family: 'Noto Serif TC', serif;
-    font-size: 0.8rem; color: var(--ink); text-align: center;
+    font-size: 0.85rem; color: var(--ink); text-align: center;
     margin-top: 0.2rem;
   }
-  .day-schedule { font-size: 1.05rem; }
+  .day-schedule { font-size: 1.15rem; }
   .day-schedule .time-slot {
-    padding: 0.5rem 0;
+    padding: 0.55rem 0;
     border-bottom: 1px solid rgba(0,0,0,0.03);
-    display: flex; gap: 0.5rem; align-items: baseline;
+    display: flex; gap: 0.6rem; align-items: baseline;
   }
   .time-slot .time {
     font-family: 'Inter', sans-serif;
-    font-size: 0.82rem; color: var(--gold);
-    min-width: 54px; letter-spacing: 0.5px;
+    font-size: 0.9rem; color: var(--gold);
+    min-width: 58px; letter-spacing: 0.5px;
     text-transform: uppercase;
   }
   .day-weather {
-    font-size: 0.85rem; color: var(--warm-gray);
+    font-size: 0.9rem; color: var(--warm-gray);
     text-align: right; padding-top: 0.25rem;
   }
 
