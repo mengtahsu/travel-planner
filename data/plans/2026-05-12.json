@@ -1,161 +1,161 @@
 {
-  "destination_en": "Okinawa, Japan",
-  "title_zh": "一月沖繩 · 暖陽雙人五天之旅",
+  "destination_en": "Chiang Mai, Thailand",
+  "title_zh": "清邁暖冬 · 雙人浪漫五天",
   "date_range": "2027/01/25–01/29",
   "start_date": "2027-01-25",
   "end_date": "2027-01-29",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "OKA",
+  "destination_code": "CNX",
   "travelers": 2,
   "days": 5,
   "budget_ntd": 350000,
   "flight": {
-    "airline": "中華航空 China Airlines",
+    "airline": "長榮航空 EVA Air",
     "departure_date": "1月25日",
     "return_date": "1月29日",
     "total_price_ntd": 28000,
     "outbound": {
-      "flight_no": "CI 120",
-      "route": "TPE → OKA 直飛",
-      "depart_time": "08:15",
-      "arrive_time": "10:45",
-      "duration": "1h 30m",
+      "flight_no": "BR 257",
+      "route": "TPE → CNX 直飛",
+      "depart_time": "07:25",
+      "arrive_time": "10:35",
+      "duration": "4h 10m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 123",
-      "route": "OKA → TPE 直飛",
-      "depart_time": "20:00",
-      "arrive_time": "20:45",
-      "duration": "1h 45m",
+      "flight_no": "BR 258",
+      "route": "CNX → TPE 直飛",
+      "depart_time": "11:35",
+      "arrive_time": "16:45",
+      "duration": "4h 10m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Halekulani Okinawa",
-      "name_zh": "沖繩海麗客蘭尼度假酒店",
-      "district": "恩納村",
-      "day_range": "1–2",
-      "nights": 2,
-      "price_ntd": 84000,
+      "name": "Raya Heritage",
+      "name_zh": "拉雅遺產酒店",
+      "district": "萍河畔 · 清邁古城北",
+      "day_range": "1–3",
+      "nights": 3,
+      "price_ntd": 36000,
       "stars": "★★★★★",
-      "room_type": "海景豪華雙人房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 無邊際泳池 · 🌺 花園 · 🍽️ 法式餐廳 · 🛁 海景浴缸",
-      "search_query": "Halekulani Okinawa Japan",
+      "room_type": "河景露台套房 (River View Terrace Suite)",
+      "breakfast": "含半自助式早餐",
+      "amenities": "🏊 無邊際泳池 · 🧘 每日瑜伽 · 🚲 免費自行車 · 🌿 有機花園",
+      "search_query": "Raya Heritage Chiang Mai",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1754228806660-f0ea8606a3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Rocky cliffside meets the sea with a clear blue sky."
+          "url": "https://images.unsplash.com/photo-1719886369830-ce1e0e4a483d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "An aerial view of a village in the mountains"
         },
         {
-          "url": "https://images.unsplash.com/photo-1607909572148-533d0fbd6f89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "gray concrete road between green grass field under blue sky during daytime"
+          "url": "https://images.unsplash.com/photo-1680896444797-07917f403a49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a house sitting on top of a lake next to a lush green forest"
         },
         {
-          "url": "https://images.unsplash.com/photo-1651422589451-db2ae2140b04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a beach with a sandy beach and green bushes"
+          "url": "https://images.unsplash.com/photo-1708885820130-66d6728d9456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a gazebo in a garden with statues in the foreground"
         },
         {
-          "url": "https://images.unsplash.com/photo-1684334040867-5dba4c519e7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a rural road near the ocean on a sunny day"
+          "url": "https://images.unsplash.com/photo-1714240229996-faaa7a6d100d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building with a lot of windows on top of it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1664888883053-2b68ebd16502?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a beach with rocks and trees"
+          "url": "https://images.unsplash.com/photo-1719886392354-0d3f6315b2c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "An aerial view of a village in the middle of a forest"
         },
         {
-          "url": "https://images.unsplash.com/photo-1625548894051-8ddd8650c6ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "body of water near mountain during daytime"
+          "url": "https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "bird's-eye view of white temple surround by trees"
         },
         {
-          "url": "https://images.unsplash.com/photo-1754228806660-f0ea8606a3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Rocky cliffside meets the sea with a clear blue sky."
+          "url": "https://images.unsplash.com/photo-1719886369830-ce1e0e4a483d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "An aerial view of a village in the mountains"
         },
         {
-          "url": "https://images.unsplash.com/photo-1607909572148-533d0fbd6f89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "gray concrete road between green grass field under blue sky during daytime"
+          "url": "https://images.unsplash.com/photo-1680896444797-07917f403a49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a house sitting on top of a lake next to a lush green forest"
         },
         {
-          "url": "https://images.unsplash.com/photo-1651422589451-db2ae2140b04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a beach with a sandy beach and green bushes"
+          "url": "https://images.unsplash.com/photo-1708885820130-66d6728d9456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a gazebo in a garden with statues in the foreground"
         },
         {
-          "url": "https://images.unsplash.com/photo-1684334040867-5dba4c519e7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a rural road near the ocean on a sunny day"
+          "url": "https://images.unsplash.com/photo-1714240229996-faaa7a6d100d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building with a lot of windows on top of it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1664888883053-2b68ebd16502?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a beach with rocks and trees"
+          "url": "https://images.unsplash.com/photo-1719886392354-0d3f6315b2c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "An aerial view of a village in the middle of a forest"
         },
         {
-          "url": "https://images.unsplash.com/photo-1625548894051-8ddd8650c6ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIYWxla3VsYW5pJTIwT2tpbmF3YSUyMEphcGFufGVufDB8MHx8fDE3Nzg1OTk5MTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "body of water near mountain during daytime"
+          "url": "https://images.unsplash.com/photo-1512553353614-82a7370096dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxSYXlhJTIwSGVyaXRhZ2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "bird's-eye view of white temple surround by trees"
         }
       ]
     },
     {
-      "name": "The Terrace Club at Busena",
-      "name_zh": "布森納陽台俱樂部度假村",
-      "district": "名護市",
-      "day_range": "3–4",
+      "name": "137 Pillars House",
+      "name_zh": "137柱府酒店",
+      "district": "清邁古城 · 長康路",
+      "day_range": "4–5",
       "nights": 2,
-      "price_ntd": 66000,
+      "price_ntd": 32000,
       "stars": "★★★★★",
-      "room_type": "海景套房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏖️ 私人沙灘 · ♨️ 溫泉 · 🎣 釣魚碼頭 · 🍷 空中酒吧",
-      "search_query": "The Terrace Club at Busena Okinawa",
+      "room_type": "殖民風格套房 (Colonial Suite)",
+      "breakfast": "含 à la carte 早餐",
+      "amenities": "🏊 熱帶泳池 · 💆 招牌SPA · 🍸 屋頂酒吧 · 🛁 獨立浴缸",
+      "search_query": "137 Pillars House Chiang Mai",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1756634332177-e89d302e4885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Two women with umbrellas admire the ocean view"
+          "url": "https://images.unsplash.com/photo-1680896444797-07917f403a49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a house sitting on top of a lake next to a lush green forest"
         },
         {
-          "url": "https://images.unsplash.com/photo-1687758557419-d1c3b2819a89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a row of beach chairs sitting next to a body of water"
+          "url": "https://images.unsplash.com/photo-1646850149204-55d96d99ee24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "the interior of a church lit up at night"
         },
         {
-          "url": "https://images.unsplash.com/photo-1756641155600-4cce22f6bc39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Dolphins perform with trainers in a clear blue pool."
+          "url": "https://images.unsplash.com/photo-1708885820130-66d6728d9456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a gazebo in a garden with statues in the foreground"
         },
         {
-          "url": "https://images.unsplash.com/photo-1747747005719-d5b7a1d4b744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Beachside patio with tables and chairs looking out."
+          "url": "https://images.unsplash.com/photo-1599576838688-8a6c11263108?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown and white concrete house surrounded by green trees during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1778162780522-97772758bb01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Coastal buildings with orange roofs and ocean view."
+          "url": "https://images.unsplash.com/photo-1714240229996-faaa7a6d100d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building with a lot of windows on top of it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1716172874868-96497ee2a0f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a balcony with tables and chairs overlooking the ocean"
+          "url": "https://images.unsplash.com/photo-1524189791114-9781ece3d3ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown and black Asian temple"
         },
         {
-          "url": "https://images.unsplash.com/photo-1756634332177-e89d302e4885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Two women with umbrellas admire the ocean view"
+          "url": "https://images.unsplash.com/photo-1680896444797-07917f403a49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a house sitting on top of a lake next to a lush green forest"
         },
         {
-          "url": "https://images.unsplash.com/photo-1687758557419-d1c3b2819a89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a row of beach chairs sitting next to a body of water"
+          "url": "https://images.unsplash.com/photo-1646850149204-55d96d99ee24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "the interior of a church lit up at night"
         },
         {
-          "url": "https://images.unsplash.com/photo-1756641155600-4cce22f6bc39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Dolphins perform with trainers in a clear blue pool."
+          "url": "https://images.unsplash.com/photo-1708885820130-66d6728d9456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a gazebo in a garden with statues in the foreground"
         },
         {
-          "url": "https://images.unsplash.com/photo-1747747005719-d5b7a1d4b744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Beachside patio with tables and chairs looking out."
+          "url": "https://images.unsplash.com/photo-1599576838688-8a6c11263108?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown and white concrete house surrounded by green trees during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1778162780522-97772758bb01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Coastal buildings with orange roofs and ocean view."
+          "url": "https://images.unsplash.com/photo-1714240229996-faaa7a6d100d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large building with a lot of windows on top of it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1716172874868-96497ee2a0f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUaGUlMjBUZXJyYWNlJTIwQ2x1YiUyMGF0JTIwQnVzZW5hJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a balcony with tables and chairs overlooking the ocean"
+          "url": "https://images.unsplash.com/photo-1524189791114-9781ece3d3ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHwxMzclMjBQaWxsYXJzJTIwSG91c2UlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown and black Asian temple"
         }
       ]
     }
@@ -163,97 +163,105 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "La Mer",
-        "name_zh": "海洋法式餐廳",
+        "name": "The Service 1921 Restaurant & Bar",
+        "name_zh": "1921服務餐廳",
         "stars": "⭐⭐",
-        "dish": "🦞 招牌：龍蝦佐香檳奶油醬",
-        "address": "Halekulani Okinawa, 恩納村",
-        "price_ntd": 8000,
-        "price_label": "晚餐套餐 ¥18,000/人 · NT$8,000",
-        "hours": "18:00–21:30 · 需預約",
-        "search_query": "La Mer Halekulani Okinawa restaurant",
+        "dish": "🍛 招牌：泰北咖喱麵 Khao Soi · 紅咖喱烤鴨",
+        "address": "123 Charoen Prathet Rd, Chang Khlan, Mueang Chiang Mai District",
+        "price_ntd": 2500,
+        "price_label": "晚餐套餐 ฿2,500/人 · NT$2,500",
+        "hours": "18:00–22:30 · 需預約",
+        "search_query": "The Service 1921 Chiang Mai",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1589550506544-8bc215113f81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODU5OTkxM3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "sliced cake on white ceramic plate"
+            "url": "",
+            "label": "fine dining food Chiang Mai"
           },
           {
-            "url": "https://images.unsplash.com/photo-1763872790577-87955e6036c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODU5OTkxM3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Japanese restaurant facade at night with illuminated signs"
+            "url": "",
+            "label": "fine dining food Chiang Mai"
           },
           {
-            "url": "https://images.unsplash.com/photo-1589550506544-8bc215113f81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODU5OTkxM3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "sliced cake on white ceramic plate"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1763872790577-87955e6036c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODU5OTkxM3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Japanese restaurant facade at night with illuminated signs"
+            "url": "",
+            "label": "fine dining food Chiang Mai"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Umi no Sachi",
-        "name_zh": "海之幸海鮮食堂",
-        "stars": "",
-        "dish": "🐟 招牌：島豆腐海膽丼 · 炸天婦羅",
-        "address": "58-2 Maeganeku, 恩納村",
-        "price_ntd": 2500,
-        "price_label": "兩人午餐 ¥5,500 · NT$2,500",
-        "hours": "11:30–14:30 / 17:00–21:00",
-        "search_query": "Umi no Sachi Okinawa",
+        "name": "Ruen Tamarind",
+        "name_zh": "羅望子庭院餐廳",
+        "stars": "⭐",
+        "dish": "🍜 招牌：泰式酸辣蝦湯 Tom Yum Goong · 綠咖喱雞",
+        "address": "50/1 Rajdamnoen Rd, Sri Phum, Mueang Chiang Mai District",
+        "price_ntd": 1500,
+        "price_label": "雙人午餐 ฿1,500 · NT$1,500",
+        "hours": "11:00–21:00",
+        "search_query": "Ruen Tamarind Chiang Mai",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxVbWklMjBubyUyMFNhY2hpJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a view of the ocean from a hill top"
+            "url": "https://images.unsplash.com/photo-1719886369830-ce1e0e4a483d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSdWVuJTIwVGFtYXJpbmQlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "An aerial view of a village in the mountains"
           },
           {
-            "url": "https://images.unsplash.com/photo-1664888883053-2b68ebd16502?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxVbWklMjBubyUyMFNhY2hpJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a beach with rocks and trees"
+            "url": "https://images.unsplash.com/photo-1708885820130-66d6728d9456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSdWVuJTIwVGFtYXJpbmQlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a gazebo in a garden with statues in the foreground"
           },
           {
-            "url": "https://images.unsplash.com/photo-1583726933193-a8f50d90c0a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxVbWklMjBubyUyMFNhY2hpJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white and blue sky over city and sea during daytime"
+            "url": "https://images.unsplash.com/photo-1714240231586-5e0d23d48817?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxSdWVuJTIwVGFtYXJpbmQlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a row of red and white statues on a brick walkway"
           },
           {
-            "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxVbWklMjBubyUyMFNhY2hpJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a view of the ocean from a hill top"
+            "url": "https://images.unsplash.com/photo-1719886369830-ce1e0e4a483d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSdWVuJTIwVGFtYXJpbmQlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "An aerial view of a village in the mountains"
           },
           {
-            "url": "https://images.unsplash.com/photo-1664888883053-2b68ebd16502?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxVbWklMjBubyUyMFNhY2hpJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a beach with rocks and trees"
+            "url": "https://images.unsplash.com/photo-1708885820130-66d6728d9456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSdWVuJTIwVGFtYXJpbmQlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a gazebo in a garden with statues in the foreground"
           },
           {
-            "url": "https://images.unsplash.com/photo-1583726933193-a8f50d90c0a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxVbWklMjBubyUyMFNhY2hpJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4NTk5OTEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white and blue sky over city and sea during daytime"
+            "url": "https://images.unsplash.com/photo-1714240231586-5e0d23d48817?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxSdWVuJTIwVGFtYXJpbmQlMjBDaGlhbmclMjBNYWl8ZW58MHwwfHx8MTc3ODYwMDYyN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a row of red and white statues on a brick walkway"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Café Kuchen",
-        "name_zh": "庫亨海景咖啡",
+        "name": "Ristr8to Coffee",
+        "name_zh": "Ristr8to 拉花咖啡館",
         "stars": "",
-        "dish": "☕ 招牌：紅芋塔 · 海鹽拿鐵 · 漂浮冰淇淋",
-        "address": "2288-1 Nakama, 名護市",
-        "price_ntd": 1100,
-        "price_label": "兩人下午茶 ¥2,500 · NT$1,100",
-        "hours": "10:00–18:00 · 週三公休",
-        "search_query": "Cafe Kuchen Okinawa",
+        "dish": "☕ 招牌：髒髒咖啡 · 泰式冰奶茶 · 熔岩蛋糕",
+        "address": "15/3 Nimmana Haeminda Rd Lane 3, Suthep, Mueang Chiang Mai District",
+        "price_ntd": 500,
+        "price_label": "兩人咖啡甜點 ฿500 · NT$500",
+        "hours": "08:00–18:00 · 世界拉花冠軍",
+        "search_query": "Ristr8to Coffee Chiang Mai",
         "photos": [
           {
-            "url": "",
-            "label": "cafe coffee Okinawa"
+            "url": "https://images.unsplash.com/photo-1702118700058-7fe48f7135e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSaXN0cjh0byUyMENvZmZlZSUyMENoaWFuZyUyME1haXxlbnwwfDB8fHwxNzc4NjAwNjI4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a store with a sign and a bunch of stools in front of it"
           },
           {
-            "url": "",
-            "label": "cafe coffee Okinawa"
+            "url": "https://images.unsplash.com/photo-1758115271914-6d5d8bb3d277?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSaXN0cjh0byUyMENvZmZlZSUyMENoaWFuZyUyME1haXxlbnwwfDB8fHwxNzc4NjAwNjI4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Red tuk-tuks drive past a modern building."
           },
           {
-            "url": "",
-            "label": "cafe coffee Okinawa"
+            "url": "https://images.unsplash.com/photo-1770223024809-e93e7bbf179e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxSaXN0cjh0byUyMENvZmZlZSUyMENoaWFuZyUyME1haXxlbnwwfDB8fHwxNzc4NjAwNjI4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A teal volkswagen beetle drives down a street."
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1702118700058-7fe48f7135e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSaXN0cjh0byUyMENvZmZlZSUyMENoaWFuZyUyME1haXxlbnwwfDB8fHwxNzc4NjAwNjI4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a store with a sign and a bunch of stools in front of it"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1758115271914-6d5d8bb3d277?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSaXN0cjh0byUyMENvZmZlZSUyMENoaWFuZyUyME1haXxlbnwwfDB8fHwxNzc4NjAwNjI4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Red tuk-tuks drive past a modern building."
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1770223024809-e93e7bbf179e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxSaXN0cjh0byUyMENvZmZlZSUyMENoaWFuZyUyME1haXxlbnwwfDB8fHwxNzc4NjAwNjI4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A teal volkswagen beetle drives down a street."
           }
         ]
       }
@@ -263,295 +271,339 @@
     {
       "day": 1,
       "date": "Jan 25 · Mon",
-      "label_zh": "抵達日 · 海灘夕陽",
-      "hotel_name": "Halekulani Okinawa",
-      "hotel_name_zh": "沖繩海麗客蘭尼度假酒店 · 海景豪華雙人房",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "☀️ 22°/16°",
-      "rain_pct": "10%",
+      "label_zh": "抵達日 · 河畔慢活",
+      "hotel_name": "Raya Heritage",
+      "hotel_name_zh": "拉雅遺產酒店 · 河景露台套房",
+      "hotel_room": "河景露台套房",
+      "weather": "☀️ 28°/16°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "10:45",
-          "desc": "✈️ 抵達那霸機場 · 租車取車（預約OTS租車）"
+          "time": "07:25",
+          "desc": "✈️ TPE 出發 · 長榮 BR257 直飛清邁"
+        },
+        {
+          "time": "10:35",
+          "desc": "🛬 抵達清邁國際機場 CNX · 辦理入境 · 領行李"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚗 專車接機（NT$800）→ Raya Heritage 酒店（約20分鐘）"
         },
         {
           "time": "12:00",
-          "desc": "🍜 第一牧志公設市場 · 午餐：沖繩蕎麥麵 + 焗烤龍蝦"
+          "desc": "🏨 入住 Raya Heritage · 迎賓飲料 · 河景露台拍照"
         },
         {
-          "time": "14:30",
-          "desc": "🏨 入住 Halekulani Okinawa · 海景房迎賓香檳"
+          "time": "13:00",
+          "desc": "🍽️ 酒店餐廳 Khu Khao 午餐 · 泰北風味套餐 (NT$1,200)"
         },
         {
-          "time": "16:00",
-          "desc": "🏖️ 飯店私人沙灘散步 · 無邊際泳池戲水"
+          "time": "15:00",
+          "desc": "🚲 騎腳踏車沿萍河探索 · 途經瓦洛洛市場 Warorot Market · 買新鮮水果"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ La Mer 法式晚宴 · 龍蝦佐香檳奶油醬（已預約）"
+          "time": "17:00",
+          "desc": "🧘 酒店免費日落瑜伽（可選）"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：Ruen Tamarind · 泰式酸辣蝦湯 + 綠咖喱 (NT$1,500)"
         },
         {
           "time": "21:00",
-          "desc": "🌙 海邊觀星 · 伴浪濤聲入眠"
+          "desc": "🌙 回酒店 · 露台泡茶 · 星空下的萍河夜景"
         }
       ]
     },
     {
       "day": 2,
       "date": "Jan 26 · Tue",
-      "label_zh": "文化探索 · 水族館",
-      "hotel_name": "Halekulani Okinawa",
-      "hotel_name_zh": "沖繩海麗客蘭尼度假酒店 · 海景豪華雙人房",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "⛅ 21°/15°",
-      "rain_pct": "20%",
+      "label_zh": "古城文化日",
+      "hotel_name": "Raya Heritage",
+      "hotel_name_zh": "拉雅遺產酒店 · 河景露台套房",
+      "hotel_room": "河景露台套房",
+      "weather": "☀️ 30°/17°",
+      "rain_pct": "0%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🥐 飯店自助早餐 · 必吃：沖繩黑糖鬆餅"
+          "desc": "🥐 酒店早餐 · 河畔座位 · 推薦：泰式米粉湯 + 芒果糯米飯"
         },
         {
           "time": "09:00",
-          "desc": "🐠 沖繩美麗海水族館 · 黑潮之海鯨鯊（門票 ¥2,180/人）"
+          "desc": "🚗 包車前往素帖山 Doi Suthep (NT$1,200) · 車程30分鐘"
+        },
+        {
+          "time": "09:45",
+          "desc": "🛕 雙龍寺 Wat Phra That Doi Suthep · 金碧輝煌 · 俯瞰清邁全景"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚗 下山 · 前往清邁古城"
         },
         {
           "time": "12:30",
-          "desc": "🍱 水族館內Ocean Blue餐廳 · 海景午餐"
+          "desc": "🍽️ 午餐：Ruen Tamarind 再訪或 Huen Phen 泰北咖喱麵 (NT$800)"
         },
         {
-          "time": "14:30",
-          "desc": "🏯 今歸仁城跡 · 世界遺產漫步（門票 ¥400/人）"
+          "time": "14:00",
+          "desc": "🛕 柴迪隆寺 Wat Chedi Luang · 帕辛寺 Wat Phra Singh · 步行導覽"
         },
         {
-          "time": "17:00",
-          "desc": "🌅 古宇利島 · 心形岩 · 夕陽拍照"
+          "time": "16:30",
+          "desc": "☕ Ristr8to Coffee · 拉花冠軍咖啡 (NT$500)"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ 海之幸海鮮食堂 · 島豆腐海膽丼晚餐"
+          "time": "18:00",
+          "desc": "🚶 週日夜市 Sunday Walking Street（僅週日）· 買手工藝品 · 吃小吃"
         },
         {
-          "time": "21:00",
-          "desc": "🏨 返回飯店 · 海景浴缸泡澡放鬆"
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：The Service 1921 · 泰北咖喱麵 + 紅咖喱烤鴨 (NT$2,500)"
+        },
+        {
+          "time": "22:00",
+          "desc": "🚗 返回 Raya Heritage · 泳池夜游"
         }
       ]
     },
     {
       "day": 3,
       "date": "Jan 27 · Wed",
-      "label_zh": "換宿 · 北谷美國村",
-      "hotel_name": "The Terrace Club at Busena",
-      "hotel_name_zh": "布森納陽台俱樂部度假村 · 海景套房",
-      "hotel_room": "海景套房",
-      "weather": "☀️ 22°/16°",
-      "rain_pct": "10%",
+      "label_zh": "自然與放鬆日",
+      "hotel_name": "Raya Heritage",
+      "hotel_name_zh": "拉雅遺產酒店 · 河景露台套房",
+      "hotel_room": "河景露台套房",
+      "weather": "⛅ 29°/18°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐 · 退房前最後一次海景早餐"
+          "time": "07:30",
+          "desc": "🥐 酒店早餐 · 準備一日遊"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚗 包車前往茵他儂國家公園 Doi Inthanon (NT$2,000) · 車程1.5小時"
         },
         {
           "time": "10:00",
-          "desc": "🏨 退房 Halekulani · 驅車前往北谷"
+          "desc": "🌲 國王皇后雙塔 · 泰國最高峰 (2,565m) · 雲海步道"
         },
         {
-          "time": "11:30",
-          "desc": "🛍️ 美國村逛街 · 藥妝店採買 · 大摩天輪"
+          "time": "12:30",
+          "desc": "🍽️ 國家公園內午餐 · 泰式簡餐 (NT$600)"
         },
         {
-          "time": "13:00",
-          "desc": "🍕 美國村Depot Island · 塔可飯午餐（¥1,500/人）"
+          "time": "14:00",
+          "desc": "🌿 Wachirathan 瀑布 · 森林浴 · 拍照"
         },
         {
-          "time": "15:00",
-          "desc": "🏨 入住 The Terrace Club at Busena · 海景套房迎賓茶點"
+          "time": "16:00",
+          "desc": "🚗 返回清邁 · 途經克倫族部落村莊"
         },
         {
-          "time": "16:30",
-          "desc": "♨️ 飯店溫泉 · 海景風呂"
+          "time": "17:30",
+          "desc": "🏨 回 Raya Heritage · 稍作休息"
         },
         {
-          "time": "18:30",
-          "desc": "🍷 飯店空中酒吧 Sunset Lounge · 調酒 + 小點"
+          "time": "19:00",
+          "desc": "💆 酒店SPA · 泰式按摩 60分鐘 (NT$2,500/人)"
         },
         {
-          "time": "20:00",
-          "desc": "🍽️ 飯店內日式懷石料理晚餐（¥12,000/人）"
+          "time": "21:00",
+          "desc": "🍽️ 晚餐：酒店餐廳 Khu Khao · 浪漫河畔晚餐 (NT$2,000)"
         }
       ]
     },
     {
       "day": 4,
       "date": "Jan 28 · Thu",
-      "label_zh": "自然風光 · 琉球文化",
-      "hotel_name": "The Terrace Club at Busena",
-      "hotel_name_zh": "布森納陽台俱樂部度假村 · 海景套房",
-      "hotel_room": "海景套房",
-      "weather": "☀️ 23°/17°",
+      "label_zh": "換酒店 · 尼曼文青日",
+      "hotel_name": "137 Pillars House",
+      "hotel_name_zh": "137柱府酒店 · 殖民風格套房",
+      "hotel_room": "殖民風格套房",
+      "weather": "☀️ 28°/17°",
       "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🥐 飯店自助早餐 · 沖繩風味炒苦瓜"
+          "time": "08:00",
+          "desc": "🥐 Raya Heritage 最後早餐 · 享受河景"
         },
         {
-          "time": "09:00",
-          "desc": "🚤 青之洞窟浮潛（含裝備 ¥8,000/人）"
+          "time": "10:00",
+          "desc": "🏨 退房 · 行李寄放酒店"
         },
         {
-          "time": "12:00",
-          "desc": "🍱 殘波岬附近海鮮丼午餐（¥2,000/人）"
+          "time": "10:30",
+          "desc": "🚗 前往尼曼路 Nimmanhaemin Road · 文青商圈"
+        },
+        {
+          "time": "11:00",
+          "desc": "☕ Ristr8to Coffee 再訪或 Forest Bake 森林烘焙 (NT$500)"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：Ginger Farm Kitchen 有機泰北料理 (NT$1,200)"
         },
         {
           "time": "14:00",
-          "desc": "🏯 琉球村 · 傳統工藝體驗（門票 ¥1,200/人）"
+          "desc": "🛍️ 逛尼曼路 · One Nimman 購物中心 · 買手工皂、泰絲"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚗 返回 Raya Heritage 取行李 · 前往 137 Pillars House (NT$300)"
         },
         {
           "time": "16:30",
-          "desc": "☕ Café Kuchen · 紅芋塔 + 海鹽拿鐵"
+          "desc": "🏨 入住 137 Pillars House · 殖民風格套房 · 迎賓茶點"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 那霸國際通・燒肉華 · 石垣牛燒肉（¥8,000/人）"
+          "time": "18:00",
+          "desc": "🍸 屋頂酒吧 Jack Bain's Bar · 日落雞尾酒 (NT$1,200)"
         },
         {
-          "time": "21:00",
-          "desc": "🏨 返回飯店 · 整理行李"
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：The Service 1921 再訪或酒店內 Nakhon Kitchen (NT$2,500)"
+        },
+        {
+          "time": "22:00",
+          "desc": "🛁 套房內獨立浴缸泡澡 · 放鬆入眠"
         }
       ]
     },
     {
       "day": 5,
       "date": "Jan 29 · Fri",
-      "label_zh": "最後巡禮 · 返台",
-      "hotel_name": "The Terrace Club at Busena",
-      "hotel_name_zh": "布森納陽台俱樂部度假村 · 海景套房",
-      "hotel_room": "海景套房",
-      "weather": "☀️ 22°/16°",
-      "rain_pct": "10%",
+      "label_zh": "最後一日 · 返程",
+      "hotel_name": "137 Pillars House",
+      "hotel_name_zh": "137柱府酒店 · 殖民風格套房",
+      "hotel_room": "殖民風格套房",
+      "weather": "☀️ 28°/16°",
+      "rain_pct": "0%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🥐 最後早餐 · 海景相伴"
+          "time": "07:00",
+          "desc": "🥐 酒店早餐 · 最後享受殖民風情"
+        },
+        {
+          "time": "08:30",
+          "desc": "🏨 退房 · 行李上車"
         },
         {
           "time": "09:00",
-          "desc": "🏨 退房 · 驅車前往那霸"
+          "desc": "🛍️ 清邁 Central Festival 購物中心 · 最後採買 (伴手禮、零食)"
         },
         {
           "time": "10:30",
-          "desc": "🛍️ 國際通最後採買 · 黑糖 · 泡盛 · 紅芋塔"
+          "desc": "🚗 前往清邁機場 (NT$400)"
         },
         {
-          "time": "12:30",
-          "desc": "🍜 通堂拉麵 · 男人麵/女人麵（¥1,200/人）"
+          "time": "11:00",
+          "desc": "🛂 抵達 CNX · 辦理登機 · 退稅"
         },
         {
-          "time": "14:00",
-          "desc": "🚗 還車 · 搭乘飯店接駁至機場"
+          "time": "11:35",
+          "desc": "✈️ 長榮 BR258 返回台灣 TPE"
         },
         {
-          "time": "16:00",
-          "desc": "✈️ 那霸機場免稅店 · 買伴手禮"
-        },
-        {
-          "time": "20:00",
-          "desc": "✈️ 起飛回台灣 · 20:45抵達桃園"
+          "time": "16:45",
+          "desc": "🛬 抵達桃園機場 · 結束浪漫清邁之旅 ❤️"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（中華航空經濟艙）",
+      "label": "✈️ 來回機票",
       "amount_ntd": 28000
     },
     {
-      "label": "🏨 住宿（Halekulani 2晚 + Terrace Club 2晚）",
-      "amount_ntd": 150000
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 68000
     },
     {
-      "label": "🚗 租車（OTS 5天 + 油錢）",
-      "amount_ntd": 15000
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 23000
     },
     {
-      "label": "🍽️ 餐飲（含星級餐廳、燒肉、食堂）",
-      "amount_ntd": 45000
+      "label": "🎫 景點門票",
+      "amount_ntd": 6000
     },
     {
-      "label": "🎫 景點門票（水族館、城跡、琉球村、浮潛）",
-      "amount_ntd": 22000
+      "label": "🚇 交通",
+      "amount_ntd": 9000
     },
     {
-      "label": "🛍️ 購物伴手禮（藥妝、黑糖、泡盛）",
-      "amount_ntd": 20000
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 10000
     }
   ],
-  "cost_total_ntd": 280000,
-  "budget_remaining_ntd": 70000,
+  "cost_total_ntd": 144000,
+  "budget_remaining_ntd": 206000,
   "photos": {
     "hero": [
       {
         "url": "",
-        "label": "Okinawa skyline landmark"
+        "label": "Chiang Mai skyline landmark"
       },
       {
         "url": "",
-        "label": "Okinawa skyline landmark"
+        "label": "Chiang Mai skyline landmark"
       }
     ],
     "destination": [
       {
-        "url": "https://images.unsplash.com/photo-1776966227782-521f1000f0c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Cars driving on a highway near the ocean"
+        "url": "https://images.unsplash.com/photo-1764260631896-15e2776b29fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Misty mountains with terraced rice fields."
       },
       {
-        "url": "https://images.unsplash.com/photo-1763096007838-08d53daa4b79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Lush green cliff overlooking a turquoise ocean cove"
+        "url": "https://images.unsplash.com/photo-1764624112050-a146d0674b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Rolling hills covered in dark green forest under cloudy sky"
       },
       {
-        "url": "https://images.unsplash.com/photo-1763806500073-da8b3304c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Buildings with a colorful sunset sky above"
+        "url": "https://images.unsplash.com/photo-1764261322110-8b2caec5bd15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Misty mountains and rice terraces under sunlight."
       },
       {
-        "url": "https://images.unsplash.com/photo-1607909572148-533d0fbd6f89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "gray concrete road between green grass field under blue sky during daytime"
+        "url": "https://images.unsplash.com/photo-1560066954-92e96ebe38ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "wheat field"
       },
       {
-        "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a view of the ocean from a hill top"
+        "url": "https://images.unsplash.com/photo-1708885820130-66d6728d9456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a gazebo in a garden with statues in the foreground"
       },
       {
-        "url": "https://images.unsplash.com/photo-1754228806660-f0ea8606a3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Rocky cliffside meets the sea with a clear blue sky."
+        "url": "https://images.unsplash.com/photo-1708450541418-df089be9ccaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a red train traveling through a lush green countryside"
       },
       {
-        "url": "https://images.unsplash.com/photo-1776966227782-521f1000f0c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Cars driving on a highway near the ocean"
+        "url": "https://images.unsplash.com/photo-1764260631896-15e2776b29fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Misty mountains with terraced rice fields."
       },
       {
-        "url": "https://images.unsplash.com/photo-1763096007838-08d53daa4b79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Lush green cliff overlooking a turquoise ocean cove"
+        "url": "https://images.unsplash.com/photo-1764624112050-a146d0674b72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Rolling hills covered in dark green forest under cloudy sky"
       },
       {
-        "url": "https://images.unsplash.com/photo-1763806500073-da8b3304c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Buildings with a colorful sunset sky above"
+        "url": "https://images.unsplash.com/photo-1764261322110-8b2caec5bd15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Misty mountains and rice terraces under sunlight."
       },
       {
-        "url": "https://images.unsplash.com/photo-1607909572148-533d0fbd6f89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "gray concrete road between green grass field under blue sky during daytime"
+        "url": "https://images.unsplash.com/photo-1560066954-92e96ebe38ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "wheat field"
       },
       {
-        "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a view of the ocean from a hill top"
+        "url": "https://images.unsplash.com/photo-1708885820130-66d6728d9456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a gazebo in a garden with statues in the foreground"
       },
       {
-        "url": "https://images.unsplash.com/photo-1754228806660-f0ea8606a3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Rocky cliffside meets the sea with a clear blue sky."
+        "url": "https://images.unsplash.com/photo-1708450541418-df089be9ccaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxDaGlhbmclMjBNYWklMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg1OTkyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a red train traveling through a lush green countryside"
       }
     ]
   },
   "chat_hash": "494a43eb279b2882c4ffc70d3af65c61b02e5707fba397fd32adbb6df2633858",
   "config_hash": "ec3cd88a44df940db4f60af83a4607e4468087a8fec05212ab6b59b73e343ffe",
-  "generated_at": "2026-05-12T23:31:55.760172"
+  "generated_at": "2026-05-12T23:43:48.634861"
 }
