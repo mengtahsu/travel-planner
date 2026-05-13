@@ -1,98 +1,98 @@
 {
-  "destination_en": "Tokyo, Japan",
-  "title_zh": "2026暑假 · 東京大學生五天之旅",
-  "date_range": "2026/07/01–07/05",
-  "start_date": "2026-07-01",
-  "end_date": "2026-07-05",
+  "destination_en": "Osaka & Kyoto, Japan",
+  "title_zh": "2026暑假 · 日本關西青春六人遊",
+  "date_range": "2026/08/10–08/14",
+  "start_date": "2026-08-10",
+  "end_date": "2026-08-14",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "NRT",
+  "destination_code": "KIX",
   "travelers": 6,
   "days": 5,
   "budget_ntd": 180000,
   "flight": {
-    "airline": "台灣虎航 Tigerair Taiwan",
-    "departure_date": "7月1日",
-    "return_date": "7月5日",
-    "total_price_ntd": 72000,
+    "airline": "樂桃航空 Peach Aviation",
+    "departure_date": "8月10日",
+    "return_date": "8月14日",
+    "total_price_ntd": 54000,
     "outbound": {
-      "flight_no": "IT 200",
-      "route": "TPE → NRT 直飛",
-      "depart_time": "06:30",
-      "arrive_time": "10:30",
-      "duration": "3h 00m",
-      "class": "經濟艙"
+      "flight_no": "MM 24",
+      "route": "TPE → KIX 直飛",
+      "depart_time": "06:40",
+      "arrive_time": "10:15",
+      "duration": "2h 35m",
+      "class": "經濟艙 簡單票"
     },
     "inbound": {
-      "flight_no": "IT 201",
-      "route": "NRT → TPE 直飛",
-      "depart_time": "11:30",
-      "arrive_time": "14:30",
+      "flight_no": "MM 27",
+      "route": "KIX → TPE 直飛",
+      "depart_time": "16:00",
+      "arrive_time": "18:00",
       "duration": "3h 00m",
-      "class": "經濟艙"
+      "class": "經濟艙 簡單票"
     }
   },
   "hotels": [
     {
-      "name": "APA Hotel Shinjuku Gyoenmae",
-      "name_zh": "APA新宿御苑前酒店",
-      "district": "新宿區",
-      "day_range": "1–5",
+      "name": "HOTEL MYSTAYS 堺筋本町",
+      "name_zh": "堺筋本町酒店",
+      "district": "大阪中央區",
+      "day_range": "1–4",
       "nights": 4,
-      "price_ntd": 48000,
+      "price_ntd": 42000,
       "stars": "★★★☆☆",
-      "room_type": "標準雙人房 x 3間",
+      "room_type": "雙床房 x3間",
       "breakfast": "不含早餐",
-      "amenities": "🚿 獨立衛浴 · 📶 免費WiFi · 🧳 行李寄存 · 🏪 附近超商",
-      "search_query": "APA Hotel Shinjuku Gyoenmae Tokyo Japan",
+      "amenities": "🧺 投幣洗衣 · 📶 免費WiFi · 🛍️ 附近便利商店 · 🚇 地鐵站步行3分",
+      "search_query": "HOTEL MYSTAYS Sakaisuji Honmachi Osaka",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bedroom with a large bed and wooden floors"
+          "url": "https://images.unsplash.com/photo-1741851374578-e618a8bb5eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Japanese architecture with a natural pathway."
         },
         {
-          "url": "https://images.unsplash.com/photo-1702814160779-4a88cfb330c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a room with tables, chairs, and candles"
+          "url": "https://images.unsplash.com/photo-1741851373855-5fb305ee6d70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Bamboo trees frame a traditional japanese house."
         },
         {
-          "url": "https://images.unsplash.com/photo-1772354002394-12a5897cd7d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Dark entrance with glass doors and overhead decoration"
+          "url": "https://images.unsplash.com/photo-1636537470000-34284f07c242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a stone path leading to a building in a garden"
         },
         {
-          "url": "https://images.unsplash.com/photo-1533559694830-9f8d535740c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "low angle of brown concrete building under dark sky"
+          "url": "https://images.unsplash.com/photo-1741851374411-9528e6d2f33f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Japanese entrance at night with lanterns."
         },
         {
-          "url": "https://images.unsplash.com/photo-1633097254841-d48447706118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a large building with a fountain in front of it"
+          "url": "https://images.unsplash.com/photo-1561011316-a460cbd1aa93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "house surrounded with trees"
         },
         {
-          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at night from the top of a building"
+          "url": "https://images.unsplash.com/photo-1776717577962-e3516cf2b1f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese castle surrounded by cherry blossoms."
         },
         {
-          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bedroom with a large bed and wooden floors"
+          "url": "https://images.unsplash.com/photo-1741851374578-e618a8bb5eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Japanese architecture with a natural pathway."
         },
         {
-          "url": "https://images.unsplash.com/photo-1702814160779-4a88cfb330c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a room with tables, chairs, and candles"
+          "url": "https://images.unsplash.com/photo-1741851373855-5fb305ee6d70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Bamboo trees frame a traditional japanese house."
         },
         {
-          "url": "https://images.unsplash.com/photo-1772354002394-12a5897cd7d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Dark entrance with glass doors and overhead decoration"
+          "url": "https://images.unsplash.com/photo-1636537470000-34284f07c242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a stone path leading to a building in a garden"
         },
         {
-          "url": "https://images.unsplash.com/photo-1533559694830-9f8d535740c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "low angle of brown concrete building under dark sky"
+          "url": "https://images.unsplash.com/photo-1741851374411-9528e6d2f33f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Japanese entrance at night with lanterns."
         },
         {
-          "url": "https://images.unsplash.com/photo-1633097254841-d48447706118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a large building with a fountain in front of it"
+          "url": "https://images.unsplash.com/photo-1561011316-a460cbd1aa93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "house surrounded with trees"
         },
         {
-          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at night from the top of a building"
+          "url": "https://images.unsplash.com/photo-1776717577962-e3516cf2b1f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODY3OTA1M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese castle surrounded by cherry blossoms."
         }
       ]
     }
@@ -100,66 +100,78 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Sushi Saito",
-        "name_zh": "鮨さいとう · 米其林三星壽司",
-        "stars": "⭐⭐⭐",
-        "dish": "🍣 招牌：握壽司套餐（時令魚貨）",
-        "address": "東京都港區赤坂1-9-15",
-        "price_ntd": 9000,
-        "price_label": "午餐套餐 ¥30,000/人 · NT$9,000",
-        "hours": "12:00–14:00 · 需預約",
-        "search_query": "Sushi Saito Tokyo reservation",
+        "name": "Kani Doraku Dotonbori",
+        "name_zh": "螃蟹道樂 道頓堀本店",
+        "stars": "",
+        "dish": "🦀 招牌：螃蟹會席套餐（含刺身、燒烤、天婦羅、釜飯）",
+        "address": "1-6-18 Dotonbori, Chuo-ku, Osaka",
+        "price_ntd": 900,
+        "price_label": "午餐套餐 ¥1,800/人 · NT$900",
+        "hours": "11:00–22:00 · 可現場排隊",
+        "search_query": "Kani Doraku Dotonbori",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1602487252242-c1785faff2ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "text"
+            "url": "https://images.unsplash.com/photo-1591224858513-b37c02197cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLYW5pJTIwRG9yYWt1JTIwRG90b25ib3JpfGVufDB8MHx8fDE3Nzg2ODIwNTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "people walking on street during daytime"
           },
           {
-            "url": "https://images.unsplash.com/photo-1582538955726-8a88710bc514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "man in white chef uniform standing in front of food display counter"
+            "url": "https://images.unsplash.com/photo-1734427842844-29f08e51763a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLYW5pJTIwRG9yYWt1JTIwRG90b25ib3JpfGVufDB8MHx8fDE3Nzg2ODIwNTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A river running through a city next to tall buildings"
           },
           {
-            "url": "https://images.unsplash.com/photo-1675300423702-6f862323b27d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a building that has lights on the outside of it"
+            "url": "https://images.unsplash.com/photo-1712544310522-742b0996c2dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLYW5pJTIwRG9yYWt1JTIwRG90b25ib3JpfGVufDB8MHx8fDE3Nzg2ODIwNTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a river running through a city next to tall buildings"
           },
           {
-            "url": "https://images.unsplash.com/photo-1602487252242-c1785faff2ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "text"
+            "url": "https://images.unsplash.com/photo-1591224858513-b37c02197cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLYW5pJTIwRG9yYWt1JTIwRG90b25ib3JpfGVufDB8MHx8fDE3Nzg2ODIwNTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "people walking on street during daytime"
           },
           {
-            "url": "https://images.unsplash.com/photo-1582538955726-8a88710bc514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "man in white chef uniform standing in front of food display counter"
+            "url": "https://images.unsplash.com/photo-1734427842844-29f08e51763a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLYW5pJTIwRG9yYWt1JTIwRG90b25ib3JpfGVufDB8MHx8fDE3Nzg2ODIwNTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A river running through a city next to tall buildings"
           },
           {
-            "url": "https://images.unsplash.com/photo-1675300423702-6f862323b27d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a building that has lights on the outside of it"
+            "url": "https://images.unsplash.com/photo-1712544310522-742b0996c2dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLYW5pJTIwRG9yYWt1JTIwRG90b25ib3JpfGVufDB8MHx8fDE3Nzg2ODIwNTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a river running through a city next to tall buildings"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Afuri",
-        "name_zh": "阿夫利柚子鹽拉麵",
+        "name": "Kushikatsu Daruma",
+        "name_zh": "串炸達摩 新世界本店",
         "stars": "",
-        "dish": "🍜 招牌：柚子鹽拉麵 · 炙燒叉燒",
-        "address": "東京都澀谷區惠比壽1-1-7",
-        "price_ntd": 300,
-        "price_label": "一碗 ¥1,000 · NT$300",
-        "hours": "11:00–22:00",
-        "search_query": "Afuri ramen Ebisu Tokyo",
+        "dish": "🍢 招牌：串炸拼盤（牛肉、豬肉、洋蔥、起司）· 沾醬只沾一次",
+        "address": "2-3-9 Ebisuhigashi, Naniwa-ku, Osaka",
+        "price_ntd": 500,
+        "price_label": "吃到飽套餐 ¥1,000/人 · NT$500",
+        "hours": "11:00–22:30",
+        "search_query": "Kushikatsu Daruma Shinsekai",
         "photos": [
           {
-            "url": "",
-            "label": "bistros food Tokyo"
+            "url": "https://images.unsplash.com/photo-1718756853032-a3e9cc891148?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLdXNoaWthdHN1JTIwRGFydW1hJTIwU2hpbnNla2FpfGVufDB8MHx8fDE3Nzg2ODIwNTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A group of people standing outside of a store at night"
           },
           {
-            "url": "",
-            "label": "bistros food Tokyo"
+            "url": "https://images.unsplash.com/photo-1702078564355-1122eb6303cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLdXNoaWthdHN1JTIwRGFydW1hJTIwU2hpbnNla2FpfGVufDB8MHx8fDE3Nzg2ODIwNTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a painting of a demon with a crown on his head"
           },
           {
-            "url": "",
-            "label": "bistros food Tokyo"
+            "url": "https://images.unsplash.com/photo-1761296123620-1c756e3f6104?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLdXNoaWthdHN1JTIwRGFydW1hJTIwU2hpbnNla2FpfGVufDB8MHx8fDE3Nzg2ODIwNTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A red daruma doll with one eye missing"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1718756853032-a3e9cc891148?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLdXNoaWthdHN1JTIwRGFydW1hJTIwU2hpbnNla2FpfGVufDB8MHx8fDE3Nzg2ODIwNTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A group of people standing outside of a store at night"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1702078564355-1122eb6303cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLdXNoaWthdHN1JTIwRGFydW1hJTIwU2hpbnNla2FpfGVufDB8MHx8fDE3Nzg2ODIwNTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a painting of a demon with a crown on his head"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1761296123620-1c756e3f6104?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLdXNoaWthdHN1JTIwRGFydW1hJTIwU2hpbnNla2FpfGVufDB8MHx8fDE3Nzg2ODIwNTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A red daruma doll with one eye missing"
           }
         ]
       }
@@ -169,36 +181,36 @@
         "name": "Starbucks Reserve Roastery Tokyo",
         "name_zh": "星巴克臻選®東京烘焙工坊",
         "stars": "",
-        "dish": "☕ 招牌：氮氣冷萃咖啡 · 櫻花蛋糕",
-        "address": "東京都目黑區青葉台2-19-23",
+        "dish": "☕ 招牌：櫻花拿鐵 · 季節限定甜點 · 可頌",
+        "address": "目黑區青葉台2-19-23",
         "price_ntd": 400,
-        "price_label": "每人 ¥1,500 · NT$400",
-        "hours": "07:00–23:00 · 四層樓旗艦店",
-        "search_query": "Starbucks Reserve Roastery Tokyo interior",
+        "price_label": "每人飲料+甜點 ¥800 · NT$400",
+        "hours": "07:00–22:30 · 打卡必去",
+        "search_query": "Starbucks Reserve Roastery Tokyo",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1680699641188-89db50dbad04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODY3OTY0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a cup and saucer sitting on a table"
+            "url": "https://images.unsplash.com/photo-1605643621814-4b54b50c59d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTdGFyYnVja3MlMjBSZXNlcnZlJTIwUm9hc3RlcnklMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjgyMDU4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "black and white high rise building"
           },
           {
-            "url": "https://images.unsplash.com/photo-1593344707888-527ce75afbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODY3OTY0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white and black disposable cup"
+            "url": "https://images.unsplash.com/photo-1757847112225-a2fb2e67ce47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTdGFyYnVja3MlMjBSZXNlcnZlJTIwUm9hc3RlcnklMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjgyMDU4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Starbucks coffee shop at night with people inside."
           },
           {
-            "url": "https://images.unsplash.com/photo-1694211493881-76411bdb31ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODY3OTY0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a couple of plates of food on a table"
+            "url": "https://images.unsplash.com/photo-1760423229097-3e40f5e94b61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTdGFyYnVja3MlMjBSZXNlcnZlJTIwUm9hc3RlcnklMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjgyMDU4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Starbucks and tsutaya storefronts in a busy city"
           },
           {
-            "url": "https://images.unsplash.com/photo-1680699641188-89db50dbad04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODY3OTY0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a cup and saucer sitting on a table"
+            "url": "https://images.unsplash.com/photo-1605643621814-4b54b50c59d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTdGFyYnVja3MlMjBSZXNlcnZlJTIwUm9hc3RlcnklMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjgyMDU4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "black and white high rise building"
           },
           {
-            "url": "https://images.unsplash.com/photo-1593344707888-527ce75afbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODY3OTY0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white and black disposable cup"
+            "url": "https://images.unsplash.com/photo-1757847112225-a2fb2e67ce47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTdGFyYnVja3MlMjBSZXNlcnZlJTIwUm9hc3RlcnklMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjgyMDU4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Starbucks coffee shop at night with people inside."
           },
           {
-            "url": "https://images.unsplash.com/photo-1694211493881-76411bdb31ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODY3OTY0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a couple of plates of food on a table"
+            "url": "https://images.unsplash.com/photo-1760423229097-3e40f5e94b61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTdGFyYnVja3MlMjBSZXNlcnZlJTIwUm9hc3RlcnklMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjgyMDU4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Starbucks and tsutaya storefronts in a busy city"
           }
         ]
       }
@@ -207,269 +219,249 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "July 01 · Wed",
-      "label_zh": "抵達日 · 新宿探索",
-      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "標準雙人房 x 3間",
-      "weather": "☀️ 32°/24°",
+      "date": "Aug 10 · Mon",
+      "label_zh": "抵達大阪 · 道頓堀美食之夜",
+      "hotel_name": "HOTEL MYSTAYS 堺筋本町",
+      "hotel_name_zh": "堺筋本町酒店",
+      "hotel_room": "雙床房 x3間",
+      "weather": "☀️ 34°/26°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "06:30",
-          "desc": "✈️ 桃園TPE出發 · 虎航IT200 · 記得帶護照及日幣現金"
+          "time": "06:40",
+          "desc": "✈️ 桃園TPE出發 · 樂桃MM24 · 06:40→10:15"
         },
         {
-          "time": "10:30",
-          "desc": "🛬 抵達成田NRT · 入境後購買Suica卡（每人¥2,000儲值）"
+          "time": "10:15",
+          "desc": "🛬 抵達關西機場KIX · 入境、領行李"
         },
         {
-          "time": "12:00",
-          "desc": "🚄 搭乘N'EX成田特快至新宿站 · 約80分鐘 · 車票¥3,070/人"
+          "time": "11:30",
+          "desc": "🚆 搭乘南海電鐵Rapi:t 至難波站（約40分）· 使用ICOCA卡"
+        },
+        {
+          "time": "12:30",
+          "desc": "🏨 前往堺筋本町酒店辦理入住 · 放行李"
         },
         {
           "time": "13:30",
-          "desc": "🏨 抵達APA新宿御苑前酒店 · 寄放行李 · 附近Lawson買飲料"
+          "desc": "🍜 午餐：一蘭拉麵 道頓堀店 · 豚骨湯頭+替玉"
         },
         {
-          "time": "14:30",
-          "desc": "🍜 Afuri惠比壽店吃午餐 · 柚子鹽拉麵清爽開胃"
+          "time": "15:00",
+          "desc": "🎡 道頓堀散步 · 固力果跑跑人 · 唐吉訶德摩天輪"
         },
         {
-          "time": "16:00",
-          "desc": "🛍️ 新宿逛街 · 0101百貨、BicCamera、唐吉訶德"
+          "time": "17:30",
+          "desc": "🛍️ 心齋橋商店街逛街 · 藥妝店採購"
         },
         {
-          "time": "18:30",
-          "desc": "🎮 新宿機器人餐廳看表演（門票¥5,000/人 · 需預約）"
+          "time": "19:00",
+          "desc": "🦀 晚餐：螃蟹道樂 道頓堀本店 · 螃蟹會席套餐"
         },
         {
-          "time": "20:30",
-          "desc": "🍺 新宿思い出橫丁喝酒 · 串燒配啤酒 · 每人約¥3,000"
-        },
-        {
-          "time": "22:30",
-          "desc": "🏨 回APA酒店休息 · 三人一間 · 使用WiFi規劃明天行程"
+          "time": "21:00",
+          "desc": "🌙 回飯店休息 · 便利商店買消夜"
         }
       ]
     },
     {
       "day": 2,
-      "date": "July 02 · Thu",
-      "label_zh": "淺草 · 秋葉原動漫之旅",
-      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "標準雙人房 x 3間",
-      "weather": "⛅ 30°/23°",
-      "rain_pct": "20%",
+      "date": "Aug 11 · Tue",
+      "label_zh": "環球影城全日遊",
+      "hotel_name": "HOTEL MYSTAYS 堺筋本町",
+      "hotel_name_zh": "堺筋本町酒店",
+      "hotel_room": "雙床房 x3間",
+      "weather": "☀️ 35°/27°",
+      "rain_pct": "5%",
       "slots": [
         {
+          "time": "07:00",
+          "desc": "🌅 起床 · 飯店附近便利商店早餐"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚆 搭地鐵至環球城站（約20分）"
+        },
+        {
           "time": "08:30",
-          "desc": "🥐 酒店附近松屋吃早餐 · 牛丼¥380 · 便宜又飽"
+          "desc": "🎢 環球影城開園入場 · 直衝「超級任天堂世界」"
         },
         {
-          "time": "09:30",
-          "desc": "🚇 搭地鐵至淺草站 · 使用Suica"
-        },
-        {
-          "time": "10:00",
-          "desc": "🏮 淺草寺雷門 · 仲見世通買人形燒、仙貝"
-        },
-        {
-          "time": "11:30",
-          "desc": "🎡 搭乘水上巴士至台場（¥1,200/人）"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍕 台場Decks Tokyo Beach吃午餐 · 拉麵或漢堡"
+          "time": "12:00",
+          "desc": "🍴 午餐：園區內「三根掃帚」奶油啤酒+炸魚薯條"
         },
         {
           "time": "14:00",
-          "desc": "🤖 台場DiverCity · 看1:1鋼彈 · 拍照打卡"
+          "desc": "🎢 遊樂設施：哈利波特禁忌之旅、飛天翼龍"
         },
         {
-          "time": "16:00",
-          "desc": "🚇 轉往秋葉原 · 逛Yodobashi Akiba · 扭蛋會館"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍜 秋葉原麵屋武藏吃沾麵 · ¥1,200/人"
+          "time": "17:00",
+          "desc": "🎃 萬聖節活動（8月限定）· 夜間遊行"
         },
         {
           "time": "20:00",
-          "desc": "🕹️ 秋葉原SEGA遊戲中心玩夾娃娃 · 每人¥1,000"
+          "desc": "🍛 晚餐：環球影城旁「道頓堀章魚燒」"
         },
         {
-          "time": "22:00",
-          "desc": "🏨 回APA酒店 · 便利商店買宵夜 · 休息"
+          "time": "21:30",
+          "desc": "🚆 返回飯店 · 休息"
         }
       ]
     },
     {
       "day": 3,
-      "date": "July 03 · Fri",
-      "label_zh": "迪士尼海洋一日遊",
-      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "標準雙人房 x 3間",
-      "weather": "☀️ 31°/25°",
-      "rain_pct": "5%",
+      "date": "Aug 12 · Wed",
+      "label_zh": "京都一日遊 · 和服&寺廟",
+      "hotel_name": "HOTEL MYSTAYS 堺筋本町",
+      "hotel_name_zh": "堺筋本町酒店",
+      "hotel_room": "雙床房 x3間",
+      "weather": "☀️ 36°/26°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "06:30",
-          "desc": "⏰ 早起！酒店出發至舞濱站·車程45分鐘"
-        },
-        {
-          "time": "07:30",
-          "desc": "🎟️ 抵達東京迪士尼海洋 · 排隊入園 · 門票¥7,900/人"
+          "time": "07:00",
+          "desc": "🌅 起床 · 飯店早餐（前一天買好麵包）"
         },
         {
           "time": "08:00",
-          "desc": "🎢 開園直奔「翱翔：夢幻奇航」抽快速通關"
+          "desc": "🚆 搭JR京都線至京都站（約30分）"
         },
         {
-          "time": "10:00",
-          "desc": "🌊 遊覽地中海港灣 · 拍照"
+          "time": "09:00",
+          "desc": "👘 清水寺附近租和服（預約夢館）· 換裝"
+        },
+        {
+          "time": "10:30",
+          "desc": "⛩️ 清水寺參拜 · 地主神社求戀愛"
         },
         {
           "time": "12:00",
-          "desc": "🍔 園區內午餐 · 三眼怪麻糬、雞腿套餐 · 每人¥2,000"
+          "desc": "🍜 午餐：二年坂「日月庵」湯豆腐定食"
         },
         {
           "time": "14:00",
-          "desc": "🎢 玩「印第安納瓊斯冒險」和「忿怒雙神」"
+          "desc": "🌸 三年坂散步 · 八坂神社 · 祇園花見小路"
         },
         {
           "time": "17:00",
-          "desc": "🎆 觀看夜間水上秀「Fantasmic！」"
+          "desc": "🛍️ 錦市場逛街 · 試吃漬物、抹茶冰淇淋"
         },
         {
           "time": "19:00",
-          "desc": "🛍️ 園區商店買紀念品 · 每人預算¥3,000"
+          "desc": "🍛 晚餐：京都車站拉麵小路「東大拉麵」"
         },
         {
-          "time": "20:30",
-          "desc": "🚇 返回新宿 · 車站附近吃松屋牛丼當宵夜"
-        },
-        {
-          "time": "22:30",
-          "desc": "🏨 回APA酒店 · 整理照片 · 睡覺"
+          "time": "21:00",
+          "desc": "🚆 返回大阪飯店 · 休息"
         }
       ]
     },
     {
       "day": 4,
-      "date": "July 04 · Sat",
-      "label_zh": "澀谷 · 原宿潮流日",
-      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "標準雙人房 x 3間",
-      "weather": "☁️ 29°/22°",
-      "rain_pct": "30%",
+      "date": "Aug 13 · Thu",
+      "label_zh": "大阪城&通天閣 · 自由探索",
+      "hotel_name": "HOTEL MYSTAYS 堺筋本町",
+      "hotel_name_zh": "堺筋本町酒店",
+      "hotel_room": "雙床房 x3間",
+      "weather": "☀️ 34°/26°",
+      "rain_pct": "20%",
       "slots": [
         {
+          "time": "08:00",
+          "desc": "🌅 起床 · 飯店附近便利商店早餐"
+        },
+        {
           "time": "09:00",
-          "desc": "🥐 酒店附近吉野家吃早餐 · 牛丼¥400"
+          "desc": "🏯 大阪城公園 · 登天守閣（門票 ¥600/人）"
         },
         {
-          "time": "10:00",
-          "desc": "🚇 搭地鐵至澀谷 · 看忠犬八公像 · 過澀谷十字路口"
-        },
-        {
-          "time": "10:30",
-          "desc": "🛍️ 澀谷PARCO逛街 · 任天堂、寶可夢中心"
-        },
-        {
-          "time": "12:00",
-          "desc": "☕ Starbucks Reserve Roastery 喝咖啡 · 拍照"
+          "time": "11:30",
+          "desc": "🍢 午餐：串炸達摩 新世界本店 · 串炸吃到飽"
         },
         {
           "time": "13:30",
-          "desc": "🍜 原宿Afuri吃柚子拉麵 · 或吃可麗餅"
+          "desc": "🗼 通天閣展望台 · 拍照留念"
         },
         {
           "time": "15:00",
-          "desc": "👗 原宿竹下通 · 買便宜服飾、大頭貼機"
+          "desc": "🛍️ 日本橋電器街 · 動漫周邊、扭蛋"
         },
         {
           "time": "17:00",
-          "desc": "🎵 Tower Records澀谷店 · 買CD或周邊"
+          "desc": "🍣 晚餐：壽司郎 難波店 · 迴轉壽司"
         },
         {
           "time": "19:00",
-          "desc": "🍖 澀谷「俺の焼肉」吃和牛燒肉 · 每人¥4,000"
+          "desc": "🎮 道頓堀遊戲中心 · 夾娃娃機"
         },
         {
           "time": "21:00",
-          "desc": "🎤 澀谷卡拉OK館唱歌 · 每人¥1,500 · 兩小時"
-        },
-        {
-          "time": "23:00",
-          "desc": "🏨 回APA酒店 · 打包行李"
+          "desc": "🌙 最後採買 · 藥妝、零食 · 回飯店整理行李"
         }
       ]
     },
     {
       "day": 5,
-      "date": "July 05 · Sun",
-      "label_zh": "最後採買 · 返台",
-      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "標準雙人房 x 3間",
-      "weather": "☀️ 33°/26°",
+      "date": "Aug 14 · Fri",
+      "label_zh": "臨空城Outlet · 返台",
+      "hotel_name": "HOTEL MYSTAYS 堺筋本町",
+      "hotel_name_zh": "堺筋本町酒店",
+      "hotel_room": "雙床房 x3間",
+      "weather": "☀️ 33°/25°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "⏰ 起床 · 整理行李 · 退房（行李可寄放櫃檯）"
-        },
-        {
           "time": "08:00",
-          "desc": "🍱 新宿車站買駅弁便當 · 帶到機場吃"
+          "desc": "🌅 起床 · 飯店退房 · 寄放行李"
         },
         {
           "time": "09:00",
-          "desc": "🛍️ 新宿Don Quijote最後採買 · 藥妝、零食"
+          "desc": "🛍️ 臨空城PREMIUM OUTLETS · 搭南海電鐵直達"
         },
         {
-          "time": "10:00",
-          "desc": "🚇 搭N'EX至成田機場 · 車票¥3,070/人 · 約11:10到"
+          "time": "12:00",
+          "desc": "🍴 午餐：Outlet內「雞三和」親子丼"
         },
         {
-          "time": "11:30",
-          "desc": "🛫 虎航IT201報到 · 出境 · 免稅店買伴手禮"
+          "time": "14:00",
+          "desc": "🚆 返回關西機場 · 搭接駁車"
         },
         {
-          "time": "14:30",
-          "desc": "✈️ 抵達桃園TPE · 結束旅程！"
+          "time": "16:00",
+          "desc": "✈️ 關西KIX出發 · 樂桃MM27 · 16:00→18:00"
+        },
+        {
+          "time": "18:00",
+          "desc": "🛬 抵達桃園TPE · 結束旅程"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票",
-      "amount_ntd": 72000
+      "label": "✈️ 來回機票（6人）",
+      "amount_ntd": 54000
     },
     {
-      "label": "🏨 住宿（總計）",
-      "amount_ntd": 48000
+      "label": "🏨 住宿（4晚3間）",
+      "amount_ntd": 42000
     },
     {
-      "label": "🍽️ 餐飲",
-      "amount_ntd": 30000
+      "label": "🍽️ 餐飲（6人5天）",
+      "amount_ntd": 36000
     },
     {
-      "label": "🎫 景點門票",
-      "amount_ntd": 15000
+      "label": "🎫 景點門票（環球影城+清水寺+大阪城）",
+      "amount_ntd": 24000
     },
     {
-      "label": "🚇 交通",
-      "amount_ntd": 10000
+      "label": "🚇 交通（ICOCA儲值+南海電鐵）",
+      "amount_ntd": 12000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 5000
+      "amount_ntd": 12000
     }
   ],
   "cost_total_ntd": 180000,
@@ -477,74 +469,66 @@
   "photos": {
     "hero": [
       {
-        "url": "https://images.unsplash.com/photo-1748737349766-b708d3681d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjUzODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Man leans on stairs with a tower in view."
+        "url": "",
+        "label": "Osaka & Kyoto skyline landmark"
       },
       {
-        "url": "https://images.unsplash.com/photo-1748737350027-c039429a9726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjUzODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "A person poses in front of tokyo tower."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1748737349766-b708d3681d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjUzODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Man leans on stairs with a tower in view."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1748737350027-c039429a9726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjUzODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "A person poses in front of tokyo tower."
+        "url": "",
+        "label": "Osaka & Kyoto skyline landmark"
       }
     ],
     "destination": [
       {
-        "url": "https://images.unsplash.com/photo-1646925061069-5ac0c98f4875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a view of a city at night from the top of a building"
+        "url": "https://images.unsplash.com/photo-1592512336070-546d59294287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown and white house near green trees during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1596828131555-3aac6985b28b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white concrete building during daytime"
+        "url": "https://images.unsplash.com/photo-1741850820914-679245cf5c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Snowy rooftops and a hillside in japan."
       },
       {
-        "url": "https://images.unsplash.com/photo-1578592325919-ca966e981cb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view photography of city"
+        "url": "https://images.unsplash.com/photo-1741851373505-c07b8a723560?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Ancient japanese architecture lines a city street."
       },
       {
-        "url": "https://images.unsplash.com/photo-1595974379331-e1c32bcb10cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking on white hallway"
+        "url": "https://images.unsplash.com/photo-1774803682197-dc81456cedd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Boats docked on a river under cherry blossoms."
       },
       {
-        "url": "https://images.unsplash.com/photo-1596646871656-644fd932d316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking on sidewalk during daytime"
+        "url": "https://images.unsplash.com/photo-1741851374430-d242e0dcd70c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cozy, lantern-lit alleyway in japan."
       },
       {
-        "url": "https://images.unsplash.com/photo-1595974379393-3a3418a211df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown and black skull on gray concrete floor"
+        "url": "https://images.unsplash.com/photo-1741851373559-6879db14fd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cityscape at dusk, with mountains in background."
       },
       {
-        "url": "https://images.unsplash.com/photo-1646925061069-5ac0c98f4875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a view of a city at night from the top of a building"
+        "url": "https://images.unsplash.com/photo-1592512336070-546d59294287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown and white house near green trees during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1596828131555-3aac6985b28b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white concrete building during daytime"
+        "url": "https://images.unsplash.com/photo-1741850820914-679245cf5c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Snowy rooftops and a hillside in japan."
       },
       {
-        "url": "https://images.unsplash.com/photo-1578592325919-ca966e981cb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view photography of city"
+        "url": "https://images.unsplash.com/photo-1741851373505-c07b8a723560?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Ancient japanese architecture lines a city street."
       },
       {
-        "url": "https://images.unsplash.com/photo-1595974379331-e1c32bcb10cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking on white hallway"
+        "url": "https://images.unsplash.com/photo-1774803682197-dc81456cedd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Boats docked on a river under cherry blossoms."
       },
       {
-        "url": "https://images.unsplash.com/photo-1596646871656-644fd932d316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking on sidewalk during daytime"
+        "url": "https://images.unsplash.com/photo-1741851374430-d242e0dcd70c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cozy, lantern-lit alleyway in japan."
       },
       {
-        "url": "https://images.unsplash.com/photo-1595974379393-3a3418a211df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown and black skull on gray concrete floor"
+        "url": "https://images.unsplash.com/photo-1741851373559-6879db14fd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4Njc5MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cityscape at dusk, with mountains in background."
       }
     ]
   },
-  "chat_hash": "62aa4194185686065abad71129dbab10fafc25d7c70b0f699a7585f69c1f04e6",
+  "chat_hash": "73902aa05830d68011f355ca7b9049996af1f0a0a649969fe22d455ed10cd843",
   "config_hash": "dfd1f30aff1bb39e62af07ca3b8b459417041813728e590b52e145c941bc5aa4",
-  "generated_at": "2026-05-13T22:11:03.454420"
+  "generated_at": "2026-05-13T22:20:58.385664"
 }
