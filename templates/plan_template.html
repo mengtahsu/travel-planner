@@ -253,8 +253,23 @@
 {% include 'shared.js' %}
 </script>
 <script>
-// Minimal: just write a tiny flag file. Generator does the actual archiving.
+// Write flag file on check. Generator archives the plan before overwriting.
 const REPO_S = 'mengtahsu/travel-planner';
+
+async function restoreCheckbox() {
+  const token = localStorage.getItem('github_chat_token');
+  if(!token) return;
+  try {
+    const r = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
+      headers: {'Authorization': 'Bearer ' + token}
+    });
+    if(r.ok) {
+      const data = JSON.parse(atob((await r.json()).content));
+      document.getElementById('save-flag').checked = !!data.save;
+    }
+  } catch(e) {}
+}
+
 async function toggleSave() {
   const token = localStorage.getItem('github_chat_token');
   if(!token) return;
@@ -276,6 +291,8 @@ async function toggleSave() {
     body: JSON.stringify({message: checked ? 'Flag plan for save' : 'Unflag plan', content: content, sha: sha || undefined, branch: 'main'})
   });
 }
+
+restoreCheckbox();
 </script>
 </body>
 </html>
