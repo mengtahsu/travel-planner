@@ -558,12 +558,30 @@ def check_and_archive():
         return
 
     ts = datetime.now().strftime("%Y-%m-%d-%H%M")
-    title = data.get("title", "plan").replace("/", "-").replace(" ", "-")[:40]
-    filename = f"{ts}-{title}.html"
+    title = data.get("title", "plan")
+    safe_title = title.replace("/", "-").replace(" ", "-")[:40]
+    filename = f"{ts}-{safe_title}.html"
     SAVED_DIR.mkdir(parents=True, exist_ok=True)
 
     html = OUTPUT_HTML.read_text(encoding="utf-8")
     (SAVED_DIR / filename).write_text(html, encoding="utf-8")
+
+    # Update saved index
+    index_path = SAVED_DIR / "index.json"
+    index = []
+    if index_path.exists():
+        try:
+            index = json.loads(index_path.read_text(encoding="utf-8"))
+        except Exception:
+            index = []
+    index.insert(0, {
+        "file": filename,
+        "title": title,
+        "date": data.get("date", ""),
+        "saved_at": ts
+    })
+    index_path.write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8")
+
     print(f"        Archived: {filename}")
 
     # Clear the flag

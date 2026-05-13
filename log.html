@@ -30,30 +30,26 @@ async function loadLogs() {
   let html = '';
 
   // ═══ Section 1: Saved Plans ═══
-  const token = localStorage.getItem('github_chat_token');
-  if(token) {
-    try {
-      const resp = await fetch('https://api.github.com/repos/mengtahsu/travel-planner/contents/data/saved', {
-        headers: {'Authorization': 'Bearer ' + token}
-      });
-      if(resp.ok) {
-        const files = await resp.json();
-        if(Array.isArray(files) && files.length > 0) {
-          html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📁 Saved Plans</h3>';
-          html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;margin-bottom:1.5rem;">';
-          files.reverse();
-          for(const f of files) {
-            const name = f.name.replace('.html','');
-            const url = 'data/saved/' + f.name;
-            html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-              <td style="padding:6px 10px;"><a href="${url}" target="_blank" style="color:var(--gold);text-decoration:none;">${name}</a></td>
-            </tr>`;
-          }
-          html += '</table>';
+  try {
+    const resp = await fetch('data/saved/index.json');
+    if(resp.ok) {
+      const index = await resp.json();
+      if(Array.isArray(index) && index.length > 0) {
+        html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📁 Saved Plans</h3>';
+        html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;margin-bottom:1.5rem;">';
+        for(const entry of index) {
+          const url = 'data/saved/' + entry.file;
+          const label = entry.title || entry.file.replace('.html','');
+          const date = entry.date || entry.saved_at || '';
+          html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+            <td style="padding:6px 10px;white-space:nowrap;font-size:0.75rem;color:var(--warm-gray);">${date}</td>
+            <td style="padding:6px 10px;"><a href="${url}" target="_blank" style="color:var(--gold);text-decoration:none;">${label}</a></td>
+          </tr>`;
         }
+        html += '</table>';
       }
-    } catch(e) {}
-  }
+    }
+  } catch(e) {}
 
   // ═══ Section 2: Run History ═══
   try {
