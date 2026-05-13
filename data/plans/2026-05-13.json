@@ -1,6 +1,6 @@
 {
   "destination_en": "Tokyo, Japan",
-  "title_zh": "東京 · 夏日青春五天之旅",
+  "title_zh": "2026暑假 · 東京大學生五天之旅",
   "date_range": "2026/07/01–07/05",
   "start_date": "2026-07-01",
   "end_date": "2026-07-05",
@@ -11,24 +11,24 @@
   "days": 5,
   "budget_ntd": 180000,
   "flight": {
-    "airline": "中華航空 China Airlines",
+    "airline": "台灣虎航 Tigerair Taiwan",
     "departure_date": "7月1日",
     "return_date": "7月5日",
-    "total_price_ntd": 66000,
+    "total_price_ntd": 72000,
     "outbound": {
-      "flight_no": "CI 100",
+      "flight_no": "IT 200",
       "route": "TPE → NRT 直飛",
-      "depart_time": "08:55",
-      "arrive_time": "13:15",
-      "duration": "3h 20m",
+      "depart_time": "06:30",
+      "arrive_time": "10:30",
+      "duration": "3h 00m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 101",
+      "flight_no": "IT 201",
       "route": "NRT → TPE 直飛",
-      "depart_time": "14:30",
-      "arrive_time": "17:10",
-      "duration": "3h 40m",
+      "depart_time": "11:30",
+      "arrive_time": "14:30",
+      "duration": "3h 00m",
       "class": "經濟艙"
     }
   },
@@ -39,11 +39,11 @@
       "district": "新宿區",
       "day_range": "1–5",
       "nights": 4,
-      "price_ntd": 54000,
+      "price_ntd": 48000,
       "stars": "★★★☆☆",
-      "room_type": "雙床房 ×3間",
+      "room_type": "標準雙人房 x 3間",
       "breakfast": "不含早餐",
-      "amenities": "🚿 獨立衛浴 · 📶 免費WiFi · 🧳 行李寄存 · 🏪 附近便利商店",
+      "amenities": "🚿 獨立衛浴 · 📶 免費WiFi · 🧳 行李寄存 · 🏪 附近超商",
       "search_query": "APA Hotel Shinjuku Gyoenmae Tokyo Japan",
       "photos": [
         {
@@ -101,13 +101,13 @@
     "fine_dining": [
       {
         "name": "Sushi Saito",
-        "name_zh": "壽司齋藤 · 米其林三星",
+        "name_zh": "鮨さいとう · 米其林三星壽司",
         "stars": "⭐⭐⭐",
-        "dish": "🍣 招牌：江戶前壽司套餐（大トロ、海膽、穴子）",
-        "address": "1-9-15 Akasaka, Minato-ku",
+        "dish": "🍣 招牌：握壽司套餐（時令魚貨）",
+        "address": "東京都港區赤坂1-9-15",
         "price_ntd": 9000,
         "price_label": "午餐套餐 ¥30,000/人 · NT$9,000",
-        "hours": "12:00–14:00 · 需提前兩個月預約",
+        "hours": "12:00–14:00 · 需預約",
         "search_query": "Sushi Saito Tokyo reservation",
         "photos": [
           {
@@ -140,53 +140,41 @@
     "bistros": [
       {
         "name": "Afuri",
-        "name_zh": "阿夫利 · 柚子鹽拉麵",
+        "name_zh": "阿夫利柚子鹽拉麵",
         "stars": "",
-        "dish": "🍜 招牌：柚子鹽拉麵 + 炙燒叉燒飯",
-        "address": "1-1-10 Ebisu, Shibuya-ku",
-        "price_ntd": 320,
-        "price_label": "拉麵 ¥1,100/人 · NT$320",
+        "dish": "🍜 招牌：柚子鹽拉麵 · 炙燒叉燒",
+        "address": "東京都澀谷區惠比壽1-1-7",
+        "price_ntd": 300,
+        "price_label": "一碗 ¥1,000 · NT$300",
         "hours": "11:00–22:00",
         "search_query": "Afuri ramen Ebisu Tokyo",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1664806453051-d70c61445144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people in a restaurant"
+            "url": "",
+            "label": "bistros food Tokyo"
           },
           {
-            "url": "https://images.unsplash.com/photo-1746150361891-d55977b2af64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "An ikinari steak restaurant storefront at night."
+            "url": "",
+            "label": "bistros food Tokyo"
           },
           {
-            "url": "https://images.unsplash.com/photo-1677061856902-b6d8ca232fe5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a food stand at night with a bicycle parked in front of it"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1664806453051-d70c61445144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people in a restaurant"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1746150361891-d55977b2af64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "An ikinari steak restaurant storefront at night."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1677061856902-b6d8ca232fe5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a food stand at night with a bicycle parked in front of it"
+            "url": "",
+            "label": "bistros food Tokyo"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Sakurai Japanese Tea Experience",
-        "name_zh": "櫻井日本茶體驗",
+        "name": "Starbucks Reserve Roastery Tokyo",
+        "name_zh": "星巴克臻選®東京烘焙工坊",
         "stars": "",
-        "dish": "🍵 招牌：抹茶拿鐵 + 和菓子組合",
-        "address": "4-20-4 Jingumae, Shibuya-ku",
-        "price_ntd": 360,
-        "price_label": "套餐 ¥1,200/人 · NT$360",
-        "hours": "10:00–18:00 · 週三公休",
-        "search_query": "Sakurai Japanese Tea Experience Tokyo",
+        "dish": "☕ 招牌：氮氣冷萃咖啡 · 櫻花蛋糕",
+        "address": "東京都目黑區青葉台2-19-23",
+        "price_ntd": 400,
+        "price_label": "每人 ¥1,500 · NT$400",
+        "hours": "07:00–23:00 · 四層樓旗艦店",
+        "search_query": "Starbucks Reserve Roastery Tokyo interior",
         "photos": [
           {
             "url": "https://images.unsplash.com/photo-1680699641188-89db50dbad04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODY3OTY0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
@@ -219,257 +207,269 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Jul 1 · Wed",
-      "label_zh": "抵達日 · 新宿之夜",
+      "date": "July 01 · Wed",
+      "label_zh": "抵達日 · 新宿探索",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
       "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 ×3間",
-      "weather": "☀️ 30°/24°",
+      "hotel_room": "標準雙人房 x 3間",
+      "weather": "☀️ 32°/24°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:55",
-          "desc": "✈️ 桃園機場TPE出發 · 中華航空CI100 · 預計13:15抵達成田"
+          "time": "06:30",
+          "desc": "✈️ 桃園TPE出發 · 虎航IT200 · 記得帶護照及日幣現金"
         },
         {
-          "time": "13:15",
-          "desc": "🛬 抵達成田機場NRT · 入境、領行李 · 購買Suica卡"
+          "time": "10:30",
+          "desc": "🛬 抵達成田NRT · 入境後購買Suica卡（每人¥2,000儲值）"
+        },
+        {
+          "time": "12:00",
+          "desc": "🚄 搭乘N'EX成田特快至新宿站 · 約80分鐘 · 車票¥3,070/人"
+        },
+        {
+          "time": "13:30",
+          "desc": "🏨 抵達APA新宿御苑前酒店 · 寄放行李 · 附近Lawson買飲料"
         },
         {
           "time": "14:30",
-          "desc": "🚄 搭乘N'EX成田特快至新宿站（約80分鐘）"
+          "desc": "🍜 Afuri惠比壽店吃午餐 · 柚子鹽拉麵清爽開胃"
         },
         {
           "time": "16:00",
-          "desc": "🏨 抵達APA Hotel Shinjuku Gyoenmae · 辦理入住 · 放行李"
+          "desc": "🛍️ 新宿逛街 · 0101百貨、BicCamera、唐吉訶德"
         },
         {
-          "time": "17:00",
-          "desc": "🍜 晚餐：Afuri阿夫利柚子鹽拉麵（惠比壽本店）"
+          "time": "18:30",
+          "desc": "🎮 新宿機器人餐廳看表演（門票¥5,000/人 · 需預約）"
         },
         {
-          "time": "19:00",
-          "desc": "🌃 新宿逛街：東口歌舞伎町 · 唐吉訶德藥妝採購"
+          "time": "20:30",
+          "desc": "🍺 新宿思い出橫丁喝酒 · 串燒配啤酒 · 每人約¥3,000"
         },
         {
-          "time": "21:00",
-          "desc": "🍻 居酒屋體驗：思い出橫丁 · 串燒配啤酒"
-        },
-        {
-          "time": "23:00",
-          "desc": "🚶 返回酒店 · 休息"
+          "time": "22:30",
+          "desc": "🏨 回APA酒店休息 · 三人一間 · 使用WiFi規劃明天行程"
         }
       ]
     },
     {
       "day": 2,
-      "date": "Jul 2 · Thu",
-      "label_zh": "淺草 · 秋葉原動漫日",
+      "date": "July 02 · Thu",
+      "label_zh": "淺草 · 秋葉原動漫之旅",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
       "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 ×3間",
-      "weather": "⛅ 28°/22°",
+      "hotel_room": "標準雙人房 x 3間",
+      "weather": "⛅ 30°/23°",
       "rain_pct": "20%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🥐 早餐：便利商店飯糰 + 咖啡（節省時間）"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚇 搭地鐵至淺草站"
+          "time": "08:30",
+          "desc": "🥐 酒店附近松屋吃早餐 · 牛丼¥380 · 便宜又飽"
         },
         {
           "time": "09:30",
-          "desc": "🏯 淺草寺 · 雷門拍照 · 仲見世通買人形燒"
+          "desc": "🚇 搭地鐵至淺草站 · 使用Suica"
         },
         {
-          "time": "11:00",
-          "desc": "🚢 搭乘水上巴士至台場（約50分鐘）"
+          "time": "10:00",
+          "desc": "🏮 淺草寺雷門 · 仲見世通買人形燒、仙貝"
+        },
+        {
+          "time": "11:30",
+          "desc": "🎡 搭乘水上巴士至台場（¥1,200/人）"
         },
         {
           "time": "12:30",
-          "desc": "🍕 台場Decks美食廣場午餐 · 自由女神像拍照"
+          "desc": "🍕 台場Decks Tokyo Beach吃午餐 · 拉麵或漢堡"
         },
         {
           "time": "14:00",
-          "desc": "🎮 秋葉原電器街 · 扭蛋會館 · Animate動漫店"
+          "desc": "🤖 台場DiverCity · 看1:1鋼彈 · 拍照打卡"
         },
         {
-          "time": "17:00",
-          "desc": "🍜 晚餐：秋葉原「博多天神」豚骨拉麵"
+          "time": "16:00",
+          "desc": "🚇 轉往秋葉原 · 逛Yodobashi Akiba · 扭蛋會館"
         },
         {
-          "time": "19:00",
-          "desc": "🕹️ 秋葉原SEGA遊戲中心 · 夾娃娃挑戰"
+          "time": "18:00",
+          "desc": "🍜 秋葉原麵屋武藏吃沾麵 · ¥1,200/人"
         },
         {
-          "time": "21:00",
-          "desc": "🚇 返回新宿酒店 · 便利商店買宵夜"
+          "time": "20:00",
+          "desc": "🕹️ 秋葉原SEGA遊戲中心玩夾娃娃 · 每人¥1,000"
+        },
+        {
+          "time": "22:00",
+          "desc": "🏨 回APA酒店 · 便利商店買宵夜 · 休息"
         }
       ]
     },
     {
       "day": 3,
-      "date": "Jul 3 · Fri",
-      "label_zh": "迪士尼海洋 · 全日狂歡",
+      "date": "July 03 · Fri",
+      "label_zh": "迪士尼海洋一日遊",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
       "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 ×3間",
-      "weather": "☀️ 32°/26°",
+      "hotel_room": "標準雙人房 x 3間",
+      "weather": "☀️ 31°/25°",
       "rain_pct": "5%",
       "slots": [
         {
           "time": "06:30",
-          "desc": "⏰ 早起 · 便利商店買飯糰當早餐"
+          "desc": "⏰ 早起！酒店出發至舞濱站·車程45分鐘"
         },
         {
-          "time": "07:00",
-          "desc": "🚇 搭地鐵至舞濱站 · 轉乘迪士尼專用電車"
+          "time": "07:30",
+          "desc": "🎟️ 抵達東京迪士尼海洋 · 排隊入園 · 門票¥7,900/人"
         },
         {
           "time": "08:00",
-          "desc": "🎢 東京迪士尼海洋開園 · 直衝「玩具總動員瘋狂遊戲屋」"
+          "desc": "🎢 開園直奔「翱翔：夢幻奇航」抽快速通關"
+        },
+        {
+          "time": "10:00",
+          "desc": "🌊 遊覽地中海港灣 · 拍照"
         },
         {
           "time": "12:00",
-          "desc": "🍔 午餐：園區內「卡納雷托」義式料理"
+          "desc": "🍔 園區內午餐 · 三眼怪麻糬、雞腿套餐 · 每人¥2,000"
         },
         {
           "time": "14:00",
-          "desc": "🎡 驚魂古塔 · 地心探險之旅 · 忿怒雙神"
+          "desc": "🎢 玩「印第安納瓊斯冒險」和「忿怒雙神」"
         },
         {
           "time": "17:00",
-          "desc": "🎠 夜間遊行 · 地中海港灣燈光秀"
+          "desc": "🎆 觀看夜間水上秀「Fantasmic！」"
         },
         {
           "time": "19:00",
-          "desc": "🍕 晚餐：園區內「水平線海灣餐廳」"
+          "desc": "🛍️ 園區商店買紀念品 · 每人預算¥3,000"
         },
         {
-          "time": "21:00",
-          "desc": "🎆 煙火表演（視天氣而定）"
+          "time": "20:30",
+          "desc": "🚇 返回新宿 · 車站附近吃松屋牛丼當宵夜"
         },
         {
-          "time": "22:00",
-          "desc": "🚇 返回酒店 · 疲憊但開心"
+          "time": "22:30",
+          "desc": "🏨 回APA酒店 · 整理照片 · 睡覺"
         }
       ]
     },
     {
       "day": 4,
-      "date": "Jul 4 · Sat",
-      "label_zh": "澀谷 · 原宿 · 表參道潮流日",
+      "date": "July 04 · Sat",
+      "label_zh": "澀谷 · 原宿潮流日",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
       "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 ×3間",
-      "weather": "☀️ 31°/25°",
-      "rain_pct": "15%",
+      "hotel_room": "標準雙人房 x 3間",
+      "weather": "☁️ 29°/22°",
+      "rain_pct": "30%",
       "slots": [
         {
           "time": "09:00",
-          "desc": "🥞 早餐：Bills澀谷店 · 鬆餅套餐"
+          "desc": "🥐 酒店附近吉野家吃早餐 · 牛丼¥400"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚇 搭地鐵至澀谷 · 看忠犬八公像 · 過澀谷十字路口"
         },
         {
           "time": "10:30",
-          "desc": "🐕 澀谷站前八公像拍照 · 全向十字路口"
+          "desc": "🛍️ 澀谷PARCO逛街 · 任天堂、寶可夢中心"
         },
         {
-          "time": "11:00",
-          "desc": "🛍️ 澀谷PARCO · 任天堂東京店 · 寶可夢中心"
+          "time": "12:00",
+          "desc": "☕ Starbucks Reserve Roastery 喝咖啡 · 拍照"
         },
         {
-          "time": "13:00",
-          "desc": "🍣 午餐：澀谷「美登利」迴轉壽司"
+          "time": "13:30",
+          "desc": "🍜 原宿Afuri吃柚子拉麵 · 或吃可麗餅"
         },
         {
-          "time": "14:30",
-          "desc": "👗 原宿竹下通 · 可麗餅 · 個性服飾小店"
+          "time": "15:00",
+          "desc": "👗 原宿竹下通 · 買便宜服飾、大頭貼機"
         },
         {
-          "time": "16:00",
-          "desc": "☕ 表參道「Sakurai日本茶體驗」喝抹茶拿鐵"
+          "time": "17:00",
+          "desc": "🎵 Tower Records澀谷店 · 買CD或周邊"
         },
         {
-          "time": "18:00",
-          "desc": "🍜 晚餐：新宿「麵屋武藏」沾麵"
+          "time": "19:00",
+          "desc": "🍖 澀谷「俺の焼肉」吃和牛燒肉 · 每人¥4,000"
         },
         {
-          "time": "20:00",
-          "desc": "🎤 新宿卡拉OK館 · 唱3小時"
+          "time": "21:00",
+          "desc": "🎤 澀谷卡拉OK館唱歌 · 每人¥1,500 · 兩小時"
         },
         {
           "time": "23:00",
-          "desc": "🏨 回酒店 · 整理行李"
+          "desc": "🏨 回APA酒店 · 打包行李"
         }
       ]
     },
     {
       "day": 5,
-      "date": "Jul 5 · Sun",
+      "date": "July 05 · Sun",
       "label_zh": "最後採買 · 返台",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
       "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 ×3間",
-      "weather": "⛅ 29°/23°",
-      "rain_pct": "20%",
+      "hotel_room": "標準雙人房 x 3間",
+      "weather": "☀️ 33°/26°",
+      "rain_pct": "10%",
       "slots": [
         {
+          "time": "07:00",
+          "desc": "⏰ 起床 · 整理行李 · 退房（行李可寄放櫃檯）"
+        },
+        {
           "time": "08:00",
-          "desc": "⏰ 退房 · 行李寄放酒店櫃檯"
+          "desc": "🍱 新宿車站買駅弁便當 · 帶到機場吃"
         },
         {
           "time": "09:00",
-          "desc": "🛍️ 新宿藥妝店最後採購（松本清、大國藥妝）"
+          "desc": "🛍️ 新宿Don Quijote最後採買 · 藥妝、零食"
         },
         {
-          "time": "10:30",
-          "desc": "🍜 午餐：新宿「一蘭拉麵」"
+          "time": "10:00",
+          "desc": "🚇 搭N'EX至成田機場 · 車票¥3,070/人 · 約11:10到"
         },
         {
-          "time": "12:00",
-          "desc": "🏨 回酒店取行李 · 搭N'EX至成田機場"
-        },
-        {
-          "time": "14:00",
-          "desc": "✈️ 成田機場報到 · 免稅店購買伴手禮（東京香蕉、Royce）"
+          "time": "11:30",
+          "desc": "🛫 虎航IT201報到 · 出境 · 免稅店買伴手禮"
         },
         {
           "time": "14:30",
-          "desc": "🛫 中華航空CI101 · 返回台灣"
-        },
-        {
-          "time": "17:10",
-          "desc": "🛬 抵達桃園機場 · 行程結束"
+          "desc": "✈️ 抵達桃園TPE · 結束旅程！"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（6人）",
-      "amount_ntd": 66000
+      "label": "✈️ 來回機票",
+      "amount_ntd": 72000
     },
     {
-      "label": "🏨 住宿4晚（3間雙床房）",
-      "amount_ntd": 54000
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 48000
     },
     {
-      "label": "🍽️ 餐飲（6人）",
-      "amount_ntd": 36000
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 30000
     },
     {
-      "label": "🎫 迪士尼門票（6人）",
-      "amount_ntd": 14400
+      "label": "🎫 景點門票",
+      "amount_ntd": 15000
     },
     {
-      "label": "🚇 交通（Suica儲值）",
-      "amount_ntd": 6000
+      "label": "🚇 交通",
+      "amount_ntd": 10000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 3600
+      "amount_ntd": 5000
     }
   ],
   "cost_total_ntd": 180000,
@@ -544,7 +544,7 @@
       }
     ]
   },
-  "chat_hash": "ce67b9434f300b4cd6e56df8eb3d8ff82f31d11a630a21f5b30103b9154f4ba2",
+  "chat_hash": "62aa4194185686065abad71129dbab10fafc25d7c70b0f699a7585f69c1f04e6",
   "config_hash": "dfd1f30aff1bb39e62af07ca3b8b459417041813728e590b52e145c941bc5aa4",
-  "generated_at": "2026-05-13T21:47:14.622774"
+  "generated_at": "2026-05-13T22:11:03.454420"
 }
