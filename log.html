@@ -45,6 +45,7 @@ async function loadLogs() {
           html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
             <td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.78rem;">${date}</td>
             <td style="padding:6px 10px;"><a href="${url}" target="_blank" style="color:var(--gold);text-decoration:none;">${dest} — ${label}</a></td>
+            <td style="padding:6px 10px;"><button onclick="deleteSaved('${entry.file}')" style="background:none;border:1px solid rgba(255,255,255,0.2);color:var(--warm-gray);cursor:pointer;font-size:0.7rem;padding:2px 8px;border-radius:4px;">✕</button></td>
           </tr>`;
         }
         html += '</table>';
@@ -81,6 +82,46 @@ async function loadLogs() {
   }
 
   container.innerHTML = html;
+}
+
+async function deleteSaved(filename) {
+  if(!confirm('Delete this saved plan?')) return;
+  const token = localStorage.getItem('github_chat_token');
+  if(!token) return;
+  try {
+    // 1. Delete the HTML file
+    const r1 = await fetch('https://api.github.com/repos/mengtahsu/travel-planner/contents/data/saved/' + filename, {
+      headers: {'Authorization': 'Bearer ' + token}
+    });
+    if(!r1.ok) throw new Error('File not found');
+    const sha = (await r1.json()).sha;
+    await fetch('https://api.github.com/repos/mengtahsu/travel-planner/contents/data/saved/' + filename, {
+      method: 'DELETE',
+      headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+      body: JSON.stringify({message: 'Delete saved plan', sha: sha, branch: 'main'})
+    });
+    // 2. Update index.json — remove entry
+    const r2 = await fetch('https://api.github.com/repos/mengtahsu/travel-planner/contents/data/saved/index.json', {
+      headers: {'Authorization': 'Bearer ' + token}
+    });
+    if(r2.ok) {
+      const raw = await r2.json();
+      const bytes = Uint8Array.from(atob(raw.content), function(c) { return c.charCodeAt(0); });
+      const index = JSON.parse(new TextDecoder().decode(bytes));
+      const updated = index.filter(function(e) { return e.file !== filename; });
+      const json = JSON.stringify(updated, null, 2);
+      const enc = new TextEncoder().encode(json);
+      const bin = Array.from(enc, function(b) { return String.fromCharCode(b); }).join('');
+      await fetch('https://api.github.com/repos/mengtahsu/travel-planner/contents/data/saved/index.json', {
+        method: 'PUT',
+        headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+        body: JSON.stringify({message: 'Remove from index', content: btoa(bin), sha: raw.sha, branch: 'main'})
+      });
+    }
+    location.reload();
+  } catch(e) {
+    alert('Delete failed: ' + e.message);
+  }
 }
 
 loadLogs();
