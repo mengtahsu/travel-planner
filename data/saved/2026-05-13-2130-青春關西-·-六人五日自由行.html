@@ -738,11 +738,7 @@
         <span>👥 6 人</span>
         <span>💰 NT$180,000</span>
       </div>
-      <label class="save-plan-label" id="save-plan-label">
-        <input type="checkbox" id="save-flag" onchange="toggleSave()">
-        💾 Keep this plan (archived before next regeneration)
-      </label>
-    </div>
+      </div>
   </div>
 
   <!-- Destination image slider -->
@@ -1516,48 +1512,6 @@ document.addEventListener('error', function(e){
 
   window.addEventListener('load', function(){ collectImages(); });
 })();
-</script>
-<script>
-// Write flag file on check. Generator archives the plan before overwriting.
-const REPO_S = 'mengtahsu/travel-planner';
-
-async function restoreCheckbox() {
-  const token = localStorage.getItem('github_chat_token');
-  if(!token) return;
-  try {
-    const r = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
-      headers: {'Authorization': 'Bearer ' + token}
-    });
-    if(r.ok) {
-      const data = JSON.parse(atob((await r.json()).content));
-      document.getElementById('save-flag').checked = !!data.save;
-    }
-  } catch(e) {}
-}
-
-async function toggleSave() {
-  const token = localStorage.getItem('github_chat_token');
-  if(!token) return;
-  const checked = document.getElementById('save-flag').checked;
-  const flag = JSON.stringify({save: checked, date: '2026/07/01–07/05', title: '青春關西 · 六人五日自由行', dest: 'Osaka, Japan'});
-  const bytes = new TextEncoder().encode(flag);
-  const bin = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
-  const content = btoa(bin);
-  let sha = '';
-  try {
-    const r = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
-      headers: {'Authorization': 'Bearer ' + token}
-    });
-    if(r.ok) sha = (await r.json()).sha || '';
-  } catch(e) {}
-  await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
-    method: 'PUT',
-    headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
-    body: JSON.stringify({message: checked ? 'Flag plan for save' : 'Unflag plan', content: content, sha: sha || undefined, branch: 'main'})
-  });
-}
-
-restoreCheckbox();
 </script>
 </body>
 </html>
