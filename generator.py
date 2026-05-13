@@ -567,6 +567,9 @@ def check_and_archive():
     SAVED_DIR.mkdir(parents=True, exist_ok=True)
 
     html = OUTPUT_HTML.read_text(encoding="utf-8")
+    # Strip nav bar — links won't work from data/saved/ subdirectory
+    import re
+    html = re.sub(r'<nav>.*?</nav>\s*', '', html, flags=re.DOTALL)
     (SAVED_DIR / filename).write_text(html, encoding="utf-8")
 
     # Update saved index
