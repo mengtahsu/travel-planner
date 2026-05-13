@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>沖繩夏日青春之旅 · 五天四夜 — Travel Planner</title>
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400&family=Noto+Serif+TC:wght@300;400;600&display=swap');
+
+  :root {
+    --gold: #c9a84c;
+    --rose: #d4a0a0;
+    --cream: #faf7f2;
+    --ink: #2c2416;
+    --warm-gray: #8c8273;
+    --soft-white: #fffdf8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  .container {
+    overflow-x: hidden;
+  }
+
+  /* ─── NAVIGATION ─── */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 1rem;
+    background: var(--soft-white);
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--warm-gray);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+    flex-shrink: 0;
+  }
+  nav a:hover, nav a.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 1.25rem; }
+
+  /* ─── IMAGE SLIDER ─── */
+  .slider {
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .slider-track {
+    display: inline-flex;
+    animation: slideLeft 30s linear infinite;
+  }
+  .slider-track img {
+    height: 180px;
+    border-radius: 8px;
+    margin-right: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  @keyframes slideLeft {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    position: relative;
+    height: 400px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #2c1810 0%, #5c3a2e 30%, #8b5e4f 60%, #c4956a 100%);
+    display: flex;
+    align-items: flex-end;
+  }
+  .hero-placeholder {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%; object-fit: cover; opacity: 0.7;
+  }
+  .hero-overlay {
+    position: relative; z-index: 2;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 80%);
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 2rem 1.5rem;
+  }
+  .hero-overlay h1 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 2.5rem; font-weight: 400;
+    color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  .hero-overlay .zh-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.1rem; color: rgba(255,255,255,0.9);
+    margin-top: 0.25rem;
+  }
+  .hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    margin-top: 0.75rem;
+    color: rgba(255,255,255,0.9);
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+  }
+
+  /* ─── SECTION HEADER ─── */
+  .section-title {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.9rem; color: var(--ink); margin-bottom: 0.5rem;
+    position: relative;
+  }
+  .section-title::after {
+    content: ''; position: absolute; bottom: -6px; left: 0;
+    width: 36px; height: 2px; background: var(--gold);
+  }
+  .section-sub {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.05rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+  }
+
+  /* ─── FULL CARDS ─── */
+  .full-card {
+    background: var(--soft-white);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.03);
+  }
+  .full-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .full-card-header h2 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.6rem; font-weight: 500;
+  }
+  .external-btn {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    padding: 0.55rem 1.1rem;
+    background: var(--ink); color: #fff;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: none; cursor: pointer;
+    white-space: nowrap;
+  }
+  .external-btn.google { background: #4285f4; }
+  .external-btn.agoda { background: #e12b52; }
+  .external-btn:hover { opacity: 0.88; }
+
+  /* ─── FLIGHT ─── */
+  .flight-detail {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .flight-detail .divider {
+    width: 1px; height: 50px;
+    background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+    justify-self: center;
+  }
+  .flight-info { font-size: 1.05rem; }
+  .flight-info .label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
+  }
+  .flight-info .airline {
+    font-family: 'Playfair Display', serif; font-size: 1.3rem;
+    color: var(--ink); margin: 0.2rem 0;
+  }
+
+  /* ─── HOTEL ─── */
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .hotel-card-inner {
+    font-size: 1.05rem;
+  }
+  .hotel-card-inner h3 {
+    font-family: 'Playfair Display','Noto Serif TC',serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.2rem;
+  }
+  .hotel-card-inner .zh {
+    font-family: 'Noto Serif TC',serif;
+    font-size: 1rem;
+    color: var(--warm-gray);
+  }
+
+  /* ─── DINING ─── */
+  .dining-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .dining-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .dining-card .food-img {
+    width: 130px; height: 130px; object-fit: cover; flex-shrink: 0;
+  }
+  .dining-info {
+    padding: 1rem;
+    display: flex; flex-direction: column; justify-content: center;
+    flex: 1; min-width: 180px;
+  }
+  .food-thumbs {
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+  }
+  .food-thumbs img {
+    width: calc(50% - 2px);
+    height: 75px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  .dining-info h4 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.1rem; margin-bottom: 0.15rem;
+  }
+  .dining-info .zh-name {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.95rem; color: var(--warm-gray);
+  }
+  .dining-info .dish {
+    font-size: 0.9rem; color: var(--gold);
+    font-style: italic; margin-top: 0.25rem;
+  }
+
+  /* ─── TIMELINE ─── */
+  .day-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.02);
+    display: grid;
+    grid-template-columns: 80px auto 90px;
+    gap: 1rem;
+    align-items: start;
+  }
+  .day-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; color: var(--gold);
+    text-align: center; line-height: 1;
+  }
+  .day-label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); text-align: center;
+  }
+  .day-zh {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.85rem; color: var(--ink); text-align: center;
+    margin-top: 0.2rem;
+  }
+  .day-schedule { font-size: 1.15rem; }
+  .day-schedule .time-slot {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    display: flex; gap: 0.6rem; align-items: baseline;
+  }
+  .time-slot .time {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem; color: var(--gold);
+    min-width: 58px; letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .day-weather {
+    font-size: 0.9rem; color: var(--warm-gray);
+    text-align: right; padding-top: 0.25rem;
+  }
+
+  /* ─── COST ─── */
+  .cost-section {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .cost-row {
+    display: flex; justify-content: space-between;
+    padding: 0.5rem 0; font-size: 1.05rem;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    flex-wrap: wrap;
+  }
+  .cost-bar {
+    height: 6px; border-radius: 3px;
+    background: rgba(201,168,76,0.15); margin: 0.75rem 0;
+  }
+  .cost-bar-fill {
+    height: 100%; border-radius: 3px;
+    background: linear-gradient(to right, var(--gold), var(--rose));
+    width: 94%;
+  }
+
+  /* ─── PAGES ─── */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* ─── SETTINGS ─── */
+  .settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .setting-group {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .setting-group label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); display: block; margin-bottom: 0.3rem;
+  }
+  .setting-group .zh-label {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.8rem; color: var(--ink); margin-bottom: 0.5rem;
+  }
+  .setting-group input, .setting-group select {
+    width: 100%; padding: 0.75rem 0.85rem;
+    border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    -webkit-appearance: none;
+  }
+  .setting-group input:focus, .setting-group select:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+  }
+  .save-btn {
+    background: linear-gradient(135deg, var(--gold), #b8942f);
+    color: #fff; border: none;
+    padding: 0.8rem 2rem; border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 0.85rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    cursor: pointer; margin-top: 1.25rem;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+  }
+  .save-btn:hover { opacity: 0.9; }
+
+  /* ─── LOG ─── */
+  .log-entry {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem; margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+  }
+  .log-date {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--gold);
+  }
+  .log-status {
+    display: inline-block; padding: 0.15rem 0.6rem; border-radius: 10px;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem; margin-left: 0.4rem;
+  }
+  .log-status.generated { background: rgba(76,175,80,0.12); color: #388e3c; }
+  .log-status.chatting { background: rgba(201,168,76,0.15); color: #8b6914; }
+
+  /* ─── CHAT ─── */
+  .chat-box {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .chat-date-label {
+    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); margin-bottom: 0.5rem;
+  }
+  .chat-box textarea {
+    width: 100%; height: 200px; padding: 1rem;
+    border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    line-height: 1.8; resize: vertical;
+    -webkit-appearance: none;
+  }
+  .chat-box textarea:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
+  }
+  .chat-hint {
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    color: var(--warm-gray); margin-top: 0.4rem; font-style: italic;
+  }
+
+  /* ─── LIGHTBOX ─── */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .lightbox.open { display: flex; }
+  .lbox-img-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    transition: opacity 0.2s;
+    cursor: default;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .lightbox img {
+      max-width: 96vw;
+      max-height: 82vh;
+    }
+    .lightbox .lbox-arrow { font-size: 2rem; margin: 0 6px; }
+  }
+  .lightbox .counter {
+    color: rgba(255,255,255,0.7);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.75rem;
+    z-index: 2;
+    position: relative;
+  }
+  .lightbox .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    border: none;
+    line-height: 1;
+  }
+  .lightbox .close-btn:hover { background: rgba(255,255,255,0.18); }
+  /* Nav zones — only inside the image wrapper, not full screen */
+  .lightbox .lbox-left,
+  .lightbox .lbox-right {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 50%;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+  .lightbox .lbox-left  { left: 0;  justify-content: flex-start; }
+  .lightbox .lbox-right { right: 0; justify-content: flex-end; }
+  .lightbox .lbox-arrow {
+    color: rgba(255,255,255,0.4);
+    font-size: 2.5rem;
+    margin: 0 16px;
+    pointer-events: none;
+    user-select: none;
+  }
+  .lightbox .lbox-left:hover .lbox-arrow,
+  .lightbox .lbox-right:hover .lbox-arrow {
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* ─── SAVE PLAN CHECKBOX ─── */
+  .save-plan-label {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    user-select: none;
+  }
+  .save-plan-label input[type="checkbox"] {
+    width: 16px; height: 16px;
+    accent-color: var(--gold);
+    cursor: pointer;
+  }
+
+  /* ─── BROKEN IMAGES ─── */
+  img.broken { display: none !important; }
+
+  /* ═══════════════ MOBILE: iPhone ───────────────────── */
+  @media (max-width: 768px) {
+
+    .container { padding: 0.75rem; }
+
+    /* Nav — compact scrollable */
+    nav {
+      gap: 1rem;
+      padding: 0.7rem 0.75rem;
+    }
+    nav a {
+      font-size: 0.72rem;
+      letter-spacing: 1px;
+    }
+
+    /* Hero — shorter */
+    .hero {
+      height: 260px;
+      border-radius: 10px;
+    }
+    .hero-overlay {
+      padding: 1.25rem 1rem;
+    }
+    .hero-overlay h1 {
+      font-size: 1.7rem;
+    }
+    .hero-overlay .zh-title {
+      font-size: 0.95rem;
+    }
+    .hero-stats {
+      font-size: 0.75rem;
+      gap: 0.5rem 1rem;
+    }
+
+    /* Slider — smaller images */
+    .slider-track img {
+      height: 130px;
+      margin-right: 6px;
+    }
+
+    /* Full card — tighter padding */
+    .full-card {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+    .full-card-header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .full-card-header h2 {
+      font-size: 1.3rem;
+    }
+
+    /* Flight — stack vertically */
+    .flight-detail {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .flight-detail .divider {
+      width: 80%;
+      height: 1px;
+      justify-self: center;
+    }
+
+    /* Hotel — already responsive via flex-wrap */
+
+    /* Dining — single column, smaller images */
+    .dining-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+    .dining-card .food-img {
+      width: 100px; height: 100px;
+    }
+
+    /* Timeline — single column, date on top */
+    .day-card {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+      padding: 1rem;
+    }
+    .day-card > :first-child {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .day-num {
+      font-size: 1.1rem;
+      color: var(--gold);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+    .day-label {
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+    }
+    .day-zh {
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+    .day-weather {
+      text-align: left;
+      font-size: 0.8rem;
+      margin-left: auto;
+    }
+    .day-schedule { font-size: 1rem; }
+    .time-slot .time {
+      font-size: 0.75rem;
+      min-width: 46px;
+    }
+    .time-slot {
+      gap: 0.3rem;
+    }
+
+    /* Settings — single column */
+    .settings-grid {
+      grid-template-columns: 1fr;
+    }
+
+    /* Cost — tighten */
+    .cost-row {
+      font-size: 0.95rem;
+    }
+    .cost-section {
+      padding: 1rem;
+    }
+
+    /* Chat */
+    .chat-box textarea {
+      height: 180px;
+      font-size: 1.05rem;
+    }
+
+    /* Section titles */
+    .section-title {
+      font-size: 1.4rem;
+    }
+    .section-sub {
+      font-size: 0.9rem;
+    }
+
+    /* External buttons — full width */
+    .external-btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 0.75rem;
+      padding: 0.55rem 1rem;
+    }
+  }
+
+  /* ═══════════════ SMALL PHONES ────────────────────── */
+  @media (max-width: 390px) {
+    .hero {
+      height: 220px;
+    }
+    .hero-overlay h1 {
+      font-size: 1.45rem;
+    }
+    .hero-overlay .zh-title {
+      font-size: 0.85rem;
+    }
+    .day-card {
+      grid-template-columns: 1fr;
+      padding: 0.85rem;
+    }
+    .day-num {
+      font-size: 1rem;
+    }
+    .day-schedule { font-size: 0.9rem; }
+    .dining-card .food-img {
+      width: 80px; height: 80px;
+    }
+    nav a {
+      font-size: 0.65rem;
+      letter-spacing: 0.5px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero -->
+  <div class="hero">
+    <img class="hero-placeholder" src="" alt="Okinawa, Japan" onerror="this.style.display='none'">
+    <div class="hero-overlay">
+      <h1>Okinawa, Japan</h1>
+      <div class="zh-title">沖繩夏日青春之旅 · 五天四夜</div>
+      <div class="hero-stats">
+        <span>✈️ 2026/07/01–07/05</span>
+        <span>👥 6 人</span>
+        <span>💰 NT$180,000</span>
+      </div>
+      </div>
+  </div>
+
+  <!-- Destination image slider -->
+  
+  <div class="slider">
+    <div class="slider-track">
+      
+      <img src="https://images.unsplash.com/photo-1776966227782-521f1000f0c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Cars driving on a highway near the ocean">
+      
+      <img src="https://images.unsplash.com/photo-1763096007838-08d53daa4b79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Lush green cliff overlooking a turquoise ocean cove">
+      
+      <img src="https://images.unsplash.com/photo-1763806500073-da8b3304c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Buildings with a colorful sunset sky above">
+      
+      <img src="https://images.unsplash.com/photo-1607909572148-533d0fbd6f89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="gray concrete road between green grass field under blue sky during daytime">
+      
+      <img src="https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a view of the ocean from a hill top">
+      
+      <img src="https://images.unsplash.com/photo-1754228806660-f0ea8606a3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Rocky cliffside meets the sea with a clear blue sky.">
+      
+      <img src="https://images.unsplash.com/photo-1776966227782-521f1000f0c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Cars driving on a highway near the ocean">
+      
+      <img src="https://images.unsplash.com/photo-1763096007838-08d53daa4b79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Lush green cliff overlooking a turquoise ocean cove">
+      
+      <img src="https://images.unsplash.com/photo-1763806500073-da8b3304c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Buildings with a colorful sunset sky above">
+      
+      <img src="https://images.unsplash.com/photo-1607909572148-533d0fbd6f89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="gray concrete road between green grass field under blue sky during daytime">
+      
+      <img src="https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a view of the ocean from a hill top">
+      
+      <img src="https://images.unsplash.com/photo-1754228806660-f0ea8606a3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Rocky cliffside meets the sea with a clear blue sky.">
+      
+    </div>
+  </div>
+  
+
+  <!-- ✈️ FLIGHT -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>✈️ 航班 Flight</h2>
+      <a class="external-btn google" href="https://www.google.com/travel/flights?q=Flights+to+OKA+from+TPE+2026-07-01" target="_blank">
+        ↗ Google Flights 搜尋更多航班
+      </a>
+    </div>
+    <div class="flight-detail">
+      <div class="flight-info">
+        <div class="label">出發 Departure · 7月1日</div>
+        <div class="airline">樂桃航空 Peach Aviation</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">MM 923</span> · TPE → OKA 直飛<br>
+          09:30 出發 · 12:00 抵達<br>
+          飛行 1h 30m · 經濟艙
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="flight-info">
+        <div class="label">回程 Return · 7月5日</div>
+        <div class="airline">樂桃航空 Peach Aviation</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">MM 928</span> · OKA → TPE 直飛<br>
+          16:30 出發 · 17:10 抵達<br>
+          飛行 1h 40m · 經濟艙
+        </div>
+      </div>
+    </div>
+    <div style="text-align:right; margin-top:1rem; font-size:0.9rem;">
+      來回 NT$ <strong>54,000</strong> / 6人
+    </div>
+  </div>
+
+  <!-- 🏨 HOTELS -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🏨 住宿 Hotel</h2>
+      <a class="external-btn agoda" href="https://www.agoda.com/zh-tw/city/okinawa-fr.html?checkIn=2026-07-01&checkOut=2026-07-05&adults=6" target="_blank">
+        ↗ Agoda 搜尋更多住宿
+      </a>
+    </div>
+
+    
+    <div style="background:var(--cream);border-radius:10px;padding:1.25rem;margin-bottom:1rem;border:1px solid rgba(201,168,76,0.1);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Okinawa Grand Mer Resort</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">沖繩格蘭梅爾度假酒店 · 讀谷村</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">📅 DAY 1–4</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">4 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 72,000</div>
+        </div>
+      </div>
+      <div style="font-size:0.85rem;color:var(--ink);margin-bottom:0.75rem;">
+        ★★★★☆ · 標準雙床房 x3間 · 含自助早餐<br>
+        🏊 戶外泳池 · ♨️ 大浴場 · 🅿️ 免費停車 · 🍽️ 海景餐廳
+      </div>
+      <!-- Hotel photo gallery -->
+      
+      <div class="slider" style="margin-bottom:0.25rem;">
+        <div class="slider-track">
+          
+          <img src="https://images.unsplash.com/photo-1657989533713-069414e256be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a building with a statue in front of it">
+          
+          <img src="https://images.unsplash.com/photo-1657989642814-434100724a71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a building with a staircase">
+          
+          <img src="https://images.unsplash.com/photo-1657989642807-69d63982698c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a building with a pool and trees by the ocean">
+          
+          <img src="https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a view of the ocean from a hill top">
+          
+          <img src="https://images.unsplash.com/photo-1763096037012-b8092717c8cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Vibrant cityscape with illuminated buildings at night">
+          
+          <img src="https://images.unsplash.com/photo-1763806500073-da8b3304c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Buildings with a colorful sunset sky above">
+          
+          <img src="https://images.unsplash.com/photo-1657989533713-069414e256be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a building with a statue in front of it">
+          
+          <img src="https://images.unsplash.com/photo-1657989642814-434100724a71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a building with a staircase">
+          
+          <img src="https://images.unsplash.com/photo-1657989642807-69d63982698c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a building with a pool and trees by the ocean">
+          
+          <img src="https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a view of the ocean from a hill top">
+          
+          <img src="https://images.unsplash.com/photo-1763096037012-b8092717c8cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Vibrant cityscape with illuminated buildings at night">
+          
+          <img src="https://images.unsplash.com/photo-1763806500073-da8b3304c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Buildings with a colorful sunset sky above">
+          
+        </div>
+      </div>
+      
+      <!-- Exact hotel photo link -->
+      <a href="https://www.google.com/search?tbm=isch&q=Okinawa%20Grand%20Mer%20Resort%20Yomitan" target="_blank"
+         style="display:inline-block;margin-top:0.25rem;padding:4px 10px;border:1px solid var(--gold);color:var(--gold);border-radius:4px;font-size:0.72rem;text-decoration:none;">
+        📷 Exact photos of Okinawa Grand Mer Resort
+      </a>
+    </div>
+    
+  </div>
+
+  <!-- 🍽️ DINING -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🍽️ 美食 Dining</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">5天 · 3 間餐廳 · NT$0</span>
+    </div>
+
+    
+
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 米其林星級 Fine Dining</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <img class="food-img" src="https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSeXVreXUlMjBubyUyMFVzaGklMjBPa2luYXdhfGVufDB8MHx8fDE3Nzg2ODQ0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Ryukyu no Ushi" onerror="this.style.display='none'">
+          
+          <div class="dining-info">
+            <h4>Ryukyu no Ushi</h4>
+            <div class="zh-name">琉球の牛 · 石垣牛專賣</div>
+            <div class="dish">🥩 招牌：石垣牛燒肉拼盤 · 海膽石鍋飯</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Ryukyu%20no%20Ushi+%E6%B2%96%E7%B9%A9%E7%B8%A3%E9%82%A3%E9%9C%B8%E5%B8%82%E7%89%A7%E5%BF%973-2-3" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">沖繩縣那霸市牧志3-2-3</a><br>
+              💰 晚餐套餐 ¥5400/人 · NT$1,200<br>
+              🕐 17:00–23:00 · 需預約
+            </div>
+            <a href="https://www.google.com/search?tbm=isch&q=Ryukyu%20no%20Ushi%20Okinawa" target="_blank"
+               style="display:inline-block;margin-top:0.4rem;font-size:0.7rem;color:var(--gold);text-decoration:none;border-bottom:1px dotted var(--gold);">
+              📷 Exact photos of Ryukyu no Ushi
+            </a>
+          </div>
+          
+          <div class="food-thumbs">
+            
+            
+            <img src="https://images.unsplash.com/photo-1513648670351-c18f5840ff65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSeXVreXUlMjBubyUyMFVzaGklMjBPa2luYXdhfGVufDB8MHx8fDE3Nzg2ODQ0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Japanese house" onerror="this.style.display='none'">
+            
+            
+            
+            <img src="https://images.unsplash.com/photo-1754228806660-f0ea8606a3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxSeXVreXUlMjBubyUyMFVzaGklMjBPa2luYXdhfGVufDB8MHx8fDE3Nzg2ODQ0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Rocky cliffside meets the sea with a clear blue sky." onerror="this.style.display='none'">
+            
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 法式小館 Bistros & Casual</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <img class="food-img" src="https://images.unsplash.com/photo-1568096889942-6eedde686635?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLYXRzdW1vdG8lMjBTb2JhJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4Njg0NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Katsumoto Soba" onerror="this.style.display='none'">
+          
+          <div class="dining-info">
+            <h4>Katsumoto Soba</h4>
+            <div class="zh-name">勝本蕎麥麵 · 沖繩麵名店</div>
+            <div class="dish">🍜 招牌：沖繩滷豬肉麵 · 三枚肉蕎麥</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Katsumoto%20Soba+%E6%B2%96%E7%B9%A9%E7%B8%A3%E4%B8%AD%E9%A0%AD%E9%83%A1%E5%8C%97%E8%B0%B7%E7%94%BA%E7%BE%8E%E6%BF%B12-2" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">沖繩縣中頭郡北谷町美濱2-2</a><br>
+              💰 午餐 ¥900/人 · NT$200<br>
+              🕐 11:00–16:00 · 週二公休
+            </div>
+            <a href="https://www.google.com/search?tbm=isch&q=Katsumoto%20Soba%20Okinawa" target="_blank"
+               style="display:inline-block;margin-top:0.4rem;font-size:0.7rem;color:var(--gold);text-decoration:none;border-bottom:1px dotted var(--gold);">
+              📷 Exact photos of Katsumoto Soba
+            </a>
+          </div>
+          
+          <div class="food-thumbs">
+            
+            
+            <img src="https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLYXRzdW1vdG8lMjBTb2JhJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4Njg0NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a view of the ocean from a hill top" onerror="this.style.display='none'">
+            
+            
+            
+            <img src="https://images.unsplash.com/photo-1513648670351-c18f5840ff65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLYXRzdW1vdG8lMjBTb2JhJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4Njg0NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Japanese house" onerror="this.style.display='none'">
+            
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:0;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 咖啡甜點 Cafés & Sweets</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <div class="dining-info">
+            <h4>Cafe Churara</h4>
+            <div class="zh-name">咖啡·綺拉拉 · 海景玻璃屋</div>
+            <div class="dish">🥞 招牌：芒果鬆餅 · 鳳梨冰沙</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Cafe%20Churara+%E6%B2%96%E7%B9%A9%E7%B8%A3%E5%9C%8B%E9%A0%AD%E9%83%A1%E6%81%A9%E7%B4%8D%E6%9D%91%E5%89%8D%E5%85%BC%E4%B9%8590" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">沖繩縣國頭郡恩納村前兼久90</a><br>
+              💰 兩人 ¥1600 · NT$356<br>
+              🕐 10:00–18:00 · 無休
+            </div>
+            <a href="https://www.google.com/search?tbm=isch&q=Cafe%20Churara%20Onna" target="_blank"
+               style="display:inline-block;margin-top:0.4rem;font-size:0.7rem;color:var(--gold);text-decoration:none;border-bottom:1px dotted var(--gold);">
+              📷 Exact photos of Cafe Churara
+            </a>
+          </div>
+          
+          <div class="food-thumbs">
+            
+            
+            
+            
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+    
+
+    <!-- Food image slider -->
+    <div class="slider" style="margin-top:1rem;">
+      <div class="slider-track">
+        
+        
+        
+        
+        <img src="https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSeXVreXUlMjBubyUyMFVzaGklMjBPa2luYXdhfGVufDB8MHx8fDE3Nzg2ODQ0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a view of the ocean from a hill top">
+        
+        
+        
+        <img src="https://images.unsplash.com/photo-1513648670351-c18f5840ff65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSeXVreXUlMjBubyUyMFVzaGklMjBPa2luYXdhfGVufDB8MHx8fDE3Nzg2ODQ0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Japanese house">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://images.unsplash.com/photo-1568096889942-6eedde686635?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLYXRzdW1vdG8lMjBTb2JhJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4Njg0NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="ramen">
+        
+        
+        
+        <img src="https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLYXRzdW1vdG8lMjBTb2JhJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4Njg0NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a view of the ocean from a hill top">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- 📅 DAY BY DAY -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>📅 每日行程 Day by Day</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">2026-07-01 – 2026-07-05</span>
+    </div>
+
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">1</div>
+        <div class="day-label">Jul 1 · Wed</div>
+        <div class="day-zh">抵達日 · 那霸市區探索</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 沖繩格蘭梅爾度假酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> ✈️ 桃園機場 T1 出發 · 樂桃 MM923</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🛬 抵達那霸機場 · 入境 · 租車（6人租兩台小車，約NT$12,000/4天）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🍜 午餐：勝本蕎麥麵 · 沖繩麵（NT$200/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> 🏯 首里城公園（免費區域） · 拍照打卡</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:00</span> 🛍️ 國際通逛街 · 買伴手禮 · 試吃黑糖</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🏨 前往讀谷村 · 入住沖繩格蘭梅爾度假酒店（車程約40分）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:30</span> 🥩 晚餐：琉球の牛 · 石垣牛燒肉（NT$1,200/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:30</span> ♨️ 飯店大浴場泡湯 · 休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Okinawa Grand Mer Resort · 標準雙床房 x3間</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 32°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">2</div>
+        <div class="day-label">Jul 2 · Thu</div>
+        <div class="day-zh">北部一日遊 · 美麗海水族館</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 沖繩格蘭梅爾度假酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">07:30</span> 🍳 飯店早餐（自助式 · 含在房價）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:30</span> 🚗 出發往北部（車程約1小時）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🐠 沖繩美麗海水族館（門票¥2,180/人 · NT$484）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍴 水族館內餐廳 · 海景午餐（NT$300/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:30</span> 🌺 海洋博公園 · 熱帶夢幻中心（免費區域）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🏖️ 翡翠沙灘 · 踩水拍照</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> 🚗 回程 · 順路去古宇利島（心形岩）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:30</span> 🍕 晚餐：花人逢披薩（NT$350/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🏨 回飯店 · 泳池夜泳</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Okinawa Grand Mer Resort · 標準雙床房 x3間</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 33°/27°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 5%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">3</div>
+        <div class="day-label">Jul 3 · Fri</div>
+        <div class="day-zh">中部海灘 · 美國村</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 沖繩格蘭梅爾度假酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🍳 飯店早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚗 出發至殘波岬（車程15分）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🌊 殘波岬燈塔 · 海岸景觀</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:30</span> 🏖️ 藍洞浮潛（預約行程，NT$1,200/人，含裝備）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍽️ 午餐：Cafe Churara · 海景鬆餅（NT$356/兩人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🛍️ 美國村 · 摩天輪 · 逛藥妝店</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🍔 晚餐：塔可飯專賣店（NT$250/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:00</span> 🎡 美國村摩天輪（¥600/人 · NT$133）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:30</span> 🏨 回飯店 · 休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Okinawa Grand Mer Resort · 標準雙床房 x3間</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 32°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 15%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">4</div>
+        <div class="day-label">Jul 4 · Sat</div>
+        <div class="day-zh">南部文化 · 系滿市集</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 沖繩格蘭梅爾度假酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">07:30</span> 🍳 飯店早餐 · 退房並寄放行李</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:30</span> 🚗 出發往南部（車程約50分）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> ⛩️ 波上宮 · 海邊神社</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> 🛍️ 系滿魚市場 · 現烤海鮮（NT$500/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🏖️ 瀨長島 · 海邊咖啡廳放空</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🏨 回飯店取行李 · 前往那霸市區</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> 🏨 入住：那霸國際通附近（此行程不換飯店，故回同一飯店）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍜 晚餐：暖暮拉麵（NT$300/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🎮 國際通夾娃娃 · 唐吉訶德最後採買</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Okinawa Grand Mer Resort · 標準雙床房 x3間</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 33°/27°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">5</div>
+        <div class="day-label">Jul 5 · Sun</div>
+        <div class="day-zh">最後一日 · 返台</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 沖繩格蘭梅爾度假酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">07:00</span> 🍳 飯店早餐 · 退房</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🚗 前往那霸機場（車程50分）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚗 還車 · 機場報到</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> 🛍️ 機場國內線商店 · 最後伴手禮</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍱 機場午餐（NT$300/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🛂 過安檢 · 登機</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> ✈️ 樂桃 MM928 起飛</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:10</span> 🛬 抵達桃園機場 · 行程結束</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Okinawa Grand Mer Resort · 標準雙床房 x3間</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 32°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 💰 COST BREAKDOWN -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>💰 花費明細 Cost</h2>
+      <span style="font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">所有金額以新台幣 NTD 計算</span>
+    </div>
+    
+    <div class="cost-row"><span>✈️ 來回機票（6人）</span><span>NT$ <strong>54,000</strong></span></div>
+    
+    <div class="cost-row"><span>🏨 住宿（4晚x3間）</span><span>NT$ <strong>72,000</strong></span></div>
+    
+    <div class="cost-row"><span>🚗 租車（兩台4天+油錢）</span><span>NT$ <strong>18,000</strong></span></div>
+    
+    <div class="cost-row"><span>🍽️ 餐飲（5天）</span><span>NT$ <strong>21,600</strong></span></div>
+    
+    <div class="cost-row"><span>🎫 景點門票/活動</span><span>NT$ <strong>7,200</strong></span></div>
+    
+    <div class="cost-row"><span>🛍️ 購物伴手禮</span><span>NT$ <strong>7,200</strong></span></div>
+    
+    <div class="cost-row" style="font-weight:600; border-top:2px solid var(--gold); padding-top:0.5rem; margin-top:0.2rem;">
+      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>180,000</strong></span>
+    </div>
+    <div class="cost-bar"><div class="cost-bar-fill" style="width:100.0%"></div></div>
+    <div style="text-align:right; font-size:0.8rem; color:var(--warm-gray);">
+      NT$ 180,000 / NT$ 180,000 · 剩餘 NT$ 0
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Shared JS for all Travel Planner pages
+// Lightbox, broken image handler
+
+// Hide broken images globally
+document.addEventListener('error', function(e){
+  if(e.target.tagName === 'IMG'){
+    e.target.classList.add('broken');
+  }
+}, true);
+
+// ═══ LIGHTBOX ═══
+(function(){
+  var images = [];
+  var currentIdx = 0;
+  var lb = null;
+  var lbImg = null;
+  var lbCounter = null;
+
+  function buildLightbox() {
+    lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.innerHTML =
+      '<button class="close-btn">&times;</button>' +
+      '<div class="lbox-img-wrap">' +
+        '<div class="lbox-left"><span class="lbox-arrow">&#8249;</span></div>' +
+        '<img src="" alt="">' +
+        '<div class="lbox-right"><span class="lbox-arrow">&#8250;</span></div>' +
+      '</div>' +
+      '<div class="counter"></div>';
+    document.body.appendChild(lb);
+    lbImg = lb.querySelector('img');
+    lbCounter = lb.querySelector('.counter');
+
+    lb.querySelector('.close-btn').addEventListener('click', close);
+    lb.querySelector('.lbox-left').addEventListener('click', function(e){ e.stopPropagation(); prev(); });
+    lb.querySelector('.lbox-right').addEventListener('click', function(e){ e.stopPropagation(); next(); });
+    lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
+    document.addEventListener('keydown', function(e){
+      if(!lb.classList.contains('open')) return;
+      if(e.key === 'Escape') close();
+      if(e.key === 'ArrowLeft') prev();
+      if(e.key === 'ArrowRight') next();
+    });
+  }
+
+  function collectImages() {
+    images = [];
+    var all = document.querySelectorAll('.slider-track img, .food-img, .food-thumbs img, .hero-placeholder, .dining-card img, .lightbox-clickable');
+    all.forEach(function(img, i){
+      if(img.naturalWidth > 0 || img.complete) {
+        images.push(img);
+        img.style.cursor = 'pointer';
+        img.setAttribute('data-lb-idx', images.length - 1);
+        if(!img.hasLbListener) {
+          img.addEventListener('click', function(e){
+            e.stopPropagation();
+            open(img.getAttribute('data-lb-idx'));
+          });
+          img.hasLbListener = true;
+        }
+      }
+    });
+  }
+
+  function open(idx) {
+    if(!lb) buildLightbox();
+    collectImages();
+    idx = parseInt(idx);
+    if(idx < 0) idx = images.length - 1;
+    if(idx >= images.length) idx = 0;
+    currentIdx = idx;
+    var src = images[currentIdx].src || images[currentIdx].getAttribute('src');
+    // strip Unsplash size params for full resolution
+    src = src.replace(/[?&]w=\d+/g, '').replace(/[?&]h=\d+/g, '').replace(/[?&]fit=crop/g, '');
+    if(src.indexOf('?') === -1) src += '?w=1400'; else src += '&w=1400';
+    lbImg.src = src;
+    lbCounter.textContent = (currentIdx + 1) + ' / ' + images.length;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function next() { open(currentIdx + 1); }
+  function prev() { open(currentIdx - 1); }
+
+  window.addEventListener('load', function(){ collectImages(); });
+})();
+</script>
+</body>
+</html>
