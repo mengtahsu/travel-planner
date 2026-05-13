@@ -1,9 +1,9 @@
 {
-  "destination_en": "Tokyo, Japan",
-  "title_zh": "東京青春之旅 · 五天四夜學生自由行",
-  "date_range": "2026/08/15–08/19",
-  "start_date": "2026-08-15",
-  "end_date": "2026-08-19",
+  "destination_en": "Japan (Tokyo & Hakone)",
+  "title_zh": "2026暑假日本青春之旅 · 六人五天",
+  "date_range": "2026/07/20–07/24",
+  "start_date": "2026-07-20",
+  "end_date": "2026-07-24",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
   "destination_code": "NRT",
@@ -11,242 +11,221 @@
   "days": 5,
   "budget_ntd": 180000,
   "flight": {
-    "airline": "樂桃航空 Peach Aviation",
-    "departure_date": "8月15日",
-    "return_date": "8月19日",
-    "total_price_ntd": 54000,
+    "airline": "中華航空 China Airlines (CI)",
+    "departure_date": "7月20日",
+    "return_date": "7月24日",
+    "total_price_ntd": 72000,
     "outbound": {
-      "flight_no": "MM 620",
+      "flight_no": "CI 100",
       "route": "TPE → NRT 直飛",
-      "depart_time": "11:00",
-      "arrive_time": "15:30",
-      "duration": "3h 30m",
+      "depart_time": "08:55",
+      "arrive_time": "13:15",
+      "duration": "3h 20m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "MM 627",
+      "flight_no": "CI 101",
       "route": "NRT → TPE 直飛",
-      "depart_time": "16:00",
-      "arrive_time": "18:45",
-      "duration": "3h 45m",
+      "depart_time": "14:30",
+      "arrive_time": "17:10",
+      "duration": "3h 40m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
       "name": "APA Hotel Shinjuku Gyoenmae",
-      "name_zh": "APA飯店 新宿御苑前",
+      "name_zh": "APA新宿御苑前飯店",
       "district": "新宿區",
-      "day_range": "1–4",
-      "nights": 4,
-      "price_ntd": 72000,
+      "day_range": "1–3",
+      "nights": 3,
+      "price_ntd": 36000,
       "stars": "★★★☆☆",
       "room_type": "標準雙人房 × 3間",
       "breakfast": "不含早餐",
-      "amenities": "🏪 便利商店步行1分鐘 · 🚇 地鐵站步行3分鐘 · 🛏️ 乾淨簡約",
+      "amenities": "🧳 行李寄存 · 🛜 免費WiFi · 🚿 獨立衛浴 · 🍱 附近便利商店",
       "search_query": "APA Hotel Shinjuku Gyoenmae Tokyo Japan",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bedroom with a large bed and wooden floors"
+          "url": "",
+          "label": "luxury hotel Japan (Tokyo & Hakone)"
         },
         {
-          "url": "https://images.unsplash.com/photo-1702814160779-4a88cfb330c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a room with tables, chairs, and candles"
+          "url": "",
+          "label": "luxury hotel Japan (Tokyo & Hakone)"
         },
         {
-          "url": "https://images.unsplash.com/photo-1772354002394-12a5897cd7d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Dark entrance with glass doors and overhead decoration"
+          "url": "",
+          "label": "luxury hotel Japan (Tokyo & Hakone)"
         },
         {
-          "url": "https://images.unsplash.com/photo-1533559694830-9f8d535740c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "low angle of brown concrete building under dark sky"
+          "url": "",
+          "label": "luxury hotel Japan (Tokyo & Hakone)"
         },
         {
-          "url": "https://images.unsplash.com/photo-1633097254841-d48447706118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a large building with a fountain in front of it"
+          "url": "",
+          "label": "luxury hotel Japan (Tokyo & Hakone)"
         },
         {
-          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at night from the top of a building"
+          "url": "",
+          "label": "luxury hotel Japan (Tokyo & Hakone)"
+        }
+      ]
+    },
+    {
+      "name": "Hakone Kyuan",
+      "name_zh": "箱根強羅溫泉 · 久安旅館",
+      "district": "箱根強羅",
+      "day_range": "3–4",
+      "nights": 1,
+      "price_ntd": 30000,
+      "stars": "★★★★☆",
+      "room_type": "和式客房 × 2間（含晚餐、早餐）",
+      "breakfast": "含日式早餐",
+      "amenities": "♨️ 天然溫泉 · 🍽️ 懷石料理晚餐 · 🎎 日式榻榻米 · 🅿️ 免費停車",
+      "search_query": "Hakone Kyuan ryokan Japan",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1771030667899-e7a6938b2e81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese hallway with sliding doors and wooden railings"
         },
         {
-          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bedroom with a large bed and wooden floors"
+          "url": "https://images.unsplash.com/photo-1759310706740-e486ec5622c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese room with garden view through open doors."
         },
         {
-          "url": "https://images.unsplash.com/photo-1702814160779-4a88cfb330c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a room with tables, chairs, and candles"
+          "url": "https://images.unsplash.com/photo-1723382056183-823d065ae8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A building that has a lot of lights on it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1772354002394-12a5897cd7d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Dark entrance with glass doors and overhead decoration"
+          "url": "https://images.unsplash.com/photo-1706017595998-91459e6bfd4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a river running through a lush green forest"
         },
         {
-          "url": "https://images.unsplash.com/photo-1533559694830-9f8d535740c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "low angle of brown concrete building under dark sky"
+          "url": "https://images.unsplash.com/photo-1682787283049-d37de81646b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room that has a bench in it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1633097254841-d48447706118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a large building with a fountain in front of it"
+          "url": "https://images.unsplash.com/photo-1706017595286-66e6d946221c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room filled with lots of different types of food"
         },
         {
-          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at night from the top of a building"
+          "url": "https://images.unsplash.com/photo-1771030667899-e7a6938b2e81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese hallway with sliding doors and wooden railings"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1759310706740-e486ec5622c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese room with garden view through open doors."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1723382056183-823d065ae8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A building that has a lot of lights on it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1706017595998-91459e6bfd4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a river running through a lush green forest"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1682787283049-d37de81646b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room that has a bench in it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1706017595286-66e6d946221c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIYWtvbmUlMjBLeXVhbiUyMHJ5b2thbiUyMEphcGFufGVufDB8MHx8fDE3Nzg2Nzg0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a room filled with lots of different types of food"
         }
       ]
     }
   ],
   "restaurants": {
-    "fine_dining": [],
+    "fine_dining": [
+      {
+        "name": "Sushi Saito",
+        "name_zh": "壽司齋藤 · 米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🍣 招牌：主廚精選握壽司套餐",
+        "address": "東京都港區赤坂1-9-15 アークヒルズ",
+        "price_ntd": 9000,
+        "price_label": "晚餐套餐 ¥40,000/人 · NT$9,000",
+        "hours": "12:00–14:00 / 17:00–22:00 · 需預約",
+        "search_query": "Sushi Saito Tokyo reservation",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1602487252242-c1785faff2ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "text"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1582538955726-8a88710bc514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "man in white chef uniform standing in front of food display counter"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1675300423702-6f862323b27d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a building that has lights on the outside of it"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1602487252242-c1785faff2ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "text"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1582538955726-8a88710bc514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "man in white chef uniform standing in front of food display counter"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1675300423702-6f862323b27d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a building that has lights on the outside of it"
+          }
+        ]
+      }
+    ],
     "bistros": [
       {
         "name": "Afuri",
-        "name_zh": "阿夫利柚子拉麵",
+        "name_zh": "阿夫利柚子鹽拉麵",
         "stars": "",
-        "dish": "🍜 招牌：柚子鹽味拉麵 · 炙燒叉燒飯",
-        "address": "東京都渋谷区千駄ヶ谷3-63-1",
-        "price_ntd": 300,
-        "price_label": "一碗拉麵 ¥1,350 · NT$300",
-        "hours": "11:00–23:00",
-        "search_query": "Afuri ramen Tokyo",
-        "photos": [
-          {
-            "url": "https://images.unsplash.com/photo-1632709810780-b5a4343cebec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a bowl of soup with meat, vegetables and an egg"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1614563637806-1d0e645e0940?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "egg and vegetable dish on black ceramic bowl"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1728200696576-1ebbd7209b3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A chinese restaurant with a mural of a man on the door"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1632709810780-b5a4343cebec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a bowl of soup with meat, vegetables and an egg"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1614563637806-1d0e645e0940?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "egg and vegetable dish on black ceramic bowl"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1728200696576-1ebbd7209b3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A chinese restaurant with a mural of a man on the door"
-          }
-        ]
-      },
-      {
-        "name": "Gyukatsu Motomura",
-        "name_zh": "牛かつもと村 炸牛排",
-        "stars": "",
-        "dish": "🥩 招牌：炸牛排定食 · 山藥泥拌飯",
-        "address": "東京都新宿区西新宿1-2-5",
+        "dish": "🍜 招牌：柚子鹽拉麵 · 叉燒飯",
+        "address": "東京都渋谷区千駄ヶ谷3-63-1 グランデフォレスタ 1F",
         "price_ntd": 450,
-        "price_label": "一份定食 ¥2,000 · NT$450",
-        "hours": "11:00–22:00",
-        "search_query": "Gyukatsu Motomura Shinjuku",
+        "price_label": "每人 ¥1,980 · NT$450",
+        "hours": "11:00–23:00",
+        "search_query": "Afuri ramen Harajuku Japan",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1732949221368-4b30b336a373?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxHeXVrYXRzdSUyME1vdG9tdXJhJTIwU2hpbmp1a3V8ZW58MHwwfHx8MTc3ODY3NzY3MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A group of people walking down a street next to tall buildings"
+            "url": "",
+            "label": "bistros food Japan (Tokyo & Hakone)"
           },
           {
-            "url": "https://images.unsplash.com/photo-1739609729217-419b0c2ac40e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxHeXVrYXRzdSUyME1vdG9tdXJhJTIwU2hpbmp1a3V8ZW58MHwwfHx8MTc3ODY3NzY3MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A group of people walking across a cross walk"
+            "url": "",
+            "label": "bistros food Japan (Tokyo & Hakone)"
           },
           {
-            "url": "https://images.unsplash.com/photo-1699014172412-d550ce4b07be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxHeXVrYXRzdSUyME1vdG9tdXJhJTIwU2hpbmp1a3V8ZW58MHwwfHx8MTc3ODY3NzY3MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a city street filled with lots of neon signs"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1732949221368-4b30b336a373?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxHeXVrYXRzdSUyME1vdG9tdXJhJTIwU2hpbmp1a3V8ZW58MHwwfHx8MTc3ODY3NzY3MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A group of people walking down a street next to tall buildings"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1739609729217-419b0c2ac40e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxHeXVrYXRzdSUyME1vdG9tdXJhJTIwU2hpbmp1a3V8ZW58MHwwfHx8MTc3ODY3NzY3MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A group of people walking across a cross walk"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1699014172412-d550ce4b07be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxHeXVrYXRzdSUyME1vdG9tdXJhJTIwU2hpbmp1a3V8ZW58MHwwfHx8MTc3ODY3NzY3MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a city street filled with lots of neon signs"
-          }
-        ]
-      },
-      {
-        "name": "Kura Sushi",
-        "name_zh": "藏壽司 秋葉原店",
-        "stars": "",
-        "dish": "🍣 招牌：鮭魚握壽司 · 炙燒起司鮭魚",
-        "address": "東京都千代田区外神田1-15-16",
-        "price_ntd": 500,
-        "price_label": "每人預算 ¥2,200 · NT$500",
-        "hours": "11:00–22:00",
-        "search_query": "Kura Sushi Akihabara",
-        "photos": [
-          {
-            "url": "https://images.unsplash.com/photo-1664806453051-d70c61445144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people in a restaurant"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1746150361891-d55977b2af64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "An ikinari steak restaurant storefront at night."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1677061856902-b6d8ca232fe5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a food stand at night with a bicycle parked in front of it"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1664806453051-d70c61445144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people in a restaurant"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1746150361891-d55977b2af64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "An ikinari steak restaurant storefront at night."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1677061856902-b6d8ca232fe5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxiaXN0cm9zJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NjB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a food stand at night with a bicycle parked in front of it"
+            "url": "",
+            "label": "bistros food Japan (Tokyo & Hakone)"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Eggs 'n Things",
-        "name_zh": "夏威夷鬆餅 原宿店",
+        "name": "Reissue",
+        "name_zh": "Reissue 精品咖啡 · 原宿",
         "stars": "",
-        "dish": "🥞 招牌：草莓奶油鬆餅 · 鮮奶油山",
-        "address": "東京都渋谷区神宮前4-30-2",
-        "price_ntd": 400,
-        "price_label": "兩人分享 NT$800 · 每人約NT$400",
-        "hours": "08:00–22:30",
-        "search_query": "Eggs n Things Harajuku",
+        "dish": "☕ 招牌：手沖單品咖啡 · 布丁",
+        "address": "東京都渋谷区神宮前3-25-18",
+        "price_ntd": 250,
+        "price_label": "每人 ¥1,100 · NT$250",
+        "hours": "10:00–19:00",
+        "search_query": "Reissue coffee Harajuku interior",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1664806443879-7766092e4ca5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxFZ2dzJTIwbiUyMFRoaW5ncyUyMEhhcmFqdWt1fGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a building with a sign on it"
+            "url": "",
+            "label": "cafe coffee Japan (Tokyo & Hakone)"
           },
           {
-            "url": "https://images.unsplash.com/photo-1708794759450-c680d7212859?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxFZ2dzJTIwbiUyMFRoaW5ncyUyMEhhcmFqdWt1fGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people walking down a street next to tall buildings"
+            "url": "",
+            "label": "cafe coffee Japan (Tokyo & Hakone)"
           },
           {
-            "url": "https://images.unsplash.com/photo-1611652186244-5d490e730250?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxFZ2dzJTIwbiUyMFRoaW5ncyUyMEhhcmFqdWt1fGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white rabbit plush toy in pink suit"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1664806443879-7766092e4ca5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxFZ2dzJTIwbiUyMFRoaW5ncyUyMEhhcmFqdWt1fGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a building with a sign on it"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1708794759450-c680d7212859?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxFZ2dzJTIwbiUyMFRoaW5ncyUyMEhhcmFqdWt1fGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people walking down a street next to tall buildings"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1611652186244-5d490e730250?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxFZ2dzJTIwbiUyMFRoaW5ncyUyMEhhcmFqdWt1fGVufDB8MHx8fDE3Nzg2Nzc2NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white rabbit plush toy in pink suit"
+            "url": "",
+            "label": "cafe coffee Japan (Tokyo & Hakone)"
           }
         ]
       }
@@ -255,225 +234,241 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Aug 15 · Sat",
-      "label_zh": "抵達日 · 新宿探索",
+      "date": "Jul 20 · Mon",
+      "label_zh": "抵達東京 · 新宿探索",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA飯店 新宿御苑前",
+      "hotel_name_zh": "APA新宿御苑前飯店",
       "hotel_room": "標準雙人房 × 3間",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "10%",
+      "weather": "☀️ 32°/25°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "11:00",
-          "desc": "✈️ 桃園機場第一航廈 · 樂桃航空 MM620 出發"
+          "time": "08:55",
+          "desc": "✈️ 桃園TPE出發 · 中華航空 CI 100 · 直飛成田"
         },
         {
-          "time": "15:30",
-          "desc": "🛬 抵達成田機場 NRT · 出關、領行李、購買 Suica 卡"
+          "time": "13:15",
+          "desc": "🛬 抵達成田機場NRT · 入境、領行李、購買Suica卡"
         },
         {
-          "time": "16:30",
-          "desc": "🚄 搭乘 N'EX 成田特快至新宿站（約80分鐘）"
+          "time": "14:30",
+          "desc": "🚅 搭乘N'EX成田特快至新宿站（約80分鐘）"
         },
         {
-          "time": "18:00",
-          "desc": "🏨 Check-in APA飯店新宿御苑前 · 放行李、稍作休息"
+          "time": "16:00",
+          "desc": "🏨 入住APA Hotel Shinjuku Gyoenmae · 放行李稍作休息"
+        },
+        {
+          "time": "17:30",
+          "desc": "🍜 晚餐：阿夫利柚子鹽拉麵（新宿店）· 清爽湯頭"
         },
         {
           "time": "19:00",
-          "desc": "🍜 晚餐：阿夫利柚子拉麵（新宿Lumine店）· 清爽柚子湯底"
+          "desc": "🎮 探索新宿 · 唐吉訶德購物 · 扭蛋會館"
         },
         {
-          "time": "20:30",
-          "desc": "🌆 漫步新宿歌舞伎町 · 感受霓虹夜景 · 注意安全"
+          "time": "21:00",
+          "desc": "🌃 新宿東口 · 哥吉拉夜景拍照"
         },
         {
           "time": "22:00",
-          "desc": "🏪 飯店旁 Lawson 買消夜零食 · 回房休息"
-        },
-        {
-          "time": "23:00",
-          "desc": "🛌 就寢 · 調整時差"
+          "desc": "🛌 回飯店休息 · 準備隔日行程"
         }
       ]
     },
     {
       "day": 2,
-      "date": "Aug 16 · Sun",
-      "label_zh": "淺草 · 秋葉原動漫日",
+      "date": "Jul 21 · Tue",
+      "label_zh": "澀谷・原宿潮流一日",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA飯店 新宿御苑前",
+      "hotel_name_zh": "APA新宿御苑前飯店",
       "hotel_room": "標準雙人房 × 3間",
-      "weather": "⛅ 33°/27°",
-      "rain_pct": "20%",
+      "weather": "☀️ 33°/26°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "☀️ 起床 · 飯店附近便利商店買早餐飯糰"
+          "time": "08:30",
+          "desc": "🥐 飯店附近便利商店早餐（飯糰、三明治）"
         },
         {
-          "time": "09:00",
-          "desc": "🚇 搭地鐵至淺草站 · 逛雷門、仲見世通商店街"
+          "time": "09:30",
+          "desc": "🚃 新宿站 → 原宿站（JR山手線）"
         },
         {
           "time": "10:00",
-          "desc": "🏯 淺草寺參拜 · 抽籤 · 買人形燒"
+          "desc": "⛩️ 明治神宮 · 參拜祈福 · 森林浴"
         },
         {
-          "time": "12:00",
-          "desc": "🍣 午餐：藏壽司 秋葉原店（抽號碼牌）· 每盤¥100"
+          "time": "11:30",
+          "desc": "🛍️ 竹下通商店街 · 可麗餅、古著、飾品"
         },
         {
-          "time": "14:00",
-          "desc": "🎮 秋葉原電器街 · 逛Animate、扭蛋會館、二手遊戲店"
+          "time": "13:00",
+          "desc": "🍝 午餐：原宿烏龍麵 或 牛舌定食（每人¥1,500）"
         },
         {
-          "time": "17:00",
-          "desc": "🥩 晚餐：牛かつもと村 炸牛排（秋葉原店）· 外酥內嫩"
+          "time": "14:30",
+          "desc": "☕ Reissue 咖啡 · 手沖單品 + 布丁"
         },
         {
-          "time": "19:00",
-          "desc": "🎤 秋葉原卡拉OK體驗 · 學生優惠1小時¥500"
+          "time": "16:00",
+          "desc": "🛒 澀谷 · 澀谷109、Loft、Disney Store"
         },
         {
-          "time": "21:00",
-          "desc": "🚇 回新宿 · 飯店休息"
+          "time": "18:00",
+          "desc": "🌆 澀谷十字路口 · 天空展望台Shibuya Sky（預約票¥2,000）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍣 晚餐：迴轉壽司 活美登利（澀谷店）· 每人¥2,500"
+        },
+        {
+          "time": "22:00",
+          "desc": "🛌 回飯店"
         }
       ]
     },
     {
       "day": 3,
-      "date": "Aug 17 · Mon",
-      "label_zh": "原宿 · 澀谷潮流日",
-      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA飯店 新宿御苑前",
-      "hotel_room": "標準雙人房 × 3間",
-      "weather": "☀️ 34°/28°",
-      "rain_pct": "5%",
+      "date": "Jul 22 · Wed",
+      "label_zh": "淺草・秋葉原 → 箱根溫泉",
+      "hotel_name": "Hakone Kyuan",
+      "hotel_name_zh": "箱根強羅溫泉 · 久安旅館",
+      "hotel_room": "和式客房 × 2間",
+      "weather": "☀️ 34°/27° (東京) · ⛅ 28°/20° (箱根)",
+      "rain_pct": "15%",
       "slots": [
         {
-          "time": "08:30",
-          "desc": "🥞 早餐：Eggs 'n Things 原宿店 · 巨大鬆餅"
+          "time": "08:00",
+          "desc": "🥐 飯店附近早餐（松屋牛丼）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚃 新宿站 → 淺草站（地鐵）"
         },
         {
           "time": "10:00",
-          "desc": "🛍️ 竹下通商店街 · 買可麗餅、平價服飾、大頭貼"
+          "desc": "🏯 淺草寺 · 雷門 · 仲見世通商店街"
         },
         {
           "time": "12:00",
-          "desc": "🏛️ 明治神宮參道散步 · 森林浴"
+          "desc": "🍜 午餐：淺草 大黑家天婦羅（每人¥2,000）"
         },
         {
           "time": "13:30",
-          "desc": "🍜 午餐：Afuri 原宿店 · 柚子鹽味拉麵"
+          "desc": "🚃 淺草 → 秋葉原（地鐵）"
         },
         {
-          "time": "15:00",
-          "desc": "🛒 澀谷109百貨 · 逛潮流女裝 · 男生逛Loft"
+          "time": "14:00",
+          "desc": "🎮 秋葉原 · 電器街、動漫周邊、扭蛋"
         },
         {
-          "time": "17:00",
-          "desc": "📸 澀谷十字路口 · 忠犬八公像拍照"
+          "time": "16:00",
+          "desc": "🏨 回APA飯店拿行李 · 搭乘箱根浪漫特快（新宿→箱根湯本）"
         },
         {
           "time": "18:30",
-          "desc": "🍣 晚餐：迴轉壽司 活美登利 澀谷店 · 高CP值"
+          "desc": "♨️ 抵達箱根強羅 · 入住久安旅館 · 換浴衣"
         },
         {
-          "time": "20:00",
-          "desc": "🎮 Taito Game Station 澀谷 · 夾娃娃、太鼓達人"
+          "time": "19:30",
+          "desc": "🍽️ 旅館內享用懷石料理晚餐"
         },
         {
-          "time": "22:00",
-          "desc": "🚇 回飯店"
+          "time": "21:00",
+          "desc": "♨️ 露天溫泉泡湯 · 星空下放鬆"
         }
       ]
     },
     {
       "day": 4,
-      "date": "Aug 18 · Tue",
-      "label_zh": "迪士尼海洋一日遊",
+      "date": "Jul 23 · Thu",
+      "label_zh": "箱根觀光 → 返回東京",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA飯店 新宿御苑前",
+      "hotel_name_zh": "APA新宿御苑前飯店",
       "hotel_room": "標準雙人房 × 3間",
-      "weather": "⛅ 31°/26°",
-      "rain_pct": "30%",
+      "weather": "⛅ 27°/19°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "06:30",
-          "desc": "⏰ 早起！便利商店買早餐與午餐飯糰"
-        },
-        {
           "time": "07:30",
-          "desc": "🚇 搭地鐵至舞濱站 · 轉迪士尼度假區線"
+          "desc": "🥢 旅館日式早餐"
         },
         {
           "time": "08:30",
-          "desc": "🎢 入園東京迪士尼海洋 · 抽快速通關 · 玩地心探險"
+          "desc": "🚠 箱根登山電車 → 早雲山 → 空中纜車 → 大涌谷"
         },
         {
-          "time": "12:00",
-          "desc": "🍔 園區內午餐 · 三眼怪麻糬、雞腿"
+          "time": "10:00",
+          "desc": "🌋 大涌谷 · 黑蛋（延壽7年）· 硫磺景觀"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚢 蘆之湖海盜船 · 湖上風光"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍝 午餐：箱根町 蕎麥麵（每人¥1,800）"
         },
         {
           "time": "14:00",
-          "desc": "🎡 繼續玩：印第安納瓊斯、驚魂古塔"
+          "desc": "🚃 箱根湯本 → 新宿（浪漫特快）"
         },
         {
-          "time": "17:00",
-          "desc": "🎆 夜間水上秀 · 佔位拍照"
+          "time": "16:30",
+          "desc": "🏨 再次入住APA飯店 · 放行李"
         },
         {
-          "time": "19:30",
-          "desc": "🛍️ 園區商店買紀念品"
+          "time": "18:00",
+          "desc": "🛍️ 新宿購物 · 藥妝、電器、零食"
         },
         {
-          "time": "21:00",
-          "desc": "🚇 返回新宿 · 晚餐：松屋牛丼（便宜又飽）"
+          "time": "20:00",
+          "desc": "🍖 晚餐：新宿 六歌仙燒肉放題（每人¥5,000）"
         },
         {
-          "time": "23:00",
-          "desc": "🛌 打包行李 · 準備明天回台灣"
+          "time": "22:30",
+          "desc": "🛌 回飯店 · 整理行李"
         }
       ]
     },
     {
       "day": 5,
-      "date": "Aug 19 · Wed",
-      "label_zh": "最後採購 · 回台灣",
+      "date": "Jul 24 · Fri",
+      "label_zh": "最後採買 · 返台",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA飯店 新宿御苑前",
+      "hotel_name_zh": "APA新宿御苑前飯店",
       "hotel_room": "標準雙人房 × 3間",
-      "weather": "☀️ 33°/27°",
-      "rain_pct": "10%",
+      "weather": "☀️ 33°/26°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "☀️ 起床 · 飯店退房 · 寄放行李"
+          "desc": "🥐 飯店退房 · 行李寄放櫃檯"
         },
         {
           "time": "09:00",
-          "desc": "🛍️ 唐吉訶德新宿店 · 最後採購零食、藥妝"
+          "desc": "🛍️ 上野阿美橫町 · 最後採買藥妝、零食"
         },
         {
           "time": "11:00",
-          "desc": "🍜 午餐：一蘭拉麵 新宿店 · 個人包廂體驗"
+          "desc": "🍣 午餐：上野 伊豆榮鰻魚飯（每人¥3,000）"
         },
         {
           "time": "12:30",
-          "desc": "🏨 回飯店拿行李 · 搭N'EX至成田機場"
+          "desc": "🚅 搭乘Skyliner至上野→成田機場"
         },
         {
           "time": "14:00",
-          "desc": "✈️ 抵達成田機場 · 報到、託運、免稅店購物（薯條三兄弟）"
+          "desc": "🛬 成田機場報到 · 免稅店購物"
         },
         {
-          "time": "16:00",
-          "desc": "🛫 樂桃MM627 起飛回台灣"
+          "time": "14:30",
+          "desc": "✈️ 中華航空 CI 101 返回台北"
         },
         {
-          "time": "18:45",
-          "desc": "🛬 抵達桃園機場 · 結束旅程！"
+          "time": "17:10",
+          "desc": "🛬 抵達桃園TPE · 結束旅程"
         }
       ]
     }
@@ -481,27 +476,27 @@
   "costs": [
     {
       "label": "✈️ 來回機票（6人）",
-      "amount_ntd": 54000
-    },
-    {
-      "label": "🏨 住宿（4晚 × 3間房）",
       "amount_ntd": 72000
     },
     {
-      "label": "🍽️ 餐飲（6人×5天）",
-      "amount_ntd": 27000
+      "label": "🏨 住宿（APA 3晚 + 箱根1晚）",
+      "amount_ntd": 66000
     },
     {
-      "label": "🎫 迪士尼門票（6人）",
-      "amount_ntd": 15000
+      "label": "🍽️ 餐飲（6人5天）",
+      "amount_ntd": 24000
     },
     {
-      "label": "🚇 交通（Suica儲值）",
+      "label": "🎫 景點門票（Shibuya Sky、箱根纜車等）",
       "amount_ntd": 6000
+    },
+    {
+      "label": "🚇 交通（Suica、浪漫特快、Skyliner）",
+      "amount_ntd": 9000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 6000
+      "amount_ntd": 3000
     }
   ],
   "cost_total_ntd": 180000,
@@ -509,74 +504,42 @@
   "photos": {
     "hero": [
       {
-        "url": "https://images.unsplash.com/photo-1748737349766-b708d3681d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjUzODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Man leans on stairs with a tower in view."
+        "url": "",
+        "label": "Japan (Tokyo & Hakone) skyline landmark"
       },
       {
-        "url": "https://images.unsplash.com/photo-1748737350027-c039429a9726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjUzODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "A person poses in front of tokyo tower."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1748737349766-b708d3681d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjUzODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Man leans on stairs with a tower in view."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1748737350027-c039429a9726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjUzODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "A person poses in front of tokyo tower."
+        "url": "",
+        "label": "Japan (Tokyo & Hakone) skyline landmark"
       }
     ],
     "destination": [
       {
-        "url": "https://images.unsplash.com/photo-1646925061069-5ac0c98f4875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a view of a city at night from the top of a building"
+        "url": "",
+        "label": "Japan (Tokyo & Hakone) travel scenery"
       },
       {
-        "url": "https://images.unsplash.com/photo-1596828131555-3aac6985b28b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white concrete building during daytime"
+        "url": "",
+        "label": "Japan (Tokyo & Hakone) travel scenery"
       },
       {
-        "url": "https://images.unsplash.com/photo-1578592325919-ca966e981cb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view photography of city"
+        "url": "",
+        "label": "Japan (Tokyo & Hakone) travel scenery"
       },
       {
-        "url": "https://images.unsplash.com/photo-1595974379331-e1c32bcb10cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking on white hallway"
+        "url": "",
+        "label": "Japan (Tokyo & Hakone) travel scenery"
       },
       {
-        "url": "https://images.unsplash.com/photo-1596646871656-644fd932d316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking on sidewalk during daytime"
+        "url": "",
+        "label": "Japan (Tokyo & Hakone) travel scenery"
       },
       {
-        "url": "https://images.unsplash.com/photo-1595974379393-3a3418a211df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown and black skull on gray concrete floor"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1646925061069-5ac0c98f4875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a view of a city at night from the top of a building"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1596828131555-3aac6985b28b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white concrete building during daytime"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1578592325919-ca966e981cb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view photography of city"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1595974379331-e1c32bcb10cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking on white hallway"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1596646871656-644fd932d316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking on sidewalk during daytime"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1595974379393-3a3418a211df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODY1Mzg1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown and black skull on gray concrete floor"
+        "url": "",
+        "label": "Japan (Tokyo & Hakone) travel scenery"
       }
     ]
   },
-  "chat_hash": "b5a4dde91f3f7e6f53cb31e46bfa25593abc3799f784c0072504c1947cd7700f",
+  "chat_hash": "6202525bf862304e269142a0f266de58c1dd92e64ad566004dfbe1b21fcb777c",
   "config_hash": "7d76b2ac82f53bd0779ad8d52329ba21d84102475602a83604161227ec781752",
-  "generated_at": "2026-05-13T21:07:52.845346"
+  "generated_at": "2026-05-13T21:20:45.740073"
 }
