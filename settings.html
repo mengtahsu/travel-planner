@@ -119,27 +119,29 @@ async function loadSettings() {
   // Token only from localStorage, never from repo
   document.getElementById('chat_token').value = localStorage.getItem('github_chat_token') || '';
 
-  // 2. Sync from GitHub API (authenticated — gets the REAL latest, not stale Pages CDN)
-  const token = localStorage.getItem('github_chat_token');
-  if(token) {
-    try {
-      const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
-        headers: { 'Authorization': `Bearer ${token}` }
-      });
-      if(resp.ok) {
-        const raw = await resp.json();
-        const bytes = Uint8Array.from(atob(raw.content), function(c) { return c.charCodeAt(0); });
-        const data = JSON.parse(new TextDecoder().decode(bytes));
-        setFormValues(data);
-        localStorage.setItem('travel_settings', JSON.stringify(data));
-        loaded = true;
+  // 2. If localStorage is empty, sync from GitHub API
+  if(!loaded) {
+    const token = localStorage.getItem('github_chat_token');
+    if(token) {
+      try {
+        const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
+          headers: { 'Authorization': `Bearer ${token}` }
+        });
+        if(resp.ok) {
+          const raw = await resp.json();
+          const bytes = Uint8Array.from(atob(raw.content), function(c) { return c.charCodeAt(0); });
+          const data = JSON.parse(new TextDecoder().decode(bytes));
+          setFormValues(data);
+          localStorage.setItem('travel_settings', JSON.stringify(data));
+          loaded = true;
+        }
+      } catch(e) {
+        console.error('Failed to sync from GitHub API:', e);
       }
-    } catch(e) {
-      console.error('Failed to sync from GitHub API:', e);
     }
   }
 
-  // 3. Fallback: try static file from Pages (may be stale but better than nothing)
+  // 3. Fallback: try static file
   if(!loaded) {
     try {
       const resp = await fetch('config/settings.json');
