@@ -1,9 +1,9 @@
 {
-  "destination_en": "Japan",
-  "title_zh": "日本東京 · 大學生五人六日遊",
-  "date_range": "2027/07/01–07/05",
-  "start_date": "2027-07-01",
-  "end_date": "2027-07-05",
+  "destination_en": "Tokyo, Japan",
+  "title_zh": "暑假東京 · 大學生自由行5天",
+  "date_range": "2027/07/10–07/14",
+  "start_date": "2027-07-10",
+  "end_date": "2027-07-14",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
   "destination_code": "NRT",
@@ -12,23 +12,23 @@
   "budget_ntd": 180000,
   "flight": {
     "airline": "台灣虎航 Tigerair Taiwan",
-    "departure_date": "7月1日",
-    "return_date": "7月5日",
-    "total_price_ntd": 90000,
+    "departure_date": "7月10日",
+    "return_date": "7月14日",
+    "total_price_ntd": 72000,
     "outbound": {
       "flight_no": "IT 200",
       "route": "TPE → NRT 直飛",
-      "depart_time": "06:40",
-      "arrive_time": "11:00",
-      "duration": "3h 20m",
+      "depart_time": "06:00",
+      "arrive_time": "10:00",
+      "duration": "3h 00m",
       "class": "經濟艙"
     },
     "inbound": {
       "flight_no": "IT 201",
       "route": "NRT → TPE 直飛",
-      "depart_time": "12:00",
-      "arrive_time": "14:40",
-      "duration": "3h 40m",
+      "depart_time": "11:00",
+      "arrive_time": "14:00",
+      "duration": "3h 00m",
       "class": "經濟艙"
     }
   },
@@ -37,125 +37,62 @@
       "name": "APA Hotel Shinjuku Gyoenmae",
       "name_zh": "APA新宿御苑前酒店",
       "district": "新宿區",
-      "day_range": "1–3",
-      "nights": 3,
-      "price_ntd": 36000,
+      "day_range": "1–4",
+      "nights": 4,
+      "price_ntd": 48000,
       "stars": "★★★☆☆",
-      "room_type": "雙床房 x3間",
+      "room_type": "雙人房 × 3間（每人每晚NT$2000）",
       "breakfast": "不含早餐",
-      "amenities": "🚿 獨立衛浴 · 📶 免費WiFi · 🧳 行李寄存 · 🏪 附近便利商店",
-      "search_query": "APA Hotel Shinjuku Gyoenmae Tokyo Japan",
+      "amenities": "🚿 免費WiFi · 🧳 行李寄存 · 🏪 便利商店步行1分鐘",
+      "search_query": "APA Hotel Shinjuku Gyoenmae Tokyo",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1752741030528-4472bfd660b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A hallway leads to a view of lush greenery."
+          "url": "https://images.unsplash.com/photo-1753429438927-b2d0bdf3bc6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Nighttime cityscape showing illuminated buildings and traffic."
         },
         {
-          "url": "https://images.unsplash.com/photo-1752048974982-eef5f2b77775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bridge connects two buildings amongst trees."
+          "url": "https://images.unsplash.com/photo-1551670083-4245449ff595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "purple vehicle parked beside building during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1753432197626-16a761881218?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A hotel is seen amidst dark trees."
+          "url": "https://images.unsplash.com/photo-1626569783854-0140f81906a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown concrete building during night time"
         },
         {
-          "url": "https://images.unsplash.com/photo-1732176937177-2089223cb821?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A building with a glass door and a clock on it"
+          "url": "https://images.unsplash.com/photo-1700646751548-799ea2fcad34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a tall brown building sitting next to a traffic light"
         },
         {
-          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bedroom with a large bed and wooden floors"
+          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a city at night from the top of a building"
         },
         {
-          "url": "https://images.unsplash.com/photo-1742868111357-c383f85f5b88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Two empty glasses sit by a window."
+          "url": "https://images.unsplash.com/photo-1694968462661-64a338ef3907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a tall red and white building next to a tall building"
         },
         {
-          "url": "https://images.unsplash.com/photo-1752741030528-4472bfd660b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A hallway leads to a view of lush greenery."
+          "url": "https://images.unsplash.com/photo-1753429438927-b2d0bdf3bc6d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Nighttime cityscape showing illuminated buildings and traffic."
         },
         {
-          "url": "https://images.unsplash.com/photo-1752048974982-eef5f2b77775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bridge connects two buildings amongst trees."
+          "url": "https://images.unsplash.com/photo-1551670083-4245449ff595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "purple vehicle parked beside building during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1753432197626-16a761881218?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A hotel is seen amidst dark trees."
+          "url": "https://images.unsplash.com/photo-1626569783854-0140f81906a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown concrete building during night time"
         },
         {
-          "url": "https://images.unsplash.com/photo-1732176937177-2089223cb821?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A building with a glass door and a clock on it"
+          "url": "https://images.unsplash.com/photo-1700646751548-799ea2fcad34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a tall brown building sitting next to a traffic light"
         },
         {
-          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bedroom with a large bed and wooden floors"
+          "url": "https://images.unsplash.com/photo-1705800022658-664ec7532f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a city at night from the top of a building"
         },
         {
-          "url": "https://images.unsplash.com/photo-1742868111357-c383f85f5b88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Two empty glasses sit by a window."
-        }
-      ]
-    },
-    {
-      "name": "Hotel Gracery Shinjuku",
-      "name_zh": "格拉斯麗新宿酒店",
-      "district": "新宿區",
-      "day_range": "4–5",
-      "nights": 2,
-      "price_ntd": 24000,
-      "stars": "★★★★☆",
-      "room_type": "雙床房 x3間",
-      "breakfast": "含日式簡易早餐",
-      "amenities": "🎬 哥吉拉主題 · 🏋️ 健身房 · 🛍️ 直結新宿東口 · ☕ 大廳咖啡",
-      "search_query": "Hotel Gracery Shinjuku Tokyo Japan",
-      "photos": [
-        {
-          "url": "https://images.unsplash.com/photo-1752741030528-4472bfd660b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A hallway leads to a view of lush greenery."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1752048974982-eef5f2b77775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bridge connects two buildings amongst trees."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1753432197626-16a761881218?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A hotel is seen amidst dark trees."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1732176937177-2089223cb821?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A building with a glass door and a clock on it"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bedroom with a large bed and wooden floors"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1742868111357-c383f85f5b88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Two empty glasses sit by a window."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1752741030528-4472bfd660b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A hallway leads to a view of lush greenery."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1752048974982-eef5f2b77775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bridge connects two buildings amongst trees."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1753432197626-16a761881218?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A hotel is seen amidst dark trees."
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1732176937177-2089223cb821?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A building with a glass door and a clock on it"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bedroom with a large bed and wooden floors"
-        },
-        {
-          "url": "https://images.unsplash.com/photo-1742868111357-c383f85f5b88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Two empty glasses sit by a window."
+          "url": "https://images.unsplash.com/photo-1694968462661-64a338ef3907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxBUEElMjBIb3RlbCUyMFNoaW5qdWt1JTIwR3lvZW5tYWUlMjBUb2t5b3xlbnwwfDB8fHwxNzc4NjMyMjQyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a tall red and white building next to a tall building"
         }
       ]
     }
@@ -164,38 +101,22 @@
     "fine_dining": [
       {
         "name": "Sushi Saito",
-        "name_zh": "すし齊藤 · 米其林三星",
+        "name_zh": "鮨齋藤 · 米其林三星壽司",
         "stars": "⭐⭐⭐",
-        "dish": "🍣 主廚精選握壽司套餐",
-        "address": "東京都港區赤坂1-9-15 三和ビル3F",
-        "price_ntd": 11250,
-        "price_label": "午餐套餐 ¥25,000/人 · NT$5,625",
+        "dish": "🍣 招牌：主廚精選握壽司套餐",
+        "address": "東京都港區赤坂1-9-15",
+        "price_ntd": 9000,
+        "price_label": "午餐套餐 ¥40,000/人 · NT$9,000",
         "hours": "12:00–14:00 · 需提前一個月預約",
-        "search_query": "Sushi Saito Tokyo reservation",
+        "search_query": "Sushi Saito Tokyo",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1602487252242-c1785faff2ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "text"
+            "url": "https://images.unsplash.com/photo-1766582931794-b7bc2936ce6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Long table set for a meal in a restaurant"
           },
           {
-            "url": "https://images.unsplash.com/photo-1582538955726-8a88710bc514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "man in white chef uniform standing in front of food display counter"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1675300423702-6f862323b27d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a building that has lights on the outside of it"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1602487252242-c1785faff2ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "text"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1582538955726-8a88710bc514?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "man in white chef uniform standing in front of food display counter"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1675300423702-6f862323b27d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTdXNoaSUyMFNhaXRvJTIwVG9reW8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4NjMxNjQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a building that has lights on the outside of it"
+            "url": "https://images.unsplash.com/photo-1766582931794-b7bc2936ce6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg1NDc2NTh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Long table set for a meal in a restaurant"
           }
         ]
       }
@@ -205,75 +126,75 @@
         "name": "Afuri",
         "name_zh": "阿夫利柚子鹽拉麵",
         "stars": "",
-        "dish": "🍜 柚子鹽拉麵 · 叉燒飯",
+        "dish": "🍜 招牌：柚子鹽拉麵 · 叉燒飯",
         "address": "東京都澀谷區惠比壽1-1-7",
-        "price_ntd": 540,
-        "price_label": "拉麵 ¥1,200/人 · NT$270",
+        "price_ntd": 400,
+        "price_label": "一碗拉麵 ¥900 · NT$200",
         "hours": "11:00–23:00",
-        "search_query": "Afuri ramen Ebisu Tokyo",
+        "search_query": "Afuri ramen Tokyo",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1633073623899-476ecaec59c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2NDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a cup of coffee on a saucer with a spoon"
+            "url": "https://images.unsplash.com/photo-1632709810780-b5a4343cebec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a bowl of soup with meat, vegetables and an egg"
           },
           {
-            "url": "https://images.unsplash.com/photo-1694211490308-25f03a7fede9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2NDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a plate of food on a table next to a glass of tea"
+            "url": "https://images.unsplash.com/photo-1614563637806-1d0e645e0940?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "egg and vegetable dish on black ceramic bowl"
           },
           {
-            "url": "https://images.unsplash.com/photo-1738932046330-6aabc9aaf60e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxiaXN0cm9zJTIwZm9vZCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2NDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A display case filled with lots of different colored glass items"
+            "url": "https://images.unsplash.com/photo-1728200696576-1ebbd7209b3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A chinese restaurant with a mural of a man on the door"
           },
           {
-            "url": "https://images.unsplash.com/photo-1633073623899-476ecaec59c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxiaXN0cm9zJTIwZm9vZCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2NDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a cup of coffee on a saucer with a spoon"
+            "url": "https://images.unsplash.com/photo-1632709810780-b5a4343cebec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a bowl of soup with meat, vegetables and an egg"
           },
           {
-            "url": "https://images.unsplash.com/photo-1694211490308-25f03a7fede9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxiaXN0cm9zJTIwZm9vZCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2NDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a plate of food on a table next to a glass of tea"
+            "url": "https://images.unsplash.com/photo-1614563637806-1d0e645e0940?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "egg and vegetable dish on black ceramic bowl"
           },
           {
-            "url": "https://images.unsplash.com/photo-1738932046330-6aabc9aaf60e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxiaXN0cm9zJTIwZm9vZCUyMEphcGFufGVufDB8MHx8fDE3Nzg2MzE2NDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A display case filled with lots of different colored glass items"
+            "url": "https://images.unsplash.com/photo-1728200696576-1ebbd7209b3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxBZnVyaSUyMHJhbWVuJTIwVG9reW98ZW58MHwwfHx8MTc3ODU1ODQ1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A chinese restaurant with a mural of a man on the door"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Bills Omotesando",
-        "name_zh": "比爾斯表參道店 · 澳洲鬆餅名店",
+        "name": "Reissue",
+        "name_zh": "Reissue 貓頭鷹拉花咖啡",
         "stars": "",
-        "dish": "🥞 招牌Ricotta鬆餅 · 炒蛋 · 咖啡",
-        "address": "東京都澀谷區神宮前4-30-3 東急プラザ表参道7F",
-        "price_ntd": 720,
-        "price_label": "鬆餅套餐 ¥1,600/人 · NT$360",
-        "hours": "08:30–22:00",
-        "search_query": "Bills Omotesando Tokyo pancakes",
+        "dish": "☕ 招牌：3D立體貓咪拿鐵 · 抹茶拿鐵",
+        "address": "東京都澀谷區神宮前4-12-10",
+        "price_ntd": 250,
+        "price_label": "一杯拿鐵 ¥550 · NT$125",
+        "hours": "10:00–19:00",
+        "search_query": "Reissue cafe Harajuku",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1739466654743-3ed1bf635cfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxCaWxscyUyME9tb3Rlc2FuZG8lMjBUb2t5byUyMHBhbmNha2VzfGVufDB8MHx8fDE3Nzg2MzE2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A man in a chef's uniform preparing food in a kitchen"
+            "url": "https://images.unsplash.com/photo-1680699641188-89db50dbad04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODU0NzY2M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a cup and saucer sitting on a table"
           },
           {
-            "url": "https://images.unsplash.com/photo-1593343534320-75e59f3f4232?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxCaWxscyUyME9tb3Rlc2FuZG8lMjBUb2t5byUyMHBhbmNha2VzfGVufDB8MHx8fDE3Nzg2MzE2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "people standing in front of white and blue building during daytime"
+            "url": "https://images.unsplash.com/photo-1593344707888-527ce75afbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODU0NzY2M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white and black disposable cup"
           },
           {
-            "url": "https://images.unsplash.com/photo-1701930873231-88c9ec2ea0f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxCaWxscyUyME9tb3Rlc2FuZG8lMjBUb2t5byUyMHBhbmNha2VzfGVufDB8MHx8fDE3Nzg2MzE2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a store front window with a display of dishes"
+            "url": "https://images.unsplash.com/photo-1694211493881-76411bdb31ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODU0NzY2M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a couple of plates of food on a table"
           },
           {
-            "url": "https://images.unsplash.com/photo-1739466654743-3ed1bf635cfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxCaWxscyUyME9tb3Rlc2FuZG8lMjBUb2t5byUyMHBhbmNha2VzfGVufDB8MHx8fDE3Nzg2MzE2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A man in a chef's uniform preparing food in a kitchen"
+            "url": "https://images.unsplash.com/photo-1680699641188-89db50dbad04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODU0NzY2M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a cup and saucer sitting on a table"
           },
           {
-            "url": "https://images.unsplash.com/photo-1593343534320-75e59f3f4232?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxCaWxscyUyME9tb3Rlc2FuZG8lMjBUb2t5byUyMHBhbmNha2VzfGVufDB8MHx8fDE3Nzg2MzE2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "people standing in front of white and blue building during daytime"
+            "url": "https://images.unsplash.com/photo-1593344707888-527ce75afbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODU0NzY2M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white and black disposable cup"
           },
           {
-            "url": "https://images.unsplash.com/photo-1701930873231-88c9ec2ea0f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxCaWxscyUyME9tb3Rlc2FuZG8lMjBUb2t5byUyMHBhbmNha2VzfGVufDB8MHx8fDE3Nzg2MzE2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a store front window with a display of dishes"
+            "url": "https://images.unsplash.com/photo-1694211493881-76411bdb31ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODU0NzY2M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a couple of plates of food on a table"
           }
         ]
       }
@@ -282,213 +203,237 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "July 1 · Thu",
+      "date": "Jul 10 · Sat",
       "label_zh": "抵達日 · 新宿探索",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
       "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 x3間",
-      "weather": "☀️ 32°/24°",
+      "hotel_room": "雙人房 × 3間",
+      "weather": "☀️ 32°/25°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "06:40",
-          "desc": "✈️ 桃園TPE出發 · 虎航IT200 · 預計11:00抵達成田"
+          "time": "06:00",
+          "desc": "✈️ 桃園機場 T1 出發 · 虎航 IT200 直飛成田"
         },
         {
-          "time": "11:00",
-          "desc": "🛬 抵達NRT · 入境、領行李 · 購買Suica卡"
+          "time": "10:00",
+          "desc": "🛬 抵達成田機場 · 購買Suica卡 · 搭乘N'EX列車至新宿（約1.5小時）"
         },
         {
           "time": "12:30",
-          "desc": "🚄 搭乘N'EX成田特快至新宿站（約80分鐘）"
+          "desc": "🏨 入住APA新宿御苑前酒店 · 寄放行李"
         },
         {
-          "time": "14:00",
-          "desc": "🏨 APA新宿御苑前酒店 Check-in · 放行李 · 稍作休息"
+          "time": "13:00",
+          "desc": "🍜 Afuri 惠比壽本店 · 柚子鹽拉麵午餐"
         },
         {
-          "time": "15:30",
-          "desc": "🍜 阿夫利惠比壽本店 · 柚子鹽拉麵午餐"
+          "time": "15:00",
+          "desc": "🛍️ 澀谷十字路口 · 109百貨 · 唐吉訶德"
         },
         {
           "time": "17:00",
-          "desc": "🗼 東京鐵塔 · 拍照留念 · 展望台（¥1,200/人）"
+          "desc": "☕ Reissue 原宿店 · 立體拉花咖啡"
         },
         {
-          "time": "19:00",
-          "desc": "🍣 回新宿 · 思い出橫丁吃串燒 · 體驗居酒屋文化"
+          "time": "18:30",
+          "desc": "🎮 秋葉原電器街 · 扭蛋會館 · 逛動漫店"
         },
         {
-          "time": "21:00",
-          "desc": "🏨 返回APA酒店 · 自由活動 · 便利商店買宵夜"
+          "time": "20:00",
+          "desc": "🍢 新宿思い出橫丁 · 串燒居酒屋 · 每人大約NT$600"
+        },
+        {
+          "time": "22:00",
+          "desc": "🏨 回飯店休息 · 便利商店買消夜"
         }
       ]
     },
     {
       "day": 2,
-      "date": "July 2 · Fri",
-      "label_zh": "經典東京 · 淺草＋秋葉原",
+      "date": "Jul 11 · Sun",
+      "label_zh": "迪士尼樂園一日遊",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
       "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 x3間",
-      "weather": "☀️ 33°/25°",
-      "rain_pct": "5%",
+      "hotel_room": "雙人房 × 3間",
+      "weather": "☀️ 31°/26°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🥐 新宿車站周邊麵包店早餐（自行覓食）"
+          "time": "07:00",
+          "desc": "🌅 起床 · 便利商店早餐（飯糰+飲料）"
         },
         {
-          "time": "09:00",
-          "desc": "🚇 地鐵至淺草站 · 雷門 · 仲見世通 · 淺草寺"
+          "time": "07:30",
+          "desc": "🚇 新宿站搭乘JR京葉線至舞濱站（約40分鐘）"
         },
         {
-          "time": "11:30",
-          "desc": "👘 淺草和服體驗（預約2小時，約¥4,000/人）"
+          "time": "08:30",
+          "desc": "🎢 東京迪士尼樂園入園 · 抽美女與野獸快速通關"
         },
         {
-          "time": "13:00",
-          "desc": "🍜 淺草名代拉麵「並木藪蕎麥」"
+          "time": "12:00",
+          "desc": "🍔 園區內午餐 · 太空漢堡套餐 NT$500/人"
         },
         {
-          "time": "14:30",
-          "desc": "🚇 地鐵至秋葉原 · 電器街 · 動漫周邊 · 扭蛋"
+          "time": "15:00",
+          "desc": "🎠 遊行表演 · 夢幻樂園拍照"
         },
         {
-          "time": "17:00",
-          "desc": "🎮 秋葉原SEGA遊戲中心 · 夾娃娃"
+          "time": "18:00",
+          "desc": "🌆 夜間電子花車遊行"
         },
         {
-          "time": "19:00",
-          "desc": "🍖 秋葉原「牛角」燒肉吃到飽（¥3,000/人）"
+          "time": "20:00",
+          "desc": "🎆 煙火秀（視天氣）"
         },
         {
           "time": "21:00",
-          "desc": "🏨 返回APA酒店"
+          "desc": "🚇 回新宿 · 松屋牛丼晚餐（NT$300/人）"
+        },
+        {
+          "time": "22:30",
+          "desc": "🏨 回飯店 · 整理今日照片"
         }
       ]
     },
     {
       "day": 3,
-      "date": "July 3 · Sat",
-      "label_zh": "澀谷・原宿・表參道購物日",
+      "date": "Jul 12 · Mon",
+      "label_zh": "淺草 · 晴空塔 · 台場",
       "hotel_name": "APA Hotel Shinjuku Gyoenmae",
       "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 x3間",
-      "weather": "⛅ 31°/24°",
-      "rain_pct": "20%",
+      "hotel_room": "雙人房 × 3間",
+      "weather": "⛅ 30°/24°",
+      "rain_pct": "30%",
       "slots": [
         {
-          "time": "08:30",
-          "desc": "🥞 Bills表參道 · 招牌鬆餅早餐"
+          "time": "08:00",
+          "desc": "🥐 飯店附近咖啡廳早餐（NT$250/人）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚇 新宿→淺草（都營淺草線）"
         },
         {
           "time": "10:00",
-          "desc": "🛍️ 原宿竹下通 · 可麗餅 · 平價服飾"
+          "desc": "🏮 淺草雷門 · 仲見世通商店街 · 吃人形燒"
+        },
+        {
+          "time": "11:30",
+          "desc": "⛩️ 淺草寺參拜 · 抽籤"
         },
         {
           "time": "12:30",
-          "desc": "🍜 原宿「一蘭拉麵」"
+          "desc": "🍣 大黑家天婦羅蓋飯（NT$600/人）"
         },
         {
           "time": "14:00",
-          "desc": "🛍️ 澀谷109 · 潮流服飾 · 藥妝店"
+          "desc": "🗼 晴空塔 · 展望台門票NT$700/人 · 逛Solamachi商場"
         },
         {
-          "time": "16:00",
-          "desc": "🐕 澀谷忠犬八公像 · 十字路口拍照"
+          "time": "17:00",
+          "desc": "🚢 搭乘水上巴士至台場（約40分鐘）"
         },
         {
-          "time": "17:30",
-          "desc": "☕ 澀谷「星巴克臻選」欣賞十字路口"
+          "time": "18:00",
+          "desc": "🤖 台場 · 鋼彈立像 · DiverCity購物"
         },
         {
-          "time": "19:00",
-          "desc": "🍣 澀谷「魚米」迴轉壽司（¥1,500/人）"
+          "time": "20:00",
+          "desc": "🍕台場美食廣場晚餐（NT$500/人）"
         },
         {
-          "time": "21:00",
-          "desc": "🏨 返回APA酒店 · 整理行李"
+          "time": "21:30",
+          "desc": "🚇 回新宿 · 飯店休息"
         }
       ]
     },
     {
       "day": 4,
-      "date": "July 4 · Sun",
-      "label_zh": "迪士尼海洋一日遊",
-      "hotel_name": "Hotel Gracery Shinjuku",
-      "hotel_name_zh": "格拉斯麗新宿酒店",
-      "hotel_room": "雙床房 x3間",
-      "weather": "☀️ 30°/23°",
+      "date": "Jul 13 · Tue",
+      "label_zh": "築地 · 銀座 · 澀谷",
+      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
+      "hotel_name_zh": "APA新宿御苑前酒店",
+      "hotel_room": "雙人房 × 3間",
+      "weather": "☀️ 33°/26°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🏨 APA退房 · 行李寄存或寄放櫃檯"
+          "time": "06:30",
+          "desc": "🌅 早起 · 築地市場（場外市場）"
         },
         {
-          "time": "08:00",
-          "desc": "🚇 新宿站搭乘JR至舞濱站 · 轉迪士尼單軌電車"
+          "time": "07:30",
+          "desc": "🍣 壽司大或大和壽司 · 每人NT$1,500"
         },
         {
           "time": "09:00",
-          "desc": "🎢 東京迪士尼海洋入園（一日護照 ¥9,000/人）"
+          "desc": "🚶 築地本願寺 · 銀座散步"
         },
         {
-          "time": "12:00",
-          "desc": "🍔 園區內午餐（火雞腿 · 三眼怪麻糬）"
+          "time": "10:30",
+          "desc": "🛍️ 銀座無印良品旗艦店 · Loft"
         },
         {
-          "time": "15:00",
-          "desc": "🎠 遊樂設施 · 地中海港灣表演"
+          "time": "12:30",
+          "desc": "🍜 銀座篝拉麵（雞白湯）NT$400/人"
         },
         {
-          "time": "18:00",
-          "desc": "🎆 夜間水上秀「Fantasmic!」"
+          "time": "14:00",
+          "desc": "🎨 teamLab Borderless（麻布台）門票NT$800/人"
         },
         {
-          "time": "19:30",
-          "desc": "🚇 返回新宿 · 至格拉斯麗酒店Check-in"
+          "time": "17:00",
+          "desc": "🛒 澀谷PARCO · 任天堂商店 · 寶可夢中心"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍖 澀谷燒肉LIKE · 一人燒肉NT$600/人"
         },
         {
           "time": "21:00",
-          "desc": "🍖 新宿「鳥貴族」串燒居酒屋 · 慶祝生日"
+          "desc": "🌃 新宿黃金街 · 酒吧體驗（每人一杯NT$400）"
+        },
+        {
+          "time": "23:00",
+          "desc": "🏨 回飯店 · 打包行李"
         }
       ]
     },
     {
       "day": 5,
-      "date": "July 5 · Mon",
-      "label_zh": "最後衝刺 · 返台",
-      "hotel_name": "Hotel Gracery Shinjuku",
-      "hotel_name_zh": "格拉斯麗新宿酒店",
-      "hotel_room": "雙床房 x3間",
-      "weather": "☀️ 31°/24°",
-      "rain_pct": "5%",
+      "date": "Jul 14 · Wed",
+      "label_zh": "回程日 · 成田機場",
+      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
+      "hotel_name_zh": "APA新宿御苑前酒店",
+      "hotel_room": "雙人房 × 3間",
+      "weather": "☀️ 31°/25°",
+      "rain_pct": "10%",
       "slots": [
         {
           "time": "07:00",
-          "desc": "🏨 格拉斯麗早餐後退房 · 寄放行李"
+          "desc": "🌅 起床 · 飯店早餐（前一天買好）"
+        },
+        {
+          "time": "08:00",
+          "desc": "🏨 退房 · 寄放行李在飯店"
         },
         {
           "time": "08:30",
-          "desc": "🛍️ 新宿藥妝店最後採買 · 唐吉訶德"
+          "desc": "🛍️ 新宿周邊最後採購 · 藥妝店 · Bic Camera"
         },
         {
-          "time": "10:00",
-          "desc": "🚇 搭乘N'EX至成田機場"
-        },
-        {
-          "time": "11:30",
-          "desc": "🛫 成田機場報到 · 免稅店購物（伴手禮）"
+          "time": "10:30",
+          "desc": "🚇 新宿站搭乘N'EX至成田機場"
         },
         {
           "time": "12:00",
-          "desc": "✈️ 虎航IT201起飛"
+          "desc": "🛬 抵達成田機場 · 報到 · 免稅店購物"
         },
         {
-          "time": "14:40",
-          "desc": "🛬 抵達桃園TPE · 旅程結束"
+          "time": "14:00",
+          "desc": "✈️ 虎航IT201回台灣 · 結束旅程"
         }
       ]
     }
@@ -496,102 +441,102 @@
   "costs": [
     {
       "label": "✈️ 來回機票（6人）",
-      "amount_ntd": 90000
+      "amount_ntd": 72000
     },
     {
-      "label": "🏨 住宿（5晚6人）",
-      "amount_ntd": 60000
+      "label": "🏨 住宿（4晚）",
+      "amount_ntd": 48000
     },
     {
-      "label": "🍽️ 餐飲（6人5天）",
-      "amount_ntd": 54000
-    },
-    {
-      "label": "🎫 景點門票（6人）",
+      "label": "🍽️ 餐飲（6人）",
       "amount_ntd": 30000
     },
     {
-      "label": "🚇 交通（6人）",
+      "label": "🎫 景點門票（迪士尼等）",
       "amount_ntd": 18000
     },
     {
-      "label": "🛍️ 購物伴手禮（6人）",
-      "amount_ntd": 24000
+      "label": "🚇 交通（Suica + N'EX）",
+      "amount_ntd": 12000
+    },
+    {
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 0
     }
   ],
-  "cost_total_ntd": 276000,
-  "budget_remaining_ntd": 24000,
+  "cost_total_ntd": 180000,
+  "budget_remaining_ntd": 0,
   "photos": {
     "hero": [
       {
-        "url": "https://images.unsplash.com/photo-1748737350027-c039429a9726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxKYXBhbiUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjMxNjM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "A person poses in front of tokyo tower."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1748737349766-b708d3681d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxKYXBhbiUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjMxNjM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "url": "https://images.unsplash.com/photo-1748737349766-b708d3681d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NTQ3NjUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
         "label": "Man leans on stairs with a tower in view."
       },
       {
-        "url": "https://images.unsplash.com/photo-1748737350027-c039429a9726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxKYXBhbiUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjMxNjM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "url": "https://images.unsplash.com/photo-1748737350027-c039429a9726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NTQ3NjUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
         "label": "A person poses in front of tokyo tower."
       },
       {
-        "url": "https://images.unsplash.com/photo-1748737349766-b708d3681d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxKYXBhbiUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NjMxNjM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "url": "https://images.unsplash.com/photo-1748737349766-b708d3681d4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NTQ3NjUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
         "label": "Man leans on stairs with a tower in view."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1748737350027-c039429a9726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4NTQ3NjUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A person poses in front of tokyo tower."
       }
     ],
     "destination": [
       {
-        "url": "https://images.unsplash.com/photo-1695240148151-e48bf759580d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a group of tall buildings sitting next to each other"
+        "url": "https://images.unsplash.com/photo-1646925061069-5ac0c98f4875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a view of a city at night from the top of a building"
       },
       {
-        "url": "https://images.unsplash.com/photo-1711363509678-61986bd74535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a red bridge over a body of water"
+        "url": "https://images.unsplash.com/photo-1596828131555-3aac6985b28b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "white concrete building during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1711363509247-6a39cd53f25a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a building with a red roof and a fan on top of it"
+        "url": "https://images.unsplash.com/photo-1578592325919-ca966e981cb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "aerial view photography of city"
       },
       {
-        "url": "https://images.unsplash.com/photo-1711363509330-17bc46f3ee23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a couple of people that are walking down some steps"
+        "url": "https://images.unsplash.com/photo-1596646871656-644fd932d316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "people walking on sidewalk during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1711363509981-d86cea94b6b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a bridge over a body of water in a city"
+        "url": "https://images.unsplash.com/photo-1595974379331-e1c32bcb10cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "people walking on white hallway"
       },
       {
-        "url": "https://images.unsplash.com/photo-1711363509159-0a629c7149d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a man walking down a sidewalk carrying a bag"
+        "url": "https://images.unsplash.com/photo-1595974379393-3a3418a211df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown and black skull on gray concrete floor"
       },
       {
-        "url": "https://images.unsplash.com/photo-1695240148151-e48bf759580d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a group of tall buildings sitting next to each other"
+        "url": "https://images.unsplash.com/photo-1646925061069-5ac0c98f4875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a view of a city at night from the top of a building"
       },
       {
-        "url": "https://images.unsplash.com/photo-1711363509678-61986bd74535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a red bridge over a body of water"
+        "url": "https://images.unsplash.com/photo-1596828131555-3aac6985b28b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "white concrete building during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1711363509247-6a39cd53f25a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a building with a red roof and a fan on top of it"
+        "url": "https://images.unsplash.com/photo-1578592325919-ca966e981cb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "aerial view photography of city"
       },
       {
-        "url": "https://images.unsplash.com/photo-1711363509330-17bc46f3ee23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a couple of people that are walking down some steps"
+        "url": "https://images.unsplash.com/photo-1596646871656-644fd932d316?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "people walking on sidewalk during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1711363509981-d86cea94b6b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a bridge over a body of water in a city"
+        "url": "https://images.unsplash.com/photo-1595974379331-e1c32bcb10cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "people walking on white hallway"
       },
       {
-        "url": "https://images.unsplash.com/photo-1711363509159-0a629c7149d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxKYXBhbiUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODYzMTYzOHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a man walking down a sidewalk carrying a bag"
+        "url": "https://images.unsplash.com/photo-1595974379393-3a3418a211df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODU0NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown and black skull on gray concrete floor"
       }
     ]
   },
-  "chat_hash": "5b3af92cfc6df56d2d90cd011dee6788cfe65bdefa5e630d0f00d189291b29f5",
-  "config_hash": "ec3cd88a44df940db4f60af83a4607e4468087a8fec05212ab6b59b73e343ffe",
-  "generated_at": "2026-05-13T08:20:44.650162"
+  "chat_hash": "5eddd85fa87d76d12aee9694db1fdd672cbabad460d1cac24aed845a18226d93",
+  "config_hash": "7d76b2ac82f53bd0779ad8d52329ba21d84102475602a83604161227ec781752",
+  "generated_at": "2026-05-13T08:31:02.320167"
 }
