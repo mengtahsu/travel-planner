@@ -461,6 +461,11 @@ def push_via_api(today_key):
     if RUNS_LOG.exists():
         files_to_push["data/runs.json"] = RUNS_LOG
 
+    # Push saved plans
+    if SAVED_DIR.exists():
+        for f in SAVED_DIR.glob("*.html"):
+            files_to_push[f"data/saved/{f.name}"] = f
+
     owner = "mengtahsu"
     repo = "travel-planner"
     headers = {
@@ -532,6 +537,64 @@ def log_run(status, summary="", destination="", chat_chars=0):
 
 
 # ═══════════════════════════════════════════════════════════════
+# Save-flag check (archive plan before regenerating)
+# ═══════════════════════════════════════════════════════════════
+
+SAVED_DIR = ROOT / "data" / "saved"
+
+def check_and_archive():
+    """If save_flag is set, archive current index.html to data/saved/ before regenerating."""
+    flag = _github_api_get("data/save_flag.json")
+    if not flag:
+        return
+    try:
+        data = json.loads(flag)
+        if not data.get("save", False):
+            return
+    except Exception:
+        return
+
+    if not OUTPUT_HTML.exists():
+        return
+
+    ts = datetime.now().strftime("%Y-%m-%d-%H%M")
+    title = data.get("title", "plan").replace("/", "-").replace(" ", "-")[:40]
+    filename = f"{ts}-{title}.html"
+    SAVED_DIR.mkdir(parents=True, exist_ok=True)
+
+    html = OUTPUT_HTML.read_text(encoding="utf-8")
+    (SAVED_DIR / filename).write_text(html, encoding="utf-8")
+    print(f"        Archived: {filename}")
+
+    # Clear the flag
+    token = _get_github_token()
+    if token:
+        try:
+            # Get sha
+            resp = requests.get(
+                "https://api.github.com/repos/mengtahsu/travel-planner/contents/data/save_flag.json",
+                headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"},
+                timeout=10
+            )
+            sha = resp.json().get("sha", "") if resp.status_code == 200 else ""
+            requests.put(
+                "https://api.github.com/repos/mengtahsu/travel-planner/contents/data/save_flag.json",
+                headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"},
+                json={
+                    "message": "Clear save flag after archiving",
+                    "content": __import__("base64").b64encode(
+                        json.dumps({"save": False}).encode()
+                    ).decode(),
+                    "sha": sha or "",
+                    "branch": "main"
+                },
+                timeout=10
+            )
+        except Exception as e:
+            print(f"        Warning: could not clear save flag: {e}")
+
+
+# ═══════════════════════════════════════════════════════════════
 # Main flow
 # ═══════════════════════════════════════════════════════════════
 
@@ -551,8 +614,12 @@ def main():
     today = get_today_key()
     print(f"        Today: {today}  Destination: {config.get('destination') or '(AI pick)'}  Budget: NT${config.get('budget_ntd', 0):,}")
 
+    # Check if user flagged this plan to save before overwriting
+    progress(10, "Checking save flag...")
+    check_and_archive()
+
     # Check if chat or settings changed
-    progress(10, "Checking for changes...")
+    progress(12, "Checking for changes...")
     changed, chat_text, chat_hash, config_hash = has_changes()
     plan_exists = (PLANS_DIR / f"{today}.json").exists()
 
