@@ -577,6 +577,7 @@ def check_and_archive():
     index.insert(0, {
         "file": filename,
         "title": title,
+        "dest": data.get("dest", ""),
         "date": data.get("date", ""),
         "saved_at": ts
     })
