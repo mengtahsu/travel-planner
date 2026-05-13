@@ -1,0 +1,1560 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>2026暑假 · 大阪京都五天畢業旅行 — Travel Planner</title>
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400&family=Noto+Serif+TC:wght@300;400;600&display=swap');
+
+  :root {
+    --gold: #c9a84c;
+    --rose: #d4a0a0;
+    --cream: #faf7f2;
+    --ink: #2c2416;
+    --warm-gray: #8c8273;
+    --soft-white: #fffdf8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  .container {
+    overflow-x: hidden;
+  }
+
+  /* ─── NAVIGATION ─── */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 1rem;
+    background: var(--soft-white);
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--warm-gray);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+    flex-shrink: 0;
+  }
+  nav a:hover, nav a.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 1.25rem; }
+
+  /* ─── IMAGE SLIDER ─── */
+  .slider {
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .slider-track {
+    display: inline-flex;
+    animation: slideLeft 30s linear infinite;
+  }
+  .slider-track img {
+    height: 180px;
+    border-radius: 8px;
+    margin-right: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  @keyframes slideLeft {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    position: relative;
+    height: 400px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #2c1810 0%, #5c3a2e 30%, #8b5e4f 60%, #c4956a 100%);
+    display: flex;
+    align-items: flex-end;
+  }
+  .hero-placeholder {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%; object-fit: cover; opacity: 0.7;
+  }
+  .hero-overlay {
+    position: relative; z-index: 2;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 80%);
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 2rem 1.5rem;
+  }
+  .hero-overlay h1 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 2.5rem; font-weight: 400;
+    color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  .hero-overlay .zh-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.1rem; color: rgba(255,255,255,0.9);
+    margin-top: 0.25rem;
+  }
+  .hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    margin-top: 0.75rem;
+    color: rgba(255,255,255,0.9);
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+  }
+
+  /* ─── SECTION HEADER ─── */
+  .section-title {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.9rem; color: var(--ink); margin-bottom: 0.5rem;
+    position: relative;
+  }
+  .section-title::after {
+    content: ''; position: absolute; bottom: -6px; left: 0;
+    width: 36px; height: 2px; background: var(--gold);
+  }
+  .section-sub {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.05rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+  }
+
+  /* ─── FULL CARDS ─── */
+  .full-card {
+    background: var(--soft-white);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.03);
+  }
+  .full-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .full-card-header h2 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.6rem; font-weight: 500;
+  }
+  .external-btn {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    padding: 0.55rem 1.1rem;
+    background: var(--ink); color: #fff;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: none; cursor: pointer;
+    white-space: nowrap;
+  }
+  .external-btn.google { background: #4285f4; }
+  .external-btn.agoda { background: #e12b52; }
+  .external-btn:hover { opacity: 0.88; }
+
+  /* ─── FLIGHT ─── */
+  .flight-detail {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .flight-detail .divider {
+    width: 1px; height: 50px;
+    background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+    justify-self: center;
+  }
+  .flight-info { font-size: 1.05rem; }
+  .flight-info .label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
+  }
+  .flight-info .airline {
+    font-family: 'Playfair Display', serif; font-size: 1.3rem;
+    color: var(--ink); margin: 0.2rem 0;
+  }
+
+  /* ─── HOTEL ─── */
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .hotel-card-inner {
+    font-size: 1.05rem;
+  }
+  .hotel-card-inner h3 {
+    font-family: 'Playfair Display','Noto Serif TC',serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.2rem;
+  }
+  .hotel-card-inner .zh {
+    font-family: 'Noto Serif TC',serif;
+    font-size: 1rem;
+    color: var(--warm-gray);
+  }
+
+  /* ─── DINING ─── */
+  .dining-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .dining-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .dining-card .food-img {
+    width: 130px; height: 130px; object-fit: cover; flex-shrink: 0;
+  }
+  .dining-info {
+    padding: 1rem;
+    display: flex; flex-direction: column; justify-content: center;
+    flex: 1; min-width: 180px;
+  }
+  .food-thumbs {
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+  }
+  .food-thumbs img {
+    width: calc(50% - 2px);
+    height: 75px;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  .dining-info h4 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.1rem; margin-bottom: 0.15rem;
+  }
+  .dining-info .zh-name {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.95rem; color: var(--warm-gray);
+  }
+  .dining-info .dish {
+    font-size: 0.9rem; color: var(--gold);
+    font-style: italic; margin-top: 0.25rem;
+  }
+
+  /* ─── TIMELINE ─── */
+  .day-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.02);
+    display: grid;
+    grid-template-columns: 80px auto 90px;
+    gap: 1rem;
+    align-items: start;
+  }
+  .day-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; color: var(--gold);
+    text-align: center; line-height: 1;
+  }
+  .day-label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); text-align: center;
+  }
+  .day-zh {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.85rem; color: var(--ink); text-align: center;
+    margin-top: 0.2rem;
+  }
+  .day-schedule { font-size: 1.15rem; }
+  .day-schedule .time-slot {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    display: flex; gap: 0.6rem; align-items: baseline;
+  }
+  .time-slot .time {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem; color: var(--gold);
+    min-width: 58px; letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .day-weather {
+    font-size: 0.9rem; color: var(--warm-gray);
+    text-align: right; padding-top: 0.25rem;
+  }
+
+  /* ─── COST ─── */
+  .cost-section {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .cost-row {
+    display: flex; justify-content: space-between;
+    padding: 0.5rem 0; font-size: 1.05rem;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    flex-wrap: wrap;
+  }
+  .cost-bar {
+    height: 6px; border-radius: 3px;
+    background: rgba(201,168,76,0.15); margin: 0.75rem 0;
+  }
+  .cost-bar-fill {
+    height: 100%; border-radius: 3px;
+    background: linear-gradient(to right, var(--gold), var(--rose));
+    width: 94%;
+  }
+
+  /* ─── PAGES ─── */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* ─── SETTINGS ─── */
+  .settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .setting-group {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .setting-group label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); display: block; margin-bottom: 0.3rem;
+  }
+  .setting-group .zh-label {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.8rem; color: var(--ink); margin-bottom: 0.5rem;
+  }
+  .setting-group input, .setting-group select {
+    width: 100%; padding: 0.75rem 0.85rem;
+    border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    -webkit-appearance: none;
+  }
+  .setting-group input:focus, .setting-group select:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+  }
+  .save-btn {
+    background: linear-gradient(135deg, var(--gold), #b8942f);
+    color: #fff; border: none;
+    padding: 0.8rem 2rem; border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 0.85rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    cursor: pointer; margin-top: 1.25rem;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+  }
+  .save-btn:hover { opacity: 0.9; }
+
+  /* ─── LOG ─── */
+  .log-entry {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem; margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+  }
+  .log-date {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--gold);
+  }
+  .log-status {
+    display: inline-block; padding: 0.15rem 0.6rem; border-radius: 10px;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem; margin-left: 0.4rem;
+  }
+  .log-status.generated { background: rgba(76,175,80,0.12); color: #388e3c; }
+  .log-status.chatting { background: rgba(201,168,76,0.15); color: #8b6914; }
+
+  /* ─── CHAT ─── */
+  .chat-box {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .chat-date-label {
+    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); margin-bottom: 0.5rem;
+  }
+  .chat-box textarea {
+    width: 100%; height: 200px; padding: 1rem;
+    border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    line-height: 1.8; resize: vertical;
+    -webkit-appearance: none;
+  }
+  .chat-box textarea:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
+  }
+  .chat-hint {
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    color: var(--warm-gray); margin-top: 0.4rem; font-style: italic;
+  }
+
+  /* ─── LIGHTBOX ─── */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .lightbox.open { display: flex; }
+  .lbox-img-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    transition: opacity 0.2s;
+    cursor: default;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .lightbox img {
+      max-width: 96vw;
+      max-height: 82vh;
+    }
+    .lightbox .lbox-arrow { font-size: 2rem; margin: 0 6px; }
+  }
+  .lightbox .counter {
+    color: rgba(255,255,255,0.7);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.75rem;
+    z-index: 2;
+    position: relative;
+  }
+  .lightbox .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    border: none;
+    line-height: 1;
+  }
+  .lightbox .close-btn:hover { background: rgba(255,255,255,0.18); }
+  /* Nav zones — only inside the image wrapper, not full screen */
+  .lightbox .lbox-left,
+  .lightbox .lbox-right {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 50%;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+  .lightbox .lbox-left  { left: 0;  justify-content: flex-start; }
+  .lightbox .lbox-right { right: 0; justify-content: flex-end; }
+  .lightbox .lbox-arrow {
+    color: rgba(255,255,255,0.4);
+    font-size: 2.5rem;
+    margin: 0 16px;
+    pointer-events: none;
+    user-select: none;
+  }
+  .lightbox .lbox-left:hover .lbox-arrow,
+  .lightbox .lbox-right:hover .lbox-arrow {
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* ─── SAVE PLAN CHECKBOX ─── */
+  .save-plan-label {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    user-select: none;
+  }
+  .save-plan-label input[type="checkbox"] {
+    width: 16px; height: 16px;
+    accent-color: var(--gold);
+    cursor: pointer;
+  }
+
+  /* ─── BROKEN IMAGES ─── */
+  img.broken { display: none !important; }
+
+  /* ═══════════════ MOBILE: iPhone ───────────────────── */
+  @media (max-width: 768px) {
+
+    .container { padding: 0.75rem; }
+
+    /* Nav — compact scrollable */
+    nav {
+      gap: 1rem;
+      padding: 0.7rem 0.75rem;
+    }
+    nav a {
+      font-size: 0.72rem;
+      letter-spacing: 1px;
+    }
+
+    /* Hero — shorter */
+    .hero {
+      height: 260px;
+      border-radius: 10px;
+    }
+    .hero-overlay {
+      padding: 1.25rem 1rem;
+    }
+    .hero-overlay h1 {
+      font-size: 1.7rem;
+    }
+    .hero-overlay .zh-title {
+      font-size: 0.95rem;
+    }
+    .hero-stats {
+      font-size: 0.75rem;
+      gap: 0.5rem 1rem;
+    }
+
+    /* Slider — smaller images */
+    .slider-track img {
+      height: 130px;
+      margin-right: 6px;
+    }
+
+    /* Full card — tighter padding */
+    .full-card {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+    .full-card-header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .full-card-header h2 {
+      font-size: 1.3rem;
+    }
+
+    /* Flight — stack vertically */
+    .flight-detail {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .flight-detail .divider {
+      width: 80%;
+      height: 1px;
+      justify-self: center;
+    }
+
+    /* Hotel — already responsive via flex-wrap */
+
+    /* Dining — single column, smaller images */
+    .dining-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+    .dining-card .food-img {
+      width: 100px; height: 100px;
+    }
+
+    /* Timeline — single column, date on top */
+    .day-card {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+      padding: 1rem;
+    }
+    .day-card > :first-child {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .day-num {
+      font-size: 1.1rem;
+      color: var(--gold);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+    .day-label {
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+    }
+    .day-zh {
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+    .day-weather {
+      text-align: left;
+      font-size: 0.8rem;
+      margin-left: auto;
+    }
+    .day-schedule { font-size: 1rem; }
+    .time-slot .time {
+      font-size: 0.75rem;
+      min-width: 46px;
+    }
+    .time-slot {
+      gap: 0.3rem;
+    }
+
+    /* Settings — single column */
+    .settings-grid {
+      grid-template-columns: 1fr;
+    }
+
+    /* Cost — tighten */
+    .cost-row {
+      font-size: 0.95rem;
+    }
+    .cost-section {
+      padding: 1rem;
+    }
+
+    /* Chat */
+    .chat-box textarea {
+      height: 180px;
+      font-size: 1.05rem;
+    }
+
+    /* Section titles */
+    .section-title {
+      font-size: 1.4rem;
+    }
+    .section-sub {
+      font-size: 0.9rem;
+    }
+
+    /* External buttons — full width */
+    .external-btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 0.75rem;
+      padding: 0.55rem 1rem;
+    }
+  }
+
+  /* ═══════════════ SMALL PHONES ────────────────────── */
+  @media (max-width: 390px) {
+    .hero {
+      height: 220px;
+    }
+    .hero-overlay h1 {
+      font-size: 1.45rem;
+    }
+    .hero-overlay .zh-title {
+      font-size: 0.85rem;
+    }
+    .day-card {
+      grid-template-columns: 1fr;
+      padding: 0.85rem;
+    }
+    .day-num {
+      font-size: 1rem;
+    }
+    .day-schedule { font-size: 0.9rem; }
+    .dining-card .food-img {
+      width: 80px; height: 80px;
+    }
+    nav a {
+      font-size: 0.65rem;
+      letter-spacing: 0.5px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="active">Today 今日</a>
+  <a href="settings.html">Settings 設定</a>
+  <a href="log.html">Log 日誌</a>
+  <a href="chat.html">Chat 聊聊</a>
+</nav>
+
+<div class="container">
+
+  <!-- Hero -->
+  <div class="hero">
+    <img class="hero-placeholder" src="" alt="Osaka & Kyoto, Japan" onerror="this.style.display='none'">
+    <div class="hero-overlay">
+      <h1>Osaka & Kyoto, Japan</h1>
+      <div class="zh-title">2026暑假 · 大阪京都五天畢業旅行</div>
+      <div class="hero-stats">
+        <span>✈️ 2026/07/05–07/09</span>
+        <span>👥 6 人</span>
+        <span>💰 NT$180,000</span>
+      </div>
+      <label class="save-plan-label" id="save-plan-label">
+        <input type="checkbox" id="save-flag" onchange="toggleSave()">
+        💾 Keep this plan (archived before next regeneration)
+      </label>
+    </div>
+  </div>
+
+  <!-- Destination image slider -->
+  
+  <div class="slider">
+    <div class="slider-track">
+      
+      <img src="https://images.unsplash.com/photo-1592512336070-546d59294287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="brown and white house near green trees during daytime">
+      
+      <img src="https://images.unsplash.com/photo-1741850820914-679245cf5c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Snowy rooftops and a hillside in japan.">
+      
+      <img src="https://images.unsplash.com/photo-1741851373505-c07b8a723560?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Ancient japanese architecture lines a city street.">
+      
+      <img src="https://images.unsplash.com/photo-1774803682197-dc81456cedd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Boats docked on a river under cherry blossoms.">
+      
+      <img src="https://images.unsplash.com/photo-1741851374430-d242e0dcd70c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Cozy, lantern-lit alleyway in japan.">
+      
+      <img src="https://images.unsplash.com/photo-1741851373559-6879db14fd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Cityscape at dusk, with mountains in background.">
+      
+      <img src="https://images.unsplash.com/photo-1592512336070-546d59294287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="brown and white house near green trees during daytime">
+      
+      <img src="https://images.unsplash.com/photo-1741850820914-679245cf5c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Snowy rooftops and a hillside in japan.">
+      
+      <img src="https://images.unsplash.com/photo-1741851373505-c07b8a723560?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Ancient japanese architecture lines a city street.">
+      
+      <img src="https://images.unsplash.com/photo-1774803682197-dc81456cedd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Boats docked on a river under cherry blossoms.">
+      
+      <img src="https://images.unsplash.com/photo-1741851374430-d242e0dcd70c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Cozy, lantern-lit alleyway in japan.">
+      
+      <img src="https://images.unsplash.com/photo-1741851373559-6879db14fd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTQ4ODUwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Cityscape at dusk, with mountains in background.">
+      
+    </div>
+  </div>
+  
+
+  <!-- ✈️ FLIGHT -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>✈️ 航班 Flight</h2>
+      <a class="external-btn google" href="https://www.google.com/travel/flights?q=Flights+to+KIX+from+TPE+2026-07-05" target="_blank">
+        ↗ Google Flights 搜尋更多航班
+      </a>
+    </div>
+    <div class="flight-detail">
+      <div class="flight-info">
+        <div class="label">出發 Departure · 7月5日</div>
+        <div class="airline">樂桃航空 Peach Aviation</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">MM 28</span> · TPE → KIX 直飛<br>
+          10:35 出發 · 14:25 抵達<br>
+          飛行 2h 50m · 經濟艙
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="flight-info">
+        <div class="label">回程 Return · 7月9日</div>
+        <div class="airline">樂桃航空 Peach Aviation</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">MM 27</span> · KIX → TPE 直飛<br>
+          15:35 出發 · 17:55 抵達<br>
+          飛行 2h 20m · 經濟艙
+        </div>
+      </div>
+    </div>
+    <div style="text-align:right; margin-top:1rem; font-size:0.9rem;">
+      來回 NT$ <strong>54,000</strong> / 6人
+    </div>
+  </div>
+
+  <!-- 🏨 HOTELS -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🏨 住宿 Hotel</h2>
+      <a class="external-btn agoda" href="https://www.agoda.com/zh-tw/city/osaka & kyoto-fr.html?checkIn=2026-07-05&checkOut=2026-07-09&adults=6" target="_blank">
+        ↗ Agoda 搜尋更多住宿
+      </a>
+    </div>
+
+    
+    <div style="background:var(--cream);border-radius:10px;padding:1.25rem;margin-bottom:1.5rem;border:1px solid rgba(201,168,76,0.1);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Hotel Nikko Kansai Airport (first night)</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">關西機場日航酒店（第一晚） · 泉佐野市</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">📅 DAY 1</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">1 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 12,000</div>
+        </div>
+      </div>
+      <div style="font-size:0.85rem;color:var(--ink);margin-bottom:0.75rem;">
+        ★★★★ · 標準雙床房 x3間 · 不含<br>
+        🚌 免費接駁車 · 24小時櫃檯 · 機場步行3分鐘
+      </div>
+      <!-- Hotel photo gallery -->
+      
+      <div class="slider" style="margin-bottom:0.25rem;">
+        <div class="slider-track">
+          
+          <img src="https://images.unsplash.com/photo-1741851374578-e618a8bb5eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Japanese architecture with a natural pathway.">
+          
+          <img src="https://images.unsplash.com/photo-1741851373855-5fb305ee6d70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Bamboo trees frame a traditional japanese house.">
+          
+          <img src="https://images.unsplash.com/photo-1636537470000-34284f07c242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a stone path leading to a building in a garden">
+          
+          <img src="https://images.unsplash.com/photo-1741851374411-9528e6d2f33f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Japanese entrance at night with lanterns.">
+          
+          <img src="https://images.unsplash.com/photo-1561011316-a460cbd1aa93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="house surrounded with trees">
+          
+          <img src="https://images.unsplash.com/photo-1776717577962-e3516cf2b1f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Traditional japanese castle surrounded by cherry blossoms.">
+          
+          <img src="https://images.unsplash.com/photo-1741851374578-e618a8bb5eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Japanese architecture with a natural pathway.">
+          
+          <img src="https://images.unsplash.com/photo-1741851373855-5fb305ee6d70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Bamboo trees frame a traditional japanese house.">
+          
+          <img src="https://images.unsplash.com/photo-1636537470000-34284f07c242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a stone path leading to a building in a garden">
+          
+          <img src="https://images.unsplash.com/photo-1741851374411-9528e6d2f33f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Japanese entrance at night with lanterns.">
+          
+          <img src="https://images.unsplash.com/photo-1561011316-a460cbd1aa93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="house surrounded with trees">
+          
+          <img src="https://images.unsplash.com/photo-1776717577962-e3516cf2b1f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODU0ODg1Mnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Traditional japanese castle surrounded by cherry blossoms.">
+          
+        </div>
+      </div>
+      
+      <!-- Exact hotel photo link -->
+      <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Nikko%20Kansai%20Airport%20Osaka%20Japan" target="_blank"
+         style="display:inline-block;margin-top:0.25rem;padding:4px 10px;border:1px solid var(--gold);color:var(--gold);border-radius:4px;font-size:0.72rem;text-decoration:none;">
+        📷 Exact photos of Hotel Nikko Kansai Airport (first night)
+      </a>
+    </div>
+    
+    <div style="background:var(--cream);border-radius:10px;padding:1.25rem;margin-bottom:1rem;border:1px solid rgba(201,168,76,0.1);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">VIA INN Kyoto (remaining nights)</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">VIA INN 京都站前（第2-4晚） · 京都市下京區</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">📅 DAY 2–4</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">3 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 30,000</div>
+        </div>
+      </div>
+      <div style="font-size:0.85rem;color:var(--ink);margin-bottom:0.75rem;">
+        ★★★ · 標準雙床房 x3間 · 含簡易早餐<br>
+        🚉 京都站步行2分鐘 · 免費WiFi · 投幣洗衣機
+      </div>
+      <!-- Hotel photo gallery -->
+      
+      <div class="slider" style="margin-bottom:0.25rem;">
+        <div class="slider-track">
+          
+          <img src="https://images.unsplash.com/photo-1753459418104-73416d1c17b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="A japanese street scene with various buildings.">
+          
+          <img src="https://images.unsplash.com/photo-1551670083-4245449ff595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="purple vehicle parked beside building during daytime">
+          
+          <img src="https://images.unsplash.com/photo-1736132920404-b87f625fcd17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="A large white building with a clock in front of it">
+          
+          <img src="https://images.unsplash.com/photo-1700367055485-4e9ab90eeedb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a tall building with a clock on the side of it">
+          
+          <img src="https://images.unsplash.com/photo-1741514230263-f6025350ac35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Exterior shot of a japanese coin laundry.">
+          
+          <img src="https://images.unsplash.com/photo-1777498269248-e0901e56b7c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Modern office building with glass facade and trees.">
+          
+          <img src="https://images.unsplash.com/photo-1753459418104-73416d1c17b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="A japanese street scene with various buildings.">
+          
+          <img src="https://images.unsplash.com/photo-1551670083-4245449ff595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="purple vehicle parked beside building during daytime">
+          
+          <img src="https://images.unsplash.com/photo-1736132920404-b87f625fcd17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="A large white building with a clock in front of it">
+          
+          <img src="https://images.unsplash.com/photo-1700367055485-4e9ab90eeedb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a tall building with a clock on the side of it">
+          
+          <img src="https://images.unsplash.com/photo-1741514230263-f6025350ac35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Exterior shot of a japanese coin laundry.">
+          
+          <img src="https://images.unsplash.com/photo-1777498269248-e0901e56b7c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxWSUElMjBJTk4lMjBLeW90byUyMHN0YXRpb24lMjBKYXBhbnxlbnwwfDB8fHwxNzc4Njc5MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Modern office building with glass facade and trees.">
+          
+        </div>
+      </div>
+      
+      <!-- Exact hotel photo link -->
+      <a href="https://www.google.com/search?tbm=isch&q=VIA%20INN%20Kyoto%20station%20Japan" target="_blank"
+         style="display:inline-block;margin-top:0.25rem;padding:4px 10px;border:1px solid var(--gold);color:var(--gold);border-radius:4px;font-size:0.72rem;text-decoration:none;">
+        📷 Exact photos of VIA INN Kyoto (remaining nights)
+      </a>
+    </div>
+    
+  </div>
+
+  <!-- 🍽️ DINING -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🍽️ 美食 Dining</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">5天 · 3 間餐廳 · NT$0</span>
+    </div>
+
+    
+
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 米其林星級 Fine Dining</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <img class="food-img" src="https://images.unsplash.com/photo-1733060647640-623ff1ea2d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4Njc5MDU0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Kikunoi Honten" onerror="this.style.display='none'">
+          
+          <div class="dining-info">
+            <h4>Kikunoi Honten</h4>
+            <div class="zh-name">菊乃井本店 · 米其林三星懷石 · ⭐⭐⭐</div>
+            <div class="dish">🍣 招牌：季節懷石套餐（附抹茶甜點）</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Kikunoi%20Honten+%E4%BA%AC%E9%83%BD%E5%B8%82%E6%9D%B1%E5%B1%B1%E5%8D%80%E4%B8%8B%E6%B2%B3%E5%8E%9F%E9%80%9A" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">京都市東山區下河原通</a><br>
+              💰 午餐懷石 ¥7,500/人 · NT$1,667<br>
+              🕐 12:00–13:30（需預約）
+            </div>
+            <a href="https://www.google.com/search?tbm=isch&q=Kikunoi%20Honten%20Kyoto%20reservation" target="_blank"
+               style="display:inline-block;margin-top:0.4rem;font-size:0.7rem;color:var(--gold);text-decoration:none;border-bottom:1px dotted var(--gold);">
+              📷 Exact photos of Kikunoi Honten
+            </a>
+          </div>
+          
+          <div class="food-thumbs">
+            
+            
+            <img src="https://images.unsplash.com/photo-1723382056183-823d065ae8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4Njc5MDU0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="A building that has a lot of lights on it" onerror="this.style.display='none'">
+            
+            
+            
+            <img src="https://images.unsplash.com/photo-1699031925255-c29afab82dc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4Njc5MDU0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="a path leading to a pavilion in a park" onerror="this.style.display='none'">
+            
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 法式小館 Bistros & Casual</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <div class="dining-info">
+            <h4>Gyukatsu Kyoto Katsugyu</h4>
+            <div class="zh-name">牛カツ京都勝牛 · 炸牛排專賣</div>
+            <div class="dish">🥩 招牌：炸牛排定食（附溫泉蛋）</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Gyukatsu%20Kyoto%20Katsugyu+%E4%BA%AC%E9%83%BD%E5%B8%82%E4%B8%AD%E4%BA%AC%E5%8C%BA%E6%96%B0%E4%BA%AC%E6%A5%B5%E9%80%9A" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">京都市中京区新京極通</a><br>
+              💰 炸牛排定食 ¥2,300/人 · NT$511<br>
+              🕐 11:00–21:00
+            </div>
+            <a href="https://www.google.com/search?tbm=isch&q=Gyukatsu%20Kyoto%20Katsugyu%20menu" target="_blank"
+               style="display:inline-block;margin-top:0.4rem;font-size:0.7rem;color:var(--gold);text-decoration:none;border-bottom:1px dotted var(--gold);">
+              📷 Exact photos of Gyukatsu Kyoto Katsugyu
+            </a>
+          </div>
+          
+          <div class="food-thumbs">
+            
+            
+            
+            
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:0;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 咖啡甜點 Cafés & Sweets</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <img class="food-img" src="https://images.unsplash.com/photo-1728200696554-d469313c15f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBcmFiaWNhJTIwY29mZmVlJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg2NzkwNTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="% Arabica Kyoto Arashiyama" onerror="this.style.display='none'">
+          
+          <div class="dining-info">
+            <h4>% Arabica Kyoto Arashiyama</h4>
+            <div class="zh-name">% Arabica 嵐山咖啡</div>
+            <div class="dish">☕ 招牌：拿鐵 · 抹茶拿鐵 · 可頌</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=%25%20Arabica%20Kyoto%20Arashiyama+%E4%BA%AC%E9%83%BD%E5%B8%82%E5%8F%B3%E4%BA%AC%E5%8C%BA%E5%B5%AF%E5%B3%A8%E5%A4%A9%E9%BE%8D%E5%AF%BA%E8%8A%92%E3%83%8E%E9%A6%AC%E5%A0%B4%E7%94%BA" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">京都市右京区嵯峨天龍寺芒ノ馬場町</a><br>
+              💰 拿鐵 ¥600/杯 · NT$133<br>
+              🕐 08:00–18:00 · 嵐山渡月橋旁
+            </div>
+            <a href="https://www.google.com/search?tbm=isch&q=Arabica%20coffee%20Arashiyama%20Kyoto" target="_blank"
+               style="display:inline-block;margin-top:0.4rem;font-size:0.7rem;color:var(--gold);text-decoration:none;border-bottom:1px dotted var(--gold);">
+              📷 Exact photos of % Arabica Kyoto Arashiyama
+            </a>
+          </div>
+          
+          <div class="food-thumbs">
+            
+            
+            <img src="https://images.unsplash.com/photo-1773613425920-5a20606331a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBcmFiaWNhJTIwY29mZmVlJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg2NzkwNTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Car crosses a street with a pedestrian crossing." onerror="this.style.display='none'">
+            
+            
+            
+            <img src="https://images.unsplash.com/photo-1767840272324-2714d3cc087c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxBcmFiaWNhJTIwY29mZmVlJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg2NzkwNTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Traditional japanese pavilion with autumn foliage and mountains." onerror="this.style.display='none'">
+            
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    
+    
+
+    <!-- Food image slider -->
+    <div class="slider" style="margin-top:1rem;">
+      <div class="slider-track">
+        
+        
+        
+        
+        <img src="https://images.unsplash.com/photo-1733060647640-623ff1ea2d0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4Njc5MDU0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="A japanese garden with a small house in the background">
+        
+        
+        
+        <img src="https://images.unsplash.com/photo-1723382056183-823d065ae8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjByZXNlcnZhdGlvbnxlbnwwfDB8fHwxNzc4Njc5MDU0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="A building that has a lot of lights on it">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://images.unsplash.com/photo-1728200696554-d469313c15f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBcmFiaWNhJTIwY29mZmVlJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg2NzkwNTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="A river with several small boats in it">
+        
+        
+        
+        <img src="https://images.unsplash.com/photo-1773613425920-5a20606331a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBcmFiaWNhJTIwY29mZmVlJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg2NzkwNTd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop" alt="Car crosses a street with a pedestrian crossing.">
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- 📅 DAY BY DAY -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>📅 每日行程 Day by Day</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">2026-07-05 – 2026-07-09</span>
+    </div>
+
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">1</div>
+        <div class="day-label">July 5 · Sun</div>
+        <div class="day-zh">抵達日 · 大阪</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 關西機場日航酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">10:35</span> ✈️ 桃園TPE出發 · 搭乘樂桃MM28 · 直飛關西</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:25</span> 🛬 抵達關西機場KIX · 入境、取行李 · 步行至日航酒店（3分鐘）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:30</span> 🏨 Hotel Nikko Kansai Airport 辦理入住 · 放行李 · 休息</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🚉 搭南海電鐵前往難波（約45分鐘） · 使用ICOCA卡</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍜 道頓堀晚餐 · 自由活動 · 推薦：一蘭拉麵、章魚燒</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 📸 道頓堀運河散步 · 固力果跑跑人 · 唐吉訶德摩天輪</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:30</span> 🚉 返回關空 · 南海電鐵末班注意</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">23:00</span> 🏨 回酒店休息 · 隔日早上退房</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hotel Nikko Kansai Airport · 標準雙床房 x3間</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 32°/25°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">2</div>
+        <div class="day-label">July 6 · Mon</div>
+        <div class="day-zh">京都經典一日</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 VIA</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🏨 退房 · 寄放行李在日航櫃檯</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚉 搭Haruka特急前往京都站（75分鐘） · 使用ICOCA</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:30</span> 🏨 VIA INN Kyoto 辦理入住 · 放行李</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> ⛩️ 伏見稻荷大社 · 千本鳥居散步 · 參拜</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🍜 祢ざめ家 鰻魚飯（伏見稻荷旁）· 每人約¥2,000</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> 🚌 搭公車至清水寺</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🏯 清水寺 · 地主神社戀愛占卜 · 俯瞰京都</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> 🌸 二年坂三年坂散步 · 抹茶冰淇淋</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍽️ 京都勝牛 炸牛排定食（新京極店）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🏨 回VIA INN休息 · 可使用洗衣機</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> VIA INN Kyoto · 標準雙床房 x3間</div>
+      </div>
+      <div class="day-weather">
+        ⛅ 30°/24°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">3</div>
+        <div class="day-label">July 7 · Tue</div>
+        <div class="day-zh">嵐山 & 金閣寺</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 VIA</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">07:30</span> 🥐 VIA INN 早餐（簡易麵包飲料）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:30</span> 🚉 搭JR嵯峨野線到嵯峨嵐山站（15分鐘）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🎋 嵐山竹林小徑 · 野宮神社</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> ☕ % Arabica 嵐山店 · 拿鐵配渡月橋景</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> ⛩️ 天龍寺 · 庭園參觀</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍜 嵐山よしむら 蕎麥麵（天龍寺旁）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🚌 搭巴士至金閣寺（約40分鐘）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🏯 金閣寺 · 鏡湖池倒影 · 御守購買</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> 🍡 北野天滿宮 · 附近吃抹茶甜點</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍽️ 京都車站拉麵小路 · 各自選擇拉麵</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🏨 回VIA INN · 自由活動</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> VIA INN Kyoto · 標準雙床房 x3間</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 33°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">4</div>
+        <div class="day-label">July 8 · Wed</div>
+        <div class="day-zh">奈良一日遊</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 VIA</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🥐 VIA INN 早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚉 搭近鐵京都線到近鐵奈良站（約50分鐘）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> 🦌 奈良公園 · 購買鹿仙貝（¥200）· 餵鹿</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🏯 東大寺 · 大佛殿 · 鑽柱洞</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🍜 志津香 釜飯（排隊名店）· 每人約¥1,500</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> ⛩️ 春日大社 · 參道燈籠</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:00</span> 🍡 奈良町老街散步 · 買鹿角餅乾伴手禮</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:30</span> 🚉 返回京都</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:00</span> 🍽️ 菊乃井本店 · 米其林三星懷石晚餐（需提前一個月預約）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:30</span> 🏨 回VIA INN · 打包行李</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> VIA INN Kyoto · 標準雙床房 x3間</div>
+      </div>
+      <div class="day-weather">
+        ⛅ 31°/25°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 30%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">5</div>
+        <div class="day-label">July 9 · Thu</div>
+        <div class="day-zh">回程日</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 VIA</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🥐 VIA INN 早餐 · 退房</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚉 搭Haruka特急前往關西機場（75分鐘）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:30</span> 🛍️ 關空免稅店 · 買Royce'、薯條三兄弟、清酒</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍜 關空內午餐 · 自由用餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:30</span> ✈️ 報到 · 樂桃MM27 · 出境</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:35</span> ✈️ 起飛回台灣</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:55</span> 🛬 抵達桃園TPE · 旅程結束</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> VIA INN Kyoto · 標準雙床房 x3間</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 32°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 💰 COST BREAKDOWN -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>💰 花費明細 Cost</h2>
+      <span style="font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">所有金額以新台幣 NTD 計算</span>
+    </div>
+    
+    <div class="cost-row"><span>✈️ 來回機票（6人）</span><span>NT$ <strong>54,000</strong></span></div>
+    
+    <div class="cost-row"><span>🏨 住宿（4晚）</span><span>NT$ <strong>42,000</strong></span></div>
+    
+    <div class="cost-row"><span>🍽️ 餐飲（6人）</span><span>NT$ <strong>36,000</strong></span></div>
+    
+    <div class="cost-row"><span>🎫 景點門票</span><span>NT$ <strong>9,000</strong></span></div>
+    
+    <div class="cost-row"><span>🚇 交通（ICOCA+Haruka）</span><span>NT$ <strong>12,000</strong></span></div>
+    
+    <div class="cost-row"><span>🛍️ 購物伴手禮</span><span>NT$ <strong>15,000</strong></span></div>
+    
+    <div class="cost-row" style="font-weight:600; border-top:2px solid var(--gold); padding-top:0.5rem; margin-top:0.2rem;">
+      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>168,000</strong></span>
+    </div>
+    <div class="cost-bar"><div class="cost-bar-fill" style="width:93.0%"></div></div>
+    <div style="text-align:right; font-size:0.8rem; color:var(--warm-gray);">
+      NT$ 168,000 / NT$ 180,000 · 剩餘 NT$ 12,000
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Shared JS for all Travel Planner pages
+// Lightbox, broken image handler
+
+// Hide broken images globally
+document.addEventListener('error', function(e){
+  if(e.target.tagName === 'IMG'){
+    e.target.classList.add('broken');
+  }
+}, true);
+
+// ═══ LIGHTBOX ═══
+(function(){
+  var images = [];
+  var currentIdx = 0;
+  var lb = null;
+  var lbImg = null;
+  var lbCounter = null;
+
+  function buildLightbox() {
+    lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.innerHTML =
+      '<button class="close-btn">&times;</button>' +
+      '<div class="lbox-img-wrap">' +
+        '<div class="lbox-left"><span class="lbox-arrow">&#8249;</span></div>' +
+        '<img src="" alt="">' +
+        '<div class="lbox-right"><span class="lbox-arrow">&#8250;</span></div>' +
+      '</div>' +
+      '<div class="counter"></div>';
+    document.body.appendChild(lb);
+    lbImg = lb.querySelector('img');
+    lbCounter = lb.querySelector('.counter');
+
+    lb.querySelector('.close-btn').addEventListener('click', close);
+    lb.querySelector('.lbox-left').addEventListener('click', function(e){ e.stopPropagation(); prev(); });
+    lb.querySelector('.lbox-right').addEventListener('click', function(e){ e.stopPropagation(); next(); });
+    lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
+    document.addEventListener('keydown', function(e){
+      if(!lb.classList.contains('open')) return;
+      if(e.key === 'Escape') close();
+      if(e.key === 'ArrowLeft') prev();
+      if(e.key === 'ArrowRight') next();
+    });
+  }
+
+  function collectImages() {
+    images = [];
+    var all = document.querySelectorAll('.slider-track img, .food-img, .food-thumbs img, .hero-placeholder, .dining-card img, .lightbox-clickable');
+    all.forEach(function(img, i){
+      if(img.naturalWidth > 0 || img.complete) {
+        images.push(img);
+        img.style.cursor = 'pointer';
+        img.setAttribute('data-lb-idx', images.length - 1);
+        if(!img.hasLbListener) {
+          img.addEventListener('click', function(e){
+            e.stopPropagation();
+            open(img.getAttribute('data-lb-idx'));
+          });
+          img.hasLbListener = true;
+        }
+      }
+    });
+  }
+
+  function open(idx) {
+    if(!lb) buildLightbox();
+    collectImages();
+    idx = parseInt(idx);
+    if(idx < 0) idx = images.length - 1;
+    if(idx >= images.length) idx = 0;
+    currentIdx = idx;
+    var src = images[currentIdx].src || images[currentIdx].getAttribute('src');
+    // strip Unsplash size params for full resolution
+    src = src.replace(/[?&]w=\d+/g, '').replace(/[?&]h=\d+/g, '').replace(/[?&]fit=crop/g, '');
+    if(src.indexOf('?') === -1) src += '?w=1400'; else src += '&w=1400';
+    lbImg.src = src;
+    lbCounter.textContent = (currentIdx + 1) + ' / ' + images.length;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function next() { open(currentIdx + 1); }
+  function prev() { open(currentIdx - 1); }
+
+  window.addEventListener('load', function(){ collectImages(); });
+})();
+</script>
+<script>
+// Write flag file on check. Generator archives the plan before overwriting.
+const REPO_S = 'mengtahsu/travel-planner';
+
+async function restoreCheckbox() {
+  const token = localStorage.getItem('github_chat_token');
+  if(!token) return;
+  try {
+    const r = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
+      headers: {'Authorization': 'Bearer ' + token}
+    });
+    if(r.ok) {
+      const data = JSON.parse(atob((await r.json()).content));
+      document.getElementById('save-flag').checked = !!data.save;
+    }
+  } catch(e) {}
+}
+
+async function toggleSave() {
+  const token = localStorage.getItem('github_chat_token');
+  if(!token) return;
+  const checked = document.getElementById('save-flag').checked;
+  const flag = JSON.stringify({save: checked, date: '2026/07/05–07/09', title: '2026暑假 · 大阪京都五天畢業旅行', dest: 'Osaka & Kyoto, Japan'});
+  const bytes = new TextEncoder().encode(flag);
+  const bin = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
+  const content = btoa(bin);
+  let sha = '';
+  try {
+    const r = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
+      headers: {'Authorization': 'Bearer ' + token}
+    });
+    if(r.ok) sha = (await r.json()).sha || '';
+  } catch(e) {}
+  await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
+    method: 'PUT',
+    headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+    body: JSON.stringify({message: checked ? 'Flag plan for save' : 'Unflag plan', content: content, sha: sha || undefined, branch: 'main'})
+  });
+}
+
+restoreCheckbox();
+</script>
+</body>
+</html>
