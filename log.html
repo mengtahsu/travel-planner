@@ -29,11 +29,39 @@ async function loadLogs() {
   const container = document.getElementById('log-entries');
   let html = '';
 
+  // ═══ Section 1: Saved Plans ═══
+  const token = localStorage.getItem('github_chat_token');
+  if(token) {
+    try {
+      const resp = await fetch('https://api.github.com/repos/mengtahsu/travel-planner/contents/data/saved', {
+        headers: {'Authorization': 'Bearer ' + token}
+      });
+      if(resp.ok) {
+        const files = await resp.json();
+        if(Array.isArray(files) && files.length > 0) {
+          html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📁 Saved Plans</h3>';
+          html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;margin-bottom:1.5rem;">';
+          files.reverse();
+          for(const f of files) {
+            const name = f.name.replace('.html','');
+            const url = 'data/saved/' + f.name;
+            html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:6px 10px;"><a href="${url}" target="_blank" style="color:var(--gold);text-decoration:none;">${name}</a></td>
+            </tr>`;
+          }
+          html += '</table>';
+        }
+      }
+    } catch(e) {}
+  }
+
+  // ═══ Section 2: Run History ═══
   try {
     const resp = await fetch('data/runs.json');
     if(resp.ok) {
       const runs = await resp.json();
       if(runs.length > 0) {
+        html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📋 Run History</h3>';
         html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;">';
         html += '<tr style="color:var(--warm-gray);border-bottom:1px solid rgba(255,255,255,0.1);"><th style="text-align:left;padding:6px 10px;">Time</th><th style="text-align:left;padding:6px 10px;">Plan</th><th style="text-align:left;padding:6px 10px;">Chat</th></tr>';
         for(const r of runs.slice(0, 100)) {
@@ -52,7 +80,7 @@ async function loadLogs() {
   } catch(e) {}
 
   if(!html) {
-    html = '<p style="color:var(--warm-gray);font-family:\'Noto Serif TC\',serif;">No run history yet. The first run will appear here.</p>';
+    html = '<p style="color:var(--warm-gray);font-family:\'Noto Serif TC\',serif;">No records yet. Waiting for first run...</p>';
   }
 
   container.innerHTML = html;
