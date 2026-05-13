@@ -7,7 +7,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Settings 設定 — Travel Planner</title>
-<link rel="stylesheet" href="templates/shared.css?v=2">
+<link rel="stylesheet" href="templates/shared.css?v=3">
 </head>
 <body>
 <nav>
@@ -94,9 +94,8 @@
       <div class="zh-label">僅需 data/chat/ 目錄寫入權限的精細令牌</div>
     </div>
   </div>
-  <button class="save-btn" onclick="saveSettings()">💾 儲存設定 Save Settings</button>
-  <p style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.6rem;font-family:'Noto Serif TC',sans-serif;">
-    設定儲存至 config/settings.json，排程檢查時自動套用生效。
+  <p style="font-size:0.75rem;color:var(--warm-gray);margin-top:1.25rem;font-family:'Noto Serif TC',sans-serif;">
+    <span id="save-status">⚡ 修改後自動儲存 · Auto-save on change</span>
   </p>
 </div>
 
@@ -170,83 +169,68 @@ function toBase64(str) {
   return btoa(binStr);
 }
 
-async function saveSettings() {
+let autoSaveTimer = null;
+
+function autoSave() {
+  // Save to localStorage immediately
   const settings = {
     year: parseInt(document.getElementById('year').value),
     month: parseInt(document.getElementById('month').value),
     travelers: parseInt(document.getElementById('travelers').value),
-    days: parseInt(document.getElementById('days').value),
+    days: document.getElementById('days').value,
     budget_ntd: parseInt(document.getElementById('budget_ntd').value),
     destination: document.getElementById('destination').value,
-    departure: document.getElementById('departure').value,
-    chat_token: document.getElementById('chat_token').value
+    departure: document.getElementById('departure').value
   };
+  localStorage.setItem('travel_settings', JSON.stringify(settings));
 
-  const token = settings.chat_token || localStorage.getItem('github_chat_token');
-  if(!token) { alert('請先輸入 Chat Token'); return; }
+  // Save token if entered
+  const tokenEl = document.getElementById('chat_token');
+  if(tokenEl.value) {
+    localStorage.setItem('github_chat_token', tokenEl.value);
+  }
 
-  // Validate token against the actual repo (not /user — fine-grained tokens may fail /user but pass repo checks, or vice versa)
-  try {
-    const check = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
-      headers: { 'Authorization': `Bearer ${token}` }
-    });
-    if(!check.ok && check.status !== 404) {
-      const err = await check.json().catch(() => ({}));
-      alert('❌ Token 驗證失敗：' + (err.message || check.status + ' ' + check.statusText) + '\n\n請確認：\n1. Token 未過期\n2. Token 有權限存取 mengtahsu/travel-planner 這個 repo\n3. Token 有 Contents 讀寫權限');
+  // Debounce GitHub push (2 seconds after last change)
+  clearTimeout(autoSaveTimer);
+  document.getElementById('save-status').textContent = '⏳ Saving...';
+  autoSaveTimer = setTimeout(async function() {
+    const token = localStorage.getItem('github_chat_token');
+    if(!token) {
+      document.getElementById('save-status').textContent = '⚡ Saved locally · Set token to sync';
       return;
     }
-  } catch(e) {
-    alert('⚠️ 無法連線 GitHub，請檢查網路。');
-    return;
-  }
+    try {
+      delete settings.chat_token;
+      const json = JSON.stringify(settings, null, 2);
+      const bytes = new TextEncoder().encode(json);
+      const bin = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
+      const content = btoa(bin);
 
-  // Save valid token to localStorage
-  if(settings.chat_token) {
-    localStorage.setItem('github_chat_token', settings.chat_token);
-  }
+      let sha = '';
+      try {
+        const r = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
+          headers: {'Authorization': 'Bearer ' + token}
+        });
+        if(r.ok) sha = (await r.json()).sha || '';
+      } catch(e) {}
 
-  // Save settings to localStorage FIRST (survives navigation, offline-safe)
-  const settingsForStorage = Object.assign({}, settings);
-  delete settingsForStorage.chat_token;
-  localStorage.setItem('travel_settings', JSON.stringify(settingsForStorage));
-
-  // Remove token from settings before committing — NEVER push secrets to repo
-  delete settings.chat_token;
-  const json = JSON.stringify(settings, null, 2);
-  const content = toBase64(json);
-
-  let sha = '';
-  try {
-    const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
-      headers: { 'Authorization': `Bearer ${token}` }
-    });
-    if(resp.ok) { const data = await resp.json(); sha = data.sha || ''; }
-  } catch(e) {}
-
-  try {
-    const resp = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
-      method: 'PUT',
-      headers: {
-        'Authorization': `Bearer ${token}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        message: 'Update settings from web',
-        content: content,
-        sha: sha || undefined
-      })
-    });
-
-    if(resp.ok) {
-      alert('✅ 設定已儲存！Token 已保存，將在排程時間生效。');
-    } else {
-      const err = await resp.json();
-      alert('⚠️ Token 已保存到瀏覽器，但 GitHub 寫入失敗：' + err.message + '\nChat 功能仍可使用，但變更不會寫回 repo。');
+      const r = await fetch(`https://api.github.com/repos/${REPO}/contents/config/settings.json`, {
+        method: 'PUT',
+        headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+        body: JSON.stringify({message: 'Update settings', content: content, sha: sha || undefined, branch: 'main'})
+      });
+      document.getElementById('save-status').textContent = r.ok ? '✅ Saved to cloud' : '⚠️ Saved locally only';
+    } catch(e) {
+      document.getElementById('save-status').textContent = '⚠️ Saved locally only';
     }
-  } catch(e) {
-    alert('⚠️ Token 已保存到瀏覽器，但無法連接 GitHub。Chat 功能仍可使用。');
-  }
+  }, 2000);
 }
+
+// Attach auto-save to all inputs
+document.querySelectorAll('.setting-group input, .setting-group select').forEach(function(el) {
+  el.addEventListener('input', autoSave);
+  el.addEventListener('change', autoSave);
+});
 
 loadSettings();
 </script>
