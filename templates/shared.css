@@ -516,6 +516,22 @@
     color: rgba(255,255,255,0.9);
   }
 
+  /* ─── SAVE PLAN CHECKBOX ─── */
+  .save-plan-label {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    user-select: none;
+  }
+  .save-plan-label input[type="checkbox"] {
+    width: 16px; height: 16px;
+    accent-color: var(--gold);
+    cursor: pointer;
+  }
+
   /* ─── BROKEN IMAGES ─── */
   img.broken { display: none !important; }
 
