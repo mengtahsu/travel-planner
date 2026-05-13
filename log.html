@@ -7,7 +7,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Log 日誌 — Travel Planner</title>
-<link rel="stylesheet" href="templates/shared.css?v=2">
+<link rel="stylesheet" href="templates/shared.css?v=3">
 </head>
 <body>
 <nav>
@@ -29,70 +29,55 @@ async function loadLogs() {
   const container = document.getElementById('log-entries');
   let html = '';
 
-  // 1. Load run history from runs.json (every generator execution)
+  // ═══ Section 1: Saved Plans ═══
+  const token = localStorage.getItem('github_chat_token');
+  if(token) {
+    try {
+      const resp = await fetch('https://api.github.com/repos/mengtahsu/travel-planner/contents/data/saved', {
+        headers: {'Authorization': 'Bearer ' + token}
+      });
+      if(resp.ok) {
+        const files = await resp.json();
+        if(Array.isArray(files) && files.length > 0) {
+          html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📁 Saved Plans</h3>';
+          html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;margin-bottom:1.5rem;">';
+          files.reverse();
+          for(const f of files) {
+            const name = f.name.replace('.html','');
+            const url = 'data/saved/' + f.name;
+            html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
+              <td style="padding:6px 10px;"><a href="${url}" target="_blank" style="color:var(--gold);text-decoration:none;">${name}</a></td>
+            </tr>`;
+          }
+          html += '</table>';
+        }
+      }
+    } catch(e) {}
+  }
+
+  // ═══ Section 2: Run History ═══
   try {
     const resp = await fetch('data/runs.json');
     if(resp.ok) {
       const runs = await resp.json();
       if(runs.length > 0) {
-        html += '<h3 style="margin-top:1rem;margin-bottom:0.5rem;color:var(--gold);">Run History</h3>';
-        html += '<table style="width:100%;font-size:0.8rem;border-collapse:collapse;">';
-        html += '<tr style="color:var(--warm-gray);border-bottom:1px solid rgba(255,255,255,0.1);"><th style="text-align:left;padding:4px 8px;">Time</th><th style="text-align:left;padding:4px 8px;">Status</th><th style="text-align:left;padding:4px 8px;">Destination</th><th style="text-align:left;padding:4px 8px;">Chat</th></tr>';
-        for(const r of runs.slice(0, 50)) {
-          const statusEmoji = r.status === 'skipped' ? '⏭️' : '✨';
-          const statusLabel = r.status === 'skipped' ? 'Skipped' : 'Generated';
-          const dest = r.destination || '-';
+        html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📋 Run History</h3>';
+        html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;">';
+        html += '<tr style="color:var(--warm-gray);border-bottom:1px solid rgba(255,255,255,0.1);"><th style="text-align:left;padding:6px 10px;">Time</th><th style="text-align:left;padding:6px 10px;">Plan</th><th style="text-align:left;padding:6px 10px;">Chat</th></tr>';
+        for(const r of runs.slice(0, 100)) {
+          const icon = r.status === 'skipped' ? '⏭️' : '✨';
+          const desc = r.status === 'skipped' ? 'No changes — skipped' : (r.summary || r.destination || 'Generated');
           const chat = r.chat_chars > 0 ? r.chat_chars + ' chars' : '-';
           html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:4px 8px;">${r.ts}</td>
-            <td style="padding:4px 8px;">${statusEmoji} ${statusLabel}</td>
-            <td style="padding:4px 8px;">${dest}</td>
-            <td style="padding:4px 8px;">${chat}</td>
+            <td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.8rem;">${r.ts}</td>
+            <td style="padding:6px 10px;">${icon} ${desc}</td>
+            <td style="padding:6px 10px;font-size:0.75rem;">${chat}</td>
           </tr>`;
         }
         html += '</table>';
       }
     }
   } catch(e) {}
-
-  // 2. Load plan summaries (past plans)
-  const today = new Date();
-  let found = false;
-  let planHtml = '';
-
-  for(let i = 0; i < 30; i++) {
-    const d = new Date(today);
-    d.setDate(d.getDate() - i);
-    const key = d.toISOString().split('T')[0];
-    try {
-      const resp = await fetch(`data/plans/${key}.json`);
-      if(!resp.ok) continue;
-      const plan = await resp.json();
-      found = true;
-
-      const hasChat = plan.chat_hash && plan.chat_hash.length > 0;
-      const statusText = hasChat ? 'Chat modified' : 'Auto generated';
-      const days = typeof plan.days === 'string' ? plan.days : (plan.days + ' days');
-
-      planHtml += `<div class="log-entry">
-        <span class="log-date">${key}</span>
-        <span class="log-status ${hasChat ? 'chatting' : 'generated'}">${statusText}</span>
-        <p style="margin-top:0.4rem;font-size:0.85rem;">
-          ${plan.destination_en || '?'} - ${plan.title_zh || ''}
-          · ${days}
-          · NT$${(plan.cost_total_ntd || 0).toLocaleString()}
-          · ${plan.flight?.airline || ''}
-        </p>
-      </div>`;
-    } catch(e) {
-      // Skip missing/corrupt files
-    }
-  }
-
-  if(found) {
-    html += '<h3 style="margin-top:1.5rem;margin-bottom:0.5rem;color:var(--gold);">Generated Plans</h3>';
-    html += planHtml;
-  }
 
   if(!html) {
     html = '<p style="color:var(--warm-gray);font-family:\'Noto Serif TC\',serif;">No records yet. Waiting for first run...</p>';
