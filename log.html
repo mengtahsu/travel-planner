@@ -39,11 +39,12 @@ async function loadLogs() {
         html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;margin-bottom:1.5rem;">';
         for(const entry of index) {
           const url = 'data/saved/' + entry.file;
+          const dest = entry.dest || '';
           const label = entry.title || entry.file.replace('.html','');
-          const date = entry.date || entry.saved_at || '';
+          const date = entry.date || '';
           html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;white-space:nowrap;font-size:0.75rem;color:var(--warm-gray);">${date}</td>
-            <td style="padding:6px 10px;"><a href="${url}" target="_blank" style="color:var(--gold);text-decoration:none;">${label}</a></td>
+            <td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.78rem;">${date}</td>
+            <td style="padding:6px 10px;"><a href="${url}" target="_blank" style="color:var(--gold);text-decoration:none;">${dest} — ${label}</a></td>
           </tr>`;
         }
         html += '</table>';
