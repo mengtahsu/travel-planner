@@ -461,10 +461,13 @@ def push_via_api(today_key):
     if RUNS_LOG.exists():
         files_to_push["data/runs.json"] = RUNS_LOG
 
-    # Push saved plans
+    # Push saved plans (HTML files + index.json)
     if SAVED_DIR.exists():
         for f in SAVED_DIR.glob("*.html"):
             files_to_push[f"data/saved/{f.name}"] = f
+        idx = SAVED_DIR / "index.json"
+        if idx.exists():
+            files_to_push["data/saved/index.json"] = idx
 
     owner = "mengtahsu"
     repo = "travel-planner"
