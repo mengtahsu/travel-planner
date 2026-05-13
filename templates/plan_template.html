@@ -30,6 +30,10 @@
         <span>👥 {{ plan.travelers }} 人</span>
         <span>💰 NT${{ plan.budget_ntd | format_number }}</span>
       </div>
+      <label class="save-plan-label" id="save-plan-label">
+        <input type="checkbox" id="save-flag" onchange="toggleSave()">
+        💾 Keep this plan (archived before next regeneration)
+      </label>
     </div>
   </div>
 
@@ -247,6 +251,31 @@
 
 <script>
 {% include 'shared.js' %}
+</script>
+<script>
+// Minimal: just write a tiny flag file. Generator does the actual archiving.
+const REPO_S = 'mengtahsu/travel-planner';
+async function toggleSave() {
+  const token = localStorage.getItem('github_chat_token');
+  if(!token) return;
+  const checked = document.getElementById('save-flag').checked;
+  const flag = JSON.stringify({save: checked, date: '{{ plan.start_date }}', title: '{{ plan.title_zh }}'});
+  const bytes = new TextEncoder().encode(flag);
+  const bin = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
+  const content = btoa(bin);
+  let sha = '';
+  try {
+    const r = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
+      headers: {'Authorization': 'Bearer ' + token}
+    });
+    if(r.ok) sha = (await r.json()).sha || '';
+  } catch(e) {}
+  await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
+    method: 'PUT',
+    headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+    body: JSON.stringify({message: checked ? 'Flag plan for save' : 'Unflag plan', content: content, sha: sha || undefined, branch: 'main'})
+  });
+}
 </script>
 </body>
 </html>
