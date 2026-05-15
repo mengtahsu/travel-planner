@@ -1,0 +1,573 @@
+{
+  "destination_en": "Maldives",
+  "title_zh": "馬爾地夫 · 浪漫五天蜜月之旅",
+  "date_range": "2026/06/10–06/14",
+  "start_date": "2026-06-10",
+  "end_date": "2026-06-14",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "MLE",
+  "travelers": 2,
+  "days": 5,
+  "budget_ntd": 160000,
+  "flight": {
+    "airline": "新加坡航空 Singapore Airlines",
+    "departure_date": "6月10日",
+    "return_date": "6月14日",
+    "total_price_ntd": 42000,
+    "outbound": {
+      "flight_no": "SQ 879",
+      "route": "TPE → SIN 轉機 → MLE",
+      "depart_time": "08:30",
+      "arrive_time": "16:50",
+      "duration": "12h 20m (含轉機)",
+      "class": "經濟艙"
+    },
+    "inbound": {
+      "flight_no": "SQ 452",
+      "route": "MLE → SIN 轉機 → TPE",
+      "depart_time": "20:25",
+      "arrive_time": "12:55 (+1)",
+      "duration": "14h 30m (含轉機)",
+      "class": "經濟艙"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Kurumba Maldives",
+      "name_zh": "庫倫巴馬爾地夫度假村",
+      "district": "North Malé Atoll",
+      "day_range": "1–2",
+      "nights": 2,
+      "price_ntd": 48000,
+      "stars": "★★★★★",
+      "room_type": "豪華海景別墅 Deluxe Beach Villa",
+      "breakfast": "含自助早餐",
+      "amenities": "🏖️ 私人沙灘 · 🏊 無邊際泳池 · 🍽️ 三間餐廳 · 🛥️ 免費浮潛裝備",
+      "search_query": "Kurumba Maldives resort",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden cottage on blue body of water during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "green palm trees near body of water"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden bench on beach during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1620065487644-1080510335f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "green palm trees near swimming pool during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1643856555886-76dca68e5322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a white sandy beach surrounded by palm trees"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1609601546193-f558f1ebb385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden dock on blue sea under white clouds during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden cottage on blue body of water during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "green palm trees near body of water"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden bench on beach during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1620065487644-1080510335f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "green palm trees near swimming pool during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1643856555886-76dca68e5322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a white sandy beach surrounded by palm trees"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1609601546193-f558f1ebb385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden dock on blue sea under white clouds during daytime"
+        }
+      ]
+    },
+    {
+      "name": "Anantara Dhigu Maldives Resort",
+      "name_zh": "安納塔拉迪古馬爾地夫度假村",
+      "district": "South Malé Atoll",
+      "day_range": "3–4",
+      "nights": 2,
+      "price_ntd": 55000,
+      "stars": "★★★★★",
+      "room_type": "水上別墅 Overwater Villa",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 無邊際泳池 · 🧖 SPA · 🍽️ 四間餐廳 · 🐠 私人礁湖浮潛",
+      "search_query": "Anantara Dhigu Maldives overwater villa",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden cottage on blue body of water during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1602002418679-43121356bf41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden house on body of water under blue sky during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1688949078626-a358f500e063?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an aerial view of a resort in the middle of the ocean"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1609601540898-52ca92508901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden dock on body of water during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1697898109604-e06e88b15271?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a couple of houses sitting on top of a body of water"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1590523277760-06f4e9939d1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden house near body of water during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden cottage on blue body of water during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1602002418679-43121356bf41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden house on body of water under blue sky during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1688949078626-a358f500e063?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an aerial view of a resort in the middle of the ocean"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1609601540898-52ca92508901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden dock on body of water during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1697898109604-e06e88b15271?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a couple of houses sitting on top of a body of water"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1590523277760-06f4e9939d1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxBbmFudGFyYSUyMERoaWd1JTIwTWFsZGl2ZXMlMjBvdmVyd2F0ZXIlMjB2aWxsYXxlbnwwfDB8fHwxNzc4ODYwOTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden house near body of water during daytime"
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "Sea.Fire.Salt.",
+        "name_zh": "海·火·鹽 · 沙灘燒烤餐廳",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：龍蝦拼盤 · 烤鮪魚腹肉",
+        "address": "Kurumba Maldives, North Malé Atoll",
+        "price_ntd": 6000,
+        "price_label": "雙人沙灘晚餐套餐 NT$6,000",
+        "hours": "19:00–22:00 · 需預約",
+        "search_query": "Sea Fire Salt Kurumba Maldives",
+        "photos": [
+          {
+            "url": "",
+            "label": "fine dining food Maldives"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Maldives"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Maldives"
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "Fushi Café",
+        "name_zh": "芙喜咖啡廳 · 馬爾地夫風味小館",
+        "stars": "",
+        "dish": "🐟 招牌：瑪薩拉烤魚 · 椰子咖哩",
+        "address": "Anantara Dhigu, South Malé Atoll",
+        "price_ntd": 2500,
+        "price_label": "雙人午餐 NT$2,500",
+        "hours": "12:00–15:00",
+        "search_query": "Fushi Cafe Anantara Dhigu",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1545830016-67f0142f9652?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxGdXNoaSUyMENhZmUlMjBBbmFudGFyYSUyMERoaWd1fGVufDB8MHx8fDE3Nzg4NjA5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "man standing in front of house"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1617337054175-60b92084a0bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxGdXNoaSUyMENhZmUlMjBBbmFudGFyYSUyMERoaWd1fGVufDB8MHx8fDE3Nzg4NjA5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "brown wooden table and chairs"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1653286365968-71221fed736d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxGdXNoaSUyMENhZmUlMjBBbmFudGFyYSUyMERoaWd1fGVufDB8MHx8fDE3Nzg4NjA5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a woman sitting in a chair in front of a building"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1545830016-67f0142f9652?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxGdXNoaSUyMENhZmUlMjBBbmFudGFyYSUyMERoaWd1fGVufDB8MHx8fDE3Nzg4NjA5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "man standing in front of house"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1617337054175-60b92084a0bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxGdXNoaSUyMENhZmUlMjBBbmFudGFyYSUyMERoaWd1fGVufDB8MHx8fDE3Nzg4NjA5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "brown wooden table and chairs"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1653286365968-71221fed736d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxGdXNoaSUyMENhZmUlMjBBbmFudGFyYSUyMERoaWd1fGVufDB8MHx8fDE3Nzg4NjA5MDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a woman sitting in a chair in front of a building"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Dhigu Pool Bar & Café",
+        "name_zh": "迪古池畔酒吧咖啡廳",
+        "stars": "",
+        "dish": "🍹 招牌：芒果冰沙 · 椰子水 · 輕食沙拉",
+        "address": "Anantara Dhigu, South Malé Atoll",
+        "price_ntd": 1500,
+        "price_label": "兩人下午茶 NT$1,500",
+        "hours": "10:00–18:00",
+        "search_query": "Dhigu Pool Bar Anantara",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1599832976672-5923b10683d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxEaGlndSUyMFBvb2wlMjBCYXIlMjBBbmFudGFyYXxlbnwwfDB8fHwxNzc4ODYwOTA1fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "aerial view of green trees beside blue sea during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1599837139010-617a01b35781?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxEaGlndSUyMFBvb2wlMjBCYXIlMjBBbmFudGFyYXxlbnwwfDB8fHwxNzc4ODYwOTA1fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "green trees near body of water under blue sky during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1599832976672-5923b10683d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxEaGlndSUyMFBvb2wlMjBCYXIlMjBBbmFudGFyYXxlbnwwfDB8fHwxNzc4ODYwOTA1fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "aerial view of green trees beside blue sea during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1599837139010-617a01b35781?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxEaGlndSUyMFBvb2wlMjBCYXIlMjBBbmFudGFyYXxlbnwwfDB8fHwxNzc4ODYwOTA1fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "green trees near body of water under blue sky during daytime"
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "June 10 · Wed",
+      "label_zh": "抵達日 · 入住庫倫巴",
+      "hotel_name": "Kurumba Maldives",
+      "hotel_name_zh": "庫倫巴馬爾地夫度假村 · 豪華海景別墅",
+      "hotel_room": "Deluxe Beach Villa",
+      "weather": "☀️ 31°/27°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "✈️ 桃園 TPE 出發 · 新加坡航空 SQ879 · 經新加坡轉機"
+        },
+        {
+          "time": "16:50",
+          "desc": "🛬 抵達馬累國際機場 MLE · 度假村快艇接送（20分鐘）"
+        },
+        {
+          "time": "17:30",
+          "desc": "🚤 抵達 Kurumba Maldives · 迎賓飲料 · 辦理入住"
+        },
+        {
+          "time": "18:00",
+          "desc": "🏖️ 漫步私人沙灘 · 欣賞印度洋日落"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ Sea.Fire.Salt. 沙灘燒烤晚餐 · 浪漫雙人龍蝦套餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌌 沙灘星空散步 · 聆聽海浪聲"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "June 11 · Thu",
+      "label_zh": "浮潛 · SPA · 沙洲探險",
+      "hotel_name": "Kurumba Maldives",
+      "hotel_name_zh": "庫倫巴馬爾地夫度假村 · 豪華海景別墅",
+      "hotel_room": "Deluxe Beach Villa",
+      "weather": "☀️ 32°/27°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🌅 日出瑜伽 · 海邊伸展（免費課程）"
+        },
+        {
+          "time": "08:30",
+          "desc": "🥐 度假村自助早餐 · 鮮果 · 現煎蛋捲"
+        },
+        {
+          "time": "09:30",
+          "desc": "🐠 免費浮潛裝備 · 珊瑚花園浮潛（海龜、熱帶魚）"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 沙灘午餐 · 輕食沙拉與烤魚"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚤 半日沙洲探險 · 無人沙島拍照 + 浮潛"
+        },
+        {
+          "time": "17:00",
+          "desc": "💆 雙人SPA（60分鐘 · 精油按摩 · NT$4,000）"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 度假村主餐廳 · 國際自助晚餐"
+        },
+        {
+          "time": "20:30",
+          "desc": "🎶 現場音樂表演 · 池畔小酌"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "June 12 · Fri",
+      "label_zh": "換島日 · 入住安納塔拉水上屋",
+      "hotel_name": "Anantara Dhigu Maldives Resort",
+      "hotel_name_zh": "安納塔拉迪古馬爾地夫度假村 · 水上別墅",
+      "hotel_room": "Overwater Villa",
+      "weather": "☀️ 32°/27°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 庫倫巴最後早餐 · 收拾行李"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚤 退房 · 快艇前往 Anantara Dhigu（約30分鐘）"
+        },
+        {
+          "time": "10:30",
+          "desc": "🛬 抵達 Anantara Dhigu · 迎賓飲料 · 入住水上別墅"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏊 從房間直接跳入潟湖游泳 · 浮潛"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ Fushi Café 馬爾地夫風味午餐"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛶 免費獨木舟探索潟湖"
+        },
+        {
+          "time": "16:00",
+          "desc": "🍹 Dhigu Pool Bar 下午茶 · 芒果冰沙"
+        },
+        {
+          "time": "18:00",
+          "desc": "🌇 水上別墅陽台欣賞日落 · 香檳"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 度假村泰式餐廳 · 雙人晚餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌌 玻璃地板看魚 · 星空夜語"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "June 13 · Sat",
+      "label_zh": "潛水 · 浪漫晚餐",
+      "hotel_name": "Anantara Dhigu Maldives Resort",
+      "hotel_name_zh": "安納塔拉迪古馬爾地夫度假村 · 水上別墅",
+      "hotel_room": "Overwater Villa",
+      "weather": "☀️ 32°/27°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🌅 日出攝影 · 潟湖寧靜時光"
+        },
+        {
+          "time": "08:00",
+          "desc": "🥐 度假村自助早餐 · 現做鬆餅"
+        },
+        {
+          "time": "09:00",
+          "desc": "🤿 體驗水肺潛水（教練陪同 · 約2小時 · NT$5,000/人）"
+        },
+        {
+          "time": "11:30",
+          "desc": "🏖️ 沙灘放鬆 · 閱讀 · 日光浴"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 池畔輕食午餐"
+        },
+        {
+          "time": "14:00",
+          "desc": "🧖 雙人SPA · 椰子身體磨砂 + 按摩（90分鐘 · NT$5,500）"
+        },
+        {
+          "time": "16:00",
+          "desc": "📸 水上屋拍照 · 浪漫紀念"
+        },
+        {
+          "time": "18:30",
+          "desc": "🛥️ 私人沙洲晚餐（額外NT$8,000 · 可選）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌌 沙灘電影之夜 · 星空下看電影"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "June 14 · Sun",
+      "label_zh": "最後浮潛 · 返程",
+      "hotel_name": "Anantara Dhigu Maldives Resort",
+      "hotel_name_zh": "安納塔拉迪古馬爾地夫度假村 · 水上別墅",
+      "hotel_room": "Overwater Villa",
+      "weather": "☀️ 31°/27°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 最後早餐 · 收拾行李"
+        },
+        {
+          "time": "08:30",
+          "desc": "🏊 最後一次浮潛 · 與海龜說再見"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚤 退房 · 快艇前往馬累機場"
+        },
+        {
+          "time": "10:45",
+          "desc": "🛍️ 馬累機場免稅店 · 紀念品購物"
+        },
+        {
+          "time": "20:25",
+          "desc": "✈️ 新加坡航空 SQ452 · 經新加坡轉機回台灣"
+        },
+        {
+          "time": "12:55 (+1)",
+          "desc": "🛬 抵達桃園 TPE · 甜蜜回憶滿載"
+        }
+      ]
+    }
+  ],
+  "costs": [
+    {
+      "label": "✈️ 來回機票",
+      "amount_ntd": 42000
+    },
+    {
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 103000
+    },
+    {
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 15000
+    },
+    {
+      "label": "🎫 活動與SPA",
+      "amount_ntd": 10000
+    },
+    {
+      "label": "🚤 快艇接送",
+      "amount_ntd": 8000
+    },
+    {
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 5000
+    }
+  ],
+  "cost_total_ntd": 183000,
+  "budget_remaining_ntd": -23000,
+  "photos": {
+    "hero": [
+      {
+        "url": "https://images.unsplash.com/photo-1679656952793-023c511f46de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4Nzc0NTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a large body of water with a city in the background"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1679656952793-023c511f46de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4Nzc0NTExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a large body of water with a city in the background"
+      }
+    ],
+    "destination": [
+      {
+        "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown wooden cottage on blue body of water during daytime"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1576158831003-d41033ec31fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "person swinging on hammock hanged on coconut tree near sea"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green palm trees near body of water"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1620065487644-1080510335f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green palm trees near swimming pool during daytime"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1622779536320-bb5f5b501a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green trees near body of water under blue sky during daytime"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown wooden bench on beach during daytime"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown wooden cottage on blue body of water during daytime"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1576158831003-d41033ec31fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "person swinging on hammock hanged on coconut tree near sea"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green palm trees near body of water"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1620065487644-1080510335f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green palm trees near swimming pool during daytime"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1622779536320-bb5f5b501a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green trees near body of water under blue sky during daytime"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODc2MzY1NXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown wooden bench on beach during daytime"
+      }
+    ]
+  },
+  "chat_hash": "",
+  "config_hash": "32a81935bd11e3366f0a7d66fded735f0412cb74915886bea371444885c19238",
+  "generated_at": "2026-05-16T00:01:45.635039"
+}
