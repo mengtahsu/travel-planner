@@ -1,98 +1,98 @@
 {
-  "destination_en": "Tokyo, Japan",
-  "title_zh": "東京三日遊 · 淺草/銀座/澀谷 · 浪漫雙人之旅",
-  "date_range": "2026/06/12–06/15",
-  "start_date": "2026-06-12",
-  "end_date": "2026-06-15",
+  "destination_en": "Maldives",
+  "title_zh": "馬爾地夫 · 浪漫四天三夜之旅",
+  "date_range": "2026/06/10–2026/06/13",
+  "start_date": "2026-06-10",
+  "end_date": "2026-06-13",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "NRT",
+  "destination_code": "MLE",
   "travelers": 2,
-  "days": 3,
-  "budget_ntd": 100000,
+  "days": 4,
+  "budget_ntd": 160000,
   "flight": {
-    "airline": "中華航空 China Airlines",
-    "departure_date": "6月12日",
-    "return_date": "6月15日",
-    "total_price_ntd": 24000,
+    "airline": "新加坡航空 Singapore Airlines",
+    "departure_date": "6月10日",
+    "return_date": "6月13日",
+    "total_price_ntd": 54000,
     "outbound": {
-      "flight_no": "CI 100",
-      "route": "TPE → NRT 直飛",
-      "depart_time": "08:50",
-      "arrive_time": "13:15",
-      "duration": "3h 25m",
+      "flight_no": "SQ 879",
+      "route": "TPE → SIN 轉機 → MLE",
+      "depart_time": "17:30",
+      "arrive_time": "22:15 (+1)",
+      "duration": "14h 45m (含轉機)",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 101",
-      "route": "NRT → TPE 直飛",
-      "depart_time": "14:30",
-      "arrive_time": "17:15",
-      "duration": "3h 45m",
+      "flight_no": "SQ 452",
+      "route": "MLE → SIN 轉機 → TPE",
+      "depart_time": "23:25",
+      "arrive_time": "14:10 (+1)",
+      "duration": "14h 45m (含轉機)",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "The Gate Hotel Asakusa Kaminarimon",
-      "name_zh": "淺草雷門大門飯店",
-      "district": "淺草",
-      "day_range": "1–2",
-      "nights": 2,
-      "price_ntd": 18000,
-      "stars": "★★★★☆",
-      "room_type": "高級雙人房（附陽台）",
-      "breakfast": "含自助式早餐",
-      "amenities": "🏙️ 頂樓露台眺望淺草寺 · 🏊 健身房 · 🍽️ 屋頂酒吧 · 🛁 浴缸",
-      "search_query": "The Gate Hotel Asakusa Kaminarimon Tokyo Japan",
+      "name": "Kurumba Maldives",
+      "name_zh": "庫倫巴度假村",
+      "district": "North Malé Atoll",
+      "day_range": "1–3",
+      "nights": 3,
+      "price_ntd": 82000,
+      "stars": "★★★★★",
+      "room_type": "豪華海景別墅 Deluxe Ocean View Villa",
+      "breakfast": "含自助早餐",
+      "amenities": "🏖 私人沙灘 · 🏊 無邊際泳池 · 🧖 SPA · 🍽️ 多間餐廳 · 🚤 快艇接送",
+      "search_query": "Kurumba Maldives resort",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1683998083736-afba1f5c7008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city with tall buildings"
+          "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden cottage on blue body of water during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1566484444878-f5456ec7e1b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a large building with a lot of lights in front of it"
+          "url": "https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "green palm trees near body of water"
         },
         {
-          "url": "https://images.unsplash.com/photo-1608501078713-8e445a709b39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "city skyline during night time"
+          "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden bench on beach during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1615049364575-de41cf3db694?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "city skyline near body of water during sunset"
+          "url": "https://images.unsplash.com/photo-1620065487644-1080510335f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "green palm trees near swimming pool during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1706839638674-b15b4f0576e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at sunset from a window"
+          "url": "https://images.unsplash.com/photo-1643856555886-76dca68e5322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a white sandy beach surrounded by palm trees"
         },
         {
-          "url": "https://images.unsplash.com/photo-1707096976336-384b2ebfe94d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at night with the eiffel tower lit up"
+          "url": "https://images.unsplash.com/photo-1609601546193-f558f1ebb385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden dock on blue sea under white clouds during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1683998083736-afba1f5c7008?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city with tall buildings"
+          "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden cottage on blue body of water during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1566484444878-f5456ec7e1b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a large building with a lot of lights in front of it"
+          "url": "https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "green palm trees near body of water"
         },
         {
-          "url": "https://images.unsplash.com/photo-1608501078713-8e445a709b39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "city skyline during night time"
+          "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden bench on beach during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1615049364575-de41cf3db694?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "city skyline near body of water during sunset"
+          "url": "https://images.unsplash.com/photo-1620065487644-1080510335f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "green palm trees near swimming pool during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1706839638674-b15b4f0576e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at sunset from a window"
+          "url": "https://images.unsplash.com/photo-1643856555886-76dca68e5322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a white sandy beach surrounded by palm trees"
         },
         {
-          "url": "https://images.unsplash.com/photo-1707096976336-384b2ebfe94d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at night with the eiffel tower lit up"
+          "url": "https://images.unsplash.com/photo-1609601546193-f558f1ebb385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLdXJ1bWJhJTIwTWFsZGl2ZXMlMjByZXNvcnR8ZW58MHwwfHx8MTc3ODc3NDUxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden dock on blue sea under white clouds during daytime"
         }
       ]
     }
@@ -100,101 +100,81 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Ryugin",
-        "name_zh": "龍吟 · 米其林三星",
+        "name": "Ithaa Undersea Restaurant",
+        "name_zh": "伊塔海底餐廳 · 康斯坦斯莫凡彼島",
         "stars": "⭐⭐⭐",
-        "dish": "🍣 招牌：季節懷石料理 · 鮑魚蒸飯",
-        "address": "7-17-24 Roppongi, Minato-ku",
-        "price_ntd": 12000,
-        "price_label": "晚餐套餐 ¥54,000/兩人 · NT$12,000",
-        "hours": "18:00–23:00 · 需預約",
-        "search_query": "Ryugin Tokyo Michelin three stars",
+        "dish": "🦞 招牌：龍蝦三重奏 · 香檳配對",
+        "address": "Conrad Maldives Rangali Island",
+        "price_ntd": 14000,
+        "price_label": "晚餐套餐 $280/人 · NT$14,000（兩人）",
+        "hours": "12:00–14:30 / 18:00–22:00 · 需預約",
+        "search_query": "Ithaa Undersea Restaurant Maldives",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1766582931794-b7bc2936ce6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Long table set for a meal in a restaurant"
+            "url": "",
+            "label": "fine dining food Maldives"
           },
           {
-            "url": "https://images.unsplash.com/photo-1766582931794-b7bc2936ce6f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Long table set for a meal in a restaurant"
+            "url": "",
+            "label": "fine dining food Maldives"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Maldives"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Uoshin Nogizaka",
-        "name_zh": "魚心 乃木坂 · 壽司居酒屋",
+        "name": "Vihamana Restaurant",
+        "name_zh": "維哈馬納餐廳 · 庫倫巴度假村",
         "stars": "",
-        "dish": "🐟 招牌：極上握壽司拼盤 · 海膽軍艦",
-        "address": "1-9-4 Minami-Aoyama, Minato-ku",
+        "dish": "🐟 招牌：馬爾地夫烤魚 · 椰子咖喱",
+        "address": "Kurumba Maldives",
         "price_ntd": 3600,
-        "price_label": "晚餐套餐 ¥16,200/兩人 · NT$3,600",
-        "hours": "17:30–23:00",
-        "search_query": "Uoshin Nogizaka Tokyo sushi",
+        "price_label": "自助晚餐 $72/人 · NT$3,600（兩人）",
+        "hours": "18:30–21:30",
+        "search_query": "Vihamana restaurant Kurumba",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1688267224086-7fcedea2cc0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxVb3NoaW4lMjBOb2dpemFrYSUyMFRva3lvJTIwc3VzaGl8ZW58MHwwfHx8MTc3ODg5NTI5N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a man in a kitchen preparing food on a cutting board"
+            "url": "",
+            "label": "bistros food Maldives"
           },
           {
-            "url": "https://images.unsplash.com/photo-1602421312666-5883f16a7c85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxVb3NoaW4lMjBOb2dpemFrYSUyMFRva3lvJTIwc3VzaGl8ZW58MHwwfHx8MTc3ODg5NTI5N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "man in white chef uniform"
+            "url": "",
+            "label": "bistros food Maldives"
           },
           {
-            "url": "https://images.unsplash.com/photo-1584671986324-fc1ce89a5b07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxVb3NoaW4lMjBOb2dpemFrYSUyMFRva3lvJTIwc3VzaGl8ZW58MHwwfHx8MTc3ODg5NTI5N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "person holding black chopsticks with brown food"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1688267224086-7fcedea2cc0f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxVb3NoaW4lMjBOb2dpemFrYSUyMFRva3lvJTIwc3VzaGl8ZW58MHwwfHx8MTc3ODg5NTI5N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a man in a kitchen preparing food on a cutting board"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1602421312666-5883f16a7c85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxVb3NoaW4lMjBOb2dpemFrYSUyMFRva3lvJTIwc3VzaGl8ZW58MHwwfHx8MTc3ODg5NTI5N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "man in white chef uniform"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1584671986324-fc1ce89a5b07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxVb3NoaW4lMjBOb2dpemFrYSUyMFRva3lvJTIwc3VzaGl8ZW58MHwwfHx8MTc3ODg5NTI5N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "person holding black chopsticks with brown food"
+            "url": "",
+            "label": "bistros food Maldives"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Café de l'Ambre",
-        "name_zh": "琥珀咖啡 · 1948年創業",
+        "name": "Café Kurumba",
+        "name_zh": "庫倫巴咖啡廳",
         "stars": "",
-        "dish": "☕ 招牌：琥珀女王咖啡 · 手工布丁",
-        "address": "3-5-1 Ginza, Chuo-ku",
+        "dish": "☕ 招牌：冰拿鐵 · 椰子鬆餅 · 熱帶水果拼盤",
+        "address": "Kurumba Maldives",
         "price_ntd": 800,
-        "price_label": "兩人咖啡甜點 ¥3,600 · NT$800",
-        "hours": "07:30–20:00 · 銀座老舖",
-        "search_query": "Cafe de l'Ambre Ginza Tokyo",
+        "price_label": "輕食飲品 $16/人 · NT$800（兩人）",
+        "hours": "07:00–18:00",
+        "search_query": "Cafe Kurumba Maldives",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1754147389043-7b1d10385d9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxDYWZlJTIwZGUlMjBsJTI3QW1icmUlMjBHaW56YSUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Restaurant san michele at night."
+            "url": "",
+            "label": "cafe coffee Maldives"
           },
           {
-            "url": "https://images.unsplash.com/photo-1512699587109-3eb606946b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxDYWZlJTIwZGUlMjBsJTI3QW1icmUlMjBHaW56YSUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "two person standing on sidewalk near pedestrian lane"
+            "url": "",
+            "label": "cafe coffee Maldives"
           },
           {
-            "url": "https://images.unsplash.com/photo-1755855233293-5bc2e8a0e7bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxDYWZlJTIwZGUlMjBsJTI3QW1icmUlMjBHaW56YSUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "City buildings with s&b spice and herb advertisement."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1754147389043-7b1d10385d9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxDYWZlJTIwZGUlMjBsJTI3QW1icmUlMjBHaW56YSUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Restaurant san michele at night."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1512699587109-3eb606946b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxDYWZlJTIwZGUlMjBsJTI3QW1icmUlMjBHaW56YSUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "two person standing on sidewalk near pedestrian lane"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1755855233293-5bc2e8a0e7bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxDYWZlJTIwZGUlMjBsJTI3QW1icmUlMjBHaW56YSUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTUyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "City buildings with s&b spice and herb advertisement."
+            "url": "",
+            "label": "cafe coffee Maldives"
           }
         ]
       }
@@ -203,149 +183,165 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Jun 12 · Fri",
-      "label_zh": "抵達 & 淺草探索",
-      "hotel_name": "The Gate Hotel Asakusa Kaminarimon",
-      "hotel_name_zh": "淺草雷門大門飯店 · 高級雙人房",
-      "hotel_room": "高級雙人房（附陽台）",
-      "weather": "☀️ 28°/21°",
-      "rain_pct": "10%",
+      "date": "June 10 · Wed",
+      "label_zh": "抵達日 · 入住庫倫巴",
+      "hotel_name": "Kurumba Maldives",
+      "hotel_name_zh": "庫倫巴度假村 · 豪華海景別墅",
+      "hotel_room": "豪華海景別墅 Deluxe Ocean View Villa",
+      "weather": "☀️ 32°/27°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "08:50",
-          "desc": "✈️ 桃園機場 TPE 出發 · 中華航空 CI100 · 預計13:15抵達成田"
+          "time": "17:30",
+          "desc": "✈️ 桃園機場 TPE 出發 · 新加坡航空 SQ879"
         },
         {
-          "time": "13:15",
-          "desc": "🛬 抵達成田機場 NRT Terminal 1 · 入境、領行李、購買 Suica 卡"
+          "time": "22:15",
+          "desc": "🛬 抵達馬累國際機場 MLE · 入境通關"
         },
         {
-          "time": "14:30",
-          "desc": "🚄 搭乘 Skyliner 至京成上野站（約41分鐘）→ 轉地鐵至淺草"
+          "time": "23:00",
+          "desc": "🚤 快艇接駁至庫倫巴度假村（約15分鐘）"
         },
         {
-          "time": "15:30",
-          "desc": "🏨 入住 The Gate Hotel Asakusa · 頂樓眺望淺草寺與晴空塔"
+          "time": "23:30",
+          "desc": "🏨 辦理入住 · 迎賓飲料 · 海景別墅放鬆"
         },
         {
-          "time": "17:00",
-          "desc": "⛩️ 淺草寺 Sensō-ji · 仲見世通商店街散步 · 品嚐人形燒"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍜 晚餐：淺草「並木藪蕎麥」· 傳統手打蕎麥麵（約 ¥3,000/兩人）"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌃 淺草文化觀光中心 · 免費展望台欣賞晴空塔夜景"
-        },
-        {
-          "time": "21:30",
-          "desc": "🍺 飯店屋頂酒吧 The Roof · 小酌一杯 · 返回房間休息"
+          "time": "00:00",
+          "desc": "🌙 私人陽台觀星 · 聆聽海浪聲入眠"
         }
       ]
     },
     {
       "day": 2,
-      "date": "Jun 13 · Sat",
-      "label_zh": "銀座 & 澀谷經典",
-      "hotel_name": "The Gate Hotel Asakusa Kaminarimon",
-      "hotel_name_zh": "淺草雷門大門飯店 · 高級雙人房",
-      "hotel_room": "高級雙人房（附陽台）",
-      "weather": "⛅ 27°/22°",
-      "rain_pct": "20%",
+      "date": "June 11 · Thu",
+      "label_zh": "全日海島奢華體驗",
+      "hotel_name": "Kurumba Maldives",
+      "hotel_name_zh": "庫倫巴度假村 · 豪華海景別墅",
+      "hotel_room": "豪華海景別墅 Deluxe Ocean View Villa",
+      "weather": "☀️ 33°/28°",
+      "rain_pct": "0%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐 · 日式與西式自助餐"
+          "time": "07:00",
+          "desc": "🌅 日出瑜珈 · 沙灘冥想"
         },
         {
-          "time": "09:00",
-          "desc": "🚇 搭乘地鐵銀座線至銀座站"
+          "time": "08:00",
+          "desc": "🥐 Café Kurumba 早餐 · 椰子鬆餅與冰拿鐵"
         },
         {
           "time": "09:30",
-          "desc": "☕ Café de l'Ambre 琥珀咖啡 · 品嚐經典手沖咖啡與布丁"
+          "desc": "🏊 無邊際泳池暢游 · 沙灘躺椅日光浴"
         },
         {
-          "time": "10:30",
-          "desc": "🛍️ 銀座逛街 · Ginza Six · 和光百貨 · 無印良品旗艦店"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍣 午餐：銀座「久兵衛」壽司（米其林一星 · 午餐套餐 ¥16,000/兩人）"
+          "time": "12:00",
+          "desc": "🍽️ Vihamana Restaurant 自助午餐 · 馬爾地夫烤魚"
         },
         {
           "time": "14:00",
-          "desc": "🎨 銀座「資生堂藝廊」或「POLA美術館」免費展覽"
+          "desc": "🐠 浮潛探索珊瑚礁 · 海龜與熱帶魚群"
         },
         {
           "time": "16:00",
-          "desc": "🚇 搭乘地鐵至澀谷 · 參觀澀谷十字路口 · 忠犬八公像"
+          "desc": "💆 雙人SPA療程（60分鐘）"
         },
         {
-          "time": "17:30",
-          "desc": "🌿 澀谷 Miyashita Park · 空中花園散步 · 購物中心"
+          "time": "18:30",
+          "desc": "🍹 日落雞尾酒 · 沙灘酒吧"
         },
         {
-          "time": "19:00",
-          "desc": "🍜 晚餐：澀谷「AFURI」柚子鹽拉麵（¥2,400/兩人）"
-        },
-        {
-          "time": "20:30",
-          "desc": "🌃 澀谷 SKY 展望台（預約門票 ¥2,000/人）· 360度夜景"
-        },
-        {
-          "time": "22:00",
-          "desc": "🚇 返回淺草飯店 · 休息"
+          "time": "20:00",
+          "desc": "🦞 庫倫巴沙灘晚餐 · 燭光龍蝦套餐"
         }
       ]
     },
     {
       "day": 3,
-      "date": "Jun 14 · Sun",
-      "label_zh": "台場 & 回程",
-      "hotel_name": "The Gate Hotel Asakusa Kaminarimon",
-      "hotel_name_zh": "淺草雷門大門飯店 · 高級雙人房",
-      "hotel_room": "高級雙人房（附陽台）",
-      "weather": "☀️ 30°/23°",
-      "rain_pct": "5%",
+      "date": "June 12 · Fri",
+      "label_zh": "浪漫全日 · 海底晚餐",
+      "hotel_name": "Kurumba Maldives",
+      "hotel_name_zh": "庫倫巴度假村 · 豪華海景別墅",
+      "hotel_room": "豪華海景別墅 Deluxe Ocean View Villa",
+      "weather": "☀️ 32°/27°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐 · 整理行李 · 退房（行李寄放櫃檯）"
+          "time": "07:30",
+          "desc": "🥐 別墅內早餐 · 漂浮早餐服務"
         },
         {
-          "time": "09:30",
-          "desc": "🚇 搭乘地鐵至新橋站 · 轉乘百合海鷗號至台場"
+          "time": "09:00",
+          "desc": "🚤 出海賞海豚 · 追逐寬吻海豚群"
         },
         {
-          "time": "10:30",
-          "desc": "🤖 台場 teamLab Borderless 數位藝術館（門票 ¥3,200/人）"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍕 午餐：台場 DiverCity 購物中心 · 美食廣場多樣選擇"
+          "time": "11:30",
+          "desc": "🏖️ 無人沙洲野餐 · 香檳與水果"
         },
         {
           "time": "14:00",
-          "desc": "🌉 台場海濱公園 · 自由女神像 · 彩虹橋拍照"
+          "desc": "🤿 深潛體驗（教練陪同）"
         },
         {
-          "time": "15:00",
-          "desc": "🛍️ 台場 Aqua City 購物 · 最後採買伴手禮"
-        },
-        {
-          "time": "16:30",
-          "desc": "🚄 搭乘百合海鷗號至新橋 → 轉 Skyliner 至成田機場"
+          "time": "16:00",
+          "desc": "🏐 沙灘排球 · 或別墅內休息"
         },
         {
           "time": "18:00",
-          "desc": "🛬 抵達成田機場 · 辦理登機 · 免稅商店購物"
+          "desc": "🚤 快艇前往康斯坦斯莫凡彼島"
         },
         {
-          "time": "14:30",
-          "desc": "✈️ 搭乘中華航空 CI101 · 返回台灣 · 預計17:15抵達桃園"
+          "time": "19:00",
+          "desc": "🦞 Ithaa海底餐廳晚餐 · 龍蝦三重奏"
+        },
+        {
+          "time": "21:30",
+          "desc": "🚤 返回庫倫巴 · 星空漫步"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "June 13 · Sat",
+      "label_zh": "最後一日 · 返程",
+      "hotel_name": "Kurumba Maldives",
+      "hotel_name_zh": "庫倫巴度假村 · 豪華海景別墅",
+      "hotel_room": "豪華海景別墅 Deluxe Ocean View Villa",
+      "weather": "☀️ 32°/27°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 最後早餐 · 沙灘漫步"
+        },
+        {
+          "time": "09:00",
+          "desc": "🏊 最後泳池時光 · 拍照留念"
+        },
+        {
+          "time": "10:30",
+          "desc": "🧳 退房 · 寄放行李"
+        },
+        {
+          "time": "11:00",
+          "desc": "🎁 紀念品店選購 · 椰子油／手工飾品"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 午餐 · 輕食三明治"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚤 快艇返回馬累機場"
+        },
+        {
+          "time": "16:00",
+          "desc": "✈️ 馬累機場 MLE 辦理登機"
+        },
+        {
+          "time": "23:25",
+          "desc": "✈️ 新加坡航空 SQ452 返台"
         }
       ]
     }
@@ -353,102 +349,94 @@
   "costs": [
     {
       "label": "✈️ 來回機票",
-      "amount_ntd": 24000
+      "amount_ntd": 54000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 18000
+      "amount_ntd": 82000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 22000
-    },
-    {
-      "label": "🎫 景點門票",
       "amount_ntd": 12000
     },
     {
-      "label": "🚇 交通",
-      "amount_ntd": 8000
+      "label": "🎫 景點門票",
+      "amount_ntd": 6000
+    },
+    {
+      "label": "🚤 交通",
+      "amount_ntd": 4000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 15000
+      "amount_ntd": 2000
     }
   ],
-  "cost_total_ntd": 99000,
-  "budget_remaining_ntd": 1000,
+  "cost_total_ntd": 160000,
+  "budget_remaining_ntd": 0,
   "photos": {
     "hero": [
       {
-        "url": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk1MjkwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel Tower, Paris during dusk"
+        "url": "https://images.unsplash.com/photo-1679656952793-023c511f46de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk0ODU4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a large body of water with a city in the background"
       },
       {
-        "url": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk1MjkwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view of city buildings during night time"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk1MjkwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel Tower, Paris during dusk"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk1MjkwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view of city buildings during night time"
+        "url": "https://images.unsplash.com/photo-1679656952793-023c511f46de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk0ODU4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a large body of water with a city in the background"
       }
     ],
     "destination": [
       {
-        "url": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel Tower, Paris during dusk"
+        "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown wooden cottage on blue body of water during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view of city buildings during night time"
+        "url": "https://images.unsplash.com/photo-1576158831003-d41033ec31fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "person swinging on hammock hanged on coconut tree near sea"
       },
       {
-        "url": "https://images.unsplash.com/photo-1557409518-691ebcd96038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "boats on body of water"
+        "url": "https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green palm trees near body of water"
       },
       {
-        "url": "https://images.unsplash.com/photo-1549693578-d683be217e58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white and red buss on the middle of crossing street photo"
+        "url": "https://images.unsplash.com/photo-1620065487644-1080510335f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green palm trees near swimming pool during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1551322120-c697cf88fbdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial photography of red tower surrounded by buildings during daytime"
+        "url": "https://images.unsplash.com/photo-1622779536320-bb5f5b501a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green trees near body of water under blue sky during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking between city building"
+        "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown wooden bench on beach during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel Tower, Paris during dusk"
+        "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown wooden cottage on blue body of water during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view of city buildings during night time"
+        "url": "https://images.unsplash.com/photo-1576158831003-d41033ec31fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "person swinging on hammock hanged on coconut tree near sea"
       },
       {
-        "url": "https://images.unsplash.com/photo-1557409518-691ebcd96038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "boats on body of water"
+        "url": "https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green palm trees near body of water"
       },
       {
-        "url": "https://images.unsplash.com/photo-1549693578-d683be217e58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white and red buss on the middle of crossing street photo"
+        "url": "https://images.unsplash.com/photo-1620065487644-1080510335f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green palm trees near swimming pool during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1551322120-c697cf88fbdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial photography of red tower surrounded by buildings during daytime"
+        "url": "https://images.unsplash.com/photo-1622779536320-bb5f5b501a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "green trees near body of water under blue sky during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NTI5MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking between city building"
+        "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NDg1OXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown wooden bench on beach during daytime"
       }
     ]
   },
-  "chat_hash": "0c8cc6843297e0a2a84b15c3b15b04566029bdce15188bedf5c0e093f5b9f9cd",
+  "chat_hash": "d6a4e79b56c212bb6e83b3632ed432fc67c2aff81a7fc3d2f1c77cf669cea254",
   "config_hash": "32a81935bd11e3366f0a7d66fded735f0412cb74915886bea371444885c19238",
-  "generated_at": "2026-05-16T09:34:58.235559"
+  "generated_at": "2026-05-16T09:40:32.158770"
 }
