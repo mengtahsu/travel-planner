@@ -1,122 +1,209 @@
 {
-  "destination_en": "Tokyo, Japan",
-  "title_zh": "東京二日遊 · 淺草寺/晴空塔 · 浪漫之旅",
-  "date_range": "2026/06/01–06/03",
-  "start_date": "2026-06-01",
-  "end_date": "2026-06-03",
+  "destination_en": "Osaka, Japan",
+  "title_zh": "大阪二日 · 道頓堀/環球影城 · 浪漫之旅",
+  "date_range": "2026/06/10–06/13",
+  "start_date": "2026-06-10",
+  "end_date": "2026-06-13",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "NRT",
+  "destination_code": "KIX",
   "travelers": 2,
-  "days": 2,
-  "budget_ntd": 80000,
+  "days": 4,
+  "budget_ntd": 60000,
   "flight": {
-    "airline": "中華航空 China Airlines",
-    "departure_date": "6月1日",
-    "return_date": "6月3日",
-    "total_price_ntd": 18000,
+    "airline": "樂桃航空 Peach Aviation",
+    "departure_date": "6月10日",
+    "return_date": "6月13日",
+    "total_price_ntd": 12000,
     "outbound": {
-      "flight_no": "CI 100",
-      "route": "TPE → NRT 直飛",
-      "depart_time": "08:30",
-      "arrive_time": "12:45",
-      "duration": "3h 15m",
+      "flight_no": "MM 24",
+      "route": "TPE → KIX 直飛",
+      "depart_time": "06:30",
+      "arrive_time": "10:00",
+      "duration": "2h 30m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 101",
-      "route": "NRT → TPE 直飛",
-      "depart_time": "14:30",
-      "arrive_time": "17:00",
-      "duration": "3h 30m",
+      "flight_no": "MM 23",
+      "route": "KIX → TPE 直飛",
+      "depart_time": "21:00",
+      "arrive_time": "22:40",
+      "duration": "2h 40m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "The Gate Hotel Ryogoku",
-      "name_zh": "兩國門酒店",
-      "district": "墨田區（近淺草、晴空塔）",
-      "day_range": "1–2",
-      "nights": 2,
-      "price_ntd": 18000,
+      "name": "Hotel Nikko Kansai Airport",
+      "name_zh": "關西機場日航酒店",
+      "district": "關西機場內",
+      "day_range": "1–1",
+      "nights": 1,
+      "price_ntd": 4500,
       "stars": "★★★★☆",
-      "room_type": "高級雙人房（晴空塔景）",
-      "breakfast": "含日式自助早餐",
-      "amenities": "🏙️ 晴空塔景觀 · ♨️ 大浴場 · 🍣 屋頂酒吧 · 🚇 兩國站步行3分",
-      "search_query": "The Gate Hotel Ryogoku Tokyo Japan",
+      "room_type": "標準雙人房",
+      "breakfast": "含自助早餐",
+      "amenities": "🚿 24小時櫃檯 · 🛍️ 機場直通 · 🍜 餐廳",
+      "search_query": "Hotel Nikko Kansai Airport Osaka",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1566484444878-f5456ec7e1b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUaGUlMjBHYXRlJTIwSG90ZWwlMjBSeW9nb2t1JTIwVG9reW8lMjBKYXBhbnxlbnwwfDB8fHwxNzc4ODk3MzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a large building with a lot of lights in front of it"
+          "url": "https://images.unsplash.com/photo-1741121622806-7e5f66e5d13b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large building with a wide entryway."
         },
         {
-          "url": "https://images.unsplash.com/photo-1706839638674-b15b4f0576e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUaGUlMjBHYXRlJTIwSG90ZWwlMjBSeW9nb2t1JTIwVG9reW8lMjBKYXBhbnxlbnwwfDB8fHwxNzc4ODk3MzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a view of a city at sunset from a window"
+          "url": "https://images.unsplash.com/photo-1777498269619-02ad5ee335da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Modern office building with trees lining the street."
         },
         {
-          "url": "https://images.unsplash.com/photo-1560640507-a9e7a39b38f0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUaGUlMjBHYXRlJTIwSG90ZWwlMjBSeW9nb2t1JTIwVG9reW8lMjBKYXBhbnxlbnwwfDB8fHwxNzc4ODk3MzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "people inside building"
+          "url": "https://images.unsplash.com/photo-1729601222018-126df30671f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large room with tables and chairs inside of it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1623634068161-7f4b68a4a159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUaGUlMjBHYXRlJTIwSG90ZWwlMjBSeW9nb2t1JTIwVG9reW8lMjBKYXBhbnxlbnwwfDB8fHwxNzc4ODk3MzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "yellow and white basketball hoop"
+          "url": "https://images.unsplash.com/photo-1777498269248-e0901e56b7c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Modern office building with glass facade and trees."
         },
         {
-          "url": "https://images.unsplash.com/photo-1718851972754-6638b49b4775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUaGUlMjBHYXRlJTIwSG90ZWwlMjBSeW9nb2t1JTIwVG9reW8lMjBKYXBhbnxlbnwwfDB8fHwxNzc4ODk3MzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A bedroom with a large bed and wooden floors"
+          "url": "https://images.unsplash.com/photo-1610338724170-5406cb1991ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "UNKs coffee shop during night time"
         },
         {
-          "url": "https://images.unsplash.com/photo-1730386772600-d9d4c1d0b867?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUaGUlMjBHYXRlJTIwSG90ZWwlMjBSeW9nb2t1JTIwVG9reW8lMjBKYXBhbnxlbnwwfDB8fHwxNzc4ODk3MzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A building with a lit up entrance at night"
+          "url": "https://images.unsplash.com/photo-1724088638897-8be12be33ccb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A view of a city with a lot of tall buildings"
         },
         {
-          "url": "https://images.unsplash.com/photo-1551670083-4245449ff595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxUaGUlMjBHYXRlJTIwSG90ZWwlMjBSeW9nb2t1JTIwVG9reW8lMjBKYXBhbnxlbnwwfDB8fHwxNzc4ODk3MzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "purple vehicle parked beside building during daytime"
+          "url": "https://images.unsplash.com/photo-1763419161907-1e00b2f883c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Two beds with a nightstand and clock between them."
         },
         {
-          "url": "https://images.unsplash.com/photo-1736231651491-b259d2d48c5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxUaGUlMjBHYXRlJTIwSG90ZWwlMjBSeW9nb2t1JTIwVG9reW8lMjBKYXBhbnxlbnwwfDB8fHwxNzc4ODk3MzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A dark street with a small store at night"
+          "url": "https://images.unsplash.com/photo-1721993706872-51bf65424bd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A building that has a sign on the side of it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1745595330140-9ee41e4cc395?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxUaGUlMjBHYXRlJTIwSG90ZWwlMjBSeW9nb2t1JTIwVG9reW8lMjBKYXBhbnxlbnwwfDB8fHwxNzc4ODk3MzExfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A woman in kimono with an umbrella."
+          "url": "https://images.unsplash.com/photo-1771157808285-e8aa22791b66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A yellow airplane with \"star wars\" livery at an airport."
         },
         {
-          "url": "https://images.unsplash.com/photo-1755327785951-b5b9d9c1ed66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8VGhlJTIwR2F0ZSUyMEhvdGVsJTIwUnlvZ29rdSUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODg5NzMxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Modern skyscrapers and buildings against a clear sky"
+          "url": "https://images.unsplash.com/photo-1778675470639-4f76746e92fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnQlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Two airplanes on tarmac with city skyline background"
         },
         {
-          "url": "https://images.unsplash.com/photo-1722866389076-83372624620b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8VGhlJTIwR2F0ZSUyMEhvdGVsJTIwUnlvZ29rdSUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODg5NzMxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A black and white photo of a person riding a bike"
+          "url": "https://images.unsplash.com/photo-1760055411455-5521ab1d4b98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnQlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Osaka station city at night with jr train"
         },
         {
-          "url": "https://images.unsplash.com/photo-1533559694830-9f8d535740c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8VGhlJTIwR2F0ZSUyMEhvdGVsJTIwUnlvZ29rdSUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODg5NzMxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "low angle of brown concrete building under dark sky"
+          "url": "https://images.unsplash.com/photo-1767142988176-4f87f2f2513c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnQlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Airplane taking off with dramatic clouds at sunset"
         },
         {
-          "url": "https://images.unsplash.com/photo-1768731357553-f081a6975f4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8VGhlJTIwR2F0ZSUyMEhvdGVsJTIwUnlvZ29rdSUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODg5NzMxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Tall illuminated tower in a city at night"
+          "url": "https://images.unsplash.com/photo-1713103728165-777924ffafd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnQlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a city street filled with lots of tall buildings"
         },
         {
-          "url": "https://images.unsplash.com/photo-1728382332633-475514931275?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8VGhlJTIwR2F0ZSUyMEhvdGVsJTIwUnlvZ29rdSUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODg5NzMxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A tall building with a sky in the background"
+          "url": "https://images.unsplash.com/photo-1765862857047-c41c1a670752?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnQlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Building with cartoon advertisement on rooftop"
         },
         {
-          "url": "https://images.unsplash.com/photo-1735637970857-252cb2c9ff83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8VGhlJTIwR2F0ZSUyMEhvdGVsJTIwUnlvZ29rdSUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODg5NzMxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A man walking across a street at night"
+          "url": "https://images.unsplash.com/photo-1722192148003-1afc21d75f4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnQlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large jetliner flying through a blue cloudy sky"
         },
         {
-          "url": "https://images.unsplash.com/photo-1685467861988-9ef5d7d07e77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8VGhlJTIwR2F0ZSUyMEhvdGVsJTIwUnlvZ29rdSUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODg5NzMxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "a person crossing a street in front of a red gate"
+          "url": "https://images.unsplash.com/photo-1696775007594-cb96b725df22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnQlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an airplane flying over a tall building under a cloudy blue sky"
         },
         {
-          "url": "https://images.unsplash.com/photo-1722618412930-f70c52f1a55a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8VGhlJTIwR2F0ZSUyMEhvdGVsJTIwUnlvZ29rdSUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODg5NzMxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "A sign on the side of a building in front of a building"
+          "url": "https://images.unsplash.com/photo-1718463315134-3ca05c2d8354?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnQlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A black van driving down a street next to tall buildings"
         },
         {
-          "url": "https://images.unsplash.com/photo-1699978055996-dc7996dba224?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8VGhlJTIwR2F0ZSUyMEhvdGVsJTIwUnlvZ29rdSUyMFRva3lvJTIwSmFwYW58ZW58MHwwfHx8MTc3ODg5NzMxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "the entrance to a building with a tiled floor"
+          "url": "https://images.unsplash.com/photo-1732522158761-6dbc6266e47f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnQlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A woman walking down a hallway between two elevators"
+        }
+      ]
+    },
+    {
+      "name": "Hotel Universal Port",
+      "name_zh": "環球影城港灣酒店",
+      "district": "環球影城區域",
+      "day_range": "2–3",
+      "nights": 2,
+      "price_ntd": 14000,
+      "stars": "★★★★☆",
+      "room_type": "標準雙人房",
+      "breakfast": "含自助早餐",
+      "amenities": "🎢 環球影城官方酒店 · 🚌 免費接駁 · 🎁 提早入園特權",
+      "search_query": "Hotel Universal Port Osaka",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1777498269248-e0901e56b7c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Modern office building with glass facade and trees."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1697871965881-0911cea7a257?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a sign on the side of a building that says oska station"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1721993706872-51bf65424bd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A building that has a sign on the side of it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1741851374578-e618a8bb5eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Japanese architecture with a natural pathway."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1610338724170-5406cb1991ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "UNKs coffee shop during night time"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1712990919215-1c9492faa4c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "the entrance to a large building with a clock on it's side"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1561284429-b7a9bcd105db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxsdXh1cnklMjBob3RlbCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "white, green, and gold pagoda building surrounded by green trees"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1729601222018-126df30671f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxsdXh1cnklMjBob3RlbCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large room with tables and chairs inside of it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1741121622806-7e5f66e5d13b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxsdXh1cnklMjBob3RlbCUyME9zYWthfGVufDB8MHx8fDE3Nzg4OTc2MTR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A large building with a wide entryway."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1763419161907-1e00b2f883c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Two beds with a nightstand and clock between them."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1732522158761-6dbc6266e47f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A woman walking down a hallway between two elevators"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1777498269619-02ad5ee335da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Modern office building with trees lining the street."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1734537055934-dafc55785973?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A building that has a sign in front of it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1691334002859-94407e0cbe2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a tall white and gold building surrounded by trees"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1565598991085-4713869249a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "white temple"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1776101419666-467286665613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A traditional japanese castle with green roofs and trees."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1724088638897-8be12be33ccb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A view of a city with a lot of tall buildings"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1776717577962-e3516cf2b1f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYXxlbnwwfDB8fHwxNzc4ODk3NjE0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese castle surrounded by cherry blossoms."
         }
       ]
     }
@@ -124,165 +211,125 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Tempura Kondo",
-        "name_zh": "近藤天婦羅 · 米其林一星",
-        "stars": "⭐",
-        "dish": "🍤 招牌：海膽天婦羅 · 穴子天婦羅",
-        "address": "9F, 5-5-13 Ginza, Chuo-ku, Tokyo",
-        "price_ntd": 4500,
-        "price_label": "午餐套餐 ¥10,000/人 · NT$4,500",
-        "hours": "12:00–13:30（最終入場）· 需預約",
-        "search_query": "Tempura Kondo Ginza Tokyo food",
+        "name": "Kani Doraku (Dotonbori)",
+        "name_zh": "螃蟹道樂（道頓堀本店）",
+        "stars": "⭐⭐",
+        "dish": "🦀 招牌：螃蟹會席料理 · 蟹肉刺身 · 蟹鍋",
+        "address": "大阪市中央區道頓堀1-6-18",
+        "price_ntd": 4000,
+        "price_label": "晚餐套餐 ¥9,000/人 · NT$4,000",
+        "hours": "11:00–22:00 · 建議預約",
+        "search_query": "Kani Doraku Dotonbori Osaka",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1573241927154-420274a2711f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUZW1wdXJhJTIwS29uZG8lMjBHaW56YSUyMFRva3lvJTIwZm9vZHxlbnwwfDB8fHwxNzc4ODk3MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "person in black T-shirt"
+            "url": "https://images.unsplash.com/photo-1591224858513-b37c02197cff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLYW5pJTIwRG9yYWt1JTIwRG90b25ib3JpJTIwT3Nha2F8ZW58MHwwfHx8MTc3ODg5NzYxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "people walking on street during daytime"
           },
           {
-            "url": "https://images.unsplash.com/photo-1596684284412-d2082d2d76dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUZW1wdXJhJTIwS29uZG8lMjBHaW56YSUyMFRva3lvJTIwZm9vZHxlbnwwfDB8fHwxNzc4ODk3MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "woman in blue and white plaid dress shirt holding a food"
+            "url": "https://images.unsplash.com/photo-1734427842844-29f08e51763a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLYW5pJTIwRG9yYWt1JTIwRG90b25ib3JpJTIwT3Nha2F8ZW58MHwwfHx8MTc3ODg5NzYxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A river running through a city next to tall buildings"
           },
           {
-            "url": "https://images.unsplash.com/photo-1739466654743-3ed1bf635cfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUZW1wdXJhJTIwS29uZG8lMjBHaW56YSUyMFRva3lvJTIwZm9vZHxlbnwwfDB8fHwxNzc4ODk3MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A man in a chef's uniform preparing food in a kitchen"
+            "url": "https://images.unsplash.com/photo-1712544310522-742b0996c2dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLYW5pJTIwRG9yYWt1JTIwRG90b25ib3JpJTIwT3Nha2F8ZW58MHwwfHx8MTc3ODg5NzYxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a river running through a city next to tall buildings"
           },
           {
-            "url": "https://images.unsplash.com/photo-1762155865112-d66de23d4ce5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUZW1wdXJhJTIwS29uZG8lMjBHaW56YSUyMFRva3lvJTIwZm9vZHxlbnwwfDB8fHwxNzc4ODk3MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Japanese sign for takoyaki with price"
+            "url": "https://images.unsplash.com/photo-1713743587420-110a37fc5831?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLYW5pJTIwRG9yYWt1JTIwRG90b25ib3JpJTIwT3Nha2F8ZW58MHwwfHx8MTc3ODg5NzYxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a crowd of people walking around a city at night"
           },
           {
-            "url": "https://images.unsplash.com/photo-1592239485583-0b14a34f21bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUZW1wdXJhJTIwS29uZG8lMjBHaW56YSUyMFRva3lvJTIwZm9vZHxlbnwwfDB8fHwxNzc4ODk3MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "text"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1664806443877-f5bcff05e50b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUZW1wdXJhJTIwS29uZG8lMjBHaW56YSUyMFRva3lvJTIwZm9vZHxlbnwwfDB8fHwxNzc4ODk3MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a man in a white hat"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1681519031560-f26c67891322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxUZW1wdXJhJTIwS29uZG8lMjBHaW56YSUyMFRva3lvJTIwZm9vZHxlbnwwfDB8fHwxNzc4ODk3MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people sitting at tables in a restaurant"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1717021586531-0e8790f1eeb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxUZW1wdXJhJTIwS29uZG8lMjBHaW56YSUyMFRva3lvJTIwZm9vZHxlbnwwfDB8fHwxNzc4ODk3MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people in a kitchen preparing food"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1703994643674-6c2b8b49713a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxUZW1wdXJhJTIwS29uZG8lMjBHaW56YSUyMFRva3lvJTIwZm9vZHxlbnwwfDB8fHwxNzc4ODk3MzEyfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a man standing in front of a food stand at night"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1703994643547-aa233d50b056?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8VGVtcHVyYSUyMEtvbmRvJTIwR2luemElMjBUb2t5byUyMGZvb2R8ZW58MHwwfHx8MTc3ODg5NzMxMnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people in a kitchen preparing food"
+            "url": "https://images.unsplash.com/photo-1707181568897-3397433e58c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLYW5pJTIwRG9yYWt1JTIwRG90b25ib3JpJTIwT3Nha2F8ZW58MHwwfHx8MTc3ODg5NzYxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a group of people walking down a street next to tall buildings"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Imahan",
-        "name_zh": "今半 淺草本店 · 壽喜燒老舖",
-        "stars": "",
-        "dish": "🥩 招牌：黑毛和牛壽喜燒套餐",
-        "address": "2-2-2 Asakusa, Taito-ku, Tokyo",
-        "price_ntd": 3600,
-        "price_label": "午餐套餐 ¥8,000/人 · NT$3,600",
-        "hours": "11:30–21:00（最後點餐20:30）",
-        "search_query": "Imahan Asakusa sukiyaki Tokyo",
+        "name": "Takoyaki Wanaka",
+        "name_zh": "章魚燒 わなか 道頓堀店",
+        "stars": "⭐",
+        "dish": "🐙 招牌：章魚燒（8顆） · 明石燒",
+        "address": "大阪市中央區道頓堀1-10-5",
+        "price_ntd": 900,
+        "price_label": "兩人份 ¥2,000 · NT$900",
+        "hours": "10:00–22:00 · 排隊名店",
+        "search_query": "Takoyaki Wanaka Dotonbori",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1705268569566-e6b269e9fde5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxJbWFoYW4lMjBBc2FrdXNhJTIwc3VraXlha2klMjBUb2t5b3xlbnwwfDB8fHwxNzc4ODk3MzEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a view of a city with tall buildings"
+            "url": "https://images.unsplash.com/photo-1633790450512-98e68a55ef15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUYWtveWFraSUyMFdhbmFrYSUyMERvdG9uYm9yaXxlbnwwfDB8fHwxNzc4ODk3NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a person holding a paper container filled with food"
           },
           {
-            "url": "https://images.unsplash.com/photo-1730003194825-eae569fdf987?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxJbWFoYW4lMjBBc2FrdXNhJTIwc3VraXlha2klMjBUb2t5b3xlbnwwfDB8fHwxNzc4ODk3MzEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A view of a city with a train on the tracks"
+            "url": "https://images.unsplash.com/photo-1761983873009-3ba809ef1d49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUYWtveWFraSUyMFdhbmFrYSUyMERvdG9uYm9yaXxlbnwwfDB8fHwxNzc4ODk3NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Cartoon octopus on a white banner with japanese text"
           },
           {
-            "url": "https://images.unsplash.com/photo-1686933021162-49c06f7a0b9f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxJbWFoYW4lMjBBc2FrdXNhJTIwc3VraXlha2klMjBUb2t5b3xlbnwwfDB8fHwxNzc4ODk3MzEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people walking down a street next to tall buildings"
+            "url": "https://images.unsplash.com/photo-1623180416574-e4a796a3aa3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUYWtveWFraSUyMFdhbmFrYSUyMERvdG9uYm9yaXxlbnwwfDB8fHwxNzc4ODk3NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "red and black chinese lantern"
           },
           {
-            "url": "https://images.unsplash.com/photo-1484995978482-cf913162930c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxJbWFoYW4lMjBBc2FrdXNhJTIwc3VraXlha2klMjBUb2t5b3xlbnwwfDB8fHwxNzc4ODk3MzEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "person riding on black bicycle in road during daytime"
+            "url": "https://images.unsplash.com/photo-1771308458012-e60e667bbddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUYWtveWFraSUyMFdhbmFrYSUyMERvdG9uYm9yaXxlbnwwfDB8fHwxNzc4ODk3NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Chefs cooking takoyaki balls on a griddle"
           },
           {
-            "url": "https://images.unsplash.com/photo-1735637463206-1cd62896da42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxJbWFoYW4lMjBBc2FrdXNhJTIwc3VraXlha2klMjBUb2t5b3xlbnwwfDB8fHwxNzc4ODk3MzEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A city street at night with buildings lit up"
+            "url": "https://images.unsplash.com/photo-1652752731860-ef0cf518f13a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUYWtveWFraSUyMFdhbmFrYSUyMERvdG9uYm9yaXxlbnwwfDB8fHwxNzc4ODk3NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a wooden table with a plate of food on it"
           },
           {
-            "url": "https://images.unsplash.com/photo-1568299484490-8325c025a74d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxJbWFoYW4lMjBBc2FrdXNhJTIwc3VraXlha2klMjBUb2t5b3xlbnwwfDB8fHwxNzc4ODk3MzEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "aerial photo of road"
+            "url": "https://images.unsplash.com/photo-1752135527786-f33168ec7e08?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUYWtveWFraSUyMFdhbmFrYSUyMERvdG9uYm9yaXxlbnwwfDB8fHwxNzc4ODk3NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Japanese restaurant exterior with bright signage."
           },
           {
-            "url": "https://images.unsplash.com/photo-1759299983465-afcfa2f065a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxJbWFoYW4lMjBBc2FrdXNhJTIwc3VraXlha2klMjBUb2t5b3xlbnwwfDB8fHwxNzc4ODk3MzEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "People walking down a busy street with shops."
+            "url": "https://images.unsplash.com/photo-1762155865112-d66de23d4ce5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxUYWtveWFraSUyMFdhbmFrYSUyMERvdG9uYm9yaXxlbnwwfDB8fHwxNzc4ODk3NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Japanese sign for takoyaki with price"
           },
           {
-            "url": "https://images.unsplash.com/photo-1691333999328-22ba331e7e7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxJbWFoYW4lMjBBc2FrdXNhJTIwc3VraXlha2klMjBUb2t5b3xlbnwwfDB8fHwxNzc4ODk3MzEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "an aerial view of a city at night"
+            "url": "https://images.unsplash.com/photo-1738681335816-8e0df0aa9824?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxUYWtveWFraSUyMFdhbmFrYSUyMERvdG9uYm9yaXxlbnwwfDB8fHwxNzc4ODk3NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A person holding chopsticks with food on them"
           },
           {
-            "url": "https://images.unsplash.com/photo-1721141025940-178650e08b4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxJbWFoYW4lMjBBc2FrdXNhJTIwc3VraXlha2klMjBUb2t5b3xlbnwwfDB8fHwxNzc4ODk3MzEzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A person walking down a street next to a row of buildings"
+            "url": "https://images.unsplash.com/photo-1724227656355-6acf2d4798f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxUYWtveWFraSUyMFdhbmFrYSUyMERvdG9uYm9yaXxlbnwwfDB8fHwxNzc4ODk3NjE2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A red paper cut out of an octopus"
           },
           {
-            "url": "https://images.unsplash.com/photo-1737889827435-d5768e8fa775?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8SW1haGFuJTIwQXNha3VzYSUyMHN1a2l5YWtpJTIwVG9reW98ZW58MHwwfHx8MTc3ODg5NzMxM3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A restaurant with asian writing on the walls"
+            "url": "https://images.unsplash.com/photo-1768162125909-938d405ea0a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8VGFrb3lha2klMjBXYW5ha2ElMjBEb3RvbmJvcml8ZW58MHwwfHx8MTc3ODg5NzYxNnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Street food stall with takoyaki and price tags."
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Café de L’Ambre",
-        "name_zh": "琥珀咖啡 · 1950年創業",
+        "name": "Strawberry Mania",
+        "name_zh": "草莓狂想曲 道頓堀店",
         "stars": "",
-        "dish": "☕ 招牌：手沖琥珀女王咖啡 · 起司蛋糕",
-        "address": "3-15-15 Ginza, Chuo-ku, Tokyo",
+        "dish": "🍓 招牌：草莓聖代 · 草莓刨冰 · 草莓大福",
+        "address": "大阪市中央區道頓堀1-7-11",
         "price_ntd": 900,
-        "price_label": "兩人咖啡+甜點 ¥2,000 · NT$900",
-        "hours": "10:00–22:00 · 銀座老舖",
-        "search_query": "Cafe de L'Ambre Ginza Tokyo interior",
+        "price_label": "兩人甜點 ¥2,000 · NT$900",
+        "hours": "10:00–21:00 · IG打卡熱點",
+        "search_query": "Strawberry Mania Dotonbori Osaka",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1554058501-f6872d688003?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODg5NzMxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "woman standing walking beside red building"
+            "url": "https://images.unsplash.com/photo-1556763626-f52534fbeb42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxjYWZlJTIwY29mZmVlJTIwT3Nha2F8ZW58MHwwfHx8MTc3ODg5NzYxN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "building closed glass French doors"
           },
           {
-            "url": "https://images.unsplash.com/photo-1612741389124-b659f38b528e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODg5NzMxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "black bicycle parked beside brown and white concrete building during daytime"
+            "url": "https://images.unsplash.com/photo-1556763597-5c0fccde5659?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxjYWZlJTIwY29mZmVlJTIwT3Nha2F8ZW58MHwwfHx8MTc3ODg5NzYxN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "assorted pastries on display"
           },
           {
-            "url": "https://images.unsplash.com/photo-1593343534320-75e59f3f4232?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODg5NzMxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "people standing in front of white and blue building during daytime"
+            "url": "https://images.unsplash.com/photo-1556763597-3681a3fe752c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxjYWZlJTIwY29mZmVlJTIwT3Nha2F8ZW58MHwwfHx8MTc3ODg5NzYxN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "baked breads"
           },
           {
-            "url": "https://images.unsplash.com/photo-1680699641188-89db50dbad04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODg5NzMxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a cup and saucer sitting on a table"
+            "url": "https://images.unsplash.com/photo-1547371880-fac65c8600a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxjYWZlJTIwY29mZmVlJTIwT3Nha2F8ZW58MHwwfHx8MTc3ODg5NzYxN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white folded printed paper on table"
           },
           {
-            "url": "https://images.unsplash.com/photo-1593344707888-527ce75afbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODg5NzMxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white and black disposable cup"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1694211493881-76411bdb31ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODg5NzMxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a couple of plates of food on a table"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1735970287586-1b6026b86db1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODg5NzMxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A tall glass filled with liquid on top of a table"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1640313033260-bc6d2346d7ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODg5NzMxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people sitting at a table outside of a coffee shop"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1694211490308-25f03a7fede9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxjYWZlJTIwY29mZmVlJTIwVG9reW98ZW58MHwwfHx8MTc3ODg5NzMxNXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a plate of food on a table next to a glass of tea"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1631878083932-a9eb6e128cb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8Y2FmZSUyMGNvZmZlZSUyMFRva3lvfGVufDB8MHx8fDE3Nzg4OTczMTV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a kitchen counter with a potted plant next to it"
+            "url": "https://images.unsplash.com/photo-1556763640-5c4dac4bafe2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxjYWZlJTIwY29mZmVlJTIwT3Nha2F8ZW58MHwwfHx8MTc3ODg5NzYxN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "lighted red and white Open sign"
           }
         ]
       }
@@ -291,292 +338,340 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "6月1日 · 週一",
-      "label_zh": "淺草與晴空塔",
-      "hotel_name": "The Gate Hotel Ryogoku",
-      "hotel_name_zh": "兩國門酒店 · 高級雙人房（晴空塔景）",
-      "hotel_room": "高級雙人房（晴空塔景）",
-      "weather": "☀️ 26°/19°",
+      "date": "Jun 10 · Wed",
+      "label_zh": "抵達日 · 道頓堀漫遊",
+      "hotel_name": "Hotel Nikko Kansai Airport",
+      "hotel_name_zh": "關西機場日航酒店 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "☀️ 28°/20°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:30",
-          "desc": "✈️ TPE出發 · CI 100 · 08:30起飛"
+          "time": "06:30",
+          "desc": "✈️ 桃園機場 T1 出發 · 樂桃 MM24 · 記得帶護照"
         },
         {
-          "time": "12:45",
-          "desc": "✈️ 抵達成田機場 NRT · 入境、領行李、購買Suica卡"
+          "time": "10:00",
+          "desc": "🛬 抵達關西機場 KIX · 入境、領行李"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚄 搭乘南海電鐵空港急行 → 難波站（約45分）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍜 午餐：金龍拉麵（道頓堀店）· 豚骨湯底濃郁"
         },
         {
           "time": "14:00",
-          "desc": "🚄 成田特快N'EX 至東京站 · 轉乘總武線至兩國站（約75分鐘）"
-        },
-        {
-          "time": "15:00",
-          "desc": "🏨 入住 The Gate Hotel Ryogoku · 欣賞晴空塔景觀"
+          "desc": "🎡 道頓堀散步 · 固力果跑跑人打卡 · 唐吉訶德摩天輪"
         },
         {
           "time": "16:00",
-          "desc": "🏛️ 淺草寺 Senso-ji · 雷門、仲見世通商店街散步"
+          "desc": "🍓 Strawberry Mania 下午茶 · 草莓聖代拍照"
         },
         {
-          "time": "17:30",
-          "desc": "🍽️ 今半 淺草本店 · 壽喜燒晚餐（需預約）"
+          "time": "18:00",
+          "desc": "🦀 晚餐：螃蟹道樂 · 會席料理（預約19:00）"
         },
         {
-          "time": "19:00",
-          "desc": "🌆 晴空塔 Tokyo Skytree · 天望甲板（預約票 ¥2,100/人）"
+          "time": "20:30",
+          "desc": "🚇 返回關西機場 · 入住日航酒店"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 飯店屋頂酒吧 · 晴空塔夜景 · 小酌放鬆"
+          "time": "22:00",
+          "desc": "🛁 飯店休息 · 準備明早前往環球影城"
         }
       ]
     },
     {
       "day": 2,
-      "date": "6月2日 · 週二",
-      "label_zh": "銀座與澀谷",
-      "hotel_name": "The Gate Hotel Ryogoku",
-      "hotel_name_zh": "兩國門酒店 · 高級雙人房（晴空塔景）",
-      "hotel_room": "高級雙人房（晴空塔景）",
-      "weather": "⛅ 25°/18°",
-      "rain_pct": "20%",
+      "date": "Jun 11 · Thu",
+      "label_zh": "環球影城全日遊",
+      "hotel_name": "Hotel Universal Port",
+      "hotel_name_zh": "環球影城港灣酒店 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "☀️ 30°/22°",
+      "rain_pct": "5%",
       "slots": [
         {
+          "time": "07:00",
+          "desc": "🏨 退房關西機場日航酒店 · 寄放行李或直接帶走"
+        },
+        {
           "time": "07:30",
-          "desc": "🥐 飯店早餐 · 日式自助餐"
+          "desc": "🚄 關西機場站 → 環球城站（JR關空快速+JR夢咲線，約65分）"
+        },
+        {
+          "time": "08:30",
+          "desc": "🏨 抵達環球影城港灣酒店 · 寄放行李"
         },
         {
           "time": "09:00",
-          "desc": "🚇 兩國站 → 銀座站（約15分鐘）"
-        },
-        {
-          "time": "09:30",
-          "desc": "☕ Café de L’Ambre · 銀座老舖咖啡 · 手沖時光"
-        },
-        {
-          "time": "10:30",
-          "desc": "🛍️ 銀座逛街 · Ginza Six、松屋百貨、和光鐘樓"
+          "desc": "🎢 環球影城開園！利用提早入園特權衝超級任天堂世界"
         },
         {
           "time": "12:00",
-          "desc": "🍤 近藤天婦羅 · 米其林午餐（需預約）"
+          "desc": "🍔 午餐：園區內三根掃帚餐廳（奶油啤酒必點）"
         },
         {
           "time": "14:00",
-          "desc": "🚇 銀座 → 澀谷（約20分鐘）"
+          "desc": "🎢 繼續遊玩：哈利波特禁忌之旅 · 飛天翼龍 · 小小兵"
         },
         {
-          "time": "14:30",
-          "desc": "🦉 澀谷SKY展望台 · 360度玻璃觀景台（預約票 ¥1,800/人）"
+          "time": "18:00",
+          "desc": "🎆 夜間遊行（視當日時間）"
         },
         {
-          "time": "16:00",
-          "desc": "🚶 澀谷十字路口 · 忠犬八公像 · 逛逛澀谷PARCO"
+          "time": "20:00",
+          "desc": "🍜 晚餐：園區外環球影城步行街 · 大阪燒"
         },
         {
-          "time": "17:30",
-          "desc": "🍜 一蘭拉麵 澀谷店 · 經典豚骨拉麵（¥1,490/人）"
-        },
-        {
-          "time": "19:00",
-          "desc": "🌙 返回飯店 · 飯店大浴場泡湯放鬆"
-        },
-        {
-          "time": "21:00",
-          "desc": "🛏️ 整理行李 · 準備退房"
+          "time": "21:30",
+          "desc": "🛁 返回飯店 · 享受飯店浴場 · 休息"
         }
       ]
     },
     {
       "day": 3,
-      "date": "6月3日 · 週三",
-      "label_zh": "回程日",
-      "hotel_name": "The Gate Hotel Ryogoku",
-      "hotel_name_zh": "兩國門酒店 · 高級雙人房（晴空塔景）",
-      "hotel_room": "高級雙人房（晴空塔景）",
-      "weather": "☀️ 27°/20°",
+      "date": "Jun 12 · Fri",
+      "label_zh": "自由玩樂 · 購物 · 道頓堀再訪",
+      "hotel_name": "Hotel Universal Port",
+      "hotel_name_zh": "環球影城港灣酒店 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "⛅ 29°/21°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🍳 飯店早餐 · 自助式豐富日式西式"
+        },
+        {
+          "time": "09:30",
+          "desc": "🎢 再次入園環球影城（可加購門票）或 自由活動"
+        },
+        {
+          "time": "12:00",
+          "desc": "🚄 前往難波 · 午餐：Takoyaki Wanaka 章魚燒"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛍️ 心齋橋購物 · 藥妝店 · UNIQLO · 迪士尼商店"
+        },
+        {
+          "time": "16:00",
+          "desc": "🍵 下午茶：夫婦善哉（紅豆湯圓）· 傳統日式甜點"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍜 晚餐：一蘭拉麵（道頓堀店）· 個人座體驗"
+        },
+        {
+          "time": "20:00",
+          "desc": "🚢 道頓堀觀光船（夜間）· 浪漫河畔夜景"
+        },
+        {
+          "time": "21:30",
+          "desc": "🚇 返回環球影城港灣酒店 · 整理行李"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "Jun 13 · Sat",
+      "label_zh": "最後採買 · 返台",
+      "hotel_name": "Hotel Universal Port",
+      "hotel_name_zh": "環球影城港灣酒店 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "☀️ 28°/20°",
       "rain_pct": "5%",
       "slots": [
         {
           "time": "07:00",
-          "desc": "🥐 飯店早餐 · 退房並寄放行李"
+          "desc": "🏨 退房 · 寄放行李在飯店"
         },
         {
-          "time": "08:30",
-          "desc": "🏛️ 淺草寺清晨參拜 · 人少寧靜"
+          "time": "08:00",
+          "desc": "🍳 早餐：飯店內或附近咖啡廳"
         },
         {
-          "time": "09:30",
-          "desc": "🛍️ 仲見世通買伴手禮 · 人形燒、雷門仙貝"
-        },
-        {
-          "time": "10:30",
-          "desc": "🚇 兩國站 → 成田機場（N'EX直達約60分鐘）"
+          "time": "09:00",
+          "desc": "🛍️ 臨空城Outlet（搭乘接駁車）· 最後血拼"
         },
         {
           "time": "12:00",
-          "desc": "✈️ 成田機場 · 辦理登機 · 免稅店購物"
+          "desc": "🍜 午餐：Outlet內美食街 · たこ焼き・うどん"
         },
         {
-          "time": "14:30",
-          "desc": "✈️ CI 101 起飛回台北"
+          "time": "14:00",
+          "desc": "🚄 返回環球影城港灣酒店取行李 → 關西機場"
         },
         {
-          "time": "17:00",
-          "desc": "✈️ 抵達TPE · 旅程結束"
+          "time": "16:00",
+          "desc": "✈️ 關西機場報到 · 免稅店購物（Royce巧克力、薯條三兄弟）"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍱 機場晚餐 · 壽司或豬排丼"
+        },
+        {
+          "time": "21:00",
+          "desc": "✈️ 樂桃MM23 起飛 · 返回台灣"
+        },
+        {
+          "time": "22:40",
+          "desc": "🛬 抵達桃園機場 · 行程結束"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票",
-      "amount_ntd": 18000
+      "label": "✈️ 來回機票（樂桃）",
+      "amount_ntd": 12000
     },
     {
-      "label": "🏨 住宿（總計）",
-      "amount_ntd": 18000
+      "label": "🏨 住宿（關空日航1晚+環球港灣2晚）",
+      "amount_ntd": 18500
     },
     {
-      "label": "🍽️ 餐飲",
-      "amount_ntd": 18000
+      "label": "🎫 環球影城門票×2（1日券）",
+      "amount_ntd": 10000
     },
     {
-      "label": "🎫 景點門票",
-      "amount_ntd": 7000
+      "label": "🍽️ 餐飲（4天）",
+      "amount_ntd": 12000
     },
     {
-      "label": "🚇 交通",
-      "amount_ntd": 6000
+      "label": "🚇 交通（南海電鐵、JR、地鐵）",
+      "amount_ntd": 4000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 13000
+      "amount_ntd": 3500
     }
   ],
-  "cost_total_ntd": 80000,
+  "cost_total_ntd": 60000,
   "budget_remaining_ntd": 0,
   "photos": {
     "hero": [
       {
-        "url": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel Tower, Paris during dusk"
+        "url": "https://images.unsplash.com/photo-1762245751994-68be9c9b1543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Tall tower structure against a clear blue sky."
       },
       {
-        "url": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view of city buildings during night time"
+        "url": "https://images.unsplash.com/photo-1762245752020-0d26484733a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "City skyline beyond ancient stone wall and trees"
       },
       {
-        "url": "https://images.unsplash.com/photo-1551322120-c697cf88fbdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial photography of red tower surrounded by buildings during daytime"
+        "url": "https://images.unsplash.com/photo-1764071288946-da85ee08ad8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Silhouette of a torii gate at sunset"
       },
       {
-        "url": "https://images.unsplash.com/photo-1606044466411-207a9a49711f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "eiffel tower in paris during night time"
+        "url": "https://images.unsplash.com/photo-1764071288831-2d07d4a53d5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPc2FrYSUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Silhouette of a torii gate at sunset"
       },
       {
-        "url": "https://images.unsplash.com/photo-1593839154339-377e24b3ba32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "red tower in the middle of city during daytime"
+        "url": "https://images.unsplash.com/photo-1763311975602-29c672bbe450?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPc2FrYSUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Osaka castle surrounded by trees under a pale sky"
       },
       {
-        "url": "https://images.unsplash.com/photo-1531219435494-8e90d22adc1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "concrete high-rise buildings"
+        "url": "https://images.unsplash.com/photo-1769307530595-3edcfc022f49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPc2FrYSUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Aerial view of a dense city with a tall tower."
       },
       {
-        "url": "https://images.unsplash.com/photo-1669629229839-325cce20fab1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a city at night"
+        "url": "https://images.unsplash.com/photo-1772123327499-b1447bc95ce3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxPc2FrYSUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A japanese castle bathed in golden sunlight."
       },
       {
-        "url": "https://images.unsplash.com/photo-1595672410691-67ca64d681d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "red and white tower near city buildings during daytime"
+        "url": "https://images.unsplash.com/photo-1771100887663-a68f36afa836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxPc2FrYSUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "City skyline with a large green park and lake."
       },
       {
-        "url": "https://images.unsplash.com/photo-1505814360303-5bfcf2a8acb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxUb2t5byUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Tokyo Tower"
+        "url": "https://images.unsplash.com/photo-1761395501236-84ca24aa37b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxPc2FrYSUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk3NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Historic building surrounded by lush green park and cityscape."
       },
       {
-        "url": "https://images.unsplash.com/photo-1544768784-2d876c85ff15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8VG9reW8lMjBza3lsaW5lJTIwbGFuZG1hcmt8ZW58MHwwfHx8MTc3ODg5NzMwOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "city during nighttime"
+        "url": "https://images.unsplash.com/photo-1763419162043-53b01122f20b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8T3Nha2ElMjBza3lsaW5lJTIwbGFuZG1hcmt8ZW58MHwwfHx8MTc3ODg5NzYxMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Balcony with locks overlooking a city skyline"
       }
     ],
     "destination": [
       {
-        "url": "https://images.unsplash.com/photo-1513407030348-c983a97b98d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzMxMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Eiffel Tower, Paris during dusk"
+        "url": "https://images.unsplash.com/photo-1549548284-28057f92c497?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzYxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "bridge near raging waterfall"
       },
       {
-        "url": "https://images.unsplash.com/photo-1604928141064-207cea6f571f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzMxMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial view of city buildings during night time"
+        "url": "https://images.unsplash.com/photo-1626382591601-f37a1a2a9780?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzYxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "white and black building near body of water during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1557409518-691ebcd96038?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzMxMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "boats on body of water"
+        "url": "https://images.unsplash.com/photo-1762245751809-fc4f6bccbf6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzYxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Ancient japanese castle walls and structure"
       },
       {
-        "url": "https://images.unsplash.com/photo-1549693578-d683be217e58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzMxMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white and red buss on the middle of crossing street photo"
+        "url": "https://images.unsplash.com/photo-1764071289160-eb89980c24be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzYxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cityscape at sunset with a river and highway."
       },
       {
-        "url": "https://images.unsplash.com/photo-1551322120-c697cf88fbdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzMxMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial photography of red tower surrounded by buildings during daytime"
+        "url": "https://images.unsplash.com/photo-1769304728309-6089231df81d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzYxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Japanese castle surrounded by autumn foliage"
       },
       {
-        "url": "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzMxMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking between city building"
+        "url": "https://images.unsplash.com/photo-1768117123236-b79e01571e12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzYxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Osaka castle with bridge and people walking"
       },
       {
-        "url": "https://images.unsplash.com/photo-1606044466411-207a9a49711f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzMxMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "eiffel tower in paris during night time"
+        "url": "https://images.unsplash.com/photo-1774596606721-8c2676a2a4b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzYxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A traditional japanese castle with green roofs"
       },
       {
-        "url": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzMxMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people gathered outside buildings and vehicles"
+        "url": "https://images.unsplash.com/photo-1764071289135-175c4e98bc21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzYxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Golden sunset over a hazy cityscape with mountains."
       },
       {
-        "url": "https://images.unsplash.com/photo-1593839154339-377e24b3ba32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxUb2t5byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzMxMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "red tower in the middle of city during daytime"
+        "url": "https://images.unsplash.com/photo-1776101419569-4e830cc82745?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NzYxMXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cherry blossoms frame a city skyline across a river."
       },
       {
-        "url": "https://images.unsplash.com/photo-1617869884925-f8f0a51b2374?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8VG9reW8lMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTczMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "people walking on street during night time"
+        "url": "https://images.unsplash.com/photo-1764071289163-a9d157926156?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8T3Nha2ElMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTc2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Golden sun setting behind hazy mountains over city."
       },
       {
-        "url": "https://images.unsplash.com/photo-1572889834679-adc187f0a123?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8VG9reW8lMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTczMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "top view of lighted cityscape at night"
+        "url": "https://images.unsplash.com/photo-1762245751530-8ce2a339bf24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8T3Nha2ElMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTc2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Castle viewed through trees in a park"
       },
       {
-        "url": "https://images.unsplash.com/photo-1531219435494-8e90d22adc1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8VG9reW8lMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTczMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "concrete high-rise buildings"
+        "url": "https://images.unsplash.com/photo-1771100887663-a68f36afa836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8T3Nha2ElMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTc2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "City skyline with a large green park and lake."
       },
       {
-        "url": "https://images.unsplash.com/photo-1595672410691-67ca64d681d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8VG9reW8lMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTczMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "red and white tower near city buildings during daytime"
+        "url": "https://images.unsplash.com/photo-1767275246165-abf714ab63ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8T3Nha2ElMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTc2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A traditional japanese castle surrounded by greenery."
       },
       {
-        "url": "https://images.unsplash.com/photo-1505814360303-5bfcf2a8acb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8VG9reW8lMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTczMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Tokyo Tower"
+        "url": "https://images.unsplash.com/photo-1768229433819-bd2eca231b0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8T3Nha2ElMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTc2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Autumn foliage covers a forested mountainside under a blue sky."
       },
       {
-        "url": "https://images.unsplash.com/photo-1554058501-f6872d688003?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8VG9reW8lMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTczMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "woman standing walking beside red building"
+        "url": "https://images.unsplash.com/photo-1764071289151-2549d536ea1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8T3Nha2ElMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTc2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "City skyline at sunset with mountains in background"
       },
       {
-        "url": "https://images.unsplash.com/photo-1583930263826-a1c6a639eaf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8VG9reW8lMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTczMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "cars on road in city during night time"
+        "url": "https://images.unsplash.com/photo-1764071289034-bc390cf3852c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8T3Nha2ElMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTc2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cityscape with bridge tower at sunset"
       },
       {
-        "url": "https://images.unsplash.com/photo-1583674734617-4c451e076987?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8VG9reW8lMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTczMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "cars on road near buildings during daytime"
+        "url": "https://images.unsplash.com/photo-1767842536210-609435580189?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8T3Nha2ElMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTc2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Couple having a picnic under blooming cherry blossom trees"
       },
       {
-        "url": "https://images.unsplash.com/photo-1567597714138-3bdc30f4f493?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8VG9reW8lMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTczMTB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "calm water"
+        "url": "https://images.unsplash.com/photo-1721993706872-51bf65424bd0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8T3Nha2ElMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTc2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A building that has a sign on the side of it"
       }
     ]
   },
-  "chat_hash": "08e4e0d27ba1c50c4be8361f90b885556d4b21659f6a8a93e0f68a0d791fd830",
+  "chat_hash": "994453c2384cc2e8598cfb6b8080f0dd8c13227df65e457853e4b627fa185e75",
   "config_hash": "32a81935bd11e3366f0a7d66fded735f0412cb74915886bea371444885c19238",
-  "generated_at": "2026-05-16T10:08:35.998802"
+  "generated_at": "2026-05-16T10:13:38.152012"
 }
