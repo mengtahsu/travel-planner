@@ -1,9 +1,9 @@
 {
-  "destination_en": "Japan",
-  "title_zh": "大學生暑假日本5天歡樂之旅",
-  "date_range": "2026/07/01–07/05",
-  "start_date": "2026-07-01",
-  "end_date": "2026-07-05",
+  "destination_en": "Japan (Tokyo & Hakone)",
+  "title_zh": "東京箱根 · 大學生暑假五天之旅",
+  "date_range": "2026/07/06–07/10",
+  "start_date": "2026-07-06",
+  "end_date": "2026-07-10",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
   "destination_code": "NRT",
@@ -12,43 +12,63 @@
   "budget_ntd": 180000,
   "flight": {
     "airline": "台灣虎航 Tigerair Taiwan",
-    "departure_date": "7月1日",
-    "return_date": "7月5日",
-    "total_price_ntd": 60000,
+    "departure_date": "7月6日",
+    "return_date": "7月10日",
+    "total_price_ntd": 54000,
     "outbound": {
       "flight_no": "IT 200",
       "route": "TPE → NRT 直飛",
       "depart_time": "06:40",
-      "arrive_time": "10:55",
-      "duration": "3h 15m",
+      "arrive_time": "11:00",
+      "duration": "3h 20m",
       "class": "經濟艙"
     },
     "inbound": {
       "flight_no": "IT 201",
       "route": "NRT → TPE 直飛",
-      "depart_time": "20:00",
-      "arrive_time": "22:55",
-      "duration": "3h 55m",
+      "depart_time": "12:00",
+      "arrive_time": "14:30",
+      "duration": "3h 30m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "APA Hotel Shinjuku Gyoenmae",
-      "name_zh": "APA新宿御苑前酒店",
-      "district": "新宿區",
+      "name": "APA Hotel & Resort Ryogoku",
+      "name_zh": "APA飯店＆度假村 兩國",
+      "district": "東京都墨田區",
       "day_range": "1–5",
       "nights": 4,
       "price_ntd": 60000,
       "stars": "★★★☆☆",
-      "room_type": "雙床房 x3間 (每間住2人)",
+      "room_type": "雙床房 × 3間",
       "breakfast": "不含早餐",
-      "amenities": "🧺 投幣洗衣 · 🛁 浴缸 · 🛜 免費WiFi · 🏪 樓下便利商店",
-      "search_query": "APA Hotel Shinjuku Gyoenmae Tokyo Japan",
+      "amenities": "♨️ 大浴場 · 🛍️ 附近便利商店 · 🚃 兩國站步行3分鐘",
+      "search_query": "APA Hotel & Resort Ryogoku Tokyo Japan",
       "photos": [
         {
-          "url": "https://oromonaco.com/cdn/shop/files/DSC04144.jpg?v=1743276008&width=3200",
-          "label": "Women's Bracelet - Monaco Chain CLASSIC Pavé Lock"
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/40/55/e1/caption.jpg?w=1400&h=-1&s=1",
+          "label": "APA HOTEL & RESORT RYOGOKU EKI TOWER (R̶M̶ ̶3̶6̶3̶) RM 302: UPDATED ..."
+        },
+        {
+          "url": "https://apa-hotel-resort-ryogoku-eki-tower.hotels-tokyo-jp.com/data/Images/OriginalPhoto/17322/1732219/1732219724/tokyo-apa-hotel-resort-ryogoku-ekimae-tower-image-24.JPEG",
+          "label": "東京都のApa Hotel & Resort Ryogoku Ekimae Towerというホテル。2025の新しい価格、レビュー、今予約。"
+        },
+        {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/294505779.jpg?k=face75f1f0d3234367b87ac558fcb18200c36285d511ef401c78aba614f9d710&o=&hp=1",
+          "label": "APA Hotel & Resort Ryogoku Ekimae Tower, Tokyo (updated prices 2026)"
+        },
+        {
+          "url": "https://pix10.agoda.net/hotelImages/11016676/0/cc5b90ae7567b2e77447fcbe47651958.jpg?ca=11&ce=1&s=1024x768&isSkia=true",
+          "label": "APA Hotel & Resort Ryogoku Eki Tower, Tokyo - Japanican.com"
+        },
+        {
+          "url": "https://apa-hotel-resort-ryogoku-eki-tower.hotels-tokyo-jp.com/data/Images/OriginalPhoto/17322/1732219/1732219711/tokyo-apa-hotel-resort-ryogoku-ekimae-tower-image-7.JPEG",
+          "label": "東京都のApa Hotel & Resort Ryogoku Ekimae Towerというホテル。2025の新しい価格、レビュー、今予約。"
+        },
+        {
+          "url": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/294507982.jpg?k=135ec3921280e48232d598c3f7c723c8eb2ca52a755220c5925c8a9d1d3e87fb&o=",
+          "label": "APA Hotel & Resort Ryogoku Eki Tower, Tokyo, Japan - Photos, Room Rates ..."
         }
       ]
     }
@@ -56,54 +76,54 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Kanda Matsuya",
-        "name_zh": "神田まつや · 百年蕎麥麵",
+        "name": "Sushidai",
+        "name_zh": "すし台 · 迴轉壽司",
         "stars": "",
-        "dish": "🍜 招牌：天婦羅蕎麥冷麵 (¥1,800)",
-        "address": "神田須田町1-13, 千代田區",
-        "price_ntd": 600,
-        "price_label": "每人約 ¥1,800 · NT$400 (匯率4.5)",
-        "hours": "11:30–20:00 · 週日休",
-        "search_query": "Kanda Matsuya soba Tokyo",
+        "dish": "🍣 新鮮鮪魚大腹 · 海膽軍艦",
+        "address": "東京都台東區上野6-8-1",
+        "price_ntd": 3000,
+        "price_label": "每人預算 ¥3,000 · NT$667",
+        "hours": "11:00–21:00",
+        "search_query": "Sushidai Ueno Tokyo",
         "photos": [
           {
-            "url": "https://photomo.blog/wp-content/uploads/2025/10/w8hxg6umaczyvtmfntom-1-768x1024.jpg",
-            "label": "Kanda Matsuya Review: A Taste of Traditional Soba Tokyo"
+            "url": "https://middleclass.sg/wp-content/uploads/2023/01/Sushi-Dai-Cover-Photo.jpg",
+            "label": "Is Sushi Dai in Tokyo Worth The Wait? How Our Sushi Breakfast Became Lunch"
           },
           {
-            "url": "https://hungrygowhere.com/wp-content/uploads/2023/01/04-nm-tokyo-foodie-gems-Kanda-Matsuya-Japanese-soba-HungryGoWhere.jpg",
-            "label": "What to eat in Tokyo: 7 places to discover | HungryGoWhere"
+            "url": "https://travelwithmia.com/wp-content/uploads/2017/01/sushi-dai-end-of-counter-ps.png",
+            "label": "Sushi Dai: Michelin Star Sushi in Tokyo’s Famous Fish Market - Travel ..."
           },
           {
-            "url": "https://imgcp.aacdn.jp/img-a/1200/auto/global-aaj-front/article/2017/01/5889bf404ae71_5889afc897d71_1096845461.jpg",
-            "label": "Traditional 'Sobaya' Around Tokyo | All About Japan"
+            "url": "https://www.recipetineats.com/wp-content/uploads/2019/09/Ueno-sushi-Sushiro.jpg?resize=650",
+            "label": "Tokyo Travel Guide: Ueno | RecipeTin Eats"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Gyukatsu Motomura",
-        "name_zh": "牛かつもと村 · 炸牛排專賣",
+        "name": "Torikizoku",
+        "name_zh": "鳥貴族 · 居酒屋",
         "stars": "",
-        "dish": "🥩 招牌：炸牛排定食 (¥1,300)",
-        "address": "澀谷區宇田川町23-3",
-        "price_ntd": 400,
-        "price_label": "每人約 ¥1,300 · NT$290",
-        "hours": "11:00–22:00",
-        "search_query": "Gyukatsu Motomura Shibuya",
+        "dish": "🍢 烤雞串拼盤 · 炸雞翅 · 飲み放題",
+        "address": "東京都新宿區歌舞伎町1-16-3",
+        "price_ntd": 4500,
+        "price_label": "每人 ¥2,500 · NT$556",
+        "hours": "17:00–23:30",
+        "search_query": "Torikizoku Shinjuku Tokyo",
         "photos": [
           {
-            "url": "https://media-cdn.tripadvisor.com/media/photo-s/13/97/b2/f7/photo2jpg.jpg",
-            "label": "Gyukatsu Motomura, Shibuya - Shibuya, Harajuku, Ebisu - Restaurant ..."
+            "url": "https://www.kanpai-japan.com/sites/default/files/uploads/2022/09/torikizoku-shinjuku-10.jpg",
+            "label": "Torikizoku Shinjuku Kuyakusho-dori - A Popular Yakitori Restaurant"
           },
           {
-            "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/38/80/ef/caption.jpg",
-            "label": "Be Smart - Get there early - Gyukatsu Motomura Shibuya, Shibuya ..."
+            "url": "https://tokyotopten.com/wp-content/uploads/2024/04/Torikizoku-Shinjuku-Ward-Office-Street.jpg",
+            "label": "Top 10 Hidden Gem Restaurants in Tokyo - Tokyo Top Ten"
           },
           {
-            "url": "https://shinoblog0512.com/wp-content/uploads/2025/11/IMG_6206.jpeg",
-            "label": "Best Gyukatsu in Shibuya — Gyukatsu Motomura (Guide) | SHINO's TOKYO Guide"
+            "url": "https://preparetravelplans.com/wp-content/uploads/2019/12/Torikizoku-Shinjuku.jpg",
+            "label": "Top 15 Things to Do in Shinjuku, Tokyo for First Timers"
           }
         ]
       }
@@ -111,26 +131,26 @@
     "cafes": [
       {
         "name": "Eggs 'n Things",
-        "name_zh": "夏威夷鬆餅名店",
+        "name_zh": "夏威夷鬆餅專賣店",
         "stars": "",
-        "dish": "🥞 招牌：草莓鮮奶油鬆餅 (¥1,500)",
+        "dish": "🥞 招牌草莓奶油鬆餅 · 鮮果冰沙",
         "address": "東京都澀谷區神宮前4-30-2",
-        "price_ntd": 450,
-        "price_label": "每人約 ¥1,500 · NT$333",
-        "hours": "08:00–22:30",
-        "search_query": "Eggs n Things Harajuku",
+        "price_ntd": 2400,
+        "price_label": "每人 ¥1,200 · NT$267",
+        "hours": "08:00–22:00",
+        "search_query": "Eggs n Things Harajuku Tokyo",
         "photos": [
           {
             "url": "https://media.timeout.com/images/102543106/image.jpg",
             "label": "Eggs’n Things | Restaurants in Harajuku, Tokyo"
           },
           {
-            "url": "https://a3.cdn.japantravel.com/photo/23799-130589/1440x960!/tokyo-eggs-n-things-130589.jpg",
-            "label": "Eggs 'n Things - Harajuku, Tokyo - Japan Travel"
+            "url": "https://d2kihw5e8drjh5.cloudfront.net/eyJidWNrZXQiOiJ1dGEtaW1hZ2VzIiwia2V5IjoicGxhY2VfaW1nLzMwNzMzOTNjMzA0ODRhM2NhZGM4MWI4NDFlMjVkZjg2IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo2NDAsImhlaWdodCI6NjQwLCJmaXQiOiJpbnNpZGUifSwicm90YXRlIjpudWxsLCJ0b0Zvcm1hdCI6ICJ3ZWJwIn19",
+            "label": "Eggs 'n Things Harajuku Store in Tokyo, Japan - reviews,open hours ..."
           },
           {
-            "url": "https://flipjapanguide.com/wp-content/uploads/2023/05/Harajuku-Eggs-‘n-Things-1280x720.jpg",
-            "label": "Harajuku Area Guide: Best Spots, Eats, And Stays"
+            "url": "https://metropolisjapan.com/wp-content/uploads/2022/05/eggs.jpeg",
+            "label": "Tokyo Cafés Featured in Anime | Dining | Metropolis Japan"
           }
         ]
       }
@@ -139,324 +159,284 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "July 1 · Wed",
-      "label_zh": "抵達東京 · 新宿探索",
-      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 x3間",
-      "weather": "☀️ 30°/22°",
-      "rain_pct": "20%",
+      "date": "July 6 · Mon",
+      "label_zh": "抵達東京 · 淺草文化體驗",
+      "hotel_name": "APA Hotel & Resort Ryogoku",
+      "hotel_name_zh": "APA飯店＆度假村 兩國",
+      "hotel_room": "雙床房 × 3間",
+      "weather": "☀️ 32°/25°",
+      "rain_pct": "10%",
       "slots": [
         {
           "time": "06:40",
-          "desc": "✈️ 桃園機場出發 (TPE → NRT) · 虎航 IT200 · 記得帶護照與網路SIM卡"
+          "desc": "✈️ 桃園機場TPE出發 · 虎航IT200 · 預計11:00抵達成田NRT"
         },
         {
-          "time": "10:55",
-          "desc": "🛬 抵達成田機場 · 通關 · 購買Suica卡或東京地鐵券"
+          "time": "11:00",
+          "desc": "🛬 抵達成田機場 · 入境 · 購買Suica卡 · 搭乘京成本線特急至京成上野站（約70分鐘）"
         },
         {
-          "time": "12:30",
-          "desc": "🚄 搭乘N'EX成田特快至新宿站 (約80分鐘) · 車上可買午餐"
+          "time": "13:00",
+          "desc": "🍜 上野駅附近午餐 · 一蘭拉麵（每人約¥980 · NT$218）"
         },
         {
-          "time": "14:00",
-          "desc": "🏨 抵達APA新宿御苑前酒店 · 放行李 · 稍作休息"
+          "time": "14:30",
+          "desc": "🏨 搭地鐵至兩國站 · 入住APA Hotel & Resort Ryogoku · 放行李稍作休息"
         },
         {
-          "time": "15:30",
-          "desc": "🛍️ 新宿逛街 · 驚安の殿堂、Lumine、BEAMS"
+          "time": "16:00",
+          "desc": "🏯 淺草寺 · 雷門拍照 · 仲見世通逛街吃人形燒"
         },
         {
-          "time": "17:30",
-          "desc": "🍜 晚餐：牛かつもと村 新宿店 · 炸牛排定食"
-        },
-        {
-          "time": "19:00",
-          "desc": "🌃 東京都廳展望台（免費）看夜景"
+          "time": "18:00",
+          "desc": "🍢 淺草附近晚餐 · 文字燒體驗（もんじゃ くら）每人約¥2,000 · NT$444"
         },
         {
           "time": "20:00",
-          "desc": "🏨 回旅館 · 女生聊天 · 便利商店消夜"
+          "desc": "🛍️ 回旅館 · 大浴場泡湯放鬆 · 便利商店買宵夜"
         },
         {
-          "time": "21:00",
-          "desc": "🛁 泡澡休息 · 明天8點起床"
+          "time": "21:30",
+          "desc": "💤 旅館休息 · 明天八點起床"
         }
       ]
     },
     {
       "day": 2,
-      "date": "July 2 · Thu",
-      "label_zh": "淺草 · 晴空塔 · 秋葉原",
-      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 x3間",
-      "weather": "☀️ 32°/24°",
-      "rain_pct": "10%",
+      "date": "July 7 · Tue",
+      "label_zh": "原宿澀谷 · 潮流購物",
+      "hotel_name": "APA Hotel & Resort Ryogoku",
+      "hotel_name_zh": "APA飯店＆度假村 兩國",
+      "hotel_room": "雙床房 × 3間",
+      "weather": "☀️ 33°/26°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "⏰ 起床 · 飯店附近Lawson買飯糰與咖啡"
+          "desc": "⏰ 起床 · 在旅館簡單吃早餐（便利商店飯糰或麵包）"
         },
         {
           "time": "09:00",
-          "desc": "🚇 搭地鐵至淺草站 (約20分鐘)"
+          "desc": "🚃 搭地鐵至原宿站 · 明治神宮散步（約1小時）"
         },
         {
-          "time": "09:30",
-          "desc": "🏯 淺草寺 · 雷門 · 仲見世通商店街 · 買人形燒"
-        },
-        {
-          "time": "11:00",
-          "desc": "📸 遠眺晴空塔 · 在隅田川邊拍照"
+          "time": "10:30",
+          "desc": "🛍️ 竹下通逛街 · 可麗餅 · 可愛雜貨"
         },
         {
           "time": "12:00",
-          "desc": "🍜 午餐：神田まつや 淺草分店 · 天婦羅蕎麥麵"
+          "desc": "🥞 Eggs 'n Things 原宿店午餐 · 招牌草莓鬆餅套餐 ¥1,200/人"
         },
         {
           "time": "13:30",
-          "desc": "🗼 晴空塔 · 登塔展望 (¥2,100) · 逛Solamachi商場"
+          "desc": "🛍️ 表參道 · 時尚品牌店（GU, Uniqlo, 迪士尼商店）"
         },
         {
-          "time": "16:00",
-          "desc": "🛍️ 秋葉原 · 女僕咖啡廳體驗 (¥1,500/人) · 逛Animate"
+          "time": "15:30",
+          "desc": "🚃 步行至澀谷 · 澀谷十字路口 · 八公銅像拍照"
         },
         {
-          "time": "18:00",
-          "desc": "🍛 晚餐：秋葉原 とんかつ 丸五 · 炸豬排定食 (¥1,500)"
+          "time": "17:00",
+          "desc": "🛍️ 澀谷PARCO · 任天堂專賣店 · 寶可夢中心"
         },
         {
-          "time": "19:30",
-          "desc": "🚇 回新宿 · 順路逛唐吉訶德"
+          "time": "19:00",
+          "desc": "🍢 鳥貴族 新宿店晚餐 · 烤雞串飲み放題 ¥2,500/人"
         },
         {
           "time": "20:00",
-          "desc": "🏨 回旅館 · 休息"
+          "desc": "🚃 搭地鐵回兩國 · 旅館休息"
         }
       ]
     },
     {
       "day": 3,
-      "date": "July 3 · Fri",
-      "label_zh": "原宿 · 澀谷 · 表參道",
-      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 x3間",
-      "weather": "⛅ 31°/23°",
-      "rain_pct": "30%",
+      "date": "July 8 · Wed",
+      "label_zh": "迪士尼海洋一日遊",
+      "hotel_name": "APA Hotel & Resort Ryogoku",
+      "hotel_name_zh": "APA飯店＆度假村 兩國",
+      "hotel_room": "雙床房 × 3間",
+      "weather": "☀️ 31°/24°",
+      "rain_pct": "20%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "⏰ 起床 · 7-11三明治與優格"
+          "desc": "⏰ 起床 · 帶好防曬 · 水壺 · 輕便背包"
         },
         {
           "time": "09:00",
-          "desc": "🚇 搭地鐵至原宿站 (約10分鐘)"
+          "desc": "🚃 搭地鐵至舞濱站（約30分鐘）轉迪士尼度假區線"
         },
         {
-          "time": "09:30",
-          "desc": "⛩️ 明治神宮 · 參拜 · 森林步道"
+          "time": "10:00",
+          "desc": "🎢 東京迪士尼海洋入園（事先購買電子門票 ¥7,900/人 · NT$1,756）"
         },
         {
-          "time": "11:00",
-          "desc": "🛍️ 竹下通 · 逛可愛雜貨 · 吃可麗餅 (¥500)"
-        },
-        {
-          "time": "12:30",
-          "desc": "🥞 午餐：Eggs 'n Things · 夏威夷鬆餅"
+          "time": "12:00",
+          "desc": "🍔 園區內午餐 · 三眼怪麻糬 · 雞腿套餐（每人約¥2,000）"
         },
         {
           "time": "14:00",
-          "desc": "🛍️ 表參道 · 逛Kiddy Land、東急Plaza"
+          "desc": "🎢 遊樂設施：地心探險 · 印第安納瓊斯 · 驚魂古塔"
         },
         {
-          "time": "16:00",
-          "desc": "📸 澀谷十字路口 · 忠犬八公像 · SHIBUYA SKY展望台 (¥2,000)"
+          "time": "17:00",
+          "desc": "🎭 夜間水上秀 · 地中海港灣觀賞"
         },
         {
-          "time": "18:00",
-          "desc": "🍣 晚餐：迴轉壽司 魚べい 澀谷店 · 每盤¥150起"
-        },
-        {
-          "time": "19:30",
-          "desc": "🛍️ 澀谷109百貨 · 女生購物時間"
+          "time": "19:00",
+          "desc": "🛍️ 園區商店購買紀念品"
         },
         {
           "time": "20:00",
-          "desc": "🏨 回旅館 · 休息"
+          "desc": "🚃 離園 · 搭電車回兩國 · 旅館休息（可帶便利商店宵夜）"
         }
       ]
     },
     {
       "day": 4,
-      "date": "July 4 · Sat",
-      "label_zh": "迪士尼海洋一日遊",
-      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 x3間",
-      "weather": "☀️ 33°/25°",
-      "rain_pct": "15%",
+      "date": "July 9 · Thu",
+      "label_zh": "自由逛街 · 秋葉原與新宿",
+      "hotel_name": "APA Hotel & Resort Ryogoku",
+      "hotel_name_zh": "APA飯店＆度假村 兩國",
+      "hotel_room": "雙床房 × 3間",
+      "weather": "⛅ 30°/23°",
+      "rain_pct": "30%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "⏰ 起床 · 提早出發 · 便利商店買飯糰當早餐"
-        },
-        {
-          "time": "08:30",
-          "desc": "🚇 搭地鐵至東京站轉京葉線 · 約1小時"
+          "desc": "⏰ 起床 · 旅館周邊散步"
         },
         {
           "time": "09:30",
-          "desc": "🎢 抵達東京迪士尼海洋 · 入園 (一日護照 ¥8,400)"
+          "desc": "🚃 搭地鐵至秋葉原 · 逛Yodobashi電器 · Animate動漫店"
         },
         {
-          "time": "10:00",
-          "desc": "🎡 設施推薦：玩具總動員瘋狂遊戲屋、地心探險之旅"
+          "time": "12:00",
+          "desc": "🍜 秋葉原午餐 · 牛丼すき家（每人約¥500）"
         },
         {
-          "time": "12:30",
-          "desc": "🍔 午餐：園區內餐廳 · 三眼怪麻糬"
+          "time": "13:30",
+          "desc": "🛍️ 秋葉原繼續逛 · 扭蛋會館 · 女僕咖啡廳（可選）"
         },
         {
-          "time": "14:00",
-          "desc": "🎠 繼續遊玩 · 驚魂古塔、印第安納瓊斯"
+          "time": "15:30",
+          "desc": "🚃 搭地鐵至新宿 · 東京都廳展望台免費觀景"
         },
         {
-          "time": "16:00",
-          "desc": "🎭 看遊行與表演"
+          "time": "17:00",
+          "desc": "🛍️ 新宿逛街 · 唐吉訶德 · LUMINE EST"
         },
         {
-          "time": "18:00",
-          "desc": "🍝 晚餐：園區內義大利麵套餐 (¥2,000)"
-        },
-        {
-          "time": "19:30",
-          "desc": "🎆 夜間煙火秀 (視天氣)"
+          "time": "19:00",
+          "desc": "🍣 すし台 上野店晚餐 · 迴轉壽司 ¥3,000/人"
         },
         {
           "time": "20:00",
-          "desc": "🚇 搭電車回新宿 · 約1小時 · 回旅館"
+          "desc": "🚃 回旅館 · 整理行李 · 明天退房"
         }
       ]
     },
     {
       "day": 5,
-      "date": "July 5 · Sun",
-      "label_zh": "上野 · 阿美橫町 · 返台",
-      "hotel_name": "APA Hotel Shinjuku Gyoenmae",
-      "hotel_name_zh": "APA新宿御苑前酒店",
-      "hotel_room": "雙床房 x3間",
-      "weather": "☀️ 31°/23°",
+      "date": "July 10 · Fri",
+      "label_zh": "回程 · 賦歸台灣",
+      "hotel_name": "APA Hotel & Resort Ryogoku",
+      "hotel_name_zh": "APA飯店＆度假村 兩國",
+      "hotel_room": "雙床房 × 3間",
+      "weather": "☀️ 31°/24°",
       "rain_pct": "10%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "⏰ 起床 · 整理行李 · 退房 (行李可寄放櫃檯)"
+          "desc": "⏰ 起床 · 收拾行李 · 退房（行李可寄放櫃檯）"
         },
         {
           "time": "09:00",
-          "desc": "🚇 搭地鐵至上野站 (約20分鐘)"
+          "desc": "🛍️ 兩國附近最後採買 · 藥妝店 · 伴手禮"
         },
         {
-          "time": "09:30",
-          "desc": "🛍️ 阿美橫町 · 藥妝店採購 · 二木的菓子買零食"
+          "time": "10:30",
+          "desc": "🚃 搭京成本線特急至成田機場（約70分鐘）"
         },
         {
-          "time": "11:00",
-          "desc": "🍜 午餐：上野 一蘭拉麵 (¥1,100)"
+          "time": "12:00",
+          "desc": "✈️ 成田機場報到 · 虎航IT201 · 12:00起飛"
         },
         {
-          "time": "12:30",
-          "desc": "🐼 上野動物園 (¥600) 看熊貓"
-        },
-        {
-          "time": "14:00",
-          "desc": "🏨 回旅館拿行李"
-        },
-        {
-          "time": "15:00",
-          "desc": "🚄 搭Skyliner至成田機場 (約40分鐘)"
-        },
-        {
-          "time": "16:00",
-          "desc": "🛬 抵達成田機場 · 報到 · 免稅店最後購物"
-        },
-        {
-          "time": "20:00",
-          "desc": "✈️ 虎航 IT201 返回台灣 · 22:55抵達桃園"
+          "time": "14:30",
+          "desc": "🛬 抵達桃園機場 · 結束旅程"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票 (6人)",
+      "label": "✈️ 來回機票（6人）",
+      "amount_ntd": 54000
+    },
+    {
+      "label": "🏨 住宿4晚（3間雙床房）",
       "amount_ntd": 60000
     },
     {
-      "label": "🏨 住宿 (4晚 x3間)",
-      "amount_ntd": 60000
-    },
-    {
-      "label": "🍽️ 餐飲 (6人)",
+      "label": "🍽️ 餐飲（6人）",
       "amount_ntd": 30000
     },
     {
-      "label": "🎫 景點門票 (迪士尼等)",
-      "amount_ntd": 18000
+      "label": "🎫 迪士尼門票（6人）",
+      "amount_ntd": 10536
     },
     {
-      "label": "🚇 交通 (Suica儲值)",
-      "amount_ntd": 9000
+      "label": "🚇 交通（6人Suica儲值）",
+      "amount_ntd": 12000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 3000
+      "amount_ntd": 10000
     }
   ],
-  "cost_total_ntd": 180000,
-  "budget_remaining_ntd": 0,
+  "cost_total_ntd": 176536,
+  "budget_remaining_ntd": 3464,
   "photos": {
     "hero": [
       {
-        "url": "https://img.freepik.com/free-photo/aerial-shot-beautiful-skyline-tokyo-japan_181624-4032.jpg?t=st=1729407121~exp=1729410721~hmac=eb2f2374b743b523a8a4264798ddf739ebb7f844276e2e6c9cdb2c2a5753ff16&w=2000",
-        "label": "Free Photo | Aerial shot of a beautiful skyline of Tokyo, Japan"
+        "url": "https://cdn.kimkim.com/files/a/images/6077051d16379eab327d03204d2c5d91cda44b25/original-c0d3cfb1770d1639002f327240fc2338.jpg",
+        "label": "Best of Tokyo, Hakone & Kyoto - 8 Days | kimkim"
       },
       {
-        "url": "https://media.gettyimages.com/id/1441083322/photo/mt-fuji-and-tokyo-skyline.jpg?s=612x612&w=gi&k=20&c=pUVxXo1XGPKprnCga--Sa4EJ_xttZfkYKO5b2fOAndQ=",
-        "label": "169,492 Famous Landmarks In Japan Stock Photos, High-Res Pictures, and ..."
+        "url": "https://c8.alamy.com/comp/KF52YP/japan-honshu-tokyo-city-skyline-and-mtfuji-KF52YP.jpg",
+        "label": "Hakone skyline hi-res stock photography and images - Alamy"
       }
     ],
     "destination": [
       {
-        "url": "https://wallpaperaccess.com/full/6514.jpg",
-        "label": "Japan Scenery Wallpapers - Top Free Japan Scenery Backgrounds ..."
+        "url": "https://www.agoda.com/wp-content/uploads/2024/05/Mountain-Fuji-and-Lake-Ashi-with-Hakone-temple-.jpg",
+        "label": "Discover Hakone's 7 Must-See Scenic Viewpoints"
       },
       {
-        "url": "http://getwallpapers.com/wallpaper/full/6/8/4/428387.jpg",
-        "label": "Japan Scenery Wallpaper (45+ images)"
+        "url": "https://wanderplans.com/storage/3923/Hakone.jpg",
+        "label": "Wanderplans - Hakone"
       },
       {
-        "url": "https://www.travelandleisure.com/thmb/7-7M5YOpe9ZLKpipgLMKk-zFWN4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/yamanashi-lake-kawaguchi_BEAUJAPAN0223-cdf97f7e53a44b23ab38eaf8cb7574d7.jpg",
-        "label": "Most Beautiful Scenery In Japan Japan In Pictures: Beautiful Places To"
+        "url": "https://cdn.audleytravel.com/-/-/79/1017418-hakone-national-park--mt-fuji-japan.jpg",
+        "label": "Visit Hakone & Mount Fuji on a trip to Japan | Audley Travel"
       },
       {
-        "url": "https://wanderlustcrew.com/wp-content/uploads/2023/03/Most-Beautiful-Places-in-Japan-Kawaguchi-View-of-Mt-Fuji.jpeg",
-        "label": "Most Beautiful Landscapes In Japan 24 Of The Most Beautiful Places You"
+        "url": "https://www.jrailpass.com/blog/wp-content/uploads/2018/04/hakone-e1523548273972.jpg",
+        "label": "Tokyo to Hakone: Fastest and Cheapest Travel Options | JRailPass"
       },
       {
-        "url": "https://wallpaperaccess.com/full/6509.jpg",
-        "label": "Japan Scenery Wallpapers - Top Free Japan Scenery Backgrounds ..."
+        "url": "https://lonelyplanetimages.imgix.net/mastheads/544682693_full.jpg?sharp=10&vib=20&w=1200",
+        "label": "Hakone travel | Japan - Lonely Planet"
       },
       {
-        "url": "https://wallpaperaccess.com/full/4233142.jpg",
-        "label": "Japanese Scenic Wallpapers - Top Free Japanese Scenic Backgrounds ..."
+        "url": "https://japan-travel-explorer.com/wp-content/uploads/2024/11/25599393_m.webp",
+        "label": "Tokyo to Hakone: A Perfect Day Trip Guide"
       }
     ]
   },
-  "chat_hash": "f6dccc45671c72770541b02eb4de77a4bad5e7149d892f26297f0a6cbf3da464",
+  "chat_hash": "b1c2d83e42816eaec60e2a7aa6d905c33f9196629663a9d1a838afe694f2668f",
   "config_hash": "245a6b7af0a400802f2091e095f5aaf46fd691cc3bf74b637c0ac10e452d193b",
-  "generated_at": "2026-05-17T00:01:42.754658"
+  "generated_at": "2026-05-17T00:20:41.875945"
 }
