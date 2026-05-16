@@ -35,22 +35,26 @@ async function loadLogs() {
     if(resp.ok) {
       const index = await resp.json();
       if(Array.isArray(index) && index.length > 0) {
-        html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📁 Saved Plans</h3>';
-        html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;margin-bottom:1.5rem;">';
-        for(const entry of index) {
-          const url = 'data/saved/' + entry.file;
-          const dest = entry.dest || '';
-          const label = entry.title || entry.file.replace('.html','');
-          const date = entry.date || '';
-          html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.78rem;">${date}</td>
-            <td style="padding:6px 10px;"><a href="${url}" target="_blank" style="color:var(--gold);text-decoration:none;">${dest} — ${label}</a></td>
-            <td style="padding:6px 10px;"><button onclick="deleteSaved('${entry.file}')" style="background:none;border:1px solid rgba(255,255,255,0.2);color:var(--warm-gray);cursor:pointer;font-size:0.7rem;padding:2px 8px;border-radius:4px;">✕</button></td>
-          </tr>`;
+        // Filter out locally-deleted entries (GitHub Pages may serve stale data)
+        const deleted = JSON.parse(localStorage.getItem('deleted_saved') || '[]');
+        const filtered = index.filter(function(e) { return deleted.indexOf(e.file) === -1; });
+        if(filtered.length > 0) {
+          html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📁 Saved Plans</h3>';
+          html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;margin-bottom:1.5rem;">';
+          for(const entry of filtered) {
+            const url = 'data/saved/' + entry.file;
+            const dest = entry.dest || '';
+            const label = entry.title || entry.file.replace('.html','');
+            const date = entry.date || '';
+            html += '<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">' +
+              '<td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.78rem;">' + date + '</td>' +
+              '<td style="padding:6px 10px;"><a href="' + url + '" target="_blank" style="color:var(--gold);text-decoration:none;">' + dest + ' — ' + label + '</a></td>' +
+              '<td style="padding:6px 10px;"><button onclick="deleteSaved(\'' + entry.file + '\')" style="background:none;border:1px solid rgba(255,255,255,0.2);color:var(--warm-gray);cursor:pointer;font-size:0.7rem;padding:2px 8px;border-radius:4px;">✕</button></td>' +
+            '</tr>';
+          }
+          html += '</table>';
         }
-        html += '</table>';
       }
-    }
   } catch(e) {}
 
   // ═══ Section 2: Run History ═══
@@ -86,8 +90,11 @@ async function loadLogs() {
 
 async function deleteSaved(filename) {
   if(!confirm('Delete this saved plan?')) return;
+  const btn = event.target;
+  btn.textContent = '...';
+  btn.disabled = true;
   const token = localStorage.getItem('github_chat_token');
-  if(!token) return;
+  if(!token) { alert('No token'); return; }
   try {
     // 1. Delete the HTML file
     const r1 = await fetch('https://api.github.com/repos/mengtahsu/travel-planner/contents/data/saved/' + filename, {
@@ -118,9 +125,17 @@ async function deleteSaved(filename) {
         body: JSON.stringify({message: 'Remove from index', content: btoa(bin), sha: raw.sha, branch: 'main'})
       });
     }
-    location.reload();
+    // 3. Remove row from DOM immediately (don't wait for Pages deploy)
+    var row = btn.closest('tr');
+    if(row) row.remove();
+    // Also record deletion locally so reload won't show stale data
+    var deleted = JSON.parse(localStorage.getItem('deleted_saved') || '[]');
+    deleted.push(filename);
+    localStorage.setItem('deleted_saved', JSON.stringify(deleted));
   } catch(e) {
     alert('Delete failed: ' + e.message);
+    btn.textContent = '✕';
+    btn.disabled = false;
   }
 }
 
