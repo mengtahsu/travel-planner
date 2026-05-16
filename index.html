@@ -1522,7 +1522,11 @@ const REPO_S = 'mengtahsu/travel-planner';
 
 async function restoreCheckbox() {
   const token = localStorage.getItem('github_chat_token');
-  if(!token) return;
+  if(!token) {
+    document.getElementById('save-flag').disabled = true;
+    document.getElementById('save-plan-label').title = 'Set GitHub token in Settings page first';
+    return;
+  }
   try {
     const r = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
       headers: {'Authorization': 'Bearer ' + token}
@@ -1538,7 +1542,11 @@ async function restoreCheckbox() {
 
 async function toggleSave() {
   const token = localStorage.getItem('github_chat_token');
-  if(!token) return;
+  if(!token) {
+    alert('Set your GitHub token in Settings page first.');
+    document.getElementById('save-flag').checked = !document.getElementById('save-flag').checked;
+    return;
+  }
   const checked = document.getElementById('save-flag').checked;
   const flag = JSON.stringify({save: checked, date: '2026/06/18–06/22', title: '六月關西 · 浪漫四日之旅', dest: 'Osaka & Kyoto, Japan'});
   const bytes = new TextEncoder().encode(flag);
@@ -1561,7 +1569,7 @@ async function toggleSave() {
 restoreCheckbox();
 </script>
 <div style="text-align:center;padding:2rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
-  build 260516.171042
+  build 260516.172939
 </div>
 </body>
 </html>
