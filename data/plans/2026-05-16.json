@@ -1,6 +1,6 @@
 {
-  "destination_en": "Kyoto & Osaka, Japan",
-  "title_zh": "六月京都 · 浪漫嵐山四日遊",
+  "destination_en": "Osaka & Kyoto, Japan",
+  "title_zh": "關西浪漫四日 · 嵐山虹夕諾雅之旅",
   "date_range": "2026/06/18–06/22",
   "start_date": "2026-06-18",
   "end_date": "2026-06-22",
@@ -14,36 +14,36 @@
     "airline": "捷星航空 Jetstar",
     "departure_date": "6月18日",
     "return_date": "6月22日",
-    "total_price_ntd": 12000,
+    "total_price_ntd": 18000,
     "outbound": {
       "flight_no": "GK 50",
       "route": "TPE → KIX 直飛",
-      "depart_time": "17:30",
-      "arrive_time": "21:10",
-      "duration": "2h 40m",
+      "depart_time": "17:55",
+      "arrive_time": "21:45",
+      "duration": "2h 50m",
       "class": "經濟艙"
     },
     "inbound": {
       "flight_no": "GK 51",
       "route": "KIX → TPE 直飛",
       "depart_time": "07:50",
-      "arrive_time": "09:50",
-      "duration": "2h 00m",
+      "arrive_time": "09:40",
+      "duration": "2h 50m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
       "name": "Grids Premium Hotel Namba",
-      "name_zh": "難波Grids Premium旅館",
+      "name_zh": "難波格利茲高級旅館",
       "district": "大阪難波",
       "day_range": "1 & 4",
       "nights": 2,
-      "price_ntd": 8000,
+      "price_ntd": 12000,
       "stars": "★★★☆☆",
       "room_type": "標準雙人房",
       "breakfast": "不含早餐",
-      "amenities": "🚿 淋浴 · 🧳 行李寄存 · 📶 免費WiFi",
+      "amenities": "📶 免費WiFi · 🧳 行李寄存 · 🚿 淋浴間 · 🅿️ 附近停車場",
       "search_query": "Grids Premium Hotel Namba Osaka",
       "photos": [
         {
@@ -126,11 +126,11 @@
       "district": "京都嵐山",
       "day_range": "2–3",
       "nights": 2,
-      "price_ntd": 180000,
+      "price_ntd": 120000,
       "stars": "★★★★★",
-      "room_type": "水邊雙人房",
-      "breakfast": "含日式早餐",
-      "amenities": "♨️ 溫泉 · 🛶 接駁船 · 🌸 日式庭園 · 🍽️ 懷石料理",
+      "room_type": "水之音 雙人房",
+      "breakfast": "含精緻日式早餐",
+      "amenities": "🛶 接駁船 · ♨️ 露天溫泉 · 🍵 茶室 · 🌿 日式庭園 · 🍽️ 懷石料理",
       "search_query": "Hoshinoya Kyoto Arashiyama",
       "photos": [
         {
@@ -212,207 +212,101 @@
     "fine_dining": [
       {
         "name": "Kitcho Arashiyama",
-        "name_zh": "吉兆 嵐山本店",
+        "name_zh": "吉兆 嵐山本店 · 米其林三星",
         "stars": "⭐⭐⭐",
-        "dish": "🍣 招牌：季節懷石料理",
+        "dish": "🍣 招牌：季節懷石料理 · 傳統與創新交融",
         "address": "58 Susukinobaba-cho, Saga-Tenryuji, Ukyo-ku, Kyoto",
-        "price_ntd": 32000,
-        "price_label": "晚餐懷石 ¥30,000/人 · NT$6,667/人",
-        "hours": "12:00–14:00 / 17:30–20:00 · 需預約",
-        "search_query": "Kitcho Arashiyama Kyoto",
+        "price_ntd": 18000,
+        "price_label": "晚餐套餐 ¥40,000/人 · NT$18,000",
+        "hours": "12:00–15:00 / 17:00–21:00 · 需提前一個月預約",
+        "search_query": "Kitcho Arashiyama Kyoto Michelin",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1596352670192-5a95e357df7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMEt5b3RvJTIwJTI2JTIwT3Nha2F8ZW58MHwwfHx8MTc3ODkwNDA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1596352670192-5a95e357df7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMzQ0Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "person holding white and blue ceramic plate with rice and sliced cucumber"
           },
           {
-            "url": "https://images.unsplash.com/photo-1715136500915-6d730a31968f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMEt5b3RvJTIwJTI2JTIwT3Nha2F8ZW58MHwwfHx8MTc3ODkwNDA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "the entrance to a restaurant with chinese writing on it"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1560703945-16c65626aad5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMEt5b3RvJTIwJTI2JTIwT3Nha2F8ZW58MHwwfHx8MTc3ODkwNDA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1560703945-16c65626aad5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMzQ0Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "person holding chopsticks in plate"
           },
           {
-            "url": "https://images.unsplash.com/photo-1741851374578-e618a8bb5eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMEt5b3RvJTIwJTI2JTIwT3Nha2F8ZW58MHwwfHx8MTc3ODkwNDA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1715136500915-6d730a31968f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMzQ0Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "the entrance to a restaurant with chinese writing on it"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1741851374578-e618a8bb5eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMzQ0Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "Japanese architecture with a natural pathway."
           },
           {
-            "url": "https://images.unsplash.com/photo-1561011316-a460cbd1aa93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMEt5b3RvJTIwJTI2JTIwT3Nha2F8ZW58MHwwfHx8MTc3ODkwNDA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1561011316-a460cbd1aa93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMzQ0Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "house surrounded with trees"
           },
           {
-            "url": "https://images.unsplash.com/photo-1553739340-4043e61e457a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMEt5b3RvJTIwJTI2JTIwT3Nha2F8ZW58MHwwfHx8MTc3ODkwNDA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1553739340-4043e61e457a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMzQ0Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "chocolate ball and cube"
           },
           {
-            "url": "https://images.unsplash.com/photo-1667787999927-e700698d2497?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMEt5b3RvJTIwJTI2JTIwT3Nha2F8ZW58MHwwfHx8MTc3ODkwNDA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1667787999927-e700698d2497?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMzQ0Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "a group of flags on a window"
           },
           {
-            "url": "https://images.unsplash.com/photo-1667787999626-d7899fc5aff3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyMEt5b3RvJTIwJTI2JTIwT3Nha2F8ZW58MHwwfHx8MTc3ODkwNDA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a sign on a wall"
-          }
-        ]
-      },
-      {
-        "name": "Kikunoi Roan",
-        "name_zh": "菊乃井 露庵",
-        "stars": "⭐⭐",
-        "dish": "🍤 招牌：天婦羅懷石",
-        "address": "7-4 Shimokawara-cho, Higashiyama-ku, Kyoto",
-        "price_ntd": 18000,
-        "price_label": "午餐懷石 ¥15,000/人 · NT$3,333/人",
-        "hours": "12:00–14:00 / 17:00–20:00 · 需預約",
-        "search_query": "Kikunoi Roan Kyoto",
-        "photos": [
-          {
-            "url": "https://images.unsplash.com/photo-1610238115511-81be15284155?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLaWt1bm9pJTIwUm9hbiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDQwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "brown wooden gazebo near trees during daytime"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1558869632-81053b328001?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLaWt1bm9pJTIwUm9hbiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDQwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "wooden houses near pond with rocks at daytime"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1699615171421-8fd416dcb613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLaWt1bm9pJTIwUm9hbiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDQwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a dark room with a red light in the middle of it"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1722292838097-505398a61bc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLaWt1bm9pJTIwUm9hbiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDQwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A narrow street lined with wooden buildings"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1558869632-279458ac1734?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLaWt1bm9pJTIwUm9hbiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDQwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "green leaf tree near house during daytime"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1709097233528-bfe5c6d944f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLaWt1bm9pJTIwUm9hbiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDQwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a room with a view of a river and trees"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1600775081940-f849231d06d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxLaWt1bm9pJTIwUm9hbiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDQwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "black metal fence near brown concrete building during daytime"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1648871647627-f924adc2a5a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxLaWt1bm9pJTIwUm9hbiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDQwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a river running through a lush green forest"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1582446951168-c06a4d753f55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxLaWt1bm9pJTIwUm9hbiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDQwNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "brown and black temple surrounded by green trees during daytime"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1551277405-8d30a5cde945?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8S2lrdW5vaSUyMFJvYW4lMjBLeW90b3xlbnwwfDB8fHwxNzc4OTA0MDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "lake and houses during daytime"
+            "url": "https://images.unsplash.com/photo-1560703876-77b86f04b8de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxmaW5lJTIwZGluaW5nJTIwZm9vZCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMzQ0Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "man grilling meat"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Yoshikawa Tempura",
-        "name_zh": "吉川天婦羅",
+        "name": "Kyoyamato",
+        "name_zh": "京やまと · 米其林一星",
         "stars": "⭐",
-        "dish": "🍤 招牌：天婦羅定食",
-        "address": "15-5 Sagatenryuji Susukinobaba-cho, Ukyo-ku, Kyoto",
-        "price_ntd": 6000,
-        "price_label": "午餐 ¥3,000/人 · NT$667/人",
-        "hours": "11:30–14:30 / 17:00–20:00",
-        "search_query": "Yoshikawa Tempura Arashiyama",
+        "dish": "🍜 招牌：嵐山豆腐湯葉懷石 · 精緻京野菜",
+        "address": "2-15-10 Arashiyama Nakaoshitacho, Nishikyo-ku, Kyoto",
+        "price_ntd": 9000,
+        "price_label": "午餐套餐 ¥20,000/人 · NT$9,000",
+        "hours": "11:30–14:00 / 17:30–20:00 · 週三休息",
+        "search_query": "Kyoyamato Arashiyama Kyoto",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1685209743504-63461b7b4d12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxZb3NoaWthd2ElMjBUZW1wdXJhJTIwQXJhc2hpeWFtYXxlbnwwfDB8fHwxNzc4OTA0MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a close up of a plate of food on a table"
+            "url": "https://images.unsplash.com/photo-1603333201151-7886185ea34e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLeW95YW1hdG8lMjBBcmFzaGl5YW1hJTIwS3lvdG98ZW58MHwwfHx8MTc3ODkxMDY0MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "people walking on pathway between trees during daytime"
           },
           {
-            "url": "https://images.unsplash.com/photo-1593357849627-cbbc9fda6b05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxZb3NoaWthd2ElMjBUZW1wdXJhJTIwQXJhc2hpeWFtYXxlbnwwfDB8fHwxNzc4OTA0MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "brown rice on white and blue ceramic bowl"
+            "url": "https://images.unsplash.com/photo-1718078942860-7138dddafddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLeW95YW1hdG8lMjBBcmFzaGl5YW1hJTIwS3lvdG98ZW58MHwwfHx8MTc3ODkxMDY0MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a group of buildings that are next to each other"
           },
           {
-            "url": "https://images.unsplash.com/photo-1651328236028-77b585d3f4e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxZb3NoaWthd2ElMjBUZW1wdXJhJTIwQXJhc2hpeWFtYXxlbnwwfDB8fHwxNzc4OTA0MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a plate of fried food"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1768573264798-961dd075ac81?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxZb3NoaWthd2ElMjBUZW1wdXJhJTIwQXJhc2hpeWFtYXxlbnwwfDB8fHwxNzc4OTA0MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Fried food stacked on a white plate"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1719537683877-025cb8951548?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxZb3NoaWthd2ElMjBUZW1wdXJhJTIwQXJhc2hpeWFtYXxlbnwwfDB8fHwxNzc4OTA0MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A close up of a plate of food on a table"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1665111322609-045519309424?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxZb3NoaWthd2ElMjBUZW1wdXJhJTIwQXJhc2hpeWFtYXxlbnwwfDB8fHwxNzc4OTA0MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a bowl of food"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1638628081165-b5afe1ecebf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxZb3NoaWthd2ElMjBUZW1wdXJhJTIwQXJhc2hpeWFtYXxlbnwwfDB8fHwxNzc4OTA0MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a close up of a bowl of food on a table"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1713810979948-bfde10823f4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxZb3NoaWthd2ElMjBUZW1wdXJhJTIwQXJhc2hpeWFtYXxlbnwwfDB8fHwxNzc4OTA0MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a pile of fried food sitting on top of a plate"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1750308250301-3954958c5b21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxZb3NoaWthd2ElMjBUZW1wdXJhJTIwQXJhc2hpeWFtYXxlbnwwfDB8fHwxNzc4OTA0MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Crispy tempura shrimp, ready to eat!"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1671713787675-1ba8d08df630?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8WW9zaGlrYXdhJTIwVGVtcHVyYSUyMEFyYXNoaXlhbWF8ZW58MHwwfHx8MTc3ODkwNDA0Nnww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a bowl of fried food on a table"
-          }
-        ]
-      },
-      {
-        "name": "Shoraian",
-        "name_zh": "松籟庵",
-        "stars": "",
-        "dish": "🥟 招牌：湯豆腐會席",
-        "address": "27 Sagatenryuji Susukinobaba-cho, Ukyo-ku, Kyoto",
-        "price_ntd": 8000,
-        "price_label": "午餐套餐 ¥4,000/人 · NT$889/人",
-        "hours": "11:00–15:00 / 17:00–20:00",
-        "search_query": "Shoraian Arashiyama",
-        "photos": [
-          {
-            "url": "https://images.unsplash.com/photo-1720573167093-9a24a38c7194?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTaG9yYWlhbiUyMEFyYXNoaXlhbWF8ZW58MHwwfHx8MTc3ODkwNDA0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A stone path leading up to a building"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1646132792277-9127ac4854e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTaG9yYWlhbiUyMEFyYXNoaXlhbWF8ZW58MHwwfHx8MTc3ODkwNDA0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a river running through a city at night"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1565052281108-3bbec919c299?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTaG9yYWlhbiUyMEFyYXNoaXlhbWF8ZW58MHwwfHx8MTc3ODkwNDA0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "empty pathway"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1565362458384-9bad71cfc92d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxTaG9yYWlhbiUyMEFyYXNoaXlhbWF8ZW58MHwwfHx8MTc3ODkwNDA0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1565362458384-9bad71cfc92d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLeW95YW1hdG8lMjBBcmFzaGl5YW1hJTIwS3lvdG98ZW58MHwwfHx8MTc3ODkxMDY0MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "photography of river during daytime"
           },
           {
-            "url": "https://images.unsplash.com/photo-1581536762992-59613146684a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxTaG9yYWlhbiUyMEFyYXNoaXlhbWF8ZW58MHwwfHx8MTc3ODkwNDA0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "brown boat on river during daytime"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1590091173370-63158a01d8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxTaG9yYWlhbiUyMEFyYXNoaXlhbWF8ZW58MHwwfHx8MTc3ODkwNDA0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "brown boat on river near green trees during daytime"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1670736000274-d17664aadfcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxTaG9yYWlhbiUyMEFyYXNoaXlhbWF8ZW58MHwwfHx8MTc3ODkwNDA0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1670736000274-d17664aadfcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLeW95YW1hdG8lMjBBcmFzaGl5YW1hJTIwS3lvdG98ZW58MHwwfHx8MTc3ODkxMDY0MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "a group of people in a boat on a river"
           },
           {
-            "url": "https://images.unsplash.com/photo-1686397140508-8d756d8fb589?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxTaG9yYWlhbiUyMEFyYXNoaXlhbWF8ZW58MHwwfHx8MTc3ODkwNDA0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a body of water surrounded by trees and buildings"
+            "url": "https://images.unsplash.com/photo-1685111719048-6f46c1a44f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLeW95YW1hdG8lMjBBcmFzaGl5YW1hJTIwS3lvdG98ZW58MHwwfHx8MTc3ODkxMDY0MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a river running through a lush green forest"
           },
           {
-            "url": "https://images.unsplash.com/photo-1774965940600-981058576675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxTaG9yYWlhbiUyMEFyYXNoaXlhbWF8ZW58MHwwfHx8MTc3ODkwNDA0N3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Cherry blossoms line a canal with reflections in kyoto, japan."
+            "url": "https://images.unsplash.com/photo-1722294750029-f9f0ba2fb14e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLeW95YW1hdG8lMjBBcmFzaGl5YW1hJTIwS3lvdG98ZW58MHwwfHx8MTc3ODkxMDY0MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A small building on the side of a river"
           },
           {
-            "url": "https://images.unsplash.com/photo-1614221982866-44c1c4d13072?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8U2hvcmFpYW4lMjBBcmFzaGl5YW1hfGVufDB8MHx8fDE3Nzg5MDQwNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "white and brown houses near green mountain under white cloudy sky during daytime"
+            "url": "https://images.unsplash.com/photo-1581536762992-59613146684a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxLeW95YW1hdG8lMjBBcmFzaGl5YW1hJTIwS3lvdG98ZW58MHwwfHx8MTc3ODkxMDY0MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "brown boat on river during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1590091173370-63158a01d8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxLeW95YW1hdG8lMjBBcmFzaGl5YW1hJTIwS3lvdG98ZW58MHwwfHx8MTc3ODkxMDY0MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "brown boat on river near green trees during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1752552750668-e93756080119?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxLeW95YW1hdG8lMjBBcmFzaGl5YW1hJTIwS3lvdG98ZW58MHwwfHx8MTc3ODkxMDY0MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A river flows through a peaceful landscape."
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1776101419115-4a805882225a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8S3lveWFtYXRvJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MTA2NDB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Wooden bridge over a river with misty mountains behind"
           }
         ]
       }
@@ -420,71 +314,54 @@
     "cafes": [
       {
         "name": "% Arabica Kyoto Arashiyama",
-        "name_zh": "% Arabica 嵐山店",
+        "name_zh": "阿拉比卡咖啡 嵐山店",
         "stars": "",
-        "dish": "☕ 招牌：拿鐵 · 抹茶拿鐵",
-        "address": "3-47 Sagatenryuji Tsukurimichi-cho, Ukyo-ku, Kyoto",
+        "dish": "☕ 招牌：拿鐵 · 抹茶拿鐵 · 可頌",
+        "address": "3-47 Sagatenryuji Susukinobaba-cho, Ukyo-ku, Kyoto",
         "price_ntd": 600,
-        "price_label": "兩杯咖啡 ¥600 · NT$133",
-        "hours": "08:00–18:00",
-        "search_query": "Arabica Arashiyama Kyoto",
+        "price_label": "兩杯飲品 + 甜點 ¥1,300 · NT$600",
+        "hours": "08:00–18:00 · 嵐山渡月橋旁",
+        "search_query": "% Arabica Arashiyama Kyoto",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1578284182772-d68cdc05e539?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "url": "https://images.unsplash.com/photo-1603333201151-7886185ea34e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHwlMjUlMjBBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg4OTc4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "people walking on pathway between trees during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1718078942860-7138dddafddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHwlMjUlMjBBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg4OTc4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a group of buildings that are next to each other"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1578284182772-d68cdc05e539?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHwlMjUlMjBBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg4OTc4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
             "label": "people on bridge"
-          }
-        ]
-      },
-      {
-        "name": "Tsujiri",
-        "name_zh": "辻利 難波店",
-        "stars": "",
-        "dish": "🍵 招牌：抹茶聖代 · 抹茶刨冰",
-        "address": "3-1-3 Namba, Chuo-ku, Osaka",
-        "price_ntd": 1000,
-        "price_label": "兩人甜品 ¥1,000 · NT$222",
-        "hours": "10:00–21:00",
-        "search_query": "Tsujiri Namba Osaka",
-        "photos": [
-          {
-            "url": "https://images.unsplash.com/photo-1587278889768-11fbb1edbff1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxUc3VqaXJpJTIwTmFtYmElMjBPc2FrYXxlbnwwfDB8fHwxNzc4OTA0MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "brown wooden framed glass window"
           },
           {
-            "url": "https://images.unsplash.com/photo-1695155441444-05c08368a68b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxUc3VqaXJpJTIwTmFtYmElMjBPc2FrYXxlbnwwfDB8fHwxNzc4OTA0MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Traditional japanese shrine with thatched roof and wooden structure"
+            "url": "https://images.unsplash.com/photo-1670736000274-d17664aadfcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHwlMjUlMjBBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg4OTc4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a group of people in a boat on a river"
           },
           {
-            "url": "https://images.unsplash.com/photo-1713970943504-04e8a3e3abac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxUc3VqaXJpJTIwTmFtYmElMjBPc2FrYXxlbnwwfDB8fHwxNzc4OTA0MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people sitting at a table in front of a restaurant"
+            "url": "https://images.unsplash.com/photo-1648871647627-f924adc2a5a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHwlMjUlMjBBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg4OTc4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a river running through a lush green forest"
           },
           {
-            "url": "https://images.unsplash.com/photo-1755936494704-d2e6dd31008c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxUc3VqaXJpJTIwTmFtYmElMjBPc2FrYXxlbnwwfDB8fHwxNzc4OTA0MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "People queuing outside a japanese restaurant at night."
+            "url": "https://images.unsplash.com/photo-1565362458384-9bad71cfc92d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHwlMjUlMjBBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg4OTc4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "photography of river during daytime"
           },
           {
-            "url": "https://images.unsplash.com/photo-1707879486821-981e9e3bc074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxUc3VqaXJpJTIwTmFtYmElMjBPc2FrYXxlbnwwfDB8fHwxNzc4OTA0MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a group of people standing outside of a store"
+            "url": "https://images.unsplash.com/photo-1768947813899-8c5012e9abce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHwlMjUlMjBBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg4OTc4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Japanese village nestled among autumn trees and hills."
           },
           {
-            "url": "https://images.unsplash.com/photo-1715136500915-6d730a31968f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxUc3VqaXJpJTIwTmFtYmElMjBPc2FrYXxlbnwwfDB8fHwxNzc4OTA0MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "the entrance to a restaurant with chinese writing on it"
+            "url": "https://images.unsplash.com/photo-1648871647643-47b2db3ac7c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHwlMjUlMjBBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg4OTc4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a river running through a lush green forest"
           },
           {
-            "url": "https://images.unsplash.com/photo-1731758832047-8363e8eed735?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxUc3VqaXJpJTIwTmFtYmElMjBPc2FrYXxlbnwwfDB8fHwxNzc4OTA0MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "A bike parked outside of a store at night"
+            "url": "https://images.unsplash.com/photo-1766955117251-ac56221ea449?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHwlMjUlMjBBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg4OTc4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Autumn forest with a river and small village"
           },
           {
-            "url": "https://images.unsplash.com/photo-1752135534175-44aa59a1bb50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxUc3VqaXJpJTIwTmFtYmElMjBPc2FrYXxlbnwwfDB8fHwxNzc4OTA0MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Sushi chefs preparing food in a japanese restaurant."
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1561011316-a460cbd1aa93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxUc3VqaXJpJTIwTmFtYmElMjBPc2FrYXxlbnwwfDB8fHwxNzc4OTA0MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "house surrounded with trees"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1769921595401-74cc571a4de1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8VHN1amlyaSUyME5hbWJhJTIwT3Nha2F8ZW58MHwwfHx8MTc3ODkwNDA0OHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "Yellow building with air conditioners and signs."
+            "url": "https://images.unsplash.com/photo-1706984718497-a5e40cfa0419?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8JTI1JTIwQXJhYmljYSUyMEFyYXNoaXlhbWElMjBLeW90b3xlbnwwfDB8fHwxNzc4ODk3ODA1fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a boat traveling down a river next to a lush green hillside"
           }
         ]
       }
@@ -493,201 +370,197 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "2026-06-18",
+      "date": "June 18 · Thu",
       "label_zh": "抵達大阪",
       "hotel_name": "Grids Premium Hotel Namba",
-      "hotel_name_zh": "難波Grids Premium旅館",
+      "hotel_name_zh": "難波格利茲高級旅館 · 標準雙人房",
       "hotel_room": "標準雙人房",
-      "weather": "🌧️ 26°/21°",
-      "rain_pct": "60%",
+      "weather": "☁️ 26°/21°",
+      "rain_pct": "30%",
       "slots": [
         {
-          "time": "17:30",
-          "desc": "✈️ 桃園機場TPE出發 · 捷星航空GK50 · 預計21:10抵達關西"
+          "time": "17:55",
+          "desc": "✈️ 桃園機場 T1 出發 · 捷星 GK50 · 飛往關西"
         },
         {
-          "time": "21:10",
-          "desc": "🛬 抵達關西機場KIX · 入境通關 · 拿行李"
+          "time": "21:45",
+          "desc": "🛬 抵達關西機場 KIX · 入境、領行李"
         },
         {
-          "time": "22:00",
-          "desc": "🚄 搭乘南海電鐵空港急行 · 約45分鐘到難波站 · 車資¥930/人"
+          "time": "22:30",
+          "desc": "🚄 搭乘南海電鐵空港急行 · 往難波站（約45分鐘 · ¥930/人）"
         },
         {
-          "time": "23:00",
-          "desc": "🏨 入住難波Grids Premium旅館 · 櫃檯24小時 · 放行李"
+          "time": "23:15",
+          "desc": "🏨 入住 Grids Premium Hotel Namba · 難波站步行3分鐘"
         },
         {
           "time": "23:30",
-          "desc": "🍜 附近Lawson買宵夜 · 推薦炸雞和飯糰"
-        },
-        {
-          "time": "00:00",
-          "desc": "💤 回房休息 · 準備明天嵐山之旅"
+          "desc": "🍜 附近松屋或便利商店簡單消夜 · 休息準備明天嵐山之旅"
         }
       ]
     },
     {
       "day": 2,
-      "date": "2026-06-19",
-      "label_zh": "嵐山浪漫日",
+      "date": "June 19 · Fri",
+      "label_zh": "嵐山虹夕諾雅入住",
       "hotel_name": "Hoshinoya Kyoto",
-      "hotel_name_zh": "虹夕諾雅 京都",
-      "hotel_room": "水邊雙人房",
-      "weather": "⛅ 28°/22°",
+      "hotel_name_zh": "虹夕諾雅 京都 · 水之音雙人房",
+      "hotel_room": "水之音雙人房",
+      "weather": "🌤️ 27°/20°",
       "rain_pct": "20%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "☕ 退房 · 寄放行李在難波旅館 · 前往JR難波站"
+          "desc": "🍳 旅館附近咖啡廳早餐 · 推薦心齋橋的 Eggs 'n Things"
         },
         {
-          "time": "08:30",
-          "desc": "🚄 搭乘JR大和路線至京都站 · 轉JR嵯峨野線至嵯峨嵐山站 · 車資¥1,200/人"
+          "time": "09:00",
+          "desc": "🏨 退房 Grids Premium · 寄放大型行李於旅館"
         },
         {
-          "time": "10:00",
-          "desc": "🏯 嵐山竹林の小徑 · 清晨人少 · 拍照最佳"
+          "time": "09:30",
+          "desc": "🚃 搭乘阪急電鐵京都線 · 大阪梅田→桂站（約40分鐘）轉嵐山線到嵐山站"
         },
         {
-          "time": "11:00",
-          "desc": "⛩️ 天龍寺 · 庭園參觀 · 門票¥600/人"
+          "time": "10:30",
+          "desc": "🎋 漫步嵐山竹林之道 · 天龍寺參拜（門票 ¥600/人）"
         },
         {
-          "time": "12:30",
-          "desc": "🍜 午餐：Yoshikawa Tempura · 天婦羅定食 · 需預約"
+          "time": "12:00",
+          "desc": "🍽️ 午餐：% Arabica 咖啡 + 輕食 · 渡月橋旁"
+        },
+        {
+          "time": "13:30",
+          "desc": "🛶 虹夕諾雅接駁船 · 在渡月橋旁專用碼頭搭船前往旅館（15分鐘）"
         },
         {
           "time": "14:00",
-          "desc": "🚣 嵐山保津川遊船 · 約90分鐘 · ¥4,100/人 · 風景絕美"
-        },
-        {
-          "time": "15:30",
-          "desc": "☕ % Arabica咖啡 · 嵐山渡月橋旁 · 拿鐵配美景"
+          "desc": "🏨 入住虹夕諾雅京都 · 享受迎賓茶點 · 欣賞保津川景致"
         },
         {
           "time": "16:00",
-          "desc": "🏨 虹夕諾雅接駁船 · 從渡月橋碼頭出發 · 約10分鐘抵達旅館"
-        },
-        {
-          "time": "16:30",
-          "desc": "♨️ 旅館check-in · 享受溫泉 · 日式客房 · 俯瞰大堰川"
+          "desc": "♨️ 旅館內露天溫泉 · 水療放鬆"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 晚餐：Kitcho Arashiyama · 懷石料理 · 旅館預約接送"
+          "desc": "🍽️ 晚餐：京やまと（Kyoyamato）· 嵐山米其林一星懷石 · 需預約"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 返回旅館 · 夜間庭園散步 · 榻榻米上品茶"
         }
       ]
     },
     {
       "day": 3,
-      "date": "2026-06-20",
-      "label_zh": "嵐山深度遊",
+      "date": "June 20 · Sat",
+      "label_zh": "嵐山深度探索",
       "hotel_name": "Hoshinoya Kyoto",
-      "hotel_name_zh": "虹夕諾雅 京都",
-      "hotel_room": "水邊雙人房",
-      "weather": "☀️ 30°/24°",
-      "rain_pct": "10%",
+      "hotel_name_zh": "虹夕諾雅 京都 · 水之音雙人房",
+      "hotel_room": "水之音雙人房",
+      "weather": "🌤️ 28°/21°",
+      "rain_pct": "15%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🍵 旅館日式早餐 · 精緻擺盤 · 面對川景"
+          "desc": "🍳 旅館內日式早餐 · 精緻京料理 · 窗外保津川景色"
         },
         {
           "time": "09:00",
-          "desc": "🚶 嵐山散步 · 渡月橋 · 感受清晨寧靜"
+          "desc": "🚲 租借腳踏車 · 探索嵐山周邊：常寂光寺、野宮神社"
         },
         {
-          "time": "10:00",
-          "desc": "🎋 龜山公園展望台 · 俯瞰保津川和峽谷"
+          "time": "11:00",
+          "desc": "🎋 龜山公園展望台 · 俯瞰保津川峽谷"
         },
         {
-          "time": "11:30",
-          "desc": "🍜 午餐：Shoraian · 湯豆腐會席 · 竹林旁"
+          "time": "12:30",
+          "desc": "🍽️ 午餐：嵐山よしむら · 手打蕎麥麵（¥1,500/人）"
         },
         {
-          "time": "13:00",
-          "desc": "⚡ 嵐山猴子公園 · 爬山約20分鐘 · 可看野生猴子 · 門票¥550/人"
-        },
-        {
-          "time": "15:00",
-          "desc": "☕ 嵐山大街購物 · 抹茶點心、手工藝品"
+          "time": "14:00",
+          "desc": "🛶 保津川遊船（約2小時 · ¥4,100/人）· 順流而下欣賞峽谷"
         },
         {
           "time": "16:30",
-          "desc": "♨️ 回旅館泡溫泉 · 休息"
+          "desc": "🍵 旅館內茶道體驗 · 抹茶與和菓子"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：Kikunoi Roan · 懷石料理 · 旅館接送"
+          "time": "18:00",
+          "desc": "♨️ 溫泉再次享受 · 日落時分"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：吉兆嵐山本店（Kitcho Arashiyama）· 米其林三星懷石 · 一生必訪"
         }
       ]
     },
     {
       "day": 4,
-      "date": "2026-06-21",
-      "label_zh": "大阪購物日",
+      "date": "June 21 · Sun",
+      "label_zh": "回大阪購物日",
       "hotel_name": "Grids Premium Hotel Namba",
-      "hotel_name_zh": "難波Grids Premium旅館",
+      "hotel_name_zh": "難波格利茲高級旅館 · 標準雙人房",
       "hotel_room": "標準雙人房",
-      "weather": "☁️ 29°/23°",
-      "rain_pct": "30%",
+      "weather": "☁️ 27°/22°",
+      "rain_pct": "40%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🍵 旅館日式早餐 · 退房 · 寄放行李"
+          "time": "07:30",
+          "desc": "🍳 旅館內日式早餐 · 最後一次享受虹夕諾雅"
         },
         {
           "time": "09:00",
-          "desc": "🚄 從嵐山搭乘JR至京都站 · 轉JR新快速至大阪站 · 再轉地鐵至難波 · 車資¥1,500/人"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏨 抵達難波Grids Premium旅館 · 辦理入住 · 放行李"
+          "desc": "🏨 退房 · 旅館接駁船送至渡月橋碼頭（11:00船班）"
         },
         {
           "time": "11:00",
-          "desc": "🛍️ 心齋橋筋商店街 · 藥妝、服飾、雜貨"
+          "desc": "🛶 搭乘接駁船離開虹夕諾雅 · 抵達嵐山渡月橋"
         },
         {
-          "time": "13:00",
-          "desc": "🍜 午餐：大阪燒 · 推薦「美津の」 · 排隊名店 · ¥2,000/人"
+          "time": "11:30",
+          "desc": "🚃 嵐山站→桂站→梅田（阪急京都線）· 轉地鐵到難波"
         },
         {
-          "time": "14:30",
-          "desc": "🛍️ 道頓堀 · 逛唐吉訶德、大創、Uniqlo"
+          "time": "12:30",
+          "desc": "🏨 再次入住 Grids Premium Hotel Namba · 領取寄存行李"
         },
         {
-          "time": "17:00",
-          "desc": "☕ 辻利抹茶聖代 · 難波店 · 歇腳"
+          "time": "13:30",
+          "desc": "🛍️ 難波高島屋 / 心齋橋商店街 · 藥妝、服飾、伴手禮"
         },
         {
-          "time": "18:30",
-          "desc": "🎡 道頓堀觀光船 · 夜間巡遊 · ¥1,200/人"
+          "time": "16:00",
+          "desc": "🍽️ 下午茶：HARBS 難波店 · 水果千層蛋糕"
+        },
+        {
+          "time": "18:00",
+          "desc": "🛍️ 道頓堀 · 唐吉訶德、藥妝店補貨"
         },
         {
           "time": "20:00",
-          "desc": "🍢 晚餐：串炸達摩 · 難波本店 · ¥2,500/人"
+          "desc": "🍜 晚餐：一蘭拉麵 道頓堀店 · 經典豚骨拉麵"
         },
         {
           "time": "21:30",
-          "desc": "🛍️ 最後購物 · 藥妝補貨 · 回旅館整理行李"
+          "desc": "🌃 心齋橋散步 · 回旅館整理行李"
         }
       ]
     },
     {
       "day": 5,
-      "date": "2026-06-22",
-      "label_zh": "回程日",
+      "date": "June 22 · Mon",
+      "label_zh": "返台日",
       "hotel_name": "Grids Premium Hotel Namba",
-      "hotel_name_zh": "難波Grids Premium旅館",
-      "hotel_room": "標準雙人房（已退房）",
-      "weather": "☀️ 28°/22°",
-      "rain_pct": "10%",
+      "hotel_name_zh": "難波格利茲高級旅館 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "☁️ 26°/21°",
+      "rain_pct": "30%",
       "slots": [
         {
           "time": "05:00",
-          "desc": "⏰ 起床 · 梳洗 · 最後檢查行李"
+          "desc": "⏰ 起床 · 最後確認行李"
         },
         {
           "time": "05:30",
@@ -695,23 +568,19 @@
         },
         {
           "time": "05:45",
-          "desc": "🚄 搭乘南海空港急行 · 約45分鐘 · 車資¥930/人"
+          "desc": "🚄 搭乘南海空港急行 · 往關西機場（約45分鐘 · ¥930/人）"
         },
         {
           "time": "06:30",
-          "desc": "🛬 抵達關西機場KIX · 辦理登機手續 · 托運行李"
+          "desc": "🛫 抵達關西機場 · 報到、安檢"
         },
         {
-          "time": "07:00",
-          "desc": "🍙 機場內早餐 · 可選便利商店飯糰或咖啡店"
+          "time": "07:50",
+          "desc": "✈️ 捷星 GK51 起飛 · 返回台灣"
         },
         {
-          "time": "07:30",
-          "desc": "✈️ 登機 · 捷星航空GK51 · 07:50起飛"
-        },
-        {
-          "time": "09:50",
-          "desc": "🛬 抵達桃園機場TPE · 結束浪漫旅程"
+          "time": "09:40",
+          "desc": "🛬 抵達桃園機場 · 結束浪漫關西之旅"
         }
       ]
     }
@@ -719,150 +588,118 @@
   "costs": [
     {
       "label": "✈️ 來回機票（捷星）",
+      "amount_ntd": 18000
+    },
+    {
+      "label": "🏨 住宿（Grids Premium 2晚 + 虹夕諾雅 2晚）",
+      "amount_ntd": 132000
+    },
+    {
+      "label": "🍽️ 餐飲（含吉兆懷石、京やまと、其他）",
+      "amount_ntd": 48000
+    },
+    {
+      "label": "🎫 景點門票（天龍寺、保津川遊船等）",
       "amount_ntd": 12000
     },
     {
-      "label": "🏨 住宿（難波2晚 + 虹夕諾雅2晚）",
-      "amount_ntd": 188000
-    },
-    {
-      "label": "🍽️ 餐飲（含懷石料理、小食）",
-      "amount_ntd": 64000
-    },
-    {
-      "label": "🎫 景點門票（天龍寺、遊船等）",
-      "amount_ntd": 12000
-    },
-    {
-      "label": "🚇 交通（鐵路、地鐵、接駁）",
-      "amount_ntd": 12000
+      "label": "🚇 交通（南海電鐵、阪急電鐵、接駁船等）",
+      "amount_ntd": 8000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 12000
+      "amount_ntd": 60000
     }
   ],
-  "cost_total_ntd": 300000,
-  "budget_remaining_ntd": 0,
+  "cost_total_ntd": 278000,
+  "budget_remaining_ntd": 22000,
   "photos": {
     "hero": [
       {
-        "url": "https://images.unsplash.com/photo-1741851373617-b254628f6d01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLeW90byUyMCUyNiUyME9zYWthJTIwc2t5bGluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3Nzg5MDQwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Mount fuji overlooks a sprawling cityscape."
+        "url": "",
+        "label": "Osaka & Kyoto skyline landmark"
       },
       {
-        "url": "https://images.unsplash.com/photo-1741851373559-6879db14fd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLeW90byUyMCUyNiUyME9zYWthJTIwc2t5bGluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3Nzg5MDQwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Cityscape at dusk, with mountains in background."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851373798-87644c390701?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLeW90byUyMCUyNiUyME9zYWthJTIwc2t5bGluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3Nzg5MDQwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "City skyline filled with buildings on a sunny day."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851373803-f23e7080de48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLeW90byUyMCUyNiUyME9zYWthJTIwc2t5bGluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3Nzg5MDQwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "A japanese pagoda stands between buildings at dusk."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851373544-16173862b542?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLeW90byUyMCUyNiUyME9zYWthJTIwc2t5bGluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3Nzg5MDQwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Japanese pagoda with mount fuji in the background."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851373455-84550659bd7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLeW90byUyMCUyNiUyME9zYWthJTIwc2t5bGluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3Nzg5MDQwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Mount fuji towers over buildings and clouds."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1748878665715-55296eaea53a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxLeW90byUyMCUyNiUyME9zYWthJTIwc2t5bGluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3Nzg5MDQwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Mount fuji looms over a pagoda."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1590499693710-96113ebb4eb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxLeW90byUyMCUyNiUyME9zYWthJTIwc2t5bGluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3Nzg5MDQwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown and black house near green trees and river during daytime"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851373505-c07b8a723560?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxLeW90byUyMCUyNiUyME9zYWthJTIwc2t5bGluZSUyMGxhbmRtYXJrfGVufDB8MHx8fDE3Nzg5MDQwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Ancient japanese architecture lines a city street."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1742702329971-1532c55812dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8S3lvdG8lMjAlMjYlMjBPc2FrYSUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4OTA0MDM4fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "A beautiful japanese castle lit up at night."
+        "url": "",
+        "label": "Osaka & Kyoto skyline landmark"
       }
     ],
     "destination": [
       {
-        "url": "https://images.unsplash.com/photo-1560703876-381134b6e6cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLeW90byUyMCUyNiUyME9zYWthJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTA0MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "url": "https://images.unsplash.com/photo-1560703876-381134b6e6cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
         "label": "woman in pink striped dress"
       },
       {
-        "url": "https://images.unsplash.com/photo-1592512336070-546d59294287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLeW90byUyMCUyNiUyME9zYWthJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTA0MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "url": "https://images.unsplash.com/photo-1592512336070-546d59294287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
         "label": "brown and white house near green trees during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1741850820914-679245cf5c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLeW90byUyMCUyNiUyME9zYWthJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTA0MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "url": "https://images.unsplash.com/photo-1741850820914-679245cf5c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
         "label": "Snowy rooftops and a hillside in japan."
       },
       {
-        "url": "https://images.unsplash.com/photo-1741851373528-4cafe13b22ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLeW90byUyMCUyNiUyME9zYWthJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTA0MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Mount fuji reflects over a calm lake."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851373435-9ee102aa2d18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLeW90byUyMCUyNiUyME9zYWthJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTA0MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Train with mount fuji in the background."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1774803682197-dc81456cedd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLeW90byUyMCUyNiUyME9zYWthJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTA0MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Boats docked on a river under cherry blossoms."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851373559-6879db14fd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxLeW90byUyMCUyNiUyME9zYWthJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTA0MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Cityscape at dusk, with mountains in background."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851373455-84550659bd7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxLeW90byUyMCUyNiUyME9zYWthJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTA0MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Mount fuji towers over buildings and clouds."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851373505-c07b8a723560?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxLeW90byUyMCUyNiUyME9zYWthJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTA0MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "url": "https://images.unsplash.com/photo-1741851373505-c07b8a723560?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
         "label": "Ancient japanese architecture lines a city street."
       },
       {
-        "url": "https://images.unsplash.com/photo-1590522342323-5d224e217b01?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8S3lvdG8lMjAlMjYlMjBPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwNDAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "man in yellow shirt and black shorts sitting on green grass field near brown brick building"
+        "url": "https://images.unsplash.com/photo-1774803682197-dc81456cedd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Boats docked on a river under cherry blossoms."
       },
       {
-        "url": "https://images.unsplash.com/photo-1636537470000-34284f07c242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8S3lvdG8lMjAlMjYlMjBPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwNDAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a stone path leading to a building in a garden"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1557178432-aac19755362a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8S3lvdG8lMjAlMjYlMjBPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwNDAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown building"
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851374669-818446d5a687?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8S3lvdG8lMjAlMjYlMjBPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwNDAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Japanese temple with a pathway leading up to it."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851373803-f23e7080de48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8S3lvdG8lMjAlMjYlMjBPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwNDAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "A japanese pagoda stands between buildings at dusk."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851373535-60fc10764149?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8S3lvdG8lMjAlMjYlMjBPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwNDAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "Mt. fuji framed by tree branches over water."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851374540-c64860d3bcb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8S3lvdG8lMjAlMjYlMjBPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwNDAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "A japanese temple is reflected in calm water."
-      },
-      {
-        "url": "https://images.unsplash.com/photo-1741851374430-d242e0dcd70c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8S3lvdG8lMjAlMjYlMjBPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwNDAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "url": "https://images.unsplash.com/photo-1741851374430-d242e0dcd70c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
         "label": "Cozy, lantern-lit alleyway in japan."
       },
       {
-        "url": "https://images.unsplash.com/photo-1741851373544-16173862b542?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8S3lvdG8lMjAlMjYlMjBPc2FrYSUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwNDAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "url": "https://images.unsplash.com/photo-1741851373559-6879db14fd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cityscape at dusk, with mountains in background."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1741851373803-f23e7080de48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A japanese pagoda stands between buildings at dusk."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1741851373528-4cafe13b22ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Mount fuji reflects over a calm lake."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1741851373435-9ee102aa2d18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Train with mount fuji in the background."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1741851374721-a546dc41561a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A person walks through a bamboo forest."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1741851373455-84550659bd7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Mount fuji towers over buildings and clouds."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1741851373544-16173862b542?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
         "label": "Japanese pagoda with mount fuji in the background."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1636537470000-34284f07c242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a stone path leading to a building in a garden"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1557178432-aac19755362a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown building"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1741851374540-c64860d3bcb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A japanese temple is reflected in calm water."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1748878665715-55296eaea53a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Mount fuji looms over a pagoda."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1596273334721-0f64c11a13db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown and green wooden house on green lake surrounded by green trees under white clouds and"
       }
     ]
   },
-  "chat_hash": "8834a8c677808f306b1170de4dd149cd38ad1bbadeceabbdfe3cfa604aefab41",
+  "chat_hash": "f16f6a0f5bbae55736967d20e193bd8ed01da9ebcfce2c9b0dde0dfe64e35b5f",
   "config_hash": "220d9c56a67eb9dff7682adde5e40c0477764d04b283e884db6d0e79cc4a21d1",
-  "generated_at": "2026-05-16T12:00:48.820707"
+  "generated_at": "2026-05-16T13:50:41.322898"
 }
