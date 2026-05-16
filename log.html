@@ -55,7 +55,9 @@ async function loadLogs() {
           html += '</table>';
         }
       }
-  } catch(e) {}
+  } catch(e) {
+    html += '<p style="color:#e88;">Error loading saved plans: ' + e.message + '</p>';
+  }
 
   // ═══ Section 2: Run History ═══
   try {
@@ -79,7 +81,9 @@ async function loadLogs() {
         html += '</table>';
       }
     }
-  } catch(e) {}
+  } catch(e) {
+    html += '<p style="color:#e88;">Error loading data: ' + e.message + '</p>';
+  }
 
   if(!html) {
     html = '<p style="color:var(--warm-gray);font-family:\'Noto Serif TC\',serif;">No records yet. Waiting for first run...</p>';
