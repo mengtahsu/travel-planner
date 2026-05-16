@@ -750,7 +750,7 @@
       </div>
       <label class="save-plan-label" id="save-plan-label">
         <input type="checkbox" id="save-flag" onchange="toggleSave()">
-        💾 Keep this plan (archived before next regeneration)
+        💾 Save this plan (archived before next regeneration)
       </label>
     </div>
   </div>
@@ -1740,7 +1740,9 @@ async function restoreCheckbox() {
       headers: {'Authorization': 'Bearer ' + token}
     });
     if(r.ok) {
-      const data = JSON.parse(atob((await r.json()).content));
+      const raw = await r.json();
+      const bytes = Uint8Array.from(atob(raw.content), function(c) { return c.charCodeAt(0); });
+      const data = JSON.parse(new TextDecoder().decode(bytes));
       document.getElementById('save-flag').checked = !!data.save;
     }
   } catch(e) {}
