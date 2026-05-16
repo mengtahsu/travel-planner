@@ -1,152 +1,230 @@
 {
   "destination_en": "Netherlands & Switzerland",
-  "title_zh": "荷蘭+瑞士親子暑假10天之旅",
-  "date_range": "2026/07/01–07/10",
+  "title_zh": "荷蘭瑞士 · 暑假家庭之旅（5人）",
+  "date_range": "2026/07/01–07/12",
   "start_date": "2026-07-01",
-  "end_date": "2026-07-10",
+  "end_date": "2026-07-12",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
   "destination_code": "AMS",
   "travelers": 5,
-  "days": 10,
+  "days": 12,
   "budget_ntd": 700000,
   "flight": {
-    "airline": "中華航空 China Airlines",
+    "airline": "長榮航空 EVA Air / 荷蘭皇家航空 KLM",
     "departure_date": "7月1日",
-    "return_date": "7月10日",
-    "total_price_ntd": 250000,
+    "return_date": "7月12日",
+    "total_price_ntd": 225000,
     "outbound": {
-      "flight_no": "CI 73",
-      "route": "TPE → AMS 直飛",
-      "depart_time": "23:30",
-      "arrive_time": "07:30 (+1)",
-      "duration": "14h 00m",
-      "class": "經濟艙 × 5人"
+      "flight_no": "BR 75 / KL 808",
+      "route": "TPE → AMS 曼谷轉機",
+      "depart_time": "09:00",
+      "arrive_time": "19:30 (同日)",
+      "duration": "約16小時（含轉機）",
+      "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 64",
-      "route": "ZRH → TPE 直飛",
-      "depart_time": "11:20",
-      "arrive_time": "06:00 (+1)",
-      "duration": "13h 40m",
-      "class": "經濟艙 × 5人"
+      "flight_no": "KL 1973 / BR 88",
+      "route": "ZRH → TPE 阿姆斯特丹轉機",
+      "depart_time": "10:30",
+      "arrive_time": "09:30 (+1)",
+      "duration": "約17小時（含轉機）",
+      "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Hotel V Nesplein Amsterdam",
-      "name_zh": "阿姆斯特丹V酒店",
+      "name": "Hotel V Nesplein",
+      "name_zh": "V 奈斯普蘭飯店",
       "district": "阿姆斯特丹市中心",
       "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 105000,
-      "stars": "★★★★☆",
+      "price_ntd": 54000,
+      "stars": "★★★★",
       "room_type": "家庭房（2間連通房）",
       "breakfast": "含自助早餐",
-      "amenities": "🚲 免費自行車租借 · 🍳 早餐 · 🏋️ 健身房 · 🧳 行李寄存",
-      "search_query": "Hotel V Nesplein Amsterdam Netherlands",
+      "amenities": "🚲 免費單車 · 🧳 行李寄存 · ☕ 大廳咖啡 · 🛏️ 連通房（2+3人）",
+      "search_query": "Hotel V Nesplein Amsterdam family room",
       "photos": [
         {
-          "url": "https://www.hotel-boutique.it/wp-content/uploads/2023/01/17-3-800x480.jpg",
-          "label": "Hotel V Nesplein Amsterdam - Netherlands"
+          "url": "https://hotelv.imgix.net/Hotel+V+Nesplein/KAMERS/SUITE/SUITE+303+(1).jpg?auto=format&crop=focalpoint&fit=crop&fp-debug=false&fp-x=0.5&fp-y=0.5&ixlib=php-2.1.1&q=70&w=1848",
+          "label": "Hotel V | Hotel V Nesplein ****, Amsterdam - OFFICIAL SITE - Gallery"
         },
         {
-          "url": "https://www.thehotelguru.com/_images/16/98/1698714e669f4a7d0673d05a2edd2471/hotel-v-nesplein-1180x560.jpg",
-          "label": "Hotel V Nesplein, Amsterdam, Netherlands | The Hotel Guru"
+          "url": "https://hotelv.imgix.net/Hotel+V+Nesplein/KAMERS/SUP/SUP+309+(2).jpg?auto=format&crop=focalpoint&fit=crop&fp-debug=false&fp-x=0.5&fp-y=0.5&ixlib=php-2.1.1&q=70&w=1848",
+          "label": "Hotel V | Hotel V Nesplein ****, Amsterdam - OFFICIAL SITE - Gallery"
         },
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO3rVSr8v_2t9k6sOoozkZC_cID_rmt31AP2npWFqrhhZYLIub5crOlILMzM7fPSfLiOVGhtnjX0prhpKyms-zA-QCktw_fwrVqKP0UMXsC5hnlzRBVhMHJDhLMmgiAhdjjK91EyIz4O4/s1600/Hotel-V-Nesplein-01-1150x1141.jpg",
-          "label": "loveisspeed.......: The Hotel V Nesplein is located in Amsterdam, The ..."
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/603846636.jpg?k=e3e38ec3c15da2b8ca7a00e3133890649fe9d4a80848dad943d16fd8cdcd44d1&o=",
+          "label": "Hotel V Nesplein, Amsterdam (updated prices 2025)"
         },
         {
           "url": "https://www.myboutiquehotel.com/photos/6994/hotel-v-nesplein-amsterdam-298-1739211781-2220x1400.jpg",
           "label": "Hotel V Nesplein, a Design Boutique Hotel Amsterdam, Netherlands"
         },
         {
-          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoq9ZeIppWQMRoVD_Cqxgy5F_FFF26vOJvTmqP1yT9YamT7jRwPhu-WEimERxQ5uPZGbwkSVVjDSigjkN0aOzts4Dopce67wx9Xfstb4vIXBaWMxrJPP3wHwMVoR7roObCxw7N4YXnKNY/s1600/Hotel-V-Nesplein-03-1150x1233.jpg",
-          "label": "loveisspeed.......: The Hotel V Nesplein is located in Amsterdam, The ..."
+          "url": "https://hotelv.imgix.net/Hotel+V+Nesplein/KAMERS/SUITE/SUITE+202+(2).jpg?auto=format&crop=focalpoint&fit=crop&fp-debug=false&fp-x=0.5&fp-y=0.5&ixlib=php-2.1.1&q=70&w=2640",
+          "label": "Hotel V | Hotel V Nesplein ****, Amsterdam - OFFICIAL SITE - Gallery"
         },
         {
-          "url": "http://www.cfmedia.vfmleonardo.com/imageRepo/4/0/62/814/597/WIHP_HVNesplain_front_013_R.jpg",
-          "label": "Hotel V Nesplein- Amsterdam, Netherlands Hotels- Hotels in Amsterdam ..."
+          "url": "https://pix10.agoda.net/hotelImages/4866246/0/d7ab390961aa9b81c270e72b22ca2575.jpg?s=1024x768",
+          "label": "Hotel V Nesplein in Amsterdam - Room Deals, Photos & Reviews"
+        }
+      ]
+    },
+    {
+      "name": "Hilton Amsterdam",
+      "name_zh": "阿姆斯特丹希爾頓飯店",
+      "district": "阿姆斯特丹南區",
+      "day_range": "4–5",
+      "nights": 2,
+      "price_ntd": 48000,
+      "stars": "★★★★★",
+      "room_type": "兩間標準雙人房",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 室內泳池 · 🏋️ 健身中心 · 🍽️ 河景餐廳 · 🅿️ 停車場",
+      "search_query": "Hilton Amsterdam family rooms",
+      "photos": [
+        {
+          "url": "https://pix10.agoda.net/hotelImages/11497/-1/642daec41d9ac4ad1d1936651de80742.jpg",
+          "label": "Hilton Amsterdam Hotel in Netherlands - Room Deals, Photos & Reviews"
+        },
+        {
+          "url": "https://www.dicasdeviagem.com/wp-content/uploads/2023/07/suite-familia-do-hilton-amsterdam-768x512.jpg",
+          "label": "Hotéis para família em Amsterdam: 10 ótimas opções de 2026"
+        },
+        {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/490791777.jpg?k=c1f8ac55b0d9b4368d907b4420be46e462761cc772f789fcc2ca90eb5dc26c8d&o=",
+          "label": "Hilton Amsterdam, Amsterdam (updated prices 2025)"
+        },
+        {
+          "url": "https://www.hilton.com/im/en/AMSAPHI/7649015/hilton-schiphol-twin-atrium.jpg?impolicy=crop&cw=4099&ch=3053&gravity=NorthWest&xposition=663&yposition=0&rw=0&rh=0",
+          "label": "Hilton Amsterdam Airport Schiphol Photo Gallery"
+        },
+        {
+          "url": "https://www.hilton.com/im/en/AMSAAHX/2421246/amsaa-junior-suite.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=11&yposition=0&rw=1280&rh=854",
+          "label": "Schiphol Airport Hotel - Hampton by Hilton Amsterdam Airport Schiphol"
+        },
+        {
+          "url": "https://www.luxurylifestylemag.co.uk/wp-content/uploads/2023/04/Junior-Suite-K1RRA-Bedroom-v2.jpg",
+          "label": "Hotel Review: Hilton Amsterdam, Oud Zuid, Amsterdam in the Netherlands ..."
         }
       ]
     },
     {
       "name": "Hotel Schweizerhof Bern",
-      "name_zh": "伯恩施維茲霍夫酒店",
-      "district": "伯恩老城區",
-      "day_range": "4–5",
+      "name_zh": "伯恩施維澤霍夫飯店",
+      "district": "伯恩市中心",
+      "day_range": "6–7",
       "nights": 2,
-      "price_ntd": 85000,
+      "price_ntd": 60000,
       "stars": "★★★★★",
-      "room_type": "兩間雙人房 + 一間單人房",
-      "breakfast": "含瑞士自助早餐",
-      "amenities": "🏔️ 山景房 · 🍽️ 餐廳 · 🧖 桑拿 · 🅿️ 停車場",
-      "search_query": "Hotel Schweizerhof Bern Switzerland",
+      "room_type": "兩間高級房（連通房）",
+      "breakfast": "含自助早餐",
+      "amenities": "🏔️ 山景 · 🍽️ 米其林一星餐廳 · 🧳 行李服務 · 🚆 火車站步行5分鐘",
+      "search_query": "Hotel Schweizerhof Bern family",
       "photos": [
         {
           "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/29/2e/be/exterior.jpg?w=1200&h=-1&s=1",
           "label": "HOTEL SCHWEIZERHOF BERN & SPA: Bewertungen, Fotos & Preisvergleich ..."
         },
         {
+          "url": "https://www.worldrainbowhotels.com/wp-content/uploads/2018/08/14bde107a59746fe8739718377a96cad.jpg",
+          "label": "Hotel Schweizerhof Bern - World Rainbow Hotels"
+        },
+        {
+          "url": "https://schweizerhofbern.com/media/659/download/Header.jpg?v=1",
+          "label": "Family Two Bedroom | Rooms and Suites | Schweizerhof Bern"
+        },
+        {
           "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/1955/195535/195535726/hotel-schweizerhof-bern-spa-bern-photo-3.JPEG",
-          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
+          "label": "Hotel Schweizerhof Bern & Spa Bern, Schweiz - jetzt buchen, Preise für 2026"
         },
         {
-          "url": "https://www.swissglam.ch/wp-content/uploads/2022/10/schweizerhof-bern-hotel--1024x1536.jpg",
-          "label": "Hotel Schweizerhof Bern & Spa | SwissGlam.ch"
+          "url": "https://schweizerhofbern.com/uploads/media/960x1456/00/670-Thumbnail.jpg?v=1-0",
+          "label": "5-star Hotel Bern | Hotel Schweizerhof Bern & Spa"
         },
         {
-          "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/17057/1705723/1705723234/hotel-schweizerhof-bern-spa-bern-photo-85.JPEG",
-          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
-        },
-        {
-          "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/17057/1705723/1705723248/hotel-schweizerhof-bern-spa-bern-photo-74.JPEG",
-          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
-        },
-        {
-          "url": "https://www.myboutiquehotel.com/photos/5479/hotel-schweizerhof-bern-the-spa-bern-085-58455-1110x700.jpg",
-          "label": "Hotel Schweizerhof Bern & Spa, a Design Boutique Hotel Bern, Switzerland"
+          "url": "https://usercontent.one/wp/i-m-magazine.com/wp-content/uploads/2022/11/James-Bond-Schweizerhof.jpeg?media=1711121999",
+          "label": "Schweizerhof Hotel, Bern - I-M"
         }
       ]
     },
     {
-      "name": "Hotel Alpina Interlaken",
-      "name_zh": "因特拉肯阿爾皮納酒店",
-      "district": "因特拉肯市中心",
-      "day_range": "6–9",
-      "nights": 4,
-      "price_ntd": 160000,
-      "stars": "★★★★☆",
-      "room_type": "兩間雙人房 + 一間單人房",
-      "breakfast": "含瑞士早餐",
-      "amenities": "🏔️ 少女峰景觀 · 🏊 室內泳池 · 🚞 火車站步行5分鐘 · 🅿️ 免費停車",
-      "search_query": "Hotel Alpina Interlaken Switzerland",
+      "name": "Hotel des Alpes",
+      "name_zh": "阿爾卑斯飯店",
+      "district": "格林德瓦",
+      "day_range": "8–10",
+      "nights": 3,
+      "price_ntd": 78000,
+      "stars": "★★★★",
+      "room_type": "兩間雙人房（含加床）",
+      "breakfast": "含自助早餐",
+      "amenities": "🏔️ 艾格峰景觀 · 🚡 纜車站步行3分鐘 · 🧳 雪具寄存 · ☕ 下午茶",
+      "search_query": "Hotel des Alpes Grindelwald family",
       "photos": [
         {
-          "url": "https://media-cdn.tripadvisor.com/media/photo-s/01/48/e8/1e/hotel-alpina.jpg",
-          "label": "ALPINA HOTEL (AU$190): 2022 Prices & Reviews (Interlaken, Switzerland ..."
+          "url": "https://c8.alamy.com/comp/2WXDKBG/march-28-2024-the-famous-bellevue-des-alpes-hotel-at-the-foot-of-the-north-face-of-the-eiger-grindelwald-switzerland-2WXDKBG.jpg",
+          "label": "March 28, 2024: The famous BELLEVUE DES ALPES hotel at the foot of the ..."
         },
         {
-          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/8e/3a/06/hotel-alpina.jpg?w=1200&h=-1&s=1",
-          "label": "ALPINA HOTEL - Prices & Reviews (Interlaken, Switzerland)"
+          "url": "https://i.pinimg.com/originals/e0/92/ee/e092ee902b17473a0ccfa5dd2eec20bd.jpg",
+          "label": "Alpine hotel in Grindelwald, Switzerland | Alpine hotel, Mountain town ..."
         },
         {
-          "url": "https://www.alpinahotel.ch/uploads/2/4/9/4/24947822/_6085820_orig.png",
-          "label": "Über - Alpina Hotel Interlaken Switzerland"
+          "url": "https://triptins.com/wp-content/uploads/2023/03/Aspen-Alpine-Lifestyle-Hotel--1024x677.png.webp",
+          "label": "10 Remarkable Grindelwald Hotels (Best Views, 5 Star, Pool, & More)"
         },
         {
-          "url": "https://www.hostelscentral.com/pics/22159/022159-1304628918.jpg",
-          "label": "Basicrooms by ALPINA HOTEL - Interlaken, Switzerland - HostelsCentral ..."
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/b5/dc/e1/exterior-view.jpg?w=1100&h=-1&s=1",
+          "label": "ASPEN ALPIN LIFESTYLE HOTEL GRINDELWALD - Updated 2022 Prices & Reviews ..."
         },
         {
-          "url": "https://www.alpinahotel.ch/uploads/2/4/9/4/24947822/2993925_orig.jpg",
-          "label": "Über - Alpina Hotel Interlaken Switzerland"
+          "url": "https://cdn.prod.website-files.com/6461f8c0a1d1b2270a1e9fca/6523c74e9477f263649b3d87_Aspen-06-2022-348.webp",
+          "label": "Factsheet - Hotel Aspen Grindelwald - Swiss Alps"
         },
         {
-          "url": "https://onlyadultshotels.com/wp-content/uploads/2025/04/alpina-boutique-hotel-interlaken-adults-only-hotel-ringgenberg-switzerland-1.jpg",
-          "label": "Alpina Boutique Hotel Interlaken | Adult Only Hotels Switzerland 2026"
+          "url": "https://cdn.prod.website-files.com/6461f8c0a1d1b2270a1e9fca/6523ee6412393c5e489230b7_deluxe-suite-311.webp",
+          "label": "Factsheet - Hotel Aspen Grindelwald - Swiss Alps"
+        }
+      ]
+    },
+    {
+      "name": "Baur au Lac",
+      "name_zh": "博奧拉克飯店",
+      "district": "蘇黎世市中心",
+      "day_range": "11–12",
+      "nights": 2,
+      "price_ntd": 72000,
+      "stars": "★★★★★",
+      "room_type": "兩間經典客房",
+      "breakfast": "含自助早餐",
+      "amenities": "🌳 私人公園 · 🍽️ 米其林二星餐廳 · 🧳 禮賓服務 · 🚆 火車站步行10分鐘",
+      "search_query": "Baur au Lac Zurich family",
+      "photos": [
+        {
+          "url": "https://hotelinside.ch/wp-content/uploads/Baur_au_Lac_Zurich-300dpi-1536x863.jpg",
+          "label": "Baur au Lac Zürich: Warum ist das Luxushaus der Familie Kracht derart ..."
+        },
+        {
+          "url": "https://masonrose.com/wp-content/uploads/2016/11/Baur-au-Lac-exterior-lr-1400x0-c-default.jpg",
+          "label": "Baur au Lac, Zürich - Mason Rose"
+        },
+        {
+          "url": "https://bauraulac.hotelzurich.info/data/Images/OriginalPhoto/8459/845901/845901755/zurich-baur-au-lac-image-92.JPEG",
+          "label": "HOTEL BAUR AU LAC, ZURICH"
+        },
+        {
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/0d/22/2f/garden-view.jpg?w=1400&h=-1&s=1",
+          "label": "BAUR AU LAC - Updated 2022 Prices & Hotel Reviews (Zurich, Switzerland)"
+        },
+        {
+          "url": "https://www.celebremagazine.world/wp-content/uploads/2019/11/CM_Baur-au-Lac-_cover-1170x600.jpg",
+          "label": "Hotel Baur au Lac Zurich, Timeless Excellence celebreMagazine"
+        },
+        {
+          "url": "https://gtspirit.com/wp-content/uploads/2016/11/Baur-au-Lac-Zurich-Exterior-View-e1481640575614-768x554.jpg",
+          "label": "Baur Au Lac Zurich Hotel Review - GTspirit"
         }
       ]
     }
@@ -154,131 +232,131 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "De Kas Amsterdam",
-        "name_zh": "阿姆斯特丹溫室餐廳",
-        "stars": "⭐⭐",
-        "dish": "🌿 招牌：每日農場採摘套餐 + 自種香草",
-        "address": "Kamerlingh Onneslaan 3, 1097 DE Amsterdam",
-        "price_ntd": 3500,
-        "price_label": "午餐套餐 €55/人 · NT$1,925 · 晚餐套餐 €85/人 · NT$2,975",
-        "hours": "12:00–14:30 / 18:30–22:00 · 需預約",
-        "search_query": "De Kas restaurant Amsterdam food",
+        "name": "Restaurant De Kas",
+        "name_zh": "溫室農場餐廳 · 米其林一星",
+        "stars": "⭐",
+        "dish": "🥗 招牌：當季有機蔬菜拼盤 · 荷蘭鱸魚",
+        "address": "Plantage Kerklaan 61, 阿姆斯特丹",
+        "price_ntd": 4500,
+        "price_label": "午餐套餐 €65/人 · NT$2,275（5人約NT$11,375）",
+        "hours": "12:00–14:30 / 18:00–22:00 · 需預約",
+        "search_query": "Restaurant De Kas Amsterdam menu",
         "photos": [
           {
-            "url": "https://img.restaurantguru.com/c3c3-Restaurant-De-Kas-dishes.jpg",
-            "label": "De Kas, Amsterdam - Restaurant menu, prices and reviews"
+            "url": "https://img.restaurantguru.com/rb7c-menu-De-Kas-2022-09.jpg",
+            "label": "Menu at De Kas, Amsterdam"
           },
           {
-            "url": "https://img.restaurantguru.com/cbea-De-Kas-dishes-2.jpg",
-            "label": "De Kas, Amsterdam - Restaurant menu and reviews"
+            "url": "https://img.restaurantguru.com/rf59-De-Kas-menu-2022-09.jpg",
+            "label": "Menu at De Kas, Amsterdam"
           },
           {
-            "url": "https://img.restaurantguru.com/c1a7-De-Kas-food-6.jpg?@m@t@s@d",
-            "label": "De Kas, Amsterdam - Restaurant menu, prices and reviews"
+            "url": "https://img.restaurantguru.com/r4fa-menu-De-Kas.jpg",
+            "label": "Menu at De Kas, Amsterdam"
           }
         ]
       },
       {
-        "name": "Restaurant Schauenstein",
-        "name_zh": "紹恩施泰因米其林三星",
+        "name": "Restaurant Cheval Blanc by Peter Knogl",
+        "name_zh": "白馬餐廳 · 米其林三星",
         "stars": "⭐⭐⭐",
-        "dish": "🍄 招牌：松露燉飯 · 高山乳酪拼盤",
-        "address": "Schauensteinstrasse 1, 7270 Davos Platz",
-        "price_ntd": 6500,
-        "price_label": "晚餐套餐 CHF 180/人 · NT$6,300",
-        "hours": "19:00–21:30 · 需預約 · 距離因特拉肯1.5小時車程",
-        "search_query": "Restaurant Schauenstein Davos Switzerland",
+        "dish": "🦞 招牌：龍蝦三重奏 · 瑞士巧克力甜點",
+        "address": "Rheinstrasse 1, 巴塞爾（距蘇黎世1小時火車）",
+        "price_ntd": 8500,
+        "price_label": "晚餐套餐 CHF 280/人 · NT$8,960（5人約NT$44,800）",
+        "hours": "19:00–22:00 · 需預約數月前",
+        "search_query": "Cheval Blanc Basel Peter Knogl",
         "photos": [
           {
-            "url": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1437078.jpg",
-            "label": "Schloss Schauenstein – Fürstenau - a MICHELIN Guide Restaurant"
+            "url": "https://cdn.royist.com/wp-content/uploads/2020/09/chevalblanc-peterknogl_royist_2-scaled.jpg",
+            "label": "Cheval Blanc by Peter Knogl, exquisite French cuisine in Basel"
           },
           {
-            "url": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1071566.jpg",
-            "label": "Schloss Schauenstein – Fürstenau - a MICHELIN Guide Restaurant"
+            "url": "https://ausflug-planen.ch/wp-content/uploads/2020/09/chevalblanc-terrasse_dsc6262_-c-ben_koechlin-2048x1365.jpg",
+            "label": "Cheval Blanc by Peter Knogl - Basel - Ausflugsziele auf ausflug-planen.ch"
           },
           {
-            "url": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1071565.jpg",
-            "label": "Schloss Schauenstein – Fürstenau - a MICHELIN Guide Restaurant"
+            "url": "https://hblimg.mmtcdn.com/content/hubble/img/basel/mmt/activities/m_Basel_Cheval_Blanc_by_Peter_Knogl_1_l_600_900.jpg",
+            "label": "Cheval Blanc by Peter Knogl | Basel - What to Expect | Timings | Tips ..."
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "The Seafood Bar Spui",
-        "name_zh": "海鮮吧 · 阿姆斯特丹",
+        "name": "Moeders",
+        "name_zh": "媽媽的廚房 · 荷蘭家庭料理",
         "stars": "",
-        "dish": "🦐 招牌：荷蘭海鮮拼盤 · 龍蝦濃湯 · 白酒蒸青口",
-        "address": "Spui 15, 1012 WX Amsterdam",
-        "price_ntd": 2500,
-        "price_label": "晚餐套餐 €45/人 · NT$1,575",
-        "hours": "12:00–22:00",
-        "search_query": "The Seafood Bar Spui Amsterdam food",
+        "dish": "🥘 招牌：荷蘭燉肉（Hachee） · 蘋果派",
+        "address": "Rozengracht 251, 阿姆斯特丹",
+        "price_ntd": 1600,
+        "price_label": "主菜 €18-25/人 · NT$630-875（5人約NT$4,000）",
+        "hours": "17:00–22:00 · 週末需排隊",
+        "search_query": "Moeders Amsterdam traditional food",
         "photos": [
           {
-            "url": "http://amsterdamsights.com/eatdrink/img/tsb-12-l.jpg",
-            "label": "The Seafood Bar Amsterdam"
+            "url": "https://destinia.com/guides/wp-content/uploads/2023/01/moeders-restaurant-traditional-amsterdam.webp",
+            "label": "Best Traditional Dutch Restaurants in Amsterdam - Destinia Guides"
           },
           {
-            "url": "http://1.bp.blogspot.com/-gD0RII9JSAQ/Vkj_95KeFjI/AAAAAAAAIzw/c_a0ChSFMTU/s1600/FullSizeRender1.jpg",
-            "label": "Nomface: The Seafood Bar Spui, Amsterdam"
+            "url": "https://traveladdicts.net/wp-content/uploads/2024/06/Stamppot-mashed-potatoes-sausage-at-Moeders-Amsterdam.jpg.webp",
+            "label": "18 Traditional Dutch Foods to Try - Travel Addicts"
           },
           {
-            "url": "https://s3-media0.fl.yelpcdn.com/bphoto/sMCpoomeXtNQgLuepgGzGQ/o.jpg",
-            "label": "THE SEAFOOD BAR - 431 Photos & 164 Reviews - Spui 15, Amsterdam, Noord ..."
+            "url": "https://i.pinimg.com/736x/7b/b7/9a/7bb79abab711133a64e1b4daa0485d6e.jpg",
+            "label": "For authentic, home-style Dutch cuisine, try Moeders Restaurant, in ..."
           }
         ]
       },
       {
-        "name": "Lorenz Cafe & Restaurant",
-        "name_zh": "洛倫茨咖啡餐廳 · 伯恩",
+        "name": "Zum Kropf",
+        "name_zh": "伯恩傳統餐廳 · 百年歷史",
         "stars": "",
-        "dish": "🧀 招牌：起司火鍋 · 瑞士薯餅 · 烤香腸",
-        "address": "Münstergasse 24, 3011 Bern",
-        "price_ntd": 2200,
-        "price_label": "晚餐套餐 CHF 45/人 · NT$1,575",
-        "hours": "11:30–14:30 / 18:00–22:00",
-        "search_query": "Lorenz Cafe Bern Switzerland",
+        "dish": "🥩 招牌：伯恩盤（Berner Platte） · 瑞士薯餅",
+        "address": "Gerechtigkeitsgasse 16, 伯恩",
+        "price_ntd": 2000,
+        "price_label": "主菜 CHF 30-45/人 · NT$960-1,440（5人約NT$6,000）",
+        "hours": "11:30–14:30 / 18:00–21:30",
+        "search_query": "Zum Kropf Bern traditional Swiss",
         "photos": [
           {
-            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/eb/97/a0/cafe-restaurant-treff.jpg?w=1200&h=900&s=1",
-            "label": "LORENZINI, Bern - Restaurant Bewertungen, Telefonnummer & Fotos ..."
+            "url": "https://www.myglobalviewpoint.com/wp-content/uploads/2023/11/Zum-Kropf-600x458.jpg",
+            "label": "21 Best Zurich Restaurants That Prove Swiss Food Goes Beyond Fondue ..."
           },
           {
-            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=463082679210593",
-            "label": "Lorenz.Café | Lübeck"
+            "url": "https://zurich10.com/wp-content/uploads/2024/09/AF1QipMiS51ngsZ_O8PVsfJuIBB7hZz_PABV6C6EWOFOw408-h306-k-no.jpg",
+            "label": "The 15 Best Traditional Swiss Restaurants in Zurich | Zurich10"
           },
           {
-            "url": "https://a.storyblok.com/f/272028/3000x2002/b55d7418a7/bern_salotto-siena_ristorante-lorenzini_2_c_ristorante-lorenzini_weitergabe-auf-anfrage.jpg/m/2000x0/filters:quality(80)",
-            "label": "Restaurant Lorenzini - Bern Welcome"
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/70/b1/d6/restaurant-krone.jpg?w=800&h=600&s=1",
+            "label": "RESTAURANT ZUM KROPF, Zurich - Menu, Prices & Restaurant Reviews ..."
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Café Winkel 43",
-        "name_zh": "溫克爾43 · 阿姆斯特丹",
+        "name": "Café de Jaren",
+        "name_zh": "歲月咖啡館 · 運河景觀",
         "stars": "",
-        "dish": "🥧 招牌：蘋果派 · 鮮奶油 · 咖啡 · 熱巧克力",
-        "address": "Noordermarkt 43, 1015 NA Amsterdam",
-        "price_ntd": 1200,
-        "price_label": "五人早午餐 €60 · NT$2,100",
-        "hours": "08:00–17:00 · 週末排隊約30分鐘",
-        "search_query": "Cafe Winkel 43 Amsterdam apple pie",
+        "dish": "☕ 招牌：荷蘭蘋果派 · 卡布奇諾 · 三明治",
+        "address": "Nieuwe Doelenstraat 20-22, 阿姆斯特丹",
+        "price_ntd": 900,
+        "price_label": "咖啡+甜點 €8/人 · NT$280（5人約NT$1,400）",
+        "hours": "08:30–23:00 · 戶外座位可賞運河",
+        "search_query": "Cafe de Jaren Amsterdam canal view",
         "photos": [
           {
-            "url": "https://i.redd.it/tqgcax3f0wi01.jpg",
-            "label": "Apple pie from Winkel 43 in Amsterdam, Netherlands. The most perfectly ..."
+            "url": "https://www.incredibleamsterdam.com/wp-content/uploads/2023/08/cafe-de-jaren-1024x684.jpeg",
+            "label": "Beer garden Amsterdam: The 5 most beautiful places by the water ..."
           },
           {
-            "url": "https://static.wixstatic.com/media/ea720f_60b15d7750f94c20b59b0311c4e90277~mv2.jpg/v1/fill/w_980,h_1503,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea720f_60b15d7750f94c20b59b0311c4e90277~mv2.jpg",
-            "label": "Café Winkel 43 - Best Dutch Apple Pie in Amsterdam, The Netherlands"
+            "url": "https://farm1.staticflickr.com/111/307543664_7f32e968ce_b.jpg",
+            "label": "Café De Jaren Amsterdam: De Jaren Cafe Amsterdam - ZZGH"
           },
           {
-            "url": "https://blushrougette.com/wp-content/uploads/2019/05/winkel-43-apple-pie-1460x973.jpg",
-            "label": "Winkel 43, the best Dutch apple pie in Amsterdam - Review | Blushrougette"
+            "url": "https://welikeamsterdam.com/wp-content/uploads/2025/03/2023-08-16-2.webp",
+            "label": "12 X Cafés In Amsterdam With A Canal View - We Like Amsterdam"
           }
         ]
       },
@@ -286,24 +364,24 @@
         "name": "Confiserie Sprüngli",
         "name_zh": "史賓利巧克力咖啡館 · 蘇黎世",
         "stars": "",
-        "dish": "🍫 招牌：瑞士巧克力 · 馬卡龍 · 熱可可 · 蛋糕",
-        "address": "Bahnhofstrasse 21, 8001 Zürich",
-        "price_ntd": 1500,
-        "price_label": "五人下午茶套餐 CHF 45 · NT$1,575",
-        "hours": "07:30–18:30 · 百年老店",
-        "search_query": "Confiserie Sprüngli Zurich Switzerland",
+        "dish": "🍫 招牌：Luxemburgerli 馬卡龍 · 熱巧克力 · 蛋糕",
+        "address": "Bahnhofstrasse 21, 蘇黎世",
+        "price_ntd": 1200,
+        "price_label": "咖啡+甜點 CHF 15/人 · NT$480（5人約NT$2,400）",
+        "hours": "07:30–18:30 · 週日至17:00",
+        "search_query": "Sprungli Zurich cafe",
         "photos": [
           {
-            "url": "https://c8.alamy.com/comp/A9J86A/switzerland-zurich-confiserie-spuengli-at-paradeplatz-A9J86A.jpg",
-            "label": "Confiserie sprüngli bahnhofstraße zurich switzerland hi-res stock ..."
+            "url": "https://i.pinimg.com/originals/a9/8b/e8/a98be807e973112546d3ab8777db46c4.jpg",
+            "label": "Sprungli-Lindt store on Bahnhoff Strasse Zurich | Coffee shop interior ..."
           },
           {
-            "url": "https://c8.alamy.com/comp/A9J868/switzerland-zurich-confiserie-spuengli-at-paradeplatz-A9J868.jpg",
-            "label": "Confiserie sprungli zurich hi-res stock photography and images - Alamy"
+            "url": "https://c8.alamy.com/comp/DWACYT/sprungli-confisserie-confectionery-luxemburgerli-parade-place-switzerland-DWACYT.jpg",
+            "label": "Cafe sprungli zurich hi-res stock photography and images - Alamy"
           },
           {
-            "url": "https://www.gpsmycity.com/img/gd_sight/25108.jpg",
-            "label": "Confiserie Sprüngli (Sprüngli Confectionery), Zurich"
+            "url": "https://s.inyourpocket.com/gallery/247584.jpg",
+            "label": "Sprüngli Café & Restaurant | Cafés | Zurich"
           }
         ]
       }
@@ -313,476 +391,556 @@
     {
       "day": 1,
       "date": "Jul 1 · Wed",
-      "label_zh": "出發日 · 台北→阿姆斯特丹",
-      "hotel_name": "Hotel V Nesplein Amsterdam",
-      "hotel_name_zh": "阿姆斯特丹V酒店 · 家庭連通房",
+      "label_zh": "抵達阿姆斯特丹",
+      "hotel_name": "Hotel V Nesplein",
+      "hotel_name_zh": "V 奈斯普蘭飯店 · 家庭連通房",
       "hotel_room": "家庭連通房（2間）",
-      "weather": "☀️ 25°/16°",
-      "rain_pct": "5%",
+      "weather": "⛅ 22°/14°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "20:00",
-          "desc": "🚕 從台北市區出發前往桃園機場第二航廈 · 建議18:00出發"
+          "time": "09:00",
+          "desc": "✈️ 桃園機場出發 · 長榮BR75至曼谷轉機，轉搭KL808至阿姆斯特丹"
+        },
+        {
+          "time": "19:30",
+          "desc": "🛬 抵達AMS史基浦機場 · 通關取行李（約30分鐘）"
+        },
+        {
+          "time": "21:00",
+          "desc": "🚆 機場火車至阿姆斯特丹中央車站（15分鐘，車票€5.5/人）"
         },
         {
           "time": "21:30",
-          "desc": "🧳 辦理登機手續 · 中華航空 CI 73 · 櫃檯報到"
+          "desc": "🏨 步行至Hotel V Nesplein（車站步行8分鐘）· 辦理入住"
         },
         {
-          "time": "23:30",
-          "desc": "✈️ 桃園機場起飛 · 直飛阿姆斯特丹 · 飛行14小時 · 機上過夜"
+          "time": "22:00",
+          "desc": "🍽️ 附近超市購買簡單晚餐與零食（Albert Heijn超市）· 早點休息調整時差"
         }
       ]
     },
     {
       "day": 2,
       "date": "Jul 2 · Thu",
-      "label_zh": "阿姆斯特丹 · 運河與博物館日",
-      "hotel_name": "Hotel V Nesplein Amsterdam",
-      "hotel_name_zh": "阿姆斯特丹V酒店 · 家庭連通房",
+      "label_zh": "阿姆斯特丹市區探索",
+      "hotel_name": "Hotel V Nesplein",
+      "hotel_name_zh": "V 奈斯普蘭飯店 · 家庭連通房",
       "hotel_room": "家庭連通房（2間）",
-      "weather": "☀️ 26°/17°",
+      "weather": "🌤 24°/15°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "✈️ 抵達阿姆斯特丹史基浦機場 · 入境通關 · 提領行李"
-        },
-        {
-          "time": "08:30",
-          "desc": "🚄 搭乘NS火車從機場到阿姆斯特丹中央車站 · 約15分鐘 · €5.5/人"
+          "time": "08:00",
+          "desc": "🥐 飯店早餐 · 享用荷蘭起司與新鮮麵包"
         },
         {
           "time": "09:00",
-          "desc": "🚶 步行至Hotel V Nesplein（約10分鐘）· 寄存行李"
-        },
-        {
-          "time": "10:00",
-          "desc": "🥐 Café Winkel 43 早午餐 · 招牌蘋果派+咖啡 · 五人約NT$2,100"
+          "desc": "🚶 步行至安妮之家（預約票10:00，步行15分鐘）· 了解二戰歷史，適合青少年教育"
         },
         {
           "time": "11:30",
-          "desc": "🚲 騎飯店免費自行車 · 探索約丹區Jordaan · 運河畔拍照"
+          "desc": "☕ Café de Jaren 咖啡 · 運河畔享用蘋果派與熱巧克力"
         },
         {
           "time": "13:00",
-          "desc": "🎨 梵谷美術館 Van Gogh Museum（預約票 €19/成人，18歲以下免費）"
+          "desc": "🍽️ Moeders 午餐 · 品嚐荷蘭燉肉與薯泥"
         },
         {
-          "time": "15:30",
-          "desc": "🚶 博物館廣場 · 國家博物館 Rijksmuseum 外觀拍照 · 冰淇淋休息"
+          "time": "14:30",
+          "desc": "🚲 租單車（飯店免費提供）· 騎車穿梭 Jordaan 區與九街（Nine Streets）"
         },
         {
-          "time": "17:30",
-          "desc": "🛶 運河遊船（1小時）· 從中央車站出發 · €16/人 · 全家NT$2,800"
+          "time": "16:00",
+          "desc": "🎨 梵谷博物館（預約票17:00，€19/人）· 欣賞向日葵與星夜"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ The Seafood Bar Spui 晚餐 · 海鮮拼盤 · 五人約NT$7,875"
+          "time": "18:30",
+          "desc": "🍽️ 自由晚餐 · 推薦Foodhallen（室內美食廣場，€15-20/人）"
         },
         {
-          "time": "21:00",
-          "desc": "🏨 回飯店入住 · 調整時差 · 早點休息"
+          "time": "20:30",
+          "desc": "🚶 紅燈區夜間散步（僅外部觀看，適合家庭）· 返回飯店"
         }
       ]
     },
     {
       "day": 3,
       "date": "Jul 3 · Fri",
-      "label_zh": "阿姆斯特丹 · 風車村與起司體驗",
-      "hotel_name": "Hotel V Nesplein Amsterdam",
-      "hotel_name_zh": "阿姆斯特丹V酒店 · 家庭連通房",
+      "label_zh": "風車村與起司體驗",
+      "hotel_name": "Hotel V Nesplein",
+      "hotel_name_zh": "V 奈斯普蘭飯店 · 家庭連通房",
       "hotel_room": "家庭連通房（2間）",
-      "weather": "⛅ 24°/15°",
-      "rain_pct": "20%",
+      "weather": "⛅ 23°/14°",
+      "rain_pct": "15%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 飯店自助早餐"
+          "desc": "🥐 飯店早餐"
         },
         {
           "time": "09:00",
-          "desc": "🚂 從中央車站搭火車到Zaandijk Zaanse Schans站 · 約20分鐘 · €3.5/人"
+          "desc": "🚆 火車至 Zaandijk Zaanse Schans（17分鐘，車票€8/人）"
         },
         {
           "time": "09:30",
-          "desc": "🌷 贊瑟斯漢斯風車村 Zaanse Schans · 參觀風車 · 起司工廠 · 木鞋工廠"
+          "desc": "🏡 桑斯安斯風車村 · 參觀運作中的風車（€5/人）"
         },
         {
-          "time": "12:00",
-          "desc": "🧀 起司品嚐 · 購買荷蘭起司伴手禮 · 午餐在風車村簡餐（約€15/人）"
+          "time": "11:00",
+          "desc": "🧀 起司農場參觀（免費試吃）· 木鞋工廠"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 風車村餐廳午餐 · 荷蘭煎餅（€12/人）"
         },
         {
           "time": "14:00",
-          "desc": "🚂 返回阿姆斯特丹 · 自由活動 · 可逛水壩廣場或購物街"
+          "desc": "🚆 返回阿姆斯特丹 · 中央車站附近逛街（水壩廣場）"
         },
         {
           "time": "16:00",
-          "desc": "🍫 參觀安妮之家 Anne Frank Huis（需提前2個月預約）"
+          "desc": "🛍️ 女王百貨（De Bijenkorf）· 青少年可逛荷蘭設計小物"
         },
         {
           "time": "18:30",
-          "desc": "🍽️ De Kas Amsterdam 晚餐 · 溫室餐廳 · 需預約 · 五人約NT$9,625"
+          "desc": "🍽️ 晚餐：Restaurant De Kas（米其林一星）· 需預約，體驗溫室有機料理"
         },
         {
           "time": "21:00",
-          "desc": "🏨 回飯店休息"
+          "desc": "🚶 運河夜遊（可選遊船，€15/人）· 返回飯店"
         }
       ]
     },
     {
       "day": 4,
       "date": "Jul 4 · Sat",
-      "label_zh": "阿姆斯特丹→伯恩 · 瑞士首都探索",
-      "hotel_name": "Hotel Schweizerhof Bern",
-      "hotel_name_zh": "伯恩施維茲霍夫酒店 · 兩間雙人房+一間單人房",
-      "hotel_room": "兩間雙人房 + 一間單人房",
-      "weather": "☀️ 28°/18°",
-      "rain_pct": "5%",
+      "label_zh": "鹿特丹與小孩堤防",
+      "hotel_name": "Hilton Amsterdam",
+      "hotel_name_zh": "阿姆斯特丹希爾頓飯店 · 兩間標準雙人房",
+      "hotel_room": "兩間標準雙人房",
+      "weather": "🌤 25°/16°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 飯店早餐 · 辦理退房 · 行李寄存"
+          "time": "07:30",
+          "desc": "🥐 飯店早餐 · 退房並寄存行李於Hotel V Nesplein（可寄放至傍晚）"
         },
         {
           "time": "08:30",
-          "desc": "🚄 從阿姆斯特丹中央車站搭乘IC直達伯恩 · 約6小時 · 需在巴塞爾轉一次 · 二等艙€99/人"
+          "desc": "🚆 火車至鹿特丹（40分鐘，車票€15/人）"
         },
         {
-          "time": "09:00",
-          "desc": "🚄 火車出發 · 沿途欣賞荷蘭平原與德國萊茵河風光"
+          "time": "09:30",
+          "desc": "🏛️ 鹿特丹中央車站 · 參觀方塊屋（Cube Houses，€3/人）"
         },
         {
-          "time": "12:00",
-          "desc": "🍱 火車上自備午餐或購買餐車便當"
+          "time": "10:30",
+          "desc": "🚢 水上巴士（Waterbus）至小孩堤防（30分鐘，船票€4/人）"
+        },
+        {
+          "time": "11:30",
+          "desc": "🌿 小孩堤防 · 19座風車群（步行或租單車，€8/人）"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 小孩堤防附近餐廳午餐 · 荷蘭魚排（€15/人）"
         },
         {
           "time": "14:30",
-          "desc": "🏔️ 抵達伯恩火車站 · 步行至Hotel Schweizerhof（3分鐘）· 辦理入住"
+          "desc": "🚢 返回鹿特丹 · 參觀Markthal（室內市場，免費）"
         },
         {
-          "time": "15:30",
-          "desc": "🚶 伯恩老城區散步 · 時鐘塔 Zytglogge · 熊公園 BärenPark · 玫瑰園"
+          "time": "16:00",
+          "desc": "🚆 返回阿姆斯特丹 · 取行李後前往希爾頓飯店（南區，地鐵50號線）"
         },
         {
           "time": "18:00",
-          "desc": "🍽️ Lorenz Cafe & Restaurant 晚餐 · 起司火鍋 · 五人約NT$7,875"
+          "desc": "🏨 入住Hilton Amsterdam · 享受泳池與健身中心"
         },
         {
-          "time": "20:00",
-          "desc": "🌆 伯恩夜景 · 阿勒河畔散步 · 回飯店"
+          "time": "19:30",
+          "desc": "🍽️ 飯店內河景餐廳晚餐 · 荷蘭牛排（€35/人）"
         }
       ]
     },
     {
       "day": 5,
       "date": "Jul 5 · Sun",
-      "label_zh": "伯恩→因特拉肯 · 少女峰區",
-      "hotel_name": "Hotel Alpina Interlaken",
-      "hotel_name_zh": "因特拉肯阿爾皮納酒店 · 兩間雙人房+一間單人房",
-      "hotel_room": "兩間雙人房 + 一間單人房",
-      "weather": "☀️ 26°/14°",
-      "rain_pct": "10%",
+      "label_zh": "羊角村運河遊船",
+      "hotel_name": "Hilton Amsterdam",
+      "hotel_name_zh": "阿姆斯特丹希爾頓飯店 · 兩間標準雙人房",
+      "hotel_room": "兩間標準雙人房",
+      "weather": "⛅ 22°/13°",
+      "rain_pct": "20%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🥐 飯店早餐 · 辦理退房"
+          "desc": "🥐 飯店早餐"
         },
         {
           "time": "08:30",
-          "desc": "🚄 從伯恩搭乘黃金快線 GoldenPass 到因特拉肯 · 約2小時 · 全景車窗 · 二等艙CHF 45/人"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏔️ 抵達因特拉肯東站 · 步行至Hotel Alpina（5分鐘）· 寄存行李"
+          "desc": "🚆 火車至 Steenwijk（2小時，車票€25/人）· 轉公車70號至羊角村"
         },
         {
           "time": "11:00",
-          "desc": "🚶 因特拉肯主街 Höheweg 散步 · 遠眺少女峰 · 購買登山用品"
+          "desc": "🚤 羊角村租電動船（€30/小時）· 運河漫遊，拍照"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ 午餐：Hüsi Bierhaus 德式豬腳+啤酒 · 五人約NT$4,200"
+          "desc": "🍽️ 羊角村餐廳午餐 · 荷蘭肉丸與湯（€18/人）"
         },
         {
           "time": "14:00",
-          "desc": "🚞 搭乘少女峰鐵路 Jungfraubahn 前往少女峰頂 · 需轉車 · 來回票CHF 210/成人 · 16-22歲有折扣"
+          "desc": "🚶 散步羊角村小徑 · 參觀博物館（€5/人）"
         },
         {
           "time": "16:00",
-          "desc": "❄️ 少女峰頂 · 冰宮 · 觀景台 · 瑞士國旗拍照 · 巧克力體驗"
+          "desc": "🚆 返回阿姆斯特丹（約2.5小時）"
         },
         {
-          "time": "18:30",
-          "desc": "🚞 下山返回因特拉肯"
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：自由選擇 · 推薦海鮮餐廳The Seafood Bar（€30/人）"
         },
         {
-          "time": "20:00",
-          "desc": "🏨 入住Hotel Alpina · 飯店晚餐（約CHF 40/人）"
+          "time": "21:00",
+          "desc": "🏨 返回希爾頓 · 休息"
         }
       ]
     },
     {
       "day": 6,
       "date": "Jul 6 · Mon",
-      "label_zh": "因特拉肯 · 格林德瓦與First山",
-      "hotel_name": "Hotel Alpina Interlaken",
-      "hotel_name_zh": "因特拉肯阿爾皮納酒店 · 兩間雙人房+一間單人房",
-      "hotel_room": "兩間雙人房 + 一間單人房",
-      "weather": "⛅ 22°/12°",
-      "rain_pct": "30%",
+      "label_zh": "前往瑞士伯恩",
+      "hotel_name": "Hotel Schweizerhof Bern",
+      "hotel_name_zh": "伯恩施維澤霍夫飯店 · 兩間高級連通房",
+      "hotel_room": "兩間高級連通房",
+      "weather": "🌤 26°/16°（阿姆斯特丹）· ⛅ 24°/13°（伯恩）",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🥐 飯店早餐"
+          "time": "07:00",
+          "desc": "🥐 飯店早餐 · 退房"
         },
         {
-          "time": "08:30",
-          "desc": "🚞 從因特拉肯東站搭火車到格林德瓦 Grindelwald · 約35分鐘 · CHF 15/人"
+          "time": "08:00",
+          "desc": "🚆 阿姆斯特丹中央車站搭乘IC直達伯恩（6.5小時，車票€90/人）· 沿途欣賞歐洲田園風光"
         },
         {
-          "time": "09:30",
-          "desc": "🚡 搭乘First纜車到First山頂 · 來回CHF 60/人 · 可玩高空飛索、山地卡丁車"
+          "time": "14:30",
+          "desc": "🛬 抵達伯恩車站 · 步行至Hotel Schweizerhof（5分鐘）"
         },
         {
-          "time": "10:30",
-          "desc": "🏔️ First Cliff Walk · 懸崖步道 · 壯觀雪山景"
+          "time": "15:00",
+          "desc": "🏨 入住飯店 · 稍微休息"
         },
         {
-          "time": "12:00",
-          "desc": "🍱 山頂餐廳 Berggasthaus First 午餐 · 瑞士麵食+熱湯 · 五人約NT$3,500"
+          "time": "16:00",
+          "desc": "🚶 伯恩舊城區步行 · 時鐘塔（Zytglogge）、熊公園（BärenPark）"
         },
         {
-          "time": "13:30",
-          "desc": "🛴 下山：可選高空飛索（15歲以上）或山地卡丁車（16歲以上）· 每人CHF 25"
+          "time": "18:00",
+          "desc": "🍽️ 晚餐：Zum Kropf · 伯恩傳統盤與瑞士薯餅"
         },
         {
-          "time": "15:30",
-          "desc": "🚶 格林德瓦小鎮散步 · 買瑞士刀、巧克力"
-        },
-        {
-          "time": "17:00",
-          "desc": "🚞 返回因特拉肯"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：Restaurant Taverne 瑞士傳統料理 · 五人約NT$5,250"
-        },
-        {
-          "time": "21:00",
-          "desc": "🏨 回飯店休息"
+          "time": "20:00",
+          "desc": "🚶 阿勒河畔散步 · 返回飯店"
         }
       ]
     },
     {
       "day": 7,
       "date": "Jul 7 · Tue",
-      "label_zh": "因特拉肯 · 勞特布龍嫩與雪朗峰",
-      "hotel_name": "Hotel Alpina Interlaken",
-      "hotel_name_zh": "因特拉肯阿爾皮納酒店 · 兩間雙人房+一間單人房",
-      "hotel_room": "兩間雙人房 + 一間單人房",
-      "weather": "☀️ 24°/13°",
-      "rain_pct": "15%",
+      "label_zh": "伯恩與格魯耶爾起司小鎮",
+      "hotel_name": "Hotel Schweizerhof Bern",
+      "hotel_name_zh": "伯恩施維澤霍夫飯店 · 兩間高級連通房",
+      "hotel_room": "兩間高級連通房",
+      "weather": "🌤 25°/14°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:30",
+          "time": "08:00",
           "desc": "🥐 飯店早餐"
         },
         {
-          "time": "08:30",
-          "desc": "🚞 從因特拉肯東站搭火車到勞特布龍嫩 Lauterbrunnen · 約20分鐘 · CHF 12/人"
-        },
-        {
           "time": "09:00",
-          "desc": "🌊 勞特布龍嫩瀑布村 · 施陶河瀑布 Staubbachfall · 拍照"
+          "desc": "🚆 火車至格魯耶爾（1.5小時，車票CHF 25/人）"
         },
         {
-          "time": "10:00",
-          "desc": "🚡 搭乘纜車到雪朗峰 Schilthorn · 來回CHF 99/人 · 007拍攝地"
+          "time": "10:30",
+          "desc": "🧀 格魯耶爾起司工廠參觀（€7/人）· 試吃起司"
         },
         {
-          "time": "11:30",
-          "desc": "🏔️ 雪朗峰觀景台 · 360度旋轉餐廳 Piz Gloria · 午餐（CHF 35/人）"
+          "time": "12:00",
+          "desc": "🍽️ 小鎮午餐 · 起司鍋（Fondue）與烤麵包（€20/人）"
         },
         {
-          "time": "14:00",
-          "desc": "🚡 下山 · 可中途在米倫 Mürren 小鎮停留 · 童話村莊"
+          "time": "13:30",
+          "desc": "🏰 格魯耶爾城堡（€10/人）· 俯瞰阿爾卑斯山"
         },
         {
-          "time": "16:00",
-          "desc": "🚞 返回因特拉肯"
+          "time": "15:00",
+          "desc": "🚆 返回伯恩 · 自由時間逛街（伯恩購物長廊）"
         },
         {
-          "time": "17:30",
-          "desc": "🛍️ 因特拉肯購物街 · 買瑞士手錶、巧克力"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：Hüsi Bierhaus 再訪或換義大利餐廳 · 五人約NT$4,900"
+          "time": "18:00",
+          "desc": "🍽️ 晚餐：飯店內米其林一星餐廳（需預約，套餐CHF 120/人）"
         },
         {
           "time": "21:00",
-          "desc": "🏨 回飯店"
+          "desc": "🏨 返回房間 · 享受飯店SPA"
         }
       ]
     },
     {
       "day": 8,
       "date": "Jul 8 · Wed",
-      "label_zh": "因特拉肯→琉森 · 盧森湖與卡佩爾橋",
-      "hotel_name": "Hotel Alpina Interlaken",
-      "hotel_name_zh": "因特拉肯阿爾皮納酒店 · 兩間雙人房+一間單人房",
-      "hotel_room": "兩間雙人房 + 一間單人房",
-      "weather": "☀️ 27°/16°",
-      "rain_pct": "5%",
+      "label_zh": "格林德瓦與少女峰",
+      "hotel_name": "Hotel des Alpes",
+      "hotel_name_zh": "阿爾卑斯飯店 · 兩間雙人房（含加床）",
+      "hotel_room": "兩間雙人房（含加床）",
+      "weather": "⛅ 18°/8°",
+      "rain_pct": "15%",
       "slots": [
         {
           "time": "07:00",
-          "desc": "🥐 飯店早餐"
+          "desc": "🥐 飯店早餐 · 退房"
         },
         {
           "time": "08:00",
-          "desc": "🚄 從因特拉肯東站搭IR火車到琉森 Luzern · 約2小時 · CHF 25/人"
+          "desc": "🚆 伯恩至格林德瓦（2小時，車票CHF 45/人）· 轉車一次"
         },
         {
           "time": "10:00",
-          "desc": "🏛️ 琉森 · 卡佩爾橋 Chapel Bridge · 獅子紀念碑 · 老城區"
+          "desc": "🏨 入住Hotel des Alpes · 行李寄放後出發"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚡 格林德瓦纜車至少女峰站（Jungfraujoch，來回CHF 210/人）· 歐洲最高火車站"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 午餐：Restaurant Fritschi 瑞士傳統餐廳 · 五人約NT$4,200"
+          "desc": "🏔️ 少女峰頂觀景台 · 冰宮、雪地漫步（提供雪鞋）"
         },
         {
-          "time": "13:30",
-          "desc": "🚢 琉森湖遊船（1小時）· CHF 20/人 · 欣賞山湖美景"
+          "time": "13:00",
+          "desc": "🍽️ 山頂餐廳午餐 · 瑞士香腸與馬鈴薯（€25/人）"
         },
         {
           "time": "15:00",
-          "desc": "🚶 瑞士交通博物館 Verkehrshaus（適合青少年）· 門票CHF 30/成人 · 16歲以下CHF 15"
+          "desc": "🚡 下山 · 返回格林德瓦"
         },
         {
-          "time": "17:30",
-          "desc": "🍫 Confiserie Sprüngli 下午茶 · 巧克力+咖啡 · 五人約NT$1,575"
+          "time": "17:00",
+          "desc": "🚶 格林德瓦小鎮散步 · 購買紀念品"
         },
         {
           "time": "18:30",
-          "desc": "🚄 搭乘IR火車返回因特拉肯 · 約2小時"
+          "desc": "🍽️ 晚餐：飯店餐廳 · 瑞士起司火鍋與烤雞（€30/人）"
         },
         {
           "time": "20:30",
-          "desc": "🍽️ 簡單晚餐 · 飯店附近披薩店 · 五人約NT$3,000"
-        },
-        {
-          "time": "21:30",
-          "desc": "🏨 回飯店 · 打包行李"
+          "desc": "🏨 房間休息 · 欣賞艾格峰日落"
         }
       ]
     },
     {
       "day": 9,
       "date": "Jul 9 · Thu",
-      "label_zh": "因特拉肯→蘇黎世 · 回程前日",
-      "hotel_name": "Hotel Alpina Interlaken",
-      "hotel_name_zh": "因特拉肯阿爾皮納酒店 · 兩間雙人房+一間單人房",
-      "hotel_room": "兩間雙人房 + 一間單人房",
-      "weather": "☀️ 28°/17°",
+      "label_zh": "因特拉肯與滑翔傘（可選）",
+      "hotel_name": "Hotel des Alpes",
+      "hotel_name_zh": "阿爾卑斯飯店 · 兩間雙人房（含加床）",
+      "hotel_room": "兩間雙人房（含加床）",
+      "weather": "🌤 20°/10°",
       "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 飯店早餐 · 辦理退房 · 行李寄存"
+          "desc": "🥐 飯店早餐"
         },
         {
           "time": "09:00",
-          "desc": "🚄 從因特拉肯東站搭IC直達蘇黎世 · 約2.5小時 · CHF 35/人"
+          "desc": "🚆 火車至因特拉肯（20分鐘，車票CHF 10/人）"
         },
         {
-          "time": "11:30",
-          "desc": "🏙️ 蘇黎世 · 班霍夫大街 Bahnhofstrasse 購物 · 瑞士手錶、巧克力"
+          "time": "09:30",
+          "desc": "🪂 滑翔傘體驗（可選，CHF 180/人，限16歲以上·兩位大女兒可參加）· 俯瞰少女峰與湖泊"
         },
         {
-          "time": "13:00",
-          "desc": "🍽️ 午餐：Restaurant Zeughauskeller 德式啤酒屋 · 五人約NT$4,900"
+          "time": "12:00",
+          "desc": "🍽️ 因特拉肯市區午餐 · 瑞士漢堡與沙拉（€18/人）"
         },
         {
-          "time": "14:30",
-          "desc": "🚶 蘇黎世老城區 · 聖彼得教堂 · 林登霍夫山丘"
+          "time": "13:30",
+          "desc": "🚢 布里恩茨湖遊船（1小時，船票CHF 15/人）· 湖光山色"
         },
         {
-          "time": "16:00",
-          "desc": "🛍️ 最後購物時間 · 買伴手禮"
+          "time": "15:00",
+          "desc": "🚶 因特拉肯購物街 · 瑞士刀與手錶店"
         },
         {
-          "time": "17:30",
-          "desc": "🚄 搭火車返回因特拉肯取行李 · 或直接從蘇黎世前往機場附近住宿（可選機場飯店）"
+          "time": "17:00",
+          "desc": "🚆 返回格林德瓦"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：因特拉肯最後晚餐 · 飯店附近餐廳"
+          "time": "18:30",
+          "desc": "🍽️ 晚餐：小鎮義大利餐廳（€20/人）"
         },
         {
-          "time": "20:30",
-          "desc": "🏨 回飯店取行李 · 前往蘇黎世機場 · 入住機場飯店（如Hyatt Regency Zürich Airport）· 方便隔日搭機"
+          "time": "20:00",
+          "desc": "🏨 返回飯店 · 家庭桌遊時間"
         }
       ]
     },
     {
       "day": 10,
       "date": "Jul 10 · Fri",
-      "label_zh": "蘇黎世→台北 · 回程",
-      "hotel_name": "",
-      "hotel_name_zh": "",
-      "hotel_room": "",
-      "weather": "☀️ 26°/15°",
+      "label_zh": "盧森與卡貝爾橋",
+      "hotel_name": "Hotel des Alpes",
+      "hotel_name_zh": "阿爾卑斯飯店 · 兩間雙人房（含加床）",
+      "hotel_room": "兩間雙人房（含加床）",
+      "weather": "🌤 22°/12°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🥐 飯店早餐 · 退房，行李寄存飯店"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚆 火車至盧森（2小時，車票CHF 35/人）· 沿途風景"
+        },
+        {
+          "time": "10:30",
+          "desc": "🌉 卡貝爾橋（Kapellbrücke）· 歐洲最古老木橋"
+        },
+        {
+          "time": "11:30",
+          "desc": "🦁 獅子紀念碑 · 瑞士歷史"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：盧森湖畔餐廳 · 瑞士炸魚與薯條（€20/人）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚢 盧森湖遊船（1小時，船票CHF 12/人）"
+        },
+        {
+          "time": "15:30",
+          "desc": "🚆 返回格林德瓦 · 取行李"
+        },
+        {
+          "time": "18:00",
+          "desc": "🚆 火車至蘇黎世（2.5小時，車票CHF 40/人）"
+        },
+        {
+          "time": "20:30",
+          "desc": "🏨 入住Baur au Lac · 飯店內輕食晚餐"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "date": "Jul 11 · Sat",
+      "label_zh": "蘇黎世市區與購物",
+      "hotel_name": "Baur au Lac",
+      "hotel_name_zh": "博奧拉克飯店 · 兩間經典客房",
+      "hotel_room": "兩間經典客房",
+      "weather": "🌤 25°/15°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 飯店早餐 · 享受豪華自助"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚶 班霍夫大街（Bahnhofstrasse）購物 · 瑞士手錶、巧克力、精品"
+        },
+        {
+          "time": "11:00",
+          "desc": "☕ Confiserie Sprüngli 咖啡 · 品嚐Luxemburgerli馬卡龍"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：軍火庫餐廳（Zeughauskeller）· 瑞士傳統香腸與啤酒（€25/人）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🎨 蘇黎世美術館（Kunsthaus，€15/人）· 現代藝術"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚶 蘇黎世湖散步 · 天鵝與噴泉"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 晚餐：飯店內米其林二星餐廳（需預約，套餐CHF 180/人）"
+        },
+        {
+          "time": "21:00",
+          "desc": "🏨 返回房間 · 收拾行李"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "date": "Jul 12 · Sun",
+      "label_zh": "返程日",
+      "hotel_name": "Baur au Lac",
+      "hotel_name_zh": "博奧拉克飯店 · 兩間經典客房",
+      "hotel_room": "兩間經典客房",
+      "weather": "🌤 25°/15°",
       "rain_pct": "5%",
       "slots": [
         {
           "time": "07:00",
-          "desc": "🥐 機場飯店早餐 · 辦理退房"
+          "desc": "🥐 飯店早餐 · 退房"
         },
         {
           "time": "08:00",
-          "desc": "🚕 搭乘飯店接駁車到蘇黎世機場（2分鐘）"
+          "desc": "🚆 蘇黎世中央車站至機場（10分鐘，車票CHF 6/人）"
         },
         {
           "time": "08:30",
-          "desc": "🧳 辦理登機 · 中華航空 CI 64 · 櫃檯報到"
+          "desc": "🛬 抵達蘇黎世機場 · 辦理退稅與登機"
         },
         {
-          "time": "11:20",
-          "desc": "✈️ 蘇黎世起飛 · 直飛台北 · 飛行13小時40分 · 機上午餐與晚餐"
+          "time": "10:30",
+          "desc": "✈️ 起飛返回台灣（KL1973經阿姆斯特丹轉機）"
         },
         {
-          "time": "06:00 (+1)",
-          "desc": "🛬 抵達桃園機場 · 入境通關 · 領取行李 · 回家"
+          "time": "09:30 (+1)",
+          "desc": "🛬 抵達桃園機場 · 結束旅程"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（5人）",
-      "amount_ntd": 250000
+      "label": "✈️ 來回機票（5人經濟艙）",
+      "amount_ntd": 225000
     },
     {
-      "label": "🏨 住宿（總計）",
-      "amount_ntd": 350000
+      "label": "🏨 住宿（總計12晚）",
+      "amount_ntd": 312000
     },
     {
-      "label": "🍽️ 餐飲",
-      "amount_ntd": 120000
-    },
-    {
-      "label": "🎫 景點門票",
-      "amount_ntd": 80000
-    },
-    {
-      "label": "🚄 交通（火車/纜車/船）",
+      "label": "🍽️ 餐飲（含所有餐廳）",
       "amount_ntd": 90000
     },
     {
+      "label": "🎫 景點門票與纜車",
+      "amount_ntd": 35000
+    },
+    {
+      "label": "🚇 交通（火車、船、巴士）",
+      "amount_ntd": 28000
+    },
+    {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 50000
+      "amount_ntd": 10000
     }
   ],
   "cost_total_ntd": 700000,
@@ -794,38 +952,38 @@
         "label": "Outline Lugano Switzerland And Rotterdam Netherlands City Skyline Set ..."
       },
       {
-        "url": "https://media.istockphoto.com/photos/panoramic-view-on-zurich-at-sunrise-picture-id482809886?k=6&m=482809886&s=612x612&w=0&h=bJx2Bv80mzVwvff16YZxxx2k92GZxcyWF5HFgqLyuS8=",
-        "label": "Switzerland Skyline Stock Photos, Pictures & Royalty-Free Images - iStock"
+        "url": "https://www.mapsnbags.com/wp-content/uploads/2021/10/binnenhof-skyline-the-hague-1536x1028.jpg",
+        "label": "26 Landmarks in the Netherlands That You Need to See » Maps & Bags"
       }
     ],
     "destination": [
-      {
-        "url": "https://wallpaperaccess.com/full/1455073.jpg",
-        "label": "Beautiful Switzerland Wallpapers - Top Free Beautiful Switzerland ..."
-      },
       {
         "url": "https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2023/11/20202626/lauterbrunnen.jpg",
         "label": "15 Most Beautiful Places In Switzerland To Visit (With Photos) - 2024"
       },
       {
-        "url": "https://s1.it.atcdn.net/wp-content/uploads/2022/12/HERO_Switzerland.jpg",
-        "label": "Most Scenic Peaks & Valleys In Switzerland - International Traveller"
+        "url": "https://wallpaperaccess.com/full/1455073.jpg",
+        "label": "Beautiful Switzerland Wallpapers - Top Free Beautiful Switzerland ..."
       },
       {
         "url": "https://wallpapers.com/images/hd/netherlands-1500-x-1000-picture-a7xopvbv63ooazdw.jpg",
         "label": "[200+] Netherlands Pictures | Wallpapers.com"
       },
       {
-        "url": "https://www.travelandleisure.com/thmb/JnzsGGLOaWD626-DtH-m14byvFE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-oeschinensee-PLACESSWITZERLAND1023-e079f30e7792483aa5d7865fad1369b3.jpg",
-        "label": "20 Best Places to Visit in Switzerland—From Charming Mountain Villages ..."
-      },
-      {
         "url": "https://skyticket.com/guide/wp-content/uploads/2019/06/iStock-692743950-680x453.jpg",
         "label": "Switzerland Beautiful Scenery"
+      },
+      {
+        "url": "https://handluggageonly.co.uk/wp-content/uploads/2014/10/Hand-Luggage-Only-2.jpg",
+        "label": "Beautiful Scenery In Switzerland"
+      },
+      {
+        "url": "https://www.travelandleisure.com/thmb/JnzsGGLOaWD626-DtH-m14byvFE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-oeschinensee-PLACESSWITZERLAND1023-e079f30e7792483aa5d7865fad1369b3.jpg",
+        "label": "20 Best Places to Visit in Switzerland—From Charming Mountain Villages ..."
       }
     ]
   },
-  "chat_hash": "c0bac0409d97f938ed9fef052871021870dcfc61ae93e237d1a90cfe31d10389",
+  "chat_hash": "9f9f92f65017aec7f496e17ba8822cc78271ca3652a7138aed5dc0026cd88297",
   "config_hash": "245a6b7af0a400802f2091e095f5aaf46fd691cc3bf74b637c0ac10e452d193b",
-  "generated_at": "2026-05-16T19:01:15.606445"
+  "generated_at": "2026-05-16T19:31:16.402950"
 }
