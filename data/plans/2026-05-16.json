@@ -1,145 +1,296 @@
 {
-  "destination_en": "Maldives",
-  "title_zh": "馬爾地夫 · 六月初夏浪漫五天",
-  "date_range": "2026/06/01–06/05",
-  "start_date": "2026-06-01",
-  "end_date": "2026-06-05",
+  "destination_en": "Osaka & Kyoto, Japan",
+  "title_zh": "日本關西 · 京都嵐山浪漫之旅",
+  "date_range": "2026/06/18–06/22",
+  "start_date": "2026-06-18",
+  "end_date": "2026-06-22",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "MLE",
+  "destination_code": "KIX",
   "travelers": 2,
   "days": 5,
-  "budget_ntd": 160000,
+  "budget_ntd": 250000,
   "flight": {
-    "airline": "新加坡航空 Singapore Airlines",
-    "departure_date": "6月1日",
-    "return_date": "6月5日",
-    "total_price_ntd": 42000,
+    "airline": "捷星航空 Jetstar Airways",
+    "departure_date": "6月18日",
+    "return_date": "6月22日",
+    "total_price_ntd": 12000,
     "outbound": {
-      "flight_no": "SQ 879",
-      "route": "TPE → SIN 轉機 → MLE",
-      "depart_time": "17:45",
-      "arrive_time": "22:45 (SIN 轉機 2h)",
-      "duration": "15h 00m (含轉機)",
+      "flight_no": "GK 50",
+      "route": "TPE → KIX 直飛",
+      "depart_time": "17:50",
+      "arrive_time": "21:20",
+      "duration": "2h 30m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "SQ 462",
-      "route": "MLE → SIN 轉機 → TPE",
-      "depart_time": "23:25",
-      "arrive_time": "16:30 (+1)",
-      "duration": "14h 05m (含轉機)",
+      "flight_no": "GK 51",
+      "route": "KIX → TPE 直飛",
+      "depart_time": "07:50",
+      "arrive_time": "10:10",
+      "duration": "2h 20m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Constance Moofushi Maldives",
-      "name_zh": "康斯坦斯慕芙希度假村",
-      "district": "南阿里環礁",
-      "day_range": "1–2",
-      "nights": 2,
-      "price_ntd": 58000,
-      "stars": "★★★★★",
-      "room_type": "豪華水上別墅 (Water Villa)",
-      "breakfast": "含自助早餐",
-      "amenities": "🏖️ 私人沙灘 · 🏊 無邊際泳池 · 🤿 浮潛裝備免費 · 🍽️ 全包式餐飲 (HB)",
-      "search_query": "Constance Moofushi Maldives Water Villa",
+      "name": "Hotel Nikko Kansai Airport (for reference only, not used)",
+      "name_zh": "關西機場日航酒店（僅供參考，未入住）",
+      "district": "關西機場",
+      "day_range": "–",
+      "nights": 0,
+      "price_ntd": 0,
+      "stars": "★★★★☆",
+      "room_type": "–",
+      "breakfast": "–",
+      "amenities": "–",
+      "search_query": "Hotel Nikko Kansai Airport",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxDb25zdGFuY2UlMjBNb29mdXNoaSUyME1hbGRpdmVzJTIwV2F0ZXIlMjBWaWxsYXxlbnwwfDB8fHwxNzc4ODk4MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden cottage on blue body of water during daytime"
+          "url": "https://images.unsplash.com/photo-1624558118561-325bc4933964?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4OTAxMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden table near white wall"
         },
         {
-          "url": "https://images.unsplash.com/photo-1602002418679-43121356bf41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxDb25zdGFuY2UlMjBNb29mdXNoaSUyME1hbGRpdmVzJTIwV2F0ZXIlMjBWaWxsYXxlbnwwfDB8fHwxNzc4ODk4MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden house on body of water under blue sky during daytime"
+          "url": "https://images.unsplash.com/photo-1595701778261-00525421252d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4OTAxMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "white passenger plane on dock during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1609601540898-52ca92508901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxDb25zdGFuY2UlMjBNb29mdXNoaSUyME1hbGRpdmVzJTIwV2F0ZXIlMjBWaWxsYXxlbnwwfDB8fHwxNzc4ODk4MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden dock on body of water during daytime"
+          "url": "https://images.unsplash.com/photo-1708452196660-39714ffeb529?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4OTAxMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an airport terminal with a bridge over it"
         },
         {
-          "url": "https://images.unsplash.com/photo-1590523277760-06f4e9939d1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxDb25zdGFuY2UlMjBNb29mdXNoaSUyME1hbGRpdmVzJTIwV2F0ZXIlMjBWaWxsYXxlbnwwfDB8fHwxNzc4ODk4MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden house near body of water during daytime"
+          "url": "https://images.unsplash.com/photo-1623733591644-26bb1e418b1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4OTAxMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "white airplane on gray concrete road during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1602002418211-9d76470fa71f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxDb25zdGFuY2UlMjBNb29mdXNoaSUyME1hbGRpdmVzJTIwV2F0ZXIlMjBWaWxsYXxlbnwwfDB8fHwxNzc4ODk4MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "woman in white bikini lying on white bed"
+          "url": "https://images.unsplash.com/photo-1694174166953-76edbd2fdf6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4OTAxMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an airplane is seen through the window of an airport"
         },
         {
-          "url": "https://images.unsplash.com/photo-1589779677460-a15b5b5790ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxDb25zdGFuY2UlMjBNb29mdXNoaSUyME1hbGRpdmVzJTIwV2F0ZXIlMjBWaWxsYXxlbnwwfDB8fHwxNzc4ODk4MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden house on blue water under blue sky during daytime"
+          "url": "https://images.unsplash.com/photo-1638735384495-494a46f249a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4OTAxMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a living room filled with furniture and a large window"
         },
         {
-          "url": "https://images.unsplash.com/photo-1609602126247-4ab7188b4aa1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxDb25zdGFuY2UlMjBNb29mdXNoaSUyME1hbGRpdmVzJTIwV2F0ZXIlMjBWaWxsYXxlbnwwfDB8fHwxNzc4ODk4MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden table and chairs near sea during daytime"
+          "url": "https://images.unsplash.com/photo-1705013669122-14ddc4eaad67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4OTAxMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an airplane flying over a body of water"
         },
         {
-          "url": "https://images.unsplash.com/photo-1601999705946-fbf42c3c6c66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxDb25zdGFuY2UlMjBNb29mdXNoaSUyME1hbGRpdmVzJTIwV2F0ZXIlMjBWaWxsYXxlbnwwfDB8fHwxNzc4ODk4MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden house on body of water under blue sky during daytime"
+          "url": "https://images.unsplash.com/photo-1603113088346-a8c702c59332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4OTAxMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown wooden chairs and tables"
         },
         {
-          "url": "https://images.unsplash.com/photo-1544473243-618f55d06792?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxDb25zdGFuY2UlMjBNb29mdXNoaSUyME1hbGRpdmVzJTIwV2F0ZXIlMjBWaWxsYXxlbnwwfDB8fHwxNzc4ODk4MDM3fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "lighted gazebo across beach during pink sky sunset"
+          "url": "https://images.unsplash.com/photo-1689166373404-550dbcc7c1fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxIb3RlbCUyME5pa2tvJTIwS2Fuc2FpJTIwQWlycG9ydHxlbnwwfDB8fHwxNzc4OTAxMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an airport at night with lights on the runway"
         },
         {
-          "url": "https://images.unsplash.com/photo-1599832976672-5923b10683d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8Q29uc3RhbmNlJTIwTW9vZnVzaGklMjBNYWxkaXZlcyUyMFdhdGVyJTIwVmlsbGF8ZW58MHwwfHx8MTc3ODg5ODAzN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "aerial view of green trees beside blue sea during daytime"
+          "url": "https://images.unsplash.com/photo-1636934307381-7034c2a2d9ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnR8ZW58MHwwfHx8MTc3ODkwMTA0MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a long wooden table sitting in front of a window"
         },
         {
-          "url": "https://images.unsplash.com/photo-1590602390809-a890807193ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8Q29uc3RhbmNlJTIwTW9vZnVzaGklMjBNYWxkaXZlcyUyMFdhdGVyJTIwVmlsbGF8ZW58MHwwfHx8MTc3ODg5ODAzN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden cross on blue surface"
+          "url": "https://images.unsplash.com/photo-1645193237720-d52db6baa6ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnR8ZW58MHwwfHx8MTc3ODkwMTA0MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "an airplane flying over a city with buildings"
         },
         {
-          "url": "https://images.unsplash.com/photo-1769389352398-f7b694034eb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8Q29uc3RhbmNlJTIwTW9vZnVzaGklMjBNYWxkaXZlcyUyMFdhdGVyJTIwVmlsbGF8ZW58MHwwfHx8MTc3ODg5ODAzN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Overwater bungalows on a clear turquoise sea"
+          "url": "https://images.unsplash.com/photo-1722946545041-61ca444a40b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnR8ZW58MHwwfHx8MTc3ODkwMTA0MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A woman holding an umbrella standing in front of a building"
         },
         {
-          "url": "https://images.unsplash.com/photo-1602002418209-55d7a55adf42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8Q29uc3RhbmNlJTIwTW9vZnVzaGklMjBNYWxkaXZlcyUyMFdhdGVyJTIwVmlsbGF8ZW58MHwwfHx8MTc3ODg5ODAzN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden house on body of water under blue and white sunny cloudy sky during daytime"
+          "url": "https://images.unsplash.com/photo-1610632700377-b8489476671d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnR8ZW58MHwwfHx8MTc3ODkwMTA0MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "white and red airplane flying over the city during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1602002418153-3e900b530e7d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8Q29uc3RhbmNlJTIwTW9vZnVzaGklMjBNYWxkaXZlcyUyMFdhdGVyJTIwVmlsbGF8ZW58MHwwfHx8MTc3ODg5ODAzN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden house on body of water during daytime"
+          "url": "https://images.unsplash.com/photo-1674814343675-23c631bfd3ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnR8ZW58MHwwfHx8MTc3ODkwMTA0MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a large jetliner sitting on top of an airport tarmac"
         },
         {
-          "url": "https://images.unsplash.com/photo-1602002418323-be2d725a9a56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8Q29uc3RhbmNlJTIwTW9vZnVzaGklMjBNYWxkaXZlcyUyMFdhdGVyJTIwVmlsbGF8ZW58MHwwfHx8MTc3ODg5ODAzN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "brown wooden house on blue body of water under blue sky during daytime"
+          "url": "https://images.unsplash.com/photo-1739841463753-0768ddb1d2cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnR8ZW58MHwwfHx8MTc3ODkwMTA0MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "An airport runway with a plane on the runway"
         },
         {
-          "url": "https://images.unsplash.com/photo-1593067222076-c8cac0680978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8Q29uc3RhbmNlJTIwTW9vZnVzaGklMjBNYWxkaXZlcyUyMFdhdGVyJTIwVmlsbGF8ZW58MHwwfHx8MTc3ODg5ODAzN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "green and blue body of water under blue sky during daytime"
+          "url": "https://images.unsplash.com/photo-1714272463549-ed8d0c6b10f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnR8ZW58MHwwfHx8MTc3ODkwMTA0MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of a city through a large window"
         },
         {
-          "url": "https://images.unsplash.com/photo-1743356174523-b04efcc66b46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8Q29uc3RhbmNlJTIwTW9vZnVzaGklMjBNYWxkaXZlcyUyMFdhdGVyJTIwVmlsbGF8ZW58MHwwfHx8MTc3ODg5ODAzN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "Overwater bungalows line a beautiful, turquoise sea."
+          "url": "https://images.unsplash.com/photo-1621331235693-c5662b96698e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnR8ZW58MHwwfHx8MTc3ODkwMTA0MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "white and blue stadium under blue sky during daytime"
         },
         {
-          "url": "https://images.unsplash.com/photo-1608447337729-ccaf486a8c8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8Q29uc3RhbmNlJTIwTW9vZnVzaGklMjBNYWxkaXZlcyUyMFdhdGVyJTIwVmlsbGF8ZW58MHwwfHx8MTc3ODg5ODAzN3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "aerial view of white sand beach during daytime"
+          "url": "https://images.unsplash.com/photo-1762801157442-8089bb7c05bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8SG90ZWwlMjBOaWtrbyUyMEthbnNhaSUyMEFpcnBvcnR8ZW58MHwwfHx8MTc3ODkwMTA0MXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Man sitting in empty airport waiting area"
         }
       ]
     },
     {
-      "name": "Anantara Kihavah Maldives Villas",
-      "name_zh": "安納塔拉吉哈瓦度假村",
-      "district": "芭環礁",
-      "day_range": "3–4",
+      "name": "Hotel Monterey Grasmere Osaka",
+      "name_zh": "蒙特利格拉斯米爾酒店",
+      "district": "難波",
+      "day_range": "1 & 4",
       "nights": 2,
-      "price_ntd": 72000,
-      "stars": "★★★★★",
-      "room_type": "水上泳池別墅 (Overwater Pool Villa)",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 私人泳池 · 🐠 海底餐廳 · 🧖 SPA · 🚤 快艇接送",
-      "search_query": "Anantara Kihavah Maldives Overwater Pool Villa",
+      "price_ntd": 16000,
+      "stars": "★★★★☆",
+      "room_type": "標準雙人房",
+      "breakfast": "不含早餐",
+      "amenities": "🚇 直結難波站 · 🛍️ 購物商圈 · 🏙️ 夜景",
+      "search_query": "Hotel Monterey Grasmere Osaka Namba",
       "photos": [
         {
-          "url": "https://images.unsplash.com/photo-1599832976672-5923b10683d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyME92ZXJ3YXRlciUyMFBvb2wlMjBWaWxsYXxlbnwwfDB8fHwxNzc4ODk4MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "aerial view of green trees beside blue sea during daytime"
+          "url": "https://images.unsplash.com/photo-1741851374578-e618a8bb5eb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMTA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Japanese architecture with a natural pathway."
         },
         {
-          "url": "https://images.unsplash.com/photo-1599832976672-5923b10683d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBbmFudGFyYSUyMEtpaGF2YWglMjBNYWxkaXZlcyUyME92ZXJ3YXRlciUyMFBvb2wlMjBWaWxsYXxlbnwwfDB8fHwxNzc4ODk4MDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-          "label": "aerial view of green trees beside blue sea during daytime"
+          "url": "https://images.unsplash.com/photo-1741851373855-5fb305ee6d70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMTA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Bamboo trees frame a traditional japanese house."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1636537470000-34284f07c242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMTA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a stone path leading to a building in a garden"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1741851374411-9528e6d2f33f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMTA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Japanese entrance at night with lanterns."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1561011316-a460cbd1aa93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMTA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "house surrounded with trees"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1776717577962-e3516cf2b1f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMTA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Traditional japanese castle surrounded by cherry blossoms."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1561995704-b0fa600f7771?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMTA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "white and blue painted house"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1745104428423-8927bed9dd84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMTA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Osaka castle stands majestically against a blue sky."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1742702329971-1532c55812dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxsdXh1cnklMjBob3RlbCUyME9zYWthJTIwJTI2JTIwS3lvdG98ZW58MHwwfHx8MTc3ODkwMTA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A beautiful japanese castle lit up at night."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1636537529088-d1f85965238e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYSUyMCUyNiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a tall building with lots of windows and balconies"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1724934793355-9d5aaf6e1c15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYSUyMCUyNiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A group of people walking across a street"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1741851373559-6879db14fd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYSUyMCUyNiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Cityscape at dusk, with mountains in background."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1741851374842-cb4043e8f6a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYSUyMCUyNiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A stone monument sits in a peaceful garden."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1715136500915-6d730a31968f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYSUyMCUyNiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "the entrance to a restaurant with chinese writing on it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1741851374669-818446d5a687?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYSUyMCUyNiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Japanese temple with a pathway leading up to it."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1774803682197-dc81456cedd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYSUyMCUyNiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Boats docked on a river under cherry blossoms."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1596273334721-0f64c11a13db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYSUyMCUyNiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown and green wooden house on green lake surrounded by green trees under white clouds and"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1741851373866-f73721697fc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8bHV4dXJ5JTIwaG90ZWwlMjBPc2FrYSUyMCUyNiUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Bamboo forest frames an oriental style house."
+        }
+      ]
+    },
+    {
+      "name": "Hoshinoya Kyoto",
+      "name_zh": "虹夕諾雅 京都",
+      "district": "嵐山",
+      "day_range": "2–3",
+      "nights": 2,
+      "price_ntd": 120000,
+      "stars": "★★★★★",
+      "room_type": "水之庭園雙人房",
+      "breakfast": "含日式早餐",
+      "amenities": "♨️ 露天風呂 · 🛶 渡船接送 · 🌸 嵐山景觀 · 🍵 抹茶體驗",
+      "search_query": "Hoshinoya Kyoto Arashiyama Japan",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1565362458896-be2a52d2c706?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4OTAxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "person riding on boat surrounded by body of water during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1670736000274-d17664aadfcd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4OTAxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a group of people in a boat on a river"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1543755428-0aa7ebd5b0b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4OTAxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "lighted buildings at night"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1710026220027-a6b69fa4b338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4OTAxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a river with several small boats on it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1718078942860-7138dddafddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4OTAxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a group of buildings that are next to each other"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1740815881912-1d240a44c5fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4OTAxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Boats dock along a river, surrounded by nature."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1565362458384-9bad71cfc92d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4OTAxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "photography of river during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1685111719048-6f46c1a44f88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4OTAxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a river running through a lush green forest"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1700855151701-52d3c24fe4b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxIb3NoaW5veWElMjBLeW90byUyMEFyYXNoaXlhbWElMjBKYXBhbnxlbnwwfDB8fHwxNzc4OTAxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a couple of boats that are sitting in the water"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1767842927200-9a83d12fac39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8SG9zaGlub3lhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwSmFwYW58ZW58MHwwfHx8MTc3ODkwMTA0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Wooden bridge over river with autumn trees and village."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1731578277024-0655a4f9e1b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8SG9zaGlub3lhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwSmFwYW58ZW58MHwwfHx8MTc3ODkwMTA0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A row of houses sitting on the side of a lake"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1685041423397-b0ccf74db594?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8SG9zaGlub3lhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwSmFwYW58ZW58MHwwfHx8MTc3ODkwMTA0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a group of boats floating on top of a river"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1762698093270-c3f1d6cc91c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8SG9zaGlub3lhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwSmFwYW58ZW58MHwwfHx8MTc3ODkwMTA0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Boats on a river in a scenic japanese village"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1776101419115-4a805882225a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8SG9zaGlub3lhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwSmFwYW58ZW58MHwwfHx8MTc3ODkwMTA0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Wooden bridge over a river with misty mountains behind"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1590091173370-63158a01d8ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8SG9zaGlub3lhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwSmFwYW58ZW58MHwwfHx8MTc3ODkwMTA0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown boat on river near green trees during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1581536762992-59613146684a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8SG9zaGlub3lhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwSmFwYW58ZW58MHwwfHx8MTc3ODkwMTA0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "brown boat on river during daytime"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1731578276999-c4bc6d7480b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8SG9zaGlub3lhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwSmFwYW58ZW58MHwwfHx8MTc3ODkwMTA0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "A body of water with houses on the shore"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1768947813899-8c5012e9abce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8SG9zaGlub3lhJTIwS3lvdG8lMjBBcmFzaGl5YW1hJTIwSmFwYW58ZW58MHwwfHx8MTc3ODkwMTA0NHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Japanese village nestled among autumn trees and hills."
         }
       ]
     }
@@ -147,109 +298,129 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Sea (海底餐廳) at Anantara Kihavah",
-        "name_zh": "Sea 海底餐廳 · 安納塔拉吉哈瓦",
+        "name": "Kikunoi Honten",
+        "name_zh": "菊乃井 本店 · 京都米其林三星",
         "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：龍蝦三重奏 · 香檳晚宴",
-        "address": "Anantara Kihavah, Baa Atoll",
-        "price_ntd": 12000,
-        "price_label": "晚餐套餐 USD 400/兩人 · NT$12,000",
-        "hours": "19:00–22:00 · 需提前預約",
-        "search_query": "Sea restaurant Anantara Kihavah Maldives underwater",
+        "dish": "🍣 招牌：懷石料理「菊」套餐",
+        "address": "京都市東山区下河原通八坂鳥居前下る下河原町459",
+        "price_ntd": 16000,
+        "price_label": "晚餐懷石 ¥36,000/人 · NT$16,000",
+        "hours": "12:00–13:30 / 17:00–20:00 · 需預約",
+        "search_query": "Kikunoi Honten Kyoto kaiseki",
         "photos": [
           {
-            "url": "",
-            "label": "fine dining food Maldives"
+            "url": "https://images.unsplash.com/photo-1671170378099-17a7243769b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjBrYWlzZWtpfGVufDB8MHx8fDE3Nzg5MDEwNDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a stone path leading to a building with a clock tower in the background"
           },
           {
-            "url": "",
-            "label": "fine dining food Maldives"
+            "url": "https://images.unsplash.com/photo-1522623349500-de37a56ea2a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjBrYWlzZWtpfGVufDB8MHx8fDE3Nzg5MDEwNDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "silhouette of man near outside"
           },
           {
-            "url": "",
-            "label": "fine dining food Maldives"
+            "url": "https://images.unsplash.com/photo-1610238115511-81be15284155?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjBrYWlzZWtpfGVufDB8MHx8fDE3Nzg5MDEwNDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "brown wooden gazebo near trees during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1586434722766-b46308f072ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjBrYWlzZWtpfGVufDB8MHx8fDE3Nzg5MDEwNDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "2 women in kimono standing on sidewalk during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1699615171421-8fd416dcb613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjBrYWlzZWtpfGVufDB8MHx8fDE3Nzg5MDEwNDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a dark room with a red light in the middle of it"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1722292838097-505398a61bc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjBrYWlzZWtpfGVufDB8MHx8fDE3Nzg5MDEwNDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A narrow street lined with wooden buildings"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1558869632-279458ac1734?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjBrYWlzZWtpfGVufDB8MHx8fDE3Nzg5MDEwNDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "green leaf tree near house during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1709097233528-bfe5c6d944f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjBrYWlzZWtpfGVufDB8MHx8fDE3Nzg5MDEwNDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a room with a view of a river and trees"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1600775081940-f849231d06d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxLaWt1bm9pJTIwSG9udGVuJTIwS3lvdG8lMjBrYWlzZWtpfGVufDB8MHx8fDE3Nzg5MDEwNDV8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "black metal fence near brown concrete building during daytime"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1648871647627-f924adc2a5a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8S2lrdW5vaSUyMEhvbnRlbiUyMEt5b3RvJTIwa2Fpc2VraXxlbnwwfDB8fHwxNzc4OTAxMDQ1fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a river running through a lush green forest"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Manta Restaurant at Constance Moofushi",
-        "name_zh": "曼塔餐廳 · 康斯坦斯慕芙希",
+        "name": "Kichi Kichi Omurice",
+        "name_zh": "キチキチ オムライス · 京都蛋包飯名店",
         "stars": "",
-        "dish": "🦐 招牌：碳烤龍蝦 · 馬爾地夫金槍魚刺身",
-        "address": "Constance Moofushi, South Ari Atoll",
-        "price_ntd": 4000,
-        "price_label": "晚餐套餐 USD 130/兩人 · NT$4,000",
-        "hours": "19:00–21:30 · 沙灘燒烤之夜",
-        "search_query": "Manta restaurant Constance Moofushi Maldives",
+        "dish": "🍛 招牌：和風牛肉蛋包飯",
+        "address": "京都市中京区材木町187",
+        "price_ntd": 900,
+        "price_label": "午餐 ¥2,000/人 · NT$900",
+        "hours": "11:30–14:30 / 17:30–20:30 · 週三休",
+        "search_query": "Kichi Kichi Omurice Kyoto",
         "photos": [
           {
-            "url": "",
-            "label": "bistros food Maldives"
+            "url": "https://images.unsplash.com/photo-1600775081940-f849231d06d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLaWNoaSUyMEtpY2hpJTIwT211cmljZSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "black metal fence near brown concrete building during daytime"
           },
           {
-            "url": "",
-            "label": "bistros food Maldives"
+            "url": "https://images.unsplash.com/photo-1707879488112-bc2017322422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLaWNoaSUyMEtpY2hpJTIwT211cmljZSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a dog is standing in the doorway of a building"
           },
           {
-            "url": "",
-            "label": "bistros food Maldives"
+            "url": "https://images.unsplash.com/photo-1591224803255-6cfbba886c2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLaWNoaSUyMEtpY2hpJTIwT211cmljZSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "white pasta on white ceramic bowl"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1761210855806-56162f1637ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxLaWNoaSUyMEtpY2hpJTIwT211cmljZSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Japanese oden street food stall with yellow banners."
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1540476882953-a9e7c74821ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxLaWNoaSUyMEtpY2hpJTIwT211cmljZSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "man wearing black wrap top"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1718621339279-b9eb50e6e194?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxLaWNoaSUyMEtpY2hpJTIwT211cmljZSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A store front with a lit up window at night"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1730277446333-df9ff34ef09b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxLaWNoaSUyMEtpY2hpJTIwT211cmljZSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "A building with a bunch of plants in front of it"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1708580754939-08a13b7692ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxLaWNoaSUyMEtpY2hpJTIwT211cmljZSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a woman standing next to a pile of clothes"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1604251963071-57359c22d325?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxLaWNoaSUyMEtpY2hpJTIwT211cmljZSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDZ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "text"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1768162125985-1cdc0e091b62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8S2ljaGklMjBLaWNoaSUyME9tdXJpY2UlMjBLeW90b3xlbnwwfDB8fHwxNzc4OTAxMDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Chefs preparing food behind a japanese restaurant curtain."
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "The Sand Bar at Anantara Kihavah",
-        "name_zh": "沙灘酒吧 · 安納塔拉吉哈瓦",
+        "name": "% Arabica Kyoto Arashiyama",
+        "name_zh": "% Arabica 嵐山店 · 網紅咖啡",
         "stars": "",
-        "dish": "🍹 招牌：椰子雞尾酒 · 手工披薩 · 日落小點",
-        "address": "Anantara Kihavah, Baa Atoll",
-        "price_ntd": 2400,
-        "price_label": "兩人下午茶 USD 80 · NT$2,400",
-        "hours": "16:00–18:00 · 夕陽時段",
-        "search_query": "Sand Bar Anantara Kihavah Maldives sunset",
+        "dish": "☕ 招牌：拿鐵 · 抹茶拿鐵",
+        "address": "京都市右京区嵯峨天龍寺芒ノ馬場町3-47",
+        "price_ntd": 400,
+        "price_label": "兩杯咖啡 ¥900 · NT$400",
+        "hours": "08:00–18:00 · 嵐山渡月橋旁",
+        "search_query": "Arabica Arashiyama Kyoto",
         "photos": [
           {
-            "url": "https://images.unsplash.com/photo-1609601546193-f558f1ebb385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxTYW5kJTIwQmFyJTIwQW5hbnRhcmElMjBLaWhhdmFoJTIwTWFsZGl2ZXMlMjBzdW5zZXR8ZW58MHwwfHx8MTc3ODg5ODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "brown wooden dock on blue sea under white clouds during daytime"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1639994281271-fc676dd25c93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxTYW5kJTIwQmFyJTIwQW5hbnRhcmElMjBLaWhhdmFoJTIwTWFsZGl2ZXMlMjBzdW5zZXR8ZW58MHwwfHx8MTc3ODg5ODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a person walking along a beach next to the ocean"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1609601540898-52ca92508901?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxTYW5kJTIwQmFyJTIwQW5hbnRhcmElMjBLaWhhdmFoJTIwTWFsZGl2ZXMlMjBzdW5zZXR8ZW58MHwwfHx8MTc3ODg5ODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "brown wooden dock on body of water during daytime"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1643856555919-9787de563a5d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxTYW5kJTIwQmFyJTIwQW5hbnRhcmElMjBLaWhhdmFoJTIwTWFsZGl2ZXMlMjBzdW5zZXR8ZW58MHwwfHx8MTc3ODg5ODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a beach with a sunset in the background"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1544473243-618f55d06792?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxTYW5kJTIwQmFyJTIwQW5hbnRhcmElMjBLaWhhdmFoJTIwTWFsZGl2ZXMlMjBzdW5zZXR8ZW58MHwwfHx8MTc3ODg5ODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "lighted gazebo across beach during pink sky sunset"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1637576308588-6647bf80944d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxTYW5kJTIwQmFyJTIwQW5hbnRhcmElMjBLaWhhdmFoJTIwTWFsZGl2ZXMlMjBzdW5zZXR8ZW58MHwwfHx8MTc3ODg5ODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a dock leading to a hut in the ocean"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1682106707567-e074dbb76d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxTYW5kJTIwQmFyJTIwQW5hbnRhcmElMjBLaWhhdmFoJTIwTWFsZGl2ZXMlMjBzdW5zZXR8ZW58MHwwfHx8MTc3ODg5ODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a long pier with a gazebo in the distance"
-          },
-          {
-            "url": "https://images.unsplash.com/flagged/photo-1564469780912-79870c424161?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxTYW5kJTIwQmFyJTIwQW5hbnRhcmElMjBLaWhhdmFoJTIwTWFsZGl2ZXMlMjBzdW5zZXR8ZW58MHwwfHx8MTc3ODg5ODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "silhouette of nipa huts and palm trees over body of water during golden hour"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1692417045879-8ec84e750bb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxTYW5kJTIwQmFyJTIwQW5hbnRhcmElMjBLaWhhdmFoJTIwTWFsZGl2ZXMlMjBzdW5zZXR8ZW58MHwwfHx8MTc3ODg5ODA0M3ww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "a swing bed sitting on top of a wooden pier"
-          },
-          {
-            "url": "https://images.unsplash.com/photo-1544550581-0c4002aa9957?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8U2FuZCUyMEJhciUyMEFuYW50YXJhJTIwS2loYXZhaCUyME1hbGRpdmVzJTIwc3Vuc2V0fGVufDB8MHx8fDE3Nzg4OTgwNDN8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-            "label": "silhouette of hut"
+            "url": "https://images.unsplash.com/photo-1578284182772-d68cdc05e539?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxBcmFiaWNhJTIwQXJhc2hpeWFtYSUyMEt5b3RvfGVufDB8MHx8fDE3Nzg5MDEwNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "people on bridge"
           }
         ]
       }
@@ -258,372 +429,352 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "June 1 · Mon",
-      "label_zh": "抵達日 · 飛往天堂",
-      "hotel_name": "Constance Moofushi Maldives",
-      "hotel_name_zh": "康斯坦斯慕芙希度假村 · 豪華水上別墅",
-      "hotel_room": "豪華水上別墅 (Water Villa)",
-      "weather": "☀️ 31°/27°",
-      "rain_pct": "5%",
+      "date": "June 18 · Thu",
+      "label_zh": "抵達大阪",
+      "hotel_name": "Hotel Monterey Grasmere Osaka",
+      "hotel_name_zh": "蒙特利格拉斯米爾酒店 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "🌧️ 24°/20°",
+      "rain_pct": "70%",
       "slots": [
         {
-          "time": "17:45",
-          "desc": "✈️ 桃園 TPE 出發 · 新加坡航空 SQ879 · 經新加坡轉機"
+          "time": "17:00",
+          "desc": "✈️ 桃園機場第一航廈 · 捷星櫃檯報到 · 隨身行李7kg/人"
         },
         {
-          "time": "22:45",
-          "desc": "🛬 抵達新加坡樟宜機場 · 轉機休息 · 可逛免稅店"
+          "time": "17:50",
+          "desc": "🛫 搭乘 GK 50 飛往關西機場 · 飛行2.5小時"
         },
         {
-          "time": "00:45 (+1)",
-          "desc": "✈️ 轉乘 SQ462 前往馬爾地夫"
+          "time": "21:20",
+          "desc": "🛬 抵達關西機場 KIX · 入境審查 · 購買 ICOCA 卡"
         },
         {
-          "time": "06:10",
-          "desc": "🛬 抵達馬爾地夫 MLE · 入境通關 · 領行李"
+          "time": "22:00",
+          "desc": "🚃 搭乘南海電鐵空港急行 · 往難波站 · 約45分鐘"
         },
         {
-          "time": "07:30",
-          "desc": "🚤 康斯坦斯慕芙希快艇接駁 · 約 30 分鐘抵達度假村"
+          "time": "23:00",
+          "desc": "🏨 入住蒙特利格拉斯米爾酒店 · 標準雙人房 · 放行李"
         },
         {
-          "time": "08:30",
-          "desc": "🏨 入住豪華水上別墅 · 迎賓飲料 · 稍作休息"
+          "time": "23:30",
+          "desc": "🍜 附近拉麵店「金久右衛門」 · 醬油拉麵宵夜"
         },
         {
-          "time": "10:00",
-          "desc": "🥞 Manta 餐廳自助早餐 · 現做歐姆蛋 · 熱帶水果"
-        },
-        {
-          "time": "12:00",
-          "desc": "🏖️ 自由活動 · 沙灘漫步 · 無邊際泳池暢遊"
-        },
-        {
-          "time": "15:00",
-          "desc": "🤿 免費浮潛體驗 · 珊瑚花園 · 與海龜同游"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ Manta 餐廳沙灘燒烤晚餐 · 碳烤龍蝦 · 星空燭光"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 回房 · 水上別陽台觀星 · 聆聽海浪"
+          "time": "00:30",
+          "desc": "🛁 回飯店休息 · 準備明天嵐山之旅"
         }
       ]
     },
     {
       "day": 2,
-      "date": "June 2 · Tue",
-      "label_zh": "海洋探索日",
-      "hotel_name": "Constance Moofushi Maldives",
-      "hotel_name_zh": "康斯坦斯慕芙希度假村 · 豪華水上別墅",
-      "hotel_room": "豪華水上別墅 (Water Villa)",
-      "weather": "☀️ 32°/28°",
-      "rain_pct": "10%",
+      "date": "June 19 · Fri",
+      "label_zh": "嵐山虹夕諾雅入住",
+      "hotel_name": "Hoshinoya Kyoto",
+      "hotel_name_zh": "虹夕諾雅 京都 · 水之庭園雙人房",
+      "hotel_room": "水之庭園雙人房",
+      "weather": "⛅ 26°/18°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🌅 日出瑜珈 · 沙灘冥想 (免費) · 迎接晨曦"
+          "time": "08:00",
+          "desc": "🥐 飯店早餐（不含） · 前往難波站旁咖啡店吃三明治"
         },
         {
-          "time": "08:30",
-          "desc": "🥞 Manta 餐廳早餐 · 新鮮椰子 · 馬爾地夫煎餅"
+          "time": "09:00",
+          "desc": "🚃 搭乘阪急京都線 · 難波→淡路→桂→嵐山 · 約1小時"
         },
         {
-          "time": "10:00",
-          "desc": "🚤 出海浮潛半日遊 · 鯨鯊共游 (季節性) · 含裝備"
+          "time": "10:30",
+          "desc": "🎋 嵐山竹林之道 · 野宮神社 · 拍照"
+        },
+        {
+          "time": "11:30",
+          "desc": "☕ % Arabica 嵐山店 · 拿鐵配渡月橋景色"
         },
         {
           "time": "12:30",
-          "desc": "🍱 無人沙洲野餐 · 現烤海鮮 · 清涼飲料"
+          "desc": "🍛 Kichi Kichi Omurice 午餐 · 和風牛肉蛋包飯"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛶 虹夕諾雅專屬渡船 · 從嵐山渡月橋碼頭前往飯店 · 約10分鐘"
         },
         {
           "time": "14:30",
-          "desc": "🏖️ 回度假村 · 自由活動 · 沙灘排球或獨木舟"
+          "desc": "🏨 虹夕諾雅 京都 · 入住水之庭園雙人房 · 迎賓抹茶"
         },
         {
           "time": "16:00",
-          "desc": "💆 SPA 體驗 (自費) · 60分鐘精油按摩 USD 150/人"
+          "desc": "♨️ 飯店露天風呂 · 眺望大堰川 · 放鬆身心"
         },
         {
-          "time": "18:30",
-          "desc": "🍹 日落雞尾酒 · 沙灘酒吧 · 眺望印度洋夕陽"
+          "time": "18:00",
+          "desc": "🍣 飯店內晚餐「星のや懐石」 · 需預約 · 約¥15,000/人"
         },
         {
           "time": "20:00",
-          "desc": "🍽️ Manta 餐廳主題晚餐 · 馬爾地夫風味自助"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 回房 · 水上別墅玻璃地板觀魚 · 浪漫夜泳"
+          "desc": "🌙 飯店夜間散步 · 燈籠光影 · 星空觀賞"
         }
       ]
     },
     {
       "day": 3,
-      "date": "June 3 · Wed",
-      "label_zh": "換島日 · 奢華升級",
-      "hotel_name": "Anantara Kihavah Maldives Villas",
-      "hotel_name_zh": "安納塔拉吉哈瓦度假村 · 水上泳池別墅",
-      "hotel_room": "水上泳池別墅 (Overwater Pool Villa)",
-      "weather": "☀️ 31°/27°",
-      "rain_pct": "15%",
+      "date": "June 20 · Sat",
+      "label_zh": "嵐山深度遊",
+      "hotel_name": "Hoshinoya Kyoto",
+      "hotel_name_zh": "虹夕諾雅 京都 · 水之庭園雙人房",
+      "hotel_room": "水之庭園雙人房",
+      "weather": "☀️ 28°/20°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥞 Manta 餐廳最後早餐 · 告別慕芙希"
+          "time": "07:30",
+          "desc": "🍵 飯店日式早餐 · 精緻京料理"
         },
         {
           "time": "09:00",
-          "desc": "🏨 退房 · 行李打包 · 搭乘快艇前往馬列機場"
+          "desc": "🏯 天龍寺 · 曹源池庭園 · 門票¥500/人"
         },
         {
           "time": "10:30",
-          "desc": "🚤 轉乘安納塔拉吉哈瓦專屬水上飛機 (約 35 分鐘)"
-        },
-        {
-          "time": "11:30",
-          "desc": "🛩️ 抵達吉哈瓦 · 迎賓服務 · 香檳與冷毛巾"
+          "desc": "🚂 嵯峨野觀光小火車 · 龜岡方向 · 保津川峽谷美景"
         },
         {
           "time": "12:00",
-          "desc": "🏨 入住水上泳池別墅 · 私人泳池 · 管家介紹"
+          "desc": "🍜 嵐山大街小吃 · 豆腐冰淇淋 · 可樂餅"
         },
         {
           "time": "13:00",
-          "desc": "🍽️ 度假村午餐 · 義大利餐廳 · 手工披薩與沙拉"
+          "desc": "🌸 常寂光寺 · 竹林深處 · 門票¥400/人"
         },
         {
-          "time": "15:00",
-          "desc": "🏊 私人泳池戲水 · 別墅內放鬆 · 拍照留念"
+          "time": "14:30",
+          "desc": "🎨 嵐山美術館或人力車體驗（可選）"
         },
         {
-          "time": "17:00",
-          "desc": "🤿 浮潛探索 · 吉哈瓦 house reef · 蝠魟出沒"
+          "time": "16:00",
+          "desc": "♨️ 返回飯店 · 再次泡湯 · 享受飯店設施"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ Sea 海底餐廳晚宴 · 龍蝦三重奏 · 香檳搭配 · 需預約"
+          "time": "18:00",
+          "desc": "🍣 菊乃井 本店 晚餐 · 米其林三星懷石 · 需預約"
         },
         {
-          "time": "21:30",
-          "desc": "🌙 星空電影院 · 沙灘躺椅 · 浪漫之夜"
+          "time": "21:00",
+          "desc": "🌙 渡月橋夜景 · 散步回飯店"
         }
       ]
     },
     {
       "day": 4,
-      "date": "June 4 · Thu",
-      "label_zh": "極致放鬆日",
-      "hotel_name": "Anantara Kihavah Maldives Villas",
-      "hotel_name_zh": "安納塔拉吉哈瓦度假村 · 水上泳池別墅",
-      "hotel_room": "水上泳池別墅 (Overwater Pool Villa)",
-      "weather": "☀️ 31°/27°",
-      "rain_pct": "10%",
+      "date": "June 21 · Sun",
+      "label_zh": "大阪購物日",
+      "hotel_name": "Hotel Monterey Grasmere Osaka",
+      "hotel_name_zh": "蒙特利格拉斯米爾酒店 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "🌤️ 27°/22°",
+      "rain_pct": "30%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🥞 早餐 · 度假村自助餐廳 · 現煮馬爾地夫咖啡"
+          "time": "08:00",
+          "desc": "🍵 飯店日式早餐 · 最後的嵐山早晨"
         },
         {
-          "time": "09:00",
-          "desc": "🚤 出海海豚巡航 · 追逐海豚群 · 含飲料"
+          "time": "09:30",
+          "desc": "🛶 退房 · 搭乘渡船回到嵐山渡月橋"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚃 阪急嵐山線 → 桂 → 淡路 → 難波 · 約1小時"
         },
         {
           "time": "11:30",
-          "desc": "🏖️ 回度假村 · 沙灘躺椅 · 冰涼椰子水"
+          "desc": "🏨 蒙特利格拉斯米爾酒店 · 寄放行李"
         },
         {
-          "time": "13:00",
-          "desc": "🍽️ 度假村午餐 · 亞洲風味餐廳 · 泰式綠咖哩"
+          "time": "12:00",
+          "desc": "🍣 道頓堀「大起水產迴轉壽司」午餐 · 兩人約¥3,000"
         },
         {
-          "time": "15:00",
-          "desc": "💆 雙人 SPA · 安納塔拉招牌療程 · 60 分鐘 · USD 250/兩人"
+          "time": "13:30",
+          "desc": "🛍️ 心齋橋商店街 · 藥妝 · 服飾 · 伴手禮"
         },
         {
-          "time": "17:00",
-          "desc": "🍹 The Sand Bar 下午茶 · 椰子雞尾酒 · 手工甜點"
+          "time": "15:30",
+          "desc": "🛍️ 難波高島屋百貨 · 地下美食街 · 甜點"
         },
         {
-          "time": "18:30",
-          "desc": "🌅 日落遊船 · 私人帆船 · 香檳與小食"
+          "time": "18:00",
+          "desc": "🍜 晚餐「一蘭拉麵」道頓堀店 · 經典豚骨"
         },
         {
-          "time": "20:00",
-          "desc": "🍽️ Fire 餐廳沙灘晚餐 · 鐵板燒 · 火焰表演"
+          "time": "19:30",
+          "desc": "🌃 道頓堀運河夜景 · 固力果跑跑人拍照"
+        },
+        {
+          "time": "20:30",
+          "desc": "🛒 唐吉訶德難波店 · 最後採購"
         },
         {
           "time": "22:00",
-          "desc": "🌙 別墅內私人泳池 · 最後一夜 · 享受星空"
+          "desc": "🏨 回飯店 check-in · 整理行李"
         }
       ]
     },
     {
       "day": 5,
-      "date": "June 5 · Fri",
-      "label_zh": "回程日 · 滿載回憶",
-      "hotel_name": "Anantara Kihavah Maldives Villas",
-      "hotel_name_zh": "安納塔拉吉哈瓦度假村 · 水上泳池別墅",
-      "hotel_room": "水上泳池別墅 (Overwater Pool Villa)",
-      "weather": "☀️ 30°/26°",
-      "rain_pct": "5%",
+      "date": "June 22 · Mon",
+      "label_zh": "返台日",
+      "hotel_name": "Hotel Monterey Grasmere Osaka",
+      "hotel_name_zh": "蒙特利格拉斯米爾酒店（退房）",
+      "hotel_room": "標準雙人房",
+      "weather": "☁️ 25°/21°",
+      "rain_pct": "40%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥞 最後早餐 · 沙灘旁 · 再嘗一次馬爾地夫煎餅"
+          "time": "05:00",
+          "desc": "⏰ 起床 · 飯店退房 · 簡單整理"
         },
         {
-          "time": "09:00",
-          "desc": "🏨 退房 · 寄放行李 · 自由活動"
+          "time": "05:30",
+          "desc": "🚃 南海電鐵空港急行 · 難波→關西機場 · 約45分鐘"
         },
         {
-          "time": "10:00",
-          "desc": "🏖️ 沙灘漫步 · 撿貝殼 · 最後浮潛"
+          "time": "06:30",
+          "desc": "✈️ 關西機場第一航廈 · 捷星櫃檯報到 · 托運行李"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 度假村午餐 · 輕食三明治 · 果汁"
+          "time": "07:20",
+          "desc": "🛂 出境審查 · 免稅店最後採購（薯條三兄弟、Royce）"
         },
         {
-          "time": "14:00",
-          "desc": "🚤 水上飛機前往馬列機場 · 沿途俯瞰環礁"
+          "time": "07:50",
+          "desc": "🛫 搭乘 GK 51 返回台灣 · 飛行2.5小時"
         },
         {
-          "time": "15:30",
-          "desc": "🛬 抵達 MLE · 辦理登機 · 免稅店購物"
-        },
-        {
-          "time": "20:30",
-          "desc": "✈️ 搭乘 SQ462 返回新加坡 · 轉機回台"
-        },
-        {
-          "time": "23:25",
-          "desc": "🛬 抵達新加坡樟宜機場 · 轉機時間"
-        },
-        {
-          "time": "01:25 (+1)",
-          "desc": "✈️ 轉乘 SQ879 返回台灣"
-        },
-        {
-          "time": "06:10 (+1)",
-          "desc": "🛬 抵達桃園 TPE · 旅程結束 · 滿載浪漫回憶"
+          "time": "10:10",
+          "desc": "🛬 抵達桃園機場 TPE · 入境 · 回家"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票 (新加坡航空)",
-      "amount_ntd": 42000
-    },
-    {
-      "label": "🏨 住宿（總計）",
-      "amount_ntd": 130000
-    },
-    {
-      "label": "🍽️ 餐飲（含全包式餐飲部分已含，另加海底餐廳）",
-      "amount_ntd": 20000
-    },
-    {
-      "label": "🎫 景點活動（浮潛、SPA、出海等）",
-      "amount_ntd": 15000
-    },
-    {
-      "label": "🚤 島際交通（快艇+水上飛機）",
+      "label": "✈️ 來回機票（捷星經濟艙）",
       "amount_ntd": 12000
     },
     {
+      "label": "🏨 住宿（蒙特利2晚 + 虹夕諾雅2晚）",
+      "amount_ntd": 136000
+    },
+    {
+      "label": "🍽️ 餐飲（含菊乃井懷石）",
+      "amount_ntd": 45000
+    },
+    {
+      "label": "🎫 景點門票（天龍寺、小火車等）",
+      "amount_ntd": 5000
+    },
+    {
+      "label": "🚇 交通（ICOCA儲值、南海電鐵、阪急）",
+      "amount_ntd": 8000
+    },
+    {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 6000
+      "amount_ntd": 40000
     }
   ],
-  "cost_total_ntd": 159000,
-  "budget_remaining_ntd": 1000,
+  "cost_total_ntd": 246000,
+  "budget_remaining_ntd": 4000,
   "photos": {
     "hero": [
       {
-        "url": "https://images.unsplash.com/photo-1679656952793-023c511f46de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMHNreWxpbmUlMjBsYW5kbWFya3xlbnwwfDB8fHwxNzc4ODk2ODI5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a large body of water with a city in the background"
+        "url": "",
+        "label": "Osaka & Kyoto skyline landmark"
+      },
+      {
+        "url": "",
+        "label": "Osaka & Kyoto skyline landmark"
       }
     ],
     "destination": [
       {
-        "url": "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NjgzMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown wooden cottage on blue body of water during daytime"
+        "url": "https://images.unsplash.com/photo-1560703876-381134b6e6cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "woman in pink striped dress"
       },
       {
-        "url": "https://images.unsplash.com/photo-1576158831003-d41033ec31fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NjgzMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "person swinging on hammock hanged on coconut tree near sea"
+        "url": "https://images.unsplash.com/photo-1592512336070-546d59294287?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown and white house near green trees during daytime"
       },
       {
-        "url": "https://images.unsplash.com/photo-1467377791767-c929b5dc9a23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NjgzMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "green palm trees near body of water"
+        "url": "https://images.unsplash.com/photo-1741850820914-679245cf5c1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Snowy rooftops and a hillside in japan."
       },
       {
-        "url": "https://images.unsplash.com/photo-1620065487644-1080510335f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NjgzMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "green palm trees near swimming pool during daytime"
+        "url": "https://images.unsplash.com/photo-1741851373505-c07b8a723560?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Ancient japanese architecture lines a city street."
       },
       {
-        "url": "https://images.unsplash.com/photo-1622779536320-bb5f5b501a06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NjgzMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "green trees near body of water under blue sky during daytime"
+        "url": "https://images.unsplash.com/photo-1774803682197-dc81456cedd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Boats docked on a river under cherry blossoms."
       },
       {
-        "url": "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NjgzMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown wooden bench on beach during daytime"
+        "url": "https://images.unsplash.com/photo-1741851374430-d242e0dcd70c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cozy, lantern-lit alleyway in japan."
       },
       {
-        "url": "https://images.unsplash.com/photo-1587320754512-da4dbc717fc7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NjgzMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "green palm tree on white sand beach during daytime"
+        "url": "https://images.unsplash.com/photo-1741851373559-6879db14fd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw3fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cityscape at dusk, with mountains in background."
       },
       {
-        "url": "https://images.unsplash.com/photo-1643856555886-76dca68e5322?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NjgzMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a white sandy beach surrounded by palm trees"
+        "url": "https://images.unsplash.com/photo-1741851373803-f23e7080de48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw4fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A japanese pagoda stands between buildings at dusk."
       },
       {
-        "url": "https://images.unsplash.com/photo-1543731068-7e0f5beff43a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxNYWxkaXZlcyUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODg5NjgzMHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown wooden dock beside white motor boat"
+        "url": "https://images.unsplash.com/photo-1741851373528-4cafe13b22ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw5fHxPc2FrYSUyMCUyNiUyMEt5b3RvJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4OTAxMDM5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Mount fuji reflects over a calm lake."
       },
       {
-        "url": "https://images.unsplash.com/photo-1607849989943-ce7e68a11ff0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8TWFsZGl2ZXMlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "white boat on blue sea water during daytime"
+        "url": "https://images.unsplash.com/photo-1741851373435-9ee102aa2d18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMHx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Train with mount fuji in the background."
       },
       {
-        "url": "https://images.unsplash.com/photo-1609601546193-f558f1ebb385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8TWFsZGl2ZXMlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown wooden dock on blue sea under white clouds during daytime"
+        "url": "https://images.unsplash.com/photo-1741851374721-a546dc41561a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMXx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A person walks through a bamboo forest."
       },
       {
-        "url": "https://images.unsplash.com/photo-1677148435742-0944b14dc134?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8TWFsZGl2ZXMlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "an aerial view of a tropical beach with palm trees"
+        "url": "https://images.unsplash.com/photo-1741851373455-84550659bd7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxMnx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Mount fuji towers over buildings and clouds."
       },
       {
-        "url": "https://images.unsplash.com/photo-1602002418679-43121356bf41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8TWFsZGl2ZXMlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "brown wooden house on body of water under blue sky during daytime"
+        "url": "https://images.unsplash.com/photo-1741851373544-16173862b542?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxM3x8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Japanese pagoda with mount fuji in the background."
       },
       {
-        "url": "https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8TWFsZGl2ZXMlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "coconut tree on beach shore during daytime"
+        "url": "https://images.unsplash.com/photo-1636537470000-34284f07c242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNHx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a stone path leading to a building in a garden"
       },
       {
-        "url": "https://images.unsplash.com/photo-1684214536008-5c64a0622143?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8TWFsZGl2ZXMlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "a sandy beach with lounge chairs and thatched umbrellas"
+        "url": "https://images.unsplash.com/photo-1557178432-aac19755362a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNXx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown building"
       },
       {
-        "url": "https://images.unsplash.com/photo-1583835401881-69a874a3b342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8TWFsZGl2ZXMlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "palm tree near body of water during daytime"
+        "url": "https://images.unsplash.com/photo-1741851374540-c64860d3bcb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxNnx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "A japanese temple is reflected in calm water."
       },
       {
-        "url": "https://images.unsplash.com/photo-1688949078626-a358f500e063?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8TWFsZGl2ZXMlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "an aerial view of a resort in the middle of the ocean"
+        "url": "https://images.unsplash.com/photo-1748878665715-55296eaea53a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxN3x8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Mount fuji looms over a pagoda."
       },
       {
-        "url": "https://images.unsplash.com/photo-1537162998323-3d3675e0e87c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8TWFsZGl2ZXMlMjB0cmF2ZWwlMjBzY2VuZXJ5fGVufDB8MHx8fDE3Nzg4OTY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
-        "label": "aerial photography of an island during daytime"
+        "url": "https://images.unsplash.com/photo-1596273334721-0f64c11a13db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxOHx8T3Nha2ElMjAlMjYlMjBLeW90byUyMHRyYXZlbCUyMHNjZW5lcnl8ZW58MHwwfHx8MTc3ODkwMTAzOXww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "brown and green wooden house on green lake surrounded by green trees under white clouds and"
       }
     ]
   },
-  "chat_hash": "d6a4e79b56c212bb6e83b3632ed432fc67c2aff81a7fc3d2f1c77cf669cea254",
-  "config_hash": "32a81935bd11e3366f0a7d66fded735f0412cb74915886bea371444885c19238",
-  "generated_at": "2026-05-16T10:20:43.201445"
+  "chat_hash": "b8474308616f99175ad0821d7a37609377edd1e97a5872590cdb4e70091ad0aa",
+  "config_hash": "1791059b6d4fed6a8bf680cef664d9ef254e7431b19e0b4b6ef5ce7fe43ac356",
+  "generated_at": "2026-05-16T11:10:47.665315"
 }
