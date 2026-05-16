@@ -25,72 +25,86 @@
 
 <script src="templates/shared.js"></script>
 <script>
-async function loadLogs() {
-  const container = document.getElementById('log-entries');
-  let html = '';
+(function(){
+  var container = document.getElementById('log-entries');
+  if(!container) return;
+  container.innerHTML = '<p style="color:var(--gold);">Loading...</p>';
 
-  // ═══ Section 1: Saved Plans ═══
-  try {
-    const resp = await fetch('data/saved/index.json');
-    if(resp.ok) {
-      const index = await resp.json();
-      if(Array.isArray(index) && index.length > 0) {
-        // Filter out locally-deleted entries (GitHub Pages may serve stale data)
-        const deleted = JSON.parse(localStorage.getItem('deleted_saved') || '[]');
-        const filtered = index.filter(function(e) { return deleted.indexOf(e.file) === -1; });
-        if(filtered.length > 0) {
-          html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📁 Saved Plans</h3>';
-          html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;margin-bottom:1.5rem;">';
-          for(const entry of filtered) {
-            const url = 'data/saved/' + entry.file;
-            const dest = entry.dest || '';
-            const label = entry.title || entry.file.replace('.html','');
-            const date = entry.date || '';
-            html += '<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">' +
-              '<td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.78rem;">' + date + '</td>' +
-              '<td style="padding:6px 10px;"><a href="' + url + '" target="_blank" style="color:var(--gold);text-decoration:none;">' + dest + ' — ' + label + '</a></td>' +
-              '<td style="padding:6px 10px;"><button onclick="deleteSaved(\'' + entry.file + '\')" style="background:none;border:1px solid rgba(255,255,255,0.2);color:var(--warm-gray);cursor:pointer;font-size:0.7rem;padding:2px 8px;border-radius:4px;">✕</button></td>' +
-            '</tr>';
-          }
-          html += '</table>';
-        }
-      }
-  } catch(e) {
-    html += '<p style="color:#e88;">Error loading saved plans: ' + e.message + '</p>';
+  var html = '';
+
+  function esc(str) {
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
   }
 
-  // ═══ Section 2: Run History ═══
-  try {
-    const resp = await fetch('data/runs.json');
-    if(resp.ok) {
-      const runs = await resp.json();
-      if(runs.length > 0) {
-        html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📋 Run History</h3>';
-        html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;">';
-        html += '<tr style="color:var(--warm-gray);border-bottom:1px solid rgba(255,255,255,0.1);"><th style="text-align:left;padding:6px 10px;">Time</th><th style="text-align:left;padding:6px 10px;">Plan</th><th style="text-align:left;padding:6px 10px;">Chat</th></tr>';
-        for(const r of runs.slice(0, 100)) {
-          const icon = r.status === 'skipped' ? '⏭️' : '✨';
-          const desc = r.status === 'skipped' ? 'No changes — skipped' : (r.summary || r.destination || 'Generated');
-          const chat = r.chat_chars > 0 ? r.chat_chars + ' chars' : '-';
-          html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.8rem;">${r.ts}</td>
-            <td style="padding:6px 10px;">${icon} ${desc}</td>
-            <td style="padding:6px 10px;font-size:0.75rem;">${chat}</td>
-          </tr>`;
-        }
-        html += '</table>';
-      }
+  function buildSavedPlans(index) {
+    if(!Array.isArray(index) || index.length === 0) {
+      html += '<p style="color:var(--warm-gray);">No saved plans yet.</p>';
+      return;
     }
-  } catch(e) {
-    html += '<p style="color:#e88;">Error loading data: ' + e.message + '</p>';
+    var deleted = JSON.parse(localStorage.getItem('deleted_saved') || '[]');
+    var filtered = index.filter(function(e) { return deleted.indexOf(e.file) === -1; });
+    if(filtered.length === 0) {
+      html += '<p style="color:var(--warm-gray);">No saved plans (all deleted).</p>';
+      return;
+    }
+    html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">Saved Plans</h3>';
+    html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;margin-bottom:1.5rem;">';
+    for(var i = 0; i < filtered.length; i++) {
+      var entry = filtered[i];
+      var url = 'data/saved/' + entry.file;
+      var dest = esc(entry.dest || '');
+      var label = esc(entry.title || entry.file.replace('.html',''));
+      var date = esc(entry.date || '');
+      var safeFile = esc(entry.file);
+      html += '<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">' +
+        '<td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.78rem;">' + date + '</td>' +
+        '<td style="padding:6px 10px;"><a href="' + url + '" target="_blank" style="color:var(--gold);text-decoration:none;">' + dest + ' - ' + label + '</a></td>' +
+        '<td style="padding:6px 10px;"><button onclick="deleteSaved(\'' + safeFile + '\')" style="background:none;border:1px solid rgba(255,255,255,0.2);color:var(--warm-gray);cursor:pointer;font-size:0.7rem;padding:2px 8px;border-radius:4px;">x</button></td>' +
+      '</tr>';
+    }
+    html += '</table>';
   }
 
-  if(!html) {
-    html = '<p style="color:var(--warm-gray);font-family:\'Noto Serif TC\',serif;">No records yet. Waiting for first run...</p>';
+  function buildRunHistory(runs) {
+    if(!Array.isArray(runs) || runs.length === 0) {
+      html += '<p style="color:var(--warm-gray);">No run history yet.</p>';
+      return;
+    }
+    html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">Run History</h3>';
+    html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;">';
+    html += '<tr style="color:var(--warm-gray);border-bottom:1px solid rgba(255,255,255,0.1);"><th style="text-align:left;padding:6px 10px;">Time</th><th style="text-align:left;padding:6px 10px;">Plan</th><th style="text-align:left;padding:6px 10px;">Chat</th></tr>';
+    var limit = Math.min(runs.length, 100);
+    for(var i = 0; i < limit; i++) {
+      var r = runs[i];
+      var icon = r.status === 'skipped' ? '-' : '+';
+      var desc = r.status === 'skipped' ? 'No changes - skipped' : (r.summary || r.destination || 'Generated');
+      var chat = r.chat_chars > 0 ? r.chat_chars + ' chars' : '-';
+      html += '<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">' +
+        '<td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.8rem;">' + esc(r.ts) + '</td>' +
+        '<td style="padding:6px 10px;">' + esc(icon + ' ' + desc) + '</td>' +
+        '<td style="padding:6px 10px;font-size:0.75rem;">' + esc(chat) + '</td>' +
+      '</tr>';
+    }
+    html += '</table>';
   }
 
-  container.innerHTML = html;
-}
+  fetch('data/saved/index.json').then(function(resp) {
+    if(resp.ok) return resp.json().then(function(data) { buildSavedPlans(data); });
+    html += '<p style="color:#e88;">Saved plans: HTTP ' + resp.status + '</p>';
+  }).catch(function(e) {
+    html += '<p style="color:#e88;">Saved plans error: ' + e.message + '</p>';
+  }).then(function() {
+    return fetch('data/runs.json');
+  }).then(function(resp) {
+    if(resp.ok) return resp.json().then(function(data) { buildRunHistory(data); });
+    html += '<p style="color:#e88;">Run history: HTTP ' + resp.status + '</p>';
+  }).catch(function(e) {
+    html += '<p style="color:#e88;">Run history error: ' + e.message + '</p>';
+  }).then(function() {
+    if(!html) html = '<p style="color:var(--warm-gray);">No records yet. Waiting for first run...</p>';
+    container.innerHTML = html;
+  });
+})();
 
 async function deleteSaved(filename) {
   if(!confirm('Delete this saved plan?')) return;
