@@ -1,9 +1,9 @@
 {
   "destination_en": "Netherlands, Belgium, Switzerland",
-  "title_zh": "荷比瑞家庭暑假之旅 · 十二天七城",
-  "date_range": "2026/07/01–07/12",
-  "start_date": "2026-07-01",
-  "end_date": "2026-07-12",
+  "title_zh": "2028年暑假 · 荷比瑞十二天家庭之旅",
+  "date_range": "2028/07/01–07/12",
+  "start_date": "2028-07-01",
+  "end_date": "2028-07-12",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
   "destination_code": "AMS",
@@ -11,12 +11,12 @@
   "days": 12,
   "budget_ntd": 800000,
   "flight": {
-    "airline": "中華航空 China Airlines",
+    "airline": "長榮航空 EVA Air",
     "departure_date": "7月1日",
     "return_date": "7月12日",
     "total_price_ntd": 225000,
     "outbound": {
-      "flight_no": "CI 73",
+      "flight_no": "BR 75",
       "route": "TPE → AMS 直飛",
       "depart_time": "23:40",
       "arrive_time": "07:30 (+1)",
@@ -24,11 +24,11 @@
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 74",
-      "route": "AMS → TPE 直飛",
-      "depart_time": "11:00",
-      "arrive_time": "06:00 (+1)",
-      "duration": "13h 00m",
+      "flight_no": "BR 76",
+      "route": "ZRH → TPE 直飛",
+      "depart_time": "11:20",
+      "arrive_time": "06:30 (+1)",
+      "duration": "13h 10m",
       "class": "經濟艙"
     }
   },
@@ -36,77 +36,144 @@
     {
       "name": "Hotel V Nesplein",
       "name_zh": "阿姆斯特丹V酒店",
-      "district": "Amsterdam Centrum",
+      "district": "阿姆斯特丹市中心",
       "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 75000,
-      "stars": "★★★★",
-      "room_type": "兩間連通房（一大床+兩單床）",
+      "price_ntd": 72000,
+      "stars": "★★★★☆",
+      "room_type": "家庭房（兩間連通房）",
       "breakfast": "含自助早餐",
-      "amenities": "🚲 免費單車 · 🍳 早餐 · 📶 WiFi · 空調",
+      "amenities": "🚲 免費自行車 · 🍳 餐廳 · 🛁 浴缸",
       "search_query": "Hotel V Nesplein Amsterdam Netherlands",
       "photos": [
         {
-          "url": "https://gamersbiography.com/wp-content/uploads/2023/05/best-open-world-games-for-low-end-pc.png",
-          "label": "10 Best Open World Games for low end PC [ FREE Download ] - Gamers ..."
+          "url": "https://media.gettyimages.com/id/1619658390/photo/cotonou-benin-an-aerial-view-of-the-17th-century-ganvie-village-built-on-the-water-by.jpg?s=612x612&w=gi&k=20&c=fwzhbXpburnzB-xgNG91BIvXrzCOrcrVQ6hVurjaq9s=",
+          "label": "Ganvie Benin Photos and Premium High Res Pictures - Getty Images"
+        },
+        {
+          "url": "https://media.gettyimages.com/id/1619658078/photo/cotonou-benin-an-aerial-view-of-the-17th-century-ganvie-village-built-on-the-water-by.jpg?s=612x612&w=gi&k=20&c=hxz2SeisVIeK1jzmk-EXBvKcGd8XsFRKFf7l3VBAZvk=",
+          "label": "Ganvie Benin Photos and Premium High Res Pictures - Getty Images"
+        },
+        {
+          "url": "https://c8.alamy.com/compfr/m85a7t/lake-city-la-venise-de-l-afrique-au-benin-ganvie-m85a7t.jpg",
+          "label": "Ganvie benin Banque de photographies et d’images à haute résolution - Alamy"
+        },
+        {
+          "url": "https://c8.alamy.com/comp/2B11X5B/the-floating-village-of-ganvi-benin-africa-2B11X5B.jpg",
+          "label": "The floating village of Ganvié, Benin, Africa Stock Photo - Alamy"
+        },
+        {
+          "url": "https://media.gettyimages.com/id/1211399129/photo/ganvie-village-scene-a-unique-village-built-on-stilts-on-lake-nokoue-near-cotonou-benin.jpg?s=612x612&w=gi&k=20&c=iGKTnpokYlwg4hqUItMfmewu7p2qd6-gx1sivdOzwBE=",
+          "label": "Ganvie Benin Photos and Premium High Res Pictures - Getty Images"
+        },
+        {
+          "url": "https://media.gettyimages.com/id/945299938/photo/ganvie.jpg?s=1024x1024&w=gi&k=20&c=xD6W2XxjMjpppCfPnDPQgHLZo3tJnkNY8xjqHiPgG_4=",
+          "label": "GANVIE News Photo - Getty Images"
         }
       ]
     },
     {
-      "name": "Hotel Julien",
-      "name_zh": "朱利安精品酒店",
-      "district": "Antwerp 市中心",
+      "name": "Hotel des Colonies",
+      "name_zh": "布魯塞爾殖民酒店",
+      "district": "布魯塞爾大廣場旁",
       "day_range": "4–6",
       "nights": 3,
-      "price_ntd": 72000,
-      "stars": "★★★★",
-      "room_type": "兩間高級雙人房",
-      "breakfast": "含歐陸早餐",
-      "amenities": "🎨 藝術裝潢 · 🍷 酒吧 · 📶 WiFi · 空調",
-      "search_query": "Hotel Julien Antwerp Belgium",
+      "price_ntd": 54000,
+      "stars": "★★★★☆",
+      "room_type": "兩間雙人房+一間單人房",
+      "breakfast": "含自助早餐",
+      "amenities": "🍳 餐廳 · 🏋️ 健身中心 · 🅿️ 停車",
+      "search_query": "Hotel des Colonies Brussels Belgium",
       "photos": [
         {
-          "url": "https://c8.alamy.com/comp/E7CWPE/hotel-julien-antwerp-belgium-E7CWPE.jpg",
-          "label": "Hotel Julien Antwerp Belgium Stock Photo - Alamy"
+          "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/bd/e4/2a/hotel-entrance.jpg",
+          "label": "HOTEL DES COLONIES (Bruselas/Saint-Josse-ten-Noode) - Opiniones y ..."
         },
         {
-          "url": "https://www.i-escape.com/image/hotel/hotel-julien/overview/284544.jpg",
-          "label": "Hotel Julien, Antwerp, Belgium - Explore & Book"
+          "url": "https://media-cdn.tripadvisor.com/media/photo-p/0f/b9/d4/10/near-hotel-des-colonies.jpg",
+          "label": "Hotel des Colonies (Bruselas, Bélgica): opiniones, comparación de ..."
         },
         {
-          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/dc/e5/8a/caption.jpg?w=1100&h=1100&s=1",
-          "label": "HOTEL JULIEN - Updated 2026 Prices & Reviews (Antwerp, Belgium)"
+          "url": "https://content.r9cdn.net/rimg/himg/19/6f/6f/expedia_group-12669-8691661-590335.jpg?width=1200&height=630&crop=false",
+          "label": "Hotel des Colonies Brussels by Mercure à Bruxelles, Belgique à partir ..."
         },
         {
-          "url": "https://s-ec.bstatic.com/xdata/images/xphoto/max1024x768/38086949.jpg?k=c31ef8407054fea48077b2157537afd705629d64cd6ec3f21da6c8aa138fbd0e&o=",
-          "label": "Hotel Julien, Antwerp, Belgium - Booking.com"
+          "url": "https://content.r9cdn.net/kimg/28/56/e002d9e8-1707c90d0b9.jpg",
+          "label": "Hotel Des Colonies, Brussels, Belgium - Compare Deals"
         },
         {
-          "url": "https://images.blacktomato.com/2019/11/Julien7-1.jpg?auto=compress,format&fit=crop&h=424&ixlib=php-3.3.1&w=722&s=dddf1d2a7d58b43f24e6ced9ede7bf76",
-          "label": "Hotel Julien, Antwerp | Luxury Hotels in Belgium | Black Tomato"
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/bf/d1/0f/hotel-des-colonies.jpg?w=700&h=-1&s=1",
+          "label": "HOTEL DES COLONIES (AU$119): 2022 Prices & Reviews (Brussels, Belgium ..."
         },
         {
-          "url": "https://media.licdn.com/dms/image/D4D12AQFZ5TSmGyjFZg/article-cover_image-shrink_720_1280/0/1690185854840?e=2147483647&v=beta&t=gZAwo9MJ8b4sIiQcXwfYkjIdWYkVhhdPjt7iW-qBL0I",
-          "label": "AUGUST & HOTEL JULIEN, Antwerp, Belgium – Belgian heritage with ..."
+          "url": "https://www.ahstatic.com/photos/c3b9_ho_00_p_1024x768.jpg",
+          "label": "Hotel des Colonies Brussels by Mercure - ALL"
+        }
+      ]
+    },
+    {
+      "name": "Hotel Schweizerhof Bern",
+      "name_zh": "伯恩施維澤霍夫酒店",
+      "district": "伯恩市中心",
+      "day_range": "7–9",
+      "nights": 3,
+      "price_ntd": 81000,
+      "stars": "★★★★★",
+      "room_type": "兩間連通房",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 室內泳池 · 💆 SPA · 🍽️ 頂樓餐廳",
+      "search_query": "Hotel Schweizerhof Bern Switzerland",
+      "photos": [
+        {
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/29/2e/be/exterior.jpg?w=1200&h=-1&s=1",
+          "label": "HOTEL SCHWEIZERHOF BERN & SPA: Bewertungen, Fotos & Preisvergleich ..."
+        },
+        {
+          "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/17057/1705724/1705724871/hotel-schweizerhof-bern-spa-bern-photo-71.JPEG",
+          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
+        },
+        {
+          "url": "https://schweizerhofbern.com/uploads/media/992x1360/01/831-Hotel_Schweizerhof_Bern_Spa_Shooting_Christmas+(19).jpg?v=1-0",
+          "label": "Hotel Schweizerhof Bern & Spa | 5-star Hotel in Switzerland"
+        },
+        {
+          "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/1955/195535/195535726/hotel-schweizerhof-bern-spa-bern-photo-3.JPEG",
+          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
+        },
+        {
+          "url": "https://a.storyblok.com/f/272028/1900x1267/61224aec85/bern_hotel_schweizerhof_aussen-panorama.jpeg/m/2000x0/filters:quality(80)",
+          "label": "Schweizerhof Bern & Spa - Bern Welcome"
+        },
+        {
+          "url": "https://thumbs.dreamstime.com/z/hotel-schweizerhof-bern-switzerland-september-shows-beauty-its-architecture-five-star-was-renovated-62117221.jpg",
+          "label": "Hotel Schweizerhof in Bern editorial photo. Image of swiss - 62117221"
         }
       ]
     },
     {
       "name": "Hotel Schweizerhof Luzern",
-      "name_zh": "琉森施維澤霍夫酒店",
-      "district": "Luzern 湖畔",
-      "day_range": "7–9",
-      "nights": 3,
-      "price_ntd": 108000,
+      "name_zh": "盧森施維澤霍夫酒店",
+      "district": "盧森湖邊",
+      "day_range": "10–11",
+      "nights": 2,
+      "price_ntd": 54000,
       "stars": "★★★★★",
-      "room_type": "兩間湖景房（一大床+兩單床）",
+      "room_type": "兩間連通房（湖景）",
       "breakfast": "含自助早餐",
-      "amenities": "🏔️ 湖景陽台 · 🏊 泳池 · 💆 SPA · 🍽️ 湖畔餐廳",
+      "amenities": "🏊 室內泳池 · 🏔️ 湖景 · 🍽️ 餐廳",
       "search_query": "Hotel Schweizerhof Luzern Switzerland",
       "photos": [
         {
           "url": "https://c8.alamy.com/comp/PT86J8/hotel-schweizerhof-luzern-lucerne-switzerland-PT86J8.jpg",
           "label": "Lucerne switzerland hotel schweizerhof hi-res stock photography and ..."
+        },
+        {
+          "url": "https://live.staticflickr.com/2247/2275269014_50b8fd0a40_b.jpg",
+          "label": "Hotel Schweizerhof Luzern, Lake Lucerne (Switzerland) | Flickr"
+        },
+        {
+          "url": "https://c8.alamy.com/comp/2JJ0NBB/famous-hotel-schweizerhof-in-the-city-of-lucerne-in-switzerland-2JJ0NBB.jpg",
+          "label": "Schweizerhof hi-res stock photography and images - Alamy"
         },
         {
           "url": "https://phgcdn.com/images/uploads/ZRHSL/masthead/ZRHSL-masthead-hotelschweizerhofluzern.jpg",
@@ -117,55 +184,8 @@
           "label": "Where To Stay In Lucerne: Best Areas & Hotels | Expatolife"
         },
         {
-          "url": "https://phgcdn.com/images/uploads/ZRHSL/corporatemasthead/1600x813_image_of_exterior_hotel_schweizerhof_luzern.jpg",
-          "label": "Hotels in Lucerne, Switzerland | Hotel Schweizerhof Luzern | Lake ..."
-        },
-        {
-          "url": "https://thumbs.dreamstime.com/b/famous-hotel-schweizerhof-lucerne-lucerne-switzerland-europe-july-famous-hotel-schweizerhof-lucerne-lucerne-switzerland-july-252473287.jpg",
-          "label": "Famous Hotel Schweizerhof in Lucerne - LUCERNE, SWITZERLAND - JULY 14 ..."
-        },
-        {
-          "url": "https://golfinswitzerland.com/wp-content/uploads/2021/03/155543230@width-480.jpg",
-          "label": "Hotel Schweizerhof Luzern | Golf in Switzerland | Historical 5* Hotel"
-        }
-      ]
-    },
-    {
-      "name": "Hotel Bristol Bern",
-      "name_zh": "伯恩布里斯托酒店",
-      "district": "Bern 舊城區",
-      "day_range": "10–11",
-      "nights": 2,
-      "price_ntd": 60000,
-      "stars": "★★★★",
-      "room_type": "兩間家庭房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏛️ 歷史建築 · 🍴 餐廳 · 📶 WiFi · 空調",
-      "search_query": "Hotel Bristol Bern Switzerland",
-      "photos": [
-        {
-          "url": "https://assets.minorhotels.com/image/upload/q_auto,f_auto,c_limit,w_1920/media/minor/nh/images/nh-bern-the-bristol/mhg/header-banner/01_nh_bern_the_bristol_facade_day_main_gate_terrace_flags_windows.jpg",
-          "label": "NH Bern The Bristol, hotel in Bern | Minor Hotels"
-        },
-        {
-          "url": "https://media-cdn.tripadvisor.com/media/photo-p/2c/7b/aa/99/nh-bern-the-bristol-facade.jpg",
-          "label": "NH BERN THE BRISTOL - Updated 2025 Prices & Hotel Reviews (Switzerland)"
-        },
-        {
-          "url": "https://www.magicswitzerland.com/wp-content/uploads/2018/01/berne-thebristol-facade.jpg",
-          "label": "Hotel The Bristol, Berne - Magic Switzerland"
-        },
-        {
-          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2f/df/50/64/caption.jpg?w=1200&h=1200&s=1",
-          "label": "NH BERN THE BRISTOL - Updated 2026 Prices & Hotel Reviews (Switzerland)"
-        },
-        {
-          "url": "https://s3-media0.fl.yelpcdn.com/bphoto/9Wqy6_byaljalde8vBN30Q/348s.jpg",
-          "label": "THE BRISTOL - Updated September 2024 - Schauplatzgasse 10, Bern ..."
-        },
-        {
-          "url": "https://pix10.agoda.net/hotelImages/258/258667/258667_16060111080042977787.jpg?ca=6&ce=1&s=1024x768",
-          "label": "NH Bern The Bristol, Bern | 2024 Updated Prices, Deals"
+          "url": "https://destinationsports.ch/wp-content/uploads/2020/12/Schweizerhof_Luzern-1.jpg",
+          "label": "Destination Management | Schweizerhof Lucerne - destinationsports"
         }
       ]
     }
@@ -176,212 +196,212 @@
         "name": "De Librije",
         "name_zh": "德利布里耶 · 米其林三星",
         "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：龍蝦配海膽 · 松露燉飯",
-        "address": "Spinhuisplein 1, Zwolle, Netherlands",
-        "price_ntd": 14000,
-        "price_label": "晚餐套餐 €195/人 · NT$6,825",
-        "hours": "18:30–22:00 · 需預約",
-        "search_query": "De Librije Zwolle Michelin 3 stars",
+        "dish": "🦐 招牌：荷蘭海鮮拼盤佐藏紅花醬",
+        "address": "Spinhuisplein 1, Zwolle",
+        "price_ntd": 28000,
+        "price_label": "晚餐套餐 €250/人 · NT$8,750",
+        "hours": "19:00–22:00 · 需預約",
+        "search_query": "De Librije restaurant Zwolle Netherlands",
         "photos": [
           {
-            "url": "https://foodle.pro/restaurants-images/2019-05-06-00-36-48-493e6692fa47d899c5dc8dd6ed415874.jpg",
-            "label": "De Librije, Zwolle | Michelin Star Restaurant 2025 | Reviews, Photos ..."
+            "url": "https://bijzonderuiteten.nl/wp-content/uploads/2020/03/Restaurant-De-Librije-Zwolle-Overijssel-6.jpg",
+            "label": "Restaurant de Librije Zwolle - Johnnie en Thérèse Boer"
           },
           {
-            "url": "https://media.gettyimages.com/id/1280400697/photo/closed-three-michelin-star-restaurant-librije-in-the-city-center-of-zwolle-during-the-weekly.jpg?s=612x612&w=gi&k=20&c=WCCHt8JxIf6P5337sqNPkay3Pna67pwQ5mQA4pCkTVs=",
-            "label": "Librije Photos and Premium High Res Pictures - Getty Images"
+            "url": "https://u.tfstatic.com/restaurant_photos/867/232867/169/612/restaurant-de-librije-exterieur-de-librije-62983.jpg",
+            "label": "Restaurant De Librije in Zwolle - Menu, openingstijden, prijzen, adres ..."
           },
           {
-            "url": "https://elizabethonfood.com/files/Liesbeth+Auerbach/image/librije2015/librije.jpg",
-            "label": "De Librije in Zwolle, the Netherlands (2015 review by ElizabethOnFood)"
+            "url": "https://thumbs.dreamstime.com/z/zwolle-netherlands-november-facade-famous-restaurant-de-librije-dutch-town-105269237.jpg",
+            "label": "Facade of Famous Restaurant De Librije in Dutch Town of Zwolle ..."
           }
         ]
       },
       {
         "name": "Hof van Cleve",
-        "name_zh": "克萊夫莊園 · 米其林三星",
+        "name_zh": "霍夫凡克萊夫 · 米其林三星",
         "stars": "⭐⭐⭐",
-        "dish": "🦆 招牌：乾式熟成鴨胸 · 松露醬",
-        "address": "Riemegemstraat 1, Kruishoutem, Belgium",
-        "price_ntd": 15000,
-        "price_label": "晚餐套餐 €210/人 · NT$7,350",
-        "hours": "19:00–21:30 · 需預約",
-        "search_query": "Hof van Cleve Belgium Michelin 3 stars",
+        "dish": "🦞 招牌：龍蝦佐香草奶油",
+        "address": "Riemegemstraat 1, Kruishoutem",
+        "price_ntd": 28000,
+        "price_label": "晚餐套餐 €250/人 · NT$8,750",
+        "hours": "19:00–22:00 · 需預約",
+        "search_query": "Hof van Cleve restaurant Belgium",
         "photos": [
           {
-            "url": "https://www.wbpstars.com/wp-content/uploads/2021/02/Hof-van-Cleve-photo601707d9c0181.jpg",
-            "label": "Hof van Cleve restaurant review — WBP Stars"
+            "url": "https://i0.wp.com/andershusa.com/wp-content/uploads/2021/11/video-hof-van-cleve-belgiums-oldest-three-star-restaurant-ghent-chef-peter-goossens-food-foodie-eat-eating-out-dining-best-tips-recommendations-guide-travel-2.jpg?w=1000&ssl=1",
+            "label": "Video: Hof van Cleve - Belgium's Oldest Three-Star Restaurant"
           },
           {
-            "url": "http://www.elizabethonfood.com/files/Liesbeth+Auerbach/image/hofvancleve2015/hofvancleveroom2.jpg",
-            "label": "Hof Van Cleve - 3 Michelin stars (2015 review by ElizabethOnFood)"
+            "url": "https://thevendry.com/cdn-cgi/image/width=3840,quality=75,fit=contain,metadata=none,format=auto/https://s3.us-east-1.amazonaws.com/uploads.thevendry.co/24989/1712575732432_hofvancleve_010218_00001-restaurant.jpg",
+            "label": "Hof van Cleve - Fine Dining Restaurant in Kruisem, Belgium | The Vendry"
           },
           {
-            "url": "https://elizabethonfood.com/files/Liesbeth+Auerbach/image/hofvancleve2015/dessert.jpg",
-            "label": "Hof Van Cleve - 3 Michelin stars (2015 review by ElizabethOnFood)"
+            "url": "https://www.stefanegirard.fr/wp-content/uploads/2024/02/meilleur-restaurant-belgique-hof-van-cleve-interieur.jpg",
+            "label": "Restaurant d’excellence : Hof van Cleve – Kruisem, Belgique - Stefane ..."
           }
         ]
       },
       {
-        "name": "Schloss Schauenstein",
-        "name_zh": "紹恩施泰因城堡 · 米其林三星",
+        "name": "Restaurant de l'Hôtel de Ville",
+        "name_zh": "市政廳餐廳 · 米其林三星",
         "stars": "⭐⭐⭐",
-        "dish": "🍄 招牌：野菇燉小牛膝 · 高山香草",
-        "address": "Schauensteinstrasse 1, Fürstenau, Switzerland",
-        "price_ntd": 18000,
-        "price_label": "晚餐套餐 CHF 240/人 · NT$8,640",
-        "hours": "18:30–21:30 · 需預約",
-        "search_query": "Schloss Schauenstein Switzerland Michelin 3 stars",
+        "dish": "🥩 招牌：瑞士牛肉佐黑松露醬",
+        "address": "Rue d'Yverdon 1, Crissier",
+        "price_ntd": 35000,
+        "price_label": "晚餐套餐 CHF 280/人 · NT$9,800",
+        "hours": "19:00–22:00 · 需預約",
+        "search_query": "Restaurant de l Hotel de Ville Crissier Switzerland",
         "photos": [
           {
-            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics__/d3a11d13d0724361a33c62aae5ca2fc7",
-            "label": "Schloss Schauenstein – Fürstenau - a MICHELIN Guide Restaurant"
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics__/daffe9d7f4d84f8e9e9364967e05860d",
+            "label": "Restaurant de l'Hôtel de Ville – Crissier - a MICHELIN Guide Restaurant"
           },
           {
-            "url": "https://static.prod.r53.tablethotels.com/media/hotels/slideshow_images_staged/large/1420257.jpg",
-            "label": "Schloss Schauenstein – Fürstenau - a MICHELIN Guide Restaurant"
+            "url": "https://4.bp.blogspot.com/-EdFkSvTHcto/UYfLiz_s57I/AAAAAAAAEpU/tJUyTQ8BUlM/s1600/Untitled-3.jpg",
+            "label": "Restaurant de L'Hôtel de Ville (Crissier, SWITZERLAND) ★★★★☆ | A ..."
           },
           {
-            "url": "https://images.lifestyleasia.com/wp-content/uploads/sites/5/2021/12/20100656/243261394_4715347905151040_3673524336684731200_n.jpeg",
-            "label": "5 of the world's most-expensive Michelin-starred restaurants"
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics__/9788085fee36405b9868d8e218d131df",
+            "label": "Restaurant de l'Hôtel de Ville – Crissier - a MICHELIN Guide Restaurant"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Moeders",
-        "name_zh": "媽媽的廚房 · 荷蘭家常菜",
+        "name": "Momo",
+        "name_zh": "Momo 亞洲融合小館",
         "stars": "",
-        "dish": "🥘 招牌：荷蘭燉肉 · 馬鈴薯泥 · 蘋果派",
-        "address": "Rozengracht 251, Amsterdam",
+        "dish": "🍜 招牌：拉麵 · 餃子 · 奶茶",
+        "address": "Nes 59, Amsterdam",
+        "price_ntd": 3500,
+        "price_label": "五人晚餐約 €100 · NT$3,500",
+        "hours": "12:00–22:00",
+        "search_query": "Momo restaurant Amsterdam",
+        "photos": [
+          {
+            "url": "http://15123426.s21i.faiusr.com/4/ABUIABAEGAAgl6aYhAYo_JTAswUwzBY4uxA!1500x1500.png",
+            "label": "为什么都要求餐厨垃圾处理？看看餐厨垃圾直接排放的影响！"
+          }
+        ]
+      },
+      {
+        "name": "Le Bistro du Musée",
+        "name_zh": "博物館小酒館",
+        "stars": "",
+        "dish": "🥩 招牌：比利時燉牛肉 · 薯條",
+        "address": "Rue de la Régence 3, Brussels",
+        "price_ntd": 3500,
+        "price_label": "五人晚餐約 €100 · NT$3,500",
+        "hours": "12:00–22:00",
+        "search_query": "Le Bistro du Musée Brussels",
+        "photos": [
+          {
+            "url": "http://www.citsbj.com/res/images/dev/add_14.png",
+            "label": "【巴西签证中心】巴西签证所需材料_如何办理_多少钱_常见问题-国旅北京"
+          }
+        ]
+      },
+      {
+        "name": "Ristorante da Ernesto",
+        "name_zh": "達埃內斯托義大利餐廳",
+        "stars": "",
+        "dish": "🍝 招牌：手工義大利麵 · 提拉米蘇",
+        "address": "Kramgasse 35, Bern",
         "price_ntd": 5000,
-        "price_label": "家庭套餐 €70/人 · NT$2,450",
-        "hours": "17:00–22:00",
-        "search_query": "Moeders restaurant Amsterdam Dutch food",
+        "price_label": "五人晚餐約 CHF 140 · NT$4,900",
+        "hours": "11:30–14:30 / 18:00–22:00",
+        "search_query": "Ristorante da Ernesto Bern",
         "photos": [
           {
-            "url": "https://gamaem.ru/wp-content/uploads/2018/10/hallownest-map-full.jpg",
-            "label": "Complete map of hollow knight - purplebery"
-          }
-        ]
-      },
-      {
-        "name": "Chez Léon",
-        "name_zh": "chez Léon · 百年淡菜老店",
-        "stars": "",
-        "dish": "🦪 招牌：白酒淡菜鍋 · 薯條 · 比利時啤酒",
-        "address": "Rue des Bouchers 18, Brussels",
-        "price_ntd": 4000,
-        "price_label": "家庭套餐 €55/人 · NT$1,925",
-        "hours": "11:30–23:00",
-        "search_query": "Chez Leon Brussels mussels",
-        "photos": [
-          {
-            "url": "https://c8.alamy.com/comp/D0GCCK/famous-belgian-mussels-and-chips-restaurant-chez-lon-leon-rue-des-D0GCCK.jpg",
-            "label": "Famous restaurant chez leon hi-res stock photography and images - Alamy"
+            "url": "https://www.da-ernesto.ch/wp-content/uploads/sites/7/2023/01/Da-Ernesto-Luzern-Bruschette.jpg",
+            "label": "Your event at Da Ernesto - enjoyable occasions in Lucerne"
           },
           {
-            "url": "https://chezleon.be/wp-content/uploads/2021/07/2021.07.19.001-2.jpg",
-            "label": "Home - CHEZ LEON : CHEZ LEON"
+            "url": "https://a.storyblok.com/f/272028/1440x957/3246e9e978/bern_aussenbereich-terrasse_cinematte_2_c_cinematte.jpg/m/1000x665/filters:format(webp):quality(1)",
+            "label": "Die schönsten Restaurantterrassen in Bern - Bern Welcome"
           },
           {
-            "url": "https://i.ytimg.com/vi/ktsoErYEI1c/maxresdefault.jpg",
-            "label": "🍽️ Chez Léon Brussels: A Must-Try for Belgian Mussels & Fries! 🇧🇪🦪🍟 ..."
-          }
-        ]
-      },
-      {
-        "name": "Wirtschaft zum Pfauen",
-        "name_zh": "孔雀餐廳 · 瑞士傳統料理",
-        "stars": "",
-        "dish": "🧀 招牌：起司火鍋 · 瑞士薯餅 · 巧克力",
-        "address": "Pfauenplatz 1, Zürich",
-        "price_ntd": 6000,
-        "price_label": "家庭套餐 CHF 80/人 · NT$2,880",
-        "hours": "11:30–22:00",
-        "search_query": "Wirtschaft zum Pfauen Zurich Swiss food",
-        "photos": [
-          {
-            "url": "https://i.natgeofe.com/n/c3fad082-3d06-437f-9d9b-8fe89912d229/Charly.jpg",
-            "label": "A local’s guide to Zurich’s progressive plant-based food scene ..."
-          },
-          {
-            "url": "https://www.pfauen.swiss/_default_upload_bucket/image-thumb__414__header_slider/emils_bistro_05~-~479w.jpeg",
-            "label": "Pfauen – das Zentrum für Pflege und Betreuung - Pfauen – Das Zentrum ..."
-          },
-          {
-            "url": "https://i.ytimg.com/vi/TpZRzbHCmYo/maxresdefault.jpg",
-            "label": "Famous Zurich Food at Hunter Langham blog"
+            "url": "https://media.myswitzerland.com/image/fetch/c_lfill,g_auto,w_3200,h_1800/f_auto,q_80,fl_keep_iptc/https://d10rdyp01sn3kp.cloudfront.net/files/pics/2008624158306520.0776782294304802.jpg",
+            "label": "Restaurant Da Ernesto | Schweiz Tourismus"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Café Winkel 43",
-        "name_zh": "溫克爾43 · 蘋果派名店",
+        "name": "Café de Jaren",
+        "name_zh": "年代咖啡館",
         "stars": "",
-        "dish": "🍰 招牌：荷蘭蘋果派 · 鮮奶油 · 咖啡",
-        "address": "Noordermarkt 43, Amsterdam",
-        "price_ntd": 1500,
-        "price_label": "五人下午茶 €45 · NT$1,575",
-        "hours": "08:00–18:00",
-        "search_query": "Cafe Winkel 43 Amsterdam apple pie",
+        "dish": "☕ 招牌：荷蘭蘋果派 · 卡布奇諾",
+        "address": "Nieuwe Doelenstraat 20-22, Amsterdam",
+        "price_ntd": 2000,
+        "price_label": "五人早午餐約 €57 · NT$2,000",
+        "hours": "08:00–23:00",
+        "search_query": "Cafe de Jaren Amsterdam",
         "photos": [
           {
-            "url": "https://blushrougette.com/wp-content/uploads/2019/05/winkel-43-apple-pie-1460x973.jpg",
-            "label": "Winkel 43, the best Dutch apple pie in Amsterdam - Review | Blushrougette"
+            "url": "https://bonjouramsterdam.fr/wp-content/uploads/2023/10/cafe-de-jaren-1024x681.jpg",
+            "label": "Café de Jaren : un établissement incontournable à Amsterdam"
           },
           {
-            "url": "https://static.wixstatic.com/media/ea720f_60b15d7750f94c20b59b0311c4e90277~mv2.jpg/v1/fill/w_980,h_1503,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea720f_60b15d7750f94c20b59b0311c4e90277~mv2.jpg",
-            "label": "Café Winkel 43 - Best Dutch Apple Pie in Amsterdam, The Netherlands"
+            "url": "https://farm1.staticflickr.com/111/307543664_7f32e968ce_b.jpg",
+            "label": "Café de Jaren : Un café \"blanc\" sur l'eau à Amsterdam - Vanupied"
           },
           {
-            "url": "https://i.redd.it/tqgcax3f0wi01.jpg",
-            "label": "Apple pie from Winkel 43 in Amsterdam, Netherlands. The most perfectly ..."
+            "url": "https://c8.alamy.com/comp/H2H0X6/caf-de-jaren-canal-side-terrace-on-the-amstel-amsterdam-dutch-netherlands-H2H0X6.jpg",
+            "label": "Café de Jaren canal side terrace on the Amstel Amsterdam Dutch ..."
           }
         ]
       },
       {
-        "name": "Café de la Paix",
-        "name_zh": "和平咖啡館 · 布魯塞爾經典",
+        "name": "Le Pain Quotidien",
+        "name_zh": "每日麵包咖啡館",
         "stars": "",
-        "dish": "🥐 招牌：比利時鬆餅 · 熱巧克力 · 馬卡龍",
-        "address": "Galerie du Roi 1, Brussels",
+        "dish": "🥖 招牌：有機麵包 · 果醬 · 熱巧克力",
+        "address": "Rue des Sablons 11, Brussels",
         "price_ntd": 2000,
-        "price_label": "五人早午餐 €55 · NT$1,925",
-        "hours": "08:00–22:00",
-        "search_query": "Cafe de la Paix Brussels Galeries Royales",
+        "price_label": "五人早午餐約 €57 · NT$2,000",
+        "hours": "07:30–18:00",
+        "search_query": "Le Pain Quotidien Brussels",
         "photos": [
           {
-            "url": "https://news.mynavi.jp/article/20220528-2353625/images/001.jpg",
-            "label": "『マイファミリー』第8話 「俺が誘拐した」東堂が犯行の一部始終を語る | マイナビニュース"
+            "url": "http://zambetsisanatate.ro/wp-content/uploads/2016/01/Bruxelles-Le-Pain-Quotidien-1.jpg",
+            "label": "Delicios în Bruxelles: Le Pain Quotidien | Zâmbet şi sănătate"
+          },
+          {
+            "url": "https://www.grsh.be/wp-content/uploads/2018/07/00-PAIN_QUOTIDIEN_REINE_001_L.jpg",
+            "label": "Le Pain Quotidien in Brussel - Koninklijke Sint-Hubertusgalerijen"
+          },
+          {
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/14/f4/e6/21/betrina.jpg",
+            "label": "Le Pain Quotidien, Bruxelles - Rue des Sablons 11 - Restaurant Avis ..."
           }
         ]
       },
       {
         "name": "Confiserie Sprüngli",
-        "name_zh": "史賓格利巧克力 · 蘇黎世老店",
+        "name_zh": "史賓利巧克力咖啡館",
         "stars": "",
-        "dish": "🍫 招牌：Luxemburgerli 馬卡龍 · 熱可可",
-        "address": "Bahnhofstrasse 21, Zürich",
-        "price_ntd": 2500,
-        "price_label": "五人下午茶 CHF 70 · NT$2,520",
+        "dish": "🍫 招牌：瑞士巧克力 · 馬卡龍 · 熱可可",
+        "address": "Bahnhofstrasse 21, Zurich",
+        "price_ntd": 3000,
+        "price_label": "五人下午茶約 CHF 85 · NT$2,975",
         "hours": "07:30–18:30",
-        "search_query": "Sprungli Zurich Luxemburgerli",
+        "search_query": "Confiserie Sprüngli Zurich",
         "photos": [
           {
-            "url": "https://industrie.lu/im/i/g/IMG_1780Luxemburgerli.jpg",
-            "label": "Luxemburgerli, Sprüngli, Zürich (Schweiz)"
+            "url": "https://c8.alamy.com/comp/A9J86A/switzerland-zurich-confiserie-spuengli-at-paradeplatz-A9J86A.jpg",
+            "label": "Confiserie sprüngli bahnhofstraße zurich switzerland hi-res stock ..."
           },
           {
             "url": "https://www.gpsmycity.com/img/gd_sight/25108.jpg",
             "label": "Confiserie Sprüngli (Sprüngli Confectionery), Zurich"
           },
           {
-            "url": "https://switzerlanding.com/wp-content/uploads/2022/11/IMG_6042-1024x768.jpg",
-            "label": "Self-Guided Free Walking Tour of Zurich: All The Highlights ..."
+            "url": "https://c8.alamy.com/compde/a9j868/schweiz-zurich-confiserie-spuengli-am-paradeplatz-a9j868.jpg",
+            "label": "Confiserie sprungli zurich -Fotos und -Bildmaterial in hoher Auflösung ..."
           }
         ]
       }
@@ -390,553 +410,565 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "July 1 · Wed",
+      "date": "July 1 · Sat",
       "label_zh": "抵達阿姆斯特丹",
       "hotel_name": "Hotel V Nesplein",
-      "hotel_name_zh": "阿姆斯特丹V酒店 · 兩間連通房",
-      "hotel_room": "兩間連通房（一大床+兩單床）",
-      "weather": "⛅ 22°/14°",
-      "rain_pct": "20%",
+      "hotel_name_zh": "阿姆斯特丹V酒店",
+      "hotel_room": "家庭房（兩間連通房）",
+      "weather": "☀️ 22°/14°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "起床 · 飯店早餐"
+          "time": "07:30",
+          "desc": "✈️ 抵達 AMS 史基浦機場 · 入境通關取行李 · 購買OV卡交通"
         },
         {
           "time": "09:00",
-          "desc": "🚕 從飯店步行至阿姆斯特丹中央車站（5分鐘）"
+          "desc": "🚄 機場火車至阿姆斯特丹中央車站（15分鐘） · 步行至酒店入住寄存行李"
         },
         {
-          "time": "10:00",
-          "desc": "🚢 運河遊船（1小時）· 從中央車站出發，票價€16/人"
+          "time": "10:30",
+          "desc": "🥐 Café de Jaren 早午餐 · 荷蘭蘋果派 + 卡布奇諾"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ Moeders 午餐 · 荷蘭傳統燉肉"
+          "desc": "🚲 租自行車 · 騎行探索運河區 · 安妮之家（需預約）"
         },
         {
           "time": "14:00",
-          "desc": "🏛️ 安妮之家（預約票 €16/人）· 步行15分鐘"
+          "desc": "🎨 梵谷博物館（預約票 €19/成人，18歲以下免費）"
         },
         {
           "time": "16:00",
-          "desc": "🌷 花卉市場 Bloemenmarkt · 步行10分鐘"
+          "desc": "🍦 運河遊船（1小時） · 欣賞黃金時代建築"
         },
         {
           "time": "18:00",
-          "desc": "🍦 Café Winkel 43 蘋果派下午茶"
+          "desc": "🍜 Momo 亞洲融合小館 · 拉麵餃子適合少女"
         },
         {
           "time": "20:00",
-          "desc": "🏨 回飯店休息"
+          "desc": "🏨 回酒店休息 · 家庭房兩間連通房"
         }
       ]
     },
     {
       "day": 2,
-      "date": "July 2 · Thu",
-      "label_zh": "阿姆斯特丹市區探索",
+      "date": "July 2 · Sun",
+      "label_zh": "風車村與羊角村",
       "hotel_name": "Hotel V Nesplein",
-      "hotel_name_zh": "阿姆斯特丹V酒店 · 兩間連通房",
-      "hotel_room": "兩間連通房（一大床+兩單床）",
-      "weather": "🌤 24°/16°",
-      "rain_pct": "10%",
+      "hotel_name_zh": "阿姆斯特丹V酒店",
+      "hotel_room": "家庭房（兩間連通房）",
+      "weather": "⛅ 20°/13°",
+      "rain_pct": "20%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "起床 · 飯店早餐"
+          "desc": "🌅 起床 · 酒店自助早餐"
         },
         {
           "time": "09:00",
-          "desc": "🚶 步行至國家博物館 Rijksmuseum（10分鐘）· 預約票 €20/人"
+          "desc": "🚄 火車至 Zaandijk Zaanse Schans（20分鐘） · 參觀風車村"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 博物館廣場午餐 · 自由選擇"
+          "time": "11:00",
+          "desc": "🧀 起司農場 · 木鞋工廠 · 拍照"
         },
         {
-          "time": "14:00",
-          "desc": "🎨 梵谷博物館（預約票 €19/人）· 相鄰"
+          "time": "12:30",
+          "desc": "🍽️ 風車村午餐 · 荷蘭煎餅"
         },
         {
-          "time": "16:00",
-          "desc": "🛍️ 九街購物區 De Negen Straatjes · 步行15分鐘"
+          "time": "13:30",
+          "desc": "🚌 巴士至羊角村 Giethoorn（約1.5小時）"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 晚餐：De Librije（需提前預約，火車至Zwolle 1小時）"
+          "time": "15:00",
+          "desc": "🛶 羊角村平底船遊覽 · 童話小鎮"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚌 巴士返回阿姆斯特丹（2小時）"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍕 自由用餐 · 可選披薩或超市買零食"
         },
         {
           "time": "20:00",
-          "desc": "🚄 返回阿姆斯特丹 · 飯店休息"
+          "desc": "🏨 回酒店休息"
         }
       ]
     },
     {
       "day": 3,
-      "date": "July 3 · Fri",
-      "label_zh": "阿姆斯特丹 → 安特衛普",
-      "hotel_name": "Hotel V Nesplein",
-      "hotel_name_zh": "阿姆斯特丹V酒店 · 兩間連通房",
-      "hotel_room": "兩間連通房（一大床+兩單床）",
-      "weather": "🌤 25°/17°",
-      "rain_pct": "15%",
+      "date": "July 3 · Mon",
+      "label_zh": "阿姆斯特丹 → 布魯塞爾",
+      "hotel_name": "Hotel des Colonies",
+      "hotel_name_zh": "布魯塞爾殖民酒店",
+      "hotel_room": "兩間雙人房+一間單人房",
+      "weather": "☀️ 23°/15°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "起床 · 打包行李 · 飯店早餐"
+          "desc": "🌅 起床 · 酒店早餐 · 退房寄存行李"
         },
         {
           "time": "09:00",
-          "desc": "🚕 退房 · 步行至中央車站（5分鐘）"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚄 搭乘 Thalys 高鐵 從 Amsterdam Centraal 到 Antwerpen-Centraal（1小時10分）· 票價 €45/人"
+          "desc": "🚲 騎行至國家博物館 Rijksmuseum"
         },
         {
           "time": "11:00",
-          "desc": "🏨 抵達安特衛普 · 步行至 Hotel Julien（10分鐘）· 寄放行李"
+          "desc": "🎨 國家博物館（夜巡名畫）"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 午餐：Chez Léon 淡菜鍋"
+          "time": "12:30",
+          "desc": "🍽️ 博物館廣場午餐"
         },
         {
           "time": "14:00",
-          "desc": "🏛️ 安特衛普中央車站（最美火車站）· 步行遊覽"
+          "desc": "🚄 阿姆斯特丹中央車站 → 布魯塞爾南站（Thalys高鐵1h50m，€49/人）"
         },
         {
           "time": "16:00",
-          "desc": "🎨 魯本斯之家 Rubenshuis（門票 €12/人）"
+          "desc": "🏨 步行至酒店入住（5分鐘）"
         },
         {
-          "time": "18:00",
-          "desc": "🛍️ 梅爾街 Meir 購物"
+          "time": "17:00",
+          "desc": "🍫 巧克力之旅 · 大廣場 · 尿尿小童"
+        },
+        {
+          "time": "19:00",
+          "desc": "🥩 Le Bistro du Musée 晚餐 · 比利時燉牛肉"
         },
         {
           "time": "20:00",
-          "desc": "🏨 回飯店入住 · 休息"
+          "desc": "🏨 回酒店休息"
         }
       ]
     },
     {
       "day": 4,
-      "date": "July 4 · Sat",
-      "label_zh": "安特衛普 + 布魯日一日遊",
-      "hotel_name": "Hotel Julien",
-      "hotel_name_zh": "朱利安精品酒店 · 兩間高級雙人房",
-      "hotel_room": "兩間高級雙人房",
-      "weather": "🌤 26°/18°",
-      "rain_pct": "10%",
+      "date": "July 4 · Tue",
+      "label_zh": "布魯塞爾 & 滑鐵盧",
+      "hotel_name": "Hotel des Colonies",
+      "hotel_name_zh": "布魯塞爾殖民酒店",
+      "hotel_room": "兩間雙人房+一間單人房",
+      "weather": "⛅ 21°/13°",
+      "rain_pct": "15%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "起床 · 飯店早餐"
+          "desc": "🌅 起床 · 酒店早餐"
         },
         {
           "time": "09:00",
-          "desc": "🚄 從 Antwerpen-Centraal 到 Brugge（1小時20分）· 票價 €25/人"
+          "desc": "🚇 地鐵至歐盟區 · 參觀歐盟議會"
         },
         {
           "time": "10:30",
-          "desc": "🏛️ 布魯日鐘樓 Belfort（門票 €14/人）"
+          "desc": "🎨 漫畫博物館 · 少女們喜歡丁丁"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 午餐：布魯日廣場餐廳"
+          "desc": "🍽️ 午餐 · 比利時薯條 + 鬆餅"
         },
         {
-          "time": "14:00",
-          "desc": "🚤 布魯日運河遊船（30分鐘）· €10/人"
+          "time": "13:30",
+          "desc": "🚌 巴士至滑鐵盧（30分鐘）"
         },
         {
-          "time": "16:00",
-          "desc": "🍫 巧克力博物館 Choco-Story（門票 €12/人）"
+          "time": "14:30",
+          "desc": "🏟️ 滑鐵盧戰場 · 獅子丘"
+        },
+        {
+          "time": "16:30",
+          "desc": "🚌 返回布魯塞爾"
         },
         {
           "time": "18:00",
-          "desc": "🚄 返回安特衛普"
+          "desc": "🛍️ 聖胡伯特購物長廊"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 自由用餐"
         },
         {
           "time": "20:00",
-          "desc": "🏨 回飯店休息"
+          "desc": "🏨 回酒店休息"
         }
       ]
     },
     {
       "day": 5,
-      "date": "July 5 · Sun",
-      "label_zh": "安特衛普 → 布魯塞爾",
-      "hotel_name": "Hotel Julien",
-      "hotel_name_zh": "朱利安精品酒店 · 兩間高級雙人房",
-      "hotel_room": "兩間高級雙人房",
-      "weather": "🌤 27°/19°",
-      "rain_pct": "10%",
+      "date": "July 5 · Wed",
+      "label_zh": "布魯日一日遊",
+      "hotel_name": "Hotel des Colonies",
+      "hotel_name_zh": "布魯塞爾殖民酒店",
+      "hotel_room": "兩間雙人房+一間單人房",
+      "weather": "☀️ 24°/15°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "起床 · 飯店早餐"
+          "desc": "🌅 起床 · 酒店早餐"
         },
         {
           "time": "09:00",
-          "desc": "🚄 退房 · 從 Antwerpen-Centraal 到 Brussels Central（45分鐘）· 票價 €15/人"
+          "desc": "🚄 火車至布魯日（1小時，€14/人）"
         },
         {
           "time": "10:00",
-          "desc": "🏛️ 大廣場 Grand Place · 步行遊覽"
+          "desc": "🏰 布魯日市場廣場 · 鐘樓登頂"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 午餐：Café de la Paix 比利時鬆餅"
+          "desc": "🛶 運河遊船"
         },
         {
-          "time": "14:00",
-          "desc": "🚶 尿尿小童 · 步行5分鐘"
+          "time": "13:00",
+          "desc": "🍽️ 午餐 · 淡菜鍋"
+        },
+        {
+          "time": "14:30",
+          "desc": "🍫 巧克力博物館"
         },
         {
           "time": "16:00",
-          "desc": "🎨 比利時漫畫中心（門票 €12/人）"
+          "desc": "🚄 火車返回布魯塞爾"
         },
         {
           "time": "18:00",
-          "desc": "🛍️ 聖胡伯特購物長廊 Galeries Royales"
+          "desc": "🍽️ 自由用餐"
         },
         {
           "time": "20:00",
-          "desc": "🚄 返回安特衛普 · 飯店休息"
+          "desc": "🏨 回酒店休息"
         }
       ]
     },
     {
       "day": 6,
-      "date": "July 6 · Mon",
-      "label_zh": "安特衛普 → 琉森（轉機日）",
-      "hotel_name": "Hotel Schweizerhof Luzern",
-      "hotel_name_zh": "琉森施維澤霍夫酒店 · 兩間湖景房",
-      "hotel_room": "兩間湖景房（一大床+兩單床）",
-      "weather": "🌤 28°/20°",
-      "rain_pct": "5%",
+      "date": "July 6 · Thu",
+      "label_zh": "布魯塞爾 → 伯恩",
+      "hotel_name": "Hotel Schweizerhof Bern",
+      "hotel_name_zh": "伯恩施維澤霍夫酒店",
+      "hotel_room": "兩間連通房",
+      "weather": "☀️ 26°/17°",
+      "rain_pct": "0%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "起床 · 打包行李 · 飯店早餐"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚕 退房 · 步行至 Antwerpen-Centraal（10分鐘）"
+          "desc": "🌅 起床 · 酒店早餐 · 退房"
         },
         {
           "time": "09:30",
-          "desc": "🚄 搭乘 Thalys 高鐵 從 Antwerpen-Centraal 到 Brussels Airport（30分鐘）· 票價 €20/人"
+          "desc": "🚄 布魯塞爾南站 → 伯恩（ICE高鐵，約5小時，需轉車一次，€90/人）"
         },
         {
-          "time": "11:00",
-          "desc": "✈️ 從布魯塞爾機場飛往蘇黎世（1小時30分）· 票價 €80/人"
-        },
-        {
-          "time": "13:00",
-          "desc": "🚄 從蘇黎世機場到琉森（1小時）· 票價 CHF 25/人"
+          "time": "10:00",
+          "desc": "🚄 在法蘭克福轉車（停留30分鐘）"
         },
         {
           "time": "14:30",
-          "desc": "🏨 入住 Hotel Schweizerhof Luzern · 湖景房"
+          "desc": "🏨 抵達伯恩 · 入住酒店"
         },
         {
-          "time": "16:00",
-          "desc": "🚶 卡貝爾橋 Chapel Bridge · 步行5分鐘"
+          "time": "15:30",
+          "desc": "🏛️ 伯恩舊城區 · 時鐘塔 · 熊公園"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 晚餐：飯店湖畔餐廳"
+          "time": "17:00",
+          "desc": "🍦 漫步阿勒河畔"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍝 Ristorante da Ernesto 晚餐"
         },
         {
           "time": "20:00",
-          "desc": "🏨 回房休息"
+          "desc": "🏨 回酒店休息"
         }
       ]
     },
     {
       "day": 7,
-      "date": "July 7 · Tue",
-      "label_zh": "琉森湖區 + 瑞吉山",
-      "hotel_name": "Hotel Schweizerhof Luzern",
-      "hotel_name_zh": "琉森施維澤霍夫酒店 · 兩間湖景房",
-      "hotel_room": "兩間湖景房（一大床+兩單床）",
-      "weather": "☀️ 30°/22°",
+      "date": "July 7 · Fri",
+      "label_zh": "少女峰一日遊",
+      "hotel_name": "Hotel Schweizerhof Bern",
+      "hotel_name_zh": "伯恩施維澤霍夫酒店",
+      "hotel_room": "兩間連通房",
+      "weather": "☀️ 8°/-2° (山頂)",
       "rain_pct": "0%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "起床 · 飯店早餐"
+          "desc": "🌅 起床 · 酒店早餐"
         },
         {
           "time": "09:00",
-          "desc": "🚢 琉森湖遊船至 Vitznau（1小時）· 票價 CHF 30/人"
+          "desc": "🚄 火車至因特拉肯（1小時）"
         },
         {
           "time": "10:30",
-          "desc": "🚂 瑞吉山齒軌列車 Rigi Bahn（30分鐘）· 票價 CHF 40/人"
+          "desc": "🚞 少女峰鐵路（需換車，2小時）"
         },
         {
-          "time": "12:00",
-          "desc": "🏔️ 瑞吉山頂觀景 · 午餐（山頂餐廳）"
+          "time": "12:30",
+          "desc": "🏔️ 少女峰頂 · 冰宮 · 觀景台"
         },
         {
           "time": "14:00",
-          "desc": "🚂 下山返回琉森"
+          "desc": "🍽️ 山頂午餐"
         },
         {
-          "time": "16:00",
-          "desc": "🛍️ 琉森老城區購物 · 天鵝廣場"
+          "time": "15:00",
+          "desc": "🚞 下山返回因特拉肯"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 晚餐：Wirtschaft zum Pfauen 起司火鍋"
+          "time": "17:00",
+          "desc": "🚄 回伯恩"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 自由用餐"
         },
         {
           "time": "20:00",
-          "desc": "🏨 回飯店休息"
+          "desc": "🏨 回酒店休息"
         }
       ]
     },
     {
       "day": 8,
-      "date": "July 8 · Wed",
-      "label_zh": "琉森 → 因特拉肯少女峰",
+      "date": "July 8 · Sat",
+      "label_zh": "伯恩 → 盧森",
       "hotel_name": "Hotel Schweizerhof Luzern",
-      "hotel_name_zh": "琉森施維澤霍夫酒店 · 兩間湖景房",
-      "hotel_room": "兩間湖景房（一大床+兩單床）",
-      "weather": "☀️ 31°/23°",
-      "rain_pct": "5%",
+      "hotel_name_zh": "盧森施維澤霍夫酒店",
+      "hotel_room": "兩間連通房（湖景）",
+      "weather": "☀️ 27°/18°",
+      "rain_pct": "0%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "起床 · 飯店早餐"
+          "desc": "🌅 起床 · 酒店早餐 · 退房"
         },
         {
           "time": "09:00",
-          "desc": "🚄 從琉森到 Interlaken Ost（2小時）· 票價 CHF 50/人"
+          "desc": "🚄 火車至盧森（1小時）"
         },
         {
-          "time": "11:30",
-          "desc": "🚂 少女峰鐵路 Jungfraubahn（1小時）· 票價 CHF 200/人"
+          "time": "10:00",
+          "desc": "🏨 入住盧森酒店 · 湖景房"
         },
         {
-          "time": "13:00",
-          "desc": "🏔️ 少女峰頂觀景 · 午餐（山頂餐廳）"
+          "time": "11:00",
+          "desc": "🦁 獅子紀念碑 · 卡貝爾橋"
         },
         {
-          "time": "15:00",
-          "desc": "🚂 下山返回 Interlaken"
+          "time": "12:30",
+          "desc": "🍽️ 午餐 · 瑞士起司鍋"
         },
         {
-          "time": "17:00",
-          "desc": "🚄 返回琉森"
+          "time": "14:00",
+          "desc": "🚢 盧森湖遊船（2小時）"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏔️ 瑞吉山纜車（可選）"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 晚餐：飯店餐廳"
+          "desc": "🍽️ 酒店晚餐"
         },
         {
           "time": "20:00",
-          "desc": "🏨 回飯店休息"
+          "desc": "🏨 回酒店休息"
         }
       ]
     },
     {
       "day": 9,
-      "date": "July 9 · Thu",
-      "label_zh": "琉森 → 伯恩",
-      "hotel_name": "Hotel Bristol Bern",
-      "hotel_name_zh": "伯恩布里斯托酒店 · 兩間家庭房",
-      "hotel_room": "兩間家庭房",
-      "weather": "🌤 28°/20°",
-      "rain_pct": "10%",
+      "date": "July 9 · Sun",
+      "label_zh": "鐵力士山 & 琉森",
+      "hotel_name": "Hotel Schweizerhof Luzern",
+      "hotel_name_zh": "盧森施維澤霍夫酒店",
+      "hotel_room": "兩間連通房（湖景）",
+      "weather": "☀️ 10°/2° (山頂)",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "起床 · 打包行李 · 飯店早餐"
+          "desc": "🌅 起床 · 酒店早餐"
         },
         {
           "time": "09:00",
-          "desc": "🚄 退房 · 從琉森到 Bern（1小時）· 票價 CHF 30/人"
+          "desc": "🚌 巴士至英格堡（1小時）"
         },
         {
-          "time": "10:30",
-          "desc": "🏨 入住 Hotel Bristol Bern · 寄放行李"
+          "time": "10:00",
+          "desc": "🚡 鐵力士山纜車 · 冰川公園"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 午餐：伯恩舊城區餐廳"
+          "desc": "🍽️ 山頂午餐"
         },
         {
-          "time": "14:00",
-          "desc": "🏛️ 伯恩鐘樓 Zytglogge · 步行遊覽"
+          "time": "13:30",
+          "desc": "🎿 雪地遊戲（少女們可玩雪）"
         },
         {
-          "time": "16:00",
-          "desc": "🐻 伯恩熊公園 BärenPark · 免費"
+          "time": "15:00",
+          "desc": "🚡 下山返回琉森"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 晚餐：Schloss Schauenstein（需提前預約，火車至Fürstenau 1小時）"
+          "time": "16:30",
+          "desc": "🛍️ 琉森購物街"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 自由用餐"
         },
         {
           "time": "20:00",
-          "desc": "🚄 返回伯恩 · 飯店休息"
+          "desc": "🏨 回酒店休息"
         }
       ]
     },
     {
       "day": 10,
-      "date": "July 10 · Fri",
-      "label_zh": "伯恩 → 蘇黎世",
-      "hotel_name": "Hotel Bristol Bern",
-      "hotel_name_zh": "伯恩布里斯托酒店 · 兩間家庭房",
-      "hotel_room": "兩間家庭房",
-      "weather": "🌤 29°/21°",
-      "rain_pct": "10%",
+      "date": "July 10 · Mon",
+      "label_zh": "盧森 → 蘇黎世",
+      "hotel_name": "Hotel Schweizerhof Luzern",
+      "hotel_name_zh": "盧森施維澤霍夫酒店",
+      "hotel_room": "兩間連通房（湖景）",
+      "weather": "☀️ 28°/19°",
+      "rain_pct": "0%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "起床 · 飯店早餐"
+          "desc": "🌅 起床 · 酒店早餐 · 退房"
         },
         {
           "time": "09:00",
-          "desc": "🚄 從 Bern 到 Zürich（1小時）· 票價 CHF 35/人"
+          "desc": "🚄 火車至蘇黎世（1小時）"
         },
         {
-          "time": "10:30",
-          "desc": "🏛️ 蘇黎世美術館 Kunsthaus（門票 CHF 23/人）"
+          "time": "10:00",
+          "desc": "🏛️ 蘇黎世舊城區 · 班霍夫大街"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 午餐：Confiserie Sprüngli 下午茶"
+          "desc": "🍽️ 午餐 · 蘇黎世小牛肉"
         },
         {
-          "time": "14:00",
-          "desc": "🚶 班霍夫大街 Bahnhofstrasse 購物"
+          "time": "13:30",
+          "desc": "🎨 蘇黎世美術館"
         },
         {
-          "time": "16:00",
-          "desc": "🌳 蘇黎世湖遊船（1小時）· CHF 20/人"
+          "time": "15:30",
+          "desc": "🛍️ 自由購物時間"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 晚餐：Wirtschaft zum Pfauen"
+          "time": "17:00",
+          "desc": "🍫 Confiserie Sprüngli 下午茶"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 自由用餐"
         },
         {
           "time": "20:00",
-          "desc": "🚄 返回伯恩 · 飯店休息"
+          "desc": "🏨 回酒店休息（蘇黎世機場附近酒店，方便隔天搭機）"
         }
       ]
     },
     {
       "day": 11,
-      "date": "July 11 · Sat",
-      "label_zh": "伯恩 → 阿姆斯特丹（轉機日）",
-      "hotel_name": "Hotel V Nesplein",
-      "hotel_name_zh": "阿姆斯特丹V酒店 · 兩間連通房",
-      "hotel_room": "兩間連通房（一大床+兩單床）",
-      "weather": "🌤 25°/17°",
-      "rain_pct": "15%",
+      "date": "July 11 · Tue",
+      "label_zh": "蘇黎世自由日",
+      "hotel_name": "Hotel Schweizerhof Luzern",
+      "hotel_name_zh": "盧森施維澤霍夫酒店",
+      "hotel_room": "兩間連通房（湖景）",
+      "weather": "☀️ 28°/19°",
+      "rain_pct": "0%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "起床 · 打包行李 · 飯店早餐"
+          "desc": "🌅 起床 · 酒店早餐"
         },
         {
           "time": "09:00",
-          "desc": "🚄 退房 · 從 Bern 到 Zürich Airport（1小時15分）· 票價 CHF 40/人"
+          "desc": "🛍️ 蘇黎世購物 · 少女們喜愛的巧克力店"
         },
         {
-          "time": "11:00",
-          "desc": "✈️ 從蘇黎世機場飛往阿姆斯特丹（1小時30分）· 票價 €100/人"
+          "time": "12:00",
+          "desc": "🍽️ 午餐"
         },
         {
-          "time": "13:00",
-          "desc": "🚄 從 Schiphol 到 Amsterdam Centraal（15分鐘）· 票價 €5/人"
+          "time": "13:30",
+          "desc": "🏞️ 蘇黎世湖散步"
         },
         {
-          "time": "14:00",
-          "desc": "🏨 入住 Hotel V Nesplein"
+          "time": "15:00",
+          "desc": "✈️ 前往蘇黎世機場 · 辦理退稅"
         },
         {
-          "time": "16:00",
-          "desc": "🛍️ 最後購物 · 水壩廣場"
+          "time": "17:00",
+          "desc": "🛂 通關 · 登機"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 晚餐：Moeders"
+          "time": "19:00",
+          "desc": "🍽️ 機場晚餐"
         },
         {
           "time": "20:00",
-          "desc": "🏨 回飯店休息"
+          "desc": "🏨 登機（夜間飛行）"
         }
       ]
     },
     {
       "day": 12,
-      "date": "July 12 · Sun",
-      "label_zh": "回程日",
-      "hotel_name": "Hotel V Nesplein",
-      "hotel_name_zh": "阿姆斯特丹V酒店 · 兩間連通房",
-      "hotel_room": "兩間連通房（一大床+兩單床）",
-      "weather": "⛅ 22°/14°",
-      "rain_pct": "20%",
+      "date": "July 12 · Wed",
+      "label_zh": "返抵台灣",
+      "hotel_name": "",
+      "hotel_name_zh": "",
+      "hotel_room": "",
+      "weather": "",
+      "rain_pct": "",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "起床 · 飯店早餐"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚕 退房 · 步行至中央車站（5分鐘）"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚄 從 Amsterdam Centraal 到 Schiphol（15分鐘）· 票價 €5/人"
-        },
-        {
-          "time": "10:30",
-          "desc": "✈️ 辦理登機 · 出境"
-        },
-        {
-          "time": "11:00",
-          "desc": "🛫 飛往台灣"
-        },
-        {
-          "time": "06:00",
-          "desc": "🛬 隔日抵達 TPE"
+          "time": "06:30",
+          "desc": "✈️ 抵達 TPE 桃園機場 · 結束旅程"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（5人）",
+      "label": "✈️ 來回機票",
       "amount_ntd": 225000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 315000
+      "amount_ntd": 261000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 80000
+      "amount_ntd": 140000
     },
     {
       "label": "🎫 景點門票",
+      "amount_ntd": 75000
+    },
+    {
+      "label": "🚄 跨國交通",
       "amount_ntd": 60000
     },
     {
-      "label": "🚄 交通（火車/船/飛機）",
-      "amount_ntd": 70000
-    },
-    {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 50000
+      "amount_ntd": 39000
     }
   ],
   "cost_total_ntd": 800000,
@@ -944,38 +976,22 @@
   "photos": {
     "hero": [
       {
-        "url": "https://i.ytimg.com/vi/CU8VP6eIzFI/maxresdefault.jpg",
-        "label": "HOW TO VLOG For Beginners // Tips to make better vlogs & become a ..."
+        "url": "https://c8.alamy.com/comp/WW5T11/amsterdam-skyline-with-landmark-buidings-and-canal-in-amsterdam-city-netherlands-WW5T11.jpg",
+        "label": "Amsterdam netherlands city skyline hi-res stock photography and images ..."
+      },
+      {
+        "url": "https://img.freepik.com/premium-photo/rotterdam-netherlands-skyline_941551-881.jpg?w=2000",
+        "label": "Premium Photo | Rotterdam netherlands skyline"
       }
     ],
     "destination": [
       {
-        "url": "https://mldvwwasb8tu.i.optimole.com/cb:esbD~6200b/w:1500/h:1000/q:90/f:best/ig:avif/https://travelaway.me/wp-content/uploads/2020/06/giethoorn-netherlands.jpg",
-        "label": "15 Beautiful Places in the Netherlands You Need to See"
-      },
-      {
-        "url": "https://photoworldtours.com/wp-content/uploads/2020/04/netherlands-photo-tour-1.jpg",
-        "label": "Netherlands Scenery Port Of Amsterdam: New Lock Gates Arrive In The"
-      },
-      {
-        "url": "https://i.pinimg.com/originals/fa/74/0b/fa740b4025bc454fa794659a4fac6cf6.jpg",
-        "label": "Kinderdijk, Netherlands | 絶景, 風景, 美しい場所"
-      },
-      {
-        "url": "https://wallpaperaccess.com/full/98915.jpg",
-        "label": "Netherlands Landscape Wallpapers - Top Free Netherlands Landscape ..."
-      },
-      {
-        "url": "https://www.roadaffair.com/wp-content/uploads/2022/01/windmills-and-tulips-of-kinderdijk-netherlands-shutterstock_1440654434.jpg",
-        "label": "15 Best Places to Visit in the Netherlands in 2024 - Road Affair"
-      },
-      {
-        "url": "https://www.winetraveler.com/wp-content/uploads/2021/10/best-places-to-visit-in-the-netherlands.jpg",
-        "label": "8 Best Places To Visit In The Netherlands • Winetraveler"
+        "url": "https://n.sinaimg.cn/sinakd20230324s/15/w1080h535/20230324/2cc0-dc5f9b36a2e2b7ca2c670cc900909a21.png",
+        "label": "【平板】2299起 华为MatePad11新款发布 骁龙870柔光屏_手机新浪网"
       }
     ]
   },
-  "chat_hash": "a7996c30a680766dd3912d28059a0a8522454f874c0a2a18906bec75d05d3969",
+  "chat_hash": "5b38ed90ad5ccea8a2ae2548586e374993cffcae6aea3d64e637674d1693a212",
   "config_hash": "245a6b7af0a400802f2091e095f5aaf46fd691cc3bf74b637c0ac10e452d193b",
-  "generated_at": "2026-05-17T09:56:03.570318"
+  "generated_at": "2026-05-17T10:06:00.411361"
 }
