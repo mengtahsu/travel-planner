@@ -1,113 +1,171 @@
 {
-  "destination_en": "Maldives",
-  "title_zh": "馬爾地夫 · 一月浪漫六天之旅",
-  "date_range": "2027/01/09–01/14",
-  "start_date": "2027-01-09",
-  "end_date": "2027-01-14",
+  "destination_en": "Netherlands & Switzerland",
+  "title_zh": "荷蘭瑞士 · 暑期家庭之旅",
+  "date_range": "2028/07/15–07/26",
+  "start_date": "2028-07-15",
+  "end_date": "2028-07-26",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "MLE",
-  "travelers": 2,
-  "days": 6,
-  "budget_ntd": 350000,
+  "destination_code": "AMS",
+  "travelers": 5,
+  "days": 12,
+  "budget_ntd": 800000,
   "flight": {
-    "airline": "新加坡航空 Singapore Airlines",
-    "departure_date": "1月9日",
-    "return_date": "1月14日",
-    "total_price_ntd": 52000,
+    "airline": "中華航空 China Airlines + 瑞士國際航空 Swiss",
+    "departure_date": "7月15日",
+    "return_date": "7月26日",
+    "total_price_ntd": 175000,
     "outbound": {
-      "flight_no": "SQ 879",
-      "route": "TPE → SIN → MLE",
-      "depart_time": "17:40",
-      "arrive_time": "22:50 (+1)",
-      "duration": "12h 10m (含轉機1h40m)",
+      "flight_no": "CI 73 + LX 735",
+      "route": "TPE → AMS 經曼谷轉機",
+      "depart_time": "23:30",
+      "arrive_time": "07:15 (+1)",
+      "duration": "14h 45m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "SQ 462",
-      "route": "MLE → SIN → TPE",
-      "depart_time": "23:25",
-      "arrive_time": "17:35 (+1)",
-      "duration": "12h 10m (含轉機2h)",
+      "flight_no": "LX 138 + CI 64",
+      "route": "ZRH → TPE 經香港轉機",
+      "depart_time": "13:10",
+      "arrive_time": "06:50 (+1)",
+      "duration": "15h 40m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Constance Halaveli Maldives",
-      "name_zh": "康斯丹哈拉薇莉渡假村",
-      "district": "北阿里環礁",
-      "day_range": "1–3",
-      "nights": 3,
-      "price_ntd": 120000,
-      "stars": "★★★★★",
-      "room_type": "水上別墅 (Water Villa)",
+      "name": "Hotel V Nesplein",
+      "name_zh": "V Nesplein 酒店",
+      "district": "阿姆斯特丹市中心",
+      "day_range": "1–4",
+      "nights": 4,
+      "price_ntd": 92000,
+      "stars": "★★★★☆",
+      "room_type": "一間家庭房 + 一間雙人房",
       "breakfast": "含自助早餐",
-      "amenities": "🏊 無邊際泳池 · 🤿 免費浮潛設備 · 🛥️ 免費出海活動 · 🍽️ 三家餐廳 · 💆 水療中心",
-      "search_query": "Constance Halaveli Maldives water villa",
+      "amenities": "🚲 免費自行車 · 🛁 浴缸 · 🌿 庭院 · 🍳 早餐",
+      "search_query": "Hotel V Nesplein Amsterdam Netherlands",
       "photos": [
         {
-          "url": "http://www.maldiveswatervillas.com/wp-content/uploads/2017/10/halaveli-maldives-water-villa-6.jpg",
-          "label": "Water Villa - Constance Halaveli | Maldives Water Villas"
+          "url": "https://www.thehotelguru.com/_images/16/98/1698714e669f4a7d0673d05a2edd2471/hotel-v-nesplein-1180x560.jpg",
+          "label": "Hotel V Nesplein, Amsterdam, Netherlands | The Hotel Guru"
         },
         {
-          "url": "https://i.pinimg.com/originals/71/46/40/714640eea9c3fa236855fcfe27dd9aa7.jpg",
-          "label": "Constance Halaveli Resort | Maldives resort, Water villa, Maldives hotel"
+          "url": "https://www.hotel-boutique.it/wp-content/uploads/2023/01/17-3-800x480.jpg",
+          "label": "Hotel V Nesplein Amsterdam - Netherlands"
         },
         {
-          "url": "https://www.maldives.com/_next/image?url=/uploads/large_Constance_Halaveli_Accommodation_Water_Villa_08990847ef.jpg&w=1200&q=75",
-          "label": "Constance Halaveli | Luxury Resort in North Ari Atoll, Maldives"
+          "url": "http://www.cfmedia.vfmleonardo.com/imageRepo/4/0/62/814/597/WIHP_HVNesplain_front_013_R.jpg",
+          "label": "Hotel V Nesplein- Amsterdam, Netherlands Hotels- Hotels in Amsterdam ..."
         },
         {
-          "url": "https://legendstravel.ch/wp-content/uploads/2024/02/Constance-Halaveli-Water-Villa-7.jpg",
-          "label": "Constance Halaveli Maldives - Legends Travel"
+          "url": "https://cdn.homedsgn.com/wp-content/uploads/2013/04/Hotel-V-Nesplein-03.jpg",
+          "label": "The Hotel V Nesplein"
         },
         {
-          "url": "https://www.maledivenguru.de/wp-content/uploads/2024/01/constance-halaveli-water-villa.jpeg",
-          "label": "Constance Halaveli Maldives - Urlaub im Paradies | MALEDIVENGURU"
+          "url": "https://www.myboutiquehotel.com/photos/6994/hotel-v-nesplein-amsterdam-298-1739211781-2220x1400.jpg",
+          "label": "Hotel V Nesplein, a Design Boutique Hotel Amsterdam, Netherlands"
         },
         {
-          "url": "https://www.travoh.com/wp-content/uploads/2022/08/033-Constance-Halaveli-Resort-North-Ari-Atoll-Maldives-Overwater-Villa-Aerial-View.jpg",
-          "label": "Constance Halaveli Resort - North Ari Atoll, Maldives - Overwater Villa ..."
+          "url": "https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/netherlands/amsterdam/Hotel-V-Nesplein-summary.jpg",
+          "label": "Hotel V Nesplein Review, Amsterdam | Travel"
         }
       ]
     },
     {
-      "name": "Gili Lankanfushi Maldives",
-      "name_zh": "吉利蘭坎芙希渡假村",
-      "district": "北馬累環礁",
-      "day_range": "3–6",
-      "nights": 3,
-      "price_ntd": 135000,
+      "name": "Hotel Schweizerhof Bern",
+      "name_zh": "伯恩施維茲霍夫酒店",
+      "district": "伯恩市中心",
+      "day_range": "5–6",
+      "nights": 2,
+      "price_ntd": 56000,
       "stars": "★★★★★",
-      "room_type": "海上別墅 (Overwater Villa)",
-      "breakfast": "含自助早餐",
-      "amenities": "🏖️ 私人沙灘 · 🐢 海龜觀賞 · 🍽️ 水下餐廳 · 🧘 日落瑜珈 · 🛥️ 私人管家服務",
-      "search_query": "Gili Lankanfushi Maldives overwater villa",
+      "room_type": "一間家庭房 + 一間雙人房",
+      "breakfast": "含瑞士早餐",
+      "amenities": "🏔️ 山景 · 🏊 室內泳池 · 🛁 浴缸 · 🍳 早餐",
+      "search_query": "Hotel Schweizerhof Bern Switzerland",
       "photos": [
         {
-          "url": "https://gili-lankanfushi.com/wp-content/uploads/2023/05/GLM_Aerial-of-Private-Reserve.jpg",
-          "label": "The Private Reserve | Overwater Villa | Gili Lankanfushi Maldives"
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/29/2e/be/exterior.jpg?w=1200&h=-1&s=1",
+          "label": "HOTEL SCHWEIZERHOF BERN & SPA: Bewertungen, Fotos & Preisvergleich ..."
         },
         {
-          "url": "https://gili-lankanfushi.com/wp-content/uploads/2024/05/glm-villa-12-dji-0141-by-sandro-bruecklmeier-kopie-webres.jpg",
-          "label": "Overwater Villa Maldives: Serenity at Gili Lankanfushi"
+          "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/1955/195535/195535726/hotel-schweizerhof-bern-spa-bern-photo-3.JPEG",
+          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
         },
         {
-          "url": "https://gili-lankanfushi.com/wp-content/uploads/2024/05/glm-villa-18-dji-0201-by-sandro-bruecklmeier-kopie-webres.jpg",
-          "label": "Maldives Overwater Villa with Pool at Gili Lankanfushi"
+          "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/17057/1705723/1705723234/hotel-schweizerhof-bern-spa-bern-photo-85.JPEG",
+          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
         },
         {
-          "url": "https://www.maldives.com/_next/image?url=/uploads/Gili_Lankanfushi_Maldives_F_and_B_Restaurants_and_Bars_Overwater_Bar_afb1e56ffb.jpg&w=2048&q=75",
-          "label": "Gili Lankanfushi Maldives | Luxury Overwater Villas in North Malé Atoll"
+          "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/16286/1628654/1628654670/hotel-schweizerhof-bern-spa-bern-photo-1.JPEG",
+          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
         },
         {
-          "url": "https://gili-lankanfushi.com/wp-content/uploads/2024/05/glm-v12-living-img-18221-by-sandro-bruecklmeier-webres.jpg",
-          "label": "The Private Reserve | Overwater Villa | Gili Lankanfushi Maldives"
+          "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/17057/1705723/1705723248/hotel-schweizerhof-bern-spa-bern-photo-74.JPEG",
+          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
         },
         {
-          "url": "https://www.travoh.com/wp-content/uploads/2021/11/204-Gili-Lankanfushi-Resort-North-Male-Atoll-Maldives-Overwater-Villa-Sunset-1024x683.jpg",
-          "label": "Gili Lankanfushi Resort – North Male Atoll, Maldives – Overwater Villa ..."
+          "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/17057/1705722/1705722993/hotel-schweizerhof-bern-spa-bern-photo-34.JPEG",
+          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
+        }
+      ]
+    },
+    {
+      "name": "Hotel Schweizerhof Luzern",
+      "name_zh": "琉森施維茲霍夫酒店",
+      "district": "琉森湖畔",
+      "day_range": "7–9",
+      "nights": 3,
+      "price_ntd": 78000,
+      "stars": "★★★★★",
+      "room_type": "一間家庭房 + 一間雙人房",
+      "breakfast": "含瑞士早餐",
+      "amenities": "🏔️ 湖景 · 🛁 浴缸 · 🍳 早餐 · 🚂 車站步行5分鐘",
+      "search_query": "Hotel Schweizerhof Luzern Switzerland",
+      "photos": [
+        {
+          "url": "https://c8.alamy.com/comp/PT86J8/hotel-schweizerhof-luzern-lucerne-switzerland-PT86J8.jpg",
+          "label": "Lucerne switzerland hotel schweizerhof hi-res stock photography and ..."
+        },
+        {
+          "url": "https://live.staticflickr.com/2247/2275269014_50b8fd0a40_b.jpg",
+          "label": "Hotel Schweizerhof Luzern, Lake Lucerne (Switzerland) | Flickr"
+        },
+        {
+          "url": "https://c8.alamy.com/comp/2JJ0NBB/famous-hotel-schweizerhof-in-the-city-of-lucerne-in-switzerland-2JJ0NBB.jpg",
+          "label": "Schweizerhof hi-res stock photography and images - Alamy"
+        },
+        {
+          "url": "https://phgcdn.com/images/uploads/ZRHSL/masthead/ZRHSL-masthead-hotelschweizerhofluzern.jpg",
+          "label": "Hotels in Lucerne, Switzerland | Hotel Schweizerhof Luzern | Lake ..."
+        },
+        {
+          "url": "https://www.expatolife.com/wp-content/uploads/2022/12/hotel-schweizerhof-luzern-switzerland.jpeg",
+          "label": "Where To Stay In Lucerne: Best Areas & Hotels | Expatolife"
+        },
+        {
+          "url": "https://destinationsports.ch/wp-content/uploads/2020/12/Schweizerhof_Luzern-1.jpg",
+          "label": "Destination Management | Schweizerhof Lucerne - destinationsports"
+        }
+      ]
+    },
+    {
+      "name": "Hotel Eden Spiez",
+      "name_zh": "伊甸斯皮茲酒店",
+      "district": "斯皮茲圖恩湖畔",
+      "day_range": "10–11",
+      "nights": 2,
+      "price_ntd": 48000,
+      "stars": "★★★★☆",
+      "room_type": "一間家庭房 + 一間雙人房",
+      "breakfast": "含瑞士早餐",
+      "amenities": "🏔️ 湖景陽台 · 🛁 浴缸 · 🍳 早餐 · 🏊 室外泳池",
+      "search_query": "Hotel Eden Spiez Switzerland",
+      "photos": [
+        {
+          "url": "https://media.istockphoto.com/id/182454414/ja/ストックフォト/男性モダンな椅子に座る.jpg?s=612x612&w=is&k=20&c=fA8890YFGJ7tDyFzbUv81cbkS6olpmQJk4sIc3pvqjU=",
+          "label": "男性モダンな椅子に座る - ポートレートのストックフォトや画像を多数ご用意 - ポートレート, 座る, 1人 - iStock"
         }
       ]
     }
@@ -115,148 +173,156 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "The Lighthouse Restaurant",
-        "name_zh": "燈塔餐廳 · 康斯丹哈拉薇莉",
-        "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：龍蝦三重奏 · 香檳配對",
-        "address": "Constance Halaveli, 北阿里環礁",
-        "price_ntd": 8500,
-        "price_label": "晚餐套餐 €240/人 · NT$8,500",
-        "hours": "19:00–22:00 · 需預約 · 建議日落時段",
-        "search_query": "Constance Halaveli Lighthouse restaurant Maldives",
+        "name": "De Kas",
+        "name_zh": "De Kas 溫室餐廳",
+        "stars": "⭐⭐",
+        "dish": "🌿 招牌：當季採摘蔬菜套餐",
+        "address": "Kamerlingh Onneslaan 3, 1097 DE Amsterdam",
+        "price_ntd": 2250,
+        "price_label": "午餐套餐 €65/人 · NT$2,250",
+        "hours": "12:00–14:00 / 18:00–22:00 · 需預約",
+        "search_query": "De Kas restaurant Amsterdam Netherlands",
         "photos": [
           {
-            "url": "https://english.newstrack.com/h-upload/2024/09/16/1796119-gungun-gupta-viral-mms-video.webp",
-            "label": "Gungun Gupta Viral Video: Post MMS Leak Controversy"
+            "url": "https://retaildesignblog.net/wp-content/uploads/2012/02/De-Kas-Restaurant-Amsterdam-720x488.jpg",
+            "label": "» De Kas Restaurant, Amsterdam"
+          },
+          {
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics__/dc752af24fd84e4dbbe1d41164c598d7?width=1000",
+            "label": "De Kas – Amsterdam - a MICHELIN Guide Restaurant"
+          },
+          {
+            "url": "https://www.yourlittleblackbook.me/wp-content/uploads/2021/05/restaurant-de-kas-amsterdam-interieur.jpg",
+            "label": "Restaurant De Kas Amsterdam // Your Little Black Book"
           }
         ]
       },
       {
-        "name": "Muraka",
-        "name_zh": "穆拉卡 · 吉利蘭坎芙希水下餐廳",
-        "stars": "⭐⭐⭐⭐",
-        "dish": "🐟 招牌：印度洋生魚片拼盤 · 香草奶油龍蝦",
-        "address": "Gili Lankanfushi, 北馬累環礁",
-        "price_ntd": 9500,
-        "price_label": "晚餐套餐 $320/人 · NT$9,500",
-        "hours": "18:30–21:30 · 需提前預約 · 水下景觀",
-        "search_query": "Muraka underwater restaurant Gili Lankanfushi",
+        "name": "Restaurant 1731",
+        "name_zh": "1731 餐廳",
+        "stars": "⭐⭐",
+        "dish": "🥩 招牌：瑞士牛肉佐黑松露",
+        "address": "Amtshausgasse 5, 3011 Bern",
+        "price_ntd": 2800,
+        "price_label": "晚餐套餐 CHF 80/人 · NT$2,800",
+        "hours": "18:00–22:00 · 需預約",
+        "search_query": "Restaurant 1731 Bern Switzerland",
         "photos": [
           {
-            "url": "https://i.ytimg.com/vi/thnGl42T8Gc/hq720_2.jpg?sqp=-oaymwEYCMAEENAFSFryq4qpAwoIARUAAIhC0AEB&rs=AOn4CLAoCRYG3Wm_2rUkgrIguYtUwefIyA",
-            "label": "The muraka underwater restaurant | Lost Footsteps | #shorts - YouTube"
+            "url": "https://a.storyblok.com/f/272028/6720x4480/043feb2333/bern_innenansicht_kornhauskeller-restaurant_3_c_kornhauskeller-restaurant.JPG/m/1000x667/filters:format(webp):quality(1)",
+            "label": "72 heures à Berne pour les fans d’histoire et d’archéologie - Bern Welcome"
           },
           {
-            "url": "https://images.squarespace-cdn.com/content/v1/674b4248486a6227c7e3d98a/53f6c5e0-63ef-43de-9f82-ee416e1ceb5c/ithaa-undersea-restaurant.jpeg",
-            "label": "The Story of The Muraka: An Underwater Villa — Anastasia Tara"
+            "url": "https://1731restaurant.com/wp-content/uploads/2022/08/about-3-200x143.jpg",
+            "label": "Photo Gallery - 1731 Restaurant"
           },
           {
-            "url": "https://checkhotels.com.br/wp-content/uploads/2021/04/8._ithaa_undersea_restaurant_2-1024x682.jpg",
-            "label": "The Muraka: primeira suíte do mundo com um andar embaixo d’água ..."
+            "url": "https://1731restaurant.com/wp-content/uploads/2025/03/DSC02393.webp",
+            "label": "Photo Gallery - 1731 Restaurant"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Jahaz Restaurant",
-        "name_zh": "賈哈茲 · 康斯丹哈拉薇莉主餐廳",
-        "stars": "⭐",
-        "dish": "🍤 招牌：馬爾地夫龍蝦咖哩 · 烤金槍魚",
-        "address": "Constance Halaveli, 北阿里環礁",
-        "price_ntd": 4200,
-        "price_label": "自助晚餐 $140/人 · NT$4,200",
-        "hours": "19:00–22:00 · 每日主題之夜",
-        "search_query": "Jahaz restaurant Constance Halaveli",
+        "name": "Brasserie van de Kaai",
+        "name_zh": "碼頭小酒館",
+        "stars": "",
+        "dish": "🍟 招牌：比利時薯條 · 燉牛肉",
+        "address": "Prins Hendrikkade 33, 1012 TM Amsterdam",
+        "price_ntd": 1500,
+        "price_label": "家庭套餐 €45/人 · NT$1,500",
+        "hours": "11:00–22:00",
+        "search_query": "Brasserie van de Kaai Amsterdam",
         "photos": [
           {
-            "url": "https://www.travoh.com/wp-content/uploads/2022/08/138-Constance-Halaveli-Resort-North-Ari-Atoll-Maldives-Jahaz-Restaurant-Buffet.jpg",
-            "label": "Constance Halaveli Resort – North Ari Atoll, Maldives – Jahaz ..."
+            "url": "https://assets.plaece.nl/thumb/QbqfWMWlCXKTSS7BrF5XZTlsIJNGku4HoM_5Cu2AQh0/resizing_type:fit/width:960/height:0/gravity:sm/enlarge:0/aHR0cHM6Ly9hc3NldHMucGxhZWNlLm5sL29kcC1icmFiYW50c2V3YWwvaW1hZ2UvZGUta2FhaV8yNjA2MjA1NzgwLmpwZw.jpg",
+            "label": "Hotel Brasserie De Kaai | Brabantse Wal"
           },
           {
-            "url": "https://bfldr.constancehotels.com/4HTSVWZZ/at/pxjj3s9mxgvxrbbcttxnvc89/Constance-Halaveli-Restaurants_and_Bars-Jahaz_Restaurant_and_Bar-05.jpg?format=webp&width=363&height=242&fit=crop",
-            "label": "Jahaz Bar | Constance Halaveli"
+            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=548050240689983",
+            "label": "De Kaai - Restaurant"
           },
           {
-            "url": "https://bfldr.constancehotels.com/4HTSVWZZ/at/m45b2g3qpv546sw4kwp63/Constance-Halaveli-Restaurants_and_Bars-Jahaz_Restaurant_and_Bar-14.jpg?format=webp&width=363&height=242&fit=crop",
-            "label": "Jahaz Bar | Constance Halaveli"
+            "url": "https://cf.bstatic.com/xdata/images/hotel/max300/176347370.jpg?k=d040d60c2aa191fc6ce5f76e1aa9446378c0fc2f2544c83e0889ad6bc61e7a39&o=",
+            "label": "Hotel Brasserie de Kaai, Steenbergen (updated prices 2025)"
           }
         ]
       },
       {
-        "name": "By The Sea",
-        "name_zh": "海邊餐廳 · 吉利蘭坎芙希",
-        "stars": "⭐",
-        "dish": "🦀 招牌：蟹肉沙拉 · 椰子烤雞",
-        "address": "Gili Lankanfushi, 北馬累環礁",
-        "price_ntd": 3800,
-        "price_label": "午餐套餐 $125/人 · NT$3,800",
-        "hours": "12:00–15:00 · 沙灘赤足用餐",
-        "search_query": "By The Sea restaurant Gili Lankanfushi",
+        "name": "Wirtshaus zum Rebstock",
+        "name_zh": "葡萄藤酒館",
+        "stars": "",
+        "dish": "🥨 招牌：起司火鍋 · 德式香腸",
+        "address": "Gerechtigkeitsgasse 5, 3011 Bern",
+        "price_ntd": 1800,
+        "price_label": "家庭晚餐 CHF 50/人 · NT$1,800",
+        "hours": "11:00–23:00",
+        "search_query": "Wirtshaus zum Rebstock Bern Switzerland",
         "photos": [
           {
-            "url": "https://gili-lankanfushi.com/wp-content/uploads/2023/05/GLM_By-The-Sea-Restaurant-Area_.jpg",
-            "label": "By The Sea | Japanese-Fusion Restaurant | Gili Lankanfushi Maldives"
+            "url": "https://media.myswitzerland.com/image/fetch/c_lfill,g_auto,w_3200,h_1800/f_auto,q_80,fl_keep_iptc/https://media.hotelleriesuisse.ch/eyebasealbum.data/bilder/1024/426/00044741_m.jpg?_obv=202345",
+            "label": "Hotel Rebstock | Switzerland Tourism"
           },
           {
-            "url": "https://www.travoh.com/wp-content/uploads/2021/11/217-Gili-Lankanfushi-Resort-North-Male-Atoll-Maldives-Overwater-Restaurant-Dusk.jpg",
-            "label": "Gili Lankanfushi Resort – North Male Atoll, Maldives – Overwater ..."
+            "url": "https://www.britishresidents.ch/wp-content/uploads/2018/05/Gasthof-zum-Rebstock-1024x683.jpg",
+            "label": "SUMMER LUNCHEON - British Residents' Association of Switzerland"
           },
           {
-            "url": "https://maketimetoseetheworld.com/wp-content/uploads/2018/12/By-The-Sea-Restaurant-View-360x270.jpg",
-            "label": "Gili Lankanfushi Review: Paradise Found in 2023"
+            "url": "https://media.myswitzerland.com/image/fetch/c_lfill,g_auto,w_3200,h_1800/f_auto,q_80,fl_keep_iptc/https://media-v2.discover.swiss/rawmedia/hs/00054931_m.jpg?_obv=20256",
+            "label": "Hotel Rebstock | Switzerland Tourism"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Sand Bar",
-        "name_zh": "沙灘酒吧 · 康斯丹哈拉薇莉",
+        "name": "Pancake Bakery",
+        "name_zh": "荷蘭煎餅烘焙坊",
         "stars": "",
-        "dish": "🍸 招牌：馬爾地夫夕陽莫希托 · 椰子冰淇淋",
-        "address": "Constance Halaveli, 北阿里環礁",
-        "price_ntd": 1800,
-        "price_label": "兩人下午茶 $60 · NT$1,800",
-        "hours": "15:00–18:00 · 沙灘躺椅 · 無邊際海景",
-        "search_query": "Sand Bar Constance Halaveli",
+        "dish": "🥞 招牌：荷蘭煎餅 · 蘋果派",
+        "address": "Prinsengracht 191, 1015 DS Amsterdam",
+        "price_ntd": 900,
+        "price_label": "家庭早午餐 €25/人 · NT$900",
+        "hours": "08:00–18:00",
+        "search_query": "Pancake Bakery Amsterdam Netherlands",
         "photos": [
           {
-            "url": "https://assets-global.website-files.com/607e99bffc9a6042b332722c/65b3a4b96d5ad2b2bfc3054e_Constance-Halaveli.webp",
-            "label": "Constance Halaveli | Our Review"
+            "url": "https://www.iamsterdam.com/_next/image?url=https://app.thefeedfactory.nl/api/assets/63f221c98c38c352556866b3/pancakes_centraal-1800.jpg&w=1080&q=75",
+            "label": "The Pancake Bakery"
           },
           {
-            "url": "https://islandii.com/wp-content/uploads/2020/04/165484_15122911510038778007.jpg",
-            "label": "Constance Halaveli"
+            "url": "https://www.mathersonthemap.com/wp-content/uploads/2019/10/The-Best-Places-to-Eat-and-Drink-in-the-City-of-Amsterdam.-The-Pancake-Bakery.jpg",
+            "label": "The Best Places to Eat and Drink in the City of Amsterdam - Mathers on ..."
           },
           {
-            "url": "https://www.mymaldives.com/wp-content/gallery/constance-halaveli/constance-halaveli-18.jpg",
-            "label": "Constance Halaveli Resort - Maldives"
+            "url": "https://thisworldtraveled.com/wp-content/uploads/2020/09/pancake-bakery-amsterdam-750x1030.jpg",
+            "label": "How to Travel to Amsterdam, Netherlands: The Full Guide to Getting There"
           }
         ]
       },
       {
-        "name": "Münch",
-        "name_zh": "明奇 · 吉利蘭坎芙希咖啡館",
+        "name": "Café de l'Évêché",
+        "name_zh": "主教咖啡館",
         "stars": "",
-        "dish": "☕ 招牌：手沖咖啡 · 馬爾地夫椰子蛋糕",
-        "address": "Gili Lankanfushi, 北馬累環礁",
-        "price_ntd": 1500,
-        "price_label": "兩人輕食 $50 · NT$1,500",
-        "hours": "08:00–17:00 · 水上涼亭座位",
-        "search_query": "Munch cafe Gili Lankanfushi",
+        "dish": "☕ 招牌：熱巧克力 · 瑞士蛋糕卷",
+        "address": "Münstergasse 40, 3011 Bern",
+        "price_ntd": 800,
+        "price_label": "家庭午茶 CHF 20/人 · NT$800",
+        "hours": "08:00–19:00",
+        "search_query": "Café de l'Évêché Bern Switzerland",
         "photos": [
           {
-            "url": "https://www.carpemundi.com.br/wp-content/uploads/2018/07/como-e-ficar-no-gili-lankanfushi.jpg",
-            "label": "Gili Lankanfushi, o resort eco-friendly mais incrível das Maldivas ..."
+            "url": "https://media.timeout.com/images/101854759/image.jpg",
+            "label": "Café de l'Évêché | Restaurants in Cité / Old Town, Switzerland"
           },
           {
-            "url": "https://www.travelplusstyle.com/wp-content/gallery/soneva-gili-by-six-senses/glm_main-restaurant.jpg",
-            "label": "Is Gili Lankanfushi the perfect Maldivian resort? By TravelPlusStyle"
+            "url": "https://www.novo-monde.com/app/uploads/2013/07/cafe-eveche-lausanne-1024x680.jpg",
+            "label": "Things to do in Lausanne in a day, Geneva Lake - Switzerland"
           },
           {
-            "url": "http://www.silverspoonlondon.co.uk/wp-content/uploads/2017/03/Luxury-Hotel-Review-Gili-Lankanfushi-4526.jpg",
-            "label": "Organic Eating and Eco-Friendly Growing at Gili Lankanfushi in The ..."
+            "url": "https://media-cdn.tripadvisor.com/media/photo-s/10/eb/97/a0/cafe-restaurant-treff.jpg",
+            "label": "CAFÉ RESTAURANT TREFF, Berne - Commander en ligne - Menu, Prix ..."
           }
         ]
       }
@@ -265,332 +331,540 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Jan 9 · Sat",
-      "label_zh": "啟程日 · 飛往天堂",
-      "hotel_name": "Constance Halaveli Maldives",
-      "hotel_name_zh": "康斯丹哈拉薇莉渡假村 · 水上別墅",
-      "hotel_room": "水上別墅 (Water Villa)",
-      "weather": "☀️ 30°/26°",
+      "date": "July 15 · Sat",
+      "label_zh": "出發日",
+      "hotel_name": "Hotel V Nesplein",
+      "hotel_name_zh": "V Nesplein 酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "☀️ 22°/15°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "14:00",
-          "desc": "🧳 出發前往桃園機場 T1 · 建議13:00前抵達 · 新加坡航空櫃檯"
+          "time": "08:00",
+          "desc": "🥐 起床 · 整理行李 · 確認護照機票"
         },
         {
-          "time": "17:40",
-          "desc": "✈️ SQ879 TPE→SIN (4h30m) · 機上享用晚餐 · 選靠窗位A/K看日落"
+          "time": "10:00",
+          "desc": "🚕 前往桃園機場 TPE · 建議提前3小時到"
         },
         {
-          "time": "22:10",
-          "desc": "🛬 抵達新加坡樟宜機場 T3 · 轉機時間1h40m · 可逛免稅店"
+          "time": "13:00",
+          "desc": "✈️ 辦理登機 · 出境 · 免稅店逛逛"
         },
         {
-          "time": "23:50",
-          "desc": "✈️ SQ462 SIN→MLE (4h30m) · 機上提供輕食"
-        },
-        {
-          "time": "01:20",
-          "desc": "🛬 抵達馬累國際機場 · 出關取行李 · 舉牌接機"
-        },
-        {
-          "time": "02:30",
-          "desc": "🚤 搭乘快艇前往康斯丹哈拉薇莉 (約40分鐘) · 星空航行"
-        },
-        {
-          "time": "03:30",
-          "desc": "🏨 抵達渡假村 · 迎賓飲料 · 入住水上別墅 · 放鬆休息"
+          "time": "23:30",
+          "desc": "✈️ 搭乘 CI 73 飛往阿姆斯特丹（經曼谷轉機）"
         }
       ]
     },
     {
       "day": 2,
-      "date": "Jan 10 · Sun",
-      "label_zh": "探索日 · 浮潛與夕陽",
-      "hotel_name": "Constance Halaveli Maldives",
-      "hotel_name_zh": "康斯丹哈拉薇莉渡假村 · 水上別墅",
-      "hotel_room": "水上別墅 (Water Villa)",
-      "weather": "☀️ 31°/27°",
-      "rain_pct": "5%",
+      "date": "July 16 · Sun",
+      "label_zh": "阿姆斯特丹 · 運河與博物館",
+      "hotel_name": "Hotel V Nesplein",
+      "hotel_name_zh": "V Nesplein 酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "⛅ 22°/15°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🌅 日出瑜珈 (免費) · 沙灘甲板 · 迎接印度洋第一縷陽光"
+          "time": "08:00",
+          "desc": "🥐 起床 · 飯店早餐 buffet"
         },
         {
-          "time": "08:30",
-          "desc": "🍽️ Jahaz Restaurant 自助早餐 · 現做歐姆蛋 · 新鮮熱帶水果"
+          "time": "09:00",
+          "desc": "🚶 步行至國家博物館 Rijksmuseum（預約票 €20/人）"
         },
         {
-          "time": "10:00",
-          "desc": "🤿 免費浮潛課程 (飯店提供裝備) · 探索 house reef · 看海龜與小鯊魚"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ By The Sea 午餐 · 沙灘赤足 · 推薦椰子烤雞沙拉"
+          "time": "12:00",
+          "desc": "🍽️ Pancake Bakery 午餐 · 荷蘭煎餅"
         },
         {
           "time": "14:00",
-          "desc": "💆 預約雙人SPA (90分鐘) · 水療中心 · 海景療程室 (NT$8,000/人)"
+          "desc": "🚤 運河遊船 1小時（€15/人）"
         },
         {
-          "time": "16:30",
-          "desc": "🏐 沙灘排球或獨木舟 (免費) · 或無邊際泳池戲水"
+          "time": "16:00",
+          "desc": "🌷 安妮之家 Anne Frank Huis（預約票 €16/人）"
         },
         {
-          "time": "17:30",
-          "desc": "🍸 Sand Bar 夕陽雞尾酒 · 莫希托 · 拍照打卡點"
+          "time": "18:30",
+          "desc": "🍽️ Brasserie van de Kaai 家庭晚餐"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ The Lighthouse Restaurant 精緻晚餐 · 龍蝦三重奏 · 香檳配對"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌌 星空散步 · 水上別墅陽台觀星 · 伴海浪聲入睡"
+          "time": "19:30",
+          "desc": "🚶 回飯店休息 · 早睡調整時差"
         }
       ]
     },
     {
       "day": 3,
-      "date": "Jan 11 · Mon",
-      "label_zh": "換島日 · 吉利蘭坎芙希",
-      "hotel_name": "Gili Lankanfushi Maldives",
-      "hotel_name_zh": "吉利蘭坎芙希渡假村 · 海上別墅",
-      "hotel_room": "海上別墅 (Overwater Villa)",
-      "weather": "☀️ 30°/26°",
-      "rain_pct": "15%",
+      "date": "July 17 · Mon",
+      "label_zh": "阿姆斯特丹 · 風車與乳酪",
+      "hotel_name": "Hotel V Nesplein",
+      "hotel_name_zh": "V Nesplein 酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "☀️ 24°/16°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🌅 早起沙灘散步 · 撿貝殼 · 最後一次哈拉薇莉晨曦"
+          "time": "08:00",
+          "desc": "🥐 起床 · 飯店早餐"
         },
         {
-          "time": "08:00",
-          "desc": "🍽️ Jahaz Restaurant 自助早餐 · 告別餐"
+          "time": "09:00",
+          "desc": "🚂 搭火車至 Zaandijk Zaanse Schans（15分鐘）"
         },
         {
           "time": "09:30",
-          "desc": "🧳 退房 · 行李打包 · 寄放櫃檯"
-        },
-        {
-          "time": "10:00",
-          "desc": "🏄 免費活動：站立槳板 (SUP) 或 風帆 (1小時)"
-        },
-        {
-          "time": "11:30",
-          "desc": "🚤 快艇接駁前往吉利蘭坎芙希 (約30分鐘) · 海上航行"
-        },
-        {
-          "time": "12:00",
-          "desc": "🏨 抵達吉利蘭坎芙希 · 迎賓椰子水 · 入住海上別墅 · 私人管家介紹"
+          "desc": "🌬️ 參觀風車村 · 乳酪工廠 · 木鞋工廠"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ By The Sea 午餐 · 推薦蟹肉沙拉 · 沙灘美景"
+          "desc": "🍽️ 風車村午餐 · 荷蘭燉肉"
         },
         {
           "time": "14:00",
-          "desc": "🐢 免費海龜觀賞浮潛 (飯店免費出海活動) · 與海龜同游"
+          "desc": "🚂 返回阿姆斯特丹 · 自由活動"
         },
         {
-          "time": "17:00",
-          "desc": "🧘 日落瑜珈 (免費) · 海上平台 · 身心靈放鬆"
+          "time": "16:00",
+          "desc": "🛍️ 水壩廣場 · 購物街 Kalverstraat"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ Muraka 水下餐廳 · 印度洋生魚片拼盤 · 浪漫水下燈光"
+          "time": "18:00",
+          "desc": "🍽️ De Kas 溫室餐廳晚餐（需預約）"
         },
         {
-          "time": "21:30",
-          "desc": "🛥️ 私人管家安排夜間釣魚 (NT$6,000/人) · 或回別墅泡按摩浴缸"
+          "time": "20:00",
+          "desc": "🚶 回飯店休息"
         }
       ]
     },
     {
       "day": 4,
-      "date": "Jan 12 · Tue",
-      "label_zh": "探險日 · 出海與沙洲",
-      "hotel_name": "Gili Lankanfushi Maldives",
-      "hotel_name_zh": "吉利蘭坎芙希渡假村 · 海上別墅",
-      "hotel_room": "海上別墅 (Overwater Villa)",
-      "weather": "☀️ 31°/27°",
-      "rain_pct": "10%",
+      "date": "July 18 · Tue",
+      "label_zh": "阿姆斯特丹 · 梵谷與鬱金香",
+      "hotel_name": "Hotel V Nesplein",
+      "hotel_name_zh": "V Nesplein 酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "☀️ 25°/17°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "06:30",
-          "desc": "🌅 日出巡航 (免費) · 私人管家準備咖啡 · 海上日出"
-        },
-        {
           "time": "08:00",
-          "desc": "🍽️ Münch 咖啡館早餐 · 手沖咖啡 · 椰子蛋糕"
+          "desc": "🥐 起床 · 飯店早餐"
         },
         {
-          "time": "09:30",
-          "desc": "🛥️ 私人沙洲野餐之旅 (含飯店快艇) · 無人沙洲 · 香檳與水果 · 浮潛"
+          "time": "09:00",
+          "desc": "🎨 梵谷博物館 Van Gogh Museum（預約票 €19/人）"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 沙洲野餐 · 龍蝦三明治 · 椰子水"
+          "time": "12:00",
+          "desc": "🍽️ 博物館附近午餐 · 荷蘭三明治"
         },
         {
           "time": "14:00",
-          "desc": "🐠 回飯店 · 自由浮潛 · 或租借水上摩托車 (NT$4,000/30分鐘)"
+          "desc": "🌷 庫肯霍夫花園 Keukenhof（若開放）或花卉拍賣場"
         },
         {
-          "time": "16:00",
-          "desc": "💆 雙人海景SPA (60分鐘) · 使用椰子精油 (NT$6,000/人)"
+          "time": "17:00",
+          "desc": "🚶 紅燈區外圍散步（白天適合家庭）"
         },
         {
-          "time": "17:30",
-          "desc": "🍸 夕陽雞尾酒 · 私人別墅陽台 · 管家服務"
+          "time": "18:30",
+          "desc": "🍽️ 自由晚餐 · 可選亞洲料理"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ By The Sea 沙灘燒烤晚餐 · 現烤海鮮 · 燭光沙灘"
-        },
-        {
-          "time": "21:00",
-          "desc": "🎬 星空電影院 (免費) · 沙灘躺椅 · 爆米花 · 浪漫之夜"
+          "time": "19:30",
+          "desc": "🚶 回飯店整理行李"
         }
       ]
     },
     {
       "day": 5,
-      "date": "Jan 13 · Wed",
-      "label_zh": "放鬆日 · 最後的享樂",
-      "hotel_name": "Gili Lankanfushi Maldives",
-      "hotel_name_zh": "吉利蘭坎芙希渡假村 · 海上別墅",
-      "hotel_room": "海上別墅 (Overwater Villa)",
-      "weather": "☀️ 30°/26°",
-      "rain_pct": "5%",
+      "date": "July 19 · Wed",
+      "label_zh": "伯恩 · 首都風情",
+      "hotel_name": "Hotel Schweizerhof Bern",
+      "hotel_name_zh": "伯恩施維茲霍夫酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "☀️ 28°/18°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "🌅 沙灘散步 · 收集紀念貝殼"
+          "time": "08:00",
+          "desc": "🥐 起床 · 飯店早餐 · 退房"
         },
         {
-          "time": "08:30",
-          "desc": "🍽️ Münch 咖啡館早餐 · 班尼迪克蛋 · 新鮮果汁"
-        },
-        {
-          "time": "10:00",
-          "desc": "🏄 免費風帆或獨木舟 · 最後一次玩水"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 午餐 · 客房服務 · 在別墅陽台享用 · 龍蝦沙拉"
-        },
-        {
-          "time": "14:00",
-          "desc": "📸 專業攝影師拍攝紀念照 (含30分鐘) · 飯店贈送"
+          "time": "09:00",
+          "desc": "🚂 阿姆斯特丹中央車站 → 伯恩（直達火車約6.5小時）"
         },
         {
           "time": "15:30",
-          "desc": "🛍️ 紀念品店購物 · 馬爾地夫手工藝品 · 明信片"
+          "desc": "🏨 抵達伯恩 · 入住 Hotel Schweizerhof"
         },
         {
-          "time": "17:00",
-          "desc": "🍸 最後的夕陽雞尾酒 · 沙灘酒吧 · 拍照留念"
+          "time": "16:30",
+          "desc": "🐻 伯恩熊公園 BärenPark · 免費"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ Muraka 告別晚餐 · 香草奶油龍蝦 · 甜點拼盤"
+          "time": "18:00",
+          "desc": "🍽️ Wirtshaus zum Rebstock 晚餐 · 起司火鍋"
         },
         {
-          "time": "21:30",
-          "desc": "🧳 退房 · 行李打包 · 準備前往機場"
+          "time": "19:30",
+          "desc": "🚶 老城區散步 · 時鐘塔 Zytglogge"
+        },
+        {
+          "time": "20:00",
+          "desc": "🏨 回飯店休息"
         }
       ]
     },
     {
       "day": 6,
-      "date": "Jan 14 · Thu",
-      "label_zh": "返程日",
-      "hotel_name": "Gili Lankanfushi Maldives",
-      "hotel_name_zh": "吉利蘭坎芙希渡假村 · 海上別墅",
-      "hotel_room": "海上別墅 (Overwater Villa)",
-      "weather": "☀️ 30°/26°",
+      "date": "July 20 · Thu",
+      "label_zh": "伯恩 · 愛因斯坦與玫瑰園",
+      "hotel_name": "Hotel Schweizerhof Bern",
+      "hotel_name_zh": "伯恩施維茲霍夫酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "☀️ 30°/20°",
       "rain_pct": "5%",
       "slots": [
         {
-          "time": "00:00",
-          "desc": "🛥️ 快艇前往馬累機場 (約25分鐘) · 星空告別"
+          "time": "08:00",
+          "desc": "🥐 起床 · 飯店早餐"
         },
         {
-          "time": "00:30",
-          "desc": "🧳 抵達馬累機場 · 辦理登機 · 免稅店最後採購"
+          "time": "09:00",
+          "desc": "🏛️ 伯恩歷史博物館 · 愛因斯坦故居（門票 CHF 15/人）"
         },
         {
-          "time": "02:30",
-          "desc": "✈️ SQ462 MLE→SIN (4h30m) · 機上早餐"
+          "time": "12:00",
+          "desc": "🍽️ 自由午餐 · 老城區餐廳"
         },
         {
-          "time": "10:20",
-          "desc": "🛬 抵達新加坡樟宜機場 T3 · 轉機2小時 · 可逛蝴蝶園或購物"
+          "time": "14:00",
+          "desc": "🌹 玫瑰園 Rosengarten · 俯瞰城市"
         },
         {
-          "time": "12:25",
-          "desc": "✈️ SQ879 SIN→TPE (4h30m) · 機上午餐"
+          "time": "16:00",
+          "desc": "🚶 拱廊購物街 Lauben"
         },
         {
-          "time": "17:05",
-          "desc": "🛬 抵達桃園機場 T1 · 結束浪漫馬爾地夫之旅"
+          "time": "18:00",
+          "desc": "🍽️ Restaurant 1731 晚餐（需預約）"
+        },
+        {
+          "time": "19:30",
+          "desc": "🚶 回飯店休息"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "July 21 · Fri",
+      "label_zh": "琉森 · 湖光山色",
+      "hotel_name": "Hotel Schweizerhof Luzern",
+      "hotel_name_zh": "琉森施維茲霍夫酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "☀️ 28°/19°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 起床 · 飯店早餐 · 退房"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚂 伯恩 → 琉森（直達火車約1小時）"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏨 入住 Hotel Schweizerhof Luzern · 寄放行李"
+        },
+        {
+          "time": "11:00",
+          "desc": "🦁 獅子紀念碑 Lion Monument · 免費"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 卡貝爾橋附近午餐"
+        },
+        {
+          "time": "14:00",
+          "desc": "⛴️ 琉森湖遊船 2小時（CHF 25/人）"
+        },
+        {
+          "time": "16:30",
+          "desc": "🚶 卡貝爾橋 Chapel Bridge · 老城區"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 飯店晚餐或附近餐廳"
+        },
+        {
+          "time": "20:00",
+          "desc": "🏨 回飯店休息"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "date": "July 22 · Sat",
+      "label_zh": "琉森 · 皮拉圖斯山",
+      "hotel_name": "Hotel Schweizerhof Luzern",
+      "hotel_name_zh": "琉森施維茲霍夫酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "☀️ 25°/15°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 起床 · 飯店早餐"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚂 搭金色環遊 Golden Round Trip 至皮拉圖斯山"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏔️ 皮拉圖斯山頂 · 景觀台 · 繩索公園（門票 CHF 72/人）"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 山頂餐廳午餐"
+        },
+        {
+          "time": "15:00",
+          "desc": "🚠 纜車下山 · 回琉森"
+        },
+        {
+          "time": "17:00",
+          "desc": "🛍️ 琉森購物街"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 中式料理晚餐（適應口味）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🏨 回飯店休息"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "date": "July 23 · Sun",
+      "label_zh": "琉森 · 瑞士交通博物館",
+      "hotel_name": "Hotel Schweizerhof Luzern",
+      "hotel_name_zh": "琉森施維茲霍夫酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "☀️ 27°/18°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 起床 · 飯店早餐"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚂 瑞士交通博物館 Verkehrshaus（門票 CHF 30/人）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 博物館內午餐"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚶 琉森湖畔散步 · 冰淇淋"
+        },
+        {
+          "time": "16:00",
+          "desc": "🛍️ 自由活動 · 購物"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 飯店晚餐"
+        },
+        {
+          "time": "19:30",
+          "desc": "🏨 回飯店休息 · 整理行李"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "date": "July 24 · Mon",
+      "label_zh": "斯皮茲 · 圖恩湖明珠",
+      "hotel_name": "Hotel Eden Spiez",
+      "hotel_name_zh": "伊甸斯皮茲酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "☀️ 30°/20°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 起床 · 飯店早餐 · 退房"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚂 琉森 → 斯皮茲（約2小時，經伯恩）"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏨 入住 Hotel Eden Spiez · 湖景陽台"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 斯皮茲小鎮午餐"
+        },
+        {
+          "time": "14:00",
+          "desc": "🏰 斯皮茲城堡 Schloss Spiez（門票 CHF 10/人）"
+        },
+        {
+          "time": "16:00",
+          "desc": "⛴️ 圖恩湖遊船至因特拉肯（可選）"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 飯店晚餐 · 湖景"
+        },
+        {
+          "time": "20:00",
+          "desc": "🏨 回飯店休息"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "date": "July 25 · Tue",
+      "label_zh": "少女峰地區 · 雪朗峰",
+      "hotel_name": "Hotel Eden Spiez",
+      "hotel_name_zh": "伊甸斯皮茲酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "☀️ 28°/18°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 起床 · 飯店早餐"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚂 斯皮茲 → 勞特布龍嫩（轉纜車）"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏔️ 雪朗峰 Schilthorn 觀景台（門票 CHF 65/人）"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 旋轉餐廳 Piz Gloria 午餐"
+        },
+        {
+          "time": "15:00",
+          "desc": "🚂 回程 · 米倫小鎮散步"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚂 返回斯皮茲"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 斯皮茲小鎮晚餐"
+        },
+        {
+          "time": "20:00",
+          "desc": "🏨 回飯店休息 · 整理行李"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "date": "July 26 · Wed",
+      "label_zh": "返程日",
+      "hotel_name": "Hotel Eden Spiez",
+      "hotel_name_zh": "伊甸斯皮茲酒店",
+      "hotel_room": "家庭房 + 雙人房",
+      "weather": "☀️ 28°/18°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 起床 · 飯店早餐 · 退房"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚂 斯皮茲 → 蘇黎世機場（約2小時）"
+        },
+        {
+          "time": "11:00",
+          "desc": "✈️ 抵達 ZRH · 辦理登機 · 退稅"
+        },
+        {
+          "time": "13:10",
+          "desc": "✈️ 搭乘 LX 138 經香港轉機回台灣"
+        },
+        {
+          "time": "06:50 (+1)",
+          "desc": "✈️ 抵達 TPE · 結束旅程"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票 (新加坡航空經濟艙)",
-      "amount_ntd": 52000
+      "label": "✈️ 來回機票（5人）",
+      "amount_ntd": 175000
     },
     {
-      "label": "🏨 住宿 (Constance Halaveli 3晚 + Gili Lankanfushi 3晚)",
-      "amount_ntd": 255000
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 274000
     },
     {
-      "label": "🍽️ 餐飲 (含兩次高級餐廳、沙洲野餐)",
-      "amount_ntd": 28000
+      "label": "🍽️ 餐飲（5人）",
+      "amount_ntd": 120000
     },
     {
-      "label": "🎫 活動與SPA (雙人SPA、夜釣、水上摩托車)",
-      "amount_ntd": 18000
+      "label": "🎫 景點門票",
+      "amount_ntd": 80000
     },
     {
-      "label": "🚤 快艇接駁 (飯店含，無額外)",
-      "amount_ntd": 0
+      "label": "🚂 瑞士交通（Swiss Travel Pass 8天）",
+      "amount_ntd": 90000
     },
     {
-      "label": "🛍️ 紀念品與雜支",
-      "amount_ntd": 5000
+      "label": "🚇 市區交通",
+      "amount_ntd": 15000
     },
     {
-      "label": "💰 小費與其他",
-      "amount_ntd": 3000
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 30000
     }
   ],
-  "cost_total_ntd": 361000,
-  "budget_remaining_ntd": -11000,
+  "cost_total_ntd": 784000,
+  "budget_remaining_ntd": 16000,
   "photos": {
     "hero": [
       {
-        "url": "https://www.discoverwalks.com/blog/wp-content/uploads/2022/08/1631px-male_city_aerial_the_capital_city_of_maldives_-_panoramio-768x509.jpg",
-        "label": "Top 10 Sensational Facts about Maldives Glowing Beach (Vaadhoo ..."
+        "url": "https://img.freepik.com/premium-photo/skyline-panorama-downtown-zurich-night-view-switzerland_400112-1331.jpg?w=2000",
+        "label": "Skyline panorama on the downtown of zurich night view switzerland ..."
       },
       {
-        "url": "https://c8.alamy.com/comp/R6X733/the-skyline-of-male-capital-of-the-maldives-in-the-indian-ocean-R6X733.jpg",
-        "label": "Capital Of Maldives Stock Photos & Capital Of Maldives Stock Images - Alamy"
+        "url": "https://thumbs.dreamstime.com/b/amsterdam-skyline-netherlands-aerial-view-downtown-dramatic-beautiful-sunset-all-most-proeminent-landmarks-203327210.jpg",
+        "label": "St Nicholas Church in Amsterdam, the Netherlands Stock Photo - Image of ..."
       }
     ],
     "destination": [
       {
-        "url": "https://shop.odakyu-dept.co.jp/storage/ex_product_sku_image/8/4514254127650_8.jpg",
-        "label": "オンブルクルールクアドリ（レフィル）|クレ・ド・ポー ボーテ|アイシャドウ|小田急百貨店オンラインショッピング"
+        "url": "https://esse.ismcdn.jp/mwimgs/d/6/1360mw/img_d6860e2bfe2a6520d6417631f82b279f5944574.jpg",
+        "label": "人気沸騰！「麻辣湯（マーラータン）」の簡単レシピ。春雨ツルっとピリ辛がたまらん | ESSEonline（エッセ オンライン）"
       }
     ]
   },
-  "chat_hash": "31df3231982fd0501bd14c30c8270194790c175e1696f6d87f1d1fc4fafad1e8",
+  "chat_hash": "372f99da2d3ba00abfa3ddbe2e5c2684ade4053936e7fd47309183724fc1d4cb",
   "config_hash": "245a6b7af0a400802f2091e095f5aaf46fd691cc3bf74b637c0ac10e452d193b",
-  "generated_at": "2026-05-17T20:15:56.733419"
+  "generated_at": "2026-05-17T22:11:05.699758"
 }
