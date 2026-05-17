@@ -1,113 +1,113 @@
 {
   "destination_en": "Maldives",
-  "title_zh": "馬爾地夫 · 浪漫六天之旅",
-  "date_range": "2027/01/15–01/20",
-  "start_date": "2027-01-15",
-  "end_date": "2027-01-20",
+  "title_zh": "馬爾地夫 · 一月浪漫六天之旅",
+  "date_range": "2027/01/09–01/14",
+  "start_date": "2027-01-09",
+  "end_date": "2027-01-14",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
   "destination_code": "MLE",
   "travelers": 2,
   "days": 6,
-  "budget_ntd": 250000,
+  "budget_ntd": 350000,
   "flight": {
     "airline": "新加坡航空 Singapore Airlines",
-    "departure_date": "1月15日",
-    "return_date": "1月20日",
-    "total_price_ntd": 48000,
+    "departure_date": "1月9日",
+    "return_date": "1月14日",
+    "total_price_ntd": 52000,
     "outbound": {
       "flight_no": "SQ 879",
-      "route": "TPE → SIN 轉機 → MLE",
-      "depart_time": "14:20",
-      "arrive_time": "22:35",
-      "duration": "8h 15m + 轉機2h",
+      "route": "TPE → SIN → MLE",
+      "depart_time": "17:40",
+      "arrive_time": "22:50 (+1)",
+      "duration": "12h 10m (含轉機1h40m)",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "SQ 452",
-      "route": "MLE → SIN 轉機 → TPE",
-      "depart_time": "23:35",
-      "arrive_time": "15:20 (+1)",
-      "duration": "9h 45m + 轉機2h",
+      "flight_no": "SQ 462",
+      "route": "MLE → SIN → TPE",
+      "depart_time": "23:25",
+      "arrive_time": "17:35 (+1)",
+      "duration": "12h 10m (含轉機2h)",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Kurumba Maldives",
-      "name_zh": "庫倫巴馬爾地夫度假村",
-      "district": "North Malé Atoll",
+      "name": "Constance Halaveli Maldives",
+      "name_zh": "康斯丹哈拉薇莉渡假村",
+      "district": "北阿里環礁",
       "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 75000,
-      "stars": "★★★★☆",
-      "room_type": "豪華海景別墅 Deluxe Beach Villa",
+      "price_ntd": 120000,
+      "stars": "★★★★★",
+      "room_type": "水上別墅 (Water Villa)",
       "breakfast": "含自助早餐",
-      "amenities": "🏖️ 私人沙灘 · 🏊 無邊際泳池 · 🧖 SPA · 🍽️ 4間餐廳 · 🚤 快艇接送",
-      "search_query": "Kurumba Maldives resort",
+      "amenities": "🏊 無邊際泳池 · 🤿 免費浮潛設備 · 🛥️ 免費出海活動 · 🍽️ 三家餐廳 · 💆 水療中心",
+      "search_query": "Constance Halaveli Maldives water villa",
       "photos": [
         {
-          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/56/0d/b8/aerial.jpg?w=1400&h=-1&s=1",
-          "label": "KURUMBA MALDIVES: 2024 Prices & Reviews (Vihamanafushi) - Photos of ..."
+          "url": "http://www.maldiveswatervillas.com/wp-content/uploads/2017/10/halaveli-maldives-water-villa-6.jpg",
+          "label": "Water Villa - Constance Halaveli | Maldives Water Villas"
         },
         {
-          "url": "https://hoteliermaldives.com/wp-content/uploads/Kurumba-Festive-Season-Featured.jpg",
-          "label": "Kurumba Maldives named best all-inclusive resort in the world by ..."
+          "url": "https://i.pinimg.com/originals/71/46/40/714640eea9c3fa236855fcfe27dd9aa7.jpg",
+          "label": "Constance Halaveli Resort | Maldives resort, Water villa, Maldives hotel"
         },
         {
-          "url": "https://edge.media.datahc.com/HI513721254.jpg",
-          "label": "Kurumba Maldives,Maldives:Photos,Reviews,Deals"
+          "url": "https://www.maldives.com/_next/image?url=/uploads/large_Constance_Halaveli_Accommodation_Water_Villa_08990847ef.jpg&w=1200&q=75",
+          "label": "Constance Halaveli | Luxury Resort in North Ari Atoll, Maldives"
         },
         {
-          "url": "https://maldives-times.com/upload/admin/users/1790216579.jpg",
-          "label": "Kurumba Maldives Resort - Best Luxury Resorts in Maldives"
+          "url": "https://legendstravel.ch/wp-content/uploads/2024/02/Constance-Halaveli-Water-Villa-7.jpg",
+          "label": "Constance Halaveli Maldives - Legends Travel"
         },
         {
-          "url": "https://www.authenticindiatours.com/app/uploads/2022/10/Kurumba-Resort-Maldives-6.jpg",
-          "label": "Kurumba Maldives - Luxury Stays with Authentic India Tours"
+          "url": "https://www.maledivenguru.de/wp-content/uploads/2024/01/constance-halaveli-water-villa.jpeg",
+          "label": "Constance Halaveli Maldives - Urlaub im Paradies | MALEDIVENGURU"
         },
         {
-          "url": "https://eskipaper.com/images/kurumba-maldives-beach-resort-1.jpg",
-          "label": "Kurumba maldives beach resort wallpaper | 2880x1800 | #30666"
+          "url": "https://www.travoh.com/wp-content/uploads/2022/08/033-Constance-Halaveli-Resort-North-Ari-Atoll-Maldives-Overwater-Villa-Aerial-View.jpg",
+          "label": "Constance Halaveli Resort - North Ari Atoll, Maldives - Overwater Villa ..."
         }
       ]
     },
     {
-      "name": "Anantara Kihavah Maldives Villas",
-      "name_zh": "安納塔拉基哈瓦馬爾地夫別墅",
-      "district": "Baa Atoll",
+      "name": "Gili Lankanfushi Maldives",
+      "name_zh": "吉利蘭坎芙希渡假村",
+      "district": "北馬累環礁",
       "day_range": "3–6",
       "nights": 3,
-      "price_ntd": 85000,
+      "price_ntd": 135000,
       "stars": "★★★★★",
-      "room_type": "水上別墅 Overwater Villa",
+      "room_type": "海上別墅 (Overwater Villa)",
       "breakfast": "含自助早餐",
-      "amenities": "🏊 水上泳池 · 🍽️ 水下餐廳 · 🧖 SPA · 🤿 潛水中心 · 🚁 水上飛機接送",
-      "search_query": "Anantara Kihavah Maldives overwater villa",
+      "amenities": "🏖️ 私人沙灘 · 🐢 海龜觀賞 · 🍽️ 水下餐廳 · 🧘 日落瑜珈 · 🛥️ 私人管家服務",
+      "search_query": "Gili Lankanfushi Maldives overwater villa",
       "photos": [
         {
-          "url": "https://hoteldesigns.net/wp-content/uploads/2018/03/Anantara-Kihavah-Maldives.jpg",
-          "label": "Anantara Kihavah Maldives Villas unveils SKY overwater observatory bar ..."
+          "url": "https://gili-lankanfushi.com/wp-content/uploads/2023/05/GLM_Aerial-of-Private-Reserve.jpg",
+          "label": "The Private Reserve | Overwater Villa | Gili Lankanfushi Maldives"
         },
         {
-          "url": "https://assets.anantara.com/image/upload/q_auto,f_auto,c_limit,w_1440/media/minor/anantara/images/anantara-kihavah-maldives-villas/accommodation/details-page/sunset-over-water-pool-villa/anantara_kihavah_sunset_ovw_pool_villa_1_726x392.jpg",
-          "label": "Villa in Maldives | Sunset Overwater Pool Villas at Anantara Kihavah"
+          "url": "https://gili-lankanfushi.com/wp-content/uploads/2024/05/glm-villa-12-dji-0141-by-sandro-bruecklmeier-kopie-webres.jpg",
+          "label": "Overwater Villa Maldives: Serenity at Gili Lankanfushi"
         },
         {
-          "url": "https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2022/06/IMG_9574.jpeg?ssl=1",
-          "label": "Photos: Anantara Kihavah Maldives Villas - Luxury Travel Expert"
+          "url": "https://gili-lankanfushi.com/wp-content/uploads/2024/05/glm-villa-18-dji-0201-by-sandro-bruecklmeier-kopie-webres.jpg",
+          "label": "Maldives Overwater Villa with Pool at Gili Lankanfushi"
         },
         {
-          "url": "https://www.travoh.com/wp-content/uploads/2022/08/203-Anantara-Kihavah-Maldives-Villas-Resort-Baa-Atoll-Maldives-Resort-Spa-and-Overwater-Restaurant-Aerial-View.jpg",
-          "label": "Anantara Kihavah Maldives Villas Resort – Baa Atoll, Maldives – Resort ..."
+          "url": "https://www.maldives.com/_next/image?url=/uploads/Gili_Lankanfushi_Maldives_F_and_B_Restaurants_and_Bars_Overwater_Bar_afb1e56ffb.jpg&w=2048&q=75",
+          "label": "Gili Lankanfushi Maldives | Luxury Overwater Villas in North Malé Atoll"
         },
         {
-          "url": "https://www.outthere.travel/wp-content/uploads/2022/12/Anantara-Kihava-Maldives-Villas-The-Maldives_01-1400x933.jpg",
-          "label": "Anantara Kihavah Maldives Villas The Maldives - Hotel review by ..."
+          "url": "https://gili-lankanfushi.com/wp-content/uploads/2024/05/glm-v12-living-img-18221-by-sandro-bruecklmeier-webres.jpg",
+          "label": "The Private Reserve | Overwater Villa | Gili Lankanfushi Maldives"
         },
         {
-          "url": "https://www.nogarlicnoonions.com/images/uploads/TRAVEL/Anantara+Kihavah+Spa.jpg",
-          "label": "New Look Overwater Spa and Immune Boosting Treatments at Anantara ..."
+          "url": "https://www.travoh.com/wp-content/uploads/2021/11/204-Gili-Lankanfushi-Resort-North-Male-Atoll-Maldives-Overwater-Villa-Sunset-1024x683.jpg",
+          "label": "Gili Lankanfushi Resort – North Male Atoll, Maldives – Overwater Villa ..."
         }
       ]
     }
@@ -115,81 +115,148 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Sea.Fire.Salt.",
-        "name_zh": "海·火·鹽 · 水下餐廳",
+        "name": "The Lighthouse Restaurant",
+        "name_zh": "燈塔餐廳 · 康斯丹哈拉薇莉",
         "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：龍蝦三重奏 · 和牛 · 巧克力熔岩",
-        "address": "Anantara Kihavah, Baa Atoll",
-        "price_ntd": 12000,
-        "price_label": "晚餐套餐 $200/人 · NT$12,000",
-        "hours": "18:00–22:00 · 需預約",
-        "search_query": "Sea Fire Salt Anantara Kihavah Maldives",
+        "dish": "🦞 招牌：龍蝦三重奏 · 香檳配對",
+        "address": "Constance Halaveli, 北阿里環礁",
+        "price_ntd": 8500,
+        "price_label": "晚餐套餐 €240/人 · NT$8,500",
+        "hours": "19:00–22:00 · 需預約 · 建議日落時段",
+        "search_query": "Constance Halaveli Lighthouse restaurant Maldives",
         "photos": [
           {
-            "url": "https://www.yonder.fr/sites/default/files/destinations/C-Anantara-Kihavah-Maldives-Villas_Sea_Fire_Salt_Sky_aerial.jpg",
-            "label": "Anantara Kihavah Maldives Villas, havre de paix dans l'atoll de Baa"
+            "url": "https://english.newstrack.com/h-upload/2024/09/16/1796119-gungun-gupta-viral-mms-video.webp",
+            "label": "Gungun Gupta Viral Video: Post MMS Leak Controversy"
+          }
+        ]
+      },
+      {
+        "name": "Muraka",
+        "name_zh": "穆拉卡 · 吉利蘭坎芙希水下餐廳",
+        "stars": "⭐⭐⭐⭐",
+        "dish": "🐟 招牌：印度洋生魚片拼盤 · 香草奶油龍蝦",
+        "address": "Gili Lankanfushi, 北馬累環礁",
+        "price_ntd": 9500,
+        "price_label": "晚餐套餐 $320/人 · NT$9,500",
+        "hours": "18:30–21:30 · 需提前預約 · 水下景觀",
+        "search_query": "Muraka underwater restaurant Gili Lankanfushi",
+        "photos": [
+          {
+            "url": "https://i.ytimg.com/vi/thnGl42T8Gc/hq720_2.jpg?sqp=-oaymwEYCMAEENAFSFryq4qpAwoIARUAAIhC0AEB&rs=AOn4CLAoCRYG3Wm_2rUkgrIguYtUwefIyA",
+            "label": "The muraka underwater restaurant | Lost Footsteps | #shorts - YouTube"
           },
           {
-            "url": "https://cdn.archilovers.com/projects/b4c20040-c758-47bd-8a55-cea8d7e70fd9.jpg",
-            "label": "Maldives Sky Sea"
+            "url": "https://images.squarespace-cdn.com/content/v1/674b4248486a6227c7e3d98a/53f6c5e0-63ef-43de-9f82-ee416e1ceb5c/ithaa-undersea-restaurant.jpeg",
+            "label": "The Story of The Muraka: An Underwater Villa — Anastasia Tara"
           },
           {
-            "url": "https://www.maldives.com/_next/image?url=/uploads/large_Anantara_Kihavah_SEA_FIRE_SPICE_SKY_Aerial_a9fe710d70.jpg&w=1920&q=75",
-            "label": "Anantara Kihavah Maldives Villas | Luxury Resort in Baa Atoll"
+            "url": "https://checkhotels.com.br/wp-content/uploads/2021/04/8._ithaa_undersea_restaurant_2-1024x682.jpg",
+            "label": "The Muraka: primeira suíte do mundo com um andar embaixo d’água ..."
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "The Spice",
-        "name_zh": "香料餐廳 · 亞洲風味",
+        "name": "Jahaz Restaurant",
+        "name_zh": "賈哈茲 · 康斯丹哈拉薇莉主餐廳",
         "stars": "⭐",
-        "dish": "🍛 招牌：馬爾地夫咖哩 · 烤龍蝦 · 椰子布丁",
-        "address": "Kurumba Maldives, North Malé Atoll",
-        "price_ntd": 5000,
-        "price_label": "晚餐套餐 $85/人 · NT$5,000",
-        "hours": "19:00–22:00",
-        "search_query": "The Spice Kurumba Maldives",
+        "dish": "🍤 招牌：馬爾地夫龍蝦咖哩 · 烤金槍魚",
+        "address": "Constance Halaveli, 北阿里環礁",
+        "price_ntd": 4200,
+        "price_label": "自助晚餐 $140/人 · NT$4,200",
+        "hours": "19:00–22:00 · 每日主題之夜",
+        "search_query": "Jahaz restaurant Constance Halaveli",
         "photos": [
           {
-            "url": "https://vacationtomaldives.com/wp-content/uploads/the-spice-restaurant.jpg",
-            "label": "The 11 Best Maldives Restaurants: World-Class Choices"
+            "url": "https://www.travoh.com/wp-content/uploads/2022/08/138-Constance-Halaveli-Resort-North-Ari-Atoll-Maldives-Jahaz-Restaurant-Buffet.jpg",
+            "label": "Constance Halaveli Resort – North Ari Atoll, Maldives – Jahaz ..."
           },
           {
-            "url": "https://images.wanderon.in/blogs/new/2025/01/22/anantara_kihavah_spice_restaurant_deck_area_1152x608-min.jpg",
-            "label": "The Spice Restaurant: Fine Culinary Excellence In Maldives!"
+            "url": "https://bfldr.constancehotels.com/4HTSVWZZ/at/pxjj3s9mxgvxrbbcttxnvc89/Constance-Halaveli-Restaurants_and_Bars-Jahaz_Restaurant_and_Bar-05.jpg?format=webp&width=363&height=242&fit=crop",
+            "label": "Jahaz Bar | Constance Halaveli"
           },
           {
-            "url": "https://www.budgetmaldives.com/wp-content/uploads/2020/06/Kurumba-kandu.jpg",
-            "label": "Kurumba Maldives - Kurumba Hotel Maldives - Book Maldives Kurumba"
+            "url": "https://bfldr.constancehotels.com/4HTSVWZZ/at/m45b2g3qpv546sw4kwp63/Constance-Halaveli-Restaurants_and_Bars-Jahaz_Restaurant_and_Bar-14.jpg?format=webp&width=363&height=242&fit=crop",
+            "label": "Jahaz Bar | Constance Halaveli"
+          }
+        ]
+      },
+      {
+        "name": "By The Sea",
+        "name_zh": "海邊餐廳 · 吉利蘭坎芙希",
+        "stars": "⭐",
+        "dish": "🦀 招牌：蟹肉沙拉 · 椰子烤雞",
+        "address": "Gili Lankanfushi, 北馬累環礁",
+        "price_ntd": 3800,
+        "price_label": "午餐套餐 $125/人 · NT$3,800",
+        "hours": "12:00–15:00 · 沙灘赤足用餐",
+        "search_query": "By The Sea restaurant Gili Lankanfushi",
+        "photos": [
+          {
+            "url": "https://gili-lankanfushi.com/wp-content/uploads/2023/05/GLM_By-The-Sea-Restaurant-Area_.jpg",
+            "label": "By The Sea | Japanese-Fusion Restaurant | Gili Lankanfushi Maldives"
+          },
+          {
+            "url": "https://www.travoh.com/wp-content/uploads/2021/11/217-Gili-Lankanfushi-Resort-North-Male-Atoll-Maldives-Overwater-Restaurant-Dusk.jpg",
+            "label": "Gili Lankanfushi Resort – North Male Atoll, Maldives – Overwater ..."
+          },
+          {
+            "url": "https://maketimetoseetheworld.com/wp-content/uploads/2018/12/By-The-Sea-Restaurant-View-360x270.jpg",
+            "label": "Gili Lankanfushi Review: Paradise Found in 2023"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Veli Bar",
-        "name_zh": "維利海灘酒吧",
+        "name": "Sand Bar",
+        "name_zh": "沙灘酒吧 · 康斯丹哈拉薇莉",
         "stars": "",
-        "dish": "🍹 招牌：椰子莫吉托 · 熱帶水果拼盤 · 輕食三明治",
-        "address": "Anantara Kihavah, Baa Atoll",
-        "price_ntd": 2500,
-        "price_label": "兩人下午茶 $40 · NT$2,500",
-        "hours": "11:00–18:00 · 日落最佳",
-        "search_query": "Veli Bar Anantara Kihavah",
+        "dish": "🍸 招牌：馬爾地夫夕陽莫希托 · 椰子冰淇淋",
+        "address": "Constance Halaveli, 北阿里環礁",
+        "price_ntd": 1800,
+        "price_label": "兩人下午茶 $60 · NT$1,800",
+        "hours": "15:00–18:00 · 沙灘躺椅 · 無邊際海景",
+        "search_query": "Sand Bar Constance Halaveli",
         "photos": [
           {
-            "url": "https://secure.s.forbestravelguide.com/img/properties/anantara-kihavah-maldives-villas/extra-large/anantara-kihavah-maldives-villas-sky-bar-interior.jpg",
-            "label": "Anantara Kihavah Maldives Villas - Maldives Hotels - Baa Atoll ..."
+            "url": "https://assets-global.website-files.com/607e99bffc9a6042b332722c/65b3a4b96d5ad2b2bfc3054e_Constance-Halaveli.webp",
+            "label": "Constance Halaveli | Our Review"
           },
           {
-            "url": "https://assets.anantara.com/image/upload/q_auto,f_auto/media/minor/anantara/images/anantara-kihavah-maldives-villas/dining/details-page/sky/anantara_kihavah_sky_bar_sunset_1120x608.jpg?h=608&w=1120&la=fr",
-            "label": "Bar-terrasse aux Maldives | Sky à Anantara Kihavah Maldives"
+            "url": "https://islandii.com/wp-content/uploads/2020/04/165484_15122911510038778007.jpg",
+            "label": "Constance Halaveli"
           },
           {
-            "url": "https://www.travoh.com/wp-content/uploads/2022/08/271-Anantara-Kihavah-Maldives-Villas-Resort-Baa-Atoll-Maldives-Sky-Observatory-and-Overwater-Bar-Complex.jpg",
-            "label": "Anantara Kihavah Maldives Villas Resort – Baa Atoll, Maldives – Sky ..."
+            "url": "https://www.mymaldives.com/wp-content/gallery/constance-halaveli/constance-halaveli-18.jpg",
+            "label": "Constance Halaveli Resort - Maldives"
+          }
+        ]
+      },
+      {
+        "name": "Münch",
+        "name_zh": "明奇 · 吉利蘭坎芙希咖啡館",
+        "stars": "",
+        "dish": "☕ 招牌：手沖咖啡 · 馬爾地夫椰子蛋糕",
+        "address": "Gili Lankanfushi, 北馬累環礁",
+        "price_ntd": 1500,
+        "price_label": "兩人輕食 $50 · NT$1,500",
+        "hours": "08:00–17:00 · 水上涼亭座位",
+        "search_query": "Munch cafe Gili Lankanfushi",
+        "photos": [
+          {
+            "url": "https://www.carpemundi.com.br/wp-content/uploads/2018/07/como-e-ficar-no-gili-lankanfushi.jpg",
+            "label": "Gili Lankanfushi, o resort eco-friendly mais incrível das Maldivas ..."
+          },
+          {
+            "url": "https://www.travelplusstyle.com/wp-content/gallery/soneva-gili-by-six-senses/glm_main-restaurant.jpg",
+            "label": "Is Gili Lankanfushi the perfect Maldivian resort? By TravelPlusStyle"
+          },
+          {
+            "url": "http://www.silverspoonlondon.co.uk/wp-content/uploads/2017/03/Luxury-Hotel-Review-Gili-Lankanfushi-4526.jpg",
+            "label": "Organic Eating and Eco-Friendly Growing at Gili Lankanfushi in The ..."
           }
         ]
       }
@@ -198,316 +265,332 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "1月15日 · 週五",
-      "label_zh": "抵達日 · 庫倫巴",
-      "hotel_name": "Kurumba Maldives",
-      "hotel_name_zh": "庫倫巴馬爾地夫度假村 · 豪華海景別墅",
-      "hotel_room": "豪華海景別墅 Deluxe Beach Villa",
+      "date": "Jan 9 · Sat",
+      "label_zh": "啟程日 · 飛往天堂",
+      "hotel_name": "Constance Halaveli Maldives",
+      "hotel_name_zh": "康斯丹哈拉薇莉渡假村 · 水上別墅",
+      "hotel_room": "水上別墅 (Water Villa)",
       "weather": "☀️ 30°/26°",
-      "rain_pct": "5%",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "14:20",
-          "desc": "✈️ 桃園 TPE 出發 · 新加坡航空 SQ879 · 經新加坡轉機"
+          "time": "14:00",
+          "desc": "🧳 出發前往桃園機場 T1 · 建議13:00前抵達 · 新加坡航空櫃檯"
         },
         {
-          "time": "22:35",
-          "desc": "🛬 抵達馬累國際機場 MLE · 入境 + 取行李"
+          "time": "17:40",
+          "desc": "✈️ SQ879 TPE→SIN (4h30m) · 機上享用晚餐 · 選靠窗位A/K看日落"
         },
         {
-          "time": "23:30",
-          "desc": "🚤 庫倫巴快艇接送 · 10分鐘抵達度假村"
+          "time": "22:10",
+          "desc": "🛬 抵達新加坡樟宜機場 T3 · 轉機時間1h40m · 可逛免稅店"
         },
         {
-          "time": "23:45",
-          "desc": "🏨 入住庫倫巴 · 豪華海景別墅 · 迎賓飲料"
+          "time": "23:50",
+          "desc": "✈️ SQ462 SIN→MLE (4h30m) · 機上提供輕食"
         },
         {
-          "time": "00:15",
-          "desc": "🌙 沙灘散步 · 星空下小酌 · 晚安"
+          "time": "01:20",
+          "desc": "🛬 抵達馬累國際機場 · 出關取行李 · 舉牌接機"
+        },
+        {
+          "time": "02:30",
+          "desc": "🚤 搭乘快艇前往康斯丹哈拉薇莉 (約40分鐘) · 星空航行"
+        },
+        {
+          "time": "03:30",
+          "desc": "🏨 抵達渡假村 · 迎賓飲料 · 入住水上別墅 · 放鬆休息"
         }
       ]
     },
     {
       "day": 2,
-      "date": "1月16日 · 週六",
-      "label_zh": "沙灘與SPA日",
-      "hotel_name": "Kurumba Maldives",
-      "hotel_name_zh": "庫倫巴馬爾地夫度假村 · 豪華海景別墅",
-      "hotel_room": "豪華海景別墅 Deluxe Beach Villa",
+      "date": "Jan 10 · Sun",
+      "label_zh": "探索日 · 浮潛與夕陽",
+      "hotel_name": "Constance Halaveli Maldives",
+      "hotel_name_zh": "康斯丹哈拉薇莉渡假村 · 水上別墅",
+      "hotel_room": "水上別墅 (Water Villa)",
       "weather": "☀️ 31°/27°",
-      "rain_pct": "0%",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🌅 日出瑜珈 · 沙灘上伸展"
+          "time": "07:30",
+          "desc": "🌅 日出瑜珈 (免費) · 沙灘甲板 · 迎接印度洋第一縷陽光"
         },
         {
-          "time": "08:00",
-          "desc": "🍽️ Vihamana 主餐廳 · 自助早餐 · 現做歐姆蛋"
+          "time": "08:30",
+          "desc": "🍽️ Jahaz Restaurant 自助早餐 · 現做歐姆蛋 · 新鮮熱帶水果"
         },
         {
-          "time": "09:30",
-          "desc": "🏖️ 私人沙灘 · 浮潛 · 五彩珊瑚與熱帶魚"
+          "time": "10:00",
+          "desc": "🤿 免費浮潛課程 (飯店提供裝備) · 探索 house reef · 看海龜與小鯊魚"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ The Spice 午餐 · 馬爾地夫咖哩 + 烤龍蝦"
+          "time": "12:30",
+          "desc": "🍽️ By The Sea 午餐 · 沙灘赤足 · 推薦椰子烤雞沙拉"
         },
         {
           "time": "14:00",
-          "desc": "🧖 Kurumba SPA · 情侶精油按摩 60分鐘"
+          "desc": "💆 預約雙人SPA (90分鐘) · 水療中心 · 海景療程室 (NT$8,000/人)"
         },
         {
-          "time": "16:00",
-          "desc": "🏊 無邊際泳池 · 雞尾酒"
+          "time": "16:30",
+          "desc": "🏐 沙灘排球或獨木舟 (免費) · 或無邊際泳池戲水"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 沙灘燭光晚餐 · 海鮮拼盤 · 私人服務"
+          "time": "17:30",
+          "desc": "🍸 Sand Bar 夕陽雞尾酒 · 莫希托 · 拍照打卡點"
         },
         {
-          "time": "20:00",
-          "desc": "🌙 星空電影院 · 沙灘躺椅 · 爆米花"
+          "time": "19:00",
+          "desc": "🍽️ The Lighthouse Restaurant 精緻晚餐 · 龍蝦三重奏 · 香檳配對"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌌 星空散步 · 水上別墅陽台觀星 · 伴海浪聲入睡"
         }
       ]
     },
     {
       "day": 3,
-      "date": "1月17日 · 週日",
-      "label_zh": "換島日 · 安納塔拉",
-      "hotel_name": "Anantara Kihavah Maldives Villas",
-      "hotel_name_zh": "安納塔拉基哈瓦馬爾地夫別墅 · 水上別墅",
-      "hotel_room": "水上別墅 Overwater Villa",
-      "weather": "☀️ 31°/27°",
-      "rain_pct": "5%",
+      "date": "Jan 11 · Mon",
+      "label_zh": "換島日 · 吉利蘭坎芙希",
+      "hotel_name": "Gili Lankanfushi Maldives",
+      "hotel_name_zh": "吉利蘭坎芙希渡假村 · 海上別墅",
+      "hotel_room": "海上別墅 (Overwater Villa)",
+      "weather": "☀️ 30°/26°",
+      "rain_pct": "15%",
       "slots": [
         {
           "time": "07:00",
-          "desc": "🍽️ 庫倫巴早餐 · 最後的沙灘漫步"
+          "desc": "🌅 早起沙灘散步 · 撿貝殼 · 最後一次哈拉薇莉晨曦"
         },
         {
-          "time": "09:00",
-          "desc": "🏨 退房 · 快艇返回馬累機場"
+          "time": "08:00",
+          "desc": "🍽️ Jahaz Restaurant 自助早餐 · 告別餐"
         },
         {
-          "time": "10:30",
-          "desc": "🚁 水上飛機 35分鐘 · 俯瞰環礁 · 抵達安納塔拉"
+          "time": "09:30",
+          "desc": "🧳 退房 · 行李打包 · 寄放櫃檯"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏄 免費活動：站立槳板 (SUP) 或 風帆 (1小時)"
         },
         {
           "time": "11:30",
-          "desc": "🏨 入住水上別墅 · 玻璃地板看魚 · 歡迎香檳"
+          "desc": "🚤 快艇接駁前往吉利蘭坎芙希 (約30分鐘) · 海上航行"
+        },
+        {
+          "time": "12:00",
+          "desc": "🏨 抵達吉利蘭坎芙希 · 迎賓椰子水 · 入住海上別墅 · 私人管家介紹"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ Manzaru 餐廳 · 義式午餐 · 龍蝦義大利麵"
+          "desc": "🍽️ By The Sea 午餐 · 推薦蟹肉沙拉 · 沙灘美景"
         },
         {
           "time": "14:00",
-          "desc": "🤿 浮潛課程 · 珊瑚花園 · 海龜與魔鬼魚"
+          "desc": "🐢 免費海龜觀賞浮潛 (飯店免費出海活動) · 與海龜同游"
         },
         {
           "time": "17:00",
-          "desc": "🍹 Veli Bar 日落雞尾酒 · 椰子莫吉托"
+          "desc": "🧘 日落瑜珈 (免費) · 海上平台 · 身心靈放鬆"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ Sea.Fire.Salt. 水下餐廳 · 龍蝦三重奏 · 和牛"
+          "desc": "🍽️ Muraka 水下餐廳 · 印度洋生魚片拼盤 · 浪漫水下燈光"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 水上別墅陽台 · 星空泡澡"
+          "time": "21:30",
+          "desc": "🛥️ 私人管家安排夜間釣魚 (NT$6,000/人) · 或回別墅泡按摩浴缸"
         }
       ]
     },
     {
       "day": 4,
-      "date": "1月18日 · 週一",
-      "label_zh": "潛水與浪漫日",
-      "hotel_name": "Anantara Kihavah Maldives Villas",
-      "hotel_name_zh": "安納塔拉基哈瓦馬爾地夫別墅 · 水上別墅",
-      "hotel_room": "水上別墅 Overwater Villa",
-      "weather": "☀️ 30°/26°",
+      "date": "Jan 12 · Tue",
+      "label_zh": "探險日 · 出海與沙洲",
+      "hotel_name": "Gili Lankanfushi Maldives",
+      "hotel_name_zh": "吉利蘭坎芙希渡假村 · 海上別墅",
+      "hotel_room": "海上別墅 (Overwater Villa)",
+      "weather": "☀️ 31°/27°",
       "rain_pct": "10%",
       "slots": [
         {
           "time": "06:30",
-          "desc": "🌅 日出攝影 · 水上別墅甲板"
+          "desc": "🌅 日出巡航 (免費) · 私人管家準備咖啡 · 海上日出"
         },
         {
           "time": "08:00",
-          "desc": "🍽️ 早餐 · 現切水果 · 班尼迪克蛋"
+          "desc": "🍽️ Münch 咖啡館早餐 · 手沖咖啡 · 椰子蛋糕"
         },
         {
           "time": "09:30",
-          "desc": "🤿 深海潛水 · 專業教練 · 鯨鯊共游（季節限定）"
+          "desc": "🛥️ 私人沙洲野餐之旅 (含飯店快艇) · 無人沙洲 · 香檳與水果 · 浮潛"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 沙灘燒烤午餐 · 烤魚 · 沙拉"
+          "time": "12:30",
+          "desc": "🍽️ 沙洲野餐 · 龍蝦三明治 · 椰子水"
         },
         {
           "time": "14:00",
-          "desc": "🚤 私人日落巡航 · 海豚追逐 · 香檳"
+          "desc": "🐠 回飯店 · 自由浮潛 · 或租借水上摩托車 (NT$4,000/30分鐘)"
         },
         {
-          "time": "17:00",
-          "desc": "🧖 安納塔拉 SPA · 熱石按摩 · 海景療程室"
+          "time": "16:00",
+          "desc": "💆 雙人海景SPA (60分鐘) · 使用椰子精油 (NT$6,000/人)"
         },
         {
-          "time": "19:30",
-          "desc": "🍽️ Fire 餐廳 · 鐵板燒 · 和牛 · 龍蝦"
+          "time": "17:30",
+          "desc": "🍸 夕陽雞尾酒 · 私人別墅陽台 · 管家服務"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ By The Sea 沙灘燒烤晚餐 · 現烤海鮮 · 燭光沙灘"
         },
         {
           "time": "21:00",
-          "desc": "🌙 沙灘螢火蟲漫步 · 星空攝影"
+          "desc": "🎬 星空電影院 (免費) · 沙灘躺椅 · 爆米花 · 浪漫之夜"
         }
       ]
     },
     {
       "day": 5,
-      "date": "1月19日 · 週二",
-      "label_zh": "最後全日 · 自由時光",
-      "hotel_name": "Anantara Kihavah Maldives Villas",
-      "hotel_name_zh": "安納塔拉基哈瓦馬爾地夫別墅 · 水上別墅",
-      "hotel_room": "水上別墅 Overwater Villa",
-      "weather": "☀️ 31°/27°",
+      "date": "Jan 13 · Wed",
+      "label_zh": "放鬆日 · 最後的享樂",
+      "hotel_name": "Gili Lankanfushi Maldives",
+      "hotel_name_zh": "吉利蘭坎芙希渡假村 · 海上別墅",
+      "hotel_room": "海上別墅 (Overwater Villa)",
+      "weather": "☀️ 30°/26°",
       "rain_pct": "5%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🍽️ 早餐 · 最後的 indulgence"
+          "time": "07:30",
+          "desc": "🌅 沙灘散步 · 收集紀念貝殼"
         },
         {
-          "time": "09:30",
-          "desc": "🏄 站立划槳 SUP · 瀉湖探險"
+          "time": "08:30",
+          "desc": "🍽️ Münch 咖啡館早餐 · 班尼迪克蛋 · 新鮮果汁"
         },
         {
-          "time": "11:00",
-          "desc": "📸 專業攝影師 · 情侶寫真 · 水上別墅 + 沙灘"
+          "time": "10:00",
+          "desc": "🏄 免費風帆或獨木舟 · 最後一次玩水"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 泳池畔午餐 · 輕食 · 冰沙"
+          "time": "12:00",
+          "desc": "🍽️ 午餐 · 客房服務 · 在別墅陽台享用 · 龍蝦沙拉"
         },
         {
           "time": "14:00",
-          "desc": "🏊 水上別墅泳池 · 最後浮潛"
+          "desc": "📸 專業攝影師拍攝紀念照 (含30分鐘) · 飯店贈送"
         },
         {
-          "time": "16:00",
-          "desc": "🛍️ 精品店 · 紀念品 · 手工藝品"
+          "time": "15:30",
+          "desc": "🛍️ 紀念品店購物 · 馬爾地夫手工藝品 · 明信片"
         },
         {
-          "time": "18:00",
-          "desc": "🍹 Veli Bar 最後的日落 · 告別雞尾酒"
+          "time": "17:00",
+          "desc": "🍸 最後的夕陽雞尾酒 · 沙灘酒吧 · 拍照留念"
         },
         {
-          "time": "19:30",
-          "desc": "🍽️ Manzaru 晚餐 · 龍蝦 · 甜點拼盤"
+          "time": "19:00",
+          "desc": "🍽️ Muraka 告別晚餐 · 香草奶油龍蝦 · 甜點拼盤"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 打包行李 · 星空下道別"
+          "time": "21:30",
+          "desc": "🧳 退房 · 行李打包 · 準備前往機場"
         }
       ]
     },
     {
       "day": 6,
-      "date": "1月20日 · 週三",
+      "date": "Jan 14 · Thu",
       "label_zh": "返程日",
-      "hotel_name": "Anantara Kihavah Maldives Villas",
-      "hotel_name_zh": "安納塔拉基哈瓦馬爾地夫別墅 · 水上別墅",
-      "hotel_room": "水上別墅 Overwater Villa",
+      "hotel_name": "Gili Lankanfushi Maldives",
+      "hotel_name_zh": "吉利蘭坎芙希渡假村 · 海上別墅",
+      "hotel_room": "海上別墅 (Overwater Villa)",
       "weather": "☀️ 30°/26°",
-      "rain_pct": "0%",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🍽️ 早餐 · 最後的沙灘散步"
+          "time": "00:00",
+          "desc": "🛥️ 快艇前往馬累機場 (約25分鐘) · 星空告別"
         },
         {
-          "time": "09:00",
-          "desc": "🏨 退房 · 水上飛機返回馬累"
+          "time": "00:30",
+          "desc": "🧳 抵達馬累機場 · 辦理登機 · 免稅店最後採購"
         },
         {
-          "time": "10:30",
-          "desc": "🛬 抵達馬累機場 · 免稅店購物"
+          "time": "02:30",
+          "desc": "✈️ SQ462 MLE→SIN (4h30m) · 機上早餐"
         },
         {
-          "time": "18:00",
-          "desc": "✈️ 新加坡航空 SQ452 · 返回台灣"
+          "time": "10:20",
+          "desc": "🛬 抵達新加坡樟宜機場 T3 · 轉機2小時 · 可逛蝴蝶園或購物"
         },
         {
-          "time": "15:20",
-          "desc": "🛬 抵達桃園 TPE · 甜蜜回憶"
+          "time": "12:25",
+          "desc": "✈️ SQ879 SIN→TPE (4h30m) · 機上午餐"
+        },
+        {
+          "time": "17:05",
+          "desc": "🛬 抵達桃園機場 T1 · 結束浪漫馬爾地夫之旅"
         }
       ]
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票",
-      "amount_ntd": 48000
+      "label": "✈️ 來回機票 (新加坡航空經濟艙)",
+      "amount_ntd": 52000
     },
     {
-      "label": "🏨 住宿（總計）",
-      "amount_ntd": 160000
+      "label": "🏨 住宿 (Constance Halaveli 3晚 + Gili Lankanfushi 3晚)",
+      "amount_ntd": 255000
     },
     {
-      "label": "🍽️ 餐飲",
-      "amount_ntd": 25000
+      "label": "🍽️ 餐飲 (含兩次高級餐廳、沙洲野餐)",
+      "amount_ntd": 28000
     },
     {
-      "label": "🎫 景點門票與活動",
-      "amount_ntd": 8000
+      "label": "🎫 活動與SPA (雙人SPA、夜釣、水上摩托車)",
+      "amount_ntd": 18000
     },
     {
-      "label": "🚁 水上飛機與快艇接送",
-      "amount_ntd": 12000
+      "label": "🚤 快艇接駁 (飯店含，無額外)",
+      "amount_ntd": 0
     },
     {
-      "label": "🛍️ 購物伴手禮",
+      "label": "🛍️ 紀念品與雜支",
       "amount_ntd": 5000
+    },
+    {
+      "label": "💰 小費與其他",
+      "amount_ntd": 3000
     }
   ],
-  "cost_total_ntd": 258000,
-  "budget_remaining_ntd": -8000,
+  "cost_total_ntd": 361000,
+  "budget_remaining_ntd": -11000,
   "photos": {
     "hero": [
       {
-        "url": "https://haru27.biz/wp-content/uploads/2025/08/2026-Toyota-Land-Cruiser-FJ_26-2048x1170-1-1890x1080.webp",
-        "label": "ランクルFJ発売直前！硬派SUVの魅力と最新スペックを深掘り | 新車発売情報"
+        "url": "https://www.discoverwalks.com/blog/wp-content/uploads/2022/08/1631px-male_city_aerial_the_capital_city_of_maldives_-_panoramio-768x509.jpg",
+        "label": "Top 10 Sensational Facts about Maldives Glowing Beach (Vaadhoo ..."
+      },
+      {
+        "url": "https://c8.alamy.com/comp/R6X733/the-skyline-of-male-capital-of-the-maldives-in-the-indian-ocean-R6X733.jpg",
+        "label": "Capital Of Maldives Stock Photos & Capital Of Maldives Stock Images - Alamy"
       }
     ],
     "destination": [
       {
-        "url": "https://static.vecteezy.com/system/resources/previews/035/155/354/large_2x/luxury-island-landscape-in-maldives-with-boats-and-perfect-blue-sea-water-palm-trees-and-water-villas-tropical-beach-as-aerial-landscape-view-from-drone-beautiful-nature-scenery-in-maldives-island-photo.jpg",
-        "label": "Luxury island landscape in Maldives with boats and perfect blue sea ..."
-      },
-      {
-        "url": "https://wallpaperaccess.com/full/2810351.jpg",
-        "label": "Maldives HD Sunset Wallpapers - Top Free Maldives HD Sunset Backgrounds ..."
-      },
-      {
-        "url": "https://img.freepik.com/premium-photo/amazing-aerial-landscape-water-villas-maldives-luxury-travel-scenic-paradise-island-resort_663265-3703.jpg?w=2000",
-        "label": "Amazing aerial landscape, water villas in maldives. luxury travel ..."
-      },
-      {
-        "url": "https://wallpapercave.com/wp/wp4088744.jpg",
-        "label": "Best Beaches Maldives Wallpapers - Wallpaper Cave"
-      },
-      {
-        "url": "https://images5.alphacoders.com/877/877099.jpg",
-        "label": "Tropical Maldives Pier: Stunning 4K Ultra HD Turquoise Island Escape"
-      },
-      {
-        "url": "https://img.freepik.com/premium-photo/maldives-paradise-scenery-tropical-aerial-landscape-seascape-with-long-pier-water-villas-lagoon_663265-1422.jpg",
-        "label": "Premium Photo | Maldives paradise scenery. tropical aerial landscape ..."
+        "url": "https://shop.odakyu-dept.co.jp/storage/ex_product_sku_image/8/4514254127650_8.jpg",
+        "label": "オンブルクルールクアドリ（レフィル）|クレ・ド・ポー ボーテ|アイシャドウ|小田急百貨店オンラインショッピング"
       }
     ]
   },
-  "chat_hash": "572540b525f79f184551b6956b0762fb1d3bf9248d66999279e39dd27c9c3dd7",
+  "chat_hash": "31df3231982fd0501bd14c30c8270194790c175e1696f6d87f1d1fc4fafad1e8",
   "config_hash": "245a6b7af0a400802f2091e095f5aaf46fd691cc3bf74b637c0ac10e452d193b",
-  "generated_at": "2026-05-17T19:55:40.927983"
+  "generated_at": "2026-05-17T20:15:56.733419"
 }
