@@ -1,0 +1,471 @@
+{
+  "destination_en": "Maldives",
+  "title_zh": "六月的馬爾地夫 · 五天四夜浪漫之旅",
+  "date_range": "2026/06/15–06/19",
+  "start_date": "2026-06-15",
+  "end_date": "2026-06-19",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "MLE",
+  "travelers": 2,
+  "days": 5,
+  "budget_ntd": 500000,
+  "flight": {
+    "airline": "新加坡航空 Singapore Airlines",
+    "departure_date": "6月15日",
+    "return_date": "6月19日",
+    "total_price_ntd": 68000,
+    "outbound": {
+      "flight_no": "SQ 879",
+      "route": "TPE → SIN → MLE",
+      "depart_time": "14:20",
+      "arrive_time": "22:10",
+      "duration": "經新加坡轉機，總時長約 11h 50m",
+      "class": "經濟艙"
+    },
+    "inbound": {
+      "flight_no": "SQ 452",
+      "route": "MLE → SIN → TPE",
+      "depart_time": "11:55",
+      "arrive_time": "06:25 (+1)",
+      "duration": "經新加坡轉機，總時長約 12h 30m",
+      "class": "經濟艙"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Soneva Fushi",
+      "name_zh": "索尼娃芙西度假村",
+      "district": "芭環礁 Baa Atoll",
+      "day_range": "1–2",
+      "nights": 2,
+      "price_ntd": 180000,
+      "stars": "★★★★★",
+      "room_type": "水上別墅 (Water Villa with Slide)",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 無邊際泳池 · 🍽️ 米其林星級餐廳 · 🛝 水上滑梯 · 🌿 私人管家 · 🤿 浮潛裝備",
+      "search_query": "Soneva Fushi Maldives water villa",
+      "photos": [
+        {
+          "url": "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2025/03/27182627/Soneva-Fushi-Floating-Breakfast_Photo-Credit_-Julia-Neeson-@julesandbeyond-for-Soneva.-All-images-remain-the-property-of-Soneva.-Credits-must-be-used-in-full_-and-images-must-not-be-altered-in-any-way-scaled.jpeg",
+          "label": "Luxury Overwater & Island Villas in the Maldives | Soneva Fushi"
+        },
+        {
+          "url": "https://dailyarchitecturenews.com/wp-content/uploads/2020/09/Resized_SF-19.jpg",
+          "label": "DAN | Daily Architecture News First look: Maldives welcomes over-water ..."
+        },
+        {
+          "url": "https://dailyarchitecturenews.com/wp-content/uploads/2020/07/Resized_SF-20.jpg",
+          "label": "DAN | Daily Architecture News First look: Maldives welcomes over-water ..."
+        },
+        {
+          "url": "https://www.maldiveswatervillas.com/wp-content/uploads/2021/06/Soneva-Fushi-Villa-15.jpg",
+          "label": "Soneva Fushi Villa 15 - Maldives Water Villas"
+        },
+        {
+          "url": "https://www.maldiveswatervillas.com/wp-content/uploads/2021/06/Soneva-Fushi-Villa-38-2.jpg",
+          "label": "Soneva Fushi Villa 38 2 - Maldives Water Villas"
+        },
+        {
+          "url": "https://www.maldiveswatervillas.com/wp-content/uploads/2021/06/Soneva-Fushi-3-Bedroom-Soneva-Fushi-Suite-with-Pool-Villa-ext3.jpg",
+          "label": "Soneva-Fushi-3-Bedroom-Soneva-Fushi-Suite-with-Pool-Villa-ext3 ..."
+        }
+      ]
+    },
+    {
+      "name": "Conrad Maldives Rangali Island",
+      "name_zh": "康萊德馬爾地夫倫格里島",
+      "district": "南阿里環礁 South Ari Atoll",
+      "day_range": "3–4",
+      "nights": 2,
+      "price_ntd": 150000,
+      "stars": "★★★★★",
+      "room_type": "日落水上別墅 (Sunset Water Villa)",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 無邊際泳池 · 🍽️ Ithaa海底餐廳 · 🐢 與鯨鯊共游 · 🛥️ 私人快艇接送",
+      "search_query": "Conrad Maldives Rangali Island underwater restaurant",
+      "photos": [
+        {
+          "url": "https://nohomejustroam.com/wp-content/uploads/2024/09/Ithaa-Undersea-Restaurant-at-the-Conrad-Maldives-Rangali-Island-1-1000x753.jpg",
+          "label": "Review: Ithaa Undersea Restaurant At Conrad Maldives Rangali Island ..."
+        },
+        {
+          "url": "https://c8.alamy.com/comp/HW12K4/maldives-rangali-island-conrad-hilton-resort-couple-in-ithaa-underwater-HW12K4.jpg",
+          "label": "Maldives, Rangali Island. Conrad Hilton Resort. Couple in Ithaa ..."
+        },
+        {
+          "url": "https://c8.alamy.com/comp/HW12K9/maldives-rangali-island-conrad-hilton-resort-couple-in-ithaa-underwater-HW12K9.jpg",
+          "label": "Maldives, Rangali Island. Conrad Hilton Resort. Couple in Ithaa ..."
+        },
+        {
+          "url": "http://www.demflyers.com/wp-content/uploads/2018/05/restaurant.jpg",
+          "label": "Dining at Ithaa, the underwater restaurant at the Conrad Maldives ..."
+        },
+        {
+          "url": "https://i.pinimg.com/originals/71/cf/27/71cf27b38c192df5365897da337a2d0d.jpg",
+          "label": "ITHAA UNDERSEA RESTAURANT🍽 | Ocean restaurant, Maldives travel, Maldives"
+        },
+        {
+          "url": "https://c8.alamy.com/comp/HW12K8/maldives-rangali-island-conrad-hilton-resort-couple-in-ithaa-underwater-HW12K8.jpg",
+          "label": "Maldives, Rangali Island. Conrad Hilton Resort. Couple in Ithaa ..."
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "Ithaa Undersea Restaurant",
+        "name_zh": "伊塔海底餐廳 · 全球首家全玻璃水下餐廳",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：龍蝦三重奏 · 香檳配對套餐",
+        "address": "Conrad Maldives, South Ari Atoll",
+        "price_ntd": 35000,
+        "price_label": "晚餐套餐 US$1,000/兩人 · NT$35,000",
+        "hours": "18:30–22:00 · 需提前預約",
+        "search_query": "Ithaa Undersea Restaurant Conrad Maldives",
+        "photos": [
+          {
+            "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/files/topics/832_ext_01_0_L.jpg",
+            "label": "山親爺（やまおやじ）｜にっぽん伝統食図鑑：農林水産省"
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "Fresh in the Garden",
+        "name_zh": "花園鮮食餐廳 · 有機農場到餐桌",
+        "stars": "",
+        "dish": "🥗 招牌：現摘沙拉 · 烤龍蝦 · 椰子冰淇淋",
+        "address": "Soneva Fushi, Baa Atoll",
+        "price_ntd": 12000,
+        "price_label": "兩人晚餐 US$340 · NT$12,000",
+        "hours": "19:00–22:00",
+        "search_query": "Fresh in the Garden Soneva Fushi",
+        "photos": [
+          {
+            "url": "https://arenatours.com/wp-content/uploads/2016/11/soneva-fushi-maldives-fresh-in-the-garden-6.jpg",
+            "label": "Fresh in the Garden - Arenatours DE - ID: 186863"
+          },
+          {
+            "url": "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2021/11/28192145/Soneva-Fushi-Fresh-in-the-Garden-copy-600x600.jpg",
+            "label": "Fresh in the Garden | Dining at Soneva Fushi, Maldives"
+          },
+          {
+            "url": "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2021/11/15114957/Manu-Buffara-at-Fresh-in-the-Garden-2-1200x1199.jpg",
+            "label": "Fresh in the Garden | Dining at Soneva Fushi, Maldives"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "The Crab Shack",
+        "name_zh": "螃蟹小屋 · 沙灘休閒午餐",
+        "stars": "",
+        "dish": "🦀 招牌：辣炒螃蟹 · 椰子雞尾酒 · 木烤披薩",
+        "address": "Soneva Fushi, Baa Atoll",
+        "price_ntd": 8000,
+        "price_label": "兩人午餐 US$230 · NT$8,000",
+        "hours": "12:00–15:00 · 赤足沙灘用餐",
+        "search_query": "Crab Shack Soneva Fushi",
+        "photos": [
+          {
+            "url": "https://www.countryandtownhouse.com/wp-content/uploads/2022/07/28081_Soneva-Jani-Crab-Shack-1-840x560.jpg",
+            "label": "Review: Eating your Heart out at Soneva Fushi and Soneva Jani - Travel"
+          },
+          {
+            "url": "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2021/12/17054209/Soneva-Jani-Crab-Shack9-1200x1200.jpg",
+            "label": "Crab Shack | Dining at Soneva Jani"
+          },
+          {
+            "url": "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2021/12/17053454/Soneva-Jani-Crab-Shack-1200x1200.jpg",
+            "label": "Crab Shack | Dining at Soneva Jani"
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "Jun 15 · Mon",
+      "label_zh": "啟程 · 飛往馬爾地夫",
+      "day_query": "Maldives aerial view islands",
+      "hotel_name": "Soneva Fushi",
+      "hotel_name_zh": "索尼娃芙西度假村 · 水上別墅",
+      "hotel_room": "水上別墅 (Water Villa with Slide)",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "11:00",
+          "desc": "🚕 從台北家中出發，前往桃園國際機場第一航廈"
+        },
+        {
+          "time": "12:00",
+          "desc": "🧳 抵達桃園機場 · 新加坡航空櫃檯辦理登機 · 通過安檢"
+        },
+        {
+          "time": "14:20",
+          "desc": "✈️ SQ 879 啟程前往新加坡（飛行約 4h 40m）"
+        },
+        {
+          "time": "19:00",
+          "desc": "🛬 抵達新加坡樟宜機場 · 轉機時間約 2 小時 · 可在貴賓室休息"
+        },
+        {
+          "time": "21:10",
+          "desc": "✈️ 轉乘 SQ 452 前往馬爾地夫（飛行約 4h 30m）"
+        },
+        {
+          "time": "22:40",
+          "desc": "🛬 抵達馬累國際機場 (MLE) · 入境通關取行李"
+        },
+        {
+          "time": "23:30",
+          "desc": "🚤 Soneva Fushi 專屬快艇接駁（約 30 分鐘）· 迎賓雞尾酒"
+        },
+        {
+          "time": "00:00",
+          "desc": "🏨 抵達 Soneva Fushi · 私人管家帶您入住水上別墅 · 享受星空下的晚安飲品"
+        }
+      ],
+      "day_photo": "https://www.impressionsphotography.org/wp-content/uploads/baa-atoll-maldives-aerial-photo.jpg"
+    },
+    {
+      "day": 2,
+      "date": "Jun 16 · Tue",
+      "label_zh": "島嶼探索 · 浮潛與夕陽",
+      "day_query": "Soneva Fushi Maldives beach",
+      "hotel_name": "Soneva Fushi",
+      "hotel_name_zh": "索尼娃芙西度假村 · 水上別墅",
+      "hotel_room": "水上別墅 (Water Villa with Slide)",
+      "weather": "☀️ 33°/27°",
+      "rain_pct": "3%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "☕ 客房內享用漂浮早餐 · 新鮮水果拼盤 + 現煮咖啡 + 可頌"
+        },
+        {
+          "time": "09:00",
+          "desc": "🤿 私人浮潛課程（度假村免費提供裝備）· 教練帶您探索珊瑚花園"
+        },
+        {
+          "time": "11:00",
+          "desc": "🦀 The Crab Shack 沙灘午餐 · 辣炒螃蟹 + 椰子雞尾酒"
+        },
+        {
+          "time": "13:00",
+          "desc": "💆 雙人 SPA 療程（90分鐘）· 使用有機椰子油 · NT$12,000"
+        },
+        {
+          "time": "15:00",
+          "desc": "🛝 從水上別墅滑水道直接滑入海中 · 盡情玩水"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚶 島上探索 · 參觀有機花園 · 巧克力店"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ Fresh in the Garden 晚餐 · 農場到餐桌體驗"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌙 露天電影院觀星 · 爆米花 + 熱可可 · 浪漫之夜"
+        }
+      ],
+      "day_photo": "https://soneva.com/wp-content/uploads/2022/10/19340_Soneva-Fushi-Water-Retreats-Aerial.jpg"
+    },
+    {
+      "day": 3,
+      "date": "Jun 17 · Wed",
+      "label_zh": "換島 · 海底餐廳驚喜",
+      "day_query": "Conrad Maldives Rangali Island",
+      "hotel_name": "Conrad Maldives Rangali Island",
+      "hotel_name_zh": "康萊德馬爾地夫倫格里島 · 日落水上別墅",
+      "hotel_room": "日落水上別墅 (Sunset Water Villa)",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "☕ Soneva Fushi 最後的沙灘早餐 · 告別私人管家"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚤 退房 · 搭乘快艇前往 Conrad Maldives（約 1 小時航程）"
+        },
+        {
+          "time": "10:15",
+          "desc": "🏨 抵達 Conrad Maldives · 辦理入住 · 專屬管家帶您至日落水上別墅"
+        },
+        {
+          "time": "11:00",
+          "desc": "🐠 免費浮潛探索 · 礁石區可見海龜、小鯊魚"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ Vilu 餐廳午餐 · 地中海風味 · 海景座位"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚴 騎腳踏車環島（約 30 分鐘）· 探索島上設施"
+        },
+        {
+          "time": "17:00",
+          "desc": "🍸 日落雞尾酒 · 在沙洲上欣賞印度洋夕陽"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ Ithaa 海底餐廳晚餐 · 全球首家全玻璃水下餐廳 · 龍蝦三重奏配香檳"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 回到別墅 · 室外按摩浴缸泡澡 · 仰望銀河"
+        }
+      ],
+      "day_photo": "https://www.luxurytraveldiary.com/wp-content/uploads/2023/06/review-conrad-maldives-rangali-island-8.jpg"
+    },
+    {
+      "day": 4,
+      "date": "Jun 18 · Thu",
+      "label_zh": "鯨鯊共游 · 浪漫晚餐",
+      "day_query": "whale shark swimming Maldives",
+      "hotel_name": "Conrad Maldives Rangali Island",
+      "hotel_name_zh": "康萊德馬爾地夫倫格里島 · 日落水上別墅",
+      "hotel_room": "日落水上別墅 (Sunset Water Villa)",
+      "weather": "☀️ 33°/27°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "06:30",
+          "desc": "🌅 早起觀賞日出 · 管家送來現煮咖啡"
+        },
+        {
+          "time": "07:30",
+          "desc": "🤿 鯨鯊浮潛探險（含專業導遊）· 與溫柔巨人共游 · NT$15,000/兩人"
+        },
+        {
+          "time": "11:00",
+          "desc": "☕ 回房休息 · 漂浮早餐送至別墅泳池畔"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ Mandhoo SPA 餐廳午餐 · 健康輕食"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛥️ 私人日落巡航（2 小時）· 香檳 + 小點心 · NT$18,000"
+        },
+        {
+          "time": "16:30",
+          "desc": "💆 雙人 SPA · 海景療程室 · 使用當地精油"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 沙灘燭光晚餐 · 私人廚師服務 · 龍蝦牛排套餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 沙灘漫步 · 星空攝影 · 最後一夜的浪漫"
+        }
+      ],
+      "day_photo": "https://images.squarespace-cdn.com/content/v1/5f0df38c634e797196d51e6c/1620286392184-7LH5I9HM246WO2SKWSLC/matt-reichel-maldives-south-ari-whale-sharks-inertia-network-35-s.jpg"
+    },
+    {
+      "day": 5,
+      "date": "Jun 19 · Fri",
+      "label_zh": "返程 · 滿載回憶",
+      "day_query": "Maldives seaplane airport",
+      "hotel_name": "Conrad Maldives Rangali Island",
+      "hotel_name_zh": "康萊德馬爾地夫倫格里島 · 日落水上別墅",
+      "hotel_room": "日落水上別墅 (Sunset Water Villa)",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "☕ 最後的沙灘早餐 · 與管家道別"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚤 退房 · 快艇前往馬累機場（約 30 分鐘）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🧳 抵達 MLE · 辦理登機 · 免稅店購物（馬爾地夫紀念品）"
+        },
+        {
+          "time": "11:55",
+          "desc": "✈️ SQ 452 啟程返回新加坡（飛行約 4h 30m）"
+        },
+        {
+          "time": "19:25",
+          "desc": "🛬 抵達新加坡 · 轉機時間約 2 小時 · 在貴賓室享用晚餐"
+        },
+        {
+          "time": "21:30",
+          "desc": "✈️ SQ 879 飛往台北（飛行約 4h 40m）"
+        },
+        {
+          "time": "06:25",
+          "desc": "🛬 抵達桃園機場 · 通關取行李 · 返回溫暖的家"
+        }
+      ],
+      "day_photo": "https://imgv2-2-f.scribdassets.com/img/document/679119971/original/7a738af3a0/1711173022?v=1"
+    }
+  ],
+  "costs": [
+    {
+      "label": "✈️ 來回機票",
+      "amount_ntd": 68000
+    },
+    {
+      "label": "🏨 住宿（Soneva Fushi 2晚 + Conrad 2晚）",
+      "amount_ntd": 330000
+    },
+    {
+      "label": "🍽️ 餐飲（含 Ithaa 海底餐廳）",
+      "amount_ntd": 65000
+    },
+    {
+      "label": "🎫 活動（浮潛、SPA、日落巡航、鯨鯊共游）",
+      "amount_ntd": 45000
+    },
+    {
+      "label": "🚤 島間交通（快艇、接駁）",
+      "amount_ntd": 20000
+    },
+    {
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 10000
+    }
+  ],
+  "cost_total_ntd": 538000,
+  "budget_remaining_ntd": -38000,
+  "photos": {
+    "hero": [
+      {
+        "url": "https://www.discoverwalks.com/blog/wp-content/uploads/2022/08/1631px-male_city_aerial_the_capital_city_of_maldives_-_panoramio-1536x1017.jpg",
+        "label": "Top 10 Intriguing Facts about Male Island, Maldives - Discover Walks Blog"
+      },
+      {
+        "url": "https://images7.alphacoders.com/542/542274.jpg",
+        "label": "Male,the Capital of Maldives Full HD Wallpaper and Background Image ..."
+      }
+    ],
+    "destination": [
+      {
+        "url": "https://www.szxuexiao.com/uploadimages/keben2022/gzsxzzbx4_2019/gzsxzzbx4_2019_00.jpg",
+        "label": "封面|人教版高中思想政治必修第四册2019年审定_中学课本网"
+      }
+    ]
+  },
+  "chat_hash": "e20ce776942c1140097cf9d299bf4bd99a8b618266ddaab3ec7921517f693902",
+  "config_hash": "245a6b7af0a400802f2091e095f5aaf46fd691cc3bf74b637c0ac10e452d193b",
+  "generated_at": "2026-05-19T00:00:46.335737"
+}
