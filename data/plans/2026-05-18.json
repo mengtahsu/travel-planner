@@ -1,151 +1,93 @@
 {
-  "destination_en": "Netherlands & Switzerland",
-  "title_zh": "2028年暑假 · 荷蘭瑞士家庭之旅（10–12天）",
-  "date_range": "2028/07/15–2028/07/26",
-  "start_date": "2028-07-15",
-  "end_date": "2028-07-26",
+  "destination_en": "Maldives",
+  "title_zh": "馬爾地夫 · 浪漫五天蜜月之旅",
+  "date_range": "2026/06/10–06/14",
+  "start_date": "2026-06-10",
+  "end_date": "2026-06-14",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "AMS",
-  "travelers": 5,
-  "days": 12,
-  "budget_ntd": 800000,
+  "destination_code": "MLE",
+  "travelers": 2,
+  "days": 5,
+  "budget_ntd": 500000,
   "flight": {
-    "airline": "中華航空 China Airlines",
-    "departure_date": "7月15日",
-    "return_date": "7月26日",
-    "total_price_ntd": 250000,
+    "airline": "新加坡航空 Singapore Airlines",
+    "departure_date": "6月10日",
+    "return_date": "6月14日",
+    "total_price_ntd": 60000,
     "outbound": {
-      "flight_no": "CI 73",
-      "route": "TPE → AMS 直飛",
-      "depart_time": "23:30",
-      "arrive_time": "07:30 (+1)",
-      "duration": "14h 00m",
+      "flight_no": "SQ 879",
+      "route": "TPE → SIN 轉機 → MLE",
+      "depart_time": "08:10",
+      "arrive_time": "15:25 (+1 stop)",
+      "duration": "11h 15m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 74",
-      "route": "ZRH → TPE 直飛",
-      "depart_time": "11:20",
-      "arrive_time": "06:30 (+1)",
-      "duration": "13h 10m",
+      "flight_no": "SQ 452",
+      "route": "MLE → SIN 轉機 → TPE",
+      "depart_time": "23:25",
+      "arrive_time": "14:10 (+1)",
+      "duration": "12h 45m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Hotel V Nesplein",
-      "name_zh": "阿姆斯特丹V酒店",
-      "district": "阿姆斯特丹市中心",
-      "day_range": "1–4",
-      "nights": 4,
-      "price_ntd": 120000,
-      "stars": "★★★★☆",
-      "room_type": "一間家庭房（2大人）+ 一間雙人房（3少女）",
-      "breakfast": "含自助早餐",
-      "amenities": "🚲 免費自行車 · ☕ 大廳咖啡 · 📶 免費WiFi",
-      "search_query": "Hotel V Nesplein Amsterdam Netherlands",
-      "photos": [
-        {
-          "url": "https://blogthumb.pstatic.net/MjAyNTExMTJfMjQ5/MDAxNzYyOTA3MzI1NzM0.9wwpudgKctFyyw5rpkQn5nGdWhpiY7rIFnHrGRg2qY8g.hOIOsjuywzH9-eUE9vGC1ZWWSfqSGNS3SGGOslpB76Yg.JPEG/900��1762907240269.jpeg?type=w2",
-          "label": "최광희 평론가 프로필 및 매불쇼 발언 논란 : 네이버 블로그"
-        }
-      ]
-    },
-    {
-      "name": "Hotel Schweizerhof Bern",
-      "name_zh": "伯恩施維哲霍夫酒店",
-      "district": "伯恩市中心",
-      "day_range": "5–6",
-      "nights": 2,
-      "price_ntd": 80000,
-      "stars": "★★★★☆",
-      "room_type": "一間家庭房（2大人）+ 一間雙人房（3少女）",
-      "breakfast": "含瑞士式早餐",
-      "amenities": "🏔️ 山景 · 🛁 浴缸 · 📶 免費WiFi",
-      "search_query": "Hotel Schweizerhof Bern Switzerland",
-      "photos": [
-        {
-          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/29/2e/be/exterior.jpg?w=1200&h=-1&s=1",
-          "label": "HOTEL SCHWEIZERHOF BERN & SPA: Bewertungen, Fotos & Preisvergleich ..."
-        },
-        {
-          "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/17057/1705724/1705724871/hotel-schweizerhof-bern-spa-bern-photo-71.JPEG",
-          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
-        },
-        {
-          "url": "https://schweizerhofbern.com/uploads/media/992x1360/01/831-Hotel_Schweizerhof_Bern_Spa_Shooting_Christmas+(19).jpg?v=1-0",
-          "label": "Hotel Schweizerhof Bern & Spa | 5-star Hotel in Switzerland"
-        },
-        {
-          "url": "https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/1955/195535/195535726/hotel-schweizerhof-bern-spa-bern-photo-3.JPEG",
-          "label": "Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices"
-        },
-        {
-          "url": "https://a.storyblok.com/f/272028/1900x1267/61224aec85/bern_hotel_schweizerhof_aussen-panorama.jpeg/m/2000x0/filters:quality(80)",
-          "label": "Schweizerhof Bern & Spa - Bern Welcome"
-        },
-        {
-          "url": "https://thumbs.dreamstime.com/z/hotel-schweizerhof-bern-switzerland-september-shows-beauty-its-architecture-five-star-was-renovated-62117221.jpg",
-          "label": "Hotel Schweizerhof in Bern editorial photo. Image of swiss - 62117221"
-        }
-      ]
-    },
-    {
-      "name": "Hotel Schweizerhof Luzern",
-      "name_zh": "琉森施維哲霍夫酒店",
-      "district": "琉森湖畔",
-      "day_range": "7–9",
+      "name": "Soneva Fushi Resort",
+      "name_zh": "索尼娃芙西度假村",
+      "district": "Baa Atoll 芭環礁",
+      "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 135000,
+      "price_ntd": 220000,
       "stars": "★★★★★",
-      "room_type": "一間湖景家庭房（2大人）+ 一間雙人房（3少女）",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 室內泳池 · 🛶 免費船票 · 📶 免費WiFi",
-      "search_query": "Hotel Schweizerhof Luzern Switzerland",
+      "room_type": "豪華水上別墅（含私人泳池）",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 無邊際泳池 · 🧖 SPA · 🍽️ 五間餐廳 · 🌿 有機花園 · 🤿 免費浮潛裝備",
+      "search_query": "Soneva Fushi Maldives overwater villa",
       "photos": [
         {
-          "url": "https://c8.alamy.com/comp/PT86J8/hotel-schweizerhof-luzern-lucerne-switzerland-PT86J8.jpg",
-          "label": "Lucerne switzerland hotel schweizerhof hi-res stock photography and ..."
+          "url": "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2025/03/27182627/Soneva-Fushi-Floating-Breakfast_Photo-Credit_-Julia-Neeson-@julesandbeyond-for-Soneva.-All-images-remain-the-property-of-Soneva.-Credits-must-be-used-in-full_-and-images-must-not-be-altered-in-any-way-scaled.jpeg",
+          "label": "Luxury Overwater & Island Villas in the Maldives | Soneva Fushi"
         },
         {
-          "url": "https://phgcdn.com/images/uploads/ZRHSL/masthead/ZRHSL-masthead-hotelschweizerhofluzern.jpg",
-          "label": "Hotels in Lucerne, Switzerland | Hotel Schweizerhof Luzern | Lake ..."
+          "url": "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2021/03/02000501/15951_Soneva-Fushi-2-Bedroom-Water-Retreat-with-Slide.jpg",
+          "label": "Luxury Overwater & Island Villas in the Maldives | Soneva Fushi"
         },
         {
-          "url": "https://www.expatolife.com/wp-content/uploads/2022/12/hotel-schweizerhof-luzern-switzerland.jpeg",
-          "label": "Where To Stay In Lucerne: Best Areas & Hotels | Expatolife"
+          "url": "https://qtxasset.com/quartz/qcloud1/media/image/luxurytraveladvisor/1599149474/SonevaFushiOverwaterVilla-1.jpg?VersionId=1DS2.DN4nGAv2iYD0WLNy3wiEYedd.Iz",
+          "label": "Soneva Fushi Touts Opening of World's Largest Overwater Villas | Luxury ..."
         },
         {
-          "url": "https://phgcdn.com/images/uploads/ZRHSL/corporatemasthead/1600x813_image_of_exterior_hotel_schweizerhof_luzern.jpg",
-          "label": "Hotels in Lucerne, Switzerland | Hotel Schweizerhof Luzern | Lake ..."
+          "url": "https://robbreport.com/wp-content/uploads/2020/09/SFR-1BR-Water-Retreat-Living-Room-by-Sandro-Bruecklmeier.jpg?w=1000",
+          "label": "Soneva Fushi in the Maldives Opens the World's Largest Overwater Villa"
         },
         {
-          "url": "https://thumbs.dreamstime.com/b/famous-hotel-schweizerhof-lucerne-lucerne-switzerland-europe-july-famous-hotel-schweizerhof-lucerne-lucerne-switzerland-july-252473287.jpg",
-          "label": "Famous Hotel Schweizerhof in Lucerne - LUCERNE, SWITZERLAND - JULY 14 ..."
+          "url": "https://luxurylaunches.com/wp-content/uploads/2019/10/SFR-Water-Retreat-1-Bedroom.jpg",
+          "label": "Maldives' iconic Soneva Fushi resort to get overwater villas with their ..."
         },
         {
-          "url": "https://golfinswitzerland.com/wp-content/uploads/2021/03/155543230@width-480.jpg",
-          "label": "Hotel Schweizerhof Luzern | Golf in Switzerland | Historical 5* Hotel"
+          "url": "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2023/08/27071446/Soneva-Secret-Overwater-Hideaway1-scaled.jpg",
+          "label": "Luxury Villas in the Maldives | Discover Soneva Secret"
         }
       ]
     },
     {
-      "name": "Hotel Schweizerhof Zürich",
-      "name_zh": "蘇黎世施維哲霍夫酒店",
-      "district": "蘇黎世火車站旁",
-      "day_range": "10–11",
+      "name": "Conrad Maldives Rangali Island",
+      "name_zh": "康萊德馬爾地夫倫格里島",
+      "district": "South Ari Atoll 南阿里環礁",
+      "day_range": "3–5",
       "nights": 2,
-      "price_ntd": 90000,
-      "stars": "★★★★☆",
-      "room_type": "一間家庭房（2大人）+ 一間雙人房（3少女）",
-      "breakfast": "含自助早餐",
-      "amenities": "🚇 交通便利 · 🍽️ 瑞士餐廳 · 📶 免費WiFi",
-      "search_query": "Hotel Schweizerhof Zürich Switzerland",
+      "price_ntd": 150000,
+      "stars": "★★★★★",
+      "room_type": "水上別墅（含玻璃地板）",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 無邊際泳池 · 🍽️ 海底餐廳 Ithaa · 🤿 與鯨鯊共游 · 🚁 水上飛機接送",
+      "search_query": "Conrad Maldives Rangali Island underwater restaurant",
       "photos": [
         {
-          "url": "https://xpic.x-mol.com/20210430/10.1021_acs.jpcc.1c01638.gif",
-          "label": "In Situ PM-IRRAS Study of CO Adsorption on Au Surfaces: Solving the ..."
+          "url": "https://img.alicdn.com/i1/2206576925616/O1CN01d7pPQo1rMB9TBryCg_!!2206576925616.jpg",
+          "label": "HUAWEI HiLink电子称体重秤家用精准的充电人体智能体脂小型称重_虎窝淘"
         }
       ]
     }
@@ -153,181 +95,65 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "De Kas",
-        "name_zh": "阿姆斯特丹溫室餐廳",
-        "stars": "⭐⭐",
-        "dish": "🌿 招牌：主廚田園套餐（季節蔬菜）",
-        "address": "Plantage Kerklaan 61, 1018 CX Amsterdam",
-        "price_ntd": 3500,
-        "price_label": "午餐套餐 €40/人 · NT$1,400",
-        "hours": "12:00–14:30 · 需預約",
-        "search_query": "De Kas restaurant Amsterdam Netherlands",
+        "name": "Ithaa Undersea Restaurant",
+        "name_zh": "伊塔海底餐廳 · 世界首家全玻璃海底餐廳",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：龍蝦佐香檳醬 · 熱帶水果拼盤",
+        "address": "Conrad Maldives, South Ari Atoll",
+        "price_ntd": 18000,
+        "price_label": "晚餐套餐 $300/人 · NT$18,000",
+        "hours": "12:30–14:30 / 18:30–22:00 · 需提前預約",
+        "search_query": "Ithaa Undersea Restaurant Maldives interior",
         "photos": [
           {
-            "url": "https://retaildesignblog.net/wp-content/uploads/2012/02/De-Kas-Restaurant-Amsterdam-720x488.jpg",
-            "label": "» De Kas Restaurant, Amsterdam"
+            "url": "https://www.pandotrip.com/wp-content/uploads/2014/05/Ithaa-Restaurant4.jpg",
+            "label": "Ithaa - One and Only Underwater Restaurant in Maldives - PandoTrip.com"
           },
           {
-            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics__/dc752af24fd84e4dbbe1d41164c598d7?width=1000",
-            "label": "De Kas – Amsterdam - a MICHELIN Guide Restaurant"
+            "url": "https://d27k8xmh3cuzik.cloudfront.net/wp-content/uploads/2017/10/Ithaa1.jpg",
+            "label": "5 Underwater Restaurants In Maldives You Can’t Miss"
           },
           {
-            "url": "https://www.yourlittleblackbook.me/wp-content/uploads/2021/05/restaurant-de-kas-amsterdam-interieur.jpg",
-            "label": "Restaurant De Kas Amsterdam // Your Little Black Book"
-          }
-        ]
-      },
-      {
-        "name": "Restaurant 1731",
-        "name_zh": "伯恩1731餐廳",
-        "stars": "⭐⭐",
-        "dish": "🧀 招牌：瑞士起司火鍋套餐",
-        "address": "Gerechtigkeitsgasse 16, 3011 Bern",
-        "price_ntd": 4200,
-        "price_label": "晚餐套餐 €48/人 · NT$1,680",
-        "hours": "18:00–21:30 · 需預約",
-        "search_query": "Restaurant 1731 Bern Switzerland",
-        "photos": [
-          {
-            "url": "https://a.storyblok.com/f/272028/6720x4480/043feb2333/bern_innenansicht_kornhauskeller-restaurant_3_c_kornhauskeller-restaurant.JPG/m/1000x667/filters:format(webp):quality(1)",
-            "label": "72 heures à Berne pour les fans d’histoire et d’archéologie - Bern Welcome"
-          },
-          {
-            "url": "https://a.storyblok.com/f/272028/7008x4672/bfe3ca30f9/4_bern_restaurantterrasse_casa-novo_c_bern-welcome.jpg/m/1000x667/filters:format(webp):quality(1)",
-            "label": "Unsere Restauranttipps mit traditioneller Schweizer Küche - Bern Welcome"
-          },
-          {
-            "url": "https://1731restaurant.com/wp-content/uploads/2022/08/about-3-200x143.jpg",
-            "label": "Photo Gallery - 1731 Restaurant"
-          }
-        ]
-      },
-      {
-        "name": "Restaurant Olivo",
-        "name_zh": "琉森橄欖餐廳",
-        "stars": "⭐⭐",
-        "dish": "🥩 招牌：瑞士牛排佐松露醬",
-        "address": "Haldenstrasse 4, 6006 Luzern",
-        "price_ntd": 4500,
-        "price_label": "晚餐套餐 €52/人 · NT$1,820",
-        "hours": "18:30–22:00 · 需預約",
-        "search_query": "Restaurant Olivo Luzern Switzerland",
-        "photos": [
-          {
-            "url": "https://bin.staticlocal.ch/info-image-ad/53/53afa972664da5122e01e2604a5fb199c1060cf2/restaurant_olivo_luzern_blick_pilatus_3.jpg",
-            "label": "Restaurant Olivo Restaurant in Luzern - Öffnungszeiten | Adresse | Telefon"
-          },
-          {
-            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/c8321d598abb474598c9e445331aa0c1.jpg",
-            "label": "Restaurant Olivo – Lucerne - a MICHELIN Guide Restaurant"
-          },
-          {
-            "url": "https://restaurant.info/img/210151/restaurant-restaurant-olivo-212391.jpg?h=&w=1123&mode=max&scale=down&autorotate=true",
-            "label": "Restaurant Olivo | Restaurant in Luzern"
+            "url": "https://nohomejustroam.com/wp-content/uploads/2024/09/Ithaa-Undersea-Restaurant-at-the-Conrad-Maldives-Rangali-Island-1-scaled.jpg",
+            "label": "Review: Ithaa Undersea Restaurant At Conrad Maldives Rangali Island ..."
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "The Pancake Bakery",
-        "name_zh": "阿姆斯特丹煎餅屋",
-        "stars": "",
-        "dish": "🥞 招牌：荷蘭煎餅（甜/鹹）",
-        "address": "Prinsengracht 191, 1015 DS Amsterdam",
-        "price_ntd": 2000,
-        "price_label": "家庭套餐 €45/5人 · NT$1,575",
-        "hours": "09:00–20:00",
-        "search_query": "The Pancake Bakery Amsterdam Netherlands",
+        "name": "Fresh in the Garden",
+        "name_zh": "花園鮮食 · 索尼娃芙西有機餐廳",
+        "stars": "⭐",
+        "dish": "🥗 招牌：主廚精選有機沙拉 · 烤龍蝦",
+        "address": "Soneva Fushi, Baa Atoll",
+        "price_ntd": 6000,
+        "price_label": "晚餐套餐 $100/人 · NT$6,000",
+        "hours": "19:00–22:00 · 需預約",
+        "search_query": "Fresh in the Garden Soneva Fushi",
         "photos": [
           {
-            "url": "https://www.iamsterdam.com/_next/image?url=https://app.thefeedfactory.nl/api/assets/63f221c98c38c352556866b3/pancakes_centraal-1800.jpg&w=1080&q=75",
-            "label": "The Pancake Bakery"
-          },
-          {
-            "url": "https://www.mathersonthemap.com/wp-content/uploads/2019/10/The-Best-Places-to-Eat-and-Drink-in-the-City-of-Amsterdam.-The-Pancake-Bakery.jpg",
-            "label": "The Best Places to Eat and Drink in the City of Amsterdam - Mathers on ..."
-          },
-          {
-            "url": "https://thisworldtraveled.com/wp-content/uploads/2020/09/pancake-bakery-amsterdam-750x1030.jpg",
-            "label": "How to Travel to Amsterdam, Netherlands: The Full Guide to Getting There"
-          }
-        ]
-      },
-      {
-        "name": "Lorenz Cafe Bar",
-        "name_zh": "琉森洛倫茲咖啡吧",
-        "stars": "",
-        "dish": "🥨 招牌：瑞士起司焗馬鈴薯",
-        "address": "Weinmarkt 7, 6004 Luzern",
-        "price_ntd": 1800,
-        "price_label": "家庭套餐 €40/5人 · NT$1,400",
-        "hours": "11:00–22:00",
-        "search_query": "Lorenz Cafe Bar Luzern Switzerland",
-        "photos": [
-          {
-            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/9b/cf/64/interior.jpg?w=1200&h=-1&s=1",
-            "label": "Der beste Brunch in Luzern"
-          },
-          {
-            "url": "https://c8.alamy.com/comp/PRPGC5/cafes-bars-and-restaurants-in-mhlenplatz-lucerne-switzerland-PRPGC5.jpg",
-            "label": "Bars architecture hi-res stock photography and images - Alamy"
-          },
-          {
-            "url": "https://i0.wp.com/saltandpeppertravel.com/wp-content/uploads/2020/05/Buvette-Bar-Cafe-Voliere-Landscape.jpg?resize=768,576&ssl=1",
-            "label": "The Best Bars in Lucerne: Where to drink in Lucerne"
+            "url": "https://i.ytimg.com/vi/hwEPm1LBEbk/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLAh4W3C-iAAhNdCnCSMejyIyV6sDA",
+            "label": "Fully automatic large plastic bag folding machine # ..."
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Winkel 43",
-        "name_zh": "阿姆斯特丹蘋果派名店",
+        "name": "The Chocolate Room",
+        "name_zh": "巧克力坊 · 索尼娃芙西",
         "stars": "",
-        "dish": "🍰 招牌：荷蘭蘋果派 + 鮮奶油",
-        "address": "Noordermarkt 43, 1015 NA Amsterdam",
-        "price_ntd": 1500,
-        "price_label": "家庭套餐 €33/5人 · NT$1,155",
-        "hours": "08:00–17:00",
-        "search_query": "Winkel 43 apple pie Amsterdam",
+        "dish": "🍫 招牌：手工松露巧克力 · 馬爾地夫椰子蛋糕",
+        "address": "Soneva Fushi, Baa Atoll",
+        "price_ntd": 2500,
+        "price_label": "兩人下午茶 $42 · NT$2,500",
+        "hours": "14:00–17:00 · 免費品嚐",
+        "search_query": "The Chocolate Room Soneva Fushi Maldives",
         "photos": [
           {
-            "url": "https://blushrougette.com/wp-content/uploads/2019/05/winkel-43-apple-pie-1460x973.jpg",
-            "label": "Winkel 43, the best Dutch apple pie in Amsterdam - Review | Blushrougette"
-          },
-          {
-            "url": "https://static.wixstatic.com/media/ea720f_60b15d7750f94c20b59b0311c4e90277~mv2.jpg/v1/fill/w_980,h_1503,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea720f_60b15d7750f94c20b59b0311c4e90277~mv2.jpg",
-            "label": "Café Winkel 43 - Best Dutch Apple Pie in Amsterdam, The Netherlands"
-          },
-          {
-            "url": "https://i.redd.it/tqgcax3f0wi01.jpg",
-            "label": "Apple pie from Winkel 43 in Amsterdam, Netherlands. The most perfectly ..."
-          }
-        ]
-      },
-      {
-        "name": "Café du Soleil",
-        "name_zh": "伯恩陽光咖啡館",
-        "stars": "",
-        "dish": "☕ 招牌：瑞士熱巧克力 + 杏仁餅",
-        "address": "Gurtengasse 2, 3011 Bern",
-        "price_ntd": 1200,
-        "price_label": "家庭套餐 €27/5人 · NT$945",
-        "hours": "08:00–19:00",
-        "search_query": "Café du Soleil Bern Switzerland",
-        "photos": [
-          {
-            "url": "https://media.timeout.com/images/102902013/750/422/image.jpg",
-            "label": "Café du Soleil | Restaurants in Jonction, Switzerland"
-          },
-          {
-            "url": "https://assets-global.website-files.com/65437b5506567f570d7946e0/65803baffd79d3e5e0fd476f_2006+-+Cafe+du+Soleil.png",
-            "label": "Café du Soleil : Meilleure Fondue de Genève et Cuisine Suisse Authentique."
-          },
-          {
-            "url": "https://assets-global.website-files.com/65437b5506567f570d7946e0/65803f21787e20793d11f2fc_2016+-+Cafe+du+Soleil.png",
-            "label": "Café du Soleil : Meilleure Fondue de Genève et Cuisine Suisse Authentique."
+            "url": "https://www.studweldfast.com/cdn/shop/files/arc-DBAR_c1354b84-063f-49b8-9661-76ec6d2b9f35.jpg?v=1726067626&width=165",
+            "label": "Deformed Bar Anchors (DBA) – Stud Weld Fast"
           }
         ]
       }
@@ -336,536 +162,294 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "7月15日 · 六",
-      "label_zh": "出發日 · 抵達阿姆斯特丹",
-      "hotel_name": "Hotel V Nesplein",
-      "hotel_name_zh": "阿姆斯特丹V酒店",
-      "hotel_room": "家庭房+雙人房",
-      "weather": "☀️ 22°/15°",
-      "rain_pct": "10%",
+      "date": "Jun 10 · Wed",
+      "label_zh": "抵達 · 水上飛機初體驗",
+      "day_query": "Soneva Fushi Maldives aerial view",
+      "hotel_name": "Soneva Fushi Resort",
+      "hotel_name_zh": "索尼娃芙西度假村 · 豪華水上別墅",
+      "hotel_room": "豪華水上別墅（含私人泳池）",
+      "weather": "☀️ 31°/27°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐 · 起床整理行李"
+          "time": "06:00",
+          "desc": "✈️ 桃園機場 TPE 辦理登機 · 新加坡航空 SQ 879 · 08:10 起飛"
         },
         {
-          "time": "09:00",
-          "desc": "🚕 前往桃園機場第二航廈 · 建議提前2.5小時到"
+          "time": "12:30",
+          "desc": "🛬 抵達新加坡樟宜機場 · 轉機時間 2 小時 · 可在貴賓室休息或逛逛免稅店"
         },
         {
-          "time": "23:30",
-          "desc": "✈️ CI 73 TPE→AMS 直飛 · 飛行14小時"
+          "time": "15:25",
+          "desc": "🛬 抵達馬爾地夫維拉納國際機場 MLE · 通關取行李（約 30 分鐘）"
+        },
+        {
+          "time": "16:30",
+          "desc": "🚁 Soneva Fushi 專屬水上飛機接送（約 35 分鐘）· 俯瞰印度洋環礁美景"
+        },
+        {
+          "time": "17:15",
+          "desc": "🏨 抵達 Sonyeva Fushi · 度假村管家（Barefoot Butler）迎接 · 辦理入住"
+        },
+        {
+          "time": "18:00",
+          "desc": "🛁 入住豪華水上別墅 · 私人泳池 · 香檳迎賓 · 欣賞日落"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ Fresh in the Garden 有機晚餐 · 主廚精選套餐 · 搭配有機葡萄酒"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 星空電影院 · 在沙灘上觀看浪漫電影 · 免費爆米花與雞尾酒"
         }
-      ]
+      ],
+      "day_photo": "https://soneva-offload-media-library.storage.googleapis.com/wp-content/uploads/2024/06/03184454/Aerial-Image-of-Soneva-Fushi-at-Sunset-scaled-1600x900.jpg"
     },
     {
       "day": 2,
-      "date": "7月16日 · 日",
-      "label_zh": "阿姆斯特丹 · 運河與博物館日",
-      "hotel_name": "Hotel V Nesplein",
-      "hotel_name_zh": "阿姆斯特丹V酒店",
-      "hotel_room": "家庭房+雙人房",
-      "weather": "☀️ 22°/15°",
-      "rain_pct": "10%",
+      "date": "Jun 11 · Thu",
+      "label_zh": "浮潛 · 海豚巡航 · SPA",
+      "day_query": "Maldives snorkeling coral reef",
+      "hotel_name": "Soneva Fushi Resort",
+      "hotel_name_zh": "索尼娃芙西度假村 · 豪華水上別墅",
+      "hotel_room": "豪華水上別墅（含私人泳池）",
+      "weather": "☀️ 32°/28°",
+      "rain_pct": "0%",
       "slots": [
         {
+          "time": "07:00",
+          "desc": "🌅 日出瑜伽課程（免費）· 在海灘上迎接晨光"
+        },
+        {
           "time": "08:00",
-          "desc": "🛬 抵達AMS Schiphol機場 · 入境通關取行李"
+          "desc": "🥐 早餐 · 度假村主餐廳 · 現做鬆餅、新鮮水果、馬爾地夫傳統早餐"
         },
         {
           "time": "09:30",
-          "desc": "🚇 搭火車至阿姆斯特丹中央車站（車程15分鐘）"
+          "desc": "🤿 浮潛探險 · 度假村免費提供裝備 · 探索珊瑚花園與熱帶魚群"
         },
         {
-          "time": "10:30",
-          "desc": "🏨 飯店入住 · 寄放行李 · 稍作休息"
+          "time": "12:00",
+          "desc": "🍽️ 午餐 · 海灘燒烤 · 新鮮龍蝦、烤魚、沙拉"
         },
         {
-          "time": "11:00",
-          "desc": "🥞 The Pancake Bakery 午餐 · 荷蘭煎餅"
+          "time": "14:00",
+          "desc": "💆 Soneva SPA · 情侶精油按摩（90 分鐘 · $250/人 · NT$7,500）· 使用有機產品"
         },
         {
-          "time": "13:00",
-          "desc": "🚲 飯店免費自行車 · 騎車遊運河區"
-        },
-        {
-          "time": "15:00",
-          "desc": "🎨 梵谷博物館（預約票€19/人）"
+          "time": "16:00",
+          "desc": "🍫 The Chocolate Room 下午茶 · 無限品嚐手工巧克力與冰淇淋"
         },
         {
           "time": "17:30",
-          "desc": "🍰 Winkel 43 下午茶 · 蘋果派"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ De Kas 晚餐（預約19:30）"
+          "desc": "🐬 私人海豚巡航（$150/人 · NT$4,500）· 追逐印度洋海豚群 · 香檳與日落"
         },
         {
           "time": "20:00",
-          "desc": "🛌 回飯店休息"
+          "desc": "🍽️ 晚餐 · 度假村日式餐廳 · 壽司與生魚片套餐"
         }
-      ]
+      ],
+      "day_photo": "https://media.istockphoto.com/id/825329690/ko/사진/cinque-테-르에-리오의-보기.jpg?s=612x612&w=0&k=20&c=PGQdoT-NMDIcW7oeAdiWPZQs1qT8_ktOwgra-9xQsrQ="
     },
     {
       "day": 3,
-      "date": "7月17日 · 一",
-      "label_zh": "阿姆斯特丹 · 風車與起司",
-      "hotel_name": "Hotel V Nesplein",
-      "hotel_name_zh": "阿姆斯特丹V酒店",
-      "hotel_room": "家庭房+雙人房",
-      "weather": "⛅ 20°/14°",
-      "rain_pct": "20%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚌 搭391號公車至Zaanse Schans（車程30分鐘）"
-        },
-        {
-          "time": "10:00",
-          "desc": "🌷 Zaanse Schans 風車村 · 參觀木鞋工廠"
-        },
-        {
-          "time": "12:00",
-          "desc": "🧀 起司農場試吃 · 午餐在當地小館"
-        },
-        {
-          "time": "14:00",
-          "desc": "🚌 返回阿姆斯特丹"
-        },
-        {
-          "time": "15:30",
-          "desc": "🛍️ 水壩廣場逛街 · 買紀念品"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ 自由晚餐 · 可選海鮮餐廳（如The Seafood Bar）"
-        },
-        {
-          "time": "20:00",
-          "desc": "🛌 回飯店休息"
-        }
-      ]
-    },
-    {
-      "day": 4,
-      "date": "7月18日 · 二",
-      "label_zh": "阿姆斯特丹 · 安妮之家與運河遊船",
-      "hotel_name": "Hotel V Nesplein",
-      "hotel_name_zh": "阿姆斯特丹V酒店",
-      "hotel_room": "家庭房+雙人房",
-      "weather": "⛅ 21°/15°",
-      "rain_pct": "15%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐"
-        },
-        {
-          "time": "09:00",
-          "desc": "📚 安妮之家（預約票€16/人）"
-        },
-        {
-          "time": "11:30",
-          "desc": "🚢 運河遊船1小時（€12/人）"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 午餐 · 自由選擇"
-        },
-        {
-          "time": "14:30",
-          "desc": "🌷 庫肯霍夫花園（季節限定，7月無，改去阿姆斯特丹森林公園）"
-        },
-        {
-          "time": "17:00",
-          "desc": "🛍️ 九條街購物"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 飯店附近餐廳晚餐"
-        },
-        {
-          "time": "20:00",
-          "desc": "🛌 回飯店休息"
-        }
-      ]
-    },
-    {
-      "day": 5,
-      "date": "7月19日 · 三",
-      "label_zh": "阿姆斯特丹 → 伯恩 · 火車日",
-      "hotel_name": "Hotel Schweizerhof Bern",
-      "hotel_name_zh": "伯恩施維哲霍夫酒店",
-      "hotel_room": "家庭房+雙人房",
-      "weather": "☀️ 25°/16°（伯恩）",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐 · 退房"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚇 搭火車至阿姆斯特丹中央車站"
-        },
-        {
-          "time": "10:00",
-          "desc": "🚄 搭IC直達伯恩（約6小時，需轉車一次）· 車上可買午餐"
-        },
-        {
-          "time": "16:00",
-          "desc": "🏨 抵達伯恩 · 飯店入住"
-        },
-        {
-          "time": "17:00",
-          "desc": "🚶 漫步伯恩舊城區 · 時鐘塔"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ Restaurant 1731 晚餐（預約19:00）"
-        },
-        {
-          "time": "20:00",
-          "desc": "🛌 回飯店休息"
-        }
-      ]
-    },
-    {
-      "day": 6,
-      "date": "7月20日 · 四",
-      "label_zh": "伯恩 · 熊公園與玫瑰園",
-      "hotel_name": "Hotel Schweizerhof Bern",
-      "hotel_name_zh": "伯恩施維哲霍夫酒店",
-      "hotel_room": "家庭房+雙人房",
-      "weather": "☀️ 26°/17°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐"
-        },
-        {
-          "time": "09:00",
-          "desc": "🐻 熊公園（免費）"
-        },
-        {
-          "time": "10:30",
-          "desc": "🌹 玫瑰園（免費）· 俯瞰伯恩全景"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ Café du Soleil 午餐"
-        },
-        {
-          "time": "14:00",
-          "desc": "🏛️ 愛因斯坦博物館（€10/人）"
-        },
-        {
-          "time": "16:00",
-          "desc": "🛍️ 拱廊購物街"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ 自由晚餐"
-        },
-        {
-          "time": "20:00",
-          "desc": "🛌 回飯店休息"
-        }
-      ]
-    },
-    {
-      "day": 7,
-      "date": "7月21日 · 五",
-      "label_zh": "伯恩 → 琉森 · 黃金列車",
-      "hotel_name": "Hotel Schweizerhof Luzern",
-      "hotel_name_zh": "琉森施維哲霍夫酒店",
-      "hotel_room": "湖景家庭房+雙人房",
-      "weather": "☀️ 27°/18°（琉森）",
+      "date": "Jun 12 · Fri",
+      "label_zh": "換島 · 海底餐廳 · 康萊德",
+      "day_query": "Conrad Maldives Rangali Island aerial",
+      "hotel_name": "Conrad Maldives Rangali Island",
+      "hotel_name_zh": "康萊德馬爾地夫倫格里島 · 水上別墅",
+      "hotel_room": "水上別墅（含玻璃地板）",
+      "weather": "☀️ 31°/27°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐 · 退房"
+          "time": "07:00",
+          "desc": "🥐 早餐 · Soneva Fushi 主餐廳 · 最後一頓早餐"
         },
         {
           "time": "09:00",
-          "desc": "🚄 搭黃金全景列車（GoldenPass）伯恩→琉森（約2小時）"
+          "desc": "🏨 退房 · 搭乘快艇前往康萊德倫格里島（約 45 分鐘）· 沿途欣賞環礁"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏨 抵達 Conrad Maldives · 辦理入住 · 升級水上別墅"
         },
         {
           "time": "11:00",
-          "desc": "🏨 抵達琉森 · 飯店入住"
+          "desc": "🛁 入住水上別墅 · 玻璃地板可直接觀賞海底魚群 · 私人甲板"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 午餐 · 老城區餐廳"
-        },
-        {
-          "time": "14:00",
-          "desc": "🌉 卡貝爾橋 · 獅子紀念碑"
-        },
-        {
-          "time": "16:00",
-          "desc": "🚢 琉森湖遊船1小時（飯店免費票）"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ Restaurant Olivo 晚餐（預約19:00）"
-        },
-        {
-          "time": "20:00",
-          "desc": "🛌 回飯店休息"
-        }
-      ]
-    },
-    {
-      "day": 8,
-      "date": "7月22日 · 六",
-      "label_zh": "琉森 · 鐵力士山一日遊",
-      "hotel_name": "Hotel Schweizerhof Luzern",
-      "hotel_name_zh": "琉森施維哲霍夫酒店",
-      "hotel_room": "湖景家庭房+雙人房",
-      "weather": "☀️ 20°/8°（山上）",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚌 搭巴士至英格堡（Engelberg）· 約1小時"
-        },
-        {
-          "time": "10:30",
-          "desc": "🚡 纜車上鐵力士山（€60/人）· 冰川洞穴"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 山頂餐廳午餐"
-        },
-        {
-          "time": "14:00",
-          "desc": "🎿 雪地活動（雪橇/雪鞋）"
-        },
-        {
-          "time": "16:00",
-          "desc": "🚡 下山回琉森"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ Lorenz Cafe Bar 晚餐"
-        },
-        {
-          "time": "20:00",
-          "desc": "🛌 回飯店休息"
-        }
-      ]
-    },
-    {
-      "day": 9,
-      "date": "7月23日 · 日",
-      "label_zh": "琉森 → 蘇黎世 · 博物館日",
-      "hotel_name": "Hotel Schweizerhof Zürich",
-      "hotel_name_zh": "蘇黎世施維哲霍夫酒店",
-      "hotel_room": "家庭房+雙人房",
-      "weather": "☀️ 28°/19°（蘇黎世）",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐 · 退房"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚄 搭火車琉森→蘇黎世（約1小時）"
-        },
-        {
-          "time": "10:00",
-          "desc": "🏨 飯店入住 · 寄放行李"
-        },
-        {
-          "time": "11:00",
-          "desc": "🏛️ 瑞士國家博物館（€10/人）"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 午餐 · 班霍夫大街餐廳"
+          "time": "12:30",
+          "desc": "🍽️ Ithaa 海底餐廳午餐 · 世界首家全玻璃海底餐廳 · 五道菜套餐"
         },
         {
           "time": "15:00",
-          "desc": "🛍️ 班霍夫大街購物"
+          "desc": "🏊 度假村無邊際泳池 · 浮潛 · 免費立槳"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 自由晚餐"
+          "time": "17:00",
+          "desc": "🚶 島嶼漫步 · 探索度假村設施 · 拍照留念"
         },
         {
-          "time": "20:00",
-          "desc": "🛌 回飯店休息"
+          "time": "19:00",
+          "desc": "🍽️ 晚餐 · Vilu 餐廳 · 地中海風味 · 海鮮拼盤"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 星空散步 · 沙灘螢光藻（季節性）· 浪漫夜景"
         }
-      ]
+      ],
+      "day_photo": "https://thumbs.dreamstime.com/z/aerial-view-conrad-maldives-rangali-island-bungalows-289160820.jpg"
     },
     {
-      "day": 10,
-      "date": "7月24日 · 一",
-      "label_zh": "蘇黎世 · 萊茵瀑布與老城",
-      "hotel_name": "Hotel Schweizerhof Zürich",
-      "hotel_name_zh": "蘇黎世施維哲霍夫酒店",
-      "hotel_room": "家庭房+雙人房",
-      "weather": "☀️ 28°/19°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚄 搭火車至Schaffhausen（約1小時）"
-        },
-        {
-          "time": "10:30",
-          "desc": "🌊 萊茵瀑布（€5/人）"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 瀑布旁餐廳午餐"
-        },
-        {
-          "time": "14:00",
-          "desc": "🚄 回蘇黎世"
-        },
-        {
-          "time": "15:30",
-          "desc": "🚶 蘇黎世老城區漫步"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ 晚餐 · 飯店餐廳"
-        },
-        {
-          "time": "20:00",
-          "desc": "🛌 回飯店休息"
-        }
-      ]
-    },
-    {
-      "day": 11,
-      "date": "7月25日 · 二",
-      "label_zh": "蘇黎世 → 返程",
-      "hotel_name": "Hotel Schweizerhof Zürich",
-      "hotel_name_zh": "蘇黎世施維哲霍夫酒店",
-      "hotel_room": "家庭房+雙人房",
-      "weather": "☀️ 28°/19°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 飯店早餐 · 退房"
-        },
-        {
-          "time": "09:00",
-          "desc": "🛍️ 最後購物 · 巧克力店"
-        },
-        {
-          "time": "11:00",
-          "desc": "🚇 搭火車至ZRH機場（車程10分鐘）"
-        },
-        {
-          "time": "11:20",
-          "desc": "✈️ CI 74 ZRH→TPE 直飛 · 飛行13小時10分"
-        }
-      ]
-    },
-    {
-      "day": 12,
-      "date": "7月26日 · 三",
-      "label_zh": "抵達台灣",
-      "hotel_name": "",
-      "hotel_name_zh": "",
-      "hotel_room": "",
-      "weather": "",
-      "rain_pct": "",
+      "day": 4,
+      "date": "Jun 13 · Sat",
+      "label_zh": "鯨鯊共游 · 浪漫沙洲野餐",
+      "day_query": "whale shark swimming Maldives",
+      "hotel_name": "Conrad Maldives Rangali Island",
+      "hotel_name_zh": "康萊德馬爾地夫倫格里島 · 水上別墅",
+      "hotel_room": "水上別墅（含玻璃地板）",
+      "weather": "☀️ 32°/28°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "06:30",
-          "desc": "🛬 抵達桃園機場 · 結束旅程"
+          "desc": "🌅 日出時分 · 甲板上享用咖啡"
+        },
+        {
+          "time": "07:30",
+          "desc": "🤿 鯨鯊浮潛之旅（$180/人 · NT$5,400）· 與世界上最大的魚類共游 · 專業導遊陪同"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏖️ 私人沙洲野餐 · 度假村安排快艇送至無人沙洲 · 香檳、龍蝦、水果籃"
+        },
+        {
+          "time": "14:00",
+          "desc": "🏊 返回度假村 · 自由時間 · 浮潛或立槳"
+        },
+        {
+          "time": "16:00",
+          "desc": "💆 情侶 SPA · 康萊德水療中心 · 椰子精油按摩（60 分鐘 · $150/人 · NT$4,500）"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍸 日落雞尾酒 · 度假村酒吧 · 無邊際泳池旁"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 晚餐 · Ufaa 餐廳 · 馬爾地夫傳統料理 · 烤魚與椰子咖哩"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 最後一夜 · 沙灘漫步 · 星空下談心"
         }
-      ]
+      ],
+      "day_photo": "https://postfiles.pstatic.net/20150430_190/ssu28680_1430361418854NmcjW_JPEG/20150429_120327.jpg?type=w3"
+    },
+    {
+      "day": 5,
+      "date": "Jun 14 · Sun",
+      "label_zh": "離島 · 返程",
+      "day_query": "Male International Airport Maldives",
+      "hotel_name": "Conrad Maldives Rangali Island",
+      "hotel_name_zh": "康萊德馬爾地夫倫格里島 · 水上別墅",
+      "hotel_room": "水上別墅（含玻璃地板）",
+      "weather": "☀️ 31°/27°",
+      "rain_pct": "0%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 最後早餐 · 度假村主餐廳"
+        },
+        {
+          "time": "09:00",
+          "desc": "🏨 退房 · 搭乘水上飛機前往馬累（約 30 分鐘）"
+        },
+        {
+          "time": "10:00",
+          "desc": "🛬 抵達馬累機場 · 辦理登機 · 免稅店購物"
+        },
+        {
+          "time": "14:00",
+          "desc": "✈️ 新加坡航空 SQ 452 · 23:25 起飛 · 經新加坡轉機"
+        },
+        {
+          "time": "14:10",
+          "desc": "🛬 抵達台灣桃園機場 TPE · 行程結束"
+        }
+      ],
+      "day_photo": "https://sailingclick.com/wp-content/uploads/male-aerial-web.jpeg"
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（5人）",
-      "amount_ntd": 250000
-    },
-    {
-      "label": "🏨 住宿（總計）",
-      "amount_ntd": 425000
-    },
-    {
-      "label": "🍽️ 餐飲",
+      "label": "✈️ 來回機票",
       "amount_ntd": 60000
     },
     {
-      "label": "🎫 景點門票",
-      "amount_ntd": 25000
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 370000
     },
     {
-      "label": "🚄 交通（火車、纜車、巴士）",
-      "amount_ntd": 40000
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 42000
+    },
+    {
+      "label": "🎫 景點門票",
+      "amount_ntd": 15000
+    },
+    {
+      "label": "🚁 交通（水上飛機/快艇）",
+      "amount_ntd": 18000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 20000
+      "amount_ntd": 5000
     }
   ],
-  "cost_total_ntd": 820000,
-  "budget_remaining_ntd": -20000,
+  "cost_total_ntd": 490000,
+  "budget_remaining_ntd": 10000,
   "photos": {
     "hero": [
       {
-        "url": "https://thumbs.dreamstime.com/z/outline-poland-switzerland-city-skyline-set-blue-buildings-modern-historic-architecture-cityscape-landmarks-bern-basel-298324265.jpg",
-        "label": "Outline Lugano Switzerland And Rotterdam Netherlands City Skyline Set ..."
+        "url": "https://www.discoverwalks.com/blog/wp-content/uploads/2022/08/1631px-male_city_aerial_the_capital_city_of_maldives_-_panoramio-1536x1017.jpg",
+        "label": "Top 10 Intriguing Facts about Male Island, Maldives - Discover Walks Blog"
       },
       {
-        "url": "https://get.pxhere.com/photo/skyline-town-city-cityscape-panorama-downtown-tower-landmark-netherlands-dom-metropolis-utrecht-cathedral-square-urban-area-dom-tower-residential-area-human-settlement-895611.jpg",
-        "label": "Free Images : skyline, town, city, cityscape, panorama, downtown ..."
+        "url": "https://images7.alphacoders.com/542/542274.jpg",
+        "label": "Male,the Capital of Maldives Full HD Wallpaper and Background Image ..."
       }
     ],
     "destination": [
       {
-        "url": "https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2023/11/20202626/lauterbrunnen.jpg",
-        "label": "15 Most Beautiful Places In Switzerland To Visit (With Photos) - 2024"
+        "url": "https://static.vecteezy.com/system/resources/previews/035/155/354/large_2x/luxury-island-landscape-in-maldives-with-boats-and-perfect-blue-sea-water-palm-trees-and-water-villas-tropical-beach-as-aerial-landscape-view-from-drone-beautiful-nature-scenery-in-maldives-island-photo.jpg",
+        "label": "Luxury island landscape in Maldives with boats and perfect blue sea ..."
       },
       {
-        "url": "https://wallpapers.com/images/hd/netherlands-1500-x-1000-picture-a7xopvbv63ooazdw.jpg",
-        "label": "[200+] Netherlands Pictures | Wallpapers.com"
+        "url": "https://thumbs.dreamstime.com/b/maldives-island-beach-tropical-landscape-summer-scenery-white-sand-palm-trees-luxury-travel-vacation-destination-maldives-361037270.jpg",
+        "label": "Maldives Island Beach. Tropical Landscape of Summer Scenery, White Sand ..."
       },
       {
-        "url": "https://handluggageonly.co.uk/wp-content/uploads/2014/10/Hand-Luggage-Only-2.jpg",
-        "label": "Beautiful Scenery In Switzerland"
+        "url": "https://img.freepik.com/premium-photo/maldives-island-beach-tropical-landscape-summer-scenery-white-sand-palm-trees-luxury-travel_663265-8041.jpg",
+        "label": "Premium Photo | Maldives island beach tropical landscape of summer ..."
       },
       {
-        "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1JdPPg.img?w=1000&h=667&m=4&q=91",
-        "label": "16 Breathtaking Views in Switzerland"
+        "url": "https://thumbs.dreamstime.com/b/maldives-paradise-scenery-tropical-aerial-landscape-seascape-long-jetty-water-villas-amazing-sea-lagoon-beach-415029787.jpg",
+        "label": "Maldives Paradise Scenery. Tropical Aerial Landscape, Seascape with ..."
       },
       {
-        "url": "https://static.independent.co.uk/2025/11/07/22/50/ST0032464.jpeg?trim=2,0,3,0&width=1200&height=800&crop=1200:800",
-        "label": "Is Switzerland Europe’s most beautiful country? Seven spots that will ..."
+        "url": "https://img.freepik.com/premium-photo/maldives-island-beach-tropical-landscape-summer-scenery-white-sand-palm-trees-luxury-travel_663265-8042.jpg",
+        "label": "Premium Photo | Maldives island beach tropical landscape of summer ..."
       },
       {
-        "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1OBGO6.img?w=1280&h=720&m=4&q=70",
-        "label": "Schengen road trip: Countries you can reach from Switzerland in less ..."
+        "url": "https://thumbs.dreamstime.com/b/maldives-island-beach-tropical-landscape-summer-scenery-white-sand-palm-trees-luxury-travel-vacation-destination-maldives-361037271.jpg",
+        "label": "Maldives Island Beach. Tropical Landscape of Summer Scenery, White Sand ..."
       }
     ]
   },
-  "chat_hash": "8c389086278d6f34af6ad73aa2281cfb076efaad49e4bd12a713ae2ab6065cde",
+  "chat_hash": "e20ce776942c1140097cf9d299bf4bd99a8b618266ddaab3ec7921517f693902",
   "config_hash": "245a6b7af0a400802f2091e095f5aaf46fd691cc3bf74b637c0ac10e452d193b",
-  "generated_at": "2026-05-18T00:01:18.985243"
+  "generated_at": "2026-05-18T23:15:53.173525"
 }
