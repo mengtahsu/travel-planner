@@ -1,6 +1,6 @@
 {
   "destination_en": "Palau",
-  "title_zh": "帛琉 · 五天四夜浪漫潛水之旅",
+  "title_zh": "帛琉 · 五天四夜奢華浪漫之旅",
   "date_range": "2027/01/15–01/19",
   "start_date": "2027-01-15",
   "end_date": "2027-01-19",
@@ -9,25 +9,25 @@
   "destination_code": "ROR",
   "travelers": 2,
   "days": 5,
-  "budget_ntd": 250000,
+  "budget_ntd": 300000,
   "flight": {
     "airline": "中華航空 China Airlines",
     "departure_date": "1月15日",
     "return_date": "1月19日",
-    "total_price_ntd": 36000,
+    "total_price_ntd": 48000,
     "outbound": {
       "flight_no": "CI 028",
       "route": "TPE → ROR 直飛",
-      "depart_time": "09:30",
-      "arrive_time": "14:30",
+      "depart_time": "13:30",
+      "arrive_time": "18:30",
       "duration": "4h 00m",
       "class": "經濟艙"
     },
     "inbound": {
       "flight_no": "CI 027",
       "route": "ROR → TPE 直飛",
-      "depart_time": "15:30",
-      "arrive_time": "20:30",
+      "depart_time": "19:30",
+      "arrive_time": "22:30",
       "duration": "4h 00m",
       "class": "經濟艙"
     }
@@ -35,15 +35,15 @@
   "hotels": [
     {
       "name": "Palau Pacific Resort",
-      "name_zh": "帛琉太平洋度假村",
-      "district": "科羅爾島",
-      "day_range": "1–4",
-      "nights": 4,
-      "price_ntd": 96000,
+      "name_zh": "帛琉太平洋度假酒店",
+      "district": "科羅爾 Koror",
+      "day_range": "1–3",
+      "nights": 3,
+      "price_ntd": 72000,
       "stars": "★★★★★",
       "room_type": "海景豪華雙人房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 無邊際泳池 · 💆 海景SPA · 🍽️ 海濱餐廳 · 🏖️ 私人沙灘",
+      "breakfast": "含自助式早餐",
+      "amenities": "🏊 無邊際泳池 · 🧖 SPA · 🍽️ 海景餐廳 · 🌴 私人沙灘",
       "search_query": "Palau Pacific Resort Koror",
       "photos": [
         {
@@ -59,16 +59,55 @@
           "label": "Palau Pacific Resort Koror Palau"
         },
         {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164127275.jpg?k=323d857239975f834439db3a3cc9f0509f6f9815ab8296e1b19f5e95c8faed39&o=&hp=1",
+          "label": "Palau Pacific Resort & The Pristine Villas and Bungalows, Koror ..."
+        },
+        {
           "url": "https://diveadventures.com.au/wp-content/uploads/2020/07/Palau-Koror-Palau-Pacific-Resort-Grounds-and-Surrounds-DJI_0970-copy.jpg",
           "label": "Palau - Koror Scuba Diving — Dive Adventures"
         },
         {
           "url": "https://i.travelapi.com/hotels/18000000/17320000/17311700/17311612/ed5a4ef6_z.jpg",
           "label": "Palau Pacific Resort Koror - 2022 hotel deals - Klook Canada"
+        }
+      ]
+    },
+    {
+      "name": "Palau Royal Resort",
+      "name_zh": "帛琉皇家度假酒店",
+      "district": "科羅爾 Koror",
+      "day_range": "4–5",
+      "nights": 2,
+      "price_ntd": 48000,
+      "stars": "★★★★★",
+      "room_type": "豪華海景雙人房",
+      "breakfast": "含自助式早餐",
+      "amenities": "🏊 泳池 · 🧖 SPA · 🍽️ 日式餐廳 · 🌅 日落酒吧",
+      "search_query": "Palau Royal Resort Koror",
+      "photos": [
+        {
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/6a/c5/75/exterior.jpg?w=1400&h=-1&s=1",
+          "label": "PALAU ROYAL RESORT - Updated 2023 Prices & Hotel Reviews (Koror)"
         },
         {
-          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/164127275.jpg?k=323d857239975f834439db3a3cc9f0509f6f9815ab8296e1b19f5e95c8faed39&o=&hp=1",
-          "label": "Palau Pacific Resort & The Pristine Villas and Bungalows, Koror ..."
+          "url": "https://one-million-places.com/wp-content/uploads/2017/palau/palau-royal-resort-facebook.jpg",
+          "label": "Koror - Das Palau Royal Resort auf Malakal Island (Palau)"
+        },
+        {
+          "url": "https://d3g2yh83to8qa2.cloudfront.net/wp-content/uploads/sites/17/2016/04/08060938/exterior_990x590.jpg",
+          "label": "Palau Royal Resort | Luxury Hotel in Palau"
+        },
+        {
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/2e/8a/19/exterior.jpg?w=700&h=-1&s=1",
+          "label": "PALAU ROYAL RESORT: 2023 Prices & Reviews (Koror) - Photos of Hotel ..."
+        },
+        {
+          "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/ad/27/7c/exterior.jpg?w=700&h=-1&s=1",
+          "label": "Palau Royal Resort (Koror) - tarifs 2023 mis à jour et avis hôtel"
+        },
+        {
+          "url": "https://one-million-places.com/wp-content/uploads/2017/palau/palau-royal-resort-14.jpg",
+          "label": "Koror - The Palau Royal Resort on Malakal Island (Palau)"
         }
       ]
     }
@@ -76,27 +115,27 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "The Taj",
-        "name_zh": "泰姬印度餐廳 · 帛琉頂級料理",
-        "stars": "",
-        "dish": "🦞 招牌：香料龍蝦咖哩 · 印度烤餅",
-        "address": "Main Street, Koror",
-        "price_ntd": 3000,
-        "price_label": "雙人晚餐套餐 NT$3,000",
-        "hours": "18:00–21:30 · 需預約",
-        "search_query": "The Taj restaurant Palau",
+        "name": "The Penthouse Restaurant",
+        "name_zh": "頂樓餐廳",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：龍蝦牛排套餐",
+        "address": "Palau Pacific Resort, Koror",
+        "price_ntd": 4000,
+        "price_label": "晚餐套餐 US$133/人 · NT$4,000",
+        "hours": "18:00–21:00 · 需預約",
+        "search_query": "The Penthouse Restaurant Palau",
         "photos": [
           {
-            "url": "https://www.nauruair.com/library/images/Destinations/Palau/Palau+Restaurants/elilai.jpg",
-            "label": "Visit Palau: Destination Information"
+            "url": "https://pristineparadisepalau.com/wp-content/uploads/2017/10/298572935_753156709357462_4060822333126573124_n.jpg",
+            "label": "The Penthouse Restaurant"
           },
           {
-            "url": "https://pristineparadisepalau.com/wp-content/uploads/2017/10/The-Taj-Palau-3.jpg",
-            "label": "The Taj Palau: Luxury and Comfort in Paradise"
+            "url": "https://pristineparadisepalau.com/wp-content/uploads/2017/10/91294845_2926962974053301_2988947116576997376_n.jpg",
+            "label": "The Penthouse Restaurant"
           },
           {
-            "url": "https://teachertraveltimes.com/wp-content/uploads/2023/09/TheTajSign-800x1298.jpg",
-            "label": "The Best Restaurants to Eat at in Palau. - Teacher Travel Times"
+            "url": "https://images.getbento.com/accounts/df20ba9f0d4ffa7716d4a4e09c50a059/media/images/59828Huntley_Penthouse_PrivateDining_9D2A0625_2.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&crop=focalpoint&fp-x=0.5&fp-y=0.5",
+            "label": "The Twilight | The Penthouse at The Huntley Hotel | American Restaurant ..."
           }
         ]
       }
@@ -104,18 +143,26 @@
     "bistros": [
       {
         "name": "Kramer's Cafe",
-        "name_zh": "克萊默咖啡館 · 帛琉風味小館",
+        "name_zh": "克雷默咖啡館",
         "stars": "",
-        "dish": "🐟 招牌：椰子魚湯 · 烤鮪魚排",
-        "address": "Beach Road, Koror",
-        "price_ntd": 1800,
-        "price_label": "雙人午餐 NT$1,800",
-        "hours": "11:00–15:00 / 17:30–21:00",
-        "search_query": "Kramer's Cafe Palau",
+        "dish": "🍔 招牌：漢堡＆薯條 · 椰子冰沙",
+        "address": "Main Street, Koror",
+        "price_ntd": 1500,
+        "price_label": "兩人午餐 US$50 · NT$1,500",
+        "hours": "11:00–21:00",
+        "search_query": "Kramer's Cafe Koror",
         "photos": [
           {
-            "url": "http://pictures.hentai-foundry.com/u/Underrock/491109/Underrock-491109-Couch_Gaming_pt.4_commission_GURO_WARNING.jpg",
-            "label": "Couch Gaming pt.4 (commission) (GURO WARNING) by Underrock - Hentai Foundry"
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/fb/9e/af/photo0jpg.jpg?w=1100&h=1100&s=1",
+            "label": "KRAMER'S CAFE, Koror - Restaurant Reviews, Photos & Phone Number ..."
+          },
+          {
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/c6/48/6d/enjoy-the-view.jpg?w=800&h=600&s=1",
+            "label": "KRAMER'S CAFE, Koror - Restaurant Reviews, Photos & Phone Number ..."
+          },
+          {
+            "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/5b/e9/1c/photo0jpg.jpg?w=1100&h=1100&s=1",
+            "label": "KRAMER'S CAFE, Koror - Restaurant Reviews, Photos & Phone Number ..."
           }
         ]
       }
@@ -123,18 +170,26 @@
     "cafes": [
       {
         "name": "Rock Island Cafe",
-        "name_zh": "岩石島咖啡 · 水母湖旁",
+        "name_zh": "洛克群島咖啡館",
         "stars": "",
-        "dish": "☕ 招牌：冰拿鐵 · 椰子鬆餅",
-        "address": "Jellyfish Lake Dock, Koror",
-        "price_ntd": 800,
-        "price_label": "雙人輕食 NT$800",
-        "hours": "07:00–16:00 · 潛水客最愛",
+        "dish": "☕ 招牌：冰拿鐵 · 椰香鬆餅",
+        "address": "Koror Downtown",
+        "price_ntd": 900,
+        "price_label": "兩人下午茶 US$30 · NT$900",
+        "hours": "07:00–17:00",
         "search_query": "Rock Island Cafe Palau",
         "photos": [
           {
-            "url": "https://picx.zhimg.com/v2-ba3f13f01c731e099a197d58009c81ad_r.jpg",
-            "label": "【运动解剖】一张图看懂人体骨骼系统 - 知乎"
+            "url": "https://www.nauruair.com/library/images/Destinations/Palau/Palau+Restaurants/rockislandcafe.jpg",
+            "label": "Visit Palau: Destination Information"
+          },
+          {
+            "url": "https://pristineparadisepalau.com/wp-content/uploads/2017/11/rock_island_restaurant.jpg",
+            "label": "Rock Island Café"
+          },
+          {
+            "url": "https://live.staticflickr.com/65535/50742752617_8b1b22aee9_h.jpg",
+            "label": "Palau Rock Island Café | Flickr"
           }
         ]
       }
@@ -143,263 +198,283 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Jan 15 · Fri",
+      "date": "1月15日 · 週五",
       "label_zh": "抵達 · 帛琉初印象",
-      "day_query": "Palau Pacific Resort beach",
+      "day_query": "Palau arrival",
       "hotel_name": "Palau Pacific Resort",
-      "hotel_name_zh": "帛琉太平洋度假村 · 海景豪華雙人房",
+      "hotel_name_zh": "帛琉太平洋度假酒店 · 海景豪華雙人房",
       "hotel_room": "海景豪華雙人房",
       "weather": "☀️ 30°/24°",
       "rain_pct": "20%",
       "slots": [
         {
-          "time": "09:30",
-          "desc": "✈️ 桃園機場 TPE 出發 · 華航 CI028 · 09:30 起飛"
-        },
-        {
-          "time": "14:30",
-          "desc": "🛬 抵達帛琉國際機場 ROR · 入境通關取行李（約30分鐘）"
-        },
-        {
-          "time": "15:15",
-          "desc": "🚐 飯店接駁車前往 Palau Pacific Resort（約15分鐘）"
-        },
-        {
-          "time": "15:45",
-          "desc": "🏨 抵達度假村 · 辦理入住 · 迎賓果汁 · 享受海景"
-        },
-        {
-          "time": "17:00",
-          "desc": "🏖️ 私人沙灘漫步 · 無邊際泳池戲水 · 拍照"
+          "time": "13:30",
+          "desc": "✈️ 桃園機場 TPE 出發 · 中華航空 CI 028 · 直飛帛琉"
         },
         {
           "time": "18:30",
-          "desc": "🍽️ The Taj 印度餐廳 · 香料龍蝦咖哩雙人晚餐"
+          "desc": "✈️ 抵達帛琉國際機場 ROR · 入境通關取行李（約 30 分鐘）"
+        },
+        {
+          "time": "19:15",
+          "desc": "🚕 搭乘飯店接駁車前往 Palau Pacific Resort（約 20 分鐘）"
+        },
+        {
+          "time": "19:45",
+          "desc": "🏨 抵達 Palau Pacific Resort · 辦理入住 · 海景房陽台欣賞日落"
         },
         {
           "time": "20:30",
-          "desc": "🌙 返回度假村 · 沙灘星空散步 · 聆聽海浪聲"
+          "desc": "🍽️ The Penthouse Restaurant 晚餐 · 龍蝦牛排套餐 · 預約 20:30"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 沙灘漫步 · 星空下聆聽海浪 · 返回房間休息"
         }
       ],
-      "day_photo": "https://www.palauppr.com/shared/img/common/ogp.jpg"
+      "day_photo": "https://www.palau.co/media/1187/arrivals-in-palau-ror-2024.jpg"
     },
     {
       "day": 2,
-      "date": "Jan 16 · Sat",
+      "date": "1月16日 · 週六",
       "label_zh": "洛克群島 · 水母湖浮潛",
       "day_query": "Jellyfish Lake Palau",
       "hotel_name": "Palau Pacific Resort",
-      "hotel_name_zh": "帛琉太平洋度假村 · 海景豪華雙人房",
+      "hotel_name_zh": "帛琉太平洋度假酒店 · 海景豪華雙人房",
       "hotel_room": "海景豪華雙人房",
       "weather": "☀️ 31°/25°",
       "rain_pct": "10%",
       "slots": [
         {
           "time": "07:00",
-          "desc": "🥐 度假村自助早餐 · 準備浮潛裝備"
+          "desc": "🍳 飯店自助早餐 · 享用新鮮水果、現煎歐姆蛋"
         },
         {
           "time": "08:00",
-          "desc": "🚤 參加洛克群島一日遊 · 快艇出發（每人US$150，含午餐）"
+          "desc": "🚤 出發參加洛克群島一日遊（含午餐）· 飯店接送"
         },
         {
-          "time": "09:00",
-          "desc": "🐠 牛奶湖 Milky Way · 敷天然火山泥SPA · 拍照"
+          "time": "09:30",
+          "desc": "🌊 第一站：牛奶湖 · 敷天然火山泥 · 拍照留念"
         },
         {
-          "time": "10:30",
-          "desc": "🪸 水母湖 Jellyfish Lake · 與百萬水母共游（需購證 US$50/人）"
+          "time": "11:00",
+          "desc": "🐠 第二站：水母湖 · 與無毒黃金水母共游（需購買水母湖許可證 US$100/人）"
         },
         {
           "time": "12:30",
-          "desc": "🍱 無人島午餐 · 海島風情BBQ"
+          "desc": "🍱 無人島午餐 · 燒烤海鮮 + 飲料"
         },
         {
           "time": "14:00",
-          "desc": "🐢 大斷層 Big Drop Off · 浮潛看海龜、鯊魚、珊瑚"
+          "desc": "🤿 第三站：藍色珊瑚礁 · 浮潛欣賞藍色鹿角珊瑚"
         },
         {
-          "time": "16:30",
-          "desc": "🚤 返回科羅爾 · 回度假村梳洗"
+          "time": "16:00",
+          "desc": "🏝️ 第四站：長沙灘 · 退潮時出現的夢幻沙洲"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ Kramer's Cafe · 椰子魚湯 + 烤鮪魚排"
+          "time": "17:30",
+          "desc": "🚤 返回飯店 · 梳洗休息"
         },
         {
-          "time": "20:00",
-          "desc": "🌙 度假村星空電影院 · 免費雞尾酒之夜"
+          "time": "19:00",
+          "desc": "🍽️ Kramer's Cafe 晚餐 · 漢堡薯條 + 椰子冰沙"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 飯店泳池夜泳 · 星空下放鬆"
         }
       ],
       "day_photo": "https://www.travoh.com/wp-content/uploads/2023/04/Snorkeling-In-Jellyfish-Lake-Palau.jpg"
     },
     {
       "day": 3,
-      "date": "Jan 17 · Sun",
-      "label_zh": "潛水日 · 藍洞與二戰遺跡",
-      "day_query": "Blue Hole Palau diving",
+      "date": "1月17日 · 週日",
+      "label_zh": "大斷層 · 鯊魚城浮潛",
+      "day_query": "Big Drop Off Palau",
       "hotel_name": "Palau Pacific Resort",
-      "hotel_name_zh": "帛琉太平洋度假村 · 海景豪華雙人房",
+      "hotel_name_zh": "帛琉太平洋度假酒店 · 海景豪華雙人房",
       "hotel_room": "海景豪華雙人房",
       "weather": "☀️ 30°/24°",
       "rain_pct": "15%",
       "slots": [
         {
-          "time": "06:30",
-          "desc": "🥐 輕早餐 · 潛水中心報到"
+          "time": "07:00",
+          "desc": "🍳 飯店自助早餐"
         },
         {
-          "time": "07:30",
-          "desc": "🤿 潛水船出發 · 藍洞 Blue Hole（持證潛水，每人US$200）"
+          "time": "08:00",
+          "desc": "🚤 出發參加南線浮潛一日遊（含午餐）"
         },
         {
-          "time": "10:00",
-          "desc": "🐠 德國水道 German Channel · 看魔鬼魚 Manta Ray"
+          "time": "09:30",
+          "desc": "🤿 第一站：大斷層 · 世界級浮潛點 · 垂直海牆 + 豐富魚群"
         },
         {
-          "time": "12:00",
-          "desc": "🍱 船上簡餐 · 休息"
+          "time": "11:00",
+          "desc": "🦈 第二站：鯊魚城 · 近距離觀賞黑鰭礁鯊"
         },
         {
-          "time": "13:30",
-          "desc": "🚤 二戰沉船遺址 Iro Maru · 沉船潛水"
+          "time": "12:30",
+          "desc": "🍱 無人島午餐 · 烤魚 + 米飯 + 水果"
         },
         {
-          "time": "16:00",
-          "desc": "🚤 返回度假村 · 沖洗休息"
+          "time": "14:00",
+          "desc": "🐢 第三站：干貝城 · 巨型硨磲貝保護區"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 度假村內海濱餐廳 · 龍蝦牛排雙人套餐 NT$4,500"
+          "time": "15:30",
+          "desc": "🏝️ 第四站：德國水道 · 風景如畫的七色海"
         },
         {
-          "time": "20:00",
-          "desc": "🌙 沙灘漫步 · 觀星 · 浪漫燭光"
+          "time": "17:00",
+          "desc": "🚤 返回飯店 · 梳洗休息"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 飯店內晚餐 · Mandalay Restaurant · 海鮮拼盤"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 SPA 療程 · 情侶精油按摩（60 分鐘 · US$150/人）"
         }
       ],
-      "day_photo": "https://c8.alamy.com/comp/BAGGEA/diver-in-blue-hole-cave-micronesia-palau-BAGGEA.jpg"
+      "day_photo": "http://5b0988e595225.cdn.sohucs.com/images/20180623/a26f408d0ab74c01955d345d6c00cff5.jpeg"
     },
     {
       "day": 4,
-      "date": "Jan 18 · Mon",
-      "label_zh": "文化探索 · 市區觀光與SPA",
-      "day_query": "Palau National Museum Koror",
-      "hotel_name": "Palau Pacific Resort",
-      "hotel_name_zh": "帛琉太平洋度假村 · 海景豪華雙人房",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "☀️ 30°/25°",
-      "rain_pct": "20%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 度假村自助早餐"
-        },
-        {
-          "time": "09:00",
-          "desc": "🏛️ 帛琉國家博物館 Palau National Museum · 了解當地文化（門票US$10/人）"
-        },
-        {
-          "time": "10:30",
-          "desc": "🛍️ 科羅爾市區購物 · 紀念品店 · 手工藝品"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ Rock Island Cafe · 冰拿鐵 + 椰子鬆餅"
-        },
-        {
-          "time": "13:30",
-          "desc": "🚐 返回度假村 · 享受SPA（雙人海景療程 NT$8,000）"
-        },
-        {
-          "time": "16:00",
-          "desc": "🏖️ 沙灘排球 · 獨木舟 · 自由活動"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ The Taj 印度餐廳 · 第二次晚餐 · 換菜色"
-        },
-        {
-          "time": "20:30",
-          "desc": "🌙 度假村酒吧 · 最後一夜雞尾酒 · 星空下談心"
-        }
-      ],
-      "day_photo": "https://cdn.britannica.com/73/154473-050-2E58E868/Etpison-Museum-Koror-Palau.jpg"
-    },
-    {
-      "day": 5,
-      "date": "Jan 19 · Tue",
-      "label_zh": "最後巡禮 · 返程",
-      "day_query": "Palau airport departure",
-      "hotel_name": "Palau Pacific Resort",
-      "hotel_name_zh": "帛琉太平洋度假村 · 海景豪華雙人房",
-      "hotel_room": "海景豪華雙人房",
+      "date": "1月18日 · 週一",
+      "label_zh": "文化體驗 · 換酒店",
+      "day_query": "Palau cultural village",
+      "hotel_name": "Palau Royal Resort",
+      "hotel_name_zh": "帛琉皇家度假酒店 · 豪華海景雙人房",
+      "hotel_room": "豪華海景雙人房",
       "weather": "☀️ 30°/24°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 最後早餐 · 打包行李"
-        },
-        {
-          "time": "08:30",
-          "desc": "🏨 退房 · 寄放行李於櫃檯"
+          "time": "07:30",
+          "desc": "🍳 飯店自助早餐 · 收拾行李"
         },
         {
           "time": "09:00",
-          "desc": "🚐 最後沙灘散步 · 拍照留念"
+          "desc": "🏨 退房 Palau Pacific Resort · 寄放行李或請飯店送至新酒店"
         },
         {
-          "time": "10:00",
-          "desc": "🛍️ 科羅爾市區最後採購 · 伴手禮"
+          "time": "09:30",
+          "desc": "🏛️ 參觀帛琉國家博物館 · 了解帛琉歷史與傳統"
+        },
+        {
+          "time": "11:00",
+          "desc": "🌴 參觀傳統男人會館 Bai · 拍照留念"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ Kramer's Cafe 午餐 · 烤魚排"
+          "desc": "🍽️ Rock Island Cafe 午餐 · 冰拿鐵 + 椰香鬆餅"
         },
         {
           "time": "13:30",
-          "desc": "🚐 返回度假村取行李 · 前往機場"
+          "desc": "🏨 入住 Palau Royal Resort · 豪華海景房 · 享受飯店設施"
         },
         {
-          "time": "15:30",
-          "desc": "✈️ 華航 CI027 · 帛琉起飛 · 返回台灣"
+          "time": "15:00",
+          "desc": "🚤 搭乘飯店免費獨木舟 · 紅樹林探險"
         },
         {
-          "time": "20:30",
-          "desc": "🛬 抵達桃園機場 · 結束浪漫帛琉之旅"
+          "time": "17:00",
+          "desc": "🍹 日落酒吧 · 雞尾酒 + 美景"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 飯店日式餐廳 · 懷石料理套餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 沙灘散步 · 星空電影院（飯店活動）"
         }
       ],
-      "day_photo": "https://palaudiveadventures.com/wp-content/uploads/2022/02/Palau-International-Airport.jpeg"
+      "day_photo": "https://palaudiveadventures.com/wp-content/uploads/2015/12/Palau_bai.jpg"
+    },
+    {
+      "day": 5,
+      "date": "1月19日 · 週二",
+      "label_zh": "最後巡禮 · 返程",
+      "day_query": "Palau beach",
+      "hotel_name": "Palau Royal Resort",
+      "hotel_name_zh": "帛琉皇家度假酒店 · 豪華海景雙人房",
+      "hotel_room": "豪華海景雙人房",
+      "weather": "☀️ 30°/24°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🍳 飯店自助早餐 · 最後一次享受海景早餐"
+        },
+        {
+          "time": "09:00",
+          "desc": "🏖️ 飯店沙灘漫步 · 游泳 · 拍照留念"
+        },
+        {
+          "time": "10:30",
+          "desc": "🛍️ 科羅爾市區購物 · 伴手禮：木雕、椰子油、珍珠"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ Kramer's Cafe 午餐 · 最後的帛琉風味"
+        },
+        {
+          "time": "13:30",
+          "desc": "🏨 返回飯店 · 取行李 · 退房"
+        },
+        {
+          "time": "14:30",
+          "desc": "🚕 前往帛琉國際機場（約 20 分鐘）"
+        },
+        {
+          "time": "16:00",
+          "desc": "✈️ 辦理登機 · 出境 · 免稅店購物"
+        },
+        {
+          "time": "19:30",
+          "desc": "✈️ 中華航空 CI 027 · 飛往台灣"
+        },
+        {
+          "time": "22:30",
+          "desc": "✈️ 抵達桃園機場 TPE · 結束浪漫帛琉之旅"
+        }
+      ],
+      "day_photo": "https://1001beach.com/img/posts/2782/1200/palau_royal_resort_beach-5.jpg"
     }
   ],
   "costs": [
     {
       "label": "✈️ 來回機票",
-      "amount_ntd": 36000
+      "amount_ntd": 48000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 96000
+      "amount_ntd": 120000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 18000
+      "amount_ntd": 35000
     },
     {
       "label": "🎫 景點門票與活動",
-      "amount_ntd": 32000
+      "amount_ntd": 40000
     },
     {
-      "label": "🚇 交通",
-      "amount_ntd": 8000
+      "label": "🚕 交通（含接送）",
+      "amount_ntd": 12000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 10000
+      "amount_ntd": 20000
     }
   ],
-  "cost_total_ntd": 200000,
-  "budget_remaining_ntd": 50000,
+  "cost_total_ntd": 275000,
+  "budget_remaining_ntd": 25000,
   "photos": {
     "hero": [
       {
@@ -421,24 +496,24 @@
         "label": "Palau Scenic Flight Over The Rock Islands: How To Do It - Green ..."
       },
       {
-        "url": "https://theworldtravelguy.com/wp-content/uploads/2023/09/DSCF0609-1.jpg",
-        "label": "Palau Scenic Flight Over The Rock Islands: How To Do It - Green ..."
+        "url": "http://www.lilianpang.com/wp-content/uploads/2017/07/IMG_2128.jpg",
+        "label": "Palau Land Area at Donte Galiano blog"
       },
       {
         "url": "https://modularassets.cdn.ignitetravel.com/modular_multisite/wp-content/uploads/sites/2/2023/11/23120459/PALAU-Destination-Palau-Malakal-Island-and-Koror-MYHOLIDAY-1000x480-1.jpg",
         "label": "Palau Holiday Packages & Deals | My Holiday"
       },
       {
-        "url": "https://theworldtravelguy.com/wp-content/uploads/2023/09/DSCF0586-768x512.jpg",
+        "url": "https://theworldtravelguy.com/wp-content/uploads/2023/09/DSCF0595-768x512.jpg",
         "label": "Palau Scenic Flight Over The Rock Islands: How To Do It"
       },
       {
-        "url": "https://www.roadto197.com/wp-content/uploads/2023/06/palau-scenic-flight.jpg",
-        "label": "Palau | Trip Report | Country 151/197 | Oceania | Roadto197"
+        "url": "https://theworldtravelguy.com/wp-content/uploads/2023/09/DSCF0498.jpg",
+        "label": "Palau Scenic Flight Over The Rock Islands: How To Do It - Green ..."
       }
     ]
   },
   "chat_hash": "4a69e0f977667beba55a79131a6f49926a92792f0d1c597a9dc6fb5b1d305810",
-  "config_hash": "55255f42d4c12f5509536ebf7b2c394729b9116b751fb45ea0b3178a5c718b22",
-  "generated_at": "2026-05-19T18:00:50.834805"
+  "config_hash": "1733df9ec59e4f91c0d99e772b658f1989be5c40b823d6b63b32b0e1559c6690",
+  "generated_at": "2026-05-19T22:15:48.593943"
 }
