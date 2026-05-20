@@ -1,6 +1,6 @@
 {
   "destination_en": "Fiji",
-  "title_zh": "斐濟蜜月 · 浪漫六日之旅",
+  "title_zh": "斐濟六日 · 雙人奢華浪漫之旅",
   "date_range": "2027/01/10–01/16",
   "start_date": "2027-01-10",
   "end_date": "2027-01-16",
@@ -11,44 +11,103 @@
   "days": 6,
   "budget_ntd": 400000,
   "flight": {
-    "airline": "中華航空 China Airlines / 斐濟航空 Fiji Airways",
+    "airline": "中華航空 China Airlines",
     "departure_date": "1月10日",
     "return_date": "1月16日",
-    "total_price_ntd": 72000,
+    "total_price_ntd": 68000,
     "outbound": {
-      "flight_no": "CI 53 / FJ 360",
-      "route": "TPE → NAN (經香港轉機)",
-      "depart_time": "07:30",
-      "arrive_time": "18:25 (+1)",
-      "duration": "18h 55m",
+      "flight_no": "CI 53",
+      "route": "TPE → NAN 直飛",
+      "depart_time": "22:30",
+      "arrive_time": "06:15 (+1)",
+      "duration": "9h 45m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "FJ 391 / CI 916",
-      "route": "NAN → TPE (經香港轉機)",
+      "flight_no": "CI 54",
+      "route": "NAN → TPE 直飛",
       "depart_time": "08:30",
-      "arrive_time": "19:30 (+1)",
-      "duration": "19h 00m",
+      "arrive_time": "14:45",
+      "duration": "10h 15m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
       "name": "Likuliku Lagoon Resort",
-      "name_zh": "利庫利庫礁湖度假村",
+      "name_zh": "利庫利庫潟湖度假村",
       "district": "瑪瑪努卡群島 Malolo Lailai",
-      "day_range": "1–6",
-      "nights": 5,
-      "price_ntd": 240000,
+      "day_range": "1–3",
+      "nights": 3,
+      "price_ntd": 135000,
       "stars": "★★★★★",
-      "room_type": "豪華水上別墅 Deluxe Overwater Bure",
+      "room_type": "水上豪華別墅 Overwater Bure",
       "breakfast": "含每日自助早餐",
-      "amenities": "🏊 無邊際泳池 · 🧖 雙人SPA · 🍽️ 海景餐廳 · 🚣 獨木舟/浮潛",
+      "amenities": "🏊 無邊際泳池 · 🧖 雙人SPA · 🍽️ 海景餐廳 · 🛶 免費獨木舟 & 浮潛裝備",
       "search_query": "Likuliku Lagoon Resort Fiji overwater bungalow",
       "photos": [
         {
-          "url": "https://ml.medica.co.jp/files/20231204/7befef15fb767424151d241e6a53a5926ae326e0.jpg",
-          "label": "「心臓のモニターをつけて心臓の動きを見ていきましょう」｜看護師の看護師による看護師のための本当に使える英会話｜＃026｜佐藤まりこ | 看護師 ..."
+          "url": "https://dreamoverwater.com/wp-content/uploads/2021/03/87487655.jpg",
+          "label": "Likuliku Lagoon Resort Overwater Bungalows - Prices, Deals & Reviews"
+        },
+        {
+          "url": "https://www.honeymoonalways.com/wp-content/uploads/2022/04/Likuliku-Lagoon-Resort-1-1024x576.jpg",
+          "label": "Top 5 Overwater Bungalows in Fiji"
+        },
+        {
+          "url": "https://sandinmysuitcase.com/wp-content/uploads/2019/06/LikuLiku.jpg",
+          "label": "5 Dreamy Overwater Bungalows in Fiji (and Fiji Bures)"
+        },
+        {
+          "url": "https://dreamoverwater.com/wp-content/uploads/2021/03/69835472.jpg",
+          "label": "Likuliku Lagoon Resort Overwater Bungalows - Reviews - Prices - Booking"
+        },
+        {
+          "url": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1741353100/zngitygh3f1aqc4dly71.jpg",
+          "label": "5 Fiji bungalows over the water for your next trip - Klook Travel Blog"
+        },
+        {
+          "url": "https://dreamoverwater.com/wp-content/uploads/2021/03/69835458.jpg",
+          "label": "Likuliku Lagoon Resort Overwater Bungalows - Reviews - Prices - Booking"
+        }
+      ]
+    },
+    {
+      "name": "Nanuku Resort Fiji",
+      "name_zh": "納努庫度假村",
+      "district": "太平洋港 Pacific Harbour",
+      "day_range": "4–6",
+      "nights": 3,
+      "price_ntd": 82000,
+      "stars": "★★★★★",
+      "room_type": "海景套房 Ocean Suite",
+      "breakfast": "含每日早餐",
+      "amenities": "🏖️ 私人沙灘 · ⛳ 高爾夫球場 · 🐬 文化體驗 · 🍸 日落酒吧",
+      "search_query": "Nanuku Resort Fiji luxury beach",
+      "photos": [
+        {
+          "url": "https://nanukuresort.com/wp-content/uploads/2021/11/NAN-AubergeBeachfrontVilla2BR-08.jpeg",
+          "label": "Nanuku Resort Fiji | 5-Star Luxury | Best Resort in Fiji"
+        },
+        {
+          "url": "https://www.executivetraveller.com/photos/view/size:1500,844/630ebf4a5c4c4382ba1c2f6ddd799465-nakuku-fiji-overview.jpg",
+          "label": "Paradise awaits: the South Pacific’s best luxury resorts - Executive ..."
+        },
+        {
+          "url": "https://www.fivestaralliance.com/files/fivestaralliance.com/styles/juicebox_large/public/field/image/nodes/2015/24341/24341_13_nanuku_fsa-g.jpg?itok=t5i6Sohn",
+          "label": "Photo Gallery for Nanuku in Pacific Harbour - Fiji Islands | Five Star ..."
+        },
+        {
+          "url": "https://media.modernluxury.com/ntgpghfuax/uploads/2022/10/13/Resort_Magical_sunset_colours_at_Nanuku_across_the_Clubhouse_pool_and_pool_bar_Nanuku_Resort_Fiji_1-1.jpg",
+          "label": "Fiji's Nanuku Resort Launches Stunning Astrotourism Program"
+        },
+        {
+          "url": "https://i.pinimg.com/736x/12/c8/97/12c897b8540afc3b33f40d63827b047e.jpg",
+          "label": "Nanuku Auberge Resort - Luxury Beachfront Resort in Fiji"
+        },
+        {
+          "url": "https://www.fijivacations.com/wp-content/uploads/2014/12/Nanuku-_DSC0125_6_7_8_9_tonemapped.jpg?2512c4&2512c4",
+          "label": "Nanuku Resort Fiji - Fiji Vacations"
         }
       ]
     }
@@ -56,23 +115,23 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Fiji Orchid Restaurant",
-        "name_zh": "斐濟蘭花餐廳 · 度假村內",
+        "name": "Fiji Orchid",
+        "name_zh": "斐濟蘭花餐廳",
         "stars": "⭐⭐",
-        "dish": "🦞 招牌：香草烤龍蝦佐椰子飯",
-        "address": "Likuliku Lagoon Resort, Malolo Lailai",
-        "price_ntd": 6000,
-        "price_label": "雙人晚餐 FJ$340 · NT$6,000",
+        "dish": "🦐 招牌：洛神花醬龍蝦 · 椰子咖哩魚",
+        "address": "Likuliku Lagoon Resort 內",
+        "price_ntd": 7500,
+        "price_label": "雙人晚餐套餐 NT$7,500",
         "hours": "18:30–21:30 · 需預約",
-        "search_query": "Fiji Orchid Restaurant Likuliku",
+        "search_query": "Fiji Orchid restaurant Likuliku",
         "photos": [
           {
-            "url": "https://images.squarespace-cdn.com/content/v1/642f1e6a02cb0f705acf5ae5/1e8666b3-bee6-4ed7-91ed-36fea742556d/Fijiana+Restaurant+:Likuliku+Lagoon+Resort.jpg?format=1500w",
-            "label": "Fiji’s Luxurious Likuliku Lagoon Resort Re-Opens This Spring — BELLA ..."
+            "url": "https://www.travpac.com/wp-content/uploads/2016/08/FijiOrchidRestaurant-1024x683.jpg",
+            "label": "Fiji Orchid | Private and Exlusive Resort | Nadi, Fiji | Travel Pacific"
           },
           {
-            "url": "https://www.fijiorchid.com/wp-content/uploads/2018/06/resto.jpg",
-            "label": "Home - The Fiji Orchid"
+            "url": "https://modularassets.cdn.ignitetravel.com/modular_multisite/wp-content/uploads/sites/2/2022/11/15103530/FIJI-Likuliku-Lagoon-Resort-Fijiana-restaurant_1000x480-5.png",
+            "label": "Likuliku Lagoon Resort - My Fiji"
           },
           {
             "url": "https://modularassets.cdn.ignitetravel.com/modular_multisite/wp-content/uploads/sites/2/2022/11/04122324/FIJI-Likuliku-Lagoon-Resort-dining-my-fiji-580x480-1-1.jpg",
@@ -83,54 +142,54 @@
     ],
     "bistros": [
       {
-        "name": "The Deck Restaurant",
-        "name_zh": "甲板餐廳 · 海濱小酒館",
-        "stars": "⭐",
-        "dish": "🐟 招牌：椰汁咖哩魚 · 木薯煎餅",
-        "address": "Likuliku Lagoon Resort, 海灘旁",
+        "name": "The Boatshed Restaurant",
+        "name_zh": "船屋餐廳",
+        "stars": "",
+        "dish": "🐟 招牌：斐濟式烤魚 · 木薯泥 · 熱帶水果拼盤",
+        "address": "Pacific Harbour, Nanuku 附近",
         "price_ntd": 3500,
-        "price_label": "雙人午餐 FJ$200 · NT$3,500",
-        "hours": "12:00–15:00 · 無需預約",
-        "search_query": "The Deck Restaurant Fiji",
+        "price_label": "雙人晚餐 NT$3,500",
+        "hours": "12:00–14:30 / 18:00–21:00",
+        "search_query": "The Boatshed Fiji restaurant",
         "photos": [
           {
-            "url": "https://images.goway.com/production/inline-images/Restaurant_dinner_tables_on_a_deck,_under_palm_trees_by_the_beach_on_a_tropical_island_in_Fiji_iStock-500522991.jpg?VersionId=hy.lWtFxRekhLXfRzNa.Mq7g8O1g5AEp",
-            "label": "Be a Castaway on a Trip to Fiji | Goway Travel"
+            "url": "https://images.squarespace-cdn.com/content/v1/6445e8192fbbd43b021a6917/4b0f0cda-b77c-4379-985c-c63cef884e3b/26841123_1779734155662915_7329272230617110587_o.jpg?format=2500w",
+            "label": "Sunset Bar & The Boatshed Restaurant — Vuda Marina Fiji"
           },
           {
-            "url": "https://s1.it.atcdn.net/wp-content/uploads/2024/11/TatavuGrillDeckSUPPLIED.jpg",
-            "label": "Why Fiji should be your next getaway with Marriott Bonvoy Fiji"
+            "url": "https://images.squarespace-cdn.com/content/v1/6445e8192fbbd43b021a6917/b03f1110-0278-4814-8608-ed6902d75e9d/RS203141-VM-Boatshed-Jul2023-3+copy.jpeg?format=2500w",
+            "label": "Sunset Bar & The Boatshed Restaurant — Vuda Marina Fiji"
           },
           {
-            "url": "https://nanukuresort.com/wp-content/uploads/2021/12/Food_Nanuku-Sunset-deck-dining_Nanuku-Resort-Fiji.jpg",
-            "label": "Sunset Deck - Nanuku Resort"
+            "url": "https://images.squarespace-cdn.com/content/v1/6445e8192fbbd43b021a6917/df7df375-4f7c-419e-8e23-98621fe35c5b/346130719_765658055261212_308205477721570337_n+(1).jpg?format=2500w",
+            "label": "Sunset Bar & The Boatshed Restaurant — Vuda Marina Fiji"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Bula Coffee House",
-        "name_zh": "布拉咖啡屋 · 度假村大堂",
+        "name": "Tropica Island Café",
+        "name_zh": "熱帶島嶼咖啡館",
         "stars": "",
-        "dish": "☕ 招牌：斐濟冰咖啡 · 椰子蛋糕",
-        "address": "Likuliku Lagoon Resort, 主大廳",
-        "price_ntd": 800,
-        "price_label": "雙人下午茶 FJ$45 · NT$800",
-        "hours": "07:00–17:00 · 全天供應",
-        "search_query": "Bula Coffee Fiji",
+        "dish": "☕ 招牌：斐濟冰咖啡 · 椰子鬆餅 · 芒果奶昔",
+        "address": "Likuliku Lagoon Resort 大廳旁",
+        "price_ntd": 1500,
+        "price_label": "雙人下午茶 NT$1,500",
+        "hours": "07:00–17:00",
+        "search_query": "Tropica Island Cafe Fiji",
         "photos": [
           {
-            "url": "https://www.illawarramercury.com.au/images/transform/v1/crop/frm/Z4Q6sUEHdcmw72MBPYgZkU/ad356389-6128-4c27-93b0-6a26d3e78add.jpg/r0_0_1420_798_w1200_h678_fmax.jpg",
-            "label": "Beyond the resorts: seven fresh ways to experience Fiji | Wollongong, NSW"
+            "url": "https://www.tropicaisland.com/wp-content/uploads/2024/08/Untitled-design-1.jpg",
+            "label": "Oceanview Private Dining Fiji - Tropica Island Resort"
           },
           {
-            "url": "https://imgix.theurbanlist.com/content/article/Bula_Coffee.jpg",
-            "label": "The Best Things To Do In Fiji In 2025 | URBAN LIST GLOBAL"
+            "url": "https://www.tropicaisland.com/wp-content/uploads/2024/05/Private-Pier.jpg",
+            "label": "Private Dining in Fiji – 4 Breathtaking Locations | Tropica Island Resort"
           },
           {
-            "url": "https://fijivanuakava.com/wp-content/uploads/2023/02/New-Project-25-1-1.jpg",
-            "label": "Fiji Vanua Kava Shop of Products - Fiji Vanua Kava"
+            "url": "https://i.pinimg.com/originals/56/fb/86/56fb86e26a96874d9c272c984cdd012e.jpg",
+            "label": "Poolside Dining at Tropica Island Resort #fiji #island #tropical # ..."
           }
         ]
       }
@@ -141,343 +200,311 @@
       "day": 1,
       "date": "Jan 10 · Sun",
       "label_zh": "啟程 · 飛往斐濟",
-      "day_query": "Nadi International Airport",
+      "day_query": "Fiji sunset flight",
       "hotel_name": "Likuliku Lagoon Resort",
-      "hotel_name_zh": "利庫利庫礁湖度假村 · 豪華水上別墅",
-      "hotel_room": "豪華水上別墅 Deluxe Overwater Bure",
-      "weather": "🌧️ 28°/23° · 短暫陣雨",
-      "rain_pct": "60%",
+      "hotel_name_zh": "利庫利庫潟湖度假村 · 水上豪華別墅",
+      "hotel_room": "水上豪華別墅",
+      "weather": "🌤️ 30°/24°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "05:30",
-          "desc": "🚕 桃園機場第一航廈 · 建議提前 2.5 小時報到"
-        },
-        {
-          "time": "07:30",
-          "desc": "✈️ CI 53 台北→香港 (1h 45m) · 轉機時間 2h"
-        },
-        {
-          "time": "11:30",
-          "desc": "✈️ FJ 360 香港→楠迪 (10h 00m) · 機上享用晚餐"
-        },
-        {
-          "time": "18:25",
-          "desc": "🛬 抵達楠迪國際機場 · 出關領行李（約 40 分鐘）"
+          "time": "18:00",
+          "desc": "🚕 從台北市區出發前往桃園機場（建議15:00出發）· 約40分鐘車程 · NT$1,200"
         },
         {
           "time": "19:30",
-          "desc": "🚤 度假村專屬快艇接駁至 Likuliku（約 25 分鐘）· 迎賓雞尾酒"
-        },
-        {
-          "time": "20:30",
-          "desc": "🏨 入住豪華水上別墅 · 管家介紹設施 · 享受私人甲板"
+          "desc": "🧳 抵達桃園機場第二航廈 · 辦理登機手續 · 使用貴賓室休息"
         },
         {
           "time": "21:00",
-          "desc": "🍽️ 度假村內輕食晚餐（The Deck 供應至 22:00）· 斐濟啤酒"
+          "desc": "🍜 機場內 Bistro 簡單用晚餐 · 推薦：牛肉麵 NT$350"
         },
         {
           "time": "22:30",
-          "desc": "🌙 星空下散步 · 回房泡澡放鬆 · 聽海浪入睡"
+          "desc": "✈️ 搭乘中華航空 CI53 直飛斐濟楠迪 · 經濟艙 · 飛行約9h45m"
+        },
+        {
+          "time": "23:30",
+          "desc": "🛌 機上休息 · 提供晚餐及早餐 · 建議提早調整時差（斐濟比台灣快4小時）"
         }
       ],
-      "day_photo": "https://assets.st-note.com/img/1704717313959-wYw8ZjKHiL.png"
+      "day_photo": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/23734cf2-380d-43cc-91fd-729ecdeeddb2/dg3sjgs-ac150e33-dc3c-4735-9880-6b941cd2bc00.jpg/v1/fill/w_1032,h_774,q_70,strp/sunset_flight_1___fiji_2023_by_wildplaces_dg3sjgs-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvMjM3MzRjZjItMzgwZC00M2NjLTkxZmQtNzI5ZWNkZWVkZGIyXC9kZzNzamdzLWFjMTUwZTMzLWRjM2MtNDczNS05ODgwLTZiOTQxY2QyYmMwMC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.1sfDyJJYZ63kB451f1k_UxxjoNoCURtSzvPi1tQCNLs"
     },
     {
       "day": 2,
       "date": "Jan 11 · Mon",
-      "label_zh": "浮潛 · 海洋探索",
-      "day_query": "Likuliku Lagoon snorkeling",
+      "label_zh": "抵達 · 水上天堂",
+      "day_query": "Likuliku Lagoon Resort overwater bungalow",
       "hotel_name": "Likuliku Lagoon Resort",
-      "hotel_name_zh": "利庫利庫礁湖度假村 · 豪華水上別墅",
-      "hotel_room": "豪華水上別墅 Deluxe Overwater Bure",
-      "weather": "☀️ 30°/24° · 晴時多雲",
-      "rain_pct": "20%",
+      "hotel_name_zh": "利庫利庫潟湖度假村 · 水上豪華別墅",
+      "hotel_room": "水上豪華別墅",
+      "weather": "⛅ 30°/25°",
+      "rain_pct": "10%",
       "slots": [
         {
+          "time": "06:15",
+          "desc": "✈️ 抵達楠迪國際機場 · 入境通關 · 斐濟熱情迎賓歌舞"
+        },
+        {
           "time": "07:30",
-          "desc": "🌅 日出瑜伽（可選）· 或睡到自然醒"
+          "desc": "🚤 由度假村專人接機 · 搭乘快艇前往 Likuliku Lagoon（約45分鐘）· 沿途欣賞碧藍潟湖"
         },
         {
           "time": "08:30",
-          "desc": "🥐 度假村自助早餐 · 現做歐姆蛋 · 熱帶水果拼盤"
+          "desc": "🏨 抵達 Likuliku Lagoon Resort · 迎賓椰子水 · 辦理入住 · 行李送至別墅"
         },
         {
-          "time": "09:30",
-          "desc": "🤿 度假村免費浮潛課程（含裝備）· 教練指導安全事項"
+          "time": "10:00",
+          "desc": "🏠 入住水上豪華別墅 · 玻璃地板看魚 · 私人甲板 · 按摩浴缸"
         },
         {
-          "time": "10:30",
-          "desc": "🐠 礁湖浮潛 · 觀賞珊瑚花園 · 熱帶魚群（建議攜帶水下相機）"
+          "time": "11:30",
+          "desc": "🥥 Tropica Island Café 早午餐 · 斐濟冰咖啡 + 椰子鬆餅 · NT$1,500"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 甲板餐廳午餐 · 推薦：椰汁咖哩魚 + 木薯煎餅"
+          "time": "13:00",
+          "desc": "🏊 無邊際泳池游泳 · 或浮潛（免費裝備）· 潟湖內有豐富珊瑚與熱帶魚"
         },
         {
-          "time": "14:00",
-          "desc": "🚣 雙人獨木舟 · 划向附近無人沙洲（約 30 分鐘）"
+          "time": "15:30",
+          "desc": "🧖 雙人SPA療程（90分鐘）· 斐濟傳統按摩 + 椰子磨砂 · NT$8,000"
         },
         {
-          "time": "16:00",
-          "desc": "🧖 雙人 SPA 體驗（60 分鐘按摩 · 需提前預約）· 斐濟傳統手法"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍹 日落雞尾酒 · 酒吧觀賞夕陽沉入大海"
+          "time": "18:00",
+          "desc": "🍸 日落雞尾酒於泳池酒吧 · 推薦：斐濟莫吉托 NT$600/杯"
         },
         {
           "time": "19:30",
-          "desc": "🍽️ 斐濟蘭花餐廳 · 香草烤龍蝦佐椰子飯 · 浪漫雙人晚餐"
+          "desc": "🍽️ Fiji Orchid 精緻晚餐 · 龍蝦與椰子咖哩魚 · NT$7,500"
         },
         {
           "time": "21:30",
-          "desc": "🌙 回房 · 浴室按摩浴缸 · 備有香檳與巧克力"
+          "desc": "🌙 回別墅 · 甲板上觀星 · 聽著海浪聲入睡"
         }
       ],
-      "day_photo": "https://footballjunky.net/wp-content/uploads/2014/10/fujiedakoensoccer02.jpg"
+      "day_photo": "https://onlyluxe.com.au/media/wysiwyg/Accommodation/Fiji/likuliku-lagoon-resort/likuliku-lagoon-resort-fiji-aerial-stand-up-paddle-overwater-bungalows.jpeg"
     },
     {
       "day": 3,
       "date": "Jan 12 · Tue",
-      "label_zh": "文化之旅 · 村落探訪",
-      "day_query": "Fiji village tour Malolo",
+      "label_zh": "浪漫海洋日",
+      "day_query": "Mamanuca Islands snorkeling",
       "hotel_name": "Likuliku Lagoon Resort",
-      "hotel_name_zh": "利庫利庫礁湖度假村 · 豪華水上別墅",
-      "hotel_room": "豪華水上別墅 Deluxe Overwater Bure",
-      "weather": "☀️ 31°/25° · 晴",
-      "rain_pct": "10%",
+      "hotel_name_zh": "利庫利庫潟湖度假村 · 水上豪華別墅",
+      "hotel_room": "水上豪華別墅",
+      "weather": "☀️ 31°/25°",
+      "rain_pct": "0%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🥐 早餐 · 可要求送至房間陽台享用"
+          "desc": "🥐 度假村早餐 · 自助式含現做歐姆蛋、熱帶水果、斐濟麵包"
         },
         {
           "time": "09:00",
-          "desc": "🚤 參加度假村文化之旅 · 前往 Malolo 村落（約 20 分鐘船程）"
-        },
-        {
-          "time": "09:45",
-          "desc": "🏘️ 拜訪村落酋長 · 了解斐濟傳統 · 品嚐卡瓦儀式"
-        },
-        {
-          "time": "11:00",
-          "desc": "🎨 手工藝體驗 · 學習編織棕櫚葉籃子"
+          "desc": "🚤 私人雙體帆船出海（半日）· 前往無人沙洲 · 浮潛 · 船上香檳 · NT$18,000"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ 村落午餐 · 洛福地下燒烤（傳統地爐料理）"
+          "desc": "🍱 船上輕食午餐 · 龍蝦沙拉三明治、新鮮椰汁"
         },
         {
           "time": "14:00",
-          "desc": "🚤 返回度假村 · 自由活動 · 沙灘躺椅放鬆"
+          "desc": "🏝️ 登上 Malolo Lailai 島 · 沙灘散步 · 椰子樹下拍照"
         },
         {
           "time": "16:00",
-          "desc": "🏊 無邊際泳池游泳 · 池畔吧點一杯椰子水"
+          "desc": "🚤 返回度假村 · 稍作休息"
         },
         {
-          "time": "18:30",
-          "desc": "🍹 酒吧 Happy Hour · 買一送一"
+          "time": "17:30",
+          "desc": "🏐 沙灘排球或獨木舟（免費）· 與另一半享受運動樂趣"
         },
         {
-          "time": "19:30",
-          "desc": "🍽️ 度假村主題晚餐 · 斐濟之夜 · 傳統歌舞表演"
+          "time": "19:00",
+          "desc": "🍽️ 度假村內海景餐廳 · 斐濟式燒烤自助晚餐 · NT$5,000"
         },
         {
-          "time": "21:30",
-          "desc": "🌙 沙灘漫步 · 觀星 · 找尋南十字星"
+          "time": "21:00",
+          "desc": "🔥 沙灘營火晚會 · 斐濟傳統歌舞表演 · 浪漫火把"
         }
       ],
-      "day_photo": "https://external-preview.redd.it/highlight-christopher-morel-crushes-a-ball-to-straightaway-v0-koIVsK02DNrR4GlCbAd3aSEY-pUa2-5s-eb03b9CRW0.jpg?format=pjpg&auto=webp&s=c24196e6f67f28c47f55ac7a3fcfec37657c0d4a"
+      "day_photo": "https://tripjive.com/wp-content/uploads/2025/11/Mamanuca-snorkeling-safaris.jpeg"
     },
     {
       "day": 4,
       "date": "Jan 13 · Wed",
-      "label_zh": "跳島 · 無人沙洲野餐",
-      "day_query": "Mamanuca Islands day trip",
-      "hotel_name": "Likuliku Lagoon Resort",
-      "hotel_name_zh": "利庫利庫礁湖度假村 · 豪華水上別墅",
-      "hotel_room": "豪華水上別墅 Deluxe Overwater Bure",
-      "weather": "☀️ 30°/24° · 晴",
-      "rain_pct": "5%",
+      "label_zh": "文化探索 · 換宿",
+      "day_query": "Fiji cultural village tour",
+      "hotel_name": "Nanuku Resort Fiji",
+      "hotel_name_zh": "納努庫度假村 · 海景套房",
+      "hotel_room": "海景套房",
+      "weather": "⛅ 30°/24°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🌅 晨間潛水（可選）· 或睡到自然醒"
+          "time": "07:30",
+          "desc": "🥐 度假村早餐 · 整理行李"
         },
         {
-          "time": "08:30",
-          "desc": "🥐 早餐 · 建議提早用餐"
+          "time": "09:00",
+          "desc": "🚤 退房 · 搭乘快艇返回楠迪碼頭（約45分鐘）"
         },
         {
-          "time": "09:30",
-          "desc": "🚤 私人快艇跳島之旅（含野餐套裝）"
+          "time": "10:00",
+          "desc": "🚗 專車接送前往 Nanuku Resort（約1.5小時車程）· 沿途參觀 Sigatoka 沙丘"
         },
         {
-          "time": "10:15",
-          "desc": "🏝️ 抵達 Monuriki 島（湯姆漢克斯《浩劫重生》拍攝地）"
-        },
-        {
-          "time": "11:00",
-          "desc": "🤿 浮潛 · 海龜與魔鬼魚棲息地"
+          "time": "11:30",
+          "desc": "🏨 抵達 Nanuku Resort · 迎賓花環 · 辦理入住 · 海景套房面海"
         },
         {
           "time": "12:30",
-          "desc": "🧺 無人沙洲野餐 · 香檳 · 三明治 · 水果"
+          "desc": "🍽️ The Boatshed Restaurant 午餐 · 斐濟式烤魚 · NT$3,500"
         },
         {
-          "time": "14:00",
-          "desc": "🚤 前往 Malolo Lailai 島 · 短暫停留拍照"
+          "time": "14:30",
+          "desc": "🏘️ 參觀當地村莊（Korovisilou Village）· 體驗卡瓦儀式 · 欣賞手工藝品 · NT$2,000"
         },
         {
-          "time": "15:30",
-          "desc": "🚤 返回度假村 · 自由時間"
+          "time": "17:00",
+          "desc": "🐬 日落海豚巡航（1.5小時）· 近距離觀看海豚 · NT$6,000"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 甲板餐廳 · 雙人海鮮拼盤（龍蝦、生蠔、烤魚）"
+          "time": "19:00",
+          "desc": "🍸 日落酒吧 · 斐濟雞尾酒 · 欣賞太平洋日落"
         },
         {
-          "time": "20:30",
-          "desc": "🌙 回房 · 私人甲板泡澡 · 享受浪漫時光"
+          "time": "20:00",
+          "desc": "🍽️ Nanuku 度假村內晚餐 · 斐濟融合料理 · NT$4,500"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 回套房 · 陽台泡澡 · 聆聽海浪聲"
         }
       ],
-      "day_photo": "https://southseacruisesfiji.com/wp-content/uploads/2023/08/SSC2_0009.DK-min-2048x1364.jpg"
+      "day_photo": "https://aaakrentals.com/fiji/wp-content/uploads/2024/07/Exploring-Traditional-Fiji-village-tour-1.jpg"
     },
     {
       "day": 5,
       "date": "Jan 14 · Thu",
-      "label_zh": "水上活動 · 日落巡航",
-      "day_query": "Fiji sunset cruise",
-      "hotel_name": "Likuliku Lagoon Resort",
-      "hotel_name_zh": "利庫利庫礁湖度假村 · 豪華水上別墅",
-      "hotel_room": "豪華水上別墅 Deluxe Overwater Bure",
-      "weather": "☀️ 31°/25° · 晴",
-      "rain_pct": "10%",
+      "label_zh": "自然與冒險",
+      "day_query": "Pacific Harbour Fiji jet boat",
+      "hotel_name": "Nanuku Resort Fiji",
+      "hotel_name_zh": "納努庫度假村 · 海景套房",
+      "hotel_room": "海景套房",
+      "weather": "☀️ 31°/25°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🥐 早餐 · 可選客房送餐服務"
+          "desc": "🥐 度假村早餐 · 現煎鬆餅、斐濟蜂蜜"
         },
         {
           "time": "09:00",
-          "desc": "🏄 站立槳板（SUP）體驗 · 教練陪同"
+          "desc": "🚤 噴射快艇冒險（Jet Boat）· 在納維河上高速奔馳 · 刺激好玩 · NT$5,000"
         },
         {
-          "time": "10:30",
-          "desc": "🤿 第二次浮潛 · 探索不同珊瑚區"
+          "time": "11:00",
+          "desc": "🌿 熱帶雨林徒步 · 導覽員介紹斐濟藥用植物 · 小型瀑布游泳"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 午餐 · 斐濟漢堡 + 薯條 · 池畔吧"
+          "time": "13:00",
+          "desc": "🍽️ 度假村午餐 · 斐濟漢堡與薯條 · NT$2,000"
         },
         {
-          "time": "14:00",
-          "desc": "🎣 釣魚體驗 · 捕捉斐濟石斑魚（可請廚房代烹）"
+          "time": "15:00",
+          "desc": "🏌️ 高爾夫練習場（免費）· 或沙灘排球"
         },
         {
-          "time": "16:00",
-          "desc": "🧖 雙人 SPA 療程（斐濟傳統草藥按摩）"
-        },
-        {
-          "time": "17:30",
-          "desc": "🚤 日落巡航 · 香檳 · 小點心 · 欣賞海上夕陽"
+          "time": "17:00",
+          "desc": "🧖 雙人SPA · 斐濟傳統按摩（60分鐘）· NT$5,500"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 斐濟蘭花餐廳 · 主廚精選套餐（五道菜）"
+          "desc": "🍽️ 度假村內浪漫晚餐 · 私人沙灘燭光晚餐 · NT$8,000"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 沙灘營火 · 烤棉花糖 · 說說心裡話"
+          "time": "21:30",
+          "desc": "🌙 沙灘散步 · 仰望南十字星 · 最後一晚"
         }
       ],
-      "day_photo": "https://global-uploads.webflow.com/621ed27a0bf4e22d3eba84bd/636032552d2fd32862584bf1_Window_Table_Upgrade.jpg"
+      "day_photo": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e6/ad/9e.jpg"
     },
     {
       "day": 6,
       "date": "Jan 15 · Fri",
-      "label_zh": "最後巡禮 · 返程",
-      "day_query": "Nadi airport lounge",
-      "hotel_name": "Likuliku Lagoon Resort",
-      "hotel_name_zh": "利庫利庫礁湖度假村 · 豪華水上別墅",
-      "hotel_room": "豪華水上別墅 Deluxe Overwater Bure",
-      "weather": "☀️ 30°/24° · 晴",
-      "rain_pct": "15%",
+      "label_zh": "最後的悠閒 · 返程",
+      "day_query": "Nadi Fiji airport departure",
+      "hotel_name": "Nanuku Resort Fiji",
+      "hotel_name_zh": "納努庫度假村 · 海景套房",
+      "hotel_room": "海景套房",
+      "weather": "☀️ 30°/24°",
+      "rain_pct": "0%",
       "slots": [
         {
           "time": "07:00",
-          "desc": "🌅 最後一次沙灘散步 · 收集貝殼紀念品"
+          "desc": "🥐 度假村早餐 · 最後一次享受斐濟風情"
         },
         {
-          "time": "08:00",
-          "desc": "🥐 早餐 · 與管家道別 · 小費信封準備"
+          "time": "08:30",
+          "desc": "🏨 退房 · 專車前往楠迪機場（約1.5小時）"
         },
         {
-          "time": "09:30",
-          "desc": "🏨 退房 · 行李寄存 · 最後浮潛或游泳"
+          "time": "10:00",
+          "desc": "🛍️ 楠迪市區免稅店購物 · 推薦：斐濟諾麗果、手工香皂、黑珍珠 · 預算 NT$10,000"
         },
         {
           "time": "11:30",
-          "desc": "🚤 快艇接駁前往楠迪機場"
+          "desc": "🧳 抵達楠迪機場 · 辦理登機手續 · 退稅"
         },
         {
-          "time": "12:15",
-          "desc": "🛬 抵達楠迪機場 · 辦理登機 · 免稅店購物（推薦：斐濟蜂蜜、諾麗果汁）"
+          "time": "12:30",
+          "desc": "🍜 機場貴賓室休息 · 輕食午餐"
         },
         {
-          "time": "14:00",
-          "desc": "🍽️ 機場貴賓室休息 · 輕食與飲料"
+          "time": "14:30",
+          "desc": "✈️ 搭乘中華航空 CI54 直飛台北 · 飛行約10h15m"
         },
         {
-          "time": "15:30",
-          "desc": "✈️ FJ 391 楠迪→香港 (10h 00m) · 機上娛樂系統"
+          "time": "18:00",
+          "desc": "🍱 機上晚餐 · 斐濟風味餐盒"
         },
         {
-          "time": "22:00",
-          "desc": "🛬 抵達香港 · 轉機時間 2h · 機場購物"
-        },
-        {
-          "time": "00:30 (+1)",
-          "desc": "✈️ CI 916 香港→台北 (1h 45m)"
-        },
-        {
-          "time": "02:15 (+1)",
-          "desc": "🛬 抵達桃園機場 · 行程結束 · 滿載回憶"
+          "time": "20:45",
+          "desc": "🛬 抵達桃園機場 · 結束浪漫斐濟之旅"
         }
       ],
-      "day_photo": "https://www.ogihifu.org/wp-content/uploads/2019/10/woman_question-1-1.png"
+      "day_photo": "https://c8.alamy.com/comp/2BP0Y4R/departure-gate-at-fiji-airtportnadi-viti-levu-island-fijisouth-pacific-2BP0Y4R.jpg"
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（2人經濟艙）",
-      "amount_ntd": 72000
+      "label": "✈️ 來回機票",
+      "amount_ntd": 68000
     },
     {
-      "label": "🏨 住宿（Likuliku 5晚）",
-      "amount_ntd": 240000
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 217000
     },
     {
-      "label": "🍽️ 餐飲（含餐廳與酒吧）",
-      "amount_ntd": 45000
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 32000
     },
     {
-      "label": "🎫 景點與活動（浮潛、村落、SPA、巡航）",
+      "label": "🎫 景點門票 & 活動",
+      "amount_ntd": 39500
+    },
+    {
+      "label": "🚤 交通（接機、船、車）",
       "amount_ntd": 18000
-    },
-    {
-      "label": "🚤 交通（快艇接駁、計程車）",
-      "amount_ntd": 12000
     },
     {
       "label": "🛍️ 購物伴手禮",
       "amount_ntd": 10000
     }
   ],
-  "cost_total_ntd": 397000,
-  "budget_remaining_ntd": 3000,
+  "cost_total_ntd": 384500,
+  "budget_remaining_ntd": 15500,
   "photos": {
     "hero": [
       {
@@ -485,8 +512,8 @@
         "label": "370 imagens de Fiji skyline Imagens, fotos stock e vetores | Shutterstock"
       },
       {
-        "url": "https://www.shutterstock.com/image-photo/nadi-fiji-january-6-2020-260nw-1703244262.jpg",
-        "label": "Fiji Landmarks Bouma National Heritage Park (Official GANP Park Page)"
+        "url": "https://i.ytimg.com/vi/c3sgY1bRqI8/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFUgZShlMA8=&amp;rs=AOn4CLDzNC2_HIttBiSvJH0i6XVozPrmLA",
+        "label": "Suva | Fiji 🇫🇯 by Drone | Mavic 3 | 4k - YouTube"
       }
     ],
     "destination": [
@@ -516,7 +543,7 @@
       }
     ]
   },
-  "chat_hash": "667d99de982f37e358b5ca7e54b827d6f4dfe3c5a963bed83094eaff7ca5665f",
+  "chat_hash": "09d98bb52994fd2700bc3b7bcac4fecf4abf1da437accc22534c9a7f296ec6c7",
   "config_hash": "173122b660d3b5675cebdbf97255562f6c7bc348d2274407c55b6b390576cd4b",
-  "generated_at": "2026-05-20T08:15:45.197288"
+  "generated_at": "2026-05-20T09:45:56.411175"
 }
