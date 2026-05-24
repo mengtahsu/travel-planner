@@ -108,7 +108,6 @@
     background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 80%);
     display: flex; flex-direction: column; justify-content: flex-end;
     padding: 2rem 1.5rem;
-    pointer-events: none;
   }
   .hero-overlay h1 {
     font-family: 'Playfair Display', 'Noto Serif TC', serif;
@@ -126,8 +125,6 @@
     color: rgba(255,255,255,0.9);
     font-family: 'Inter', sans-serif; font-size: 0.8rem;
   }
-  .hero-stats label { pointer-events: auto; }
-
   /* ─── HOTEL CARD + SLIDER ─── */
   .hotel-card {
     background: var(--soft-white); border-radius: 12px; overflow: hidden;
@@ -767,10 +764,6 @@
         <span>👥 2 人</span>
         <span>💰 NT$800,000</span>
       </div>
-      <label class="save-plan-label" id="save-plan-label">
-        <input type="checkbox" id="save-flag" onchange="toggleSave()">
-        💾 Save this plan (archived before next regeneration)
-      </label>
     </div>
   </div>
 
@@ -2437,8 +2430,14 @@ restoreCheckbox();
   });
 })();
 </script>
-<div style="text-align:center;padding:2rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
-  build 260524.205627
+<div style="text-align:center;padding:2rem 0 0.5rem;">
+  <label class="save-plan-label" id="save-plan-label" style="display:inline-flex;align-items:center;gap:0.4rem;font-size:0.85rem;color:var(--warm-gray);cursor:pointer;font-family:'Noto Serif TC',serif;">
+    <input type="checkbox" id="save-flag" onchange="toggleSave()" style="cursor:pointer;">
+    💾 Save this plan (archived before next regeneration)
+  </label>
+</div>
+<div style="text-align:center;padding:0.5rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
+  build 260524.220132
 </div>
 </body>
 </html>
