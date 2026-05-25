@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>八月京都 · 頂級園林庭院五天深度之旅 — Travel Planner</title>
+<meta property="og:title" content="八月京都 · 頂級園林庭院五天深度之旅 — Travel Planner">
+<meta property="og:description" content="Kyoto, Japan · 2026/08/10–08/14 · 2人 · NT$300,000">
+
+<meta property="og:image" content="https://imgc.allpostersimages.com/img/posters/kyoto-japan-skyline-and-landmark-towers-at-dusk_u-l-q1sqmza0.jpg?artHeight=550&artPerspective=n&artWidth=550&background=ffffff">
+
+<meta property="og:type" content="website">
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400&family=Noto+Serif+TC:wght@300;400;600&display=swap');
+
+  :root {
+    --gold: #c9a84c;
+    --rose: #d4a0a0;
+    --cream: #faf7f2;
+    --ink: #2c2416;
+    --warm-gray: #8c8273;
+    --soft-white: #fffdf8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  .container {
+    overflow-x: hidden;
+  }
+
+  /* ─── NAVIGATION ─── */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 1rem;
+    background: var(--soft-white);
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--warm-gray);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+    flex-shrink: 0;
+  }
+  nav a:hover, nav a.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 1.25rem; }
+
+  /* ─── IMAGE SLIDER ─── */
+  .slider {
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .slider-track {
+    display: inline-flex;
+  }
+  .slider-track img {
+    width: 100%; height: 320px;
+    border-radius: 8px;
+    margin-right: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  /* ─── HERO SLIDER ─── */
+  .hero-slider {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+  .hero-slider .slider { margin-bottom: 0; border-radius: 0; }
+  .hero-slider .slider-track img {
+    width: 100%; height: 420px; margin-right: 0; border-radius: 0;
+  }
+  .hero-overlay {
+    position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
+    background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 80%);
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 2rem 1.5rem;
+  }
+  .hero-overlay h1 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 2.5rem; font-weight: 400;
+    color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  .hero-overlay .zh-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.1rem; color: rgba(255,255,255,0.9);
+    margin-top: 0.25rem;
+  }
+  .hero-stats {
+    display: flex; flex-wrap: wrap; gap: 1rem 1.5rem;
+    margin-top: 0.75rem;
+    color: rgba(255,255,255,0.9);
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+  }
+  /* ─── HOTEL CARD + SLIDER ─── */
+  .hotel-card {
+    background: var(--soft-white); border-radius: 12px; overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .hotel-info { padding: 0 1.25rem; }
+  .hotel-info:first-of-type { padding-top: 1rem; }
+  .hotel-card > :last-child { padding-bottom: 1.25rem; }
+  .hotel-slider {
+    overflow: hidden; white-space: nowrap;
+  }
+  .hotel-slider .slider-track {
+    display: flex;
+  }
+  .hotel-slider .slider-track img {
+    width: 100%; height: 240px; margin-right: 4px;
+    object-fit: cover; flex-shrink: 0;
+  }
+
+  /* ─── DINING SLIDER ─── */
+  .dining-slider {
+    overflow: hidden; white-space: nowrap;
+  }
+  .dining-slider .slider-track {
+    display: flex;
+  }
+  .dining-slider .slider-track a {
+    width: 100%; flex-shrink: 0; display: block;
+  }
+  .dining-slider .slider-track img {
+    width: 100%; height: 240px; margin-right: 4px;
+    object-fit: cover; flex-shrink: 0;
+  }
+  .dining-card { border-radius: 12px; overflow: hidden; }
+  .dining-card .dining-slider { border-radius: 0; }
+
+  /* ─── SECTION HEADER ─── */
+  .section-title {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.9rem; color: var(--ink); margin-bottom: 0.5rem;
+    position: relative;
+  }
+  .section-title::after {
+    content: ''; position: absolute; bottom: -6px; left: 0;
+    width: 36px; height: 2px; background: var(--gold);
+  }
+  .section-sub {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.05rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+  }
+
+  /* ─── FULL CARDS ─── */
+  .full-card {
+    background: var(--soft-white);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.03);
+  }
+  .full-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .full-card-header h2 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.6rem; font-weight: 500;
+  }
+  .external-btn {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    padding: 0.55rem 1.1rem;
+    background: var(--ink); color: #fff;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: none; cursor: pointer;
+    white-space: nowrap;
+  }
+  .external-btn.google { background: #4285f4; }
+  .external-btn.agoda { background: #e12b52; }
+  .external-btn:hover { opacity: 0.88; }
+
+  /* ─── FLIGHT ─── */
+  .flight-detail {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .flight-detail .divider {
+    width: 1px; height: 50px;
+    background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+    justify-self: center;
+  }
+  .flight-info { font-size: 1.05rem; }
+  .flight-info .label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
+  }
+  .flight-info .airline {
+    font-family: 'Playfair Display', serif; font-size: 1.3rem;
+    color: var(--ink); margin: 0.2rem 0;
+  }
+
+  /* ─── HOTEL ─── */
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .hotel-card-inner {
+    font-size: 1.05rem;
+  }
+  .hotel-card-inner h3 {
+    font-family: 'Playfair Display','Noto Serif TC',serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.2rem;
+  }
+  .hotel-card-inner .zh {
+    font-family: 'Noto Serif TC',serif;
+    font-size: 1rem;
+    color: var(--warm-gray);
+  }
+
+  /* ─── DINING ─── */
+  .dining-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .dining-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .dining-info {
+    padding: 1rem;
+  }
+  .dining-info h4 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.1rem; margin-bottom: 0.15rem;
+  }
+  .dining-info .zh-name {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.95rem; color: var(--warm-gray);
+  }
+  .dining-info .dish {
+    font-size: 0.9rem; color: var(--gold);
+    font-style: italic; margin-top: 0.25rem;
+  }
+
+  /* ─── TIMELINE ─── */
+  .day-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.02);
+    display: grid;
+    grid-template-columns: 80px auto 90px;
+    gap: 1rem;
+    align-items: start;
+  }
+  .day-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; color: var(--gold);
+    text-align: center; line-height: 1;
+  }
+  .day-label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); text-align: center;
+  }
+  .day-zh {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.85rem; color: var(--ink); text-align: center;
+    margin-top: 0.2rem;
+  }
+  .day-photo {
+    width: 100%; height: 220px; object-fit: cover; border-radius: 8px;
+    margin-bottom: 0.75rem; display: block;
+  }
+  .day-schedule { font-size: 1.15rem; }
+  .day-schedule .time-slot {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    display: flex; gap: 0.6rem; align-items: baseline;
+  }
+  .time-slot .time {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem; color: var(--gold);
+    min-width: 58px; letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .day-weather {
+    font-size: 0.9rem; color: var(--warm-gray);
+    text-align: right; padding-top: 0.25rem;
+  }
+
+  /* ─── COST ─── */
+  .cost-section {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .cost-row {
+    display: flex; justify-content: space-between;
+    padding: 0.5rem 0; font-size: 1.05rem;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    flex-wrap: wrap;
+  }
+  .cost-bar {
+    height: 6px; border-radius: 3px;
+    background: rgba(201,168,76,0.15); margin: 0.75rem 0;
+  }
+  .cost-bar-fill {
+    height: 100%; border-radius: 3px;
+    background: linear-gradient(to right, var(--gold), var(--rose));
+    width: 94%;
+  }
+
+  /* ─── PAGES ─── */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* ─── SETTINGS ─── */
+  .settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .setting-group {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .setting-group label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); display: block; margin-bottom: 0.3rem;
+  }
+  .setting-group .zh-label {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.8rem; color: var(--ink); margin-bottom: 0.5rem;
+  }
+  .setting-group input, .setting-group select {
+    width: 100%; padding: 0.75rem 0.85rem;
+    border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    -webkit-appearance: none;
+  }
+  .setting-group input:focus, .setting-group select:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+  }
+  .save-btn {
+    background: linear-gradient(135deg, var(--gold), #b8942f);
+    color: #fff; border: none;
+    padding: 0.8rem 2rem; border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 0.85rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    cursor: pointer; margin-top: 1.25rem;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+  }
+  .save-btn:hover { opacity: 0.9; }
+
+  /* ─── LOG ─── */
+  .log-entry {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem; margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+  }
+  .log-date {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--gold);
+  }
+  .log-status {
+    display: inline-block; padding: 0.15rem 0.6rem; border-radius: 10px;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem; margin-left: 0.4rem;
+  }
+  .log-status.generated { background: rgba(76,175,80,0.12); color: #388e3c; }
+  .log-status.chatting { background: rgba(201,168,76,0.15); color: #8b6914; }
+
+  /* ─── CHAT ─── */
+  .chat-box {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .chat-date-label {
+    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); margin-bottom: 0.5rem;
+  }
+  .chat-box textarea {
+    width: 100%; height: 200px; padding: 1rem;
+    border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    line-height: 1.8; resize: vertical;
+    -webkit-appearance: none;
+  }
+  .chat-box textarea:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
+  }
+  .chat-hint {
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    color: var(--warm-gray); margin-top: 0.4rem; font-style: italic;
+  }
+
+  /* ─── LIGHTBOX ─── */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .lightbox.open { display: flex; }
+  .lbox-img-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    transition: opacity 0.2s;
+    cursor: default;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .lightbox img {
+      max-width: 96vw;
+      max-height: 82vh;
+    }
+    .lightbox .lbox-arrow { font-size: 2rem; margin: 0 6px; }
+  }
+  .lightbox .counter {
+    color: rgba(255,255,255,0.7);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.75rem;
+    z-index: 2;
+    position: relative;
+  }
+  .lightbox .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    border: none;
+    line-height: 1;
+  }
+  .lightbox .close-btn:hover { background: rgba(255,255,255,0.18); }
+  /* Nav zones — only inside the image wrapper, not full screen */
+  .lightbox .lbox-left,
+  .lightbox .lbox-right {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 50%;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+  .lightbox .lbox-left  { left: 0;  justify-content: flex-start; }
+  .lightbox .lbox-right { right: 0; justify-content: flex-end; }
+  .lightbox .lbox-arrow {
+    color: rgba(255,255,255,0.4);
+    font-size: 2.5rem;
+    margin: 0 16px;
+    pointer-events: none;
+    user-select: none;
+  }
+  .lightbox .lbox-left:hover .lbox-arrow,
+  .lightbox .lbox-right:hover .lbox-arrow {
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* ─── SAVE PLAN CHECKBOX ─── */
+  .save-plan-label {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    user-select: none;
+  }
+  .save-plan-label input[type="checkbox"] {
+    width: 16px; height: 16px;
+    accent-color: var(--gold);
+    cursor: pointer;
+  }
+
+  /* ─── BROKEN IMAGES ─── */
+  img.broken { display: none !important; }
+
+  /* ═══════════════ MOBILE: iPhone ───────────────────── */
+  @media (max-width: 768px) {
+
+    .container { padding: 0.75rem; }
+
+    /* Nav — compact scrollable */
+    nav {
+      gap: 1rem;
+      padding: 0.7rem 0.75rem;
+    }
+    nav a {
+      font-size: 0.72rem;
+      letter-spacing: 1px;
+    }
+
+    /* Hero — shorter */
+    .hero-slider .slider-track img { height: 260px; }
+    .hero-overlay { padding: 1.25rem 1rem; }
+    .hero-overlay h1 { font-size: 1.7rem; }
+    .hero-overlay .zh-title { font-size: 0.95rem; }
+    .hero-stats { font-size: 0.75rem; gap: 0.5rem 1rem; }
+
+    /* Hotel & dining sliders — shorter */
+    .hotel-slider .slider-track img,
+    .dining-slider .slider-track img { height: 180px; }
+
+    /* Slider — smaller images */
+    .slider-track img {
+      height: 200px;
+      margin-right: 6px;
+    }
+
+    /* Full card — tighter padding */
+    .full-card {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+    .full-card-header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .full-card-header h2 {
+      font-size: 1.3rem;
+    }
+
+    /* Flight — stack vertically */
+    .flight-detail {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .flight-detail .divider {
+      width: 80%;
+      height: 1px;
+      justify-self: center;
+    }
+
+    /* Hotel — already responsive via flex-wrap */
+
+    /* Dining — single column, smaller images */
+    .dining-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+    /* Dining text — bump up for readability */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.82rem !important; }
+    .dining-info .dish { font-size: 0.78rem !important; }
+
+    /* Timeline — single column, date on top */
+    .day-card {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+      padding: 1rem;
+    }
+    .day-card > :first-child {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .day-num {
+      font-size: 1.1rem;
+      color: var(--gold);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+    .day-label {
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+    }
+    .day-zh {
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+    .day-weather {
+      text-align: left;
+      font-size: 0.8rem;
+      margin-left: auto;
+    }
+    .day-schedule { font-size: 1rem; }
+    .time-slot .time {
+      font-size: 0.75rem;
+      min-width: 46px;
+    }
+    .time-slot {
+      gap: 0.3rem;
+    }
+
+    /* Settings — single column */
+    .settings-grid {
+      grid-template-columns: 1fr;
+    }
+
+    /* Cost — tighten */
+    .cost-row {
+      font-size: 0.95rem;
+    }
+    .cost-section {
+      padding: 1rem;
+    }
+
+    /* Chat */
+    .chat-box textarea {
+      height: 180px;
+      font-size: 1.05rem;
+    }
+
+    /* Section titles */
+    .section-title {
+      font-size: 1.4rem;
+    }
+    .section-sub {
+      font-size: 0.9rem;
+    }
+
+    /* External buttons — full width */
+    .external-btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 0.75rem;
+      padding: 0.55rem 1rem;
+    }
+  }
+
+  /* ═══════════════ SMALL PHONES ────────────────────── */
+  @media (max-width: 390px) {
+    .hero-slider .slider-track img { height: 220px; }
+    .hero-overlay h1 { font-size: 1.45rem; }
+    .hero-overlay .zh-title {
+      font-size: 0.85rem;
+    }
+    .day-card {
+      grid-template-columns: 1fr;
+      padding: 0.85rem;
+    }
+    .day-num {
+      font-size: 1rem;
+    }
+    .day-schedule { font-size: 0.9rem; }
+    /* Dining text — bigger on iPhone */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.8rem !important; }
+    .dining-info .dish { font-size: 0.76rem !important; }
+    nav a {
+      font-size: 0.65rem;
+      letter-spacing: 0.5px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Destination slider + overlay (merged hero) -->
+  <div class="hero-slider">
+    <div class="slider">
+      <div class="slider-track">
+        
+        <img src="https://handluggageonly.co.uk/wp-content/uploads/2017/05/iStock-509472000.jpg" alt="Travel Destination Guide">
+        
+        <img src="https://theplanetd.com/images/Top-Things-to-do-in-Kyoto-Japan.jpg" alt="Visit Kyoto – Kyoto Sightseeing Guide – NQZJBQ">
+        
+        <img src="https://jw-webmagazine.com/wp-content/uploads/2022/10/Kyoto-main-image-min.jpg" alt="30 Best Places To Visit In Kyoto – WILTOT">
+        
+        <img src="https://res.cloudinary.com/enchanting/f_auto,q_70,w_1600,h_700,c_fill/et-web/2017/08/Enchanting-Travels-Japan-Tours-Kyoto-scenery.jpg" alt="Japan for Beginners: Tokyo, Kyoto and Mount Fuji | Tours & Trips with ...">
+        
+        <img src="https://nara-sightseeing.com/ns/wp-content/uploads/2020/02/kyoto_202002.jpg" alt="Kyoto Experience at William Melendez blog">
+        
+        <img src="https://res-2.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1514374111/kyoto/Kyoto1138_1" alt="Temple Daigoji | Travel Japan - Office national du tourisme japonais ...">
+        
+      </div>
+    </div>
+    <div class="hero-overlay">
+      <h1>Kyoto, Japan</h1>
+      <div class="zh-title">八月京都 · 頂級園林庭院五天深度之旅</div>
+      <div class="hero-stats">
+        <span>✈️ 2026/08/10–08/14</span>
+        <span>👥 2 人</span>
+        <span>💰 NT$300,000</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✈️ FLIGHT -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>✈️ 航班 Flight</h2>
+      <a class="external-btn google" href="https://www.google.com/travel/flights?q=Flights+to+KIX+from+TPE+2026-08-10" target="_blank">
+        ↗ Google Flights 搜尋更多航班
+      </a>
+    </div>
+    <div class="flight-detail">
+      <div class="flight-info">
+        <div class="label">出發 Departure · 8月10日</div>
+        <div class="airline">長榮航空 EVA Air</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">BR 132</span> · TPE → KIX 直飛<br>
+          08:30 出發 · 12:10 抵達<br>
+          飛行 2h 40m · 經濟艙
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="flight-info">
+        <div class="label">回程 Return · 8月14日</div>
+        <div class="airline">長榮航空 EVA Air</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">BR 131</span> · KIX → TPE 直飛<br>
+          13:10 出發 · 15:00 抵達<br>
+          飛行 2h 50m · 經濟艙
+        </div>
+      </div>
+    </div>
+    <div style="text-align:right; margin-top:1rem; font-size:0.9rem;">
+      來回 NT$ <strong>24,000</strong> / 2人
+    </div>
+  </div>
+
+  <!-- 🏨 HOTELS -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🏨 住宿 Hotel</h2>
+      <a class="external-btn agoda" href="https://www.agoda.com/zh-tw/city/kyoto-fr.html?checkIn=2026-08-10&checkOut=2026-08-14&adults=2" target="_blank">
+        ↗ Agoda 搜尋更多住宿
+      </a>
+    </div>
+
+    
+    <div class="hotel-card" style="margin-bottom:1.5rem;">
+      <!-- Hotel photo gallery — full-width slider on top, matching dining card layout -->
+      
+      <a href="https://www.google.com/search?tbm=isch&q=The%20Ritz-Carlton%20Kyoto%20hotel%20Japan" target="_blank" title="More photos of 麗思卡爾頓京都 The Ritz-Carlton, Kyoto">
+      <div class="hotel-slider">
+        <div class="slider-track">
+          
+          
+          
+          
+          <img src="https://d1rioy1v9s51jr.cloudfront.net/pics/21487/1800x900/the-ritz-carlton-kyoto-1_9168.jpg" alt="Hotel The Ritz-Carlton Kyoto - Booking & Info">
+          
+          
+          
+          
+          <img src="https://www.outthere.travel/wp-content/uploads/2020/11/Ritz-Calrton-Kyoto-5-1400x933.jpg" alt="The Ritz-Carlton Kyoto, Japan - OutThere magazine">
+          
+          
+          
+          
+          <img src="https://thepointsguy.global.ssl.fastly.net/us/originals/2024/05/20240517_The-Ritz-Carlton-Kyoto_ARotondo_34.jpg" alt="Hotel review: The Ritz-Carlton, Kyoto in Japan - The Points Guy">
+          
+          
+          
+          
+          <img src="https://www.fivestaralliance.com/files/fivestaralliance.com/field/image/nodes/2014/23044/23044_0_theritzcarltonkyoto_fsa-g.jpg" alt="The Ritz-Carlton, Kyoto, Kyoto : Five Star Alliance">
+          
+          
+          
+          
+          <img src="http://secure.s.forbestravelguide.com/img/properties/Property-TheRitzCarltonKyoto-Hotel-GuestroomSuite-DeluxeGardenBedroom-TheRitzCarltonHotelCompanyLLC.jpg" alt="The Ritz-Carlton, Kyoto - Kyoto Hotels - Kyoto, Japan - Forbes Travel Guide">
+          
+          
+          
+          
+          <img src="https://www.travoh.com/wp-content/uploads/2022/03/006-The-Ritz-Carlton-Kyoto-Hotel-Nakagyo-Ward-Kyoto-Japan-Interior.jpg" alt="The Ritz-Carlton, Kyoto Hotel – Nakagyo Ward, Kyoto, Japan – Interior ...">
+          
+          
+        </div>
+      </div>
+      </a>
+      
+      <div class="hotel-info" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.5rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">麗思卡爾頓京都 The Ritz-Carlton, Kyoto</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">麗思卡爾頓京都 · 中京區鴨川畔</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">DAY 1–3</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">3 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 72,000</div>
+        </div>
+      </div>
+      <div class="hotel-info" style="font-size:0.85rem;color:var(--ink);">
+        ★★★★★ · 豪華轉角客房（鴨川景） · 含日式朝食<br>
+        🏊 室內泳池 · 💆 水療中心 · 🍽️ 米其林星級餐廳 · 🌸 日式庭園
+      </div>
+    </div>
+    
+    <div class="hotel-card" style="margin-bottom:1rem;">
+      <!-- Hotel photo gallery — full-width slider on top, matching dining card layout -->
+      
+      <a href="https://www.google.com/search?tbm=isch&q=Suiran%20Kyoto%20Luxury%20Collection%20hotel" target="_blank" title="More photos of 京都翠嵐豪華精選飯店 Suiran, a Luxury Collection Hotel, Kyoto">
+      <div class="hotel-slider">
+        <div class="slider-track">
+          
+          
+          
+          
+          <img src="https://media.cntraveler.com/photos/61e11d6518fe5208acfca9a7/16:9/w_2560,c_limit/Suiran,-a-Luxury-Collection-Hotel,-Kyoto.jpg" alt="Suiran, a Luxury Collection Hotel, Kyoto, Japan – Hotel Review | Condé ...">
+          
+          
+          
+          
+          <img src="https://img.travel.rakuten.co.jp/share/image_up/158466/LARGE/0e630c6f7a0337ad61b63cbe9ef43a09e990f64e.47.1.26.2.jpg" alt="Suiran, a Luxury Collection Hotel, Kyoto, Kyoto | 2021 Updated Prices ...">
+          
+          
+          
+          
+          <img src="https://secure.s.forbestravelguide.com/img/properties/suiran-a-luxury-collection-hotel/extra-large/suiran-a-luxury-collection-hotel-kyoto-presidential-corner-bedroom.jpg" alt="Suiran, A Luxury Collection Hotel, Kyoto - Kyoto Hotels - Kyoto, Japan ...">
+          
+          
+          
+          
+          <img src="https://cache.marriott.com/content/dam/marriott-renditions/UKYLC/ukylc-exterior-7901-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*" alt="Kyoto Japan Spa| Suiran, a Luxury Collection Hotel, Kyoto">
+          
+          
+          
+          
+          <img src="https://champ-magazine.com/wp-content/uploads/2017/10/SuiranKyoto_ChampMagazine_LowRes_17-1280x0-c-default.jpg" alt="Suiran, a Luxury Collection Hotel, Kyoto — Ala Champ">
+          
+          
+          
+          
+          <img src="https://img.travel.rakuten.co.jp/share/image_up/158466/LARGE/19ef45660788574dddbae38e274a798df1e3600b.47.1.26.2.jpg" alt="Suiran, a Luxury Collection Hotel, Kyoto, Kyoto | 2021 Updated Prices ...">
+          
+          
+        </div>
+      </div>
+      </a>
+      
+      <div class="hotel-info" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.5rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">京都翠嵐豪華精選飯店 Suiran, a Luxury Collection Hotel, Kyoto</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">京都翠嵐豪華精選飯店 · 右京區嵐山</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">DAY 4–5</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">2 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 56,000</div>
+        </div>
+      </div>
+      <div class="hotel-info" style="font-size:0.85rem;color:var(--ink);">
+        ★★★★★ · 豪華和室（附露天風呂） · 含和洋自助早餐<br>
+        ♨️ 天然溫泉 · 🌿 竹林景觀 · 🍵 茶道體驗 · 🚤 保津川遊船
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 🍽️ DINING -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🍽️ 美食 Dining</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">5天 · 4 間餐廳 · NT$0</span>
+    </div>
+
+    
+
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 米其林星級 Fine Dining</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Kikunoi%20Honten%20Kyoto%20Michelin" target="_blank" title="More photos of 菊乃井 本店 Kikunoi Honten">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://axwwgrkdco.cloudimg.io/v7/__gmpics__/6533bbbc81a2462082562f6ae2678569?width=1000" alt="菊乃井 本店 Kikunoi Honten" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://hungryforpoints.boardingarea.com/wp-content/uploads/2015/04/kikunoi-honten-kyoto-kaiseki-appetizers-1024x1024.jpg" alt="菊乃井 本店 Kikunoi Honten" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://axwwgrkdco.cloudimg.io/v7/__gmpics__/f3d92388967c4b80b0671f722eeff633?width=1000" alt="菊乃井 本店 Kikunoi Honten" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>菊乃井 本店 Kikunoi Honten</h4>
+            <div class="zh-name">菊乃井本店 · 米其林三星懷石 · ⭐⭐⭐</div>
+            <div class="dish">🦀 招牌：夏の特別會席 · 香魚與海膽</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=%E8%8F%8A%E4%B9%83%E4%BA%95%20%E6%9C%AC%E5%BA%97%20Kikunoi%20Honten+%E6%9D%B1%E5%B1%B1%E5%8D%80%E4%B8%8B%E6%B2%B3%E5%8E%9F%E9%80%9A%E5%85%AB%E5%9D%82%E9%B3%A5%E5%B1%85%E5%89%8D%E4%B8%8B%E3%83%AB" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">東山區下河原通八坂鳥居前下ル</a><br>
+              💰 午餐懷石 ¥40,000/人 · NT$18,000<br>
+              🕐 12:00–14:00 · 需提前一個月預約
+            </div>
+          </div>
+        </div>
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hyotei%20Kyoto%20Michelin%20three%20stars" target="_blank" title="More photos of 瓢亭 別館 Hyotei Betsukan">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://res.cloudinary.com/dbm1qiew0/image/upload/blog-images/2024/09/OGP.jpg" alt="瓢亭 別館 Hyotei Betsukan" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ad61e700eaeb447892d8d288eb80f3f9.jpeg?width=1000" alt="瓢亭 別館 Hyotei Betsukan" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1280,h_720/w_79,x_14,y_14,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ydkkjcpp7ej28bqgo4e3/Michelin3-StarHyoteiTasting,NanzenjiTempleHeianShrineTour.jpg" alt="瓢亭 別館 Hyotei Betsukan" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>瓢亭 別館 Hyotei Betsukan</h4>
+            <div class="zh-name">瓢亭別館 · 米其林三星懷石 · ⭐⭐⭐</div>
+            <div class="dish">🍵 招牌：朝がゆ（晨粥）· 季節前菜</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=%E7%93%A2%E4%BA%AD%20%E5%88%A5%E9%A4%A8%20Hyotei%20Betsukan+%E5%B7%A6%E4%BA%AC%E5%8D%80%E5%8D%97%E7%A6%85%E5%AF%BA%E8%8D%89%E5%B7%9D%E7%94%BA35" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">左京區南禅寺草川町35</a><br>
+              💰 晚餐懷石 ¥30,000/人 · NT$13,500<br>
+              🕐 18:00–21:00 · 需預約
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 法式小館 Bistros & Casual</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Gion%20Nishimura%20Kyoto" target="_blank" title="More photos of 祇園 にしむら Gion Nishimura">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2019/10/16/1304/Park-Hyatt-Kyoto-P109-Kyoto-Bistro-Seating.jpg/Park-Hyatt-Kyoto-P109-Kyoto-Bistro-Seating.16x9.jpg?imwidth=1920" alt="祇園 にしむら Gion Nishimura" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://cdn0.tablecheck.com/menu_items/66135fce501d3f000dde3c5a/images/xl/c5f3ff0c.jpg?1715738513" alt="祇園 にしむら Gion Nishimura" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2020/08/27/1636/Park-Hyatt-Kyoto-P212-Kyoto-Bistro.jpg/Park-Hyatt-Kyoto-P212-Kyoto-Bistro.16x9.jpg?imwidth=1920" alt="祇園 にしむら Gion Nishimura" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>祇園 にしむら Gion Nishimura</h4>
+            <div class="zh-name">祇園にしむら · 京料理名店 · ⭐</div>
+            <div class="dish">🍣 招牌：鯖壽司 · 湯豆腐</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=%E7%A5%87%E5%9C%92%20%E3%81%AB%E3%81%97%E3%82%80%E3%82%89%20Gion%20Nishimura+%E6%9D%B1%E5%B1%B1%E5%8D%80%E7%A5%87%E5%9C%92%E7%94%BA%E5%8C%97%E5%81%B4292-1" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">東山區祇園町北側292-1</a><br>
+              💰 晚餐套餐 ¥12,000/人 · NT$5,400<br>
+              🕐 17:00–22:00 · 需預約
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:0;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 咖啡甜點 Cafés & Sweets</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Tsujiri%20Gion%20matcha%20parfait" target="_blank" title="More photos of 茶寮 都路里 祇園本店 Tsujiri Gion">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://img.enjoy-osaka-kyoto-kobe.com/wp-content/uploads/2023/05/31210008/33_gion_tsujiri-1024x1024.webp" alt="茶寮 都路里 祇園本店 Tsujiri Gion" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://live.staticflickr.com/5589/14929875129_11942ff165_b.jpg" alt="茶寮 都路里 祇園本店 Tsujiri Gion" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.ninjafoodtours.com/wp-content/uploads/2025/07/gion-tsujiri-parfait-scaled.jpg" alt="茶寮 都路里 祇園本店 Tsujiri Gion" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>茶寮 都路里 祇園本店 Tsujiri Gion</h4>
+            <div class="zh-name">茶寮都路里 祇園本店</div>
+            <div class="dish">🍧 招牌：特選抹茶パフェ · 抹茶蕎麥麵</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=%E8%8C%B6%E5%AF%AE%20%E9%83%BD%E8%B7%AF%E9%87%8C%20%E7%A5%87%E5%9C%92%E6%9C%AC%E5%BA%97%20Tsujiri%20Gion+%E6%9D%B1%E5%B1%B1%E5%8D%80%E7%A5%87%E5%9C%92%E7%94%BA%E5%8D%97%E5%81%B4573-3" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">東山區祇園町南側573-3</a><br>
+              💰 兩人下午茶 ¥3,000 · NT$1,350<br>
+              🕐 10:00–21:00 · 排隊名店
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+
+    <!-- Food image slider -->
+    <div class="slider" style="margin-top:1rem;">
+      <div class="slider-track">
+        
+        
+        
+        
+        <img src="https://axwwgrkdco.cloudimg.io/v7/__gmpics__/6533bbbc81a2462082562f6ae2678569?width=1000" alt="Kikunoi Honten – Kyoto - a MICHELIN Guide Restaurant">
+        
+        
+        
+        <img src="https://hungryforpoints.boardingarea.com/wp-content/uploads/2015/04/kikunoi-honten-kyoto-kaiseki-appetizers-1024x1024.jpg" alt="Fat And Furious: Kaiseki Dinner at 3-Michelin Star Kikunoi Honten ...">
+        
+        
+        
+        
+        
+        <img src="https://res.cloudinary.com/dbm1qiew0/image/upload/blog-images/2024/09/OGP.jpg" alt="Hyotei: Kyoto's MICHELIN 3-Star Restaurant Near Nanzenji Temple">
+        
+        
+        
+        <img src="https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ad61e700eaeb447892d8d288eb80f3f9.jpeg?width=1000" alt="Hyotei – Kyoto - a MICHELIN Guide Restaurant">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2019/10/16/1304/Park-Hyatt-Kyoto-P109-Kyoto-Bistro-Seating.jpg/Park-Hyatt-Kyoto-P109-Kyoto-Bistro-Seating.16x9.jpg?imwidth=1920" alt="Luxury Hotel Restaurants & Bar in Higashiyama Kyoto | Park Hyatt Kyoto">
+        
+        
+        
+        <img src="https://cdn0.tablecheck.com/menu_items/66135fce501d3f000dde3c5a/images/xl/c5f3ff0c.jpg?1715738513" alt="KYOTO BISTRO - ParkHyatt Kyoto - TableCheck">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://img.enjoy-osaka-kyoto-kobe.com/wp-content/uploads/2023/05/31210008/33_gion_tsujiri-1024x1024.webp" alt="Enjoy authentic tea and matcha sweets in Kyoto! Gion Tsujiri Store ...">
+        
+        
+        
+        <img src="https://live.staticflickr.com/5589/14929875129_11942ff165_b.jpg" alt="Matcha Parfait from Gion Tsujiri | Jackie Oshiro | Flickr">
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- 📅 DAY BY DAY -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>📅 每日行程 Day by Day</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">2026-08-10 – 2026-08-14</span>
+    </div>
+
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">1</div>
+        <div class="day-label">Aug 10 · Mon</div>
+        <div class="day-zh">抵達 · 鴨川畔的優雅開端</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 麗思卡爾頓京都</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://www.kyoto-to-do.com/wp-content/uploads/2024/06/kamoriver_main-–-1.jpg" alt="抵達 · 鴨川畔的優雅開端" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">08:30</span> ✈️ 桃園TPE出發 · 長榮BR132 · 預計12:10抵達關西機場</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:10</span> 🛬 抵達關西國際機場 KIX · 入境通關 · 前往JR綠色窗口購買ICOCA & HARUKA折扣券</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🚄 搭乘JR HARUKA特急前往京都站（75分鐘 · 自由席¥2,850/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> 🚕 京都站轉計程車至飯店（約10分鐘 · ¥1,200）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🏨 抵達麗思卡爾頓京都 · 辦理入住 · 歡迎抹茶與和菓子招待</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:00</span> 🌸 飯店內日式庭園漫步 · 鴨川納涼床景觀 · 享受飯店設施</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍽️ 晚餐：瓢亭別館 · 米其林三星懷石料理 · 預約18:00入席</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🌙 返回飯店 · 鴨川畔夜間散步 · 欣賞納涼床燈光倒影</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> 麗思卡爾頓京都 The Ritz-Carlton, Kyoto · 豪華轉角客房（鴨川景）</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 34°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">2</div>
+        <div class="day-label">Aug 11 · Tue</div>
+        <div class="day-zh">庭園巡禮 · 銀閣寺與哲學之道</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 麗思卡爾頓京都</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://cdn.pixabay.com/photo/2016/06/19/22/37/ginkaku-ji-1467814_1280.jpg" alt="庭園巡禮 · 銀閣寺與哲學之道" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:00</span> 🌅 晨起 · 飯店內享用日式朝食（含在房價內）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:30</span> 🚕 計程車前往銀閣寺（約15分鐘 · ¥1,500）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🏯 銀閣寺 Ginkakuji · 枯山水庭園 · 向月台與銀沙灘（門票¥500/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:30</span> 🚶 哲學之道 Philosopher's Path 散步 · 夏綠蟬鳴 · 沿途小神社</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍜 午餐：哲學之道旁手打蕎麥麵「ますたに」· 冷やしとろろ蕎麥¥1,200/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🚕 計程車前往南禪寺（約10分鐘 · ¥1,000）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> ⛩️ 南禪寺 Nanzenji · 三門與水路閣 · 方丈庭園（門票¥600/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> 🚶 步行至無鄰菴 Murin-an · 明治時代近代日本庭園（門票¥400/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍽️ 晚餐：祇園にしむら · 京料理套餐 · 預約18:00</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🌙 返回飯店 · 鴨川納涼床酒吧小酌（飯店内Bar Mizuki）</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> 麗思卡爾頓京都 The Ritz-Carlton, Kyoto · 豪華轉角客房（鴨川景）</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 35°/27°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">3</div>
+        <div class="day-label">Aug 12 · Wed</div>
+        <div class="day-zh">至高庭園 · 桂離宮與龍安寺</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 麗思卡爾頓京都</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://www.travelcaffeine.com/wp-content/uploads/2018/05/katsura-imperial-villa-rikyu-detached-palace-kyoto-japan-586.jpg" alt="至高庭園 · 桂離宮與龍安寺" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:00</span> 🌅 飯店早餐 · 日式朝食</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🚕 計程車前往桂離宮（約20分鐘 · ¥2,000）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🏯 桂離宮 Katsura Imperial Villa · 預約制 · 日本庭園最高傑作（免費 · 需提前上網預約）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🚕 計程車前往龍安寺（約15分鐘 · ¥1,800）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍜 午餐：龍安寺前湯豆腐料理「とようけ茶屋」· 冷奴定食¥1,500/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:30</span> ⛩️ 龍安寺 Ryoanji · 世界遺產枯山水石庭 · 蹲踞「吾唯足知」（門票¥600/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:30</span> 🚕 計程車前往金閣寺（約10分鐘 · ¥1,200）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:00</span> 🏯 金閣寺 Kinkakuji · 金碧輝煌的樓閣與鏡湖池（門票¥500/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍽️ 晚餐：菊乃井本店 · 米其林三星懷石 · 預約18:30</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:30</span> 🌙 返回飯店 · 整理行李 · 準備明日換宿</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> 麗思卡爾頓京都 The Ritz-Carlton, Kyoto · 豪華轉角客房（鴨川景）</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 36°/27°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 5%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">4</div>
+        <div class="day-label">Aug 13 · Thu</div>
+        <div class="day-zh">嵐山雅韻 · 天龍寺與竹林</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 京都翠嵐豪華精選飯店</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://www.travelcaffeine.com/wp-content/uploads/2017/10/tenryuji-temple-arashiyama-kyoto-japan-968.jpg" alt="嵐山雅韻 · 天龍寺與竹林" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:00</span> 🌅 飯店早餐 · 退房 · 寄放行李</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:30</span> 🚕 計程車前往嵐山（約30分鐘 · ¥3,000）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🏨 抵達京都翠嵐 · 辦理入住手續 · 行李送入房間</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> ⛩️ 天龍寺 Tenryuji · 曹源池庭園 · 世界遺產（門票¥800/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🎋 竹林小徑 Bamboo Grove · 拍照熱點 · 清晨光線最佳</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍜 午餐：嵐山よしむら · 手工蕎麥麵與天婦羅套餐¥2,500/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🚤 保津川遊船（預約制 · ¥4,100/人 · 約90分鐘）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:00</span> ♨️ 返回飯店 · 享受客房露天風呂 · 休息</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:30</span> 🍽️ 晚餐：飯店内「京翠嵐」懷石料理 · 預約18:30</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🌙 飯店内茶室「茶寮 八翠」夜間抹茶體驗</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> 京都翠嵐豪華精選飯店 Suiran, a Luxury Collection Hotel, Kyoto · 豪華和室（附露天風呂）</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 35°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 15%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">5</div>
+        <div class="day-label">Aug 14 · Fri</div>
+        <div class="day-zh">再會 · 京都最後的庭園時光</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 京都翠嵐豪華精選飯店</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://i0.wp.com/2ponderful.com/wp-content/uploads/2019/10/honen-in-autumn3.jpg?ssl=1" alt="再會 · 京都最後的庭園時光" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:00</span> 🌅 晨起 · 最後一次露天風呂</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🍽️ 飯店內和洋自助早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚶 法然院 Honenin · 隱密苔庭 · 白砂壇（免費）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> 🚕 計程車前往京都站（約30分鐘 · ¥3,000）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:45</span> 🛍️ 京都站地下街Porta · 購買伴手禮：抹茶菓子、京漬物</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🚄 搭乘JR HARUKA前往關西機場（75分鐘 · 自由席¥2,850/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:10</span> ✈️ 關西機場出發 · 長榮BR131 · 預計15:00抵達桃園</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🛬 抵達台灣 · 結束浪漫京都庭園之旅</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> 京都翠嵐豪華精選飯店 Suiran, a Luxury Collection Hotel, Kyoto · 豪華和室（附露天風呂）</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 34°/25°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 💰 COST BREAKDOWN -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>💰 花費明細 Cost</h2>
+      <span style="font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">所有金額以新台幣 NTD 計算</span>
+    </div>
+    
+    <div class="cost-row"><span>✈️ 來回機票</span><span>NT$ <strong>24,000</strong></span></div>
+    
+    <div class="cost-row"><span>🏨 住宿（總計）</span><span>NT$ <strong>128,000</strong></span></div>
+    
+    <div class="cost-row"><span>🍽️ 餐飲</span><span>NT$ <strong>75,000</strong></span></div>
+    
+    <div class="cost-row"><span>🎫 景點門票</span><span>NT$ <strong>8,000</strong></span></div>
+    
+    <div class="cost-row"><span>🚇 交通</span><span>NT$ <strong>15,000</strong></span></div>
+    
+    <div class="cost-row"><span>🛍️ 購物伴手禮</span><span>NT$ <strong>20,000</strong></span></div>
+    
+    <div class="cost-row" style="font-weight:600; border-top:2px solid var(--gold); padding-top:0.5rem; margin-top:0.2rem;">
+      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>270,000</strong></span>
+    </div>
+    <div class="cost-bar"><div class="cost-bar-fill" style="width:90.0%"></div></div>
+    <div style="text-align:right; font-size:0.8rem; color:var(--warm-gray);">
+      NT$ 270,000 / NT$ 300,000 · 剩餘 NT$ 30,000
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Shared JS for all Travel Planner pages
+// Lightbox, broken image handler
+
+// Hide broken images globally
+document.addEventListener('error', function(e){
+  if(e.target.tagName === 'IMG'){
+    e.target.classList.add('broken');
+  }
+}, true);
+
+// ═══ LIGHTBOX ═══
+(function(){
+  var images = [];
+  var currentIdx = 0;
+  var lb = null;
+  var lbImg = null;
+  var lbCounter = null;
+
+  function buildLightbox() {
+    lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.innerHTML =
+      '<button class="close-btn">&times;</button>' +
+      '<div class="lbox-img-wrap">' +
+        '<div class="lbox-left"><span class="lbox-arrow">&#8249;</span></div>' +
+        '<img src="" alt="">' +
+        '<div class="lbox-right"><span class="lbox-arrow">&#8250;</span></div>' +
+      '</div>' +
+      '<div class="counter"></div>';
+    document.body.appendChild(lb);
+    lbImg = lb.querySelector('img');
+    lbCounter = lb.querySelector('.counter');
+
+    lb.querySelector('.close-btn').addEventListener('click', close);
+    lb.querySelector('.lbox-left').addEventListener('click', function(e){ e.stopPropagation(); prev(); });
+    lb.querySelector('.lbox-right').addEventListener('click', function(e){ e.stopPropagation(); next(); });
+    lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
+    document.addEventListener('keydown', function(e){
+      if(!lb.classList.contains('open')) return;
+      if(e.key === 'Escape') close();
+      if(e.key === 'ArrowLeft') prev();
+      if(e.key === 'ArrowRight') next();
+    });
+  }
+
+  function collectImages() {
+    images = [];
+    var all = document.querySelectorAll('.slider-track img, .food-imgs img, .hero-placeholder, .dining-card img, .lightbox-clickable');
+    all.forEach(function(img, i){
+      // Skip images inside Google Images links — let the browser follow the link
+      if(img.closest('a[href*="google.com/search?tbm=isch"]')) return;
+      if(img.naturalWidth > 0 || img.complete) {
+        images.push(img);
+        img.style.cursor = 'pointer';
+        img.setAttribute('data-lb-idx', images.length - 1);
+        if(!img.hasLbListener) {
+          img.addEventListener('click', function(e){
+            e.stopPropagation();
+            open(img.getAttribute('data-lb-idx'));
+          });
+          img.hasLbListener = true;
+        }
+      }
+    });
+  }
+
+  function open(idx) {
+    if(!lb) buildLightbox();
+    collectImages();
+    idx = parseInt(idx);
+    if(idx < 0) idx = images.length - 1;
+    if(idx >= images.length) idx = 0;
+    currentIdx = idx;
+    var src = images[currentIdx].src || images[currentIdx].getAttribute('src');
+    // strip Unsplash size params for full resolution
+    src = src.replace(/[?&]w=\d+/g, '').replace(/[?&]h=\d+/g, '').replace(/[?&]fit=crop/g, '');
+    if(src.indexOf('?') === -1) src += '?w=1400'; else src += '&w=1400';
+    lbImg.src = src;
+    lbCounter.textContent = (currentIdx + 1) + ' / ' + images.length;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function next() { open(currentIdx + 1); }
+  function prev() { open(currentIdx - 1); }
+
+  window.addEventListener('load', function(){ collectImages(); });
+})();
+</script>
+<div style="text-align:center;padding:2rem 0 0.5rem;">
+  </div>
+<div style="text-align:center;padding:0.5rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
+  build 260525.063556
+</div>
+</body>
+</html>
