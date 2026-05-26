@@ -1,0 +1,1074 @@
+{
+  "destination_en": "Tahiti, Mo'orea & Bora Bora, French Polynesia",
+  "title_zh": "大溪地 · 茉莉亞 · 波拉波拉 15天蜜月之旅",
+  "date_range": "2026/08/13–08/27",
+  "start_date": "2026-08-13",
+  "end_date": "2026-08-27",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "PPT",
+  "travelers": 2,
+  "days": 15,
+  "budget_ntd": 900000,
+  "flight": {
+    "airline": "紐西蘭航空 Air New Zealand",
+    "departure_date": "8月13日",
+    "return_date": "8月26日",
+    "total_price_ntd": 180000,
+    "outbound": {
+      "flight_no": "NZ 78",
+      "route": "TPE → AKL (轉機) → PPT",
+      "depart_time": "18:35",
+      "arrive_time": "02:25 (+1)",
+      "duration": "15h 50m (含轉機)",
+      "class": "經濟艙"
+    },
+    "inbound": {
+      "flight_no": "NZ 77",
+      "route": "PPT → AKL (轉機) → TPE",
+      "depart_time": "03:55",
+      "arrive_time": "17:05 (+1)",
+      "duration": "15h 10m (含轉機)",
+      "class": "經濟艙"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Tahiti Airport Hotel",
+      "name_zh": "大溪地機場酒店",
+      "district": "帕皮提機場旁",
+      "day_range": "1 (凌晨休息)",
+      "nights": 0.5,
+      "price_ntd": 6000,
+      "stars": "★★★☆☆",
+      "room_type": "標準雙人房（休息3小時）",
+      "breakfast": "不含",
+      "amenities": "🛏️ 簡約客房 · 24小時櫃檯 · 機場接駁",
+      "search_query": "Tahiti Airport Hotel Papeete",
+      "photos": [
+        {
+          "url": "https://tahitiairportmotel.com/images/accueil_vue_exterieure.jpg",
+          "label": "Tahiti Airport Hotel : Your hotel a stone's throw from Papeete airport"
+        },
+        {
+          "url": "https://tahitiairportmotel.com/images/tahiti_airport_motel_02.jpg",
+          "label": "Tahiti Airport Hotel : Your hotel a stone's throw from Papeete airport"
+        },
+        {
+          "url": "https://www.pacific-pearls.ch/bilder/hotel/Tahiti_Airport_Hotel_111.jpg",
+          "label": "Tahiti Airport Hotel » direkt am Faa'a Papeete Flughafen | Pacific ..."
+        },
+        {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/6878294.jpg?k=f5116a3ebd32226978f3a6047af05538beb6d9bc04faa563dd37c8e7842d4908&o=&hp=1",
+          "label": "Tahiti Airport Motel - Faaa"
+        },
+        {
+          "url": "https://tahitiairportmotel.com/images/accueil_chambre_twin.jpg",
+          "label": "Tahiti Airport Hotel : Your hotel a stone's throw from Papeete airport"
+        },
+        {
+          "url": "https://tahitiairportmotel.com/images/accueil_chambre_double.jpg",
+          "label": "Tahiti Airport Hotel : Your hotel a stone's throw from Papeete airport"
+        }
+      ]
+    },
+    {
+      "name": "Tahiti Hilton Hotel",
+      "name_zh": "大溪地希爾頓酒店",
+      "district": "帕皮提",
+      "day_range": "1–3",
+      "nights": 2,
+      "price_ntd": 28000,
+      "stars": "★★★★☆",
+      "room_type": "海景豪華雙人房",
+      "breakfast": "含自助式早餐",
+      "amenities": "🏊 無邊際泳池 · 💆 SPA · 🍽️ 餐廳 · 🌴 熱帶花園",
+      "search_query": "Hilton Tahiti resort Papeete",
+      "photos": [
+        {
+          "url": "https://www.tahiti.com/images1/gallery/PPTHIL-2000x1200-SUNSET+POOL-01_84726.jpg",
+          "label": "Hilton Hotel Tahiti, Papeete Tahiti | Tahiti.com"
+        },
+        {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/662789540.jpg?k=b8ec7bf208c9726da613bf9b3b8e1b448cecd9fec904b03235d72e352a0e728f&o=",
+          "label": "Hilton Hotel Tahiti, Papeete (updated prices 2025)"
+        },
+        {
+          "url": "https://www.tahiti.com/images1/gallery/PPTHIL-2000x1200-Pool-06_84726.jpg",
+          "label": "Hilton Hotel Tahiti, Papeete Tahiti | Tahiti.com"
+        },
+        {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/484124098.jpg?k=cf88b224f50e52525aa1bfea6ea67db432a8356191cbc7acca5914ed9aa0aaa5&o=&hp=1",
+          "label": "Hilton Hotel Tahiti, Papeete (tarifs actualisés, 2026)"
+        },
+        {
+          "url": "https://www.tahiti.com/images1/thumbs/PPTHIL-2000x1200-Pool+Tables-07.jpg",
+          "label": "Hilton Hotel Tahiti, Papeete Tahiti | Tahiti.com"
+        },
+        {
+          "url": "https://overwaterbungalows.com.au/wp-content/uploads/Hilton-PPT-hilton-hotel-tahiti-wpcf_900x500.jpg",
+          "label": "(Papeete) Hilton Hotel Tahiti | Overwater Bungalows"
+        }
+      ]
+    },
+    {
+      "name": "Kavika Hotel",
+      "name_zh": "卡維卡酒店",
+      "district": "茉莉亞島 (Mo'orea)",
+      "day_range": "3–7",
+      "nights": 4,
+      "price_ntd": 80000,
+      "stars": "★★★★☆",
+      "room_type": "海景套房",
+      "breakfast": "含歐陸式早餐",
+      "amenities": "🏖️ 私人海灘 · 🚣 獨木舟 · 🤿 浮潛裝備 · 🍴 餐廳",
+      "search_query": "Kavika Hotel Mo'orea French Polynesia",
+      "photos": [
+        {
+          "url": "https://digital.ihg.com/is/image/ihg/intercontinental-faaa-6338984904-16x9?",
+          "label": "InterContinental Resort Tahiti | Luxury Hotel in Faa'a"
+        },
+        {
+          "url": "https://www.tahitilegends.com/images1/gallery/PPTIRT-Thumb-1200x720_20263.jpg",
+          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
+        },
+        {
+          "url": "https://www.tahitilegends.com/images1/gallery/PPTMSR-Thumb-1200x720_20333.jpg",
+          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
+        },
+        {
+          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial-2000x1200_29686.jpg",
+          "label": "InterContinental Tahiti Resort | Tahiti.com"
+        },
+        {
+          "url": "https://www.tahitilegends.com/images1/gallery/Hilton-Hotel-Tahiti---Pool-Sunset-1200x720-2_84733.jpg",
+          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
+        },
+        {
+          "url": "https://www.tahiti.com/images1/thumbs/Hilton-Moorea-Aerial-1200x7201.jpg",
+          "label": "Hilton Moorea Lagoon Resort and Spa | Tahiti.com"
+        }
+      ]
+    },
+    {
+      "name": "Westin Bora Bora Resort & Spa",
+      "name_zh": "波拉波拉威斯汀度假村",
+      "district": "波拉波拉島 (Bora Bora)",
+      "day_range": "7–11",
+      "nights": 4,
+      "price_ntd": 200000,
+      "stars": "★★★★★",
+      "room_type": "水上豪華別墅 (Overwater Bungalow)",
+      "breakfast": "含自助式早餐",
+      "amenities": "🏊 無邊際泳池 · 💆 SPA · 🍽️ 3間餐廳 · 🛥️ 免費水上活動",
+      "search_query": "Westin Bora Bora overwater bungalow",
+      "photos": [
+        {
+          "url": "https://cache.marriott.com/content/dam/marriott-renditions/BOBWI/bobmd-bungalow-6404-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1215px:*",
+          "label": "Bora Bora Overwater Villas | The Westin Bora Bora Resort & Spa"
+        },
+        {
+          "url": "https://static.ffx.io/images/$zoom_0.1578,$multiply_4,$ratio_1.777778,$width_1059,$x_0,$y_0/t_crop_custom/c_scale,w_1440/e_sharpen:30,q_88,f_auto/b0bd3655590ec6da50a436870e1a13e1af03d774",
+          "label": "Polynesian paradise: A stay in an overwater bungalow at the Westin Bora ..."
+        },
+        {
+          "url": "https://islekeys.com/wp-content/uploads/2024/02/Westin-Bora-Bora-768x516.jpeg",
+          "label": "21 Most Beautiful Overwater Bungalows in the World - Isle Keys"
+        },
+        {
+          "url": "https://wanderinparadise.com/wp-content/uploads/2024/01/Westin-Bora-Bora-Overwater-Bungalow-with-Mount-Otemanu-view-.webp",
+          "label": "The Westin Bora Bora Resort & Spa - Review & Insider Guide"
+        },
+        {
+          "url": "https://thepointsguy.global.ssl.fastly.net/us/originals/2025/04/20250410_Westin-Bora-Bora_ENanStorck_42.jpg?width=1920",
+          "label": "The Westin Bora Bora Resort & Spa review - The Points Guy"
+        },
+        {
+          "url": "https://cdn.onemileatatime.com/wp-content/uploads/2024/09/Westin-Bora-Bora-1.jpeg",
+          "label": "Westin Bora Bora Opens, With 128 Overwater Bungalows - One Mile at a Time"
+        }
+      ]
+    },
+    {
+      "name": "Reva Hotel",
+      "name_zh": "雷瓦酒店",
+      "district": "帕皮提",
+      "day_range": "11–13",
+      "nights": 2,
+      "price_ntd": 18000,
+      "stars": "★★★☆☆",
+      "room_type": "標準雙人房",
+      "breakfast": "含簡式早餐",
+      "amenities": "🌿 花園 · 🍴 餐廳 · 🚌 機場接駁",
+      "search_query": "Reva Hotel Tahiti Papeete",
+      "photos": [
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/67e466f310e54e4e6f7689d0/74c74fb7-da14-4711-b4be-f3411a57331a/Hotel-Reva-Tahiti-Exterior3.jpg?format=2500w",
+          "label": "Hôtel Reva Tahiti – Votre séjour à Papeete centre-ville"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/67e466f310e54e4e6f7689d0/6d5fce72-4aa2-4d8f-be07-a7c6b33dac18/HOTEL-REVA-LOBBY12.jpg?format=1500w",
+          "label": "Hôtel Reva Tahiti – Votre séjour à Papeete centre-ville"
+        },
+        {
+          "url": "https://api.cloudly.space/resize/cropratio/640/640/75/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvMjUvMjUvMzM4ODg1MzcuanBn/image.webp",
+          "label": "Hôtel Reva Tahiti (Papeete) | Tahiti Tourisme PF"
+        },
+        {
+          "url": "https://images.squarespace-cdn.com/content/v1/67e466f310e54e4e6f7689d0/ab83b0b4-4ea6-4c00-8f35-e16ed4748bf1/Hotel+reva+-+Suite+Junior+Horizon++(3).jpeg",
+          "label": "Hôtel Reva Tahiti – Votre séjour à Papeete centre-ville"
+        },
+        {
+          "url": "https://ak-d.tripcdn.com/images/0585812000qgrftxuE912_R_960_660_R5_D.jpg",
+          "label": "Hotel Reva Tahiti : Tarifs & Avis 2026 | Trip.com"
+        },
+        {
+          "url": "https://www.tahiti.com/images1/gallery/PPTREV-Lobby-2000x1200_88783.jpg",
+          "label": "Hotel Reva Tahiti | Tahiti.com"
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "Le Coco's",
+        "name_zh": "可可餐廳 · 大溪地法式料理",
+        "stars": "⭐⭐",
+        "dish": "🐟 招牌：香草烤龍蝦 · 椰子咖哩魚",
+        "address": "Punaauia, Tahiti",
+        "price_ntd": 3500,
+        "price_label": "晚餐套餐 €100/人 · NT$3,500",
+        "hours": "18:00–22:00 · 需預約",
+        "search_query": "Le Coco's restaurant Tahiti",
+        "photos": [
+          {
+            "url": "https://ciretravel.com/wp-content/uploads/2023/03/7.-Dining-at-Le-Lotus-Restaurant-1024x768.jpg",
+            "label": "Our Favorite Places: Tahiti and Bora Bora - CIRE Travel"
+          },
+          {
+            "url": "https://etahititravel.com/wp-content/uploads/2017/09/invitation-au-voyage-cuisine-poisson-cru-lait-de-coco-e-tahiti-travel.jpg",
+            "label": "Tahiti Island Food"
+          },
+          {
+            "url": "https://farandawayadventures.com/wp-content/uploads/2019/09/Le-Coconut-Loge-Public-Areas-0113-1024x682.jpg",
+            "label": "The 10 Best Restaurants in Tahiti for Fine Dining and Local Cuisine"
+          }
+        ]
+      },
+      {
+        "name": "La Villa Mahana",
+        "name_zh": "馬哈納別墅 · 波拉波拉頂級餐廳",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：松露龍蝦 · 香草鴨胸",
+        "address": "Bora Bora",
+        "price_ntd": 6000,
+        "price_label": "晚餐套餐 €170/人 · NT$6,000",
+        "hours": "18:30–21:30 · 需預約",
+        "search_query": "La Villa Mahana Bora Bora",
+        "photos": [
+          {
+            "url": "https://boraboraphotos.com/wp-content/uploads/2013/10/dinning-at-la-villa-mahana-bora-bora.jpg",
+            "label": "La Villa Mahana Restaurant on Bora Bora - Island Travel Guide"
+          },
+          {
+            "url": "https://wanderinparadise.com/wp-content/uploads/2025/02/La-Villa-Mahana-in-Bora-Bora.webp",
+            "label": "La Villa Mahana Bora Bora – Fine Dining Experience 2026"
+          },
+          {
+            "url": "https://wanderinparadise.com/wp-content/uploads/2025/02/La-Villa-Mahana-Bora-Bora-683x1024.webp",
+            "label": "La Villa Mahana Bora Bora – Fine Dining Experience 2026"
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "Snack Mahana",
+        "name_zh": "瑪哈納小吃 · 當地風味",
+        "stars": "",
+        "dish": "🥥 招牌：椰子魚生 · 烤鮪魚排",
+        "address": "Mo'orea",
+        "price_ntd": 1200,
+        "price_label": "兩人午餐 €35/人 · NT$1,200",
+        "hours": "11:30–14:30 · 週日休息",
+        "search_query": "Snack Mahana Mo'orea",
+        "photos": [
+          {
+            "url": "https://cdn.tasteatlas.com/images/restaurants/2d4e2bfb53b24a678566b3be2653ffd5.jpg?mw=1300",
+            "label": "Snack Mahana | TasteAtlas | Recommended authentic restaurants"
+          },
+          {
+            "url": "https://etahititravel.com/wp-content/uploads/2025/11/snack-mahana-moorea-selection.jpg",
+            "label": "Notre sélection de snacks en Polynésie française : îles de la Société ..."
+          },
+          {
+            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=638791431989056",
+            "label": "Snack Mahana - Moorea... - Snack Mahana - Moorea Papetoai"
+          }
+        ]
+      },
+      {
+        "name": "Bloody Mary's",
+        "name_zh": "血腥瑪麗 · 波拉波拉傳奇酒吧",
+        "stars": "",
+        "dish": "🍔 招牌：漢堡 · 海鮮拼盤 · 雞尾酒",
+        "address": "Bora Bora",
+        "price_ntd": 2000,
+        "price_label": "兩人晚餐 €55/人 · NT$2,000",
+        "hours": "11:30–22:00 · 需預約",
+        "search_query": "Bloody Mary's Bora Bora",
+        "photos": [
+          {
+            "url": "https://images.fineartamerica.com/images-medium-large-5/bloody-marys-restaurant-bora-bora-.jpg",
+            "label": "Bloody Marys Restaurant, Bora Bora Photograph by Panoramic Images - Pixels"
+          },
+          {
+            "url": "https://wanderinparadise.com/wp-content/uploads/2023/10/Bloody-Marys-Bora-Bora-soft-reopening.webp",
+            "label": "Bloody Mary’s Restaurant Bora Bora – Reopening End Of 2025"
+          },
+          {
+            "url": "https://cdn.easytahiti.com/img/entrance-bloddy-marys-famous-restaurant-in-bora-bora-during-your-vacation.jpg",
+            "label": "Dinner at famous Bloody Marys restaurant in Bora Bora for honeymooners ..."
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Café de la Plage",
+        "name_zh": "沙灘咖啡館",
+        "stars": "",
+        "dish": "☕ 招牌：大溪地香草拿鐵 · 椰子可頌",
+        "address": "Papeete, Tahiti",
+        "price_ntd": 600,
+        "price_label": "兩人早餐 €17/人 · NT$600",
+        "hours": "07:00–17:00",
+        "search_query": "Cafe de la Plage Tahiti",
+        "photos": [
+          {
+            "url": "https://www.tahiti.com/images1/gallery/Moorea-Beach-Cafe1-2000x1200_46056.jpg",
+            "label": "Sunset dinner at Moorea Beach Cafe | Tahiti.com"
+          },
+          {
+            "url": "https://www.plageprivee.com/assets/img/plage/749_2_31920.jpg",
+            "label": "Tahiti Beach Café - Plage privée Ajaccio"
+          },
+          {
+            "url": "https://yummy-tahiti.com/wp-content/uploads/2020/08/MBC-08.12.18-1-sur-25.jpg",
+            "label": "Moorea Beach Café - Yummy Tahiti"
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "Aug 13 · Thu",
+      "label_zh": "出發 · 飛往大溪地",
+      "day_query": "Tahiti Faa'a International Airport",
+      "hotel_name": "Tahiti Airport Hotel (凌晨休息)",
+      "hotel_name_zh": "大溪地機場酒店 · 標準雙人房（休息3小時）",
+      "hotel_room": "標準雙人房（休息3小時）",
+      "weather": "🌤️ 28°/24° (大溪地)",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "15:00",
+          "desc": "🚗 從家出發前往桃園國際機場 TPE · 建議提前3小時到機場"
+        },
+        {
+          "time": "16:30",
+          "desc": "🧳 辦理登機手續 · 托運行李 · 出境安檢"
+        },
+        {
+          "time": "18:35",
+          "desc": "✈️ 搭乘紐西蘭航空 NZ 78 經奧克蘭轉機前往大溪地 · 飛行約10小時到奧克蘭"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 機上享用晚餐 · 選擇紐西蘭紅酒或白酒"
+        },
+        {
+          "time": "23:00",
+          "desc": "💤 機上休息 · 準備轉機"
+        }
+      ],
+      "day_photo": "https://cdn-css.tahitiheritage.pf/wp-content/uploads/2014/10/faaa-aeroport-2004.jpg"
+    },
+    {
+      "day": 2,
+      "date": "Aug 14 · Fri",
+      "label_zh": "抵達大溪地 · 帕皮提初探",
+      "day_query": "Hilton Tahiti resort",
+      "hotel_name": "Tahiti Hilton Hotel",
+      "hotel_name_zh": "大溪地希爾頓酒店 · 海景豪華雙人房",
+      "hotel_room": "海景豪華雙人房",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "00:00",
+          "desc": "✈️ 機上繼續休息 · 即將抵達奧克蘭"
+        },
+        {
+          "time": "02:25",
+          "desc": "🛬 抵達大溪地法阿國際機場 PPT · 入境通關取行李（約30分鐘）"
+        },
+        {
+          "time": "03:00",
+          "desc": "🚶 步行至 Tahiti Airport Hotel · 辦理入住（休息3小時）"
+        },
+        {
+          "time": "06:00",
+          "desc": "⏰ 起床梳洗 · 退房"
+        },
+        {
+          "time": "07:00",
+          "desc": "☕ Café de la Plage 享用早餐 · 大溪地香草拿鐵 + 椰子可頌"
+        },
+        {
+          "time": "09:00",
+          "desc": "🏨 抵達 Tahiti Hilton Hotel · 辦理入住 · 稍作休息"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏖️ 享受飯店設施 · 無邊際泳池 · 沙灘散步"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 飯店內午餐 · 品嚐當地海鮮拼盤"
+        },
+        {
+          "time": "15:00",
+          "desc": "🚶 帕皮提市區漫步 · 參觀大溪地市場 Marché de Papeete"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ Le Coco's 晚餐 · 香草烤龍蝦 · 椰子咖哩魚"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 返回飯店 · 享受夜晚泳池"
+        }
+      ],
+      "day_photo": "https://www.tahitilegends.com/images1/gallery/PPTHIL-2000x1200-SUNSET+POOL-01_84726.jpg"
+    },
+    {
+      "day": 3,
+      "date": "Aug 15 · Sat",
+      "label_zh": "大溪地文化探索",
+      "day_query": "Musée de Tahiti et des Îles",
+      "hotel_name": "Tahiti Hilton Hotel",
+      "hotel_name_zh": "大溪地希爾頓酒店 · 海景豪華雙人房",
+      "hotel_room": "海景豪華雙人房",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "☕ 飯店自助早餐 · 享用新鮮熱帶水果"
+        },
+        {
+          "time": "09:30",
+          "desc": "🎨 參觀大溪地博物館 Musée de Tahiti et des Îles · 了解波利尼西亞文化"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 博物館附近午餐 · 當地小吃"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚶 帕皮提花園 Jardin de Paofai 散步"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏖️ 飯店沙灘放鬆 · 浮潛"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 飯店內晚餐 · 浪漫海邊燭光晚餐"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌙 夜晚漫步 · 欣賞星空"
+        }
+      ],
+      "day_photo": "https://www.radio1.pf/cms/wp-content/uploads/2023/07/Musee-de-Tahiti-et-des-iles-te-fare-Iamanaha-1.jpg"
+    },
+    {
+      "day": 4,
+      "date": "Aug 16 · Sun",
+      "label_zh": "前往茉莉亞島 Mo'orea",
+      "day_query": "Mo'orea ferry terminal",
+      "hotel_name": "Kavika Hotel",
+      "hotel_name_zh": "卡維卡酒店 · 海景套房",
+      "hotel_room": "海景套房",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "☕ 飯店早餐 · 整理行李"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚕 退房 · 搭計程車前往帕皮提碼頭（約15分鐘）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚢 搭乘 Aremiti 渡輪前往茉莉亞島（航程約30分鐘）· 費用 NT$1,200/人"
+        },
+        {
+          "time": "09:30",
+          "desc": "🛬 抵達茉莉亞島碼頭 · 搭接駁車前往 Kavika Hotel（約15分鐘）"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏨 抵達 Kavika Hotel · 辦理入住 · 稍作休息"
+        },
+        {
+          "time": "11:30",
+          "desc": "🏖️ 飯店私人海灘 · 浮潛 · 划獨木舟"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ Snack Mahana 午餐 · 椰子魚生 · 烤鮪魚排"
+        },
+        {
+          "time": "15:00",
+          "desc": "🚗 租車環島 · 參觀 Belvédère 觀景台 · 欣賞 Cook's Bay 和 Opunohu Bay"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 飯店內晚餐 · 當地風味"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 海邊散步 · 觀星"
+        }
+      ],
+      "day_photo": "https://misstourist.com/wp-content/uploads/2024/07/11-Going-back-to-Tahiti.jpg"
+    },
+    {
+      "day": 5,
+      "date": "Aug 17 · Mon",
+      "label_zh": "茉莉亞島浮潛探險",
+      "day_query": "Mo'orea lagoon snorkeling",
+      "hotel_name": "Kavika Hotel",
+      "hotel_name_zh": "卡維卡酒店 · 海景套房",
+      "hotel_room": "海景套房",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "☕ 飯店早餐 · 準備浮潛"
+        },
+        {
+          "time": "09:00",
+          "desc": "🤿 參加飯店浮潛行程 · 探索珊瑚礁 · 與海龜共游"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 海灘野餐 · 三明治 + 新鮮椰子水"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚣 繼續划獨木舟 · 探索潟湖"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏖️ 飯店泳池放鬆 · 享受 SPA"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 飯店內晚餐 · 品嚐烤魚"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌙 夜晚漫步 · 聆聽海浪聲"
+        }
+      ],
+      "day_photo": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/73/20/21.jpg"
+    },
+    {
+      "day": 6,
+      "date": "Aug 18 · Tue",
+      "label_zh": "茉莉亞島文化體驗",
+      "day_query": "Mo'orea pineapple farm",
+      "hotel_name": "Kavika Hotel",
+      "hotel_name_zh": "卡維卡酒店 · 海景套房",
+      "hotel_room": "海景套房",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "☕ 飯店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🍍 參觀鳳梨農場 · 品嚐新鮮鳳梨"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚶 徒步前往 Afareaitu 瀑布"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 農場午餐 · 鳳梨炒飯"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏖️ 返回飯店放鬆"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ Snack Mahana 晚餐 · 烤鮪魚排"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 海邊觀星"
+        }
+      ],
+      "day_photo": "https://m.somewheregood.com/media/private-tour-moorea-4wd-belvedere-pineapple-farm-magic-mount-d5182-20944P4-1.jpg"
+    },
+    {
+      "day": 7,
+      "date": "Aug 19 · Wed",
+      "label_zh": "茉莉亞島最後一天",
+      "day_query": "Mo'orea lagoon tour",
+      "hotel_name": "Kavika Hotel",
+      "hotel_name_zh": "卡維卡酒店 · 海景套房",
+      "hotel_room": "海景套房",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "☕ 飯店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚤 參加潟湖遊船 · 浮潛 · 與鯊魚和魟魚共游"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 船上午餐 · BBQ"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏖️ 返回飯店放鬆 · 享受最後的茉莉亞時光"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 飯店內晚餐 · 浪漫告別晚餐"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 海邊散步 · 打包行李"
+        }
+      ],
+      "day_photo": "https://ninamuoceanictour.com/wp-content/uploads/2024/11/ninamu-oceanic-tour-tour-lagon-temae.jpg"
+    },
+    {
+      "day": 8,
+      "date": "Aug 20 · Thu",
+      "label_zh": "前往波拉波拉島 Bora Bora",
+      "day_query": "Bora Bora airport",
+      "hotel_name": "Westin Bora Bora Resort & Spa",
+      "hotel_name_zh": "波拉波拉威斯汀度假村 · 水上豪華別墅",
+      "hotel_room": "水上豪華別墅 (Overwater Bungalow)",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "☕ 飯店早餐 · 整理行李 · 退房"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚗 搭接駁車前往茉莉亞機場"
+        },
+        {
+          "time": "10:00",
+          "desc": "✈️ 搭乘 Moana Air 航班前往波拉波拉（航程約50分鐘）· 費用 NT$8,000/人"
+        },
+        {
+          "time": "11:00",
+          "desc": "🛬 抵達波拉波拉機場 · 搭飯店快艇前往 Westin（約15分鐘）"
+        },
+        {
+          "time": "11:30",
+          "desc": "🏨 抵達 Westin Bora Bora · 辦理入住 · 水上別墅"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 飯店午餐 · 池畔餐廳"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏖️ 享受水上別墅 · 直接跳入潟湖浮潛"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ La Villa Mahana 晚餐 · 松露龍蝦"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌙 返回別墅 · 玻璃地板看魚"
+        }
+      ],
+      "day_photo": "https://tahiti-aeroport.dleloup.com/wp-content/uploads/2024/05/MATARAI-ADT-NTTB-46-scaled.jpg"
+    },
+    {
+      "day": 9,
+      "date": "Aug 21 · Fri",
+      "label_zh": "波拉波拉潟湖探險",
+      "day_query": "Bora Bora lagoon tour",
+      "hotel_name": "Westin Bora Bora Resort & Spa",
+      "hotel_name_zh": "波拉波拉威斯汀度假村 · 水上豪華別墅",
+      "hotel_room": "水上豪華別墅 (Overwater Bungalow)",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "☕ 飯店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚤 參加潟湖全日遊 · 浮潛 · 與鯊魚和魟魚共游 · 珊瑚花園"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 船上 BBQ 午餐 · 烤魚 · 椰子飯"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏖️ 返回飯店 · 休息"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ Bloody Mary's 晚餐 · 漢堡 · 海鮮拼盤"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌙 返回別墅 · 享受星空"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 10,
+      "date": "Aug 22 · Sat",
+      "label_zh": "波拉波拉浪漫日",
+      "day_query": "Bora Bora sunset",
+      "hotel_name": "Westin Bora Bora Resort & Spa",
+      "hotel_name_zh": "波拉波拉威斯汀度假村 · 水上豪華別墅",
+      "hotel_room": "水上豪華別墅 (Overwater Bungalow)",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "☕ 飯店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏖️ 海灘放鬆 · 浮潛 · 划獨木舟"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 飯店午餐"
+        },
+        {
+          "time": "14:00",
+          "desc": "💆 夫妻 SPA · 波利尼西亞按摩"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚤 夕陽巡航 · 香檳 · 欣賞日落"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 飯店內晚餐 · 海邊燭光晚餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 返回別墅 · 享受夜晚"
+        }
+      ],
+      "day_photo": "https://w0.peakpx.com/wallpaper/288/854/HD-wallpaper-sunset-over-bora-bora-polynesia-sun-orange-dusk-beautiful-sunset-twilight-sea-beach-lagoon-sundown-bora-bora-sand-bungalows-evening-south-pacific-exotic-ocean-set-water-paradise.jpg"
+    },
+    {
+      "day": 11,
+      "date": "Aug 23 · Sun",
+      "label_zh": "波拉波拉最後一天",
+      "day_query": "Bora Bora motu picnic",
+      "hotel_name": "Westin Bora Bora Resort & Spa",
+      "hotel_name_zh": "波拉波拉威斯汀度假村 · 水上豪華別墅",
+      "hotel_room": "水上豪華別墅 (Overwater Bungalow)",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "☕ 飯店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚤 前往 Motu 小島野餐 · 浮潛 · 沙灘放鬆"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 野餐午餐 · 三明治 · 水果"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏖️ 返回飯店 · 享受最後的波拉波拉時光"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ La Villa Mahana 告別晚餐"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌙 打包行李"
+        }
+      ],
+      "day_photo": "https://www.boraboraislandguide.com/images/romantic-tour-on-motu.jpg"
+    },
+    {
+      "day": 12,
+      "date": "Aug 24 · Mon",
+      "label_zh": "返回大溪地本島",
+      "day_query": "Tahiti Papeete waterfront",
+      "hotel_name": "Reva Hotel",
+      "hotel_name_zh": "雷瓦酒店 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "☕ 飯店早餐 · 整理行李 · 退房"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚤 搭飯店快艇前往波拉波拉機場"
+        },
+        {
+          "time": "10:00",
+          "desc": "✈️ 搭乘 Moana Air 返回大溪地本島（航程約50分鐘）"
+        },
+        {
+          "time": "11:00",
+          "desc": "🛬 抵達大溪地 · 搭計程車前往 Reva Hotel"
+        },
+        {
+          "time": "11:30",
+          "desc": "🏨 辦理入住 · 稍作休息"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 飯店附近午餐"
+        },
+        {
+          "time": "15:00",
+          "desc": "🚶 帕皮提市區購物 · 紀念品 · 黑珍珠"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ Le Coco's 晚餐"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 返回飯店 · 休息"
+        }
+      ],
+      "day_photo": "https://tahititourisme.pf/app/uploads/tahiti/2021/10/thumbs/front-de-mer-de-papeete-tahiti-fly-shoot-1920x960-crop-1634605154.jpg"
+    },
+    {
+      "day": 13,
+      "date": "Aug 25 · Tue",
+      "label_zh": "大溪地最後一天",
+      "day_query": "Tahiti black pearl market",
+      "hotel_name": "Reva Hotel",
+      "hotel_name_zh": "雷瓦酒店 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "☕ 飯店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🛍️ 黑珍珠市場 · 選購紀念品"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 午餐 · 當地小吃"
+        },
+        {
+          "time": "14:00",
+          "desc": "🏖️ 帕皮提海灘放鬆"
+        },
+        {
+          "time": "17:00",
+          "desc": "🍽️ 告別晚餐 · 飯店內"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 打包行李 · 準備前往機場"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 14,
+      "date": "Aug 26 · Wed",
+      "label_zh": "返回台灣",
+      "day_query": "Tahiti Faa'a International Airport",
+      "hotel_name": "機上",
+      "hotel_name_zh": "機上",
+      "hotel_room": "經濟艙",
+      "weather": "🌤️ 28°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "00:00",
+          "desc": "⏰ 退房 · 搭計程車前往機場（約15分鐘）"
+        },
+        {
+          "time": "01:00",
+          "desc": "🧳 辦理登機手續 · 托運行李 · 出境安檢"
+        },
+        {
+          "time": "03:55",
+          "desc": "✈️ 搭乘紐西蘭航空 NZ 77 經奧克蘭返回台灣"
+        },
+        {
+          "time": "06:00",
+          "desc": "🍽️ 機上早餐"
+        },
+        {
+          "time": "10:00",
+          "desc": "💤 機上休息"
+        },
+        {
+          "time": "15:00",
+          "desc": "🍽️ 機上點心"
+        }
+      ],
+      "day_photo": "https://cdn-css.tahitiheritage.pf/wp-content/uploads/2014/10/faaa-aeroport-2004.jpg"
+    },
+    {
+      "day": 15,
+      "date": "Aug 27 · Thu",
+      "label_zh": "抵達台灣",
+      "day_query": "Taiwan Taoyuan International Airport",
+      "hotel_name": "溫暖的家",
+      "hotel_name_zh": "溫暖的家",
+      "hotel_room": "",
+      "weather": "🌤️ 32°/26° (台灣)",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "00:00",
+          "desc": "✈️ 機上繼續飛行"
+        },
+        {
+          "time": "06:00",
+          "desc": "🍽️ 機上早餐"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 機上午餐"
+        },
+        {
+          "time": "17:05",
+          "desc": "🛬 抵達台灣桃園國際機場 TPE · 入境提領行李"
+        },
+        {
+          "time": "18:00",
+          "desc": "🚗 返回溫暖的家 · 結束浪漫旅程"
+        }
+      ],
+      "day_photo": "https://ckshotel.com.tw/wp-content/uploads/2023/12/Taiwan-Taoyuan-International-Airport-Terminal-Ring-Road-Corridor-2048x1365.jpg"
+    }
+  ],
+  "costs": [
+    {
+      "label": "✈️ 來回機票 (紐西蘭航空)",
+      "amount_ntd": 180000
+    },
+    {
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 332000
+    },
+    {
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 120000
+    },
+    {
+      "label": "🎫 活動與景點",
+      "amount_ntd": 80000
+    },
+    {
+      "label": "🚇 交通（渡輪、國內航班、計程車）",
+      "amount_ntd": 60000
+    },
+    {
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 80000
+    }
+  ],
+  "cost_total_ntd": 852000,
+  "budget_remaining_ntd": 48000,
+  "photos": {
+    "hero": [
+      {
+        "url": "https://pics.craiyon.com/2023-06-27/9a7f8b8f6085436a932841a9dea577dc.webp",
+        "label": "Tahiti city skyline on Craiyon"
+      },
+      {
+        "url": "https://www.tahiti.com/images1/thumbs/BOBITS-Aerial-1200x720.jpg",
+        "label": "InterContinental Bora Bora Resort and Thalasso Spa | Tahiti.com"
+      }
+    ],
+    "destination": [
+      {
+        "url": "https://www.qantas.com/content/travelinsider/en/explore/south-pacific/best-south-pacific-islands/_jcr_content/parsysTop/hero_561615513.img.full.medium.png/1686757529282.png",
+        "label": "Tahiti Island"
+      },
+      {
+        "url": "https://www.recess4grownups.com/wp-content/uploads/Tahiti-Bora-Bora-Featured-Image-PP.jpg",
+        "label": "Heis and leis and lush scenery - Tahiti - Recess 4 Grownups Travel"
+      },
+      {
+        "url": "https://www.tripsavvy.com/thmb/uvZEoetiG1IMNN4Ia3m7r5ge-h0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/travel-destination--french-polynesia-505610634-a8272a44619d4be1a725dd622a77edff.jpg",
+        "label": "Best Beaches in Tahiti From Moorea to the Tuamotus"
+      },
+      {
+        "url": "https://cdn.pixabay.com/photo/2020/11/28/02/17/lagoon-5783445_1280.jpg",
+        "label": "100+ Free Tahiti & Bora Bora Images - Pixabay"
+      },
+      {
+        "url": "https://www.tahiti.com/images1/gallery/Moorea+Aerial+2000x1200_126.jpg",
+        "label": "Tahiti Islands"
+      },
+      {
+        "url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/230000/230645-Tahiti.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
+        "label": "Visit Tahiti: Best of Tahiti Tourism | Expedia Travel Guide"
+      }
+    ]
+  },
+  "chat_hash": "b0fd8f06cd3a8a96b96faaffe24b32457fd0324b25bb40431d583413917692b6",
+  "config_hash": "e2a97cea2bea36a96317972a093d62b6eeb4faaa599b78eaad2efd886b3ccaaf",
+  "generated_at": "2026-05-27T00:07:06.996844"
+}
