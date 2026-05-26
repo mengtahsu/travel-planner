@@ -1,230 +1,113 @@
 {
-  "destination_en": "Tahiti, Mo'orea & Bora Bora, French Polynesia",
-  "title_zh": "大溪地 · 茉莉亞 · 波拉波拉 15天蜜月之旅",
-  "date_range": "2026/08/13–08/27",
-  "start_date": "2026-08-13",
-  "end_date": "2026-08-27",
+  "destination_en": "Italy",
+  "title_zh": "八月義大利 · 浪漫七日之旅",
+  "date_range": "2026/08/15–08/21",
+  "start_date": "2026-08-15",
+  "end_date": "2026-08-21",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "PPT",
+  "destination_code": "FCO",
   "travelers": 2,
-  "days": 15,
-  "budget_ntd": 900000,
+  "days": 7,
+  "budget_ntd": 300000,
   "flight": {
-    "airline": "紐西蘭航空 Air New Zealand",
-    "departure_date": "8月13日",
-    "return_date": "8月26日",
-    "total_price_ntd": 180000,
+    "airline": "中華航空 China Airlines",
+    "departure_date": "8月15日",
+    "return_date": "8月21日",
+    "total_price_ntd": 72000,
     "outbound": {
-      "flight_no": "NZ 78",
-      "route": "TPE → AKL (轉機) → PPT",
-      "depart_time": "18:35",
-      "arrive_time": "02:25 (+1)",
-      "duration": "15h 50m (含轉機)",
+      "flight_no": "CI 71",
+      "route": "TPE → FCO 直飛",
+      "depart_time": "23:30",
+      "arrive_time": "06:30 (+1)",
+      "duration": "13h 00m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "NZ 77",
-      "route": "PPT → AKL (轉機) → TPE",
-      "depart_time": "03:55",
-      "arrive_time": "17:05 (+1)",
-      "duration": "15h 10m (含轉機)",
+      "flight_no": "CI 72",
+      "route": "FCO → TPE 直飛",
+      "depart_time": "11:00",
+      "arrive_time": "05:50 (+1)",
+      "duration": "12h 50m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Tahiti Airport Hotel",
-      "name_zh": "大溪地機場酒店",
-      "district": "帕皮提機場旁",
-      "day_range": "1 (凌晨休息)",
-      "nights": 0.5,
-      "price_ntd": 6000,
-      "stars": "★★★☆☆",
-      "room_type": "標準雙人房（休息3小時）",
-      "breakfast": "不含",
-      "amenities": "🛏️ 簡約客房 · 24小時櫃檯 · 機場接駁",
-      "search_query": "Tahiti Airport Hotel Papeete",
-      "photos": [
-        {
-          "url": "https://tahitiairportmotel.com/images/accueil_vue_exterieure.jpg",
-          "label": "Tahiti Airport Hotel : Your hotel a stone's throw from Papeete airport"
-        },
-        {
-          "url": "https://tahitiairportmotel.com/images/tahiti_airport_motel_02.jpg",
-          "label": "Tahiti Airport Hotel : Your hotel a stone's throw from Papeete airport"
-        },
-        {
-          "url": "https://www.pacific-pearls.ch/bilder/hotel/Tahiti_Airport_Hotel_111.jpg",
-          "label": "Tahiti Airport Hotel » direkt am Faa'a Papeete Flughafen | Pacific ..."
-        },
-        {
-          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/6878294.jpg?k=f5116a3ebd32226978f3a6047af05538beb6d9bc04faa563dd37c8e7842d4908&o=&hp=1",
-          "label": "Tahiti Airport Motel - Faaa"
-        },
-        {
-          "url": "https://tahitiairportmotel.com/images/accueil_chambre_twin.jpg",
-          "label": "Tahiti Airport Hotel : Your hotel a stone's throw from Papeete airport"
-        },
-        {
-          "url": "https://tahitiairportmotel.com/images/accueil_chambre_double.jpg",
-          "label": "Tahiti Airport Hotel : Your hotel a stone's throw from Papeete airport"
-        }
-      ]
-    },
-    {
-      "name": "Tahiti Hilton Hotel",
-      "name_zh": "大溪地希爾頓酒店",
-      "district": "帕皮提",
+      "name": "Hotel Eden",
+      "name_zh": "伊甸園酒店 · 羅馬豪華五星",
+      "district": "羅馬市中心 · 西班牙階梯旁",
       "day_range": "1–3",
-      "nights": 2,
-      "price_ntd": 28000,
-      "stars": "★★★★☆",
-      "room_type": "海景豪華雙人房",
-      "breakfast": "含自助式早餐",
-      "amenities": "🏊 無邊際泳池 · 💆 SPA · 🍽️ 餐廳 · 🌴 熱帶花園",
-      "search_query": "Hilton Tahiti resort Papeete",
-      "photos": [
-        {
-          "url": "https://www.tahiti.com/images1/gallery/PPTHIL-2000x1200-SUNSET+POOL-01_84726.jpg",
-          "label": "Hilton Hotel Tahiti, Papeete Tahiti | Tahiti.com"
-        },
-        {
-          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/662789540.jpg?k=b8ec7bf208c9726da613bf9b3b8e1b448cecd9fec904b03235d72e352a0e728f&o=",
-          "label": "Hilton Hotel Tahiti, Papeete (updated prices 2025)"
-        },
-        {
-          "url": "https://www.tahiti.com/images1/gallery/PPTHIL-2000x1200-Pool-06_84726.jpg",
-          "label": "Hilton Hotel Tahiti, Papeete Tahiti | Tahiti.com"
-        },
-        {
-          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/484124098.jpg?k=cf88b224f50e52525aa1bfea6ea67db432a8356191cbc7acca5914ed9aa0aaa5&o=&hp=1",
-          "label": "Hilton Hotel Tahiti, Papeete (tarifs actualisés, 2026)"
-        },
-        {
-          "url": "https://www.tahiti.com/images1/thumbs/PPTHIL-2000x1200-Pool+Tables-07.jpg",
-          "label": "Hilton Hotel Tahiti, Papeete Tahiti | Tahiti.com"
-        },
-        {
-          "url": "https://overwaterbungalows.com.au/wp-content/uploads/Hilton-PPT-hilton-hotel-tahiti-wpcf_900x500.jpg",
-          "label": "(Papeete) Hilton Hotel Tahiti | Overwater Bungalows"
-        }
-      ]
-    },
-    {
-      "name": "Kavika Hotel",
-      "name_zh": "卡維卡酒店",
-      "district": "茉莉亞島 (Mo'orea)",
-      "day_range": "3–7",
-      "nights": 4,
-      "price_ntd": 80000,
-      "stars": "★★★★☆",
-      "room_type": "海景套房",
-      "breakfast": "含歐陸式早餐",
-      "amenities": "🏖️ 私人海灘 · 🚣 獨木舟 · 🤿 浮潛裝備 · 🍴 餐廳",
-      "search_query": "Kavika Hotel Mo'orea French Polynesia",
-      "photos": [
-        {
-          "url": "https://digital.ihg.com/is/image/ihg/intercontinental-faaa-6338984904-16x9?",
-          "label": "InterContinental Resort Tahiti | Luxury Hotel in Faa'a"
-        },
-        {
-          "url": "https://www.tahitilegends.com/images1/gallery/PPTIRT-Thumb-1200x720_20263.jpg",
-          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
-        },
-        {
-          "url": "https://www.tahitilegends.com/images1/gallery/PPTMSR-Thumb-1200x720_20333.jpg",
-          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
-        },
-        {
-          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial-2000x1200_29686.jpg",
-          "label": "InterContinental Tahiti Resort | Tahiti.com"
-        },
-        {
-          "url": "https://www.tahitilegends.com/images1/gallery/Hilton-Hotel-Tahiti---Pool-Sunset-1200x720-2_84733.jpg",
-          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
-        },
-        {
-          "url": "https://www.tahiti.com/images1/thumbs/Hilton-Moorea-Aerial-1200x7201.jpg",
-          "label": "Hilton Moorea Lagoon Resort and Spa | Tahiti.com"
-        }
-      ]
-    },
-    {
-      "name": "Westin Bora Bora Resort & Spa",
-      "name_zh": "波拉波拉威斯汀度假村",
-      "district": "波拉波拉島 (Bora Bora)",
-      "day_range": "7–11",
-      "nights": 4,
-      "price_ntd": 200000,
+      "nights": 3,
+      "price_ntd": 72000,
       "stars": "★★★★★",
-      "room_type": "水上豪華別墅 (Overwater Bungalow)",
+      "room_type": "經典豪華雙人房",
       "breakfast": "含自助式早餐",
-      "amenities": "🏊 無邊際泳池 · 💆 SPA · 🍽️ 3間餐廳 · 🛥️ 免費水上活動",
-      "search_query": "Westin Bora Bora overwater bungalow",
+      "amenities": "🏊 屋頂泳池 · 💆 SPA · 🍽️ 米其林餐廳 La Terrazza · 🌇 俯瞰永恆之城",
+      "search_query": "Hotel Eden Rome Italy",
       "photos": [
         {
-          "url": "https://cache.marriott.com/content/dam/marriott-renditions/BOBWI/bobmd-bungalow-6404-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1215px:*",
-          "label": "Bora Bora Overwater Villas | The Westin Bora Bora Resort & Spa"
+          "url": "http://3.bp.blogspot.com/-dED9AlB2wz4/UswuEaRAGMI/AAAAAAAAi3Y/PiL2WljdKRk/s1600/Hotel+Eden+-+Rome,+Italy-passion4luxury-7.jpg",
+          "label": "Passion For Luxury : Luxurious Hotel Eden - Rome, Italy"
         },
         {
-          "url": "https://static.ffx.io/images/$zoom_0.1578,$multiply_4,$ratio_1.777778,$width_1059,$x_0,$y_0/t_crop_custom/c_scale,w_1440/e_sharpen:30,q_88,f_auto/b0bd3655590ec6da50a436870e1a13e1af03d774",
-          "label": "Polynesian paradise: A stay in an overwater bungalow at the Westin Bora ..."
+          "url": "https://ah-cms.hideawayreport.com/images/new-rome-hotels-hotel-eden-rome-italy-exterior.jpg",
+          "label": "Exceptional Rome Hotels | Hideaway Report | Hideaway Report"
         },
         {
-          "url": "https://islekeys.com/wp-content/uploads/2024/02/Westin-Bora-Bora-768x516.jpeg",
-          "label": "21 Most Beautiful Overwater Bungalows in the World - Isle Keys"
+          "url": "https://www.dorchestercollection.com/media/ojkbcz3j/hotel-eden-exterior-facade-sign-dorchester-collection.jpg?width=664&height=886&rmode=crop",
+          "label": "Hotel Eden, 5-Star Hotel, Rome | Private Dining & Stunning Views"
         },
         {
-          "url": "https://wanderinparadise.com/wp-content/uploads/2024/01/Westin-Bora-Bora-Overwater-Bungalow-with-Mount-Otemanu-view-.webp",
-          "label": "The Westin Bora Bora Resort & Spa - Review & Insider Guide"
+          "url": "https://www.hotel-boutique.it/wp-content/uploads/2022/09/21-9-800x480.jpg",
+          "label": "Hotel Eden Rome, Lazio - Italy"
         },
         {
-          "url": "https://thepointsguy.global.ssl.fastly.net/us/originals/2025/04/20250410_Westin-Bora-Bora_ENanStorck_42.jpg?width=1920",
-          "label": "The Westin Bora Bora Resort & Spa review - The Points Guy"
+          "url": "https://passporttofriday.com/wp-content/uploads/2017/05/P1020400.jpg",
+          "label": "Newly Renovated: Hotel Eden in Rome, Italy | Passport to Friday ..."
         },
         {
-          "url": "https://cdn.onemileatatime.com/wp-content/uploads/2024/09/Westin-Bora-Bora-1.jpeg",
-          "label": "Westin Bora Bora Opens, With 128 Overwater Bungalows - One Mile at a Time"
+          "url": "https://www.fivestaralliance.com/files/fivestaralliance.com/styles/juicebox_large/public/0_EXTERIOR-G_19.jpg?itok=qcVE2Uib",
+          "label": "Photo Gallery for Hotel Eden Rome in Rome - Italy | Five Star Alliance"
         }
       ]
     },
     {
-      "name": "Reva Hotel",
-      "name_zh": "雷瓦酒店",
-      "district": "帕皮提",
-      "day_range": "11–13",
-      "nights": 2,
-      "price_ntd": 18000,
-      "stars": "★★★☆☆",
-      "room_type": "標準雙人房",
-      "breakfast": "含簡式早餐",
-      "amenities": "🌿 花園 · 🍴 餐廳 · 🚌 機場接駁",
-      "search_query": "Reva Hotel Tahiti Papeete",
+      "name": "Belmond Hotel Cipriani",
+      "name_zh": "貝爾蒙德奇普里亞尼酒店 · 威尼斯傳奇",
+      "district": "威尼斯 · 朱代卡島",
+      "day_range": "4–6",
+      "nights": 3,
+      "price_ntd": 96000,
+      "stars": "★★★★★",
+      "room_type": "經典潟湖景雙人房",
+      "breakfast": "含自助式早餐",
+      "amenities": "🏊 無邊際泳池 · 🛥️ 私人水上計程車 · 🌅 聖馬可廣場景觀 · 🍽️ 米其林二星餐廳",
+      "search_query": "Belmond Hotel Cipriani Venice",
       "photos": [
         {
-          "url": "https://images.squarespace-cdn.com/content/v1/67e466f310e54e4e6f7689d0/74c74fb7-da14-4711-b4be-f3411a57331a/Hotel-Reva-Tahiti-Exterior3.jpg?format=2500w",
-          "label": "Hôtel Reva Tahiti – Votre séjour à Papeete centre-ville"
+          "url": "https://www.illulian.com/wp-content/uploads/2023/02/Schermata-2022-07-13-alle-12.26.31-1.jpg",
+          "label": "BELMOND HOTEL CIPRIANI, VENICE. Italy - ILLULIAN"
         },
         {
-          "url": "https://images.squarespace-cdn.com/content/v1/67e466f310e54e4e6f7689d0/6d5fce72-4aa2-4d8f-be07-a7c6b33dac18/HOTEL-REVA-LOBBY12.jpg?format=1500w",
-          "label": "Hôtel Reva Tahiti – Votre séjour à Papeete centre-ville"
+          "url": "https://cdn.audleytravel.com/1400/1000/60/1017166-belmond-hotel-cipriani-venice.jpg",
+          "label": "Belmond Hotel Cipriani | Hotels in Venice | Audley Travel US"
         },
         {
-          "url": "https://api.cloudly.space/resize/cropratio/640/640/75/aHR0cHM6Ly9zdGF0aWMuYXBpZGFlLXRvdXJpc21lLmNvbS9maWxlc3RvcmUvb2JqZXRzLXRvdXJpc3RpcXVlcy9pbWFnZXMvMjUvMjUvMzM4ODg1MzcuanBn/image.webp",
-          "label": "Hôtel Reva Tahiti (Papeete) | Tahiti Tourisme PF"
+          "url": "https://belmondcdn.azureedge.net/assets/photos/cip/960x1198/cip-ext04_960x1198.jpg",
+          "label": "The Best Luxury Hotels in Venice, Italy | Belmond Hotel Cipriani"
         },
         {
-          "url": "https://images.squarespace-cdn.com/content/v1/67e466f310e54e4e6f7689d0/ab83b0b4-4ea6-4c00-8f35-e16ed4748bf1/Hotel+reva+-+Suite+Junior+Horizon++(3).jpeg",
-          "label": "Hôtel Reva Tahiti – Votre séjour à Papeete centre-ville"
+          "url": "https://d1cdc15hzkd3wm.cloudfront.net/products/medias/originalmark/X11WW1dL.jpg",
+          "label": "Luxury Hotel Cipriani , A Belmond Hotel Venice, Venice, Italy - Photos ..."
         },
         {
-          "url": "https://ak-d.tripcdn.com/images/0585812000qgrftxuE912_R_960_660_R5_D.jpg",
-          "label": "Hotel Reva Tahiti : Tarifs & Avis 2026 | Trip.com"
+          "url": "https://cdn.audleytravel.com/3706/2650/79/1017173-belmond-hotel-cipriani-venice.jpg",
+          "label": "Belmond Hotel Cipriani | Hotels in Venice | Audley Travel US"
         },
         {
-          "url": "https://www.tahiti.com/images1/gallery/PPTREV-Lobby-2000x1200_88783.jpg",
-          "label": "Hotel Reva Tahiti | Tahiti.com"
+          "url": "https://elitevoyage.com/wp-content/uploads/2021/07/belmond-cipriani-04.jpg",
+          "label": "Cipriani, A Belmond Hotel, Venice | EliteVoyage"
         }
       ]
     }
@@ -232,131 +115,156 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Le Coco's",
-        "name_zh": "可可餐廳 · 大溪地法式料理",
-        "stars": "⭐⭐",
-        "dish": "🐟 招牌：香草烤龍蝦 · 椰子咖哩魚",
-        "address": "Punaauia, Tahiti",
-        "price_ntd": 3500,
-        "price_label": "晚餐套餐 €100/人 · NT$3,500",
-        "hours": "18:00–22:00 · 需預約",
-        "search_query": "Le Coco's restaurant Tahiti",
+        "name": "La Pergola",
+        "name_zh": "羅馬 · 米其林三星 · 永恆之城巔峰",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：海膽義大利麵 · 慢烤乳鴿",
+        "address": "Via Alberto Cadlolo 101, 羅馬",
+        "price_ntd": 7000,
+        "price_label": "晚餐套餐 €200/人 · NT$7,000",
+        "hours": "19:30–22:30 · 需提前預約 · 服裝要求：正式",
+        "search_query": "La Pergola Rome restaurant",
         "photos": [
           {
-            "url": "https://ciretravel.com/wp-content/uploads/2023/03/7.-Dining-at-Le-Lotus-Restaurant-1024x768.jpg",
-            "label": "Our Favorite Places: Tahiti and Bora Bora - CIRE Travel"
+            "url": "https://purentonline.com/blog/wp-content/uploads/2013/03/Rome-Cavalieri-La-Pergola-restaurant.jpg",
+            "label": "One of the best restaurants in Rome: 3-star Michelin La Pergola | Blog ..."
           },
           {
-            "url": "https://etahititravel.com/wp-content/uploads/2017/09/invitation-au-voyage-cuisine-poisson-cru-lait-de-coco-e-tahiti-travel.jpg",
-            "label": "Tahiti Island Food"
+            "url": "https://prod.static9.net.au/_/media/2016/08/16/11/05/LaPergola_Rome.jpg",
+            "label": "La Pergola Rome Restaurante Peruano"
           },
           {
-            "url": "https://farandawayadventures.com/wp-content/uploads/2019/09/Le-Coconut-Loge-Public-Areas-0113-1024x682.jpg",
-            "label": "The 10 Best Restaurants in Tahiti for Fine Dining and Local Cuisine"
+            "url": "https://toquesdor-guide.com/wp-content/uploads/2018/03/la-pergola-495x400.jpg",
+            "label": "La Pergola Restaurant Rome La Pergola Restaurant, Italy"
           }
         ]
       },
       {
-        "name": "La Villa Mahana",
-        "name_zh": "馬哈納別墅 · 波拉波拉頂級餐廳",
+        "name": "Osteria Francescana",
+        "name_zh": "摩德納 · 世界第一 · 米其林三星",
         "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：松露龍蝦 · 香草鴨胸",
-        "address": "Bora Bora",
-        "price_ntd": 6000,
-        "price_label": "晚餐套餐 €170/人 · NT$6,000",
-        "hours": "18:30–21:30 · 需預約",
-        "search_query": "La Villa Mahana Bora Bora",
+        "dish": "🍝 招牌：五種帕瑪森起司燉飯 · 鵝肝冰淇淋",
+        "address": "Via Stella 22, 摩德納 (Modena)",
+        "price_ntd": 10500,
+        "price_label": "品嚐菜單 €300/人 · NT$10,500 (含酒)",
+        "hours": "12:30–14:00 / 20:00–22:00 · 需提前數月預約",
+        "search_query": "Osteria Francescana Modena",
         "photos": [
           {
-            "url": "https://boraboraphotos.com/wp-content/uploads/2013/10/dinning-at-la-villa-mahana-bora-bora.jpg",
-            "label": "La Villa Mahana Restaurant on Bora Bora - Island Travel Guide"
+            "url": "https://2.bp.blogspot.com/-vNgN7YIivKs/V1-7mMPVjoI/AAAAAAAAyyY/vl571eY6Yo4wDnxa3fz4acs1JAq8hT6TwCLcB/s1600/Osteria-Francescana-Exterior-3.-Photo-Credit.jpg",
+            "label": "reportages: L'Osteria Francescana di Modena (chef Massimo Bottura) è il ..."
           },
           {
-            "url": "https://wanderinparadise.com/wp-content/uploads/2025/02/La-Villa-Mahana-in-Bora-Bora.webp",
-            "label": "La Villa Mahana Bora Bora – Fine Dining Experience 2026"
+            "url": "http://www.samphireandsalsify.com/wp-content/uploads/2019/09/IMG_20190314_121331-01.jpeg",
+            "label": "Osteria Francescana, Modena - Samphire and Salsify"
           },
           {
-            "url": "https://wanderinparadise.com/wp-content/uploads/2025/02/La-Villa-Mahana-Bora-Bora-683x1024.webp",
-            "label": "La Villa Mahana Bora Bora – Fine Dining Experience 2026"
+            "url": "https://www.theworlds50best.com/discovery/filestore/jpg/OsteriaFrancescana-Modena-Italy-02.jpg",
+            "label": "Osteria Francescana - Modena - Restaurant - 50Best Discovery"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Snack Mahana",
-        "name_zh": "瑪哈納小吃 · 當地風味",
+        "name": "Trattoria Da Enzo al 29",
+        "name_zh": "羅馬 · 在地人最愛 · 傳統小館",
         "stars": "",
-        "dish": "🥥 招牌：椰子魚生 · 烤鮪魚排",
-        "address": "Mo'orea",
-        "price_ntd": 1200,
-        "price_label": "兩人午餐 €35/人 · NT$1,200",
-        "hours": "11:30–14:30 · 週日休息",
-        "search_query": "Snack Mahana Mo'orea",
+        "dish": "🍝 招牌：卡邦尼義大利麵 · 羅馬式燉牛尾",
+        "address": "Via dei Vascellari 29, 羅馬 特拉斯提弗列",
+        "price_ntd": 1400,
+        "price_label": "兩人晚餐 €40 · NT$1,400",
+        "hours": "12:00–15:00 / 19:00–23:00 · 建議訂位",
+        "search_query": "Trattoria Da Enzo al 29 Rome",
         "photos": [
           {
-            "url": "https://cdn.tasteatlas.com/images/restaurants/2d4e2bfb53b24a678566b3be2653ffd5.jpg?mw=1300",
-            "label": "Snack Mahana | TasteAtlas | Recommended authentic restaurants"
+            "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_fill,w_3840,ar_16:9,g_center,f_auto/TrattoriaDaEnzoAl29_Carbonara_MaelaBonafede_Rome-9_l2kzbl",
+            "label": "Trattoria Da Enzo Al 29 - Review - Trastevere - Rome - The Infatuation"
           },
           {
-            "url": "https://etahititravel.com/wp-content/uploads/2025/11/snack-mahana-moorea-selection.jpg",
-            "label": "Notre sélection de snacks en Polynésie française : îles de la Société ..."
+            "url": "https://flawless.life/wp-content/uploads/2021/03/Da-Enzo-al-29-roma-cover.jpg",
+            "label": "De Enzo En Roma Italy, Rome, Trastevere, Via Del Vascellari 29, Da"
           },
           {
-            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=638791431989056",
-            "label": "Snack Mahana - Moorea... - Snack Mahana - Moorea Papetoai"
+            "url": "https://www.laguiaderoma.com/wp-content/uploads/2022/04/TrattoriaDaEnzo-1-768x466.jpg",
+            "label": "Trattoria Da Enzo al 29 - La Guía de Roma - Actualizada 2026"
           }
         ]
       },
       {
-        "name": "Bloody Mary's",
-        "name_zh": "血腥瑪麗 · 波拉波拉傳奇酒吧",
+        "name": "Osteria alle Testiere",
+        "name_zh": "威尼斯 · 海鮮天堂 · 小酒館",
         "stars": "",
-        "dish": "🍔 招牌：漢堡 · 海鮮拼盤 · 雞尾酒",
-        "address": "Bora Bora",
-        "price_ntd": 2000,
-        "price_label": "兩人晚餐 €55/人 · NT$2,000",
-        "hours": "11:30–22:00 · 需預約",
-        "search_query": "Bloody Mary's Bora Bora",
+        "dish": "🦐 招牌：墨魚汁義大利麵 · 香煎干貝",
+        "address": "Calle del Manganer 5801, 威尼斯",
+        "price_ntd": 2800,
+        "price_label": "晚餐 €80/人 · NT$2,800",
+        "hours": "12:30–14:30 / 19:30–22:00 · 週日休",
+        "search_query": "Osteria alle Testiere Venice",
         "photos": [
           {
-            "url": "https://images.fineartamerica.com/images-medium-large-5/bloody-marys-restaurant-bora-bora-.jpg",
-            "label": "Bloody Marys Restaurant, Bora Bora Photograph by Panoramic Images - Pixels"
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f868042d9c5a4a28b57c459b024c32f0.jpeg",
+            "label": "Osteria alle Testiere – Venice - a MICHELIN Guide Restaurant"
           },
           {
-            "url": "https://wanderinparadise.com/wp-content/uploads/2023/10/Bloody-Marys-Bora-Bora-soft-reopening.webp",
-            "label": "Bloody Mary’s Restaurant Bora Bora – Reopening End Of 2025"
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e285303741c247bca62d46af250d30d2.jpeg",
+            "label": "Osteria alle Testiere – Venice - a MICHELIN Guide Restaurant"
           },
           {
-            "url": "https://cdn.easytahiti.com/img/entrance-bloddy-marys-famous-restaurant-in-bora-bora-during-your-vacation.jpg",
-            "label": "Dinner at famous Bloody Marys restaurant in Bora Bora for honeymooners ..."
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cbe4135f169942398b924be6c85dcac3.jpeg",
+            "label": "Osteria alle Testiere – Venice - a MICHELIN Guide Restaurant"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Café de la Plage",
-        "name_zh": "沙灘咖啡館",
+        "name": "Caffè Sant'Eustachio",
+        "name_zh": "羅馬 · 1948年 · 最傳奇咖啡",
         "stars": "",
-        "dish": "☕ 招牌：大溪地香草拿鐵 · 椰子可頌",
-        "address": "Papeete, Tahiti",
-        "price_ntd": 600,
-        "price_label": "兩人早餐 €17/人 · NT$600",
-        "hours": "07:00–17:00",
-        "search_query": "Cafe de la Plage Tahiti",
+        "dish": "☕ 招牌：Gran Caffè 濃縮咖啡 · 冰咖啡拿鐵",
+        "address": "Piazza Sant'Eustachio 82, 羅馬",
+        "price_ntd": 350,
+        "price_label": "兩杯咖啡 €10 · NT$350",
+        "hours": "07:00–22:00 · 萬神殿旁",
+        "search_query": "Caffe Sant'Eustachio Rome",
         "photos": [
           {
-            "url": "https://www.tahiti.com/images1/gallery/Moorea-Beach-Cafe1-2000x1200_46056.jpg",
-            "label": "Sunset dinner at Moorea Beach Cafe | Tahiti.com"
+            "url": "https://images.squarespace-cdn.com/content/v1/626a3e2c3e96e84c4b6db2fb/9be58373-7d6c-4552-b931-c5b50b59d832/sant-eustachio-il-caffe-2568.jpg?format=2500w",
+            "label": "Sant'Eustachio Il Caffè Is A Rome Coffee Bar You Should Try"
           },
           {
-            "url": "https://www.plageprivee.com/assets/img/plage/749_2_31920.jpg",
-            "label": "Tahiti Beach Café - Plage privée Ajaccio"
+            "url": "https://ciaobella.co/wp-content/uploads/2021/09/sant-eustachio-caffe-rome-ciao-bella-min.jpg",
+            "label": "Cafe Eustachio Rome Sant' Eustachio Il Caffè Review Centro"
           },
           {
-            "url": "https://yummy-tahiti.com/wp-content/uploads/2020/08/MBC-08.12.18-1-sur-25.jpg",
-            "label": "Moorea Beach Café - Yummy Tahiti"
+            "url": "https://cdn.shopify.com/s/files/1/0907/3016/8619/files/issimo-emporio-sant-eustacchio-1024x1024.webp",
+            "label": "The Place: Sant'Eustachio, Rome’s Iconic Coffee Shop – ISSIMO"
+          }
+        ]
+      },
+      {
+        "name": "Caffè Florian",
+        "name_zh": "威尼斯 · 1720年 · 歐洲最古老咖啡館",
+        "stars": "",
+        "dish": "☕ 招牌：威尼斯濃縮 · 提拉米蘇 · 現場弦樂",
+        "address": "Piazza San Marco 56, 威尼斯",
+        "price_ntd": 1400,
+        "price_label": "兩人咖啡+甜點 €40 · NT$1,400",
+        "hours": "09:00–23:00 · 聖馬可廣場",
+        "search_query": "Caffe Florian Venice interior",
+        "photos": [
+          {
+            "url": "https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/1634165046140-YKFLRWPZRAAOSHMDKGRE/coffee-culture-in-italy.jpg",
+            "label": "Coffee Culture in Italy: 21 Types of Drinks and How to Order Like a ..."
+          },
+          {
+            "url": "https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/1634165734914-A4CQUKFONAQK5FDVH5GA/coffee-drinks-in-italy.jpg",
+            "label": "Coffee Culture in Italy: 21 Types of Drinks and How to Order Like a ..."
+          },
+          {
+            "url": "https://eatingarounditaly.com/wp-content/uploads/2023/05/cappuccino-breakfast.jpg",
+            "label": "Coffee in Italy – Types & How to Order - Eating Around Italy"
           }
         ]
       }
@@ -365,638 +273,342 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Aug 13 · Thu",
-      "label_zh": "出發 · 飛往大溪地",
-      "day_query": "Tahiti Faa'a International Airport",
-      "hotel_name": "Tahiti Airport Hotel (凌晨休息)",
-      "hotel_name_zh": "大溪地機場酒店 · 標準雙人房（休息3小時）",
-      "hotel_room": "標準雙人房（休息3小時）",
-      "weather": "🌤️ 28°/24° (大溪地)",
-      "rain_pct": "10%",
+      "date": "Aug 15 · Sat",
+      "label_zh": "抵達 · 永恆之城初夜",
+      "day_query": "Colosseum Rome Italy",
+      "hotel_name": "Hotel Eden",
+      "hotel_name_zh": "伊甸園酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "☀️ 32°/22°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "15:00",
-          "desc": "🚗 從家出發前往桃園國際機場 TPE · 建議提前3小時到機場"
+          "time": "06:30",
+          "desc": "✈️ 抵達 FCO 羅馬菲烏米奇諾機場 Terminal 3 · 入境通關取行李（預計 30–45 分鐘）"
         },
         {
-          "time": "16:30",
-          "desc": "🧳 辦理登機手續 · 托運行李 · 出境安檢"
+          "time": "08:00",
+          "desc": "🚕 搭乘預約接送前往 Hotel Eden（約 40 分鐘 · €60）· 沿途欣賞羅馬城牆"
         },
         {
-          "time": "18:35",
-          "desc": "✈️ 搭乘紐西蘭航空 NZ 78 經奧克蘭轉機前往大溪地 · 飛行約10小時到奧克蘭"
+          "time": "09:00",
+          "desc": "🏨 抵達 Hotel Eden · 辦理入住 · 稍作休息 · 享用酒店早餐"
         },
         {
-          "time": "20:00",
-          "desc": "🍽️ 機上享用晚餐 · 選擇紐西蘭紅酒或白酒"
+          "time": "11:00",
+          "desc": "☕ Caffè Sant'Eustachio 品嚐傳奇濃縮 · 萬神殿外廣場漫步"
         },
         {
-          "time": "23:00",
-          "desc": "💤 機上休息 · 準備轉機"
+          "time": "12:30",
+          "desc": "🍝 Trattoria Da Enzo al 29 午餐 · 必點卡邦尼義大利麵與燉牛尾"
+        },
+        {
+          "time": "14:30",
+          "desc": "🏛️ 羅馬競技場 Colosseum（預約票 €16/人）· 地下層導覽（€22/人）· 感受古羅馬榮光"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚶 古羅馬廣場 Foro Romano · 帕拉丁山 · 夕陽下的廢墟漫步"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ La Pergola 米其林三星晚餐 · 預約 19:30 · 屋頂露台俯瞰羅馬 · 品嚐海膽義大利麵"
+        },
+        {
+          "time": "22:30",
+          "desc": "🌙 返回 Hotel Eden · 屋頂酒吧小酌 · 欣賞西班牙階梯夜景"
         }
       ],
-      "day_photo": "https://cdn-css.tahitiheritage.pf/wp-content/uploads/2014/10/faaa-aeroport-2004.jpg"
+      "day_photo": "http://www.hdwallpapers.in/walls/the_colosseum_rome_italy-normal.jpg"
     },
     {
       "day": 2,
-      "date": "Aug 14 · Fri",
-      "label_zh": "抵達大溪地 · 帕皮提初探",
-      "day_query": "Hilton Tahiti resort",
-      "hotel_name": "Tahiti Hilton Hotel",
-      "hotel_name_zh": "大溪地希爾頓酒店 · 海景豪華雙人房",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "🌤️ 28°/24°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "00:00",
-          "desc": "✈️ 機上繼續休息 · 即將抵達奧克蘭"
-        },
-        {
-          "time": "02:25",
-          "desc": "🛬 抵達大溪地法阿國際機場 PPT · 入境通關取行李（約30分鐘）"
-        },
-        {
-          "time": "03:00",
-          "desc": "🚶 步行至 Tahiti Airport Hotel · 辦理入住（休息3小時）"
-        },
-        {
-          "time": "06:00",
-          "desc": "⏰ 起床梳洗 · 退房"
-        },
-        {
-          "time": "07:00",
-          "desc": "☕ Café de la Plage 享用早餐 · 大溪地香草拿鐵 + 椰子可頌"
-        },
-        {
-          "time": "09:00",
-          "desc": "🏨 抵達 Tahiti Hilton Hotel · 辦理入住 · 稍作休息"
-        },
-        {
-          "time": "11:00",
-          "desc": "🏖️ 享受飯店設施 · 無邊際泳池 · 沙灘散步"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 飯店內午餐 · 品嚐當地海鮮拼盤"
-        },
-        {
-          "time": "15:00",
-          "desc": "🚶 帕皮提市區漫步 · 參觀大溪地市場 Marché de Papeete"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ Le Coco's 晚餐 · 香草烤龍蝦 · 椰子咖哩魚"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 返回飯店 · 享受夜晚泳池"
-        }
-      ],
-      "day_photo": "https://www.tahitilegends.com/images1/gallery/PPTHIL-2000x1200-SUNSET+POOL-01_84726.jpg"
-    },
-    {
-      "day": 3,
-      "date": "Aug 15 · Sat",
-      "label_zh": "大溪地文化探索",
-      "day_query": "Musée de Tahiti et des Îles",
-      "hotel_name": "Tahiti Hilton Hotel",
-      "hotel_name_zh": "大溪地希爾頓酒店 · 海景豪華雙人房",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "🌤️ 28°/24°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "☕ 飯店自助早餐 · 享用新鮮熱帶水果"
-        },
-        {
-          "time": "09:30",
-          "desc": "🎨 參觀大溪地博物館 Musée de Tahiti et des Îles · 了解波利尼西亞文化"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 博物館附近午餐 · 當地小吃"
-        },
-        {
-          "time": "14:00",
-          "desc": "🚶 帕皮提花園 Jardin de Paofai 散步"
-        },
-        {
-          "time": "16:00",
-          "desc": "🏖️ 飯店沙灘放鬆 · 浮潛"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ 飯店內晚餐 · 浪漫海邊燭光晚餐"
-        },
-        {
-          "time": "20:30",
-          "desc": "🌙 夜晚漫步 · 欣賞星空"
-        }
-      ],
-      "day_photo": "https://www.radio1.pf/cms/wp-content/uploads/2023/07/Musee-de-Tahiti-et-des-iles-te-fare-Iamanaha-1.jpg"
-    },
-    {
-      "day": 4,
       "date": "Aug 16 · Sun",
-      "label_zh": "前往茉莉亞島 Mo'orea",
-      "day_query": "Mo'orea ferry terminal",
-      "hotel_name": "Kavika Hotel",
-      "hotel_name_zh": "卡維卡酒店 · 海景套房",
-      "hotel_room": "海景套房",
-      "weather": "🌤️ 28°/24°",
+      "label_zh": "梵蒂岡 · 藝術與信仰",
+      "day_query": "Sistine Chapel Vatican",
+      "hotel_name": "Hotel Eden",
+      "hotel_name_zh": "伊甸園酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "☀️ 33°/23°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "☕ 飯店早餐 · 整理行李"
+          "time": "07:30",
+          "desc": "🥐 Hotel Eden 自助早餐 · 新鮮水果、現做可頌、義式咖啡"
         },
         {
           "time": "08:30",
-          "desc": "🚕 退房 · 搭計程車前往帕皮提碼頭（約15分鐘）"
+          "desc": "🚇 地鐵 A 線 Spagna → Ottaviano · 前往梵蒂岡（€1.50/人）"
         },
         {
           "time": "09:00",
-          "desc": "🚢 搭乘 Aremiti 渡輪前往茉莉亞島（航程約30分鐘）· 費用 NT$1,200/人"
-        },
-        {
-          "time": "09:30",
-          "desc": "🛬 抵達茉莉亞島碼頭 · 搭接駁車前往 Kavika Hotel（約15分鐘）"
-        },
-        {
-          "time": "10:00",
-          "desc": "🏨 抵達 Kavika Hotel · 辦理入住 · 稍作休息"
+          "desc": "🎨 梵蒂岡博物館 Musei Vaticani（預約票 €17/人）· 重點：拉斐爾畫室、地圖長廊"
         },
         {
           "time": "11:30",
-          "desc": "🏖️ 飯店私人海灘 · 浮潛 · 划獨木舟"
+          "desc": "⛪ 西斯汀禮拜堂 Cappella Sistina · 米開朗基羅《創世紀》與《最後的審判》· 禁止攝影"
         },
         {
           "time": "13:00",
-          "desc": "🍽️ Snack Mahana 午餐 · 椰子魚生 · 烤鮪魚排"
+          "desc": "🍕 梵蒂岡周邊午餐 · Pizzeria da Baffetto · 經典羅馬薄餅（兩人 €30）"
         },
         {
-          "time": "15:00",
-          "desc": "🚗 租車環島 · 參觀 Belvédère 觀景台 · 欣賞 Cook's Bay 和 Opunohu Bay"
+          "time": "14:30",
+          "desc": "⛪ 聖彼得大教堂 Basilica di San Pietro · 登頂穹頂（€8/人）· 俯瞰鑰匙狀廣場"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 飯店內晚餐 · 當地風味"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 海邊散步 · 觀星"
-        }
-      ],
-      "day_photo": "https://misstourist.com/wp-content/uploads/2024/07/11-Going-back-to-Tahiti.jpg"
-    },
-    {
-      "day": 5,
-      "date": "Aug 17 · Mon",
-      "label_zh": "茉莉亞島浮潛探險",
-      "day_query": "Mo'orea lagoon snorkeling",
-      "hotel_name": "Kavika Hotel",
-      "hotel_name_zh": "卡維卡酒店 · 海景套房",
-      "hotel_room": "海景套房",
-      "weather": "🌤️ 28°/24°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "☕ 飯店早餐 · 準備浮潛"
-        },
-        {
-          "time": "09:00",
-          "desc": "🤿 參加飯店浮潛行程 · 探索珊瑚礁 · 與海龜共游"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 海灘野餐 · 三明治 + 新鮮椰子水"
-        },
-        {
-          "time": "14:00",
-          "desc": "🚣 繼續划獨木舟 · 探索潟湖"
-        },
-        {
-          "time": "16:00",
-          "desc": "🏖️ 飯店泳池放鬆 · 享受 SPA"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ 飯店內晚餐 · 品嚐烤魚"
-        },
-        {
-          "time": "20:30",
-          "desc": "🌙 夜晚漫步 · 聆聽海浪聲"
-        }
-      ],
-      "day_photo": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/73/20/21.jpg"
-    },
-    {
-      "day": 6,
-      "date": "Aug 18 · Tue",
-      "label_zh": "茉莉亞島文化體驗",
-      "day_query": "Mo'orea pineapple farm",
-      "hotel_name": "Kavika Hotel",
-      "hotel_name_zh": "卡維卡酒店 · 海景套房",
-      "hotel_room": "海景套房",
-      "weather": "🌤️ 28°/24°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "☕ 飯店早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🍍 參觀鳳梨農場 · 品嚐新鮮鳳梨"
-        },
-        {
-          "time": "11:30",
-          "desc": "🚶 徒步前往 Afareaitu 瀑布"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 農場午餐 · 鳳梨炒飯"
-        },
-        {
-          "time": "15:00",
-          "desc": "🏖️ 返回飯店放鬆"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ Snack Mahana 晚餐 · 烤鮪魚排"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 海邊觀星"
-        }
-      ],
-      "day_photo": "https://m.somewheregood.com/media/private-tour-moorea-4wd-belvedere-pineapple-farm-magic-mount-d5182-20944P4-1.jpg"
-    },
-    {
-      "day": 7,
-      "date": "Aug 19 · Wed",
-      "label_zh": "茉莉亞島最後一天",
-      "day_query": "Mo'orea lagoon tour",
-      "hotel_name": "Kavika Hotel",
-      "hotel_name_zh": "卡維卡酒店 · 海景套房",
-      "hotel_room": "海景套房",
-      "weather": "🌤️ 28°/24°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "☕ 飯店早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚤 參加潟湖遊船 · 浮潛 · 與鯊魚和魟魚共游"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ 船上午餐 · BBQ"
-        },
-        {
-          "time": "15:00",
-          "desc": "🏖️ 返回飯店放鬆 · 享受最後的茉莉亞時光"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ 飯店內晚餐 · 浪漫告別晚餐"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 海邊散步 · 打包行李"
-        }
-      ],
-      "day_photo": "https://ninamuoceanictour.com/wp-content/uploads/2024/11/ninamu-oceanic-tour-tour-lagon-temae.jpg"
-    },
-    {
-      "day": 8,
-      "date": "Aug 20 · Thu",
-      "label_zh": "前往波拉波拉島 Bora Bora",
-      "day_query": "Bora Bora airport",
-      "hotel_name": "Westin Bora Bora Resort & Spa",
-      "hotel_name_zh": "波拉波拉威斯汀度假村 · 水上豪華別墅",
-      "hotel_room": "水上豪華別墅 (Overwater Bungalow)",
-      "weather": "🌤️ 28°/24°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "☕ 飯店早餐 · 整理行李 · 退房"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚗 搭接駁車前往茉莉亞機場"
-        },
-        {
-          "time": "10:00",
-          "desc": "✈️ 搭乘 Moana Air 航班前往波拉波拉（航程約50分鐘）· 費用 NT$8,000/人"
-        },
-        {
-          "time": "11:00",
-          "desc": "🛬 抵達波拉波拉機場 · 搭飯店快艇前往 Westin（約15分鐘）"
-        },
-        {
-          "time": "11:30",
-          "desc": "🏨 抵達 Westin Bora Bora · 辦理入住 · 水上別墅"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 飯店午餐 · 池畔餐廳"
-        },
-        {
-          "time": "15:00",
-          "desc": "🏖️ 享受水上別墅 · 直接跳入潟湖浮潛"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ La Villa Mahana 晚餐 · 松露龍蝦"
-        },
-        {
-          "time": "20:30",
-          "desc": "🌙 返回別墅 · 玻璃地板看魚"
-        }
-      ],
-      "day_photo": "https://tahiti-aeroport.dleloup.com/wp-content/uploads/2024/05/MATARAI-ADT-NTTB-46-scaled.jpg"
-    },
-    {
-      "day": 9,
-      "date": "Aug 21 · Fri",
-      "label_zh": "波拉波拉潟湖探險",
-      "day_query": "Bora Bora lagoon tour",
-      "hotel_name": "Westin Bora Bora Resort & Spa",
-      "hotel_name_zh": "波拉波拉威斯汀度假村 · 水上豪華別墅",
-      "hotel_room": "水上豪華別墅 (Overwater Bungalow)",
-      "weather": "🌤️ 28°/24°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "☕ 飯店早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚤 參加潟湖全日遊 · 浮潛 · 與鯊魚和魟魚共游 · 珊瑚花園"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ 船上 BBQ 午餐 · 烤魚 · 椰子飯"
-        },
-        {
-          "time": "15:00",
-          "desc": "🏖️ 返回飯店 · 休息"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ Bloody Mary's 晚餐 · 漢堡 · 海鮮拼盤"
-        },
-        {
-          "time": "20:30",
-          "desc": "🌙 返回別墅 · 享受星空"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 10,
-      "date": "Aug 22 · Sat",
-      "label_zh": "波拉波拉浪漫日",
-      "day_query": "Bora Bora sunset",
-      "hotel_name": "Westin Bora Bora Resort & Spa",
-      "hotel_name_zh": "波拉波拉威斯汀度假村 · 水上豪華別墅",
-      "hotel_room": "水上豪華別墅 (Overwater Bungalow)",
-      "weather": "🌤️ 28°/24°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "☕ 飯店早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🏖️ 海灘放鬆 · 浮潛 · 划獨木舟"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 飯店午餐"
-        },
-        {
-          "time": "14:00",
-          "desc": "💆 夫妻 SPA · 波利尼西亞按摩"
-        },
-        {
-          "time": "17:00",
-          "desc": "🚤 夕陽巡航 · 香檳 · 欣賞日落"
+          "time": "16:30",
+          "desc": "🚶 聖天使堡 Castel Sant'Angelo · 沿台伯河散步 · 冰淇淋 gelato"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 飯店內晚餐 · 海邊燭光晚餐"
+          "desc": "🍽️ 酒店晚餐 · 伊甸園 La Terrazza 米其林一星 · 品嚐羅馬式燉飯"
         },
         {
           "time": "21:00",
-          "desc": "🌙 返回別墅 · 享受夜晚"
+          "desc": "🌙 夜遊特拉斯提弗列 Trastevere · 小巷燈光 · 現場音樂"
         }
       ],
-      "day_photo": "https://w0.peakpx.com/wallpaper/288/854/HD-wallpaper-sunset-over-bora-bora-polynesia-sun-orange-dusk-beautiful-sunset-twilight-sea-beach-lagoon-sundown-bora-bora-sand-bungalows-evening-south-pacific-exotic-ocean-set-water-paradise.jpg"
+      "day_photo": "https://www.visitvaticancity.org/wp-content/uploads/the-sistine-chapel.jpg"
     },
     {
-      "day": 11,
-      "date": "Aug 23 · Sun",
-      "label_zh": "波拉波拉最後一天",
-      "day_query": "Bora Bora motu picnic",
-      "hotel_name": "Westin Bora Bora Resort & Spa",
-      "hotel_name_zh": "波拉波拉威斯汀度假村 · 水上豪華別墅",
-      "hotel_room": "水上豪華別墅 (Overwater Bungalow)",
-      "weather": "🌤️ 28°/24°",
-      "rain_pct": "10%",
+      "day": 3,
+      "date": "Aug 17 · Mon",
+      "label_zh": "羅馬經典 · 許願池與西班牙階梯",
+      "day_query": "Trevi Fountain Rome",
+      "hotel_name": "Hotel Eden",
+      "hotel_name_zh": "伊甸園酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "☀️ 34°/24°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "☕ 飯店早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚤 前往 Motu 小島野餐 · 浮潛 · 沙灘放鬆"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ 野餐午餐 · 三明治 · 水果"
-        },
-        {
-          "time": "15:00",
-          "desc": "🏖️ 返回飯店 · 享受最後的波拉波拉時光"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ La Villa Mahana 告別晚餐"
-        },
-        {
-          "time": "20:30",
-          "desc": "🌙 打包行李"
-        }
-      ],
-      "day_photo": "https://www.boraboraislandguide.com/images/romantic-tour-on-motu.jpg"
-    },
-    {
-      "day": 12,
-      "date": "Aug 24 · Mon",
-      "label_zh": "返回大溪地本島",
-      "day_query": "Tahiti Papeete waterfront",
-      "hotel_name": "Reva Hotel",
-      "hotel_name_zh": "雷瓦酒店 · 標準雙人房",
-      "hotel_room": "標準雙人房",
-      "weather": "🌤️ 28°/24°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "☕ 飯店早餐 · 整理行李 · 退房"
+          "desc": "🥐 Hotel Eden 早餐 · 規劃今日退房寄放行李"
         },
         {
           "time": "09:00",
-          "desc": "🚤 搭飯店快艇前往波拉波拉機場"
+          "desc": "⛲ 特雷維噴泉 Fontana di Trevi · 早上人少 · 背對噴泉投硬幣（€0.10）· 許願重返羅馬"
         },
         {
           "time": "10:00",
-          "desc": "✈️ 搭乘 Moana Air 返回大溪地本島（航程約50分鐘）"
+          "desc": "🛍️ 西班牙階梯 Piazza di Spagna · 精品街 Via Condotti 逛街（Gucci, Prada）"
         },
         {
-          "time": "11:00",
-          "desc": "🛬 抵達大溪地 · 搭計程車前往 Reva Hotel"
-        },
-        {
-          "time": "11:30",
-          "desc": "🏨 辦理入住 · 稍作休息"
+          "time": "12:00",
+          "desc": "☕ 萬神殿 Pantheon · 免費參觀 · 光線從圓頂灑落"
         },
         {
           "time": "13:00",
-          "desc": "🍽️ 飯店附近午餐"
+          "desc": "🍝 午餐：Armando al Pantheon · 經典羅馬菜（兩人 €50）"
         },
         {
           "time": "15:00",
-          "desc": "🚶 帕皮提市區購物 · 紀念品 · 黑珍珠"
+          "desc": "🏛️ 波格賽美術館 Galleria Borghese（預約票 €15/人）· 貝尼尼雕塑 · 卡拉瓦喬畫作"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ Le Coco's 晚餐"
+          "time": "17:00",
+          "desc": "🚶 回到 Hotel Eden 取行李 · 前往 Termini 車站"
         },
         {
-          "time": "20:00",
-          "desc": "🌙 返回飯店 · 休息"
+          "time": "18:30",
+          "desc": "🚄 義大利高鐵 Italo 羅馬→威尼斯（3h45m · €89/人商務艙）· 沿途欣賞托斯卡尼田野"
+        },
+        {
+          "time": "22:15",
+          "desc": "🚤 抵達威尼斯 Santa Lucia 車站 · 飯店私人水上計程車前往 Belmond Hotel Cipriani（15分鐘 · 免費）"
+        },
+        {
+          "time": "23:00",
+          "desc": "🏨 入住 Belmond Hotel Cipriani · 潟湖景房 · 晚安威尼斯"
         }
       ],
-      "day_photo": "https://tahititourisme.pf/app/uploads/tahiti/2021/10/thumbs/front-de-mer-de-papeete-tahiti-fly-shoot-1920x960-crop-1634605154.jpg"
+      "day_photo": "https://media.cntraveler.com/photos/55d24b6f37284fb1079cbc20/master/pass/trevi-fountain-rome-night-cr-getty.jpg"
     },
     {
-      "day": 13,
-      "date": "Aug 25 · Tue",
-      "label_zh": "大溪地最後一天",
-      "day_query": "Tahiti black pearl market",
-      "hotel_name": "Reva Hotel",
-      "hotel_name_zh": "雷瓦酒店 · 標準雙人房",
-      "hotel_room": "標準雙人房",
-      "weather": "🌤️ 28°/24°",
+      "day": 4,
+      "date": "Aug 18 · Tue",
+      "label_zh": "威尼斯 · 水都迷情",
+      "day_query": "St Mark's Square Venice",
+      "hotel_name": "Belmond Hotel Cipriani",
+      "hotel_name_zh": "貝爾蒙德奇普里亞尼酒店 · 經典潟湖景雙人房",
+      "hotel_room": "經典潟湖景雙人房",
+      "weather": "☀️ 30°/22°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🥐 Belmond Cipriani 早餐 · 潟湖景露台 · 現做義式蛋餅與水果"
+        },
+        {
+          "time": "09:00",
+          "desc": "🛥️ 飯店免費 shuttle 船至聖馬可廣場（每小時一班）"
+        },
+        {
+          "time": "09:30",
+          "desc": "⛪ 聖馬可大教堂 Basilica di San Marco · 金色馬賽克 · 免費入場"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏛️ 總督宮 Palazzo Ducale · 嘆息橋 · 參觀監獄（門票 €25/人）"
+        },
+        {
+          "time": "12:30",
+          "desc": "☕ Caffè Florian 午餐 · 提拉米蘇與咖啡 · 聆聽現場弦樂四重奏"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚤 貢多拉 Gondola 遊船（30分鐘 · €80）· 穿過小運河 · 里亞爾托橋"
+        },
+        {
+          "time": "15:30",
+          "desc": "🎭 鳳凰劇院 Teatro La Fenice 導覽（€12/人）· 華麗歌劇院"
+        },
+        {
+          "time": "17:00",
+          "desc": "🛍️ 里亞爾托市場 Rialto Market · 購買威尼斯面具紀念品"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ Osteria alle Testiere 海鮮晚餐 · 墨魚汁義大利麵與香煎干貝"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 返回飯店 · 無邊際泳池夜泳 · 聖馬可廣場夜景"
+        }
+      ],
+      "day_photo": "https://fthmb.tqn.com/N_22qOkXJvv2TGl0CYrbaxZ8E-I=/3591x2312/filters:fill(auto,1)/atardecer-en-pizza-san-marco--venice--187413773-5975574caad52b0011778c5d.jpg"
+    },
+    {
+      "day": 5,
+      "date": "Aug 19 · Wed",
+      "label_zh": "彩色島 · 玻璃工藝",
+      "day_query": "Burano colorful houses Venice",
+      "hotel_name": "Belmond Hotel Cipriani",
+      "hotel_name_zh": "貝爾蒙德奇普里亞尼酒店 · 經典潟湖景雙人房",
+      "hotel_room": "經典潟湖景雙人房",
+      "weather": "☀️ 31°/23°",
       "rain_pct": "10%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "☕ 飯店早餐"
+          "desc": "🥐 Belmond Cipriani 早餐 · 規劃今日跳島"
         },
         {
-          "time": "09:30",
-          "desc": "🛍️ 黑珍珠市場 · 選購紀念品"
+          "time": "09:00",
+          "desc": "🚤 從聖馬可廣場乘水上巴士前往穆拉諾島 Murano（船程 30 分鐘 · €7.50/人）"
+        },
+        {
+          "time": "09:45",
+          "desc": "🔮 穆拉諾玻璃工廠參觀 · 現場吹製玻璃示範 · 購買玻璃飾品"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚤 穆拉諾 → 布拉諾島 Burano（20分鐘 · €7.50/人）"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 午餐 · 當地小吃"
+          "desc": "📸 彩虹島 Burano · 彩色房屋拍照 · 蕾絲工藝品店"
         },
         {
-          "time": "14:00",
-          "desc": "🏖️ 帕皮提海灘放鬆"
-        },
-        {
-          "time": "17:00",
-          "desc": "🍽️ 告別晚餐 · 飯店內"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 打包行李 · 準備前往機場"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 14,
-      "date": "Aug 26 · Wed",
-      "label_zh": "返回台灣",
-      "day_query": "Tahiti Faa'a International Airport",
-      "hotel_name": "機上",
-      "hotel_name_zh": "機上",
-      "hotel_room": "經濟艙",
-      "weather": "🌤️ 28°/24°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "00:00",
-          "desc": "⏰ 退房 · 搭計程車前往機場（約15分鐘）"
-        },
-        {
-          "time": "01:00",
-          "desc": "🧳 辦理登機手續 · 托運行李 · 出境安檢"
-        },
-        {
-          "time": "03:55",
-          "desc": "✈️ 搭乘紐西蘭航空 NZ 77 經奧克蘭返回台灣"
-        },
-        {
-          "time": "06:00",
-          "desc": "🍽️ 機上早餐"
-        },
-        {
-          "time": "10:00",
-          "desc": "💤 機上休息"
+          "time": "13:00",
+          "desc": "🍝 午餐：Trattoria al Gatto Nero · 海鮮義大利麵（兩人 €60）"
         },
         {
           "time": "15:00",
-          "desc": "🍽️ 機上點心"
+          "desc": "🚤 返回威尼斯本島 · 自由探索小巷與橋樑"
+        },
+        {
+          "time": "17:00",
+          "desc": "☕ 下午茶：Caffè del Doge · 品嚐威尼斯濃縮咖啡"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ Belmond Cipriani 米其林二星餐廳 · 預約 19:30 · 品嚐主廚特製海鮮菜單"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 飯店泳池畔星空 · 潟湖寧靜之夜"
         }
       ],
-      "day_photo": "https://cdn-css.tahitiheritage.pf/wp-content/uploads/2014/10/faaa-aeroport-2004.jpg"
+      "day_photo": "https://windows10spotlight.com/wp-content/uploads/2023/02/7e43c47d762e0998daea2bf7b35f601b.jpg"
     },
     {
-      "day": 15,
-      "date": "Aug 27 · Thu",
-      "label_zh": "抵達台灣",
-      "day_query": "Taiwan Taoyuan International Airport",
-      "hotel_name": "溫暖的家",
-      "hotel_name_zh": "溫暖的家",
-      "hotel_room": "",
-      "weather": "🌤️ 32°/26° (台灣)",
-      "rain_pct": "10%",
+      "day": 6,
+      "date": "Aug 20 · Thu",
+      "label_zh": "自由日 · 告別威尼斯",
+      "day_query": "Grand Canal Venice",
+      "hotel_name": "Belmond Hotel Cipriani",
+      "hotel_name_zh": "貝爾蒙德奇普里亞尼酒店 · 經典潟湖景雙人房",
+      "hotel_room": "經典潟湖景雙人房",
+      "weather": "☀️ 32°/24°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "00:00",
-          "desc": "✈️ 機上繼續飛行"
+          "time": "08:00",
+          "desc": "🥐 Belmond Cipriani 最後早餐 · 潟湖景致"
         },
         {
-          "time": "06:00",
-          "desc": "🍽️ 機上早餐"
+          "time": "09:30",
+          "desc": "🛥️ 飯店 shuttle 至聖馬可 · 最後漫步 · 購買玻璃紀念品"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 機上午餐"
+          "time": "11:00",
+          "desc": "🎨 佩姬·古根漢美術館 Peggy Guggenheim Collection（門票 €16/人）· 現代藝術"
         },
         {
-          "time": "17:05",
-          "desc": "🛬 抵達台灣桃園國際機場 TPE · 入境提領行李"
+          "time": "12:30",
+          "desc": "🍝 午餐：Osteria da Alberto · 海鮮拼盤（兩人 €50）"
         },
         {
-          "time": "18:00",
-          "desc": "🚗 返回溫暖的家 · 結束浪漫旅程"
+          "time": "14:00",
+          "desc": "🛍️ 自由活動：里亞爾托橋周邊購物 · 或乘坐水上巴士遊大運河"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏨 返回飯店取行李 · 整理行裝"
+        },
+        {
+          "time": "17:30",
+          "desc": "🚤 飯店私人水上計程車前往馬可波羅機場 VCE（20分鐘 · 免費）"
+        },
+        {
+          "time": "18:30",
+          "desc": "✈️ 抵達 VCE 機場 · 辦理退稅 · 通關"
+        },
+        {
+          "time": "21:00",
+          "desc": "✈️ 搭乘中華航空 CI 72 直飛回台灣 · 起飛 21:00"
+        },
+        {
+          "time": "23:00",
+          "desc": "🌙 機上過夜 · 回味義大利美好時光"
+        }
+      ],
+      "day_photo": "https://cdn.britannica.com/63/153463-050-06B6270D/Grand-Canal-Venice.jpg"
+    },
+    {
+      "day": 7,
+      "date": "Aug 21 · Fri",
+      "label_zh": "返抵台灣",
+      "day_query": "Taiwan Taoyuan International Airport",
+      "hotel_name": "機上",
+      "hotel_name_zh": "機上",
+      "hotel_room": "經濟艙",
+      "weather": "☀️ 33°/26°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "05:50",
+          "desc": "✈️ 抵達台灣桃園國際機場 TPE Terminal 2 · 入境通關"
+        },
+        {
+          "time": "07:00",
+          "desc": "🛄 領取行李 · 辦理入境手續"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚕 搭乘計程車返回溫暖的家 · 結束浪漫義大利之旅"
         }
       ],
       "day_photo": "https://ckshotel.com.tw/wp-content/uploads/2023/12/Taiwan-Taoyuan-International-Airport-Terminal-Ring-Road-Corridor-2048x1365.jpg"
@@ -1004,71 +616,71 @@
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票 (紐西蘭航空)",
-      "amount_ntd": 180000
+      "label": "✈️ 來回機票",
+      "amount_ntd": 72000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 332000
+      "amount_ntd": 168000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 120000
+      "amount_ntd": 35000
     },
     {
-      "label": "🎫 活動與景點",
-      "amount_ntd": 80000
+      "label": "🎫 景點門票",
+      "amount_ntd": 15000
     },
     {
-      "label": "🚇 交通（渡輪、國內航班、計程車）",
-      "amount_ntd": 60000
+      "label": "🚇 交通",
+      "amount_ntd": 12000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 80000
+      "amount_ntd": 10000
     }
   ],
-  "cost_total_ntd": 852000,
-  "budget_remaining_ntd": 48000,
+  "cost_total_ntd": 302000,
+  "budget_remaining_ntd": -2000,
   "photos": {
     "hero": [
       {
-        "url": "https://pics.craiyon.com/2023-06-27/9a7f8b8f6085436a932841a9dea577dc.webp",
-        "label": "Tahiti city skyline on Craiyon"
+        "url": "https://www.theviennablog.com/wp-content/uploads/2022/10/florence-italy-skyline-at-dusk-2022-03-04-10-17-47-utc.jpg",
+        "label": "Best 10 days in Italy itinerary - How to Spend 10 Days in Italy - The ..."
       },
       {
-        "url": "https://www.tahiti.com/images1/thumbs/BOBITS-Aerial-1200x720.jpg",
-        "label": "InterContinental Bora Bora Resort and Thalasso Spa | Tahiti.com"
+        "url": "https://get.pxhere.com/photo/architecture-skyline-night-photography-town-city-cityscape-panorama-dusk-evening-landmark-italy-tuscany-old-town-history-florence-metropolis-firenze-aerial-photography-human-settlement-metropolitan-area-1205275.jpg",
+        "label": "Free Images : architecture, skyline, night, city, cityscape, panorama ..."
       }
     ],
     "destination": [
       {
-        "url": "https://www.qantas.com/content/travelinsider/en/explore/south-pacific/best-south-pacific-islands/_jcr_content/parsysTop/hero_561615513.img.full.medium.png/1686757529282.png",
-        "label": "Tahiti Island"
+        "url": "https://fullsuitcase.com/wp-content/uploads/2020/06/Italy-best-places-Lake-Como.jpg",
+        "label": "Beautiful Italy Destinations 10 Reasons To Visit Northern Italy (Map"
       },
       {
-        "url": "https://www.recess4grownups.com/wp-content/uploads/Tahiti-Bora-Bora-Featured-Image-PP.jpg",
-        "label": "Heis and leis and lush scenery - Tahiti - Recess 4 Grownups Travel"
+        "url": "https://www.reckontalk.com/wp-content/uploads/2019/07/best-places-visit-in-italy-Cinque-Terre.jpg",
+        "label": "Top 15 Must-Visit Places in Italy: From Ancient Ruins to Natural ..."
       },
       {
-        "url": "https://www.tripsavvy.com/thmb/uvZEoetiG1IMNN4Ia3m7r5ge-h0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/travel-destination--french-polynesia-505610634-a8272a44619d4be1a725dd622a77edff.jpg",
-        "label": "Best Beaches in Tahiti From Moorea to the Tuamotus"
+        "url": "https://i1.wp.com/handluggageonly.co.uk/wp-content/uploads/2018/05/Hand-Luggage-Only-6-2.jpg?fit=1600,2400&ssl=1",
+        "label": "12 Best Places In Italy To Visit On A First Trip - Hand Luggage Only ..."
       },
       {
-        "url": "https://cdn.pixabay.com/photo/2020/11/28/02/17/lagoon-5783445_1280.jpg",
-        "label": "100+ Free Tahiti & Bora Bora Images - Pixabay"
+        "url": "http://getwallpapers.com/wallpaper/full/8/9/6/897777-italian-scenery-wallpaper-1920x1080-cell-phone.jpg",
+        "label": "Italian Scenery Wallpaper (52+ images)"
       },
       {
-        "url": "https://www.tahiti.com/images1/gallery/Moorea+Aerial+2000x1200_126.jpg",
-        "label": "Tahiti Islands"
+        "url": "https://globalgrasshopper.com/wp-content/uploads/2011/04/Cinque-Terre-Italy-1000x665.jpg",
+        "label": "20 of the most beautiful places to visit in Italy | Boutique Travel Blog"
       },
       {
-        "url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/230000/230645-Tahiti.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
-        "label": "Visit Tahiti: Best of Tahiti Tourism | Expedia Travel Guide"
+        "url": "https://images.travelandleisureasia.com/wp-content/uploads/sites/5/2024/03/18192544/venice.jpeg",
+        "label": "A Guide To The Most Beautiful Places In Italy"
       }
     ]
   },
-  "chat_hash": "b0fd8f06cd3a8a96b96faaffe24b32457fd0324b25bb40431d583413917692b6",
+  "chat_hash": "e08cc99cf1f438b879d4ae4faa77594f4a040f75c2335e87585f0b0d88f66b84",
   "config_hash": "e2a97cea2bea36a96317972a093d62b6eeb4faaa599b78eaad2efd886b3ccaaf",
-  "generated_at": "2026-05-27T00:07:06.996844"
+  "generated_at": "2026-05-27T04:56:53.840590"
 }
