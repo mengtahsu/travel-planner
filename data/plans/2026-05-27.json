@@ -1,6 +1,6 @@
 {
   "destination_en": "Italy",
-  "title_zh": "八月義大利 · 浪漫七日之旅",
+  "title_zh": "義大利 · 八月浪漫七日之旅",
   "date_range": "2026/08/15–08/21",
   "start_date": "2026-08-15",
   "end_date": "2026-08-21",
@@ -9,14 +9,14 @@
   "destination_code": "FCO",
   "travelers": 2,
   "days": 7,
-  "budget_ntd": 300000,
+  "budget_ntd": 400000,
   "flight": {
     "airline": "中華航空 China Airlines",
     "departure_date": "8月15日",
     "return_date": "8月21日",
     "total_price_ntd": 72000,
     "outbound": {
-      "flight_no": "CI 71",
+      "flight_no": "CI 75",
       "route": "TPE → FCO 直飛",
       "depart_time": "23:30",
       "arrive_time": "06:30 (+1)",
@@ -24,65 +24,65 @@
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 72",
+      "flight_no": "CI 76",
       "route": "FCO → TPE 直飛",
       "depart_time": "11:00",
-      "arrive_time": "05:50 (+1)",
-      "duration": "12h 50m",
+      "arrive_time": "06:00 (+1)",
+      "duration": "13h 00m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Hotel Eden",
-      "name_zh": "伊甸園酒店 · 羅馬豪華五星",
-      "district": "羅馬市中心 · 西班牙階梯旁",
+      "name": "Hotel Hassler Roma",
+      "name_zh": "羅馬哈斯勒酒店",
+      "district": "西班牙廣場",
       "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 72000,
+      "price_ntd": 105000,
       "stars": "★★★★★",
-      "room_type": "經典豪華雙人房",
-      "breakfast": "含自助式早餐",
-      "amenities": "🏊 屋頂泳池 · 💆 SPA · 🍽️ 米其林餐廳 La Terrazza · 🌇 俯瞰永恆之城",
-      "search_query": "Hotel Eden Rome Italy",
+      "room_type": "經典雙人房 (Classic Double)",
+      "breakfast": "含自助早餐",
+      "amenities": "🏛️ 屋頂餐廳 · 💆 健身中心 · 🍷 酒吧 · 🛎️ 禮賓服務",
+      "search_query": "Hotel Hassler Roma Spain Square",
       "photos": [
         {
-          "url": "http://3.bp.blogspot.com/-dED9AlB2wz4/UswuEaRAGMI/AAAAAAAAi3Y/PiL2WljdKRk/s1600/Hotel+Eden+-+Rome,+Italy-passion4luxury-7.jpg",
-          "label": "Passion For Luxury : Luxurious Hotel Eden - Rome, Italy"
+          "url": "https://www.granturismoevents.com/_Pages/1662/Image920x600.jpg",
+          "label": "Grand Hotel Tremezzo - a five star hotel by Como Lake - Lombardy ..."
         },
         {
-          "url": "https://ah-cms.hideawayreport.com/images/new-rome-hotels-hotel-eden-rome-italy-exterior.jpg",
-          "label": "Exceptional Rome Hotels | Hideaway Report | Hideaway Report"
+          "url": "https://theluxuryeditor.com/wp-content/uploads/2018/07/115888665.jpg",
+          "label": "Best Luxury Hotels in Amalfi, Italy 2025 - The Luxury Editor"
         },
         {
-          "url": "https://www.dorchestercollection.com/media/ojkbcz3j/hotel-eden-exterior-facade-sign-dorchester-collection.jpg?width=664&height=886&rmode=crop",
-          "label": "Hotel Eden, 5-Star Hotel, Rome | Private Dining & Stunning Views"
+          "url": "https://pea-7f65.kxcdn.com/img/image_db/luxury-hotel-villa-palazzo-aminta-italy-le-isole-panoramic-terrace-942.jpg",
+          "label": "Luxury lakefront hotel in Lake Maggiore with views near golf courses"
         },
         {
-          "url": "https://www.hotel-boutique.it/wp-content/uploads/2022/09/21-9-800x480.jpg",
-          "label": "Hotel Eden Rome, Lazio - Italy"
+          "url": "https://www.bocadolobo.com/en/inspiration-and-ideas/wp-content/uploads/2023/11/Grand-Hotel-Tremezzo-Lake-Como.jpg",
+          "label": "20 Luxury Hotels in Italy: Lavish Retreats | Boca do Lobo | Inspiration ..."
         },
         {
-          "url": "https://passporttofriday.com/wp-content/uploads/2017/05/P1020400.jpg",
-          "label": "Newly Renovated: Hotel Eden in Rome, Italy | Passport to Friday ..."
+          "url": "https://pea-7f65.kxcdn.com/img/image_db/luxury-hotel-luna-baglioni-venice-terrace-panorama-view-1920.jpg",
+          "label": "Exclusive five star hotel in Venice with great views"
         },
         {
-          "url": "https://www.fivestaralliance.com/files/fivestaralliance.com/styles/juicebox_large/public/0_EXTERIOR-G_19.jpg?itok=qcVE2Uib",
-          "label": "Photo Gallery for Hotel Eden Rome in Rome - Italy | Five Star Alliance"
+          "url": "https://italybest.com/wp-content/uploads/2022/03/Palazzo-Dama-Preferred-Hotels-Resorts.jpg",
+          "label": "15 Best Luxury Hotels in Rome Italy - 5-Star Hotels in Rome | IB"
         }
       ]
     },
     {
       "name": "Belmond Hotel Cipriani",
-      "name_zh": "貝爾蒙德奇普里亞尼酒店 · 威尼斯傳奇",
-      "district": "威尼斯 · 朱代卡島",
-      "day_range": "4–6",
-      "nights": 3,
-      "price_ntd": 96000,
+      "name_zh": "威尼斯奇普里亞尼酒店",
+      "district": "朱代卡島",
+      "day_range": "4–7",
+      "nights": 4,
+      "price_ntd": 140000,
       "stars": "★★★★★",
-      "room_type": "經典潟湖景雙人房",
-      "breakfast": "含自助式早餐",
-      "amenities": "🏊 無邊際泳池 · 🛥️ 私人水上計程車 · 🌅 聖馬可廣場景觀 · 🍽️ 米其林二星餐廳",
+      "room_type": "豪華瀉湖景雙人房 (Deluxe Lagoon View)",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 無邊際泳池 · 🌿 花園 · 🚤 免費私人水上巴士 · 🍽️ 米其林餐廳",
       "search_query": "Belmond Hotel Cipriani Venice",
       "photos": [
         {
@@ -90,24 +90,24 @@
           "label": "BELMOND HOTEL CIPRIANI, VENICE. Italy - ILLULIAN"
         },
         {
-          "url": "https://cdn.audleytravel.com/1400/1000/60/1017166-belmond-hotel-cipriani-venice.jpg",
-          "label": "Belmond Hotel Cipriani | Hotels in Venice | Audley Travel US"
+          "url": "https://elitevoyage.com/wp-content/uploads/2021/07/belmond-cipriani-01.jpg",
+          "label": "Cipriani, A Belmond Hotel, Venice | EliteVoyage"
         },
         {
-          "url": "https://belmondcdn.azureedge.net/assets/photos/cip/960x1198/cip-ext04_960x1198.jpg",
-          "label": "The Best Luxury Hotels in Venice, Italy | Belmond Hotel Cipriani"
+          "url": "https://www.isoladiburano.it/en/photos/large/hotels/206/belmond-hotel-cipriani-venice-1.jpg",
+          "label": "Belmond Hotel Cipriani - 30133 Giudecca 10 Venice (Italy)"
+        },
+        {
+          "url": "https://cdn.audleytravel.com/1400/1000/60/1017166-belmond-hotel-cipriani-venice.jpg",
+          "label": "Belmond Hotel Cipriani | Hotels in Venice | Audley Travel US"
         },
         {
           "url": "https://d1cdc15hzkd3wm.cloudfront.net/products/medias/originalmark/X11WW1dL.jpg",
           "label": "Luxury Hotel Cipriani , A Belmond Hotel Venice, Venice, Italy - Photos ..."
         },
         {
-          "url": "https://cdn.audleytravel.com/3706/2650/79/1017173-belmond-hotel-cipriani-venice.jpg",
-          "label": "Belmond Hotel Cipriani | Hotels in Venice | Audley Travel US"
-        },
-        {
-          "url": "https://elitevoyage.com/wp-content/uploads/2021/07/belmond-cipriani-04.jpg",
-          "label": "Cipriani, A Belmond Hotel, Venice | EliteVoyage"
+          "url": "https://cdn.audleytravel.com/1400/998/60/1017163-belmond-hotel-cipriani-venice.jpg",
+          "label": "Belmond Hotel Cipriani | Hotels in Venice | Audley Travel UK"
         }
       ]
     }
@@ -116,51 +116,51 @@
     "fine_dining": [
       {
         "name": "La Pergola",
-        "name_zh": "羅馬 · 米其林三星 · 永恆之城巔峰",
+        "name_zh": "羅馬米其林三星 · 永恆之城之巔",
         "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：海膽義大利麵 · 慢烤乳鴿",
-        "address": "Via Alberto Cadlolo 101, 羅馬",
+        "dish": "🦞 招牌：龍蝦塔塔佐魚子醬 · 松露燉飯",
+        "address": "Via Alberto Cadlolo, 101, 00136 Roma",
         "price_ntd": 7000,
-        "price_label": "晚餐套餐 €200/人 · NT$7,000",
-        "hours": "19:30–22:30 · 需提前預約 · 服裝要求：正式",
-        "search_query": "La Pergola Rome restaurant",
+        "price_label": "品嚐菜單 €200/人 · NT$7,000",
+        "hours": "19:30–23:00 · 需提前預約 · 服裝規範：正式",
+        "search_query": "La Pergola Rome Michelin star",
         "photos": [
           {
-            "url": "https://purentonline.com/blog/wp-content/uploads/2013/03/Rome-Cavalieri-La-Pergola-restaurant.jpg",
-            "label": "One of the best restaurants in Rome: 3-star Michelin La Pergola | Blog ..."
+            "url": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2024/08/07/8ec972b10d354fc49fad8a51afa86fbf_La_Pergola_panorama.jpg",
+            "label": "6 Rome Neighborhoods for MICHELIN Stars, Exceptional Stays, and Art ..."
           },
           {
-            "url": "https://prod.static9.net.au/_/media/2016/08/16/11/05/LaPergola_Rome.jpg",
-            "label": "La Pergola Rome Restaurante Peruano"
+            "url": "https://chicjournal.com/wp-content/uploads/2019/09/IMG_3127.jpg",
+            "label": "Restaurant review: La Pergola Rome | Chic Journal blog"
           },
           {
-            "url": "https://toquesdor-guide.com/wp-content/uploads/2018/03/la-pergola-495x400.jpg",
+            "url": "http://blog.stayromac.com/wp-content/uploads/2016/03/ristorante-laperloga-panorama.jpg",
             "label": "La Pergola Restaurant Rome La Pergola Restaurant, Italy"
           }
         ]
       },
       {
-        "name": "Osteria Francescana",
-        "name_zh": "摩德納 · 世界第一 · 米其林三星",
-        "stars": "⭐⭐⭐",
-        "dish": "🍝 招牌：五種帕瑪森起司燉飯 · 鵝肝冰淇淋",
-        "address": "Via Stella 22, 摩德納 (Modena)",
-        "price_ntd": 10500,
-        "price_label": "品嚐菜單 €300/人 · NT$10,500 (含酒)",
-        "hours": "12:30–14:00 / 20:00–22:00 · 需提前數月預約",
-        "search_query": "Osteria Francescana Modena",
+        "name": "Ristorante Quadri",
+        "name_zh": "威尼斯米其林二星 · 聖馬可廣場",
+        "stars": "⭐⭐",
+        "dish": "🦐 招牌：威尼斯式海鮮拼盤 · 墨魚麵",
+        "address": "Piazza San Marco, 30124 Venezia",
+        "price_ntd": 6000,
+        "price_label": "晚餐套餐 €170/人 · NT$6,000",
+        "hours": "12:00–14:30 / 19:00–22:30 · 需預約",
+        "search_query": "Ristorante Quadri Venice",
         "photos": [
           {
-            "url": "https://2.bp.blogspot.com/-vNgN7YIivKs/V1-7mMPVjoI/AAAAAAAAyyY/vl571eY6Yo4wDnxa3fz4acs1JAq8hT6TwCLcB/s1600/Osteria-Francescana-Exterior-3.-Photo-Credit.jpg",
-            "label": "reportages: L'Osteria Francescana di Modena (chef Massimo Bottura) è il ..."
+            "url": "https://bonjourvenise.fr/wp-content/uploads/2024/02/v2-81mgz-y1b2l.jpg",
+            "label": "Restaurant Quadri Venise : Élégance Culinaire Historique"
           },
           {
-            "url": "http://www.samphireandsalsify.com/wp-content/uploads/2019/09/IMG_20190314_121331-01.jpeg",
-            "label": "Osteria Francescana, Modena - Samphire and Salsify"
+            "url": "https://theluxuryeditor.com/wp-content/uploads/2020/09/Quadri_Venice_andrew_forbes-11.jpg",
+            "label": "Quadri Restaurant Venice Italy"
           },
           {
-            "url": "https://www.theworlds50best.com/discovery/filestore/jpg/OsteriaFrancescana-Modena-Italy-02.jpg",
-            "label": "Osteria Francescana - Modena - Restaurant - 50Best Discovery"
+            "url": "http://www.iristorante.it/files/22161/2968355854ec64642980a9_large.jpg",
+            "label": "Ristorante Quadri VENEZIA Ristoranti cucina Veneziana VENEZIA Quadri ..."
           }
         ]
       }
@@ -168,103 +168,103 @@
     "bistros": [
       {
         "name": "Trattoria Da Enzo al 29",
-        "name_zh": "羅馬 · 在地人最愛 · 傳統小館",
+        "name_zh": "羅馬在地小館 · 道地羅馬菜",
         "stars": "",
-        "dish": "🍝 招牌：卡邦尼義大利麵 · 羅馬式燉牛尾",
-        "address": "Via dei Vascellari 29, 羅馬 特拉斯提弗列",
-        "price_ntd": 1400,
-        "price_label": "兩人晚餐 €40 · NT$1,400",
-        "hours": "12:00–15:00 / 19:00–23:00 · 建議訂位",
+        "dish": "🍝 招牌：培根蛋黃麵 (Carbonara) · 朝鮮薊 · 提拉米蘇",
+        "address": "Via dei Vascellari, 29, 00153 Roma",
+        "price_ntd": 2500,
+        "price_label": "兩人套餐約 €70 · NT$2,500",
+        "hours": "12:30–15:00 / 19:00–23:00 · 強烈建議預約",
         "search_query": "Trattoria Da Enzo al 29 Rome",
         "photos": [
           {
-            "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_fill,w_3840,ar_16:9,g_center,f_auto/TrattoriaDaEnzoAl29_Carbonara_MaelaBonafede_Rome-9_l2kzbl",
-            "label": "Trattoria Da Enzo Al 29 - Review - Trastevere - Rome - The Infatuation"
+            "url": "https://www.theitalyinsider.com/wp-content/uploads/2023/02/Serafina2-1366x2048.jpg",
+            "label": "15 authentic trattorias & bistros to try in Milan – The Italy Insider"
           },
           {
-            "url": "https://flawless.life/wp-content/uploads/2021/03/Da-Enzo-al-29-roma-cover.jpg",
-            "label": "De Enzo En Roma Italy, Rome, Trastevere, Via Del Vascellari 29, Da"
+            "url": "https://lifeinitaly.com/wp-content/uploads/2019/10/michelin-starred-bistros-in-italy-1024x683.jpg",
+            "label": "Michelin starred bistros in Italy - Life in Italy"
           },
           {
-            "url": "https://www.laguiaderoma.com/wp-content/uploads/2022/04/TrattoriaDaEnzo-1-768x466.jpg",
-            "label": "Trattoria Da Enzo al 29 - La Guía de Roma - Actualizada 2026"
+            "url": "https://travelinsighter.com/wp-content/uploads/2025/02/786C0564-A444-410F-847B-A78E7099BF9B-e1740735621220.jpg.webp",
+            "label": "12 Best Restaurants in Florence, Italy From Bistros to Michelin Stars"
           }
         ]
       },
       {
-        "name": "Osteria alle Testiere",
-        "name_zh": "威尼斯 · 海鮮天堂 · 小酒館",
+        "name": "Osteria Al Squero",
+        "name_zh": "威尼斯小酒館 · 運河邊的Cicchetti",
         "stars": "",
-        "dish": "🦐 招牌：墨魚汁義大利麵 · 香煎干貝",
-        "address": "Calle del Manganer 5801, 威尼斯",
-        "price_ntd": 2800,
-        "price_label": "晚餐 €80/人 · NT$2,800",
-        "hours": "12:30–14:30 / 19:30–22:00 · 週日休",
-        "search_query": "Osteria alle Testiere Venice",
+        "dish": "🥂 招牌：威尼斯小點 (Cicchetti) · 章魚沙拉 · 白酒",
+        "address": "Dorsoduro 943, 30123 Venezia",
+        "price_ntd": 1500,
+        "price_label": "兩人 Cicchetti 拼盤 + 酒 €40 · NT$1,500",
+        "hours": "11:00–15:00 / 17:00–22:00 · 週日休息",
+        "search_query": "Osteria Al Squero Venice",
         "photos": [
           {
-            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/f868042d9c5a4a28b57c459b024c32f0.jpeg",
-            "label": "Osteria alle Testiere – Venice - a MICHELIN Guide Restaurant"
+            "url": "https://img.restaurantguru.com/c854-Osteria-Al-Squero-Venice-exterior-1.jpg",
+            "label": "Osteria Al Squero, Venice - Restaurant menu, prices and reviews"
           },
           {
-            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/e285303741c247bca62d46af250d30d2.jpeg",
-            "label": "Osteria alle Testiere – Venice - a MICHELIN Guide Restaurant"
+            "url": "https://luxeadventuretraveler.com/wp-content/uploads/2017/11/Luxe-Adventure-Traveler-Venice-Osteria-al-Squero-2.jpg",
+            "label": "Guide to Venice Carnival - Luxe Adventure Traveler"
           },
           {
-            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/cbe4135f169942398b924be6c85dcac3.jpeg",
-            "label": "Osteria alle Testiere – Venice - a MICHELIN Guide Restaurant"
+            "url": "https://img.restaurantguru.com/c08e-Pub-and-bar-Osteria-Al-Squero-exterior.jpg",
+            "label": "Osteria Al Squero, Venice - Restaurant menu, prices and reviews"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Caffè Sant'Eustachio",
-        "name_zh": "羅馬 · 1948年 · 最傳奇咖啡",
+        "name": "Caffè Greco",
+        "name_zh": "古希臘咖啡館 · 1760年開業",
         "stars": "",
-        "dish": "☕ 招牌：Gran Caffè 濃縮咖啡 · 冰咖啡拿鐵",
-        "address": "Piazza Sant'Eustachio 82, 羅馬",
-        "price_ntd": 350,
-        "price_label": "兩杯咖啡 €10 · NT$350",
-        "hours": "07:00–22:00 · 萬神殿旁",
-        "search_query": "Caffe Sant'Eustachio Rome",
+        "dish": "☕ 招牌：濃縮咖啡 · 提拉米蘇 · 手工巧克力",
+        "address": "Via dei Condotti, 86, 00187 Roma",
+        "price_ntd": 800,
+        "price_label": "兩人咖啡+甜點 €23 · NT$800",
+        "hours": "09:00–21:00 · 歷史悠久藝術家聚會地",
+        "search_query": "Caffè Greco Rome",
         "photos": [
           {
-            "url": "https://images.squarespace-cdn.com/content/v1/626a3e2c3e96e84c4b6db2fb/9be58373-7d6c-4552-b931-c5b50b59d832/sant-eustachio-il-caffe-2568.jpg?format=2500w",
-            "label": "Sant'Eustachio Il Caffè Is A Rome Coffee Bar You Should Try"
+            "url": "https://www.tastebologna.net/uploads/_900xAUTO_crop_top-center_90_none_ns/Caffe-Greco-Rome.jpg",
+            "label": "Italy's oldest cafes: Caffè Florian and beyond – Taste Bologna"
           },
           {
-            "url": "https://ciaobella.co/wp-content/uploads/2021/09/sant-eustachio-caffe-rome-ciao-bella-min.jpg",
-            "label": "Cafe Eustachio Rome Sant' Eustachio Il Caffè Review Centro"
+            "url": "https://ah-cms.hideawayreport.com/images/exterior-antico-caffe-greco-rome-italy.jpg",
+            "label": "5 Classic Rome Cafés | Hideaway Report"
           },
           {
-            "url": "https://cdn.shopify.com/s/files/1/0907/3016/8619/files/issimo-emporio-sant-eustacchio-1024x1024.webp",
-            "label": "The Place: Sant'Eustachio, Rome’s Iconic Coffee Shop – ISSIMO"
+            "url": "https://www.snapitaly.it/wp-content/uploads/2018/01/Caffe_Greco-min.jpg",
+            "label": "Caffè Greco, lo storico caffè nel cuore di Roma - Snap Italy"
           }
         ]
       },
       {
         "name": "Caffè Florian",
-        "name_zh": "威尼斯 · 1720年 · 歐洲最古老咖啡館",
+        "name_zh": "花神咖啡館 · 1720年開業",
         "stars": "",
-        "dish": "☕ 招牌：威尼斯濃縮 · 提拉米蘇 · 現場弦樂",
-        "address": "Piazza San Marco 56, 威尼斯",
-        "price_ntd": 1400,
-        "price_label": "兩人咖啡+甜點 €40 · NT$1,400",
-        "hours": "09:00–23:00 · 聖馬可廣場",
-        "search_query": "Caffe Florian Venice interior",
+        "dish": "☕ 招牌：威尼斯濃縮 · 手工餅乾 · 現場音樂",
+        "address": "Piazza San Marco, 30124 Venezia",
+        "price_ntd": 1200,
+        "price_label": "兩人咖啡+甜點 €35 · NT$1,200",
+        "hours": "09:00–23:00 · 聖馬可廣場最美咖啡館",
+        "search_query": "Caffè Florian Venice",
         "photos": [
           {
-            "url": "https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/1634165046140-YKFLRWPZRAAOSHMDKGRE/coffee-culture-in-italy.jpg",
-            "label": "Coffee Culture in Italy: 21 Types of Drinks and How to Order Like a ..."
+            "url": "https://caffeflorian.com/wp-content/uploads/2022/06/Rectangle-586-1.jpg",
+            "label": "Caffè Florian History, Venice’s Timeless Coffeehouse"
           },
           {
-            "url": "https://images.squarespace-cdn.com/content/v1/5dd5b5e9f226644911c4d733/1634165734914-A4CQUKFONAQK5FDVH5GA/coffee-drinks-in-italy.jpg",
-            "label": "Coffee Culture in Italy: 21 Types of Drinks and How to Order Like a ..."
+            "url": "http://www.in-venice.com/wp-content/uploads/2013/02/caffe-florian-2-e1367826336438.jpg",
+            "label": "Caffè Florian | In-Venice"
           },
           {
-            "url": "https://eatingarounditaly.com/wp-content/uploads/2023/05/cappuccino-breakfast.jpg",
-            "label": "Coffee in Italy – Types & How to Order - Eating Around Italy"
+            "url": "https://lamismahistoria.es/wp-content/uploads/2017/10/DSCN1302-1-scaled.jpg",
+            "label": "El Caffè Florian de Venecia, abierto desde 1720"
           }
         ]
       }
@@ -273,375 +273,371 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Aug 15 · Sat",
-      "label_zh": "抵達 · 永恆之城初夜",
-      "day_query": "Colosseum Rome Italy",
-      "hotel_name": "Hotel Eden",
-      "hotel_name_zh": "伊甸園酒店 · 經典豪華雙人房",
-      "hotel_room": "經典豪華雙人房",
+      "date": "8月15日 · 週六",
+      "label_zh": "抵達羅馬 · 永恆之城初探",
+      "day_query": "Colosseum Rome",
+      "hotel_name": "Hotel Hassler Roma",
+      "hotel_name_zh": "羅馬哈斯勒酒店 · 經典雙人房",
+      "hotel_room": "經典雙人房",
       "weather": "☀️ 32°/22°",
       "rain_pct": "5%",
       "slots": [
         {
           "time": "06:30",
-          "desc": "✈️ 抵達 FCO 羅馬菲烏米奇諾機場 Terminal 3 · 入境通關取行李（預計 30–45 分鐘）"
+          "desc": "✈️ 抵達羅馬菲烏米奇諾機場 (FCO) Terminal 3 · 入境通關取行李（預計 30–45 分鐘）"
         },
         {
           "time": "08:00",
-          "desc": "🚕 搭乘預約接送前往 Hotel Eden（約 40 分鐘 · €60）· 沿途欣賞羅馬城牆"
+          "desc": "🚕 搭乘計程車前往酒店（約 40 分鐘 · €50）· 沿途欣賞羅馬郊區風光"
         },
         {
           "time": "09:00",
-          "desc": "🏨 抵達 Hotel Eden · 辦理入住 · 稍作休息 · 享用酒店早餐"
+          "desc": "🏨 抵達 Hotel Hassler Roma · 寄放行李 · 步行至西班牙廣場（2分鐘）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🥐 Caffè Greco 享用早餐 · 濃縮咖啡 + 可頌 + 提拉米蘇"
         },
         {
           "time": "11:00",
-          "desc": "☕ Caffè Sant'Eustachio 品嚐傳奇濃縮 · 萬神殿外廣場漫步"
+          "desc": "🏛️ 羅馬競技場 (Colosseo) 預約票 €16/人 · 導覽約1.5小時 · 建議防曬"
         },
         {
-          "time": "12:30",
-          "desc": "🍝 Trattoria Da Enzo al 29 午餐 · 必點卡邦尼義大利麵與燉牛尾"
+          "time": "13:00",
+          "desc": "🍝 Trattoria Da Enzo al 29 午餐 · 必點 Carbonara 和朝鮮薊"
         },
         {
-          "time": "14:30",
-          "desc": "🏛️ 羅馬競技場 Colosseum（預約票 €16/人）· 地下層導覽（€22/人）· 感受古羅馬榮光"
+          "time": "15:00",
+          "desc": "🏛️ 古羅馬廣場 (Foro Romano) 步行參觀 · 門票 €16/人（含帕拉提諾丘）"
         },
         {
-          "time": "17:00",
-          "desc": "🚶 古羅馬廣場 Foro Romano · 帕拉丁山 · 夕陽下的廢墟漫步"
+          "time": "18:00",
+          "desc": "🚶 威尼斯廣場 · 維克多·伊曼紐二世紀念堂 · 俯瞰羅馬市景"
         },
         {
-          "time": "19:30",
-          "desc": "🍽️ La Pergola 米其林三星晚餐 · 預約 19:30 · 屋頂露台俯瞰羅馬 · 品嚐海膽義大利麵"
+          "time": "20:00",
+          "desc": "🍽️ La Pergola 米其林三星晚餐 · 預約 20:00 · 品嚐龍蝦塔塔"
         },
         {
-          "time": "22:30",
-          "desc": "🌙 返回 Hotel Eden · 屋頂酒吧小酌 · 欣賞西班牙階梯夜景"
+          "time": "23:00",
+          "desc": "🌙 返回酒店 · 西班牙階梯夜景 · 入住 Hotel Hassler Roma 經典雙人房"
         }
       ],
-      "day_photo": "http://www.hdwallpapers.in/walls/the_colosseum_rome_italy-normal.jpg"
+      "day_photo": "https://img.locationscout.net/images/2017-07/colosseum-rome-italy_l.jpeg"
     },
     {
       "day": 2,
-      "date": "Aug 16 · Sun",
+      "date": "8月16日 · 週日",
       "label_zh": "梵蒂岡 · 藝術與信仰",
-      "day_query": "Sistine Chapel Vatican",
-      "hotel_name": "Hotel Eden",
-      "hotel_name_zh": "伊甸園酒店 · 經典豪華雙人房",
-      "hotel_room": "經典豪華雙人房",
+      "day_query": "Vatican Museums Sistine Chapel",
+      "hotel_name": "Hotel Hassler Roma",
+      "hotel_name_zh": "羅馬哈斯勒酒店 · 經典雙人房",
+      "hotel_room": "經典雙人房",
       "weather": "☀️ 33°/23°",
       "rain_pct": "10%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🥐 Hotel Eden 自助早餐 · 新鮮水果、現做可頌、義式咖啡"
+          "desc": "🥐 酒店內享用自助早餐 · 新鮮水果、義式火腿、現煮咖啡"
         },
         {
           "time": "08:30",
-          "desc": "🚇 地鐵 A 線 Spagna → Ottaviano · 前往梵蒂岡（€1.50/人）"
+          "desc": "🚶 步行至西班牙廣場地鐵站 (Spagna) · 搭地鐵 A 線至 Ottaviano（約15分鐘）"
         },
         {
           "time": "09:00",
-          "desc": "🎨 梵蒂岡博物館 Musei Vaticani（預約票 €17/人）· 重點：拉斐爾畫室、地圖長廊"
+          "desc": "🏛️ 梵蒂岡博物館 (Musei Vaticani) 預約票 €17/人 · 必看：西斯汀禮拜堂"
         },
         {
-          "time": "11:30",
-          "desc": "⛪ 西斯汀禮拜堂 Cappella Sistina · 米開朗基羅《創世紀》與《最後的審判》· 禁止攝影"
+          "time": "12:00",
+          "desc": "⛪ 聖彼得大教堂 (Basilica di San Pietro) · 免費入場 · 登頂 €8/人 · 俯瞰梵蒂岡"
         },
         {
-          "time": "13:00",
-          "desc": "🍕 梵蒂岡周邊午餐 · Pizzeria da Baffetto · 經典羅馬薄餅（兩人 €30）"
+          "time": "13:30",
+          "desc": "🍝 午餐：Pizzeria La Montecarlo · 經典瑪格麗特披薩 · 兩人約 €30"
         },
         {
-          "time": "14:30",
-          "desc": "⛪ 聖彼得大教堂 Basilica di San Pietro · 登頂穹頂（€8/人）· 俯瞰鑰匙狀廣場"
+          "time": "15:00",
+          "desc": "🏛️ 聖天使堡 (Castel Sant'Angelo) · 門票 €15/人 · 遠眺台伯河"
         },
         {
-          "time": "16:30",
-          "desc": "🚶 聖天使堡 Castel Sant'Angelo · 沿台伯河散步 · 冰淇淋 gelato"
+          "time": "17:00",
+          "desc": "🚶 納沃納廣場 (Piazza Navona) · 四河噴泉 · 街頭藝人表演"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 酒店晚餐 · 伊甸園 La Terrazza 米其林一星 · 品嚐羅馬式燉飯"
+          "desc": "🍽️ 晚餐：Armando al Pantheon · 在地羅馬菜 · 兩人約 €80"
         },
         {
           "time": "21:00",
-          "desc": "🌙 夜遊特拉斯提弗列 Trastevere · 小巷燈光 · 現場音樂"
+          "desc": "🌙 萬神殿 (Pantheon) 夜景 · 返回酒店休息"
         }
       ],
-      "day_photo": "https://www.visitvaticancity.org/wp-content/uploads/the-sistine-chapel.jpg"
+      "day_photo": ""
     },
     {
       "day": 3,
-      "date": "Aug 17 · Mon",
-      "label_zh": "羅馬經典 · 許願池與西班牙階梯",
+      "date": "8月17日 · 週一",
+      "label_zh": "羅馬經典 · 許願池與真理之口",
       "day_query": "Trevi Fountain Rome",
-      "hotel_name": "Hotel Eden",
-      "hotel_name_zh": "伊甸園酒店 · 經典豪華雙人房",
-      "hotel_room": "經典豪華雙人房",
+      "hotel_name": "Hotel Hassler Roma",
+      "hotel_name_zh": "羅馬哈斯勒酒店 · 經典雙人房",
+      "hotel_room": "經典雙人房",
       "weather": "☀️ 34°/24°",
       "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 Hotel Eden 早餐 · 規劃今日退房寄放行李"
+          "desc": "🥐 酒店早餐 · 整理行李 · 退房並寄放大型行李"
         },
         {
           "time": "09:00",
-          "desc": "⛲ 特雷維噴泉 Fontana di Trevi · 早上人少 · 背對噴泉投硬幣（€0.10）· 許願重返羅馬"
+          "desc": "⛲ 特雷維噴泉 (Fontana di Trevi) · 早起避開人潮 · 投硬幣許願"
         },
         {
           "time": "10:00",
-          "desc": "🛍️ 西班牙階梯 Piazza di Spagna · 精品街 Via Condotti 逛街（Gucci, Prada）"
+          "desc": "🛍️ 孔多蒂街 (Via dei Condotti) 精品購物 · 精品店朝聖"
         },
         {
           "time": "12:00",
-          "desc": "☕ 萬神殿 Pantheon · 免費參觀 · 光線從圓頂灑落"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍝 午餐：Armando al Pantheon · 經典羅馬菜（兩人 €50）"
-        },
-        {
-          "time": "15:00",
-          "desc": "🏛️ 波格賽美術館 Galleria Borghese（預約票 €15/人）· 貝尼尼雕塑 · 卡拉瓦喬畫作"
-        },
-        {
-          "time": "17:00",
-          "desc": "🚶 回到 Hotel Eden 取行李 · 前往 Termini 車站"
-        },
-        {
-          "time": "18:30",
-          "desc": "🚄 義大利高鐵 Italo 羅馬→威尼斯（3h45m · €89/人商務艙）· 沿途欣賞托斯卡尼田野"
-        },
-        {
-          "time": "22:15",
-          "desc": "🚤 抵達威尼斯 Santa Lucia 車站 · 飯店私人水上計程車前往 Belmond Hotel Cipriani（15分鐘 · 免費）"
-        },
-        {
-          "time": "23:00",
-          "desc": "🏨 入住 Belmond Hotel Cipriani · 潟湖景房 · 晚安威尼斯"
-        }
-      ],
-      "day_photo": "https://media.cntraveler.com/photos/55d24b6f37284fb1079cbc20/master/pass/trevi-fountain-rome-night-cr-getty.jpg"
-    },
-    {
-      "day": 4,
-      "date": "Aug 18 · Tue",
-      "label_zh": "威尼斯 · 水都迷情",
-      "day_query": "St Mark's Square Venice",
-      "hotel_name": "Belmond Hotel Cipriani",
-      "hotel_name_zh": "貝爾蒙德奇普里亞尼酒店 · 經典潟湖景雙人房",
-      "hotel_room": "經典潟湖景雙人房",
-      "weather": "☀️ 30°/22°",
-      "rain_pct": "15%",
-      "slots": [
-        {
-          "time": "07:30",
-          "desc": "🥐 Belmond Cipriani 早餐 · 潟湖景露台 · 現做義式蛋餅與水果"
-        },
-        {
-          "time": "09:00",
-          "desc": "🛥️ 飯店免費 shuttle 船至聖馬可廣場（每小時一班）"
-        },
-        {
-          "time": "09:30",
-          "desc": "⛪ 聖馬可大教堂 Basilica di San Marco · 金色馬賽克 · 免費入場"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏛️ 總督宮 Palazzo Ducale · 嘆息橋 · 參觀監獄（門票 €25/人）"
-        },
-        {
-          "time": "12:30",
-          "desc": "☕ Caffè Florian 午餐 · 提拉米蘇與咖啡 · 聆聽現場弦樂四重奏"
+          "desc": "🍝 午餐：Gelateria del Teatro 附近小餐館 · 義大利麵 + 冰淇淋"
         },
         {
           "time": "14:00",
-          "desc": "🚤 貢多拉 Gondola 遊船（30分鐘 · €80）· 穿過小運河 · 里亞爾托橋"
+          "desc": "🏛️ 真理之口 (Bocca della Verità) · 免費 · 排隊拍照"
         },
         {
           "time": "15:30",
-          "desc": "🎭 鳳凰劇院 Teatro La Fenice 導覽（€12/人）· 華麗歌劇院"
+          "desc": "🚶 馬西莫賽馬場 (Circo Massimo) · 散步至阿文提諾山鑰匙孔"
         },
         {
           "time": "17:00",
-          "desc": "🛍️ 里亞爾托市場 Rialto Market · 購買威尼斯面具紀念品"
+          "desc": "🚕 返回酒店取行李 · 前往特米尼車站 (Termini)"
+        },
+        {
+          "time": "18:30",
+          "desc": "🚄 搭乘義大利高鐵 (Frecciarossa) 前往威尼斯 · 二等座 €50/人 · 車程 3h45m"
+        },
+        {
+          "time": "22:15",
+          "desc": "🚤 抵達威尼斯聖塔露西亞車站 · 搭乘酒店私人水上巴士前往 Belmond Hotel Cipriani（10分鐘）"
+        },
+        {
+          "time": "23:00",
+          "desc": "🏨 入住 Belmond Hotel Cipriani · 豪華瀉湖景雙人房 · 晚安"
+        }
+      ],
+      "day_photo": "https://inspirations.blacktomato.com/wp-content/uploads/2019/11/Trevi-Fountain-in-Rome-daylight.jpg"
+    },
+    {
+      "day": 4,
+      "date": "8月18日 · 週二",
+      "label_zh": "威尼斯 · 運河與藝術",
+      "day_query": "St. Mark's Square Venice",
+      "hotel_name": "Belmond Hotel Cipriani",
+      "hotel_name_zh": "威尼斯奇普里亞尼酒店 · 豪華瀉湖景雙人房",
+      "hotel_room": "豪華瀉湖景雙人房",
+      "weather": "☀️ 30°/20°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐 · 享用自助早餐 · 俯瞰朱代卡運河"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚤 搭乘酒店免費水上巴士前往聖馬可廣場（5分鐘）"
+        },
+        {
+          "time": "09:30",
+          "desc": "⛪ 聖馬可大教堂 (Basilica di San Marco) · 免費入場 · 金色鑲嵌畫"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏛️ 總督宮 (Palazzo Ducale) · 門票 €25/人 · 嘆息橋"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍝 午餐：Osteria Al Squero · Cicchetti 拼盤 + 白酒"
+        },
+        {
+          "time": "15:00",
+          "desc": "🎭 學院美術館 (Gallerie dell'Accademia) · 門票 €12/人 · 威尼斯畫派"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚶 里亞托橋 (Rialto Bridge) · 市場區散步 · 購買紀念品"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ Osteria alle Testiere 海鮮晚餐 · 墨魚汁義大利麵與香煎干貝"
+          "desc": "🍽️ Ristorante Quadri 米其林二星晚餐 · 聖馬可廣場 · 預約 19:30"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 返回飯店 · 無邊際泳池夜泳 · 聖馬可廣場夜景"
+          "time": "22:00",
+          "desc": "🌙 搭乘水上巴士返回酒店 · 夜間運河燈光"
         }
       ],
       "day_photo": "https://fthmb.tqn.com/N_22qOkXJvv2TGl0CYrbaxZ8E-I=/3591x2312/filters:fill(auto,1)/atardecer-en-pizza-san-marco--venice--187413773-5975574caad52b0011778c5d.jpg"
     },
     {
       "day": 5,
-      "date": "Aug 19 · Wed",
-      "label_zh": "彩色島 · 玻璃工藝",
-      "day_query": "Burano colorful houses Venice",
+      "date": "8月19日 · 週三",
+      "label_zh": "威尼斯 · 彩色島與玻璃島",
+      "day_query": "Burano colorful houses",
       "hotel_name": "Belmond Hotel Cipriani",
-      "hotel_name_zh": "貝爾蒙德奇普里亞尼酒店 · 經典潟湖景雙人房",
-      "hotel_room": "經典潟湖景雙人房",
-      "weather": "☀️ 31°/23°",
+      "hotel_name_zh": "威尼斯奇普里亞尼酒店 · 豪華瀉湖景雙人房",
+      "hotel_room": "豪華瀉湖景雙人房",
+      "weather": "☀️ 31°/21°",
       "rain_pct": "10%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 Belmond Cipriani 早餐 · 規劃今日跳島"
+          "desc": "🥐 酒店早餐 · 泳池邊享用"
         },
         {
           "time": "09:00",
-          "desc": "🚤 從聖馬可廣場乘水上巴士前往穆拉諾島 Murano（船程 30 分鐘 · €7.50/人）"
+          "desc": "🚤 搭水上巴士前往穆拉諾島 (Murano) · 約20分鐘 · 參觀玻璃工廠"
         },
         {
-          "time": "09:45",
-          "desc": "🔮 穆拉諾玻璃工廠參觀 · 現場吹製玻璃示範 · 購買玻璃飾品"
-        },
-        {
-          "time": "11:30",
-          "desc": "🚤 穆拉諾 → 布拉諾島 Burano（20分鐘 · €7.50/人）"
-        },
-        {
-          "time": "12:00",
-          "desc": "📸 彩虹島 Burano · 彩色房屋拍照 · 蕾絲工藝品店"
+          "time": "11:00",
+          "desc": "🚤 續往布拉諾島 (Burano) · 約30分鐘 · 彩色房屋拍照"
         },
         {
           "time": "13:00",
-          "desc": "🍝 午餐：Trattoria al Gatto Nero · 海鮮義大利麵（兩人 €60）"
+          "desc": "🍝 午餐：Trattoria al Gatto Nero · 海鮮義大利麵 · 兩人約 €60"
         },
         {
           "time": "15:00",
-          "desc": "🚤 返回威尼斯本島 · 自由探索小巷與橋樑"
+          "desc": "🚤 返回威尼斯本島 · 自由漫步· 學院橋拍照"
         },
         {
           "time": "17:00",
-          "desc": "☕ 下午茶：Caffè del Doge · 品嚐威尼斯濃縮咖啡"
+          "desc": "🛍️ 鳳凰劇院 (Teatro La Fenice) 導覽 · 門票 €12/人"
         },
         {
-          "time": "19:30",
-          "desc": "🍽️ Belmond Cipriani 米其林二星餐廳 · 預約 19:30 · 品嚐主廚特製海鮮菜單"
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：酒店內米其林星級餐廳 Oro Restaurant · 品嚐菜單 €150/人"
         },
         {
-          "time": "22:00",
-          "desc": "🌙 飯店泳池畔星空 · 潟湖寧靜之夜"
+          "time": "21:00",
+          "desc": "🌙 酒店花園散步 · 無邊際泳池夜景"
         }
       ],
-      "day_photo": "https://windows10spotlight.com/wp-content/uploads/2023/02/7e43c47d762e0998daea2bf7b35f601b.jpg"
+      "day_photo": "https://img.atlasobscura.com/WNnd5sTvkWk6WydXiC_Ua1N6phLoGL2kPH4vKyJ7cAU/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy84ZDJj/YTMzZTljYTk0NmRh/ZjVfNzE0OTU2MDA4/N18wNWZlOGNhZDhk/X2suanBn.jpg"
     },
     {
       "day": 6,
-      "date": "Aug 20 · Thu",
-      "label_zh": "自由日 · 告別威尼斯",
-      "day_query": "Grand Canal Venice",
+      "date": "8月20日 · 週四",
+      "label_zh": "威尼斯 · 貢多拉與隱藏寶藏",
+      "day_query": "Gondola ride Venice",
       "hotel_name": "Belmond Hotel Cipriani",
-      "hotel_name_zh": "貝爾蒙德奇普里亞尼酒店 · 經典潟湖景雙人房",
-      "hotel_room": "經典潟湖景雙人房",
-      "weather": "☀️ 32°/24°",
+      "hotel_name_zh": "威尼斯奇普里亞尼酒店 · 豪華瀉湖景雙人房",
+      "hotel_room": "豪華瀉湖景雙人房",
+      "weather": "☀️ 32°/22°",
       "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 Belmond Cipriani 最後早餐 · 潟湖景致"
+          "desc": "🥐 酒店早餐 · 悠閒時光"
         },
         {
           "time": "09:30",
-          "desc": "🛥️ 飯店 shuttle 至聖馬可 · 最後漫步 · 購買玻璃紀念品"
+          "desc": "🚤 貢多拉遊船 (Gondola) · 30分鐘 · 約 €80 · 穿過小運河"
         },
         {
-          "time": "11:00",
-          "desc": "🎨 佩姬·古根漢美術館 Peggy Guggenheim Collection（門票 €16/人）· 現代藝術"
+          "time": "10:30",
+          "desc": "🏛️ 佩姬·古根漢美術館 (Collezione Peggy Guggenheim) · 門票 €15/人"
         },
         {
           "time": "12:30",
-          "desc": "🍝 午餐：Osteria da Alberto · 海鮮拼盤（兩人 €50）"
+          "desc": "🍝 午餐：Trattoria Al Gazzettino · 威尼斯墨魚麵 · 兩人約 €50"
         },
         {
-          "time": "14:00",
-          "desc": "🛍️ 自由活動：里亞爾托橋周邊購物 · 或乘坐水上巴士遊大運河"
+          "time": "14:30",
+          "desc": "🚶 雷佐尼可宮 (Ca' Rezzonico) · 門票 €10/人 · 18世紀威尼斯生活"
         },
         {
-          "time": "16:00",
-          "desc": "🏨 返回飯店取行李 · 整理行裝"
+          "time": "16:30",
+          "desc": "☕ Caffè Florian 下午茶 · 現場音樂演奏"
         },
         {
-          "time": "17:30",
-          "desc": "🚤 飯店私人水上計程車前往馬可波羅機場 VCE（20分鐘 · 免費）"
+          "time": "18:00",
+          "desc": "🛍️ 自由購物時間 · 里亞托橋附近紀念品"
         },
         {
-          "time": "18:30",
-          "desc": "✈️ 抵達 VCE 機場 · 辦理退稅 · 通關"
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：酒店內 Cip's Club · 海鮮拼盤 · 兩人約 €120"
         },
         {
-          "time": "21:00",
-          "desc": "✈️ 搭乘中華航空 CI 72 直飛回台灣 · 起飛 21:00"
-        },
-        {
-          "time": "23:00",
-          "desc": "🌙 機上過夜 · 回味義大利美好時光"
+          "time": "22:00",
+          "desc": "🌙 收拾行李 · 酒店休息"
         }
       ],
-      "day_photo": "https://cdn.britannica.com/63/153463-050-06B6270D/Grand-Canal-Venice.jpg"
+      "day_photo": "http://images.ansharphoto.com/2015/051-Traditional-Venice-Gondola-Ride-along-Narrow-Canal-Venice-Italy.jpg"
     },
     {
       "day": 7,
-      "date": "Aug 21 · Fri",
-      "label_zh": "返抵台灣",
-      "day_query": "Taiwan Taoyuan International Airport",
-      "hotel_name": "機上",
-      "hotel_name_zh": "機上",
-      "hotel_room": "經濟艙",
-      "weather": "☀️ 33°/26°",
-      "rain_pct": "20%",
+      "date": "8月21日 · 週五",
+      "label_zh": "返程 · 再會義大利",
+      "day_query": "Venice Marco Polo Airport",
+      "hotel_name": "Belmond Hotel Cipriani",
+      "hotel_name_zh": "威尼斯奇普里亞尼酒店 · 豪華瀉湖景雙人房",
+      "hotel_room": "豪華瀉湖景雙人房",
+      "weather": "☀️ 30°/20°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "05:50",
-          "desc": "✈️ 抵達台灣桃園國際機場 TPE Terminal 2 · 入境通關"
-        },
-        {
           "time": "07:00",
-          "desc": "🛄 領取行李 · 辦理入境手續"
+          "desc": "🥐 酒店早餐 · 退房 · 寄放行李（如需要）"
         },
         {
-          "time": "08:00",
-          "desc": "🚕 搭乘計程車返回溫暖的家 · 結束浪漫義大利之旅"
+          "time": "08:30",
+          "desc": "🚤 搭乘酒店私人水上巴士前往威尼斯馬可波羅機場 (VCE) · 約20分鐘"
+        },
+        {
+          "time": "09:00",
+          "desc": "✈️ 抵達機場 · 辦理登機 · 退稅（如有購物）"
+        },
+        {
+          "time": "11:00",
+          "desc": "✈️ 搭乘中華航空 CI 76 · 威尼斯 → 台北 · 直飛 13小時"
+        },
+        {
+          "time": "06:00",
+          "desc": "🌏 抵達台灣桃園機場 (TPE) · 甜蜜的家"
         }
       ],
-      "day_photo": "https://ckshotel.com.tw/wp-content/uploads/2023/12/Taiwan-Taoyuan-International-Airport-Terminal-Ring-Road-Corridor-2048x1365.jpg"
+      "day_photo": "https://upload.wikimedia.org/wikipedia/commons/7/74/Aeroporto_di_Venezia_-_vue_aerienne.jpg"
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票",
+      "label": "✈️ 來回機票 (中華航空直飛)",
       "amount_ntd": 72000
     },
     {
-      "label": "🏨 住宿（總計）",
-      "amount_ntd": 168000
+      "label": "🏨 住宿（羅馬3晚 + 威尼斯4晚）",
+      "amount_ntd": 245000
     },
     {
-      "label": "🍽️ 餐飲",
-      "amount_ntd": 35000
+      "label": "🍽️ 餐飲（含米其林餐廳）",
+      "amount_ntd": 45000
     },
     {
-      "label": "🎫 景點門票",
+      "label": "🎫 景點門票（博物館、競技場等）",
       "amount_ntd": 15000
     },
     {
-      "label": "🚇 交通",
-      "amount_ntd": 12000
+      "label": "🚇 交通（計程車、高鐵、水上巴士、貢多拉）",
+      "amount_ntd": 18000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 10000
+      "amount_ntd": 5000
     }
   ],
-  "cost_total_ntd": 302000,
-  "budget_remaining_ntd": -2000,
+  "cost_total_ntd": 400000,
+  "budget_remaining_ntd": 0,
   "photos": {
     "hero": [
       {
@@ -659,28 +655,28 @@
         "label": "Beautiful Italy Destinations 10 Reasons To Visit Northern Italy (Map"
       },
       {
-        "url": "https://www.reckontalk.com/wp-content/uploads/2019/07/best-places-visit-in-italy-Cinque-Terre.jpg",
-        "label": "Top 15 Must-Visit Places in Italy: From Ancient Ruins to Natural ..."
-      },
-      {
         "url": "https://i1.wp.com/handluggageonly.co.uk/wp-content/uploads/2018/05/Hand-Luggage-Only-6-2.jpg?fit=1600,2400&ssl=1",
         "label": "12 Best Places In Italy To Visit On A First Trip - Hand Luggage Only ..."
-      },
-      {
-        "url": "http://getwallpapers.com/wallpaper/full/8/9/6/897777-italian-scenery-wallpaper-1920x1080-cell-phone.jpg",
-        "label": "Italian Scenery Wallpaper (52+ images)"
       },
       {
         "url": "https://globalgrasshopper.com/wp-content/uploads/2011/04/Cinque-Terre-Italy-1000x665.jpg",
         "label": "20 of the most beautiful places to visit in Italy | Boutique Travel Blog"
       },
       {
-        "url": "https://images.travelandleisureasia.com/wp-content/uploads/sites/5/2024/03/18192544/venice.jpeg",
-        "label": "A Guide To The Most Beautiful Places In Italy"
+        "url": "https://hips.hearstapps.com/hmg-prod/images/sunset-over-varenna-lake-como-italy-royalty-free-image-1734456352.pjpeg?crop=1xw:0.99953xh;center,top&resize=980:*",
+        "label": "The 10 Most Beautiful Places in Italy to Add to Your Travel List"
+      },
+      {
+        "url": "http://getwallpapers.com/wallpaper/full/3/c/8/897809-amazing-italian-scenery-wallpaper-1920x1200-for-android-50.jpg",
+        "label": "Italian Scenery Wallpaper (52+ images)"
+      },
+      {
+        "url": "https://globalgrasshopper.com/wp-content/uploads/2011/04/Amalfi-1000x750.jpg",
+        "label": "20 of the most beautiful places to visit in Italy | Boutique Travel Blog"
       }
     ]
   },
   "chat_hash": "e08cc99cf1f438b879d4ae4faa77594f4a040f75c2335e87585f0b0d88f66b84",
-  "config_hash": "e2a97cea2bea36a96317972a093d62b6eeb4faaa599b78eaad2efd886b3ccaaf",
-  "generated_at": "2026-05-27T04:56:53.840590"
+  "config_hash": "45629bef4777d7c0b0f0eb237d5b5aeb5865037acf05dd14b6f3299b33c7688c",
+  "generated_at": "2026-05-27T06:26:38.036026"
 }
