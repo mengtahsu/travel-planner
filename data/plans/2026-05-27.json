@@ -1,113 +1,113 @@
 {
-  "destination_en": "Italy",
-  "title_zh": "義大利 · 浪漫六日雙城之旅",
-  "date_range": "2026/08/10–08/16",
+  "destination_en": "Kyoto, Japan",
+  "title_zh": "京都頂級園林庭院 · 五天深度研究之旅",
+  "date_range": "2026/08/10–08/14",
   "start_date": "2026-08-10",
-  "end_date": "2026-08-16",
+  "end_date": "2026-08-14",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "FCO",
+  "destination_code": "KIX",
   "travelers": 2,
-  "days": 7,
+  "days": 5,
   "budget_ntd": 400000,
   "flight": {
     "airline": "長榮航空 EVA Air",
     "departure_date": "8月10日",
-    "return_date": "8月16日",
-    "total_price_ntd": 68000,
+    "return_date": "8月14日",
+    "total_price_ntd": 32000,
     "outbound": {
-      "flight_no": "BR 95",
-      "route": "TPE → FCO 直飛",
-      "depart_time": "23:40",
-      "arrive_time": "07:00 (+1)",
-      "duration": "13h 20m",
+      "flight_no": "BR 178",
+      "route": "TPE → KIX 直飛",
+      "depart_time": "06:30",
+      "arrive_time": "10:10",
+      "duration": "2h 40m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "BR 96",
-      "route": "FCO → TPE 直飛",
-      "depart_time": "11:00",
-      "arrive_time": "06:30 (+1)",
-      "duration": "12h 30m",
+      "flight_no": "BR 179",
+      "route": "KIX → TPE 直飛",
+      "depart_time": "19:00",
+      "arrive_time": "21:30",
+      "duration": "2h 30m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Hotel Hassler Roma",
-      "name_zh": "羅馬哈斯勒酒店",
-      "district": "羅馬市中心 西班牙階梯旁",
-      "day_range": "1–3",
-      "nights": 3,
-      "price_ntd": 72000,
+      "name": "The Ritz-Carlton Kyoto",
+      "name_zh": "京都麗思卡爾頓酒店",
+      "district": "中京區 · 鴨川畔",
+      "day_range": "1–2",
+      "nights": 2,
+      "price_ntd": 90000,
       "stars": "★★★★★",
-      "room_type": "經典雙人房 含早餐",
-      "breakfast": "含義式自助早餐",
-      "amenities": "🏛️ 屋頂餐廳俯瞰西班牙階梯 · 💆 SPA · 🍷 米其林星級餐廳",
-      "search_query": "Hotel Hassler Roma Italy",
+      "room_type": "豪華鴨川景觀雙人房",
+      "breakfast": "含日式/西式自助早餐",
+      "amenities": "🏊 室內泳池 · 💆 水療中心 · 🍽️ 米其林餐廳 · 🌸 日式庭園",
+      "search_query": "The Ritz-Carlton Kyoto hotel",
       "photos": [
         {
-          "url": "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/01/16191135/Featured-Inside-33.jpeg",
-          "label": "Hassler Roma: Your One-Stop Destination For An Iconic Stay In Italy"
+          "url": "https://d1rioy1v9s51jr.cloudfront.net/pics/21487/1800x900/the-ritz-carlton-kyoto-1_9168.jpg",
+          "label": "Hotel The Ritz-Carlton Kyoto - Booking & Info"
         },
         {
-          "url": "https://static.hurlinghamtravel.co.uk/photos/838/hotel-hassler-roma-hassler-bistrot-at-salone-eva.jpg",
-          "label": "Hotel Hassler Roma, Rome, Italy - Luxury Hotel | Hurlingham Travel"
+          "url": "https://media.cntraveler.com/photos/5abbab75d312417947651f71/16:9/w_2560,c_limit/Ebisugawa-tei-1.jpg",
+          "label": "The Ritz-Carlton, Kyoto, Japan – Hotel Review | Condé Nast Traveler"
         },
         {
-          "url": "https://oliveoilandlemons.com/wp-content/uploads/2016/01/DSC06803-1024x683.jpg",
-          "label": "Rome's Hotel Hassler – reliving a moment in time | Olive Oil and Lemons ..."
+          "url": "https://www.outthere.travel/wp-content/uploads/2020/11/Ritz-Calrton-Kyoto-5-1400x933.jpg",
+          "label": "The Ritz-Carlton Kyoto, Japan - OutThere magazine"
         },
         {
-          "url": "https://hassler.italyromehotels.net/data/Images/OriginalPhoto/17065/1706549/1706549505/rome-hassler-roma-image-94.JPEG",
-          "label": "Hotel Hassler Rome - new 2025 prices, reviews, book now"
+          "url": "https://www.outthere.travel/wp-content/uploads/2020/11/Ritz-Calrton-Kyoto-1.jpg",
+          "label": "The Ritz-Carlton Kyoto, Japan - OutThere magazine"
         },
         {
-          "url": "https://www.cinnamoncircle.com/blog/wp-content/uploads/2022/10/hassler-rome-03.jpg",
-          "label": "Hassler Rome Hotel HOTEL HASSLER Updated 2025 Prices & Reviews"
+          "url": "https://cache.marriott.com/content/dam/marriott-renditions/UKYRZ/ukyrz-deluxe-0006-hor-clsc.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1336px:*",
+          "label": "Kyoto Hotel near Gion | The Ritz-Carlton, Kyoto"
         },
         {
-          "url": "https://hassler.italyromehotels.net/data/Images/OriginalPhoto/16499/1649900/1649900054/rome-hassler-roma-image-36.JPEG",
-          "label": "Hotel Hassler Rome - new 2025 prices, reviews, book now"
+          "url": "https://www.fivestaralliance.com/files/fivestaralliance.com/field/image/nodes/2014/23044/23044_0_theritzcarltonkyoto_fsa-g.jpg",
+          "label": "The Ritz-Carlton, Kyoto, Kyoto : Five Star Alliance"
         }
       ]
     },
     {
-      "name": "Hotel Danieli",
-      "name_zh": "威尼斯丹尼埃利酒店",
-      "district": "威尼斯 聖馬可廣場旁",
-      "day_range": "4–6",
-      "nights": 3,
-      "price_ntd": 78000,
+      "name": "Aman Kyoto",
+      "name_zh": "安縵京都",
+      "district": "左京區 · 大原",
+      "day_range": "3–4",
+      "nights": 2,
+      "price_ntd": 180000,
       "stars": "★★★★★",
-      "room_type": "潟湖景豪華雙人房 含早餐",
-      "breakfast": "含威尼斯式早餐",
-      "amenities": "🚤 私人水上計程車接送 · 💎 歷史悠久的宴會廳 · 🌅 屋頂露台",
-      "search_query": "Hotel Danieli Venice Italy",
+      "room_type": "鴬宿（Uguisubari）套房",
+      "breakfast": "含和式朝食",
+      "amenities": "🏞️ 私人庭園 · ♨️ 溫泉 · 🍵 茶道體驗 · 🌿 竹林小徑",
+      "search_query": "Aman Kyoto resort",
       "photos": [
         {
-          "url": "http://www.telegraph.co.uk/content/dam/Travel/hotels/europe/italy/venice/hotel-danieli-venice.jpg",
-          "label": "Hotel Danieli Review, Venice | Travel"
+          "url": "https://www.aman.com/sites/default/files/2022-12/Aman+Kyoto,+The+Living+Pavilion.jpg",
+          "label": "Aman Kyoto – Luxury Resort & Spa in Kyoto, Japan – Aman"
         },
         {
-          "url": "https://madere.de/wp-content/uploads/2020/11/Hotel-Danieli-10-Original-Foto-Peter-Hanneberg.jpg",
-          "label": "Hotel Danieli – legendary palace of Venice - MaDeRe"
+          "url": "https://www.aman.com/sites/default/files/2022-12/Aman+Kyoto,+Japan+-+The+Living+Pavilion.jpg",
+          "label": "Luxury Resort & Onsen Spa in Kyoto, Japan – Aman Kyoto"
         },
         {
-          "url": "https://preview.redd.it/jucwnel1qss81.jpg?auto=webp&s=5dfd7e361859a8f56c01db0cf2d61ae461126f24",
-          "label": "Hotel Danieli in Venice, Italy : r/ArchitecturePorn"
+          "url": "https://www.aman.com/sites/default/files/2023-10/aman-kyoto-takagamine-pavilion.jpg",
+          "label": "Luxury Kyoto Resort Accomodation – Aman Kyoto"
         },
         {
-          "url": "https://cosmopolis.ch/wp-content/uploads/2019/10/hotel-danieli-venice-lobby-staircase.jpg",
-          "label": "Daneli Venice Hotel Danieli Venice Deluxe Lagoon View Room Tour"
+          "url": "https://www.aman.com/sites/default/files/2024-02/aman-kyoto-susuki-room.jpg",
+          "label": "Luxury Resort & Onsen Spa in Kyoto, Japan – Aman Kyoto"
         },
         {
-          "url": "https://www.luxurylink.com/images/sho_5666e388/1371_205-2048/image-1371_205.jpg",
-          "label": "Hotel Danieli, A Luxury Collection Hotel, Venice in Venice, Italy"
+          "url": "https://archeyes.com/wp-content/uploads/2020/07/Aman-Kyoto-Japan-The-Living-Pavilion-by-Aman-Exterior_High-Res_26182.jpg",
+          "label": "The AMAN Kyoto Resort: A Masterpiece by Kerry Hill Architects | ArchEyes"
         },
         {
-          "url": "https://media.cntraveler.com/photos/590b94dc7f9d5261463d70cb/16:9/w_2560,c_limit/Bar-HotelDanieli-Venice-CRHotel.jpg",
-          "label": "Hotel Danieli, a Luxury Collection Hotel, Venice, Italy - Hotel Review ..."
+          "url": "https://i0.wp.com/archeyes.com/wp-content/uploads/2020/07/Aman-Kyoto-Japan-The-Living-Pavilion-by-Aman_High-Res_26154.jpg?ssl=1",
+          "label": "The AMAN Kyoto Resort: A Masterpiece by Kerry Hill Architects | ArchEyes"
         }
       ]
     }
@@ -115,156 +115,81 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "La Pergola",
-        "name_zh": "羅馬米其林三星 · 永恆之城之巔",
+        "name": "Kikunoi Honten",
+        "name_zh": "菊乃井本店 · 米其林三星",
         "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：龍蝦塔塔 · 黑松露義大利麵",
-        "address": "Via Alberto Cadlolo, 101, 羅馬",
-        "price_ntd": 14000,
-        "price_label": "晚餐套餐 €200/人 · NT$7,000/人",
-        "hours": "19:30–22:30 · 需提前預約",
-        "search_query": "La Pergola Rome Michelin star",
+        "dish": "🍣 招牌：懷石料理「八寸」· 季節刺身 · 和牛陶板燒",
+        "address": "東山區下河原通八坂鳥居前下る下河原町459",
+        "price_ntd": 18000,
+        "price_label": "晚餐懷石 ¥40,000/人 · NT$18,000",
+        "hours": "12:00–13:00 / 17:00–19:00 · 需預約",
+        "search_query": "Kikunoi Honten Kyoto kaiseki",
         "photos": [
           {
-            "url": "http://purentonline.com/blog/wp-content/uploads/2013/03/Rome-Cavalieri-La-Pergola-restaurant.jpg",
-            "label": "One of the best restaurants in Rome: 3-star Michelin La Pergola | Blog ..."
+            "url": "http://hungryforpoints.boardingarea.com/wp-content/uploads/2015/04/kikunoi-honten-kyoto-kaiseki-appetizers.jpg",
+            "label": "Fat And Furious: Kaiseki Dinner at 3-Michelin Star Kikunoi Honten ..."
           },
           {
-            "url": "https://romecavalieri.com/wp-content/uploads/2024/06/La-Pergola-Interiors-with-View-lowres-1.jpg",
-            "label": "La Pergola – Michelin-Starred Restaurant in Rome, Italy | Flavors ..."
+            "url": "https://preview.redd.it/kikunoi-honten-3-kaiseki-in-kyoto-japan-v0-w97xvwovqv7b1.jpg?width=1150&format=pjpg&auto=webp&s=9736f9557fe6d5a9ee8b91b5c1e61b23dbd42537",
+            "label": "Kikunoi Honten, 3* Kaiseki in Kyoto, Japan : r/finedining"
           },
           {
-            "url": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2024/08/07/8ec972b10d354fc49fad8a51afa86fbf_La_Pergola_panorama.jpg",
-            "label": "6 Rome Neighborhoods for MICHELIN Stars, Exceptional Stays, and Art ..."
-          }
-        ]
-      },
-      {
-        "name": "Ristorante Quadri",
-        "name_zh": "威尼斯廣場景觀米其林二星",
-        "stars": "⭐⭐",
-        "dish": "🦐 招牌：威尼斯海鮮燉飯 · 墨魚麵",
-        "address": "Piazza San Marco, 威尼斯",
-        "price_ntd": 12000,
-        "price_label": "晚餐套餐 €170/人 · NT$5,950/人",
-        "hours": "19:00–22:00 · 需預約",
-        "search_query": "Ristorante Quadri Venice San Marco",
-        "photos": [
-          {
-            "url": "https://images.snapwi.re/fc54/5a68405d17312e1d428b4575.w800.jpg",
-            "label": "Quadri Restaurant Venice Italy"
-          },
-          {
-            "url": "https://historiccafesroute.com/wp-content/uploads/2022/03/quadri-1.jpg",
-            "label": "Quadri Venice Restaurant Caffè Quadri Reviews, Photos & Phone"
-          },
-          {
-            "url": "https://venetosecrets.com/wp-content/uploads/2021/07/Ristorante-Quadri-Alajmo-Veneto-Secrets-18-1024x683.jpg",
-            "label": "Ristorante Quadri (VE) — Veneto Secrets"
+            "url": "https://hungryforpoints.boardingarea.com/wp-content/uploads/2015/04/kikunoi-honten-kyoto-kaiseki-duck-trout.jpg",
+            "label": "kikunoi honten kyoto kaiseki duck trout - Hungry for Points"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Armando al Pantheon",
-        "name_zh": "萬神殿旁家庭式小酒館",
-        "stars": "",
-        "dish": "🍝 招牌：羅馬式番茄麵 · 烤羊排",
-        "address": "Salita dei Crescenzi, 31, 羅馬",
-        "price_ntd": 3200,
-        "price_label": "雙人午餐 €90 · NT$3,150",
-        "hours": "12:30–15:00 / 19:00–23:00",
-        "search_query": "Armando al Pantheon Rome food",
+        "name": "Gion Sasaki",
+        "name_zh": "祇園 さゝき · 米其林二星",
+        "stars": "⭐⭐",
+        "dish": "🍤 招牌：天婦羅 · 鯛魚茶泡飯 · 抹茶布丁",
+        "address": "東山區祇園町北側292-1",
+        "price_ntd": 9000,
+        "price_label": "晚餐套餐 ¥20,000/人 · NT$9,000",
+        "hours": "17:30–22:00 · 需預約",
+        "search_query": "Gion Sasaki Kyoto",
         "photos": [
           {
-            "url": "https://cdn.website.dish.co/media/51/05/5873832/Crazy-Italy-Pizzeria-Bistro-italian-cuisine-pizza-pasta-and-toasts-2022-05-17-06-09-38-utc-jpg.jpg",
-            "label": "Crazy Italy Pizzeria & Bistro - Restaurant Burgdorf | German & Italian ..."
+            "url": "https://images.squarespace-cdn.com/content/v1/6260a0f4f2a1571c44b03c6e/d6407e07-705f-440e-97f1-2ee8fe60e2f6/IMG_1606.jpeg",
+            "label": "Review: Gion Sasaki - Kyoto"
           },
           {
-            "url": "https://juliaxeats.com/wp-content/uploads/2025/08/JULIAXEATS-OSTUNI-PUGLIA-ITALY-Borgo-Antico-Bistrot-3.jpg",
-            "label": "Borgo Antico Bistrot Ostuni Italy: Sunset Drinks with Sea Views ..."
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics__/4e5aac8066704de093f051fc8b465435",
+            "label": "Gion Sasaki – Kyoto - a MICHELIN Guide Restaurant"
           },
           {
-            "url": "https://www.theitalyinsider.com/wp-content/uploads/2025/03/Spaghetto-al-pomodoro-e-la-sua-scarpetta-scaled.jpg",
-            "label": "12 authentic trattorias & bistros to try in Milan - The Italy Insider"
-          }
-        ]
-      },
-      {
-        "name": "Osteria alle Testiere",
-        "name_zh": "威尼斯隱藏版海鮮小館",
-        "stars": "",
-        "dish": "🐟 招牌：白酒蛤蜊 · 自製墨魚麵",
-        "address": "Calle del Mondo Novo, 威尼斯",
-        "price_ntd": 3400,
-        "price_label": "雙人晚餐 €95 · NT$3,325",
-        "hours": "12:00–14:30 / 19:00–22:00",
-        "search_query": "Osteria alle Testiere Venice",
-        "photos": [
-          {
-            "url": "https://www.theitalyinsider.com/wp-content/uploads/2023/02/Serafina2-scaled.jpg",
-            "label": "15 authentic trattorias & bistros to try in Milan – The Italy Insider"
-          },
-          {
-            "url": "https://www.gamberorossointernational.com/wp-content/uploads/2023/11/Baccano.jpg",
-            "label": "Gambero Rosso's 7 best bistros in Italy - Gambero Rosso International"
-          },
-          {
-            "url": "https://www.theitalyinsider.com/wp-content/uploads/2025/03/Spaghetto-al-pomodoro-e-la-sua-scarpetta-scaled.jpg",
-            "label": "12 authentic trattorias & bistros to try in Milan – The Italy Insider"
+            "url": "https://rimage.hitosara.com/gg/image/0004028942/0004028942E5.jpg",
+            "label": "GION SASAKI in Gion, Kyoto - SAVOR JAPAN"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Caffè Greco",
-        "name_zh": "羅馬最古老咖啡館 · 1760年",
+        "name": "Ippodo Tea Kyoto",
+        "name_zh": "一保堂茶舖 · 本店",
         "stars": "",
-        "dish": "☕ 招牌：義式濃縮 · 提拉米蘇 · 手工巧克力",
-        "address": "Via dei Condotti, 86, 羅馬",
-        "price_ntd": 1200,
-        "price_label": "雙人咖啡甜點 €35 · NT$1,225",
-        "hours": "09:00–21:00",
-        "search_query": "Caffè Greco Rome interior",
+        "dish": "🍵 招牌：抹茶拿鐵 · 和菓子 · 煎茶品鑑",
+        "address": "中京區寺町通二条上ル",
+        "price_ntd": 2000,
+        "price_label": "兩人茶點 ¥4,500 · NT$2,000",
+        "hours": "09:00–18:00 · 茶室體驗",
+        "search_query": "Ippodo Tea Kyoto store",
         "photos": [
           {
-            "url": "https://coffeewithdamian.com/wp-content/uploads/2025/01/Antico-Caffe-Greco-4.jpg",
-            "label": "Antico Caffè Greco, The Oldest Cafe in Rome!"
+            "url": "https://global.ippodo-tea.co.jp/cdn/shop/files/gallery01_668a74c4-3612-4ecf-901c-a66addac51e1_1400x.png?v=1688441949",
+            "label": "Kyoto Main Store – Ippodo Tea Global"
           },
           {
-            "url": "https://www.worldtravelconnector.com/wp-content/uploads/2024/01/Antico-Caffe-Greco-in-Rome-Italy--767x1024.jpg.webp",
-            "label": "Visiting the Antico Caffè Greco Rome, the oldest bar in Rome"
+            "url": "https://global.ippodo-tea.co.jp/cdn/shop/files/img-kyoto-03.jpg?v=1739774748",
+            "label": "Ippodo Tea Kyoto Main Store – Ippodo Tea Global"
           },
           {
-            "url": "https://coffeewithdamian.com/wp-content/uploads/2025/01/Antico-Caffe-Greco--2000x1333.jpg",
-            "label": "Antico Caffè Greco, The Oldest Cafe in Rome!"
-          }
-        ]
-      },
-      {
-        "name": "Caffè Florian",
-        "name_zh": "威尼斯聖馬可廣場 · 1720年開業",
-        "stars": "",
-        "dish": "☕ 招牌：威尼斯濃縮 · 杏仁餅乾 · 現場音樂",
-        "address": "Piazza San Marco, 威尼斯",
-        "price_ntd": 1800,
-        "price_label": "雙人下午茶 €50 · NT$1,750",
-        "hours": "09:00–23:00",
-        "search_query": "Caffè Florian Venice",
-        "photos": [
-          {
-            "url": "https://imagesofvenice.com/wp-content/uploads/2023/08/ven_caffe-florian-feature-1_blog.jpg",
-            "label": "Caffe Florian - Images of Venice"
-          },
-          {
-            "url": "https://www.walksinrome.com/uploads/2/5/1/0/25107996/caffe-florian-piazza-san-marco-venice_orig.jpg",
-            "label": "Caffè Florian: The Oldest Coffee Shop in Italy - Walks in Rome (Est. 2001)"
-          },
-          {
-            "url": "https://caffeflorian.com/wp-content/uploads/2022/06/Rectangle-586-1.jpg",
-            "label": "Caffè Florian History, Venice's Timeless Coffeehouse"
+            "url": "https://qazjapan.com/cms/wp-content/uploads/2019/06/ippodo2.jpg",
+            "label": "Tea Shop Kyoto _ Ippodo Japan Tea – HGSMQY"
           }
         ]
       }
@@ -273,418 +198,342 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "8月10日 · 週一",
-      "label_zh": "抵達 · 永恆之城初探",
-      "day_query": "Colosseum Rome Italy",
-      "hotel_name": "Hotel Hassler Roma",
-      "hotel_name_zh": "羅馬哈斯勒酒店 · 經典雙人房",
-      "hotel_room": "經典雙人房",
-      "weather": "☀️ 32°/22°",
+      "date": "Aug 10 · Mon",
+      "label_zh": "抵達 · 鴨川靜心",
+      "day_query": "Ritz-Carlton Kyoto Kamogawa river view",
+      "hotel_name": "The Ritz-Carlton Kyoto",
+      "hotel_name_zh": "京都麗思卡爾頓酒店 · 豪華鴨川景觀雙人房",
+      "hotel_room": "豪華鴨川景觀雙人房",
+      "weather": "☀️ 34°/26°",
       "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "✈️ 抵達羅馬達文西機場 FCO · 入境通關取行李（約30分鐘）"
-        },
-        {
-          "time": "08:30",
-          "desc": "🚕 搭乘計程車前往酒店（約40分鐘 · €50）· 沿途欣賞羅馬郊區風光"
-        },
-        {
-          "time": "09:30",
-          "desc": "🏨 抵達 Hotel Hassler Roma · 寄放行李 · 換輕便衣物"
-        },
-        {
-          "time": "10:30",
-          "desc": "🥐 步行至西班牙階梯 · 在階梯上享用外帶咖啡與可頌"
-        },
-        {
-          "time": "11:30",
-          "desc": "🏟️ 羅馬競技場 Colosseum（預約票 €16/人）· 導覽約1.5小時"
-        },
-        {
-          "time": "13:30",
-          "desc": "🍝 Armando al Pantheon 午餐 · 品嚐羅馬番茄麵與烤羊排"
-        },
-        {
-          "time": "15:00",
-          "desc": "🏛️ 萬神殿 Pantheon（免費入場）· 欣賞穹頂與光影"
-        },
-        {
-          "time": "16:30",
-          "desc": "☕ Caffè Greco 下午咖啡 · 品嚐提拉米蘇"
-        },
-        {
-          "time": "18:00",
-          "desc": "🚶 納沃納廣場散步 · 欣賞四河噴泉"
-        },
-        {
-          "time": "19:30",
-          "desc": "🍽️ La Pergola 米其林三星晚餐 · 預約19:30 · 品嚐龍蝦塔塔與黑松露義大利麵"
-        },
-        {
-          "time": "22:30",
-          "desc": "🌙 返回酒店 · 夜間西班牙階梯燈光 · 入住 Hotel Hassler Roma"
-        }
-      ],
-      "day_photo": "http://www.hdwallpapers.in/walls/the_colosseum_rome_italy-normal.jpg"
-    },
-    {
-      "day": 2,
-      "date": "8月11日 · 週二",
-      "label_zh": "梵蒂岡 · 藝術與信仰",
-      "day_query": "Sistine Chapel Vatican",
-      "hotel_name": "Hotel Hassler Roma",
-      "hotel_name_zh": "羅馬哈斯勒酒店 · 經典雙人房",
-      "hotel_room": "經典雙人房",
-      "weather": "☀️ 33°/23°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店內享用義式自助早餐 · 咖啡與新鮮可頌"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚇 搭乘地鐵A線至Ottaviano站（€1.5/人）· 前往梵蒂岡"
-        },
-        {
-          "time": "09:30",
-          "desc": "🎨 梵蒂岡博物館 Musei Vaticani（預約票 €17/人）· 重點：拉斐爾畫室、西斯汀禮拜堂"
-        },
-        {
-          "time": "12:00",
-          "desc": "⛪ 聖彼得大教堂 Basilica di San Pietro（免費）· 登頂穹頂（€8/人）俯瞰羅馬"
-        },
-        {
-          "time": "13:30",
-          "desc": "🍝 梵蒂岡附近午餐 · Pizzeria da Baffetto 手工披薩"
-        },
-        {
-          "time": "15:00",
-          "desc": "🚶 聖天使堡 Castel Sant'Angelo（€14/人）· 欣賞台伯河景"
-        },
-        {
-          "time": "17:00",
-          "desc": "🛍️ 孔多蒂街 Via dei Condotti 精品購物 · 欣賞櫥窗"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：Armando al Pantheon 再次光臨（或選擇其他小館）"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 特雷維噴泉夜間散步 · 投硬幣許願 · 返回酒店"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 3,
-      "date": "8月12日 · 週三",
-      "label_zh": "羅馬經典 · 真理之口與台伯河",
-      "day_query": "Trevi Fountain Rome",
-      "hotel_name": "Hotel Hassler Roma",
-      "hotel_name_zh": "羅馬哈斯勒酒店 · 經典雙人房",
-      "hotel_room": "經典雙人房",
-      "weather": "☀️ 34°/24°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "08:30",
-          "desc": "🥐 酒店早餐 · 整理行李準備退房"
-        },
-        {
-          "time": "09:30",
-          "desc": "🏛️ 真理之口 Bocca della Verità（免費）· 拍照打卡"
-        },
-        {
-          "time": "10:30",
-          "desc": "🚶 馬切羅劇場 Teatro di Marcello · 漫步台伯河畔"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍝 午餐：Trattoria Da Enzo al 29 · 品嚐羅馬經典 Carbonara"
-        },
-        {
-          "time": "14:00",
-          "desc": "🏨 返回酒店取行李 · 退房"
-        },
-        {
-          "time": "15:00",
-          "desc": "🚕 前往羅馬特米尼車站 · 搭乘高鐵 Frecciarossa 前往威尼斯（車程3h45m · €80/人）"
-        },
-        {
-          "time": "19:00",
-          "desc": "🚤 抵達威尼斯聖路濟亞車站 · 搭乘水上計程車前往 Hotel Danieli（€60）"
-        },
-        {
-          "time": "19:45",
-          "desc": "🏨 抵達 Hotel Danieli · 辦理入住 · 欣賞潟湖景"
-        },
-        {
-          "time": "20:30",
-          "desc": "🍽️ 晚餐：Osteria alle Testiere · 品嚐威尼斯海鮮與墨魚麵"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 聖馬可廣場夜間散步 · 聆聽 Caffè Florian 現場音樂"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 4,
-      "date": "8月13日 · 週四",
-      "label_zh": "威尼斯 · 水都迷情",
-      "day_query": "St Mark's Basilica Venice",
-      "hotel_name": "Hotel Danieli",
-      "hotel_name_zh": "威尼斯丹尼埃利酒店 · 潟湖景豪華雙人房",
-      "hotel_room": "潟湖景豪華雙人房",
-      "weather": "☀️ 30°/22°",
-      "rain_pct": "15%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店內享用威尼斯式早餐 · 新鮮水果與義式咖啡"
-        },
-        {
-          "time": "09:00",
-          "desc": "⛪ 聖馬可大教堂 Basilica di San Marco（免費 · 預約快速通道 €5/人）· 金色馬賽克"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏛️ 總督宮 Palazzo Ducale（預約票 €25/人）· 嘆息橋"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍝 午餐：Trattoria Al Gazzettino · 墨魚麵與炸海鮮"
-        },
-        {
-          "time": "14:00",
-          "desc": "🚤 貢多拉遊船（30分鐘 €80）· 穿梭小巷運河"
-        },
-        {
-          "time": "15:30",
-          "desc": "🎨 佩姬·古根漢美術館（€16/人）· 現代藝術"
-        },
-        {
-          "time": "17:00",
-          "desc": "☕ Caffè Florian 下午茶 · 杏仁餅乾與現場弦樂"
-        },
-        {
-          "time": "19:00",
-          "desc": "🛍️ 里亞托橋附近購物 · 面具與玻璃工藝品"
-        },
-        {
-          "time": "20:30",
-          "desc": "🍽️ Ristorante Quadri 米其林二星晚餐 · 聖馬可廣場景觀"
-        },
-        {
-          "time": "22:30",
-          "desc": "🌙 返回 Hotel Danieli · 屋頂露台欣賞夜景"
-        }
-      ],
-      "day_photo": "http://famouswonders.com/wp-content/uploads/2009/04/st-marks-basilica.jpg"
-    },
-    {
-      "day": 5,
-      "date": "8月14日 · 週五",
-      "label_zh": "威尼斯島嶼 · 慕拉諾與布拉諾",
-      "day_query": "Burano colorful houses Venice",
-      "hotel_name": "Hotel Danieli",
-      "hotel_name_zh": "威尼斯丹尼埃利酒店 · 潟湖景豪華雙人房",
-      "hotel_room": "潟湖景豪華雙人房",
-      "weather": "☀️ 31°/23°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:30",
-          "desc": "🥐 酒店早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚤 搭乘水上巴士前往慕拉諾島 Murano（約20分鐘）· 參觀玻璃工廠"
-        },
-        {
-          "time": "11:00",
-          "desc": "🔮 慕拉諾玻璃博物館（€10/人）· 欣賞玻璃工藝"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍝 午餐：慕拉諾島上的 Trattoria alla Vecchia Pescheria"
-        },
-        {
-          "time": "14:00",
-          "desc": "🚤 搭乘水上巴士前往布拉諾島 Burano（約30分鐘）"
-        },
-        {
-          "time": "14:45",
-          "desc": "📸 彩色小屋拍照 · 蕾絲工坊參觀"
-        },
-        {
-          "time": "16:30",
-          "desc": "🚤 返回威尼斯本島"
-        },
-        {
-          "time": "18:00",
-          "desc": "🛍️ 聖馬可廣場周邊購物 · 威尼斯面具"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：Osteria alle Testiere（再次光臨或選擇新餐廳）"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 夜遊威尼斯 · 里亞托橋夜景"
-        }
-      ],
-      "day_photo": "https://img.atlasobscura.com/WNnd5sTvkWk6WydXiC_Ua1N6phLoGL2kPH4vKyJ7cAU/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy84ZDJj/YTMzZTljYTk0NmRh/ZjVfNzE0OTU2MDA4/N18wNWZlOGNhZDhk/X2suanBn.jpg"
-    },
-    {
-      "day": 6,
-      "date": "8月15日 · 週六",
-      "label_zh": "威尼斯最後巡禮 · 返程",
-      "day_query": "Grand Canal Venice",
-      "hotel_name": "Hotel Danieli",
-      "hotel_name_zh": "威尼斯丹尼埃利酒店 · 潟湖景豪華雙人房",
-      "hotel_room": "潟湖景豪華雙人房",
-      "weather": "☀️ 30°/22°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐 · 整理行李準備退房"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚤 最後一次貢多拉遊船（30分鐘）· 享受水都晨光"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏨 退房 · 寄放行李"
-        },
-        {
-          "time": "11:00",
-          "desc": "🎨 學院美術館 Gallerie dell'Accademia（€12/人）· 威尼斯畫派"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍝 午餐：Trattoria Da Fiore · 威尼斯式海鮮"
-        },
-        {
-          "time": "14:30",
-          "desc": "🛍️ 最後購物 · 玻璃飾品與面具"
-        },
-        {
-          "time": "16:00",
-          "desc": "🚤 搭乘水上計程車前往威尼斯馬可波羅機場 VCE（約20分鐘 · €80）"
-        },
-        {
-          "time": "17:00",
-          "desc": "✈️ 抵達機場 · 辦理登機與退稅"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 機場貴賓室休息（若有）"
-        },
-        {
-          "time": "21:00",
-          "desc": "✈️ 登機 · 返回台灣"
-        }
-      ],
-      "day_photo": "https://cdn.britannica.com/63/153463-050-06B6270D/Grand-Canal-Venice.jpg"
-    },
-    {
-      "day": 7,
-      "date": "8月16日 · 週日",
-      "label_zh": "返抵台灣",
-      "day_query": "Taiwan Taoyuan Airport",
-      "hotel_name": "",
-      "hotel_name_zh": "",
-      "hotel_room": "",
-      "weather": "",
-      "rain_pct": "",
       "slots": [
         {
           "time": "06:30",
-          "desc": "✈️ 抵達桃園國際機場 TPE · 通關取行李"
+          "desc": "✈️ 桃園機場 TPE 出發 · 長榮 BR178 · 06:30 起飛"
         },
         {
-          "time": "08:00",
-          "desc": "🚕 返回溫暖的家 · 旅程結束"
+          "time": "10:10",
+          "desc": "🛬 抵達關西機場 KIX · 入境通關取行李（約30分鐘）"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚄 搭乘 HARUKA 特急列車前往京都站（75分鐘 · ¥3,600/人 · 約NT$1,600）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🚕 計程車至酒店（約10分鐘 · ¥1,500 · 約NT$670）· 入住麗思卡爾頓"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍱 午餐：酒店內「水暉」天婦羅餐廳（¥8,000/人 · 約NT$3,600）"
+        },
+        {
+          "time": "15:00",
+          "desc": "🌸 探索酒店日式庭園 · 鴨川河畔散步 · 欣賞夏季風光"
+        },
+        {
+          "time": "17:00",
+          "desc": "🍵 一保堂茶舖 · 品嚐抹茶與和菓子（約1小時 · NT$2,000）"
+        },
+        {
+          "time": "18:30",
+          "desc": "🚶 步行至祇園 · 花見小路通 · 感受古都氛圍"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 菊乃井本店 · 米其林三星懷石料理（20:00 開始 · 約2.5小時）"
+        },
+        {
+          "time": "22:30",
+          "desc": "🌙 返回酒店 · 享用酒店星空酒吧 · 俯瞰鴨川夜景"
         }
       ],
-      "day_photo": "https://www.taipei-airport.com/images/taipei-taoyuan-airport-tpe.jpg"
+      "day_photo": "https://www.shinyvisa.com/wp-content/uploads/2026/02/The-Ritz-Carlton-Kyoto-1024x576.jpeg"
+    },
+    {
+      "day": 2,
+      "date": "Aug 11 · Tue",
+      "label_zh": "庭園巡禮 · 銀閣寺與龍安寺",
+      "day_query": "Ginkakuji Temple garden Kyoto",
+      "hotel_name": "The Ritz-Carlton Kyoto",
+      "hotel_name_zh": "京都麗思卡爾頓酒店 · 豪華鴨川景觀雙人房",
+      "hotel_room": "豪華鴨川景觀雙人房",
+      "weather": "☀️ 35°/27°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店內早餐（日式/西式自助 · 含在房費）"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚕 計程車前往銀閣寺（約15分鐘 · ¥2,000 · 約NT$890）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🏛️ 銀閣寺 Ginkakuji · 枯山水庭園 · 門票¥500/人（約NT$220）· 參觀1.5小時"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚶 哲學之道散步（約1公里 · 沿途小店）"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍜 午餐：奧丹清水湯豆腐（¥3,500/人 · 約NT$1,560）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚌 巴士至龍安寺（約30分鐘 · ¥230/人 · 約NT$100）"
+        },
+        {
+          "time": "14:45",
+          "desc": "🏛️ 龍安寺 Ryoanji · 世界遺產石庭 · 門票¥600/人（約NT$270）· 冥想30分鐘"
+        },
+        {
+          "time": "16:30",
+          "desc": "🚕 計程車返回酒店（約20分鐘 · ¥3,000 · 約NT$1,330）"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 祇園 さゝき · 米其林二星晚餐（預約19:00 · 約2小時）"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 返回酒店 · 享受水療中心按摩（¥20,000/人 · 約NT$8,890）"
+        }
+      ],
+      "day_photo": "https://d3bbatwdaufxg9.cloudfront.net/content/1014/5552/5536/01-20140228_Ginkakuji_Mainspot-81.jpg"
+    },
+    {
+      "day": 3,
+      "date": "Aug 12 · Wed",
+      "label_zh": "安縵入住 · 大原山林",
+      "day_query": "Aman Kyoto garden entrance",
+      "hotel_name": "Aman Kyoto",
+      "hotel_name_zh": "安縵京都 · 鴬宿套房",
+      "hotel_room": "鴬宿（Uguisubari）套房",
+      "weather": "⛅ 32°/24°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐後 · 收拾行李"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏨 退房麗思卡爾頓 · 行李寄存前台"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚕 計程車前往西芳寺（約20分鐘 · ¥2,500 · 約NT$1,110）"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏛️ 西芳寺 Saihoji（苔寺）· 需提前預約 · 門票¥3,000/人（約NT$1,330）· 抄經體驗"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍱 午餐：松ヶ崎 葵（¥5,000/人 · 約NT$2,220）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚕 計程車前往安縵京都（約30分鐘 · ¥5,000 · 約NT$2,220）· 辦理入住"
+        },
+        {
+          "time": "15:00",
+          "desc": "🌸 安縵私人庭園散步 · 竹林小徑 · 瀑布冥想"
+        },
+        {
+          "time": "17:00",
+          "desc": "♨️ 酒店溫泉 · 預約私人湯屋（¥10,000/人 · 約NT$4,440）"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 酒店內懷石料理晚餐（¥25,000/人 · 約NT$11,110）"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 星空觀賞 · 酒店露台 · 聆聽蟲鳴"
+        }
+      ],
+      "day_photo": "https://www.ignant.com/wp-content/uploads/2020/12/ignant-architecture-amankyoto-25-1440x960.jpg"
+    },
+    {
+      "day": 4,
+      "date": "Aug 13 · Thu",
+      "label_zh": "高台寺與圓德院 · 茶道體驗",
+      "day_query": "Kodai temple garden Kyoto",
+      "hotel_name": "Aman Kyoto",
+      "hotel_name_zh": "安縵京都 · 鴬宿套房",
+      "hotel_room": "鴬宿（Uguisubari）套房",
+      "weather": "☀️ 33°/25°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🍵 酒店和式朝食（含在房費）· 茶室早餐"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚕 計程車前往高台寺（約25分鐘 · ¥4,000 · 約NT$1,780）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏛️ 高台寺 Kodaiji · 豐臣秀吉之妻寧寧所建 · 庭園門票¥600/人（約NT$270）· 參觀1.5小時"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚶 步行至圓德院 Entokuin · 枯山水庭園 · 門票¥500/人（約NT$220）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍜 午餐：祇園 にしむら（蕎麥麵 · ¥3,000/人 · 約NT$1,330）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚕 計程車回安縵（約25分鐘 · ¥4,000 · 約NT$1,780）"
+        },
+        {
+          "time": "15:00",
+          "desc": "🍵 安縵茶道體驗（私人茶室 · 含和菓子 · ¥15,000/人 · 約NT$6,670）"
+        },
+        {
+          "time": "17:00",
+          "desc": "♨️ 酒店溫泉 · 露天風呂"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 酒店內懷石料理晚餐（¥25,000/人 · 約NT$11,110）"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 庭園夜間燈光漫步 · 螢火蟲觀賞（夏季限定）"
+        }
+      ],
+      "day_photo": "https://www.travelyesplease.com/wp-content/uploads/2019/12/10-21561-post/IMG_3263-Edit-Edit.jpg"
+    },
+    {
+      "day": 5,
+      "date": "Aug 14 · Fri",
+      "label_zh": "最後巡禮 · 歸途",
+      "day_query": "Kinkakuji Golden Pavilion Kyoto",
+      "hotel_name": "Aman Kyoto",
+      "hotel_name_zh": "安縵京都 · 鴬宿套房",
+      "hotel_room": "鴬宿（Uguisubari）套房",
+      "weather": "☀️ 34°/26°",
+      "rain_pct": "0%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店早餐 · 收拾行李"
+        },
+        {
+          "time": "08:30",
+          "desc": "🏨 退房安縵 · 行李寄存酒店"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚕 計程車前往金閣寺（約30分鐘 · ¥5,000 · 約NT$2,220）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏛️ 金閣寺 Kinkakuji · 門票¥500/人（約NT$220）· 參觀1小時"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚕 計程車至京都站（約20分鐘 · ¥3,000 · 約NT$1,330）· 購買伴手禮（抹茶甜點、工藝品）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍱 午餐：京都站內「和久傳」便當（¥4,000/人 · 約NT$1,780）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚄 搭乘 HARUKA 前往關西機場（75分鐘 · ¥3,600/人 · 約NT$1,600）"
+        },
+        {
+          "time": "15:30",
+          "desc": "🛬 抵達關西機場 · 辦理登機 · 免稅店購物"
+        },
+        {
+          "time": "19:00",
+          "desc": "✈️ 長榮 BR179 · 19:00 起飛返回台灣"
+        },
+        {
+          "time": "21:30",
+          "desc": "🛬 抵達桃園機場 · 行程結束"
+        }
+      ],
+      "day_photo": "https://windows10spotlight.com/wp-content/uploads/2019/11/5072035c5f10277664c7d790b40bcab7.jpg"
     }
   ],
   "costs": [
     {
       "label": "✈️ 來回機票",
-      "amount_ntd": 68000
+      "amount_ntd": 32000
     },
     {
-      "label": "🏨 住宿（總計）",
-      "amount_ntd": 150000
+      "label": "🏨 住宿（麗思卡爾頓2晚 + 安縵2晚）",
+      "amount_ntd": 270000
     },
     {
-      "label": "🍽️ 餐飲（含米其林）",
-      "amount_ntd": 55000
+      "label": "🍽️ 餐飲（含菊乃井、祇園さゝき、酒店懷石等）",
+      "amount_ntd": 70000
     },
     {
       "label": "🎫 景點門票",
+      "amount_ntd": 5000
+    },
+    {
+      "label": "🚇 交通（HARUKA、計程車、巴士）",
       "amount_ntd": 15000
     },
     {
-      "label": "🚇 交通（含高鐵、水上計程車）",
-      "amount_ntd": 25000
-    },
-    {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 20000
+      "amount_ntd": 10000
     }
   ],
-  "cost_total_ntd": 333000,
-  "budget_remaining_ntd": 67000,
+  "cost_total_ntd": 402000,
+  "budget_remaining_ntd": -2000,
   "photos": {
     "hero": [
       {
-        "url": "https://www.theviennablog.com/wp-content/uploads/2022/10/florence-italy-skyline-at-dusk-2022-03-04-10-17-47-utc.jpg",
-        "label": "Best 10 days in Italy itinerary - How to Spend 10 Days in Italy - The ..."
+        "url": "",
+        "label": "Kyoto skyline landmark"
       },
       {
-        "url": "https://get.pxhere.com/photo/architecture-skyline-night-photography-town-city-cityscape-panorama-dusk-evening-landmark-italy-tuscany-old-town-history-florence-metropolis-firenze-aerial-photography-human-settlement-metropolitan-area-1205275.jpg",
-        "label": "Free Images : architecture, skyline, night, city, cityscape, panorama ..."
+        "url": "",
+        "label": "Kyoto skyline landmark"
       }
     ],
     "destination": [
       {
-        "url": "https://fullsuitcase.com/wp-content/uploads/2020/06/Italy-best-places-Lake-Como.jpg",
-        "label": "Beautiful Italy Destinations 10 Reasons To Visit Northern Italy (Map"
+        "url": "https://handluggageonly.co.uk/wp-content/uploads/2017/05/iStock-509472000.jpg",
+        "label": "14 Things To See And Do When Visiting Kyoto, Japan - Hand Luggage Only ..."
       },
       {
-        "url": "https://www.reckontalk.com/wp-content/uploads/2019/07/best-places-visit-in-italy-Cinque-Terre.jpg",
-        "label": "Top 15 Must-Visit Places in Italy: From Ancient Ruins to Natural ..."
+        "url": "https://content.r9cdn.net/rimg/dimg/83/d4/85f68013-city-20339-16489ec9b8b.jpg?width=1750&height=1000&xhint=1444&yhint=1011&crop=true",
+        "label": "Guide touristique de Kyoto | Visiter Kyoto - KAYAK"
       },
       {
-        "url": "https://i1.wp.com/handluggageonly.co.uk/wp-content/uploads/2018/05/Hand-Luggage-Only-6-2.jpg?fit=1600,2400&ssl=1",
-        "label": "12 Best Places In Italy To Visit On A First Trip - Hand Luggage Only ..."
+        "url": "https://jw-webmagazine.com/wp-content/uploads/2022/10/Kyoto-main-image-min.jpg",
+        "label": "Kyoto best sightseeing 60 photos - Morilly.com"
       },
       {
-        "url": "http://getwallpapers.com/wallpaper/full/8/9/6/897777-italian-scenery-wallpaper-1920x1080-cell-phone.jpg",
-        "label": "Italian Scenery Wallpaper (52+ images)"
+        "url": "https://www.explore.com/img/gallery/one-of-kyotos-best-most-visited-sites-is-a-serene-walk-through-a-breathtaking-bamboo-forest/how-to-visit-kyoto-1741455213.jpg",
+        "label": "Explore One of Kyoto's Top Attractions: A Tranquil Stroll Through a ..."
       },
       {
-        "url": "https://globalgrasshopper.com/wp-content/uploads/2011/04/Cinque-Terre-Italy-1000x665.jpg",
-        "label": "20 of the most beautiful places to visit in Italy | Boutique Travel Blog"
+        "url": "https://cdn.cheapoguides.com/wp-content/uploads/sites/3/2020/05/kyoto-view-iStock-1146262403-1024x600.jpg",
+        "label": "Kyoto City Guide | Japan Cheapo"
       },
       {
-        "url": "https://images.travelandleisureasia.com/wp-content/uploads/sites/5/2024/03/18192544/venice.jpeg",
-        "label": "A Guide To The Most Beautiful Places In Italy"
+        "url": "https://www.neverendingvoyage.com/wp-content/uploads/2019/09/kyoto-japan-26.jpg",
+        "label": "26 Unforgettable Things to Do in Kyoto, Japan"
       }
     ]
   },
-  "chat_hash": "e08cc99cf1f438b879d4ae4faa77594f4a040f75c2335e87585f0b0d88f66b84",
-  "config_hash": "45629bef4777d7c0b0f0eb237d5b5aeb5865037acf05dd14b6f3299b33c7688c",
-  "generated_at": "2026-05-27T12:42:10.360148"
+  "chat_hash": "98c355979b29cc204f682ce1c030ccbc6c1db0aa986d211ba5346a57f30601c5",
+  "config_hash": "e3a8e15028f89d8a5a69d26c8b5bc81767e01108e1cb3f2f65a9d7cad7744e4f",
+  "generated_at": "2026-05-27T20:27:32.126109"
 }
