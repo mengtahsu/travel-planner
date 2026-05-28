@@ -1,191 +1,113 @@
 {
-  "destination_en": "Italy",
-  "title_zh": "義大利浪漫之旅 · 十二天蜜月行程",
-  "date_range": "2026/08/01–08/12",
-  "start_date": "2026-08-01",
-  "end_date": "2026-08-12",
+  "destination_en": "Paris, France",
+  "title_zh": "五月巴黎 · 浪漫五天之旅",
+  "date_range": "2026/05/15–05/20",
+  "start_date": "2026-05-15",
+  "end_date": "2026-05-20",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "FCO",
+  "destination_code": "CDG",
   "travelers": 2,
-  "days": 12,
+  "days": 5,
   "budget_ntd": 500000,
   "flight": {
     "airline": "長榮航空 EVA Air",
-    "departure_date": "8月1日",
-    "return_date": "8月12日",
-    "total_price_ntd": 96000,
+    "departure_date": "5月15日",
+    "return_date": "5月20日",
+    "total_price_ntd": 38000,
     "outbound": {
-      "flight_no": "BR 71",
-      "route": "TPE → FCO 直飛",
+      "flight_no": "BR 87",
+      "route": "TPE → CDG 直飛",
       "depart_time": "23:40",
-      "arrive_time": "06:50 (+1)",
-      "duration": "13h 10m",
+      "arrive_time": "07:30 (+1)",
+      "duration": "13h 50m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "BR 72",
-      "route": "FCO → TPE 直飛",
-      "depart_time": "11:50",
+      "flight_no": "BR 88",
+      "route": "CDG → TPE 直飛",
+      "depart_time": "11:20",
       "arrive_time": "06:30 (+1)",
-      "duration": "12h 40m",
+      "duration": "13h 10m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Hotel Hassler Roma",
-      "name_zh": "哈斯勒羅馬酒店",
-      "district": "羅馬西班牙廣場區",
+      "name": "Hôtel Le Narcisse Blanc & Spa",
+      "name_zh": "水仙花白酒店",
+      "district": "巴黎 6 區",
       "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 72000,
-      "stars": "★★★★★",
+      "price_ntd": 87000,
+      "stars": "★★★★☆",
       "room_type": "經典豪華雙人房",
-      "breakfast": "含義式早餐",
-      "amenities": "🏊 屋頂泳池 · 💆 SPA · 🍽️ 米其林一星餐廳 · 🌿 西班牙階梯景觀",
-      "search_query": "Hotel Hassler Roma Rome Italy",
+      "breakfast": "含法式早餐",
+      "amenities": "🏊 室內泳池 · 💆 SPA & 土耳其浴 · 🍽️ 庭院餐廳 · 🌿 私密花園",
+      "search_query": "Hôtel Le Narcisse Blanc Paris France",
       "photos": [
         {
-          "url": "https://cdn1.matadornetwork.com/blogs/1/2023/12/Hassler-hotel-exterior.jpeg",
-          "label": "The Hassler Hotel: Review of the Best Located Hotel in Rome"
+          "url": "https://www.paris.tourisme-ville.fr/wp-content/uploads/Narcisse-Blanc-Facade.jpg",
+          "label": "Le Narcisse Blanc Hôtel et Spa - Paris Guide"
         },
         {
-          "url": "https://hassler.italyromehotels.net/data/Pics/OriginalPhoto/14333/1433362/1433362486/pic-hassler-roma-rome-26.JPEG",
-          "label": "Hotel Hassler Rome - new 2025 prices, reviews, book now"
+          "url": "https://farm8.staticflickr.com/7905/31717635057_1221e16156_k.jpg",
+          "label": "Le Narcisse Blanc Hotel & Spa: True Parisian Sophistication and ..."
         },
         {
-          "url": "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/01/16191135/Featured-Inside-33.jpeg",
-          "label": "Hassler Roma: Your One-Stop Destination For An Iconic Stay In Italy"
+          "url": "https://www.myboutiquehotel.com/photos/106968/le-narcisse-blanc-spa-paris-009-80827-2220x1400.jpg",
+          "label": "Le Narcisse Blanc, Paris, France - My Boutique hotel"
         },
         {
-          "url": "https://www.cinnamoncircle.com/blog/wp-content/uploads/2022/10/hassler-rome-03.jpg",
-          "label": "Hassler Rome Hotel HOTEL HASSLER Updated 2025 Prices & Reviews"
+          "url": "https://leblogdelili.fr/wp-content/uploads/2016/12/Narcisse-blanc-Paris-7-2.jpg",
+          "label": "Luxe et sérénité au Narcisse blanc hôtel-spa (Paris 7e) - Le blog de Lili"
         },
         {
-          "url": "https://hassler.italyromehotels.net/data/Images/OriginalPhoto/17065/1706550/1706550549/rome-hassler-roma-image-32.JPEG",
-          "label": "Hotel Hassler Rome - new 2025 prices, reviews, book now"
+          "url": "https://camillamount.com/wp-content/uploads/2019/08/le-narcisse-entrance.jpg",
+          "label": "A Home Away From Home: Le Narcisse Blanc, Paris – CAMILLA MOUNT"
         },
         {
-          "url": "https://hassler.italyromehotels.net/data/Images/OriginalPhoto/17065/1706549/1706549505/rome-hassler-roma-image-94.JPEG",
-          "label": "Hotel Hassler Rome - new 2025 prices, reviews, book now"
+          "url": "https://www.datocms-assets.com/63746/1688289655-lnb_facade-guillaumedelaubier.jpg?auto=format&fit=max&w=1200",
+          "label": "Le Narcisse Blanc Hôtel & Spa : point de chute élégant au cœur de Paris"
         }
       ]
     },
     {
-      "name": "Belmond Hotel Cipriani",
-      "name_zh": "貝夢德奇普里亞尼酒店",
-      "district": "威尼斯朱代卡島",
-      "day_range": "4–7",
-      "nights": 4,
-      "price_ntd": 98000,
+      "name": "Le Meurice",
+      "name_zh": "莫里斯酒店",
+      "district": "巴黎 1 區",
+      "day_range": "4–5",
+      "nights": 2,
+      "price_ntd": 138000,
       "stars": "★★★★★",
-      "room_type": "潟湖景豪華雙人房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 無邊際泳池 · 🚤 免費水上巴士 · 💆 SPA · 🌅 聖馬可廣場景觀",
-      "search_query": "Belmond Hotel Cipriani Venice Italy",
+      "room_type": "豪華杜樂麗景觀雙人房",
+      "breakfast": "含法式早餐",
+      "amenities": "🍽️ 米其林三星餐廳 · 🎨 藝術沙龍 · 🏋️ 健身中心 · 🛁 大理石浴室",
+      "search_query": "Le Meurice Paris hotel",
       "photos": [
         {
-          "url": "https://www.illulian.com/wp-content/uploads/2023/02/Schermata-2022-07-13-alle-12.26.31-1.jpg",
-          "label": "BELMOND HOTEL CIPRIANI, VENICE. Italy - ILLULIAN"
+          "url": "https://pariscapitale.com/wp-content/uploads/2017/07/guide-luxury-hotel-le-meurice-facade-1st-paris-capitale-magazine-1450x650.jpg",
+          "label": "Paris Luxury Hotels - Le Meurice | Paris Capitale"
         },
         {
-          "url": "https://belmondcdn.azureedge.net/assets/photos/cip/2580x2011/cip-gst-pool07_2580x2011.jpg",
-          "label": "The Best Luxury Hotels in Venice, Italy | Hotel Cipriani"
+          "url": "https://www.paris.tourisme-ville.fr/wp-content/uploads/hotel-le-meurice-paris.jpg",
+          "label": "Le Meurice - Paris Guide"
         },
         {
-          "url": "https://cdn.audleytravel.com/3706/2650/79/1017173-belmond-hotel-cipriani-venice.jpg",
-          "label": "Belmond Hotel Cipriani | Hotels in Venice | Audley Travel US"
+          "url": "https://travelsort.com/wp-content/uploads/2018/01/Le-Meurice-Hotel-Review-Facade-1024x682.jpg",
+          "label": "Review: Le Meurice Hotel, Paris"
         },
         {
-          "url": "https://d1cdc15hzkd3wm.cloudfront.net/products/medias/originalmark/X11WW1dL.jpg",
-          "label": "Luxury Hotel Cipriani , A Belmond Hotel Venice, Venice, Italy - Photos ..."
+          "url": "https://www.qantas.com/content/dam/travelinsider/images/explore/europe/france/paris/le-meurice-paris-hotel/le-meurice-alain-ducasse-salle.jpg",
+          "label": "Le Meurice – Hotel Review | Travel Insider"
         },
         {
-          "url": "https://cdn.audleytravel.com/1400/998/60/1017163-belmond-hotel-cipriani-venice.jpg",
-          "label": "Belmond Hotel Cipriani | Hotels in Venice | Audley Travel UK"
+          "url": "https://turismo.org/wp-content/uploads/2014/12/tu-hotel-le-meurice-parís-01.jpg",
+          "label": "Hotel Le Meurice, París - Turismo.org"
         },
         {
-          "url": "https://img.belmond.com/f_auto/t_2580x2011/photos/cip/cip-gst-pool12.jpg",
-          "label": "Belmond Hotel Cipriani | Uno dei migliori hotel di lusso a Venezia, Italia"
-        }
-      ]
-    },
-    {
-      "name": "Hotel Savoy Florence",
-      "name_zh": "薩沃伊佛羅倫斯酒店",
-      "district": "佛羅倫斯聖母百花大教堂旁",
-      "day_range": "8–10",
-      "nights": 3,
-      "price_ntd": 54000,
-      "stars": "★★★★★",
-      "room_type": "豪華雙人房",
-      "breakfast": "含托斯卡納早餐",
-      "amenities": "🍽️ 屋頂餐廳 · 🏋️ 健身房 · 🛍️ 精品購物街 · 🌿 城市景觀",
-      "search_query": "Hotel Savoy Florence Italy",
-      "photos": [
-        {
-          "url": "https://www.sardatur-holidays.co.uk/images/13-hotel-savoy-exterior-155006376387_l.jpg",
-          "label": "Hotel Savoy Florence, Cities | Sardatur Holidays"
-        },
-        {
-          "url": "https://images.pexels.com/photos/16690961/pexels-photo-16690961/free-photo-of-facade-of-hotel-savoy-in-florence-italy.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          "label": "Facade of Hotel Savoy in Florence, Italy · Free Stock Photo"
-        },
-        {
-          "url": "http://theluxtraveller.com/wp-content/uploads/2013/07/savoy.jpg",
-          "label": "Another Rocco Forte Beauty - Savoy Florence - The Lux Traveller"
-        },
-        {
-          "url": "https://media.cntraveler.com/photos/590a3798a71e701c036ce1e4/master/w_1200,c_limit/Exterior-HotelSavoy-FlorenceItaly-CRHotel.jpg?mbid=social_retweet",
-          "label": "Hotel Savoy (Rocco Forte Hotels) Florence, Italy - Condé Nast Traveler"
-        },
-        {
-          "url": "https://www.historichotelsthenandnow.com/Images/hotels/SavoyFlorence/SavoyFlorence020.jpg",
-          "label": "Hotel Savoy (1893), Florence | Historic Hotels of the World-Then&Now"
-        },
-        {
-          "url": "https://www.celebremagazine.world/wp-content/uploads/2022/07/entrance-Hotel-Savoy-Florence.jpg",
-          "label": "The Hotel Savoy… the unforgettable luxury experience “Made in Florence ..."
-        }
-      ]
-    },
-    {
-      "name": "Hotel Il Pellicano",
-      "name_zh": "貝利卡諾酒店",
-      "district": "托斯卡納 Monte Argentario",
-      "day_range": "11",
-      "nights": 1,
-      "price_ntd": 26000,
-      "stars": "★★★★★",
-      "room_type": "海景豪華雙人房",
-      "breakfast": "含義式早餐",
-      "amenities": "🏊 海景泳池 · 💆 SPA · 🍽️ 米其林星級餐廳 · 🌊 私人海灘",
-      "search_query": "Hotel Il Pellicano Tuscany Italy",
-      "photos": [
-        {
-          "url": "https://www.luxurytravelmagazine.com/files/610/9/189/Il-Pellicano-a_big_bu.jpg",
-          "label": "Il Pellicano - Porto Ercole, Tuscany, Italy - Exclusive 5 Star Luxury ..."
-        },
-        {
-          "url": "https://cdn.kiwicollection.com/media/property/PR003081/xl/003081-13-exterior-pool-Sea-View.jpg",
-          "label": "Hotel Il Pellicano, Grosseto, Tuscany"
-        },
-        {
-          "url": "https://www.luxurytravelmagazine.com/files/610/9/189/Il-Pellicano-entrance_bu.jpg",
-          "label": "Il Pellicano - Porto Ercole, Tuscany, Italy - Exclusive 5 Star Luxury ..."
-        },
-        {
-          "url": "https://interpoint.com.br/wp-content/uploads/2014/11/6871-poll-luxury-hotel.jpg",
-          "label": "Hotel Il Pellicano - Porto Ercole | Interpoint"
-        },
-        {
-          "url": "https://expressions-images.imgix.net/destination/italy/tuscany/il-pellicano-ie40/il-pellicano-tuscany-pool-view.jpg?w=741&h=434&fit=crop&crop=entropy&auto=format,compress,enhance?w=414&h=255&fit=crop&crop=entropy&auto=format,compress",
-          "label": "Il Pellicano Porto Ercole Tuscany | Luxury hotel holidays |Expressions"
-        },
-        {
-          "url": "https://www.getpalmd.com/wp-content/uploads/2018/10/Hotel-Il-Pellicano-Porto-Ercole-Tuscany.jpg",
-          "label": "Il Pellicano Porto Ercole - Luxury seaside hotel in Tuscany - Porsche trip"
+          "url": "https://www.fodors.com/wp-content/uploads/2022/02/169._le-meurice-presidential-appartment-tuileries.jpg",
+          "label": "Review: The Iconic Paris Hotel, Le Meurice, Has Had a Major Renovation"
         }
       ]
     }
@@ -193,156 +115,156 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "La Pergola",
-        "name_zh": "拉佩爾戈拉 · 米其林三星",
+        "name": "Le Cinq",
+        "name_zh": "四季酒店米其林三星",
         "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：龍蝦塔塔 · 黑松露燉飯",
-        "address": "Via Alberto Cadlolo, 101, 羅馬",
-        "price_ntd": 7000,
-        "price_label": "晚餐套餐 €200/人 · NT$7,000",
-        "hours": "19:30–22:30 · 需預約 · 著裝要求：正式",
-        "search_query": "La Pergola Rome Michelin three stars",
+        "dish": "🦞 招牌：龍蝦濃湯佐黑松露",
+        "address": "31 Av. George V, 8區",
+        "price_ntd": 5000,
+        "price_label": "晚餐套餐 €145/人 · NT$5,000",
+        "hours": "19:00–22:00 · 需預約",
+        "search_query": "Le Cinq restaurant Four Seasons Paris food",
         "photos": [
           {
-            "url": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2024/08/07/8ec972b10d354fc49fad8a51afa86fbf_La_Pergola_panorama.jpg",
-            "label": "6 Rome Neighborhoods for MICHELIN Stars, Exceptional Stays, and Art ..."
+            "url": "http://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-221,5743-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_706_original.jpg",
+            "label": "Paris Restaurants | Fine Dining | Four Seasons Hotel George V Paris"
           },
           {
-            "url": "http://blog.stayromac.com/wp-content/uploads/2016/03/ristorante-laperloga-panorama.jpg",
-            "label": "La Pergola Restaurant Rome La Pergola Restaurant, Italy"
+            "url": "https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-788,4585-2250,0000-1265,6250/publish/content/dam/fourseasons/images/web/PAR/PAR_1048_original.jpg",
+            "label": "Le Cinq | Michelin-Star Restaurant Paris | Fine Dining in Paris"
           },
           {
-            "url": "https://gastronomap.com/_next/image?url=https://romecavalieri.com/wp-content/uploads/2024/06/La-Pergola-Interiors-with-View-lowres-1.jpg&w=2048&q=75",
-            "label": "La Pergola – Michelin-Starred Restaurant in Rome, Italy | Flavors ..."
+            "url": "https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-272,1406-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_1681_original.jpg",
+            "label": "Le Cinq | Restaurant étoilé Michelin à Paris | Cuisine gastronomique à ..."
           }
         ]
       },
       {
-        "name": "Enoteca Pinchiorri",
-        "name_zh": "恩諾特卡·平喬里 · 米其林三星",
+        "name": "Restaurant Guy Savoy",
+        "name_zh": "蓋伊·薩沃伊 · 米其林三星",
         "stars": "⭐⭐⭐",
-        "dish": "🍝 招牌：手工義大利麵 · 松露奶油",
-        "address": "Via Ghibellina, 87, 佛羅倫斯",
-        "price_ntd": 7500,
-        "price_label": "晚餐套餐 €215/人 · NT$7,500",
-        "hours": "19:30–22:00 · 需預約 · 週日休息",
-        "search_query": "Enoteca Pinchiorri Florence Italy",
+        "dish": "🍄 招牌：黑松露湯 · 朝鮮薊",
+        "address": "11 Quai de Conti, 6區",
+        "price_ntd": 6000,
+        "price_label": "午餐套餐 €175/人 · NT$6,000",
+        "hours": "12:00–14:30 / 19:00–22:00",
+        "search_query": "Restaurant Guy Savoy Paris",
         "photos": [
           {
-            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/bddde99e01434861bfef8c98fedd4eb1.jpg",
-            "label": "Enoteca Pinchiorri – Florence - a MICHELIN Guide Restaurant"
+            "url": "https://blogs-images.forbes.com/rooksanahossenally/files/2016/02/Guy-Savoy-restaurant-Paris-1200x799.jpg",
+            "label": "Top 5: The Best 3-Michelin-Star Dining Experiences in Paris"
           },
           {
-            "url": "https://flawless.life/wp-content/uploads/2021/06/Enoteca-Pinchiorri-cover.jpg",
-            "label": "Enoteca Pinchiorri | FLAWLESS.life - The Lifestyle Guide"
+            "url": "https://www.guysavoy.com/caches/galleries/16384589292.webp_1200_900.webp",
+            "label": "Restaurant Guy Savoy - Monnaie de Paris - Restaurant Guy Savoy"
           },
           {
-            "url": "https://www.firenzemadeintuscany.com/media/5978-0551-mod-TPMQ8TZ9.jpg?width=400&height=480&croponresize=1&f=faces",
-            "label": "Enoteca Pinchiorri – Michelin-Starred Restaurant in Florence, Italy ..."
+            "url": "https://www.parisgourmand.com/images/stories/19-restos/Guy-Savoy-2017-s.jpg",
+            "label": "Le meilleur du restaurant Guy Savoy à l'Hôtel de la Monnaie à Paris"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Trattoria Da Enzo al 29",
-        "name_zh": "達恩佐小館 · 羅馬經典",
-        "stars": "",
-        "dish": "🍝 招牌：Carbonara · Cacio e Pepe",
-        "address": "Via dei Vascellari, 29, 羅馬",
-        "price_ntd": 2100,
-        "price_label": "兩人晚餐 €60 · NT$2,100",
-        "hours": "12:30–15:00 / 19:00–23:00 · 排隊名店",
-        "search_query": "Trattoria Da Enzo al 29 Rome",
+        "name": "Septime",
+        "name_zh": "新派法式小酒館 · 米其林一星",
+        "stars": "⭐",
+        "dish": "🥩 招牌：熟成肋眼牛排 · 煙燻甜菜根",
+        "address": "80 Rue de Charonne, 11區",
+        "price_ntd": 1900,
+        "price_label": "午餐套餐 €55/人 · NT$1,900",
+        "hours": "12:15–14:00 / 19:30–22:00",
+        "search_query": "Septime restaurant Paris food",
         "photos": [
           {
-            "url": "http://3.bp.blogspot.com/-hz5ftciB1O0/UYADHlKJZcI/AAAAAAAAEIY/oAvJz1TcOrE/s1600/Trattoria+Da+Enzo.jpg",
-            "label": "\"Romaintavolaweb\" Il Blog Enogastronomico : \"Da Enzo al 29\" Trattoria ..."
+            "url": "https://www.solosophie.com/wp-content/uploads/2020/02/septime-paris-food.jpg",
+            "label": "Paris Septime Restaurant Review in the 11th Arrondissement | solosophie"
           },
           {
-            "url": "https://media.cntraveler.com/photos/5a9167b58087c02669a7dbbc/master/pass/Da-Enzo__2018_IMG_2407.jpg",
-            "label": "De Enzo En Roma Italy, Rome, Trastevere, Via Del Vascellari 29, Da"
+            "url": "https://www.solosophie.com/wp-content/uploads/2020/02/Paris-Septime-Restaurant-Review-in-the-11th-Arrondissement-of-Paris-France-Michelin-Star-Paris-Luxury-Food.jpg.webp",
+            "label": "Paris Septime Restaurant Review in the 11th Arrondissement | solosophie"
           },
           {
-            "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_fill,w_3840,ar_16:9,g_center,f_auto/TrattoriaDaEnzoAl29_Carbonara_MaelaBonafede_Rome-9_l2kzbl",
-            "label": "Trattoria Da Enzo Al 29 - Review - Trastevere - Rome - The Infatuation"
+            "url": "https://www.solosophie.com/wp-content/uploads/2020/02/septime-paris-restaurant-interior-1024x683.jpg",
+            "label": "Paris Septime Restaurant Review in the 11th Arrondissement | solosophie"
           }
         ]
       },
       {
-        "name": "Osteria Le Logge",
-        "name_zh": "洛格餐館 · 錫耶納風味",
-        "stars": "",
-        "dish": "🥩 招牌：佛羅倫斯牛排 · 烤蔬菜",
-        "address": "Via del Porrione, 1, 錫耶納",
-        "price_ntd": 1800,
-        "price_label": "兩人晚餐 €50 · NT$1,800",
-        "hours": "12:00–14:30 / 19:00–22:30",
-        "search_query": "Osteria Le Logge Siena",
+        "name": "Chez L'Ami Jean",
+        "name_zh": "阿米讓小館 · 巴斯克風味",
+        "stars": "⭐",
+        "dish": "🥘 招牌：巴斯克雞 · 米布丁",
+        "address": "27 Rue Malar, 7區",
+        "price_ntd": 1700,
+        "price_label": "晚餐套餐 €50/人 · NT$1,700",
+        "hours": "12:00–14:00 / 19:30–22:30",
+        "search_query": "Chez L'Ami Jean Paris",
         "photos": [
           {
-            "url": "https://www.mestolo.de/wp-content/uploads/restaurants_in_siena_osteria_le_logge.jpg",
-            "label": "Restaurants in Siena - Die echte sienesische Küche entdecken"
+            "url": "",
+            "label": "bistros food Paris"
           },
           {
-            "url": "https://jetsettimes.com/wp-content/uploads/2025/07/Osteria-Le-Logge-2-900x1200.jpg",
-            "label": "Inside Siena's Most Historic Restaurant: Osteria Le Logge - Jetset Times"
+            "url": "",
+            "label": "bistros food Paris"
           },
           {
-            "url": "https://s3-media2.fl.yelpcdn.com/bphoto/0HKrL1KCLcbAIePM5opPhA/ls.jpg",
-            "label": "Osteria Le Logge - 46 Photos & 19 Reviews - Italian - Via del Porrione ..."
+            "url": "",
+            "label": "bistros food Paris"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Caffè Florian",
-        "name_zh": "佛羅里安咖啡館 · 1720年開業",
+        "name": "Café de Flore",
+        "name_zh": "花神咖啡館 · 1887年開業",
         "stars": "",
-        "dish": "☕ 招牌：威尼斯濃縮咖啡 · 提拉米蘇",
-        "address": "Piazza San Marco, 威尼斯",
-        "price_ntd": 1500,
-        "price_label": "兩人下午茶 €40 · NT$1,500",
-        "hours": "09:00–23:00 · 樂團現場演奏",
-        "search_query": "Caffe Florian Venice",
+        "dish": "☕ 招牌：熱巧克力 · 可頌 · 焦糖布丁",
+        "address": "172 Bd Saint-Germain, 6區",
+        "price_ntd": 1200,
+        "price_label": "兩人早午餐 €35 · NT$1,200",
+        "hours": "07:30–01:30 · 文人雅士最愛",
+        "search_query": "Cafe de Flore Paris interior",
         "photos": [
           {
-            "url": "https://imagesofvenice.com/wp-content/uploads/2023/08/ven_caffe-florian-feature-1_blog.jpg",
-            "label": "Caffe Florian - Images of Venice"
+            "url": "https://www.tripsavvy.com/thmb/3ul3NHsmtQ5FIzXdlTovw0GdXqw=/5222x3481/filters:no_upscale():max_bytes(150000):strip_icc()/cafe-de-flore-saint-germain-des-pres-left-bank-paris-france-europe-107961254-590ceeb83df78c928389dd4a.jpg",
+            "label": "Coffee Shops Paris France"
           },
           {
-            "url": "https://images-e-venise.global.ssl.fastly.net/pics/restaurants/cafe-florian-procuraties-venise-saint-marc-04.jpg",
-            "label": "Café Florian Venise, et Quadri Lavana à Saint-Marc"
+            "url": "https://images.squarespace-cdn.com/content/v1/5e484ab628c78d6f7e602d73/c27a6a2a-2c3f-41c7-aa0e-ef627ca90561/famous-paris-cafes-min.jpeg",
+            "label": "15 Famous Paris Cafes You Should Visit in 2023 — Chef Denise"
           },
           {
-            "url": "http://www.in-venice.com/wp-content/uploads/2013/02/caffe-florian-2-e1367826336438.jpg",
-            "label": "Caffè Florian | In-Venice"
+            "url": "https://www.thegeographicalcure.com/wp-content/uploads/2022/12/IMG_4035-1-1536x1111.jpeg",
+            "label": "30+ Best And Most Beautiful Cafes In Paris - The Geographical Cure"
           }
         ]
       },
       {
-        "name": "Gilli Firenze",
-        "name_zh": "吉里咖啡館 · 1733年開業",
+        "name": "La Pâtisserie des Rêves",
+        "name_zh": "夢想甜點店",
         "stars": "",
-        "dish": "🍰 招牌：義式冰淇淋 · 杏仁餅乾",
-        "address": "Via Roma, 1, 佛羅倫斯",
+        "dish": "🍰 招牌：巴黎布列斯特 · 聖多諾黑",
+        "address": "93 Rue du Bac, 7區",
         "price_ntd": 800,
-        "price_label": "兩人咖啡甜點 €22 · NT$800",
-        "hours": "07:30–22:00 · 歷史老店",
-        "search_query": "Gilli Florence cafe",
+        "price_label": "兩人甜點 + 飲料 €23 · NT$800",
+        "hours": "09:00–20:00 · 週日休息",
+        "search_query": "La Pâtisserie des Rêves Paris",
         "photos": [
           {
-            "url": "https://flawless.life/wp-content/uploads/2020/06/caffe-gilli-cover-1000x600.jpg",
-            "label": "Caffè Gilli | FLAWLESS.life - The Lifestyle Guide"
+            "url": "http://retaildesignblog.net/wp-content/uploads/2012/11/La-Patisserie-des-Reves-Paris-13.jpg",
+            "label": "» CHOCOLATIER! La Pâtisserie des Rêves, Paris"
           },
           {
-            "url": "https://corinnabsworld.com/wp-content/uploads/2020/07/caffe-gilli-300x300.jpg",
-            "label": "What You Need To KNow About Caffe Gilli, Florence - Corinna B's World"
+            "url": "https://www.roadtopastry.com/blog/wp-content/uploads/Shop-Patisserie-des-reves-Paris01.jpg",
+            "label": "Pastry on the road: La Pâtisserie des Rêves, Paris – Road to Pastry"
           },
           {
-            "url": "http://corinnabsworld.com/wp-content/uploads/2020/07/GILLI_DEH_pom_06.jpg",
-            "label": "What You Need To KNow About Caffe Gilli, Florence - Corinna B's World"
+            "url": "https://www.sugarednspiced.com/wp-content/uploads/2012/12/R0057087.jpg",
+            "label": "[Paris] La Pâtisserie des Rêves | Sugared & Spiced"
           }
         ]
       }
@@ -351,652 +273,332 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Aug 1 · Sat",
-      "label_zh": "出發 · 飛往永恆之城",
-      "day_query": "Rome Colosseum Italy",
-      "hotel_name": "Hotel Hassler Roma",
-      "hotel_name_zh": "哈斯勒羅馬酒店",
-      "hotel_room": "經典豪華雙人房",
-      "weather": "☀️ 32°/22°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "20:00",
-          "desc": "🚕 從台北出發前往桃園機場第二航廈 · 建議提前2小時到"
-        },
-        {
-          "time": "22:00",
-          "desc": "✈️ 辦理登機手續 · 長榮航空 BR71 · 23:40 起飛前往羅馬"
-        },
-        {
-          "time": "23:40",
-          "desc": "🛫 起飛 · 享受機上娛樂與餐飲 · 準備迎接義大利之旅"
-        }
-      ],
-      "day_photo": "https://www.thepinnaclelist.com/wp-content/uploads/2021/08/Roman-Colosseum-Rome-Italy.jpg"
-    },
-    {
-      "day": 2,
-      "date": "Aug 2 · Sun",
-      "label_zh": "抵達羅馬 · 永恆之城初探",
-      "day_query": "Spanish Steps Rome",
-      "hotel_name": "Hotel Hassler Roma",
-      "hotel_name_zh": "哈斯勒羅馬酒店",
-      "hotel_room": "經典豪華雙人房",
-      "weather": "☀️ 33°/23°",
+      "date": "May 15 · Thu",
+      "label_zh": "抵達 · 巴黎初印象",
+      "day_query": "Eiffel Tower Paris landmark",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典雙人房",
+      "hotel_room": "經典雙人房",
+      "weather": "⛅ 18°/10°",
       "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "06:50",
-          "desc": "✈️ 抵達羅馬菲烏米奇諾機場 · 通關取行李（約45分鐘）"
-        },
-        {
-          "time": "08:00",
-          "desc": "🚕 搭乘計程車前往酒店（約40分鐘 · €50）"
-        },
-        {
-          "time": "09:00",
-          "desc": "🏨 抵達 Hotel Hassler Roma · 辦理入住 · 享用屋頂早餐俯瞰西班牙階梯"
-        },
-        {
-          "time": "10:30",
-          "desc": "⛲ 西班牙階梯 Piazza di Spagna · 破船噴泉 · 孔多蒂街精品購物"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍝 Trattoria Da Enzo al 29 午餐 · 品嚐正宗 Carbonara"
-        },
-        {
-          "time": "14:30",
-          "desc": "🏛️ 萬神殿 Pantheon · 入內參觀（免費）· 欣賞穹頂"
-        },
-        {
-          "time": "16:00",
-          "desc": "⛲ 許願池 Fontana di Trevi · 投硬幣許願 · 品嚐附近 Gelato"
-        },
-        {
-          "time": "18:30",
-          "desc": "🚶 納沃納廣場 · 四河噴泉 · 街頭藝人表演"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ La Pergola 米其林三星晚餐 · 預約20:00 · 龍蝦塔塔佐黑松露"
-        },
-        {
-          "time": "22:30",
-          "desc": "🌙 返回酒店 · 在頂樓酒吧小酌 · 欣賞羅馬夜景"
-        }
-      ],
-      "day_photo": "https://www.vaticantour.com/blog/wp-content/uploads/2019/05/V8ijdZVV.jpeg"
-    },
-    {
-      "day": 3,
-      "date": "Aug 3 · Mon",
-      "label_zh": "古羅馬帝國 · 競技場與梵蒂岡",
-      "day_query": "Colosseum Rome interior",
-      "hotel_name": "Hotel Hassler Roma",
-      "hotel_name_zh": "哈斯勒羅馬酒店",
-      "hotel_room": "經典豪華雙人房",
-      "weather": "☀️ 34°/24°",
-      "rain_pct": "5%",
       "slots": [
         {
           "time": "07:30",
-          "desc": "🥐 酒店早餐 · 屋頂餐廳享用新鮮可頌與卡布奇諾"
-        },
-        {
-          "time": "08:30",
-          "desc": "🚇 地鐵前往競技場（B線 Colosseo站 · €1.5/人）"
+          "desc": "✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李（預計 30–45 分鐘）"
         },
         {
           "time": "09:00",
-          "desc": "🏟️ 羅馬競技場 Colosseum · 預約導覽（€18/人）· 探索角鬥士歷史"
-        },
-        {
-          "time": "11:00",
-          "desc": "🏛️ 古羅馬廣場 Foro Romano · 步行參觀 · 凱旋門"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍕 午餐：Pizzeria Da Baffetto · 經典瑪格麗特披薩（約€12/人）"
-        },
-        {
-          "time": "14:30",
-          "desc": "🇻🇦 梵蒂岡博物館 Musei Vaticani · 預約門票（€17/人）· 西斯汀禮拜堂"
-        },
-        {
-          "time": "17:00",
-          "desc": "⛪ 聖彼得大教堂 St. Peter's Basilica · 免費入內 · 登頂（€8/人）"
-        },
-        {
-          "time": "19:00",
-          "desc": "🚶 聖天使堡 · 台伯河畔散步"
-        },
-        {
-          "time": "20:30",
-          "desc": "🍽️ 晚餐：Armando al Pantheon · 經典羅馬風味（約€40/人）"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 返回酒店 · 整理行李準備明天前往威尼斯"
-        }
-      ],
-      "day_photo": "https://live.staticflickr.com/1960/44077864685_dd22218ec9_b.jpg"
-    },
-    {
-      "day": 4,
-      "date": "Aug 4 · Tue",
-      "label_zh": "威尼斯 · 水都初戀",
-      "day_query": "Grand Canal Venice gondola",
-      "hotel_name": "Belmond Hotel Cipriani",
-      "hotel_name_zh": "貝夢德奇普里亞尼酒店",
-      "hotel_room": "潟湖景豪華雙人房",
-      "weather": "☀️ 30°/22°",
-      "rain_pct": "15%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐 · 退房 · 寄放行李"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚄 羅馬 Termini 車站搭乘 Italo 高鐵前往威尼斯（9:30–13:30 · €89/人）"
-        },
-        {
-          "time": "13:30",
-          "desc": "🚤 抵達威尼斯 Santa Lucia 車站 · 酒店免費水上巴士接駁"
-        },
-        {
-          "time": "14:15",
-          "desc": "🏨 入住 Belmond Hotel Cipriani · 欣賞潟湖景觀 · 稍作休息"
-        },
-        {
-          "time": "15:30",
-          "desc": "🚶 聖馬可廣場 Piazza San Marco · 總督宮 · 嘆息橋"
-        },
-        {
-          "time": "17:00",
-          "desc": "☕ Caffè Florian 下午茶 · 聆聽樂團演奏 · 品嚐提拉米蘇"
-        },
-        {
-          "time": "18:30",
-          "desc": "🚤 貢多拉遊船（30分鐘 · €80）· 穿梭小運河"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：Trattoria Al Gazzettino · 海鮮拼盤（約€55/人）"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 返回酒店 · 在泳池邊享受夜晚星空"
-        }
-      ],
-      "day_photo": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/gondola-grand-canal-venice-anselmo-albert-torres.jpg"
-    },
-    {
-      "day": 5,
-      "date": "Aug 5 · Wed",
-      "label_zh": "威尼斯 · 藝術與玻璃島",
-      "day_query": "Burano colorful houses Venice",
-      "hotel_name": "Belmond Hotel Cipriani",
-      "hotel_name_zh": "貝夢德奇普里亞尼酒店",
-      "hotel_room": "潟湖景豪華雙人房",
-      "weather": "⛅ 29°/21°",
-      "rain_pct": "20%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店自助早餐 · 選擇新鮮水果與義式火腿"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚤 搭乘水上巴士前往玻璃島 Murano（約20分鐘 · €7.5/人）"
-        },
-        {
-          "time": "09:30",
-          "desc": "🔮 參觀玻璃工廠 · 觀賞吹玻璃示範 · 選購紀念品"
-        },
-        {
-          "time": "11:00",
-          "desc": "🚤 前往彩色島 Burano（約30分鐘）"
-        },
-        {
-          "time": "11:30",
-          "desc": "📸 彩色房屋拍照 · 蕾絲博物館 · 漫步小島"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍝 午餐：Trattoria al Gatto Nero · 墨魚麵（約€30/人）"
-        },
-        {
-          "time": "15:00",
-          "desc": "🚤 返回威尼斯本島"
-        },
-        {
-          "time": "16:00",
-          "desc": "🎨 佩吉·古根漢美術館 Collezione Peggy Guggenheim（€15/人）"
-        },
-        {
-          "time": "18:30",
-          "desc": "🚶 學院橋 Ponte dell'Accademia · 欣賞夕陽"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：Ristorante Quadri · 聖馬可廣場景觀（約€70/人）"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 返回酒店"
-        }
-      ],
-      "day_photo": "https://windows10spotlight.com/wp-content/uploads/2023/02/7e43c47d762e0998daea2bf7b35f601b.jpg"
-    },
-    {
-      "day": 6,
-      "date": "Aug 6 · Thu",
-      "label_zh": "威尼斯 · 總督宮與安康聖母教堂",
-      "day_query": "Doge's Palace Venice",
-      "hotel_name": "Belmond Hotel Cipriani",
-      "hotel_name_zh": "貝夢德奇普里亞尼酒店",
-      "hotel_room": "潟湖景豪華雙人房",
-      "weather": "☀️ 31°/22°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐 · 享受泳池晨泳"
-        },
-        {
-          "time": "09:30",
-          "desc": "🏛️ 總督宮 Palazzo Ducale · 預約導覽（€20/人）· 嘆息橋內部"
-        },
-        {
-          "time": "11:30",
-          "desc": "🔔 聖馬可鐘樓 Campanile di San Marco · 登頂（€10/人）"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍝 午餐：Osteria alle Testiere · 海鮮義大利麵（約€45/人）"
-        },
-        {
-          "time": "14:00",
-          "desc": "⛪ 安康聖母教堂 Basilica di Santa Maria della Salute · 免費入內"
-        },
-        {
-          "time": "15:30",
-          "desc": "🛍️ 里亞托橋市場 · 購買威尼斯面具與玻璃飾品"
-        },
-        {
-          "time": "17:00",
-          "desc": "🚤 乘坐水上巴士遊大運河（€7.5/人）"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：Trattoria alla Madonna · 傳統威尼斯料理（約€40/人）"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 返回酒店 · 享受SPA療程（需預約 · €120/人）"
-        }
-      ],
-      "day_photo": "https://visit-venice-italy.global.ssl.fastly.net/pics/palaces/doge/doge-palace-venice-04.jpg"
-    },
-    {
-      "day": 7,
-      "date": "Aug 7 · Fri",
-      "label_zh": "佛羅倫斯 · 文藝復興之心",
-      "day_query": "Florence Duomo Santa Maria del Fiore",
-      "hotel_name": "Hotel Savoy Florence",
-      "hotel_name_zh": "薩沃伊佛羅倫斯酒店",
-      "hotel_room": "豪華雙人房",
-      "weather": "☀️ 34°/23°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐 · 退房 · 寄放行李"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚄 搭乘 Italo 高鐵前往佛羅倫斯（9:30–11:00 · €45/人）"
-        },
-        {
-          "time": "11:00",
-          "desc": "🚕 計程車前往 Hotel Savoy（約15分鐘 · €15）"
-        },
-        {
-          "time": "11:30",
-          "desc": "🏨 入住 Hotel Savoy · 稍作休息"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍝 午餐：Trattoria Mario · 佛羅倫斯牛排（約€35/人）"
-        },
-        {
-          "time": "14:00",
-          "desc": "⛪ 聖母百花大教堂 Cattedrale di Santa Maria del Fiore · 登頂（€15/人）"
-        },
-        {
-          "time": "16:00",
-          "desc": "🎨 烏菲茲美術館 Galleria degli Uffizi · 預約門票（€20/人）· 維納斯的誕生"
-        },
-        {
-          "time": "18:30",
-          "desc": "🚶 老橋 Ponte Vecchio · 欣賞夕陽 · 購買珠寶"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ Enoteca Pinchiorri 米其林三星晚餐 · 預約20:00 · 手工義大利麵"
-        },
-        {
-          "time": "22:30",
-          "desc": "🌙 返回酒店 · 屋頂酒吧小酌 · 欣賞大教堂夜景"
-        }
-      ],
-      "day_photo": "https://www.italiandualcitizenship.net/wp-content/uploads/2019/03/Cathedral-of-Santa-Maria-del-Fiore-Duomo-Florence-Italy.jpg"
-    },
-    {
-      "day": 8,
-      "date": "Aug 8 · Sat",
-      "label_zh": "佛羅倫斯 · 藝術與花園",
-      "day_query": "Boboli Gardens Florence",
-      "hotel_name": "Hotel Savoy Florence",
-      "hotel_name_zh": "薩沃伊佛羅倫斯酒店",
-      "hotel_room": "豪華雙人房",
-      "weather": "☀️ 35°/24°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐 · 托斯卡納特色麵包與蜂蜜"
-        },
-        {
-          "time": "09:00",
-          "desc": "🎨 學院美術館 Galleria dell'Accademia · 大衛像（€12/人）"
-        },
-        {
-          "time": "11:00",
-          "desc": "🌳 波波里花園 Giardino di Boboli · 漫步欣賞雕塑與噴泉（€10/人）"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍝 午餐：Osteria del Cinghiale Bianco · 野豬肉醬麵（約€30/人）"
-        },
-        {
-          "time": "14:30",
-          "desc": "⛪ 聖十字教堂 Basilica di Santa Croce · 米開朗基羅之墓"
-        },
-        {
-          "time": "16:00",
-          "desc": "🛍️ 托納布奧尼街購物 · 義大利精品品牌"
-        },
-        {
-          "time": "17:30",
-          "desc": "☕ Gilli Firenze 下午茶 · 品嚐義式冰淇淋"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：Il Latini · 家庭式托斯卡納料理（約€40/人）"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 返回酒店"
-        }
-      ],
-      "day_photo": "https://images.musement.com/cover/0001/94/thumb_93262_cover_header.jpeg"
-    },
-    {
-      "day": 9,
-      "date": "Aug 9 · Sun",
-      "label_zh": "托斯卡納鄉間 · 基安蒂酒莊之旅",
-      "day_query": "Chianti vineyards Tuscany",
-      "hotel_name": "Hotel Savoy Florence",
-      "hotel_name_zh": "薩沃伊佛羅倫斯酒店",
-      "hotel_room": "豪華雙人房",
-      "weather": "☀️ 33°/22°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚗 租車自駕或私人司機前往基安蒂（約1小時 · €150含司機）"
+          "desc": "🚕 搭乘計程車前往酒店（約 45 分鐘 · €55）· 沿途欣賞巴黎市郊風光"
         },
         {
           "time": "10:00",
-          "desc": "🍇 參觀 Castello di Verrazzano 酒莊 · 品酒與橄欖油（€25/人）"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍝 酒莊餐廳午餐 · 搭配基安蒂紅酒（約€35/人）"
-        },
-        {
-          "time": "14:30",
-          "desc": "🏘️ 聖吉米尼亞諾 San Gimignano · 中世紀塔樓 · 世界冠軍冰淇淋"
-        },
-        {
-          "time": "16:30",
-          "desc": "📸 拍照 · 購買當地 saffron 與陶瓷"
-        },
-        {
-          "time": "18:00",
-          "desc": "🚗 返回佛羅倫斯"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：Trattoria da Burde · 傳統佛羅倫斯菜（約€35/人）"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 返回酒店"
-        }
-      ],
-      "day_photo": "https://allroadsleadtoitaly.com/wp-content/uploads/2023/06/Best-Wineries-In-Chianti-1024x538.webp"
-    },
-    {
-      "day": 10,
-      "date": "Aug 10 · Mon",
-      "label_zh": "托斯卡納海岸 · 蒙特阿爾真塔里奧",
-      "day_query": "Monte Argentario Tuscany coast",
-      "hotel_name": "Hotel Il Pellicano",
-      "hotel_name_zh": "貝利卡諾酒店",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "☀️ 32°/24°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐 · 退房 · 寄放行李"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚗 自駕或私人司機前往 Monte Argentario（約2.5小時 · €200）"
+          "desc": "🏨 抵達 Hôtel Le Narcisse Blanc · 辦理入住 · 稍作休息"
         },
         {
           "time": "11:30",
-          "desc": "🏨 抵達 Hotel Il Pellicano · 入住海景房 · 享用迎賓飲料"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍝 午餐：酒店餐廳 · 海鮮義大利麵（約€40/人）"
+          "desc": "🥐 Café de Flore 早午餐 · 花神經典歐蕾 + 可頌 + 法式洋蔥湯"
         },
         {
           "time": "14:00",
-          "desc": "🏊 私人海灘游泳 · 享受陽光與海水"
-        },
-        {
-          "time": "16:00",
-          "desc": "💆 SPA 療程（需預約 · €150/人）"
-        },
-        {
-          "time": "18:00",
-          "desc": "🚶 漫步小鎮 Porto Santo Stefano · 漁港風情"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：酒店米其林星級餐廳 · 品嚐海陸大餐（約€80/人）"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 海邊散步 · 星空下小酌"
-        }
-      ],
-      "day_photo": "http://www.italymagazine.com/sites/default/files/feature-story/leader/dscf1043.jpg"
-    },
-    {
-      "day": 11,
-      "date": "Aug 11 · Tue",
-      "label_zh": "返回羅馬 · 最後的永恆",
-      "day_query": "Trevi Fountain Rome night",
-      "hotel_name": "Hotel Hassler Roma",
-      "hotel_name_zh": "哈斯勒羅馬酒店",
-      "hotel_room": "經典豪華雙人房",
-      "weather": "☀️ 33°/23°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐 · 退房"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚗 私人司機返回羅馬（約2.5小時 · €200）"
-        },
-        {
-          "time": "11:30",
-          "desc": "🏨 入住 Hotel Hassler Roma · 寄放行李"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍝 午餐：Armando al Pantheon · 再次回味經典"
-        },
-        {
-          "time": "14:00",
-          "desc": "🛍️ 孔多蒂街購物 · 購買最後的紀念品"
-        },
-        {
-          "time": "16:00",
-          "desc": "⛲ 許願池 · 再次投幣 · 品嚐Gelato"
+          "desc": "🎨 羅浮宮 Musée du Louvre（預約票 €17/人）· 必看：蒙娜麗莎、勝利女神"
         },
         {
           "time": "17:30",
-          "desc": "🚶 西班牙階梯 · 享受最後的羅馬時光"
+          "desc": "🚶 杜樂麗花園散步 · 協和廣場 · 欣賞夕陽下的方尖碑"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：Ristorante Aroma · 競技場景觀（約€60/人）"
+          "time": "19:30",
+          "desc": "🍽️ Le Cinq 米其林三星晚餐 · 預約 19:30 · 品嚐主廚招牌龍蝦濃湯"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 返回酒店 · 整理行李 · 準備明天返程"
+          "time": "22:00",
+          "desc": "🌙 返回酒店 · 途經亞歷山大三世橋欣賞夜間燈光"
         }
       ],
-      "day_photo": "https://as1.ftcdn.net/v2/jpg/01/97/25/88/1000_F_197258816_mL46kj7ybBPm4IPSsbf7VHFteh2aauzC.jpg"
+      "day_photo": "https://cdn.britannica.com/67/114967-050-A8998445/Eiffel-Tower-Paris-Gustave.jpg"
     },
     {
-      "day": 12,
-      "date": "Aug 12 · Wed",
-      "label_zh": "返程 · 滿載回憶",
-      "day_query": "Rome Fiumicino airport",
-      "hotel_name": "",
-      "hotel_name_zh": "",
-      "hotel_room": "",
-      "weather": "☀️ 30°/22°",
+      "day": 2,
+      "date": "May 16 · Fri",
+      "label_zh": "藝術與左岸風情",
+      "day_query": "Musée d'Orsay Paris",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典雙人房",
+      "hotel_room": "經典雙人房",
+      "weather": "☀️ 20°/12°",
       "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 退房"
-        },
-        {
           "time": "08:00",
-          "desc": "🚕 計程車前往羅馬菲烏米奇諾機場（約40分鐘 · €50）"
+          "desc": "🏨 酒店早餐 · 法式可頌 + 鮮榨柳橙汁"
         },
         {
           "time": "09:00",
-          "desc": "✈️ 辦理登機 · 長榮航空 BR72 · 11:50 起飛"
+          "desc": "🎨 奧賽美術館 Musée d'Orsay（預約票 €16/人）· 印象派名作：梵谷、莫內"
         },
         {
-          "time": "11:50",
-          "desc": "🛫 起飛返台 · 回味義大利美好時光"
+          "time": "12:00",
+          "desc": "🍽️ Septime 米其林一星午餐 · 熟成肋眼牛排"
         },
         {
-          "time": "06:30",
-          "desc": "🛬 抵達桃園機場 · 結束浪漫旅程"
+          "time": "14:30",
+          "desc": "🚶 拉丁區漫步 · 聖日耳曼德佩教堂 · 莎士比亞書店"
+        },
+        {
+          "time": "16:00",
+          "desc": "☕ La Pâtisserie des Rêves 下午茶 · 品嚐巴黎布列斯特"
+        },
+        {
+          "time": "18:00",
+          "desc": "🌉 聖母院外觀（修復中）· 西堤島散步"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ Chez L'Ami Jean 晚餐 · 巴斯克雞 + 米布丁"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 左岸河畔散步 · 返回酒店"
         }
       ],
-      "day_photo": "https://www.roma-airport.com/images/rome-fiumicino-airport.jpg"
+      "day_photo": "https://cdn1.citylocker.paris/img/consignes-paris/bons-plans-paris/musee-orsay/musee-orsay.jpg"
+    },
+    {
+      "day": 3,
+      "date": "May 17 · Sat",
+      "label_zh": "蒙馬特 · 聖心堂與浪漫",
+      "day_query": "Sacré-Cœur Basilica Montmartre",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典雙人房",
+      "hotel_room": "經典雙人房",
+      "weather": "☀️ 22°/13°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🏨 酒店早餐 · 準備退房寄存行李"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚇 地鐵前往蒙馬特（M12 Abbesses）"
+        },
+        {
+          "time": "10:00",
+          "desc": "⛪ 聖心堂 Sacré-Cœur · 俯瞰巴黎全景"
+        },
+        {
+          "time": "11:30",
+          "desc": "🎨 畫家廣場 · 小丘廣場 · 感受街頭藝術"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 蒙馬特小館午餐 · 法式鹹派 + 沙拉"
+        },
+        {
+          "time": "15:00",
+          "desc": "🎭 紅磨坊外觀 · 蒙馬特博物館"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚕 返回酒店取行李 · 前往 Le Meurice（約 20 分鐘）"
+        },
+        {
+          "time": "18:00",
+          "desc": "🏨 入住 Le Meurice · 豪華杜樂麗景觀房 · 欣賞花園景致"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ Restaurant Guy Savoy 米其林三星晚餐 · 黑松露湯"
+        }
+      ],
+      "day_photo": "https://img.fotocommunity.com/basilique-du-sacre-cur-de-montmartre-3b543772-0a0f-4308-84d6-a25f7afc0476.jpg?height=1080"
+    },
+    {
+      "day": 4,
+      "date": "May 18 · Sun",
+      "label_zh": "凡爾賽宮 · 皇室風華",
+      "day_query": "Palace of Versailles gardens",
+      "hotel_name": "Le Meurice",
+      "hotel_name_zh": "莫里斯酒店 · 豪華杜樂麗景觀雙人房",
+      "hotel_room": "豪華杜樂麗景觀雙人房",
+      "weather": "☀️ 23°/14°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🏨 Le Meurice 早餐 · 精緻法式自助"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚄 RER C 火車前往凡爾賽宮（約 45 分鐘 · €7.3/人）"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏰 凡爾賽宮 Palace of Versailles（預約票 €21/人）· 鏡廳、國王套房"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 凡爾賽宮花園午餐 · 野餐三明治 + 可麗露"
+        },
+        {
+          "time": "14:30",
+          "desc": "🌳 凡爾賽花園散步 · 大運河 · 瑪麗安東尼農莊"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚄 RER C 返回巴黎"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ Le Meurice 酒店內米其林三星晚餐（主廚套餐）"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 杜樂麗花園夜間散步 · 返回房間"
+        }
+      ],
+      "day_photo": "https://www.tripsavvy.com/thmb/7e-cAiIkxbZ2-hNyOt44nMNg1Ms=/4163x2772/filters:no_upscale():max_bytes(150000):strip_icc()/versailles-gardens-orangerie-59787fddaad52b0011a6a0a4.jpg"
+    },
+    {
+      "day": 5,
+      "date": "May 19 · Mon",
+      "label_zh": "瑪黑區 · 最後的巴黎",
+      "day_query": "Place des Vosges Paris",
+      "hotel_name": "Le Meurice",
+      "hotel_name_zh": "莫里斯酒店 · 豪華杜樂麗景觀雙人房",
+      "hotel_room": "豪華杜樂麗景觀雙人房",
+      "weather": "⛅ 21°/12°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🏨 酒店早餐 · 整理行李"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚶 瑪黑區 Le Marais 漫步 · 孚日廣場 · 雨果故居"
+        },
+        {
+          "time": "11:00",
+          "desc": "🛍️ 瑪黑精品店購物 · 法國藥妝、設計小物"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 瑪黑區小館午餐 · 油封鴨"
+        },
+        {
+          "time": "14:00",
+          "desc": "🎨 畢卡索博物館 Musée Picasso（預約票 €12/人）"
+        },
+        {
+          "time": "16:00",
+          "desc": "☕ 最後一杯咖啡 · 花神咖啡館"
+        },
+        {
+          "time": "17:30",
+          "desc": "🚕 前往 CDG 機場（約 45 分鐘 · €55）"
+        },
+        {
+          "time": "19:00",
+          "desc": "✈️ 辦理登機 · 退稅 · 免稅店最後採購"
+        },
+        {
+          "time": "23:20",
+          "desc": "✈️ BR 88 起飛返回台灣"
+        }
+      ],
+      "day_photo": "http://viajarparis.com.br/wp-content/uploads/2016/10/place-des-vosges.jpg"
+    },
+    {
+      "day": 6,
+      "date": "May 20 · Tue",
+      "label_zh": "返抵台灣",
+      "day_query": "Taipei 101 skyline",
+      "hotel_name": "",
+      "hotel_name_zh": "",
+      "hotel_room": "",
+      "weather": "🌤️ 28°/22°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "06:30",
+          "desc": "✈️ 抵達桃園機場 TPE · 領行李 · 入境"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚕 返回溫暖的家 · 旅程結束"
+        }
+      ],
+      "day_photo": "https://www.goodfreephotos.com/albums/taiwan/taipei/cityscape-and-skyline-or-taipei-with-the-101-building-in-the-middle-in-taiwan.jpg"
     }
   ],
   "costs": [
     {
       "label": "✈️ 來回機票",
-      "amount_ntd": 96000
+      "amount_ntd": 38000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 250000
+      "amount_ntd": 225000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 75000
+      "amount_ntd": 45000
     },
     {
       "label": "🎫 景點門票",
-      "amount_ntd": 20000
+      "amount_ntd": 12500
     },
     {
-      "label": "🚇 交通（高鐵/計程車/租車）",
-      "amount_ntd": 40000
+      "label": "🚇 交通",
+      "amount_ntd": 8000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 15000
+      "amount_ntd": 30000
     }
   ],
-  "cost_total_ntd": 496000,
-  "budget_remaining_ntd": 4000,
+  "cost_total_ntd": 358500,
+  "budget_remaining_ntd": 141500,
   "photos": {
     "hero": [
       {
-        "url": "https://www.theviennablog.com/wp-content/uploads/2022/10/florence-italy-skyline-at-dusk-2022-03-04-10-17-47-utc.jpg",
-        "label": "Best 10 days in Italy itinerary - How to Spend 10 Days in Italy - The ..."
+        "url": "https://wallpapercrafter.com/desktop1/504790-eiffel-tower-cityscape-city-landmark-paris-sky.jpg",
+        "label": "Europe, Sky, Skyscraper, Skyline, Eiffel Tower, River, City, Seine ..."
       },
       {
-        "url": "https://get.pxhere.com/photo/architecture-skyline-night-photography-town-city-cityscape-panorama-dusk-evening-landmark-italy-tuscany-old-town-history-florence-metropolis-firenze-aerial-photography-human-settlement-metropolitan-area-1205275.jpg",
-        "label": "Free Images : architecture, skyline, night, city, cityscape, panorama ..."
+        "url": "https://cdn1.matadornetwork.com/blogs/1/2014/05/Paris-France-skyline-cityscape-with-Eiffel-tower.jpg",
+        "label": "40 of the World's Most Impressive Skylines"
       }
     ],
     "destination": [
       {
-        "url": "https://fullsuitcase.com/wp-content/uploads/2020/06/Italy-best-places-Lake-Como.jpg",
-        "label": "Beautiful Italy Destinations 10 Reasons To Visit Northern Italy (Map"
+        "url": "",
+        "label": "Paris travel scenery"
       },
       {
-        "url": "https://i1.wp.com/handluggageonly.co.uk/wp-content/uploads/2018/05/Hand-Luggage-Only-6-2.jpg?fit=1600,2400&ssl=1",
-        "label": "12 Best Places In Italy To Visit On A First Trip - Hand Luggage Only ..."
+        "url": "",
+        "label": "Paris travel scenery"
       },
       {
-        "url": "https://globalgrasshopper.com/wp-content/uploads/2011/04/Cinque-Terre-Italy-1000x665.jpg",
-        "label": "20 of the most beautiful places to visit in Italy | Boutique Travel Blog"
+        "url": "",
+        "label": "Paris travel scenery"
       },
       {
-        "url": "https://hips.hearstapps.com/hmg-prod/images/sunset-over-varenna-lake-como-italy-royalty-free-image-1734456352.pjpeg?crop=1xw:0.99953xh;center,top&resize=980:*",
-        "label": "The 10 Most Beautiful Places in Italy to Add to Your Travel List"
+        "url": "",
+        "label": "Paris travel scenery"
       },
       {
-        "url": "http://getwallpapers.com/wallpaper/full/3/c/8/897809-amazing-italian-scenery-wallpaper-1920x1200-for-android-50.jpg",
-        "label": "Italian Scenery Wallpaper (52+ images)"
+        "url": "",
+        "label": "Paris travel scenery"
       },
       {
-        "url": "https://globalgrasshopper.com/wp-content/uploads/2011/04/Amalfi-1000x750.jpg",
-        "label": "20 of the most beautiful places to visit in Italy | Boutique Travel Blog"
+        "url": "",
+        "label": "Paris travel scenery"
       }
     ]
   },
-  "chat_hash": "af62f08130490152cd6e0d2011525308a67f13de01bba638f58fbea494c73d54",
+  "chat_hash": "87899ef3871f7eb19d00e59cc39dfae8597c06a071e7fc4ef758268b4376e8bf",
   "config_hash": "e89568723ce46ba9f8c38b9c5a297e193cdc12ea1de5147ebbcca7fea6506e12",
-  "generated_at": "2026-05-28T00:01:25.462639"
+  "generated_at": "2026-05-28T10:31:11.682831"
 }
