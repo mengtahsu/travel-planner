@@ -1,0 +1,700 @@
+{
+  "destination_en": "Paris, France",
+  "title_zh": "寒假巴黎 · 八天浪漫之旅",
+  "date_range": "2026/01/26–02/02",
+  "start_date": "2026-01-26",
+  "end_date": "2026-02-02",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "CDG",
+  "travelers": 2,
+  "days": 8,
+  "budget_ntd": 500000,
+  "flight": {
+    "airline": "長榮航空 EVA Air",
+    "departure_date": "1月26日",
+    "return_date": "2月2日",
+    "total_price_ntd": 68000,
+    "outbound": {
+      "flight_no": "BR 87",
+      "route": "TPE → CDG 直飛",
+      "depart_time": "23:40",
+      "arrive_time": "07:30 (+1)",
+      "duration": "13h 50m",
+      "class": "經濟艙"
+    },
+    "inbound": {
+      "flight_no": "BR 88",
+      "route": "CDG → TPE 直飛",
+      "depart_time": "11:20",
+      "arrive_time": "06:30 (+1)",
+      "duration": "13h 10m",
+      "class": "經濟艙"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Hôtel Le Narcisse Blanc & Spa",
+      "name_zh": "水仙花白酒店",
+      "district": "巴黎 6 區",
+      "day_range": "1–4",
+      "nights": 4,
+      "price_ntd": 52000,
+      "stars": "★★★★☆",
+      "room_type": "經典豪華雙人房",
+      "breakfast": "含法式早餐",
+      "amenities": "🏊 室內泳池 · 💆 SPA & 土耳其浴 · 🍽️ 庭院餐廳 · 🌿 私密花園",
+      "search_query": "Hôtel Le Narcisse Blanc Paris France",
+      "photos": [
+        {
+          "url": "https://www.paris.tourisme-ville.fr/wp-content/uploads/Narcisse-Blanc-Facade.jpg",
+          "label": "Le Narcisse Blanc Hôtel et Spa - Paris Guide"
+        },
+        {
+          "url": "https://d1x2jsuj9gaph.cloudfront.net/imageRepo/6/0/88/76/391/_19A8730_md_P.jpg",
+          "label": "Le Narcisse Blanc Hôtel & Spa, Luxury Hotel in Paris, France | Small ..."
+        },
+        {
+          "url": "https://www.myboutiquehotel.com/photos/106968/le-narcisse-blanc-spa-paris-006-80827-2220x1400.jpg",
+          "label": "Le Narcisse Blanc, a Design Boutique Hotel Paris, France"
+        },
+        {
+          "url": "https://www.myboutiquehotel.com/photos/106968/le-narcisse-blanc-spa-paris-074-80928-1110x700.jpg",
+          "label": "Le Narcisse Blanc, Paris, France - My Boutique hotel"
+        },
+        {
+          "url": "https://www.myboutiquehotel.com/photos/106968/le-narcisse-blanc-spa-paris-009-80827-2220x1400.jpg",
+          "label": "Le Narcisse Blanc, Paris, France - My Boutique hotel"
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/64d0dc382c32125c4ca717f4/64e51e55820b965f680ea1d4_3-lenarcisseblanc-hotel-paris-spa-full.jpg",
+          "label": "Le Narcisse Blanc | Hôtel de Luxe & Spa au Coeur de Paris"
+        }
+      ]
+    },
+    {
+      "name": "Le Bristol Paris",
+      "name_zh": "巴黎布里斯托酒店",
+      "district": "巴黎 8 區",
+      "day_range": "5–7",
+      "nights": 3,
+      "price_ntd": 78000,
+      "stars": "★★★★★",
+      "room_type": "豪華雙人房",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 室內泳池 · 🌿 法式花園 · 🍽️ 米其林三星餐廳 · 🐾 寵物友善",
+      "search_query": "Le Bristol Paris hotel France",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Paris"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Paris"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Paris"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Paris"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Paris"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Paris"
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "Le Cinq",
+        "name_zh": "四季酒店米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：龍蝦濃湯佐黑松露",
+        "address": "31 Av. George V, 8區",
+        "price_ntd": 10500,
+        "price_label": "晚餐套餐 €300/人 · NT$10,500",
+        "hours": "19:00–22:00 · 需預約",
+        "search_query": "Le Cinq restaurant Four Seasons Paris food",
+        "photos": [
+          {
+            "url": "http://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-221,5743-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_706_original.jpg",
+            "label": "Paris Restaurants | Fine Dining | Four Seasons Hotel George V Paris"
+          },
+          {
+            "url": "https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-788,4585-2250,0000-1265,6250/publish/content/dam/fourseasons/images/web/PAR/PAR_1048_original.jpg",
+            "label": "Le Cinq | Michelin-Star Restaurant Paris | Fine Dining in Paris"
+          },
+          {
+            "url": "https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-272,1406-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_1681_original.jpg",
+            "label": "Le Cinq | Restaurant étoilé Michelin à Paris | Cuisine gastronomique à ..."
+          }
+        ]
+      },
+      {
+        "name": "Epicure",
+        "name_zh": "布里斯托酒店米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🦀 招牌：布列塔尼藍龍蝦 · 魚子醬",
+        "address": "112 Rue du Faubourg Saint-Honoré, 8區",
+        "price_ntd": 14000,
+        "price_label": "晚餐套餐 €400/人 · NT$14,000",
+        "hours": "12:00–14:00 / 19:30–22:00 · 需預約",
+        "search_query": "Epicure restaurant Le Bristol Paris",
+        "photos": [
+          {
+            "url": "https://i1.wp.com/parisabor.com/wp-content/uploads/2020/02/le-bristol-paris-epicure-restaurant-2.png?resize=1536,864&ssl=1",
+            "label": "le-bristol-paris-epicure-restaurant-2 - PariSabor"
+          },
+          {
+            "url": "https://media.gaultmillau.com/download/64f6f4e3b4f96d72980b8168/image/jpeg/epicure-le-bristol-paris.jpg",
+            "label": "Épicure - Le Bristol Paris - Restaurant - Paris 8 - Gault&Millau"
+          },
+          {
+            "url": "https://1.bp.blogspot.com/-alyaYoCc0sY/Ug9BRQ9KbXI/AAAAAAAAFL4/R0N6aBPC20A/w1200-h630-p-k-no-nu/DSC09886.JPG",
+            "label": "Epicure at Le Bristol (Paris, FRANCE) ★★★★★ | A traveling foodie's ..."
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "Septime",
+        "name_zh": "新派法式小酒館 · 米其林一星",
+        "stars": "⭐",
+        "dish": "🥩 招牌：熟成肋眼牛排 · 煙燻甜菜根",
+        "address": "80 Rue de Charonne, 11區",
+        "price_ntd": 4900,
+        "price_label": "午餐套餐 €140/人 · NT$4,900",
+        "hours": "12:15–14:00 / 19:30–22:00",
+        "search_query": "Septime restaurant Paris food",
+        "photos": [
+          {
+            "url": "https://www.solosophie.com/wp-content/uploads/2020/02/septime-paris-food.jpg",
+            "label": "Paris Septime Restaurant Review in the 11th Arrondissement | solosophie"
+          },
+          {
+            "url": "https://www.theworlds50best.com/discovery/filestore/jpg/Septime-Paris-France-03.jpg",
+            "label": "Septime - Paris - Restaurant - 50Best Discovery"
+          },
+          {
+            "url": "https://www.solosophie.com/wp-content/uploads/2020/02/septime-paris-restaurant-interior-1024x683.jpg",
+            "label": "Paris Septime Restaurant Review in the 11th Arrondissement | solosophie"
+          }
+        ]
+      },
+      {
+        "name": "Chez L'Ami Jean",
+        "name_zh": "巴斯克風味小酒館",
+        "stars": "",
+        "dish": "🍖 招牌：慢烤乳豬 · 巴斯克燉菜",
+        "address": "27 Rue Malar, 7區",
+        "price_ntd": 2800,
+        "price_label": "晚餐 €80/人 · NT$2,800",
+        "hours": "12:00–14:00 / 19:00–22:30",
+        "search_query": "Chez L'Ami Jean Paris bistro",
+        "photos": [
+          {
+            "url": "https://www.conexaoparis.com.br/wp-content/uploads/2013/10/2013-07-24-21.21.35.jpg",
+            "label": "Chez l'Ami Jean: bistronomia de raiz em Paris - Conexão Paris"
+          },
+          {
+            "url": "https://www.paris-bistro.com/wp-content/uploads/2016/01/ami-jean-salle2.jpg",
+            "label": "L'Ami Jean - Paris-Bistro"
+          },
+          {
+            "url": "https://vacatis.com/wp-content/uploads/2023/07/Chez-L-Ami-Jean.webp",
+            "label": "The Best Places to Eat in Paris - Vacatis"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Café de Flore",
+        "name_zh": "花神咖啡館 · 1887年開業",
+        "stars": "",
+        "dish": "☕ 招牌：熱巧克力 · 可頌 · 焦糖布丁",
+        "address": "172 Bd Saint-Germain, 6區",
+        "price_ntd": 1400,
+        "price_label": "兩人早午餐 €40 · NT$1,400",
+        "hours": "07:30–01:30 · 文人雅士最愛",
+        "search_query": "Cafe de Flore Paris interior",
+        "photos": [
+          {
+            "url": "https://live.staticflickr.com/2109/2313594657_22d8acf2ab_z.jpg",
+            "label": "Cafe de Flore interior - a photo on Flickriver"
+          },
+          {
+            "url": "https://thecoffeeguru.net/storage/2023/07/inside_the_cafe__an_atmosphere_of_timeless_elegance.webp",
+            "label": "Café de Flore Paris: A Timeless Emblem of French Café Culture"
+          },
+          {
+            "url": "http://1.bp.blogspot.com/-6qbz0os2sS8/U3YKXevu4oI/AAAAAAAATR0/gIPUBzmfG9U/s1600/IMG_6795.jpg",
+            "label": "Alexandra D. Foster Destinations Perfected: Paris, France - Cafe de Flore"
+          }
+        ]
+      },
+      {
+        "name": "La Pâtisserie des Rêves",
+        "name_zh": "夢想甜點店",
+        "stars": "",
+        "dish": "🍰 招牌：巴黎布列斯特 · 聖多諾黑",
+        "address": "93 Rue du Bac, 7區",
+        "price_ntd": 1050,
+        "price_label": "兩人下午茶 €30 · NT$1,050",
+        "hours": "09:00–20:00 · 週日休",
+        "search_query": "La Pâtisserie des Rêves Paris",
+        "photos": [
+          {
+            "url": "http://retaildesignblog.net/wp-content/uploads/2012/11/La-Patisserie-des-Reves-Paris-13.jpg",
+            "label": "» CHOCOLATIER! La Pâtisserie des Rêves, Paris"
+          },
+          {
+            "url": "https://www.sugarednspiced.com/wp-content/uploads/2012/12/R0057087.jpg",
+            "label": "[Paris] La Pâtisserie des Rêves | Sugared & Spiced"
+          },
+          {
+            "url": "https://www.roadtopastry.com/blog/wp-content/uploads/Shop-Patisserie-des-reves-Paris01.jpg",
+            "label": "Pastry on the road: La Pâtisserie des Rêves, Paris – Road to Pastry"
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "Jan 26 · Mon",
+      "label_zh": "抵達 · 巴黎初印象",
+      "day_query": "Eiffel Tower Paris landmark",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "❄️ 3°/-1°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李（預計30–45分鐘）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚕 搭乘計程車前往酒店（約45分鐘 · €55）· 沿途欣賞冬日巴黎"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏨 抵達 Hôtel Le Narcisse Blanc · 辦理入住 · 稍作休息"
+        },
+        {
+          "time": "11:30",
+          "desc": "🥐 Café de Flore 早午餐 · 花神經典歐蕾 + 可頌 + 法式洋蔥湯"
+        },
+        {
+          "time": "14:00",
+          "desc": "🎨 羅浮宮 Musée du Louvre（預約票 €17/人）· 必看：蒙娜麗莎、勝利女神"
+        },
+        {
+          "time": "17:30",
+          "desc": "🚶 杜樂麗花園散步 · 協和廣場 · 欣賞夕陽"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ Le Cinq 米其林三星晚餐 · 預約 19:30 · 品嚐主廚招牌龍蝦濃湯"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店 · 途經亞歷山大三世橋欣賞夜間燈光"
+        }
+      ],
+      "day_photo": "https://c.pxhere.com/photos/ee/40/eiffel_tower_tower_monument_tall_building_paris-15190.jpg!d"
+    },
+    {
+      "day": 2,
+      "date": "Jan 27 · Tue",
+      "label_zh": "左岸文藝 · 聖日耳曼",
+      "day_query": "Musée d'Orsay Paris art",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "❄️ 2°/-2°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店享用法式早餐（可頌、咖啡、鮮榨果汁）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🎨 奧賽博物館 Musée d'Orsay（預約票 €16/人）· 印象派珍藏：莫內、雷諾瓦"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ Septime 米其林一星午餐 · 品嚐熟成肋眼牛排"
+        },
+        {
+          "time": "14:30",
+          "desc": "📚 聖日耳曼 des Prés 漫步 · 逛古老書店與精品店"
+        },
+        {
+          "time": "16:00",
+          "desc": "☕ La Pâtisserie des Rêves 下午茶 · 品嚐巴黎布列斯特"
+        },
+        {
+          "time": "18:00",
+          "desc": "⛪ 聖母院外觀 · 冬日夕陽下的哥德式建築"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ Chez L'Ami Jean 小酒館晚餐 · 巴斯克風味慢烤乳豬"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店 · 享受酒店 SPA 土耳其浴"
+        }
+      ],
+      "day_photo": "https://cdn.sortiraparis.com/images/80/101364/865215-musee-d-orsay-collection-permanente.jpg"
+    },
+    {
+      "day": 3,
+      "date": "Jan 28 · Wed",
+      "label_zh": "蒙馬特 · 聖心堂",
+      "day_query": "Sacré-Cœur Basilica Montmartre",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "❄️ 1°/-3°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚇 地鐵至蒙馬特（M12 Abbesses）· 步行至聖心堂"
+        },
+        {
+          "time": "10:30",
+          "desc": "⛪ 聖心堂 Basilique du Sacré-Cœur · 俯瞰巴黎全景"
+        },
+        {
+          "time": "12:00",
+          "desc": "🎨 畫家廣場 Place du Tertre · 欣賞街頭藝術家創作"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 午餐：Le Moulin de la Galette · 傳統法式料理"
+        },
+        {
+          "time": "15:00",
+          "desc": "🚶 紅磨坊區散步 · 探索蒙馬特葡萄園"
+        },
+        {
+          "time": "17:00",
+          "desc": "🛍️ 老佛爺百貨 Galeries Lafayette · 冬日折扣季"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 晚餐：Bistrot Paul Bert · 油封鴨經典之作"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 返回酒店"
+        }
+      ],
+      "day_photo": "https://cdn.sortiraparis.com/images/80/93251/624771-montmartre-paris-sacre-coeur.jpg"
+    },
+    {
+      "day": 4,
+      "date": "Jan 29 · Thu",
+      "label_zh": "凡爾賽宮 · 皇家輝煌",
+      "day_query": "Palace of Versailles France",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "❄️ 2°/-1°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚄 RER C 線至 Versailles Château Rive Gauche（約40分鐘）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏰 凡爾賽宮 Château de Versailles（預約票 €21/人）· 鏡廳、國王套房"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：Angelina Versailles · 栗子蒙布朗"
+        },
+        {
+          "time": "14:00",
+          "desc": "🌳 凡爾賽花園散步 · 大特里亞農宮"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚄 返回巴黎"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：Le Comptoir du Relais · 經典法式小酒館"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 返回酒店 · 整理行李，準備換飯店"
+        }
+      ],
+      "day_photo": "https://imgcld.yatra.com/ytimages/image/upload/v1461844480/Paris-Palace_Of_Versailles2.jpg"
+    },
+    {
+      "day": 5,
+      "date": "Jan 30 · Fri",
+      "label_zh": "換飯店 · 瑪黑區探索",
+      "day_query": "Place des Vosges Paris Marais",
+      "hotel_name": "Le Bristol Paris",
+      "hotel_name_zh": "巴黎布里斯托酒店 · 豪華雙人房",
+      "hotel_room": "豪華雙人房",
+      "weather": "❄️ 3°/-1°",
+      "rain_pct": "25%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 水仙花白酒店最後早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏨 退房 · 搭乘計程車至 Le Bristol Paris（約20分鐘 · €25）"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏨 入住 Le Bristol · 參觀酒店設施"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 午餐：L'As du Fallafel · 瑪黑區最好吃的法拉費"
+        },
+        {
+          "time": "13:30",
+          "desc": "🚶 瑪黑區漫步 · 孚日廣場、畢卡索美術館"
+        },
+        {
+          "time": "16:00",
+          "desc": "🛍️ 瑪黑區獨立設計師精品店"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍸 酒店酒吧 cocktail · 體驗法式奢華"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：Epicure 米其林三星 · 布里斯托酒店內"
+        },
+        {
+          "time": "22:30",
+          "desc": "🌙 返回房間 · 享受酒店豪華寢具"
+        }
+      ],
+      "day_photo": "https://www.unjourdeplusaparis.com/wp-content/uploads/2012/03/place-des-vosges-jardin-paris.jpg"
+    },
+    {
+      "day": 6,
+      "date": "Jan 31 · Sat",
+      "label_zh": "羅丹美術館 · 鐵塔之夜",
+      "day_query": "Eiffel Tower night Paris",
+      "hotel_name": "Le Bristol Paris",
+      "hotel_name_zh": "巴黎布里斯托酒店 · 豪華雙人房",
+      "hotel_room": "豪華雙人房",
+      "weather": "❄️ 2°/-2°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🥐 酒店自助早餐（現做蛋捲、法式起司）"
+        },
+        {
+          "time": "10:00",
+          "desc": "🎨 羅丹美術館 Musée Rodin（預約票 €13/人）· 沉思者、地獄之門"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：Café du Musée Rodin · 花園午餐"
+        },
+        {
+          "time": "14:30",
+          "desc": "🏛️ 傷兵院 Hôtel des Invalides · 拿破崙墓"
+        },
+        {
+          "time": "17:00",
+          "desc": "🗼 艾菲爾鐵塔（預約登頂 €26/人）· 夕陽全景"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：Le Jules Verne 鐵塔內餐廳"
+        },
+        {
+          "time": "21:00",
+          "desc": "✨ 鐵塔燈光秀 · 每小時閃爍5分鐘"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店"
+        }
+      ],
+      "day_photo": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/paris-france-eiffel-tower-at-night-7kdsc206309102017-greg-kluempers.jpg"
+    },
+    {
+      "day": 7,
+      "date": "Feb 1 · Sun",
+      "label_zh": "香榭麗舍 · 凱旋門",
+      "day_query": "Arc de Triomphe Paris",
+      "hotel_name": "Le Bristol Paris",
+      "hotel_name_zh": "巴黎布里斯托酒店 · 豪華雙人房",
+      "hotel_room": "豪華雙人房",
+      "weather": "❄️ 1°/-3°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "10:30",
+          "desc": "🗼 凱旋門 Arc de Triomphe（登頂 €13/人）· 12條放射狀大道"
+        },
+        {
+          "time": "12:00",
+          "desc": "🛍️ 香榭麗舍大道漫步 · LV旗艦店、Cartier"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 午餐：Ladurée Champs-Élysées · 馬卡龍與法式三明治"
+        },
+        {
+          "time": "15:00",
+          "desc": "🎭 巴黎歌劇院 Opéra Garnier（導覽 €14/人）· 新巴洛克輝煌"
+        },
+        {
+          "time": "17:00",
+          "desc": "☕ 酒店下午茶 · 享受法式甜點"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 晚餐：Le Bristol 花園餐廳 · 冬季限定松露菜單"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 最後一夜 · 整理行李"
+        }
+      ],
+      "day_photo": "https://www.parisperfect.com/blog/wp-content/uploads/2012/10/Visiting-the-Arc-de-Triomphe-in-Paris-by-Paris-Perfect1.jpg"
+    },
+    {
+      "day": 8,
+      "date": "Feb 2 · Mon",
+      "label_zh": "返程 · 滿載回憶",
+      "day_query": "Charles de Gaulle Airport Paris",
+      "hotel_name": "Le Bristol Paris",
+      "hotel_name_zh": "巴黎布里斯托酒店 · 豪華雙人房",
+      "hotel_room": "豪華雙人房",
+      "weather": "❄️ 2°/-1°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店早餐 · 最後的法式可頌"
+        },
+        {
+          "time": "08:00",
+          "desc": "🏨 退房 · 搭乘計程車至 CDG（約45分鐘 · €55）"
+        },
+        {
+          "time": "09:00",
+          "desc": "✈️ 抵達機場 · 辦理退稅、安檢"
+        },
+        {
+          "time": "11:20",
+          "desc": "🛫 長榮 BR88 起飛 · 期待下次巴黎之旅"
+        },
+        {
+          "time": "06:30 (+1)",
+          "desc": "🛬 抵達台灣 TPE · 溫暖的家"
+        }
+      ],
+      "day_photo": "https://s28477.pcdn.co/wp-content/uploads/2017/10/CDG_1-984x554.jpg"
+    }
+  ],
+  "costs": [
+    {
+      "label": "✈️ 來回機票",
+      "amount_ntd": 68000
+    },
+    {
+      "label": "🏨 住宿（水仙花白酒店 4晚）",
+      "amount_ntd": 52000
+    },
+    {
+      "label": "🏨 住宿（布里斯托酒店 3晚）",
+      "amount_ntd": 78000
+    },
+    {
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 85000
+    },
+    {
+      "label": "🎫 景點門票",
+      "amount_ntd": 35000
+    },
+    {
+      "label": "🚇 交通（計程車 / 地鐵 / RER）",
+      "amount_ntd": 18000
+    },
+    {
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 120000
+    }
+  ],
+  "cost_total_ntd": 456000,
+  "budget_remaining_ntd": 44000,
+  "photos": {
+    "hero": [
+      {
+        "url": "",
+        "label": "Paris skyline landmark"
+      },
+      {
+        "url": "",
+        "label": "Paris skyline landmark"
+      }
+    ],
+    "destination": [
+      {
+        "url": "https://static01.nyt.com/images/2023/07/01/travel/22hours-paris-tjzf/22hours-paris-tjzf-videoSixteenByNine3000.jpg",
+        "label": "36 Hours in Paris: Things to Do and See - The New York Times"
+      },
+      {
+        "url": "https://png.pngtree.com/thumb_back/fh260/background/20230414/pngtree-scenery-view-from-the-eiffel-tower-height-to-the-paris-cityscape-photo-image_2424739.jpg",
+        "label": "Paris Scenery Background Images, HD Pictures and Wallpaper For Free ..."
+      },
+      {
+        "url": "https://images.pexels.com/photos/19288556/pexels-photo-19288556/free-photo-of-cityscape-of-paris-under-scenic-clouds.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "label": "Cityscape of Paris under Scenic Clouds · Free Stock Photo"
+      }
+    ]
+  },
+  "chat_hash": "3ee2cf26716dbc69b36ef37af29e49946861696fdff05b3168bbe347b140e07d",
+  "config_hash": "e89568723ce46ba9f8c38b9c5a297e193cdc12ea1de5147ebbcca7fea6506e12",
+  "generated_at": "2026-05-29T00:02:14.400996"
+}
