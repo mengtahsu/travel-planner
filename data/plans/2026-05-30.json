@@ -1,191 +1,191 @@
 {
-  "destination_en": "Hokkaido, Japan",
-  "title_zh": "北海道冬季浪漫八日遊",
-  "date_range": "2026/01/26–02/02",
-  "start_date": "2026-01-26",
-  "end_date": "2026-02-02",
+  "destination_en": "Tahiti, French Polynesia",
+  "title_zh": "大溪地 · 茉莉雅 · 波拉波拉 十二天頂級浪漫之旅",
+  "date_range": "2026/08/01–08/12",
+  "start_date": "2026-08-01",
+  "end_date": "2026-08-12",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "CTS",
+  "destination_code": "PPT",
   "travelers": 2,
-  "days": 8,
-  "budget_ntd": 500000,
+  "days": 12,
+  "budget_ntd": 800000,
   "flight": {
-    "airline": "中華航空 China Airlines",
-    "departure_date": "1月26日",
-    "return_date": "2月2日",
-    "total_price_ntd": 50000,
+    "airline": "大溪地航空 Air Tahiti Nui",
+    "departure_date": "8月1日",
+    "return_date": "8月12日",
+    "total_price_ntd": 120000,
     "outbound": {
-      "flight_no": "CI 130",
-      "route": "TPE → CTS 直飛",
-      "depart_time": "08:40",
-      "arrive_time": "13:30",
-      "duration": "3h 50m",
+      "flight_no": "TN 58",
+      "route": "TPE → PPT (東京轉機)",
+      "depart_time": "10:00",
+      "arrive_time": "07:00 (+1)",
+      "duration": "14h 00m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 131",
-      "route": "CTS → TPE 直飛",
-      "depart_time": "15:00",
-      "arrive_time": "18:30",
-      "duration": "4h 30m",
+      "flight_no": "TN 57",
+      "route": "PPT → TPE (東京轉機)",
+      "depart_time": "23:30",
+      "arrive_time": "06:00 (+2)",
+      "duration": "14h 30m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "JR Tower Hotel Nikko Sapporo",
-      "name_zh": "JR塔日航札幌酒店",
-      "district": "札幌站直結",
+      "name": "InterContinental Tahiti Resort & Spa",
+      "name_zh": "大溪地洲際度假酒店",
+      "district": "大溪地本島 · 帕皮提",
       "day_range": "1–2",
       "nights": 2,
-      "price_ntd": 24000,
+      "price_ntd": 32000,
       "stars": "★★★★★",
-      "room_type": "豪華雙人房 (含早餐)",
+      "room_type": "豪華海景房",
       "breakfast": "含自助早餐",
-      "amenities": "🏋️ 健身房 · 🛁 大浴場 · 🍣 頂樓餐廳 · 🚄 直通JR站",
-      "search_query": "JR Tower Hotel Nikko Sapporo",
+      "amenities": "🏊 無邊際泳池 · 💆 深海水療 · 🌴 熱帶花園 · 🍽️ 法式餐廳",
+      "search_query": "InterContinental Tahiti Resort",
       "photos": [
         {
-          "url": "",
-          "label": "luxury hotel Hokkaido"
+          "url": "https://www.tahiti.com/images1/thumbs/InterContinental-Tahiti-Resort-Aerial-1200x720.jpg",
+          "label": "InterContinental Tahiti Resort | Tahiti.com"
         },
         {
-          "url": "",
-          "label": "luxury hotel Hokkaido"
+          "url": "https://tahiti.intercontinental.com/wp-content/uploads/2022/10/IC-Tahiti-IG08-wide.jpg",
+          "label": "Home - InterContinental Tahiti Resort & Spa"
         },
         {
-          "url": "",
-          "label": "luxury hotel Hokkaido"
+          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial1-2000x1200_29686.jpg",
+          "label": "InterContinental Tahiti Resort | Tahiti.com"
         },
         {
-          "url": "",
-          "label": "luxury hotel Hokkaido"
+          "url": "https://digital.ihg.com/is/image/ihg/intercontinental-faaa-6338984904-16x9?",
+          "label": "InterContinental Resort Tahiti | Luxury Hotel in Faa'a"
         },
         {
-          "url": "",
-          "label": "luxury hotel Hokkaido"
+          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial2-2000x1200_29686.jpg",
+          "label": "InterContinental Tahiti Resort | Tahiti.com"
         },
         {
-          "url": "",
-          "label": "luxury hotel Hokkaido"
+          "url": "https://www.tahiti.com/images1/gallery/PPTIRT_AerialResort1_1000x600_29686.jpg",
+          "label": "InterContinental Tahiti Resort | Tahiti.com"
         }
       ]
     },
     {
-      "name": "Hoshinoya Tomamu",
-      "name_zh": "星野度假村 塔娃大酒店",
-      "district": "Tomamu",
-      "day_range": "3–4",
-      "nights": 2,
-      "price_ntd": 80000,
+      "name": "Sofitel Kia Ora Moorea Beach Resort",
+      "name_zh": "索菲特茉莉雅海灘度假村",
+      "district": "茉莉雅島",
+      "day_range": "3–6",
+      "nights": 4,
+      "price_ntd": 96000,
       "stars": "★★★★★",
-      "room_type": "標準雙人房 (含早餐)",
+      "room_type": "水上豪華別墅",
       "breakfast": "含自助早餐",
-      "amenities": "🏔️ 霧冰平台 · ♨️ 木林之湯 · 🎿 滑雪場 · 🌟 Ice Village",
-      "search_query": "Hoshinoya Tomamu Hokkaido",
+      "amenities": "🏡 水上別墅 · 🤿 浮潛裝備 · 🛶 獨木舟 · 🍽️ 海景餐廳",
+      "search_query": "Sofitel Kia Ora Moorea",
       "photos": [
         {
-          "url": "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/10/00/a1000391/img/en/a1000391_parts_62cea3c02ef4f.jpg?20240531001200&q=80",
-          "label": "10 Luxurious Hotels in Hokkaido: Enjoy Scenic Summer Views of Sea ..."
+          "url": "https://www.sofitel-moorea-kiaora.com/wp-content/uploads/sites/91/2016/12/sofitel-moorea-bungalow-3.jpg",
+          "label": "Sofitel Kia Ora Moorea Beach Resort - Where life lives"
         },
         {
-          "url": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2020/06/15/1328/Park-Hyatt-Niseko-Hanazono-P071-Exterior.jpg/Park-Hyatt-Niseko-Hanazono-P071-Exterior.16x9.jpg",
-          "label": "Park Hyatt Niseko Hanazono - Japan's Luxury Mountain Resort In Hokkaido"
+          "url": "https://media.cntraveler.com/photos/63f7f31e054e094ffa8bc7df/16:9/w_2560,c_limit/Sofitel%20Kia%20Ora%20Moorea_20%20Pool%20%C2%A9gregoirelebacon.jpg",
+          "label": "Sofitel Kia Ora Moorea Beach Resort — Review | Condé Nast Traveler"
         },
         {
-          "url": "https://hoteldesigns.net/wp-content/uploads/2019/06/010-skye-winter2018-10-1.jpg",
-          "label": "Inside Hokkaido National Park's latest luxury hotel • Hotel Designs"
+          "url": "https://www.tahiti.com/images1/gallery/Sofitel-Moorea-Overwater-Bungalows-2000x1200_29856.jpg",
+          "label": "Sofitel Moorea Kia Ora Beach Resort | Tahiti.com"
         },
         {
-          "url": "https://www.tripsavvy.com/thmb/GuW1-UN4FFtF5PevMtZt9CjknXw=/2048x1370/filters:no_upscale():max_bytes(150000):strip_icc()/50652371_2258856554146221_6796646017748959232_o-4dc111e67a8343818b1ad2f5480fff7d.jpg",
-          "label": "The 10 Best Hotels in Hokkaido"
+          "url": "https://www.puentealpacifico.com/sites/default/files/2022-05/Villa-avec-Piscine-1_1.jpg",
+          "label": "Sofitel Kia Ora Moorea Beach Resort 5* | Puente al Pacífico"
         },
         {
-          "url": "https://luxuryhotelkyoto.com/hokkaido/wp-content/uploads/sites/6/2022/01/park-hyatt-niseko-640x440.jpg",
-          "label": "Best Luxury Hotels and Ryokans in Hokkaido, JAPAN"
+          "url": "https://www.luxurylink.com/images/sho_63d15baf/2579793_812-945/image-2579793_812.jpg",
+          "label": "Sofitel Kia Ora Moorea Beach Resort in Moorea, French Polynesia"
         },
         {
-          "url": "https://www.touristsecrets.com/wp-content/uploads/2023/09/best-hotels-in-sapporo-hokkaido-japan-budget-to-luxury-1694159174.jpg",
-          "label": "Best Hotels in Sapporo, Hokkaido (Japan): Budget to Luxury | TouristSecrets"
+          "url": "https://www.tahiti.com/images1/gallery/Sofitel-Moorea-Superior-Overwater-Bungalow-2000x1200+(2)_29856.jpg",
+          "label": "Sofitel Moorea Kia Ora Beach Resort | Tahiti.com"
         }
       ]
     },
     {
-      "name": "Hotel Otaru",
-      "name_zh": "小樽歐森飯店",
-      "district": "小樽運河旁",
-      "day_range": "5–6",
-      "nights": 2,
-      "price_ntd": 30000,
-      "stars": "★★★★☆",
-      "room_type": "頂級運河景雙人房 (含早餐)",
-      "breakfast": "含日式早餐",
-      "amenities": "🛁 展望溫泉 · 🍣 海鮮餐廳 · 🚢 運河景觀 · 🎵 音樂盒博物館旁",
-      "search_query": "Hotel Otaru canal view",
+      "name": "Four Seasons Resort Bora Bora",
+      "name_zh": "波拉波拉四季度假酒店",
+      "district": "波拉波拉島",
+      "day_range": "7–10",
+      "nights": 4,
+      "price_ntd": 280000,
+      "stars": "★★★★★",
+      "room_type": "頂級水上別墅 · 玻璃地板",
+      "breakfast": "含自助早餐",
+      "amenities": "🏡 玻璃地板水上屋 · 🐠 私人潟湖浮潛 · 🛥️ 快艇接送 · 💆 SPA",
+      "search_query": "Four Seasons Bora Bora",
       "photos": [
         {
-          "url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/460000/460685-Otaru-Canal.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh",
-          "label": "10 Best LGBTQIA-Welcoming Hotels in Otaru | Hotels.com"
+          "url": "https://digital.ihg.com/is/image/ihg/intercontinental-faaa-6338984904-16x9?",
+          "label": "InterContinental Resort Tahiti | Luxury Hotel in Faa'a"
         },
         {
-          "url": "http://1.bp.blogspot.com/-k1B0lASVRx4/VpEYO0v5SOI/AAAAAAAAOYQ/MhvonvjjOeg/s1600/Grand_Park_Otaru_-_Exterior_Night_Landscape.jpg",
-          "label": "Grand Park Otaru Hotel in Hokkaido, Japan | CAMEMBERU"
+          "url": "https://www.tahitilegends.com/images1/gallery/PPTIRT-Thumb-1200x720_20263.jpg",
+          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
         },
         {
-          "url": "https://ly-story.com/wp-content/uploads/2025/07/otaru-canal-daytime-hotel-nord-exterior-en-768x1024.jpg",
-          "label": "Hokkaido Travel | Otaru Canal: A Beautiful Stroll in Northern Japan ..."
+          "url": "https://www.tahitilegends.com/images1/gallery/PPTMSR-Thumb-1200x720_20333.jpg",
+          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
         },
         {
-          "url": "https://www.img-ikyu.com/contents/common/image/acc4/00082414/0/org/12515255.jpg?auto=compress,format&lossless=0&fit=crop",
-          "label": "Grids Premium Hotel Otaru - 【Time Sale】Prime location, just a 4-minute ..."
+          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial-2000x1200_29686.jpg",
+          "label": "InterContinental Tahiti Resort | Tahiti.com"
         },
         {
-          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/174352776.jpg?k=47c822e5b67b7a2e03710470e41b47eca2729c7ad97376f1da04b8737facf7a5&o=&hp=1",
-          "label": "Hotel Sonia Otaru, Otaru - Updated 2024 Prices"
+          "url": "https://www.tahiti.com/images1/thumbs/Hilton-Moorea-Aerial-1200x7201.jpg",
+          "label": "Hilton Moorea Lagoon Resort and Spa | Tahiti.com"
         },
         {
-          "url": "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/10/00/a1000554/img/en/a1000554_parts_65eaf892259ba.jpg?20240308145804&q=80",
-          "label": "Expert-Recommended! 5 Otaru Hotels with Great Breakfasts | LIVE JAPAN ..."
+          "url": "https://www.tahitilegends.com/images1/gallery/Hilton-Hotel-Tahiti---Pool-Sunset-1200x720-2_84733.jpg",
+          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
         }
       ]
     },
     {
-      "name": "JR Tower Hotel Nikko Sapporo",
-      "name_zh": "JR塔日航札幌酒店",
-      "district": "札幌站直結",
-      "day_range": "7–8",
+      "name": "InterContinental Tahiti Resort & Spa",
+      "name_zh": "大溪地洲際度假酒店",
+      "district": "大溪地本島 · 帕皮提",
+      "day_range": "11–12",
       "nights": 2,
-      "price_ntd": 24000,
+      "price_ntd": 32000,
       "stars": "★★★★★",
-      "room_type": "豪華雙人房 (含早餐)",
+      "room_type": "豪華海景房",
       "breakfast": "含自助早餐",
-      "amenities": "🏋️ 健身房 · 🛁 大浴場 · 🍣 頂樓餐廳 · 🚄 直通JR站",
-      "search_query": "JR Tower Hotel Nikko Sapporo",
+      "amenities": "🏊 無邊際泳池 · 💆 深海水療 · 🌴 熱帶花園 · 🍽️ 法式餐廳",
+      "search_query": "InterContinental Tahiti Resort",
       "photos": [
         {
-          "url": "https://d3g2yh83to8qa2.cloudfront.net/wp-content/uploads/sites/57/2016/04/04064136/exterior_990x590.jpg",
-          "label": "JR Tower Hotel Nikko Sapporo | Luxury Hotel in Sapporo"
+          "url": "https://tahiti.intercontinental.com/wp-content/uploads/2022/10/IC-Tahiti-IG08-wide.jpg",
+          "label": "Home - InterContinental Tahiti Resort & Spa"
         },
         {
-          "url": "https://d3g2yh83to8qa2.cloudfront.net/wp-content/uploads/sites/57/2016/04/18080212/hotel_night_990x590.jpg",
-          "label": "JR Tower Hotel Nikko Sapporo | Luxury Hotel in Sapporo"
+          "url": "https://www.tahiti.com/images1/thumbs/InterContinental-Tahiti-Resort-Aerial-1200x720.jpg",
+          "label": "InterContinental Tahiti Resort | Tahiti.com"
         },
         {
-          "url": "https://www.jrhotels.co.jp/tower/english/accommodation/img/suite/slides/04.jpg",
-          "label": "Suite |Accommodation | JR Tower Hotel Nikko Sapporo[official site]"
+          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial1-2000x1200_29686.jpg",
+          "label": "InterContinental Tahiti Resort | Tahiti.com"
         },
         {
-          "url": "https://www.jrhotels.co.jp/tower/english/accommodation/img/standard_double/slides/01.jpg",
-          "label": "Moderate Double |Accommodation | JR Tower Hotel Nikko Sapporo[official ..."
+          "url": "https://digital.ihg.com/is/image/ihg/intercontinental-faaa-6338984904-16x9?",
+          "label": "InterContinental Resort Tahiti | Luxury Hotel in Faa'a"
         },
         {
-          "url": "https://www.jrhotels.co.jp/tower/english/accommodation/img/suite/slides/01.jpg",
-          "label": "Suite |Accommodation | JR Tower Hotel Nikko Sapporo[official site]"
+          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial2-2000x1200_29686.jpg",
+          "label": "InterContinental Tahiti Resort | Tahiti.com"
         },
         {
-          "url": "https://www.jrhotels.co.jp/tower/english/accommodation/img/superior_double.jpg",
-          "label": "Accommodation | JR Tower Hotel Nikko Sapporo[official site]"
+          "url": "https://cdn.audleytravel.com/1050/750/79/62226-intercontinental-resort-tahiti.jpg",
+          "label": "InterContinental Resort Tahiti | Hotels in Tahiti | Audley Travel US"
         }
       ]
     }
@@ -193,81 +193,156 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Sushi Saito",
-        "name_zh": "壽司齋藤 札幌",
-        "stars": "⭐⭐⭐",
-        "dish": "🍣 招牌：主廚精選握壽司套餐 (20貫)",
-        "address": "中央區南2条西3丁目 札幌",
-        "price_ntd": 12000,
-        "price_label": "晚餐套餐 ¥50,000/人 · NT$12,000",
-        "hours": "18:00–21:00 · 需預約",
-        "search_query": "Sushi Saito Sapporo",
+        "name": "Le Lotus",
+        "name_zh": "蓮花餐廳 · 茉莉雅島",
+        "stars": "⭐⭐",
+        "dish": "🦞 招牌：香草奶油龍蝦 · 大溪地香草",
+        "address": "Sofitel Kia Ora Moorea, Moorea",
+        "price_ntd": 6000,
+        "price_label": "雙人套餐 NT$6,000",
+        "hours": "19:00–22:00 · 需預約",
+        "search_query": "Le Lotus Moorea",
         "photos": [
           {
-            "url": "http://www.ryoko-traveler.com/blog/wp-content/uploads/2017/04/Entrance-Sushiya-no-saito-Sapporo.jpg",
-            "label": "[Sapporo] Lunch at Sushiya no Saito (すし屋のさい藤) in Susukino | Ryoko's ..."
+            "url": "http://img.over-blog-kiwi.com/0/12/06/39/201210/ob_e84eed247cd322060ebe5f6db40e1f45_le-lotus1.jpg",
+            "label": "restaurant le Lotus - leonie et remi à tahiti"
           },
           {
-            "url": "https://visit.sapporo.travel/wp2022/wp-content/uploads/2023/09/story09-img01.jpg",
-            "label": "A master sushi chef who meticulously crafts sushi out of Hokkaido’s ..."
+            "url": "https://i5.walmartimages.com/seo/3drose-French-Polynesia-Moorea-Lotus-Blossom-and-Pads-Closeup-Set-of-4-Coasters-Cork_2e523fab-7b84-44d8-b735-31692db47299.df2575d1681a3c7d8d1c15d0483e26fb.jpeg",
+            "label": "3drose, French Polynesia, Moorea. Lotus Blossom and Pads Closeup., Set ..."
           },
           {
-            "url": "http://www.ryoko-traveler.com/blog/wp-content/uploads/2017/04/Salmon-Sushiya-no-saito-Sapporo.jpg",
-            "label": "[Sapporo] Lunch at Sushiya no Saito (すし屋のさい藤) in Susukino | Ryoko's ..."
+            "url": "https://media.licdn.com/dms/image/sync/v2/D5627AQHlhGI6m4gmUQ/articleshare-shrink_1280_800/B56ZnbLLnQH8AU-/0/1760318767453?e=2147483647&v=beta&t=ur2sSaaTMqVsVWoW-Je80hv_tLGMNhBU6FoKhee_vqw",
+            "label": "À VENDRE À PUNAAUIA LOTUS – MAISON T5 AVEC PISCINE & VUE OCÉAN (Moorea ..."
+          }
+        ]
+      },
+      {
+        "name": "La Villa Mahana",
+        "name_zh": "馬哈納別墅 · 波拉波拉島",
+        "stars": "⭐⭐⭐",
+        "dish": "🐟 招牌：香煎鮪魚佐芒果莎莎",
+        "address": "Vaitape, Bora Bora",
+        "price_ntd": 8000,
+        "price_label": "雙人套餐 NT$8,000",
+        "hours": "18:30–21:30 · 需預約",
+        "search_query": "La Villa Mahana Bora Bora",
+        "photos": [
+          {
+            "url": "https://boraboraphotos.com/wp-content/uploads/2013/10/dinning-at-la-villa-mahana-bora-bora.jpg",
+            "label": "La Villa Mahana Restaurant on Bora Bora - Island Travel Guide"
+          },
+          {
+            "url": "https://wanderinparadise.com/wp-content/uploads/2025/02/La-Villa-Mahana-Bora-Bora-683x1024.webp",
+            "label": "La Villa Mahana Bora Bora – Fine Dining Experience 2026"
+          },
+          {
+            "url": "https://wanderinparadise.com/wp-content/uploads/2025/02/la-villa-mahana-restaurant-in-bora-bora-exterior.webp",
+            "label": "La Villa Mahana Bora Bora – Fine Dining Experience 2026"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Sapporo Beer Garden",
-        "name_zh": "札幌啤酒園",
-        "stars": "⭐",
-        "dish": "🍺 招牌：成吉思汗烤羊肉 + 札幌啤酒",
-        "address": "東区北7条東9丁目",
-        "price_ntd": 3000,
-        "price_label": "雙人套餐 ¥12,500 · NT$3,000",
-        "hours": "11:30–22:00",
-        "search_query": "Sapporo Beer Garden",
+        "name": "Snack Mahana",
+        "name_zh": "馬哈納小吃 · 茉莉雅島",
+        "stars": "",
+        "dish": "🥥 招牌：椰子咖哩雞 · 鮮魚生盤",
+        "address": "PK 23, Moorea",
+        "price_ntd": 1500,
+        "price_label": "雙人餐 NT$1,500",
+        "hours": "11:30–14:00 · 18:00–20:30",
+        "search_query": "Snack Mahana Moorea",
         "photos": [
           {
-            "url": "https://hokkaidoguide.com/wp-content/uploads/2017/10/126A7712-2000x1334.jpg",
-            "label": "Sapporo Odori Beer Garden - Hokkaido Guide"
+            "url": "https://www.jonesaroundtheworld.com/wp-content/uploads/2021/07/Snack-Mahana-Moorea-1.jpg",
+            "label": "28 Best Things To Do in Moorea, French Polynesia | Moorea Travel Guide"
           },
           {
-            "url": "http://farm3.static.flickr.com/2780/4473256238_f03a57716c_b.jpg",
-            "label": "Sapporo Bier Garten | CkTravel Blography"
+            "url": "https://bora-bora.org/wp-content/uploads/2022/11/snack-mahana-moorea-fries.jpg",
+            "label": "Snack Mahana | Moorea | Polynesian Cuisine | Bora-Bora.org"
           },
           {
-            "url": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_861,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/hpjbxu6anmfnobcc9dib/SapporoBeerGardenBuffetinHokkaido.jpg",
-            "label": "Sapporo Beer Garden Buffet in Hokkaido, Japan - Klook"
+            "url": "https://etahititravel.com/wp-content/uploads/2025/11/snack-mahana-moorea-selection.jpg",
+            "label": "Notre sélection de snacks en Polynésie française : îles de la Société ..."
+          }
+        ]
+      },
+      {
+        "name": "Le Matira Beach",
+        "name_zh": "馬蒂拉海灘餐廳 · 波拉波拉島",
+        "stars": "",
+        "dish": "🍔 招牌：漢堡佐炸芋頭 · 雞尾酒",
+        "address": "Matira Point, Bora Bora",
+        "price_ntd": 2000,
+        "price_label": "雙人餐 NT$2,000",
+        "hours": "12:00–21:00",
+        "search_query": "Le Matira Beach Bora Bora",
+        "photos": [
+          {
+            "url": "https://carsrouges.fr/wp-content/uploads/2024/01/maa-tahitien-840x473.jpg",
+            "label": "Ma'a Tahitien: Cuisine Traditionnelle Polynésienne"
+          },
+          {
+            "url": "https://static1.s123-cdn-static-a.com/uploads/4672679/2000_60c17f5455287.jpg",
+            "label": "Meherio Tahitian Bistro"
+          },
+          {
+            "url": "https://images.cdn-files-a.com/uploads/4672679/2000_60c17fd1a5e45.jpg",
+            "label": "Meherio Tahitian Bistro"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "LeTAO Café",
-        "name_zh": "小樽LeTAO咖啡廳",
+        "name": "Café de la Plage",
+        "name_zh": "海灘咖啡館 · 大溪地本島",
         "stars": "",
-        "dish": "🍰 招牌：雙層起司蛋糕 + 北海道鮮奶咖啡",
-        "address": "小樽市堺町7-16",
+        "dish": "☕ 招牌：冰咖啡 · 椰子可頌",
+        "address": "Plage de Tahiti, Papeete",
         "price_ntd": 800,
-        "price_label": "雙人下午茶 ¥3,300 · NT$800",
-        "hours": "09:00–18:00",
-        "search_query": "LeTAO café Otaru",
+        "price_label": "兩人 NT$800",
+        "hours": "07:00–17:00",
+        "search_query": "Cafe de la Plage Tahiti",
         "photos": [
           {
-            "url": "https://hokkaido.a4jp.com/wp-content/uploads/2021/12/LeTAO-Otaru.jpg",
-            "label": "LeTAO Plaza Otaru - LeTAO Plus - Hokkaido A4JP Travel Guide"
+            "url": "https://www.tahiti.com/images1/gallery/Moorea-Beach-Cafe1-2000x1200_46056.jpg",
+            "label": "Sunset dinner at Moorea Beach Cafe | Tahiti.com"
           },
           {
-            "url": "http://map.uu-hokkaido.jp/e/wp-content/uploads/2021/03/shopPlus_slide01-1.jpg",
-            "label": "LeTAO - Sightseeing information in Hokkaido"
+            "url": "https://yummy-tahiti.com/wp-content/uploads/2020/08/MBC-08.12.18-1-sur-25.jpg",
+            "label": "Moorea Beach Café - Yummy Tahiti"
           },
           {
-            "url": "https://hokkaido.a4jp.com/wp-content/uploads/2021/12/letao-otaru-main-shop01.jpg",
-            "label": "LeTAO Otaru Main Shop - Hokkaido A4JP Travel Guide"
+            "url": "https://yummy-tahiti.com/wp-content/uploads/2020/08/MBC-08.12.18-4-sur-25-1200x800.jpg",
+            "label": "Moorea Beach Café - Yummy Tahiti"
+          }
+        ]
+      },
+      {
+        "name": "Le Marché Café",
+        "name_zh": "市場咖啡 · 帕皮提",
+        "stars": "",
+        "dish": "🥐 招牌：法式可頌 · 鮮榨果汁",
+        "address": "Marché de Papeete",
+        "price_ntd": 600,
+        "price_label": "兩人 NT$600",
+        "hours": "06:00–14:00",
+        "search_query": "Marche Papeete",
+        "photos": [
+          {
+            "url": "https://www.tahititourisme.nz/app/uploads/iris-images/62848/le-marche-de-papeete-a-massimiliano-cina-1920x1080-f50_50.webp",
+            "label": "A Visit to Papeete Market - Tahiti Tourisme"
+          },
+          {
+            "url": "https://images.trvl-media.com/media/content/shared/images/travelguides/destination/180103/Tahiti-230562.jpg",
+            "label": "Marché de Papeete : Découvrez Papeete avec Expedia.fr"
+          },
+          {
+            "url": "https://lesdeuxpiedsdehors.com/wp-content/uploads/2019/06/marche-de-papeete.jpg",
+            "label": "La marché de Papeete - Un immanquable en voyage à Tahiti"
           }
         ]
       }
@@ -276,480 +351,640 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Jan 26 · Mon",
-      "label_zh": "抵達札幌 · 市區探索",
-      "day_query": "Sapporo Snow Festival",
-      "hotel_name": "JR Tower Hotel Nikko Sapporo",
-      "hotel_name_zh": "JR塔日航札幌酒店 · 豪華雙人房",
-      "hotel_room": "豪華雙人房",
-      "weather": "❄️ -2°/-8°",
-      "rain_pct": "80%",
+      "date": "Aug 1 · Sat",
+      "label_zh": "抵達大溪地 · 帕皮提初印象",
+      "day_query": "Papeete Tahiti waterfront",
+      "hotel_name": "InterContinental Tahiti Resort & Spa",
+      "hotel_name_zh": "大溪地洲際度假酒店 · 豪華海景房",
+      "hotel_room": "豪華海景房",
+      "weather": "☀️ 28°/23°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "08:40",
-          "desc": "✈️ 桃園機場出發 · 中華航空CI130 · 預計飛行3小時50分"
+          "time": "10:00",
+          "desc": "✈️ 桃園機場 TPE 出發 · 大溪地航空 TN58 · 經東京轉機"
         },
         {
-          "time": "13:30",
-          "desc": "🛬 抵達新千歲機場 · 入境 · 取行李（約30分鐘）"
+          "time": "07:00",
+          "desc": "🛬 抵達大溪地法阿國際機場 PPT · 入境通關（約30分鐘）"
         },
         {
-          "time": "14:30",
-          "desc": "🚄 搭乘JR快速機場線至札幌站（約40分鐘 · ¥1,150）· 直達酒店"
-        },
-        {
-          "time": "15:30",
-          "desc": "🏨 入住JR Tower Hotel Nikko Sapporo · 放行李 · 稍作休息"
-        },
-        {
-          "time": "17:00",
-          "desc": "🎄 大通公園雪祭會場散步 · 欣賞雪雕與燈飾（免費）"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍜 拉麵共和國（札幌站ESTA 10F）· 味噌拉麵 · 兩人約¥2,500"
-        },
-        {
-          "time": "20:00",
-          "desc": "🛍️ 狸小路商店街 · 藥妝店、伴手禮"
-        },
-        {
-          "time": "21:30",
-          "desc": "🌙 返回酒店 · 使用大浴場放鬆 · 準備明日滑雪行程"
-        }
-      ],
-      "day_photo": "https://connectpls.com/wp-content/uploads/sapporo-snow-festival-1024x683.png"
-    },
-    {
-      "day": 2,
-      "date": "Jan 27 · Tue",
-      "label_zh": "滑雪體驗 · 小樽運河夜景",
-      "day_query": "Otaru Canal",
-      "hotel_name": "JR Tower Hotel Nikko Sapporo",
-      "hotel_name_zh": "JR塔日航札幌酒店 · 豪華雙人房",
-      "hotel_room": "豪華雙人房",
-      "weather": "❄️ -3°/-10°",
-      "rain_pct": "70%",
-      "slots": [
-        {
-          "time": "07:30",
-          "desc": "🥐 酒店早餐 · 自助式日西合璧"
+          "time": "08:00",
+          "desc": "🚕 搭乘計程車前往洲際酒店（約15分鐘 · XPF 2,000 · NT$600）"
         },
         {
           "time": "08:30",
-          "desc": "🚃 搭乘JR前往小樽（約40分鐘 · ¥750）· 沿途海岸線美景"
-        },
-        {
-          "time": "09:30",
-          "desc": "🎿 天狗山滑雪場（租裝備+纜車 ¥8,000/人）· 初學者雪道"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍣 小樽壽司屋通り · 午餐：おたる政壽司（¥5,000/人）"
-        },
-        {
-          "time": "14:30",
-          "desc": "🚶 小樽運河散步 · 拍照 · 參觀小樽音樂盒堂"
-        },
-        {
-          "time": "16:00",
-          "desc": "☕ LeTAO Café · 雙層起司蛋糕套餐"
-        },
-        {
-          "time": "17:30",
-          "desc": "🌆 小樽運河點燈 · 浪漫夜景攝影"
-        },
-        {
-          "time": "19:00",
-          "desc": "🚃 返回札幌 · 晚餐：札幌啤酒園成吉思汗烤肉"
-        },
-        {
-          "time": "21:30",
-          "desc": "🌙 返回酒店 · 大浴場泡湯"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 3,
-      "date": "Jan 28 · Wed",
-      "label_zh": "星野度假村 · 霧冰平台",
-      "day_query": "Unkai Terrace Tomamu",
-      "hotel_name": "Hoshinoya Tomamu",
-      "hotel_name_zh": "星野度假村 塔娃大酒店 · 標準雙人房",
-      "hotel_room": "標準雙人房",
-      "weather": "❄️ -5°/-12°",
-      "rain_pct": "60%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 辦理退房 · 寄放行李"
-        },
-        {
-          "time": "08:00",
-          "desc": "🚄 搭乘JR特急前往Tomamu（約1.5小時 · ¥5,500/人）"
-        },
-        {
-          "time": "09:30",
-          "desc": "🏨 抵達星野度假村 · 寄放行李 · 換上滑雪裝備"
+          "desc": "🏨 辦理入住 · 酒店提供迎賓雞尾酒 · 稍作休息"
         },
         {
           "time": "10:00",
-          "desc": "🎿 星野滑雪場 · 初學者課程（2小時 · ¥12,000/人含教練）"
+          "desc": "🥐 Café de la Plage 早午餐 · 冰咖啡 + 椰子可頌 · 海景第一排"
         },
         {
-          "time": "12:30",
-          "desc": "🍲 滑雪場內餐廳 · 熱騰騰的咖哩湯飯（¥1,500）"
-        },
-        {
-          "time": "14:00",
-          "desc": "☁️ 搭乘纜車上霧冰平台 · 觀賞雲海與樹冰（¥2,500/人）"
-        },
-        {
-          "time": "16:00",
-          "desc": "♨️ 木林之湯 · 露天溫泉 · 雪景環繞"
-        },
-        {
-          "time": "18:00",
-          "desc": "🏨 入住星野塔娃大酒店 · 標準雙人房"
-        },
-        {
-          "time": "19:30",
-          "desc": "🍽️ 度假村內自助晚餐（¥8,000/人）· 北海道海鮮"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌟 Ice Village · 冰之教堂 · 冰吧（免費入場）"
-        }
-      ],
-      "day_photo": "https://media.risonare.com/tomamu/wp-content/uploads/2017/09/04214348/CloudPool1-2000x1333.jpg"
-    },
-    {
-      "day": 4,
-      "date": "Jan 29 · Thu",
-      "label_zh": "星野全天 · 冰之村與雪上活動",
-      "day_query": "Ice Village Tomamu",
-      "hotel_name": "Hoshinoya Tomamu",
-      "hotel_name_zh": "星野度假村 塔娃大酒店 · 標準雙人房",
-      "hotel_room": "標準雙人房",
-      "weather": "❄️ -6°/-14°",
-      "rain_pct": "50%",
-      "slots": [
-        {
-          "time": "06:00",
-          "desc": "🌅 早起搭乘纜車欣賞日出雲海（¥2,500/人）"
-        },
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🛷 雪上摩托車體驗（30分鐘 · ¥8,000/人）"
-        },
-        {
-          "time": "11:00",
-          "desc": "🎿 繼續滑雪或雪鞋健行（租鞋¥3,000）"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍜 度假村內午餐 · 拉麵（¥1,500）"
-        },
-        {
-          "time": "14:00",
-          "desc": "🎨 手工藝體驗 · 製作玻璃雪晶（¥3,000/人）"
-        },
-        {
-          "time": "16:00",
-          "desc": "♨️ 木林之湯 · 白天雪景溫泉"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ 晚餐：度假村內燒肉餐廳（¥6,000/人）"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌟 Ice Village夜間點燈 · 冰杯調酒體驗（¥2,000/杯）"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 返回房間 · 休息"
-        }
-      ],
-      "day_photo": "https://tourjapan.co.id/wp-content/uploads/2022/10/ouiiyy-850x567.jpg"
-    },
-    {
-      "day": 5,
-      "date": "Jan 30 · Fri",
-      "label_zh": "小樽運河 · 玻璃工坊",
-      "day_query": "Otaru Canal",
-      "hotel_name": "Hotel Otaru",
-      "hotel_name_zh": "小樽歐森飯店 · 頂級運河景雙人房",
-      "hotel_room": "頂級運河景雙人房",
-      "weather": "❄️ -4°/-11°",
-      "rain_pct": "60%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 辦理退房"
-        },
-        {
-          "time": "08:00",
-          "desc": "🚄 搭乘JR特急從Tomamu到小樽（約2小時 · ¥6,500/人）"
-        },
-        {
-          "time": "10:00",
-          "desc": "🏨 抵達小樽 · 入住Hotel Otaru · 寄放行李"
-        },
-        {
-          "time": "11:00",
-          "desc": "🎨 小樽玻璃工房 · 手吹玻璃體驗（¥4,000/人）"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍣 午餐：小樽運河食堂 · 海鮮丼（¥3,000/人）"
-        },
-        {
-          "time": "14:00",
-          "desc": "🚶 小樽運河散步 · 拍照 · 逛堺町通商店街"
-        },
-        {
-          "time": "16:00",
-          "desc": "☕ LeTAO Café · 雙層起司蛋糕套餐"
-        },
-        {
-          "time": "17:30",
-          "desc": "🌆 小樽運河點燈 · 浪漫夜景"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：小樽運河旁的壽司店 · おたる旬（¥5,000/人）"
-        },
-        {
-          "time": "21:00",
-          "desc": "♨️ 酒店展望溫泉 · 欣賞小樽夜景"
-        }
-      ],
-      "day_photo": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/460000/460682-Otaru-Canal.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh"
-    },
-    {
-      "day": 6,
-      "date": "Jan 31 · Sat",
-      "label_zh": "朝里 · 積丹半島一日遊",
-      "day_query": "Shakotan Peninsula Hokkaido",
-      "hotel_name": "Hotel Otaru",
-      "hotel_name_zh": "小樽歐森飯店 · 頂級運河景雙人房",
-      "hotel_room": "頂級運河景雙人房",
-      "weather": "❄️ -3°/-10°",
-      "rain_pct": "70%",
-      "slots": [
-        {
-          "time": "07:30",
-          "desc": "🥐 酒店早餐"
-        },
-        {
-          "time": "08:30",
-          "desc": "🚃 搭乘JR前往朝里站（約15分鐘 · ¥250）· 海邊小站拍照"
-        },
-        {
-          "time": "10:00",
-          "desc": "🚌 搭乘巴士前往積丹半島（約1小時 · ¥1,500）"
-        },
-        {
-          "time": "11:30",
-          "desc": "🏞️ 積丹岬展望台 · 冬季絕景"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍜 午餐：積丹町內海鮮餐廳 · 海膽丼（¥4,000/人）"
-        },
-        {
-          "time": "14:00",
-          "desc": "🚶 神威岬散步道 · 雪中健行（約2公里）"
-        },
-        {
-          "time": "16:00",
-          "desc": "🚌 返回小樽"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ 晚餐：小樽運河旁的居酒屋 · 海鮮燒烤（¥4,000/人）"
-        },
-        {
-          "time": "20:00",
-          "desc": "🛍️ 小樽運河商店街最後採購"
-        },
-        {
-          "time": "21:30",
-          "desc": "♨️ 酒店溫泉 · 放鬆"
-        }
-      ],
-      "day_photo": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_863/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/hbehodiuv9fjrycjijni/HokkaidoOtaruCanalCruiseDreamTour｜ShakotanPeninsulaCapeKamui・ShimabuiCoast・OtaruTourCanalCruise・ShiroiKoibitoParkDayTour｜DepartfromSapporo.jpg"
-    },
-    {
-      "day": 7,
-      "date": "Feb 1 · Sun",
-      "label_zh": "札幌市區 · 白色戀人公園",
-      "day_query": "Shiroi Koibito Park",
-      "hotel_name": "JR Tower Hotel Nikko Sapporo",
-      "hotel_name_zh": "JR塔日航札幌酒店 · 豪華雙人房",
-      "hotel_room": "豪華雙人房",
-      "weather": "❄️ -2°/-9°",
-      "rain_pct": "60%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 辦理退房"
-        },
-        {
-          "time": "08:00",
-          "desc": "🚃 搭乘JR從小樽到札幌（約40分鐘 · ¥750）"
-        },
-        {
-          "time": "09:00",
-          "desc": "🏨 入住JR Tower Hotel Nikko Sapporo · 寄放行李"
-        },
-        {
-          "time": "10:00",
-          "desc": "🍫 白色戀人公園 · 參觀巧克力工廠 · 製作體驗（¥2,000/人）"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍜 午餐：札幌拉麵橫丁 · 味噌拉麵（¥1,500/人）"
-        },
-        {
-          "time": "14:00",
-          "desc": "🏛️ 札幌啤酒博物館 · 試飲（¥500）"
-        },
-        {
-          "time": "16:00",
-          "desc": "🛍️ 札幌地下街購物 · 藥妝、伴手禮"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ 晚餐：Sushi Saito 壽司齋藤 · 米其林三星（需預約）"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 返回酒店 · 大浴場泡湯"
-        }
-      ],
-      "day_photo": "https://hokkaidoguide.com/wp-content/uploads/2019/06/126A3714-2000x1334.jpg"
-    },
-    {
-      "day": 8,
-      "date": "Feb 2 · Mon",
-      "label_zh": "最後採購 · 返回台灣",
-      "day_query": "Sapporo Airport shopping",
-      "hotel_name": "JR Tower Hotel Nikko Sapporo",
-      "hotel_name_zh": "JR塔日航札幌酒店 · 豪華雙人房",
-      "hotel_room": "豪華雙人房",
-      "weather": "❄️ -1°/-7°",
-      "rain_pct": "50%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 辦理退房"
-        },
-        {
-          "time": "08:00",
-          "desc": "🛍️ 札幌站周邊最後購物 · 大丸百貨"
-        },
-        {
-          "time": "10:00",
-          "desc": "🚄 搭乘JR快速機場線前往新千歲機場（約40分鐘 · ¥1,150）"
-        },
-        {
-          "time": "11:00",
-          "desc": "🛍️ 機場免稅店 · 北海道伴手禮（白色戀人、薯條三兄弟）"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍜 機場內午餐 · 北海道湯咖哩（¥2,000）"
-        },
-        {
-          "time": "14:00",
-          "desc": "✈️ 辦理登機 · 出境"
+          "time": "12:00",
+          "desc": "🏖️ 酒店沙灘放鬆 · 無邊際泳池游泳 · 享受南太平洋陽光"
         },
         {
           "time": "15:00",
-          "desc": "🛫 中華航空CI131 · 返回台灣"
+          "desc": "🚶 帕皮提市區漫步 · 參觀聖母大教堂、帕皮提市場"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 酒店內法式餐廳晚餐 · 前菜：大溪地生魚沙拉 · 主菜：香煎鸚哥魚"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 海邊散步 · 欣賞夕陽 · 返回房間休息"
+        }
+      ],
+      "day_photo": "https://woody.cloudly.space/app/uploads/tahiti/2021/10/thumbs/front-de-mer-de-papeete-tahiti-fly-shoot-1920x960-crop-1634605154.jpg"
+    },
+    {
+      "day": 2,
+      "date": "Aug 2 · Sun",
+      "label_zh": "大溪地探索 · 黑沙灘與瀑布",
+      "day_query": "Fautaua Waterfall Tahiti",
+      "hotel_name": "InterContinental Tahiti Resort & Spa",
+      "hotel_name_zh": "大溪地洲際度假酒店 · 豪華海景房",
+      "hotel_room": "豪華海景房",
+      "weather": "☀️ 29°/24°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🌅 飯店沙灘晨間散步 · 欣賞日出"
+        },
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店自助早餐 · 大溪地水果拼盤 + 法式可頌"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚗 租車自駕（約NT$3,000/天）· 前往黑沙灘 Plage de Taharuu"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏖️ 黑沙灘戲水 · 火山沙獨特體驗"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 海邊小吃 · 品嚐當地魚生沙拉 Poisson Cru（NT$600）"
+        },
+        {
+          "time": "13:30",
+          "desc": "🌿 前往 Fautaua 瀑布 · 短程健行（來回1小時）· 瀑布下清涼"
+        },
+        {
+          "time": "16:00",
+          "desc": "🛍️ 帕皮提市場採購 · 黑珍珠、手工藝品"
         },
         {
           "time": "18:30",
-          "desc": "🛬 抵達桃園機場 · 旅程結束"
+          "desc": "🍽️ Le Marché Café 晚餐 · 法式三明治 + 鮮榨果汁"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 返回酒店 · 泳池夜泳"
         }
       ],
-      "day_photo": "https://nb-cdn.b-cdn.net/images-stn-sapporo/9-SapporoNewChitoseAirport-1.jpg"
+      "day_photo": "https://lostbetweenoceans.com/wp-content/uploads/2025/01/Fautaua-Valley-Waterfall.webp"
+    },
+    {
+      "day": 3,
+      "date": "Aug 3 · Mon",
+      "label_zh": "前進茉莉雅 · 水上別墅入住",
+      "day_query": "Moorea island aerial view",
+      "hotel_name": "Sofitel Kia Ora Moorea Beach Resort",
+      "hotel_name_zh": "索菲特茉莉雅海灘度假村 · 水上豪華別墅",
+      "hotel_room": "水上豪華別墅",
+      "weather": "☀️ 28°/23°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 洲際酒店自助早餐"
+        },
+        {
+          "time": "08:00",
+          "desc": "🏨 退房 · 寄存行李於櫃檯"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚢 搭乘渡輪 Aremiti 前往茉莉雅島（30分鐘 · XPF 2,400/人 · NT$720/人）"
+        },
+        {
+          "time": "09:45",
+          "desc": "🛬 抵達茉莉雅碼頭 · 飯店接駁車迎接（10分鐘）"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏨 入住 Sofitel Kia Ora · 水上豪華別墅 · 玻璃地板看魚"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 酒店餐廳午餐 · 大溪地風味披薩 + 冰茶（NT$1,200）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🤿 別墅陽台直接浮潛 · 五彩熱帶魚群"
+        },
+        {
+          "time": "17:00",
+          "desc": "🛶 獨木舟划行 · 探索潟湖"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ Le Lotus 精緻晚餐 · 香草奶油龍蝦 · 燭光海景"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 水上別陽台觀星 · 南十字星清晰可見"
+        }
+      ],
+      "day_photo": "https://www.tahiti.com/images1/gallery/MOZ_Gallery21_1000x600_126.jpg"
+    },
+    {
+      "day": 4,
+      "date": "Aug 4 · Tue",
+      "label_zh": "茉莉雅環島 · 海豚與高山",
+      "day_query": "Moorea dolphin center",
+      "hotel_name": "Sofitel Kia Ora Moorea Beach Resort",
+      "hotel_name_zh": "索菲特茉莉雅海灘度假村 · 水上豪華別墅",
+      "hotel_room": "水上豪華別墅",
+      "weather": "☀️ 29°/24°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店自助早餐 · 現做鬆餅"
+        },
+        {
+          "time": "08:30",
+          "desc": "🐬 參加海豚中心 Dolphin Center 互動體驗（NT$6,000/人）"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚗 租車環島 · 前往 Belvédère 觀景台 · 俯瞰 Cook's Bay"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ Snack Mahana · 椰子咖哩雞 + 鮮魚生盤（NT$1,500）"
+        },
+        {
+          "time": "13:30",
+          "desc": "🌿 參觀 Pineapple 農場 · 品嚐新鮮鳳梨"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏖️ Temae 公共海灘浮潛 · 海龜常出沒"
+        },
+        {
+          "time": "17:00",
+          "desc": "🛍️ 茉莉雅手工藝品店購物"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 酒店晚餐 · 大溪地香草烤雞"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 別墅休息 · 享受玻璃地板夜間燈光引魚"
+        }
+      ],
+      "day_photo": "https://www.tahiti.com/images1/gallery/Moorea-Miti-Dolphin-Encounter2-2000x1200_41586.jpg"
+    },
+    {
+      "day": 5,
+      "date": "Aug 5 · Wed",
+      "label_zh": "茉莉雅潛水 · 鯊魚與魟魚",
+      "day_query": "Moorea shark ray snorkeling",
+      "hotel_name": "Sofitel Kia Ora Moorea Beach Resort",
+      "hotel_name_zh": "索菲特茉莉雅海灘度假村 · 水上豪華別墅",
+      "hotel_room": "水上豪華別墅",
+      "weather": "☀️ 28°/23°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店自助早餐"
+        },
+        {
+          "time": "08:30",
+          "desc": "🤿 參加半日浮潛團（NT$4,000/人）· 與黑鰭鯊、魟魚共游"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 船上簡餐 · 三明治 + 水果"
+        },
+        {
+          "time": "13:30",
+          "desc": "🏖️ 返回酒店 · 陽台放鬆 · 浮潛"
+        },
+        {
+          "time": "15:00",
+          "desc": "🚶 飯店周邊散步 · 拍攝婚紗照級美景"
+        },
+        {
+          "time": "17:00",
+          "desc": "💆 飯店 SPA 情侶療程（NT$8,000/90分鐘）"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 酒店海灘晚餐 · 龍蝦套餐 · 燭光"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 星空下散步"
+        }
+      ],
+      "day_photo": "https://www.tahiti.com/images1/gallery/Moorea-Shark&Ray-Snorkeling1-2000x1200_31936.jpg"
+    },
+    {
+      "day": 6,
+      "date": "Aug 6 · Thu",
+      "label_zh": "茉莉雅最後一天 · 悠閒時光",
+      "day_query": "Moorea beach sunset",
+      "hotel_name": "Sofitel Kia Ora Moorea Beach Resort",
+      "hotel_name_zh": "索菲特茉莉雅海灘度假村 · 水上豪華別墅",
+      "hotel_room": "水上豪華別墅",
+      "weather": "☀️ 29°/24°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🌅 晨間獨木舟 · 日出時分划行"
+        },
+        {
+          "time": "08:30",
+          "desc": "🥐 酒店自助早餐"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏖️ 沙灘排球 · 游泳"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 酒店午餐 · 大溪地漢堡"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛶 最後一次浮潛 · 與魚群告別"
+        },
+        {
+          "time": "16:00",
+          "desc": "📸 飯店內拍攝紀念照"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ Le Lotus 晚餐 · 重溫美味"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 收拾行李 · 準備明日轉島"
+        }
+      ],
+      "day_photo": "https://www.tahiti.com/images1/gallery/MOZSIO_SUNSET_2000x1200_29856.jpg"
+    },
+    {
+      "day": 7,
+      "date": "Aug 7 · Fri",
+      "label_zh": "前進波拉波拉 · 夢幻水上屋",
+      "day_query": "Bora Bora lagoon view",
+      "hotel_name": "Four Seasons Resort Bora Bora",
+      "hotel_name_zh": "波拉波拉四季度假酒店 · 頂級水上別墅",
+      "hotel_room": "頂級水上別墅 · 玻璃地板",
+      "weather": "☀️ 28°/23°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店自助早餐"
+        },
+        {
+          "time": "08:30",
+          "desc": "🏨 退房 · 搭乘飯店接駁車至碼頭"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚢 搭乘快艇前往波拉波拉島（約1小時）"
+        },
+        {
+          "time": "11:00",
+          "desc": "🛬 抵達波拉波拉 · 四季飯店專屬快艇迎接（20分鐘）"
+        },
+        {
+          "time": "11:30",
+          "desc": "🏨 入住 Four Seasons · 頂級水上別墅 · 玻璃地板直視潟湖"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 酒店餐廳午餐 · 大溪地風味沙拉"
+        },
+        {
+          "time": "14:00",
+          "desc": "🤿 別墅陽台浮潛 · 水質清澈見底"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚤 參加日落巡航（NT$6,000/人）· 香檳 + 小點"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ La Villa Mahana 頂級晚餐 · 香煎鮪魚 · 需預約"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回別墅 · 玻璃地板夜燈吸引魚群"
+        }
+      ],
+      "day_photo": "https://media01.stockfood.com/largepreviews/MjE3NjAyOTQzOA==/70194498-Bora-Bora-and-its-lagoon-aerial-view-Leeward-Islands-French-Polynesia.jpg"
+    },
+    {
+      "day": 8,
+      "date": "Aug 8 · Sat",
+      "label_zh": "波拉波拉潟湖探險",
+      "day_query": "Bora Bora lagoon tour",
+      "hotel_name": "Four Seasons Resort Bora Bora",
+      "hotel_name_zh": "波拉波拉四季度假酒店 · 頂級水上別墅",
+      "hotel_room": "頂級水上別墅 · 玻璃地板",
+      "weather": "☀️ 29°/24°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🌅 陽台晨間咖啡 · 欣賞潟湖"
+        },
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店自助早餐 · 現做班尼迪克蛋"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚤 參加潟湖全日遊（NT$8,000/人）· 浮潛、鯊魚、魟魚"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 船上 BBQ 午餐 · 烤魚 + 熱帶水果"
+        },
+        {
+          "time": "14:00",
+          "desc": "🏖️ 登陸私人小島 Motu Tapu · 沙灘放鬆"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚤 返回酒店"
+        },
+        {
+          "time": "18:00",
+          "desc": "💆 四季 SPA 情侶按摩（NT$10,000/90分鐘）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 酒店晚餐 · 大溪地香草冰淇淋"
+        }
+      ],
+      "day_photo": "https://cdn.getyourguide.com/img/tour/61414fc8c1460.jpeg/98.jpg"
+    },
+    {
+      "day": 9,
+      "date": "Aug 9 · Sun",
+      "label_zh": "波拉波拉自由日 · 奢華享受",
+      "day_query": "Four Seasons Bora Bora pool",
+      "hotel_name": "Four Seasons Resort Bora Bora",
+      "hotel_name_zh": "波拉波拉四季度假酒店 · 頂級水上別墅",
+      "hotel_room": "頂級水上別墅 · 玻璃地板",
+      "weather": "☀️ 28°/23°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店自助早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏊 無邊際泳池游泳 · 池畔雞尾酒"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ Le Matira Beach 午餐 · 漢堡 + 雞尾酒（NT$2,000）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🤿 飯店內浮潛 · 與海龜共游"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚤 租用私人快艇（NT$12,000/2小時）· 環島巡遊"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 酒店海灘晚餐 · 龍蝦套餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 別墅陽台觀星"
+        }
+      ],
+      "day_photo": "https://cdn.audleytravel.com/1050/749/79/8002454-swimming-pool-at-the-four-seasons-bora-bora.jpg"
+    },
+    {
+      "day": 10,
+      "date": "Aug 10 · Mon",
+      "label_zh": "波拉波拉最後一天 · 告別天堂",
+      "day_query": "Bora Bora aerial view",
+      "hotel_name": "Four Seasons Resort Bora Bora",
+      "hotel_name_zh": "波拉波拉四季度假酒店 · 頂級水上別墅",
+      "hotel_room": "頂級水上別墅 · 玻璃地板",
+      "weather": "☀️ 29°/24°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🌅 最後一次陽台日出"
+        },
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店自助早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🤿 最後浮潛 · 拍攝水中影片"
+        },
+        {
+          "time": "11:00",
+          "desc": "🛍️ 飯店精品店購物 · 黑珍珠首飾"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 酒店午餐"
+        },
+        {
+          "time": "14:00",
+          "desc": "🏨 退房 · 搭乘快艇前往機場"
+        },
+        {
+          "time": "15:00",
+          "desc": "✈️ 搭乘大溪地航空國內線回大溪地本島（50分鐘）"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏨 入住洲際酒店 · 豪華海景房"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 酒店晚餐 · 法式料理"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 泳池夜泳 · 回顧旅程"
+        }
+      ],
+      "day_photo": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/aerial-view-of-bora-bora-lyl-dil-creations.jpg"
+    },
+    {
+      "day": 11,
+      "date": "Aug 11 · Tue",
+      "label_zh": "大溪地最後巡禮",
+      "day_query": "Papeete market Tahiti",
+      "hotel_name": "InterContinental Tahiti Resort & Spa",
+      "hotel_name_zh": "大溪地洲際度假酒店 · 豪華海景房",
+      "hotel_room": "豪華海景房",
+      "weather": "☀️ 28°/23°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店自助早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚶 帕皮提市場最後採購 · 黑珍珠、香草、手工皂"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ Le Marché Café 午餐"
+        },
+        {
+          "time": "14:00",
+          "desc": "🏖️ 酒店沙灘放鬆 · 泳池"
+        },
+        {
+          "time": "17:00",
+          "desc": "📸 飯店內拍攝紀念照"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 酒店告別晚餐 · 龍蝦套餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 收拾行李"
+        }
+      ],
+      "day_photo": "https://www.tahititourisme.nz/app/uploads/iris-images/62848/le-marche-de-papeete-a-massimiliano-cina-1920x1080-f50_50.webp"
+    },
+    {
+      "day": 12,
+      "date": "Aug 12 · Wed",
+      "label_zh": "返回台灣 · 甜蜜歸途",
+      "day_query": "Tahiti airport",
+      "hotel_name": "InterContinental Tahiti Resort & Spa",
+      "hotel_name_zh": "大溪地洲際度假酒店 · 豪華海景房",
+      "hotel_room": "豪華海景房",
+      "weather": "☀️ 28°/23°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "06:00",
+          "desc": "🥐 飯店打包早餐盒"
+        },
+        {
+          "time": "06:30",
+          "desc": "🏨 退房 · 搭乘計程車前往機場"
+        },
+        {
+          "time": "07:00",
+          "desc": "✈️ 抵達 PPT 機場 · 辦理登機"
+        },
+        {
+          "time": "09:00",
+          "desc": "🛫 大溪地航空 TN57 出發 · 經東京轉機"
+        },
+        {
+          "time": "06:00",
+          "desc": "🛬 抵達桃園機場 TPE · 旅程結束"
+        }
+      ],
+      "day_photo": "https://tahiti-aeroport.dleloup.com/wp-content/uploads/2024/05/image-11.png"
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（中華航空）",
-      "amount_ntd": 50000
+      "label": "✈️ 來回機票",
+      "amount_ntd": 120000
     },
     {
-      "label": "🏨 住宿（4間飯店共8晚）",
-      "amount_ntd": 158000
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 440000
     },
     {
-      "label": "🍽️ 餐飲（8天）",
+      "label": "🍽️ 餐飲",
       "amount_ntd": 80000
     },
     {
-      "label": "🎿 滑雪與活動",
+      "label": "🎫 活動與門票",
       "amount_ntd": 60000
     },
     {
-      "label": "🚄 交通（JR pass + 巴士）",
+      "label": "🚤 島間交通",
       "amount_ntd": 30000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 50000
+      "amount_ntd": 40000
     }
   ],
-  "cost_total_ntd": 428000,
-  "budget_remaining_ntd": 72000,
+  "cost_total_ntd": 770000,
+  "budget_remaining_ntd": 30000,
   "photos": {
     "hero": [
       {
-        "url": "",
-        "label": "Hokkaido skyline landmark"
+        "url": "https://pics.craiyon.com/2023-06-27/9a7f8b8f6085436a932841a9dea577dc.webp",
+        "label": "Tahiti city skyline on Craiyon"
       },
       {
-        "url": "",
-        "label": "Hokkaido skyline landmark"
+        "url": "https://www.tahiti.com/images1/gallery/1_29646.+BOBITS-Aerial-2000x1200_29646.jpg",
+        "label": "Tahiti Island At Night"
       }
     ],
     "destination": [
       {
-        "url": "https://travelnation.co.uk/sites/default/files/900x600-japan-hokkaido-shikisei-hill-biei.jpg",
-        "label": "20 Amazing Things To Do In Hokkaido | Travel Nation"
+        "url": "https://www.qantas.com/content/travelinsider/en/explore/south-pacific/best-south-pacific-islands/_jcr_content/parsysTop/hero_561615513.img.full.medium.png/1686757529282.png",
+        "label": "Tahiti Island"
       },
       {
-        "url": "https://a-us.storyblok.com/f/1018357/1920x1278/88cc4d1daf/biei.jpg",
-        "label": "Hokkaido Japan Scenery Shinsen Numa Wetland Swamp : Niseko | Visions"
+        "url": "https://www.tripsavvy.com/thmb/uvZEoetiG1IMNN4Ia3m7r5ge-h0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/travel-destination--french-polynesia-505610634-a8272a44619d4be1a725dd622a77edff.jpg",
+        "label": "Best Beaches in Tahiti From Moorea to the Tuamotus"
       },
       {
-        "url": "https://www.travelnation.co.uk/sites/default/files/900x600-japan-hokkaido-hell-valley-noboribetsu-morning.jpg",
-        "label": "20 Amazing Things To Do In Hokkaido | Travel Nation"
+        "url": "https://www.recess4grownups.com/wp-content/uploads/Tahiti-Bora-Bora-Featured-Image-PP.jpg",
+        "label": "Heis and leis and lush scenery - Tahiti - Recess 4 Grownups Travel"
       },
       {
-        "url": "https://gate-to-hokkaido.jp/assets/img/things_to_do/nature/1/img01.jpg",
-        "label": "Landscape In Hokkaido A Photographic Guide To Hokkaido In Winter"
+        "url": "https://www.tahiti.com/images1/gallery/Moorea+Aerial+2000x1200_126.jpg",
+        "label": "Tahiti Islands"
       },
       {
-        "url": "https://www.pelago.com/img/destinations/hokkaido/1129-0641_hokkaido.jpg",
-        "label": "How to visit hokkaido | Arsecultur.com"
+        "url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/230000/230645-Tahiti.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
+        "label": "Visit Tahiti: Best of Tahiti Tourism | Expedia Travel Guide"
       },
       {
-        "url": "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/hrv7czrz9joofejyvo7a.jpg",
-        "label": "Hokkaido: Best Places To Visit & Top Attractions"
+        "url": "https://cdn.pixabay.com/photo/2020/11/28/02/17/lagoon-5783445_1280.jpg",
+        "label": "Plus de 100 images de Tahiti et de Nature - Pixabay"
       }
     ]
   },
-  "chat_hash": "2809a79b11ad5ba8b87dda291fa313596f6bd0874d0662049fead7fe4c6426f1",
+  "chat_hash": "0dd2e0518372ba13e9d0ecf4c59bbd44ff1627c4188e17c927f325a4eb836f2f",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-05-30T00:01:11.361183"
+  "generated_at": "2026-05-30T07:21:05.116201"
 }
