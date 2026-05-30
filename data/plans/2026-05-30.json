@@ -1,191 +1,113 @@
 {
-  "destination_en": "Tahiti, French Polynesia",
-  "title_zh": "大溪地 · 茉莉雅 · 波拉波拉 十二天頂級浪漫之旅",
-  "date_range": "2026/08/01–08/12",
-  "start_date": "2026-08-01",
-  "end_date": "2026-08-12",
+  "destination_en": "Paris, France",
+  "title_zh": "寒假巴黎 · 浪漫十二天之旅",
+  "date_range": "2026/02/01–02/12",
+  "start_date": "2026-02-01",
+  "end_date": "2026-02-12",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "PPT",
+  "destination_code": "CDG",
   "travelers": 2,
   "days": 12,
-  "budget_ntd": 800000,
+  "budget_ntd": 500000,
   "flight": {
-    "airline": "大溪地航空 Air Tahiti Nui",
-    "departure_date": "8月1日",
-    "return_date": "8月12日",
-    "total_price_ntd": 120000,
+    "airline": "長榮航空 EVA Air",
+    "departure_date": "2月1日",
+    "return_date": "2月12日",
+    "total_price_ntd": 78000,
     "outbound": {
-      "flight_no": "TN 58",
-      "route": "TPE → PPT (東京轉機)",
-      "depart_time": "10:00",
-      "arrive_time": "07:00 (+1)",
-      "duration": "14h 00m",
+      "flight_no": "BR 87",
+      "route": "TPE → CDG 直飛",
+      "depart_time": "23:40",
+      "arrive_time": "07:30 (+1)",
+      "duration": "13h 50m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "TN 57",
-      "route": "PPT → TPE (東京轉機)",
-      "depart_time": "23:30",
-      "arrive_time": "06:00 (+2)",
-      "duration": "14h 30m",
+      "flight_no": "BR 88",
+      "route": "CDG → TPE 直飛",
+      "depart_time": "11:20",
+      "arrive_time": "06:30 (+1)",
+      "duration": "13h 10m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "InterContinental Tahiti Resort & Spa",
-      "name_zh": "大溪地洲際度假酒店",
-      "district": "大溪地本島 · 帕皮提",
-      "day_range": "1–2",
-      "nights": 2,
-      "price_ntd": 32000,
-      "stars": "★★★★★",
-      "room_type": "豪華海景房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 無邊際泳池 · 💆 深海水療 · 🌴 熱帶花園 · 🍽️ 法式餐廳",
-      "search_query": "InterContinental Tahiti Resort",
+      "name": "Hôtel Le Narcisse Blanc & Spa",
+      "name_zh": "水仙花白酒店",
+      "district": "巴黎 6 區",
+      "day_range": "1–6",
+      "nights": 6,
+      "price_ntd": 156000,
+      "stars": "★★★★☆",
+      "room_type": "經典豪華雙人房",
+      "breakfast": "含法式早餐",
+      "amenities": "🏊 室內泳池 · 💆 SPA & 土耳其浴 · 🍽️ 庭院餐廳 · 🌿 私密花園",
+      "search_query": "Hôtel Le Narcisse Blanc Paris France",
       "photos": [
         {
-          "url": "https://www.tahiti.com/images1/thumbs/InterContinental-Tahiti-Resort-Aerial-1200x720.jpg",
-          "label": "InterContinental Tahiti Resort | Tahiti.com"
+          "url": "http://3.bp.blogspot.com/-1byge6qgzN8/UoopoSL0oqI/AAAAAAAAe24/ZaT8D8DHHJw/s1600/Paris-Luxury-Hotel-Sofitel-passion4luxury-10.jpg",
+          "label": "Passion For Luxury : Sofitel Paris Arc de Triomphe hotel"
         },
         {
-          "url": "https://tahiti.intercontinental.com/wp-content/uploads/2022/10/IC-Tahiti-IG08-wide.jpg",
-          "label": "Home - InterContinental Tahiti Resort & Spa"
+          "url": "https://www.peninsula.com/-/media/images/the-peninsula-hotels/top-carousel/peninsula-paris-exterior.jpg",
+          "label": "5 Star Hotel Paris, France - Luxury Hotel | The Peninsula Paris"
         },
         {
-          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial1-2000x1200_29686.jpg",
-          "label": "InterContinental Tahiti Resort | Tahiti.com"
+          "url": "https://www.myglobalviewpoint.com/wp-content/uploads/2023/09/Best-Paris-Hotels-with-Eiffel-Tower-Views.jpg",
+          "label": "12 Amazing Hotels in Paris with the BEST Eiffel Tower Views - Global ..."
         },
         {
-          "url": "https://digital.ihg.com/is/image/ihg/intercontinental-faaa-6338984904-16x9?",
-          "label": "InterContinental Resort Tahiti | Luxury Hotel in Faa'a"
+          "url": "https://www.roamingparis.com/wp-content/uploads/2022/05/e-shangri-la-luxury-hotel-paris-1080x811.jpg",
+          "label": "17 Best Luxury Hotels in Paris (2023) - Roaming Paris"
         },
         {
-          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial2-2000x1200_29686.jpg",
-          "label": "InterContinental Tahiti Resort | Tahiti.com"
+          "url": "https://www.theluxevoyager.com/wp-content/uploads/2020/09/Hotel-Raphael-Paris.jpg",
+          "label": "Hotel Raphael Paris: Boutique 5 Star Luxury in France | The Luxe Voyager"
         },
         {
-          "url": "https://www.tahiti.com/images1/gallery/PPTIRT_AerialResort1_1000x600_29686.jpg",
-          "label": "InterContinental Tahiti Resort | Tahiti.com"
+          "url": "https://806d2bf04cf5fa54997a-e7c5344b3b84eec5da7b51276407b19c.ssl.cf1.rackcdn.com/responsive/960/806d2bf04cf5fa54997a-e7c5344b3b84eec5da7b51276407b19c.ssl.cf1.rackcdn.com/responsive/1:1/806d2bf04cf5fa54997a-e7c5344b3b84eec5da7b51276407b19c.ssl.cf1.rackcdn.com/u/exterior/Hotel_Lutetia_Fa--ade_023.2.jpg",
+          "label": "Luxury hotel Paris | Lutetia Paris"
         }
       ]
     },
     {
-      "name": "Sofitel Kia Ora Moorea Beach Resort",
-      "name_zh": "索菲特茉莉雅海灘度假村",
-      "district": "茉莉雅島",
-      "day_range": "3–6",
-      "nights": 4,
-      "price_ntd": 96000,
+      "name": "Hôtel Plaza Athénée",
+      "name_zh": "雅典娜廣場酒店",
+      "district": "巴黎 8 區",
+      "day_range": "7–11",
+      "nights": 5,
+      "price_ntd": 195000,
       "stars": "★★★★★",
-      "room_type": "水上豪華別墅",
+      "room_type": "高級雙人房",
       "breakfast": "含自助早餐",
-      "amenities": "🏡 水上別墅 · 🤿 浮潛裝備 · 🛶 獨木舟 · 🍽️ 海景餐廳",
-      "search_query": "Sofitel Kia Ora Moorea",
+      "amenities": "🏊 室內泳池 · 💆 Dior SPA · 🍽️ 米其林三星 · 🌹 法式花園",
+      "search_query": "Hôtel Plaza Athénée Paris",
       "photos": [
         {
-          "url": "https://www.sofitel-moorea-kiaora.com/wp-content/uploads/sites/91/2016/12/sofitel-moorea-bungalow-3.jpg",
-          "label": "Sofitel Kia Ora Moorea Beach Resort - Where life lives"
+          "url": "https://media.cntraveler.com/photos/580e5e7b71c643370b5fff39/master/w_1200,c_limit/Exterior-HotelPlazaAthenee-Paris-CRHotel.jpg?mbid=social_retweet",
+          "label": "Hôtel Plaza Athénée, Paris, France - Hotel Review - Condé Nast Traveler"
         },
         {
-          "url": "https://media.cntraveler.com/photos/63f7f31e054e094ffa8bc7df/16:9/w_2560,c_limit/Sofitel%20Kia%20Ora%20Moorea_20%20Pool%20%C2%A9gregoirelebacon.jpg",
-          "label": "Sofitel Kia Ora Moorea Beach Resort — Review | Condé Nast Traveler"
+          "url": "https://luxecoliving.com/wp-content/uploads/2015/08/Plaza-Athenee-Exterior.jpg",
+          "label": "The Plaza Athénée Paris: LuxEcoLiving's Best Hotels in the World ..."
         },
         {
-          "url": "https://www.tahiti.com/images1/gallery/Sofitel-Moorea-Overwater-Bungalows-2000x1200_29856.jpg",
-          "label": "Sofitel Moorea Kia Ora Beach Resort | Tahiti.com"
+          "url": "https://3.bp.blogspot.com/-qJGHWsAG82M/UZDII7PxkvI/AAAAAAAAA1U/-nRWKM2-yxU/s1600/H5PE9_27253335_Exterior7+HR(c)Philippe+Derouet.jpg",
+          "label": "HENRI Luxury Lifestyle: Hotel PLAZA ATHÉNÉE, Paris"
         },
         {
-          "url": "https://www.puentealpacifico.com/sites/default/files/2022-05/Villa-avec-Piscine-1_1.jpg",
-          "label": "Sofitel Kia Ora Moorea Beach Resort 5* | Puente al Pacífico"
+          "url": "https://www.wegwijsnaarparijs.nl/wp-content/uploads/2018/05/hotel_plaza_athenee_parijs_uitzicht_eiffeltoren_header.jpg",
+          "label": "Hotel Plaza Athénée | Wegwijs naar Parijs"
         },
         {
-          "url": "https://www.luxurylink.com/images/sho_63d15baf/2579793_812-945/image-2579793_812.jpg",
-          "label": "Sofitel Kia Ora Moorea Beach Resort in Moorea, French Polynesia"
+          "url": "https://images.trvl-media.com/lodging/1000000/30000/27600/27528/d3a2e8ce.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+          "label": "Hôtel Plaza Athénée - Dorchester Collection Reviews, Deals & Photos ..."
         },
         {
-          "url": "https://www.tahiti.com/images1/gallery/Sofitel-Moorea-Superior-Overwater-Bungalow-2000x1200+(2)_29856.jpg",
-          "label": "Sofitel Moorea Kia Ora Beach Resort | Tahiti.com"
-        }
-      ]
-    },
-    {
-      "name": "Four Seasons Resort Bora Bora",
-      "name_zh": "波拉波拉四季度假酒店",
-      "district": "波拉波拉島",
-      "day_range": "7–10",
-      "nights": 4,
-      "price_ntd": 280000,
-      "stars": "★★★★★",
-      "room_type": "頂級水上別墅 · 玻璃地板",
-      "breakfast": "含自助早餐",
-      "amenities": "🏡 玻璃地板水上屋 · 🐠 私人潟湖浮潛 · 🛥️ 快艇接送 · 💆 SPA",
-      "search_query": "Four Seasons Bora Bora",
-      "photos": [
-        {
-          "url": "https://digital.ihg.com/is/image/ihg/intercontinental-faaa-6338984904-16x9?",
-          "label": "InterContinental Resort Tahiti | Luxury Hotel in Faa'a"
-        },
-        {
-          "url": "https://www.tahitilegends.com/images1/gallery/PPTIRT-Thumb-1200x720_20263.jpg",
-          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
-        },
-        {
-          "url": "https://www.tahitilegends.com/images1/gallery/PPTMSR-Thumb-1200x720_20333.jpg",
-          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
-        },
-        {
-          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial-2000x1200_29686.jpg",
-          "label": "InterContinental Tahiti Resort | Tahiti.com"
-        },
-        {
-          "url": "https://www.tahiti.com/images1/thumbs/Hilton-Moorea-Aerial-1200x7201.jpg",
-          "label": "Hilton Moorea Lagoon Resort and Spa | Tahiti.com"
-        },
-        {
-          "url": "https://www.tahitilegends.com/images1/gallery/Hilton-Hotel-Tahiti---Pool-Sunset-1200x720-2_84733.jpg",
-          "label": "Tahiti Resort Hotels and Best Luxury Beach Resorts | Tahiti Legends"
-        }
-      ]
-    },
-    {
-      "name": "InterContinental Tahiti Resort & Spa",
-      "name_zh": "大溪地洲際度假酒店",
-      "district": "大溪地本島 · 帕皮提",
-      "day_range": "11–12",
-      "nights": 2,
-      "price_ntd": 32000,
-      "stars": "★★★★★",
-      "room_type": "豪華海景房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 無邊際泳池 · 💆 深海水療 · 🌴 熱帶花園 · 🍽️ 法式餐廳",
-      "search_query": "InterContinental Tahiti Resort",
-      "photos": [
-        {
-          "url": "https://tahiti.intercontinental.com/wp-content/uploads/2022/10/IC-Tahiti-IG08-wide.jpg",
-          "label": "Home - InterContinental Tahiti Resort & Spa"
-        },
-        {
-          "url": "https://www.tahiti.com/images1/thumbs/InterContinental-Tahiti-Resort-Aerial-1200x720.jpg",
-          "label": "InterContinental Tahiti Resort | Tahiti.com"
-        },
-        {
-          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial1-2000x1200_29686.jpg",
-          "label": "InterContinental Tahiti Resort | Tahiti.com"
-        },
-        {
-          "url": "https://digital.ihg.com/is/image/ihg/intercontinental-faaa-6338984904-16x9?",
-          "label": "InterContinental Resort Tahiti | Luxury Hotel in Faa'a"
-        },
-        {
-          "url": "https://www.tahiti.com/images1/gallery/InterContinental-Tahiti-Resort-Aerial2-2000x1200_29686.jpg",
-          "label": "InterContinental Tahiti Resort | Tahiti.com"
-        },
-        {
-          "url": "https://cdn.audleytravel.com/1050/750/79/62226-intercontinental-resort-tahiti.jpg",
-          "label": "InterContinental Resort Tahiti | Hotels in Tahiti | Audley Travel US"
+          "url": "https://aeroaffaires.fr/wp-content/uploads/2023/07/hotel-plaza-athenee-la-cour-jardin-restaurant-landscape-1024x753.jpg",
+          "label": "Hotel de lujo en París: una estancia de ensueño en el Hôtel Plaza ..."
         }
       ]
     }
@@ -193,156 +115,156 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Le Lotus",
-        "name_zh": "蓮花餐廳 · 茉莉雅島",
-        "stars": "⭐⭐",
-        "dish": "🦞 招牌：香草奶油龍蝦 · 大溪地香草",
-        "address": "Sofitel Kia Ora Moorea, Moorea",
-        "price_ntd": 6000,
-        "price_label": "雙人套餐 NT$6,000",
+        "name": "Le Cinq",
+        "name_zh": "四季酒店米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：龍蝦濃湯佐黑松露",
+        "address": "31 Av. George V, 8區",
+        "price_ntd": 5000,
+        "price_label": "晚餐套餐 €145/人 · NT$5,000",
         "hours": "19:00–22:00 · 需預約",
-        "search_query": "Le Lotus Moorea",
+        "search_query": "Le Cinq restaurant Four Seasons Paris food",
         "photos": [
           {
-            "url": "http://img.over-blog-kiwi.com/0/12/06/39/201210/ob_e84eed247cd322060ebe5f6db40e1f45_le-lotus1.jpg",
-            "label": "restaurant le Lotus - leonie et remi à tahiti"
+            "url": "http://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-221,5743-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_706_original.jpg",
+            "label": "Paris Restaurants | Fine Dining | Four Seasons Hotel George V Paris"
           },
           {
-            "url": "https://i5.walmartimages.com/seo/3drose-French-Polynesia-Moorea-Lotus-Blossom-and-Pads-Closeup-Set-of-4-Coasters-Cork_2e523fab-7b84-44d8-b735-31692db47299.df2575d1681a3c7d8d1c15d0483e26fb.jpeg",
-            "label": "3drose, French Polynesia, Moorea. Lotus Blossom and Pads Closeup., Set ..."
+            "url": "https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-788,4585-2250,0000-1265,6250/publish/content/dam/fourseasons/images/web/PAR/PAR_1048_original.jpg",
+            "label": "Le Cinq | Michelin-Star Restaurant Paris | Fine Dining in Paris"
           },
           {
-            "url": "https://media.licdn.com/dms/image/sync/v2/D5627AQHlhGI6m4gmUQ/articleshare-shrink_1280_800/B56ZnbLLnQH8AU-/0/1760318767453?e=2147483647&v=beta&t=ur2sSaaTMqVsVWoW-Je80hv_tLGMNhBU6FoKhee_vqw",
-            "label": "À VENDRE À PUNAAUIA LOTUS – MAISON T5 AVEC PISCINE & VUE OCÉAN (Moorea ..."
+            "url": "https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-189,1814-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_1694_original.jpg",
+            "label": "Le Cinq | Michelin-Star Restaurant Paris | Fine Dining in Paris"
           }
         ]
       },
       {
-        "name": "La Villa Mahana",
-        "name_zh": "馬哈納別墅 · 波拉波拉島",
+        "name": "L'Ambroisie",
+        "name_zh": "米其林三星 · 孚日廣場",
         "stars": "⭐⭐⭐",
-        "dish": "🐟 招牌：香煎鮪魚佐芒果莎莎",
-        "address": "Vaitape, Bora Bora",
-        "price_ntd": 8000,
-        "price_label": "雙人套餐 NT$8,000",
-        "hours": "18:30–21:30 · 需預約",
-        "search_query": "La Villa Mahana Bora Bora",
+        "dish": "🦀 招牌：布列塔尼藍龍蝦佐魚子醬",
+        "address": "9 Pl. des Vosges, 4區",
+        "price_ntd": 7000,
+        "price_label": "晚餐套餐 €200/人 · NT$7,000",
+        "hours": "12:15–13:45 / 20:00–21:30 · 週日一休",
+        "search_query": "L'Ambroisie restaurant Paris",
         "photos": [
           {
-            "url": "https://boraboraphotos.com/wp-content/uploads/2013/10/dinning-at-la-villa-mahana-bora-bora.jpg",
-            "label": "La Villa Mahana Restaurant on Bora Bora - Island Travel Guide"
+            "url": "https://images.squarespace-cdn.com/content/v1/530e4e29e4b0ac922f793833/1431299287275-Q031ZX3D7X9SKQJIESJS/image-asset.jpeg",
+            "label": "L'Ambroisie Revisited — A Life Worth Eating"
           },
           {
-            "url": "https://wanderinparadise.com/wp-content/uploads/2025/02/La-Villa-Mahana-Bora-Bora-683x1024.webp",
-            "label": "La Villa Mahana Bora Bora – Fine Dining Experience 2026"
+            "url": "https://images.squarespace-cdn.com/content/v1/5cf423ac7eb1290001ede256/1619856620882-UFZMT05M3OI7IE4DM8LB/ambroisie.jpg",
+            "label": "L'Ambroisie – Michelin-Starred Restaurant in Paris, France | Flavors ..."
           },
           {
-            "url": "https://wanderinparadise.com/wp-content/uploads/2025/02/la-villa-mahana-restaurant-in-bora-bora-exterior.webp",
-            "label": "La Villa Mahana Bora Bora – Fine Dining Experience 2026"
+            "url": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/5821_int3_1.jpg",
+            "label": "L'Ambroisie - Un restaurant du Guide MICHELIN - Paris"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Snack Mahana",
-        "name_zh": "馬哈納小吃 · 茉莉雅島",
-        "stars": "",
-        "dish": "🥥 招牌：椰子咖哩雞 · 鮮魚生盤",
-        "address": "PK 23, Moorea",
-        "price_ntd": 1500,
-        "price_label": "雙人餐 NT$1,500",
-        "hours": "11:30–14:00 · 18:00–20:30",
-        "search_query": "Snack Mahana Moorea",
+        "name": "Septime",
+        "name_zh": "新派法式小酒館 · 米其林一星",
+        "stars": "⭐",
+        "dish": "🥩 招牌：熟成肋眼牛排 · 煙燻甜菜根",
+        "address": "80 Rue de Charonne, 11區",
+        "price_ntd": 1900,
+        "price_label": "午餐套餐 €55/人 · NT$1,900",
+        "hours": "12:15–14:00 / 19:30–22:00",
+        "search_query": "Septime restaurant Paris food",
         "photos": [
           {
-            "url": "https://www.jonesaroundtheworld.com/wp-content/uploads/2021/07/Snack-Mahana-Moorea-1.jpg",
-            "label": "28 Best Things To Do in Moorea, French Polynesia | Moorea Travel Guide"
+            "url": "https://cdn.fodors.com/wp-content/uploads/2018/02/Paris-Bistros-Hero.jpg",
+            "label": "14 Classic Bistros in Paris Worth Visiting – Fodors Travel Guide"
           },
           {
-            "url": "https://bora-bora.org/wp-content/uploads/2022/11/snack-mahana-moorea-fries.jpg",
-            "label": "Snack Mahana | Moorea | Polynesian Cuisine | Bora-Bora.org"
+            "url": "http://www.parisfoodaffair.com/wp-content/uploads/2018/10/Bistrot-Paul-Bert-steak-au-poivre-and-sole-meuniere.jpg",
+            "label": "The Ultimate Guide to Classic French Restaurants & Bistros in Paris"
           },
           {
-            "url": "https://etahititravel.com/wp-content/uploads/2025/11/snack-mahana-moorea-selection.jpg",
-            "label": "Notre sélection de snacks en Polynésie française : îles de la Société ..."
+            "url": "https://www.pariseater.com/wp-content/uploads/2023/02/best-bistros-paris-traditional-1920x1024.jpg",
+            "label": "Best Bistros in Paris in 2026 - Paris Eater"
           }
         ]
       },
       {
-        "name": "Le Matira Beach",
-        "name_zh": "馬蒂拉海灘餐廳 · 波拉波拉島",
+        "name": "Le Comptoir du Relais",
+        "name_zh": "聖日耳曼經典小酒館",
         "stars": "",
-        "dish": "🍔 招牌：漢堡佐炸芋頭 · 雞尾酒",
-        "address": "Matira Point, Bora Bora",
-        "price_ntd": 2000,
-        "price_label": "雙人餐 NT$2,000",
-        "hours": "12:00–21:00",
-        "search_query": "Le Matira Beach Bora Bora",
+        "dish": "🥘 招牌：油封鴨腿 · 紅酒燉牛肉",
+        "address": "9 Carrefour de l'Odéon, 6區",
+        "price_ntd": 1400,
+        "price_label": "晚餐套餐 €40/人 · NT$1,400",
+        "hours": "12:00–14:30 / 19:00–22:30",
+        "search_query": "Le Comptoir du Relais Paris",
         "photos": [
           {
-            "url": "https://carsrouges.fr/wp-content/uploads/2024/01/maa-tahitien-840x473.jpg",
-            "label": "Ma'a Tahitien: Cuisine Traditionnelle Polynésienne"
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/dc12c00fcc2f43fe905349efa6ea676a.jpg",
+            "label": "Le Comptoir du Relais – Paris - a MICHELIN Guide Restaurant"
           },
           {
-            "url": "https://static1.s123-cdn-static-a.com/uploads/4672679/2000_60c17f5455287.jpg",
-            "label": "Meherio Tahitian Bistro"
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/ea53e81aa3be4fc4bba05c2b3cc6093a.jpeg",
+            "label": "Le Comptoir du Relais – Paris - a MICHELIN Guide Restaurant"
           },
           {
-            "url": "https://images.cdn-files-a.com/uploads/4672679/2000_60c17fd1a5e45.jpg",
-            "label": "Meherio Tahitian Bistro"
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/898ba9ff1a444563b7c6fb6629b11c7b.jpg",
+            "label": "Le Comptoir du Relais – Paris - a MICHELIN Guide Restaurant"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Café de la Plage",
-        "name_zh": "海灘咖啡館 · 大溪地本島",
+        "name": "Café de Flore",
+        "name_zh": "花神咖啡館 · 1887年開業",
         "stars": "",
-        "dish": "☕ 招牌：冰咖啡 · 椰子可頌",
-        "address": "Plage de Tahiti, Papeete",
-        "price_ntd": 800,
-        "price_label": "兩人 NT$800",
-        "hours": "07:00–17:00",
-        "search_query": "Cafe de la Plage Tahiti",
+        "dish": "☕ 招牌：熱巧克力 · 可頌 · 焦糖布丁",
+        "address": "172 Bd Saint-Germain, 6區",
+        "price_ntd": 1200,
+        "price_label": "兩人早午餐 €35 · NT$1,200",
+        "hours": "07:30–01:30 · 文人雅士最愛",
+        "search_query": "Cafe de Flore Paris interior",
         "photos": [
           {
-            "url": "https://www.tahiti.com/images1/gallery/Moorea-Beach-Cafe1-2000x1200_46056.jpg",
-            "label": "Sunset dinner at Moorea Beach Cafe | Tahiti.com"
+            "url": "https://live.staticflickr.com/2109/2313594657_22d8acf2ab_z.jpg",
+            "label": "Cafe de Flore interior - a photo on Flickriver"
           },
           {
-            "url": "https://yummy-tahiti.com/wp-content/uploads/2020/08/MBC-08.12.18-1-sur-25.jpg",
-            "label": "Moorea Beach Café - Yummy Tahiti"
+            "url": "http://1.bp.blogspot.com/-6qbz0os2sS8/U3YKXevu4oI/AAAAAAAATR0/gIPUBzmfG9U/s1600/IMG_6795.jpg",
+            "label": "Alexandra D. Foster Destinations Perfected: Paris, France - Cafe de Flore"
           },
           {
-            "url": "https://yummy-tahiti.com/wp-content/uploads/2020/08/MBC-08.12.18-4-sur-25-1200x800.jpg",
-            "label": "Moorea Beach Café - Yummy Tahiti"
+            "url": "http://styleoverfunction.com/wp-content/uploads/2018/09/3cafe-de-flore-inside.jpg",
+            "label": "CAFÉ DE FLORE PARIS - Style Over Function"
           }
         ]
       },
       {
-        "name": "Le Marché Café",
-        "name_zh": "市場咖啡 · 帕皮提",
+        "name": "Angelina Paris",
+        "name_zh": "安潔莉娜 · 百年甜點沙龍",
         "stars": "",
-        "dish": "🥐 招牌：法式可頌 · 鮮榨果汁",
-        "address": "Marché de Papeete",
-        "price_ntd": 600,
-        "price_label": "兩人 NT$600",
-        "hours": "06:00–14:00",
-        "search_query": "Marche Papeete",
+        "dish": "🍫 招牌：非洲熱巧克力 · 蒙布朗栗子蛋糕",
+        "address": "226 Rue de Rivoli, 1區",
+        "price_ntd": 1000,
+        "price_label": "兩人下午茶 €30 · NT$1,000",
+        "hours": "08:30–19:00 · 排隊名店",
+        "search_query": "Angelina Paris hot chocolate",
         "photos": [
           {
-            "url": "https://www.tahititourisme.nz/app/uploads/iris-images/62848/le-marche-de-papeete-a-massimiliano-cina-1920x1080-f50_50.webp",
-            "label": "A Visit to Papeete Market - Tahiti Tourisme"
+            "url": "https://offloadmedia.feverup.com/parissecret.com/wp-content/uploads/2020/11/28050310/ANGE_RIVOLI_CHOCOLAT_CHAUD_VERSION_TABLE-redim_0-1024x599.jpg",
+            "label": "Discover Angelina's Hot Chocolate Recipe"
           },
           {
-            "url": "https://images.trvl-media.com/media/content/shared/images/travelguides/destination/180103/Tahiti-230562.jpg",
-            "label": "Marché de Papeete : Découvrez Papeete avec Expedia.fr"
+            "url": "https://image.influenster.com/eyJlZGl0cyI6IHsicmVzaXplIjogeyJ3aXRob3V0RW5sYXJnZW1lbnQiOiB0cnVlLCAid2lkdGgiOiA3NTAsICJmaXQiOiAiaW5zaWRlIiwgImhlaWdodCI6IDc1MCwgImJhY2tncm91bmQiOiB7ImciOiAxLCAiciI6IDEsICJhbHBoYSI6IDAsICJiIjogMX19fSwgImV4dGVuZCI6IHt9LCAia2V5IjogIm1lZGlhL3Byb2R1Y3QvaW1hZ2UvQkdRNTI0RV9tay5qcGciLCAiYnVja2V0IjogImluZmx1ZW5zdGVyX3Byb2R1Y3Rpb24ifQ==",
+            "label": "Angelina Paris Hot Chocolate Mix in Tin Reviews 2020"
           },
           {
-            "url": "https://lesdeuxpiedsdehors.com/wp-content/uploads/2019/06/marche-de-papeete.jpg",
-            "label": "La marché de Papeete - Un immanquable en voyage à Tahiti"
+            "url": "https://i2.wp.com/travelingwiththyme.com/wp-content/uploads/2018/08/angelina-hot-choco-from-DanielFoodDiary-3.jpg?ssl=1",
+            "label": "angelina Paris hot chocolate DanielFoodDiary – Traveling with Thyme"
           }
         ]
       }
@@ -351,640 +273,588 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Aug 1 · Sat",
-      "label_zh": "抵達大溪地 · 帕皮提初印象",
-      "day_query": "Papeete Tahiti waterfront",
-      "hotel_name": "InterContinental Tahiti Resort & Spa",
-      "hotel_name_zh": "大溪地洲際度假酒店 · 豪華海景房",
-      "hotel_room": "豪華海景房",
-      "weather": "☀️ 28°/23°",
+      "date": "Feb 1 · Sun",
+      "label_zh": "抵達 · 巴黎初印象",
+      "day_query": "Eiffel Tower Paris landmark",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典雙人房",
+      "hotel_room": "經典雙人房",
+      "weather": "⛅ 8°/2°",
       "rain_pct": "20%",
       "slots": [
         {
-          "time": "10:00",
-          "desc": "✈️ 桃園機場 TPE 出發 · 大溪地航空 TN58 · 經東京轉機"
-        },
-        {
-          "time": "07:00",
-          "desc": "🛬 抵達大溪地法阿國際機場 PPT · 入境通關（約30分鐘）"
-        },
-        {
-          "time": "08:00",
-          "desc": "🚕 搭乘計程車前往洲際酒店（約15分鐘 · XPF 2,000 · NT$600）"
-        },
-        {
-          "time": "08:30",
-          "desc": "🏨 辦理入住 · 酒店提供迎賓雞尾酒 · 稍作休息"
-        },
-        {
-          "time": "10:00",
-          "desc": "🥐 Café de la Plage 早午餐 · 冰咖啡 + 椰子可頌 · 海景第一排"
-        },
-        {
-          "time": "12:00",
-          "desc": "🏖️ 酒店沙灘放鬆 · 無邊際泳池游泳 · 享受南太平洋陽光"
-        },
-        {
-          "time": "15:00",
-          "desc": "🚶 帕皮提市區漫步 · 參觀聖母大教堂、帕皮提市場"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ 酒店內法式餐廳晚餐 · 前菜：大溪地生魚沙拉 · 主菜：香煎鸚哥魚"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 海邊散步 · 欣賞夕陽 · 返回房間休息"
-        }
-      ],
-      "day_photo": "https://woody.cloudly.space/app/uploads/tahiti/2021/10/thumbs/front-de-mer-de-papeete-tahiti-fly-shoot-1920x960-crop-1634605154.jpg"
-    },
-    {
-      "day": 2,
-      "date": "Aug 2 · Sun",
-      "label_zh": "大溪地探索 · 黑沙灘與瀑布",
-      "day_query": "Fautaua Waterfall Tahiti",
-      "hotel_name": "InterContinental Tahiti Resort & Spa",
-      "hotel_name_zh": "大溪地洲際度假酒店 · 豪華海景房",
-      "hotel_room": "豪華海景房",
-      "weather": "☀️ 29°/24°",
-      "rain_pct": "15%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🌅 飯店沙灘晨間散步 · 欣賞日出"
-        },
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店自助早餐 · 大溪地水果拼盤 + 法式可頌"
+          "time": "07:30",
+          "desc": "✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李（預計 30–45 分鐘）"
         },
         {
           "time": "09:00",
-          "desc": "🚗 租車自駕（約NT$3,000/天）· 前往黑沙灘 Plage de Taharuu"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏖️ 黑沙灘戲水 · 火山沙獨特體驗"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 海邊小吃 · 品嚐當地魚生沙拉 Poisson Cru（NT$600）"
-        },
-        {
-          "time": "13:30",
-          "desc": "🌿 前往 Fautaua 瀑布 · 短程健行（來回1小時）· 瀑布下清涼"
-        },
-        {
-          "time": "16:00",
-          "desc": "🛍️ 帕皮提市場採購 · 黑珍珠、手工藝品"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ Le Marché Café 晚餐 · 法式三明治 + 鮮榨果汁"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 返回酒店 · 泳池夜泳"
-        }
-      ],
-      "day_photo": "https://lostbetweenoceans.com/wp-content/uploads/2025/01/Fautaua-Valley-Waterfall.webp"
-    },
-    {
-      "day": 3,
-      "date": "Aug 3 · Mon",
-      "label_zh": "前進茉莉雅 · 水上別墅入住",
-      "day_query": "Moorea island aerial view",
-      "hotel_name": "Sofitel Kia Ora Moorea Beach Resort",
-      "hotel_name_zh": "索菲特茉莉雅海灘度假村 · 水上豪華別墅",
-      "hotel_room": "水上豪華別墅",
-      "weather": "☀️ 28°/23°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🥐 洲際酒店自助早餐"
-        },
-        {
-          "time": "08:00",
-          "desc": "🏨 退房 · 寄存行李於櫃檯"
-        },
-        {
-          "time": "09:00",
-          "desc": "🚢 搭乘渡輪 Aremiti 前往茉莉雅島（30分鐘 · XPF 2,400/人 · NT$720/人）"
-        },
-        {
-          "time": "09:45",
-          "desc": "🛬 抵達茉莉雅碼頭 · 飯店接駁車迎接（10分鐘）"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏨 入住 Sofitel Kia Ora · 水上豪華別墅 · 玻璃地板看魚"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 酒店餐廳午餐 · 大溪地風味披薩 + 冰茶（NT$1,200）"
-        },
-        {
-          "time": "14:00",
-          "desc": "🤿 別墅陽台直接浮潛 · 五彩熱帶魚群"
-        },
-        {
-          "time": "17:00",
-          "desc": "🛶 獨木舟划行 · 探索潟湖"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ Le Lotus 精緻晚餐 · 香草奶油龍蝦 · 燭光海景"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 水上別陽台觀星 · 南十字星清晰可見"
-        }
-      ],
-      "day_photo": "https://www.tahiti.com/images1/gallery/MOZ_Gallery21_1000x600_126.jpg"
-    },
-    {
-      "day": 4,
-      "date": "Aug 4 · Tue",
-      "label_zh": "茉莉雅環島 · 海豚與高山",
-      "day_query": "Moorea dolphin center",
-      "hotel_name": "Sofitel Kia Ora Moorea Beach Resort",
-      "hotel_name_zh": "索菲特茉莉雅海灘度假村 · 水上豪華別墅",
-      "hotel_room": "水上豪華別墅",
-      "weather": "☀️ 29°/24°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🥐 酒店自助早餐 · 現做鬆餅"
-        },
-        {
-          "time": "08:30",
-          "desc": "🐬 參加海豚中心 Dolphin Center 互動體驗（NT$6,000/人）"
-        },
-        {
-          "time": "10:30",
-          "desc": "🚗 租車環島 · 前往 Belvédère 觀景台 · 俯瞰 Cook's Bay"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ Snack Mahana · 椰子咖哩雞 + 鮮魚生盤（NT$1,500）"
-        },
-        {
-          "time": "13:30",
-          "desc": "🌿 參觀 Pineapple 農場 · 品嚐新鮮鳳梨"
-        },
-        {
-          "time": "15:00",
-          "desc": "🏖️ Temae 公共海灘浮潛 · 海龜常出沒"
-        },
-        {
-          "time": "17:00",
-          "desc": "🛍️ 茉莉雅手工藝品店購物"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 酒店晚餐 · 大溪地香草烤雞"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 別墅休息 · 享受玻璃地板夜間燈光引魚"
-        }
-      ],
-      "day_photo": "https://www.tahiti.com/images1/gallery/Moorea-Miti-Dolphin-Encounter2-2000x1200_41586.jpg"
-    },
-    {
-      "day": 5,
-      "date": "Aug 5 · Wed",
-      "label_zh": "茉莉雅潛水 · 鯊魚與魟魚",
-      "day_query": "Moorea shark ray snorkeling",
-      "hotel_name": "Sofitel Kia Ora Moorea Beach Resort",
-      "hotel_name_zh": "索菲特茉莉雅海灘度假村 · 水上豪華別墅",
-      "hotel_room": "水上豪華別墅",
-      "weather": "☀️ 28°/23°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🥐 酒店自助早餐"
-        },
-        {
-          "time": "08:30",
-          "desc": "🤿 參加半日浮潛團（NT$4,000/人）· 與黑鰭鯊、魟魚共游"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 船上簡餐 · 三明治 + 水果"
-        },
-        {
-          "time": "13:30",
-          "desc": "🏖️ 返回酒店 · 陽台放鬆 · 浮潛"
-        },
-        {
-          "time": "15:00",
-          "desc": "🚶 飯店周邊散步 · 拍攝婚紗照級美景"
-        },
-        {
-          "time": "17:00",
-          "desc": "💆 飯店 SPA 情侶療程（NT$8,000/90分鐘）"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 酒店海灘晚餐 · 龍蝦套餐 · 燭光"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 星空下散步"
-        }
-      ],
-      "day_photo": "https://www.tahiti.com/images1/gallery/Moorea-Shark&Ray-Snorkeling1-2000x1200_31936.jpg"
-    },
-    {
-      "day": 6,
-      "date": "Aug 6 · Thu",
-      "label_zh": "茉莉雅最後一天 · 悠閒時光",
-      "day_query": "Moorea beach sunset",
-      "hotel_name": "Sofitel Kia Ora Moorea Beach Resort",
-      "hotel_name_zh": "索菲特茉莉雅海灘度假村 · 水上豪華別墅",
-      "hotel_room": "水上豪華別墅",
-      "weather": "☀️ 29°/24°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🌅 晨間獨木舟 · 日出時分划行"
-        },
-        {
-          "time": "08:30",
-          "desc": "🥐 酒店自助早餐"
+          "desc": "🚕 搭乘計程車前往酒店（約 45 分鐘 · €55）· 沿途欣賞巴黎市郊風光"
         },
         {
           "time": "10:00",
-          "desc": "🏖️ 沙灘排球 · 游泳"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 酒店午餐 · 大溪地漢堡"
-        },
-        {
-          "time": "14:00",
-          "desc": "🛶 最後一次浮潛 · 與魚群告別"
-        },
-        {
-          "time": "16:00",
-          "desc": "📸 飯店內拍攝紀念照"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ Le Lotus 晚餐 · 重溫美味"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 收拾行李 · 準備明日轉島"
-        }
-      ],
-      "day_photo": "https://www.tahiti.com/images1/gallery/MOZSIO_SUNSET_2000x1200_29856.jpg"
-    },
-    {
-      "day": 7,
-      "date": "Aug 7 · Fri",
-      "label_zh": "前進波拉波拉 · 夢幻水上屋",
-      "day_query": "Bora Bora lagoon view",
-      "hotel_name": "Four Seasons Resort Bora Bora",
-      "hotel_name_zh": "波拉波拉四季度假酒店 · 頂級水上別墅",
-      "hotel_room": "頂級水上別墅 · 玻璃地板",
-      "weather": "☀️ 28°/23°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🥐 酒店自助早餐"
-        },
-        {
-          "time": "08:30",
-          "desc": "🏨 退房 · 搭乘飯店接駁車至碼頭"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚢 搭乘快艇前往波拉波拉島（約1小時）"
-        },
-        {
-          "time": "11:00",
-          "desc": "🛬 抵達波拉波拉 · 四季飯店專屬快艇迎接（20分鐘）"
+          "desc": "🏨 抵達 Hôtel Le Narcisse Blanc · 辦理入住 · 稍作休息"
         },
         {
           "time": "11:30",
-          "desc": "🏨 入住 Four Seasons · 頂級水上別墅 · 玻璃地板直視潟湖"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ 酒店餐廳午餐 · 大溪地風味沙拉"
+          "desc": "🥐 Café de Flore 早午餐 · 花神經典歐蕾 + 可頌 + 法式洋蔥湯"
         },
         {
           "time": "14:00",
-          "desc": "🤿 別墅陽台浮潛 · 水質清澈見底"
+          "desc": "🎨 羅浮宮 Musée du Louvre（預約票 €17/人）· 必看：蒙娜麗莎、勝利女神"
         },
         {
-          "time": "17:00",
-          "desc": "🚤 參加日落巡航（NT$6,000/人）· 香檳 + 小點"
+          "time": "17:30",
+          "desc": "🚶 杜樂麗花園散步 · 協和廣場 · 欣賞夕陽下的方尖碑"
         },
         {
           "time": "19:30",
-          "desc": "🍽️ La Villa Mahana 頂級晚餐 · 香煎鮪魚 · 需預約"
+          "desc": "🍽️ Le Cinq 米其林三星晚餐 · 預約 19:30 · 品嚐主廚招牌龍蝦濃湯"
         },
         {
           "time": "22:00",
-          "desc": "🌙 返回別墅 · 玻璃地板夜燈吸引魚群"
+          "desc": "🌙 返回酒店 · 途經亞歷山大三世橋欣賞夜間燈光"
         }
       ],
-      "day_photo": "https://media01.stockfood.com/largepreviews/MjE3NjAyOTQzOA==/70194498-Bora-Bora-and-its-lagoon-aerial-view-Leeward-Islands-French-Polynesia.jpg"
+      "day_photo": "https://cdn.britannica.com/67/114967-050-A8998445/Eiffel-Tower-Paris-Gustave.jpg"
     },
     {
-      "day": 8,
-      "date": "Aug 8 · Sat",
-      "label_zh": "波拉波拉潟湖探險",
-      "day_query": "Bora Bora lagoon tour",
-      "hotel_name": "Four Seasons Resort Bora Bora",
-      "hotel_name_zh": "波拉波拉四季度假酒店 · 頂級水上別墅",
-      "hotel_room": "頂級水上別墅 · 玻璃地板",
-      "weather": "☀️ 29°/24°",
-      "rain_pct": "5%",
+      "day": 2,
+      "date": "Feb 2 · Mon",
+      "label_zh": "塞納河左岸 · 藝術與書香",
+      "day_query": "Musée d'Orsay Paris",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典雙人房",
+      "hotel_room": "經典雙人房",
+      "weather": "☁️ 10°/4°",
+      "rain_pct": "30%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🌅 陽台晨間咖啡 · 欣賞潟湖"
-        },
-        {
           "time": "08:00",
-          "desc": "🥐 酒店自助早餐 · 現做班尼迪克蛋"
+          "desc": "🥐 酒店早餐 · 法式可頌 + 咖啡 + 鮮榨柳橙汁"
         },
         {
-          "time": "09:30",
-          "desc": "🚤 參加潟湖全日遊（NT$8,000/人）· 浮潛、鯊魚、魟魚"
+          "time": "09:00",
+          "desc": "🎨 奧賽美術館 Musée d'Orsay（預約票 €16/人）· 印象派畫作 · 梵谷自畫像"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 船上 BBQ 午餐 · 烤魚 + 熱帶水果"
+          "time": "12:30",
+          "desc": "🍽️ 小天使餐廳 Angelina Paris 午餐 · 推薦：栗子蒙布朗 + 熱巧克力"
         },
         {
           "time": "14:00",
-          "desc": "🏖️ 登陸私人小島 Motu Tapu · 沙灘放鬆"
+          "desc": "📚 莎士比亞書店 Shakespeare & Company · 二手書香 · 文青必訪"
         },
         {
-          "time": "16:00",
-          "desc": "🚤 返回酒店"
+          "time": "15:30",
+          "desc": "⛪ 聖母院 Notre-Dame · 外觀修復中 · 廣場前合影"
         },
         {
-          "time": "18:00",
-          "desc": "💆 四季 SPA 情侶按摩（NT$10,000/90分鐘）"
+          "time": "17:00",
+          "desc": "🚶 聖路易島漫步 · 品嚐 Berthillon 手工冰淇淋"
         },
         {
-          "time": "20:00",
-          "desc": "🍽️ 酒店晚餐 · 大溪地香草冰淇淋"
+          "time": "19:00",
+          "desc": "🍽️ Septime 米其林一星晚餐 · 預約 19:30 · 熟成牛排"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 塞納河畔夜遊 · 欣賞巴黎鐵塔整點閃燈"
         }
       ],
-      "day_photo": "https://cdn.getyourguide.com/img/tour/61414fc8c1460.jpeg/98.jpg"
+      "day_photo": "https://offloadmedia.feverup.com/parissecret.com/wp-content/uploads/2023/11/03110111/ORSAY.jpg"
     },
     {
-      "day": 9,
-      "date": "Aug 9 · Sun",
-      "label_zh": "波拉波拉自由日 · 奢華享受",
-      "day_query": "Four Seasons Bora Bora pool",
-      "hotel_name": "Four Seasons Resort Bora Bora",
-      "hotel_name_zh": "波拉波拉四季度假酒店 · 頂級水上別墅",
-      "hotel_room": "頂級水上別墅 · 玻璃地板",
-      "weather": "☀️ 28°/23°",
+      "day": 3,
+      "date": "Feb 3 · Tue",
+      "label_zh": "蒙馬特 · 聖心堂與藝術家廣場",
+      "day_query": "Sacré-Cœur Basilica Paris",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典雙人房",
+      "hotel_room": "經典雙人房",
+      "weather": "🌤️ 12°/5°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🥐 酒店自助早餐"
+          "time": "08:30",
+          "desc": "🥐 酒店早餐 · 準備出發"
         },
         {
           "time": "09:30",
-          "desc": "🏊 無邊際泳池游泳 · 池畔雞尾酒"
+          "desc": "🚇 地鐵前往蒙馬特（M2 Anvers站）· 步行上山"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ Le Matira Beach 午餐 · 漢堡 + 雞尾酒（NT$2,000）"
+          "time": "10:00",
+          "desc": "⛪ 聖心堂 Sacré-Cœur · 俯瞰巴黎全景 · 內部 mosaic 耶穌像"
         },
         {
-          "time": "14:00",
-          "desc": "🤿 飯店內浮潛 · 與海龜共游"
+          "time": "11:30",
+          "desc": "🎨 畫家廣場 Place du Tertre · 街頭畫家為您速寫（約 €30）"
         },
         {
-          "time": "16:00",
-          "desc": "🚤 租用私人快艇（NT$12,000/2小時）· 環島巡遊"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ 酒店海灘晚餐 · 龍蝦套餐"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 別墅陽台觀星"
-        }
-      ],
-      "day_photo": "https://cdn.audleytravel.com/1050/749/79/8002454-swimming-pool-at-the-four-seasons-bora-bora.jpg"
-    },
-    {
-      "day": 10,
-      "date": "Aug 10 · Mon",
-      "label_zh": "波拉波拉最後一天 · 告別天堂",
-      "day_query": "Bora Bora aerial view",
-      "hotel_name": "Four Seasons Resort Bora Bora",
-      "hotel_name_zh": "波拉波拉四季度假酒店 · 頂級水上別墅",
-      "hotel_room": "頂級水上別墅 · 玻璃地板",
-      "weather": "☀️ 29°/24°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🌅 最後一次陽台日出"
-        },
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店自助早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🤿 最後浮潛 · 拍攝水中影片"
-        },
-        {
-          "time": "11:00",
-          "desc": "🛍️ 飯店精品店購物 · 黑珍珠首飾"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 酒店午餐"
-        },
-        {
-          "time": "14:00",
-          "desc": "🏨 退房 · 搭乘快艇前往機場"
+          "time": "13:00",
+          "desc": "🍽️ Le Consulat 午餐 · 經典法式洋蔥湯 + 油封鴨"
         },
         {
           "time": "15:00",
-          "desc": "✈️ 搭乘大溪地航空國內線回大溪地本島（50分鐘）"
+          "desc": "🏠 達利美術館 Dalí Paris · 超現實主義作品"
         },
         {
-          "time": "16:00",
-          "desc": "🏨 入住洲際酒店 · 豪華海景房"
+          "time": "17:00",
+          "desc": "🚶 紅磨坊 Moulin Rouge 外觀拍照 · 蒙馬特纜車下山"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ Le Comptoir du Relais 晚餐 · 紅酒燉牛肉"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 返回酒店 · 享受 SPA 土耳其浴（需預約）"
+        }
+      ],
+      "day_photo": "https://image.arrivalguides.com/x/04/4f9fe7899f1cecb574b962558c9a215d.jpg"
+    },
+    {
+      "day": 4,
+      "date": "Feb 4 · Wed",
+      "label_zh": "凡爾賽宮 · 皇家奢華一日",
+      "day_query": "Palace of Versailles",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典雙人房",
+      "hotel_room": "經典雙人房",
+      "weather": "☀️ 14°/6°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🥐 酒店早餐 · 提早出發"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚄 RER C 前往凡爾賽宮（約 40 分鐘 · 來回 €7.10/人）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏰 凡爾賽宮 Château de Versailles（預約票 €21.50/人）· 鏡廳 · 國王套房"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 花園午餐 La Petite Venise · 義式風味"
+        },
+        {
+          "time": "14:00",
+          "desc": "🌳 凡爾賽花園散步 · 大運河 · 瑪麗皇后農莊"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚄 返回巴黎"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ L'Ambroisie 米其林三星晚餐（預約 20:00）· 藍龍蝦"
+        },
+        {
+          "time": "22:30",
+          "desc": "🌙 返回酒店"
+        }
+      ],
+      "day_photo": "https://imgcld.yatra.com/ytimages/image/upload/v1461844480/Paris-Palace_Of_Versailles2.jpg"
+    },
+    {
+      "day": 5,
+      "date": "Feb 5 · Thu",
+      "label_zh": "羅丹美術館 · 拉丁區漫步",
+      "day_query": "Rodin Museum Paris",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典雙人房",
+      "hotel_room": "經典雙人房",
+      "weather": "☁️ 11°/4°",
+      "rain_pct": "25%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🎨 羅丹美術館 Musée Rodin（門票 €13/人）· 沉思者 · 花園雕塑"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 拉丁區午餐 · 平價法式三明治 Café de la Nouvelle Mairie"
+        },
+        {
+          "time": "13:30",
+          "desc": "📖 先賢祠 Panthéon · 伏爾泰、雨果長眠之地"
+        },
+        {
+          "time": "15:00",
+          "desc": "🌿 盧森堡公園 Jardin du Luxembourg · 悠閒散步"
+        },
+        {
+          "time": "17:00",
+          "desc": "🛍️ 聖日耳曼大道購物 · 藥妝店、左岸精品"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 飯店內餐廳晚餐 · 法式套餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 酒店 SPA 時光 · 放鬆身心"
+        }
+      ],
+      "day_photo": "https://musermeku.org/wp-content/uploads/2022/09/a.schoder_musermeku_musee-rodin-paris_1.jpg"
+    },
+    {
+      "day": 6,
+      "date": "Feb 6 · Fri",
+      "label_zh": "瑪黑區 · 畢卡索美術館 · 換酒店",
+      "day_query": "Picasso Museum Paris",
+      "hotel_name": "Hôtel Plaza Athénée",
+      "hotel_name_zh": "雅典娜廣場酒店 · 高級雙人房",
+      "hotel_room": "高級雙人房",
+      "weather": "🌤️ 13°/5°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐 · 收拾行李"
+        },
+        {
+          "time": "09:00",
+          "desc": "🎨 畢卡索美術館 Musée Picasso（門票 €14/人）· 立體派經典"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚶 瑪黑區散步 · 孚日廣場 · 雨果故居"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ L'As du Fallafel 午餐 · 中東口袋餅"
+        },
+        {
+          "time": "14:30",
+          "desc": "🏨 退房水仙花白酒店 · 計程車前往雅典娜廣場酒店（約 15 分鐘）"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏨 入住 Hôtel Plaza Athénée · 高級雙人房 · 享受 Dior SPA"
         },
         {
           "time": "18:00",
-          "desc": "🍽️ 酒店晚餐 · 法式料理"
+          "desc": "🛍️ 蒙田大道精品店 · Dior、Chanel 旗艦店"
         },
         {
           "time": "20:00",
-          "desc": "🌙 泳池夜泳 · 回顧旅程"
+          "desc": "🍽️ 酒店餐廳 Le Relais Plaza 晚餐 · 經典法式小酒館"
         }
       ],
-      "day_photo": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/aerial-view-of-bora-bora-lyl-dil-creations.jpg"
+      "day_photo": "https://static1.s123-cdn-static-a.com/uploads/3086630/2000_5e4bd7e3d10e3.jpg"
     },
     {
-      "day": 11,
-      "date": "Aug 11 · Tue",
-      "label_zh": "大溪地最後巡禮",
-      "day_query": "Papeete market Tahiti",
-      "hotel_name": "InterContinental Tahiti Resort & Spa",
-      "hotel_name_zh": "大溪地洲際度假酒店 · 豪華海景房",
-      "hotel_room": "豪華海景房",
-      "weather": "☀️ 28°/23°",
+      "day": 7,
+      "date": "Feb 7 · Sat",
+      "label_zh": "香榭麗舍 · 凱旋門 · 巴黎鐵塔",
+      "day_query": "Arc de Triomphe Paris",
+      "hotel_name": "Hôtel Plaza Athénée",
+      "hotel_name_zh": "雅典娜廣場酒店 · 高級雙人房",
+      "hotel_room": "高級雙人房",
+      "weather": "☀️ 15°/7°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🥐 酒店早餐 · 自助式"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏛️ 凱旋門 Arc de Triomphe（登頂 €13/人）· 12條大道放射狀"
+        },
+        {
+          "time": "11:00",
+          "desc": "🛍️ 香榭麗舍大道漫步 · Louis Vuitton 旗艦店"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ Ladurée 午餐 · 馬卡龍 + 法式三明治"
+        },
+        {
+          "time": "14:00",
+          "desc": "🗼 艾菲爾鐵塔 Eiffel Tower（二樓門票 €16.70/人）· 鐵塔景觀"
+        },
+        {
+          "time": "16:00",
+          "desc": "🌳 戰神廣場公園野餐 · 帶上法棍、起司、紅酒"
+        },
+        {
+          "time": "18:30",
+          "desc": "🚢 塞納河遊船晚餐 Bateaux Mouches（€79/人）· 浪漫夜景"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 返回酒店"
+        }
+      ],
+      "day_photo": "https://www.parisperfect.com/blog/wp-content/uploads/2012/10/Visiting-the-Arc-de-Triomphe-in-Paris-by-Paris-Perfect1.jpg"
+    },
+    {
+      "day": 8,
+      "date": "Feb 8 · Sun",
+      "label_zh": "奧維爾小鎮 · 梵谷足跡",
+      "day_query": "Auvers-sur-Oise Van Gogh",
+      "hotel_name": "Hôtel Plaza Athénée",
+      "hotel_name_zh": "雅典娜廣場酒店 · 高級雙人房",
+      "hotel_room": "高級雙人房",
+      "weather": "⛅ 10°/3°",
       "rain_pct": "20%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 酒店自助早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚶 帕皮提市場最後採購 · 黑珍珠、香草、手工皂"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ Le Marché Café 午餐"
-        },
-        {
-          "time": "14:00",
-          "desc": "🏖️ 酒店沙灘放鬆 · 泳池"
-        },
-        {
-          "time": "17:00",
-          "desc": "📸 飯店內拍攝紀念照"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 酒店告別晚餐 · 龍蝦套餐"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 收拾行李"
-        }
-      ],
-      "day_photo": "https://www.tahititourisme.nz/app/uploads/iris-images/62848/le-marche-de-papeete-a-massimiliano-cina-1920x1080-f50_50.webp"
-    },
-    {
-      "day": 12,
-      "date": "Aug 12 · Wed",
-      "label_zh": "返回台灣 · 甜蜜歸途",
-      "day_query": "Tahiti airport",
-      "hotel_name": "InterContinental Tahiti Resort & Spa",
-      "hotel_name_zh": "大溪地洲際度假酒店 · 豪華海景房",
-      "hotel_room": "豪華海景房",
-      "weather": "☀️ 28°/23°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "06:00",
-          "desc": "🥐 飯店打包早餐盒"
-        },
-        {
-          "time": "06:30",
-          "desc": "🏨 退房 · 搭乘計程車前往機場"
-        },
-        {
-          "time": "07:00",
-          "desc": "✈️ 抵達 PPT 機場 · 辦理登機"
+          "desc": "🥐 酒店早餐"
         },
         {
           "time": "09:00",
-          "desc": "🛫 大溪地航空 TN57 出發 · 經東京轉機"
+          "desc": "🚄 從 Gare du Nord 搭火車前往奧維爾（約 1 小時 · 來回 €20/人）"
         },
         {
-          "time": "06:00",
-          "desc": "🛬 抵達桃園機場 TPE · 旅程結束"
+          "time": "10:30",
+          "desc": "🎨 梵谷故居 · 奧維爾教堂 · 麥田群鴉場景"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 小鎮午餐 Auberge Ravoux · 梵谷最後晚餐之地"
+        },
+        {
+          "time": "14:30",
+          "desc": "🌾 梵谷墓園 · 田園散步"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚄 返回巴黎"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 酒店晚餐 · 法式燉小牛膝"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 酒店 Dior SPA 療程（需預約）"
         }
       ],
-      "day_photo": "https://tahiti-aeroport.dleloup.com/wp-content/uploads/2024/05/image-11.png"
+      "day_photo": "https://www.artchive.com/wp-content/uploads/2024/08/houses-in-auvers-vincent-van-gogh-1890-auvers-sur-oise-france.jpg"
+    },
+    {
+      "day": 9,
+      "date": "Feb 9 · Mon",
+      "label_zh": "歌劇院 · 老佛爺百貨 · 巴黎甜點",
+      "day_query": "Palais Garnier Paris",
+      "hotel_name": "Hôtel Plaza Athénée",
+      "hotel_name_zh": "雅典娜廣場酒店 · 高級雙人房",
+      "hotel_room": "高級雙人房",
+      "weather": "☁️ 12°/5°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏛️ 巴黎歌劇院 Palais Garnier（門票 €14/人）· 大樓梯 · 夏加爾天花板"
+        },
+        {
+          "time": "11:30",
+          "desc": "🛍️ 老佛爺百貨 Galeries Lafayette · 穹頂 · 購物退稅"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 老佛爺頂樓餐廳 Le Ciel de Paris · 景觀午餐"
+        },
+        {
+          "time": "15:00",
+          "desc": "🍰 甜點課 Maison du Chocolat · 品嚐松露巧克力"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚶 巴黎皇家宮殿 Palais Royal · 黑白柱裝置藝術"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 酒店內米其林一星餐廳 Jean Imbert 晚餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 巴黎夜遊 · 羅浮宮金字塔燈光"
+        }
+      ],
+      "day_photo": "https://worldinparis.com/wp-content/uploads/2022/04/Palais-Garnier-Opera-Hall.jpg"
+    },
+    {
+      "day": 10,
+      "date": "Feb 10 · Tue",
+      "label_zh": "聖日耳曼 · 古董市集 · 自由時光",
+      "day_query": "Marché aux Puces Saint-Ouen Paris",
+      "hotel_name": "Hôtel Plaza Athénée",
+      "hotel_name_zh": "雅典娜廣場酒店 · 高級雙人房",
+      "hotel_room": "高級雙人房",
+      "weather": "🌤️ 13°/6°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🛍️ 聖圖安跳蚤市場 Marché aux Puces（M4 Porte de Clignancourt）· 古董尋寶"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 市場附近午餐 Chez Louisette · 傳統法式"
+        },
+        {
+          "time": "14:30",
+          "desc": "🚶 聖日耳曼區散步 · 精品小店 · 唱片行"
+        },
+        {
+          "time": "16:00",
+          "desc": "☕ Café de Flore 下午茶 · 寫明信片"
+        },
+        {
+          "time": "17:30",
+          "desc": "🎁 採購伴手禮 · 藥妝、巧克力、馬卡龍"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 最後晚餐 Septime（再次預約）· 回味巴黎"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 打包行李 · 準備返程"
+        }
+      ],
+      "day_photo": "https://cdn.sortiraparis.com/images/80/103091/937988-les-puces-de-saint-ouen-2023-image00051.jpg"
+    },
+    {
+      "day": 11,
+      "date": "Feb 11 · Wed",
+      "label_zh": "返程日 · 巴黎再見",
+      "day_query": "Charles de Gaulle Airport Paris",
+      "hotel_name": "Hôtel Plaza Athénée",
+      "hotel_name_zh": "雅典娜廣場酒店 · 高級雙人房",
+      "hotel_room": "高級雙人房",
+      "weather": "☀️ 14°/7°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店早餐 · 退房"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚕 計程車前往 CDG 機場（約 45 分鐘 · €60）"
+        },
+        {
+          "time": "09:00",
+          "desc": "✈️ 辦理登機 · 退稅 · 免稅店最後採購"
+        },
+        {
+          "time": "11:20",
+          "desc": "🛫 長榮 BR88 起飛 · 返回台灣"
+        }
+      ],
+      "day_photo": "https://s28477.pcdn.co/wp-content/uploads/2017/10/CDG_1-984x554.jpg"
+    },
+    {
+      "day": 12,
+      "date": "Feb 12 · Thu",
+      "label_zh": "抵達台灣 · 甜蜜回憶",
+      "day_query": "Taiwan Taoyuan Airport",
+      "hotel_name": "",
+      "hotel_name_zh": "",
+      "hotel_room": "",
+      "weather": "",
+      "rain_pct": "",
+      "slots": [
+        {
+          "time": "06:30",
+          "desc": "✈️ 抵達桃園機場 TPE · 入境通關 · 領取行李"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚄 搭乘機場捷運或計程車返家 · 結束浪漫巴黎之旅"
+        }
+      ],
+      "day_photo": "https://www.taipei-airport.com/images/taipei-taoyuan-airport-tpe.jpg"
     }
   ],
   "costs": [
     {
       "label": "✈️ 來回機票",
-      "amount_ntd": 120000
+      "amount_ntd": 78000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 440000
+      "amount_ntd": 351000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 80000
+      "amount_ntd": 54000
     },
     {
-      "label": "🎫 活動與門票",
-      "amount_ntd": 60000
+      "label": "🎫 景點門票",
+      "amount_ntd": 18000
     },
     {
-      "label": "🚤 島間交通",
-      "amount_ntd": 30000
+      "label": "🚇 交通",
+      "amount_ntd": 12000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 40000
+      "amount_ntd": 20000
     }
   ],
-  "cost_total_ntd": 770000,
-  "budget_remaining_ntd": 30000,
+  "cost_total_ntd": 533000,
+  "budget_remaining_ntd": -33000,
   "photos": {
     "hero": [
       {
-        "url": "https://pics.craiyon.com/2023-06-27/9a7f8b8f6085436a932841a9dea577dc.webp",
-        "label": "Tahiti city skyline on Craiyon"
+        "url": "https://wallpapercrafter.com/desktop1/504790-eiffel-tower-cityscape-city-landmark-paris-sky.jpg",
+        "label": "Europe, Sky, Skyscraper, Skyline, Eiffel Tower, River, City, Seine ..."
       },
       {
-        "url": "https://www.tahiti.com/images1/gallery/1_29646.+BOBITS-Aerial-2000x1200_29646.jpg",
-        "label": "Tahiti Island At Night"
+        "url": "https://travelenthused.com/wp-content/uploads/2024/12/skyline-of-paris-with-eiffel-tower-at-sunset-in-paris-france-1536x1024.jpg",
+        "label": "23 Most Iconic Landmarks in the World - Travel Enthused"
       }
     ],
     "destination": [
       {
-        "url": "https://www.qantas.com/content/travelinsider/en/explore/south-pacific/best-south-pacific-islands/_jcr_content/parsysTop/hero_561615513.img.full.medium.png/1686757529282.png",
-        "label": "Tahiti Island"
+        "url": "https://images.hdqwalls.com/wallpapers/eiffel-tower-paris-beautiful-view-1s.jpg",
+        "label": "Beautiful Paris Photography"
       },
       {
-        "url": "https://www.tripsavvy.com/thmb/uvZEoetiG1IMNN4Ia3m7r5ge-h0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/travel-destination--french-polynesia-505610634-a8272a44619d4be1a725dd622a77edff.jpg",
-        "label": "Best Beaches in Tahiti From Moorea to the Tuamotus"
+        "url": "https://png.pngtree.com/thumb_back/fh260/background/20230414/pngtree-scenery-aerial-view-from-the-eiffel-tower-height-over-the-paris-photo-image_2424748.jpg",
+        "label": "Paris Scenery Background Images, HD Pictures and Wallpaper For Free ..."
       },
       {
-        "url": "https://www.recess4grownups.com/wp-content/uploads/Tahiti-Bora-Bora-Featured-Image-PP.jpg",
-        "label": "Heis and leis and lush scenery - Tahiti - Recess 4 Grownups Travel"
+        "url": "https://png.pngtree.com/thumb_back/fw800/background/20240810/pngtree-scenery-of-paris-from-arc-de-triomphe-paris-france-image_16128214.jpg",
+        "label": "Scenery Of Paris From Arc De Triomphe Paris France Background ..."
       },
       {
-        "url": "https://www.tahiti.com/images1/gallery/Moorea+Aerial+2000x1200_126.jpg",
-        "label": "Tahiti Islands"
+        "url": "https://cdn.enjoytravel.com/img/travel-news/paris-road-trip.jpg",
+        "label": "Top 10 road trips from Paris | EnjoyTravel.com"
       },
       {
-        "url": "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/230000/230645-Tahiti.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
-        "label": "Visit Tahiti: Best of Tahiti Tourism | Expedia Travel Guide"
+        "url": "https://www.hdwallpapers.in/download/paris_eiffel_tower_from_the_view_of_roadside_with_blue_sky_background_4k_hd_travel-HD.jpg",
+        "label": "Paris Scenery Wallpaper Paris At Night Eiffel Tower View From"
       },
       {
-        "url": "https://cdn.pixabay.com/photo/2020/11/28/02/17/lagoon-5783445_1280.jpg",
-        "label": "Plus de 100 images de Tahiti et de Nature - Pixabay"
+        "url": "https://png.pngtree.com/thumb_back/fw800/background/20240810/pngtree-scenery-of-paris-from-arc-de-triomphe-paris-france-image_16128213.jpg",
+        "label": "Scenery Of Paris From Arc De Triomphe Paris France Background ..."
       }
     ]
   },
-  "chat_hash": "0dd2e0518372ba13e9d0ecf4c59bbd44ff1627c4188e17c927f325a4eb836f2f",
+  "chat_hash": "a9148dbb073e5a147363356713c2b482aa050e3ab6d23fb0f7a746e374c648ee",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-05-30T07:21:05.116201"
+  "generated_at": "2026-05-30T10:46:01.986778"
 }
