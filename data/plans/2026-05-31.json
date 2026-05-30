@@ -1,0 +1,764 @@
+{
+  "destination_en": "Bali, Indonesia",
+  "title_zh": "峇里島 · 熱帶浪漫假期",
+  "date_range": "2026/01/24–02/03",
+  "start_date": "2026-01-24",
+  "end_date": "2026-02-03",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "DPS",
+  "travelers": 2,
+  "days": 11,
+  "budget_ntd": 500000,
+  "flight": {
+    "airline": "中華航空 China Airlines",
+    "departure_date": "1月24日",
+    "return_date": "2月3日",
+    "total_price_ntd": 48000,
+    "outbound": {
+      "flight_no": "CI 771",
+      "route": "TPE → DPS 直飛",
+      "depart_time": "09:15",
+      "arrive_time": "14:45",
+      "duration": "5h 30m",
+      "class": "經濟艙"
+    },
+    "inbound": {
+      "flight_no": "CI 772",
+      "route": "DPS → TPE 直飛",
+      "depart_time": "15:45",
+      "arrive_time": "21:15",
+      "duration": "5h 30m",
+      "class": "經濟艙"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Viceroy Bali",
+      "name_zh": "峇里島總督酒店",
+      "district": "烏布 Ubud",
+      "day_range": "1–4",
+      "nights": 4,
+      "price_ntd": 96000,
+      "stars": "★★★★★",
+      "room_type": "皇家泳池別墅 Royal Pool Villa",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 私人泳池 · 💆 頂級SPA · 🍽️ 餐廳 · 🌴 稻田景觀",
+      "search_query": "Viceroy Bali Ubud resort",
+      "photos": [
+        {
+          "url": "https://www.viceroybali.com/wp-content/uploads/2020/08/viceroy-bali-main-pool-evening.jpg",
+          "label": "Viceroy Bali | Luxury Resort situated in Ubud"
+        },
+        {
+          "url": "https://wil-assets.spicyweb.net.au/main/NEARBY-ISLANDS/BALI-INDONESIA-ACCOMMODATION/VICEROY-UBUD/_1000x1000_crop_center-center_none/Viceroy-Bali-27.jpg",
+          "label": "Viceroy, Bali | Luxury Resort Ubud | Walk Into Luxury"
+        },
+        {
+          "url": "https://www.viceroybali.com/wp-content/uploads/2024/12/Luxury-Resort-Ubud.jpg",
+          "label": "Luxury Resort Ubud | Ubud Luxury Resort - Viceroy"
+        },
+        {
+          "url": "https://www.viceroybali.com/wp-content/uploads/2021/11/Viceroy-Villa-Outside-garden-pool.webp",
+          "label": "Viceroy Bali Discover The Viceroy Bali Luxury Resort, Situated In Ubud"
+        },
+        {
+          "url": "http://theluxtraveller.com/wp-content/uploads/2013/10/Viceroy-Bali.jpg",
+          "label": "Viceroy Bali - Luxury Villa Resort In Ubud - The Lux Traveller"
+        },
+        {
+          "url": "https://www.viceroybali.com/wp-content/uploads/2023/06/Mainpoolarea-2048x1365.jpeg",
+          "label": "Viceroy Bali Ubud Gallery"
+        }
+      ]
+    },
+    {
+      "name": "Alila Villas Uluwatu",
+      "name_zh": "阿麗拉烏魯瓦圖別墅",
+      "district": "烏魯瓦圖 Uluwatu",
+      "day_range": "5–8",
+      "nights": 4,
+      "price_ntd": 108000,
+      "stars": "★★★★★",
+      "room_type": "海景泳池別墅 Ocean Pool Villa",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 無邊際泳池 · 💆 SPA · 🍽️ 餐廳 · 🎵 夕陽音樂",
+      "search_query": "Alila Villas Uluwatu Bali",
+      "photos": [
+        {
+          "url": "https://www.wtravelmagazine.com/wp-content/uploads/2023/03/30.281.1-Indulge-in-a-luxurious-getaway-at-Balis-Alila-Villas-Uluwatu.jpg",
+          "label": "Indulge in a luxurious getaway at Bali’s Alila Villas Uluwatu"
+        },
+        {
+          "url": "https://www.wtravelmagazine.com/wp-content/uploads/2022/11/30.243.4-Alila-Villas-Uluwatu-at-the-Cliffs-Edge-with-roof-covered-in-volcanic-batu-chandi-lava-stone-image-by-Alila-Villas-Uluwatu-Bali.jpg",
+          "label": "Sustainability is the new luxury at Bali’s Alila Villas Uluwatu"
+        },
+        {
+          "url": "https://images.luxuryescapes.com/q_auto:good,c_fill,g_auto,ar_16:9/zs439ci9iiv6qkk6kfgu.jpeg",
+          "label": "Elevated Alila Uluwatu Private Pool Villa Luxury with Cliffside ..."
+        },
+        {
+          "url": "http://www.luxperiencewithjodie.com/wp-content/uploads/2017/10/IMG_9627.jpg",
+          "label": "Checked into Alila Villas Uluwatu: Bali's Ultimate Luxury - Luxperience"
+        },
+        {
+          "url": "https://www.travelplusstyle.com/wp-content/gallery/alila-villas-uluwatu-bali-glowna/58174935-9378-4ffb-82ee-a962ca240c6e.jpg",
+          "label": "Alila Villas Uluwatu, luxury resort in Bali • review by TravelPlusStyle"
+        },
+        {
+          "url": "https://www.realweddings.com.au/media/images/alila.width-1920.jpg",
+          "label": "Honeymoons Alila Villas Uluwatu Bali"
+        }
+      ]
+    },
+    {
+      "name": "The Legian Seminyak",
+      "name_zh": "勒吉安酒店",
+      "district": "水明漾 Seminyak",
+      "day_range": "9–10",
+      "nights": 2,
+      "price_ntd": 54000,
+      "stars": "★★★★★",
+      "room_type": "海景套房 Ocean Suite",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 海灘俱樂部 · 💆 SPA · 🍽️ 餐廳 · 🛍️ 精品街",
+      "search_query": "The Legian Seminyak Bali",
+      "photos": [
+        {
+          "url": "https://static-new.lhw.com/HotelImages/Final/LW1897/lw1897_90229257_720x450.jpg",
+          "label": "The Legian Seminyak, Bali - Bali, Indonesia : The Leading Hotels of the ..."
+        },
+        {
+          "url": "https://www.johansens.com/wp-content/uploads/2018/02/AS-Indonesia-Bali-The-Legian-Bali-3.jpg",
+          "label": "The Legian Seminyak, Bali | Hotel, Luxury Spa | Condé Nast Johansens"
+        },
+        {
+          "url": "https://static-new.lhw.com/HotelImages/Final/LW1897/lw1897_79948559_720x450.jpg",
+          "label": "The Legian Seminyak, Bali - Bali, Indonesia : The Leading Hotels of the ..."
+        },
+        {
+          "url": "https://static-new.lhw.com/HotelImages/Final/LW1897/lw1897_87541931_720x450.jpg",
+          "label": "The Legian Seminyak, Bali - Bali, Indonesia : The Leading Hotels of the ..."
+        },
+        {
+          "url": "https://www.theluxevoyager.com/wp-content/uploads/2020/02/The-Legian-Bali-Seminyak-Pool.jpg",
+          "label": "The Legian Bali: 5 Star Luxury Hotel, Beach Resort & Spa in Seminyak"
+        },
+        {
+          "url": "https://static-new.lhw.com/HotelImages/Final/LW1897/lw1897_77910695_720x450.jpg",
+          "label": "The Legian Seminyak, Bali - Bali, Indonesia : The Leading Hotels of the ..."
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "Merah Putih",
+        "name_zh": "梅拉普蒂 · 印尼精緻料理",
+        "stars": "⭐⭐",
+        "dish": "🦐 招牌：印尼香料龍蝦 · 椰汁咖哩",
+        "address": "Jl. Petitenget No.100X, Seminyak",
+        "price_ntd": 3500,
+        "price_label": "晚餐套餐 IDR 850,000/人 · NT$3,500",
+        "hours": "18:00–22:30 · 需預約",
+        "search_query": "Merah Putih restaurant Seminyak",
+        "photos": [
+          {
+            "url": "https://luxvillasgetaway.com/wp-content/uploads/2025/06/merah-putih-seminyak-best-restaurants-1920-1536x1024.jpg",
+            "label": "Merah Putih Restaurant Seminyak: A Standout in Bali’s Fine Dining Scene"
+          },
+          {
+            "url": "http://www.asia-bars.com/wp-content/uploads/2013/08/merah-putih-bali-22.jpg",
+            "label": "Merah Putih- modern Indonesian restaurant in Bali | Asia Bars & Restaurants"
+          },
+          {
+            "url": "https://www.elitehavens.com/magazine/wp-content/uploads/2020/06/Merah-Putih-Restaurant-Seminyak-Bali-Indonesia-1024x576-1.jpg",
+            "label": "Seminyak Restaurants for a Memorable Evening• Elite Havens MAGAZINE"
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "Locavore",
+        "name_zh": "在地食材餐廳 · 亞洲50最佳",
+        "stars": "⭐",
+        "dish": "🥗 招牌：有機蔬菜拼盤 · 香煎鴨胸",
+        "address": "Jl. Dewi Sita, Ubud",
+        "price_ntd": 2200,
+        "price_label": "午餐套餐 IDR 550,000/人 · NT$2,200",
+        "hours": "12:00–14:30 / 18:30–21:30",
+        "search_query": "Locavore Ubud restaurant",
+        "photos": [
+          {
+            "url": "https://images.squarespace-cdn.com/content/v1/55ecf301e4b049db23e1ecba/1486109382503-9RBLKL5F05NKG4ZJEKCX/Locavore+Ubud+Bali",
+            "label": "Locavore Restaurant Ubud, Bali (Asia's 50 Best Restaurant) — Perth Blogger"
+          },
+          {
+            "url": "https://www.baliaround.com/wp-content/uploads/2015/02/locavore-restaurant1.jpg",
+            "label": "Restaurant Locavore Ubud Bali"
+          },
+          {
+            "url": "https://lonetravellers.com/wp-content/uploads/2025/02/Locavore-–-Ubud-1024x683.jpg",
+            "label": "The 8 best restaurants in Bali (2025) - Lone Travellers"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Seniman Coffee Studio",
+        "name_zh": "咖啡藝術家工作室",
+        "stars": "",
+        "dish": "☕ 招牌：手沖咖啡 · 牛油果吐司 · 香蕉煎餅",
+        "address": "Jl. Sriwedari No.5, Ubud",
+        "price_ntd": 600,
+        "price_label": "兩人早午餐 IDR 150,000 · NT$600",
+        "hours": "07:30–21:00 · 文青最愛",
+        "search_query": "Seniman Coffee Studio Ubud",
+        "photos": [
+          {
+            "url": "https://www.lowonganhotelbali.com/wp-content/uploads/2022/05/Seniman-Coffee-Studio-Ubud-25-mei-1200x676.png",
+            "label": "Seniman Coffee Studio Ubud - Lowongan Hotel Bali | Loker Hotel Bali ..."
+          },
+          {
+            "url": "https://awsimages.detik.net.id/community/media/visual/2020/02/14/2fc0970e-e722-4a3b-badf-b741dc5c09e9.jpeg?w=700&q=90",
+            "label": "Seniman Coffee Studio : Kopi Lokal dan Creme Brule Berjodoh di Sini"
+          },
+          {
+            "url": "https://img.antarafoto.com/cache/1200x799/2023/10/07/seniman-coffee-studio-di-ubud-18glu-dom.jpg",
+            "label": "Seniman Coffee Studio di Ubud | ANTARA Foto"
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "Jan 24 · Sat",
+      "label_zh": "抵達 · 烏布初體驗",
+      "day_query": "Ubud Bali rice terraces",
+      "hotel_name": "Viceroy Bali",
+      "hotel_name_zh": "峇里島總督酒店 · 皇家泳池別墅",
+      "hotel_room": "皇家泳池別墅",
+      "weather": "☀️ 30°/24°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "14:45",
+          "desc": "✈️ 抵達 DPS 峇里島努拉萊伊機場 · 入境通關取行李（預計 30 分鐘）"
+        },
+        {
+          "time": "15:30",
+          "desc": "🚕 搭乘酒店專車前往烏布（約 1.5 小時 · 含接送）· 沿途欣賞峇里島田園風光"
+        },
+        {
+          "time": "17:00",
+          "desc": "🏨 抵達 Viceroy Bali · 辦理入住 · 享受私人泳池與香檳"
+        },
+        {
+          "time": "18:30",
+          "desc": "🥗 Locavore 晚餐 · 品嚐在地有機料理"
+        },
+        {
+          "time": "20:30",
+          "desc": "🚶 烏布市區散步 · 逛逛夜市小攤"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店 · 享受泳池夜景"
+        }
+      ],
+      "day_photo": "https://www.baltana.com/files/wallpapers-29/Ubud-Rice-Terraces-Bali-Wallpaper-HD-94244.jpg"
+    },
+    {
+      "day": 2,
+      "date": "Jan 25 · Sun",
+      "label_zh": "烏布文化探索",
+      "day_query": "Tegalalang Rice Terrace Bali",
+      "hotel_name": "Viceroy Bali",
+      "hotel_name_zh": "峇里島總督酒店 · 皇家泳池別墅",
+      "hotel_room": "皇家泳池別墅",
+      "weather": "☀️ 31°/23°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "☕ Seniman Coffee Studio 早午餐 · 手沖咖啡 + 牛油果吐司"
+        },
+        {
+          "time": "09:00",
+          "desc": "🌾 德格拉朗梯田 Tegalalang Rice Terrace · 門票 IDR 50,000/人 · 漫步梯田"
+        },
+        {
+          "time": "11:00",
+          "desc": "🛕 聖猴森林 Sacred Monkey Forest · 門票 IDR 80,000/人 · 與長尾獼猴互動"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 烏布皇宮附近午餐 · 烤豬飯 Ibu Oka · 兩人約 NT$500"
+        },
+        {
+          "time": "15:00",
+          "desc": "🎨 烏布藝術市場 Ubud Art Market · 買紀念品"
+        },
+        {
+          "time": "17:30",
+          "desc": "💆 酒店 SPA · 峇里島傳統按摩 60分鐘 · 約 NT$2,500"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 酒店晚餐 · 品嚐印尼風味料理 · 約 NT$1,800"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 私人泳池放鬆"
+        }
+      ],
+      "day_photo": "https://www.antararentalbali.com/wp-content/uploads/2025/07/Tegallalang-rice-terrace-scaled.webp"
+    },
+    {
+      "day": 3,
+      "date": "Jan 26 · Mon",
+      "label_zh": "火山與湖泊之旅",
+      "day_query": "Mount Batur Bali sunrise",
+      "hotel_name": "Viceroy Bali",
+      "hotel_name_zh": "峇里島總督酒店 · 皇家泳池別墅",
+      "hotel_room": "皇家泳池別墅",
+      "weather": "☀️ 28°/20°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "04:00",
+          "desc": "🌄 出發前往巴杜爾火山 Mount Batur · 日出健行（含接送與導遊 NT$3,000/人）"
+        },
+        {
+          "time": "06:30",
+          "desc": "🏔️ 山頂欣賞日出 · 拍照留念"
+        },
+        {
+          "time": "08:30",
+          "desc": "🥚 火山蒸汽煮雞蛋 · 簡單早餐"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚶 下山返回酒店 · 休息"
+        },
+        {
+          "time": "13:00",
+          "desc": "🛁 酒店午餐 + 泳池放鬆"
+        },
+        {
+          "time": "15:00",
+          "desc": "🚗 前往 Tirta Empul 聖泉寺 · 門票 IDR 50,000/人 · 體驗淨身儀式"
+        },
+        {
+          "time": "17:30",
+          "desc": "🍽️ 烏布晚餐 · 烤豬肋排 Naughty Nuri's · 兩人約 NT$800"
+        },
+        {
+          "time": "19:30",
+          "desc": "🌙 返回酒店 · 休息"
+        }
+      ],
+      "day_photo": "https://www.indonesia-tourism.com/blog/wp-content/uploads/2019/12/mount-batur-sunrise-trekking-bali-6770124A6770.jpg.optimal.jpg"
+    },
+    {
+      "day": 4,
+      "date": "Jan 27 · Tue",
+      "label_zh": "烏布最後一天 · 轉往烏魯瓦圖",
+      "day_query": "Uluwatu Temple Bali sunset",
+      "hotel_name": "Viceroy Bali → Alila Villas Uluwatu",
+      "hotel_name_zh": "退房 Viceroy · 入住 Alila 烏魯瓦圖",
+      "hotel_room": "海景泳池別墅",
+      "weather": "☀️ 30°/24°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐 · 最後一次享受烏布寧靜"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏨 退房 Viceroy Bali · 行李寄存"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚶 烏布皇宮 Ubud Palace · 免費參觀"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 烏布午餐 · 髒鴨餐 Bebek Bengil · 兩人約 NT$700"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚕 專車前往烏魯瓦圖（約 2 小時）· 沿途欣賞海岸線"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏨 抵達 Alila Villas Uluwatu · 辦理入住 · 無邊際泳池"
+        },
+        {
+          "time": "17:30",
+          "desc": "🛕 烏魯瓦圖神廟 Uluwatu Temple · 門票 IDR 50,000/人 · 觀賞懸崖日落"
+        },
+        {
+          "time": "19:00",
+          "desc": "🎭 克差舞表演 Kecak Dance · 門票 IDR 100,000/人 · 夕陽下火舞"
+        },
+        {
+          "time": "20:30",
+          "desc": "🍽️ 酒店晚餐 · 海鮮拼盤 · 約 NT$2,200"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 回別墅 · 星空泳池"
+        }
+      ],
+      "day_photo": "https://4.bp.blogspot.com/-048BU0DYxVI/XExbh1LzeII/AAAAAAAAAB4/dabVUWPBOw4zpk3SjJP_o0UbJfFqDf0owCLcBGAs/s1600/UluwatuTempleSunsetandKecakFireDance.jpg"
+    },
+    {
+      "day": 5,
+      "date": "Jan 28 · Wed",
+      "label_zh": "烏魯瓦圖懸崖與海灘",
+      "day_query": "Padang Padang Beach Bali",
+      "hotel_name": "Alila Villas Uluwatu",
+      "hotel_name_zh": "阿麗拉烏魯瓦圖別墅 · 海景泳池別墅",
+      "hotel_room": "海景泳池別墅",
+      "weather": "☀️ 31°/25°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐 · 懸崖景觀"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏖️ 帕當帕當海灘 Padang Padang Beach · 門票 IDR 15,000/人 · 游泳曬太陽"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 海灘午餐 · 烤玉米與椰子 · 約 NT$300"
+        },
+        {
+          "time": "14:00",
+          "desc": "🌊 衝浪課程（入門）· 2小時含教練 NT$1,500/人"
+        },
+        {
+          "time": "17:00",
+          "desc": "🍹 單眼礁石 Single Fin 酒吧 · 看夕陽 · 飲料約 NT$400"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 金巴蘭海鮮燒烤 Jimbaran Bay · 兩人套餐 NT$1,500"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 返回酒店 · 泳池放鬆"
+        }
+      ],
+      "day_photo": "https://www.nopostcode.com/wp-content/uploads/2022/08/Padang-Padang-Uluwatu-Thumbnail-1.jpg"
+    },
+    {
+      "day": 6,
+      "date": "Jan 29 · Thu",
+      "label_zh": "峇里島文化與藝術",
+      "day_query": "Goa Gajah Elephant Cave Bali",
+      "hotel_name": "Alila Villas Uluwatu",
+      "hotel_name_zh": "阿麗拉烏魯瓦圖別墅 · 海景泳池別墅",
+      "hotel_room": "海景泳池別墅",
+      "weather": "☀️ 30°/24°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🕍 象洞 Goa Gajah · 門票 IDR 50,000/人 · 古老寺廟"
+        },
+        {
+          "time": "11:30",
+          "desc": "🖼️ 峇里島博物館 Museum Negeri Propinsi Bali · 門票 IDR 25,000/人"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 水明漾午餐 · Merah Putih 精緻印尼菜 · 套餐 NT$3,500"
+        },
+        {
+          "time": "15:30",
+          "desc": "🛍️ 水明漾逛街 · 精品服飾與手工藝品"
+        },
+        {
+          "time": "18:00",
+          "desc": "💆 酒店 SPA · 情侶按摩 90分鐘 · NT$4,000"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 酒店晚餐 · 浪漫燭光晚餐 · 約 NT$2,500"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 星空下游泳"
+        }
+      ],
+      "day_photo": "https://www.tripsavvy.com/thmb/30L_UgPaVmcfRi33r-c5XpPR0AQ=/3863x2578/filters:no_upscale():max_bytes(150000):strip_icc()/goa-gajah--or-elephant-cave--bali-514794279-5b0db9f6a474be003766f158.jpg"
+    },
+    {
+      "day": 7,
+      "date": "Jan 30 · Fri",
+      "label_zh": "離島一日遊 · 藍夢島",
+      "day_query": "Nusa Lembongan Bali",
+      "hotel_name": "Alila Villas Uluwatu",
+      "hotel_name_zh": "阿麗拉烏魯瓦圖別墅 · 海景泳池別墅",
+      "hotel_room": "海景泳池別墅",
+      "weather": "☀️ 31°/25°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "06:30",
+          "desc": "🚤 飯店接送至碼頭 · 快艇前往藍夢島（約 30 分鐘）· 來回船票 NT$1,800/人"
+        },
+        {
+          "time": "08:00",
+          "desc": "🏖️ 抵達藍夢島 · 海灘放鬆"
+        },
+        {
+          "time": "09:30",
+          "desc": "🤿 浮潛（魔鬼魚、珊瑚）· 含裝備 NT$1,200/人"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 島上午餐 · 海鮮炒飯 · 約 NT$400"
+        },
+        {
+          "time": "14:00",
+          "desc": "🌊 紅樹林划獨木舟 · 約 NT$600/人"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚤 返回峇里島 · 酒店接送"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ Alila 晚餐 · 印尼風味 · 約 NT$2,000"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌙 泳池放鬆"
+        }
+      ],
+      "day_photo": "https://www.threesixtyguides.com/wp-content/uploads/2020/01/nusa-lembongan-1024x682.jpg"
+    },
+    {
+      "day": 8,
+      "date": "Jan 31 · Sat",
+      "label_zh": "烏魯瓦圖最後一天 · 轉往水明漾",
+      "day_query": "Seminyak Beach Bali",
+      "hotel_name": "Alila Villas Uluwatu → The Legian Seminyak",
+      "hotel_name_zh": "退房 Alila · 入住 The Legian",
+      "hotel_room": "海景套房",
+      "weather": "☀️ 31°/25°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐 · 最後的懸崖景觀"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏨 退房 Alila · 行李上車"
+        },
+        {
+          "time": "10:30",
+          "desc": "🕍 水神廟 Pura Ulun Danu Beratan · 門票 IDR 75,000/人 · 湖中寺廟"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 水明漾午餐 · 海灘俱樂部 Potato Head · 兩人約 NT$1,200"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏨 入住 The Legian Seminyak · 海景套房"
+        },
+        {
+          "time": "16:30",
+          "desc": "🏖️ 水明漾海灘散步 · 夕陽"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 水明漾晚餐 · 海鮮餐廳 La Lucciola · 約 NT$2,000"
+        },
+        {
+          "time": "21:00",
+          "desc": "🍸 海灘酒吧 Ku De Ta · 飲料約 NT$500"
+        },
+        {
+          "time": "23:00",
+          "desc": "🌙 回酒店休息"
+        }
+      ],
+      "day_photo": "https://blog.inivie.com/wp-content/uploads/2025/03/THUMBNAIL-12.jpg"
+    },
+    {
+      "day": 9,
+      "date": "Feb 1 · Sun",
+      "label_zh": "水明漾購物與放鬆",
+      "day_query": "Seminyak shopping Bali",
+      "hotel_name": "The Legian Seminyak",
+      "hotel_name_zh": "勒吉安酒店 · 海景套房",
+      "hotel_room": "海景套房",
+      "weather": "☀️ 31°/25°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🛍️ 水明漾精品街購物 · 服飾、手工藝品"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 午餐 · 印尼炒飯 · 約 NT$500"
+        },
+        {
+          "time": "14:00",
+          "desc": "💆 酒店 SPA · 香氛按摩 60分鐘 · NT$2,000"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏊 無邊際泳池游泳"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 酒店晚餐 · 浪漫套餐 · 約 NT$2,500"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌙 海灘散步 · 星空"
+        }
+      ],
+      "day_photo": "https://indonesiaimpressiontour.com/wp-content/uploads/2025/03/Seminyak-Village.jpg"
+    },
+    {
+      "day": 10,
+      "date": "Feb 2 · Mon",
+      "label_zh": "最後一天 · 返程",
+      "day_query": "Bali airport departure",
+      "hotel_name": "The Legian Seminyak",
+      "hotel_name_zh": "勒吉安酒店 · 海景套房",
+      "hotel_room": "海景套房",
+      "weather": "☀️ 31°/25°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐 · 最後的峇里島早晨"
+        },
+        {
+          "time": "09:30",
+          "desc": "🛍️ 最後購物 · 買伴手禮"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏨 退房 · 搭酒店專車前往機場"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 機場午餐 · 印尼料理 · 約 NT$600"
+        },
+        {
+          "time": "13:30",
+          "desc": "🛂 辦理登機 · 出境"
+        },
+        {
+          "time": "15:45",
+          "desc": "✈️ 起飛返台 · CI 772"
+        },
+        {
+          "time": "21:15",
+          "desc": "🏠 抵達台灣 · 甜蜜歸途"
+        }
+      ],
+      "day_photo": ""
+    }
+  ],
+  "costs": [
+    {
+      "label": "✈️ 來回機票",
+      "amount_ntd": 48000
+    },
+    {
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 258000
+    },
+    {
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 45000
+    },
+    {
+      "label": "🎫 景點門票與活動",
+      "amount_ntd": 25000
+    },
+    {
+      "label": "🚇 交通（接送、包車、船票）",
+      "amount_ntd": 35000
+    },
+    {
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 30000
+    },
+    {
+      "label": "💆 SPA",
+      "amount_ntd": 15000
+    }
+  ],
+  "cost_total_ntd": 456000,
+  "budget_remaining_ntd": 44000,
+  "photos": {
+    "hero": [
+      {
+        "url": "https://as1.ftcdn.net/jpg/15/23/80/50/1000_F_1523805068_1xpvTcdrU6s74WAm9nVQirF7F0vQ2S94.jpg",
+        "label": "Bali's Most Iconic Landmark and popular tourist attraction Uluwatu ..."
+      },
+      {
+        "url": "https://as1.ftcdn.net/jpg/17/64/51/74/1000_F_1764517414_2Syv48NSykubrZXwjCO9m9ZzHscjyB7S.jpg",
+        "label": "Bali Skyline Hand Drawn Sketch with Cultural Landmarks for Tourism ..."
+      }
+    ],
+    "destination": [
+      {
+        "url": "https://thegoldstay.com/wp-content/uploads/2026/01/file_00000000bdcc71fa8cf8d053bcec67596460907640796605038.png",
+        "label": "Complete Bali Travel Guide: Tips, Stays, and Experiences for Every Traveler"
+      },
+      {
+        "url": "https://static.thehoneycombers.com/wp-content/uploads/sites/4/2019/08/Ulun-Danu-Beratan-in-Bedugul-Bali-Indonesia-.jpg",
+        "label": "30 Most Beautiful Places in Bali: Must Visit in 2026 (with Maps!)"
+      },
+      {
+        "url": "https://foreverlivingyes.com/wp-content/uploads/2024/01/Bali-stock-5-1000x667.jpeg",
+        "label": "BALI – BEAUTIFUL AREAS & THE BEST THINGS TO SEE! | Forever Living Yes"
+      },
+      {
+        "url": "https://www.hdwallpapers.in/download/temple_in_water_with_reflection_bali_indonesia_pura_ulun_danu_bratan_during_sunset_hd_travel-1920x1080.jpg",
+        "label": "73+ Terpopuler Bali Wallpaper Hd Iphone, Gambar Pemandangan"
+      },
+      {
+        "url": "https://cdn.travelinntour.com/wp-content/uploads/2022/11/10-best-scenic-spots-in-Bali.jpg",
+        "label": "10 Best Scenic Spots in Bali for Your Next Holiday"
+      },
+      {
+        "url": "https://preview.redd.it/zevv8lxsyky11.jpg?auto=webp&s=b65bbd92300dd4dcec39cd17b75dc0daa17bb9c6",
+        "label": "Bali has some amazing scenery. Kelingking beach, Nusa Penida : r/travel"
+      }
+    ]
+  },
+  "chat_hash": "2da7633cf430212cbfa10880f97222926496c7abc1353e0f894b8628c202e694",
+  "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
+  "generated_at": "2026-05-31T00:01:14.670074"
+}
