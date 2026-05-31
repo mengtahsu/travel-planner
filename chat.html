@@ -7,44 +7,44 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<title>Chat èŠèŠ â€” Travel Planner</title>
+<title>Chat 聊聊 — Travel Planner</title>
 <link rel="stylesheet" href="templates/shared.css?v=3">
 </head>
 <body>
 <nav>
-  <a href="index.html">Today ä»Šæ—¥</a>
-  <a href="settings.html">Settings è¨­å®š</a>
-  <a href="log.html">Log æ—¥èªŒ</a>
-  <a href="chat.html" class="active">Chat èŠèŠ</a>
+  <a href="index.html">Today 今日</a>
+  <a href="settings.html">Settings 設定</a>
+  <a href="log.html">Log 日誌</a>
+  <a href="chat.html" class="active">Chat 聊聊</a>
 </nav>
 
 <div class="container">
-  <h2 class="section-title">ðŸ’¬ èŠèŠ Chat <span style="font-size:0.55rem;background:var(--gold);color:#000;padding:2px 6px;border-radius:3px;vertical-align:middle;font-family:monospace;">v250511.2</span></h2>
-  <p class="section-sub">ä½ åœ¨é€™è£¡å¯«ä¸‹çš„ä¿®æ”¹å»ºè­°ï¼Œå°‡åœ¨<strong>æŽ’ç¨‹æ™‚é–“</strong>è‡ªå‹•å¥—ç”¨ï¼Œé‡æ–°ç”Ÿæˆä¸»é ã€‚</p>
+  <h2 class="section-title">💬 聊聊 Chat <span style="font-size:0.55rem;background:var(--gold);color:#000;padding:2px 6px;border-radius:3px;vertical-align:middle;font-family:monospace;">v250511.2</span></h2>
+  <p class="section-sub">你在這裡寫下的修改建議，將在<strong>排程時間</strong>自動套用，重新生成主頁。</p>
   <div class="chat-box">
-    <div class="chat-date-label" id="date-label">ðŸ“… ç·¨è¼¯è¨ˆç•«ï¼š...</div>
+    <div class="chat-date-label" id="date-label">📅 編輯計畫：...</div>
     <div style="background:rgba(201,168,76,0.08);border-radius:8px;padding:0.75rem 1rem;margin-bottom:1rem;font-size:0.85rem;line-height:1.6;">
-      â±ï¸ <strong>æ¯10åˆ†é˜è‡ªå‹•æª¢æŸ¥</strong>ï¼šè‹¥ä½ ä¿®æ”¹äº†æ­¤å…§å®¹ä¸¦å„²å­˜ï¼Œç³»çµ±å°‡åœ¨æŽ’ç¨‹æ™‚é–“è‡ªå‹•é‡æ–°ç”Ÿæˆä¸»é ã€‚<br>
-      ðŸ† <strong>å„ªå…ˆç´š</strong>ï¼šChat æ°¸é å„ªå…ˆæ–¼ Settings Â· ä½ åœ¨é€™è£¡å¯«çš„ä¸€åˆ‡éƒ½æœƒè¦†è“‹è¨­å®šé çš„é è¨­å€¼ã€‚<br>
-      ðŸ›¡ï¸ <strong>ç„¡ä¿®æ”¹ä¸è§¸ç™¼</strong>ï¼šè‹¥å…§å®¹æœªè®Šï¼Œä¿ç•™åŽŸè¨ˆç•«ä¸å‹•ï¼Œä¸æ¶ˆè€— AI é¡åº¦ã€‚
+      ⏱️ <strong>每10分鐘自動檢查</strong>：若你修改了此內容並儲存，系統將在排程時間自動重新生成主頁。<br>
+      🏆 <strong>優先級</strong>：Chat 永遠優先於 Settings · 你在這裡寫的一切都會覆蓋設定頁的預設值。<br>
+      🛡️ <strong>無修改不觸發</strong>：若內容未變，保留原計畫不動，不消耗 AI 額度。
     </div>
-    <textarea id="chat-text" maxlength="2000" placeholder="è·Ÿ AI èªªèªªä½ æƒ³æ€Žéº¼æ”¹é€™ä»½è¨ˆç•«...
+    <textarea id="chat-text" maxlength="2000" placeholder="跟 AI 說說你想怎麼改這份計畫...
 
-ä¾‹å¦‚ï¼š
-- å‰ 3 å¤©ä½ Le Narcisse Blancï¼Œå¾Œ 2 å¤©æ›åˆ°é¦™æ ¼é‡Œæ‹‰
-- ç¬¬ä¸‰å¤©ä¸‹åˆåŠ ä¸€å ´ SPA
-- ç¾…æµ®å®®æ”¹åŽ»å¥§è³½ç¾Žè¡“é¤¨
-- æ™šé¤éƒ½è¦ç‡­å…‰æ™šé¤ï¼Œè¶Šæµªæ¼«è¶Šå¥½
-- é¤é£²é ç®—èª¿é«˜åˆ° NT$ 25,000ï¼Œè³¼ç‰©èª¿ä½Ž
-- å¤šå®‰æŽ’ç”œé»žåº—è·Ÿå’–å•¡é¤¨
-- ç¬¬å››å¤©æ™šé¤è¦åœ¨å¯ä»¥çœ‹åˆ°éµå¡”çš„å±‹é ‚é¤å»³
+例如：
+- 前 3 天住 Le Narcisse Blanc，後 2 天換到香格里拉
+- 第三天下午加一場 SPA
+- 羅浮宮改去奧賽美術館
+- 晚餐都要燭光晚餐，越浪漫越好
+- 餐飲預算調高到 NT$ 25,000，購物調低
+- 多安排甜點店跟咖啡館
+- 第四天晚餐要在可以看到鐵塔的屋頂餐廳
 
-ä½ å¯«çš„å…§å®¹æœƒå®Œæ•´ä¿ç•™ï¼ŒAI ä¸€æ¬¡è™•ç†æ‰€æœ‰å»ºè­°ã€‚ï¼ˆä¸Šé™ 2000 å­—ï¼‰"></textarea>
+你寫的內容會完整保留，AI 一次處理所有建議。（上限 2000 字）"></textarea>
     <div style="display:flex;justify-content:space-between;align-items:center;margin-top:0.5rem;flex-wrap:wrap;gap:0.5rem;">
-      <p class="chat-hint" style="margin-top:0;">âœï¸ éš¨æ™‚å›žä¾†ç·¨è¼¯ Â· æŽ’ç¨‹è‡ªå‹•å¥—ç”¨ Â· ç„¡ä¿®æ”¹ä¸è§¸ç™¼ Â· ä¸Šé™ 2000 å­—</p>
+      <p class="chat-hint" style="margin-top:0;">✏️ 隨時回來編輯 · 排程自動套用 · 無修改不觸發 · 上限 2000 字</p>
     </div>
     <div style="font-size:0.7rem;margin-top:0.4rem;" id="token-status"></div>
-    <button class="save-btn" style="margin-top:0.75rem;" onclick="saveChat()">ðŸ’¾ å„²å­˜ä¿®æ”¹ Save Notes</button>
+    <button class="save-btn" style="margin-top:0.75rem;" onclick="saveChat()">💾 儲存修改 Save Notes</button>
     <div id="save-status" style="font-size:0.85rem;margin-top:0.75rem;font-family:'Noto Serif TC',serif;"></div>
   </div>
 </div>
@@ -59,16 +59,16 @@ function getTodayKey() {
 
 async function loadChat() {
   const key = getTodayKey();
-  document.getElementById('date-label').textContent = `ðŸ“… ç·¨è¼¯è¨ˆç•«ï¼š${key}`;
+  document.getElementById('date-label').textContent = `📅 編輯計畫：${key}`;
 
   // Token status indicator
   const tok = localStorage.getItem('github_chat_token');
   const st = document.getElementById('token-status');
   if(tok) {
-    st.innerHTML = 'ðŸŸ¢ Token: ' + tok.substring(0,8) + '...' + tok.substring(tok.length-4) + ' (from localStorage)';
+    st.innerHTML = '🟢 Token: ' + tok.substring(0,8) + '...' + tok.substring(tok.length-4) + ' (from localStorage)';
     st.style.color = '#4a9';
   } else {
-    st.innerHTML = 'ðŸ”´ å°šæœªè¨­å®š Token â€” <a href="settings.html" style="color:var(--gold);">å‰å¾€ Settings è¨­å®š</a>';
+    st.innerHTML = '🔴 尚未設定 Token — <a href="settings.html" style="color:var(--gold);">前往 Settings 設定</a>';
     st.style.color = '#e88';
   }
 
@@ -94,7 +94,7 @@ async function loadChat() {
         }
       }
     } catch(e) {
-      // Sync unavailable â€” using localStorage draft
+      // Sync unavailable — using localStorage draft
     }
   }
 }
@@ -103,12 +103,12 @@ async function saveChat() {
   const key = getTodayKey();
   const text = document.getElementById('chat-text').value;
 
-  // Always save to localStorage first â€” prevents data loss
+  // Always save to localStorage first — prevents data loss
   localStorage.setItem('chat_draft_' + key, text);
 
   const token = localStorage.getItem('github_chat_token');
   if(!token) {
-    alert('âš ï¸ å·²æš«å­˜åˆ°ç€è¦½å™¨ã€‚\n\nè«‹å…ˆåœ¨ Settings é é¢è¼¸å…¥ GitHub Tokenï¼ˆéœ€ repo æ¬Šé™ï¼‰ï¼Œå³å¯è·¨è£ç½®åŒæ­¥ã€‚');
+    alert('⚠️ 已暫存到瀏覽器。\n\n請先在 Settings 頁面輸入 GitHub Token（需 repo 權限），即可跨裝置同步。');
     return;
   }
 
@@ -124,15 +124,15 @@ async function saveChat() {
       const data = await resp.json(); sha = data.sha || '';
     } else if(resp.status === 401) {
       const body = await resp.text();
-      alert('âš ï¸ Token é©—è­‰å¤±æ•— (401)ã€‚\n\nè«‹åˆ° Settings é é¢é‡æ–°è¼¸å…¥ GitHub Tokenã€‚\n\nå·²æš«å­˜åˆ°ç€è¦½å™¨ï¼Œä¸æœƒéºå¤±ã€‚');
+      alert('⚠️ Token 驗證失敗 (401)。\n\n請到 Settings 頁面重新輸入 GitHub Token。\n\n已暫存到瀏覽器，不會遺失。');
       return;
     } else if(resp.status === 403) {
       const body = await resp.text();
-      alert('âš ï¸ Token ç„¡æ¬Šé™ (403)ã€‚\n\nè«‹ç¢ºèª Token æœ‰ repo æ¬Šé™ä¸”å·²æŽˆæ¬Šçµ¦ mengtahsu/travel-plannerã€‚\n\nå·²æš«å­˜åˆ°ç€è¦½å™¨ï¼Œä¸æœƒéºå¤±ã€‚');
+      alert('⚠️ Token 無權限 (403)。\n\n請確認 Token 有 repo 權限且已授權給 mengtahsu/travel-planner。\n\n已暫存到瀏覽器，不會遺失。');
       return;
     }
   } catch(e) {
-    alert('âš ï¸ ç¶²è·¯éŒ¯èª¤ã€‚\n\nå·²æš«å­˜åˆ°ç€è¦½å™¨ï¼Œä¸æœƒéºå¤±ã€‚');
+    alert('⚠️ 網路錯誤。\n\n已暫存到瀏覽器，不會遺失。');
     return;
   }
 
@@ -153,21 +153,21 @@ async function saveChat() {
 
     if(resp.ok) {
       var statusEl = document.getElementById('save-status');
-      statusEl.innerHTML = 'âœ… å·²å„²å­˜ï¼GitHub Actions æ­£åœ¨ç”Ÿæˆæ–°è¨ˆç•«â€¦ç´„ 60 ç§’';
+      statusEl.innerHTML = '✅ 已儲存！GitHub Actions 正在生成新計畫…約 60 秒';
       statusEl.style.color = '#4a9';
       pollForNewBuild();
     } else {
       const body = await resp.text();
       if(resp.status === 401) {
-        alert('âš ï¸ Token é©—è­‰å¤±æ•— (401)ã€‚\n\nè«‹åˆ° Settings é é¢é‡æ–°è¼¸å…¥ GitHub Tokenã€‚\n\nå·²æš«å­˜åˆ°ç€è¦½å™¨ï¼Œä¸æœƒéºå¤±ã€‚');
+        alert('⚠️ Token 驗證失敗 (401)。\n\n請到 Settings 頁面重新輸入 GitHub Token。\n\n已暫存到瀏覽器，不會遺失。');
       } else if(resp.status === 403) {
-        alert('âš ï¸ Token ç„¡æ¬Šé™ (403)ã€‚\n\nè«‹ç¢ºèª Token æœ‰ Contents å¯«å…¥æ¬Šé™ã€‚\n\nå·²æš«å­˜åˆ°ç€è¦½å™¨ï¼Œä¸æœƒéºå¤±ã€‚');
+        alert('⚠️ Token 無權限 (403)。\n\n請確認 Token 有 Contents 寫入權限。\n\n已暫存到瀏覽器，不會遺失。');
       } else {
-        alert('âš ï¸ å·²æš«å­˜åˆ°ç€è¦½å™¨ï¼Œä½† GitHub å¯«å…¥å¤±æ•— (' + resp.status + ')ï¼š' + body);
+        alert('⚠️ 已暫存到瀏覽器，但 GitHub 寫入失敗 (' + resp.status + ')：' + body);
       }
     }
   } catch(e) {
-    alert('âš ï¸ å·²æš«å­˜åˆ°ç€è¦½å™¨ï¼Œä½†ç„¡æ³•é€£æŽ¥ GitHubã€‚');
+    alert('⚠️ 已暫存到瀏覽器，但無法連接 GitHub。');
   }
 }
 
@@ -187,12 +187,12 @@ function pollForNewBuild() {
         var m = html.match(/build (\d{6}\.\d{6})/);
         if(m && m[1] !== beforeBuild) {
           clearInterval(check);
-          statusEl.innerHTML = 'ðŸŽ‰ æ–°è¨ˆç•«å·²ç”Ÿæˆï¼<br><a href="index.html?t=' + Date.now() + '" style="color:var(--gold);font-size:1.1rem;">â†— æŸ¥çœ‹æœ€æ–°è¨ˆç•«</a> <small>(' + m[1] + ')</small>';
+          statusEl.innerHTML = '🎉 新計畫已生成！<br><a href="index.html?t=' + Date.now() + '" style="color:var(--gold);font-size:1.1rem;">↗ 查看最新計畫</a> <small>(' + m[1] + ')</small>';
         } else if(tries === 6) {
-          statusEl.innerHTML = 'âš™ï¸ GitHub Actions æ­£åœ¨ç”Ÿæˆâ€¦<br><a href="index.html?t=' + Date.now() + '" target="_blank" style="color:var(--gold);">â†— æŸ¥çœ‹ç›®å‰ç‰ˆæœ¬</a>';
+          statusEl.innerHTML = '⚙️ GitHub Actions 正在生成…<br><a href="index.html?t=' + Date.now() + '" target="_blank" style="color:var(--gold);">↗ 查看目前版本</a>';
         }
       }).catch(function(){});
-      if(tries > 36) { clearInterval(check); statusEl.innerHTML = 'â±ï¸ ç­‰äº† 3 åˆ†é˜ Â· <a href="index.html?t=' + Date.now() + '" target="_blank" style="color:var(--gold);">æ‰‹å‹•æŸ¥çœ‹</a>'; }
+      if(tries > 36) { clearInterval(check); statusEl.innerHTML = '⏱️ 等了 3 分鐘 · <a href="index.html?t=' + Date.now() + '" target="_blank" style="color:var(--gold);">手動查看</a>'; }
     }, 5000);
   });
 }
