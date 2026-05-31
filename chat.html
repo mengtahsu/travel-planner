@@ -153,9 +153,9 @@ async function saveChat() {
 
     if(resp.ok) {
       var statusEl = document.getElementById('save-status');
-      statusEl.innerHTML = '⚡ 已儲存 · 正在呼叫 generator 立即生成…';
-      statusEl.style.color = '#c9a84c';
-      triggerRegenerate();
+      statusEl.innerHTML = '✅ 已儲存！GitHub Actions 正在生成新計畫…約 60 秒';
+      statusEl.style.color = '#4a9';
+      pollForNewBuild();
     } else {
       const body = await resp.text();
       if(resp.status === 401) {
@@ -171,35 +171,30 @@ async function saveChat() {
   }
 }
 
-function triggerRegenerate() {
+function pollForNewBuild() {
   var statusEl = document.getElementById('save-status');
-  fetch('http://localhost:8766/run')
-    .then(function(r) { return r.json(); })
-    .then(function(data) {
-      if (data.ok) {
-        // Poll index.html for new build tag (Pages takes ~30s to deploy)
-        var tries = 0;
-        var check = setInterval(function() {
-          tries++;
-          fetch('../index.html?t=' + Date.now()).then(function(r) {
-            return r.text();
-          }).then(function(html) {
-            var m = html.match(/build (\d{6}\.\d{6})/);
-            if (m && tries > 1) {
-              clearInterval(check);
-              statusEl.innerHTML = '🎉 新計畫已生成！<br><a href="../index.html?t=' + Date.now() + '" style="color:var(--gold);font-size:1rem;">↗ 查看最新計畫</a> <small>(build ' + m[1] + ')</small>';
-            }
-          }).catch(function(){});
-          if (tries > 30) { clearInterval(check); statusEl.innerHTML = '⏱️ 等待部署超時 · <a href="../index.html" target="_blank" style="color:var(--gold);">手動查看</a>'; }
-        }, 2000);
-      } else {
-        statusEl.innerHTML = '❌ Generator 失敗<br><pre style="font-size:0.7rem;max-height:100px;overflow:auto;">' + (data.output || 'unknown error').replace(/</g,'&lt;') + '</pre>';
-        statusEl.style.color = '#e88';
-      }
-    }).catch(function(e) {
-      statusEl.innerHTML = '❌ 無法連接本機 generator（localhost:8766）。請確認 trigger_server.py 正在執行。<br><small>' + e.message + '</small>';
-      statusEl.style.color = '#e88';
-    });
+  var beforeBuild = '';
+  // Get current build tag first
+  fetch('../index.html?t=' + Date.now()).then(function(r){return r.text()}).then(function(h){
+    var m = h.match(/build (\d{6}\.\d{6})/);
+    if(m) beforeBuild = m[1];
+  }).catch(function(){}).finally(function(){
+    var tries = 0;
+    var check = setInterval(function(){
+      tries++;
+      var secs = tries * 5;
+      fetch('../index.html?t=' + Date.now()).then(function(r){return r.text()}).then(function(html){
+        var m = html.match(/build (\d{6}\.\d{6})/);
+        if(m && m[1] !== beforeBuild) {
+          clearInterval(check);
+          statusEl.innerHTML = '🎉 新計畫已生成！<br><a href="../index.html?t=' + Date.now() + '" style="color:var(--gold);font-size:1.1rem;">↗ 查看最新計畫</a> <small>(' + m[1] + ')</small>';
+        } else if(tries === 6) {
+          statusEl.innerHTML = '⚙️ GitHub Actions 正在生成…<br><a href="../index.html?t=' + Date.now() + '" target="_blank" style="color:var(--gold);">↗ 查看目前版本</a>';
+        }
+      }).catch(function(){});
+      if(tries > 36) { clearInterval(check); statusEl.innerHTML = '⏱️ 等了 3 分鐘 · <a href="../index.html?t=' + Date.now() + '" target="_blank" style="color:var(--gold);">手動查看</a>'; }
+    }, 5000);
+  });
 }
 
 // Auto-save to localStorage on every keystroke
