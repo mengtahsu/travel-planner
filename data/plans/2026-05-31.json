@@ -1,74 +1,74 @@
 {
-  "destination_en": "Xiao Liuqiu (Lamay Island), Pingtung, Taiwan",
-  "title_zh": "小琉球奢華放空 · 黑鮪魚饗宴二日遊",
+  "destination_en": "Xiao Liuqiu, Taiwan",
+  "title_zh": "小琉球 · 兩天一夜奢華放空之旅",
   "date_range": "2026/08/15–08/16",
   "start_date": "2026-08-15",
   "end_date": "2026-08-16",
-  "departure": "苗栗頭份市 (自家出發)",
+  "departure": "苗栗頭份市",
   "departure_code": "TPE",
   "destination_code": "PIF",
   "travelers": 2,
   "days": 2,
   "budget_ntd": 100000,
   "flight": {
-    "airline": "自駕至東港碼頭",
+    "airline": "高鐵 + 計程車 + 船",
     "departure_date": "8月15日",
     "return_date": "8月16日",
-    "total_price_ntd": 3000,
+    "total_price_ntd": 7000,
     "outbound": {
-      "flight_no": "自駕 + 泰富航運",
-      "route": "頭份 → 東港碼頭 (自駕約3小時) → 小琉球 (船程25分鐘)",
-      "depart_time": "07:00",
+      "flight_no": "高鐵 661車次 + 計程車 + 泰富航運",
+      "route": "苗栗高鐵站 → 左營高鐵站 → 東港碼頭 → 小琉球",
+      "depart_time": "07:36",
       "arrive_time": "11:00",
-      "duration": "4小時 (含船程)",
-      "class": "自駕 + 高速客輪"
+      "duration": "3h 24m",
+      "class": "標準車廂"
     },
     "inbound": {
-      "flight_no": "泰富航運 + 自駕",
-      "route": "小琉球 → 東港碼頭 → 頭份",
-      "depart_time": "16:00",
-      "arrive_time": "20:00",
-      "duration": "4小時 (含船程)",
-      "class": "高速客輪 + 自駕"
+      "flight_no": "泰富航運 + 計程車 + 高鐵 666車次",
+      "route": "小琉球 → 東港碼頭 → 左營高鐵站 → 苗栗高鐵站",
+      "depart_time": "15:30",
+      "arrive_time": "19:00",
+      "duration": "3h 30m",
+      "class": "標準車廂"
     }
   },
   "hotels": [
     {
-      "name": "杉板灣民宿 VILLA 館",
-      "name_zh": "杉板灣民宿 VILLA 館",
-      "district": "小琉球杉板灣",
-      "day_range": "1–2",
+      "name": "琉球海景會館 (Liuqiu Seaview Hotel)",
+      "name_zh": "琉球海景會館",
+      "district": "小琉球 本福村",
+      "day_range": "1",
       "nights": 1,
-      "price_ntd": 18000,
+      "price_ntd": 25000,
       "stars": "★★★★★",
-      "room_type": "海景Villa雙人房 (含私人泳池)",
-      "breakfast": "含精緻早餐",
-      "amenities": "🏊 私人泳池 · 🛁 戶外按摩浴缸 · 🌴 南洋花園 · 🚲 免費腳踏車",
-      "search_query": "杉板灣民宿 VILLA 小琉球",
+      "room_type": "頂級海景雙人房",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 無邊際泳池 · 💆 私人SPA · 🍽️ 海景餐廳 · 🛁 海景浴缸 · 🧖‍♀️ 蒸氣室",
+      "search_query": "琉球海景會館 小琉球 頂級",
       "photos": [
         {
-          "url": "https://livingnomads.com/wp-content/uploads/2023/08/19/xiaoloiuqiu-hotel393-696x463.jpeg",
-          "label": "Xiaoliuqiu island travel blog — The fullest Xiaoliuqiu guide (Lambai ..."
+          "url": "https://www.hotelscombined.com.tw/news/wp-content/uploads/sites/316/2023/05/146487026-1640x1312.jpg",
+          "label": "【小琉球住宿推薦】Top 5 最美海景房、最值得入住的小琉球民宿、住宿飯店！"
         },
         {
-          "url": "https://i1.wp.com/www.taiwanese-secrets.com/wp-content/uploads/img_6103-1.jpg?resize=1656,1242&ssl=1",
-          "label": "Xiao Liuqiu (Little Liuqiu) Travel Guide - Taiwanese Secrets"
+          "url": "https://live.staticflickr.com/65535/48628790417_d51ea58442_b.jpg",
+          "label": "小琉球民宿-威尼斯海景會館"
         },
         {
-          "url": "https://www.foreignersintaiwan.com/uploads/5/4/3/2/54326073/118836685-317875762983259-469436225033354169-n_orig.jpg",
-          "label": "Xiaoliuqiu Island 小琉球 - Foreigners in Taiwan - 外國人在臺灣"
+          "url": "https://baofamily.tw/wp-content/uploads/2025/08/小琉球景點望海亭-7.jpg",
+          "label": "小琉球景點【望海亭】180度無死角海岸線，賞海景賞海龜最佳景點！ @來飽寶家ba"
         },
         {
-          "url": "https://hoponworld.com/wp-content/uploads/2020/08/houshi-fringing-reef-xiao-liuqiu.jpg",
-          "label": "Xiaoliuqiu: An Insanely Detailed Guide to Lambai Island | Hoponworld"
+          "url": "https://live.staticflickr.com/65535/48628289028_d051f7e9b9_b.jpg",
+          "label": "小琉球民宿-威尼斯海景會館"
         },
         {
-          "url": "https://hoponworld.com/wp-content/uploads/2020/08/vase-rock-liuqiu.jpg",
-          "label": "Xiaoliuqiu: An Insanely Detailed Guide to Lambai Island • Hoponworld"
+          "url": "https://joshuaworldtravel.com/wp-content/uploads/2021/04/94.jpg",
+          "label": "【小琉球住宿推薦】小琉球民宿怎麼挑?7間超高評價小琉球海景住宿 – 喬書亞的世界旅行提案"
         },
         {
-          "url": "https://livingnomads.com/wp-content/uploads/2023/08/18/Xiaoliuqiu-Lambai-Island-taiwan12.webp",
-          "label": "Xiaoliuqiu island travel blog — The fullest Xiaoliuqiu guide (Lambai ..."
+          "url": "https://liuchiu.wacowtravel.com.tw/upload/bigphoto/bb20190520151437-2.jpg",
+          "label": "小琉球民宿-威尼斯海景會館"
         }
       ]
     }
@@ -76,54 +76,54 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "海味珍鮮魚湯",
-        "name_zh": "海味珍鮮魚湯 · 黑鮪魚專賣",
-        "stars": "⭐⭐⭐",
-        "dish": "🐟 黑鮪魚生魚片 · 炙燒黑鮪魚腹 · 黑鮪魚頭火鍋",
-        "address": "屏東縣琉球鄉中山路 88 號",
+        "name": "琉球海景會館 海景餐廳",
+        "name_zh": "琉球海景會館 海景餐廳",
+        "stars": "",
+        "dish": "🦞 招牌：黑鮪魚生魚片拼盤 · 龍蝦濃湯",
+        "address": "小琉球 本福村 20-1號",
         "price_ntd": 6000,
-        "price_label": "雙人黑鮪魚全餐 NT$6,000",
-        "hours": "11:00–14:00 · 17:00–20:00 · 需預約",
-        "search_query": "海味珍鮮魚湯 小琉球 黑鮪魚",
+        "price_label": "雙人套餐 NT$6,000",
+        "hours": "18:00–21:00 · 需預約",
+        "search_query": "琉球海景會館 海景餐廳 黑鮪魚",
         "photos": [
           {
-            "url": "https://i.ytimg.com/vi/r3MLyCJeoSA/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLAq3sMcU8mjFEzzKW7UDM26a43_HA",
-            "label": "東港黑鮪魚季#海鮮#黑鮪魚#東港#小琉球#珍珍海鮮#大鵬灣 - YouTube"
+            "url": "https://miemie.tw/wp-content/uploads/2024/05/飯賣獨品海鮮熱炒店-小琉球美食餐廳推薦-62.jpg",
+            "label": "飯賣獨品海鮮熱炒店|小琉球絕美海景餐廳推薦!超多熱炒料理成為團客首選海景餐廳！ – 野田咩的美食書國"
           },
           {
-            "url": "https://i.ytimg.com/vi/0U6IN8I9ggY/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbQIgAKAD4oCDAgAEAEYZSBUKEYwDw==&rs=AOn4CLCH1bFAmOIsFf9gKeR5fZWSxXmZxg",
-            "label": "黑鮪魚好美味-小琉球Day1 - YouTube"
+            "url": "https://miemie.tw/wp-content/uploads/2024/05/飯賣獨品海鮮熱炒店-小琉球美食餐廳推薦-86.jpg",
+            "label": "飯賣獨品海鮮熱炒店|小琉球絕美海景餐廳推薦!超多熱炒料理成為團客首選海景餐廳！ – 野田咩的美食書國"
           },
           {
-            "url": "https://cc.tvbs.com.tw/img/upload/2023/06/10/20230610150623-bb96bf73.jpg",
-            "label": "黑鮪魚季來了！一圖看「6部位口感、價格差異」 3族群要少吃│TVBS新聞網"
+            "url": "https://www.walkerland.com.tw/image/1200/0/poi/p34724/m36804/b133946d288d6f90b33959cf729fb11aaf928c13.jpg",
+            "label": "萬里平價海景餐廳【三明美食】海景第一排海鮮餐廳/石角沙灘最新水上鋼鐵人/龜吼海灘秘境/北海岸CP值高海景餐廳|美食|WalkerLand窩客島"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "東港華僑市場 · 黑鮪魚生魚片攤",
-        "name_zh": "東港華僑市場 · 黑鮪魚生魚片攤",
-        "stars": "⭐⭐",
-        "dish": "🐟 現切黑鮪魚大腹 · 海膽 · 甜蝦",
-        "address": "屏東縣東港鎮朝隆路 39 號",
-        "price_ntd": 3000,
-        "price_label": "雙人現切黑鮪魚 NT$3,000",
-        "hours": "10:00–19:00 · 週末人潮較多",
-        "search_query": "東港華僑市場 黑鮪魚",
+        "name": "阿對麵店",
+        "name_zh": "阿對麵店 · 小琉球必吃",
+        "stars": "",
+        "dish": "🍜 招牌：鮪魚蓋飯 · 鬼頭刀魚湯",
+        "address": "小琉球 中山路 12號",
+        "price_ntd": 500,
+        "price_label": "雙人 NT$500",
+        "hours": "11:00–14:00 / 17:00–20:00",
+        "search_query": "阿對麵店 小琉球 鮪魚蓋飯",
         "photos": [
           {
-            "url": "https://ciaoz.tw/wp-content/uploads/huaqiao-market-donggang-02.jpg",
-            "label": "屏東東港華僑市場｜2023屏東黑鮪魚文化觀光季遊東港，大啖鮮美海味！ @巧莉的世界流浪筆記"
+            "url": "https://hamibobo.tw/wp-content/uploads/flickr/48404019731_f32a9e4e5b_c.jpg",
+            "label": "小琉球必吃美食『阿對麵店』鬼頭刀乾拌飯、鮪魚蓋飯、菜單價位，小琉球兩天一夜旅遊 – 海綿飽飽的鳳梨城堡"
           },
           {
-            "url": "https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/HRH/0000/0041/61/ori_78472620.jpg",
-            "label": "【屏東黑鮪魚季】東港華僑市場．海上教堂．王船文化館．潮州鐵道| 高鐵假期| 東南旅遊"
+            "url": "https://hamibobo.tw/wp-content/uploads/flickr/48404164352_2c7a9eccd4_c.jpg",
+            "label": "小琉球必吃美食『阿對麵店』鬼頭刀乾拌飯、鮪魚蓋飯、菜單價位，小琉球兩天一夜旅遊 – 海綿飽飽的鳳梨城堡"
           },
           {
-            "url": "https://blog.yuyansoftware.com.tw/wp-content/uploads/2025/06/PXL_20250606_044513809-a2-1024x576.jpg",
-            "label": "[屏東東港] 曾鮮黑鮪魚專賣店，華僑市場必吃，除了必點生魚片，也推薦鮪魚龍骨髓湯 – Larry的午茶時光"
+            "url": "https://img.gototravel.tw/flickr/18565720720_f051f18766_z.jpg",
+            "label": "小琉球美食篇-阿對麵店(覺得普通又有點小貴) @來一球叭噗"
           }
         ]
       }
@@ -131,26 +131,26 @@
     "cafes": [
       {
         "name": "海龜咖啡 Sea Turtle Cafe",
-        "name_zh": "海龜咖啡 Sea Turtle Cafe",
+        "name_zh": "海龜咖啡 · 小琉球文青咖啡",
         "stars": "",
-        "dish": "☕ 冰滴咖啡 · 海龜造型蛋糕 · 芒果冰沙",
-        "address": "屏東縣琉球鄉三民路 1-8 號",
-        "price_ntd": 600,
-        "price_label": "雙人飲品甜點 NT$600",
-        "hours": "09:00–17:00 · 海景第一排",
-        "search_query": "海龜咖啡 小琉球 海景",
+        "dish": "☕ 招牌：海鹽奶蓋咖啡 · 手工巴斯克蛋糕",
+        "address": "小琉球 民生路 30號",
+        "price_ntd": 400,
+        "price_label": "雙人 NT$400",
+        "hours": "09:00–18:00",
+        "search_query": "海龜咖啡 小琉球 海鹽奶蓋",
         "photos": [
           {
-            "url": "https://yoke918.tw/wp-content/uploads/2010/04/2021047025.jpg",
-            "label": "小琉球景點》海找冰．無敵海景咖啡廳，還有大海龜出沒．超舒適的無敵海景咖啡廳 @青青小熊＊旅遊札記"
+            "url": "",
+            "label": "cafe coffee Xiao Liuqiu"
           },
           {
-            "url": "https://yoke918.tw/wp-content/uploads/2010/04/2021047013.jpg",
-            "label": "小琉球景點》海找冰．無敵海景咖啡廳，還有大海龜出沒．超舒適的無敵海景咖啡廳 @青青小熊＊旅遊札記"
+            "url": "",
+            "label": "cafe coffee Xiao Liuqiu"
           },
           {
-            "url": "https://live.staticflickr.com/65535/49203178882_6a2d137422_o.jpg",
-            "label": "屏東恆春│海龜咖啡SeaTurtle cafe，墾丁浮潛秘境萬里桐的無敵海景咖啡館-輕旅行"
+            "url": "",
+            "label": "cafe coffee Xiao Liuqiu"
           }
         ]
       }
@@ -160,53 +160,57 @@
     {
       "day": 1,
       "date": "Aug 15 · Sat",
-      "label_zh": "出發 · 東港黑鮪魚 · 小琉球 Villa 放空",
+      "label_zh": "第一天 · 出發 · 黑鮪魚饗宴 · 華僑市場",
       "day_query": "東港華僑市場 黑鮪魚",
-      "hotel_name": "杉板灣民宿 VILLA 館",
-      "hotel_name_zh": "杉板灣民宿 VILLA 館 · 海景Villa雙人房",
-      "hotel_room": "海景Villa雙人房 (含私人泳池)",
-      "weather": "☀️ 34°/28°",
+      "hotel_name": "琉球海景會館 (Liuqiu Seaview Hotel)",
+      "hotel_name_zh": "琉球海景會館 · 頂級海景雙人房",
+      "hotel_room": "頂級海景雙人房",
+      "weather": "☀️ 32°/27°",
       "rain_pct": "5%",
       "slots": [
         {
           "time": "07:00",
-          "desc": "🚗 從苗栗頭份市自家出發 · 國道1號南下 · 預計3小時車程 · 中途可在仁德休息站小歇"
+          "desc": "🚕 從苗栗頭份市家中搭乘預約計程車前往苗栗高鐵站（約 20 分鐘 · NT$300）"
         },
         {
-          "time": "10:00",
-          "desc": "🅿️ 抵達東港碼頭 · 停車於「東港碼頭停車場」(NT$200/天) · 步行至華僑市場"
+          "time": "07:36",
+          "desc": "🚄 高鐵 661 車次 苗栗→左營（07:36–09:15 · NT$2,140/兩人）"
         },
         {
-          "time": "10:30",
-          "desc": "🛍️ 逛東港華僑市場 · 現切黑鮪魚大腹 (NT$1,500/份) · 現烤魷魚 · 旗魚黑輪 · 帶些伴手禮"
+          "time": "09:15",
+          "desc": "🚕 左營高鐵站 → 東港碼頭（計程車約 45 分鐘 · NT$900）"
+        },
+        {
+          "time": "10:15",
+          "desc": "🛍️ 東港華僑市場逛逛 · 品嚐現切黑鮪魚生魚片（NT$1,500）"
         },
         {
           "time": "11:30",
-          "desc": "🚢 搭乘泰富航運前往小琉球 (船程25分鐘) · 建議提前20分鐘到 · 來回船票NT$480/人"
+          "desc": "🚢 搭乘泰富航運 東港→小琉球（11:30–12:00 · 船票 NT$460/兩人）"
         },
         {
-          "time": "12:00",
-          "desc": "🏨 抵達小琉球白沙尾港 · 民宿接駁車送至杉板灣VILLA · 辦理入住 · 行李放妥"
+          "time": "12:10",
+          "desc": "🏨 抵達琉球海景會館 · 辦理入住 · 房間升級至頂級海景雙人房"
         },
         {
           "time": "13:00",
-          "desc": "🍽️ 午餐：海味珍鮮魚湯 · 黑鮪魚生魚片 + 炙燒腹肉 · 搭配冰涼啤酒"
+          "desc": "🍜 阿對麵店午餐 · 鮪魚蓋飯 + 鬼頭刀魚湯（NT$500）"
         },
         {
           "time": "14:30",
-          "desc": "🏊 Villa 私人泳池戲水 · 戶外按摩浴缸泡澡 · 南洋風情放空 · 遮陽傘下小憩"
+          "desc": "🏖️ 飯店無邊際泳池游泳 · 海景浴缸泡澡放鬆"
         },
         {
           "time": "17:00",
-          "desc": "🚲 騎民宿免費腳踏車環島 · 途經花瓶岩 · 美人洞 · 落日亭看夕陽"
+          "desc": "☕ 海龜咖啡下午茶 · 海鹽奶蓋咖啡 + 巴斯克蛋糕（NT$400）"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：民宿代訂「阿對麵店」· 鬼頭刀魚乾麵 + 海鮮湯 · 或選擇海景燒烤"
+          "time": "18:30",
+          "desc": "🍽️ 琉球海景會館 海景餐廳 · 黑鮪魚生魚片拼盤 · 龍蝦濃湯（NT$6,000）"
         },
         {
           "time": "20:30",
-          "desc": "🌙 夜間潮間帶導覽 (民宿免費活動) · 觀察海膽 · 海參 · 寄居蟹 · 星空漫步"
+          "desc": "🌙 房間陽台看星星 · 享受海風 · 早點休息"
         }
       ],
       "day_photo": "https://ciaoz.tw/wp-content/uploads/huaqiao-market-donggang-02.jpg"
@@ -214,121 +218,125 @@
     {
       "day": 2,
       "date": "Aug 16 · Sun",
-      "label_zh": "小琉球最後巡禮 · 返程頭份",
-      "day_query": "花瓶岩 小琉球",
-      "hotel_name": "杉板灣民宿 VILLA 館",
-      "hotel_name_zh": "杉板灣民宿 VILLA 館 · 海景Villa雙人房",
-      "hotel_room": "海景Villa雙人房 (含私人泳池)",
-      "weather": "☀️ 33°/27°",
-      "rain_pct": "10%",
+      "label_zh": "第二天 · 放空 · 浮潛 · 返回",
+      "day_query": "小琉球 花瓶岩 浮潛",
+      "hotel_name": "琉球海景會館 (Liuqiu Seaview Hotel)",
+      "hotel_name_zh": "琉球海景會館 · 頂級海景雙人房",
+      "hotel_room": "頂級海景雙人房",
+      "weather": "☀️ 33°/28°",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🌅 早起在 Villa 陽台看日出 · 海面金光閃閃 · 享受寧靜"
-        },
-        {
-          "time": "08:30",
-          "desc": "🍽️ 民宿早餐 · 現煮海鮮粥 · 小琉球特色漁夫飯 · 水果拼盤 · 咖啡"
+          "desc": "🥐 飯店自助早餐 · 海景座位（含早餐）"
         },
         {
           "time": "09:30",
-          "desc": "🏖️ 浮潛 (自費NT$800/人) · 與海龜共游 · 繽紛珊瑚礁 · 專業教練陪同"
+          "desc": "🤿 飯店安排私人浮潛導覽 · 看海龜 · 花瓶岩附近（NT$3,000/兩人）"
         },
         {
-          "time": "11:00",
-          "desc": "🚲 退房後寄放行李 · 騎車至花瓶岩拍照 · 烏鬼洞探險 · 蛤板灣沙灘踩水"
+          "time": "11:30",
+          "desc": "🚿 回房沖洗 · 退房 · 行李寄放櫃檯"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 午餐：海龜咖啡 · 冰滴咖啡 + 海龜蛋糕 · 看海放空"
+          "time": "12:00",
+          "desc": "🍽️ 環島輕食午餐 · 小琉球老街小吃（NT$600）"
         },
         {
-          "time": "14:00",
-          "desc": "🛍️ 小琉球名產採買 · 麻花捲 · 旗魚鬆 · 海菜 · 寄回民宿協助宅配"
+          "time": "13:30",
+          "desc": "🛍️ 小琉球名產伴手禮 · 麻花捲 · 海藻醬（NT$1,000）"
         },
         {
-          "time": "15:00",
-          "desc": "🚢 搭泰富航運返回東港 (15:00班次) · 再見小琉球"
+          "time": "14:30",
+          "desc": "🚢 搭船返回東港（14:30–15:00）"
         },
         {
-          "time": "15:30",
-          "desc": "🅿️ 東港碼頭取車 · 國道1號北上返頭份 · 預計3小時車程"
+          "time": "15:10",
+          "desc": "🛍️ 東港華僑市場再逛 · 買現切黑鮪魚生魚片帶回家（NT$2,000）"
         },
         {
-          "time": "18:30",
-          "desc": "🏠 抵達苗栗頭份自家 · 旅程完美結束 · 滿滿黑鮪魚回憶"
+          "time": "16:00",
+          "desc": "🚕 東港碼頭 → 左營高鐵站（計程車約 45 分鐘 · NT$900）"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚄 高鐵 666 車次 左營→苗栗（17:00–18:40 · NT$2,140/兩人）"
+        },
+        {
+          "time": "18:40",
+          "desc": "🚕 苗栗高鐵站 → 頭份市家中（計程車約 20 分鐘 · NT$300）"
         }
       ],
-      "day_photo": "https://motto.tw/assets/img/pingdong-county/pic_huapingshi03.jpg"
+      "day_photo": "https://live.staticflickr.com/65535/27705387843_3edf7f5999_b.jpg"
     }
   ],
   "costs": [
     {
-      "label": "🚗 交通 (油費 + 停車 + 船票)",
-      "amount_ntd": 5000
+      "label": "🚄 高鐵 + 計程車 + 船",
+      "amount_ntd": 7000
     },
     {
-      "label": "🏨 住宿 (杉板灣VILLA 1晚)",
-      "amount_ntd": 18000
+      "label": "🏨 琉球海景會館 1晚",
+      "amount_ntd": 25000
     },
     {
-      "label": "🍽️ 餐飲 (黑鮪魚全餐 + 市場小吃 + 咖啡)",
-      "amount_ntd": 12000
+      "label": "🍽️ 餐飲 (黑鮪魚大餐 + 小吃)",
+      "amount_ntd": 15000
     },
     {
-      "label": "🎫 活動 (浮潛 + 潮間帶導覽)",
-      "amount_ntd": 2000
-    },
-    {
-      "label": "🛍️ 伴手禮 (華僑市場 + 小琉球特產)",
+      "label": "🤿 浮潛活動",
       "amount_ntd": 3000
     },
     {
-      "label": "🛡️ 雜支 (保險 · 冷飲 · 小費)",
-      "amount_ntd": 2000
+      "label": "🛍️ 伴手禮",
+      "amount_ntd": 3000
+    },
+    {
+      "label": "🚕 當地交通",
+      "amount_ntd": 2400
     }
   ],
-  "cost_total_ntd": 42000,
-  "budget_remaining_ntd": 58000,
+  "cost_total_ntd": 55400,
+  "budget_remaining_ntd": 44600,
   "photos": {
     "hero": [
       {
-        "url": "https://hoponworld.com/wp-content/uploads/2020/08/vase-rock-liuqiu.jpg",
-        "label": "Xiaoliuqiu: An Insanely Detailed Guide to Lambai Island • Hoponworld"
+        "url": "https://www.alexisjetsets.com/wp-content/uploads/2018/12/xiaoliuqiu-kaohsiung-alexisjetsets-e1545579636945.jpg",
+        "label": "Xiao Liu Qiu Island - A Hidden Gem Near Kaohsiung, Taiwan - Alexis ..."
       },
       {
-        "url": "https://hoponworld.com/wp-content/uploads/2020/08/lingshan-temple-lambay-island.jpg",
-        "label": "Xiaoliuqiu: An Insanely Detailed Guide to Lambai Island | Hoponworld"
+        "url": "https://farm5.staticflickr.com/4856/46433069341_95c8201d23_b.jpg",
+        "label": "Xiao Liu Qiu Island - A Hidden Gem Near Kaohsiung, Taiwan - Alexis ..."
       }
     ],
     "destination": [
-      {
-        "url": "https://macaulifestyle.com/wp-content/uploads/2019/01/Offshore-Islands-XiaoLiuQiu.png",
-        "label": "Sun, Sea and Sand In Taiwan's Offshore Islands - Macau Lifestyle"
-      },
-      {
-        "url": "https://hoponworld.com/wp-content/uploads/2020/08/vase-rock-liuqiu.jpg",
-        "label": "Xiaoliuqiu: An Insanely Detailed Guide to Lambai Island • Hoponworld"
-      },
-      {
-        "url": "https://hoponworld.com/wp-content/uploads/2020/08/vase-rock-xiao-liuqiu.jpg",
-        "label": "Xiaoliuqiu: An Insanely Detailed Guide to Lambai Island • Hoponworld"
-      },
       {
         "url": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/b7766225-Taiwan-Coral-Island-Tour-5/XiaoLiuqiuCoralIsland.jpg",
         "label": "[SALE] Explore Xiao Liuqiu: Taiwan's Coral Island Adventure - Ticket KD"
       },
       {
-        "url": "https://www.foreignersintaiwan.com/uploads/5/4/3/2/54326073/118836685-317875762983259-469436225033354169-n_orig.jpg",
-        "label": "Xiaoliuqiu Island 小琉球 - Foreigners in Taiwan - 外國人在臺灣"
+        "url": "https://www.alexisjetsets.com/wp-content/uploads/2018/12/xiaoliuqiu-kaohsiung-alexisjetsets-e1545579636945.jpg",
+        "label": "Xiao Liu Qiu Island – A Hidden Gem Near Kaohsiung, Taiwan - Alexis ..."
       },
       {
-        "url": "https://e5rxtr4t5ah.exactdn.com/wp-content/uploads/2022/09/xiaoliuqiu-island-header.jpg",
-        "label": "A 2024 Guide to Xiaoliuqiu Island, a Turtle Spotting Hot Spot ..."
+        "url": "https://taiwaneverything.cc/wp-content/uploads/2021/06/61.jpg",
+        "label": "Xiao Liuqiu 2021 - Taiwan Travel - Forumosa"
+      },
+      {
+        "url": "https://neotaiwantravel.info/wp-content/uploads/2024/08/Insel-Xiao-Liuqiu.jpg",
+        "label": "Insel Xiao Liuqiu. Ein kleines Inselparadies vor der Südwestküste"
+      },
+      {
+        "url": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/bea66126-Xiao-Liuqiu-Coral-Island/XiaoLiuqiuCoralIsland.jpg",
+        "label": "[SALE] Explore Xiao Liuqiu: Taiwan's Coral Island Adventure - Ticket KD"
+      },
+      {
+        "url": "https://livingnomads.com/wp-content/uploads/2023/08/19/Xiaoliuqiu-vase-rock0.webp",
+        "label": "Xiaoliuqiu island travel blog — The fullest Xiaoliuqiu guide (Lambai ..."
       }
     ]
   },
-  "chat_hash": "8c7c78cc9ee46e80cb3e5cdac584b774096a6fa29359b8475c7e00463041a3b4",
+  "chat_hash": "6e6e106f8adff54e3363f1d326b9483fec6fd5da3c3deef6afca2579c300a8c6",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-05-31T10:20:43.579089"
+  "generated_at": "2026-05-31T10:25:42.046811"
 }
