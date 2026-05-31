@@ -59,7 +59,7 @@
       html += '<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">' +
         '<td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.78rem;">' + date + '</td>' +
         '<td style="padding:6px 10px;"><a href="' + url + '" target="_blank" style="color:var(--gold);text-decoration:none;">' + dest + ' - ' + label + '</a></td>' +
-        '<td style="padding:6px 10px;"><button onclick="deleteSaved(\'' + safeFile + '\')" style="background:none;border:1px solid rgba(255,255,255,0.2);color:var(--warm-gray);cursor:pointer;font-size:0.7rem;padding:2px 8px;border-radius:4px;">x</button></td>' +
+        '<td style="padding:6px 10px;"><button onclick="deleteSaved(this, \'' + safeFile + '\')" style="background:none;border:1px solid rgba(255,255,255,0.2);color:var(--warm-gray);cursor:pointer;font-size:0.7rem;padding:2px 8px;border-radius:4px;">x</button></td>' +
       '</tr>';
     }
     html += '</table>';
@@ -106,9 +106,8 @@
   });
 })();
 
-async function deleteSaved(filename) {
+async function deleteSaved(btn, filename) {
   if(!confirm('Delete this saved plan?')) return;
-  const btn = event.target;
   btn.textContent = '...';
   btn.disabled = true;
   const token = localStorage.getItem('github_chat_token');
@@ -131,16 +130,13 @@ async function deleteSaved(filename) {
     });
     if(r2.ok) {
       const raw = await r2.json();
-      const bytes = Uint8Array.from(atob(raw.content), function(c) { return c.charCodeAt(0); });
-      const index = JSON.parse(new TextDecoder().decode(bytes));
+      const index = JSON.parse(b64Decode(raw.content));
       const updated = index.filter(function(e) { return e.file !== filename; });
       const json = JSON.stringify(updated, null, 2);
-      const enc = new TextEncoder().encode(json);
-      const bin = Array.from(enc, function(b) { return String.fromCharCode(b); }).join('');
       await fetch('https://api.github.com/repos/mengtahsu/travel-planner/contents/data/saved/index.json', {
         method: 'PUT',
         headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
-        body: JSON.stringify({message: 'Remove from index', content: btoa(bin), sha: raw.sha, branch: 'main'})
+        body: JSON.stringify({message: 'Remove from index', content: b64Encode(json), sha: raw.sha, branch: 'main'})
       });
     }
     // 3. Remove row from DOM immediately (don't wait for Pages deploy)
@@ -157,7 +153,6 @@ async function deleteSaved(filename) {
   }
 }
 
-loadLogs();
 </script>
 </body>
 </html>
