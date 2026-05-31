@@ -1,0 +1,43 @@
+name: Regenerate Plan
+
+on:
+  push:
+    paths:
+      - 'data/chat/**'
+      - 'config/settings.json'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install duckduckgo_search
+
+      - name: Run generator
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: python generator.py
+
+      - name: Push changes
+        run: |
+          git config user.name "Travel Planner Generator"
+          git config user.email "generator@travel-planner.local"
+          git add -A
+          git diff --staged --quiet || (
+            git commit -m "chore: regenerate plan [ci skip]" &&
+            git push
+          )
