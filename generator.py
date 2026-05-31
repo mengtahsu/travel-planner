@@ -82,7 +82,7 @@ def _get_github_token() -> str:
     token_file = ROOT / "github_token.txt"
     if token_file.exists():
         return token_file.read_text(encoding="utf-8").strip()
-    return ""
+    return os.environ.get("GITHUB_TOKEN", "")
 
 
 def _github_api_get(path: str) -> str | None:
