@@ -129,14 +129,13 @@ async function loadSettings() {
         });
         if(resp.ok) {
           const raw = await resp.json();
-          const bytes = Uint8Array.from(atob(raw.content), function(c) { return c.charCodeAt(0); });
-          const data = JSON.parse(new TextDecoder().decode(bytes));
+          const data = JSON.parse(b64Decode(raw.content));
           setFormValues(data);
           localStorage.setItem('travel_settings', JSON.stringify(data));
           loaded = true;
         }
       } catch(e) {
-        console.error('Failed to sync from GitHub API:', e);
+        // Sync unavailable — using localStorage settings
       }
     }
   }
@@ -163,12 +162,6 @@ async function loadSettings() {
     document.getElementById('destination').value = data.destination || '';
     document.getElementById('departure').value = data.departure || 'Taiwan 台灣 (TPE)';
   }
-}
-
-function toBase64(str) {
-  const bytes = new TextEncoder().encode(str);
-  const binStr = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
-  return btoa(binStr);
 }
 
 let autoSaveTimer = null;
@@ -204,9 +197,7 @@ function autoSave() {
     try {
       delete settings.chat_token;
       const json = JSON.stringify(settings, null, 2);
-      const bytes = new TextEncoder().encode(json);
-      const bin = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
-      const content = btoa(bin);
+      const content = b64Encode(json);
 
       let sha = '';
       try {

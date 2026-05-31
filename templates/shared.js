@@ -1,5 +1,18 @@
 // Shared JS for all Travel Planner pages
-// Lightbox, broken image handler
+// Lightbox, broken image handler, base64 utilities
+
+/** Encode string as base64 (UTF-8 safe). */
+function b64Encode(str) {
+  var bytes = new TextEncoder().encode(str);
+  var binStr = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
+  return btoa(binStr);
+}
+
+/** Decode base64 to string (UTF-8 safe). */
+function b64Decode(b64) {
+  var bytes = Uint8Array.from(atob(b64), function(c) { return c.charCodeAt(0); });
+  return new TextDecoder().decode(bytes);
+}
 
 // Hide broken images globally
 document.addEventListener('error', function(e){
@@ -45,8 +58,10 @@ document.addEventListener('error', function(e){
 
   function collectImages() {
     images = [];
-    var all = document.querySelectorAll('.slider-track img, .food-img, .food-thumbs img, .hero-placeholder, .dining-card img, .lightbox-clickable');
+    var all = document.querySelectorAll('.slider-track img, .food-imgs img, .hero-placeholder, .dining-card img, .lightbox-clickable');
     all.forEach(function(img, i){
+      // Skip images inside Google Images links — let the browser follow the link
+      if(img.closest('a[href*="google.com/search?tbm=isch"]')) return;
       if(img.naturalWidth > 0 || img.complete) {
         images.push(img);
         img.style.cursor = 'pointer';

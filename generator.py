@@ -1,16 +1,33 @@
 #!/usr/bin/env python3
-"""Travel Planner Generator — scheduled runs, generates index.html from AI + Unsplash."""
+"""Travel Planner Generator — scheduled runs, generates index.html from AI + Google Images."""
 
+import base64
 import json
 import hashlib
 import os
+import re
 import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from typing import Any
 
 import requests
 from openai import OpenAI
 from jinja2 import Environment, FileSystemLoader
+
+# Fix console encoding to avoid cp1252 crashes with Chinese output
+try:
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+except (OSError, AttributeError):
+    pass
+
+def safe_print(*args, **kwargs):
+    """Print that never crashes on encoding errors."""
+    try:
+        print(*args, **kwargs)
+    except UnicodeEncodeError:
+        print(*(str(a).encode('ascii', errors='replace').decode() for a in args), **kwargs)
 
 ROOT = Path(__file__).parent
 CONFIG_PATH = ROOT / "config" / "settings.json"
@@ -19,7 +36,7 @@ PLANS_DIR = ROOT / "data" / "plans"
 TEMPLATES_DIR = ROOT / "templates"
 OUTPUT_HTML = ROOT / "index.html"
 
-def _load_key(filename, env_name):
+def _load_key(filename: str, env_name: str) -> str:
     """Load API key from file, then env var, in that order."""
     key_file = ROOT / filename
     if key_file.exists():
@@ -27,19 +44,15 @@ def _load_key(filename, env_name):
     return os.environ.get(env_name, "")
 
 DEEPSEEK_API_KEY = _load_key("deep_seek_api_key.txt", "DEEPSEEK_API_KEY")
-UNSPLASH_ACCESS_KEY = _load_key("unsplash_access_key.txt", "UNSPLASH_ACCESS_KEY")
 
 
 # ═══════════════════════════════════════════════════════════════
 # Task 5: Config, chat reading, hash checking
 # ═══════════════════════════════════════════════════════════════
 
-def load_config():
+def load_config() -> dict[str, Any]:
     """Load settings from GitHub API first (so web changes take effect), fall back to local file."""
-    token_file = ROOT / "github_token.txt"
-    token = ""
-    if token_file.exists():
-        token = token_file.read_text(encoding="utf-8").strip()
+    token = _get_github_token()
 
     if token:
         try:
@@ -49,10 +62,11 @@ def load_config():
                 timeout=10
             )
             if resp.status_code == 200:
-                import base64
                 content = resp.json().get("content", "")
                 return json.loads(base64.b64decode(content).decode("utf-8"))
-        except Exception as e:
+            else:
+                print(f"        GitHub GET config/settings.json: HTTP {resp.status_code}")
+        except (requests.RequestException, KeyError, json.JSONDecodeError, ValueError) as e:
             print(f"Failed to fetch config from GitHub: {e}")
 
     # Fall back to local file
@@ -60,21 +74,22 @@ def load_config():
         return json.load(f)
 
 
-def get_today_key():
+def get_today_key() -> str:
     return date.today().isoformat()
 
 
-def _get_github_token():
+def _get_github_token() -> str:
     token_file = ROOT / "github_token.txt"
     if token_file.exists():
         return token_file.read_text(encoding="utf-8").strip()
     return ""
 
 
-def _github_api_get(path):
+def _github_api_get(path: str) -> str | None:
     """Fetch file content (UTF-8 text) from GitHub API. Returns None on failure."""
     token = _get_github_token()
     if not token:
+        print(f"        GitHub GET {path}: no token")
         return None
     try:
         resp = requests.get(
@@ -83,35 +98,56 @@ def _github_api_get(path):
             timeout=10
         )
         if resp.status_code == 200:
-            import base64
             return base64.b64decode(resp.json()["content"]).decode("utf-8")
-    except Exception as e:
-        print(f"GitHub API GET {path} failed: {e}")
+        else:
+            print(f"        GitHub GET {path}: HTTP {resp.status_code}")
+    except (requests.RequestException, KeyError, json.JSONDecodeError, ValueError) as e:
+        print(f"        GitHub GET {path} failed: {e}")
     return None
 
 
-def get_chat_text(today_key):
-    # Try GitHub API first (reflects web saves)
+def get_chat_text(today_key: str) -> str:
+    """Get chat text for today, falling back to most recent non-empty chat file."""
+    # Try GitHub API first (reflects web saves) for today
     content = _github_api_get(f"data/chat/{today_key}.txt")
     if content is not None:
-        return content.strip()
+        text = content.strip()
+        if text:
+            return text
 
-    # Fall back to local file
+    # Fall back to local file for today
     chat_file = CHAT_DIR / f"{today_key}.txt"
     if chat_file.exists():
-        return chat_file.read_text(encoding="utf-8").strip()
+        text = chat_file.read_text(encoding="utf-8").strip()
+        if text:
+            return text
+
+    # If today has no chat, check recent days (midnight gap fix)
+    for days_back in range(1, 8):
+        day = (date.fromisoformat(today_key) - timedelta(days=days_back)).isoformat()
+        content = _github_api_get(f"data/chat/{day}.txt")
+        if content is not None:
+            text = content.strip()
+            if text:
+                return text
+        chat_file = CHAT_DIR / f"{day}.txt"
+        if chat_file.exists():
+            text = chat_file.read_text(encoding="utf-8").strip()
+            if text:
+                return text
+
     return ""
 
 
-def get_chat_hash(text):
+def get_chat_hash(text: str) -> str:
     return hashlib.sha256(text.encode()).hexdigest() if text else ""
 
 
-def get_config_hash(config):
+def get_config_hash(config: dict[str, Any]) -> str:
     return hashlib.sha256(json.dumps(config, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
 
 
-def get_last_hashes(today_key):
+def get_last_hashes(today_key: str) -> tuple[str, str]:
     plan_file = PLANS_DIR / f"{today_key}.json"
     if plan_file.exists():
         plan = json.loads(plan_file.read_text(encoding="utf-8"))
@@ -119,7 +155,7 @@ def get_last_hashes(today_key):
     return "", ""
 
 
-def save_plan_json(today_key, plan_data, chat_hash, config_hash):
+def save_plan_json(today_key: str, plan_data: dict[str, Any], chat_hash: str, config_hash: str) -> None:
     plan_data["chat_hash"] = chat_hash
     plan_data["config_hash"] = config_hash
     plan_data["generated_at"] = datetime.now().isoformat()
@@ -127,7 +163,7 @@ def save_plan_json(today_key, plan_data, chat_hash, config_hash):
     plan_file.write_text(json.dumps(plan_data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def has_changes():
+def has_changes() -> tuple[bool, str, str, str]:
     """Check if chat text or settings have changed since last generation."""
     today = get_today_key()
     chat_text = get_chat_text(today)
@@ -146,7 +182,7 @@ def has_changes():
 # Task 6: AI plan generation with Claude
 # ═══════════════════════════════════════════════════════════════
 
-def get_exchange_rates():
+def get_exchange_rates() -> dict[str, float]:
     """Fetch current NTD exchange rates from frankfurter.app (free, no key)."""
     try:
         resp = requests.get("https://api.frankfurter.app/latest?from=TWD", timeout=5)
@@ -158,13 +194,13 @@ def get_exchange_rates():
                 "USD": round(1 / rates.get("USD", 0.033), 2),  # TWD→USD
                 "KRW": round(1 / rates.get("KRW", 0.044), 2),  # TWD→KRW
             }
-    except Exception as e:
+    except requests.RequestException as e:
         print(f"Exchange rate API failed: {e}")
     # Fallback rates
     return {"JPY": 4.5, "EUR": 35.0, "USD": 30.0, "KRW": 0.035}
 
 
-def build_prompt(config, chat_text, rates):
+def build_prompt(config: dict[str, Any], chat_text: str, rates: dict[str, float]) -> str:
     destination = config.get("destination", "") or "any destination you think is perfect"
     return f"""You are a luxury travel planner. Generate a detailed romantic travel itinerary.
 
@@ -276,16 +312,22 @@ All text in both English AND Chinese (Traditional: 繁體中文).
     {{
       "day": 1,
       "date": "May 15 · Thu",
-      "label_zh": "抵達日",
+      "label_zh": "抵達 · 巴黎初印象",
+      "day_query": "Eiffel Tower Paris landmark",
       "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
       "hotel_name_zh": "水仙花白酒店 · 經典雙人房",
       "hotel_room": "經典雙人房",
       "weather": "⛅ 18°/10°",
       "rain_pct": "10%",
       "slots": [
-        {{"time": "07:30", "desc": "✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李"}},
-        {{"time": "10:30", "desc": "🥐 Café de Flore 早午餐 · 花神經典歐蕾 + 可頌"}},
-        {{"time": "14:00", "desc": "🎨 羅浮宮 Musée du Louvre（預約票 €17/人）"}}
+        {{"time": "07:30", "desc": "✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李（預計 30–45 分鐘）"}},
+        {{"time": "09:00", "desc": "🚕 搭乘計程車前往酒店（約 45 分鐘 · €55）· 沿途欣賞巴黎市郊風光"}},
+        {{"time": "10:00", "desc": "🏨 抵達 Hôtel Le Narcisse Blanc · 辦理入住 · 稍作休息"}},
+        {{"time": "11:30", "desc": "🥐 Café de Flore 早午餐 · 花神經典歐蕾 + 可頌 + 法式洋蔥湯"}},
+        {{"time": "14:00", "desc": "🎨 羅浮宮 Musée du Louvre（預約票 €17/人）· 必看：蒙娜麗莎、勝利女神"}},
+        {{"time": "17:30", "desc": "🚶 杜樂麗花園散步 · 協和廣場 · 欣賞夕陽下的方尖碑"}},
+        {{"time": "19:30", "desc": "🍽️ Le Cinq 米其林三星晚餐 · 預約 19:30 · 品嚐主廚招牌龍蝦濃湯"}},
+        {{"time": "22:00", "desc": "🌙 返回酒店 · 途經亞歷山大三世橋欣賞夜間燈光"}}
       ]
     }}
   ],
@@ -304,7 +346,8 @@ All text in both English AND Chinese (Traditional: 繁體中文).
 IMPORTANT:
 - Respond with ONLY the JSON object, no other text, no markdown fences.
 - Generate REALISTIC flights, hotels, restaurants for the destination.
-- Day-by-day time slots should be detailed (8-10 per day) with practical tips.
+- Day-by-day time slots MUST be detailed (8-10 per day) with practical tips, transport info, costs.
+- Each day MUST include "day_query": a short English search phrase for the most important place/landmark visited that day (e.g. "Eiffel Tower Paris", "Sensoji Temple Asakusa", "Keukenhof tulip gardens"). This is used to fetch a photo for the day card.
 - If chat requests multiple hotels, split days between them and show hotel name in each day's slots.
 - Hotel names MUST appear at the bottom of each day's schedule (hotel_name + hotel_room fields).
 - Include hotel switching logistics (退房/入住) in the day where hotels change.
@@ -319,7 +362,7 @@ IMPORTANT:
 """
 
 
-def call_ai(prompt):
+def call_ai(prompt: str) -> dict[str, Any]:
     if not DEEPSEEK_API_KEY:
         raise RuntimeError("DEEPSEEK_API_KEY not set in environment")
     client = OpenAI(
@@ -340,63 +383,125 @@ def call_ai(prompt):
     return json.loads(text[start:end])
 
 
+REQUIRED_PLAN_FIELDS = [
+    "destination_en", "title_zh", "date_range", "start_date", "end_date",
+    "departure", "departure_code", "destination_code", "travelers", "days",
+    "budget_ntd", "flight", "hotels", "restaurants", "itinerary",
+    "costs", "cost_total_ntd", "budget_remaining_ntd",
+]
+
+
+def validate_plan(plan: dict[str, Any]) -> dict[str, Any]:
+    """Validate AI-generated plan has required fields. Raises ValueError on failure."""
+    missing = [f for f in REQUIRED_PLAN_FIELDS if f not in plan]
+    if missing:
+        raise ValueError(f"AI response missing required fields: {missing}")
+    if not isinstance(plan.get("itinerary"), list) or len(plan["itinerary"]) == 0:
+        raise ValueError("AI response: itinerary must be a non-empty list")
+    if not isinstance(plan.get("hotels"), list) or len(plan["hotels"]) == 0:
+        raise ValueError("AI response: hotels must be a non-empty list")
+    if not isinstance(plan.get("costs"), list) or len(plan["costs"]) == 0:
+        raise ValueError("AI response: costs must be a non-empty list")
+    cats = plan.get("restaurants", {})
+    for cat in ("fine_dining", "bistros", "cafes"):
+        if cat not in cats or not isinstance(cats[cat], list):
+            raise ValueError(f"AI response: restaurants.{cat} must be a list")
+    if not isinstance(plan.get("flight"), dict) or "airline" not in plan.get("flight", {}):
+        raise ValueError("AI response: flight must be an object with airline field")
+    return plan
+
+
 # ═══════════════════════════════════════════════════════════════
-# Unsplash photo resolution (for atmosphere/visual appeal)
+# DDG image search photo resolution
 # ═══════════════════════════════════════════════════════════════
 
-def search_unsplash(query, count=4):
-    if not UNSPLASH_ACCESS_KEY:
-        return [{"url": "", "label": query}] * max(count, 1)
+def search_ddg_images(query: str, count: int = 4) -> list[dict[str, str]]:
+    """Search images via DDG. Filters watermarks, ads, irrelevant results. Returns list of {url, label} dicts."""
+    # Domains to block: watermarks, stock photo sites, ads, travel booking (ad-heavy)
+    _BAD_PATTERNS = [
+        "alamy.com", "shutterstock", "gettyimages", "istockphoto", "dreamstime",
+        "123rf.com", "depositphotos", "adobe.stock", "stock.adobe",
+        "vecteezy", "freepik", "watermark", "logo", "icon", "vector",
+        "pinterest", "pinimg.com",
+        "booking.com", "agoda", "expedia", "tripadvisor", "hotels.com",
+        "trivago", "kayak", "skyscanner", "orbitz", "priceline",
+        "sponsored", "promoted", "affiliate", "banner", "popup",
+    ]
+    def _is_good_photo(r):
+        url = (r.get("image") or "").lower()
+        for bad in _BAD_PATTERNS:
+            if bad in url:
+                return False
+        # Reject URLs ending in very common ad/tracker suffixes
+        if any(url.endswith(x) for x in [".gif", ".svg"]):
+            return False
+        # Reject extremely short URLs (likely ads/trackers)
+        if len(url) < 60:
+            return False
+        # Basic relevance: at least one significant query word should appear in title+url
+        title = (r.get("title") or "").lower()
+        combined = (title + " " + url).lower()
+        query_words = [w for w in query.lower().split() if len(w) > 2]
+        if query_words and not any(w in combined for w in query_words[:3]):
+            return False
+        return True
+
     try:
-        resp = requests.get(
-            "https://api.unsplash.com/search/photos",
-            params={"query": query, "per_page": count, "orientation": "landscape"},
-            headers={"Authorization": f"Client-ID {UNSPLASH_ACCESS_KEY}"},
-            timeout=10
-        )
-        resp.raise_for_status()
-        results = resp.json().get("results", [])
-        photos = [{"url": r["urls"]["regular"] + "&w=400&h=300&fit=crop", "label": r.get("alt_description", query)} for r in results]
+        from ddgs import DDGS
+        results = list(DDGS().images(query, max_results=max(count * 4, 20)))
+        photos = []
+        seen = set()
+        for r in results:
+            url = r.get("image", "")
+            if not url or url in seen:
+                continue
+            seen.add(url)
+            if _is_good_photo(r):
+                photos.append({"url": url, "label": r.get("title", query)})
+                if len(photos) >= count:
+                    break
         if not photos:
             return [{"url": "", "label": query}] * max(count, 1)
-        if len(photos) < count * 2:
-            photos = photos + photos
         return photos
-    except Exception as e:
-        print(f"        Unsplash: {e}")
+    except ImportError as e:
+        print(f"        DDG Images: {e}")
         return [{"url": "", "label": query}] * max(count, 1)
 
 
-def resolve_all_photos(plan):
+def resolve_all_photos(plan: dict[str, Any]) -> dict[str, Any]:
     dest = plan.get("destination_en", "travel")
     city = dest.split(",")[0].strip()
 
     plan["photos"] = {
-        "hero": search_unsplash(f"{city} skyline landmark", 2),
-        "destination": search_unsplash(f"{city} travel scenery", 6),
+        "hero": search_ddg_images(f"{city} skyline landmark", 2),
+        "destination": search_ddg_images(f"{city} travel scenery", 6),
     }
 
     for hotel in plan.get("hotels", []):
         name = hotel.get("name", "")
         q = hotel.get("search_query", f"{name} {city}")
-        photos = search_unsplash(q, 6)
-        # Fallback: if no results, try broader hotel search
+        photos = search_ddg_images(q, 6)
         if not photos or not photos[0]["url"]:
-            photos = search_unsplash(f"luxury hotel {city}", 6)
+            photos = search_ddg_images(f"luxury hotel {city}", 6)
         hotel["photos"] = photos
 
     for category in ["fine_dining", "bistros", "cafes"]:
         for r in plan.get("restaurants", {}).get(category, []):
             name = r.get("name", "")
             q = r.get("search_query", f"{name} {city}")
-            photos = search_unsplash(q, 3)
-            # Fallback: if no results, try broader food/category search
+            photos = search_ddg_images(q, 3)
             if not photos or not photos[0]["url"]:
                 if category == "cafes":
-                    photos = search_unsplash(f"cafe coffee {city}", 3)
+                    photos = search_ddg_images(f"cafe coffee {city}", 3)
                 else:
-                    photos = search_unsplash(f"{category.replace('_',' ')} food {city}", 3)
+                    photos = search_ddg_images(f"{category.replace('_',' ')} food {city}", 3)
             r["photos"] = photos
+
+    # Day-by-day photos (one per day of the most important place)
+    for day in plan.get("itinerary", []):
+        q = day.get("day_query", f"{city} travel")
+        day_photos = search_ddg_images(q, 1)
+        day["day_photo"] = day_photos[0]["url"] if day_photos and day_photos[0]["url"] else ""
 
     return plan
 
@@ -405,8 +510,8 @@ def resolve_all_photos(plan):
 # HTML rendering + URL building
 # ═══════════════════════════════════════════════════════════════
 
-def render_html(plan):
-    env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)))
+def render_html(plan: dict[str, Any]) -> None:
+    env = Environment(loader=FileSystemLoader(str(TEMPLATES_DIR)), autoescape=True)
     env.filters["format_number"] = lambda x: f"{x:,}"
 
     # Google Flights URL
@@ -428,21 +533,80 @@ def render_html(plan):
     )
 
     template = env.get_template("plan_template.html")
-    html = template.render(plan=plan)
+    build_tag = datetime.now().strftime("%y%m%d.%H%M%S")
+    html = template.render(plan=plan, build_tag=build_tag)
     OUTPUT_HTML.write_text(html, encoding="utf-8")
-    print(f"Rendered {OUTPUT_HTML}")
+    print(f"Rendered {OUTPUT_HTML}  build {build_tag}")
 
 
 # ═══════════════════════════════════════════════════════════════
 # Task 12: Git commit and push
 # ═══════════════════════════════════════════════════════════════
 
-def push_via_api(today_key):
+def _sync_saved_files(token: str | None = None, owner: str | None = None, repo: str | None = None, headers: dict[str, str] | None = None) -> None:
+    """Sync local saved files with GitHub: delete orphans, sync deletions.
+
+    When called without arguments, reads token from file and constructs headers.
+    Otherwise accepts pre-built values (for use after push_via_api).
+    """
+    if token is None:
+        token = _get_github_token()
+    if not token:
+        return
+    if owner is None:
+        owner = "mengtahsu"
+    if repo is None:
+        repo = "travel-planner"
+    if headers is None:
+        headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+
+    # Fetch GitHub index
+    github_files = set()
+    try:
+        r = requests.get(
+            f"https://api.github.com/repos/{owner}/{repo}/contents/data/saved/index.json",
+            headers=headers, timeout=10
+        )
+        if r.status_code == 200:
+            gh_idx = json.loads(base64.b64decode(r.json()["content"]).decode("utf-8"))
+            github_files = {e["file"] for e in gh_idx}
+    except requests.RequestException as e:
+        safe_print(f"        Sync: GitHub fetch failed: {e}")
+        return
+
+    local_idx = SAVED_DIR / "index.json"
+    if not local_idx.exists():
+        return
+    try:
+        local_index = json.loads(local_idx.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as e:
+        safe_print(f"        Sync: local index read failed: {e}")
+        return
+
+    local_files = {e["file"] for e in local_index}
+
+    # Delete local files that were deleted from GitHub
+    deleted = local_files - github_files
+    for filename in deleted:
+        f = SAVED_DIR / filename
+        if f.exists():
+            f.unlink()
+            safe_print(f"        Synced deletion: removed {filename}")
+
+    # Clean up orphan HTML files not in local index
+    for f in SAVED_DIR.glob("*.html"):
+        if f.name not in local_files:
+            f.unlink()
+            safe_print(f"        Cleaned orphan: {f.name}")
+
+    # Update local index to match GitHub (remove deleted entries)
+    if deleted:
+        updated = [e for e in local_index if e["file"] not in deleted]
+        local_idx.write_text(json.dumps(updated, ensure_ascii=False, indent=2), encoding="utf-8")
+
+def push_via_api(today_key: str) -> None:
     """Push files via GitHub REST API (works with fine-grained tokens)."""
-    token_file = ROOT / "github_token.txt"
-    token = ""
-    if token_file.exists():
-        token = token_file.read_text(encoding="utf-8").strip()
+    token = _get_github_token()
 
     if not token:
         print("Warning: No GitHub token found, skipping push")
@@ -451,6 +615,7 @@ def push_via_api(today_key):
     files_to_push = {
         "index.html": OUTPUT_HTML,
         f"data/plans/{today_key}.json": PLANS_DIR / f"{today_key}.json",
+        ".nojekyll": ROOT / ".nojekyll",
     }
 
     # Also push all HTML files (chat, settings, log) if they've changed
@@ -461,20 +626,33 @@ def push_via_api(today_key):
     if RUNS_LOG.exists():
         files_to_push["data/runs.json"] = RUNS_LOG
 
-    # Push saved plans (HTML files + index.json)
-    if SAVED_DIR.exists():
-        for f in SAVED_DIR.glob("*.html"):
-            files_to_push[f"data/saved/{f.name}"] = f
-        idx = SAVED_DIR / "index.json"
-        if idx.exists():
-            files_to_push["data/saved/index.json"] = idx
-
+    # Push saved plans — only new files (avoid pushing 100+ duplicates)
     owner = "mengtahsu"
     repo = "travel-planner"
     headers = {
         "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github+json"
     }
+    if SAVED_DIR.exists():
+        github_files = set()
+        try:
+            r = requests.get(
+                f"https://api.github.com/repos/{owner}/{repo}/contents/data/saved/index.json",
+                headers=headers, timeout=10
+            )
+            if r.status_code == 200:
+                gh_idx = json.loads(base64.b64decode(r.json()["content"]).decode("utf-8"))
+                github_files = {e["file"] for e in gh_idx}
+        except (requests.RequestException, KeyError, json.JSONDecodeError, ValueError):
+            pass
+        for f in SAVED_DIR.glob("*.html"):
+            if f.name not in github_files:
+                files_to_push[f"data/saved/{f.name}"] = f
+        idx = SAVED_DIR / "index.json"
+        if idx.exists():
+            files_to_push["data/saved/index.json"] = idx
+
+    # (owner, repo, headers now defined above)
 
     for path, filepath in files_to_push.items():
         if not filepath.exists():
@@ -482,7 +660,7 @@ def push_via_api(today_key):
         content_bytes = filepath.read_bytes()
         body = {
             "message": f"Update {path} for {today_key}",
-            "content": __import__("base64").b64encode(content_bytes).decode(),
+            "content": base64.b64encode(content_bytes).decode(),
             "branch": "main"
         }
 
@@ -493,7 +671,7 @@ def push_via_api(today_key):
             )
             if resp.status_code == 200:
                 body["sha"] = resp.json()["sha"]
-        except Exception:
+        except (requests.RequestException, KeyError):
             pass
 
         resp = requests.put(
@@ -502,10 +680,16 @@ def push_via_api(today_key):
             json=body
         )
         if resp.status_code in (200, 201):
-            print(f"  Pushed {path}")
+            safe_print(f"  Pushed {path}")
+        elif resp.status_code == 409:
+            pass  # SHA conflict — another process already pushed, skip silently
         else:
-            print(f"  Failed {path}: {resp.status_code} {resp.text[:150]}")
+            safe_print(f"  Failed {path}: {resp.status_code}")
     print("Push complete via API.")
+
+    # Sync deletions AFTER push — newly archived files are now on GitHub
+    if SAVED_DIR.exists():
+        _sync_saved_files(token, owner, repo, headers)
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -514,13 +698,13 @@ def push_via_api(today_key):
 
 RUNS_LOG = ROOT / "data" / "runs.json"
 
-def log_run(status, summary="", destination="", chat_chars=0):
+def log_run(status: str, summary: str = "", destination: str = "", chat_chars: int = 0) -> None:
     """Append a run entry to runs.json (keeps last 90 days)."""
     runs = []
     if RUNS_LOG.exists():
         try:
             runs = json.loads(RUNS_LOG.read_text(encoding="utf-8"))
-        except Exception:
+        except (json.JSONDecodeError, OSError):
             runs = []
 
     entry = {
@@ -545,29 +729,29 @@ def log_run(status, summary="", destination="", chat_chars=0):
 
 SAVED_DIR = ROOT / "data" / "saved"
 
-def check_and_archive():
-    """If save_flag is set, archive current index.html to data/saved/ before regenerating."""
+def check_and_archive() -> bool:
+    """If save_flag is set, archive current index.html to data/saved/. Returns True if archived."""
     flag = _github_api_get("data/save_flag.json")
     if not flag:
-        return
+        return False
     try:
         data = json.loads(flag)
         if not data.get("save", False):
-            return
-    except Exception:
-        return
+            return False
+    except (json.JSONDecodeError, ValueError):
+        return False
 
     if not OUTPUT_HTML.exists():
-        return
+        return False
 
     ts = datetime.now().strftime("%Y-%m-%d-%H%M")
-    title = data.get("title", "plan")
-    safe_title = title.replace("/", "-").replace(" ", "-")[:40]
+    # Use English destination for filename — ASCII-safe, shareable URLs
+    dest_name = data.get("dest", "plan")
+    safe_title = re.sub(r'[^a-zA-Z0-9]+', '-', dest_name).strip('-')[:50]
     filename = f"{ts}-{safe_title}.html"
     SAVED_DIR.mkdir(parents=True, exist_ok=True)
 
     html = OUTPUT_HTML.read_text(encoding="utf-8")
-    import re
     # Strip nav bar — links won't work from data/saved/ subdirectory
     html = re.sub(r'<nav>.*?</nav>\s*', '', html, flags=re.DOTALL)
     # Strip save checkbox + its script (already saved, doesn't apply)
@@ -581,11 +765,11 @@ def check_and_archive():
     if index_path.exists():
         try:
             index = json.loads(index_path.read_text(encoding="utf-8"))
-        except Exception:
+        except (json.JSONDecodeError, OSError):
             index = []
     index.insert(0, {
         "file": filename,
-        "title": title,
+        "title": data.get("title", "plan"),
         "dest": data.get("dest", ""),
         "date": data.get("date", ""),
         "saved_at": ts
@@ -610,7 +794,7 @@ def check_and_archive():
                 headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"},
                 json={
                     "message": "Clear save flag after archiving",
-                    "content": __import__("base64").b64encode(
+                    "content": base64.b64encode(
                         json.dumps({"save": False}).encode()
                     ).decode(),
                     "sha": sha or "",
@@ -618,16 +802,17 @@ def check_and_archive():
                 },
                 timeout=10
             )
-        except Exception as e:
+        except (requests.RequestException, KeyError) as e:
             print(f"        Warning: could not clear save flag: {e}")
+    return True
 
 
 # ═══════════════════════════════════════════════════════════════
 # Main flow
 # ═══════════════════════════════════════════════════════════════
 
-def main():
-    def progress(pct, msg):
+def main() -> None:
+    def progress(pct: int, msg: str) -> None:
         filled = pct // 4
         bar = "#" * filled + "-" * (25 - filled)
         print(f"[{bar}] {pct:3d}%  {msg}", flush=True)
@@ -642,9 +827,13 @@ def main():
     today = get_today_key()
     print(f"        Today: {today}  Destination: {config.get('destination') or '(AI pick)'}  Budget: NT${config.get('budget_ntd', 0):,}")
 
+    # Sync saved files before archiving (don't delete newly archived files)
+    progress(8, "Syncing saved files...")
+    _sync_saved_files()
+
     # Check if user flagged this plan to save before overwriting
     progress(10, "Checking save flag...")
-    check_and_archive()
+    archived = check_and_archive()
 
     # Check if chat or settings changed
     progress(12, "Checking for changes...")
@@ -654,6 +843,9 @@ def main():
     if not changed and plan_exists:
         progress(100, "No changes — skipping generation.")
         log_run("skipped", "No changes detected")
+        # Only push if an archive was just created (avoid overwhelming Pages)
+        if archived:
+            push_via_api(today)
         print(f"{'='*60}\n")
         return
 
@@ -672,10 +864,11 @@ def main():
 
     progress(25, "Calling AI (DeepSeek) — this takes ~30–60s...")
     plan = call_ai(prompt)
+    validate_plan(plan)
     progress(65, "AI response received!")
     print(f"        Destination: {plan.get('destination_en')} — {plan.get('title_zh')}")
 
-    # Resolve photos from Unsplash (atmosphere/visual appeal)
+    # Resolve photos from Google Images (atmosphere/visual appeal)
     progress(70, "Fetching atmosphere photos...")
     plan = resolve_all_photos(plan)
     hotel_pics = sum(1 for h in plan.get("hotels", []) for p in h.get("photos", []) if p["url"])
@@ -708,6 +901,6 @@ if __name__ == "__main__":
     # Fix Windows console encoding for emoji/Chinese output
     try:
         sys.stdout.reconfigure(encoding='utf-8')
-    except Exception:
+    except (OSError, AttributeError):
         pass
     main()

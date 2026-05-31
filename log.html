@@ -25,69 +25,93 @@
 
 <script src="templates/shared.js"></script>
 <script>
-async function loadLogs() {
-  const container = document.getElementById('log-entries');
-  let html = '';
+(function(){
+  var container = document.getElementById('log-entries');
+  if(!container) return;
+  container.innerHTML = '<p style="color:var(--gold);">Loading...</p>';
 
-  // ═══ Section 1: Saved Plans ═══
-  try {
-    const resp = await fetch('data/saved/index.json');
-    if(resp.ok) {
-      const index = await resp.json();
-      if(Array.isArray(index) && index.length > 0) {
-        html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📁 Saved Plans</h3>';
-        html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;margin-bottom:1.5rem;">';
-        for(const entry of index) {
-          const url = 'data/saved/' + entry.file;
-          const dest = entry.dest || '';
-          const label = entry.title || entry.file.replace('.html','');
-          const date = entry.date || '';
-          html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.78rem;">${date}</td>
-            <td style="padding:6px 10px;"><a href="${url}" target="_blank" style="color:var(--gold);text-decoration:none;">${dest} — ${label}</a></td>
-            <td style="padding:6px 10px;"><button onclick="deleteSaved('${entry.file}')" style="background:none;border:1px solid rgba(255,255,255,0.2);color:var(--warm-gray);cursor:pointer;font-size:0.7rem;padding:2px 8px;border-radius:4px;">✕</button></td>
-          </tr>`;
-        }
-        html += '</table>';
-      }
-    }
-  } catch(e) {}
+  var html = '';
 
-  // ═══ Section 2: Run History ═══
-  try {
-    const resp = await fetch('data/runs.json');
-    if(resp.ok) {
-      const runs = await resp.json();
-      if(runs.length > 0) {
-        html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">📋 Run History</h3>';
-        html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;">';
-        html += '<tr style="color:var(--warm-gray);border-bottom:1px solid rgba(255,255,255,0.1);"><th style="text-align:left;padding:6px 10px;">Time</th><th style="text-align:left;padding:6px 10px;">Plan</th><th style="text-align:left;padding:6px 10px;">Chat</th></tr>';
-        for(const r of runs.slice(0, 100)) {
-          const icon = r.status === 'skipped' ? '⏭️' : '✨';
-          const desc = r.status === 'skipped' ? 'No changes — skipped' : (r.summary || r.destination || 'Generated');
-          const chat = r.chat_chars > 0 ? r.chat_chars + ' chars' : '-';
-          html += `<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">
-            <td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.8rem;">${r.ts}</td>
-            <td style="padding:6px 10px;">${icon} ${desc}</td>
-            <td style="padding:6px 10px;font-size:0.75rem;">${chat}</td>
-          </tr>`;
-        }
-        html += '</table>';
-      }
-    }
-  } catch(e) {}
-
-  if(!html) {
-    html = '<p style="color:var(--warm-gray);font-family:\'Noto Serif TC\',serif;">No records yet. Waiting for first run...</p>';
+  function esc(str) {
+    return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
   }
 
-  container.innerHTML = html;
-}
+  function buildSavedPlans(index) {
+    if(!Array.isArray(index) || index.length === 0) {
+      html += '<p style="color:var(--warm-gray);">No saved plans yet.</p>';
+      return;
+    }
+    var deleted = JSON.parse(localStorage.getItem('deleted_saved') || '[]');
+    var filtered = index.filter(function(e) { return deleted.indexOf(e.file) === -1; });
+    if(filtered.length === 0) {
+      html += '<p style="color:var(--warm-gray);">No saved plans (all deleted).</p>';
+      return;
+    }
+    html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">Saved Plans</h3>';
+    html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;margin-bottom:1.5rem;">';
+    for(var i = 0; i < filtered.length; i++) {
+      var entry = filtered[i];
+      var url = 'data/saved/' + entry.file;
+      var dest = esc(entry.dest || '');
+      var label = esc(entry.title || entry.file.replace('.html',''));
+      var date = esc(entry.date || '');
+      var safeFile = esc(entry.file);
+      html += '<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">' +
+        '<td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.78rem;">' + date + '</td>' +
+        '<td style="padding:6px 10px;"><a href="' + url + '" target="_blank" style="color:var(--gold);text-decoration:none;">' + dest + ' - ' + label + '</a></td>' +
+        '<td style="padding:6px 10px;"><button onclick="deleteSaved(this, \'' + safeFile + '\')" style="background:none;border:1px solid rgba(255,255,255,0.2);color:var(--warm-gray);cursor:pointer;font-size:0.7rem;padding:2px 8px;border-radius:4px;">x</button></td>' +
+      '</tr>';
+    }
+    html += '</table>';
+  }
 
-async function deleteSaved(filename) {
+  function buildRunHistory(runs) {
+    if(!Array.isArray(runs) || runs.length === 0) {
+      html += '<p style="color:var(--warm-gray);">No run history yet.</p>';
+      return;
+    }
+    html += '<h3 style="color:var(--gold);margin-bottom:0.5rem;">Run History</h3>';
+    html += '<table style="width:100%;font-size:0.85rem;border-collapse:collapse;">';
+    html += '<tr style="color:var(--warm-gray);border-bottom:1px solid rgba(255,255,255,0.1);"><th style="text-align:left;padding:6px 10px;">Time</th><th style="text-align:left;padding:6px 10px;">Plan</th><th style="text-align:left;padding:6px 10px;">Chat</th></tr>';
+    var limit = Math.min(runs.length, 100);
+    for(var i = 0; i < limit; i++) {
+      var r = runs[i];
+      var icon = r.status === 'skipped' ? '-' : '+';
+      var desc = r.status === 'skipped' ? 'No changes - skipped' : (r.summary || r.destination || 'Generated');
+      var chat = r.chat_chars > 0 ? r.chat_chars + ' chars' : '-';
+      html += '<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">' +
+        '<td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.8rem;">' + esc(r.ts) + '</td>' +
+        '<td style="padding:6px 10px;">' + esc(icon + ' ' + desc) + '</td>' +
+        '<td style="padding:6px 10px;font-size:0.75rem;">' + esc(chat) + '</td>' +
+      '</tr>';
+    }
+    html += '</table>';
+  }
+
+  fetch('https://raw.githubusercontent.com/mengtahsu/travel-planner/main/data/saved/index.json').then(function(resp) {
+    if(resp.ok) return resp.json().then(function(data) { buildSavedPlans(data); });
+    html += '<p style="color:#e88;">Saved plans: HTTP ' + resp.status + '</p>';
+  }).catch(function(e) {
+    html += '<p style="color:#e88;">Saved plans error: ' + e.message + '</p>';
+  }).then(function() {
+    return fetch('https://raw.githubusercontent.com/mengtahsu/travel-planner/main/data/runs.json');
+  }).then(function(resp) {
+    if(resp.ok) return resp.json().then(function(data) { buildRunHistory(data); });
+    html += '<p style="color:#e88;">Run history: HTTP ' + resp.status + '</p>';
+  }).catch(function(e) {
+    html += '<p style="color:#e88;">Run history error: ' + e.message + '</p>';
+  }).then(function() {
+    if(!html) html = '<p style="color:var(--warm-gray);">No records yet. Waiting for first run...</p>';
+    container.innerHTML = html;
+  });
+})();
+
+async function deleteSaved(btn, filename) {
   if(!confirm('Delete this saved plan?')) return;
+  btn.textContent = '...';
+  btn.disabled = true;
   const token = localStorage.getItem('github_chat_token');
-  if(!token) return;
+  if(!token) { alert('No token'); return; }
   try {
     // 1. Delete the HTML file
     const r1 = await fetch('https://api.github.com/repos/mengtahsu/travel-planner/contents/data/saved/' + filename, {
@@ -106,25 +130,29 @@ async function deleteSaved(filename) {
     });
     if(r2.ok) {
       const raw = await r2.json();
-      const bytes = Uint8Array.from(atob(raw.content), function(c) { return c.charCodeAt(0); });
-      const index = JSON.parse(new TextDecoder().decode(bytes));
+      const index = JSON.parse(b64Decode(raw.content));
       const updated = index.filter(function(e) { return e.file !== filename; });
       const json = JSON.stringify(updated, null, 2);
-      const enc = new TextEncoder().encode(json);
-      const bin = Array.from(enc, function(b) { return String.fromCharCode(b); }).join('');
       await fetch('https://api.github.com/repos/mengtahsu/travel-planner/contents/data/saved/index.json', {
         method: 'PUT',
         headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
-        body: JSON.stringify({message: 'Remove from index', content: btoa(bin), sha: raw.sha, branch: 'main'})
+        body: JSON.stringify({message: 'Remove from index', content: b64Encode(json), sha: raw.sha, branch: 'main'})
       });
     }
-    location.reload();
+    // 3. Remove row from DOM immediately (don't wait for Pages deploy)
+    var row = btn.closest('tr');
+    if(row) row.remove();
+    // Also record deletion locally so reload won't show stale data
+    var deleted = JSON.parse(localStorage.getItem('deleted_saved') || '[]');
+    deleted.push(filename);
+    localStorage.setItem('deleted_saved', JSON.stringify(deleted));
   } catch(e) {
     alert('Delete failed: ' + e.message);
+    btn.textContent = '✕';
+    btn.disabled = false;
   }
 }
 
-loadLogs();
 </script>
 </body>
 </html>

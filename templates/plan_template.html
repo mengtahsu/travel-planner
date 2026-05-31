@@ -4,6 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>{{ plan.title_zh }} — Travel Planner</title>
+<meta property="og:title" content="{{ plan.title_zh }} — Travel Planner">
+<meta property="og:description" content="{{ plan.destination_en }} · {{ plan.date_range }} · {{ plan.travelers }}人 · NT${{ plan.budget_ntd | format_number }}">
+{% if plan.photos and plan.photos.hero and plan.photos.hero[0].url %}
+<meta property="og:image" content="{{ plan.photos.hero[0].url }}">
+{% endif %}
+<meta property="og:type" content="website">
 <style>
 {% include 'shared.css' %}
 </style>
@@ -19,9 +25,15 @@
 
 <div class="container">
 
-  <!-- Hero -->
-  <div class="hero">
-    <img class="hero-placeholder" src="{{ plan.photos.hero[0].url if plan.photos.hero else '' }}" alt="{{ plan.destination_en }}" onerror="this.style.display='none'">
+  <!-- Destination slider + overlay (merged hero) -->
+  <div class="hero-slider">
+    <div class="slider">
+      <div class="slider-track">
+        {% for photo in plan.photos.destination %}
+        <img src="{{ photo.url }}" alt="{{ photo.label }}">
+        {% endfor %}
+      </div>
+    </div>
     <div class="hero-overlay">
       <h1>{{ plan.destination_en }}</h1>
       <div class="zh-title">{{ plan.title_zh }}</div>
@@ -30,23 +42,8 @@
         <span>👥 {{ plan.travelers }} 人</span>
         <span>💰 NT${{ plan.budget_ntd | format_number }}</span>
       </div>
-      <label class="save-plan-label" id="save-plan-label">
-        <input type="checkbox" id="save-flag" onchange="toggleSave()">
-        💾 Keep this plan (archived before next regeneration)
-      </label>
     </div>
   </div>
-
-  <!-- Destination image slider -->
-  {% if plan.photos.destination %}
-  <div class="slider">
-    <div class="slider-track">
-      {% for photo in plan.photos.destination %}
-      <img src="{{ photo.url }}" alt="{{ photo.label }}">
-      {% endfor %}
-    </div>
-  </div>
-  {% endif %}
 
   <!-- ✈️ FLIGHT -->
   <div class="full-card">
@@ -92,37 +89,38 @@
     </div>
 
     {% for hotel in plan.hotels %}
-    <div style="background:var(--cream);border-radius:10px;padding:1.25rem;margin-bottom:{% if not loop.last %}1.5rem{% else %}1rem{% endif %};border:1px solid rgba(201,168,76,0.1);">
-      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem;">
+    <div class="hotel-card" style="margin-bottom:{% if not loop.last %}1.5rem{% else %}1rem{% endif %};">
+      <!-- Hotel photo gallery — full-width slider on top, matching dining card layout -->
+      {% if hotel.photos %}
+      <a href="https://www.google.com/search?tbm=isch&q={{ (hotel.search_query or hotel.name) | urlencode }}" target="_blank" title="More photos of {{ hotel.name }}">
+      <div class="hotel-slider">
+        <div class="slider-track">
+          {% set shown = [] %}
+          {% for photo in hotel.photos %}
+          {% if photo.url and photo.url not in shown %}
+          {% set _ = shown.append(photo.url) %}
+          <img src="{{ photo.url }}" alt="{{ photo.label }}">
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      </a>
+      {% endif %}
+      <div class="hotel-info" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.5rem;">
         <div>
           <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">{{ hotel.name }}</h3>
           <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">{{ hotel.name_zh }} · {{ hotel.district }}</div>
         </div>
         <div style="text-align:right;">
-          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">📅 DAY {{ hotel.day_range }}</div>
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">{{ 'DAY ' + hotel.day_range if hotel.day_range else '' }}</div>
           <div style="font-size:0.8rem;color:var(--warm-gray);">{{ hotel.nights }} 晚</div>
           <div style="font-size:1.1rem;font-weight:600;">NT$ {{ hotel.price_ntd | format_number }}</div>
         </div>
       </div>
-      <div style="font-size:0.85rem;color:var(--ink);margin-bottom:0.75rem;">
+      <div class="hotel-info" style="font-size:0.85rem;color:var(--ink);">
         {{ hotel.stars }} · {{ hotel.room_type }} · {{ hotel.breakfast }}<br>
         {{ hotel.amenities }}
       </div>
-      <!-- Hotel photo gallery -->
-      {% if hotel.photos %}
-      <div class="slider" style="margin-bottom:0.25rem;">
-        <div class="slider-track">
-          {% for photo in hotel.photos %}
-          <img src="{{ photo.url }}" alt="{{ photo.label }}">
-          {% endfor %}
-        </div>
-      </div>
-      {% endif %}
-      <!-- Exact hotel photo link -->
-      <a href="https://www.google.com/search?tbm=isch&q={{ (hotel.search_query or hotel.name) | urlencode }}" target="_blank"
-         style="display:inline-block;margin-top:0.25rem;padding:4px 10px;border:1px solid var(--gold);color:var(--gold);border-radius:4px;font-size:0.72rem;text-decoration:none;">
-        📷 Exact photos of {{ hotel.name }}
-      </a>
     </div>
     {% endfor %}
   </div>
@@ -148,7 +146,19 @@
         {% for r in plan.restaurants[cat_key] %}
         <div class="dining-card">
           {% if r.photos and r.photos[0].url %}
-          <img class="food-img" src="{{ r.photos[0].url }}" alt="{{ r.name }}" onerror="this.style.display='none'">
+          <a href="https://www.google.com/search?tbm=isch&q={{ (r.search_query or r.name) | urlencode }}" target="_blank" title="More photos of {{ r.name }}">
+          <div class="dining-slider">
+            <div class="slider-track">
+            {% set shown = [] %}
+            {% for p in r.photos[:3] %}
+            {% if p.url and p.url not in shown %}
+            {% set _ = shown.append(p.url) %}
+            <img src="{{ p.url }}" alt="{{ r.name }}" onerror="this.style.display='none'">
+            {% endif %}
+            {% endfor %}
+            </div>
+          </div>
+          </a>
           {% endif %}
           <div class="dining-info">
             <h4>{{ r.name }}</h4>
@@ -159,20 +169,7 @@
               💰 {{ r.price_label }}<br>
               🕐 {{ r.hours }}
             </div>
-            <a href="https://www.google.com/search?tbm=isch&q={{ (r.search_query or r.name) | urlencode }}" target="_blank"
-               style="display:inline-block;margin-top:0.4rem;font-size:0.7rem;color:var(--gold);text-decoration:none;border-bottom:1px dotted var(--gold);">
-              📷 Exact photos of {{ r.name }}
-            </a>
           </div>
-          {% if r.photos and r.photos | length > 1 %}
-          <div class="food-thumbs">
-            {% for p in r.photos[1:3] %}
-            {% if p.url %}
-            <img src="{{ p.url }}" alt="{{ p.label }}" onerror="this.style.display='none'">
-            {% endif %}
-            {% endfor %}
-          </div>
-          {% endif %}
         </div>
         {% endfor %}
       </div>
@@ -212,6 +209,9 @@
         <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 {{ day.hotel_name_zh.split('·')[0].strip() if '·' in day.hotel_name_zh else day.hotel_name_zh.split(' ')[0] }}</div>
       </div>
       <div class="day-schedule">
+        {% if day.day_photo %}
+        <img class="day-photo" src="{{ day.day_photo }}" alt="{{ day.label_zh }}" onerror="this.style.display='none'">
+        {% endif %}
         {% for slot in day.slots %}
         {% if slot.time %}
         <div class="time-slot"><span class="time">{{ slot.time }}</span> {{ slot.desc }}</div>
@@ -257,27 +257,37 @@
 const REPO_S = 'mengtahsu/travel-planner';
 
 async function restoreCheckbox() {
+  const el = document.getElementById('save-flag');
+  if(!el) return;
   const token = localStorage.getItem('github_chat_token');
-  if(!token) return;
+  if(!token) {
+    el.disabled = true;
+    document.getElementById('save-plan-label').title = 'Set GitHub token in Settings page first';
+    return;
+  }
   try {
     const r = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
       headers: {'Authorization': 'Bearer ' + token}
     });
     if(r.ok) {
-      const data = JSON.parse(atob((await r.json()).content));
-      document.getElementById('save-flag').checked = !!data.save;
+      const raw = await r.json();
+      const data = JSON.parse(b64Decode(raw.content));
+      el.checked = !!data.save;
     }
   } catch(e) {}
 }
 
 async function toggleSave() {
   const token = localStorage.getItem('github_chat_token');
-  if(!token) return;
-  const checked = document.getElementById('save-flag').checked;
-  const flag = JSON.stringify({save: checked, date: '{{ plan.date_range }}', title: '{{ plan.title_zh }}', dest: '{{ plan.destination_en }}'});
-  const bytes = new TextEncoder().encode(flag);
-  const bin = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
-  const content = btoa(bin);
+  const cb = document.getElementById('save-flag');
+  if(!token) {
+    alert('Set your GitHub token in Settings page first.');
+    cb.checked = !cb.checked;
+    return;
+  }
+  const checked = cb.checked;
+  const flag = JSON.stringify(Object.assign({save: checked}, {{ {'date': plan.date_range, 'title': plan.title_zh, 'dest': plan.destination_en} | tojson }}));
+  const content = b64Encode(flag);
   let sha = '';
   try {
     const r = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
@@ -285,14 +295,47 @@ async function toggleSave() {
     });
     if(r.ok) sha = (await r.json()).sha || '';
   } catch(e) {}
-  await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
+  const resp = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
     method: 'PUT',
     headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
     body: JSON.stringify({message: checked ? 'Flag plan for save' : 'Unflag plan', content: content, sha: sha || undefined, branch: 'main'})
   });
+  if(!resp.ok) {
+    alert('Save flag failed (HTTP ' + resp.status + '). Check your token permissions in Settings.');
+    cb.checked = !checked;
+  }
 }
 
 restoreCheckbox();
+
+// Auto-slide — pause 4s, then quick slide
+(function(){
+  document.querySelectorAll('.slider-track').forEach(function(track){
+    var imgs = track.querySelectorAll('img');
+    if(imgs.length < 2) return;
+    var idx = 0;
+    function slide(){
+      var imgW = imgs[0].offsetWidth;
+      if(imgW === 0) return;
+      var margin = parseInt(getComputedStyle(imgs[0]).marginRight) || 0;
+      var step = imgW + margin;
+      idx++;
+      if(idx >= imgs.length) idx = 0;
+      track.style.transition = 'transform 0.35s ease-in-out';
+      track.style.transform = 'translateX(-' + (idx * step) + 'px)';
+    }
+    setInterval(slide, 4000);
+  });
+})();
 </script>
+<div style="text-align:center;padding:2rem 0 0.5rem;">
+  <label class="save-plan-label" id="save-plan-label" style="display:inline-flex;align-items:center;gap:0.4rem;font-size:0.85rem;color:var(--warm-gray);cursor:pointer;font-family:'Noto Serif TC',serif;">
+    <input type="checkbox" id="save-flag" onchange="toggleSave()" style="cursor:pointer;">
+    💾 Save this plan (archived before next regeneration)
+  </label>
+</div>
+<div style="text-align:center;padding:0.5rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
+  build {{ build_tag }}
+</div>
 </body>
 </html>

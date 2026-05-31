@@ -7,7 +7,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <title>Chat 聊聊 — Travel Planner</title>
-<link rel="stylesheet" href="templates/shared.css?v=2">
+<link rel="stylesheet" href="templates/shared.css?v=3">
 </head>
 <body>
 <nav>
@@ -27,7 +27,7 @@
       🏆 <strong>優先級</strong>：Chat 永遠優先於 Settings · 你在這裡寫的一切都會覆蓋設定頁的預設值。<br>
       🛡️ <strong>無修改不觸發</strong>：若內容未變，保留原計畫不動，不消耗 AI 額度。
     </div>
-    <textarea id="chat-text" placeholder="跟 AI 說說你想怎麼改這份計畫...
+    <textarea id="chat-text" maxlength="2000" placeholder="跟 AI 說說你想怎麼改這份計畫...
 
 例如：
 - 前 3 天住 Le Narcisse Blanc，後 2 天換到香格里拉
@@ -85,23 +85,16 @@ async function loadChat() {
       });
       if(resp.ok) {
         const raw = await resp.json();
-        const bytes = Uint8Array.from(atob(raw.content), function(c) { return c.charCodeAt(0); });
-        const text = new TextDecoder().decode(bytes);
+        const text = b64Decode(raw.content);
         if(text && text !== saved) {
           document.getElementById('chat-text').value = text;
           localStorage.setItem('chat_draft_' + key, text);
         }
       }
     } catch(e) {
-      console.error('Failed to sync chat from GitHub API:', e);
+      // Sync unavailable — using localStorage draft
     }
   }
-}
-
-function toBase64(str) {
-  const bytes = new TextEncoder().encode(str);
-  const binStr = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
-  return btoa(binStr);
 }
 
 async function saveChat() {
@@ -117,10 +110,7 @@ async function saveChat() {
     return;
   }
 
-  // Diagnostic: show token prefix
-  const tokPrefix = token.substring(0, 10) + '...' + token.substring(token.length - 4);
-
-  const content = toBase64(text);
+  const content = b64Encode(text);
   const url = `https://api.github.com/repos/${REPO}/contents/data/chat/${key}.txt`;
 
   let sha = '';
@@ -132,15 +122,15 @@ async function saveChat() {
       const data = await resp.json(); sha = data.sha || '';
     } else if(resp.status === 401) {
       const body = await resp.text();
-      alert('⚠️ Token 驗證失敗 (GET 401)。\n\n使用中 Token: ' + tokPrefix + '\nServer 回應: ' + body + '\n\n請到 Settings 頁面重新輸入 GitHub Token。\n\n已暫存到瀏覽器，不會遺失。');
+      alert('⚠️ Token 驗證失敗 (401)。\n\n請到 Settings 頁面重新輸入 GitHub Token。\n\n已暫存到瀏覽器，不會遺失。');
       return;
     } else if(resp.status === 403) {
       const body = await resp.text();
-      alert('⚠️ Token 無權限 (GET 403)。\n\n使用中 Token: ' + tokPrefix + '\nServer 回應: ' + body + '\n\n請確認 Token 有 repo 權限且已授權給 mengtahsu/travel-planner。\n\n已暫存到瀏覽器，不會遺失。');
+      alert('⚠️ Token 無權限 (403)。\n\n請確認 Token 有 repo 權限且已授權給 mengtahsu/travel-planner。\n\n已暫存到瀏覽器，不會遺失。');
       return;
     }
   } catch(e) {
-    alert('⚠️ 網路錯誤 (GET): ' + e.message + '\n使用中 Token: ' + tokPrefix + '\n\n已暫存到瀏覽器。');
+    alert('⚠️ 網路錯誤。\n\n已暫存到瀏覽器，不會遺失。');
     return;
   }
 
@@ -163,9 +153,9 @@ async function saveChat() {
     } else {
       const body = await resp.text();
       if(resp.status === 401) {
-        alert('⚠️ Token 驗證失敗 (PUT 401)。\n\n使用中 Token: ' + tokPrefix + '\nServer 回應: ' + body + '\n\n請到 Settings 頁面重新輸入 GitHub Token。\n\n已暫存到瀏覽器，不會遺失。');
+        alert('⚠️ Token 驗證失敗 (401)。\n\n請到 Settings 頁面重新輸入 GitHub Token。\n\n已暫存到瀏覽器，不會遺失。');
       } else if(resp.status === 403) {
-        alert('⚠️ Token 無權限 (PUT 403)。\n\n使用中 Token: ' + tokPrefix + '\nServer 回應: ' + body + '\n\n請確認 Token 有 Contents 寫入權限。\n\n已暫存到瀏覽器，不會遺失。');
+        alert('⚠️ Token 無權限 (403)。\n\n請確認 Token 有 Contents 寫入權限。\n\n已暫存到瀏覽器，不會遺失。');
       } else {
         alert('⚠️ 已暫存到瀏覽器，但 GitHub 寫入失敗 (' + resp.status + ')：' + body);
       }
