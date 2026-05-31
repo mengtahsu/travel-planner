@@ -697,13 +697,6 @@
 </head>
 <body>
 
-<nav>
-  <a href="index.html" class="active">Today 今日</a>
-  <a href="settings.html">Settings 設定</a>
-  <a href="log.html">Log 日誌</a>
-  <a href="chat.html">Chat 聊聊</a>
-</nav>
-
 <div class="container">
 
   <!-- Destination slider + overlay (merged hero) -->
@@ -1255,88 +1248,8 @@ document.addEventListener('error', function(e){
   window.addEventListener('load', function(){ collectImages(); });
 })();
 </script>
-<script>
-// Write flag file on check. Generator archives the plan before overwriting.
-const REPO_S = 'mengtahsu/travel-planner';
-
-async function restoreCheckbox() {
-  const el = document.getElementById('save-flag');
-  if(!el) return;
-  const token = localStorage.getItem('github_chat_token');
-  if(!token) {
-    el.disabled = true;
-    document.getElementById('save-plan-label').title = 'Set GitHub token in Settings page first';
-    return;
-  }
-  try {
-    const r = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
-      headers: {'Authorization': 'Bearer ' + token}
-    });
-    if(r.ok) {
-      const raw = await r.json();
-      const data = JSON.parse(b64Decode(raw.content));
-      el.checked = !!data.save;
-    }
-  } catch(e) {}
-}
-
-async function toggleSave() {
-  const token = localStorage.getItem('github_chat_token');
-  const cb = document.getElementById('save-flag');
-  if(!token) {
-    alert('Set your GitHub token in Settings page first.');
-    cb.checked = !cb.checked;
-    return;
-  }
-  const checked = cb.checked;
-  const flag = JSON.stringify(Object.assign({save: checked}, {"date": "2026/06/01", "dest": "Donggang, Pingtung, Taiwan", "title": "\u516d\u6708\u6771\u6e2f \u00b7 \u9ed1\u9baa\u9b5a\u5962\u83ef\u4e00\u65e5\u904a"}));
-  const content = b64Encode(flag);
-  let sha = '';
-  try {
-    const r = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
-      headers: {'Authorization': 'Bearer ' + token}
-    });
-    if(r.ok) sha = (await r.json()).sha || '';
-  } catch(e) {}
-  const resp = await fetch('https://api.github.com/repos/' + REPO_S + '/contents/data/save_flag.json', {
-    method: 'PUT',
-    headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
-    body: JSON.stringify({message: checked ? 'Flag plan for save' : 'Unflag plan', content: content, sha: sha || undefined, branch: 'main'})
-  });
-  if(!resp.ok) {
-    alert('Save flag failed (HTTP ' + resp.status + '). Check your token permissions in Settings.');
-    cb.checked = !checked;
-  }
-}
-
-restoreCheckbox();
-
-// Auto-slide — pause 4s, then quick slide
-(function(){
-  document.querySelectorAll('.slider-track').forEach(function(track){
-    var imgs = track.querySelectorAll('img');
-    if(imgs.length < 2) return;
-    var idx = 0;
-    function slide(){
-      var imgW = imgs[0].offsetWidth;
-      if(imgW === 0) return;
-      var margin = parseInt(getComputedStyle(imgs[0]).marginRight) || 0;
-      var step = imgW + margin;
-      idx++;
-      if(idx >= imgs.length) idx = 0;
-      track.style.transition = 'transform 0.35s ease-in-out';
-      track.style.transform = 'translateX(-' + (idx * step) + 'px)';
-    }
-    setInterval(slide, 4000);
-  });
-})();
-</script>
 <div style="text-align:center;padding:2rem 0 0.5rem;">
-  <label class="save-plan-label" id="save-plan-label" style="display:inline-flex;align-items:center;gap:0.4rem;font-size:0.85rem;color:var(--warm-gray);cursor:pointer;font-family:'Noto Serif TC',serif;">
-    <input type="checkbox" id="save-flag" onchange="toggleSave()" style="cursor:pointer;">
-    💾 Save this plan (archived before next regeneration)
-  </label>
-</div>
+  </div>
 <div style="text-align:center;padding:0.5rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
   build 260531.214027
 </div>
