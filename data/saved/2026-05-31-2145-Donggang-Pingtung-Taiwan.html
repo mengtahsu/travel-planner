@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https://api.github.com https://raw.githubusercontent.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
+<title>六月東港 · 黑鮪魚奢華一日遊 — Travel Planner</title>
+<meta property="og:title" content="六月東港 · 黑鮪魚奢華一日遊 — Travel Planner">
+<meta property="og:description" content="Donggang, Pingtung, Taiwan · 2026/06/01 · 2人 · NT$100,000">
+
+<meta property="og:image" content="https://png.pngtree.com/thumb_back/fh260/background/20220312/pngtree-dalian-city-landmark-donggang-venice-water-city-image_989431.jpg">
+
+<meta property="og:type" content="website">
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400&family=Noto+Serif+TC:wght@300;400;600&display=swap');
+
+  :root {
+    --gold: #c9a84c;
+    --rose: #d4a0a0;
+    --cream: #faf7f2;
+    --ink: #2c2416;
+    --warm-gray: #8c8273;
+    --soft-white: #fffdf8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  /* ─── NAVIGATION ─── */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 1rem;
+    background: var(--soft-white);
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--warm-gray);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+    flex-shrink: 0;
+  }
+  nav a:hover, nav a.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 1.25rem; }
+
+  /* ─── IMAGE SLIDER ─── */
+  .slider {
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .slider-track {
+    display: inline-flex;
+  }
+  .slider-track img {
+    width: 100%; height: 320px;
+    border-radius: 8px;
+    margin-right: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  /* ─── HERO SLIDER ─── */
+  .hero-slider {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+  .hero-slider .slider { margin-bottom: 0; border-radius: 0; }
+  .hero-slider .slider-track img {
+    width: 100%; height: 420px; margin-right: 0; border-radius: 0;
+  }
+  .hero-overlay {
+    position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
+    background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 80%);
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 2rem 1.5rem;
+  }
+  .hero-overlay h1 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 2.5rem; font-weight: 400;
+    color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  .hero-overlay .zh-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.1rem; color: rgba(255,255,255,0.9);
+    margin-top: 0.25rem;
+  }
+  .hero-stats {
+    display: flex; flex-wrap: wrap; gap: 1rem 1.5rem;
+    margin-top: 0.75rem;
+    color: rgba(255,255,255,0.9);
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+  }
+  /* ─── HOTEL CARD + SLIDER ─── */
+  .hotel-card {
+    background: var(--soft-white); border-radius: 12px; overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .hotel-info { padding: 0 1.25rem; }
+  .hotel-info:first-of-type { padding-top: 1rem; }
+  .hotel-card > :last-child { padding-bottom: 1.25rem; }
+  .hotel-slider {
+    overflow: hidden; white-space: nowrap;
+  }
+  .hotel-slider .slider-track {
+    display: flex;
+  }
+  .hotel-slider .slider-track img {
+    width: 100%; height: 240px; margin-right: 4px;
+    object-fit: cover; flex-shrink: 0;
+  }
+
+  /* ─── DINING SLIDER ─── */
+  .dining-slider {
+    overflow: hidden; white-space: nowrap;
+  }
+  .dining-slider .slider-track {
+    display: flex;
+  }
+  .dining-slider .slider-track a {
+    width: 100%; flex-shrink: 0; display: block;
+  }
+  .dining-slider .slider-track img {
+    width: 100%; height: 240px; margin-right: 4px;
+    object-fit: cover; flex-shrink: 0;
+  }
+  .dining-card .dining-slider { border-radius: 0; }
+
+  /* ─── SECTION HEADER ─── */
+  .section-title {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.9rem; color: var(--ink); margin-bottom: 0.5rem;
+    position: relative;
+  }
+  .section-title::after {
+    content: ''; position: absolute; bottom: -6px; left: 0;
+    width: 36px; height: 2px; background: var(--gold);
+  }
+  .section-sub {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.05rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+  }
+
+  /* ─── FULL CARDS ─── */
+  .full-card {
+    background: var(--soft-white);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.03);
+  }
+  .full-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .full-card-header h2 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.6rem; font-weight: 500;
+  }
+  .external-btn {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    padding: 0.55rem 1.1rem;
+    background: var(--ink); color: #fff;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: none; cursor: pointer;
+    white-space: nowrap;
+  }
+  .external-btn.google { background: #4285f4; }
+  .external-btn.agoda { background: #e12b52; }
+  .external-btn:hover { opacity: 0.88; }
+
+  /* ─── FLIGHT ─── */
+  .flight-detail {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .flight-detail .divider {
+    width: 1px; height: 50px;
+    background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+    justify-self: center;
+  }
+  .flight-info { font-size: 1.05rem; }
+  .flight-info .label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
+  }
+  .flight-info .airline {
+    font-family: 'Playfair Display', serif; font-size: 1.3rem;
+    color: var(--ink); margin: 0.2rem 0;
+  }
+
+  /* ─── DINING ─── */
+  .dining-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .dining-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .dining-info {
+    padding: 1rem;
+  }
+  .dining-info h4 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.1rem; margin-bottom: 0.15rem;
+  }
+  .dining-info .zh-name {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.95rem; color: var(--warm-gray);
+  }
+  .dining-info .dish {
+    font-size: 0.9rem; color: var(--gold);
+    font-style: italic; margin-top: 0.25rem;
+  }
+
+  /* ─── TIMELINE ─── */
+  .day-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.02);
+    display: grid;
+    grid-template-columns: 80px auto 90px;
+    gap: 1rem;
+    align-items: start;
+  }
+  .day-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; color: var(--gold);
+    text-align: center; line-height: 1;
+  }
+  .day-label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); text-align: center;
+  }
+  .day-zh {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.85rem; color: var(--ink); text-align: center;
+    margin-top: 0.2rem;
+  }
+  .day-photo {
+    width: 100%; height: 220px; object-fit: cover; border-radius: 8px;
+    margin-bottom: 0.75rem; display: block;
+  }
+  .day-schedule { font-size: 1.15rem; }
+  .day-schedule .time-slot {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    display: flex; gap: 0.6rem; align-items: baseline;
+  }
+  .time-slot .time {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem; color: var(--gold);
+    min-width: 58px; letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .day-weather {
+    font-size: 0.9rem; color: var(--warm-gray);
+    text-align: right; padding-top: 0.25rem;
+  }
+
+.cost-row {
+    display: flex; justify-content: space-between;
+    padding: 0.5rem 0; font-size: 1.05rem;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    flex-wrap: wrap;
+  }
+  .cost-bar {
+    height: 6px; border-radius: 3px;
+    background: rgba(201,168,76,0.15); margin: 0.75rem 0;
+  }
+  .cost-bar-fill {
+    height: 100%; border-radius: 3px;
+    background: linear-gradient(to right, var(--gold), var(--rose));
+    width: 94%;
+  }
+
+  /* ─── PAGES ─── */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* ─── SETTINGS ─── */
+  .settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .setting-group {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .setting-group label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); display: block; margin-bottom: 0.3rem;
+  }
+  .setting-group .zh-label {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.8rem; color: var(--ink); margin-bottom: 0.5rem;
+  }
+  .setting-group input, .setting-group select {
+    width: 100%; padding: 0.75rem 0.85rem;
+    border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    -webkit-appearance: none;
+  }
+  .setting-group input:focus, .setting-group select:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+  }
+  .save-btn {
+    background: linear-gradient(135deg, var(--gold), #b8942f);
+    color: #fff; border: none;
+    padding: 0.8rem 2rem; border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 0.85rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    cursor: pointer; margin-top: 1.25rem;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+  }
+  .save-btn:hover { opacity: 0.9; }
+
+  /* ─── LOG ─── */
+  .log-entry {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem; margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+  }
+  .log-date {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--gold);
+  }
+  .log-status {
+    display: inline-block; padding: 0.15rem 0.6rem; border-radius: 10px;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem; margin-left: 0.4rem;
+  }
+  .log-status.generated { background: rgba(76,175,80,0.12); color: #388e3c; }
+  .log-status.chatting { background: rgba(201,168,76,0.15); color: #8b6914; }
+
+  /* ─── CHAT ─── */
+  .chat-box {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .chat-date-label {
+    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); margin-bottom: 0.5rem;
+  }
+  .chat-box textarea {
+    width: 100%; height: 200px; padding: 1rem;
+    border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    line-height: 1.8; resize: vertical;
+    -webkit-appearance: none;
+  }
+  .chat-box textarea:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
+  }
+  .chat-hint {
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    color: var(--warm-gray); margin-top: 0.4rem; font-style: italic;
+  }
+
+  /* ─── LIGHTBOX ─── */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .lightbox.open { display: flex; }
+  .lbox-img-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    transition: opacity 0.2s;
+    cursor: default;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .lightbox img {
+      max-width: 96vw;
+      max-height: 82vh;
+    }
+    .lightbox .lbox-arrow { font-size: 2rem; margin: 0 6px; }
+  }
+  .lightbox .counter {
+    color: rgba(255,255,255,0.7);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.75rem;
+    z-index: 2;
+    position: relative;
+  }
+  .lightbox .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    border: none;
+    line-height: 1;
+  }
+  .lightbox .close-btn:hover { background: rgba(255,255,255,0.18); }
+  /* Nav zones — only inside the image wrapper, not full screen */
+  .lightbox .lbox-left,
+  .lightbox .lbox-right {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 50%;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+  .lightbox .lbox-left  { left: 0;  justify-content: flex-start; }
+  .lightbox .lbox-right { right: 0; justify-content: flex-end; }
+  .lightbox .lbox-arrow {
+    color: rgba(255,255,255,0.4);
+    font-size: 2.5rem;
+    margin: 0 16px;
+    pointer-events: none;
+    user-select: none;
+  }
+  .lightbox .lbox-left:hover .lbox-arrow,
+  .lightbox .lbox-right:hover .lbox-arrow {
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* ─── SAVE PLAN CHECKBOX ─── */
+  .save-plan-label {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    user-select: none;
+  }
+  .save-plan-label input[type="checkbox"] {
+    width: 16px; height: 16px;
+    accent-color: var(--gold);
+    cursor: pointer;
+  }
+
+  /* ─── BROKEN IMAGES ─── */
+  img.broken { display: none !important; }
+
+  /* ═══════════════ MOBILE: iPhone ───────────────────── */
+  @media (max-width: 768px) {
+
+    .container { padding: 0.75rem; }
+
+    /* Nav — compact scrollable */
+    nav {
+      gap: 1rem;
+      padding: 0.7rem 0.75rem;
+    }
+    nav a {
+      font-size: 0.72rem;
+      letter-spacing: 1px;
+    }
+
+    /* Hero — shorter */
+    .hero-slider .slider-track img { height: 260px; }
+    .hero-overlay { padding: 1.25rem 1rem; }
+    .hero-overlay h1 { font-size: 1.7rem; }
+    .hero-overlay .zh-title { font-size: 0.95rem; }
+    .hero-stats { font-size: 0.75rem; gap: 0.5rem 1rem; }
+
+    /* Hotel & dining sliders — shorter */
+    .hotel-slider .slider-track img,
+    .dining-slider .slider-track img { height: 180px; }
+
+    /* Slider — smaller images */
+    .slider-track img {
+      height: 200px;
+      margin-right: 6px;
+    }
+
+    /* Full card — tighter padding */
+    .full-card {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+    .full-card-header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .full-card-header h2 {
+      font-size: 1.3rem;
+    }
+
+    /* Flight — stack vertically */
+    .flight-detail {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .flight-detail .divider {
+      width: 80%;
+      height: 1px;
+      justify-self: center;
+    }
+
+    /* Hotel — already responsive via flex-wrap */
+
+    /* Dining — single column, smaller images */
+    .dining-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+    /* Dining text — bump up for readability */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.82rem !important; }
+    .dining-info .dish { font-size: 0.78rem !important; }
+
+    /* Timeline — single column, date on top */
+    .day-card {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+      padding: 1rem;
+    }
+    .day-card > :first-child {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .day-num {
+      font-size: 1.1rem;
+      color: var(--gold);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+    .day-label {
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+    }
+    .day-zh {
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+    .day-weather {
+      text-align: left;
+      font-size: 0.8rem;
+      margin-left: auto;
+    }
+    .day-schedule { font-size: 1rem; }
+    .time-slot .time {
+      font-size: 0.75rem;
+      min-width: 46px;
+    }
+    .time-slot {
+      gap: 0.3rem;
+    }
+
+    /* Settings — single column */
+    .settings-grid {
+      grid-template-columns: 1fr;
+    }
+
+    /* Cost — tighten */
+    .cost-row {
+      font-size: 0.95rem;
+    }
+    .cost-section {
+      padding: 1rem;
+    }
+
+    /* Chat */
+    .chat-box textarea {
+      height: 180px;
+      font-size: 1.05rem;
+    }
+
+    /* Section titles */
+    .section-title {
+      font-size: 1.4rem;
+    }
+    .section-sub {
+      font-size: 0.9rem;
+    }
+
+    /* External buttons — full width */
+    .external-btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 0.75rem;
+      padding: 0.55rem 1rem;
+    }
+  }
+
+  /* ═══════════════ SMALL PHONES ────────────────────── */
+  @media (max-width: 390px) {
+    .hero-slider .slider-track img { height: 220px; }
+    .hero-overlay h1 { font-size: 1.45rem; }
+    .hero-overlay .zh-title {
+      font-size: 0.85rem;
+    }
+    .day-card {
+      grid-template-columns: 1fr;
+      padding: 0.85rem;
+    }
+    .day-num {
+      font-size: 1rem;
+    }
+    .day-schedule { font-size: 0.9rem; }
+    /* Dining text — bigger on iPhone */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.8rem !important; }
+    .dining-info .dish { font-size: 0.76rem !important; }
+    nav a {
+      font-size: 0.65rem;
+      letter-spacing: 0.5px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Destination slider + overlay (merged hero) -->
+  <div class="hero-slider">
+    <div class="slider">
+      <div class="slider-track">
+        
+        <img src="https://www.mountainiq.com/wp-content/uploads/2024/03/Donggang-River.jpg" alt="South Korea vs Japan: Which Country is Best for Adventure Travel?">
+        
+        <img src="https://ak-d.tripcdn.com/images/1mi69224x8upipv6bCB51.jpg?proc=source/trip" alt="Things to Do in Donggang in 2025 - Top Attractions, Local Food, Hotels ...">
+        
+        <img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/645b032465ee499cbbb3115867de481c.jpg" alt="Be sure to come to Dalian Donggang Music Fountain Plaza to watch a ...">
+        
+        <img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/0f011852bf3b477e94a90508e05f256f.jpg" alt="Be sure to come to Dalian Donggang Music Fountain Plaza to watch a ...">
+        
+        <img src="https://p1-tt.byteimg.com/origin/pgc-image/db12b13eb80f471ca4b1f09cefb8d1a5.jpg" alt="Be sure to come to Dalian Donggang Music Fountain Plaza to watch a ...">
+        
+        <img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/b585e0b5b38d40f9be5c57320fff4c4f.jpg" alt="Be sure to come to Dalian Donggang Music Fountain Plaza to watch a ...">
+        
+      </div>
+    </div>
+    <div class="hero-overlay">
+      <h1>Donggang, Pingtung, Taiwan</h1>
+      <div class="zh-title">六月東港 · 黑鮪魚奢華一日遊</div>
+      <div class="hero-stats">
+        <span>✈️ 2026/06/01</span>
+        <span>👥 2 人</span>
+        <span>💰 NT$100,000</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✈️ FLIGHT -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>✈️ 航班 Flight</h2>
+      <a class="external-btn google" href="https://www.google.com/travel/flights?q=Flights+to+PIF+from+MIA+2026-06-01" target="_blank">
+        ↗ Google Flights 搜尋更多航班
+      </a>
+    </div>
+    <div class="flight-detail">
+      <div class="flight-info">
+        <div class="label">出發 Departure · 6月1日</div>
+        <div class="airline">台灣高鐵 Taiwan High Speed Rail</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">高鐵 0809次</span> · 苗栗 → 左營 直達<br>
+          09:00 出發 · 10:30 抵達<br>
+          飛行 1h 30m · 商務車廂
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="flight-info">
+        <div class="label">回程 Return · 6月1日</div>
+        <div class="airline">台灣高鐵 Taiwan High Speed Rail</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">高鐵 0660次</span> · 左營 → 苗栗 直達<br>
+          18:30 出發 · 20:00 抵達<br>
+          飛行 1h 30m · 商務車廂
+        </div>
+      </div>
+    </div>
+    <div style="text-align:right; margin-top:1rem; font-size:0.9rem;">
+      來回 NT$ <strong>5,360</strong> / 2人
+    </div>
+  </div>
+
+  <!-- 🏨 HOTELS -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🏨 住宿 Hotel</h2>
+      <a class="external-btn agoda" href="https://www.agoda.com/zh-tw/city/donggang-fr.html?checkIn=2026-06-01&amp;checkOut=2026-06-01&amp;adults=2" target="_blank">
+        ↗ Agoda 搜尋更多住宿
+      </a>
+    </div>
+
+    
+    <div class="hotel-card" style="margin-bottom:1rem;">
+      <!-- Hotel photo gallery — full-width slider on top, matching dining card layout -->
+      
+      <a href="https://www.google.com/search?tbm=isch&q=Donggang%20Huaqiao%20Market" target="_blank" title="More photos of 無住宿（一日來回）">
+      <div class="hotel-slider">
+        <div class="slider-track">
+          
+          
+          
+          
+          <img src="https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00342_8.jpg" alt="Donggang Fishery Port Marine Product Direct Sale Center (Huaqiao Market ...">
+          
+          
+          
+          
+          <img src="https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00342_10.jpg" alt="Donggang Fishery Port Marine Product Direct Sale Center (Huaqiao Market ...">
+          
+          
+          
+          
+          <img src="http://www.foreignersintaiwan.com/uploads/5/4/3/2/54326073/fiqnuahvqaagjxa_orig.jpg" alt="Donggang Huaqiao Seafood Market 東港華僑魚市場 - Foreigners in Taiwan - 外國人在臺灣">
+          
+          
+          
+          
+          <img src="https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00342_14.jpg" alt="Donggang Fishery Port Marine Product Direct Sale Center (Huaqiao Market ...">
+          
+          
+          
+          
+          <img src="http://www.foreignersintaiwan.com/uploads/5/4/3/2/54326073/dibggangsfm-71_orig.jpg" alt="Donggang Huaqiao Seafood Market 東港華僑魚市場 - Foreigners in Taiwan - 外國人在臺灣">
+          
+          
+          
+          
+          <img src="https://www.foreignersintaiwan.com/uploads/5/4/3/2/54326073/dibggangsfm-30_orig.jpg" alt="Donggang Huaqiao Seafood Market 東港華僑魚市場 - Foreigners in Taiwan - 外國人在臺灣">
+          
+          
+        </div>
+      </div>
+      </a>
+      
+      <div class="hotel-info" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.5rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">無住宿（一日來回）</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">無住宿（一日來回） · N/A</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">DAY 1</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">0 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 0</div>
+        </div>
+      </div>
+      <div class="hotel-info" style="font-size:0.85rem;color:var(--ink);">
+         · N/A · N/A<br>
+        N/A
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 🍽️ DINING -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🍽️ 美食 Dining</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">1天 · 3 間餐廳 · NT$0</span>
+    </div>
+
+    
+
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 米其林星級 Fine Dining</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Donggang%20Jia%20Zhen%20seafood%20restaurant" target="_blank" title="More photos of 東港佳珍海鮮餐廳">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://cdn-tw.orstatic.com/userphoto/photo/A/7WI/01K74N47F2E5B7A730E666px.jpg" alt="東港佳珍海鮮餐廳" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://cdn-tw.orstatic.com/userphoto/photo/0/LA/0047HAB897F497AAC7D49Cpx.jpg?og=1" alt="東港佳珍海鮮餐廳" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://cdn-tw.orstatic.com/userphoto/photo/8/71C/01E1KE1B7D3460FCDBA21Dpx.jpg?og=1" alt="東港佳珍海鮮餐廳" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>東港佳珍海鮮餐廳</h4>
+            <div class="zh-name">東港佳珍海鮮餐廳 · ⭐⭐⭐</div>
+            <div class="dish">🐟 招牌：黑鮪魚生魚片大盤 · 黑鮪魚下巴 · 櫻花蝦炒飯</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%B8%AF%E4%BD%B3%E7%8F%8D%E6%B5%B7%E9%AE%AE%E9%A4%90%E5%BB%B3+%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%9D%B1%E6%B8%AF%E9%8E%AE%E6%9C%9D%E9%9A%86%E8%B7%AF39%E8%99%9F" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">屏東縣東港鎮朝隆路39號</a><br>
+              💰 雙人套餐 NT$6,000<br>
+              🕐 11:00–14:30 / 17:00–21:00 · 建議預約
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 法式小館 Bistros &amp; Casual</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Donggang%20Huaqiao%20market%20seafood" target="_blank" title="More photos of 華僑市場阿義海產">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00342_8.jpg" alt="華僑市場阿義海產" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://eateatwalkwalk.com/wp-content/uploads/2018/07/img_6881.jpg" alt="華僑市場阿義海產" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="http://www.foreignersintaiwan.com/uploads/5/4/3/2/54326073/dibggangsfm-71_orig.jpg" alt="華僑市場阿義海產" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>華僑市場阿義海產</h4>
+            <div class="zh-name">華僑市場阿義海產 · ⭐</div>
+            <div class="dish">🦐 招牌：黑鮪魚肚生魚片 · 烤大蛤 · 鮪魚蔥油餅</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=%E8%8F%AF%E5%83%91%E5%B8%82%E5%A0%B4%E9%98%BF%E7%BE%A9%E6%B5%B7%E7%94%A2+%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%9D%B1%E6%B8%AF%E9%8E%AE%E6%9C%9D%E9%9A%86%E8%B7%AF%E8%8F%AF%E5%83%91%E5%B8%82%E5%A0%B4%E5%85%A7" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">屏東縣東港鎮朝隆路華僑市場內</a><br>
+              💰 雙人 NT$3,000<br>
+              🕐 10:00–19:00 · 現撈現煮
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:0;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 咖啡甜點 Cafés &amp; Sweets</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Donggang%20fishing%20port%20cafe" target="_blank" title="More photos of 東港漁港咖啡屋">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://ohsnapletseat.com/wp-content/uploads/2025/04/seafood-donggang-taiwan-13-768x1024.jpeg" alt="東港漁港咖啡屋" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://i.ytimg.com/vi/PoCqlnXcQnM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGE8gWihlMA8=&amp;rs=AOn4CLClKg2LJJNDRCXszhcrrFZ1f4nUEw" alt="東港漁港咖啡屋" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://image.kkday.com/v2/image/get/h_650,c_fit/s1.kkday.com/product_126901/20220215131445_AM30m/jpg" alt="東港漁港咖啡屋" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>東港漁港咖啡屋</h4>
+            <div class="zh-name">東港漁港咖啡屋</div>
+            <div class="dish">☕ 招牌：黑鮪魚鬆餅 · 冰滴咖啡 · 芒果冰沙</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%B8%AF%E6%BC%81%E6%B8%AF%E5%92%96%E5%95%A1%E5%B1%8B+%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%9D%B1%E6%B8%AF%E9%8E%AE%E6%96%B0%E7%94%9F%E4%B8%89%E8%B7%AF175%E8%99%9F" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">屏東縣東港鎮新生三路175號</a><br>
+              💰 兩人 NT$800<br>
+              🕐 09:00–18:00 · 漁港景觀座位
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+
+    <!-- Food image slider -->
+    <div class="slider" style="margin-top:1rem;">
+      <div class="slider-track">
+        
+        
+        
+        
+        <img src="https://cdn-tw.orstatic.com/userphoto/photo/A/7WI/01K74N47F2E5B7A730E666px.jpg" alt="Jia Zhen Seafood Restaurant in Donggang Township Kaohsiung / Pingtung ...">
+        
+        
+        
+        <img src="https://cdn-tw.orstatic.com/userphoto/photo/0/LA/0047HAB897F497AAC7D49Cpx.jpg?og=1" alt="Jia Zhen Seafood Restaurant in Donggang Township Kaohsiung / Pingtung ...">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00342_8.jpg" alt="Donggang Fishery Port Marine Product Direct Sale Center (Huaqiao Market ...">
+        
+        
+        
+        <img src="https://eateatwalkwalk.com/wp-content/uploads/2018/07/img_6881.jpg" alt="東港華橋市場 Donggang Seafood Market @ Kaoshiung, Taiwan | Eat.Eat.Walk.Walk ...">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://ohsnapletseat.com/wp-content/uploads/2025/04/seafood-donggang-taiwan-13-768x1024.jpeg" alt="Donggang, Taiwan – Where Seafood Lovers Go to Feast • Oh Snap! Let&#39;s Eat!">
+        
+        
+        
+        <img src="https://i.ytimg.com/vi/PoCqlnXcQnM/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGE8gWihlMA8=&amp;rs=AOn4CLClKg2LJJNDRCXszhcrrFZ1f4nUEw" alt="台灣屏東鹽埔、東港漁港(Yanpu (Donggang) Fishing Port, Pingtung, Taiwan) - YouTube">
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- 📅 DAY BY DAY -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>📅 每日行程 Day by Day</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">2026-06-01 – 2026-06-01</span>
+    </div>
+
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">1</div>
+        <div class="day-label">June 1 · Mon</div>
+        <div class="day-zh">東港黑鮪魚饗宴 · 華僑市場漫遊</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 無住宿（一日來回）</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00342_8.jpg" alt="東港黑鮪魚饗宴 · 華僑市場漫遊" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:30</span> 🚗 從苗栗頭份住家出發，開車至苗栗高鐵站（約15分鐘）· 停車場 NT$200/日</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:15</span> 🚄 抵達苗栗高鐵站 · 換票 · 進入商務車廂休息區享用免費咖啡</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚄 搭乘高鐵 0809次 商務車廂 · 苗栗→左營 直達 · 車上提供輕食與飲料 · 享受寬敞座位</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:30</span> 🚄 抵達左營高鐵站 · 轉乘計程車前往東港（約40分鐘 · NT$1,200）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🛒 抵達東港華僑市場 · 開始逛市場！品嚐現切黑鮪魚生魚片（NT$1,500/盤）· 購買當地名產：櫻花蝦、油魚子</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍽️ 華僑市場阿義海產午餐 · 現撈黑鮪魚肚生魚片、烤大蛤、鮪魚蔥油餅 · 搭配冰涼啤酒</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🚶 漫步東港漁港 · 欣賞漁船 · 參觀東港漁業文化展示館（免費）· 品嚐漁港咖啡屋黑鮪魚鬆餅</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:30</span> 🐟 佳珍海鮮餐廳精緻晚午餐（提早吃）· 預約包廂 · 享用黑鮪魚全席：生魚片、烤下巴、魚頭火鍋</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🚕 搭計程車返回左營高鐵站（約40分鐘 · NT$1,200）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:30</span> 🚄 搭乘高鐵 0660次 商務車廂 · 左營→苗栗 直達 · 車上享用點心與飲料</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🚗 抵達苗栗高鐵站 · 取車開回家 · 結束奢華黑鮪魚一日之旅 🎉</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> 無住宿（一日來回） · N/A</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 32°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 5%</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 💰 COST BREAKDOWN -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>💰 花費明細 Cost</h2>
+      <span style="font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">所有金額以新台幣 NTD 計算</span>
+    </div>
+    
+    <div class="cost-row"><span>🚄 高鐵商務車廂來回</span><span>NT$ <strong>5,360</strong></span></div>
+    
+    <div class="cost-row"><span>🚕 左營-東港計程車來回</span><span>NT$ <strong>2,400</strong></span></div>
+    
+    <div class="cost-row"><span>🍽️ 佳珍海鮮餐廳</span><span>NT$ <strong>6,000</strong></span></div>
+    
+    <div class="cost-row"><span>🍽️ 華僑市場阿義海產</span><span>NT$ <strong>3,000</strong></span></div>
+    
+    <div class="cost-row"><span>☕ 漁港咖啡屋</span><span>NT$ <strong>800</strong></span></div>
+    
+    <div class="cost-row"><span>🛒 華僑市場黑鮪魚生魚片</span><span>NT$ <strong>1,500</strong></span></div>
+    
+    <div class="cost-row"><span>🅿️ 高鐵停車費</span><span>NT$ <strong>200</strong></span></div>
+    
+    <div class="cost-row"><span>🛍️ 伴手禮（櫻花蝦、油魚子）</span><span>NT$ <strong>3,000</strong></span></div>
+    
+    <div class="cost-row"><span>🚗 苗栗頭份來回油資</span><span>NT$ <strong>500</strong></span></div>
+    
+    <div class="cost-row" style="font-weight:600; border-top:2px solid var(--gold); padding-top:0.5rem; margin-top:0.2rem;">
+      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>22,760</strong></span>
+    </div>
+    <div class="cost-bar"><div class="cost-bar-fill" style="width:23.0%"></div></div>
+    <div style="text-align:right; font-size:0.8rem; color:var(--warm-gray);">
+      NT$ 22,760 / NT$ 100,000 · 剩餘 NT$ 77,240
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Shared JS for all Travel Planner pages
+// Lightbox, broken image handler, base64 utilities
+
+/** Encode string as base64 (UTF-8 safe). */
+function b64Encode(str) {
+  var bytes = new TextEncoder().encode(str);
+  var binStr = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
+  return btoa(binStr);
+}
+
+/** Decode base64 to string (UTF-8 safe). */
+function b64Decode(b64) {
+  var bytes = Uint8Array.from(atob(b64), function(c) { return c.charCodeAt(0); });
+  return new TextDecoder().decode(bytes);
+}
+
+// Hide broken images globally
+document.addEventListener('error', function(e){
+  if(e.target.tagName === 'IMG'){
+    e.target.classList.add('broken');
+  }
+}, true);
+
+// ═══ LIGHTBOX ═══
+(function(){
+  var images = [];
+  var currentIdx = 0;
+  var lb = null;
+  var lbImg = null;
+  var lbCounter = null;
+
+  function buildLightbox() {
+    lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.innerHTML =
+      '<button class="close-btn">&times;</button>' +
+      '<div class="lbox-img-wrap">' +
+        '<div class="lbox-left"><span class="lbox-arrow">&#8249;</span></div>' +
+        '<img src="" alt="">' +
+        '<div class="lbox-right"><span class="lbox-arrow">&#8250;</span></div>' +
+      '</div>' +
+      '<div class="counter"></div>';
+    document.body.appendChild(lb);
+    lbImg = lb.querySelector('img');
+    lbCounter = lb.querySelector('.counter');
+
+    lb.querySelector('.close-btn').addEventListener('click', close);
+    lb.querySelector('.lbox-left').addEventListener('click', function(e){ e.stopPropagation(); prev(); });
+    lb.querySelector('.lbox-right').addEventListener('click', function(e){ e.stopPropagation(); next(); });
+    lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
+    document.addEventListener('keydown', function(e){
+      if(!lb.classList.contains('open')) return;
+      if(e.key === 'Escape') close();
+      if(e.key === 'ArrowLeft') prev();
+      if(e.key === 'ArrowRight') next();
+    });
+  }
+
+  function collectImages() {
+    images = [];
+    var all = document.querySelectorAll('.slider-track img, .food-imgs img, .hero-placeholder, .dining-card img, .lightbox-clickable');
+    all.forEach(function(img, i){
+      // Skip images inside Google Images links — let the browser follow the link
+      if(img.closest('a[href*="google.com/search?tbm=isch"]')) return;
+      if(img.naturalWidth > 0 || img.complete) {
+        images.push(img);
+        img.style.cursor = 'pointer';
+        img.setAttribute('data-lb-idx', images.length - 1);
+        if(!img.hasLbListener) {
+          img.addEventListener('click', function(e){
+            e.stopPropagation();
+            open(img.getAttribute('data-lb-idx'));
+          });
+          img.hasLbListener = true;
+        }
+      }
+    });
+  }
+
+  function open(idx) {
+    if(!lb) buildLightbox();
+    collectImages();
+    idx = parseInt(idx);
+    if(idx < 0) idx = images.length - 1;
+    if(idx >= images.length) idx = 0;
+    currentIdx = idx;
+    var src = images[currentIdx].src || images[currentIdx].getAttribute('src');
+    // strip Unsplash size params for full resolution
+    src = src.replace(/[?&]w=\d+/g, '').replace(/[?&]h=\d+/g, '').replace(/[?&]fit=crop/g, '');
+    if(src.indexOf('?') === -1) src += '?w=1400'; else src += '&w=1400';
+    lbImg.src = src;
+    lbCounter.textContent = (currentIdx + 1) + ' / ' + images.length;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function next() { open(currentIdx + 1); }
+  function prev() { open(currentIdx - 1); }
+
+  window.addEventListener('load', function(){ collectImages(); });
+})();
+</script>
+<div style="text-align:center;padding:2rem 0 0.5rem;">
+  </div>
+<div style="text-align:center;padding:0.5rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
+  build 260531.214027
+</div>
+</body>
+</html>
