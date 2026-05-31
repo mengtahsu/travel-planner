@@ -1,50 +1,50 @@
 {
   "destination_en": "Donggang, Pingtung, Taiwan",
-  "title_zh": "東港黑鮪魚極致一日奢旅",
+  "title_zh": "東港黑鮪魚奢華一日遊",
   "date_range": "2026/06/07",
   "start_date": "2026-06-07",
   "end_date": "2026-06-07",
-  "departure": "Miaoli Toufen (by HSR)",
-  "departure_code": "MIAOLI",
+  "departure": "苗栗頭份市",
+  "departure_code": "TPE",
   "destination_code": "PIF",
   "travelers": 2,
   "days": 1,
   "budget_ntd": 100000,
   "flight": {
-    "airline": "台灣高鐵 Taiwan High Speed Rail",
+    "airline": "台灣高鐵",
     "departure_date": "6月7日",
     "return_date": "6月7日",
-    "total_price_ntd": 5560,
+    "total_price_ntd": 5460,
     "outbound": {
-      "flight_no": "HSR 803",
+      "flight_no": "高鐵 0803 車次",
       "route": "苗栗 → 左營 直達",
       "depart_time": "09:00",
       "arrive_time": "10:35",
       "duration": "1h 35m",
-      "class": "商務車廂"
+      "class": "標準車廂對號座"
     },
     "inbound": {
-      "flight_no": "HSR 668",
+      "flight_no": "高鐵 0666 車次",
       "route": "左營 → 苗栗 直達",
       "depart_time": "18:30",
       "arrive_time": "20:05",
       "duration": "1h 35m",
-      "class": "商務車廂"
+      "class": "標準車廂對號座"
     }
   },
   "hotels": [
     {
-      "name": "大鵬灣東方渡假酒店 Orient Resort Dapeng Bay",
-      "name_zh": "大鵬灣東方渡假酒店",
-      "district": "東港大鵬灣",
-      "day_range": "1",
+      "name": "無住宿（一日來回）",
+      "name_zh": "無住宿（一日來回）",
+      "district": "-",
+      "day_range": "-",
       "nights": 0,
       "price_ntd": 0,
-      "stars": "★★★★☆",
-      "room_type": "豪華海景雙人房（僅午休使用）",
-      "breakfast": "無",
-      "amenities": "🏊 室外泳池 · 🧖 SPA · 🌊 大鵬灣景觀 · 🅿️ 免費停車",
-      "search_query": "大鵬灣東方渡假酒店 東港",
+      "stars": "-",
+      "room_type": "-",
+      "breakfast": "-",
+      "amenities": "-",
+      "search_query": "Donggang Huaqiao Market Pingtung",
       "photos": [
         {
           "url": "",
@@ -76,15 +76,15 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "張家食堂東港直送黑鮪魚專門店",
-        "name_zh": "張家食堂東港直送黑鮪魚專門店",
-        "stars": "⭐⭐⭐",
-        "dish": "🐟 招牌：黑鮪魚上腹生魚片 · 炙燒大腹 · 鮪魚骨湯",
-        "address": "屏東縣東港鎮朝隆路39號（華僑市場內）",
-        "price_ntd": 15000,
-        "price_label": "雙人極上黑鮪魚套餐 NT$15,000",
-        "hours": "11:00–19:00 · 需預約",
-        "search_query": "張家食堂 東港 黑鮪魚",
+        "name": "張家食堂東港店",
+        "name_zh": "張家食堂東港店",
+        "stars": "★★★★☆",
+        "dish": "🐟 招牌：黑鮪魚全席（生魚片、烤下巴、腹肉握壽司）",
+        "address": "屏東縣東港鎮朝隆路39號",
+        "price_ntd": 6000,
+        "price_label": "雙人黑鮪魚套餐 NT$6,000",
+        "hours": "11:00–14:00 · 需預約",
+        "search_query": "張家食堂東港黑鮪魚",
         "photos": [
           {
             "url": "",
@@ -103,15 +103,15 @@
     ],
     "bistros": [
       {
-        "name": "東港阿仁海鮮現炒",
-        "name_zh": "東港阿仁海鮮現炒",
-        "stars": "",
-        "dish": "🦐 招牌：櫻花蝦炒飯 · 蚵仔酥 · 花枝丸",
-        "address": "屏東縣東港鎮朝隆路39號（華僑市場內）",
+        "name": "東港阿義海鮮",
+        "name_zh": "東港阿義海鮮",
+        "stars": "★★★☆☆",
+        "dish": "🦐 招牌：櫻花蝦炒飯 · 黑鮪魚生魚片拼盤",
+        "address": "屏東縣東港鎮朝隆路華僑市場內",
         "price_ntd": 3000,
-        "price_label": "雙人海鮮小炒 NT$3,000",
-        "hours": "11:00–19:00",
-        "search_query": "東港阿仁海鮮 華僑市場",
+        "price_label": "雙人現撈海鮮 NT$3,000",
+        "hours": "10:00–19:00",
+        "search_query": "東港阿義海鮮華僑市場",
         "photos": [
           {
             "url": "",
@@ -130,15 +130,15 @@
     ],
     "cafes": [
       {
-        "name": "東港冰果室",
-        "name_zh": "東港冰果室",
+        "name": "東港漁港咖啡屋",
+        "name_zh": "東港漁港咖啡屋",
         "stars": "",
-        "dish": "🍧 招牌：黑鮪魚造型冰 · 芒果雪花冰 · 蓮藕茶",
-        "address": "屏東縣東港鎮中山路2號",
-        "price_ntd": 500,
-        "price_label": "雙人冰品 NT$500",
-        "hours": "10:00–20:00",
-        "search_query": "東港冰果室 冰品",
+        "dish": "☕ 招牌：黑鮪魚鬆餅 · 冰滴咖啡",
+        "address": "屏東縣東港鎮新生三路175號",
+        "price_ntd": 600,
+        "price_label": "雙人下午茶 NT$600",
+        "hours": "09:00–18:00 · 漁港景觀座",
+        "search_query": "東港漁港咖啡屋",
         "photos": [
           {
             "url": "",
@@ -159,58 +159,58 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "June 7 · Sun",
-      "label_zh": "東港黑鮪魚一日遊",
-      "day_query": "東港華僑市場 黑鮪魚",
-      "hotel_name": "大鵬灣東方渡假酒店（午休）",
-      "hotel_name_zh": "大鵬灣東方渡假酒店（午休）",
-      "hotel_room": "豪華海景雙人房",
+      "date": "Jun 7 · Sun",
+      "label_zh": "東港黑鮪魚饗宴 · 奢華放空一日",
+      "day_query": "Donggang Huaqiao Market Pingtung",
+      "hotel_name": "無住宿（一日來回）",
+      "hotel_name_zh": "無住宿（一日來回）",
+      "hotel_room": "-",
       "weather": "☀️ 32°/26°",
       "rain_pct": "5%",
       "slots": [
         {
           "time": "08:30",
-          "desc": "🚗 從苗栗頭份市家中出發，步行至苗栗高鐵站（約10分鐘）"
+          "desc": "🏠 苗栗頭份市出發 · 自駕或計程車前往高鐵苗栗站（約15分鐘）"
         },
         {
           "time": "09:00",
-          "desc": "🚄 搭乘高鐵 803 車次 商務車廂 · 苗栗 → 左營 · 車上享用咖啡與報紙"
+          "desc": "🚄 高鐵苗栗站搭乘 0803 車次 · 直達左營站 · 車程1小時35分 · 票價 NT$1,365/人"
         },
         {
           "time": "10:35",
-          "desc": "🚉 抵達左營高鐵站 · 轉乘預約包車（賓士V-Class）前往東港（約40分鐘）"
+          "desc": "🚉 抵達高鐵左營站 · 轉乘計程車前往東港（約40分鐘 · NT$1,200）"
         },
         {
           "time": "11:30",
-          "desc": "🐟 抵達東港華僑市場 · 先逛市場 · 認識各攤位 · 感受漁港活力"
+          "desc": "🦞 華僑市場逛逛 · 品嚐現切黑鮪魚生魚片（一盤 NT$500–800）· 購買烏魚子、櫻花蝦等伴手禮"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 張家食堂極上黑鮪魚套餐 · 品嚐當季最肥美的黑鮪魚上腹、中腹、下巴"
+          "time": "12:30",
+          "desc": "🍽️ 張家食堂東港店 · 雙人黑鮪魚全席套餐 NT$6,000 · 含黑鮪魚生魚片、烤下巴、握壽司、味噌湯"
         },
         {
-          "time": "13:30",
-          "desc": "🍧 東港冰果室吃黑鮪魚造型冰 · 清涼消暑"
+          "time": "14:00",
+          "desc": "☕ 東港漁港咖啡屋 · 下午茶 NT$600 · 黑鮪魚鬆餅 + 冰滴咖啡 · 欣賞漁港風光"
         },
         {
-          "time": "14:30",
-          "desc": "🏨 前往大鵬灣東方渡假酒店 · 使用豪華海景雙人房午休（14:00–16:00）· 享受泳池或SPA"
+          "time": "15:00",
+          "desc": "🚶 東港濱海公園散步 · 大鵬灣跨海大橋景觀台 · 拍照放空"
         },
         {
           "time": "16:00",
-          "desc": "🛍️ 返回華僑市場 · 選購黑鮪魚生魚片、櫻花蝦、烏魚子等伴手禮"
+          "desc": "🛍️ 華僑市場再逛一圈 · 採購現撈黑鮪魚腹肉、櫻花蝦、雙糕潤（預算 NT$8,000）"
         },
         {
           "time": "17:00",
-          "desc": "🚗 包車返回左營高鐵站 · 車上小憩"
+          "desc": "🚕 搭計程車返回高鐵左營站（約40分鐘 · NT$1,200）"
         },
         {
           "time": "18:30",
-          "desc": "🚄 搭乘高鐵 668 車次 商務車廂 · 左營 → 苗栗"
+          "desc": "🚄 高鐵左營站搭乘 0666 車次 · 直達苗栗站 · 車程1小時35分 · 票價 NT$1,365/人"
         },
         {
           "time": "20:05",
-          "desc": "🚶 步行返回頭份家中 · 結束完美一日"
+          "desc": "🏠 抵達高鐵苗栗站 · 返家 · 結束奢華黑鮪魚一日遊"
         }
       ],
       "day_photo": ""
@@ -218,40 +218,40 @@
   ],
   "costs": [
     {
-      "label": "🚄 高鐵來回商務車廂（2人）",
-      "amount_ntd": 5560
+      "label": "🚄 高鐵來回",
+      "amount_ntd": 5460
     },
     {
-      "label": "🚗 包車左營↔東港來回（賓士V-Class）",
+      "label": "🚕 計程車（頭份-苗栗高鐵站）",
+      "amount_ntd": 600
+    },
+    {
+      "label": "🚕 計程車（左營-東港來回）",
+      "amount_ntd": 2400
+    },
+    {
+      "label": "🍽️ 張家食堂午餐",
       "amount_ntd": 6000
     },
     {
-      "label": "🏨 大鵬灣東方渡假酒店午休房",
-      "amount_ntd": 4000
+      "label": "🍽️ 華僑市場小吃 & 下午茶",
+      "amount_ntd": 3600
     },
     {
-      "label": "🍽️ 張家食堂黑鮪魚套餐",
-      "amount_ntd": 15000
+      "label": "🎫 無門票",
+      "amount_ntd": 0
     },
     {
-      "label": "🍽️ 阿仁海鮮現炒",
-      "amount_ntd": 3000
+      "label": "🛍️ 伴手禮（黑鮪魚腹肉、櫻花蝦等）",
+      "amount_ntd": 8000
     },
     {
-      "label": "🍧 東港冰果室",
-      "amount_ntd": 500
-    },
-    {
-      "label": "🛍️ 伴手禮（黑鮪魚生魚片、櫻花蝦等）",
-      "amount_ntd": 10000
-    },
-    {
-      "label": "🎫 華僑市場停車/雜支",
-      "amount_ntd": 1000
+      "label": "🛡️ 其他（飲料、雜支）",
+      "amount_ntd": 2000
     }
   ],
-  "cost_total_ntd": 45060,
-  "budget_remaining_ntd": 54940,
+  "cost_total_ntd": 28060,
+  "budget_remaining_ntd": 71940,
   "photos": {
     "hero": [
       {
@@ -290,7 +290,7 @@
       }
     ]
   },
-  "chat_hash": "e19e2ac01748ca2a181a84f0b9bac768e6731bf047ae0dee8be48a6e95f56246",
+  "chat_hash": "10e34b7b319a36cb8a9109fc6e5d416e71ea182e8211771f7ac107e224977e62",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-05-31T14:47:48.942460"
+  "generated_at": "2026-05-31T14:49:16.172193"
 }
