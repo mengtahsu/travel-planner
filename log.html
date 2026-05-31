@@ -89,13 +89,13 @@
     html += '</table>';
   }
 
-  fetch('https://raw.githubusercontent.com/mengtahsu/travel-planner/main/data/saved/index.json').then(function(resp) {
+  fetch('data/saved/index.json').then(function(resp) {
     if(resp.ok) return resp.json().then(function(data) { buildSavedPlans(data); });
     html += '<p style="color:#e88;">Saved plans: HTTP ' + resp.status + '</p>';
   }).catch(function(e) {
     html += '<p style="color:#e88;">Saved plans error: ' + e.message + '</p>';
   }).then(function() {
-    return fetch('https://raw.githubusercontent.com/mengtahsu/travel-planner/main/data/runs.json');
+    return fetch('data/runs.json');
   }).then(function(resp) {
     if(resp.ok) return resp.json().then(function(data) { buildRunHistory(data); });
     html += '<p style="color:#e88;">Run history: HTTP ' + resp.status + '</p>';
