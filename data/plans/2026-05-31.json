@@ -1,74 +1,152 @@
 {
-  "destination_en": "Donggang, Pingtung, Taiwan",
-  "title_zh": "東港黑鮪魚奢華一日遊",
-  "date_range": "2026/06/07",
-  "start_date": "2026-06-07",
-  "end_date": "2026-06-07",
-  "departure": "苗栗頭份市",
+  "destination_en": "Bali, Indonesia",
+  "title_zh": "峇里島 · 十二天浪漫天堂之旅",
+  "date_range": "2026/08/15–08/26",
+  "start_date": "2026-08-15",
+  "end_date": "2026-08-26",
+  "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "PIF",
+  "destination_code": "DPS",
   "travelers": 2,
-  "days": 1,
-  "budget_ntd": 100000,
+  "days": 12,
+  "budget_ntd": 500000,
   "flight": {
-    "airline": "台灣高鐵",
-    "departure_date": "6月7日",
-    "return_date": "6月7日",
-    "total_price_ntd": 5460,
+    "airline": "中華航空 China Airlines",
+    "departure_date": "8月15日",
+    "return_date": "8月26日",
+    "total_price_ntd": 38000,
     "outbound": {
-      "flight_no": "高鐵 0803 車次",
-      "route": "苗栗 → 左營 直達",
-      "depart_time": "09:00",
-      "arrive_time": "10:35",
-      "duration": "1h 35m",
-      "class": "標準車廂對號座"
+      "flight_no": "CI 771",
+      "route": "TPE → DPS 直飛",
+      "depart_time": "09:10",
+      "arrive_time": "14:40",
+      "duration": "5h 30m",
+      "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "高鐵 0666 車次",
-      "route": "左營 → 苗栗 直達",
-      "depart_time": "18:30",
-      "arrive_time": "20:05",
-      "duration": "1h 35m",
-      "class": "標準車廂對號座"
+      "flight_no": "CI 772",
+      "route": "DPS → TPE 直飛",
+      "depart_time": "15:40",
+      "arrive_time": "21:10",
+      "duration": "5h 30m",
+      "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "無住宿（一日來回）",
-      "name_zh": "無住宿（一日來回）",
-      "district": "-",
-      "day_range": "-",
-      "nights": 0,
-      "price_ntd": 0,
-      "stars": "-",
-      "room_type": "-",
-      "breakfast": "-",
-      "amenities": "-",
-      "search_query": "Donggang Huaqiao Market Pingtung",
+      "name": "Alila Villas Uluwatu",
+      "name_zh": "阿麗拉烏魯瓦圖別墅",
+      "district": "烏魯瓦圖",
+      "day_range": "1–4",
+      "nights": 4,
+      "price_ntd": 120000,
+      "stars": "★★★★★",
+      "room_type": "海景泳池別墅",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 私人泳池 · 🌊 懸崖海景 · 🧘 瑜伽 · 🍽️ 餐廳 · 💆 SPA",
+      "search_query": "Alila Villas Uluwatu Bali",
       "photos": [
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Bali"
         },
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Bali"
         },
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Bali"
         },
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Bali"
         },
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Bali"
         },
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Bali"
+        }
+      ]
+    },
+    {
+      "name": "Four Seasons Resort Bali at Sayan",
+      "name_zh": "四季酒店 · 山妍",
+      "district": "烏布",
+      "day_range": "5–8",
+      "nights": 4,
+      "price_ntd": 110000,
+      "stars": "★★★★★",
+      "room_type": "泳池別墅",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 無邊際泳池 · 🌿 稻田景觀 · 🧘 瑜伽 · 🍽️ 餐廳 · 💆 SPA",
+      "search_query": "Four Seasons Sayan Bali",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
+        }
+      ]
+    },
+    {
+      "name": "Bvlgari Resort Bali",
+      "name_zh": "寶格麗度假村峇里島",
+      "district": "金巴蘭",
+      "day_range": "9–12",
+      "nights": 4,
+      "price_ntd": 180000,
+      "stars": "★★★★★",
+      "room_type": "海景豪華套房",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 私人泳池 · 🌅 懸崖海景 · 🛥️ 私人海灘 · 🍽️ 米其林餐廳 · 💆 SPA",
+      "search_query": "Bvlgari Resort Bali",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bali"
         }
       ]
     }
@@ -76,81 +154,156 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "張家食堂東港店",
-        "name_zh": "張家食堂東港店",
-        "stars": "★★★★☆",
-        "dish": "🐟 招牌：黑鮪魚全席（生魚片、烤下巴、腹肉握壽司）",
-        "address": "屏東縣東港鎮朝隆路39號",
-        "price_ntd": 6000,
-        "price_label": "雙人黑鮪魚套餐 NT$6,000",
-        "hours": "11:00–14:00 · 需預約",
-        "search_query": "張家食堂東港黑鮪魚",
+        "name": "Sundara",
+        "name_zh": "金巴蘭海灘餐廳",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：龍蝦拼盤 · 烤乳豬",
+        "address": "Jl. Pantai Ayodya, Jimbaran",
+        "price_ntd": 5000,
+        "price_label": "雙人晚餐 NT$5,000",
+        "hours": "18:00–22:00 · 需預約",
+        "search_query": "Sundara Jimbaran Bali",
         "photos": [
           {
             "url": "",
-            "label": "fine dining food Donggang"
+            "label": "fine dining food Bali"
           },
           {
             "url": "",
-            "label": "fine dining food Donggang"
+            "label": "fine dining food Bali"
           },
           {
             "url": "",
-            "label": "fine dining food Donggang"
+            "label": "fine dining food Bali"
+          }
+        ]
+      },
+      {
+        "name": "Mozaic Restaurant",
+        "name_zh": "米其林創意料理",
+        "stars": "⭐⭐⭐",
+        "dish": "🍽️ 招牌：主廚品嚐菜單 · 融合印尼風味",
+        "address": "Jl. Raya Sanggingan, Ubud",
+        "price_ntd": 6000,
+        "price_label": "雙人品嚐套餐 NT$6,000",
+        "hours": "18:30–22:00 · 需預約",
+        "search_query": "Mozaic Ubud Bali",
+        "photos": [
+          {
+            "url": "",
+            "label": "fine dining food Bali"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Bali"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Bali"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "東港阿義海鮮",
-        "name_zh": "東港阿義海鮮",
-        "stars": "★★★☆☆",
-        "dish": "🦐 招牌：櫻花蝦炒飯 · 黑鮪魚生魚片拼盤",
-        "address": "屏東縣東港鎮朝隆路華僑市場內",
-        "price_ntd": 3000,
-        "price_label": "雙人現撈海鮮 NT$3,000",
-        "hours": "10:00–19:00",
-        "search_query": "東港阿義海鮮華僑市場",
+        "name": "Warung Babi Guling Ibu Oka",
+        "name_zh": "伊布歐卡烤乳豬飯",
+        "stars": "",
+        "dish": "🐷 招牌：烤乳豬飯 · 脆皮豬肉",
+        "address": "Jl. Tegal Sari, Ubud",
+        "price_ntd": 500,
+        "price_label": "兩人約 NT$500",
+        "hours": "11:00–17:00",
+        "search_query": "Warung Babi Guling Ibu Oka Ubud",
         "photos": [
           {
             "url": "",
-            "label": "bistros food Donggang"
+            "label": "bistros food Bali"
           },
           {
             "url": "",
-            "label": "bistros food Donggang"
+            "label": "bistros food Bali"
           },
           {
             "url": "",
-            "label": "bistros food Donggang"
+            "label": "bistros food Bali"
+          }
+        ]
+      },
+      {
+        "name": "Biku",
+        "name_zh": "Biku 峇里風情餐廳",
+        "stars": "",
+        "dish": "🥘 招牌：峇里式炒飯 · 沙爹拼盤",
+        "address": "Jl. Raya Seminyak, Seminyak",
+        "price_ntd": 1200,
+        "price_label": "雙人晚餐 NT$1,200",
+        "hours": "08:00–22:00",
+        "search_query": "Biku Seminyak Bali",
+        "photos": [
+          {
+            "url": "",
+            "label": "bistros food Bali"
+          },
+          {
+            "url": "",
+            "label": "bistros food Bali"
+          },
+          {
+            "url": "",
+            "label": "bistros food Bali"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "東港漁港咖啡屋",
-        "name_zh": "東港漁港咖啡屋",
+        "name": "Seniman Coffee Studio",
+        "name_zh": "咖啡藝術工作室",
         "stars": "",
-        "dish": "☕ 招牌：黑鮪魚鬆餅 · 冰滴咖啡",
-        "address": "屏東縣東港鎮新生三路175號",
-        "price_ntd": 600,
-        "price_label": "雙人下午茶 NT$600",
-        "hours": "09:00–18:00 · 漁港景觀座",
-        "search_query": "東港漁港咖啡屋",
+        "dish": "☕ 招牌：峇里冷萃咖啡 · 牛油果吐司",
+        "address": "Jl. Sriwedari No.5, Ubud",
+        "price_ntd": 400,
+        "price_label": "兩人約 NT$400",
+        "hours": "07:00–18:00",
+        "search_query": "Seniman Coffee Ubud",
         "photos": [
           {
             "url": "",
-            "label": "cafe coffee Donggang"
+            "label": "cafe coffee Bali"
           },
           {
             "url": "",
-            "label": "cafe coffee Donggang"
+            "label": "cafe coffee Bali"
           },
           {
             "url": "",
-            "label": "cafe coffee Donggang"
+            "label": "cafe coffee Bali"
+          }
+        ]
+      },
+      {
+        "name": "La Brasserie",
+        "name_zh": "法式小館 · 水明漾",
+        "stars": "",
+        "dish": "🥐 招牌：法式可頌 · 濃縮咖啡",
+        "address": "Jl. Kayu Aya, Seminyak",
+        "price_ntd": 600,
+        "price_label": "兩人早餐 NT$600",
+        "hours": "07:30–16:00",
+        "search_query": "La Brasserie Seminyak",
+        "photos": [
+          {
+            "url": "",
+            "label": "cafe coffee Bali"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Bali"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Bali"
           }
         ]
       }
@@ -159,58 +312,600 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Jun 7 · Sun",
-      "label_zh": "東港黑鮪魚饗宴 · 奢華放空一日",
-      "day_query": "Donggang Huaqiao Market Pingtung",
-      "hotel_name": "無住宿（一日來回）",
-      "hotel_name_zh": "無住宿（一日來回）",
-      "hotel_room": "-",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "5%",
+      "date": "8月15日 · 六",
+      "label_zh": "抵達 · 烏魯瓦圖懸崖之戀",
+      "day_query": "Alila Villas Uluwatu Bali",
+      "hotel_name": "Alila Villas Uluwatu",
+      "hotel_name_zh": "阿麗拉烏魯瓦圖別墅 · 海景泳池別墅",
+      "hotel_room": "海景泳池別墅",
+      "weather": "☀️ 31°/25°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "08:30",
-          "desc": "🏠 苗栗頭份市出發 · 自駕或計程車前往高鐵苗栗站（約15分鐘）"
+          "time": "09:10",
+          "desc": "✈️ 桃園機場 TPE 出發 · 中華航空 CI 771 · 直飛峇里島"
         },
         {
-          "time": "09:00",
-          "desc": "🚄 高鐵苗栗站搭乘 0803 車次 · 直達左營站 · 車程1小時35分 · 票價 NT$1,365/人"
+          "time": "14:40",
+          "desc": "✈️ 抵達峇里島伍拉賴機場 DPS · 入境通關取行李（約30分鐘）"
         },
         {
-          "time": "10:35",
-          "desc": "🚉 抵達高鐵左營站 · 轉乘計程車前往東港（約40分鐘 · NT$1,200）"
+          "time": "15:30",
+          "desc": "🚕 私人接送至 Alila Villas Uluwatu（約40分鐘）"
         },
         {
-          "time": "11:30",
-          "desc": "🦞 華僑市場逛逛 · 品嚐現切黑鮪魚生魚片（一盤 NT$500–800）· 購買烏魚子、櫻花蝦等伴手禮"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ 張家食堂東港店 · 雙人黑鮪魚全席套餐 NT$6,000 · 含黑鮪魚生魚片、烤下巴、握壽司、味噌湯"
-        },
-        {
-          "time": "14:00",
-          "desc": "☕ 東港漁港咖啡屋 · 下午茶 NT$600 · 黑鮪魚鬆餅 + 冰滴咖啡 · 欣賞漁港風光"
-        },
-        {
-          "time": "15:00",
-          "desc": "🚶 東港濱海公園散步 · 大鵬灣跨海大橋景觀台 · 拍照放空"
-        },
-        {
-          "time": "16:00",
-          "desc": "🛍️ 華僑市場再逛一圈 · 採購現撈黑鮪魚腹肉、櫻花蝦、雙糕潤（預算 NT$8,000）"
+          "time": "16:15",
+          "desc": "🏨 抵達酒店 · 迎賓飲料 · 辦理入住 · 探索別墅"
         },
         {
           "time": "17:00",
-          "desc": "🚕 搭計程車返回高鐵左營站（約40分鐘 · NT$1,200）"
+          "desc": "🏊 私人泳池游泳 · 懸崖海景 · 享受日落"
         },
         {
           "time": "18:30",
-          "desc": "🚄 高鐵左營站搭乘 0666 車次 · 直達苗栗站 · 車程1小時35分 · 票價 NT$1,365/人"
+          "desc": "🍽️ Alila 餐廳晚餐 · 品嚐印尼風味料理"
         },
         {
-          "time": "20:05",
-          "desc": "🏠 抵達高鐵苗栗站 · 返家 · 結束奢華黑鮪魚一日遊"
+          "time": "20:00",
+          "desc": "💆 情侶 SPA（90分鐘）· 放鬆身心"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 別墅內星空下散步 · 回房休息"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 2,
+      "date": "8月16日 · 日",
+      "label_zh": "烏魯瓦圖 · 文化與自然",
+      "day_query": "Uluwatu Temple Bali",
+      "hotel_name": "Alila Villas Uluwatu",
+      "hotel_name_zh": "阿麗拉烏魯瓦圖別墅 · 海景泳池別墅",
+      "hotel_room": "海景泳池別墅",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🥐 別墅內早餐 · 俯瞰印度洋"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚗 前往烏魯瓦圖神廟（車程20分鐘）· 門票 NT$200/人"
+        },
+        {
+          "time": "09:30",
+          "desc": "🛕 烏魯瓦圖神廟 · 懸崖上的海神廟 · 欣賞壯麗海景"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚶 神廟周邊漫步 · 猴子森林"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：單點餐廳（酒店附近）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🏖️ 返回酒店 · 沙灘俱樂部放鬆"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏊 別墅泳池 · 下午茶時光"
+        },
+        {
+          "time": "18:00",
+          "desc": "🌅 烏魯瓦圖日落 · 火舞表演（神廟旁）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ Sundara 晚餐 · 龍蝦拼盤"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回別墅 · 星空下泡澡"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 3,
+      "date": "8月17日 · 一",
+      "label_zh": "水上活動 · 藍夢島",
+      "day_query": "Nusa Lembongan Bali",
+      "hotel_name": "Alila Villas Uluwatu",
+      "hotel_name_zh": "阿麗拉烏魯瓦圖別墅 · 海景泳池別墅",
+      "hotel_room": "海景泳池別墅",
+      "weather": "☀️ 31°/25°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "06:30",
+          "desc": "🥐 別墅內早餐 · 準備出發"
+        },
+        {
+          "time": "07:30",
+          "desc": "🚤 私人快艇前往藍夢島（約30分鐘）"
+        },
+        {
+          "time": "08:30",
+          "desc": "🤿 浮潛 · 觀賞珊瑚礁與熱帶魚"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏖️ 夢幻海灘放鬆 · 拍照"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 島上午餐 · 海鮮拼盤"
+        },
+        {
+          "time": "13:30",
+          "desc": "🚤 返回峇里島"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏊 別墅泳池 · 休息"
+        },
+        {
+          "time": "18:00",
+          "desc": "💆 Alila SPA 情侶按摩（60分鐘）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 酒店晚餐 · 浪漫沙灘燭光晚餐"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 別墅休息"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 4,
+      "date": "8月18日 · 二",
+      "label_zh": "放鬆日 · 轉往烏布",
+      "day_query": "Four Seasons Sayan Bali",
+      "hotel_name": "Alila Villas Uluwatu → Four Seasons Sayan",
+      "hotel_name_zh": "阿麗拉退房 · 四季山妍入住",
+      "hotel_room": "泳池別墅",
+      "weather": "☀️ 30°/24°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 別墅內早餐 · 整理行李"
+        },
+        {
+          "time": "10:00",
+          "desc": "🧘 酒店瑜伽課程（1小時）"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏊 最後一次別墅泳池"
+        },
+        {
+          "time": "12:00",
+          "desc": "🚗 退房 · 私人專車前往烏布（約1.5小時）"
+        },
+        {
+          "time": "13:30",
+          "desc": "🍽️ 午餐：Warung Babi Guling Ibu Oka · 烤乳豬飯"
+        },
+        {
+          "time": "14:30",
+          "desc": "🏨 抵達 Four Seasons Sayan · 迎賓飲料 · 辦理入住"
+        },
+        {
+          "time": "15:30",
+          "desc": "🌿 探索度假村 · 稻田景觀 · 無邊際泳池"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚶 烏布市集散步 · 買手工藝品"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 酒店晚餐 · Ayung Terrace 餐廳"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 別墅內休息 · 享受私人泳池"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 5,
+      "date": "8月19日 · 三",
+      "label_zh": "烏布 · 藝術與聖地",
+      "day_query": "Tegallalang Rice Terrace Bali",
+      "hotel_name": "Four Seasons Resort Bali at Sayan",
+      "hotel_name_zh": "四季酒店 · 山妍 · 泳池別墅",
+      "hotel_room": "泳池別墅",
+      "weather": "☀️ 30°/23°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 別墅內早餐"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚗 前往德哥拉朗梯田（車程20分鐘）"
+        },
+        {
+          "time": "08:30",
+          "desc": "🌾 德哥拉朗梯田 · 散步拍照 · 門票 NT$150/人"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚶 聖猴森林（門票 NT$200/人）"
+        },
+        {
+          "time": "11:30",
+          "desc": "☕ Seniman Coffee Studio · 冷萃咖啡"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：Biku 峇里風情餐廳"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛕 烏布皇宮 · 傳統建築"
+        },
+        {
+          "time": "15:30",
+          "desc": "🎨 烏布藝術市場 · 購物"
+        },
+        {
+          "time": "17:00",
+          "desc": "🏊 酒店泳池 · 放鬆"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 酒店晚餐 · 浪漫套餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 別墅休息"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 6,
+      "date": "8月20日 · 四",
+      "label_zh": "聖泉寺 · 自然探險",
+      "day_query": "Tirta Empul Temple Bali",
+      "hotel_name": "Four Seasons Resort Bali at Sayan",
+      "hotel_name_zh": "四季酒店 · 山妍 · 泳池別墅",
+      "hotel_room": "泳池別墅",
+      "weather": "☀️ 31°/24°",
+      "rain_pct": "25%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🥐 別墅內早餐"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚗 前往聖泉寺（車程40分鐘）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🛕 聖泉寺 Tirta Empul · 淨身祈福"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚶 卡威山遺址"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：當地餐廳"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚗 返回酒店 · 休息"
+        },
+        {
+          "time": "15:30",
+          "desc": "🧘 酒店瑜伽課程"
+        },
+        {
+          "time": "17:00",
+          "desc": "🏊 無邊際泳池 · 稻田景觀"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ Mozaic 創意料理晚餐"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 別墅休息"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 7,
+      "date": "8月21日 · 五",
+      "label_zh": "烏布文化日",
+      "day_query": "Ubud Monkey Forest Bali",
+      "hotel_name": "Four Seasons Resort Bali at Sayan",
+      "hotel_name_zh": "四季酒店 · 山妍 · 泳池別墅",
+      "hotel_room": "泳池別墅",
+      "weather": "☀️ 30°/23°",
+      "rain_pct": "35%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 別墅內早餐"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚶 烏布猴林（門票 NT$200/人）"
+        },
+        {
+          "time": "10:30",
+          "desc": "🎨 烏布傳統繪畫課程（2小時）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：當地有機餐廳"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛕 象窟 Goa Gajah（門票 NT$150/人）"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏊 酒店泳池 · 下午茶"
+        },
+        {
+          "time": "18:00",
+          "desc": "💆 酒店 SPA 情侶按摩"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 酒店晚餐"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 別墅休息"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 8,
+      "date": "8月22日 · 六",
+      "label_zh": "轉往金巴蘭 · 寶格麗奢華",
+      "day_query": "Bvlgari Resort Bali",
+      "hotel_name": "Bvlgari Resort Bali",
+      "hotel_name_zh": "寶格麗度假村 · 海景豪華套房",
+      "hotel_room": "海景豪華套房",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 別墅內早餐 · 整理行李"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏊 最後一次泳池"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚗 退房 · 前往金巴蘭（車程1.5小時）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：金巴蘭海鮮燒烤"
+        },
+        {
+          "time": "14:00",
+          "desc": "🏨 抵達 Bvlgari Resort Bali · 迎賓飲料 · 辦理入住"
+        },
+        {
+          "time": "15:00",
+          "desc": "🌅 探索度假村 · 懸崖海景 · 私人海灘"
+        },
+        {
+          "time": "17:00",
+          "desc": "🏊 套房泳池 · 放鬆"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 酒店餐廳晚餐 · 義大利風味"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 套房內休息 · 星空陽台"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 9,
+      "date": "8月23日 · 日",
+      "label_zh": "金巴蘭 · 海灘與夕陽",
+      "day_query": "Jimbaran Beach Bali",
+      "hotel_name": "Bvlgari Resort Bali",
+      "hotel_name_zh": "寶格麗度假村 · 海景豪華套房",
+      "hotel_room": "海景豪華套房",
+      "weather": "☀️ 33°/27°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 套房內早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏖️ 私人海灘 · 浮潛"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 海灘午餐"
+        },
+        {
+          "time": "14:00",
+          "desc": "💆 寶格麗 SPA · 情侶療程"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏊 度假村泳池"
+        },
+        {
+          "time": "17:30",
+          "desc": "🌅 金巴蘭海灘散步 · 日落"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ Sundara 晚餐 · 龍蝦"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 套房休息"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 10,
+      "date": "8月24日 · 一",
+      "label_zh": "庫塔 · 購物與夜生活",
+      "day_query": "Seminyak Bali",
+      "hotel_name": "Bvlgari Resort Bali",
+      "hotel_name_zh": "寶格麗度假村 · 海景豪華套房",
+      "hotel_room": "海景豪華套房",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 套房內早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚗 前往水明漾（車程30分鐘）"
+        },
+        {
+          "time": "10:00",
+          "desc": "🛍️ 水明漾精品店購物"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：La Brasserie"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚶 庫塔海灘散步"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚗 返回酒店"
+        },
+        {
+          "time": "17:30",
+          "desc": "🏊 泳池放鬆"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 酒店晚餐"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 套房休息"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 11,
+      "date": "8月25日 · 二",
+      "label_zh": "最後的放鬆日",
+      "day_query": "Bvlgari Resort Bali pool",
+      "hotel_name": "Bvlgari Resort Bali",
+      "hotel_name_zh": "寶格麗度假村 · 海景豪華套房",
+      "hotel_room": "海景豪華套房",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 套房內早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🧘 度假村瑜伽課程"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏊 泳池放鬆"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：酒店餐廳"
+        },
+        {
+          "time": "14:00",
+          "desc": "💆 最後的 SPA 療程"
+        },
+        {
+          "time": "16:00",
+          "desc": "🌅 懸崖觀景台 · 拍照"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 浪漫晚餐 · 酒店沙灘"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 打包行李 · 休息"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 12,
+      "date": "8月26日 · 三",
+      "label_zh": "返程 · 再會峇里島",
+      "day_query": "Ngurah Rai Airport Bali",
+      "hotel_name": "Bvlgari Resort Bali",
+      "hotel_name_zh": "寶格麗度假村 · 退房",
+      "hotel_room": "海景豪華套房",
+      "weather": "☀️ 31°/25°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 套房內早餐 · 整理行李"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏊 最後一次泳池"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚗 退房 · 前往機場（車程30分鐘）"
+        },
+        {
+          "time": "12:00",
+          "desc": "✈️ 抵達 DPS · 辦理登機"
+        },
+        {
+          "time": "15:40",
+          "desc": "✈️ 中華航空 CI 772 起飛"
+        },
+        {
+          "time": "21:10",
+          "desc": "✈️ 抵達桃園 TPE · 旅程結束"
         }
       ],
       "day_photo": ""
@@ -218,79 +913,71 @@
   ],
   "costs": [
     {
-      "label": "🚄 高鐵來回",
-      "amount_ntd": 5460
+      "label": "✈️ 來回機票",
+      "amount_ntd": 38000
     },
     {
-      "label": "🚕 計程車（頭份-苗栗高鐵站）",
-      "amount_ntd": 600
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 410000
     },
     {
-      "label": "🚕 計程車（左營-東港來回）",
-      "amount_ntd": 2400
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 30000
     },
     {
-      "label": "🍽️ 張家食堂午餐",
-      "amount_ntd": 6000
+      "label": "🎫 景點門票",
+      "amount_ntd": 5000
     },
     {
-      "label": "🍽️ 華僑市場小吃 & 下午茶",
-      "amount_ntd": 3600
+      "label": "🚇 交通",
+      "amount_ntd": 12000
     },
     {
-      "label": "🎫 無門票",
-      "amount_ntd": 0
-    },
-    {
-      "label": "🛍️ 伴手禮（黑鮪魚腹肉、櫻花蝦等）",
-      "amount_ntd": 8000
-    },
-    {
-      "label": "🛡️ 其他（飲料、雜支）",
-      "amount_ntd": 2000
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 5000
     }
   ],
-  "cost_total_ntd": 28060,
-  "budget_remaining_ntd": 71940,
+  "cost_total_ntd": 500000,
+  "budget_remaining_ntd": 0,
   "photos": {
     "hero": [
       {
         "url": "",
-        "label": "Donggang skyline landmark"
+        "label": "Bali skyline landmark"
       },
       {
         "url": "",
-        "label": "Donggang skyline landmark"
+        "label": "Bali skyline landmark"
       }
     ],
     "destination": [
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Bali travel scenery"
       },
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Bali travel scenery"
       },
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Bali travel scenery"
       },
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Bali travel scenery"
       },
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Bali travel scenery"
       },
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Bali travel scenery"
       }
     ]
   },
-  "chat_hash": "10e34b7b319a36cb8a9109fc6e5d416e71ea182e8211771f7ac107e224977e62",
+  "chat_hash": "89a416bb466d11f3215d9271bc9ed42057c2a91eab12d61fa2a25527782fd218",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-05-31T14:49:16.172193"
+  "generated_at": "2026-05-31T15:09:46.219688"
 }
