@@ -1,0 +1,1818 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>寒假巴黎 · 浪漫八天之旅 — Travel Planner</title>
+<meta property="og:title" content="寒假巴黎 · 浪漫八天之旅 — Travel Planner">
+<meta property="og:description" content="Paris, France · 2026/01/26–02/02 · 2人 · NT$500,000">
+
+<meta property="og:image" content="https://wallpapercrafter.com/desktop1/504790-eiffel-tower-cityscape-city-landmark-paris-sky.jpg">
+
+<meta property="og:type" content="website">
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400&family=Noto+Serif+TC:wght@300;400;600&display=swap');
+
+  :root {
+    --gold: #c9a84c;
+    --rose: #d4a0a0;
+    --cream: #faf7f2;
+    --ink: #2c2416;
+    --warm-gray: #8c8273;
+    --soft-white: #fffdf8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  .container {
+    overflow-x: hidden;
+  }
+
+  /* ─── NAVIGATION ─── */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 1rem;
+    background: var(--soft-white);
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--warm-gray);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+    flex-shrink: 0;
+  }
+  nav a:hover, nav a.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 1.25rem; }
+
+  /* ─── IMAGE SLIDER ─── */
+  .slider {
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .slider-track {
+    display: inline-flex;
+  }
+  .slider-track img {
+    width: 100%; height: 320px;
+    border-radius: 8px;
+    margin-right: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  /* ─── HERO SLIDER ─── */
+  .hero-slider {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+  .hero-slider .slider { margin-bottom: 0; border-radius: 0; }
+  .hero-slider .slider-track img {
+    width: 100%; height: 420px; margin-right: 0; border-radius: 0;
+  }
+  .hero-overlay {
+    position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
+    background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 80%);
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 2rem 1.5rem;
+  }
+  .hero-overlay h1 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 2.5rem; font-weight: 400;
+    color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  .hero-overlay .zh-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.1rem; color: rgba(255,255,255,0.9);
+    margin-top: 0.25rem;
+  }
+  .hero-stats {
+    display: flex; flex-wrap: wrap; gap: 1rem 1.5rem;
+    margin-top: 0.75rem;
+    color: rgba(255,255,255,0.9);
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+  }
+  /* ─── HOTEL CARD + SLIDER ─── */
+  .hotel-card {
+    background: var(--soft-white); border-radius: 12px; overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .hotel-info { padding: 0 1.25rem; }
+  .hotel-info:first-of-type { padding-top: 1rem; }
+  .hotel-card > :last-child { padding-bottom: 1.25rem; }
+  .hotel-slider {
+    overflow: hidden; white-space: nowrap;
+  }
+  .hotel-slider .slider-track {
+    display: flex;
+  }
+  .hotel-slider .slider-track img {
+    width: 100%; height: 240px; margin-right: 4px;
+    object-fit: cover; flex-shrink: 0;
+  }
+
+  /* ─── DINING SLIDER ─── */
+  .dining-slider {
+    overflow: hidden; white-space: nowrap;
+  }
+  .dining-slider .slider-track {
+    display: flex;
+  }
+  .dining-slider .slider-track a {
+    width: 100%; flex-shrink: 0; display: block;
+  }
+  .dining-slider .slider-track img {
+    width: 100%; height: 240px; margin-right: 4px;
+    object-fit: cover; flex-shrink: 0;
+  }
+  .dining-card { border-radius: 12px; overflow: hidden; }
+  .dining-card .dining-slider { border-radius: 0; }
+
+  /* ─── SECTION HEADER ─── */
+  .section-title {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.9rem; color: var(--ink); margin-bottom: 0.5rem;
+    position: relative;
+  }
+  .section-title::after {
+    content: ''; position: absolute; bottom: -6px; left: 0;
+    width: 36px; height: 2px; background: var(--gold);
+  }
+  .section-sub {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.05rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+  }
+
+  /* ─── FULL CARDS ─── */
+  .full-card {
+    background: var(--soft-white);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.03);
+  }
+  .full-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .full-card-header h2 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.6rem; font-weight: 500;
+  }
+  .external-btn {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    padding: 0.55rem 1.1rem;
+    background: var(--ink); color: #fff;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: none; cursor: pointer;
+    white-space: nowrap;
+  }
+  .external-btn.google { background: #4285f4; }
+  .external-btn.agoda { background: #e12b52; }
+  .external-btn:hover { opacity: 0.88; }
+
+  /* ─── FLIGHT ─── */
+  .flight-detail {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .flight-detail .divider {
+    width: 1px; height: 50px;
+    background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+    justify-self: center;
+  }
+  .flight-info { font-size: 1.05rem; }
+  .flight-info .label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
+  }
+  .flight-info .airline {
+    font-family: 'Playfair Display', serif; font-size: 1.3rem;
+    color: var(--ink); margin: 0.2rem 0;
+  }
+
+  /* ─── HOTEL ─── */
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .hotel-card-inner {
+    font-size: 1.05rem;
+  }
+  .hotel-card-inner h3 {
+    font-family: 'Playfair Display','Noto Serif TC',serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.2rem;
+  }
+  .hotel-card-inner .zh {
+    font-family: 'Noto Serif TC',serif;
+    font-size: 1rem;
+    color: var(--warm-gray);
+  }
+
+  /* ─── DINING ─── */
+  .dining-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .dining-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .dining-info {
+    padding: 1rem;
+  }
+  .dining-info h4 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.1rem; margin-bottom: 0.15rem;
+  }
+  .dining-info .zh-name {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.95rem; color: var(--warm-gray);
+  }
+  .dining-info .dish {
+    font-size: 0.9rem; color: var(--gold);
+    font-style: italic; margin-top: 0.25rem;
+  }
+
+  /* ─── TIMELINE ─── */
+  .day-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.02);
+    display: grid;
+    grid-template-columns: 80px auto 90px;
+    gap: 1rem;
+    align-items: start;
+  }
+  .day-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; color: var(--gold);
+    text-align: center; line-height: 1;
+  }
+  .day-label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); text-align: center;
+  }
+  .day-zh {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.85rem; color: var(--ink); text-align: center;
+    margin-top: 0.2rem;
+  }
+  .day-photo {
+    width: 100%; height: 220px; object-fit: cover; border-radius: 8px;
+    margin-bottom: 0.75rem; display: block;
+  }
+  .day-schedule { font-size: 1.15rem; }
+  .day-schedule .time-slot {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    display: flex; gap: 0.6rem; align-items: baseline;
+  }
+  .time-slot .time {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem; color: var(--gold);
+    min-width: 58px; letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .day-weather {
+    font-size: 0.9rem; color: var(--warm-gray);
+    text-align: right; padding-top: 0.25rem;
+  }
+
+  /* ─── COST ─── */
+  .cost-section {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .cost-row {
+    display: flex; justify-content: space-between;
+    padding: 0.5rem 0; font-size: 1.05rem;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    flex-wrap: wrap;
+  }
+  .cost-bar {
+    height: 6px; border-radius: 3px;
+    background: rgba(201,168,76,0.15); margin: 0.75rem 0;
+  }
+  .cost-bar-fill {
+    height: 100%; border-radius: 3px;
+    background: linear-gradient(to right, var(--gold), var(--rose));
+    width: 94%;
+  }
+
+  /* ─── PAGES ─── */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* ─── SETTINGS ─── */
+  .settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .setting-group {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .setting-group label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); display: block; margin-bottom: 0.3rem;
+  }
+  .setting-group .zh-label {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.8rem; color: var(--ink); margin-bottom: 0.5rem;
+  }
+  .setting-group input, .setting-group select {
+    width: 100%; padding: 0.75rem 0.85rem;
+    border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    -webkit-appearance: none;
+  }
+  .setting-group input:focus, .setting-group select:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+  }
+  .save-btn {
+    background: linear-gradient(135deg, var(--gold), #b8942f);
+    color: #fff; border: none;
+    padding: 0.8rem 2rem; border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 0.85rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    cursor: pointer; margin-top: 1.25rem;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+  }
+  .save-btn:hover { opacity: 0.9; }
+
+  /* ─── LOG ─── */
+  .log-entry {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem; margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+  }
+  .log-date {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--gold);
+  }
+  .log-status {
+    display: inline-block; padding: 0.15rem 0.6rem; border-radius: 10px;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem; margin-left: 0.4rem;
+  }
+  .log-status.generated { background: rgba(76,175,80,0.12); color: #388e3c; }
+  .log-status.chatting { background: rgba(201,168,76,0.15); color: #8b6914; }
+
+  /* ─── CHAT ─── */
+  .chat-box {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .chat-date-label {
+    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); margin-bottom: 0.5rem;
+  }
+  .chat-box textarea {
+    width: 100%; height: 200px; padding: 1rem;
+    border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    line-height: 1.8; resize: vertical;
+    -webkit-appearance: none;
+  }
+  .chat-box textarea:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
+  }
+  .chat-hint {
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    color: var(--warm-gray); margin-top: 0.4rem; font-style: italic;
+  }
+
+  /* ─── LIGHTBOX ─── */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .lightbox.open { display: flex; }
+  .lbox-img-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    transition: opacity 0.2s;
+    cursor: default;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .lightbox img {
+      max-width: 96vw;
+      max-height: 82vh;
+    }
+    .lightbox .lbox-arrow { font-size: 2rem; margin: 0 6px; }
+  }
+  .lightbox .counter {
+    color: rgba(255,255,255,0.7);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.75rem;
+    z-index: 2;
+    position: relative;
+  }
+  .lightbox .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    border: none;
+    line-height: 1;
+  }
+  .lightbox .close-btn:hover { background: rgba(255,255,255,0.18); }
+  /* Nav zones — only inside the image wrapper, not full screen */
+  .lightbox .lbox-left,
+  .lightbox .lbox-right {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 50%;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+  .lightbox .lbox-left  { left: 0;  justify-content: flex-start; }
+  .lightbox .lbox-right { right: 0; justify-content: flex-end; }
+  .lightbox .lbox-arrow {
+    color: rgba(255,255,255,0.4);
+    font-size: 2.5rem;
+    margin: 0 16px;
+    pointer-events: none;
+    user-select: none;
+  }
+  .lightbox .lbox-left:hover .lbox-arrow,
+  .lightbox .lbox-right:hover .lbox-arrow {
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* ─── SAVE PLAN CHECKBOX ─── */
+  .save-plan-label {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    user-select: none;
+  }
+  .save-plan-label input[type="checkbox"] {
+    width: 16px; height: 16px;
+    accent-color: var(--gold);
+    cursor: pointer;
+  }
+
+  /* ─── BROKEN IMAGES ─── */
+  img.broken { display: none !important; }
+
+  /* ═══════════════ MOBILE: iPhone ───────────────────── */
+  @media (max-width: 768px) {
+
+    .container { padding: 0.75rem; }
+
+    /* Nav — compact scrollable */
+    nav {
+      gap: 1rem;
+      padding: 0.7rem 0.75rem;
+    }
+    nav a {
+      font-size: 0.72rem;
+      letter-spacing: 1px;
+    }
+
+    /* Hero — shorter */
+    .hero-slider .slider-track img { height: 260px; }
+    .hero-overlay { padding: 1.25rem 1rem; }
+    .hero-overlay h1 { font-size: 1.7rem; }
+    .hero-overlay .zh-title { font-size: 0.95rem; }
+    .hero-stats { font-size: 0.75rem; gap: 0.5rem 1rem; }
+
+    /* Hotel & dining sliders — shorter */
+    .hotel-slider .slider-track img,
+    .dining-slider .slider-track img { height: 180px; }
+
+    /* Slider — smaller images */
+    .slider-track img {
+      height: 200px;
+      margin-right: 6px;
+    }
+
+    /* Full card — tighter padding */
+    .full-card {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+    .full-card-header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .full-card-header h2 {
+      font-size: 1.3rem;
+    }
+
+    /* Flight — stack vertically */
+    .flight-detail {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .flight-detail .divider {
+      width: 80%;
+      height: 1px;
+      justify-self: center;
+    }
+
+    /* Hotel — already responsive via flex-wrap */
+
+    /* Dining — single column, smaller images */
+    .dining-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+    /* Dining text — bump up for readability */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.82rem !important; }
+    .dining-info .dish { font-size: 0.78rem !important; }
+
+    /* Timeline — single column, date on top */
+    .day-card {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+      padding: 1rem;
+    }
+    .day-card > :first-child {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .day-num {
+      font-size: 1.1rem;
+      color: var(--gold);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+    .day-label {
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+    }
+    .day-zh {
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+    .day-weather {
+      text-align: left;
+      font-size: 0.8rem;
+      margin-left: auto;
+    }
+    .day-schedule { font-size: 1rem; }
+    .time-slot .time {
+      font-size: 0.75rem;
+      min-width: 46px;
+    }
+    .time-slot {
+      gap: 0.3rem;
+    }
+
+    /* Settings — single column */
+    .settings-grid {
+      grid-template-columns: 1fr;
+    }
+
+    /* Cost — tighten */
+    .cost-row {
+      font-size: 0.95rem;
+    }
+    .cost-section {
+      padding: 1rem;
+    }
+
+    /* Chat */
+    .chat-box textarea {
+      height: 180px;
+      font-size: 1.05rem;
+    }
+
+    /* Section titles */
+    .section-title {
+      font-size: 1.4rem;
+    }
+    .section-sub {
+      font-size: 0.9rem;
+    }
+
+    /* External buttons — full width */
+    .external-btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 0.75rem;
+      padding: 0.55rem 1rem;
+    }
+  }
+
+  /* ═══════════════ SMALL PHONES ────────────────────── */
+  @media (max-width: 390px) {
+    .hero-slider .slider-track img { height: 220px; }
+    .hero-overlay h1 { font-size: 1.45rem; }
+    .hero-overlay .zh-title {
+      font-size: 0.85rem;
+    }
+    .day-card {
+      grid-template-columns: 1fr;
+      padding: 0.85rem;
+    }
+    .day-num {
+      font-size: 1rem;
+    }
+    .day-schedule { font-size: 0.9rem; }
+    /* Dining text — bigger on iPhone */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.8rem !important; }
+    .dining-info .dish { font-size: 0.76rem !important; }
+    nav a {
+      font-size: 0.65rem;
+      letter-spacing: 0.5px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Destination slider + overlay (merged hero) -->
+  <div class="hero-slider">
+    <div class="slider">
+      <div class="slider-track">
+        
+        <img src="https://images.hdqwalls.com/wallpapers/eiffel-tower-paris-beautiful-view-1s.jpg" alt="Beautiful Paris Photography">
+        
+        <img src="https://www.hdwallpapers.in/download/paris_eiffel_tower_france_with_blue_sky_background_hd_travel-2560x1440.jpg" alt="Paris Eiffel Tower France With Blue Sky Background HD Travel Wallpapers ...">
+        
+        <img src="http://travel-dmc.com/wp-content/uploads/2019/05/5-Most-Beautiful-Places-You-Must-Visit-in-Paris.jpg" alt="Must visit in paris - Viajessindestino.com">
+        
+        <img src="https://cdn.getyourguide.com/img/location/5ffeb39946966.jpeg/88.jpg" alt="The BEST Paris Tours and Things to Do in 2022 - FREE Cancellation ...">
+        
+        <img src="https://www.tripsavvy.com/thmb/53SlvgEDDI75AuntloS_zMln3PI=/5480x3620/filters:fill(auto,1)/paris-in-colors-170641321-5be5a75c46e0fb00269c8f80.jpg" alt="Beautiful Places In Paris To Visit - top hiking trails">
+        
+        <img src="https://hips.hearstapps.com/hmg-prod/images/high-angle-view-of-paris-skyline-at-sunset-royalty-free-image-1575587641.jpg" alt="VERANDA's Love Letter to Paris - Design Guide to Paris">
+        
+      </div>
+    </div>
+    <div class="hero-overlay">
+      <h1>Paris, France</h1>
+      <div class="zh-title">寒假巴黎 · 浪漫八天之旅</div>
+      <div class="hero-stats">
+        <span>✈️ 2026/01/26–02/02</span>
+        <span>👥 2 人</span>
+        <span>💰 NT$500,000</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✈️ FLIGHT -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>✈️ 航班 Flight</h2>
+      <a class="external-btn google" href="https://www.google.com/travel/flights?q=Flights+to+CDG+from+TPE+2026-01-26" target="_blank">
+        ↗ Google Flights 搜尋更多航班
+      </a>
+    </div>
+    <div class="flight-detail">
+      <div class="flight-info">
+        <div class="label">出發 Departure · 1月26日</div>
+        <div class="airline">長榮航空 EVA Air</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">BR 87</span> · TPE → CDG 直飛<br>
+          23:40 出發 · 07:30 (+1) 抵達<br>
+          飛行 13h 50m · 經濟艙
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="flight-info">
+        <div class="label">回程 Return · 2月2日</div>
+        <div class="airline">長榮航空 EVA Air</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">BR 88</span> · CDG → TPE 直飛<br>
+          11:20 出發 · 06:30 (+1) 抵達<br>
+          飛行 13h 10m · 經濟艙
+        </div>
+      </div>
+    </div>
+    <div style="text-align:right; margin-top:1rem; font-size:0.9rem;">
+      來回 NT$ <strong>68,000</strong> / 2人
+    </div>
+  </div>
+
+  <!-- 🏨 HOTELS -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🏨 住宿 Hotel</h2>
+      <a class="external-btn agoda" href="https://www.agoda.com/zh-tw/city/paris-fr.html?checkIn=2026-01-26&checkOut=2026-02-02&adults=2" target="_blank">
+        ↗ Agoda 搜尋更多住宿
+      </a>
+    </div>
+
+    
+    <div class="hotel-card" style="margin-bottom:1.5rem;">
+      <!-- Hotel photo gallery — full-width slider on top, matching dining card layout -->
+      
+      <a href="https://www.google.com/search?tbm=isch&q=H%C3%B4tel%20Le%20Narcisse%20Blanc%20Paris%20France" target="_blank" title="More photos of Hôtel Le Narcisse Blanc & Spa">
+      <div class="hotel-slider">
+        <div class="slider-track">
+          
+          
+          
+          
+          <img src="https://www.paris.tourisme-ville.fr/wp-content/uploads/Narcisse-Blanc-Facade.jpg" alt="Le Narcisse Blanc Hôtel et Spa - Paris Guide">
+          
+          
+          
+          
+          <img src="https://farm8.staticflickr.com/7905/31717635057_1221e16156_k.jpg" alt="Le Narcisse Blanc Hotel & Spa: True Parisian Sophistication and ...">
+          
+          
+          
+          
+          <img src="https://d1x2jsuj9gaph.cloudfront.net/imageRepo/6/0/88/76/391/_19A8730_md_P.jpg" alt="Le Narcisse Blanc Hôtel & Spa, Luxury Hotel in Paris, France | Small ...">
+          
+          
+          
+          
+          <img src="https://cdn.prod.website-files.com/64d0dc382c32125c4ca717f4/64e5f2200c9143bb05c90043_lenarcisseblanc-hotel-paris-home-slider3.jpg" alt="Le Narcisse Blanc | Hôtel de Luxe & Spa au Coeur de Paris">
+          
+          
+          
+          
+          <img src="https://www.myboutiquehotel.com/photos/106968/le-narcisse-blanc-spa-paris-006-80827-2220x1400.jpg" alt="Le Narcisse Blanc, a Design Boutique Hotel Paris, France">
+          
+          
+          
+          
+          <img src="https://www.myboutiquehotel.com/photos/106968/le-narcisse-blanc-spa-paris-013-80828-2220x1400.jpg" alt="Le Narcisse Blanc, Paris, France - My Boutique hotel">
+          
+          
+        </div>
+      </div>
+      </a>
+      
+      <div class="hotel-info" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.5rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Hôtel Le Narcisse Blanc & Spa</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">水仙花白酒店 · 巴黎 6 區</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">DAY 1–4</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">4 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 52,000</div>
+        </div>
+      </div>
+      <div class="hotel-info" style="font-size:0.85rem;color:var(--ink);">
+        ★★★★☆ · 經典豪華雙人房 · 含法式早餐<br>
+        🏊 室內泳池 · 💆 SPA & 土耳其浴 · 🍽️ 庭院餐廳 · 🌿 私密花園
+      </div>
+    </div>
+    
+    <div class="hotel-card" style="margin-bottom:1rem;">
+      <!-- Hotel photo gallery — full-width slider on top, matching dining card layout -->
+      
+      <a href="https://www.google.com/search?tbm=isch&q=H%C3%B4tel%20Particulier%20Montmartre%20Paris" target="_blank" title="More photos of Hôtel Particulier Montmartre">
+      <div class="hotel-slider">
+        <div class="slider-track">
+          
+          
+          
+          
+          <img src="https://thegoodlife.fr/wp-content/uploads/sites/2/2022/10/the-good-life-hotel-particulier-montmartre-hotel-charme-paris-7.jpg" alt="A Paris, une nuit à l’Hôtel Particulier de Montmartre - The Good Life">
+          
+          
+          
+          
+          <img src="https://barlacalle.fr/wp-content/uploads/2025/04/Decouvrez-lHotel-Particulier-Montmartre-un-restaurant-au-charme-bucolique-et-a-la-terrasse-secrete-1024x585.jpg" alt="Découvrez l'Hôtel Particulier Montmartre, un restaurant au charme ...">
+          
+          
+          
+          
+          <img src="https://offloadmedia.feverup.com/parissecret.com/wp-content/uploads/2020/05/23132844/Capture-d’écran-2020-05-16-à-18.24.43.png" alt="Paris : l'Hôtel Particulier Montmartre rouvre ses portes ! - Paris Secret">
+          
+          
+          
+          
+          <img src="https://particulier-montmartre.iledefrance-hotel.com/data/Pictures/OriginalPhoto/10178/1017897/1017897433/paris-hotel-particulier-montmartre-picture-62.JPEG" alt="Hotel Particulier Montmartre Paris, France - réserver maintenant, les ...">
+          
+          
+          
+          
+          <img src="https://www.paristopten.com/wp-content/uploads/hotel-particulier-montmartre-1.jpg" alt="Hidden Romantic Getaways: Parisian Hotels Only Locals Know About">
+          
+          
+          
+          
+          <img src="https://particulier-montmartre.iledefrance-hotel.com/data/Imgs/OriginalPhoto/7039/703963/703963999/img-hotel-particulier-montmartre-paris-66.JPEG" alt="Hotel Particulier Montmartre Paris, France - réserver maintenant, les ...">
+          
+          
+        </div>
+      </div>
+      </a>
+      
+      <div class="hotel-info" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.5rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Hôtel Particulier Montmartre</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">蒙馬特私人酒店 · 巴黎 18 區</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">DAY 4–8</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">4 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 58,000</div>
+        </div>
+      </div>
+      <div class="hotel-info" style="font-size:0.85rem;color:var(--ink);">
+        ★★★★★ · 豪華套房附露台 · 含歐陸早餐<br>
+        🌿 私人花園 · 🍸 酒吧 · 🎨 藝術畫廊 · 🛁 大理石浴室
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 🍽️ DINING -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🍽️ 美食 Dining</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">8天 · 6 間餐廳 · NT$0</span>
+    </div>
+
+    
+
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 米其林星級 Fine Dining</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Le%20Cinq%20restaurant%20Four%20Seasons%20Paris%20food" target="_blank" title="More photos of Le Cinq">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="http://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-221,5743-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_706_original.jpg" alt="Le Cinq" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-788,4585-2250,0000-1265,6250/publish/content/dam/fourseasons/images/web/PAR/PAR_1048_original.jpg" alt="Le Cinq" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-272,1406-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_1681_original.jpg" alt="Le Cinq" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Le Cinq</h4>
+            <div class="zh-name">四季酒店米其林三星 · ⭐⭐⭐</div>
+            <div class="dish">🦞 招牌：龍蝦濃湯佐黑松露</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Le%20Cinq+31%20Av.%20George%20V%2C%208%E5%8D%80" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">31 Av. George V, 8區</a><br>
+              💰 晚餐套餐 €245/人 · NT$8,500<br>
+              🕐 19:00–22:00 · 需預約
+            </div>
+          </div>
+        </div>
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=L%27Ambroisie%20restaurant%20Place%20des%20Vosges%20Paris" target="_blank" title="More photos of L'Ambroisie">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://s3-media3.fl.yelpcdn.com/bphoto/-DRzu0yxJBle6rsL4V-yWA/o.jpg" alt="L'Ambroisie" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://images.squarespace-cdn.com/content/v1/5cf423ac7eb1290001ede256/1619856620882-UFZMT05M3OI7IE4DM8LB/ambroisie.jpg" alt="L'Ambroisie" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/5821_int3_1.jpg" alt="L'Ambroisie" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>L'Ambroisie</h4>
+            <div class="zh-name">米其林三星 · 布魯斯廣場 · ⭐⭐⭐</div>
+            <div class="dish">🌟 招牌：龍蝦佐松露酥皮 · 巧克力舒芙蕾</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=L%27Ambroisie+9%20Pl.%20des%20Vosges%2C%204%E5%8D%80" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">9 Pl. des Vosges, 4區</a><br>
+              💰 晚餐套餐 €260/人 · NT$9,000<br>
+              🕐 12:00–14:00 / 19:30–21:30 · 週日一休息
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 法式小館 Bistros & Casual</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Septime%20restaurant%20Paris%20food" target="_blank" title="More photos of Septime">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://www.solosophie.com/wp-content/uploads/2020/02/septime-paris-food.jpg" alt="Septime" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.solosophie.com/wp-content/uploads/2020/02/Paris-Septime-Restaurant-Review-in-the-11th-Arrondissement-of-Paris-France-Michelin-Star-Paris-Luxury-Food.jpg.webp" alt="Septime" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.solosophie.com/wp-content/uploads/2020/02/septime-paris-restaurant-interior-1024x683.jpg" alt="Septime" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Septime</h4>
+            <div class="zh-name">新派法式小酒館 · 米其林一星 · ⭐</div>
+            <div class="dish">🥩 招牌：熟成肋眼牛排 · 煙燻甜菜根</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Septime+80%20Rue%20de%20Charonne%2C%2011%E5%8D%80" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">80 Rue de Charonne, 11區</a><br>
+              💰 午餐套餐 €92/人 · NT$3,200<br>
+              🕐 12:15–14:00 / 19:30–22:00
+            </div>
+          </div>
+        </div>
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Le%20Chateaubriand%20restaurant%20Paris" target="_blank" title="More photos of Le Chateaubriand">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://u.tfstatic.com/restaurant_photos/202/76202/169/612/le-chateaubriand-devanture-1a61e.jpg" alt="Le Chateaubriand" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://img.restaurantguru.com/re26-Le-Chateaubriand-menu-2022-10-1.jpg" alt="Le Chateaubriand" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://img.restaurantguru.com/w550/h367/r93a-design-Le-Chateaubriand-2024-09-1.jpg" alt="Le Chateaubriand" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Le Chateaubriand</h4>
+            <div class="zh-name">新派小酒館 · 米其林一星 · ⭐</div>
+            <div class="dish">🐟 招牌：時令創意套餐 · 海鮮前菜</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Le%20Chateaubriand+129%20Av.%20Parmentier%2C%2011%E5%8D%80" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">129 Av. Parmentier, 11區</a><br>
+              💰 晚餐套餐 €80/人 · NT$2,800<br>
+              🕐 19:30–23:00 · 週日一休息
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:0;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 咖啡甜點 Cafés & Sweets</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Cafe%20de%20Flore%20Paris%20interior" target="_blank" title="More photos of Café de Flore">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://www.commercialdesignindia.com/cloud/2023/05/05/image_6483441-2-1024x1024.jpg" alt="Café de Flore" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://live.staticflickr.com/2109/2313594657_22d8acf2ab_z.jpg" alt="Café de Flore" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://i0.wp.com/www.theluxurylowdown.com/wp-content/uploads/2021/10/The_Luxury_Lowdown_Cafe_de_Flore_12.jpg?resize=1024,683&ssl=1" alt="Café de Flore" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Café de Flore</h4>
+            <div class="zh-name">花神咖啡館 · 1887年開業</div>
+            <div class="dish">☕ 招牌：熱巧克力 · 可頌 · 焦糖布丁</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20de%20Flore+172%20Bd%20Saint-Germain%2C%206%E5%8D%80" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">172 Bd Saint-Germain, 6區</a><br>
+              💰 兩人早午餐 €52 · NT$1,800<br>
+              🕐 07:30–01:30 · 文人雅士最愛
+            </div>
+          </div>
+        </div>
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=La%20P%C3%A2tisserie%20des%20R%C3%AAves%20Paris" target="_blank" title="More photos of La Pâtisserie des Rêves">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="http://retaildesignblog.net/wp-content/uploads/2012/11/La-Patisserie-des-Reves-Paris-13.jpg" alt="La Pâtisserie des Rêves" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.roadtopastry.com/blog/wp-content/uploads/Shop-Patisserie-des-reves-Paris01.jpg" alt="La Pâtisserie des Rêves" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.sugarednspiced.com/wp-content/uploads/2012/12/R0057087.jpg" alt="La Pâtisserie des Rêves" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>La Pâtisserie des Rêves</h4>
+            <div class="zh-name">夢幻甜點店 · 巴黎最美味</div>
+            <div class="dish">🍰 招牌：巴黎布列斯特 · 千層派 · 檸檬塔</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=La%20P%C3%A2tisserie%20des%20R%C3%AAves+93%20Rue%20du%20Bac%2C%207%E5%8D%80" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">93 Rue du Bac, 7區</a><br>
+              💰 兩人甜點+咖啡 €26 · NT$900<br>
+              🕐 09:00–19:30 · 週一休息
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+
+    <!-- Food image slider -->
+    <div class="slider" style="margin-top:1rem;">
+      <div class="slider-track">
+        
+        
+        
+        
+        <img src="http://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-221,5743-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_706_original.jpg" alt="Paris Restaurants | Fine Dining | Four Seasons Hotel George V Paris">
+        
+        
+        
+        <img src="https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-788,4585-2250,0000-1265,6250/publish/content/dam/fourseasons/images/web/PAR/PAR_1048_original.jpg" alt="Le Cinq | Michelin-Star Restaurant Paris | Fine Dining in Paris">
+        
+        
+        
+        
+        
+        <img src="https://s3-media3.fl.yelpcdn.com/bphoto/-DRzu0yxJBle6rsL4V-yWA/o.jpg" alt="L’Ambroisie - 149 Photos & 48 Reviews - French - 9 place des Vosges ...">
+        
+        
+        
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf423ac7eb1290001ede256/1619856620882-UFZMT05M3OI7IE4DM8LB/ambroisie.jpg" alt="L'Ambroisie – Michelin-Starred Restaurant in Paris, France | Flavors ...">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://www.solosophie.com/wp-content/uploads/2020/02/septime-paris-food.jpg" alt="Paris Septime Restaurant Review in the 11th Arrondissement | solosophie">
+        
+        
+        
+        <img src="https://www.solosophie.com/wp-content/uploads/2020/02/Paris-Septime-Restaurant-Review-in-the-11th-Arrondissement-of-Paris-France-Michelin-Star-Paris-Luxury-Food.jpg.webp" alt="Paris Septime Restaurant Review in the 11th Arrondissement | solosophie">
+        
+        
+        
+        
+        
+        <img src="https://u.tfstatic.com/restaurant_photos/202/76202/169/612/le-chateaubriand-devanture-1a61e.jpg" alt="Restaurante Le Châteaubriand en Paris - Menú, opiniones, precios y reserva">
+        
+        
+        
+        <img src="https://img.restaurantguru.com/re26-Le-Chateaubriand-menu-2022-10-1.jpg" alt="Menu at Le Châteaubriand restaurant, Paris, 129 Ave Parmentier">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://www.commercialdesignindia.com/cloud/2023/05/05/image_6483441-2-1024x1024.jpg" alt="A taste of Paris: Cafe de Flora by Chromed Design Studio celebrates ...">
+        
+        
+        
+        <img src="https://live.staticflickr.com/2109/2313594657_22d8acf2ab_z.jpg" alt="Cafe de Flore interior - a photo on Flickriver">
+        
+        
+        
+        
+        
+        <img src="http://retaildesignblog.net/wp-content/uploads/2012/11/La-Patisserie-des-Reves-Paris-13.jpg" alt="» CHOCOLATIER! La Pâtisserie des Rêves, Paris">
+        
+        
+        
+        <img src="https://www.roadtopastry.com/blog/wp-content/uploads/Shop-Patisserie-des-reves-Paris01.jpg" alt="Pastry on the road: La Pâtisserie des Rêves, Paris – Road to Pastry">
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- 📅 DAY BY DAY -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>📅 每日行程 Day by Day</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">2026-01-26 – 2026-02-02</span>
+    </div>
+
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">1</div>
+        <div class="day-label">Jan 26 · Mon</div>
+        <div class="day-zh">抵達 · 巴黎初印象</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 水仙花白酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:30</span> ✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李（預計 30–45 分鐘）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚕 搭乘計程車前往酒店（約 45 分鐘 · €55）· 沿途欣賞巴黎市郊冬景</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> 🏨 抵達 Hôtel Le Narcisse Blanc · 辦理入住 · 稍作休息</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🥐 Café de Flore 早午餐 · 花神經典歐蕾 + 可頌 + 法式洋蔥湯 · NT$1,800</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🎨 羅浮宮 Musée du Louvre（預約票 €17/人）· 必看：蒙娜麗莎、勝利女神 · 建議參觀2.5小時</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🚶 杜樂麗花園散步 · 協和廣場 · 欣賞冬日夕陽</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:30</span> 🍽️ Le Cinq 米其林三星晚餐 · 預約 19:30 · 品嚐主廚招牌龍蝦濃湯 · NT$8,500/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">22:00</span> 🌙 返回酒店 · 途經亞歷山大三世橋欣賞夜間燈光</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hôtel Le Narcisse Blanc & Spa · 經典豪華雙人房</div>
+      </div>
+      <div class="day-weather">
+        ❄️ 4°/-1°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">2</div>
+        <div class="day-label">Jan 27 · Tue</div>
+        <div class="day-zh">左岸文化 · 聖母院與拉丁區</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 水仙花白酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Notre-Dame_de_Paris_2792x2911.jpg" alt="左岸文化 · 聖母院與拉丁區" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🥐 酒店享用法式早餐 · 可頌、咖啡、鮮榨果汁</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> ⛪ 聖母院 Cathédrale Notre-Dame de Paris（外部廣場 · 重建中）· 拍照留念</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:30</span> 📚 莎士比亞書店 Shakespeare & Company · 經典獨立書店 · 選購法文原文書</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍽️ 拉丁區午餐 · 推薦 Le Petit Prince de Paris · 油封鴨 · NT$1,200/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🏛️ 奧賽博物館 Musée d'Orsay（預約票 €16/人）· 印象派畫作 · 梵谷、莫內、雷諾瓦</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> ☕ La Pâtisserie des Rêves 下午茶 · 巴黎布列斯特 + 熱巧克力 · NT$900</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:30</span> 🍽️ Septime 米其林一星晚餐 · 熟成肋眼牛排 · NT$3,200/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">22:00</span> 🌙 酒店休息 · 可預約 SPA 土耳其浴（需提前預約）</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hôtel Le Narcisse Blanc & Spa · 經典豪華雙人房</div>
+      </div>
+      <div class="day-weather">
+        ❄️ 3°/-2°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 15%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">3</div>
+        <div class="day-label">Jan 28 · Wed</div>
+        <div class="day-zh">蒙馬特 · 聖心堂與藝術家</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 水仙花白酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://img.fotocommunity.com/basilique-du-sacre-cur-de-montmartre-3b543772-0a0f-4308-84d6-a25f7afc0476.jpg?height=1080" alt="蒙馬特 · 聖心堂與藝術家" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🥐 酒店早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🚇 地鐵至 Anvers 站 · 步行至聖心堂 Basilique du Sacré-Cœur · 俯瞰巴黎全景</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> 🎨 畫家廣場 Place du Tertre · 街頭畫家肖像畫（約 €30）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍽️ 蒙馬特午餐 · 推薦 Le Consulat · 法式洋蔥湯 · NT$1,000/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> 🏛️ 達利美術館 Espace Dalí · 超現實主義作品 · 門票 €13/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> 🚶 紅磨坊 Moulin Rouge 外觀拍照 · 自由散步</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:30</span> 🍽️ Le Chateaubriand 小酒館晚餐 · 創意套餐 · NT$2,800/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:30</span> 🌙 返回酒店</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hôtel Le Narcisse Blanc & Spa · 經典豪華雙人房</div>
+      </div>
+      <div class="day-weather">
+        ❄️ 2°/-3°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">4</div>
+        <div class="day-label">Jan 29 · Thu</div>
+        <div class="day-zh">凡爾賽宮 · 換酒店至蒙馬特</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 蒙馬特私人酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://www.tripsavvy.com/thmb/7e-cAiIkxbZ2-hNyOt44nMNg1Ms=/4163x2772/filters:no_upscale():max_bytes(150000):strip_icc()/versailles-gardens-orangerie-59787fddaad52b0011a6a0a4.jpg" alt="凡爾賽宮 · 換酒店至蒙馬特" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:30</span> 🥐 酒店早餐 · 整理行李 · 退房（行李寄存前台）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚇 搭乘 RER C 至 Versailles Château Rive Gauche（約 45 分鐘）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> 🏛️ 凡爾賽宮 Château de Versailles（預約票 €21/人）· 鏡廳、國王大寢宮、花園</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🍽️ 凡爾賽宮午餐 · 推薦 Angelina Versailles · 栗子蒙布朗 · NT$1,500/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🌳 凡爾賽花園散步 · 大運河 · 冬季花園寧靜</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🚇 返回巴黎 · 前往 Hôtel Particulier Montmartre 辦理入住</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:30</span> 🍽️ 蒙馬特晚餐 · 推薦 Le Coq Rico · 招牌烤雞 · NT$2,000/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🌙 酒店露台欣賞蒙馬特夜景 · 享用酒店酒吧調酒</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hôtel Particulier Montmartre · 豪華套房附露台</div>
+      </div>
+      <div class="day-weather">
+        ❄️ 1°/-4°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 25%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">5</div>
+        <div class="day-label">Jan 30 · Fri</div>
+        <div class="day-zh">香榭麗舍 · 凱旋門與艾菲爾鐵塔</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 蒙馬特私人酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://www.parisperfect.com/blog/wp-content/uploads/2012/10/Visiting-the-Arc-de-Triomphe-in-Paris-by-Paris-Perfect1.jpg" alt="香榭麗舍 · 凱旋門與艾菲爾鐵塔" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🥐 酒店早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🚇 地鐵至 Charles de Gaulle–Étoile · 凱旋門 Arc de Triomphe（登頂 €13/人）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> 🛍️ 香榭麗舍大道散步 · LV、Cartier 旗艦店 · 櫥窗購物</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍽️ 香榭麗舍午餐 · 推薦 Ladurée · 經典法式三明治 + 馬卡龍 · NT$1,800/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> 🗼 艾菲爾鐵塔 Tour Eiffel · 預約登頂（門票 €25/人）· 巴黎全景</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> 🚶 戰神廣場散步 · 鐵塔最佳拍照點</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:30</span> 🍽️ L'Ambroisie 米其林三星晚餐 · 龍蝦佐松露酥皮 · NT$9,000/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">22:00</span> 🌙 返回酒店</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hôtel Particulier Montmartre · 豪華套房附露台</div>
+      </div>
+      <div class="day-weather">
+        ❄️ 3°/-1°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">6</div>
+        <div class="day-label">Jan 31 · Sat</div>
+        <div class="day-zh">瑪黑區 · 畢卡索美術館與孚日廣場</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 蒙馬特私人酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://frenchmoments.eu/wp-content/uploads/2016/04/Place-des-Vosges-April-2016-05-©-French-Moments.jpg" alt="瑪黑區 · 畢卡索美術館與孚日廣場" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🥐 酒店早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🚇 地鐵至 Saint-Paul · 瑪黑區漫步 · 逛獨立設計小店</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> 🎨 畢卡索美術館 Musée Picasso（門票 €14/人）· 畢卡索各時期作品</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🍽️ 瑪黑區午餐 · 推薦 Breizh Café · 法式可麗餅 · NT$1,200/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🌳 孚日廣場 Place des Vosges · 雨果故居 · 悠閒散步</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🛍️ 聖母院周邊 · 拉丁區書店與古董店</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:30</span> 🍽️ 蒙馬特晚餐 · 推薦 Le Basilic · 普羅旺斯風味 · NT$1,500/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🌙 返回酒店 · 露台熱巧克力</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hôtel Particulier Montmartre · 豪華套房附露台</div>
+      </div>
+      <div class="day-weather">
+        ❄️ 2°/-2°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 30%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">7</div>
+        <div class="day-label">Feb 1 · Sun</div>
+        <div class="day-zh">羅丹美術館 · 蒙帕納斯與購物</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 蒙馬特私人酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://cdn-imgix.headout.com/media/images/2ebbc3574fb66336ec9a3a60e8e5c66f-RodinMuseumSkiptheLineTickets-SculpturesGarden2.jpg?auto=format&w=828&h=619.1999999999999&q=90&ar=16:10&crop=faces,center&fit=crop" alt="羅丹美術館 · 蒙帕納斯與購物" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🥐 酒店早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🚇 地鐵至 Varenne · 羅丹美術館 Musée Rodin（門票 €13/人）· 沉思者、地獄之門</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🌿 羅丹美術館花園 · 冬日雕塑與枯枝之美</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🍽️ 蒙帕納斯午餐 · 推薦 La Coupole · 海鮮拼盤 · NT$2,200/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🛍️ 春天百貨 Printemps 或 老佛爺百貨 Galeries Lafayette · 購物時間（退稅 12%）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:30</span> ☕ 老佛爺百貨頂樓咖啡 · 俯瞰巴黎全景</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:30</span> 🍽️ 酒店附近晚餐 · 推薦 Le Poulbot · 家常法式料理 · NT$1,200/人</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🌙 最後一夜 · 整理行李 · 享受酒店露台</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hôtel Particulier Montmartre · 豪華套房附露台</div>
+      </div>
+      <div class="day-weather">
+        ❄️ 1°/-3°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">8</div>
+        <div class="day-label">Feb 2 · Mon</div>
+        <div class="day-zh">回程 · 告別巴黎</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 蒙馬特私人酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://d38zjy0x98992m.cloudfront.net/6f2e8f5b-3b83-4100-abbf-4c2773922804/OS1738_P0060_uxga.jpg" alt="回程 · 告別巴黎" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:00</span> 🥐 酒店早餐 · 退房 · 行李寄存</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:30</span> 🚕 搭乘計程車前往 CDG 機場（約 50 分鐘 · €60）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> ✈️ 抵達戴高樂機場 · 辦理退稅 · 出境手續</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:20</span> 🛫 長榮 BR 88 直飛台北 · 預計飛行 13h10m</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍽️ 機上午餐 · 休息</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 📝 填寫回憶日記 · 整理照片</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">06:30 (+1)</span> 🛬 抵達桃園機場 TPE · 結束浪漫巴黎之旅</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hôtel Particulier Montmartre · 豪華套房附露台</div>
+      </div>
+      <div class="day-weather">
+        ❄️ 2°/-2°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 15%</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 💰 COST BREAKDOWN -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>💰 花費明細 Cost</h2>
+      <span style="font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">所有金額以新台幣 NTD 計算</span>
+    </div>
+    
+    <div class="cost-row"><span>✈️ 來回機票（長榮經濟艙）</span><span>NT$ <strong>68,000</strong></span></div>
+    
+    <div class="cost-row"><span>🏨 住宿（水仙花白酒店4晚 + 蒙馬特私人酒店4晚）</span><span>NT$ <strong>110,000</strong></span></div>
+    
+    <div class="cost-row"><span>🍽️ 餐飲（含米其林三星、小酒館、咖啡館）</span><span>NT$ <strong>95,000</strong></span></div>
+    
+    <div class="cost-row"><span>🎫 景點門票（羅浮宮、奧賽、凡爾賽、鐵塔等）</span><span>NT$ <strong>35,000</strong></span></div>
+    
+    <div class="cost-row"><span>🚇 交通（地鐵、RER、計程車）</span><span>NT$ <strong>18,000</strong></span></div>
+    
+    <div class="cost-row"><span>🛍️ 購物伴手禮（馬卡龍、香水、LV等）</span><span>NT$ <strong>174,000</strong></span></div>
+    
+    <div class="cost-row" style="font-weight:600; border-top:2px solid var(--gold); padding-top:0.5rem; margin-top:0.2rem;">
+      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>500,000</strong></span>
+    </div>
+    <div class="cost-bar"><div class="cost-bar-fill" style="width:100.0%"></div></div>
+    <div style="text-align:right; font-size:0.8rem; color:var(--warm-gray);">
+      NT$ 500,000 / NT$ 500,000 · 剩餘 NT$ 0
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Shared JS for all Travel Planner pages
+// Lightbox, broken image handler
+
+// Hide broken images globally
+document.addEventListener('error', function(e){
+  if(e.target.tagName === 'IMG'){
+    e.target.classList.add('broken');
+  }
+}, true);
+
+// ═══ LIGHTBOX ═══
+(function(){
+  var images = [];
+  var currentIdx = 0;
+  var lb = null;
+  var lbImg = null;
+  var lbCounter = null;
+
+  function buildLightbox() {
+    lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.innerHTML =
+      '<button class="close-btn">&times;</button>' +
+      '<div class="lbox-img-wrap">' +
+        '<div class="lbox-left"><span class="lbox-arrow">&#8249;</span></div>' +
+        '<img src="" alt="">' +
+        '<div class="lbox-right"><span class="lbox-arrow">&#8250;</span></div>' +
+      '</div>' +
+      '<div class="counter"></div>';
+    document.body.appendChild(lb);
+    lbImg = lb.querySelector('img');
+    lbCounter = lb.querySelector('.counter');
+
+    lb.querySelector('.close-btn').addEventListener('click', close);
+    lb.querySelector('.lbox-left').addEventListener('click', function(e){ e.stopPropagation(); prev(); });
+    lb.querySelector('.lbox-right').addEventListener('click', function(e){ e.stopPropagation(); next(); });
+    lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
+    document.addEventListener('keydown', function(e){
+      if(!lb.classList.contains('open')) return;
+      if(e.key === 'Escape') close();
+      if(e.key === 'ArrowLeft') prev();
+      if(e.key === 'ArrowRight') next();
+    });
+  }
+
+  function collectImages() {
+    images = [];
+    var all = document.querySelectorAll('.slider-track img, .food-imgs img, .hero-placeholder, .dining-card img, .lightbox-clickable');
+    all.forEach(function(img, i){
+      // Skip images inside Google Images links — let the browser follow the link
+      if(img.closest('a[href*="google.com/search?tbm=isch"]')) return;
+      if(img.naturalWidth > 0 || img.complete) {
+        images.push(img);
+        img.style.cursor = 'pointer';
+        img.setAttribute('data-lb-idx', images.length - 1);
+        if(!img.hasLbListener) {
+          img.addEventListener('click', function(e){
+            e.stopPropagation();
+            open(img.getAttribute('data-lb-idx'));
+          });
+          img.hasLbListener = true;
+        }
+      }
+    });
+  }
+
+  function open(idx) {
+    if(!lb) buildLightbox();
+    collectImages();
+    idx = parseInt(idx);
+    if(idx < 0) idx = images.length - 1;
+    if(idx >= images.length) idx = 0;
+    currentIdx = idx;
+    var src = images[currentIdx].src || images[currentIdx].getAttribute('src');
+    // strip Unsplash size params for full resolution
+    src = src.replace(/[?&]w=\d+/g, '').replace(/[?&]h=\d+/g, '').replace(/[?&]fit=crop/g, '');
+    if(src.indexOf('?') === -1) src += '?w=1400'; else src += '&w=1400';
+    lbImg.src = src;
+    lbCounter.textContent = (currentIdx + 1) + ' / ' + images.length;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function next() { open(currentIdx + 1); }
+  function prev() { open(currentIdx - 1); }
+
+  window.addEventListener('load', function(){ collectImages(); });
+})();
+</script>
+<div style="text-align:center;padding:2rem 0 0.5rem;">
+  </div>
+<div style="text-align:center;padding:0.5rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
+  build 260528.115121
+</div>
+</body>
+</html>

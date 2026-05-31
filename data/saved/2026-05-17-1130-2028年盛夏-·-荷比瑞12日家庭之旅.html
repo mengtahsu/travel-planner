@@ -1,0 +1,2245 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>2028年盛夏 · 荷比瑞12日家庭之旅 — Travel Planner</title>
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400&family=Noto+Serif+TC:wght@300;400;600&display=swap');
+
+  :root {
+    --gold: #c9a84c;
+    --rose: #d4a0a0;
+    --cream: #faf7f2;
+    --ink: #2c2416;
+    --warm-gray: #8c8273;
+    --soft-white: #fffdf8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  .container {
+    overflow-x: hidden;
+  }
+
+  /* ─── NAVIGATION ─── */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 1rem;
+    background: var(--soft-white);
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--warm-gray);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+    flex-shrink: 0;
+  }
+  nav a:hover, nav a.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 1.25rem; }
+
+  /* ─── IMAGE SLIDER ─── */
+  .slider {
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .slider-track {
+    display: inline-flex;
+    animation: slideLeft 30s linear infinite;
+  }
+  .slider-track img {
+    height: 180px;
+    border-radius: 8px;
+    margin-right: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  @keyframes slideLeft {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    position: relative;
+    height: 400px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #2c1810 0%, #5c3a2e 30%, #8b5e4f 60%, #c4956a 100%);
+    display: flex;
+    align-items: flex-end;
+  }
+  .hero-placeholder {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%; object-fit: cover; opacity: 0.7;
+  }
+  .hero-overlay {
+    position: relative; z-index: 2;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 80%);
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 2rem 1.5rem;
+  }
+  .hero-overlay h1 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 2.5rem; font-weight: 400;
+    color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  .hero-overlay .zh-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.1rem; color: rgba(255,255,255,0.9);
+    margin-top: 0.25rem;
+  }
+  .hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    margin-top: 0.75rem;
+    color: rgba(255,255,255,0.9);
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+  }
+
+  /* ─── SECTION HEADER ─── */
+  .section-title {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.9rem; color: var(--ink); margin-bottom: 0.5rem;
+    position: relative;
+  }
+  .section-title::after {
+    content: ''; position: absolute; bottom: -6px; left: 0;
+    width: 36px; height: 2px; background: var(--gold);
+  }
+  .section-sub {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.05rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+  }
+
+  /* ─── FULL CARDS ─── */
+  .full-card {
+    background: var(--soft-white);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.03);
+  }
+  .full-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .full-card-header h2 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.6rem; font-weight: 500;
+  }
+  .external-btn {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    padding: 0.55rem 1.1rem;
+    background: var(--ink); color: #fff;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: none; cursor: pointer;
+    white-space: nowrap;
+  }
+  .external-btn.google { background: #4285f4; }
+  .external-btn.agoda { background: #e12b52; }
+  .external-btn:hover { opacity: 0.88; }
+
+  /* ─── FLIGHT ─── */
+  .flight-detail {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .flight-detail .divider {
+    width: 1px; height: 50px;
+    background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+    justify-self: center;
+  }
+  .flight-info { font-size: 1.05rem; }
+  .flight-info .label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
+  }
+  .flight-info .airline {
+    font-family: 'Playfair Display', serif; font-size: 1.3rem;
+    color: var(--ink); margin: 0.2rem 0;
+  }
+
+  /* ─── HOTEL ─── */
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .hotel-card-inner {
+    font-size: 1.05rem;
+  }
+  .hotel-card-inner h3 {
+    font-family: 'Playfair Display','Noto Serif TC',serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.2rem;
+  }
+  .hotel-card-inner .zh {
+    font-family: 'Noto Serif TC',serif;
+    font-size: 1rem;
+    color: var(--warm-gray);
+  }
+
+  /* ─── DINING ─── */
+  .dining-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .dining-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .food-imgs {
+    width: 155px; flex-shrink: 0; align-self: stretch;
+    display: flex; flex-direction: column; gap: 4px;
+    overflow: hidden; margin-right: 12px;
+  }
+  .food-imgs img {
+    width: 155px; flex: 1; min-height: 0; object-fit: cover;
+    border-radius: 4px;
+  }
+  .dining-info {
+    padding: 1rem;
+    display: flex; flex-direction: column; justify-content: center;
+    flex: 1; min-width: 180px;
+  }
+  .dining-info h4 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.1rem; margin-bottom: 0.15rem;
+  }
+  .dining-info .zh-name {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.95rem; color: var(--warm-gray);
+  }
+  .dining-info .dish {
+    font-size: 0.9rem; color: var(--gold);
+    font-style: italic; margin-top: 0.25rem;
+  }
+
+  /* ─── TIMELINE ─── */
+  .day-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.02);
+    display: grid;
+    grid-template-columns: 80px auto 90px;
+    gap: 1rem;
+    align-items: start;
+  }
+  .day-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; color: var(--gold);
+    text-align: center; line-height: 1;
+  }
+  .day-label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); text-align: center;
+  }
+  .day-zh {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.85rem; color: var(--ink); text-align: center;
+    margin-top: 0.2rem;
+  }
+  .day-schedule { font-size: 1.15rem; }
+  .day-schedule .time-slot {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    display: flex; gap: 0.6rem; align-items: baseline;
+  }
+  .time-slot .time {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem; color: var(--gold);
+    min-width: 58px; letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .day-weather {
+    font-size: 0.9rem; color: var(--warm-gray);
+    text-align: right; padding-top: 0.25rem;
+  }
+
+  /* ─── COST ─── */
+  .cost-section {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .cost-row {
+    display: flex; justify-content: space-between;
+    padding: 0.5rem 0; font-size: 1.05rem;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    flex-wrap: wrap;
+  }
+  .cost-bar {
+    height: 6px; border-radius: 3px;
+    background: rgba(201,168,76,0.15); margin: 0.75rem 0;
+  }
+  .cost-bar-fill {
+    height: 100%; border-radius: 3px;
+    background: linear-gradient(to right, var(--gold), var(--rose));
+    width: 94%;
+  }
+
+  /* ─── PAGES ─── */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* ─── SETTINGS ─── */
+  .settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .setting-group {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .setting-group label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); display: block; margin-bottom: 0.3rem;
+  }
+  .setting-group .zh-label {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.8rem; color: var(--ink); margin-bottom: 0.5rem;
+  }
+  .setting-group input, .setting-group select {
+    width: 100%; padding: 0.75rem 0.85rem;
+    border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    -webkit-appearance: none;
+  }
+  .setting-group input:focus, .setting-group select:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+  }
+  .save-btn {
+    background: linear-gradient(135deg, var(--gold), #b8942f);
+    color: #fff; border: none;
+    padding: 0.8rem 2rem; border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 0.85rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    cursor: pointer; margin-top: 1.25rem;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+  }
+  .save-btn:hover { opacity: 0.9; }
+
+  /* ─── LOG ─── */
+  .log-entry {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem; margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+  }
+  .log-date {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--gold);
+  }
+  .log-status {
+    display: inline-block; padding: 0.15rem 0.6rem; border-radius: 10px;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem; margin-left: 0.4rem;
+  }
+  .log-status.generated { background: rgba(76,175,80,0.12); color: #388e3c; }
+  .log-status.chatting { background: rgba(201,168,76,0.15); color: #8b6914; }
+
+  /* ─── CHAT ─── */
+  .chat-box {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .chat-date-label {
+    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); margin-bottom: 0.5rem;
+  }
+  .chat-box textarea {
+    width: 100%; height: 200px; padding: 1rem;
+    border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    line-height: 1.8; resize: vertical;
+    -webkit-appearance: none;
+  }
+  .chat-box textarea:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
+  }
+  .chat-hint {
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    color: var(--warm-gray); margin-top: 0.4rem; font-style: italic;
+  }
+
+  /* ─── LIGHTBOX ─── */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .lightbox.open { display: flex; }
+  .lbox-img-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    transition: opacity 0.2s;
+    cursor: default;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .lightbox img {
+      max-width: 96vw;
+      max-height: 82vh;
+    }
+    .lightbox .lbox-arrow { font-size: 2rem; margin: 0 6px; }
+  }
+  .lightbox .counter {
+    color: rgba(255,255,255,0.7);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.75rem;
+    z-index: 2;
+    position: relative;
+  }
+  .lightbox .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    border: none;
+    line-height: 1;
+  }
+  .lightbox .close-btn:hover { background: rgba(255,255,255,0.18); }
+  /* Nav zones — only inside the image wrapper, not full screen */
+  .lightbox .lbox-left,
+  .lightbox .lbox-right {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 50%;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+  .lightbox .lbox-left  { left: 0;  justify-content: flex-start; }
+  .lightbox .lbox-right { right: 0; justify-content: flex-end; }
+  .lightbox .lbox-arrow {
+    color: rgba(255,255,255,0.4);
+    font-size: 2.5rem;
+    margin: 0 16px;
+    pointer-events: none;
+    user-select: none;
+  }
+  .lightbox .lbox-left:hover .lbox-arrow,
+  .lightbox .lbox-right:hover .lbox-arrow {
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* ─── SAVE PLAN CHECKBOX ─── */
+  .save-plan-label {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    user-select: none;
+  }
+  .save-plan-label input[type="checkbox"] {
+    width: 16px; height: 16px;
+    accent-color: var(--gold);
+    cursor: pointer;
+  }
+
+  /* ─── BROKEN IMAGES ─── */
+  img.broken { display: none !important; }
+
+  /* ═══════════════ MOBILE: iPhone ───────────────────── */
+  @media (max-width: 768px) {
+
+    .container { padding: 0.75rem; }
+
+    /* Nav — compact scrollable */
+    nav {
+      gap: 1rem;
+      padding: 0.7rem 0.75rem;
+    }
+    nav a {
+      font-size: 0.72rem;
+      letter-spacing: 1px;
+    }
+
+    /* Hero — shorter */
+    .hero {
+      height: 260px;
+      border-radius: 10px;
+    }
+    .hero-overlay {
+      padding: 1.25rem 1rem;
+    }
+    .hero-overlay h1 {
+      font-size: 1.7rem;
+    }
+    .hero-overlay .zh-title {
+      font-size: 0.95rem;
+    }
+    .hero-stats {
+      font-size: 0.75rem;
+      gap: 0.5rem 1rem;
+    }
+
+    /* Slider — smaller images */
+    .slider-track img {
+      height: 130px;
+      margin-right: 6px;
+    }
+
+    /* Full card — tighter padding */
+    .full-card {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+    .full-card-header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .full-card-header h2 {
+      font-size: 1.3rem;
+    }
+
+    /* Flight — stack vertically */
+    .flight-detail {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .flight-detail .divider {
+      width: 80%;
+      height: 1px;
+      justify-self: center;
+    }
+
+    /* Hotel — already responsive via flex-wrap */
+
+    /* Dining — single column, smaller images */
+    .dining-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+    .food-imgs { width: 130px; margin-right: 8px; }
+    .food-imgs img { width: 130px; }
+
+    /* Dining text — bump up for readability */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.82rem !important; }
+    .dining-info .dish { font-size: 0.78rem !important; }
+
+    /* Timeline — single column, date on top */
+    .day-card {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+      padding: 1rem;
+    }
+    .day-card > :first-child {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .day-num {
+      font-size: 1.1rem;
+      color: var(--gold);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+    .day-label {
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+    }
+    .day-zh {
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+    .day-weather {
+      text-align: left;
+      font-size: 0.8rem;
+      margin-left: auto;
+    }
+    .day-schedule { font-size: 1rem; }
+    .time-slot .time {
+      font-size: 0.75rem;
+      min-width: 46px;
+    }
+    .time-slot {
+      gap: 0.3rem;
+    }
+
+    /* Settings — single column */
+    .settings-grid {
+      grid-template-columns: 1fr;
+    }
+
+    /* Cost — tighten */
+    .cost-row {
+      font-size: 0.95rem;
+    }
+    .cost-section {
+      padding: 1rem;
+    }
+
+    /* Chat */
+    .chat-box textarea {
+      height: 180px;
+      font-size: 1.05rem;
+    }
+
+    /* Section titles */
+    .section-title {
+      font-size: 1.4rem;
+    }
+    .section-sub {
+      font-size: 0.9rem;
+    }
+
+    /* External buttons — full width */
+    .external-btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 0.75rem;
+      padding: 0.55rem 1rem;
+    }
+  }
+
+  /* ═══════════════ SMALL PHONES ────────────────────── */
+  @media (max-width: 390px) {
+    .hero {
+      height: 220px;
+    }
+    .hero-overlay h1 {
+      font-size: 1.45rem;
+    }
+    .hero-overlay .zh-title {
+      font-size: 0.85rem;
+    }
+    .day-card {
+      grid-template-columns: 1fr;
+      padding: 0.85rem;
+    }
+    .day-num {
+      font-size: 1rem;
+    }
+    .day-schedule { font-size: 0.9rem; }
+    .food-imgs { width: 125px; margin-right: 6px; }
+    .food-imgs img { width: 125px; }
+
+    /* Dining text — bigger on iPhone */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.8rem !important; }
+    .dining-info .dish { font-size: 0.76rem !important; }
+    nav a {
+      font-size: 0.65rem;
+      letter-spacing: 0.5px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero -->
+  <div class="hero">
+    <img class="hero-placeholder" src="https://c8.alamy.com/comp/WW5T11/amsterdam-skyline-with-landmark-buidings-and-canal-in-amsterdam-city-netherlands-WW5T11.jpg" alt="Netherlands, Belgium, Switzerland" onerror="this.style.display='none'">
+    <div class="hero-overlay">
+      <h1>Netherlands, Belgium, Switzerland</h1>
+      <div class="zh-title">2028年盛夏 · 荷比瑞12日家庭之旅</div>
+      <div class="hero-stats">
+        <span>✈️ 2028/07/01–07/12</span>
+        <span>👥 5 人</span>
+        <span>💰 NT$800,000</span>
+      </div>
+      </div>
+  </div>
+
+  <!-- Destination image slider -->
+  
+  <div class="slider">
+    <div class="slider-track">
+      
+      <img src="https://mldvwwasb8tu.i.optimole.com/cb:esbD~6200b/w:1500/h:1000/q:90/f:best/ig:avif/https://travelaway.me/wp-content/uploads/2020/06/giethoorn-netherlands.jpg" alt="15 Beautiful Places in the Netherlands You Need to See">
+      
+      <img src="https://i.pinimg.com/originals/fa/74/0b/fa740b4025bc454fa794659a4fac6cf6.jpg" alt="Kinderdijk, Netherlands | 絶景, 風景, 美しい場所">
+      
+      <img src="https://wallpaperaccess.com/full/98926.jpg" alt="Pictures Of Holland Scenery at Charles Grabowski blog">
+      
+      <img src="https://c8.alamy.com/comp/WA365J/the-dutch-about-scenery-WA365J.jpg" alt="The Dutch about scenery Stock Photo - Alamy">
+      
+      <img src="https://c8.alamy.com/comp/R4CYFG/dutch-scenery-with-canal-and-mirror-reflections-at-spring-with-flowers-amsterdam-netherlands-R4CYFG.jpg" alt="Dutch scenery with canal and mirror reflections at spring with flowers ...">
+      
+      <img src="https://globalgrasshopper.com/wp-content/uploads/2013/10/Kinderdijk-1-1000x672.jpg" alt="Top 20 Beautiful Places to Visit in The Netherlands - GlobalGrasshopper">
+      
+    </div>
+  </div>
+  
+
+  <!-- ✈️ FLIGHT -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>✈️ 航班 Flight</h2>
+      <a class="external-btn google" href="https://www.google.com/travel/flights?q=Flights+to+AMS+from+TPE+2028-07-01" target="_blank">
+        ↗ Google Flights 搜尋更多航班
+      </a>
+    </div>
+    <div class="flight-detail">
+      <div class="flight-info">
+        <div class="label">出發 Departure · 7月1日</div>
+        <div class="airline">中華航空 China Airlines / 荷蘭皇家航空 KLM</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">CI 73 / KL 888</span> · TPE → AMS (台北→阿姆斯特丹, 轉機一次)<br>
+          23:30 出發 · 06:30 (+1) 抵達<br>
+          飛行 15h 00m (含轉機1h) · 經濟艙
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="flight-info">
+        <div class="label">回程 Return · 7月12日</div>
+        <div class="airline">中華航空 China Airlines / 荷蘭皇家航空 KLM</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">KL 1975 / CI 74</span> · ZRH → TPE (蘇黎世→台北, 轉機一次)<br>
+          11:00 出發 · 06:30 (+1) 抵達<br>
+          飛行 14h 30m (含轉機1h) · 經濟艙
+        </div>
+      </div>
+    </div>
+    <div style="text-align:right; margin-top:1rem; font-size:0.9rem;">
+      來回 NT$ <strong>175,000</strong> / 5人
+    </div>
+  </div>
+
+  <!-- 🏨 HOTELS -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🏨 住宿 Hotel</h2>
+      <a class="external-btn agoda" href="https://www.agoda.com/zh-tw/city/netherlands-fr.html?checkIn=2028-07-01&checkOut=2028-07-12&adults=5" target="_blank">
+        ↗ Agoda 搜尋更多住宿
+      </a>
+    </div>
+
+    
+    <div style="background:var(--cream);border-radius:10px;padding:1.25rem;margin-bottom:1.5rem;border:1px solid rgba(201,168,76,0.1);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Hotel V Nesplein Amsterdam</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">阿姆斯特丹V酒店 · 阿姆斯特丹市中心</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">📅 DAY 1–3</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">3 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 60,000</div>
+        </div>
+      </div>
+      <div style="font-size:0.85rem;color:var(--ink);margin-bottom:0.75rem;">
+        ★★★★ · 家庭房 (1間) + 雙床房 (1間, 三位少女住) · 含自助早餐<br>
+        🚲 免費單車租借 · 🍳 早餐 · ☕ 咖啡吧
+      </div>
+      <!-- Hotel photo gallery — click opens Google Images search -->
+      
+      <div class="slider" style="margin-bottom:0.25rem;">
+        <div class="slider-track">
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20V%20Nesplein%20Amsterdam%20Netherlands" target="_blank" title="More photos of Hotel V Nesplein Amsterdam">
+            <img src="https://www.thehotelguru.com/_images/16/98/1698714e669f4a7d0673d05a2edd2471/hotel-v-nesplein-1180x560.jpg" alt="Hotel V Nesplein, Amsterdam, Netherlands | The Hotel Guru">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20V%20Nesplein%20Amsterdam%20Netherlands" target="_blank" title="More photos of Hotel V Nesplein Amsterdam">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjO3rVSr8v_2t9k6sOoozkZC_cID_rmt31AP2npWFqrhhZYLIub5crOlILMzM7fPSfLiOVGhtnjX0prhpKyms-zA-QCktw_fwrVqKP0UMXsC5hnlzRBVhMHJDhLMmgiAhdjjK91EyIz4O4/s1600/Hotel-V-Nesplein-01-1150x1141.jpg" alt="loveisspeed.......: The Hotel V Nesplein is located in Amsterdam, The ...">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20V%20Nesplein%20Amsterdam%20Netherlands" target="_blank" title="More photos of Hotel V Nesplein Amsterdam">
+            <img src="https://www.hotel-boutique.it/wp-content/uploads/2023/01/17-3-800x480.jpg" alt="Hotel V Nesplein Amsterdam - Netherlands">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20V%20Nesplein%20Amsterdam%20Netherlands" target="_blank" title="More photos of Hotel V Nesplein Amsterdam">
+            <img src="http://www.cfmedia.vfmleonardo.com/imageRepo/4/0/62/814/597/WIHP_HVNesplain_front_013_R.jpg" alt="Hotel V Nesplein- Amsterdam, Netherlands Hotels- Hotels in Amsterdam ...">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20V%20Nesplein%20Amsterdam%20Netherlands" target="_blank" title="More photos of Hotel V Nesplein Amsterdam">
+            <img src="https://www.myboutiquehotel.com/photos/6994/hotel-v-nesplein-amsterdam-298-1739211781-2220x1400.jpg" alt="Hotel V Nesplein, a Design Boutique Hotel Amsterdam, Netherlands">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20V%20Nesplein%20Amsterdam%20Netherlands" target="_blank" title="More photos of Hotel V Nesplein Amsterdam">
+            <img src="https://cdn.homedsgn.com/wp-content/uploads/2013/04/Hotel-V-Nesplein-03.jpg" alt="The Hotel V Nesplein">
+          </a>
+          
+          
+        </div>
+      </div>
+      
+    </div>
+    
+    <div style="background:var(--cream);border-radius:10px;padding:1.25rem;margin-bottom:1.5rem;border:1px solid rgba(201,168,76,0.1);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Hotel Hubert Grand Place</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">于貝爾大廣場酒店 · 布魯塞爾大廣場</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">📅 DAY 4–6</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">3 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 55,000</div>
+        </div>
+      </div>
+      <div style="font-size:0.85rem;color:var(--ink);margin-bottom:0.75rem;">
+        ★★★★ · 家庭套房 (1間) + 雙床房 (1間, 三位少女住) · 含自助早餐<br>
+        🍽️ 餐廳 · 🏋️ 健身中心 · 🧳 行李寄存
+      </div>
+      <!-- Hotel photo gallery — click opens Google Images search -->
+      
+      <div class="slider" style="margin-bottom:0.25rem;">
+        <div class="slider-track">
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Hubert%20Grand%20Place%20Brussels%20Belgium" target="_blank" title="More photos of Hotel Hubert Grand Place">
+            <img src="https://dayuse.twic.pics/hotels/15451/2f63723784e12d0bac6e4872e76f2fad-hotel-hubert-grand-place.jpeg?twic=v1/cover=384x-" alt="Hotel Hubert Grand Place, Bruxelles : -47% during the day - Dayuse.co.uk">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Hubert%20Grand%20Place%20Brussels%20Belgium" target="_blank" title="More photos of Hotel Hubert Grand Place">
+            <img src="https://pix10.agoda.net/hotelImages/4875455/0/87d9e14984765c18723fdfc9f6c38076.jpg?ca=8&ce=1&s=1024x768" alt="Hotel Hubert Grand Place, Brussels | 2022 Updated Prices, Deals">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Hubert%20Grand%20Place%20Brussels%20Belgium" target="_blank" title="More photos of Hotel Hubert Grand Place">
+            <img src="https://www.hotel-bruxelles.info/wp-content/uploads/2019/10/Hotel-Hubert-Grand-Palace.jpg" alt="Hôtel Hubert Grand Palace à Bruxelles : Caractéristiques et Avantages">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Hubert%20Grand%20Place%20Brussels%20Belgium" target="_blank" title="More photos of Hotel Hubert Grand Place">
+            <img src="https://dayuse.twic.pics/hotels/15451/f3d0ab5105da42b647754aff3cb13246-hotel-hubert-grand-place.jpeg?frz-w=320&frz-fit=cover" alt="Hotel Hubert Grand Place, Bruxelles en journée • Réservation à l'heure ...">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Hubert%20Grand%20Place%20Brussels%20Belgium" target="_blank" title="More photos of Hotel Hubert Grand Place">
+            <img src="https://allhotelsbrussels.com/data/images/500x380/7062/706256/706256308.JPEG" alt="Hotel Hubert Grand Place Brussels: 4 star Hotel with a Minimum Price 65 ...">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Hubert%20Grand%20Place%20Brussels%20Belgium" target="_blank" title="More photos of Hotel Hubert Grand Place">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/cc/ea/6a/facade.jpg?w=900&h=500&s=1" alt="HOTEL HUBERT - GRAND PLACE (Brussels, Belgia) - Ulasan & Perbandingan ...">
+          </a>
+          
+          
+        </div>
+      </div>
+      
+    </div>
+    
+    <div style="background:var(--cream);border-radius:10px;padding:1.25rem;margin-bottom:1.5rem;border:1px solid rgba(201,168,76,0.1);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Hotel Schweizerhof Bern</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">伯恩施維茨霍夫酒店 · 伯恩市中心</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">📅 DAY 7–9</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">3 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 75,000</div>
+        </div>
+      </div>
+      <div style="font-size:0.85rem;color:var(--ink);margin-bottom:0.75rem;">
+        ★★★★★ · 家庭套房 (1間) + 雙床房 (1間, 三位少女住) · 含自助早餐<br>
+        🏊 室內泳池 · 💆 SPA · 🍽️ 屋頂餐廳
+      </div>
+      <!-- Hotel photo gallery — click opens Google Images search -->
+      
+      <div class="slider" style="margin-bottom:0.25rem;">
+        <div class="slider-track">
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Schweizerhof%20Bern%20Switzerland" target="_blank" title="More photos of Hotel Schweizerhof Bern">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/29/2e/be/exterior.jpg?w=1200&h=-1&s=1" alt="HOTEL SCHWEIZERHOF BERN & SPA: Bewertungen, Fotos & Preisvergleich ...">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Schweizerhof%20Bern%20Switzerland" target="_blank" title="More photos of Hotel Schweizerhof Bern">
+            <img src="https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/1955/195535/195535726/hotel-schweizerhof-bern-spa-bern-photo-3.JPEG" alt="Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Schweizerhof%20Bern%20Switzerland" target="_blank" title="More photos of Hotel Schweizerhof Bern">
+            <img src="https://a.storyblok.com/f/272028/1900x1267/61224aec85/bern_hotel_schweizerhof_aussen-panorama.jpeg/m/2000x0/filters:quality(80)" alt="Schweizerhof Bern & Spa - Bern Welcome">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Schweizerhof%20Bern%20Switzerland" target="_blank" title="More photos of Hotel Schweizerhof Bern">
+            <img src="https://www.swissglam.ch/wp-content/uploads/2022/10/schweizerhof-bern-hotel--1024x1536.jpg" alt="Hotel Schweizerhof Bern & Spa | SwissGlam.ch">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Schweizerhof%20Bern%20Switzerland" target="_blank" title="More photos of Hotel Schweizerhof Bern">
+            <img src="https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/16286/1628654/1628654670/hotel-schweizerhof-bern-spa-bern-photo-1.JPEG" alt="Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Schweizerhof%20Bern%20Switzerland" target="_blank" title="More photos of Hotel Schweizerhof Bern">
+            <img src="https://schweizerhof-3001.bern-hotel.com/data/Photos/OriginalPhoto/17057/1705723/1705723612/hotel-schweizerhof-bern-spa-bern-photo-15.JPEG" alt="Hotel Schweizerhof Bern & Spa Bern, Switzerland - book now, 2026 prices">
+          </a>
+          
+          
+        </div>
+      </div>
+      
+    </div>
+    
+    <div style="background:var(--cream);border-radius:10px;padding:1.25rem;margin-bottom:1rem;border:1px solid rgba(201,168,76,0.1);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Hotel Eden Spiez</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">施皮茨伊甸酒店 · 施皮茨 (圖恩湖)</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">📅 DAY 10–11</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">2 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 50,000</div>
+        </div>
+      </div>
+      <div style="font-size:0.85rem;color:var(--ink);margin-bottom:0.75rem;">
+        ★★★★ · 家庭套房 (1間) + 雙床房 (1間, 三位少女住) · 含自助早餐<br>
+        🌊 湖景房 · 🚢 私人碼頭 · 🍽️ 湖景餐廳
+      </div>
+      <!-- Hotel photo gallery — click opens Google Images search -->
+      
+      <div class="slider" style="margin-bottom:0.25rem;">
+        <div class="slider-track">
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Eden%20Spiez%20Switzerland" target="_blank" title="More photos of Hotel Eden Spiez">
+            <img src="https://www.eden-spiez.ch/fileadmin/Media/Hotel-Eden-Spiez-Header/Header-Angebote-Events/Hotel-Eden-Spiez-Sicht-auf-Niesen-aus-Mauer_mit_Solebad.jpg" alt="Hotel Eden Spiez am Thunersee für Wellness und Genuss">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Eden%20Spiez%20Switzerland" target="_blank" title="More photos of Hotel Eden Spiez">
+            <img src="https://www.touringswitzerland.com/wp-content/uploads/2023/08/HotelSpiez-2048x1536.jpg" alt="10 Best Things to Do in Spiez, Switzerland | Touring Switzerland">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Eden%20Spiez%20Switzerland" target="_blank" title="More photos of Hotel Eden Spiez">
+            <img src="https://www.eden-spiez.ch/fileadmin/Media/Hotel-Eden-Spiez/Hotel-Eden-Spiez-Geschichte/hotel-eden-spiez-ueber-uns-geschichte-4.jpg" alt="Hotel Eden: Unsere Geschichte in Spiez seit 1902">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Eden%20Spiez%20Switzerland" target="_blank" title="More photos of Hotel Eden Spiez">
+            <img src="https://hotelfachzeitung.com/images/2018/1807/hotel-eden-spiez-schweiz-01.jpg" alt="Jaeggi Architekten: Wellness area in Swiss 4-star Superior Hotel Eden Spiez">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Eden%20Spiez%20Switzerland" target="_blank" title="More photos of Hotel Eden Spiez">
+            <img src="https://www.eden-spiez.ch/fileadmin/_processed_/3/0/csm_hotel-eden-spiez-header-service-navigation-clean-and-safe_e941e138a6.jpg" alt="Hotel Eden Spiez am Thunersee: Für Wellness, Genuss und Business">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Hotel%20Eden%20Spiez%20Switzerland" target="_blank" title="More photos of Hotel Eden Spiez">
+            <img src="https://hoehn-architekten.ch/wp-content/uploads/2017/07/Eden_3-1720x1008.jpg" alt="Hotel Eden Spiez - J. Höhn + Partner Architekten AG">
+          </a>
+          
+          
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  <!-- 🍽️ DINING -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🍽️ 美食 Dining</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">12天 · 9 間餐廳 · NT$0</span>
+    </div>
+
+    
+
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 米其林星級 Fine Dining</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=De%20Kas%20restaurant%20Amsterdam%20food" target="_blank" title="More photos of De Kas (Amsterdam)" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://img.restaurantguru.com/c3c3-Restaurant-De-Kas-dishes.jpg" alt="De Kas (Amsterdam)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://img.restaurantguru.com/cbea-De-Kas-dishes-2.jpg" alt="De Kas (Amsterdam)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://img.restaurantguru.com/c1a7-De-Kas-food-6.jpg?@m@t@s@d" alt="De Kas (Amsterdam)" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>De Kas (Amsterdam)</h4>
+            <div class="zh-name">德卡斯 · 溫室餐廳 · ⭐⭐</div>
+            <div class="dish">🌿 時令蔬菜拼盤 · 烤多寶魚</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=De%20Kas%20%28Amsterdam%29+Plantage%20Kerklaan%2061%2C%201018%20CX%20Amsterdam" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Plantage Kerklaan 61, 1018 CX Amsterdam</a><br>
+              💰 午餐套餐 €45/人 · NT$1,575 (5人約NT$7,875)<br>
+              🕐 12:00–14:30 / 18:30–22:00 · 需預約
+            </div>
+          </div>
+        </div>
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Comme%20Chez%20Soi%20Brussels%20restaurant" target="_blank" title="More photos of Comme Chez Soi (Brussels)" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://www.trouvetonresto.be/img/restaurant/7369/7369/comme-chez-soi-restaurant-bruxelles-1.jpg?1585734114" alt="Comme Chez Soi (Brussels)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://a.cdn-hotels.com/gdcs/production76/d883/bb69e89a-4192-4415-bd3f-6937d7401b39.jpg" alt="Comme Chez Soi (Brussels)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.passiongastronomie.be/wp-content/gallery/restaurantrestaurant-commechezsoi-bruxelles-2018-01-11/Restaurant-CommeChezSoi-Bruxelles-884.jpg" alt="Comme Chez Soi (Brussels)" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Comme Chez Soi (Brussels)</h4>
+            <div class="zh-name">家一樣的餐廳 · 米其林二星 · ⭐⭐</div>
+            <div class="dish">🦐 招牌：比利時蝦仁佐白醬 · 烤鴿子</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Comme%20Chez%20Soi%20%28Brussels%29+Rue%20des%20Pierres%2027%2C%201000%20Bruxelles" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Rue des Pierres 27, 1000 Bruxelles</a><br>
+              💰 晚餐套餐 €120/人 · NT$4,200 (5人約NT$21,000)<br>
+              🕐 19:00–21:30 · 需預約
+            </div>
+          </div>
+        </div>
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Restaurant%20de%20l%27H%C3%B4tel%20de%20Ville%20Crissier%20Switzerland" target="_blank" title="More photos of Restaurant de l'Hôtel de Ville (Crissier, near Bern)" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://axwwgrkdco.cloudimg.io/v7/__gmpics__/daffe9d7f4d84f8e9e9364967e05860d" alt="Restaurant de l'Hôtel de Ville (Crissier, near Bern)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://4.bp.blogspot.com/-EdFkSvTHcto/UYfLiz_s57I/AAAAAAAAEpU/tJUyTQ8BUlM/s1600/Untitled-3.jpg" alt="Restaurant de l'Hôtel de Ville (Crissier, near Bern)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://images.squarespace-cdn.com/content/v1/54c416a4e4b0fe251f01a676/1487725144487-RV9I0QTPU6H2X3MILFK1/image-asset.jpeg" alt="Restaurant de l'Hôtel de Ville (Crissier, near Bern)" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Restaurant de l'Hôtel de Ville (Crissier, near Bern)</h4>
+            <div class="zh-name">市政廳餐廳 · 米其林三星 · ⭐⭐⭐</div>
+            <div class="dish">🐟 瑞士湖魚佐黑松露 · 巧克力塔</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Restaurant%20de%20l%27H%C3%B4tel%20de%20Ville%20%28Crissier%2C%20near%20Bern%29+Rue%20d%27Yverdon%201%2C%201023%20Crissier" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Rue d'Yverdon 1, 1023 Crissier</a><br>
+              💰 晚餐套餐 CHF 250/人 · NT$7,500 (5人約NT$37,500)<br>
+              🕐 19:00–21:30 · 需預約
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 法式小館 Bistros & Casual</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Caf%C3%A9%20de%20Paris%20Amsterdam%20food" target="_blank" title="More photos of Café de Paris (Amsterdam)" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://img.restaurantguru.com/cea0-Cafe-De-Paris-Amsterdam-food.jpg" alt="Café de Paris (Amsterdam)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.theater.nl/static-images/2019/10/6_01102019103112_O_cafe-de-paris.jpg" alt="Café de Paris (Amsterdam)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://s3-media0.fl.yelpcdn.com/bphoto/RYPNhlbOZR_vmwsFqDghrQ/348s.jpg" alt="Café de Paris (Amsterdam)" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Café de Paris (Amsterdam)</h4>
+            <div class="zh-name">巴黎咖啡館 · 荷式牛排</div>
+            <div class="dish">🥩 招牌：荷式牛排佐奶油醬 · 薯條</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20de%20Paris%20%28Amsterdam%29+Leidseplein%2022%2C%201017%20PT%20Amsterdam" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Leidseplein 22, 1017 PT Amsterdam</a><br>
+              💰 主菜 €25/人 · NT$875 (5人約NT$4,375)<br>
+              🕐 12:00–22:00
+            </div>
+          </div>
+        </div>
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Chez%20L%C3%A9on%20Brussels%20mussels" target="_blank" title="More photos of Chez Léon (Brussels)" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://chezleon.be/wp-content/uploads/2021/07/2021.07.19.001-2.jpg" alt="Chez Léon (Brussels)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://preview.redd.it/xbhewuk2eto21.jpg?auto=webp&s=487876fdb5c9d07a9c4fdbb10ec1c070cf832c30" alt="Chez Léon (Brussels)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="http://addieabroad.com/wp-content/uploads/2017/06/Mussels-in-Brussels-Chez-Leon-e1497297558272.jpg" alt="Chez Léon (Brussels)" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Chez Léon (Brussels)</h4>
+            <div class="zh-name">萊昂之家 · 經典青口鍋</div>
+            <div class="dish">🦪 招牌：比利時青口鍋 · 炸薯條 · 啤酒</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Chez%20L%C3%A9on%20%28Brussels%29+Rue%20des%20Bouchers%2018%2C%201000%20Bruxelles" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Rue des Bouchers 18, 1000 Bruxelles</a><br>
+              💰 青口鍋 €22/人 · NT$770 (5人約NT$3,850)<br>
+              🕐 11:30–23:00
+            </div>
+          </div>
+        </div>
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=L%C3%B6tschberg%20Bern%20cheese%20fondue" target="_blank" title="More photos of Lötschberg (Bern)" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://www.alamy.com/aggregator-api/download?url=https://c8.alamy.com/comp/2KR4FN3/fondue-at-ltschberg-swiss-restaurant-bern-switzerland-2KR4FN3.jpg" alt="Lötschberg (Bern)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://assets01.sdd1.ch/assets/lbwp-cdn/baerner-meitschi/files/1665517810/restaurant_lotschberg_fondue.jpg" alt="Lötschberg (Bern)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://c8.alamy.com/comp/2KR4FTH/asian-tourist-eating-fondue-at-ltschberg-swiss-restaurant-bern-switzerland-2KR4FTH.jpg" alt="Lötschberg (Bern)" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Lötschberg (Bern)</h4>
+            <div class="zh-name">勒奇山餐廳 · 瑞士火鍋</div>
+            <div class="dish">🧀 招牌：起司火鍋 · 巧克力火鍋</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=L%C3%B6tschberg%20%28Bern%29+Zeughausgasse%2016%2C%203011%20Bern" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Zeughausgasse 16, 3011 Bern</a><br>
+              💰 火鍋 CHF 40/人 · NT$1,200 (5人約NT$6,000)<br>
+              🕐 11:30–14:00 / 18:00–22:00
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:0;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 咖啡甜點 Cafés & Sweets</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Winkel%2043%20Amsterdam%20apple%20pie" target="_blank" title="More photos of Winkel 43 (Amsterdam)" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://i.redd.it/tqgcax3f0wi01.jpg" alt="Winkel 43 (Amsterdam)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://static.wixstatic.com/media/ea720f_60b15d7750f94c20b59b0311c4e90277~mv2.jpg/v1/fill/w_980,h_1503,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea720f_60b15d7750f94c20b59b0311c4e90277~mv2.jpg" alt="Winkel 43 (Amsterdam)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://blushrougette.com/wp-content/uploads/2019/05/winkel-43-apple-pie-1460x973.jpg" alt="Winkel 43 (Amsterdam)" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Winkel 43 (Amsterdam)</h4>
+            <div class="zh-name">溫克爾43 · 蘋果派名店</div>
+            <div class="dish">🍏 招牌：荷式蘋果派佐鮮奶油 · 咖啡</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Winkel%2043%20%28Amsterdam%29+Noordermarkt%2043%2C%201015%20NA%20Amsterdam" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Noordermarkt 43, 1015 NA Amsterdam</a><br>
+              💰 蘋果派+咖啡 €10/人 · NT$350 (5人約NT$1,750)<br>
+              🕐 08:00–17:00
+            </div>
+          </div>
+        </div>
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Caf%C3%A9%20du%20Sablon%20Brussels" target="_blank" title="More photos of Café du Sablon (Brussels)" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://i.pinimg.com/originals/0c/c2/45/0cc245afcfcf8d5469f9f88395559699.jpg" alt="Café du Sablon (Brussels)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://10619-2.s.cdn12.com/rests/small/w550/h367/402_287316799.jpg" alt="Café du Sablon (Brussels)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://gorgeousglobe.com/wp-content/uploads/2016/06/sablon.jpg" alt="Café du Sablon (Brussels)" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Café du Sablon (Brussels)</h4>
+            <div class="zh-name">薩布隆咖啡館</div>
+            <div class="dish">🥐 可頌 · 熱巧克力 · 比利時鬆餅</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20du%20Sablon%20%28Brussels%29+Rue%20des%20Sablons%205%2C%201000%20Bruxelles" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Rue des Sablons 5, 1000 Bruxelles</a><br>
+              💰 早餐組合 €12/人 · NT$420 (5人約NT$2,100)<br>
+              🕐 07:30–18:00
+            </div>
+          </div>
+        </div>
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Caf%C3%A9%20du%20Th%C3%A9%C3%A2tre%20Bern" target="_blank" title="More photos of Café du Théâtre (Bern)" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://www.ittenbrechbuehl.ch/media/filer_public_thumbnails/filer_public/71/6f/716fd812-6864-480a-a1e5-5cca0e62c47d/1705thcafe_vierte_wand_2.jpg__2000x2000_q85_subsampling-2.jpg" alt="Café du Théâtre (Bern)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.francebleu.fr/s3/cruiser-production/2020/01/9462dd94-c5a4-48bb-ba74-377b5a5da9bc/1200x680_17309321_417832761942408_8242668255701534686_n.jpg" alt="Café du Théâtre (Bern)" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://restosdix30.com/lecafedutheatre/wp-content/uploads/sites/5/2023/04/13740_GRDIX30-Lancement-salles-privees-2023_Photos-Cafe-Web3.jpg" alt="Café du Théâtre (Bern)" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Café du Théâtre (Bern)</h4>
+            <div class="zh-name">劇院咖啡館</div>
+            <div class="dish">☕ 招牌：瑞士熱巧克力 · 林茲蛋糕</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20du%20Th%C3%A9%C3%A2tre%20%28Bern%29+Theaterplatz%201%2C%203011%20Bern" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Theaterplatz 1, 3011 Bern</a><br>
+              💰 蛋糕+熱飲 CHF 15/人 · NT$450 (5人約NT$2,250)<br>
+              🕐 08:00–22:00
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+
+    <!-- Food image slider -->
+    <div class="slider" style="margin-top:1rem;">
+      <div class="slider-track">
+        
+        
+        
+        
+        <img src="https://img.restaurantguru.com/c3c3-Restaurant-De-Kas-dishes.jpg" alt="De Kas, Amsterdam - Restaurant menu, prices and reviews">
+        
+        
+        
+        <img src="https://img.restaurantguru.com/cbea-De-Kas-dishes-2.jpg" alt="De Kas, Amsterdam - Restaurant menu and reviews">
+        
+        
+        
+        
+        
+        <img src="https://www.trouvetonresto.be/img/restaurant/7369/7369/comme-chez-soi-restaurant-bruxelles-1.jpg?1585734114" alt="Comme Chez Soi, restaurant à Bruxelles - Trouve Ton Resto">
+        
+        
+        
+        <img src="https://a.cdn-hotels.com/gdcs/production76/d883/bb69e89a-4192-4415-bd3f-6937d7401b39.jpg" alt="10 Great Restaurants in Brussels - Where to Eat in Brussels and What to ...">
+        
+        
+        
+        
+        
+        <img src="https://axwwgrkdco.cloudimg.io/v7/__gmpics__/daffe9d7f4d84f8e9e9364967e05860d" alt="Restaurant de l'Hôtel de Ville – Crissier - a MICHELIN Guide Restaurant">
+        
+        
+        
+        <img src="https://4.bp.blogspot.com/-EdFkSvTHcto/UYfLiz_s57I/AAAAAAAAEpU/tJUyTQ8BUlM/s1600/Untitled-3.jpg" alt="Restaurant de L'Hôtel de Ville (Crissier, SWITZERLAND) ★★★★☆ | A ...">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://img.restaurantguru.com/cea0-Cafe-De-Paris-Amsterdam-food.jpg" alt="Café de Paris, Amsterdam - Restaurant menu, prices and reviews">
+        
+        
+        
+        <img src="https://www.theater.nl/static-images/2019/10/6_01102019103112_O_cafe-de-paris.jpg" alt="Restaurant CafÃ© de Paris">
+        
+        
+        
+        
+        
+        <img src="https://chezleon.be/wp-content/uploads/2021/07/2021.07.19.001-2.jpg" alt="Home - CHEZ LEON : CHEZ LEON">
+        
+        
+        
+        <img src="https://preview.redd.it/xbhewuk2eto21.jpg?auto=webp&s=487876fdb5c9d07a9c4fdbb10ec1c070cf832c30" alt="The famous Chez Leon in Brussel. Baked mussels with tomato sauce and ...">
+        
+        
+        
+        
+        
+        <img src="https://www.alamy.com/aggregator-api/download?url=https://c8.alamy.com/comp/2KR4FN3/fondue-at-ltschberg-swiss-restaurant-bern-switzerland-2KR4FN3.jpg" alt="Fondue at Lötschberg swiss restaurant, Bern, Switzerland Stock Photo ...">
+        
+        
+        
+        <img src="https://assets01.sdd1.ch/assets/lbwp-cdn/baerner-meitschi/files/1665517810/restaurant_lotschberg_fondue.jpg" alt="Die besten Orte für ein feines Fondue & Raclette in der Stadt Bern ...">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://i.redd.it/tqgcax3f0wi01.jpg" alt="Apple pie from Winkel 43 in Amsterdam, Netherlands. The most perfectly ...">
+        
+        
+        
+        <img src="https://static.wixstatic.com/media/ea720f_60b15d7750f94c20b59b0311c4e90277~mv2.jpg/v1/fill/w_980,h_1503,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea720f_60b15d7750f94c20b59b0311c4e90277~mv2.jpg" alt="Café Winkel 43 - Best Dutch Apple Pie in Amsterdam, The Netherlands">
+        
+        
+        
+        
+        
+        <img src="https://i.pinimg.com/originals/0c/c2/45/0cc245afcfcf8d5469f9f88395559699.jpg" alt="Café du Sablon | Cafe, Modern cafe, Brussels belgium">
+        
+        
+        
+        <img src="https://10619-2.s.cdn12.com/rests/small/w550/h367/402_287316799.jpg" alt="Menu at The LAB - Café du Sablon, Brussels">
+        
+        
+        
+        
+        
+        <img src="https://www.ittenbrechbuehl.ch/media/filer_public_thumbnails/filer_public/71/6f/716fd812-6864-480a-a1e5-5cca0e62c47d/1705thcafe_vierte_wand_2.jpg__2000x2000_q85_subsampling-2.jpg" alt="Theatercafé «Vierte Wand», Stadttheater | Itten+Brechbühl AG">
+        
+        
+        
+        <img src="https://www.francebleu.fr/s3/cruiser-production/2020/01/9462dd94-c5a4-48bb-ba74-377b5a5da9bc/1200x680_17309321_417832761942408_8242668255701534686_n.jpg" alt="Le Café du Théâtre - ici">
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- 📅 DAY BY DAY -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>📅 每日行程 Day by Day</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">2028-07-01 – 2028-07-12</span>
+    </div>
+
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">1</div>
+        <div class="day-label">7月1日 · 六</div>
+        <div class="day-zh">出發日 · 台北→阿姆斯特丹</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 阿姆斯特丹V酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🌅 起床 · 整理行李 · 確認證件</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🚗 從家裡出發至桃園機場 (建議提前3小時到)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> ✈️ 桃園機場第一航廈 · 辦理登機 · 出境</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🍜 機場貴賓室或餐廳晚餐 (自理)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">23:30</span> ✈️ 搭乘 CI 73 前往阿姆斯特丹 (轉機)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">06:30</span> 🛬 抵達阿姆斯特丹史基浦機場 · 入境 · 取行李</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hotel V Nesplein Amsterdam · 家庭房 (父母) + 雙床房 (三位少女)</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 22°/14°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">2</div>
+        <div class="day-label">7月2日 · 日</div>
+        <div class="day-zh">阿姆斯特丹 · 運河與博物館</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 阿姆斯特丹V酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🌅 起床 · 飯店早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚶 步行至水壩廣場 · 參觀皇宮 (門票€10/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:30</span> 🚲 騎單車至安妮之家 (需提前預約, 門票€16/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍽️ Winkel 43 午餐 · 蘋果派+咖啡</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🎨 梵谷博物館 (門票€19/人, 預約時段14:30)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> 🛶 運河遊船 (1小時, €15/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍽️ Café de Paris 晚餐 · 荷式牛排</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🏨 返回飯店休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hotel V Nesplein Amsterdam · 家庭房 (父母) + 雙床房 (三位少女)</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 23°/15°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">3</div>
+        <div class="day-label">7月3日 · 一</div>
+        <div class="day-zh">阿姆斯特丹 · 風車與鬱金香</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 阿姆斯特丹V酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🌅 起床 · 飯店早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚂 從阿姆斯特丹中央車站搭火車至贊丹 (15分鐘, 來回票€8/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🌷 贊丹風車村 · 參觀風車與木鞋工廠 (免費入場)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍽️ 風車村餐廳午餐 · 荷式煎餅 (€15/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🚂 返回阿姆斯特丹 · 自由購物 (卡爾弗爾街)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🍽️ De Kas 精緻晚餐 (需預約, €45/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🏨 返回飯店休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hotel V Nesplein Amsterdam · 家庭房 (父母) + 雙床房 (三位少女)</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 24°/16°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 15%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">4</div>
+        <div class="day-label">7月4日 · 二</div>
+        <div class="day-zh">阿姆斯特丹 → 布魯塞爾 (交通日)</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 于貝爾大廣場酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🌅 起床 · 飯店早餐 · 退房</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🚆 從阿姆斯特丹中央車站搭乘 Thalys 高鐵至布魯塞爾 (1小時50分, 二等艙€49/人, 建議提前購票)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:20</span> 🛬 抵達布魯塞爾南站 · 步行至飯店 (約10分鐘) · 寄放行李</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍽️ Chez Léon 午餐 · 青口鍋</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🏛️ 大廣場 · 尿尿小童 · 聖米歇爾大教堂 (免費)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:00</span> 🍫 巧克力博物館 (門票€12/人) 或 逛街買巧克力</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍽️ Comme Chez Soi 晚餐 (需預約, €120/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🏨 返回飯店休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hotel Hubert Grand Place · 家庭套房 (父母) + 雙床房 (三位少女)</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 25°/17°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">5</div>
+        <div class="day-label">7月5日 · 三</div>
+        <div class="day-zh">布魯塞爾 · 漫畫與歐盟</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 于貝爾大廣場酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🌅 起床 · 飯店早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🎨 漫畫博物館 (門票€12/人) · 尋找街頭漫畫牆</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍽️ Café du Sablon 午餐 · 比利時鬆餅</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:30</span> 🏛️ 歐盟總部 (免費參觀, 需預約) · 五十周年紀念公園</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:00</span> 🛍️ 聖胡伯特購物拱廊 · 買巧克力與蕾絲</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍽️ 飯店附近小酒館晚餐 (€20/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🏨 返回飯店休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hotel Hubert Grand Place · 家庭套房 (父母) + 雙床房 (三位少女)</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 24°/16°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">6</div>
+        <div class="day-label">7月6日 · 四</div>
+        <div class="day-zh">布魯塞爾 → 伯恩 (交通日)</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 伯恩施維茨霍夫酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🌅 起床 · 飯店早餐 · 退房</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🚆 從布魯塞爾南站搭乘 ICE 高鐵至伯恩 (約4小時, 二等艙€89/人, 建議提前購票)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:30</span> 🛬 抵達伯恩中央車站 · 步行至飯店 (約5分鐘) · 入住</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🍽️ Lötschberg 午餐 · 起司火鍋</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:30</span> 🏛️ 伯恩舊城區 · 鐘樓 · 熊公園 (免費)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🛍️ 拱廊購物街 · 買瑞士刀與巧克力</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:30</span> 🍽️ Restaurant de l'Hôtel de Ville 晚餐 (需預約, CHF 250/人, 位於克里西耶, 搭計程車20分鐘)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🏨 返回飯店休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hotel Schweizerhof Bern · 家庭套房 (父母) + 雙床房 (三位少女)</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 26°/18°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 15%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">7</div>
+        <div class="day-label">7月7日 · 五</div>
+        <div class="day-zh">伯恩 · 阿爾卑斯山入門</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 伯恩施維茨霍夫酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🌅 起床 · 飯店早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚂 從伯恩搭黃金列車至因特拉肯 (2小時, 二等艙CHF 50/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> 🏔️ 因特拉肯 · 少女峰纜車 (門票CHF 100/人, 含纜車)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🍽️ 山頂餐廳午餐 · 瑞士香腸 (CHF 25/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🚂 返回伯恩</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🍽️ Café du Théâtre 下午茶</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:30</span> 🏨 飯店休息 · 可享用泳池SPA</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hotel Schweizerhof Bern · 家庭套房 (父母) + 雙床房 (三位少女)</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 22°/14°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">8</div>
+        <div class="day-label">7月8日 · 六</div>
+        <div class="day-zh">伯恩 · 歷史與自然</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 伯恩施維茨霍夫酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🌅 起床 · 飯店早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🏛️ 伯恩歷史博物館 (門票CHF 15/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> 🌳 玫瑰園 (免費) · 俯瞰伯恩全景</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍽️ 舊城區午餐 · 瑞士麵包湯 (CHF 20/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🛶 阿勒河漂流 (可選, CHF 40/人) 或 散步</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🛍️ 逛巧克力店 (Läderach)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:30</span> 🍽️ 飯店屋頂餐廳晚餐 (CHF 60/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🏨 返回飯店休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hotel Schweizerhof Bern · 家庭套房 (父母) + 雙床房 (三位少女)</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 23°/15°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">9</div>
+        <div class="day-label">7月9日 · 日</div>
+        <div class="day-zh">伯恩 → 施皮茨 (交通日)</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 施皮茨伊甸酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🌅 起床 · 飯店早餐 · 退房</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🚂 從伯恩搭火車至施皮茨 (30分鐘, 二等艙CHF 20/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> 🛬 抵達施皮茨 · 步行至飯店 (5分鐘) · 入住</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> 🏰 施皮茨城堡 (門票CHF 10/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍽️ 湖邊餐廳午餐 · 湖魚 (CHF 30/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🚢 圖恩湖遊船 (2小時, CHF 25/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🏨 飯店休息 · 湖景陽台放鬆</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:30</span> 🍽️ 飯店湖景餐廳晚餐 (CHF 50/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🏨 返回房間休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hotel Eden Spiez · 家庭套房 (父母) + 雙床房 (三位少女)</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 25°/17°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">10</div>
+        <div class="day-label">7月10日 · 一</div>
+        <div class="day-zh">施皮茨 · 瑞士湖光山色</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 施皮茨伊甸酒店</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🌅 起床 · 飯店早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚂 施皮茨搭火車至策馬特 (2小時, 二等艙CHF 60/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> 🏔️ 策馬特 · 馬特洪峰觀景 (纜車CHF 80/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🍽️ 山頂餐廳午餐 · 瑞士起司鍋 (CHF 30/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🚂 返回施皮茨</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🛍️ 施皮茨小鎮散步 · 買紀念品</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:30</span> 🍽️ 小鎮餐廳晚餐 (CHF 40/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🏨 返回飯店休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hotel Eden Spiez · 家庭套房 (父母) + 雙床房 (三位少女)</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 26°/18°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 5%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">11</div>
+        <div class="day-label">7月11日 · 二</div>
+        <div class="day-zh">施皮茨 → 蘇黎世 (回程)</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 夜宿機上</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🌅 起床 · 飯店早餐 · 退房</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🚂 施皮茨搭火車至蘇黎世 (2小時, 二等艙CHF 50/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🛬 抵達蘇黎世中央車站 · 寄放行李 (車站寄存CHF 10/件)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍽️ 蘇黎世午餐 · 瑞士炸肉排 (CHF 30/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:30</span> 🏛️ 蘇黎世美術館 (門票CHF 15/人) 或 購物</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:00</span> 🛍️ 班霍夫大街逛街 · 買最後伴手禮</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍽️ 機場晚餐 (自理)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> ✈️ 蘇黎世機場 · 辦理登機 · 出境</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">23:00</span> ✈️ 搭乘 KL 1975 返回台北 (轉機)</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> 無 (夜宿機上) · 無</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 27°/19°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">12</div>
+        <div class="day-label">7月12日 · 三</div>
+        <div class="day-zh">抵達台灣</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 無</div>
+      </div>
+      <div class="day-schedule">
+        
+        
+        <div class="time-slot"><span class="time">06:30</span> 🛬 抵達桃園機場 · 入境 · 取行李</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🚗 返家 · 結束旅程</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> 無 · 無</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 33°/26° (台北)<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 30%</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 💰 COST BREAKDOWN -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>💰 花費明細 Cost</h2>
+      <span style="font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">所有金額以新台幣 NTD 計算</span>
+    </div>
+    
+    <div class="cost-row"><span>✈️ 來回機票 (5人)</span><span>NT$ <strong>175,000</strong></span></div>
+    
+    <div class="cost-row"><span>🏨 住宿 (總計, 4間飯店)</span><span>NT$ <strong>240,000</strong></span></div>
+    
+    <div class="cost-row"><span>🍽️ 餐飲 (12天, 含精緻餐廳)</span><span>NT$ <strong>150,000</strong></span></div>
+    
+    <div class="cost-row"><span>🎫 景點門票 (博物館、纜車等)</span><span>NT$ <strong>80,000</strong></span></div>
+    
+    <div class="cost-row"><span>🚆 交通 (火車、高鐵、遊船)</span><span>NT$ <strong>100,000</strong></span></div>
+    
+    <div class="cost-row"><span>🛍️ 購物伴手禮</span><span>NT$ <strong>50,000</strong></span></div>
+    
+    <div class="cost-row" style="font-weight:600; border-top:2px solid var(--gold); padding-top:0.5rem; margin-top:0.2rem;">
+      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>795,000</strong></span>
+    </div>
+    <div class="cost-bar"><div class="cost-bar-fill" style="width:99.0%"></div></div>
+    <div style="text-align:right; font-size:0.8rem; color:var(--warm-gray);">
+      NT$ 795,000 / NT$ 800,000 · 剩餘 NT$ 5,000
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Shared JS for all Travel Planner pages
+// Lightbox, broken image handler
+
+// Hide broken images globally
+document.addEventListener('error', function(e){
+  if(e.target.tagName === 'IMG'){
+    e.target.classList.add('broken');
+  }
+}, true);
+
+// ═══ LIGHTBOX ═══
+(function(){
+  var images = [];
+  var currentIdx = 0;
+  var lb = null;
+  var lbImg = null;
+  var lbCounter = null;
+
+  function buildLightbox() {
+    lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.innerHTML =
+      '<button class="close-btn">&times;</button>' +
+      '<div class="lbox-img-wrap">' +
+        '<div class="lbox-left"><span class="lbox-arrow">&#8249;</span></div>' +
+        '<img src="" alt="">' +
+        '<div class="lbox-right"><span class="lbox-arrow">&#8250;</span></div>' +
+      '</div>' +
+      '<div class="counter"></div>';
+    document.body.appendChild(lb);
+    lbImg = lb.querySelector('img');
+    lbCounter = lb.querySelector('.counter');
+
+    lb.querySelector('.close-btn').addEventListener('click', close);
+    lb.querySelector('.lbox-left').addEventListener('click', function(e){ e.stopPropagation(); prev(); });
+    lb.querySelector('.lbox-right').addEventListener('click', function(e){ e.stopPropagation(); next(); });
+    lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
+    document.addEventListener('keydown', function(e){
+      if(!lb.classList.contains('open')) return;
+      if(e.key === 'Escape') close();
+      if(e.key === 'ArrowLeft') prev();
+      if(e.key === 'ArrowRight') next();
+    });
+  }
+
+  function collectImages() {
+    images = [];
+    var all = document.querySelectorAll('.slider-track img, .food-imgs img, .hero-placeholder, .dining-card img, .lightbox-clickable');
+    all.forEach(function(img, i){
+      // Skip images inside Google Images links — let the browser follow the link
+      if(img.closest('a[href*="google.com/search?tbm=isch"]')) return;
+      if(img.naturalWidth > 0 || img.complete) {
+        images.push(img);
+        img.style.cursor = 'pointer';
+        img.setAttribute('data-lb-idx', images.length - 1);
+        if(!img.hasLbListener) {
+          img.addEventListener('click', function(e){
+            e.stopPropagation();
+            open(img.getAttribute('data-lb-idx'));
+          });
+          img.hasLbListener = true;
+        }
+      }
+    });
+  }
+
+  function open(idx) {
+    if(!lb) buildLightbox();
+    collectImages();
+    idx = parseInt(idx);
+    if(idx < 0) idx = images.length - 1;
+    if(idx >= images.length) idx = 0;
+    currentIdx = idx;
+    var src = images[currentIdx].src || images[currentIdx].getAttribute('src');
+    // strip Unsplash size params for full resolution
+    src = src.replace(/[?&]w=\d+/g, '').replace(/[?&]h=\d+/g, '').replace(/[?&]fit=crop/g, '');
+    if(src.indexOf('?') === -1) src += '?w=1400'; else src += '&w=1400';
+    lbImg.src = src;
+    lbCounter.textContent = (currentIdx + 1) + ' / ' + images.length;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function next() { open(currentIdx + 1); }
+  function prev() { open(currentIdx - 1); }
+
+  window.addEventListener('load', function(){ collectImages(); });
+})();
+</script>
+<div style="text-align:center;padding:2rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
+  build 260517.111608
+</div>
+</body>
+</html>

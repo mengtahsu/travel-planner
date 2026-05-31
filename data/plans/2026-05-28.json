@@ -1,0 +1,708 @@
+{
+  "destination_en": "Paris, France",
+  "title_zh": "寒假巴黎 · 浪漫八天之旅",
+  "date_range": "2026/01/26–02/02",
+  "start_date": "2026-01-26",
+  "end_date": "2026-02-02",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "CDG",
+  "travelers": 2,
+  "days": 8,
+  "budget_ntd": 500000,
+  "flight": {
+    "airline": "長榮航空 EVA Air",
+    "departure_date": "1月26日",
+    "return_date": "2月2日",
+    "total_price_ntd": 68000,
+    "outbound": {
+      "flight_no": "BR 87",
+      "route": "TPE → CDG 直飛",
+      "depart_time": "23:40",
+      "arrive_time": "07:30 (+1)",
+      "duration": "13h 50m",
+      "class": "經濟艙"
+    },
+    "inbound": {
+      "flight_no": "BR 88",
+      "route": "CDG → TPE 直飛",
+      "depart_time": "11:20",
+      "arrive_time": "06:30 (+1)",
+      "duration": "13h 10m",
+      "class": "經濟艙"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Hôtel Le Narcisse Blanc & Spa",
+      "name_zh": "水仙花白酒店",
+      "district": "巴黎 6 區",
+      "day_range": "1–4",
+      "nights": 4,
+      "price_ntd": 52000,
+      "stars": "★★★★☆",
+      "room_type": "經典豪華雙人房",
+      "breakfast": "含法式早餐",
+      "amenities": "🏊 室內泳池 · 💆 SPA & 土耳其浴 · 🍽️ 庭院餐廳 · 🌿 私密花園",
+      "search_query": "Hôtel Le Narcisse Blanc Paris France",
+      "photos": [
+        {
+          "url": "https://www.paris.tourisme-ville.fr/wp-content/uploads/Narcisse-Blanc-Facade.jpg",
+          "label": "Le Narcisse Blanc Hôtel et Spa - Paris Guide"
+        },
+        {
+          "url": "https://farm8.staticflickr.com/7905/31717635057_1221e16156_k.jpg",
+          "label": "Le Narcisse Blanc Hotel & Spa: True Parisian Sophistication and ..."
+        },
+        {
+          "url": "https://d1x2jsuj9gaph.cloudfront.net/imageRepo/6/0/88/76/391/_19A8730_md_P.jpg",
+          "label": "Le Narcisse Blanc Hôtel & Spa, Luxury Hotel in Paris, France | Small ..."
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/64d0dc382c32125c4ca717f4/64e5f2200c9143bb05c90043_lenarcisseblanc-hotel-paris-home-slider3.jpg",
+          "label": "Le Narcisse Blanc | Hôtel de Luxe & Spa au Coeur de Paris"
+        },
+        {
+          "url": "https://www.myboutiquehotel.com/photos/106968/le-narcisse-blanc-spa-paris-006-80827-2220x1400.jpg",
+          "label": "Le Narcisse Blanc, a Design Boutique Hotel Paris, France"
+        },
+        {
+          "url": "https://www.myboutiquehotel.com/photos/106968/le-narcisse-blanc-spa-paris-013-80828-2220x1400.jpg",
+          "label": "Le Narcisse Blanc, Paris, France - My Boutique hotel"
+        }
+      ]
+    },
+    {
+      "name": "Hôtel Particulier Montmartre",
+      "name_zh": "蒙馬特私人酒店",
+      "district": "巴黎 18 區",
+      "day_range": "4–8",
+      "nights": 4,
+      "price_ntd": 58000,
+      "stars": "★★★★★",
+      "room_type": "豪華套房附露台",
+      "breakfast": "含歐陸早餐",
+      "amenities": "🌿 私人花園 · 🍸 酒吧 · 🎨 藝術畫廊 · 🛁 大理石浴室",
+      "search_query": "Hôtel Particulier Montmartre Paris",
+      "photos": [
+        {
+          "url": "https://thegoodlife.fr/wp-content/uploads/sites/2/2022/10/the-good-life-hotel-particulier-montmartre-hotel-charme-paris-7.jpg",
+          "label": "A Paris, une nuit à l’Hôtel Particulier de Montmartre - The Good Life"
+        },
+        {
+          "url": "https://barlacalle.fr/wp-content/uploads/2025/04/Decouvrez-lHotel-Particulier-Montmartre-un-restaurant-au-charme-bucolique-et-a-la-terrasse-secrete-1024x585.jpg",
+          "label": "Découvrez l'Hôtel Particulier Montmartre, un restaurant au charme ..."
+        },
+        {
+          "url": "https://offloadmedia.feverup.com/parissecret.com/wp-content/uploads/2020/05/23132844/Capture-d’écran-2020-05-16-à-18.24.43.png",
+          "label": "Paris : l'Hôtel Particulier Montmartre rouvre ses portes ! - Paris Secret"
+        },
+        {
+          "url": "https://particulier-montmartre.iledefrance-hotel.com/data/Pictures/OriginalPhoto/10178/1017897/1017897433/paris-hotel-particulier-montmartre-picture-62.JPEG",
+          "label": "Hotel Particulier Montmartre Paris, France - réserver maintenant, les ..."
+        },
+        {
+          "url": "https://www.paristopten.com/wp-content/uploads/hotel-particulier-montmartre-1.jpg",
+          "label": "Hidden Romantic Getaways: Parisian Hotels Only Locals Know About"
+        },
+        {
+          "url": "https://particulier-montmartre.iledefrance-hotel.com/data/Imgs/OriginalPhoto/7039/703963/703963999/img-hotel-particulier-montmartre-paris-66.JPEG",
+          "label": "Hotel Particulier Montmartre Paris, France - réserver maintenant, les ..."
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "Le Cinq",
+        "name_zh": "四季酒店米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：龍蝦濃湯佐黑松露",
+        "address": "31 Av. George V, 8區",
+        "price_ntd": 8500,
+        "price_label": "晚餐套餐 €245/人 · NT$8,500",
+        "hours": "19:00–22:00 · 需預約",
+        "search_query": "Le Cinq restaurant Four Seasons Paris food",
+        "photos": [
+          {
+            "url": "http://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-221,5743-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_706_original.jpg",
+            "label": "Paris Restaurants | Fine Dining | Four Seasons Hotel George V Paris"
+          },
+          {
+            "url": "https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-788,4585-2250,0000-1265,6250/publish/content/dam/fourseasons/images/web/PAR/PAR_1048_original.jpg",
+            "label": "Le Cinq | Michelin-Star Restaurant Paris | Fine Dining in Paris"
+          },
+          {
+            "url": "https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-272,1406-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/PAR/PAR_1681_original.jpg",
+            "label": "Le Cinq | Restaurant étoilé Michelin à Paris | Cuisine gastronomique à ..."
+          }
+        ]
+      },
+      {
+        "name": "L'Ambroisie",
+        "name_zh": "米其林三星 · 布魯斯廣場",
+        "stars": "⭐⭐⭐",
+        "dish": "🌟 招牌：龍蝦佐松露酥皮 · 巧克力舒芙蕾",
+        "address": "9 Pl. des Vosges, 4區",
+        "price_ntd": 9000,
+        "price_label": "晚餐套餐 €260/人 · NT$9,000",
+        "hours": "12:00–14:00 / 19:30–21:30 · 週日一休息",
+        "search_query": "L'Ambroisie restaurant Place des Vosges Paris",
+        "photos": [
+          {
+            "url": "https://s3-media3.fl.yelpcdn.com/bphoto/-DRzu0yxJBle6rsL4V-yWA/o.jpg",
+            "label": "L’Ambroisie - 149 Photos & 48 Reviews - French - 9 place des Vosges ..."
+          },
+          {
+            "url": "https://images.squarespace-cdn.com/content/v1/5cf423ac7eb1290001ede256/1619856620882-UFZMT05M3OI7IE4DM8LB/ambroisie.jpg",
+            "label": "L'Ambroisie – Michelin-Starred Restaurant in Paris, France | Flavors ..."
+          },
+          {
+            "url": "https://d3h1lg3ksw6i6b.cloudfront.net/guide/fr/2020/xlarge/5821_int3_1.jpg",
+            "label": "L'Ambroisie - Un restaurant du Guide MICHELIN - Paris"
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "Septime",
+        "name_zh": "新派法式小酒館 · 米其林一星",
+        "stars": "⭐",
+        "dish": "🥩 招牌：熟成肋眼牛排 · 煙燻甜菜根",
+        "address": "80 Rue de Charonne, 11區",
+        "price_ntd": 3200,
+        "price_label": "午餐套餐 €92/人 · NT$3,200",
+        "hours": "12:15–14:00 / 19:30–22:00",
+        "search_query": "Septime restaurant Paris food",
+        "photos": [
+          {
+            "url": "https://www.solosophie.com/wp-content/uploads/2020/02/septime-paris-food.jpg",
+            "label": "Paris Septime Restaurant Review in the 11th Arrondissement | solosophie"
+          },
+          {
+            "url": "https://www.solosophie.com/wp-content/uploads/2020/02/Paris-Septime-Restaurant-Review-in-the-11th-Arrondissement-of-Paris-France-Michelin-Star-Paris-Luxury-Food.jpg.webp",
+            "label": "Paris Septime Restaurant Review in the 11th Arrondissement | solosophie"
+          },
+          {
+            "url": "https://www.solosophie.com/wp-content/uploads/2020/02/septime-paris-restaurant-interior-1024x683.jpg",
+            "label": "Paris Septime Restaurant Review in the 11th Arrondissement | solosophie"
+          }
+        ]
+      },
+      {
+        "name": "Le Chateaubriand",
+        "name_zh": "新派小酒館 · 米其林一星",
+        "stars": "⭐",
+        "dish": "🐟 招牌：時令創意套餐 · 海鮮前菜",
+        "address": "129 Av. Parmentier, 11區",
+        "price_ntd": 2800,
+        "price_label": "晚餐套餐 €80/人 · NT$2,800",
+        "hours": "19:30–23:00 · 週日一休息",
+        "search_query": "Le Chateaubriand restaurant Paris",
+        "photos": [
+          {
+            "url": "https://u.tfstatic.com/restaurant_photos/202/76202/169/612/le-chateaubriand-devanture-1a61e.jpg",
+            "label": "Restaurante Le Châteaubriand en Paris - Menú, opiniones, precios y reserva"
+          },
+          {
+            "url": "https://img.restaurantguru.com/re26-Le-Chateaubriand-menu-2022-10-1.jpg",
+            "label": "Menu at Le Châteaubriand restaurant, Paris, 129 Ave Parmentier"
+          },
+          {
+            "url": "https://img.restaurantguru.com/w550/h367/r93a-design-Le-Chateaubriand-2024-09-1.jpg",
+            "label": "Le Châteaubriand, Paris, Goncourt - Restaurant menu, prices and reviews"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Café de Flore",
+        "name_zh": "花神咖啡館 · 1887年開業",
+        "stars": "",
+        "dish": "☕ 招牌：熱巧克力 · 可頌 · 焦糖布丁",
+        "address": "172 Bd Saint-Germain, 6區",
+        "price_ntd": 1800,
+        "price_label": "兩人早午餐 €52 · NT$1,800",
+        "hours": "07:30–01:30 · 文人雅士最愛",
+        "search_query": "Cafe de Flore Paris interior",
+        "photos": [
+          {
+            "url": "https://www.commercialdesignindia.com/cloud/2023/05/05/image_6483441-2-1024x1024.jpg",
+            "label": "A taste of Paris: Cafe de Flora by Chromed Design Studio celebrates ..."
+          },
+          {
+            "url": "https://live.staticflickr.com/2109/2313594657_22d8acf2ab_z.jpg",
+            "label": "Cafe de Flore interior - a photo on Flickriver"
+          },
+          {
+            "url": "https://i0.wp.com/www.theluxurylowdown.com/wp-content/uploads/2021/10/The_Luxury_Lowdown_Cafe_de_Flore_12.jpg?resize=1024,683&ssl=1",
+            "label": "Paris Café Series: Café de Flore Review (#3) - The Luxury Lowdown"
+          }
+        ]
+      },
+      {
+        "name": "La Pâtisserie des Rêves",
+        "name_zh": "夢幻甜點店 · 巴黎最美味",
+        "stars": "",
+        "dish": "🍰 招牌：巴黎布列斯特 · 千層派 · 檸檬塔",
+        "address": "93 Rue du Bac, 7區",
+        "price_ntd": 900,
+        "price_label": "兩人甜點+咖啡 €26 · NT$900",
+        "hours": "09:00–19:30 · 週一休息",
+        "search_query": "La Pâtisserie des Rêves Paris",
+        "photos": [
+          {
+            "url": "http://retaildesignblog.net/wp-content/uploads/2012/11/La-Patisserie-des-Reves-Paris-13.jpg",
+            "label": "» CHOCOLATIER! La Pâtisserie des Rêves, Paris"
+          },
+          {
+            "url": "https://www.roadtopastry.com/blog/wp-content/uploads/Shop-Patisserie-des-reves-Paris01.jpg",
+            "label": "Pastry on the road: La Pâtisserie des Rêves, Paris – Road to Pastry"
+          },
+          {
+            "url": "https://www.sugarednspiced.com/wp-content/uploads/2012/12/R0057087.jpg",
+            "label": "[Paris] La Pâtisserie des Rêves | Sugared & Spiced"
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "Jan 26 · Mon",
+      "label_zh": "抵達 · 巴黎初印象",
+      "day_query": "Eiffel Tower Paris landmark",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "❄️ 4°/-1°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李（預計 30–45 分鐘）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚕 搭乘計程車前往酒店（約 45 分鐘 · €55）· 沿途欣賞巴黎市郊冬景"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏨 抵達 Hôtel Le Narcisse Blanc · 辦理入住 · 稍作休息"
+        },
+        {
+          "time": "11:30",
+          "desc": "🥐 Café de Flore 早午餐 · 花神經典歐蕾 + 可頌 + 法式洋蔥湯 · NT$1,800"
+        },
+        {
+          "time": "14:00",
+          "desc": "🎨 羅浮宮 Musée du Louvre（預約票 €17/人）· 必看：蒙娜麗莎、勝利女神 · 建議參觀2.5小時"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚶 杜樂麗花園散步 · 協和廣場 · 欣賞冬日夕陽"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ Le Cinq 米其林三星晚餐 · 預約 19:30 · 品嚐主廚招牌龍蝦濃湯 · NT$8,500/人"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店 · 途經亞歷山大三世橋欣賞夜間燈光"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 2,
+      "date": "Jan 27 · Tue",
+      "label_zh": "左岸文化 · 聖母院與拉丁區",
+      "day_query": "Notre Dame Cathedral Paris",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "❄️ 3°/-2°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店享用法式早餐 · 可頌、咖啡、鮮榨果汁"
+        },
+        {
+          "time": "09:30",
+          "desc": "⛪ 聖母院 Cathédrale Notre-Dame de Paris（外部廣場 · 重建中）· 拍照留念"
+        },
+        {
+          "time": "10:30",
+          "desc": "📚 莎士比亞書店 Shakespeare & Company · 經典獨立書店 · 選購法文原文書"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 拉丁區午餐 · 推薦 Le Petit Prince de Paris · 油封鴨 · NT$1,200/人"
+        },
+        {
+          "time": "14:00",
+          "desc": "🏛️ 奧賽博物館 Musée d'Orsay（預約票 €16/人）· 印象派畫作 · 梵谷、莫內、雷諾瓦"
+        },
+        {
+          "time": "17:00",
+          "desc": "☕ La Pâtisserie des Rêves 下午茶 · 巴黎布列斯特 + 熱巧克力 · NT$900"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ Septime 米其林一星晚餐 · 熟成肋眼牛排 · NT$3,200/人"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 酒店休息 · 可預約 SPA 土耳其浴（需提前預約）"
+        }
+      ],
+      "day_photo": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Notre-Dame_de_Paris_2792x2911.jpg"
+    },
+    {
+      "day": 3,
+      "date": "Jan 28 · Wed",
+      "label_zh": "蒙馬特 · 聖心堂與藝術家",
+      "day_query": "Sacré-Cœur Basilica Montmartre",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "❄️ 2°/-3°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚇 地鐵至 Anvers 站 · 步行至聖心堂 Basilique du Sacré-Cœur · 俯瞰巴黎全景"
+        },
+        {
+          "time": "11:00",
+          "desc": "🎨 畫家廣場 Place du Tertre · 街頭畫家肖像畫（約 €30）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 蒙馬特午餐 · 推薦 Le Consulat · 法式洋蔥湯 · NT$1,000/人"
+        },
+        {
+          "time": "14:30",
+          "desc": "🏛️ 達利美術館 Espace Dalí · 超現實主義作品 · 門票 €13/人"
+        },
+        {
+          "time": "16:30",
+          "desc": "🚶 紅磨坊 Moulin Rouge 外觀拍照 · 自由散步"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ Le Chateaubriand 小酒館晚餐 · 創意套餐 · NT$2,800/人"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 返回酒店"
+        }
+      ],
+      "day_photo": "https://img.fotocommunity.com/basilique-du-sacre-cur-de-montmartre-3b543772-0a0f-4308-84d6-a25f7afc0476.jpg?height=1080"
+    },
+    {
+      "day": 4,
+      "date": "Jan 29 · Thu",
+      "label_zh": "凡爾賽宮 · 換酒店至蒙馬特",
+      "day_query": "Palace of Versailles gardens",
+      "hotel_name": "Hôtel Particulier Montmartre",
+      "hotel_name_zh": "蒙馬特私人酒店 · 豪華套房附露台",
+      "hotel_room": "豪華套房附露台",
+      "weather": "❄️ 1°/-4°",
+      "rain_pct": "25%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🥐 酒店早餐 · 整理行李 · 退房（行李寄存前台）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚇 搭乘 RER C 至 Versailles Château Rive Gauche（約 45 分鐘）"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏛️ 凡爾賽宮 Château de Versailles（預約票 €21/人）· 鏡廳、國王大寢宮、花園"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 凡爾賽宮午餐 · 推薦 Angelina Versailles · 栗子蒙布朗 · NT$1,500/人"
+        },
+        {
+          "time": "15:00",
+          "desc": "🌳 凡爾賽花園散步 · 大運河 · 冬季花園寧靜"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚇 返回巴黎 · 前往 Hôtel Particulier Montmartre 辦理入住"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 蒙馬特晚餐 · 推薦 Le Coq Rico · 招牌烤雞 · NT$2,000/人"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 酒店露台欣賞蒙馬特夜景 · 享用酒店酒吧調酒"
+        }
+      ],
+      "day_photo": "https://www.tripsavvy.com/thmb/7e-cAiIkxbZ2-hNyOt44nMNg1Ms=/4163x2772/filters:no_upscale():max_bytes(150000):strip_icc()/versailles-gardens-orangerie-59787fddaad52b0011a6a0a4.jpg"
+    },
+    {
+      "day": 5,
+      "date": "Jan 30 · Fri",
+      "label_zh": "香榭麗舍 · 凱旋門與艾菲爾鐵塔",
+      "day_query": "Arc de Triomphe Paris",
+      "hotel_name": "Hôtel Particulier Montmartre",
+      "hotel_name_zh": "蒙馬特私人酒店 · 豪華套房附露台",
+      "hotel_room": "豪華套房附露台",
+      "weather": "❄️ 3°/-1°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚇 地鐵至 Charles de Gaulle–Étoile · 凱旋門 Arc de Triomphe（登頂 €13/人）"
+        },
+        {
+          "time": "11:00",
+          "desc": "🛍️ 香榭麗舍大道散步 · LV、Cartier 旗艦店 · 櫥窗購物"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 香榭麗舍午餐 · 推薦 Ladurée · 經典法式三明治 + 馬卡龍 · NT$1,800/人"
+        },
+        {
+          "time": "14:30",
+          "desc": "🗼 艾菲爾鐵塔 Tour Eiffel · 預約登頂（門票 €25/人）· 巴黎全景"
+        },
+        {
+          "time": "16:30",
+          "desc": "🚶 戰神廣場散步 · 鐵塔最佳拍照點"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ L'Ambroisie 米其林三星晚餐 · 龍蝦佐松露酥皮 · NT$9,000/人"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店"
+        }
+      ],
+      "day_photo": "https://www.parisperfect.com/blog/wp-content/uploads/2012/10/Visiting-the-Arc-de-Triomphe-in-Paris-by-Paris-Perfect1.jpg"
+    },
+    {
+      "day": 6,
+      "date": "Jan 31 · Sat",
+      "label_zh": "瑪黑區 · 畢卡索美術館與孚日廣場",
+      "day_query": "Place des Vosges Paris",
+      "hotel_name": "Hôtel Particulier Montmartre",
+      "hotel_name_zh": "蒙馬特私人酒店 · 豪華套房附露台",
+      "hotel_room": "豪華套房附露台",
+      "weather": "❄️ 2°/-2°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚇 地鐵至 Saint-Paul · 瑪黑區漫步 · 逛獨立設計小店"
+        },
+        {
+          "time": "11:00",
+          "desc": "🎨 畢卡索美術館 Musée Picasso（門票 €14/人）· 畢卡索各時期作品"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 瑪黑區午餐 · 推薦 Breizh Café · 法式可麗餅 · NT$1,200/人"
+        },
+        {
+          "time": "15:00",
+          "desc": "🌳 孚日廣場 Place des Vosges · 雨果故居 · 悠閒散步"
+        },
+        {
+          "time": "17:00",
+          "desc": "🛍️ 聖母院周邊 · 拉丁區書店與古董店"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 蒙馬特晚餐 · 推薦 Le Basilic · 普羅旺斯風味 · NT$1,500/人"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 返回酒店 · 露台熱巧克力"
+        }
+      ],
+      "day_photo": "https://frenchmoments.eu/wp-content/uploads/2016/04/Place-des-Vosges-April-2016-05-©-French-Moments.jpg"
+    },
+    {
+      "day": 7,
+      "date": "Feb 1 · Sun",
+      "label_zh": "羅丹美術館 · 蒙帕納斯與購物",
+      "day_query": "Musée Rodin Paris sculpture garden",
+      "hotel_name": "Hôtel Particulier Montmartre",
+      "hotel_name_zh": "蒙馬特私人酒店 · 豪華套房附露台",
+      "hotel_room": "豪華套房附露台",
+      "weather": "❄️ 1°/-3°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚇 地鐵至 Varenne · 羅丹美術館 Musée Rodin（門票 €13/人）· 沉思者、地獄之門"
+        },
+        {
+          "time": "11:30",
+          "desc": "🌿 羅丹美術館花園 · 冬日雕塑與枯枝之美"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 蒙帕納斯午餐 · 推薦 La Coupole · 海鮮拼盤 · NT$2,200/人"
+        },
+        {
+          "time": "15:00",
+          "desc": "🛍️ 春天百貨 Printemps 或 老佛爺百貨 Galeries Lafayette · 購物時間（退稅 12%）"
+        },
+        {
+          "time": "17:30",
+          "desc": "☕ 老佛爺百貨頂樓咖啡 · 俯瞰巴黎全景"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 酒店附近晚餐 · 推薦 Le Poulbot · 家常法式料理 · NT$1,200/人"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 最後一夜 · 整理行李 · 享受酒店露台"
+        }
+      ],
+      "day_photo": "https://cdn-imgix.headout.com/media/images/2ebbc3574fb66336ec9a3a60e8e5c66f-RodinMuseumSkiptheLineTickets-SculpturesGarden2.jpg?auto=format&w=828&h=619.1999999999999&q=90&ar=16:10&crop=faces,center&fit=crop"
+    },
+    {
+      "day": 8,
+      "date": "Feb 2 · Mon",
+      "label_zh": "回程 · 告別巴黎",
+      "day_query": "Paris skyline aerial view",
+      "hotel_name": "Hôtel Particulier Montmartre",
+      "hotel_name_zh": "蒙馬特私人酒店 · 豪華套房附露台",
+      "hotel_room": "豪華套房附露台",
+      "weather": "❄️ 2°/-2°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店早餐 · 退房 · 行李寄存"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚕 搭乘計程車前往 CDG 機場（約 50 分鐘 · €60）"
+        },
+        {
+          "time": "09:30",
+          "desc": "✈️ 抵達戴高樂機場 · 辦理退稅 · 出境手續"
+        },
+        {
+          "time": "11:20",
+          "desc": "🛫 長榮 BR 88 直飛台北 · 預計飛行 13h10m"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 機上午餐 · 休息"
+        },
+        {
+          "time": "18:00",
+          "desc": "📝 填寫回憶日記 · 整理照片"
+        },
+        {
+          "time": "06:30 (+1)",
+          "desc": "🛬 抵達桃園機場 TPE · 結束浪漫巴黎之旅"
+        }
+      ],
+      "day_photo": "https://d38zjy0x98992m.cloudfront.net/6f2e8f5b-3b83-4100-abbf-4c2773922804/OS1738_P0060_uxga.jpg"
+    }
+  ],
+  "costs": [
+    {
+      "label": "✈️ 來回機票（長榮經濟艙）",
+      "amount_ntd": 68000
+    },
+    {
+      "label": "🏨 住宿（水仙花白酒店4晚 + 蒙馬特私人酒店4晚）",
+      "amount_ntd": 110000
+    },
+    {
+      "label": "🍽️ 餐飲（含米其林三星、小酒館、咖啡館）",
+      "amount_ntd": 95000
+    },
+    {
+      "label": "🎫 景點門票（羅浮宮、奧賽、凡爾賽、鐵塔等）",
+      "amount_ntd": 35000
+    },
+    {
+      "label": "🚇 交通（地鐵、RER、計程車）",
+      "amount_ntd": 18000
+    },
+    {
+      "label": "🛍️ 購物伴手禮（馬卡龍、香水、LV等）",
+      "amount_ntd": 174000
+    }
+  ],
+  "cost_total_ntd": 500000,
+  "budget_remaining_ntd": 0,
+  "photos": {
+    "hero": [
+      {
+        "url": "https://wallpapercrafter.com/desktop1/504790-eiffel-tower-cityscape-city-landmark-paris-sky.jpg",
+        "label": "Europe, Sky, Skyscraper, Skyline, Eiffel Tower, River, City, Seine ..."
+      },
+      {
+        "url": "https://travelenthused.com/wp-content/uploads/2024/12/skyline-of-paris-with-eiffel-tower-at-sunset-in-paris-france-1536x1024.jpg",
+        "label": "23 Most Iconic Landmarks in the World - Travel Enthused"
+      }
+    ],
+    "destination": [
+      {
+        "url": "https://images.hdqwalls.com/wallpapers/eiffel-tower-paris-beautiful-view-1s.jpg",
+        "label": "Beautiful Paris Photography"
+      },
+      {
+        "url": "https://www.hdwallpapers.in/download/paris_eiffel_tower_france_with_blue_sky_background_hd_travel-2560x1440.jpg",
+        "label": "Paris Eiffel Tower France With Blue Sky Background HD Travel Wallpapers ..."
+      },
+      {
+        "url": "http://travel-dmc.com/wp-content/uploads/2019/05/5-Most-Beautiful-Places-You-Must-Visit-in-Paris.jpg",
+        "label": "Must visit in paris - Viajessindestino.com"
+      },
+      {
+        "url": "https://cdn.getyourguide.com/img/location/5ffeb39946966.jpeg/88.jpg",
+        "label": "The BEST Paris Tours and Things to Do in 2022 - FREE Cancellation ..."
+      },
+      {
+        "url": "https://www.tripsavvy.com/thmb/53SlvgEDDI75AuntloS_zMln3PI=/5480x3620/filters:fill(auto,1)/paris-in-colors-170641321-5be5a75c46e0fb00269c8f80.jpg",
+        "label": "Beautiful Places In Paris To Visit - top hiking trails"
+      },
+      {
+        "url": "https://hips.hearstapps.com/hmg-prod/images/high-angle-view-of-paris-skyline-at-sunset-royalty-free-image-1575587641.jpg",
+        "label": "VERANDA's Love Letter to Paris - Design Guide to Paris"
+      }
+    ]
+  },
+  "chat_hash": "3ee2cf26716dbc69b36ef37af29e49946861696fdff05b3168bbe347b140e07d",
+  "config_hash": "e89568723ce46ba9f8c38b9c5a297e193cdc12ea1de5147ebbcca7fea6506e12",
+  "generated_at": "2026-05-28T11:51:21.332030"
+}

@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>六月小琉球 · 頂級奢華兩天一夜之旅 — Travel Planner</title>
+<meta property="og:title" content="六月小琉球 · 頂級奢華兩天一夜之旅 — Travel Planner">
+<meta property="og:description" content="Liuqiu Island, Taiwan · 2026/06/01–06/02 · 2人 · NT$100,000">
+
+<meta property="og:image" content="https://www.roowanders.com/wp-content/uploads/2023/03/Liuqiu-Vase-Rock-01-1.jpg">
+
+<meta property="og:type" content="website">
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400&family=Noto+Serif+TC:wght@300;400;600&display=swap');
+
+  :root {
+    --gold: #c9a84c;
+    --rose: #d4a0a0;
+    --cream: #faf7f2;
+    --ink: #2c2416;
+    --warm-gray: #8c8273;
+    --soft-white: #fffdf8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  .container {
+    overflow-x: hidden;
+  }
+
+  /* ─── NAVIGATION ─── */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 1rem;
+    background: var(--soft-white);
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--warm-gray);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+    flex-shrink: 0;
+  }
+  nav a:hover, nav a.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 1.25rem; }
+
+  /* ─── IMAGE SLIDER ─── */
+  .slider {
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .slider-track {
+    display: inline-flex;
+  }
+  .slider-track img {
+    width: 100%; height: 320px;
+    border-radius: 8px;
+    margin-right: 6px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  /* ─── HERO SLIDER ─── */
+  .hero-slider {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+  .hero-slider .slider { margin-bottom: 0; border-radius: 0; }
+  .hero-slider .slider-track img {
+    width: 100%; height: 420px; margin-right: 0; border-radius: 0;
+  }
+  .hero-overlay {
+    position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
+    background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 80%);
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 2rem 1.5rem;
+  }
+  .hero-overlay h1 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 2.5rem; font-weight: 400;
+    color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  .hero-overlay .zh-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.1rem; color: rgba(255,255,255,0.9);
+    margin-top: 0.25rem;
+  }
+  .hero-stats {
+    display: flex; flex-wrap: wrap; gap: 1rem 1.5rem;
+    margin-top: 0.75rem;
+    color: rgba(255,255,255,0.9);
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+  }
+  /* ─── HOTEL CARD + SLIDER ─── */
+  .hotel-card {
+    background: var(--soft-white); border-radius: 12px; overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .hotel-info { padding: 0 1.25rem; }
+  .hotel-info:first-of-type { padding-top: 1rem; }
+  .hotel-card > :last-child { padding-bottom: 1.25rem; }
+  .hotel-slider {
+    overflow: hidden; white-space: nowrap;
+  }
+  .hotel-slider .slider-track {
+    display: flex;
+  }
+  .hotel-slider .slider-track img {
+    width: 100%; height: 240px; margin-right: 4px;
+    object-fit: cover; flex-shrink: 0;
+  }
+
+  /* ─── DINING SLIDER ─── */
+  .dining-slider {
+    overflow: hidden; white-space: nowrap;
+  }
+  .dining-slider .slider-track {
+    display: flex;
+  }
+  .dining-slider .slider-track a {
+    width: 100%; flex-shrink: 0; display: block;
+  }
+  .dining-slider .slider-track img {
+    width: 100%; height: 240px; margin-right: 4px;
+    object-fit: cover; flex-shrink: 0;
+  }
+  .dining-card { border-radius: 12px; overflow: hidden; }
+  .dining-card .dining-slider { border-radius: 0; }
+
+  /* ─── SECTION HEADER ─── */
+  .section-title {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.9rem; color: var(--ink); margin-bottom: 0.5rem;
+    position: relative;
+  }
+  .section-title::after {
+    content: ''; position: absolute; bottom: -6px; left: 0;
+    width: 36px; height: 2px; background: var(--gold);
+  }
+  .section-sub {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.05rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+  }
+
+  /* ─── FULL CARDS ─── */
+  .full-card {
+    background: var(--soft-white);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.03);
+  }
+  .full-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .full-card-header h2 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.6rem; font-weight: 500;
+  }
+  .external-btn {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    padding: 0.55rem 1.1rem;
+    background: var(--ink); color: #fff;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: none; cursor: pointer;
+    white-space: nowrap;
+  }
+  .external-btn.google { background: #4285f4; }
+  .external-btn.agoda { background: #e12b52; }
+  .external-btn:hover { opacity: 0.88; }
+
+  /* ─── FLIGHT ─── */
+  .flight-detail {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .flight-detail .divider {
+    width: 1px; height: 50px;
+    background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+    justify-self: center;
+  }
+  .flight-info { font-size: 1.05rem; }
+  .flight-info .label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
+  }
+  .flight-info .airline {
+    font-family: 'Playfair Display', serif; font-size: 1.3rem;
+    color: var(--ink); margin: 0.2rem 0;
+  }
+
+  /* ─── HOTEL ─── */
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .hotel-card-inner {
+    font-size: 1.05rem;
+  }
+  .hotel-card-inner h3 {
+    font-family: 'Playfair Display','Noto Serif TC',serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.2rem;
+  }
+  .hotel-card-inner .zh {
+    font-family: 'Noto Serif TC',serif;
+    font-size: 1rem;
+    color: var(--warm-gray);
+  }
+
+  /* ─── DINING ─── */
+  .dining-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .dining-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .dining-info {
+    padding: 1rem;
+  }
+  .dining-info h4 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.1rem; margin-bottom: 0.15rem;
+  }
+  .dining-info .zh-name {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.95rem; color: var(--warm-gray);
+  }
+  .dining-info .dish {
+    font-size: 0.9rem; color: var(--gold);
+    font-style: italic; margin-top: 0.25rem;
+  }
+
+  /* ─── TIMELINE ─── */
+  .day-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.02);
+    display: grid;
+    grid-template-columns: 80px auto 90px;
+    gap: 1rem;
+    align-items: start;
+  }
+  .day-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; color: var(--gold);
+    text-align: center; line-height: 1;
+  }
+  .day-label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); text-align: center;
+  }
+  .day-zh {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.85rem; color: var(--ink); text-align: center;
+    margin-top: 0.2rem;
+  }
+  .day-photo {
+    width: 100%; height: 220px; object-fit: cover; border-radius: 8px;
+    margin-bottom: 0.75rem; display: block;
+  }
+  .day-schedule { font-size: 1.15rem; }
+  .day-schedule .time-slot {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    display: flex; gap: 0.6rem; align-items: baseline;
+  }
+  .time-slot .time {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem; color: var(--gold);
+    min-width: 58px; letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .day-weather {
+    font-size: 0.9rem; color: var(--warm-gray);
+    text-align: right; padding-top: 0.25rem;
+  }
+
+  /* ─── COST ─── */
+  .cost-section {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .cost-row {
+    display: flex; justify-content: space-between;
+    padding: 0.5rem 0; font-size: 1.05rem;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    flex-wrap: wrap;
+  }
+  .cost-bar {
+    height: 6px; border-radius: 3px;
+    background: rgba(201,168,76,0.15); margin: 0.75rem 0;
+  }
+  .cost-bar-fill {
+    height: 100%; border-radius: 3px;
+    background: linear-gradient(to right, var(--gold), var(--rose));
+    width: 94%;
+  }
+
+  /* ─── PAGES ─── */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* ─── SETTINGS ─── */
+  .settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .setting-group {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .setting-group label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); display: block; margin-bottom: 0.3rem;
+  }
+  .setting-group .zh-label {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.8rem; color: var(--ink); margin-bottom: 0.5rem;
+  }
+  .setting-group input, .setting-group select {
+    width: 100%; padding: 0.75rem 0.85rem;
+    border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    -webkit-appearance: none;
+  }
+  .setting-group input:focus, .setting-group select:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+  }
+  .save-btn {
+    background: linear-gradient(135deg, var(--gold), #b8942f);
+    color: #fff; border: none;
+    padding: 0.8rem 2rem; border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 0.85rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    cursor: pointer; margin-top: 1.25rem;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+  }
+  .save-btn:hover { opacity: 0.9; }
+
+  /* ─── LOG ─── */
+  .log-entry {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem; margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+  }
+  .log-date {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--gold);
+  }
+  .log-status {
+    display: inline-block; padding: 0.15rem 0.6rem; border-radius: 10px;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem; margin-left: 0.4rem;
+  }
+  .log-status.generated { background: rgba(76,175,80,0.12); color: #388e3c; }
+  .log-status.chatting { background: rgba(201,168,76,0.15); color: #8b6914; }
+
+  /* ─── CHAT ─── */
+  .chat-box {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .chat-date-label {
+    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); margin-bottom: 0.5rem;
+  }
+  .chat-box textarea {
+    width: 100%; height: 200px; padding: 1rem;
+    border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    line-height: 1.8; resize: vertical;
+    -webkit-appearance: none;
+  }
+  .chat-box textarea:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
+  }
+  .chat-hint {
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    color: var(--warm-gray); margin-top: 0.4rem; font-style: italic;
+  }
+
+  /* ─── LIGHTBOX ─── */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .lightbox.open { display: flex; }
+  .lbox-img-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    transition: opacity 0.2s;
+    cursor: default;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .lightbox img {
+      max-width: 96vw;
+      max-height: 82vh;
+    }
+    .lightbox .lbox-arrow { font-size: 2rem; margin: 0 6px; }
+  }
+  .lightbox .counter {
+    color: rgba(255,255,255,0.7);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.75rem;
+    z-index: 2;
+    position: relative;
+  }
+  .lightbox .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    border: none;
+    line-height: 1;
+  }
+  .lightbox .close-btn:hover { background: rgba(255,255,255,0.18); }
+  /* Nav zones — only inside the image wrapper, not full screen */
+  .lightbox .lbox-left,
+  .lightbox .lbox-right {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 50%;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+  .lightbox .lbox-left  { left: 0;  justify-content: flex-start; }
+  .lightbox .lbox-right { right: 0; justify-content: flex-end; }
+  .lightbox .lbox-arrow {
+    color: rgba(255,255,255,0.4);
+    font-size: 2.5rem;
+    margin: 0 16px;
+    pointer-events: none;
+    user-select: none;
+  }
+  .lightbox .lbox-left:hover .lbox-arrow,
+  .lightbox .lbox-right:hover .lbox-arrow {
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* ─── SAVE PLAN CHECKBOX ─── */
+  .save-plan-label {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    user-select: none;
+  }
+  .save-plan-label input[type="checkbox"] {
+    width: 16px; height: 16px;
+    accent-color: var(--gold);
+    cursor: pointer;
+  }
+
+  /* ─── BROKEN IMAGES ─── */
+  img.broken { display: none !important; }
+
+  /* ═══════════════ MOBILE: iPhone ───────────────────── */
+  @media (max-width: 768px) {
+
+    .container { padding: 0.75rem; }
+
+    /* Nav — compact scrollable */
+    nav {
+      gap: 1rem;
+      padding: 0.7rem 0.75rem;
+    }
+    nav a {
+      font-size: 0.72rem;
+      letter-spacing: 1px;
+    }
+
+    /* Hero — shorter */
+    .hero-slider .slider-track img { height: 260px; }
+    .hero-overlay { padding: 1.25rem 1rem; }
+    .hero-overlay h1 { font-size: 1.7rem; }
+    .hero-overlay .zh-title { font-size: 0.95rem; }
+    .hero-stats { font-size: 0.75rem; gap: 0.5rem 1rem; }
+
+    /* Hotel & dining sliders — shorter */
+    .hotel-slider .slider-track img,
+    .dining-slider .slider-track img { height: 180px; }
+
+    /* Slider — smaller images */
+    .slider-track img {
+      height: 200px;
+      margin-right: 6px;
+    }
+
+    /* Full card — tighter padding */
+    .full-card {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+    .full-card-header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .full-card-header h2 {
+      font-size: 1.3rem;
+    }
+
+    /* Flight — stack vertically */
+    .flight-detail {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .flight-detail .divider {
+      width: 80%;
+      height: 1px;
+      justify-self: center;
+    }
+
+    /* Hotel — already responsive via flex-wrap */
+
+    /* Dining — single column, smaller images */
+    .dining-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+    /* Dining text — bump up for readability */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.82rem !important; }
+    .dining-info .dish { font-size: 0.78rem !important; }
+
+    /* Timeline — single column, date on top */
+    .day-card {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+      padding: 1rem;
+    }
+    .day-card > :first-child {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .day-num {
+      font-size: 1.1rem;
+      color: var(--gold);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+    .day-label {
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+    }
+    .day-zh {
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+    .day-weather {
+      text-align: left;
+      font-size: 0.8rem;
+      margin-left: auto;
+    }
+    .day-schedule { font-size: 1rem; }
+    .time-slot .time {
+      font-size: 0.75rem;
+      min-width: 46px;
+    }
+    .time-slot {
+      gap: 0.3rem;
+    }
+
+    /* Settings — single column */
+    .settings-grid {
+      grid-template-columns: 1fr;
+    }
+
+    /* Cost — tighten */
+    .cost-row {
+      font-size: 0.95rem;
+    }
+    .cost-section {
+      padding: 1rem;
+    }
+
+    /* Chat */
+    .chat-box textarea {
+      height: 180px;
+      font-size: 1.05rem;
+    }
+
+    /* Section titles */
+    .section-title {
+      font-size: 1.4rem;
+    }
+    .section-sub {
+      font-size: 0.9rem;
+    }
+
+    /* External buttons — full width */
+    .external-btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 0.75rem;
+      padding: 0.55rem 1rem;
+    }
+  }
+
+  /* ═══════════════ SMALL PHONES ────────────────────── */
+  @media (max-width: 390px) {
+    .hero-slider .slider-track img { height: 220px; }
+    .hero-overlay h1 { font-size: 1.45rem; }
+    .hero-overlay .zh-title {
+      font-size: 0.85rem;
+    }
+    .day-card {
+      grid-template-columns: 1fr;
+      padding: 0.85rem;
+    }
+    .day-num {
+      font-size: 1rem;
+    }
+    .day-schedule { font-size: 0.9rem; }
+    /* Dining text — bigger on iPhone */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.8rem !important; }
+    .dining-info .dish { font-size: 0.76rem !important; }
+    nav a {
+      font-size: 0.65rem;
+      letter-spacing: 0.5px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Destination slider + overlay (merged hero) -->
+  <div class="hero-slider">
+    <div class="slider">
+      <div class="slider-track">
+        
+        <img src="https://www.roowanders.com/wp-content/uploads/2023/03/Liuqiu-Vase-Rock-01-1.jpg" alt="Top 9 Attractions on Liuqiu Island - RooWanders">
+        
+        <img src="https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_2344_28.jpg" alt="Liuqiu > Scenic Spot Search > Tourism Administration, Republic of China ...">
+        
+        <img src="https://www.roowanders.com/wp-content/uploads/2023/03/Liuqiu-Rock-2-819x1024.jpg" alt="Top 9 Attractions on Liuqiu Island - RooWanders">
+        
+        <img src="https://www.taiwanviptravel.com/wp-content/uploads/2020/12/花瓶岩-3-scaled.jpg" alt="VISIT THE ORIGINAL VILLAGE OF RUKAI TRIBE: WUTAI & LIUQIU ISLAND 3 DAYS ...">
+        
+        <img src="https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_2344_11.jpg" alt="Liuqiu > Pingtung County > Tourism Administration, Republic of China ...">
+        
+        <img src="https://www.roowanders.com/wp-content/uploads/2023/03/Liuqiu-Black-Devil-Cave-6-1.jpg" alt="Top 9 Attractions on Liuqiu Island - RooWanders">
+        
+      </div>
+    </div>
+    <div class="hero-overlay">
+      <h1>Liuqiu Island, Taiwan</h1>
+      <div class="zh-title">六月小琉球 · 頂級奢華兩天一夜之旅</div>
+      <div class="hero-stats">
+        <span>✈️ 2026/06/01–06/02</span>
+        <span>👥 2 人</span>
+        <span>💰 NT$100,000</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✈️ FLIGHT -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>✈️ 航班 Flight</h2>
+      <a class="external-btn google" href="https://www.google.com/travel/flights?q=Flights+to+PIF+from+MIA+2026-06-01" target="_blank">
+        ↗ Google Flights 搜尋更多航班
+      </a>
+    </div>
+    <div class="flight-detail">
+      <div class="flight-info">
+        <div class="label">出發 Departure · 6月1日</div>
+        <div class="airline">台灣高鐵 Taiwan High Speed Rail</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">高鐵 0809 車次</span> · 苗栗 → 左營 直達<br>
+          09:00 出發 · 10:35 抵達<br>
+          飛行 1h 35m · 標準車廂對號座
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="flight-info">
+        <div class="label">回程 Return · 6月2日</div>
+        <div class="airline">台灣高鐵 Taiwan High Speed Rail</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">高鐵 0666 車次</span> · 左營 → 苗栗 直達<br>
+          17:30 出發 · 19:05 抵達<br>
+          飛行 1h 35m · 標準車廂對號座
+        </div>
+      </div>
+    </div>
+    <div style="text-align:right; margin-top:1rem; font-size:0.9rem;">
+      來回 NT$ <strong>4,560</strong> / 2人
+    </div>
+  </div>
+
+  <!-- 🏨 HOTELS -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🏨 住宿 Hotel</h2>
+      <a class="external-btn agoda" href="https://www.agoda.com/zh-tw/city/liuqiu island-fr.html?checkIn=2026-06-01&checkOut=2026-06-02&adults=2" target="_blank">
+        ↗ Agoda 搜尋更多住宿
+      </a>
+    </div>
+
+    
+    <div class="hotel-card" style="margin-bottom:1rem;">
+      <!-- Hotel photo gallery — full-width slider on top, matching dining card layout -->
+      
+      <a href="https://www.google.com/search?tbm=isch&q=%E6%9D%89%E6%9D%BF%E7%81%A3%E6%B0%91%E5%AE%BF%20VILLA%E9%A4%A8%20%E5%B0%8F%E7%90%89%E7%90%83" target="_blank" title="More photos of 杉板灣民宿 VILLA館">
+      <div class="hotel-slider">
+        <div class="slider-track">
+          
+          
+          
+          
+          <img src="https://www.riverhotel.com.tw/wp-content/uploads/2025/12/20250912-23.jpg" alt="小琉球住宿-河堤漫旅 杉板灣Villa">
+          
+          
+          
+          
+          <img src="https://miemie.tw/wp-content/uploads/2024/05/杉板灣民宿-小琉球住宿推薦-42.jpg" alt="小琉球住宿推薦[杉板灣民宿]可以看到海景的高品質小琉球Villa民宿推薦！ – 野田咩的美食書國">
+          
+          
+          
+          
+          <img src="https://blackmomo.tw/wp-content/uploads/e2d02ca5b2324ce4483608e10d3e9bee.jpg" alt="小琉球民宿｜杉板灣 Villa‧海灣上的微南洋風情 – 黑哥桃｜BlackMOMO">
+          
+          
+          
+          
+          <img src="https://cc.tvbs.com.tw/img/program/upload/2022/08/25/20220825094612-f7104d69.jpg" alt="小琉球杉板灣Villa民宿Shanban Bay Inn-屏東縣旅宿Villa民宿首選 │ 食尚玩家">
+          
+          
+          
+          
+          <img src="https://blackmomo.tw/wp-content/uploads/a74f201e162c74cb898b07efcac006e8.jpg" alt="小琉球民宿｜杉板灣 Villa‧海灣上的微南洋風情 – 黑哥桃｜BlackMOMO">
+          
+          
+          
+          
+          <img src="https://miemie.tw/wp-content/uploads/2024/05/杉板灣民宿-小琉球住宿推薦-24.jpg" alt="小琉球住宿推薦[杉板灣民宿]可以看到海景的高品質小琉球Villa民宿推薦！ – 野田咩的美食書國">
+          
+          
+        </div>
+      </div>
+      </a>
+      
+      <div class="hotel-info" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.5rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">杉板灣民宿 VILLA館</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">杉板灣民宿 VILLA館 · 小琉球本福村</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">DAY 1–2</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">1 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 18,000</div>
+        </div>
+      </div>
+      <div class="hotel-info" style="font-size:0.85rem;color:var(--ink);">
+        ★★★★★ · 頂級海景Villa雙人房（含獨立泳池） · 含精緻早餐<br>
+        🏊 私人泳池 · 🛁 露天按摩浴缸 · 🌴 海景陽台 · 🚲 免費腳踏車
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 🍽️ DINING -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🍽️ 美食 Dining</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">2天 · 3 間餐廳 · NT$0</span>
+    </div>
+
+    
+
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 米其林星級 Fine Dining</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=%E9%98%BF%E5%B0%8D%E9%BB%91%E9%AE%AA%E9%AD%9A%20%E6%9D%B1%E6%B8%AF%20%E8%8F%AF%E5%83%91%E5%B8%82%E5%A0%B4" target="_blank" title="More photos of 阿對黑鮪魚專賣店">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://ciaoz.tw/wp-content/uploads/huaqiao-market-donggang-02.jpg" alt="阿對黑鮪魚專賣店" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/HRH/0000/0041/61/ori_78472620.jpg" alt="阿對黑鮪魚專賣店" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://findlife.com.tw/menu/blog/wp-content/uploads/2025/06/未命名設計-54.jpg" alt="阿對黑鮪魚專賣店" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>阿對黑鮪魚專賣店</h4>
+            <div class="zh-name">阿對黑鮪魚專賣店 · ⭐⭐</div>
+            <div class="dish">🐟 招牌：黑鮪魚生魚片拼盤 · 黑鮪魚肚握壽司</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E5%B0%8D%E9%BB%91%E9%AE%AA%E9%AD%9A%E5%B0%88%E8%B3%A3%E5%BA%97+%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%9D%B1%E6%B8%AF%E9%8E%AE%E6%9C%9D%E9%9A%86%E8%B7%AF43%E8%99%9F%EF%BC%88%E8%8F%AF%E5%83%91%E5%B8%82%E5%A0%B4%E5%85%A7%EF%BC%89" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">屏東縣東港鎮朝隆路43號（華僑市場內）</a><br>
+              💰 兩人套餐 NT$3,000<br>
+              🕐 10:00–19:00 · 建議中午前到
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 法式小館 Bistros & Casual</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=%E6%B5%B7%E9%BE%9C%E7%87%92%20%E5%B0%8F%E7%90%89%E7%90%83" target="_blank" title="More photos of 海龜燒">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://yummyyummy.tw/wp-content/uploads/2021/05/20210521093953_37.jpg" alt="海龜燒" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://static.popdaily.com.tw/u/202207/2071f872-4b55-4d58-b8f5-4614c411920a.jpeg" alt="海龜燒" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://graceblog.tw/wp-content/uploads/2020/05/1589474650-f971c63a78221f3563df66a5da782f76.jpg" alt="海龜燒" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>海龜燒</h4>
+            <div class="zh-name">海龜燒 · 小琉球人氣小吃</div>
+            <div class="dish">🐢 招牌：海龜造型雞蛋糕（紅豆/奶油/起司）</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E9%BE%9C%E7%87%92+%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%90%89%E7%90%83%E9%84%89%E6%B0%91%E7%94%9F%E8%B7%AF8%E8%99%9F" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">屏東縣琉球鄉民生路8號</a><br>
+              💰 一份 NT$150<br>
+              🕐 14:00–18:00 · 週末排隊約20分鐘
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:0;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 咖啡甜點 Cafés & Sweets</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=%E6%B5%B7%E5%B3%B6%E5%B0%8F%E7%90%89%E7%90%83%E5%92%96%E5%95%A1%E9%A4%A8" target="_blank" title="More photos of 海島小琉球咖啡館">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://img.gototravel.tw/2019/taiwan/Xiao-Liuqiu/881dayday/Coral-Cafe-17.jpg" alt="海島小琉球咖啡館" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://img.gototravel.tw/2019/taiwan/Xiao-Liuqiu/Datou-restaurant/tiao-cafe-8.jpg" alt="海島小琉球咖啡館" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://img.gototravel.tw/2019/taiwan/Xiao-Liuqiu/Datou-restaurant/tiao-cafe-5.jpg" alt="海島小琉球咖啡館" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>海島小琉球咖啡館</h4>
+            <div class="zh-name">海島小琉球咖啡館</div>
+            <div class="dish">☕ 招牌：海鹽焦糖拿鐵 · 巴斯克乳酪蛋糕</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E5%B3%B6%E5%B0%8F%E7%90%89%E7%90%83%E5%92%96%E5%95%A1%E9%A4%A8+%E5%B1%8F%E6%9D%B1%E7%B8%A3%E7%90%89%E7%90%83%E9%84%89%E4%B8%AD%E5%B1%B1%E8%B7%AF5%E5%B7%B712%E8%99%9F" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">屏東縣琉球鄉中山路5巷12號</a><br>
+              💰 兩人下午茶 NT$400<br>
+              🕐 10:00–17:30 · 海景座位需早到
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+
+    <!-- Food image slider -->
+    <div class="slider" style="margin-top:1rem;">
+      <div class="slider-track">
+        
+        
+        
+        
+        <img src="https://ciaoz.tw/wp-content/uploads/huaqiao-market-donggang-02.jpg" alt="屏東東港華僑市場｜2023屏東黑鮪魚文化觀光季遊東港，大啖鮮美海味！ @巧莉的世界流浪筆記">
+        
+        
+        
+        <img src="https://photo.settour.com.tw/900x600/https://www.settour.com.tw/ss_img/HRH/0000/0041/61/ori_78472620.jpg" alt="【屏東黑鮪魚季】東港華僑市場．海上教堂．王船文化館．潮州鐵道| 高鐵假期| 東南旅遊">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://yummyyummy.tw/wp-content/uploads/2021/05/20210521093953_37.jpg" alt="小琉球必吃！可愛的海龜燒萌死我啦～快來「861dayday」拍張美照打卡吧！ - YummyFood＊呀咪懂吃">
+        
+        
+        
+        <img src="https://static.popdaily.com.tw/u/202207/2071f872-4b55-4d58-b8f5-4614c411920a.jpeg" alt="『小琉球美食』不能碰海龜那來吃海龜燒-發胖版｜PopDaily 波波黛莉">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://img.gototravel.tw/2019/taiwan/Xiao-Liuqiu/881dayday/Coral-Cafe-17.jpg" alt="屏東小琉球咖啡廳|灰窯人文咖啡 Coral Cafe、白沙尾漁港美景、咖啡好喝 @來一球叭噗">
+        
+        
+        
+        <img src="https://img.gototravel.tw/2019/taiwan/Xiao-Liuqiu/Datou-restaurant/tiao-cafe-8.jpg" alt="小琉球海景咖啡廳|眺咖啡Tiao-cafe吃鬆餅喝咖啡、無敵美麗海景 @來一球叭噗">
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- 📅 DAY BY DAY -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>📅 每日行程 Day by Day</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">2026-06-01 – 2026-06-02</span>
+    </div>
+
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">1</div>
+        <div class="day-label">Jun 1 · Mon</div>
+        <div class="day-zh">出發 · 小琉球放空</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 杉板灣民宿 VILLA館</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00616_3.jpg" alt="出發 · 小琉球放空" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚄 苗栗頭份出發 · 開車5分鐘到高鐵苗栗站 · 搭乘高鐵0809車次09:00→10:35左營</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:35</span> 🚕 抵達高鐵左營站 · 轉乘計程車前往東港碼頭（約40分鐘 · NT$1,200）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🛳️ 東港碼頭搭乘泰富/聯營渡輪前往小琉球（船程約25分鐘 · 每人NT$230）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🏨 抵達小琉球 · 民宿接駁車至杉板灣Villa · 辦理入住 · 管家介紹設施</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍽️ 民宿內享用迎賓飲料與輕食 · 換上泳裝享受私人泳池</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🛵 租借機車（民宿免費提供）· 環島兜風 · 第一站：花瓶岩（拍照熱點）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> ☕ 海島小琉球咖啡館下午茶 · 海鹽焦糖拿鐵配巴斯克蛋糕 · 吹海風放空</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> 🏖️ 美人洞／烏鬼洞景區散步（門票NT$100/人）· 欣賞珊瑚礁岩與海蝕洞</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🌅 落日亭觀賞夕陽 · 小琉球最美日落點 · 建議帶啤酒或飲料</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:00</span> 🍽️ 民宿代訂海鮮燒烤晚餐（NT$1,500/人）· 龍蝦、生蠔、烤魚吃到飽</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🌙 Villa私人泳池夜泳 · 星空下泡按摩浴缸 · 享受完全放鬆的夜晚</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> 杉板灣民宿 VILLA館 · 頂級海景Villa雙人房（含獨立泳池）</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 32°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 5%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">2</div>
+        <div class="day-label">Jun 2 · Tue</div>
+        <div class="day-zh">黑鮪魚饗宴 · 東港華僑市場</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 杉板灣民宿 VILLA館</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://ciaoz.tw/wp-content/uploads/huaqiao-market-donggang-02.jpg" alt="黑鮪魚饗宴 · 東港華僑市場" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">08:00</span> 🥐 Villa陽台享用精緻早餐（民宿準備）· 海景配咖啡 · 最後一次泡泳池</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🏨 退房 · 行李寄放民宿櫃檯 · 騎車前往碼頭</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> 🛳️ 搭乘10:00渡輪返回東港（船程25分鐘）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:30</span> 🛍️ 東港華僑市場逛街 · 台灣最大現撈魚市場 · 各式乾貨、櫻花蝦、旗魚鬆</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🐟 阿對黑鮪魚專賣店午餐 · 現切黑鮪魚生魚片、炙燒肚肉 · 配啤酒</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🍧 華僑市場內品嚐現打果汁與手工冰淇淋（NT$80）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🚕 計程車前往高鐵左營站（約40分鐘 · NT$1,200）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:30</span> 🚄 高鐵左營站自由活動 · 可逛環球購物中心或喝杯咖啡</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:30</span> 🚄 搭乘高鐵0666車次 17:30→19:05返回苗栗</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:05</span> 🚗 抵達苗栗站 · 開車回家 · 結束兩天一夜奢華小旅行</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> 杉板灣民宿 VILLA館 · 頂級海景Villa雙人房（含獨立泳池）</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 33°/27°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 0%</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 💰 COST BREAKDOWN -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>💰 花費明細 Cost</h2>
+      <span style="font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">所有金額以新台幣 NTD 計算</span>
+    </div>
+    
+    <div class="cost-row"><span>🚄 高鐵來回</span><span>NT$ <strong>4,560</strong></span></div>
+    
+    <div class="cost-row"><span>🚕 苗栗站/東港碼頭計程車</span><span>NT$ <strong>2,400</strong></span></div>
+    
+    <div class="cost-row"><span>🏨 杉板灣Villa住宿（1晚）</span><span>NT$ <strong>18,000</strong></span></div>
+    
+    <div class="cost-row"><span>🍽️ 餐飲（黑鮪魚+燒烤+咖啡+小吃）</span><span>NT$ <strong>6,500</strong></span></div>
+    
+    <div class="cost-row"><span>🎫 渡輪船票（2人來回）</span><span>NT$ <strong>920</strong></span></div>
+    
+    <div class="cost-row"><span>🛵 機車租借（免費）</span><span>NT$ <strong>0</strong></span></div>
+    
+    <div class="cost-row"><span>🛍️ 華僑市場購物伴手禮</span><span>NT$ <strong>3,000</strong></span></div>
+    
+    <div class="cost-row" style="font-weight:600; border-top:2px solid var(--gold); padding-top:0.5rem; margin-top:0.2rem;">
+      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>35,380</strong></span>
+    </div>
+    <div class="cost-bar"><div class="cost-bar-fill" style="width:35.0%"></div></div>
+    <div style="text-align:right; font-size:0.8rem; color:var(--warm-gray);">
+      NT$ 35,380 / NT$ 100,000 · 剩餘 NT$ 64,620
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Shared JS for all Travel Planner pages
+// Lightbox, broken image handler
+
+// Hide broken images globally
+document.addEventListener('error', function(e){
+  if(e.target.tagName === 'IMG'){
+    e.target.classList.add('broken');
+  }
+}, true);
+
+// ═══ LIGHTBOX ═══
+(function(){
+  var images = [];
+  var currentIdx = 0;
+  var lb = null;
+  var lbImg = null;
+  var lbCounter = null;
+
+  function buildLightbox() {
+    lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.innerHTML =
+      '<button class="close-btn">&times;</button>' +
+      '<div class="lbox-img-wrap">' +
+        '<div class="lbox-left"><span class="lbox-arrow">&#8249;</span></div>' +
+        '<img src="" alt="">' +
+        '<div class="lbox-right"><span class="lbox-arrow">&#8250;</span></div>' +
+      '</div>' +
+      '<div class="counter"></div>';
+    document.body.appendChild(lb);
+    lbImg = lb.querySelector('img');
+    lbCounter = lb.querySelector('.counter');
+
+    lb.querySelector('.close-btn').addEventListener('click', close);
+    lb.querySelector('.lbox-left').addEventListener('click', function(e){ e.stopPropagation(); prev(); });
+    lb.querySelector('.lbox-right').addEventListener('click', function(e){ e.stopPropagation(); next(); });
+    lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
+    document.addEventListener('keydown', function(e){
+      if(!lb.classList.contains('open')) return;
+      if(e.key === 'Escape') close();
+      if(e.key === 'ArrowLeft') prev();
+      if(e.key === 'ArrowRight') next();
+    });
+  }
+
+  function collectImages() {
+    images = [];
+    var all = document.querySelectorAll('.slider-track img, .food-imgs img, .hero-placeholder, .dining-card img, .lightbox-clickable');
+    all.forEach(function(img, i){
+      // Skip images inside Google Images links — let the browser follow the link
+      if(img.closest('a[href*="google.com/search?tbm=isch"]')) return;
+      if(img.naturalWidth > 0 || img.complete) {
+        images.push(img);
+        img.style.cursor = 'pointer';
+        img.setAttribute('data-lb-idx', images.length - 1);
+        if(!img.hasLbListener) {
+          img.addEventListener('click', function(e){
+            e.stopPropagation();
+            open(img.getAttribute('data-lb-idx'));
+          });
+          img.hasLbListener = true;
+        }
+      }
+    });
+  }
+
+  function open(idx) {
+    if(!lb) buildLightbox();
+    collectImages();
+    idx = parseInt(idx);
+    if(idx < 0) idx = images.length - 1;
+    if(idx >= images.length) idx = 0;
+    currentIdx = idx;
+    var src = images[currentIdx].src || images[currentIdx].getAttribute('src');
+    // strip Unsplash size params for full resolution
+    src = src.replace(/[?&]w=\d+/g, '').replace(/[?&]h=\d+/g, '').replace(/[?&]fit=crop/g, '');
+    if(src.indexOf('?') === -1) src += '?w=1400'; else src += '&w=1400';
+    lbImg.src = src;
+    lbCounter.textContent = (currentIdx + 1) + ' / ' + images.length;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function next() { open(currentIdx + 1); }
+  function prev() { open(currentIdx - 1); }
+
+  window.addEventListener('load', function(){ collectImages(); });
+})();
+</script>
+<div style="text-align:center;padding:2rem 0 0.5rem;">
+  </div>
+<div style="text-align:center;padding:0.5rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
+  build 260531.125043
+</div>
+</body>
+</html>

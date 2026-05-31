@@ -1,0 +1,534 @@
+{
+  "destination_en": "Okinawa, Japan",
+  "title_zh": "沖繩夏日青春之旅 · 五天四夜",
+  "date_range": "2026/07/01–07/05",
+  "start_date": "2026-07-01",
+  "end_date": "2026-07-05",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "OKA",
+  "travelers": 6,
+  "days": 5,
+  "budget_ntd": 180000,
+  "flight": {
+    "airline": "樂桃航空 Peach Aviation",
+    "departure_date": "7月1日",
+    "return_date": "7月5日",
+    "total_price_ntd": 54000,
+    "outbound": {
+      "flight_no": "MM 923",
+      "route": "TPE → OKA 直飛",
+      "depart_time": "09:30",
+      "arrive_time": "12:00",
+      "duration": "1h 30m",
+      "class": "經濟艙"
+    },
+    "inbound": {
+      "flight_no": "MM 928",
+      "route": "OKA → TPE 直飛",
+      "depart_time": "16:30",
+      "arrive_time": "17:10",
+      "duration": "1h 40m",
+      "class": "經濟艙"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Okinawa Grand Mer Resort",
+      "name_zh": "沖繩格蘭梅爾度假酒店",
+      "district": "讀谷村",
+      "day_range": "1–4",
+      "nights": 4,
+      "price_ntd": 72000,
+      "stars": "★★★★☆",
+      "room_type": "標準雙床房 x3間",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 戶外泳池 · ♨️ 大浴場 · 🅿️ 免費停車 · 🍽️ 海景餐廳",
+      "search_query": "Okinawa Grand Mer Resort Yomitan",
+      "photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1657989533713-069414e256be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a building with a statue in front of it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1657989642814-434100724a71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a building with a staircase"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1657989642807-69d63982698c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a building with a pool and trees by the ocean"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of the ocean from a hill top"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1763096037012-b8092717c8cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Vibrant cityscape with illuminated buildings at night"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1763806500073-da8b3304c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Buildings with a colorful sunset sky above"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1657989533713-069414e256be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a building with a statue in front of it"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1657989642814-434100724a71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a building with a staircase"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1657989642807-69d63982698c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a building with a pool and trees by the ocean"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "a view of the ocean from a hill top"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1763096037012-b8092717c8cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Vibrant cityscape with illuminated buildings at night"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1763806500073-da8b3304c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxsdXh1cnklMjBob3RlbCUyME9raW5hd2F8ZW58MHwwfHx8MTc3ODY4NDQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+          "label": "Buildings with a colorful sunset sky above"
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "Ryukyu no Ushi",
+        "name_zh": "琉球の牛 · 石垣牛專賣",
+        "stars": "",
+        "dish": "🥩 招牌：石垣牛燒肉拼盤 · 海膽石鍋飯",
+        "address": "沖繩縣那霸市牧志3-2-3",
+        "price_ntd": 2400,
+        "price_label": "晚餐套餐 ¥5400/人 · NT$1,200",
+        "hours": "17:00–23:00 · 需預約",
+        "search_query": "Ryukyu no Ushi Okinawa",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSeXVreXUlMjBubyUyMFVzaGklMjBPa2luYXdhfGVufDB8MHx8fDE3Nzg2ODQ0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a view of the ocean from a hill top"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513648670351-c18f5840ff65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSeXVreXUlMjBubyUyMFVzaGklMjBPa2luYXdhfGVufDB8MHx8fDE3Nzg2ODQ0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Japanese house"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1754228806660-f0ea8606a3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxSeXVreXUlMjBubyUyMFVzaGklMjBPa2luYXdhfGVufDB8MHx8fDE3Nzg2ODQ0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Rocky cliffside meets the sea with a clear blue sky."
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxSeXVreXUlMjBubyUyMFVzaGklMjBPa2luYXdhfGVufDB8MHx8fDE3Nzg2ODQ0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a view of the ocean from a hill top"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513648670351-c18f5840ff65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxSeXVreXUlMjBubyUyMFVzaGklMjBPa2luYXdhfGVufDB8MHx8fDE3Nzg2ODQ0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Japanese house"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1754228806660-f0ea8606a3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxSeXVreXUlMjBubyUyMFVzaGklMjBPa2luYXdhfGVufDB8MHx8fDE3Nzg2ODQ0NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Rocky cliffside meets the sea with a clear blue sky."
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "Katsumoto Soba",
+        "name_zh": "勝本蕎麥麵 · 沖繩麵名店",
+        "stars": "",
+        "dish": "🍜 招牌：沖繩滷豬肉麵 · 三枚肉蕎麥",
+        "address": "沖繩縣中頭郡北谷町美濱2-2",
+        "price_ntd": 450,
+        "price_label": "午餐 ¥900/人 · NT$200",
+        "hours": "11:00–16:00 · 週二公休",
+        "search_query": "Katsumoto Soba Okinawa",
+        "photos": [
+          {
+            "url": "https://images.unsplash.com/photo-1568096889942-6eedde686635?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLYXRzdW1vdG8lMjBTb2JhJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4Njg0NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "ramen"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLYXRzdW1vdG8lMjBTb2JhJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4Njg0NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a view of the ocean from a hill top"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513648670351-c18f5840ff65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLYXRzdW1vdG8lMjBTb2JhJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4Njg0NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Japanese house"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1568096889942-6eedde686635?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxLYXRzdW1vdG8lMjBTb2JhJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4Njg0NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "ramen"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxLYXRzdW1vdG8lMjBTb2JhJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4Njg0NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "a view of the ocean from a hill top"
+          },
+          {
+            "url": "https://images.unsplash.com/photo-1513648670351-c18f5840ff65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxLYXRzdW1vdG8lMjBTb2JhJTIwT2tpbmF3YXxlbnwwfDB8fHwxNzc4Njg0NDUzfDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+            "label": "Japanese house"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Cafe Churara",
+        "name_zh": "咖啡·綺拉拉 · 海景玻璃屋",
+        "stars": "",
+        "dish": "🥞 招牌：芒果鬆餅 · 鳳梨冰沙",
+        "address": "沖繩縣國頭郡恩納村前兼久90",
+        "price_ntd": 360,
+        "price_label": "兩人 ¥1600 · NT$356",
+        "hours": "10:00–18:00 · 無休",
+        "search_query": "Cafe Churara Onna",
+        "photos": [
+          {
+            "url": "",
+            "label": "cafe coffee Okinawa"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Okinawa"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Okinawa"
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "Jul 1 · Wed",
+      "label_zh": "抵達日 · 那霸市區探索",
+      "hotel_name": "Okinawa Grand Mer Resort",
+      "hotel_name_zh": "沖繩格蘭梅爾度假酒店",
+      "hotel_room": "標準雙床房 x3間",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "09:30",
+          "desc": "✈️ 桃園機場 T1 出發 · 樂桃 MM923"
+        },
+        {
+          "time": "12:00",
+          "desc": "🛬 抵達那霸機場 · 入境 · 租車（6人租兩台小車，約NT$12,000/4天）"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍜 午餐：勝本蕎麥麵 · 沖繩麵（NT$200/人）"
+        },
+        {
+          "time": "14:30",
+          "desc": "🏯 首里城公園（免費區域） · 拍照打卡"
+        },
+        {
+          "time": "16:00",
+          "desc": "🛍️ 國際通逛街 · 買伴手禮 · 試吃黑糖"
+        },
+        {
+          "time": "18:00",
+          "desc": "🏨 前往讀谷村 · 入住沖繩格蘭梅爾度假酒店（車程約40分）"
+        },
+        {
+          "time": "19:30",
+          "desc": "🥩 晚餐：琉球の牛 · 石垣牛燒肉（NT$1,200/人）"
+        },
+        {
+          "time": "21:30",
+          "desc": "♨️ 飯店大浴場泡湯 · 休息"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "Jul 2 · Thu",
+      "label_zh": "北部一日遊 · 美麗海水族館",
+      "hotel_name": "Okinawa Grand Mer Resort",
+      "hotel_name_zh": "沖繩格蘭梅爾度假酒店",
+      "hotel_room": "標準雙床房 x3間",
+      "weather": "☀️ 33°/27°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🍳 飯店早餐（自助式 · 含在房價）"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚗 出發往北部（車程約1小時）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🐠 沖繩美麗海水族館（門票¥2,180/人 · NT$484）"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍴 水族館內餐廳 · 海景午餐（NT$300/人）"
+        },
+        {
+          "time": "13:30",
+          "desc": "🌺 海洋博公園 · 熱帶夢幻中心（免費區域）"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏖️ 翡翠沙灘 · 踩水拍照"
+        },
+        {
+          "time": "16:30",
+          "desc": "🚗 回程 · 順路去古宇利島（心形岩）"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍕 晚餐：花人逢披薩（NT$350/人）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🏨 回飯店 · 泳池夜泳"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "Jul 3 · Fri",
+      "label_zh": "中部海灘 · 美國村",
+      "hotel_name": "Okinawa Grand Mer Resort",
+      "hotel_name_zh": "沖繩格蘭梅爾度假酒店",
+      "hotel_room": "標準雙床房 x3間",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🍳 飯店早餐"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚗 出發至殘波岬（車程15分）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🌊 殘波岬燈塔 · 海岸景觀"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏖️ 藍洞浮潛（預約行程，NT$1,200/人，含裝備）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：Cafe Churara · 海景鬆餅（NT$356/兩人）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛍️ 美國村 · 摩天輪 · 逛藥妝店"
+        },
+        {
+          "time": "17:00",
+          "desc": "🍔 晚餐：塔可飯專賣店（NT$250/人）"
+        },
+        {
+          "time": "19:00",
+          "desc": "🎡 美國村摩天輪（¥600/人 · NT$133）"
+        },
+        {
+          "time": "20:30",
+          "desc": "🏨 回飯店 · 休息"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "Jul 4 · Sat",
+      "label_zh": "南部文化 · 系滿市集",
+      "hotel_name": "Okinawa Grand Mer Resort",
+      "hotel_name_zh": "沖繩格蘭梅爾度假酒店",
+      "hotel_room": "標準雙床房 x3間",
+      "weather": "☀️ 33°/27°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🍳 飯店早餐 · 退房並寄放行李"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚗 出發往南部（車程約50分）"
+        },
+        {
+          "time": "09:30",
+          "desc": "⛩️ 波上宮 · 海邊神社"
+        },
+        {
+          "time": "11:00",
+          "desc": "🛍️ 系滿魚市場 · 現烤海鮮（NT$500/人）"
+        },
+        {
+          "time": "13:00",
+          "desc": "🏖️ 瀨長島 · 海邊咖啡廳放空"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏨 回飯店取行李 · 前往那霸市區"
+        },
+        {
+          "time": "16:30",
+          "desc": "🏨 入住：那霸國際通附近（此行程不換飯店，故回同一飯店）"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍜 晚餐：暖暮拉麵（NT$300/人）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🎮 國際通夾娃娃 · 唐吉訶德最後採買"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "Jul 5 · Sun",
+      "label_zh": "最後一日 · 返台",
+      "hotel_name": "Okinawa Grand Mer Resort",
+      "hotel_name_zh": "沖繩格蘭梅爾度假酒店",
+      "hotel_room": "標準雙床房 x3間",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🍳 飯店早餐 · 退房"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚗 前往那霸機場（車程50分）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚗 還車 · 機場報到"
+        },
+        {
+          "time": "10:00",
+          "desc": "🛍️ 機場國內線商店 · 最後伴手禮"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍱 機場午餐（NT$300/人）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛂 過安檢 · 登機"
+        },
+        {
+          "time": "16:30",
+          "desc": "✈️ 樂桃 MM928 起飛"
+        },
+        {
+          "time": "17:10",
+          "desc": "🛬 抵達桃園機場 · 行程結束"
+        }
+      ]
+    }
+  ],
+  "costs": [
+    {
+      "label": "✈️ 來回機票（6人）",
+      "amount_ntd": 54000
+    },
+    {
+      "label": "🏨 住宿（4晚x3間）",
+      "amount_ntd": 72000
+    },
+    {
+      "label": "🚗 租車（兩台4天+油錢）",
+      "amount_ntd": 18000
+    },
+    {
+      "label": "🍽️ 餐飲（5天）",
+      "amount_ntd": 21600
+    },
+    {
+      "label": "🎫 景點門票/活動",
+      "amount_ntd": 7200
+    },
+    {
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 7200
+    }
+  ],
+  "cost_total_ntd": 180000,
+  "budget_remaining_ntd": 0,
+  "photos": {
+    "hero": [
+      {
+        "url": "",
+        "label": "Okinawa skyline landmark"
+      },
+      {
+        "url": "",
+        "label": "Okinawa skyline landmark"
+      }
+    ],
+    "destination": [
+      {
+        "url": "https://images.unsplash.com/photo-1776966227782-521f1000f0c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cars driving on a highway near the ocean"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1763096007838-08d53daa4b79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Lush green cliff overlooking a turquoise ocean cove"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1763806500073-da8b3304c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Buildings with a colorful sunset sky above"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1607909572148-533d0fbd6f89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "gray concrete road between green grass field under blue sky during daytime"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a view of the ocean from a hill top"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1754228806660-f0ea8606a3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Rocky cliffside meets the sea with a clear blue sky."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1776966227782-521f1000f0c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwxfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Cars driving on a highway near the ocean"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1763096007838-08d53daa4b79?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwyfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Lush green cliff overlooking a turquoise ocean cove"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1763806500073-da8b3304c6e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHwzfHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Buildings with a colorful sunset sky above"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1607909572148-533d0fbd6f89?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw0fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "gray concrete road between green grass field under blue sky during daytime"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1701039106750-b4ea104af4d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw1fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "a view of the ocean from a hill top"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1754228806660-f0ea8606a3b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NDQ1NjR8MHwxfHNlYXJjaHw2fHxPa2luYXdhJTIwdHJhdmVsJTIwc2NlbmVyeXxlbnwwfDB8fHwxNzc4NTk5OTA5fDA&ixlib=rb-4.1.0&q=80&w=1080&w=400&h=300&fit=crop",
+        "label": "Rocky cliffside meets the sea with a clear blue sky."
+      }
+    ]
+  },
+  "chat_hash": "3e40d05574dbbc259f281c48b026efbb0b622002937ad31a92c799f7626c2366",
+  "config_hash": "39eb33686b91de45553cc74011e47345ffd3b80c145a99ced8718db906ccd49f",
+  "generated_at": "2026-05-13T23:00:57.142923"
+}

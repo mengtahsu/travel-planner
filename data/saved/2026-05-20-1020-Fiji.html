@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>斐濟六日 · 雙人奢華浪漫之旅 — Travel Planner</title>
+<meta property="og:title" content="斐濟六日 · 雙人奢華浪漫之旅 — Travel Planner">
+<meta property="og:description" content="Fiji · 2027/01/10–01/16 · 2人 · NT$400,000">
+
+<meta property="og:image" content="https://image.shutterstock.com/shutterstock/photos/614659937/display_1500/stock-photo-suva-fiji-mar-view-of-the-city-centre-of-suva-the-capital-city-of-fiji-614659937.jpg">
+
+<meta property="og:type" content="website">
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400&family=Noto+Serif+TC:wght@300;400;600&display=swap');
+
+  :root {
+    --gold: #c9a84c;
+    --rose: #d4a0a0;
+    --cream: #faf7f2;
+    --ink: #2c2416;
+    --warm-gray: #8c8273;
+    --soft-white: #fffdf8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  .container {
+    overflow-x: hidden;
+  }
+
+  /* ─── NAVIGATION ─── */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 1rem;
+    background: var(--soft-white);
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--warm-gray);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+    flex-shrink: 0;
+  }
+  nav a:hover, nav a.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 1.25rem; }
+
+  /* ─── IMAGE SLIDER ─── */
+  .slider {
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .slider-track {
+    display: inline-flex;
+    animation: slideLeft 30s linear infinite;
+  }
+  .slider-track img {
+    height: 180px;
+    border-radius: 8px;
+    margin-right: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  @keyframes slideLeft {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    position: relative;
+    height: 400px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #2c1810 0%, #5c3a2e 30%, #8b5e4f 60%, #c4956a 100%);
+    display: flex;
+    align-items: flex-end;
+  }
+  .hero-placeholder {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%; object-fit: cover; opacity: 0.7;
+  }
+  .hero-overlay {
+    position: relative; z-index: 2;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 80%);
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 2rem 1.5rem;
+  }
+  .hero-overlay h1 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 2.5rem; font-weight: 400;
+    color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  .hero-overlay .zh-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.1rem; color: rgba(255,255,255,0.9);
+    margin-top: 0.25rem;
+  }
+  .hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    margin-top: 0.75rem;
+    color: rgba(255,255,255,0.9);
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+  }
+
+  /* ─── SECTION HEADER ─── */
+  .section-title {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.9rem; color: var(--ink); margin-bottom: 0.5rem;
+    position: relative;
+  }
+  .section-title::after {
+    content: ''; position: absolute; bottom: -6px; left: 0;
+    width: 36px; height: 2px; background: var(--gold);
+  }
+  .section-sub {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.05rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+  }
+
+  /* ─── FULL CARDS ─── */
+  .full-card {
+    background: var(--soft-white);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.03);
+  }
+  .full-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .full-card-header h2 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.6rem; font-weight: 500;
+  }
+  .external-btn {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    padding: 0.55rem 1.1rem;
+    background: var(--ink); color: #fff;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: none; cursor: pointer;
+    white-space: nowrap;
+  }
+  .external-btn.google { background: #4285f4; }
+  .external-btn.agoda { background: #e12b52; }
+  .external-btn:hover { opacity: 0.88; }
+
+  /* ─── FLIGHT ─── */
+  .flight-detail {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .flight-detail .divider {
+    width: 1px; height: 50px;
+    background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+    justify-self: center;
+  }
+  .flight-info { font-size: 1.05rem; }
+  .flight-info .label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
+  }
+  .flight-info .airline {
+    font-family: 'Playfair Display', serif; font-size: 1.3rem;
+    color: var(--ink); margin: 0.2rem 0;
+  }
+
+  /* ─── HOTEL ─── */
+  .hotel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .hotel-card-inner {
+    font-size: 1.05rem;
+  }
+  .hotel-card-inner h3 {
+    font-family: 'Playfair Display','Noto Serif TC',serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.2rem;
+  }
+  .hotel-card-inner .zh {
+    font-family: 'Noto Serif TC',serif;
+    font-size: 1rem;
+    color: var(--warm-gray);
+  }
+
+  /* ─── DINING ─── */
+  .dining-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .dining-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .food-imgs {
+    width: 155px; flex-shrink: 0; align-self: stretch;
+    display: flex; flex-direction: column; gap: 4px;
+    overflow: hidden; margin-right: 12px;
+  }
+  .food-imgs img {
+    width: 155px; flex: 1; min-height: 0; object-fit: cover;
+    border-radius: 4px;
+  }
+  .dining-info {
+    padding: 1rem;
+    display: flex; flex-direction: column; justify-content: center;
+    flex: 1; min-width: 180px;
+  }
+  .dining-info h4 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.1rem; margin-bottom: 0.15rem;
+  }
+  .dining-info .zh-name {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.95rem; color: var(--warm-gray);
+  }
+  .dining-info .dish {
+    font-size: 0.9rem; color: var(--gold);
+    font-style: italic; margin-top: 0.25rem;
+  }
+
+  /* ─── TIMELINE ─── */
+  .day-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.02);
+    display: grid;
+    grid-template-columns: 80px auto 90px;
+    gap: 1rem;
+    align-items: start;
+  }
+  .day-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; color: var(--gold);
+    text-align: center; line-height: 1;
+  }
+  .day-label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); text-align: center;
+  }
+  .day-zh {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.85rem; color: var(--ink); text-align: center;
+    margin-top: 0.2rem;
+  }
+  .day-photo {
+    width: 100%; height: 160px; object-fit: cover; border-radius: 8px;
+    margin-bottom: 0.75rem; display: block;
+  }
+  .day-schedule { font-size: 1.15rem; }
+  .day-schedule .time-slot {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    display: flex; gap: 0.6rem; align-items: baseline;
+  }
+  .time-slot .time {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem; color: var(--gold);
+    min-width: 58px; letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .day-weather {
+    font-size: 0.9rem; color: var(--warm-gray);
+    text-align: right; padding-top: 0.25rem;
+  }
+
+  /* ─── COST ─── */
+  .cost-section {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .cost-row {
+    display: flex; justify-content: space-between;
+    padding: 0.5rem 0; font-size: 1.05rem;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    flex-wrap: wrap;
+  }
+  .cost-bar {
+    height: 6px; border-radius: 3px;
+    background: rgba(201,168,76,0.15); margin: 0.75rem 0;
+  }
+  .cost-bar-fill {
+    height: 100%; border-radius: 3px;
+    background: linear-gradient(to right, var(--gold), var(--rose));
+    width: 94%;
+  }
+
+  /* ─── PAGES ─── */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* ─── SETTINGS ─── */
+  .settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .setting-group {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .setting-group label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); display: block; margin-bottom: 0.3rem;
+  }
+  .setting-group .zh-label {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.8rem; color: var(--ink); margin-bottom: 0.5rem;
+  }
+  .setting-group input, .setting-group select {
+    width: 100%; padding: 0.75rem 0.85rem;
+    border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    -webkit-appearance: none;
+  }
+  .setting-group input:focus, .setting-group select:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+  }
+  .save-btn {
+    background: linear-gradient(135deg, var(--gold), #b8942f);
+    color: #fff; border: none;
+    padding: 0.8rem 2rem; border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 0.85rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    cursor: pointer; margin-top: 1.25rem;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+  }
+  .save-btn:hover { opacity: 0.9; }
+
+  /* ─── LOG ─── */
+  .log-entry {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem; margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+  }
+  .log-date {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--gold);
+  }
+  .log-status {
+    display: inline-block; padding: 0.15rem 0.6rem; border-radius: 10px;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem; margin-left: 0.4rem;
+  }
+  .log-status.generated { background: rgba(76,175,80,0.12); color: #388e3c; }
+  .log-status.chatting { background: rgba(201,168,76,0.15); color: #8b6914; }
+
+  /* ─── CHAT ─── */
+  .chat-box {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .chat-date-label {
+    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); margin-bottom: 0.5rem;
+  }
+  .chat-box textarea {
+    width: 100%; height: 200px; padding: 1rem;
+    border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    line-height: 1.8; resize: vertical;
+    -webkit-appearance: none;
+  }
+  .chat-box textarea:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
+  }
+  .chat-hint {
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    color: var(--warm-gray); margin-top: 0.4rem; font-style: italic;
+  }
+
+  /* ─── LIGHTBOX ─── */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .lightbox.open { display: flex; }
+  .lbox-img-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    transition: opacity 0.2s;
+    cursor: default;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .lightbox img {
+      max-width: 96vw;
+      max-height: 82vh;
+    }
+    .lightbox .lbox-arrow { font-size: 2rem; margin: 0 6px; }
+  }
+  .lightbox .counter {
+    color: rgba(255,255,255,0.7);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.75rem;
+    z-index: 2;
+    position: relative;
+  }
+  .lightbox .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    border: none;
+    line-height: 1;
+  }
+  .lightbox .close-btn:hover { background: rgba(255,255,255,0.18); }
+  /* Nav zones — only inside the image wrapper, not full screen */
+  .lightbox .lbox-left,
+  .lightbox .lbox-right {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 50%;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+  .lightbox .lbox-left  { left: 0;  justify-content: flex-start; }
+  .lightbox .lbox-right { right: 0; justify-content: flex-end; }
+  .lightbox .lbox-arrow {
+    color: rgba(255,255,255,0.4);
+    font-size: 2.5rem;
+    margin: 0 16px;
+    pointer-events: none;
+    user-select: none;
+  }
+  .lightbox .lbox-left:hover .lbox-arrow,
+  .lightbox .lbox-right:hover .lbox-arrow {
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* ─── SAVE PLAN CHECKBOX ─── */
+  .save-plan-label {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    user-select: none;
+  }
+  .save-plan-label input[type="checkbox"] {
+    width: 16px; height: 16px;
+    accent-color: var(--gold);
+    cursor: pointer;
+  }
+
+  /* ─── BROKEN IMAGES ─── */
+  img.broken { display: none !important; }
+
+  /* ═══════════════ MOBILE: iPhone ───────────────────── */
+  @media (max-width: 768px) {
+
+    .container { padding: 0.75rem; }
+
+    /* Nav — compact scrollable */
+    nav {
+      gap: 1rem;
+      padding: 0.7rem 0.75rem;
+    }
+    nav a {
+      font-size: 0.72rem;
+      letter-spacing: 1px;
+    }
+
+    /* Hero — shorter */
+    .hero {
+      height: 260px;
+      border-radius: 10px;
+    }
+    .hero-overlay {
+      padding: 1.25rem 1rem;
+    }
+    .hero-overlay h1 {
+      font-size: 1.7rem;
+    }
+    .hero-overlay .zh-title {
+      font-size: 0.95rem;
+    }
+    .hero-stats {
+      font-size: 0.75rem;
+      gap: 0.5rem 1rem;
+    }
+
+    /* Slider — smaller images */
+    .slider-track img {
+      height: 130px;
+      margin-right: 6px;
+    }
+
+    /* Full card — tighter padding */
+    .full-card {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+    .full-card-header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .full-card-header h2 {
+      font-size: 1.3rem;
+    }
+
+    /* Flight — stack vertically */
+    .flight-detail {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .flight-detail .divider {
+      width: 80%;
+      height: 1px;
+      justify-self: center;
+    }
+
+    /* Hotel — already responsive via flex-wrap */
+
+    /* Dining — single column, smaller images */
+    .dining-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+    .food-imgs { width: 130px; margin-right: 8px; }
+    .food-imgs img { width: 130px; }
+
+    /* Dining text — bump up for readability */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.82rem !important; }
+    .dining-info .dish { font-size: 0.78rem !important; }
+
+    /* Timeline — single column, date on top */
+    .day-card {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+      padding: 1rem;
+    }
+    .day-card > :first-child {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .day-num {
+      font-size: 1.1rem;
+      color: var(--gold);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+    .day-label {
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+    }
+    .day-zh {
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+    .day-weather {
+      text-align: left;
+      font-size: 0.8rem;
+      margin-left: auto;
+    }
+    .day-schedule { font-size: 1rem; }
+    .time-slot .time {
+      font-size: 0.75rem;
+      min-width: 46px;
+    }
+    .time-slot {
+      gap: 0.3rem;
+    }
+
+    /* Settings — single column */
+    .settings-grid {
+      grid-template-columns: 1fr;
+    }
+
+    /* Cost — tighten */
+    .cost-row {
+      font-size: 0.95rem;
+    }
+    .cost-section {
+      padding: 1rem;
+    }
+
+    /* Chat */
+    .chat-box textarea {
+      height: 180px;
+      font-size: 1.05rem;
+    }
+
+    /* Section titles */
+    .section-title {
+      font-size: 1.4rem;
+    }
+    .section-sub {
+      font-size: 0.9rem;
+    }
+
+    /* External buttons — full width */
+    .external-btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 0.75rem;
+      padding: 0.55rem 1rem;
+    }
+  }
+
+  /* ═══════════════ SMALL PHONES ────────────────────── */
+  @media (max-width: 390px) {
+    .hero {
+      height: 220px;
+    }
+    .hero-overlay h1 {
+      font-size: 1.45rem;
+    }
+    .hero-overlay .zh-title {
+      font-size: 0.85rem;
+    }
+    .day-card {
+      grid-template-columns: 1fr;
+      padding: 0.85rem;
+    }
+    .day-num {
+      font-size: 1rem;
+    }
+    .day-schedule { font-size: 0.9rem; }
+    .food-imgs { width: 125px; margin-right: 6px; }
+    .food-imgs img { width: 125px; }
+
+    /* Dining text — bigger on iPhone */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.8rem !important; }
+    .dining-info .dish { font-size: 0.76rem !important; }
+    nav a {
+      font-size: 0.65rem;
+      letter-spacing: 0.5px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Hero -->
+  <div class="hero">
+    <img class="hero-placeholder" src="https://image.shutterstock.com/shutterstock/photos/614659937/display_1500/stock-photo-suva-fiji-mar-view-of-the-city-centre-of-suva-the-capital-city-of-fiji-614659937.jpg" alt="Fiji" onerror="this.style.display='none'">
+    <div class="hero-overlay">
+      <h1>Fiji</h1>
+      <div class="zh-title">斐濟六日 · 雙人奢華浪漫之旅</div>
+      <div class="hero-stats">
+        <span>✈️ 2027/01/10–01/16</span>
+        <span>👥 2 人</span>
+        <span>💰 NT$400,000</span>
+      </div>
+      </div>
+  </div>
+
+  <!-- Destination image slider -->
+  
+  <div class="slider">
+    <div class="slider-track">
+      
+      <img src="https://wallpapers.com/images/hd/fiji-island-pictures-1200-x-861-1f1bmmntq02j0zz8.jpg" alt="Download Fiji Island Breathtaking Scenery View Picture | Wallpapers.com">
+      
+      <img src="https://wallpaperbat.com/img/241170-fiji-cruise-beaches.jpg" alt="Fiji Wallpapers - 4k, HD Fiji Backgrounds on WallpaperBat">
+      
+      <img src="https://ciretravel.com/wp-content/uploads/2022/12/Main-Image-Likuliku-Lagoon-Resort.png" alt="Our Favorite Places: Fiji - CIRE Travel">
+      
+      <img src="https://media.nomadicmatt.com/2023/fijiguide1.jpg" alt="Your Ultimate Guide To Fiji In 2020 Fiji Travel Fiji Ultimate Fiji">
+      
+      <img src="https://destinationlesstravel.com/wp-content/uploads/2024/01/Wide-angle-shot-of-Malamala-Beach-Club-as-you-arrive-on-the-boat.jpg.webp" alt="33 BEST Things to do in Fiji - Your Ultimate Fiji Bucket List">
+      
+      <img src="https://www.outlooktravelmag.com/media/Fiji-Main-1024x613.png" alt="Fiji Travel Guide | Outlook Travel Magazine">
+      
+    </div>
+  </div>
+  
+
+  <!-- ✈️ FLIGHT -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>✈️ 航班 Flight</h2>
+      <a class="external-btn google" href="https://www.google.com/travel/flights?q=Flights+to+NAN+from+TPE+2027-01-10" target="_blank">
+        ↗ Google Flights 搜尋更多航班
+      </a>
+    </div>
+    <div class="flight-detail">
+      <div class="flight-info">
+        <div class="label">出發 Departure · 1月10日</div>
+        <div class="airline">中華航空 China Airlines</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">CI 53</span> · TPE → NAN 直飛<br>
+          22:30 出發 · 06:15 (+1) 抵達<br>
+          飛行 9h 45m · 經濟艙
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="flight-info">
+        <div class="label">回程 Return · 1月16日</div>
+        <div class="airline">中華航空 China Airlines</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">CI 54</span> · NAN → TPE 直飛<br>
+          08:30 出發 · 14:45 抵達<br>
+          飛行 10h 15m · 經濟艙
+        </div>
+      </div>
+    </div>
+    <div style="text-align:right; margin-top:1rem; font-size:0.9rem;">
+      來回 NT$ <strong>68,000</strong> / 2人
+    </div>
+  </div>
+
+  <!-- 🏨 HOTELS -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🏨 住宿 Hotel</h2>
+      <a class="external-btn agoda" href="https://www.agoda.com/zh-tw/city/fiji-fr.html?checkIn=2027-01-10&checkOut=2027-01-16&adults=2" target="_blank">
+        ↗ Agoda 搜尋更多住宿
+      </a>
+    </div>
+
+    
+    <div style="background:var(--cream);border-radius:10px;padding:1.25rem;margin-bottom:1.5rem;border:1px solid rgba(201,168,76,0.1);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Likuliku Lagoon Resort</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">利庫利庫潟湖度假村 · 瑪瑪努卡群島 Malolo Lailai</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">📅 DAY 1–3</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">3 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 135,000</div>
+        </div>
+      </div>
+      <div style="font-size:0.85rem;color:var(--ink);margin-bottom:0.75rem;">
+        ★★★★★ · 水上豪華別墅 Overwater Bure · 含每日自助早餐<br>
+        🏊 無邊際泳池 · 🧖 雙人SPA · 🍽️ 海景餐廳 · 🛶 免費獨木舟 & 浮潛裝備
+      </div>
+      <!-- Hotel photo gallery — click opens Google Images search -->
+      
+      <div class="slider" style="margin-bottom:0.25rem;">
+        <div class="slider-track">
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Likuliku%20Lagoon%20Resort%20Fiji%20overwater%20bungalow" target="_blank" title="More photos of Likuliku Lagoon Resort">
+            <img src="https://dreamoverwater.com/wp-content/uploads/2021/03/87487655.jpg" alt="Likuliku Lagoon Resort Overwater Bungalows - Prices, Deals & Reviews">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Likuliku%20Lagoon%20Resort%20Fiji%20overwater%20bungalow" target="_blank" title="More photos of Likuliku Lagoon Resort">
+            <img src="https://www.honeymoonalways.com/wp-content/uploads/2022/04/Likuliku-Lagoon-Resort-1-1024x576.jpg" alt="Top 5 Overwater Bungalows in Fiji">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Likuliku%20Lagoon%20Resort%20Fiji%20overwater%20bungalow" target="_blank" title="More photos of Likuliku Lagoon Resort">
+            <img src="https://sandinmysuitcase.com/wp-content/uploads/2019/06/LikuLiku.jpg" alt="5 Dreamy Overwater Bungalows in Fiji (and Fiji Bures)">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Likuliku%20Lagoon%20Resort%20Fiji%20overwater%20bungalow" target="_blank" title="More photos of Likuliku Lagoon Resort">
+            <img src="https://dreamoverwater.com/wp-content/uploads/2021/03/69835472.jpg" alt="Likuliku Lagoon Resort Overwater Bungalows - Reviews - Prices - Booking">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Likuliku%20Lagoon%20Resort%20Fiji%20overwater%20bungalow" target="_blank" title="More photos of Likuliku Lagoon Resort">
+            <img src="https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1741353100/zngitygh3f1aqc4dly71.jpg" alt="5 Fiji bungalows over the water for your next trip - Klook Travel Blog">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Likuliku%20Lagoon%20Resort%20Fiji%20overwater%20bungalow" target="_blank" title="More photos of Likuliku Lagoon Resort">
+            <img src="https://dreamoverwater.com/wp-content/uploads/2021/03/69835458.jpg" alt="Likuliku Lagoon Resort Overwater Bungalows - Reviews - Prices - Booking">
+          </a>
+          
+          
+        </div>
+      </div>
+      
+    </div>
+    
+    <div style="background:var(--cream);border-radius:10px;padding:1.25rem;margin-bottom:1rem;border:1px solid rgba(201,168,76,0.1);">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.75rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Nanuku Resort Fiji</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">納努庫度假村 · 太平洋港 Pacific Harbour</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">📅 DAY 4–6</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">3 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 82,000</div>
+        </div>
+      </div>
+      <div style="font-size:0.85rem;color:var(--ink);margin-bottom:0.75rem;">
+        ★★★★★ · 海景套房 Ocean Suite · 含每日早餐<br>
+        🏖️ 私人沙灘 · ⛳ 高爾夫球場 · 🐬 文化體驗 · 🍸 日落酒吧
+      </div>
+      <!-- Hotel photo gallery — click opens Google Images search -->
+      
+      <div class="slider" style="margin-bottom:0.25rem;">
+        <div class="slider-track">
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Nanuku%20Resort%20Fiji%20luxury%20beach" target="_blank" title="More photos of Nanuku Resort Fiji">
+            <img src="https://nanukuresort.com/wp-content/uploads/2021/11/NAN-AubergeBeachfrontVilla2BR-08.jpeg" alt="Nanuku Resort Fiji | 5-Star Luxury | Best Resort in Fiji">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Nanuku%20Resort%20Fiji%20luxury%20beach" target="_blank" title="More photos of Nanuku Resort Fiji">
+            <img src="https://www.executivetraveller.com/photos/view/size:1500,844/630ebf4a5c4c4382ba1c2f6ddd799465-nakuku-fiji-overview.jpg" alt="Paradise awaits: the South Pacific’s best luxury resorts - Executive ...">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Nanuku%20Resort%20Fiji%20luxury%20beach" target="_blank" title="More photos of Nanuku Resort Fiji">
+            <img src="https://www.fivestaralliance.com/files/fivestaralliance.com/styles/juicebox_large/public/field/image/nodes/2015/24341/24341_13_nanuku_fsa-g.jpg?itok=t5i6Sohn" alt="Photo Gallery for Nanuku in Pacific Harbour - Fiji Islands | Five Star ...">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Nanuku%20Resort%20Fiji%20luxury%20beach" target="_blank" title="More photos of Nanuku Resort Fiji">
+            <img src="https://media.modernluxury.com/ntgpghfuax/uploads/2022/10/13/Resort_Magical_sunset_colours_at_Nanuku_across_the_Clubhouse_pool_and_pool_bar_Nanuku_Resort_Fiji_1-1.jpg" alt="Fiji's Nanuku Resort Launches Stunning Astrotourism Program">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Nanuku%20Resort%20Fiji%20luxury%20beach" target="_blank" title="More photos of Nanuku Resort Fiji">
+            <img src="https://i.pinimg.com/736x/12/c8/97/12c897b8540afc3b33f40d63827b047e.jpg" alt="Nanuku Auberge Resort - Luxury Beachfront Resort in Fiji">
+          </a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Nanuku%20Resort%20Fiji%20luxury%20beach" target="_blank" title="More photos of Nanuku Resort Fiji">
+            <img src="https://www.fijivacations.com/wp-content/uploads/2014/12/Nanuku-_DSC0125_6_7_8_9_tonemapped.jpg?2512c4&2512c4" alt="Nanuku Resort Fiji - Fiji Vacations">
+          </a>
+          
+          
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  <!-- 🍽️ DINING -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🍽️ 美食 Dining</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">6天 · 3 間餐廳 · NT$0</span>
+    </div>
+
+    
+
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 米其林星級 Fine Dining</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Fiji%20Orchid%20restaurant%20Likuliku" target="_blank" title="More photos of Fiji Orchid" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://www.travpac.com/wp-content/uploads/2016/08/FijiOrchidRestaurant-1024x683.jpg" alt="Fiji Orchid" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://modularassets.cdn.ignitetravel.com/modular_multisite/wp-content/uploads/sites/2/2022/11/15103530/FIJI-Likuliku-Lagoon-Resort-Fijiana-restaurant_1000x480-5.png" alt="Fiji Orchid" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://modularassets.cdn.ignitetravel.com/modular_multisite/wp-content/uploads/sites/2/2022/11/04122324/FIJI-Likuliku-Lagoon-Resort-dining-my-fiji-580x480-1-1.jpg" alt="Fiji Orchid" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Fiji Orchid</h4>
+            <div class="zh-name">斐濟蘭花餐廳 · ⭐⭐</div>
+            <div class="dish">🦐 招牌：洛神花醬龍蝦 · 椰子咖哩魚</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Fiji%20Orchid+Likuliku%20Lagoon%20Resort%20%E5%85%A7" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Likuliku Lagoon Resort 內</a><br>
+              💰 雙人晚餐套餐 NT$7,500<br>
+              🕐 18:30–21:30 · 需預約
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 法式小館 Bistros & Casual</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=The%20Boatshed%20Fiji%20restaurant" target="_blank" title="More photos of The Boatshed Restaurant" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://images.squarespace-cdn.com/content/v1/6445e8192fbbd43b021a6917/4b0f0cda-b77c-4379-985c-c63cef884e3b/26841123_1779734155662915_7329272230617110587_o.jpg?format=2500w" alt="The Boatshed Restaurant" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://images.squarespace-cdn.com/content/v1/6445e8192fbbd43b021a6917/b03f1110-0278-4814-8608-ed6902d75e9d/RS203141-VM-Boatshed-Jul2023-3+copy.jpeg?format=2500w" alt="The Boatshed Restaurant" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://images.squarespace-cdn.com/content/v1/6445e8192fbbd43b021a6917/df7df375-4f7c-419e-8e23-98621fe35c5b/346130719_765658055261212_308205477721570337_n+(1).jpg?format=2500w" alt="The Boatshed Restaurant" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>The Boatshed Restaurant</h4>
+            <div class="zh-name">船屋餐廳</div>
+            <div class="dish">🐟 招牌：斐濟式烤魚 · 木薯泥 · 熱帶水果拼盤</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=The%20Boatshed%20Restaurant+Pacific%20Harbour%2C%20Nanuku%20%E9%99%84%E8%BF%91" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Pacific Harbour, Nanuku 附近</a><br>
+              💰 雙人晚餐 NT$3,500<br>
+              🕐 12:00–14:30 / 18:00–21:00
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:0;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 咖啡甜點 Cafés & Sweets</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Tropica%20Island%20Cafe%20Fiji" target="_blank" title="More photos of Tropica Island Café" class="food-imgs-link">
+          <div class="food-imgs">
+            
+            
+            
+            
+            <img src="https://www.tropicaisland.com/wp-content/uploads/2024/08/Untitled-design-1.jpg" alt="Tropica Island Café" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.tropicaisland.com/wp-content/uploads/2024/05/Private-Pier.jpg" alt="Tropica Island Café" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://i.pinimg.com/originals/56/fb/86/56fb86e26a96874d9c272c984cdd012e.jpg" alt="Tropica Island Café" onerror="this.style.display='none'">
+            
+            
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Tropica Island Café</h4>
+            <div class="zh-name">熱帶島嶼咖啡館</div>
+            <div class="dish">☕ 招牌：斐濟冰咖啡 · 椰子鬆餅 · 芒果奶昔</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Tropica%20Island%20Caf%C3%A9+Likuliku%20Lagoon%20Resort%20%E5%A4%A7%E5%BB%B3%E6%97%81" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Likuliku Lagoon Resort 大廳旁</a><br>
+              💰 雙人下午茶 NT$1,500<br>
+              🕐 07:00–17:00
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+
+    <!-- Food image slider -->
+    <div class="slider" style="margin-top:1rem;">
+      <div class="slider-track">
+        
+        
+        
+        
+        <img src="https://www.travpac.com/wp-content/uploads/2016/08/FijiOrchidRestaurant-1024x683.jpg" alt="Fiji Orchid | Private and Exlusive Resort | Nadi, Fiji | Travel Pacific">
+        
+        
+        
+        <img src="https://modularassets.cdn.ignitetravel.com/modular_multisite/wp-content/uploads/sites/2/2022/11/15103530/FIJI-Likuliku-Lagoon-Resort-Fijiana-restaurant_1000x480-5.png" alt="Likuliku Lagoon Resort - My Fiji">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://images.squarespace-cdn.com/content/v1/6445e8192fbbd43b021a6917/4b0f0cda-b77c-4379-985c-c63cef884e3b/26841123_1779734155662915_7329272230617110587_o.jpg?format=2500w" alt="Sunset Bar & The Boatshed Restaurant — Vuda Marina Fiji">
+        
+        
+        
+        <img src="https://images.squarespace-cdn.com/content/v1/6445e8192fbbd43b021a6917/b03f1110-0278-4814-8608-ed6902d75e9d/RS203141-VM-Boatshed-Jul2023-3+copy.jpeg?format=2500w" alt="Sunset Bar & The Boatshed Restaurant — Vuda Marina Fiji">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://www.tropicaisland.com/wp-content/uploads/2024/08/Untitled-design-1.jpg" alt="Oceanview Private Dining Fiji - Tropica Island Resort">
+        
+        
+        
+        <img src="https://www.tropicaisland.com/wp-content/uploads/2024/05/Private-Pier.jpg" alt="Private Dining in Fiji – 4 Breathtaking Locations | Tropica Island Resort">
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- 📅 DAY BY DAY -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>📅 每日行程 Day by Day</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">2027-01-10 – 2027-01-16</span>
+    </div>
+
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">1</div>
+        <div class="day-label">Jan 10 · Sun</div>
+        <div class="day-zh">啟程 · 飛往斐濟</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 利庫利庫潟湖度假村</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/23734cf2-380d-43cc-91fd-729ecdeeddb2/dg3sjgs-ac150e33-dc3c-4735-9880-6b941cd2bc00.jpg/v1/fill/w_1032,h_774,q_70,strp/sunset_flight_1___fiji_2023_by_wildplaces_dg3sjgs-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTYwIiwicGF0aCI6IlwvZlwvMjM3MzRjZjItMzgwZC00M2NjLTkxZmQtNzI5ZWNkZWVkZGIyXC9kZzNzamdzLWFjMTUwZTMzLWRjM2MtNDczNS05ODgwLTZiOTQxY2QyYmMwMC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.1sfDyJJYZ63kB451f1k_UxxjoNoCURtSzvPi1tQCNLs" alt="啟程 · 飛往斐濟" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🚕 從台北市區出發前往桃園機場（建議15:00出發）· 約40分鐘車程 · NT$1,200</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:30</span> 🧳 抵達桃園機場第二航廈 · 辦理登機手續 · 使用貴賓室休息</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🍜 機場內 Bistro 簡單用晚餐 · 推薦：牛肉麵 NT$350</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">22:30</span> ✈️ 搭乘中華航空 CI53 直飛斐濟楠迪 · 經濟艙 · 飛行約9h45m</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">23:30</span> 🛌 機上休息 · 提供晚餐及早餐 · 建議提早調整時差（斐濟比台灣快4小時）</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Likuliku Lagoon Resort · 水上豪華別墅</div>
+      </div>
+      <div class="day-weather">
+        🌤️ 30°/24°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 5%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">2</div>
+        <div class="day-label">Jan 11 · Mon</div>
+        <div class="day-zh">抵達 · 水上天堂</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 利庫利庫潟湖度假村</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://onlyluxe.com.au/media/wysiwyg/Accommodation/Fiji/likuliku-lagoon-resort/likuliku-lagoon-resort-fiji-aerial-stand-up-paddle-overwater-bungalows.jpeg" alt="抵達 · 水上天堂" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">06:15</span> ✈️ 抵達楠迪國際機場 · 入境通關 · 斐濟熱情迎賓歌舞</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">07:30</span> 🚤 由度假村專人接機 · 搭乘快艇前往 Likuliku Lagoon（約45分鐘）· 沿途欣賞碧藍潟湖</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:30</span> 🏨 抵達 Likuliku Lagoon Resort · 迎賓椰子水 · 辦理入住 · 行李送至別墅</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> 🏠 入住水上豪華別墅 · 玻璃地板看魚 · 私人甲板 · 按摩浴缸</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🥥 Tropica Island Café 早午餐 · 斐濟冰咖啡 + 椰子鬆餅 · NT$1,500</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🏊 無邊際泳池游泳 · 或浮潛（免費裝備）· 潟湖內有豐富珊瑚與熱帶魚</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:30</span> 🧖 雙人SPA療程（90分鐘）· 斐濟傳統按摩 + 椰子磨砂 · NT$8,000</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍸 日落雞尾酒於泳池酒吧 · 推薦：斐濟莫吉托 NT$600/杯</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:30</span> 🍽️ Fiji Orchid 精緻晚餐 · 龍蝦與椰子咖哩魚 · NT$7,500</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:30</span> 🌙 回別墅 · 甲板上觀星 · 聽著海浪聲入睡</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Likuliku Lagoon Resort · 水上豪華別墅</div>
+      </div>
+      <div class="day-weather">
+        ⛅ 30°/25°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">3</div>
+        <div class="day-label">Jan 12 · Tue</div>
+        <div class="day-zh">浪漫海洋日</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 利庫利庫潟湖度假村</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://tripjive.com/wp-content/uploads/2025/11/Mamanuca-snorkeling-safaris.jpeg" alt="浪漫海洋日" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:30</span> 🥐 度假村早餐 · 自助式含現做歐姆蛋、熱帶水果、斐濟麵包</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚤 私人雙體帆船出海（半日）· 前往無人沙洲 · 浮潛 · 船上香檳 · NT$18,000</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍱 船上輕食午餐 · 龍蝦沙拉三明治、新鮮椰汁</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> 🏝️ 登上 Malolo Lailai 島 · 沙灘散步 · 椰子樹下拍照</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:00</span> 🚤 返回度假村 · 稍作休息</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:30</span> 🏐 沙灘排球或獨木舟（免費）· 與另一半享受運動樂趣</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:00</span> 🍽️ 度假村內海景餐廳 · 斐濟式燒烤自助晚餐 · NT$5,000</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🔥 沙灘營火晚會 · 斐濟傳統歌舞表演 · 浪漫火把</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Likuliku Lagoon Resort · 水上豪華別墅</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 31°/25°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 0%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">4</div>
+        <div class="day-label">Jan 13 · Wed</div>
+        <div class="day-zh">文化探索 · 換宿</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 納努庫度假村</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://aaakrentals.com/fiji/wp-content/uploads/2024/07/Exploring-Traditional-Fiji-village-tour-1.jpg" alt="文化探索 · 換宿" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:30</span> 🥐 度假村早餐 · 整理行李</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚤 退房 · 搭乘快艇返回楠迪碼頭（約45分鐘）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> 🚗 專車接送前往 Nanuku Resort（約1.5小時車程）· 沿途參觀 Sigatoka 沙丘</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🏨 抵達 Nanuku Resort · 迎賓花環 · 辦理入住 · 海景套房面海</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍽️ The Boatshed Restaurant 午餐 · 斐濟式烤魚 · NT$3,500</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> 🏘️ 參觀當地村莊（Korovisilou Village）· 體驗卡瓦儀式 · 欣賞手工藝品 · NT$2,000</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🐬 日落海豚巡航（1.5小時）· 近距離觀看海豚 · NT$6,000</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:00</span> 🍸 日落酒吧 · 斐濟雞尾酒 · 欣賞太平洋日落</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🍽️ Nanuku 度假村內晚餐 · 斐濟融合料理 · NT$4,500</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">22:00</span> 🌙 回套房 · 陽台泡澡 · 聆聽海浪聲</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Nanuku Resort Fiji · 海景套房</div>
+      </div>
+      <div class="day-weather">
+        ⛅ 30°/24°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">5</div>
+        <div class="day-label">Jan 14 · Thu</div>
+        <div class="day-zh">自然與冒險</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 納努庫度假村</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/e6/ad/9e.jpg" alt="自然與冒險" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:30</span> 🥐 度假村早餐 · 現煎鬆餅、斐濟蜂蜜</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚤 噴射快艇冒險（Jet Boat）· 在納維河上高速奔馳 · 刺激好玩 · NT$5,000</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> 🌿 熱帶雨林徒步 · 導覽員介紹斐濟藥用植物 · 小型瀑布游泳</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🍽️ 度假村午餐 · 斐濟漢堡與薯條 · NT$2,000</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🏌️ 高爾夫練習場（免費）· 或沙灘排球</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🧖 雙人SPA · 斐濟傳統按摩（60分鐘）· NT$5,500</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:00</span> 🍽️ 度假村內浪漫晚餐 · 私人沙灘燭光晚餐 · NT$8,000</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:30</span> 🌙 沙灘散步 · 仰望南十字星 · 最後一晚</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Nanuku Resort Fiji · 海景套房</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 31°/25°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 5%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">6</div>
+        <div class="day-label">Jan 15 · Fri</div>
+        <div class="day-zh">最後的悠閒 · 返程</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 納努庫度假村</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://c8.alamy.com/comp/2BP0Y4R/departure-gate-at-fiji-airtportnadi-viti-levu-island-fijisouth-pacific-2BP0Y4R.jpg" alt="最後的悠閒 · 返程" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:00</span> 🥐 度假村早餐 · 最後一次享受斐濟風情</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:30</span> 🏨 退房 · 專車前往楠迪機場（約1.5小時）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:00</span> 🛍️ 楠迪市區免稅店購物 · 推薦：斐濟諾麗果、手工香皂、黑珍珠 · 預算 NT$10,000</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🧳 抵達楠迪機場 · 辦理登機手續 · 退稅</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🍜 機場貴賓室休息 · 輕食午餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> ✈️ 搭乘中華航空 CI54 直飛台北 · 飛行約10h15m</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:00</span> 🍱 機上晚餐 · 斐濟風味餐盒</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:45</span> 🛬 抵達桃園機場 · 結束浪漫斐濟之旅</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Nanuku Resort Fiji · 海景套房</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 30°/24°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 0%</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 💰 COST BREAKDOWN -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>💰 花費明細 Cost</h2>
+      <span style="font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">所有金額以新台幣 NTD 計算</span>
+    </div>
+    
+    <div class="cost-row"><span>✈️ 來回機票</span><span>NT$ <strong>68,000</strong></span></div>
+    
+    <div class="cost-row"><span>🏨 住宿（總計）</span><span>NT$ <strong>217,000</strong></span></div>
+    
+    <div class="cost-row"><span>🍽️ 餐飲</span><span>NT$ <strong>32,000</strong></span></div>
+    
+    <div class="cost-row"><span>🎫 景點門票 & 活動</span><span>NT$ <strong>39,500</strong></span></div>
+    
+    <div class="cost-row"><span>🚤 交通（接機、船、車）</span><span>NT$ <strong>18,000</strong></span></div>
+    
+    <div class="cost-row"><span>🛍️ 購物伴手禮</span><span>NT$ <strong>10,000</strong></span></div>
+    
+    <div class="cost-row" style="font-weight:600; border-top:2px solid var(--gold); padding-top:0.5rem; margin-top:0.2rem;">
+      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>384,500</strong></span>
+    </div>
+    <div class="cost-bar"><div class="cost-bar-fill" style="width:96.0%"></div></div>
+    <div style="text-align:right; font-size:0.8rem; color:var(--warm-gray);">
+      NT$ 384,500 / NT$ 400,000 · 剩餘 NT$ 15,500
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Shared JS for all Travel Planner pages
+// Lightbox, broken image handler
+
+// Hide broken images globally
+document.addEventListener('error', function(e){
+  if(e.target.tagName === 'IMG'){
+    e.target.classList.add('broken');
+  }
+}, true);
+
+// ═══ LIGHTBOX ═══
+(function(){
+  var images = [];
+  var currentIdx = 0;
+  var lb = null;
+  var lbImg = null;
+  var lbCounter = null;
+
+  function buildLightbox() {
+    lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.innerHTML =
+      '<button class="close-btn">&times;</button>' +
+      '<div class="lbox-img-wrap">' +
+        '<div class="lbox-left"><span class="lbox-arrow">&#8249;</span></div>' +
+        '<img src="" alt="">' +
+        '<div class="lbox-right"><span class="lbox-arrow">&#8250;</span></div>' +
+      '</div>' +
+      '<div class="counter"></div>';
+    document.body.appendChild(lb);
+    lbImg = lb.querySelector('img');
+    lbCounter = lb.querySelector('.counter');
+
+    lb.querySelector('.close-btn').addEventListener('click', close);
+    lb.querySelector('.lbox-left').addEventListener('click', function(e){ e.stopPropagation(); prev(); });
+    lb.querySelector('.lbox-right').addEventListener('click', function(e){ e.stopPropagation(); next(); });
+    lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
+    document.addEventListener('keydown', function(e){
+      if(!lb.classList.contains('open')) return;
+      if(e.key === 'Escape') close();
+      if(e.key === 'ArrowLeft') prev();
+      if(e.key === 'ArrowRight') next();
+    });
+  }
+
+  function collectImages() {
+    images = [];
+    var all = document.querySelectorAll('.slider-track img, .food-imgs img, .hero-placeholder, .dining-card img, .lightbox-clickable');
+    all.forEach(function(img, i){
+      // Skip images inside Google Images links — let the browser follow the link
+      if(img.closest('a[href*="google.com/search?tbm=isch"]')) return;
+      if(img.naturalWidth > 0 || img.complete) {
+        images.push(img);
+        img.style.cursor = 'pointer';
+        img.setAttribute('data-lb-idx', images.length - 1);
+        if(!img.hasLbListener) {
+          img.addEventListener('click', function(e){
+            e.stopPropagation();
+            open(img.getAttribute('data-lb-idx'));
+          });
+          img.hasLbListener = true;
+        }
+      }
+    });
+  }
+
+  function open(idx) {
+    if(!lb) buildLightbox();
+    collectImages();
+    idx = parseInt(idx);
+    if(idx < 0) idx = images.length - 1;
+    if(idx >= images.length) idx = 0;
+    currentIdx = idx;
+    var src = images[currentIdx].src || images[currentIdx].getAttribute('src');
+    // strip Unsplash size params for full resolution
+    src = src.replace(/[?&]w=\d+/g, '').replace(/[?&]h=\d+/g, '').replace(/[?&]fit=crop/g, '');
+    if(src.indexOf('?') === -1) src += '?w=1400'; else src += '&w=1400';
+    lbImg.src = src;
+    lbCounter.textContent = (currentIdx + 1) + ' / ' + images.length;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function next() { open(currentIdx + 1); }
+  function prev() { open(currentIdx - 1); }
+
+  window.addEventListener('load', function(){ collectImages(); });
+})();
+</script>
+<div style="text-align:center;padding:2rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
+  build 260520.094556
+</div>
+</body>
+</html>
