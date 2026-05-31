@@ -45,6 +45,7 @@
     </div>
     <div style="font-size:0.7rem;margin-top:0.4rem;" id="token-status"></div>
     <button class="save-btn" style="margin-top:0.75rem;" onclick="saveChat()">💾 儲存修改 Save Notes</button>
+    <div id="save-status" style="font-size:0.85rem;margin-top:0.75rem;font-family:'Noto Serif TC',serif;"></div>
   </div>
 </div>
 
@@ -145,12 +146,16 @@ async function saveChat() {
       body: JSON.stringify({
         message: `Update chat notes for ${key}`,
         content: content,
-        sha: sha || undefined
+        sha: sha || undefined,
+        branch: 'main'
       })
     });
 
     if(resp.ok) {
-      alert('✅ 已儲存！將在排程時間自動套用修改。');
+      var statusEl = document.getElementById('save-status');
+      statusEl.innerHTML = '⚡ 已儲存 · 正在呼叫 generator 立即生成…';
+      statusEl.style.color = '#c9a84c';
+      triggerRegenerate();
     } else {
       const body = await resp.text();
       if(resp.status === 401) {
@@ -164,6 +169,37 @@ async function saveChat() {
   } catch(e) {
     alert('⚠️ 已暫存到瀏覽器，但無法連接 GitHub。');
   }
+}
+
+function triggerRegenerate() {
+  var statusEl = document.getElementById('save-status');
+  fetch('http://localhost:8766/run')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      if (data.ok) {
+        // Poll index.html for new build tag (Pages takes ~30s to deploy)
+        var tries = 0;
+        var check = setInterval(function() {
+          tries++;
+          fetch('../index.html?t=' + Date.now()).then(function(r) {
+            return r.text();
+          }).then(function(html) {
+            var m = html.match(/build (\d{6}\.\d{6})/);
+            if (m && tries > 1) {
+              clearInterval(check);
+              statusEl.innerHTML = '🎉 新計畫已生成！<br><a href="../index.html?t=' + Date.now() + '" style="color:var(--gold);font-size:1rem;">↗ 查看最新計畫</a> <small>(build ' + m[1] + ')</small>';
+            }
+          }).catch(function(){});
+          if (tries > 30) { clearInterval(check); statusEl.innerHTML = '⏱️ 等待部署超時 · <a href="../index.html" target="_blank" style="color:var(--gold);">手動查看</a>'; }
+        }, 2000);
+      } else {
+        statusEl.innerHTML = '❌ Generator 失敗<br><pre style="font-size:0.7rem;max-height:100px;overflow:auto;">' + (data.output || 'unknown error').replace(/</g,'&lt;') + '</pre>';
+        statusEl.style.color = '#e88';
+      }
+    }).catch(function(e) {
+      statusEl.innerHTML = '❌ 無法連接本機 generator（localhost:8766）。請確認 trigger_server.py 正在執行。<br><small>' + e.message + '</small>';
+      statusEl.style.color = '#e88';
+    });
 }
 
 // Auto-save to localStorage on every keystroke
