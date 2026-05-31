@@ -1,11 +1,11 @@
 {
   "destination_en": "Donggang, Pingtung, Taiwan",
-  "title_zh": "東港黑鮪魚奢華一日遊 · 六月限定",
+  "title_zh": "東港黑鮪魚極致一日奢旅",
   "date_range": "2026/06/07",
   "start_date": "2026-06-07",
   "end_date": "2026-06-07",
-  "departure": "苗栗頭份市 (Miaoli Toufen)",
-  "departure_code": "TPE",
+  "departure": "Miaoli Toufen (by HSR)",
+  "departure_code": "MIAOLI",
   "destination_code": "PIF",
   "travelers": 2,
   "days": 1,
@@ -14,9 +14,9 @@
     "airline": "台灣高鐵 Taiwan High Speed Rail",
     "departure_date": "6月7日",
     "return_date": "6月7日",
-    "total_price_ntd": 5320,
+    "total_price_ntd": 5560,
     "outbound": {
-      "flight_no": "高鐵 0809 車次",
+      "flight_no": "HSR 803",
       "route": "苗栗 → 左營 直達",
       "depart_time": "09:00",
       "arrive_time": "10:35",
@@ -24,7 +24,7 @@
       "class": "商務車廂"
     },
     "inbound": {
-      "flight_no": "高鐵 0666 車次",
+      "flight_no": "HSR 668",
       "route": "左營 → 苗栗 直達",
       "depart_time": "18:30",
       "arrive_time": "20:05",
@@ -34,41 +34,41 @@
   },
   "hotels": [
     {
-      "name": "東港大鵬灣福灣莊園 (Fu Wan Manor)",
-      "name_zh": "福灣莊園 · 豪華海景套房",
+      "name": "大鵬灣東方渡假酒店 Orient Resort Dapeng Bay",
+      "name_zh": "大鵬灣東方渡假酒店",
       "district": "東港大鵬灣",
       "day_range": "1",
       "nights": 0,
       "price_ntd": 0,
-      "stars": "★★★★★",
-      "room_type": "豪華海景套房（僅休息至18:00）",
-      "breakfast": "不適用",
-      "amenities": "🏊 無邊際泳池 · 🌴 私人沙灘 · 🍷 酒窖 · 🦐 巧克力DIY",
-      "search_query": "Fu Wan Manor Donggang Pingtung",
+      "stars": "★★★★☆",
+      "room_type": "豪華海景雙人房（僅午休使用）",
+      "breakfast": "無",
+      "amenities": "🏊 室外泳池 · 🧖 SPA · 🌊 大鵬灣景觀 · 🅿️ 免費停車",
+      "search_query": "大鵬灣東方渡假酒店 東港",
       "photos": [
         {
-          "url": "https://cdn.luxurytravelmag.com.au/wp-content/uploads/2024/02/10-Shanghai-Donggang-Chengfu-Hotel-Shanghai-Light-and-Shadow-Design.jpg",
-          "label": "Shanghai Donggang Chengfu Hotel embodies ‘natural simplicity’"
+          "url": "",
+          "label": "luxury hotel Donggang"
         },
         {
-          "url": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2017/07/13/1714/Hyatt-Regency-Dongguan-P144-Lake-View.jpg/Hyatt-Regency-Dongguan-P144-Lake-View.4x3.jpg",
-          "label": "Luxury Hotel Rooms at Dongguan Hotel: 5 Star Rooms & Suites - Hyatt ..."
+          "url": "",
+          "label": "luxury hotel Donggang"
         },
         {
-          "url": "https://digital.ihg.com/is/image/ihg/intercontinental-dongguan-6223648135-2x1",
-          "label": "InterContinental Dongguan | Luxury Hotel in Dongguan"
+          "url": "",
+          "label": "luxury hotel Donggang"
         },
         {
-          "url": "https://cdn.luxurytravelmag.com.au/wp-content/uploads/2024/02/14-Shanghai-Donggang-Chengfu-Hotel-Shanghai-Light-and-Shadow-Design.jpg",
-          "label": "Shanghai Donggang Chengfu Hotel embodies ‘natural simplicity’"
+          "url": "",
+          "label": "luxury hotel Donggang"
         },
         {
-          "url": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2020/07/20/0251/Hyatt-Regency-Dongguan-P181-Guest-Room.jpg/Hyatt-Regency-Dongguan-P181-Guest-Room.4x3.jpg",
-          "label": "Luxury Hotel Rooms at Dongguan Hotel: 5 Star Rooms & Suites - Hyatt ..."
+          "url": "",
+          "label": "luxury hotel Donggang"
         },
         {
-          "url": "https://images.luxuryhotel.guide/hotelimage.php?p_id=874260&code=b0584a484ec59042a469c8a06f255c43&webpage=luxuryhotel.guide&link=https://subdomain.cloudimg.io/crop/1536x1152/q70.fcontrast10.fbright0.fsharp5/https://q-xx.bstatic.com/xdata/images/hotel/max1536/171735346.jpg?k=30c55177ae30ef09bb284c0276aa0d0a5d8099103455805f17c45e8f0b2afa60&o=",
-          "label": "The 20 best Luxury Hotels in Dongguan. Complete Guide 2024"
+          "url": "",
+          "label": "luxury hotel Donggang"
         }
       ]
     }
@@ -76,81 +76,81 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "東港華僑市場 · 黑鮪魚專賣區",
-        "name_zh": "華僑市場黑鮪魚金三角",
+        "name": "張家食堂東港直送黑鮪魚專門店",
+        "name_zh": "張家食堂東港直送黑鮪魚專門店",
         "stars": "⭐⭐⭐",
-        "dish": "🐟 黑鮪魚上腹生魚片 · 黑鮪魚大腹握壽司 · 黑鮪魚骨髓",
-        "address": "屏東縣東港鎮朝隆路39號",
-        "price_ntd": 8000,
-        "price_label": "黑鮪魚頂級套餐 NT$8,000（兩人）",
-        "hours": "10:00–19:00 · 週末人潮多",
-        "search_query": "Donggang Huaqiao Market black tuna sashimi",
+        "dish": "🐟 招牌：黑鮪魚上腹生魚片 · 炙燒大腹 · 鮪魚骨湯",
+        "address": "屏東縣東港鎮朝隆路39號（華僑市場內）",
+        "price_ntd": 15000,
+        "price_label": "雙人極上黑鮪魚套餐 NT$15,000",
+        "hours": "11:00–19:00 · 需預約",
+        "search_query": "張家食堂 東港 黑鮪魚",
         "photos": [
           {
-            "url": "https://www.foreignersintaiwan.com/uploads/5/4/3/2/54326073/dibggangsfm-35_orig.jpg",
-            "label": "Donggang Huaqiao Seafood Market 東港華僑魚市場 - Foreigners in Taiwan - 外國人在臺灣"
+            "url": "",
+            "label": "fine dining food Donggang"
           },
           {
-            "url": "https://www.foreignersintaiwan.com/uploads/5/4/3/2/54326073/dibggangsfm-41_orig.jpg",
-            "label": "Donggang Huaqiao Seafood Market 東港華僑魚市場 - Foreigners in Taiwan - 外國人在臺灣"
+            "url": "",
+            "label": "fine dining food Donggang"
           },
           {
-            "url": "https://www.foreignersintaiwan.com/uploads/5/4/3/2/54326073/dibggangsfm-42_orig.jpg",
-            "label": "Donggang Huaqiao Seafood Market 東港華僑魚市場 - Foreigners in Taiwan - 外國人在臺灣"
+            "url": "",
+            "label": "fine dining food Donggang"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "東港阿義海產店",
-        "name_zh": "阿義海產 · 在地老店",
+        "name": "東港阿仁海鮮現炒",
+        "name_zh": "東港阿仁海鮮現炒",
         "stars": "",
-        "dish": "🦐 招牌：櫻花蝦炒飯 · 處女蟳 · 海膽蒸蛋",
-        "address": "屏東縣東港鎮中山路2號",
-        "price_ntd": 3500,
-        "price_label": "兩人海鮮合菜 NT$3,500",
-        "hours": "11:30–14:30 / 17:00–21:00",
-        "search_query": "A Yi seafood Donggang",
+        "dish": "🦐 招牌：櫻花蝦炒飯 · 蚵仔酥 · 花枝丸",
+        "address": "屏東縣東港鎮朝隆路39號（華僑市場內）",
+        "price_ntd": 3000,
+        "price_label": "雙人海鮮小炒 NT$3,000",
+        "hours": "11:00–19:00",
+        "search_query": "東港阿仁海鮮 華僑市場",
         "photos": [
           {
-            "url": "https://ohsnapletseat.com/wp-content/uploads/2025/04/Seafood-Donggang-Taiwan-6.jpeg",
-            "label": "Donggang, Taiwan – Where Seafood Lovers Go to Feast • Oh Snap! Let's Eat!"
+            "url": "",
+            "label": "bistros food Donggang"
           },
           {
-            "url": "https://ohsnapletseat.com/wp-content/uploads/2025/04/seafood-donggang-taiwan-1-1.jpeg",
-            "label": "Donggang, Taiwan – Where Seafood Lovers Go to Feast • Oh Snap! Let's Eat!"
+            "url": "",
+            "label": "bistros food Donggang"
           },
           {
-            "url": "https://ohsnapletseat.com/wp-content/uploads/2025/04/Seafood-Donggang-Taiwan-4.jpeg",
-            "label": "Donggang, Taiwan – Where Seafood Lovers Go to Feast • Oh Snap! Let's Eat!"
+            "url": "",
+            "label": "bistros food Donggang"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "大鵬灣跨海大橋觀景咖啡",
-        "name_zh": "鵬灣橋景觀咖啡廳",
+        "name": "東港冰果室",
+        "name_zh": "東港冰果室",
         "stars": "",
-        "dish": "☕ 冰滴咖啡 · 芒果冰沙 · 手工蛋糕",
-        "address": "屏東縣東港鎮大鵬灣環灣道路",
-        "price_ntd": 600,
-        "price_label": "兩人飲料點心 NT$600",
-        "hours": "10:00–18:00",
-        "search_query": "Dapeng Bay Bridge cafe view",
+        "dish": "🍧 招牌：黑鮪魚造型冰 · 芒果雪花冰 · 蓮藕茶",
+        "address": "屏東縣東港鎮中山路2號",
+        "price_ntd": 500,
+        "price_label": "雙人冰品 NT$500",
+        "hours": "10:00–20:00",
+        "search_query": "東港冰果室 冰品",
         "photos": [
           {
-            "url": "https://taiwaneverything.cc/wp-content/uploads/2023/04/13-2.png",
-            "label": "Breezy Days by DAPENG BAY - Taiwan Everything"
+            "url": "",
+            "label": "cafe coffee Donggang"
           },
           {
-            "url": "https://taiwaneverything.cc/wp-content/uploads/2023/04/10-1.png",
-            "label": "Breezy Days by DAPENG BAY - Taiwan Everything"
+            "url": "",
+            "label": "cafe coffee Donggang"
           },
           {
-            "url": "https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_A12-00343_8.jpg",
-            "label": "Dapeng Bay Marina > Scenic Spot Search > Tourism Administration ..."
+            "url": "",
+            "label": "cafe coffee Donggang"
           }
         ]
       }
@@ -160,141 +160,137 @@
     {
       "day": 1,
       "date": "June 7 · Sun",
-      "label_zh": "東港黑鮪魚饗宴 · 一日放空",
-      "day_query": "Donggang Huaqiao Market black tuna",
-      "hotel_name": "福灣莊園 Fu Wan Manor",
-      "hotel_name_zh": "福灣莊園 · 豪華海景套房",
-      "hotel_room": "豪華海景套房（僅休息至18:00）",
-      "weather": "☀️ 32°/26° 晴時多雲",
-      "rain_pct": "10%",
+      "label_zh": "東港黑鮪魚一日遊",
+      "day_query": "東港華僑市場 黑鮪魚",
+      "hotel_name": "大鵬灣東方渡假酒店（午休）",
+      "hotel_name_zh": "大鵬灣東方渡假酒店（午休）",
+      "hotel_room": "豪華海景雙人房",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🚗 從苗栗頭份市家裡出發 · 搭乘預約的豪華轎車（NT$2,000）前往高鐵苗栗站"
+          "time": "08:30",
+          "desc": "🚗 從苗栗頭份市家中出發，步行至苗栗高鐵站（約10分鐘）"
         },
         {
           "time": "09:00",
-          "desc": "🚄 高鐵苗栗站出發 · 商務車廂 0809 車次 · 提供熱咖啡與輕食"
+          "desc": "🚄 搭乘高鐵 803 車次 商務車廂 · 苗栗 → 左營 · 車上享用咖啡與報紙"
         },
         {
           "time": "10:35",
-          "desc": "🚄 抵達高鐵左營站 · 轉乘預約的九人座豪華休旅車（NT$3,500 來回）前往東港"
+          "desc": "🚉 抵達左營高鐵站 · 轉乘預約包車（賓士V-Class）前往東港（約40分鐘）"
         },
         {
           "time": "11:30",
-          "desc": "🛒 抵達東港華僑市場 · 直奔黑鮪魚專賣區 · 挑選最新鮮黑鮪魚上腹與大腹"
+          "desc": "🐟 抵達東港華僑市場 · 先逛市場 · 認識各攤位 · 感受漁港活力"
         },
         {
           "time": "12:00",
-          "desc": "🍣 華僑市場內享用黑鮪魚生魚片套餐 · 搭配現磨山葵與冰鎮清酒"
+          "desc": "🍽️ 張家食堂極上黑鮪魚套餐 · 品嚐當季最肥美的黑鮪魚上腹、中腹、下巴"
         },
         {
           "time": "13:30",
-          "desc": "🏖️ 前往大鵬灣福灣莊園 · 入住豪華海景套房 · 使用無邊際泳池與私人沙灘"
+          "desc": "🍧 東港冰果室吃黑鮪魚造型冰 · 清涼消暑"
         },
         {
-          "time": "15:00",
-          "desc": "☕ 大鵬灣跨海大橋景觀咖啡廳 · 喝冰滴咖啡欣賞潟湖美景"
+          "time": "14:30",
+          "desc": "🏨 前往大鵬灣東方渡假酒店 · 使用豪華海景雙人房午休（14:00–16:00）· 享受泳池或SPA"
         },
         {
           "time": "16:00",
-          "desc": "🚶 東港鎮海公園散步 · 感受海風與悠閒漁村氛圍"
+          "desc": "🛍️ 返回華僑市場 · 選購黑鮪魚生魚片、櫻花蝦、烏魚子等伴手禮"
         },
         {
           "time": "17:00",
-          "desc": "🦐 阿義海產店享用晚餐 · 櫻花蝦炒飯、處女蟳、海膽蒸蛋"
-        },
-        {
-          "time": "18:00",
-          "desc": "🚐 搭乘豪華休旅車返回高鐵左營站"
+          "desc": "🚗 包車返回左營高鐵站 · 車上小憩"
         },
         {
           "time": "18:30",
-          "desc": "🚄 高鐵左營站出發 · 商務車廂 0666 車次 · 車上享用伴手禮"
+          "desc": "🚄 搭乘高鐵 668 車次 商務車廂 · 左營 → 苗栗"
         },
         {
           "time": "20:05",
-          "desc": "🏠 抵達高鐵苗栗站 · 豪華轎車接駁返回頭份家中 · 結束完美一日"
+          "desc": "🚶 步行返回頭份家中 · 結束完美一日"
         }
       ],
-      "day_photo": "https://eateatwalkwalk.com/wp-content/uploads/2018/07/img_6881.jpg"
+      "day_photo": ""
     }
   ],
   "costs": [
     {
-      "label": "🚄 高鐵商務車廂來回",
-      "amount_ntd": 5320
+      "label": "🚄 高鐵來回商務車廂（2人）",
+      "amount_ntd": 5560
     },
     {
-      "label": "🚐 左營-東港豪華休旅車來回",
-      "amount_ntd": 3500
+      "label": "🚗 包車左營↔東港來回（賓士V-Class）",
+      "amount_ntd": 6000
     },
     {
-      "label": "🚗 頭份-高鐵站豪華轎車來回",
+      "label": "🏨 大鵬灣東方渡假酒店午休房",
       "amount_ntd": 4000
     },
     {
-      "label": "🍽️ 華僑市場黑鮪魚套餐",
-      "amount_ntd": 8000
-    },
-    {
-      "label": "🍽️ 阿義海產晚餐",
-      "amount_ntd": 3500
-    },
-    {
-      "label": "☕ 景觀咖啡",
-      "amount_ntd": 600
-    },
-    {
-      "label": "🏨 福灣莊園日間休息（10:00-18:00）",
+      "label": "🍽️ 張家食堂黑鮪魚套餐",
       "amount_ntd": 15000
     },
     {
-      "label": "🎁 伴手禮（黑鮪魚鬆、櫻花蝦）",
+      "label": "🍽️ 阿仁海鮮現炒",
       "amount_ntd": 3000
+    },
+    {
+      "label": "🍧 東港冰果室",
+      "amount_ntd": 500
+    },
+    {
+      "label": "🛍️ 伴手禮（黑鮪魚生魚片、櫻花蝦等）",
+      "amount_ntd": 10000
+    },
+    {
+      "label": "🎫 華僑市場停車/雜支",
+      "amount_ntd": 1000
     }
   ],
-  "cost_total_ntd": 42920,
-  "budget_remaining_ntd": 57080,
+  "cost_total_ntd": 45060,
+  "budget_remaining_ntd": 54940,
   "photos": {
     "hero": [
       {
-        "url": "https://png.pngtree.com/thumb_back/fh260/background/20220312/pngtree-dalian-city-landmark-donggang-venice-water-city-image_989431.jpg",
-        "label": "Donggang Background Images, HD Pictures and Wallpaper For Free Download ..."
+        "url": "",
+        "label": "Donggang skyline landmark"
       },
       {
-        "url": "https://img.lovepik.com/photo/20211122/medium/lovepik-night-view-of-dalian-donggang-picture_500747931.jpg",
-        "label": "Night View Of Dalian Donggang Picture And HD Photos | Free Download On ..."
+        "url": "",
+        "label": "Donggang skyline landmark"
       }
     ],
     "destination": [
       {
-        "url": "https://www.mountainiq.com/wp-content/uploads/2024/03/Donggang-River.jpg",
-        "label": "South Korea vs Japan: Which Country is Best for Adventure Travel?"
+        "url": "",
+        "label": "Donggang travel scenery"
       },
       {
-        "url": "https://ak-d.tripcdn.com/images/1mi69224x8upipv6bCB51.jpg?proc=source/trip",
-        "label": "Things to Do in Donggang in 2025 - Top Attractions, Local Food, Hotels ..."
+        "url": "",
+        "label": "Donggang travel scenery"
       },
       {
-        "url": "https://png.pngtree.com/thumb_back/fh260/background/20220312/pngtree-dalian-city-landmark-donggang-venice-water-city-image_989431.jpg",
-        "label": "Donggang Background Images, HD Pictures and Wallpaper For Free Download ..."
+        "url": "",
+        "label": "Donggang travel scenery"
       },
       {
-        "url": "https://magazine.seoulselection.com/wp-content/uploads/2013/06/as_2050511t2153795-1024x692.jpg",
-        "label": "Donggang River – SEOUL Magazine"
+        "url": "",
+        "label": "Donggang travel scenery"
       },
       {
-        "url": "https://p1-tt-ipv6.byteimg.com/origin/pgc-image/0f011852bf3b477e94a90508e05f256f.jpg",
-        "label": "Be sure to come to Dalian Donggang Music Fountain Plaza to watch a ..."
+        "url": "",
+        "label": "Donggang travel scenery"
       },
       {
-        "url": "https://images.moondeveloper.com/attractions/2024/11/27/67472e4cb5cfe.jpg",
-        "label": "Top 10 Places to Visit in Donggang – Nature, Adventure, and History ..."
+        "url": "",
+        "label": "Donggang travel scenery"
       }
     ]
   },
-  "chat_hash": "9134e09ba03f8df9b03ca2e0cc27a3b8eabcc210fcbc4d20df8906409bc29af9",
+  "chat_hash": "e19e2ac01748ca2a181a84f0b9bac768e6731bf047ae0dee8be48a6e95f56246",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-05-31T22:25:28.558033"
+  "generated_at": "2026-05-31T14:47:48.942460"
 }
