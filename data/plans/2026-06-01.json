@@ -1,152 +1,152 @@
 {
-  "destination_en": "Luang Prabang, Laos",
-  "title_zh": "寮國龍坡邦 · 永恆浪漫之旅",
-  "date_range": "2026/08/01–08/11",
-  "start_date": "2026-08-01",
-  "end_date": "2026-08-11",
+  "destination_en": "Japan",
+  "title_zh": "八月日本 · 浪漫雙人行",
+  "date_range": "2026/08/10–08/20",
+  "start_date": "2026-08-10",
+  "end_date": "2026-08-20",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "LPQ",
+  "destination_code": "NRT",
   "travelers": 2,
   "days": 11,
   "budget_ntd": 500000,
   "flight": {
-    "airline": "泰國國際航空 Thai Airways",
-    "departure_date": "8月1日",
-    "return_date": "8月11日",
-    "total_price_ntd": 46000,
+    "airline": "長榮航空 EVA Air",
+    "departure_date": "8月10日",
+    "return_date": "8月20日",
+    "total_price_ntd": 36000,
     "outbound": {
-      "flight_no": "TG 635",
-      "route": "TPE → BKK → LPQ",
-      "depart_time": "10:25",
-      "arrive_time": "18:30",
-      "duration": "6h 05m + 2h 15m 轉機",
+      "flight_no": "BR 198",
+      "route": "TPE → NRT 直飛",
+      "depart_time": "08:50",
+      "arrive_time": "13:15",
+      "duration": "3h 25m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "TG 636",
-      "route": "LPQ → BKK → TPE",
-      "depart_time": "19:20",
-      "arrive_time": "07:10 (+1)",
-      "duration": "1h 40m + 3h 50m 轉機",
+      "flight_no": "BR 197",
+      "route": "NRT → TPE 直飛",
+      "depart_time": "14:00",
+      "arrive_time": "16:30",
+      "duration": "3h 30m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "The Belle Rive Boutique Hotel",
-      "name_zh": "貝爾里夫精品酒店",
-      "district": "龍坡邦古城區",
+      "name": "The Ritz-Carlton Tokyo",
+      "name_zh": "東京麗思卡爾頓酒店",
+      "district": "東京 · 六本木",
       "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 28500,
-      "stars": "★★★★☆",
-      "room_type": "湄公河景豪華雙人房",
-      "breakfast": "含寮式早餐",
-      "amenities": "🌅 河景陽台 · 🏊 泳池 · 🍸 屋頂酒吧 · 🚲 免費單車",
-      "search_query": "Belle Rive Boutique Hotel Luang Prabang",
-      "photos": [
-        {
-          "url": "",
-          "label": "luxury hotel Luang Prabang"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Luang Prabang"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Luang Prabang"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Luang Prabang"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Luang Prabang"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Luang Prabang"
-        }
-      ]
-    },
-    {
-      "name": "La Résidence Phou Vao",
-      "name_zh": "普瓦居所酒店",
-      "district": "普西山區",
-      "day_range": "4–6",
-      "nights": 3,
-      "price_ntd": 54000,
+      "price_ntd": 72000,
       "stars": "★★★★★",
-      "room_type": "花園景觀套房",
-      "breakfast": "含自助早餐",
-      "amenities": "🌺 熱帶花園 · 💆 SPA · 🏋️ 健身中心 · 🍽️ 法式寮國餐廳",
-      "search_query": "La Residence Phou Vao Luang Prabang",
+      "room_type": "豪華轉角客房",
+      "breakfast": "含日式/西式早餐",
+      "amenities": "🏊 室內泳池 · 💆 頂級SPA · 🍣 天婦羅餐廳 · 🏙️ 東京全景",
+      "search_query": "The Ritz-Carlton Tokyo hotel",
       "photos": [
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
         },
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
         },
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
         },
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
         },
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
         },
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
         }
       ]
     },
     {
-      "name": "Amantaka",
-      "name_zh": "安縵塔卡",
-      "district": "龍坡邦市中心",
-      "day_range": "7–10",
+      "name": "Hoshinoya Kyoto",
+      "name_zh": "星野集團 京都 · 虹夕諾雅",
+      "district": "京都 · 嵐山",
+      "day_range": "4–7",
       "nights": 4,
-      "price_ntd": 180000,
+      "price_ntd": 96000,
       "stars": "★★★★★",
-      "room_type": "泳池套房",
-      "breakfast": "含精緻早餐",
-      "amenities": "🏊 私人泳池 · 🌴 殖民風格 · 🧘 瑜珈 · 🍷 全包式服務",
-      "search_query": "Amantaka Luang Prabang",
+      "room_type": "水邊和室房",
+      "breakfast": "含京都風早膳",
+      "amenities": "♨️ 天然溫泉 · 🏞️ 嵐山竹林 · 🍵 抹茶體驗 · 私人渡船接送",
+      "search_query": "Hoshinoya Kyoto hotel",
       "photos": [
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
         },
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
         },
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
         },
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
         },
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
         },
         {
           "url": "",
-          "label": "luxury hotel Luang Prabang"
+          "label": "luxury hotel Japan"
+        }
+      ]
+    },
+    {
+      "name": "Aman Kyoto",
+      "name_zh": "安縵京都",
+      "district": "京都 · 左京區",
+      "day_range": "8–10",
+      "nights": 3,
+      "price_ntd": 108000,
+      "stars": "★★★★★",
+      "room_type": "鴬宿閣套房",
+      "breakfast": "含和式朝食",
+      "amenities": "🌿 私人花園 · ♨️ 溫泉 · 🧘 每日瑜伽 · 🍜 懷石料理",
+      "search_query": "Aman Kyoto hotel",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Japan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Japan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Japan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Japan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Japan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Japan"
         }
       ]
     }
@@ -154,81 +154,156 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Manda de Laos",
-        "name_zh": "曼達寮國 · 傳統與現代",
-        "stars": "",
-        "dish": "🦐 招牌：寮式檸檬草蝦湯 · 香茅烤魚",
-        "address": "Ban That Luang, Luang Prabang",
-        "price_ntd": 2500,
-        "price_label": "雙人晚餐套餐 NT$2,500",
-        "hours": "18:00–22:00 · 需預約",
-        "search_query": "Manda de Laos Luang Prabang food",
+        "name": "Ryugin",
+        "name_zh": "龍吟 · 米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🍣 招牌：鮑魚肝醬 · 和牛炭火燒",
+        "address": "東京都港區六本木7-17-24",
+        "price_ntd": 9000,
+        "price_label": "晚餐套餐 ¥40,000/人 · NT$9,000",
+        "hours": "18:00–23:00 · 需預約",
+        "search_query": "Ryugin Tokyo Michelin 3 star",
         "photos": [
           {
             "url": "",
-            "label": "fine dining food Luang Prabang"
+            "label": "fine dining food Japan"
           },
           {
             "url": "",
-            "label": "fine dining food Luang Prabang"
+            "label": "fine dining food Japan"
           },
           {
             "url": "",
-            "label": "fine dining food Luang Prabang"
+            "label": "fine dining food Japan"
+          }
+        ]
+      },
+      {
+        "name": "Kikunoi",
+        "name_zh": "菊乃井 · 米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🍱 招牌：季節懷石 · 鱧魚湯",
+        "address": "京都市東山區下河原町459",
+        "price_ntd": 8100,
+        "price_label": "晚餐懷石 ¥36,000/人 · NT$8,100",
+        "hours": "12:00–13:30 / 17:00–20:00 · 需預約",
+        "search_query": "Kikunoi Kyoto Michelin 3 star kaiseki",
+        "photos": [
+          {
+            "url": "",
+            "label": "fine dining food Japan"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Japan"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Japan"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "L'Elephant Restaurant",
-        "name_zh": "大象餐廳 · 法寮融合菜",
-        "stars": "",
-        "dish": "🥩 招牌：寮式咖哩鴨 · 紅酒燉牛肉",
-        "address": "Ban Vat Nong, Luang Prabang",
-        "price_ntd": 1800,
-        "price_label": "雙人晚餐 NT$1,800",
-        "hours": "11:30–14:00 / 18:30–22:00",
-        "search_query": "L Elephant Restaurant Luang Prabang",
+        "name": "Sushi Saito",
+        "name_zh": "鮨 さいとう · 米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🍣 招牌：江戶前壽司套餐",
+        "address": "東京都港區赤坂1-9-15",
+        "price_ntd": 7200,
+        "price_label": "午餐壽司 ¥32,000/人 · NT$7,200",
+        "hours": "12:00–14:00 / 17:00–22:00 · 需預約",
+        "search_query": "Sushi Saito Tokyo",
         "photos": [
           {
             "url": "",
-            "label": "bistros food Luang Prabang"
+            "label": "bistros food Japan"
           },
           {
             "url": "",
-            "label": "bistros food Luang Prabang"
+            "label": "bistros food Japan"
           },
           {
             "url": "",
-            "label": "bistros food Luang Prabang"
+            "label": "bistros food Japan"
+          }
+        ]
+      },
+      {
+        "name": "Gion Karyo",
+        "name_zh": "祇園花鄉 · 米其林二星",
+        "stars": "⭐⭐",
+        "dish": "🍤 招牌：天婦羅御膳 · 抹茶甜品",
+        "address": "京都市東山區祇園町南側570-118",
+        "price_ntd": 5400,
+        "price_label": "晚餐套餐 ¥24,000/人 · NT$5,400",
+        "hours": "12:00–14:30 / 17:30–22:00 · 需預約",
+        "search_query": "Gion Karyo Kyoto",
+        "photos": [
+          {
+            "url": "",
+            "label": "bistros food Japan"
+          },
+          {
+            "url": "",
+            "label": "bistros food Japan"
+          },
+          {
+            "url": "",
+            "label": "bistros food Japan"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Le Banneton Café",
-        "name_zh": "班尼頓法式咖啡館",
+        "name": "Higashiya Ginza",
+        "name_zh": "東屋銀座 · 和風茶寮",
         "stars": "",
-        "dish": "☕ 招牌：寮式咖啡 · 法式可頌 · 椰子布丁",
-        "address": "Sakkaline Road, Luang Prabang",
-        "price_ntd": 500,
-        "price_label": "雙人早午餐 NT$500",
-        "hours": "07:00–17:00 · 法式風情",
-        "search_query": "Le Banneton Cafe Luang Prabang",
+        "dish": "🍡 招牌：抹茶蕨餅 · 季節和果子 · 煎茶",
+        "address": "東京都中央區銀座1-14-1",
+        "price_ntd": 900,
+        "price_label": "兩人茶點 ¥4,000 · NT$900",
+        "hours": "10:00–19:00 · 無休",
+        "search_query": "Higashiya Ginza tea house",
         "photos": [
           {
             "url": "",
-            "label": "cafe coffee Luang Prabang"
+            "label": "cafe coffee Japan"
           },
           {
             "url": "",
-            "label": "cafe coffee Luang Prabang"
+            "label": "cafe coffee Japan"
           },
           {
             "url": "",
-            "label": "cafe coffee Luang Prabang"
+            "label": "cafe coffee Japan"
+          }
+        ]
+      },
+      {
+        "name": "Ippodo Tea Kyoto",
+        "name_zh": "一保堂茶舖 · 京都本店",
+        "stars": "",
+        "dish": "🍵 招牌：抹茶拿鐵 · 焙茶布丁 · 和菓子",
+        "address": "京都市中京區寺町通二條上ル",
+        "price_ntd": 675,
+        "price_label": "兩人茶點 ¥3,000 · NT$675",
+        "hours": "09:00–18:00 · 週三休",
+        "search_query": "Ippodo Tea Kyoto matcha",
+        "photos": [
+          {
+            "url": "",
+            "label": "cafe coffee Japan"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Japan"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Japan"
           }
         ]
       }
@@ -237,514 +312,500 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Aug 1 · Sat",
-      "label_zh": "抵達 · 湄公河畔初夜",
-      "day_query": "Luang Prabang night market",
-      "hotel_name": "The Belle Rive Boutique Hotel",
-      "hotel_name_zh": "貝爾里夫精品酒店 · 河景豪華房",
-      "hotel_room": "湄公河景豪華雙人房",
-      "weather": "☀️ 32°/24°",
-      "rain_pct": "20%",
+      "date": "8月10日 · 一",
+      "label_zh": "抵達東京 · 六本木之夜",
+      "day_query": "Tokyo Tower night view",
+      "hotel_name": "The Ritz-Carlton Tokyo",
+      "hotel_name_zh": "東京麗思卡爾頓酒店",
+      "hotel_room": "豪華轉角客房",
+      "weather": "☀️ 33°/26°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "10:25",
-          "desc": "✈️ 桃園 TPE 出發 · 泰航 TG635 · 經曼谷轉機"
+          "time": "08:50",
+          "desc": "✈️ 桃園機場 TPE 出發 · 長榮 BR198 · 預計 13:15 抵達成田"
         },
         {
-          "time": "18:30",
-          "desc": "🛬 抵達龍坡邦國際機場 LPQ · 入境通關（約 20 分鐘）"
+          "time": "13:15",
+          "desc": "🛬 抵達成田 NRT · 入境通關取行李（約30分鐘）"
         },
         {
-          "time": "19:15",
-          "desc": "🚕 搭乘嘟嘟車前往酒店（約 15 分鐘 · NT$200）· 感受古城氣息"
+          "time": "14:30",
+          "desc": "🚄 搭乘 Narita Express 至東京站（約1小時 · ¥3,000/人）· 轉地鐵至六本木"
         },
         {
-          "time": "19:45",
-          "desc": "🏨 入住 Belle Rive · 河景陽台 · 迎賓飲料（寮式冰茶）"
+          "time": "16:00",
+          "desc": "🏨 抵達 The Ritz-Carlton Tokyo · 辦理入住 · 房間位於45樓 · 俯瞰東京鐵塔"
         },
         {
-          "time": "20:30",
-          "desc": "🌙 龍坡邦夜市 Walking Street · 品嚐烤河苔、寮式香腸 · 購買手工圍巾"
+          "time": "17:00",
+          "desc": "☕ Higashiya Ginza 和風茶寮 · 品嚐抹茶蕨餅 · 體驗銀座和風"
         },
         {
-          "time": "22:00",
-          "desc": "🍜 夜市小吃：寮國米粉 Khao Soi（NT$80/碗）"
+          "time": "19:00",
+          "desc": "🍣 Ryugin 龍吟晚餐 · 米其林三星 · 預約19:00 · 品嚐鮑魚肝醬"
         },
         {
-          "time": "22:30",
-          "desc": "🏨 返回酒店 · 陽台欣賞湄公河月光 · 休息"
+          "time": "21:30",
+          "desc": "🗼 東京鐵塔展望台（¥1,200/人）· 欣賞夜景 · 於大瞭望台拍紀念照"
+        },
+        {
+          "time": "23:00",
+          "desc": "🌙 返回酒店 · 使用酒店泳池或SPA放鬆"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 2,
-      "date": "Aug 2 · Sun",
-      "label_zh": "寺廟與瀑布 · 文化洗禮",
-      "day_query": "Kuang Si Falls Luang Prabang",
-      "hotel_name": "The Belle Rive Boutique Hotel",
-      "hotel_name_zh": "貝爾里夫精品酒店 · 河景豪華房",
-      "hotel_room": "湄公河景豪華雙人房",
-      "weather": "☀️ 33°/25°",
-      "rain_pct": "10%",
+      "date": "8月11日 · 二",
+      "label_zh": "淺草 · 秋葉原 · 台場",
+      "day_query": "Sensoji Temple Asakusa",
+      "hotel_name": "The Ritz-Carlton Tokyo",
+      "hotel_name_zh": "東京麗思卡爾頓酒店",
+      "hotel_room": "豪華轉角客房",
+      "weather": "⛅ 32°/25°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "05:30",
-          "desc": "🌅 參與僧侶佈施儀式（酒店門口 Sakkaline 路）· 準備糯米飯 · 尊重傳統"
+          "time": "08:00",
+          "desc": "🥐 酒店早餐 · 日式定食或西式自助 · 補充體力"
         },
         {
-          "time": "07:00",
-          "desc": "🏛️ 參觀香通寺 Wat Xieng Thong · 門票 NT$100/人 · 金碧輝煌"
+          "time": "09:00",
+          "desc": "🚇 地鐵至淺草（約20分鐘）· 參觀雷門 · 仲見世通商店街"
         },
         {
-          "time": "08:30",
-          "desc": "🥐 Le Banneton Café 法式早餐 · 可頌 + 寮式咖啡"
+          "time": "10:00",
+          "desc": "🏯 淺草寺 Sensoji · 本堂參拜 · 抽籤體驗 · 五重塔拍照"
         },
         {
-          "time": "09:30",
-          "desc": "🚐 包車前往光西瀑布（車程 40 分鐘 · 來回 NT$1,200）"
+          "time": "11:30",
+          "desc": "🍜 淺草名代拉麵「並木藪蕎麦」· 招牌鴨肉蕎麥麵 ¥1,500/人"
         },
         {
-          "time": "10:30",
-          "desc": "🏞️ 光西瀑布 Kuang Si Falls · 入場 NT$100/人 · 游泳、探險"
+          "time": "13:00",
+          "desc": "🚇 地鐵至秋葉原（約15分鐘）· 逛電器街 · Yodobashi Camera"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 瀑布旁餐廳午餐 · 寮式炒麵 + 鮮榨果汁（NT$300）"
+          "time": "15:00",
+          "desc": "🤖 秋葉原UDX · 動漫周邊 · 女僕咖啡廳體驗"
         },
         {
-          "time": "14:30",
-          "desc": "🚐 返回古城 · 途經苗族夜市 Hmong Night Market"
+          "time": "17:00",
+          "desc": "🚇 百合海鷗號至台場 · 自由女神像 · 彩虹橋夕陽"
         },
         {
-          "time": "16:00",
-          "desc": "🚶 普西山日落 Phou Si Hill · 門票 NT$100/人 · 俯瞰古城"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ L'Elephant Restaurant 晚餐 · 寮式咖哩鴨 · 紅酒燉牛肉"
+          "time": "19:00",
+          "desc": "🍽️ 台場「築地食堂」海鮮丼 · 兩人約 ¥6,000"
         },
         {
           "time": "21:00",
-          "desc": "🌙 河邊散步 · 返回 Belle Rive"
+          "desc": "🌉 大江戶溫泉物語（¥2,500/人）· 泡湯放鬆 · 祭典氣氛"
+        },
+        {
+          "time": "23:00",
+          "desc": "🚇 返回酒店 · 休息"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 3,
-      "date": "Aug 3 · Mon",
-      "label_zh": "湄公河遊船 · 寧靜時光",
-      "day_query": "Mekong River cruise Luang Prabang",
-      "hotel_name": "The Belle Rive Boutique Hotel",
-      "hotel_name_zh": "貝爾里夫精品酒店 · 河景豪華房",
-      "hotel_room": "湄公河景豪華雙人房",
-      "weather": "☀️ 32°/24°",
-      "rain_pct": "15%",
+      "date": "8月12日 · 三",
+      "label_zh": "築地 · 銀座 · 澀谷 · 新宿",
+      "day_query": "Tsukiji Outer Market Tokyo",
+      "hotel_name": "The Ritz-Carlton Tokyo",
+      "hotel_name_zh": "東京麗思卡爾頓酒店",
+      "hotel_room": "豪華轉角客房",
+      "weather": "☀️ 34°/27°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 寮式湯麵 + 水果拼盤"
+          "time": "06:30",
+          "desc": "🌅 早起前往築地場外市場 · 品嚐新鮮壽司早餐（大和壽司 ¥4,000/人）"
         },
         {
-          "time": "08:00",
-          "desc": "🚲 騎酒店免費單車遊古城 · 參觀邁佛寺 Wat Mai"
+          "time": "08:30",
+          "desc": "🐟 築地市場散策 · 玉子燒 · 海膽 · 干貝串"
         },
         {
-          "time": "09:30",
-          "desc": "🛶 湄公河遊船（包船 4 小時 · NT$2,500）· 前往帕烏洞 Pak Ou Caves"
-        },
-        {
-          "time": "10:30",
-          "desc": "🕍 帕烏洞 · 數千尊佛像 · 門票 NT$100/人"
+          "time": "10:00",
+          "desc": "🚶 步行至銀座 · 和光百貨 · 銀座三越 · 精品街"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 船上午餐 · 寮式烤魚 + 糯米飯"
+          "desc": "🍣 Sushi Saito 午餐 · 米其林三星壽司 · 需預約 · 約 ¥32,000/人"
         },
         {
           "time": "14:00",
-          "desc": "🏨 返回酒店 · 泳池放鬆"
+          "desc": "🚇 地鐵至澀谷 · 澀谷十字路口 · 忠犬八公像 · SHIBUYA SKY展望台（¥2,000/人）"
         },
         {
-          "time": "16:00",
-          "desc": "💆 酒店 SPA（自費 · 60 分鐘泰式按摩 NT$1,200）"
+          "time": "16:30",
+          "desc": "🛍️ 原宿表參道 · 竹下通 · 可愛雜貨"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ Manda de Laos 浪漫晚餐 · 檸檬草蝦湯 · 香茅烤魚"
+          "time": "19:00",
+          "desc": "🌃 新宿 · 東京都廳展望台（免費）· 夜景"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 夜市最後巡禮 · 購買寮式絲巾和手工藝品"
+          "time": "20:30",
+          "desc": "🍜 新宿「一蘭拉麵」· 豚骨拉麵 ¥1,200/人"
+        },
+        {
+          "time": "22:00",
+          "desc": "🚇 返回酒店 · 整理行李"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 4,
-      "date": "Aug 4 · Tue",
-      "label_zh": "轉往普瓦居所 · 花園度假",
-      "day_query": "La Residence Phou Vao Luang Prabang",
-      "hotel_name": "La Résidence Phou Vao",
-      "hotel_name_zh": "普瓦居所酒店 · 花園套房",
-      "hotel_room": "花園景觀套房",
-      "weather": "☀️ 31°/23°",
+      "date": "8月13日 · 四",
+      "label_zh": "東京 → 京都 · 嵐山初訪",
+      "day_query": "Arashiyama Bamboo Grove Kyoto",
+      "hotel_name": "Hoshinoya Kyoto",
+      "hotel_name_zh": "星野集團 京都 · 虹夕諾雅",
+      "hotel_room": "水邊和室房",
+      "weather": "☀️ 35°/26°",
       "rain_pct": "10%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 Belle Rive 早餐 · 告別河景"
-        },
-        {
-          "time": "09:00",
-          "desc": "🏨 退房 · 行李寄存"
+          "desc": "🥐 酒店早餐 · 退房 · 行李寄放櫃檯"
         },
         {
           "time": "09:30",
-          "desc": "🏛️ 參觀皇宮博物館 Royal Palace Museum · 門票 NT$150/人"
+          "desc": "🚄 東京站搭乘新幹線希望號至京都（約2h20m · ¥13,000/人）· 購買便當"
         },
         {
-          "time": "11:30",
-          "desc": "☕ Le Banneton Café 咖啡 · 最後的法式可頌"
-        },
-        {
-          "time": "12:30",
-          "desc": "🚕 嘟嘟車前往普瓦居所（約 10 分鐘 · NT$150）"
+          "time": "12:00",
+          "desc": "🏯 抵達京都站 · 轉乘JR嵯峨野線至嵐山（約15分鐘）"
         },
         {
           "time": "13:00",
-          "desc": "🏨 入住 La Résidence Phou Vao · 迎賓冰茶 · 花園散步"
+          "desc": "🏨 抵達 Hoshinoya Kyoto · 辦理入住 · 酒店提供私人渡船接駁"
         },
         {
           "time": "14:00",
-          "desc": "🏊 泳池時光 · 享受熱帶花園"
+          "desc": "🎋 嵐山竹林小徑 · 天龍寺（¥600/人）· 曹源池庭園"
         },
         {
           "time": "16:00",
-          "desc": "🧘 酒店免費瑜珈課程（需預約）"
+          "desc": "🌉 渡月橋 · 嵐山公園 · 保津川遊船（¥4,100/人）"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 酒店餐廳 · 法式寮國料理 · 推薦鴨胸佐羅望子醬"
+          "time": "18:00",
+          "desc": "🍵 酒店內抹茶體驗 · 品嚐和菓子"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 花園星空 · 返回套房"
+          "time": "19:30",
+          "desc": "🍽️ 酒店晚餐 · 京懷石料理 · 預約19:30 · 約 ¥20,000/人"
+        },
+        {
+          "time": "21:30",
+          "desc": "♨️ 酒店溫泉 · 露天風呂 · 星空下泡湯"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 5,
-      "date": "Aug 5 · Wed",
-      "label_zh": "寮國烹飪課 · 味蕾探險",
-      "day_query": "Luang Prabang cooking class",
-      "hotel_name": "La Résidence Phou Vao",
-      "hotel_name_zh": "普瓦居所酒店 · 花園套房",
-      "hotel_room": "花園景觀套房",
-      "weather": "☀️ 32°/24°",
-      "rain_pct": "20%",
+      "date": "8月14日 · 五",
+      "label_zh": "嵐山深度 · 金閣寺 · 北野天滿宮",
+      "day_query": "Kinkaku-ji Golden Pavilion Kyoto",
+      "hotel_name": "Hoshinoya Kyoto",
+      "hotel_name_zh": "星野集團 京都 · 虹夕諾雅",
+      "hotel_room": "水邊和室房",
+      "weather": "⛅ 34°/25°",
+      "rain_pct": "15%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 酒店自助早餐 · 寮式米線 + 法國麵包"
-        },
-        {
-          "time": "08:30",
-          "desc": "👩‍🍳 參加 Tamarind 烹飪課程（半日 · NT$1,800/人）· 學習寮國料理"
+          "time": "07:30",
+          "desc": "🥐 酒店早餐 · 日式朝食 · 白米飯 · 烤魚 · 味噌湯"
         },
         {
           "time": "09:00",
-          "desc": "🛒 當地市場採購 · 認識香茅、檸檬葉、魚露"
+          "desc": "🚌 嵐山巴士至金閣寺（約30分鐘）· 金閣寺（¥600/人）· 鏡湖池倒影"
         },
         {
           "time": "11:00",
-          "desc": "🍳 烹飪實作 · 製作寮式拉帕、冬陰功、芒果糯米飯"
+          "desc": "🚶 步行至北野天滿宮（約15分鐘）· 學問之神 · 梅花季"
         },
         {
-          "time": "13:00",
-          "desc": "🍽️ 享用自己做的午餐 · 搭配寮國啤酒 Beerlao"
+          "time": "12:30",
+          "desc": "🍜 北野「茶寮 箭筈」· 抹茶烏龍麵 ¥1,500/人"
         },
         {
-          "time": "15:00",
-          "desc": "🏨 返回酒店 · 休息"
+          "time": "14:00",
+          "desc": "🚌 返回嵐山 · 龜山公園展望台 · 俯瞰保津川"
         },
         {
-          "time": "17:00",
-          "desc": "🚶 散步至普西山 · 再次欣賞日落（免費）"
+          "time": "16:00",
+          "desc": "🛶 保津川漂流（¥4,500/人）· 約2小時 · 清涼消暑"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ 古城晚餐 · 推薦夜市旁的小吃攤 · 寮式烤河苔 + 烤肉串"
+          "time": "18:30",
+          "desc": "🍽️ 嵐山「廣川鰻魚飯」· 預約 · 鰻魚定食 ¥5,000/人"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 返回普瓦居所 · 花園散步"
+          "time": "20:00",
+          "desc": "🌙 酒店內散步 · 河邊螢火蟲（8月可見）"
+        },
+        {
+          "time": "21:30",
+          "desc": "♨️ 溫泉 · 休息"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 6,
-      "date": "Aug 6 · Thu",
-      "label_zh": "瀑布與大象 · 自然之旅",
-      "day_query": "elephant sanctuary Luang Prabang",
-      "hotel_name": "La Résidence Phou Vao",
-      "hotel_name_zh": "普瓦居所酒店 · 花園套房",
-      "hotel_room": "花園景觀套房",
-      "weather": "☀️ 33°/25°",
-      "rain_pct": "15%",
+      "date": "8月15日 · 六",
+      "label_zh": "京都經典 · 清水寺 · 祇園",
+      "day_query": "Kiyomizudera Temple Kyoto",
+      "hotel_name": "Hoshinoya Kyoto",
+      "hotel_name_zh": "星野集團 京都 · 虹夕諾雅",
+      "hotel_room": "水邊和室房",
+      "weather": "☀️ 33°/24°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 準備出發"
-        },
-        {
           "time": "08:00",
-          "desc": "🐘 大象保護區半日遊（MandaLao 大象保護區 · NT$3,000/人）· 餵食、互動"
+          "desc": "🥐 酒店早餐 · 退房寄放行李（今晚住同酒店）"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 保護區內午餐 · 寮式炒飯"
+          "time": "09:00",
+          "desc": "🚇 嵐山電鐵至四条大宮 · 轉巴士至清水寺（約40分鐘）"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏯 清水寺（¥500/人）· 清水舞台 · 音羽瀑布"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚶 二年坂 · 三年坂散步 · 購買清水燒瓷器"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍜 ひさご親子丼 · 創業1900年 · 親子丼 ¥1,800/人"
         },
         {
           "time": "14:00",
-          "desc": "🏨 返回酒店 · 泳池消暑"
+          "desc": "⛩️ 八坂神社 · 祇園 · 花見小路通 · 藝伎文化"
         },
         {
           "time": "16:00",
-          "desc": "💆 酒店 SPA 體驗 · 寮式草藥按摩（NT$1,500/人）"
+          "desc": "🍵 Ippodo Tea Kyoto · 一保堂茶舖 · 抹茶拿鐵 + 和菓子"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ L'Elephant Restaurant 晚餐 · 法寮融合菜"
+          "time": "18:00",
+          "desc": "🍽️ Gion Karyo 祇園花鄉 · 米其林二星 · 天婦羅御膳"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 古城漫步 · 最後一夜在普瓦居所"
+          "time": "20:30",
+          "desc": "🚇 返回嵐山 · 酒店溫泉"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 7,
-      "date": "Aug 7 · Fri",
-      "label_zh": "轉往安縵 · 極致奢華",
-      "day_query": "Amantaka Luang Prabang",
-      "hotel_name": "Amantaka",
-      "hotel_name_zh": "安縵塔卡 · 泳池套房",
-      "hotel_room": "泳池套房",
-      "weather": "☀️ 32°/24°",
+      "date": "8月16日 · 日",
+      "label_zh": "伏見稻荷 · 宇治 · 奈良",
+      "day_query": "Fushimi Inari Shrine Kyoto",
+      "hotel_name": "Hoshinoya Kyoto",
+      "hotel_name_zh": "星野集團 京都 · 虹夕諾雅",
+      "hotel_room": "水邊和室房",
+      "weather": "☀️ 34°/25°",
       "rain_pct": "10%",
       "slots": [
         {
+          "time": "07:00",
+          "desc": "🥐 酒店早餐 · 提早出發"
+        },
+        {
           "time": "08:00",
-          "desc": "🥐 普瓦居所早餐 · 告別花園"
+          "desc": "🚇 JR嵯峨野線至京都站 · 轉奈良線至稻荷（約20分鐘）"
         },
         {
-          "time": "09:30",
-          "desc": "🏨 退房 · 行李寄存"
+          "time": "08:30",
+          "desc": "⛩️ 伏見稻荷大社 · 千本鳥居 · 登山至四ツ辻（約1小時）"
         },
         {
-          "time": "10:00",
-          "desc": "🚶 最後探訪香通寺 · 拍照留念"
+          "time": "10:30",
+          "desc": "🚇 稻荷站至宇治（約20分鐘）· 平等院鳳凰堂（¥600/人）· 世界遺產"
         },
         {
-          "time": "11:30",
-          "desc": "☕ Le Banneton Café 早午餐"
-        },
-        {
-          "time": "13:00",
-          "desc": "🚕 嘟嘟車前往安縵塔卡（約 5 分鐘 · NT$100）"
+          "time": "12:00",
+          "desc": "🍵 宇治「中村藤吉本店」· 抹茶蕎麥麵 · 抹茶冰淇淋 ¥2,000/人"
         },
         {
           "time": "13:30",
-          "desc": "🏨 入住 Amantaka · 迎賓香檳 · 私人管家帶您參觀"
+          "desc": "🚇 宇治至奈良（約40分鐘）· 奈良公園 · 餵鹿（鹿仙貝 ¥200）"
         },
         {
-          "time": "15:00",
-          "desc": "🏊 私人泳池暢泳 · 享受殖民風格建築"
+          "time": "15:30",
+          "desc": "🏯 東大寺大佛殿（¥600/人）· 世界最大木造建築"
         },
         {
-          "time": "17:00",
-          "desc": "🧘 酒店免費瑜珈課程"
+          "time": "17:30",
+          "desc": "🚇 奈良返回京都（約50分鐘）· 轉至嵐山"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ Amantaka 餐廳 · 精緻寮國套餐 · 搭配葡萄酒"
+          "time": "19:30",
+          "desc": "🍽️ 酒店懷石晚餐 · 最後一晚在Hoshinoya"
         },
         {
           "time": "21:30",
-          "desc": "🌙 泳池邊星空 · 雞尾酒"
+          "desc": "♨️ 溫泉 · 整理行李"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 8,
-      "date": "Aug 8 · Sat",
-      "label_zh": "安縵全日 · 身心靈饗宴",
-      "day_query": "Amantaka spa Luang Prabang",
-      "hotel_name": "Amantaka",
-      "hotel_name_zh": "安縵塔卡 · 泳池套房",
-      "hotel_room": "泳池套房",
-      "weather": "☀️ 31°/23°",
-      "rain_pct": "5%",
+      "date": "8月17日 · 一",
+      "label_zh": "嵐山 → 安縵京都 · 貴船神社",
+      "day_query": "Kifune Shrine Kyoto",
+      "hotel_name": "Aman Kyoto",
+      "hotel_name_zh": "安縵京都",
+      "hotel_room": "鴬宿閣套房",
+      "weather": "☀️ 33°/24°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 現煮寮式河粉"
+          "time": "08:00",
+          "desc": "🥐 酒店早餐 · 退房 · 搭乘計程車至安縵京都（約30分鐘 · ¥5,000）"
         },
         {
           "time": "09:00",
-          "desc": "🚲 酒店單車遊古城 · 探索小巷"
+          "desc": "🏨 抵達 Aman Kyoto · 辦理入住 · 探索酒店庭園"
         },
         {
           "time": "10:30",
-          "desc": "🏛️ 參觀邁佛寺 · 門票 NT$100/人"
+          "desc": "🚇 酒店接駁至貴船口（約20分鐘）· 步行至貴船神社"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 酒店午餐 · 輕食沙拉 + 寮式春捲"
+          "time": "11:30",
+          "desc": "⛩️ 貴船神社 · 水占卜 · 紅燈籠參道"
         },
         {
-          "time": "14:00",
-          "desc": "💆 安縵 SPA（60 分鐘精油按摩 · NT$3,500/人）"
+          "time": "13:00",
+          "desc": "🍜 貴船「ひろ文」川床料理 · 流水素麵 ¥1,500/人 · 清涼消暑"
         },
         {
-          "time": "16:00",
-          "desc": "🏊 泳池畔閱讀 · 享受午後陽光"
+          "time": "15:00",
+          "desc": "🚶 鞍馬寺（¥500/人）· 由岐神社 · 森林浴"
         },
         {
-          "time": "18:00",
-          "desc": "🍸 酒店雞尾酒時光 · 品嚐寮式調酒"
+          "time": "17:00",
+          "desc": "🚇 返回安縵京都 · 酒店內瑜伽課程（預約）"
         },
         {
           "time": "19:30",
-          "desc": "🍽️ Manda de Laos 晚餐 · 再次感受寮國風味"
+          "desc": "🍽️ 安縵懷石晚餐 · 預約19:30 · 使用當地食材 · 約 ¥25,000/人"
         },
         {
           "time": "21:30",
-          "desc": "🌙 返回安縵 · 泳池夜泳"
+          "desc": "♨️ 酒店溫泉 · 星空"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 9,
-      "date": "Aug 9 · Sun",
-      "label_zh": "湄公河日落巡航",
-      "day_query": "Mekong sunset cruise Luang Prabang",
-      "hotel_name": "Amantaka",
-      "hotel_name_zh": "安縵塔卡 · 泳池套房",
-      "hotel_room": "泳池套房",
-      "weather": "☀️ 32°/24°",
-      "rain_pct": "10%",
+      "date": "8月18日 · 二",
+      "label_zh": "京都文化 · 茶道 · 和服體驗",
+      "day_query": "Kimono tea ceremony Kyoto",
+      "hotel_name": "Aman Kyoto",
+      "hotel_name_zh": "安縵京都",
+      "hotel_room": "鴬宿閣套房",
+      "weather": "⛅ 32°/23°",
+      "rain_pct": "20%",
       "slots": [
         {
           "time": "08:00",
-          "desc": "🥐 安縵早餐 · 可頌 + 寮式咖啡"
+          "desc": "🥐 酒店早餐 · 和式朝食"
         },
         {
           "time": "09:30",
-          "desc": "🏛️ 參觀 UXO 遊客中心 · 了解寮國未爆彈歷史（免費）"
+          "desc": "👘 和服體驗（預約 · ¥8,000/人）· 著裝約1小時"
         },
         {
-          "time": "11:30",
-          "desc": "☕ Le Banneton Café 咖啡點心"
+          "time": "11:00",
+          "desc": "📸 穿著和服至東山區 · 二年坂 · 三年坂拍照"
         },
         {
-          "time": "13:00",
-          "desc": "🏨 返回安縵 · 休息"
+          "time": "12:30",
+          "desc": "🍜 和服午餐「瓢亭」· 米其林三星 · 預約 · 午餐懷石 ¥20,000/人"
         },
         {
-          "time": "15:00",
-          "desc": "🚶 酒店周邊散步 · 拍照"
+          "time": "14:30",
+          "desc": "🍵 茶道體驗（預約 · ¥5,000/人）· 表千家流派"
         },
         {
           "time": "16:30",
-          "desc": "🛶 安縵安排私人日落遊船（NT$4,000 含香檳）· 湄公河上欣賞夕陽"
+          "desc": "🚶 平安神宮 · 神苑花菖蒲"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 船上晚餐 · 寮式烤肉 + 糯米飯"
+          "time": "18:00",
+          "desc": "🛍️ 京都站地下街Porta · 購買伴手禮 · 八橋 · 抹茶巧克力"
         },
         {
-          "time": "20:30",
-          "desc": "🌙 返回安縵 · 泳池邊休息"
+          "time": "20:00",
+          "desc": "🌙 返回安縵 · 溫泉放鬆"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 10,
-      "date": "Aug 10 · Mon",
-      "label_zh": "最後全日 · 悠閒奢華",
-      "day_query": "Amantaka pool Luang Prabang",
-      "hotel_name": "Amantaka",
-      "hotel_name_zh": "安縵塔卡 · 泳池套房",
-      "hotel_room": "泳池套房",
-      "weather": "☀️ 33°/25°",
-      "rain_pct": "10%",
+      "date": "8月19日 · 三",
+      "label_zh": "最後一日 · 京都探索 · 返程",
+      "day_query": "Nishiki Market Kyoto",
+      "hotel_name": "Aman Kyoto",
+      "hotel_name_zh": "安縵京都",
+      "hotel_room": "鴬宿閣套房",
+      "weather": "☀️ 33°/24°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 安縵早餐 · 最後一次寮式河粉"
+          "time": "07:30",
+          "desc": "🥐 酒店早餐 · 退房 · 行李寄放酒店"
         },
         {
           "time": "09:00",
-          "desc": "🏊 泳池時光 · 享受最後的奢華"
+          "desc": "🚇 巴士至錦市場（約30分鐘）· 錦市場 · 試吃漬物 · 海鮮"
         },
         {
-          "time": "11:00",
-          "desc": "🚶 古城最後巡禮 · 購買伴手禮（寮式咖啡、手工藝品）"
+          "time": "10:30",
+          "desc": "🛍️ 錦市場購物 · 柚子胡椒 · 七味粉 · 抹茶粉"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ L'Elephant Restaurant 午餐 · 告別餐"
+          "time": "12:00",
+          "desc": "🍜 錦市場「麺屋 裕」· 柚子鹽拉麵 ¥1,200/人"
         },
         {
-          "time": "14:00",
-          "desc": "🏨 返回安縵 · 整理行李"
+          "time": "13:30",
+          "desc": "🚇 返回安縵京都 · 取行李"
+        },
+        {
+          "time": "14:30",
+          "desc": "🚄 酒店接駁至京都站 · 搭乘Haruka特急至關西機場（約1h15m · ¥3,500/人）"
         },
         {
           "time": "16:00",
-          "desc": "💆 最後 SPA（可選 30 分鐘頭部按摩 · NT$1,500）"
-        },
-        {
-          "time": "17:30",
-          "desc": "🏨 退房 · 行李寄存"
-        },
-        {
-          "time": "18:00",
-          "desc": "🌙 夜市最後漫步 · 品嚐烤香蕉"
+          "desc": "🛬 抵達關西機場 KIX · 辦理登機"
         },
         {
           "time": "19:00",
-          "desc": "🚕 嘟嘟車前往機場（NT$200）"
+          "desc": "✈️ 長榮 BR197 飛往台北 · 預計 21:30 抵達 TPE"
         },
         {
-          "time": "19:20",
-          "desc": "✈️ 泰航 TG636 返程 · 經曼谷回台灣"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 11,
-      "date": "Aug 11 · Tue",
-      "label_zh": "返抵台灣",
-      "day_query": "Taiwan Taoyuan Airport",
-      "hotel_name": "",
-      "hotel_name_zh": "",
-      "hotel_room": "",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "0%",
-      "slots": [
-        {
-          "time": "07:10",
-          "desc": "🛬 抵達桃園機場 TPE · 結束浪漫寮國之旅"
+          "time": "21:30",
+          "desc": "🏠 抵達台灣 · 甜蜜旅程結束"
         }
       ],
       "day_photo": ""
@@ -753,70 +814,70 @@
   "costs": [
     {
       "label": "✈️ 來回機票",
-      "amount_ntd": 46000
+      "amount_ntd": 36000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 262500
+      "amount_ntd": 276000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 45000
+      "amount_ntd": 80000
     },
     {
       "label": "🎫 景點門票",
-      "amount_ntd": 12000
+      "amount_ntd": 20000
     },
     {
       "label": "🚇 交通",
-      "amount_ntd": 8000
+      "amount_ntd": 45000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 15000
+      "amount_ntd": 30000
     }
   ],
-  "cost_total_ntd": 388500,
-  "budget_remaining_ntd": 111500,
+  "cost_total_ntd": 487000,
+  "budget_remaining_ntd": 13000,
   "photos": {
     "hero": [
       {
         "url": "",
-        "label": "Luang Prabang skyline landmark"
+        "label": "Japan skyline landmark"
       },
       {
         "url": "",
-        "label": "Luang Prabang skyline landmark"
+        "label": "Japan skyline landmark"
       }
     ],
     "destination": [
       {
         "url": "",
-        "label": "Luang Prabang travel scenery"
+        "label": "Japan travel scenery"
       },
       {
         "url": "",
-        "label": "Luang Prabang travel scenery"
+        "label": "Japan travel scenery"
       },
       {
         "url": "",
-        "label": "Luang Prabang travel scenery"
+        "label": "Japan travel scenery"
       },
       {
         "url": "",
-        "label": "Luang Prabang travel scenery"
+        "label": "Japan travel scenery"
       },
       {
         "url": "",
-        "label": "Luang Prabang travel scenery"
+        "label": "Japan travel scenery"
       },
       {
         "url": "",
-        "label": "Luang Prabang travel scenery"
+        "label": "Japan travel scenery"
       }
     ]
   },
-  "chat_hash": "2decd2bb380ee59cbd7926fc200e7c556b50eb5de01ef51760687a540ce1f90a",
+  "chat_hash": "cf2abf0c5be326cb922a70f8163f91079c4d9aa8655c60ead89ad545c9de2e92",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-01T16:12:33.222230"
+  "generated_at": "2026-06-01T21:36:59.123334"
 }
