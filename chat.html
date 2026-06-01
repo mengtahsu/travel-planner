@@ -153,9 +153,21 @@ async function saveChat() {
 
     if(resp.ok) {
       var statusEl = document.getElementById('save-status');
-      statusEl.innerHTML = '✅ 已儲存！GitHub Actions 正在生成新計畫…約 60 秒';
-      statusEl.style.color = '#4a9';
-      pollForNewBuild();
+      statusEl.innerHTML = '⚡ 已儲存 · 觸發生成中…';
+      statusEl.style.color = '#c9a84c';
+      // Trigger GitHub Action via repository_dispatch
+      fetch('https://api.github.com/repos/' + REPO + '/dispatches', {
+        method: 'POST',
+        headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+        body: JSON.stringify({event_type: 'chat_saved'})
+      }).then(function() {
+        statusEl.innerHTML = '✅ 已觸發！GitHub Actions 正在生成新計畫…約 60 秒';
+        statusEl.style.color = '#4a9';
+        pollForNewBuild();
+      }).catch(function(e) {
+        statusEl.innerHTML = '⚠️ 觸發失敗: ' + e.message + '<br>請確認 Token 有 workflow 權限';
+        statusEl.style.color = '#e88';
+      });
     } else {
       const body = await resp.text();
       if(resp.status === 401) {
