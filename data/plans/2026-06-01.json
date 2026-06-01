@@ -1,191 +1,152 @@
 {
-  "destination_en": "Bagan, Mandalay, Inle Lake, Yangon, Myanmar",
-  "title_zh": "緬甸 · 佛塔與湖光 · 十二天浪漫之旅",
-  "date_range": "2026/08/10–08/21",
-  "start_date": "2026-08-10",
-  "end_date": "2026-08-21",
+  "destination_en": "Luang Prabang, Laos",
+  "title_zh": "寮國龍坡邦 · 永恆浪漫之旅",
+  "date_range": "2026/08/01–08/11",
+  "start_date": "2026-08-01",
+  "end_date": "2026-08-11",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "RGN",
+  "destination_code": "LPQ",
   "travelers": 2,
-  "days": 12,
+  "days": 11,
   "budget_ntd": 500000,
   "flight": {
-    "airline": "中華航空 China Airlines / 緬甸國際航空 Myanmar Airways International",
-    "departure_date": "8月10日",
-    "return_date": "8月21日",
-    "total_price_ntd": 52000,
+    "airline": "泰國國際航空 Thai Airways",
+    "departure_date": "8月1日",
+    "return_date": "8月11日",
+    "total_price_ntd": 46000,
     "outbound": {
-      "flight_no": "CI 7915 / MA 1",
-      "route": "TPE → 仰光 (RGN) 經曼谷轉機",
-      "depart_time": "08:10",
-      "arrive_time": "15:30",
-      "duration": "7h 20m (含轉機)",
+      "flight_no": "TG 635",
+      "route": "TPE → BKK → LPQ",
+      "depart_time": "10:25",
+      "arrive_time": "18:30",
+      "duration": "6h 05m + 2h 15m 轉機",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "MA 2 / CI 7916",
-      "route": "仰光 (RGN) → TPE 經曼谷轉機",
-      "depart_time": "10:00",
-      "arrive_time": "21:30",
-      "duration": "7h 30m (含轉機)",
+      "flight_no": "TG 636",
+      "route": "LPQ → BKK → TPE",
+      "depart_time": "19:20",
+      "arrive_time": "07:10 (+1)",
+      "duration": "1h 40m + 3h 50m 轉機",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Bagan Lodge",
-      "name_zh": "蒲甘小屋酒店",
-      "district": "蒲甘 老蒲甘區",
-      "day_range": "1–4",
+      "name": "The Belle Rive Boutique Hotel",
+      "name_zh": "貝爾里夫精品酒店",
+      "district": "龍坡邦古城區",
+      "day_range": "1–3",
+      "nights": 3,
+      "price_ntd": 28500,
+      "stars": "★★★★☆",
+      "room_type": "湄公河景豪華雙人房",
+      "breakfast": "含寮式早餐",
+      "amenities": "🌅 河景陽台 · 🏊 泳池 · 🍸 屋頂酒吧 · 🚲 免費單車",
+      "search_query": "Belle Rive Boutique Hotel Luang Prabang",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        }
+      ]
+    },
+    {
+      "name": "La Résidence Phou Vao",
+      "name_zh": "普瓦居所酒店",
+      "district": "普西山區",
+      "day_range": "4–6",
+      "nights": 3,
+      "price_ntd": 54000,
+      "stars": "★★★★★",
+      "room_type": "花園景觀套房",
+      "breakfast": "含自助早餐",
+      "amenities": "🌺 熱帶花園 · 💆 SPA · 🏋️ 健身中心 · 🍽️ 法式寮國餐廳",
+      "search_query": "La Residence Phou Vao Luang Prabang",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Luang Prabang"
+        }
+      ]
+    },
+    {
+      "name": "Amantaka",
+      "name_zh": "安縵塔卡",
+      "district": "龍坡邦市中心",
+      "day_range": "7–10",
       "nights": 4,
-      "price_ntd": 56000,
-      "stars": "★★★★☆",
-      "room_type": "豪華套房（含陽台）",
-      "breakfast": "含每日自助早餐",
-      "amenities": "🏊 戶外泳池 · 🌴 熱帶花園 · 🍽️ 緬式餐廳 · 🚲 免費自行車",
-      "search_query": "Bagan Lodge hotel Bagan Myanmar",
-      "photos": [
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        }
-      ]
-    },
-    {
-      "name": "Hotel by the Red Canal",
-      "name_zh": "紅運河酒店",
-      "district": "曼德勒 市中心",
-      "day_range": "5–7",
-      "nights": 3,
-      "price_ntd": 36000,
-      "stars": "★★★★☆",
-      "room_type": "豪華雙人房",
-      "breakfast": "含每日早餐",
-      "amenities": "🏊 泳池 · 🧖 SPA · 🍽️ 屋頂餐廳 · 🚗 免費接駁",
-      "search_query": "Hotel by the Red Canal Mandalay",
-      "photos": [
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        }
-      ]
-    },
-    {
-      "name": "Sanctum Inle Resort",
-      "name_zh": "茵萊聖殿度假村",
-      "district": "茵萊湖 娘水鎮",
-      "day_range": "8–10",
-      "nights": 3,
-      "price_ntd": 48000,
+      "price_ntd": 180000,
       "stars": "★★★★★",
-      "room_type": "湖景豪華別墅",
-      "breakfast": "含每日早餐",
-      "amenities": "🏊 無邊際泳池 · 🚣 獨木舟 · 🍽️ 湖景餐廳 · 🌅 日落碼頭",
-      "search_query": "Sanctum Inle Resort Inle Lake",
+      "room_type": "泳池套房",
+      "breakfast": "含精緻早餐",
+      "amenities": "🏊 私人泳池 · 🌴 殖民風格 · 🧘 瑜珈 · 🍷 全包式服務",
+      "search_query": "Amantaka Luang Prabang",
       "photos": [
         {
           "url": "",
-          "label": "luxury hotel Bagan"
+          "label": "luxury hotel Luang Prabang"
         },
         {
           "url": "",
-          "label": "luxury hotel Bagan"
+          "label": "luxury hotel Luang Prabang"
         },
         {
           "url": "",
-          "label": "luxury hotel Bagan"
+          "label": "luxury hotel Luang Prabang"
         },
         {
           "url": "",
-          "label": "luxury hotel Bagan"
+          "label": "luxury hotel Luang Prabang"
         },
         {
           "url": "",
-          "label": "luxury hotel Bagan"
+          "label": "luxury hotel Luang Prabang"
         },
         {
           "url": "",
-          "label": "luxury hotel Bagan"
-        }
-      ]
-    },
-    {
-      "name": "Sule Shangri-La Yangon",
-      "name_zh": "仰光蘇雷香格里拉",
-      "district": "仰光 市中心",
-      "day_range": "11–12",
-      "nights": 2,
-      "price_ntd": 24000,
-      "stars": "★★★★★",
-      "room_type": "豪華城市景觀房",
-      "breakfast": "含每日自助早餐",
-      "amenities": "🏊 泳池 · 🧖 SPA · 🍽️ 多間餐廳 · 🏬 購物中心",
-      "search_query": "Sule Shangri-La Yangon",
-      "photos": [
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
-        },
-        {
-          "url": "",
-          "label": "luxury hotel Bagan"
+          "label": "luxury hotel Luang Prabang"
         }
       ]
     }
@@ -193,131 +154,81 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Le Planteur",
-        "name_zh": "種植者法式餐廳",
-        "stars": "⭐⭐",
-        "dish": "🦐 招牌：緬式香料烤蝦 · 法式焦糖布蕾",
-        "address": "22 Kaba Aye Pagoda Rd, 仰光",
-        "price_ntd": 3500,
-        "price_label": "晚餐套餐 €100/人 · NT$3,500",
+        "name": "Manda de Laos",
+        "name_zh": "曼達寮國 · 傳統與現代",
+        "stars": "",
+        "dish": "🦐 招牌：寮式檸檬草蝦湯 · 香茅烤魚",
+        "address": "Ban That Luang, Luang Prabang",
+        "price_ntd": 2500,
+        "price_label": "雙人晚餐套餐 NT$2,500",
         "hours": "18:00–22:00 · 需預約",
-        "search_query": "Le Planteur Yangon French restaurant",
+        "search_query": "Manda de Laos Luang Prabang food",
         "photos": [
           {
             "url": "",
-            "label": "fine dining food Bagan"
+            "label": "fine dining food Luang Prabang"
           },
           {
             "url": "",
-            "label": "fine dining food Bagan"
+            "label": "fine dining food Luang Prabang"
           },
           {
             "url": "",
-            "label": "fine dining food Bagan"
+            "label": "fine dining food Luang Prabang"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Shan Kitchen",
-        "name_zh": "撣族廚房",
+        "name": "L'Elephant Restaurant",
+        "name_zh": "大象餐廳 · 法寮融合菜",
         "stars": "",
-        "dish": "🍜 招牌：撣族米線 · 茶葉沙拉 · 咖哩雞",
-        "address": "Nyaung Shwe, 茵萊湖",
-        "price_ntd": 600,
-        "price_label": "兩人套餐 NT$600",
-        "hours": "11:00–21:00",
-        "search_query": "Shan Kitchen Inle Lake",
+        "dish": "🥩 招牌：寮式咖哩鴨 · 紅酒燉牛肉",
+        "address": "Ban Vat Nong, Luang Prabang",
+        "price_ntd": 1800,
+        "price_label": "雙人晚餐 NT$1,800",
+        "hours": "11:30–14:00 / 18:30–22:00",
+        "search_query": "L Elephant Restaurant Luang Prabang",
         "photos": [
           {
             "url": "",
-            "label": "bistros food Bagan"
+            "label": "bistros food Luang Prabang"
           },
           {
             "url": "",
-            "label": "bistros food Bagan"
+            "label": "bistros food Luang Prabang"
           },
           {
             "url": "",
-            "label": "bistros food Bagan"
-          }
-        ]
-      },
-      {
-        "name": "Mingalabar Myanmar Restaurant",
-        "name_zh": "明格拉巴緬甸餐廳",
-        "stars": "",
-        "dish": "🍛 招牌：緬式咖哩拼盤 · 魚湯麵 · 椰子飯",
-        "address": "27th St, 曼德勒",
-        "price_ntd": 800,
-        "price_label": "兩人晚餐 NT$800",
-        "hours": "11:00–22:00",
-        "search_query": "Mingalabar Myanmar restaurant Mandalay",
-        "photos": [
-          {
-            "url": "",
-            "label": "bistros food Bagan"
-          },
-          {
-            "url": "",
-            "label": "bistros food Bagan"
-          },
-          {
-            "url": "",
-            "label": "bistros food Bagan"
+            "label": "bistros food Luang Prabang"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "The Strand Café",
-        "name_zh": "斯特蘭德咖啡館",
+        "name": "Le Banneton Café",
+        "name_zh": "班尼頓法式咖啡館",
         "stars": "",
-        "dish": "☕ 招牌：緬式咖啡 · 英式司康 · 芒果糯米飯",
-        "address": "92 Strand Rd, 仰光",
-        "price_ntd": 700,
-        "price_label": "兩人下午茶 NT$700",
-        "hours": "07:00–22:00 · 殖民風格",
-        "search_query": "Strand Cafe Yangon",
-        "photos": [
-          {
-            "url": "",
-            "label": "cafe coffee Bagan"
-          },
-          {
-            "url": "",
-            "label": "cafe coffee Bagan"
-          },
-          {
-            "url": "",
-            "label": "cafe coffee Bagan"
-          }
-        ]
-      },
-      {
-        "name": "Weathercock's Café",
-        "name_zh": "風向標咖啡館",
-        "stars": "",
-        "dish": "🥤 招牌：牛油果奶昔 · 緬式春捲 · 香蕉煎餅",
-        "address": "Bagan, 老蒲甘",
+        "dish": "☕ 招牌：寮式咖啡 · 法式可頌 · 椰子布丁",
+        "address": "Sakkaline Road, Luang Prabang",
         "price_ntd": 500,
-        "price_label": "兩人輕食 NT$500",
-        "hours": "08:00–20:00 · 花園座位",
-        "search_query": "Weathercock's Cafe Bagan",
+        "price_label": "雙人早午餐 NT$500",
+        "hours": "07:00–17:00 · 法式風情",
+        "search_query": "Le Banneton Cafe Luang Prabang",
         "photos": [
           {
             "url": "",
-            "label": "cafe coffee Bagan"
+            "label": "cafe coffee Luang Prabang"
           },
           {
             "url": "",
-            "label": "cafe coffee Bagan"
+            "label": "cafe coffee Luang Prabang"
           },
           {
             "url": "",
-            "label": "cafe coffee Bagan"
+            "label": "cafe coffee Luang Prabang"
           }
         ]
       }
@@ -326,608 +237,514 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Aug 10 · Mon",
-      "label_zh": "啟程 · 抵達蒲甘",
-      "day_query": "Bagan pagoda sunset",
-      "hotel_name": "Bagan Lodge",
-      "hotel_name_zh": "蒲甘小屋酒店 · 豪華套房",
-      "hotel_room": "豪華套房（含陽台）",
-      "weather": "☀️ 35°/26°",
-      "rain_pct": "5%",
+      "date": "Aug 1 · Sat",
+      "label_zh": "抵達 · 湄公河畔初夜",
+      "day_query": "Luang Prabang night market",
+      "hotel_name": "The Belle Rive Boutique Hotel",
+      "hotel_name_zh": "貝爾里夫精品酒店 · 河景豪華房",
+      "hotel_room": "湄公河景豪華雙人房",
+      "weather": "☀️ 32°/24°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "06:00",
-          "desc": "🏠 桃園機場第一航廈報到 · 搭乘 CI7915 08:10 出發"
+          "time": "10:25",
+          "desc": "✈️ 桃園 TPE 出發 · 泰航 TG635 · 經曼谷轉機"
         },
         {
-          "time": "10:30",
-          "desc": "✈️ 抵達曼谷蘇凡納布機場 · 轉機時間 1.5 小時 · 可在機場商店逛逛"
+          "time": "18:30",
+          "desc": "🛬 抵達龍坡邦國際機場 LPQ · 入境通關（約 20 分鐘）"
         },
         {
-          "time": "12:00",
-          "desc": "✈️ 搭乘 MA 1 前往仰光 · 飛行約 1.5 小時"
+          "time": "19:15",
+          "desc": "🚕 搭乘嘟嘟車前往酒店（約 15 分鐘 · NT$200）· 感受古城氣息"
         },
         {
-          "time": "15:30",
-          "desc": "🛬 抵達仰光國際機場 · 辦理入境（落地簽證 USD 50/人 · 現場辦理）"
-        },
-        {
-          "time": "16:30",
-          "desc": "🚕 搭乘計程車前往仰光國內線航廈（步行 10 分鐘）"
-        },
-        {
-          "time": "18:00",
-          "desc": "✈️ 搭乘仰光→蒲甘國內航班（預訂 MM Air 或 Golden Myanmar · 約 1.5 小時 · NT$3,000/人）"
-        },
-        {
-          "time": "19:30",
-          "desc": "🚕 抵達蒲甘機場 · 酒店接駁車接至 Bagan Lodge（約 20 分鐘）"
+          "time": "19:45",
+          "desc": "🏨 入住 Belle Rive · 河景陽台 · 迎賓飲料（寮式冰茶）"
         },
         {
           "time": "20:30",
-          "desc": "🏨 入住 Bagan Lodge · 享用酒店迎賓飲料 · 稍作休息"
-        },
-        {
-          "time": "21:00",
-          "desc": "🍽️ 酒店內晚餐 · 品嚐緬式咖哩套餐（約 NT$1,200）"
+          "desc": "🌙 龍坡邦夜市 Walking Street · 品嚐烤河苔、寮式香腸 · 購買手工圍巾"
         },
         {
           "time": "22:00",
-          "desc": "🌙 在陽台欣賞星空 · 準備明日佛塔之旅"
+          "desc": "🍜 夜市小吃：寮國米粉 Khao Soi（NT$80/碗）"
+        },
+        {
+          "time": "22:30",
+          "desc": "🏨 返回酒店 · 陽台欣賞湄公河月光 · 休息"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 2,
-      "date": "Aug 11 · Tue",
-      "label_zh": "蒲甘 · 萬塔之城",
-      "day_query": "Bagan hot air balloon",
-      "hotel_name": "Bagan Lodge",
-      "hotel_name_zh": "蒲甘小屋酒店 · 豪華套房",
-      "hotel_room": "豪華套房（含陽台）",
-      "weather": "☀️ 34°/25°",
+      "date": "Aug 2 · Sun",
+      "label_zh": "寺廟與瀑布 · 文化洗禮",
+      "day_query": "Kuang Si Falls Luang Prabang",
+      "hotel_name": "The Belle Rive Boutique Hotel",
+      "hotel_name_zh": "貝爾里夫精品酒店 · 河景豪華房",
+      "hotel_room": "湄公河景豪華雙人房",
+      "weather": "☀️ 33°/25°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "05:00",
-          "desc": "🎈 熱氣球日出之旅（預訂 Balloons over Bagan · NT$8,000/人 · 含香檳早餐）· 從高空俯瞰兩千座佛塔"
+          "time": "05:30",
+          "desc": "🌅 參與僧侶佈施儀式（酒店門口 Sakkaline 路）· 準備糯米飯 · 尊重傳統"
         },
         {
-          "time": "07:30",
-          "desc": "🥐 熱氣球降落後享用香檳早餐 · 拍照留念"
+          "time": "07:00",
+          "desc": "🏛️ 參觀香通寺 Wat Xieng Thong · 門票 NT$100/人 · 金碧輝煌"
         },
         {
-          "time": "09:00",
-          "desc": "🚲 騎酒店免費自行車前往阿南達寺 Ananda Temple（10 分鐘）· 門票 NT$500/人"
+          "time": "08:30",
+          "desc": "🥐 Le Banneton Café 法式早餐 · 可頌 + 寮式咖啡"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚐 包車前往光西瀑布（車程 40 分鐘 · 來回 NT$1,200）"
         },
         {
           "time": "10:30",
-          "desc": "🛕 參觀達賓紐寺 Thatbyinnyu Temple · 蒲甘最高佛塔 · 內部壁畫精緻"
+          "desc": "🏞️ 光西瀑布 Kuang Si Falls · 入場 NT$100/人 · 游泳、探險"
         },
         {
-          "time": "12:00",
-          "desc": "🍜 午餐：Weathercock's Café · 牛油果奶昔與緬式春捲（NT$500）"
+          "time": "12:30",
+          "desc": "🍽️ 瀑布旁餐廳午餐 · 寮式炒麵 + 鮮榨果汁（NT$300）"
         },
         {
-          "time": "14:00",
-          "desc": "🛕 探索蘇拉瑪尼寺 Sulamani Temple · 較少遊客 · 寧靜莊嚴"
+          "time": "14:30",
+          "desc": "🚐 返回古城 · 途經苗族夜市 Hmong Night Market"
         },
         {
           "time": "16:00",
-          "desc": "🌅 前往瑞山陀塔 Shwesandaw Pagoda 欣賞日落 · 爬上五層平台 · 金色佛塔群"
+          "desc": "🚶 普西山日落 Phou Si Hill · 門票 NT$100/人 · 俯瞰古城"
         },
         {
           "time": "18:30",
-          "desc": "🚲 騎車返回酒店 · 途中經過當地小村莊"
+          "desc": "🍽️ L'Elephant Restaurant 晚餐 · 寮式咖哩鴨 · 紅酒燉牛肉"
         },
         {
-          "time": "20:00",
-          "desc": "🍽️ 酒店內晚餐 · 緬式烤肉拼盤（NT$1,500）"
-        },
-        {
-          "time": "21:30",
-          "desc": "🌙 泳池畔夜泳 · 放鬆身心"
+          "time": "21:00",
+          "desc": "🌙 河邊散步 · 返回 Belle Rive"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 3,
-      "date": "Aug 12 · Wed",
-      "label_zh": "蒲甘 · 深度探索",
-      "day_query": "Bagan temple sunrise",
-      "hotel_name": "Bagan Lodge",
-      "hotel_name_zh": "蒲甘小屋酒店 · 豪華套房",
-      "hotel_room": "豪華套房（含陽台）",
-      "weather": "☀️ 35°/26°",
-      "rain_pct": "5%",
+      "date": "Aug 3 · Mon",
+      "label_zh": "湄公河遊船 · 寧靜時光",
+      "day_query": "Mekong River cruise Luang Prabang",
+      "hotel_name": "The Belle Rive Boutique Hotel",
+      "hotel_name_zh": "貝爾里夫精品酒店 · 河景豪華房",
+      "hotel_room": "湄公河景豪華雙人房",
+      "weather": "☀️ 32°/24°",
+      "rain_pct": "15%",
       "slots": [
         {
-          "time": "05:30",
-          "desc": "🌅 前往瑞西光塔 Shwezigon Pagoda 看日出 · 金色佛塔在晨光中閃耀"
-        },
-        {
           "time": "07:00",
-          "desc": "🥐 返回酒店享用早餐"
+          "desc": "🥐 酒店早餐 · 寮式湯麵 + 水果拼盤"
         },
         {
-          "time": "08:30",
-          "desc": "🛕 參觀蒲甘考古博物館（門票 NT$300/人）· 了解蒲甘王朝歷史"
+          "time": "08:00",
+          "desc": "🚲 騎酒店免費單車遊古城 · 參觀邁佛寺 Wat Mai"
         },
         {
-          "time": "10:00",
-          "desc": "🎨 漆器工坊參觀（Bagan House Lacquerware）· 觀看手工製作過程 · 可購買紀念品（NT$500起）"
+          "time": "09:30",
+          "desc": "🛶 湄公河遊船（包船 4 小時 · NT$2,500）· 前往帕烏洞 Pak Ou Caves"
+        },
+        {
+          "time": "10:30",
+          "desc": "🕍 帕烏洞 · 數千尊佛像 · 門票 NT$100/人"
         },
         {
           "time": "12:00",
-          "desc": "🍜 午餐：The Moon Be Kind to Vegetarians · 素食緬式套餐（NT$600）"
+          "desc": "🍽️ 船上午餐 · 寮式烤魚 + 糯米飯"
         },
         {
           "time": "14:00",
-          "desc": "🛕 騎馬車遊覽（約 2 小時 · NT$1,500）· 探訪偏遠佛塔如 Dhammayangyi Temple"
+          "desc": "🏨 返回酒店 · 泳池放鬆"
         },
         {
           "time": "16:00",
-          "desc": "🛕 參觀布勒迪塔 Bu Phaya · 位於伊洛瓦底江畔 · 欣賞江景"
+          "desc": "💆 酒店 SPA（自費 · 60 分鐘泰式按摩 NT$1,200）"
         },
         {
-          "time": "17:30",
-          "desc": "🚢 伊洛瓦底江夕陽遊船（預訂 1.5 小時 · NT$2,000/人）· 船上提供飲料"
-        },
-        {
-          "time": "19:30",
-          "desc": "🍽️ 晚餐：酒店內的 Bagan Kitchen · 緬式傳統套餐（NT$1,800）"
+          "time": "18:30",
+          "desc": "🍽️ Manda de Laos 浪漫晚餐 · 檸檬草蝦湯 · 香茅烤魚"
         },
         {
           "time": "21:00",
-          "desc": "🌙 自由活動 · 可到酒店酒吧小酌一杯"
+          "desc": "🌙 夜市最後巡禮 · 購買寮式絲巾和手工藝品"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 4,
-      "date": "Aug 13 · Thu",
-      "label_zh": "蒲甘 → 曼德勒",
-      "day_query": "U Bein Bridge sunset",
-      "hotel_name": "Hotel by the Red Canal",
-      "hotel_name_zh": "紅運河酒店 · 豪華雙人房",
-      "hotel_room": "豪華雙人房",
-      "weather": "☀️ 35°/27°",
-      "rain_pct": "15%",
+      "date": "Aug 4 · Tue",
+      "label_zh": "轉往普瓦居所 · 花園度假",
+      "day_query": "La Residence Phou Vao Luang Prabang",
+      "hotel_name": "La Résidence Phou Vao",
+      "hotel_name_zh": "普瓦居所酒店 · 花園套房",
+      "hotel_room": "花園景觀套房",
+      "weather": "☀️ 31°/23°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 收拾行李 · 辦理退房"
+          "time": "08:00",
+          "desc": "🥐 Belle Rive 早餐 · 告別河景"
         },
         {
-          "time": "08:30",
-          "desc": "🚗 包車前往曼德勒（約 4 小時 · NT$3,500）· 沿途欣賞鄉村風光"
+          "time": "09:00",
+          "desc": "🏨 退房 · 行李寄存"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏛️ 參觀皇宮博物館 Royal Palace Museum · 門票 NT$150/人"
+        },
+        {
+          "time": "11:30",
+          "desc": "☕ Le Banneton Café 咖啡 · 最後的法式可頌"
         },
         {
           "time": "12:30",
-          "desc": "🏨 抵達曼德勒 · 入住 Hotel by the Red Canal · 稍作休息"
+          "desc": "🚕 嘟嘟車前往普瓦居所（約 10 分鐘 · NT$150）"
         },
         {
-          "time": "13:30",
-          "desc": "🍜 午餐：Mingalabar Myanmar Restaurant · 緬式咖哩拼盤（NT$800）"
+          "time": "13:00",
+          "desc": "🏨 入住 La Résidence Phou Vao · 迎賓冰茶 · 花園散步"
         },
         {
-          "time": "15:00",
-          "desc": "🏛️ 參觀曼德勒皇宮 Mandalay Palace（門票 NT$500/人）· 漫步於柚木宮殿"
+          "time": "14:00",
+          "desc": "🏊 泳池時光 · 享受熱帶花園"
         },
         {
-          "time": "17:00",
-          "desc": "🌉 前往烏本橋 U Bein Bridge · 世界最長的柚木橋 · 欣賞日落 · 可包船（NT$500）"
+          "time": "16:00",
+          "desc": "🧘 酒店免費瑜珈課程（需預約）"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：Mingalabar 或酒店屋頂餐廳 · 眺望曼德勒山（NT$1,200）"
+          "time": "18:30",
+          "desc": "🍽️ 酒店餐廳 · 法式寮國料理 · 推薦鴨胸佐羅望子醬"
         },
         {
-          "time": "20:30",
-          "desc": "🌙 返回酒店 · 享受 SPA 療程（NT$1,500/人）"
+          "time": "21:00",
+          "desc": "🌙 花園星空 · 返回套房"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 5,
-      "date": "Aug 14 · Fri",
-      "label_zh": "曼德勒 · 文化與信仰",
-      "day_query": "Mandalay Hill",
-      "hotel_name": "Hotel by the Red Canal",
-      "hotel_name_zh": "紅運河酒店 · 豪華雙人房",
-      "hotel_room": "豪華雙人房",
-      "weather": "☀️ 34°/26°",
-      "rain_pct": "10%",
+      "date": "Aug 5 · Wed",
+      "label_zh": "寮國烹飪課 · 味蕾探險",
+      "day_query": "Luang Prabang cooking class",
+      "hotel_name": "La Résidence Phou Vao",
+      "hotel_name_zh": "普瓦居所酒店 · 花園套房",
+      "hotel_room": "花園景觀套房",
+      "weather": "☀️ 32°/24°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "06:00",
-          "desc": "🌅 前往曼德勒山 Mandalay Hill 看日出（免費）· 爬 700 階梯或搭電梯"
+          "time": "07:00",
+          "desc": "🥐 酒店自助早餐 · 寮式米線 + 法國麵包"
         },
         {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐"
+          "time": "08:30",
+          "desc": "👩‍🍳 參加 Tamarind 烹飪課程（半日 · NT$1,800/人）· 學習寮國料理"
         },
         {
           "time": "09:00",
-          "desc": "🛕 參觀馬哈木尼佛寺 Mahamuni Buddha Temple · 貼金佛像 · 門票 NT$200/人"
+          "desc": "🛒 當地市場採購 · 認識香茅、檸檬葉、魚露"
         },
         {
-          "time": "10:30",
-          "desc": "🛕 參觀庫特多佛塔 Kuthodaw Pagoda · 世界最大書本（石刻三藏）"
+          "time": "11:00",
+          "desc": "🍳 烹飪實作 · 製作寮式拉帕、冬陰功、芒果糯米飯"
         },
         {
-          "time": "12:00",
-          "desc": "🍜 午餐：Too Too Myanmar Restaurant · 魚湯麵（NT$400）"
+          "time": "13:00",
+          "desc": "🍽️ 享用自己做的午餐 · 搭配寮國啤酒 Beerlao"
         },
         {
-          "time": "14:00",
-          "desc": "🎨 參觀金箔工坊（Golden Leaf Workshop）· 觀看手工敲打金箔"
+          "time": "15:00",
+          "desc": "🏨 返回酒店 · 休息"
         },
         {
-          "time": "16:00",
-          "desc": "🛕 前往因瓦古城 Inwa（搭船來回 NT$300/人）· 騎馬車遊覽（NT$600）· 參觀寶迦雅寺"
+          "time": "17:00",
+          "desc": "🚶 散步至普西山 · 再次欣賞日落（免費）"
         },
         {
-          "time": "18:30",
-          "desc": "🚤 返回曼德勒"
+          "time": "19:00",
+          "desc": "🍽️ 古城晚餐 · 推薦夜市旁的小吃攤 · 寮式烤河苔 + 烤肉串"
         },
         {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：酒店屋頂餐廳 · 緬式燒烤（NT$1,500）"
-        },
-        {
-          "time": "21:30",
-          "desc": "🌙 泳池畔放鬆"
+          "time": "21:00",
+          "desc": "🌙 返回普瓦居所 · 花園散步"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 6,
-      "date": "Aug 15 · Sat",
-      "label_zh": "曼德勒 · 古城與工藝",
-      "day_query": "Amarapura silk weaving",
-      "hotel_name": "Hotel by the Red Canal",
-      "hotel_name_zh": "紅運河酒店 · 豪華雙人房",
-      "hotel_room": "豪華雙人房",
-      "weather": "☀️ 34°/26°",
-      "rain_pct": "10%",
+      "date": "Aug 6 · Thu",
+      "label_zh": "瀑布與大象 · 自然之旅",
+      "day_query": "elephant sanctuary Luang Prabang",
+      "hotel_name": "La Résidence Phou Vao",
+      "hotel_name_zh": "普瓦居所酒店 · 花園套房",
+      "hotel_room": "花園景觀套房",
+      "weather": "☀️ 33°/25°",
+      "rain_pct": "15%",
       "slots": [
         {
           "time": "07:00",
-          "desc": "🥐 酒店早餐"
+          "desc": "🥐 酒店早餐 · 準備出發"
         },
         {
-          "time": "08:30",
-          "desc": "🛕 前往阿瑪拉普拉古城 Amarapura · 參觀紡織村（絲綢與棉布手工編織）· 可購買圍巾"
+          "time": "08:00",
+          "desc": "🐘 大象保護區半日遊（MandaLao 大象保護區 · NT$3,000/人）· 餵食、互動"
         },
         {
-          "time": "10:00",
-          "desc": "🛕 參觀帕托多吉寺 Patodawgyi · 巨大佛像"
+          "time": "12:00",
+          "desc": "🍽️ 保護區內午餐 · 寮式炒飯"
         },
         {
-          "time": "11:30",
-          "desc": "🍜 午餐：當地家庭餐廳（NT$300）"
+          "time": "14:00",
+          "desc": "🏨 返回酒店 · 泳池消暑"
         },
         {
-          "time": "13:00",
-          "desc": "🛕 前往實皆山 Sagaing Hill · 參觀松倫佛塔 Soon U Ponya Shin · 俯瞰伊洛瓦底江"
+          "time": "16:00",
+          "desc": "💆 酒店 SPA 體驗 · 寮式草藥按摩（NT$1,500/人）"
         },
         {
-          "time": "15:00",
-          "desc": "🎨 參觀銀器工坊（Silver Smith Workshop）· 觀看手工銀飾製作"
+          "time": "18:30",
+          "desc": "🍽️ L'Elephant Restaurant 晚餐 · 法寮融合菜"
         },
         {
-          "time": "17:00",
-          "desc": "🛍️ 曼德勒夜市（Mandalay Night Market）· 品嚐街頭小吃如炸春捲、烤肉串"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：Mingalabar 餐廳（NT$800）"
-        },
-        {
-          "time": "20:30",
-          "desc": "🌙 返回酒店 · 收拾行李準備明日前往茵萊湖"
+          "time": "21:00",
+          "desc": "🌙 古城漫步 · 最後一夜在普瓦居所"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 7,
-      "date": "Aug 16 · Sun",
-      "label_zh": "曼德勒 → 茵萊湖",
-      "day_query": "Inle Lake boat",
-      "hotel_name": "Sanctum Inle Resort",
-      "hotel_name_zh": "茵萊聖殿度假村 · 湖景豪華別墅",
-      "hotel_room": "湖景豪華別墅",
-      "weather": "☀️ 30°/22°",
-      "rain_pct": "20%",
+      "date": "Aug 7 · Fri",
+      "label_zh": "轉往安縵 · 極致奢華",
+      "day_query": "Amantaka Luang Prabang",
+      "hotel_name": "Amantaka",
+      "hotel_name_zh": "安縵塔卡 · 泳池套房",
+      "hotel_room": "泳池套房",
+      "weather": "☀️ 32°/24°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 辦理退房"
-        },
-        {
-          "time": "08:30",
-          "desc": "✈️ 曼德勒國內機場（MDL）→ 海霍機場（HEH）· 飛行 1 小時 · NT$4,000/人"
+          "time": "08:00",
+          "desc": "🥐 普瓦居所早餐 · 告別花園"
         },
         {
           "time": "09:30",
-          "desc": "🚗 海霍機場包車前往娘水鎮 Nyaung Shwe（約 1 小時 · NT$1,200）"
+          "desc": "🏨 退房 · 行李寄存"
         },
         {
-          "time": "11:00",
-          "desc": "🏨 入住 Sanctum Inle Resort · 湖景別墅 · 享用迎賓飲料"
+          "time": "10:00",
+          "desc": "🚶 最後探訪香通寺 · 拍照留念"
         },
         {
-          "time": "12:00",
-          "desc": "🍜 午餐：Shan Kitchen · 撣族米線（NT$600）"
+          "time": "11:30",
+          "desc": "☕ Le Banneton Café 早午餐"
         },
         {
-          "time": "14:00",
-          "desc": "🚣 私人長尾船遊湖（約 3 小時 · NT$2,500/船）· 參觀浮動花園、茵達族村落"
+          "time": "13:00",
+          "desc": "🚕 嘟嘟車前往安縵塔卡（約 5 分鐘 · NT$100）"
+        },
+        {
+          "time": "13:30",
+          "desc": "🏨 入住 Amantaka · 迎賓香檳 · 私人管家帶您參觀"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏊 私人泳池暢泳 · 享受殖民風格建築"
         },
         {
           "time": "17:00",
-          "desc": "🌅 在湖上欣賞日落 · 船夫會停在最佳觀賞點"
+          "desc": "🧘 酒店免費瑜珈課程"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 晚餐：酒店湖景餐廳 · 緬式風味套餐（NT$2,000）"
+          "time": "19:00",
+          "desc": "🍽️ Amantaka 餐廳 · 精緻寮國套餐 · 搭配葡萄酒"
         },
         {
-          "time": "20:30",
-          "desc": "🌙 別墅陽台觀星 · 聆聽湖聲"
+          "time": "21:30",
+          "desc": "🌙 泳池邊星空 · 雞尾酒"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 8,
-      "date": "Aug 17 · Mon",
-      "label_zh": "茵萊湖 · 水上風情",
-      "day_query": "Inle Lake floating garden",
-      "hotel_name": "Sanctum Inle Resort",
-      "hotel_name_zh": "茵萊聖殿度假村 · 湖景豪華別墅",
-      "hotel_room": "湖景豪華別墅",
-      "weather": "☀️ 29°/21°",
-      "rain_pct": "30%",
+      "date": "Aug 8 · Sat",
+      "label_zh": "安縵全日 · 身心靈饗宴",
+      "day_query": "Amantaka spa Luang Prabang",
+      "hotel_name": "Amantaka",
+      "hotel_name_zh": "安縵塔卡 · 泳池套房",
+      "hotel_room": "泳池套房",
+      "weather": "☀️ 31°/23°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "06:00",
-          "desc": "🌅 酒店碼頭看日出 · 湖面晨霧"
+          "time": "07:00",
+          "desc": "🥐 酒店早餐 · 現煮寮式河粉"
         },
         {
-          "time": "07:30",
-          "desc": "🥐 酒店早餐"
+          "time": "09:00",
+          "desc": "🚲 酒店單車遊古城 · 探索小巷"
         },
         {
-          "time": "08:30",
-          "desc": "🚣 乘船前往 Indein 村（約 1 小時）· 參觀千佛塔群 · 爬階梯欣賞佛塔遺跡"
-        },
-        {
-          "time": "11:00",
-          "desc": "🛕 參觀跳貓寺 Nga Phe Kyaung · 觀賞水上寺廟"
+          "time": "10:30",
+          "desc": "🏛️ 參觀邁佛寺 · 門票 NT$100/人"
         },
         {
           "time": "12:00",
-          "desc": "🍜 午餐：湖上漂浮餐廳（NT$800）· 品嚐湖魚料理"
+          "desc": "🍽️ 酒店午餐 · 輕食沙拉 + 寮式春捲"
         },
         {
           "time": "14:00",
-          "desc": "🚣 拜訪蓮花絲綢工坊（Lotus Silk Weaving）· 觀看從蓮花莖抽絲的過程"
+          "desc": "💆 安縵 SPA（60 分鐘精油按摩 · NT$3,500/人）"
         },
         {
           "time": "16:00",
-          "desc": "🛍️ 娘水鎮市場 · 購買手工藝品與紀念品"
+          "desc": "🏊 泳池畔閱讀 · 享受午後陽光"
         },
         {
           "time": "18:00",
-          "desc": "🍽️ 晚餐：Shan Kitchen（NT$600）"
+          "desc": "🍸 酒店雞尾酒時光 · 品嚐寮式調酒"
         },
         {
-          "time": "20:00",
-          "desc": "🌙 酒店 SPA · 緬式按摩（NT$1,800/人）"
+          "time": "19:30",
+          "desc": "🍽️ Manda de Laos 晚餐 · 再次感受寮國風味"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 返回安縵 · 泳池夜泳"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 9,
-      "date": "Aug 18 · Tue",
-      "label_zh": "茵萊湖 · 單車漫遊",
-      "day_query": "Inle Lake cycling",
-      "hotel_name": "Sanctum Inle Resort",
-      "hotel_name_zh": "茵萊聖殿度假村 · 湖景豪華別墅",
-      "hotel_room": "湖景豪華別墅",
-      "weather": "☀️ 30°/22°",
-      "rain_pct": "20%",
+      "date": "Aug 9 · Sun",
+      "label_zh": "湄公河日落巡航",
+      "day_query": "Mekong sunset cruise Luang Prabang",
+      "hotel_name": "Amantaka",
+      "hotel_name_zh": "安縵塔卡 · 泳池套房",
+      "hotel_room": "泳池套房",
+      "weather": "☀️ 32°/24°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐"
-        },
-        {
           "time": "08:00",
-          "desc": "🚲 騎自行車探索娘水鎮周邊 · 穿過村莊與稻田"
+          "desc": "🥐 安縵早餐 · 可頌 + 寮式咖啡"
         },
         {
           "time": "09:30",
-          "desc": "🛕 參觀紅山葡萄酒莊 Red Mountain Estate · 品酒（NT$500/人）· 俯瞰湖景"
+          "desc": "🏛️ 參觀 UXO 遊客中心 · 了解寮國未爆彈歷史（免費）"
         },
         {
           "time": "11:30",
-          "desc": "🍜 午餐：酒店內輕食（NT$600）"
+          "desc": "☕ Le Banneton Café 咖啡點心"
         },
         {
           "time": "13:00",
-          "desc": "🚣 划獨木舟（酒店免費提供）· 在酒店前的湖區探索"
+          "desc": "🏨 返回安縵 · 休息"
         },
         {
           "time": "15:00",
-          "desc": "💆 酒店泳池畔放鬆 · 享受下午茶"
+          "desc": "🚶 酒店周邊散步 · 拍照"
         },
         {
-          "time": "17:00",
-          "desc": "🌅 前往 Maing Thauk 村 · 走過木橋 · 欣賞湖上日落"
+          "time": "16:30",
+          "desc": "🛶 安縵安排私人日落遊船（NT$4,000 含香檳）· 湄公河上欣賞夕陽"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：酒店湖景餐廳 · 浪漫燭光晚餐（NT$2,500）"
+          "time": "18:30",
+          "desc": "🍽️ 船上晚餐 · 寮式烤肉 + 糯米飯"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 別墅內休息 · 收拾行李"
+          "time": "20:30",
+          "desc": "🌙 返回安縵 · 泳池邊休息"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 10,
-      "date": "Aug 19 · Wed",
-      "label_zh": "茵萊湖 → 仰光",
-      "day_query": "Shwedagon Pagoda",
-      "hotel_name": "Sule Shangri-La Yangon",
-      "hotel_name_zh": "仰光蘇雷香格里拉 · 豪華城市景觀房",
-      "hotel_room": "豪華城市景觀房",
-      "weather": "☀️ 32°/25°",
-      "rain_pct": "40%",
+      "date": "Aug 10 · Mon",
+      "label_zh": "最後全日 · 悠閒奢華",
+      "day_query": "Amantaka pool Luang Prabang",
+      "hotel_name": "Amantaka",
+      "hotel_name_zh": "安縵塔卡 · 泳池套房",
+      "hotel_room": "泳池套房",
+      "weather": "☀️ 33°/25°",
+      "rain_pct": "10%",
       "slots": [
         {
           "time": "07:00",
-          "desc": "🥐 酒店早餐 · 辦理退房"
+          "desc": "🥐 安縵早餐 · 最後一次寮式河粉"
         },
         {
-          "time": "08:30",
-          "desc": "🚗 包車前往海霍機場（1 小時）"
+          "time": "09:00",
+          "desc": "🏊 泳池時光 · 享受最後的奢華"
         },
         {
-          "time": "10:00",
-          "desc": "✈️ 海霍 → 仰光 · 飛行 1 小時 · NT$3,500/人"
-        },
-        {
-          "time": "11:30",
-          "desc": "🏨 入住 Sule Shangri-La Yangon · 享用酒店設施"
+          "time": "11:00",
+          "desc": "🚶 古城最後巡禮 · 購買伴手禮（寮式咖啡、手工藝品）"
         },
         {
           "time": "12:30",
-          "desc": "🍜 午餐：The Strand Café · 緬式咖啡與輕食（NT$700）"
+          "desc": "🍽️ L'Elephant Restaurant 午餐 · 告別餐"
         },
         {
           "time": "14:00",
-          "desc": "🛕 參觀仰光地標：大金塔 Shwedagon Pagoda（門票 NT$500/人）· 金碧輝煌"
+          "desc": "🏨 返回安縵 · 整理行李"
         },
         {
-          "time": "16:30",
-          "desc": "🛕 參觀蘇雷佛塔 Sule Pagoda · 位於市中心"
+          "time": "16:00",
+          "desc": "💆 最後 SPA（可選 30 分鐘頭部按摩 · NT$1,500）"
+        },
+        {
+          "time": "17:30",
+          "desc": "🏨 退房 · 行李寄存"
         },
         {
           "time": "18:00",
-          "desc": "🛍️ 昂山市場 Bogyoke Aung San Market · 購買玉石、手工藝品"
+          "desc": "🌙 夜市最後漫步 · 品嚐烤香蕉"
         },
         {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：Le Planteur 法式餐廳 · 浪漫晚餐（NT$3,500）"
+          "time": "19:00",
+          "desc": "🚕 嘟嘟車前往機場（NT$200）"
         },
         {
-          "time": "22:00",
-          "desc": "🌙 返回酒店 · 享用酒店泳池"
+          "time": "19:20",
+          "desc": "✈️ 泰航 TG636 返程 · 經曼谷回台灣"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 11,
-      "date": "Aug 20 · Thu",
-      "label_zh": "仰光 · 殖民風情",
-      "day_query": "Yangon colonial architecture",
-      "hotel_name": "Sule Shangri-La Yangon",
-      "hotel_name_zh": "仰光蘇雷香格里拉 · 豪華城市景觀房",
-      "hotel_room": "豪華城市景觀房",
-      "weather": "☀️ 32°/25°",
-      "rain_pct": "30%",
+      "date": "Aug 11 · Tue",
+      "label_zh": "返抵台灣",
+      "day_query": "Taiwan Taoyuan Airport",
+      "hotel_name": "",
+      "hotel_name_zh": "",
+      "hotel_room": "",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "0%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐"
-        },
-        {
-          "time": "08:30",
-          "desc": "🏛️ 殖民建築徒步之旅 · 參觀市政廳、高等法院、聖瑪利亞大教堂"
-        },
-        {
-          "time": "10:30",
-          "desc": "☕ The Strand Café 享受第二個下午茶 · 品嚐英式司康"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍜 午餐：999 Shan Noodle · 撣族米線（NT$300）"
-        },
-        {
-          "time": "14:00",
-          "desc": "🛕 參觀喬達基臥佛寺 Chaukhtatgyi Buddha · 巨大臥佛"
-        },
-        {
-          "time": "16:00",
-          "desc": "🛍️ 最後購物 · 在 Junction City 商場購買紀念品"
-        },
-        {
-          "time": "18:00",
-          "desc": "🌅 仰光河夕陽遊船（預訂 1.5 小時 · NT$1,500/人）"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：酒店中餐廳 Shang Palace · 緬式中式料理（NT$2,000）"
-        },
-        {
-          "time": "21:30",
-          "desc": "🌙 收拾行李 · 準備明日返程"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 12,
-      "date": "Aug 21 · Fri",
-      "label_zh": "返程 · 返回台灣",
-      "day_query": "Yangon airport departure",
-      "hotel_name": "Sule Shangri-La Yangon",
-      "hotel_name_zh": "仰光蘇雷香格里拉 · 豪華城市景觀房",
-      "hotel_room": "豪華城市景觀房",
-      "weather": "☀️ 32°/25°",
-      "rain_pct": "20%",
-      "slots": [
-        {
-          "time": "06:00",
-          "desc": "🥐 酒店早餐盒（提前準備）· 辦理退房"
-        },
-        {
-          "time": "07:00",
-          "desc": "🚕 搭計程車前往仰光機場（約 30 分鐘 · NT$500）"
-        },
-        {
-          "time": "08:00",
-          "desc": "✈️ 辦理登機 · 搭乘 MA 2 前往曼谷"
-        },
-        {
-          "time": "10:00",
-          "desc": "✈️ 起飛前往曼谷"
-        },
-        {
-          "time": "12:00",
-          "desc": "✈️ 抵達曼谷 · 轉機 2 小時 · 可在免稅店購物"
-        },
-        {
-          "time": "14:00",
-          "desc": "✈️ 搭乘 CI 7916 返回台灣"
-        },
-        {
-          "time": "21:30",
-          "desc": "🛬 抵達桃園機場 · 結束浪漫緬甸之旅"
+          "time": "07:10",
+          "desc": "🛬 抵達桃園機場 TPE · 結束浪漫寮國之旅"
         }
       ],
       "day_photo": ""
@@ -935,75 +752,71 @@
   ],
   "costs": [
     {
-      "label": "✈️ 國際來回機票",
-      "amount_ntd": 52000
-    },
-    {
-      "label": "✈️ 國內航班（蒲甘、曼德勒、海霍、仰光）",
-      "amount_ntd": 28000
+      "label": "✈️ 來回機票",
+      "amount_ntd": 46000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 164000
+      "amount_ntd": 262500
     },
     {
       "label": "🍽️ 餐飲",
       "amount_ntd": 45000
     },
     {
-      "label": "🎫 景點門票與活動",
-      "amount_ntd": 35000
+      "label": "🎫 景點門票",
+      "amount_ntd": 12000
     },
     {
-      "label": "🚇 交通（包車、計程車、船）",
-      "amount_ntd": 18000
+      "label": "🚇 交通",
+      "amount_ntd": 8000
     },
     {
       "label": "🛍️ 購物伴手禮",
       "amount_ntd": 15000
     }
   ],
-  "cost_total_ntd": 357000,
-  "budget_remaining_ntd": 143000,
+  "cost_total_ntd": 388500,
+  "budget_remaining_ntd": 111500,
   "photos": {
     "hero": [
       {
         "url": "",
-        "label": "Bagan skyline landmark"
+        "label": "Luang Prabang skyline landmark"
       },
       {
         "url": "",
-        "label": "Bagan skyline landmark"
+        "label": "Luang Prabang skyline landmark"
       }
     ],
     "destination": [
       {
         "url": "",
-        "label": "Bagan travel scenery"
+        "label": "Luang Prabang travel scenery"
       },
       {
         "url": "",
-        "label": "Bagan travel scenery"
+        "label": "Luang Prabang travel scenery"
       },
       {
         "url": "",
-        "label": "Bagan travel scenery"
+        "label": "Luang Prabang travel scenery"
       },
       {
         "url": "",
-        "label": "Bagan travel scenery"
+        "label": "Luang Prabang travel scenery"
       },
       {
         "url": "",
-        "label": "Bagan travel scenery"
+        "label": "Luang Prabang travel scenery"
       },
       {
         "url": "",
-        "label": "Bagan travel scenery"
+        "label": "Luang Prabang travel scenery"
       }
     ]
   },
-  "chat_hash": "7b1d253d470e510b218652b75ac117f15afbd5ed43dfe37dabadd94b98b71841",
+  "chat_hash": "2decd2bb380ee59cbd7926fc200e7c556b50eb5de01ef51760687a540ce1f90a",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-01T16:10:59.601085"
+  "generated_at": "2026-06-01T16:12:33.222230"
 }
