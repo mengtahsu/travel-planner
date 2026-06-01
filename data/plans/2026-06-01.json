@@ -1,113 +1,191 @@
 {
-  "destination_en": "Palau",
-  "title_zh": "帛琉 · 夢幻藍色珊瑚礁之旅",
-  "date_range": "2026/08/10–08/17",
+  "destination_en": "Bagan, Mandalay, Inle Lake, Yangon, Myanmar",
+  "title_zh": "緬甸 · 佛塔與湖光 · 十二天浪漫之旅",
+  "date_range": "2026/08/10–08/21",
   "start_date": "2026-08-10",
-  "end_date": "2026-08-17",
+  "end_date": "2026-08-21",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "ROR",
+  "destination_code": "RGN",
   "travelers": 2,
-  "days": 8,
+  "days": 12,
   "budget_ntd": 500000,
   "flight": {
-    "airline": "中華航空 China Airlines",
+    "airline": "中華航空 China Airlines / 緬甸國際航空 Myanmar Airways International",
     "departure_date": "8月10日",
-    "return_date": "8月17日",
+    "return_date": "8月21日",
     "total_price_ntd": 52000,
     "outbound": {
-      "flight_no": "CI 028",
-      "route": "TPE → ROR 直飛",
-      "depart_time": "13:00",
-      "arrive_time": "18:00",
-      "duration": "4h 00m",
+      "flight_no": "CI 7915 / MA 1",
+      "route": "TPE → 仰光 (RGN) 經曼谷轉機",
+      "depart_time": "08:10",
+      "arrive_time": "15:30",
+      "duration": "7h 20m (含轉機)",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 027",
-      "route": "ROR → TPE 直飛",
-      "depart_time": "19:00",
-      "arrive_time": "22:10",
-      "duration": "4h 10m",
+      "flight_no": "MA 2 / CI 7916",
+      "route": "仰光 (RGN) → TPE 經曼谷轉機",
+      "depart_time": "10:00",
+      "arrive_time": "21:30",
+      "duration": "7h 30m (含轉機)",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Palau Pacific Resort",
-      "name_zh": "帛琉太平洋度假酒店",
-      "district": "科羅爾 · 馬拉卡爾島",
+      "name": "Bagan Lodge",
+      "name_zh": "蒲甘小屋酒店",
+      "district": "蒲甘 老蒲甘區",
       "day_range": "1–4",
       "nights": 4,
-      "price_ntd": 96000,
-      "stars": "★★★★★",
-      "room_type": "海景豪華雙人房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 無邊際泳池 · 🛶 獨木舟 · 🌴 私人沙灘 · 💆 SPA · 🎣 碼頭",
-      "search_query": "Palau Pacific Resort Koror",
+      "price_ntd": 56000,
+      "stars": "★★★★☆",
+      "room_type": "豪華套房（含陽台）",
+      "breakfast": "含每日自助早餐",
+      "amenities": "🏊 戶外泳池 · 🌴 熱帶花園 · 🍽️ 緬式餐廳 · 🚲 免費自行車",
+      "search_query": "Bagan Lodge hotel Bagan Myanmar",
       "photos": [
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
         },
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
         },
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
         },
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
         },
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
         },
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
         }
       ]
     },
     {
-      "name": "Cove Resort Palau",
-      "name_zh": "帛琉海灣度假村",
-      "district": "科羅爾 · 阿拉卡貝山",
+      "name": "Hotel by the Red Canal",
+      "name_zh": "紅運河酒店",
+      "district": "曼德勒 市中心",
       "day_range": "5–7",
       "nights": 3,
-      "price_ntd": 54000,
+      "price_ntd": 36000,
       "stars": "★★★★☆",
-      "room_type": "山景豪華雙人房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 泳池 · 🍽️ 海景餐廳 · 🌺 熱帶花園 · 🚴 自行車租借",
-      "search_query": "Cove Resort Palau",
+      "room_type": "豪華雙人房",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 泳池 · 🧖 SPA · 🍽️ 屋頂餐廳 · 🚗 免費接駁",
+      "search_query": "Hotel by the Red Canal Mandalay",
       "photos": [
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
         },
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
         },
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
         },
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
         },
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
         },
         {
           "url": "",
-          "label": "luxury hotel Palau"
+          "label": "luxury hotel Bagan"
+        }
+      ]
+    },
+    {
+      "name": "Sanctum Inle Resort",
+      "name_zh": "茵萊聖殿度假村",
+      "district": "茵萊湖 娘水鎮",
+      "day_range": "8–10",
+      "nights": 3,
+      "price_ntd": 48000,
+      "stars": "★★★★★",
+      "room_type": "湖景豪華別墅",
+      "breakfast": "含每日早餐",
+      "amenities": "🏊 無邊際泳池 · 🚣 獨木舟 · 🍽️ 湖景餐廳 · 🌅 日落碼頭",
+      "search_query": "Sanctum Inle Resort Inle Lake",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
+        }
+      ]
+    },
+    {
+      "name": "Sule Shangri-La Yangon",
+      "name_zh": "仰光蘇雷香格里拉",
+      "district": "仰光 市中心",
+      "day_range": "11–12",
+      "nights": 2,
+      "price_ntd": 24000,
+      "stars": "★★★★★",
+      "room_type": "豪華城市景觀房",
+      "breakfast": "含每日自助早餐",
+      "amenities": "🏊 泳池 · 🧖 SPA · 🍽️ 多間餐廳 · 🏬 購物中心",
+      "search_query": "Sule Shangri-La Yangon",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Bagan"
         }
       ]
     }
@@ -115,81 +193,131 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "The Penthouse Restaurant",
-        "name_zh": "頂樓餐廳 · 帛琉最高級景觀餐廳",
-        "stars": "",
-        "dish": "🦞 招牌：龍蝦牛排套餐 · 帛琉鮮魚料理",
-        "address": "Palau Pacific Resort 內",
+        "name": "Le Planteur",
+        "name_zh": "種植者法式餐廳",
+        "stars": "⭐⭐",
+        "dish": "🦐 招牌：緬式香料烤蝦 · 法式焦糖布蕾",
+        "address": "22 Kaba Aye Pagoda Rd, 仰光",
         "price_ntd": 3500,
-        "price_label": "雙人套餐 NT$3,500",
-        "hours": "18:00–21:30 · 需預約",
-        "search_query": "Penthouse restaurant Palau Pacific Resort",
+        "price_label": "晚餐套餐 €100/人 · NT$3,500",
+        "hours": "18:00–22:00 · 需預約",
+        "search_query": "Le Planteur Yangon French restaurant",
         "photos": [
           {
             "url": "",
-            "label": "fine dining food Palau"
+            "label": "fine dining food Bagan"
           },
           {
             "url": "",
-            "label": "fine dining food Palau"
+            "label": "fine dining food Bagan"
           },
           {
             "url": "",
-            "label": "fine dining food Palau"
+            "label": "fine dining food Bagan"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Elilai Restaurant & Bar",
-        "name_zh": "艾萊餐廳酒吧 · 懸崖海景",
+        "name": "Shan Kitchen",
+        "name_zh": "撣族廚房",
         "stars": "",
-        "dish": "🐟 招牌：椰汁咖哩魚 · 烤龍蝦",
-        "address": "Cove Resort Palau 內",
-        "price_ntd": 2800,
-        "price_label": "雙人晚餐 NT$2,800",
-        "hours": "17:00–22:00 · 建議預約",
-        "search_query": "Elilai restaurant Palau",
+        "dish": "🍜 招牌：撣族米線 · 茶葉沙拉 · 咖哩雞",
+        "address": "Nyaung Shwe, 茵萊湖",
+        "price_ntd": 600,
+        "price_label": "兩人套餐 NT$600",
+        "hours": "11:00–21:00",
+        "search_query": "Shan Kitchen Inle Lake",
         "photos": [
           {
             "url": "",
-            "label": "bistros food Palau"
+            "label": "bistros food Bagan"
           },
           {
             "url": "",
-            "label": "bistros food Palau"
+            "label": "bistros food Bagan"
           },
           {
             "url": "",
-            "label": "bistros food Palau"
+            "label": "bistros food Bagan"
+          }
+        ]
+      },
+      {
+        "name": "Mingalabar Myanmar Restaurant",
+        "name_zh": "明格拉巴緬甸餐廳",
+        "stars": "",
+        "dish": "🍛 招牌：緬式咖哩拼盤 · 魚湯麵 · 椰子飯",
+        "address": "27th St, 曼德勒",
+        "price_ntd": 800,
+        "price_label": "兩人晚餐 NT$800",
+        "hours": "11:00–22:00",
+        "search_query": "Mingalabar Myanmar restaurant Mandalay",
+        "photos": [
+          {
+            "url": "",
+            "label": "bistros food Bagan"
+          },
+          {
+            "url": "",
+            "label": "bistros food Bagan"
+          },
+          {
+            "url": "",
+            "label": "bistros food Bagan"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "The Rock Island Café",
-        "name_zh": "洛克群島咖啡館",
+        "name": "The Strand Café",
+        "name_zh": "斯特蘭德咖啡館",
         "stars": "",
-        "dish": "☕ 招牌：冰拿鐵 · 椰子蛋糕 · 三明治",
-        "address": "科羅爾市中心",
-        "price_ntd": 800,
-        "price_label": "雙人輕食飲品 NT$800",
-        "hours": "07:00–18:00",
-        "search_query": "Rock Island Cafe Palau",
+        "dish": "☕ 招牌：緬式咖啡 · 英式司康 · 芒果糯米飯",
+        "address": "92 Strand Rd, 仰光",
+        "price_ntd": 700,
+        "price_label": "兩人下午茶 NT$700",
+        "hours": "07:00–22:00 · 殖民風格",
+        "search_query": "Strand Cafe Yangon",
         "photos": [
           {
             "url": "",
-            "label": "cafe coffee Palau"
+            "label": "cafe coffee Bagan"
           },
           {
             "url": "",
-            "label": "cafe coffee Palau"
+            "label": "cafe coffee Bagan"
           },
           {
             "url": "",
-            "label": "cafe coffee Palau"
+            "label": "cafe coffee Bagan"
+          }
+        ]
+      },
+      {
+        "name": "Weathercock's Café",
+        "name_zh": "風向標咖啡館",
+        "stars": "",
+        "dish": "🥤 招牌：牛油果奶昔 · 緬式春捲 · 香蕉煎餅",
+        "address": "Bagan, 老蒲甘",
+        "price_ntd": 500,
+        "price_label": "兩人輕食 NT$500",
+        "hours": "08:00–20:00 · 花園座位",
+        "search_query": "Weathercock's Cafe Bagan",
+        "photos": [
+          {
+            "url": "",
+            "label": "cafe coffee Bagan"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Bagan"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Bagan"
           }
         ]
       }
@@ -199,45 +327,53 @@
     {
       "day": 1,
       "date": "Aug 10 · Mon",
-      "label_zh": "抵達 · 帛琉歡迎",
-      "day_query": "Palau arrival airport",
-      "hotel_name": "Palau Pacific Resort",
-      "hotel_name_zh": "帛琉太平洋度假酒店 · 海景豪華房",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "20%",
+      "label_zh": "啟程 · 抵達蒲甘",
+      "day_query": "Bagan pagoda sunset",
+      "hotel_name": "Bagan Lodge",
+      "hotel_name_zh": "蒲甘小屋酒店 · 豪華套房",
+      "hotel_room": "豪華套房（含陽台）",
+      "weather": "☀️ 35°/26°",
+      "rain_pct": "5%",
       "slots": [
         {
-          "time": "10:00",
-          "desc": "🏠 從台灣家中出發 · 前往桃園機場第二航廈"
+          "time": "06:00",
+          "desc": "🏠 桃園機場第一航廈報到 · 搭乘 CI7915 08:10 出發"
         },
         {
-          "time": "11:00",
-          "desc": "✈️ 抵達桃園機場 · 辦理登機手續 · 出境"
+          "time": "10:30",
+          "desc": "✈️ 抵達曼谷蘇凡納布機場 · 轉機時間 1.5 小時 · 可在機場商店逛逛"
         },
         {
-          "time": "13:00",
-          "desc": "✈️ CI 028 準時起飛 · 飛行時間約4小時 · 機上享用午餐"
+          "time": "12:00",
+          "desc": "✈️ 搭乘 MA 1 前往仰光 · 飛行約 1.5 小時"
+        },
+        {
+          "time": "15:30",
+          "desc": "🛬 抵達仰光國際機場 · 辦理入境（落地簽證 USD 50/人 · 現場辦理）"
+        },
+        {
+          "time": "16:30",
+          "desc": "🚕 搭乘計程車前往仰光國內線航廈（步行 10 分鐘）"
         },
         {
           "time": "18:00",
-          "desc": "✈️ 抵達帛琉國際機場 (ROR) · 入境通關 · 取行李"
-        },
-        {
-          "time": "19:00",
-          "desc": "🚐 飯店接駁車前往 Palau Pacific Resort（約20分鐘）"
+          "desc": "✈️ 搭乘仰光→蒲甘國內航班（預訂 MM Air 或 Golden Myanmar · 約 1.5 小時 · NT$3,000/人）"
         },
         {
           "time": "19:30",
-          "desc": "🏨 抵達飯店 · 辦理入住 · 歡迎飲料 · 欣賞海景"
+          "desc": "🚕 抵達蒲甘機場 · 酒店接駁車接至 Bagan Lodge（約 20 分鐘）"
         },
         {
-          "time": "20:00",
-          "desc": "🍽️ 飯店內晚餐 · 享用帛琉特色料理（自費）"
+          "time": "20:30",
+          "desc": "🏨 入住 Bagan Lodge · 享用酒店迎賓飲料 · 稍作休息"
         },
         {
-          "time": "21:30",
-          "desc": "🌙 海灘散步 · 星空下放鬆 · 早點休息迎接明日浮潛"
+          "time": "21:00",
+          "desc": "🍽️ 酒店內晚餐 · 品嚐緬式咖哩套餐（約 NT$1,200）"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 在陽台欣賞星空 · 準備明日佛塔之旅"
         }
       ],
       "day_photo": ""
@@ -245,53 +381,53 @@
     {
       "day": 2,
       "date": "Aug 11 · Tue",
-      "label_zh": "洛克群島 · 水母湖 & 牛奶湖",
-      "day_query": "Jellyfish Lake Palau",
-      "hotel_name": "Palau Pacific Resort",
-      "hotel_name_zh": "帛琉太平洋度假酒店 · 海景豪華房",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "☀️ 33°/27°",
+      "label_zh": "蒲甘 · 萬塔之城",
+      "day_query": "Bagan hot air balloon",
+      "hotel_name": "Bagan Lodge",
+      "hotel_name_zh": "蒲甘小屋酒店 · 豪華套房",
+      "hotel_room": "豪華套房（含陽台）",
+      "weather": "☀️ 34°/25°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "06:30",
-          "desc": "🌅 晨間沙灘散步 · 欣賞日出"
+          "time": "05:00",
+          "desc": "🎈 熱氣球日出之旅（預訂 Balloons over Bagan · NT$8,000/人 · 含香檳早餐）· 從高空俯瞰兩千座佛塔"
         },
         {
-          "time": "07:00",
-          "desc": "🍽️ 飯店自助早餐 · 補充體力"
-        },
-        {
-          "time": "08:00",
-          "desc": "🚤 集合 · 參加洛克群島一日浮潛行程（飯店碼頭出發）"
+          "time": "07:30",
+          "desc": "🥐 熱氣球降落後享用香檳早餐 · 拍照留念"
         },
         {
           "time": "09:00",
-          "desc": "🪼 抵達水母湖 Jellyfish Lake · 與數百萬無毒黃金水母共游（門票US$50/人 + 許可證US$100）"
+          "desc": "🚲 騎酒店免費自行車前往阿南達寺 Ananda Temple（10 分鐘）· 門票 NT$500/人"
         },
         {
-          "time": "11:00",
-          "desc": "🛶 牛奶湖 Milky Way · 敷天然火山泥SPA · 拍照"
+          "time": "10:30",
+          "desc": "🛕 參觀達賓紐寺 Thatbyinnyu Temple · 蒲甘最高佛塔 · 內部壁畫精緻"
         },
         {
-          "time": "12:30",
-          "desc": "🍱 無人島午餐 · 燒烤BBQ · 沙灘休息"
+          "time": "12:00",
+          "desc": "🍜 午餐：Weathercock's Café · 牛油果奶昔與緬式春捲（NT$500）"
         },
         {
           "time": "14:00",
-          "desc": "🐠 藍色珊瑚礁 Blue Corner · 浮潛觀賞豐富魚群與珊瑚"
+          "desc": "🛕 探索蘇拉瑪尼寺 Sulamani Temple · 較少遊客 · 寧靜莊嚴"
         },
         {
           "time": "16:00",
-          "desc": "🚤 返回飯店 · 梳洗休息"
+          "desc": "🌅 前往瑞山陀塔 Shwesandaw Pagoda 欣賞日落 · 爬上五層平台 · 金色佛塔群"
         },
         {
           "time": "18:30",
-          "desc": "🍽️ The Penthouse Restaurant 頂樓餐廳 · 龍蝦牛排雙人套餐（NT$3,500）"
+          "desc": "🚲 騎車返回酒店 · 途中經過當地小村莊"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 飯店泳池畔小酌 · 星空電影院"
+          "time": "20:00",
+          "desc": "🍽️ 酒店內晚餐 · 緬式烤肉拼盤（NT$1,500）"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 泳池畔夜泳 · 放鬆身心"
         }
       ],
       "day_photo": ""
@@ -299,49 +435,53 @@
     {
       "day": 3,
       "date": "Aug 12 · Wed",
-      "label_zh": "大斷層 · 鯊魚城 & 干貝城",
-      "day_query": "Big Drop Off Palau diving",
-      "hotel_name": "Palau Pacific Resort",
-      "hotel_name_zh": "帛琉太平洋度假酒店 · 海景豪華房",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "☀️ 33°/27°",
+      "label_zh": "蒲甘 · 深度探索",
+      "day_query": "Bagan temple sunrise",
+      "hotel_name": "Bagan Lodge",
+      "hotel_name_zh": "蒲甘小屋酒店 · 豪華套房",
+      "hotel_room": "豪華套房（含陽台）",
+      "weather": "☀️ 35°/26°",
       "rain_pct": "5%",
       "slots": [
         {
-          "time": "06:30",
-          "desc": "🍽️ 飯店自助早餐"
+          "time": "05:30",
+          "desc": "🌅 前往瑞西光塔 Shwezigon Pagoda 看日出 · 金色佛塔在晨光中閃耀"
         },
         {
-          "time": "07:30",
-          "desc": "🚤 出海 · 今日行程：大斷層 + 鯊魚城 + 干貝城"
+          "time": "07:00",
+          "desc": "🥐 返回酒店享用早餐"
         },
         {
-          "time": "09:00",
-          "desc": "🐠 大斷層 Big Drop Off · 世界級浮潛點 · 垂直懸崖珊瑚牆 · 色彩繽紛"
+          "time": "08:30",
+          "desc": "🛕 參觀蒲甘考古博物館（門票 NT$300/人）· 了解蒲甘王朝歷史"
         },
         {
-          "time": "11:00",
-          "desc": "🦈 鯊魚城 Shark City · 近距離觀賞黑鰭礁鯊（安全浮潛）"
+          "time": "10:00",
+          "desc": "🎨 漆器工坊參觀（Bagan House Lacquerware）· 觀看手工製作過程 · 可購買紀念品（NT$500起）"
         },
         {
-          "time": "12:30",
-          "desc": "🍱 無人島午餐 · 現烤海鮮"
+          "time": "12:00",
+          "desc": "🍜 午餐：The Moon Be Kind to Vegetarians · 素食緬式套餐（NT$600）"
         },
         {
           "time": "14:00",
-          "desc": "🐚 干貝城 Clam City · 巨型硨磲貝 · 觸摸體驗"
+          "desc": "🛕 騎馬車遊覽（約 2 小時 · NT$1,500）· 探訪偏遠佛塔如 Dhammayangyi Temple"
         },
         {
           "time": "16:00",
-          "desc": "🚤 返回飯店 · 自由時間 · 可使用泳池或沙灘"
+          "desc": "🛕 參觀布勒迪塔 Bu Phaya · 位於伊洛瓦底江畔 · 欣賞江景"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 飯店內晚餐 · 帛琉風味自助餐（約NT$1,800/人）"
+          "time": "17:30",
+          "desc": "🚢 伊洛瓦底江夕陽遊船（預訂 1.5 小時 · NT$2,000/人）· 船上提供飲料"
         },
         {
-          "time": "20:00",
-          "desc": "🌙 沙灘漫步 · 觀星 · 聆聽海浪聲"
+          "time": "19:30",
+          "desc": "🍽️ 晚餐：酒店內的 Bagan Kitchen · 緬式傳統套餐（NT$1,800）"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 自由活動 · 可到酒店酒吧小酌一杯"
         }
       ],
       "day_photo": ""
@@ -349,49 +489,45 @@
     {
       "day": 4,
       "date": "Aug 13 · Thu",
-      "label_zh": "安德茂瀑布 · 叢林探險",
-      "day_query": "Ngardmau Waterfall Palau",
-      "hotel_name": "Palau Pacific Resort",
-      "hotel_name_zh": "帛琉太平洋度假酒店 · 海景豪華房",
-      "hotel_room": "海景豪華雙人房",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "30%",
+      "label_zh": "蒲甘 → 曼德勒",
+      "day_query": "U Bein Bridge sunset",
+      "hotel_name": "Hotel by the Red Canal",
+      "hotel_name_zh": "紅運河酒店 · 豪華雙人房",
+      "hotel_room": "豪華雙人房",
+      "weather": "☀️ 35°/27°",
+      "rain_pct": "15%",
       "slots": [
         {
           "time": "07:00",
-          "desc": "🍽️ 飯店自助早餐"
+          "desc": "🥐 酒店早餐 · 收拾行李 · 辦理退房"
         },
         {
-          "time": "08:00",
-          "desc": "🚐 接駁車前往北島 · 安德茂瀑布 Ngardmau Waterfall"
+          "time": "08:30",
+          "desc": "🚗 包車前往曼德勒（約 4 小時 · NT$3,500）· 沿途欣賞鄉村風光"
         },
         {
-          "time": "09:30",
-          "desc": "🌿 叢林健行 · 約30分鐘 · 穿越熱帶雨林"
-        },
-        {
-          "time": "10:00",
-          "desc": "💧 安德茂瀑布 · 帛琉最大瀑布 · 游泳消暑 · 拍照"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍱 瀑布旁野餐（自備輕食）"
+          "time": "12:30",
+          "desc": "🏨 抵達曼德勒 · 入住 Hotel by the Red Canal · 稍作休息"
         },
         {
           "time": "13:30",
-          "desc": "🚐 返回飯店 · 途中參觀帛琉國家博物館（門票US$10/人）"
+          "desc": "🍜 午餐：Mingalabar Myanmar Restaurant · 緬式咖哩拼盤（NT$800）"
         },
         {
           "time": "15:00",
-          "desc": "🏨 回飯店休息 · 享受飯店設施（泳池、獨木舟）"
+          "desc": "🏛️ 參觀曼德勒皇宮 Mandalay Palace（門票 NT$500/人）· 漫步於柚木宮殿"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 科羅爾市區晚餐 · 推薦：The Rock Island Café（輕食）或 Elilai Restaurant（懸崖海景）"
+          "time": "17:00",
+          "desc": "🌉 前往烏本橋 U Bein Bridge · 世界最長的柚木橋 · 欣賞日落 · 可包船（NT$500）"
         },
         {
-          "time": "20:00",
-          "desc": "🌙 市區散步 · 購買紀念品 · 返回飯店"
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：Mingalabar 或酒店屋頂餐廳 · 眺望曼德勒山（NT$1,200）"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌙 返回酒店 · 享受 SPA 療程（NT$1,500/人）"
         }
       ],
       "day_photo": ""
@@ -399,49 +535,53 @@
     {
       "day": 5,
       "date": "Aug 14 · Fri",
-      "label_zh": "飯店換宿 · 海豚灣 & 長沙灘",
-      "day_query": "Dolphin Pacific Palau",
-      "hotel_name": "Cove Resort Palau",
-      "hotel_name_zh": "帛琉海灣度假村 · 山景豪華房",
-      "hotel_room": "山景豪華雙人房",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "15%",
+      "label_zh": "曼德勒 · 文化與信仰",
+      "day_query": "Mandalay Hill",
+      "hotel_name": "Hotel by the Red Canal",
+      "hotel_name_zh": "紅運河酒店 · 豪華雙人房",
+      "hotel_room": "豪華雙人房",
+      "weather": "☀️ 34°/26°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🍽️ 最後一次在 Palau Pacific Resort 享用早餐"
+          "time": "06:00",
+          "desc": "🌅 前往曼德勒山 Mandalay Hill 看日出（免費）· 爬 700 階梯或搭電梯"
         },
         {
           "time": "08:00",
-          "desc": "🐬 參加海豚灣 Dolphin Pacific 互動體驗 · 與海豚共游（NT$3,000/人）"
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:00",
+          "desc": "🛕 參觀馬哈木尼佛寺 Mahamuni Buddha Temple · 貼金佛像 · 門票 NT$200/人"
         },
         {
           "time": "10:30",
-          "desc": "🏖️ 長沙灘 Long Beach · 退潮時出現的夢幻沙洲 · 拍照"
+          "desc": "🛕 參觀庫特多佛塔 Kuthodaw Pagoda · 世界最大書本（石刻三藏）"
         },
         {
           "time": "12:00",
-          "desc": "🍱 返回飯店 · 收拾行李 · 辦理退房"
-        },
-        {
-          "time": "13:00",
-          "desc": "🚐 前往 Cove Resort Palau（約15分鐘車程）· 辦理入住"
+          "desc": "🍜 午餐：Too Too Myanmar Restaurant · 魚湯麵（NT$400）"
         },
         {
           "time": "14:00",
-          "desc": "🏨 入住 Cove Resort · 山景房 · 欣賞阿拉卡貝山景"
+          "desc": "🎨 參觀金箔工坊（Golden Leaf Workshop）· 觀看手工敲打金箔"
         },
         {
-          "time": "15:00",
-          "desc": "🚴 飯店免費自行車 · 騎乘探索周邊"
+          "time": "16:00",
+          "desc": "🛕 前往因瓦古城 Inwa（搭船來回 NT$300/人）· 騎馬車遊覽（NT$600）· 參觀寶迦雅寺"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ Elilai Restaurant & Bar · 懸崖海景晚餐 · 烤龍蝦與椰汁咖哩魚（NT$2,800）"
+          "time": "18:30",
+          "desc": "🚤 返回曼德勒"
         },
         {
-          "time": "20:30",
-          "desc": "🌙 飯店泳池夜泳 · 星空下放鬆"
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：酒店屋頂餐廳 · 緬式燒烤（NT$1,500）"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 泳池畔放鬆"
         }
       ],
       "day_photo": ""
@@ -449,49 +589,49 @@
     {
       "day": 6,
       "date": "Aug 15 · Sat",
-      "label_zh": "潛水者天堂 · 藍洞 & 德國水道",
-      "day_query": "German Channel Palau manta rays",
-      "hotel_name": "Cove Resort Palau",
-      "hotel_name_zh": "帛琉海灣度假村 · 山景豪華房",
-      "hotel_room": "山景豪華雙人房",
-      "weather": "☀️ 33°/27°",
+      "label_zh": "曼德勒 · 古城與工藝",
+      "day_query": "Amarapura silk weaving",
+      "hotel_name": "Hotel by the Red Canal",
+      "hotel_name_zh": "紅運河酒店 · 豪華雙人房",
+      "hotel_room": "豪華雙人房",
+      "weather": "☀️ 34°/26°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "06:30",
-          "desc": "🍽️ 飯店自助早餐"
+          "time": "07:00",
+          "desc": "🥐 酒店早餐"
         },
         {
-          "time": "07:30",
-          "desc": "🚤 出海 · 今日潛水/浮潛行程：藍洞 + 德國水道"
+          "time": "08:30",
+          "desc": "🛕 前往阿瑪拉普拉古城 Amarapura · 參觀紡織村（絲綢與棉布手工編織）· 可購買圍巾"
         },
         {
-          "time": "09:00",
-          "desc": "🕳️ 藍洞 Blue Hole · 獨特水下洞穴 · 光線夢幻（需有潛水證或教練陪同）"
+          "time": "10:00",
+          "desc": "🛕 參觀帕托多吉寺 Patodawgyi · 巨大佛像"
         },
         {
-          "time": "11:00",
-          "desc": "🌊 德國水道 German Channel · 觀賞蝠魟 Manta Ray · 魚群風暴"
+          "time": "11:30",
+          "desc": "🍜 午餐：當地家庭餐廳（NT$300）"
         },
         {
-          "time": "12:30",
-          "desc": "🍱 無人島午餐 · 現烤魚"
+          "time": "13:00",
+          "desc": "🛕 前往實皆山 Sagaing Hill · 參觀松倫佛塔 Soon U Ponya Shin · 俯瞰伊洛瓦底江"
         },
         {
-          "time": "14:00",
-          "desc": "🐢 海龜灣 Turtle Cove · 與海龜共游"
+          "time": "15:00",
+          "desc": "🎨 參觀銀器工坊（Silver Smith Workshop）· 觀看手工銀飾製作"
         },
         {
-          "time": "16:00",
-          "desc": "🚤 返回飯店 · 休息"
+          "time": "17:00",
+          "desc": "🛍️ 曼德勒夜市（Mandalay Night Market）· 品嚐街頭小吃如炸春捲、烤肉串"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 飯店內晚餐 · 海鮮拼盤（NT$2,200/人）"
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：Mingalabar 餐廳（NT$800）"
         },
         {
           "time": "20:30",
-          "desc": "🌙 飯店酒吧 · 調酒時光 · 欣賞夜景"
+          "desc": "🌙 返回酒店 · 收拾行李準備明日前往茵萊湖"
         }
       ],
       "day_photo": ""
@@ -499,41 +639,49 @@
     {
       "day": 7,
       "date": "Aug 16 · Sun",
-      "label_zh": "自由日 · 沙灘放空 & SPA",
-      "day_query": "Palau beach relaxation",
-      "hotel_name": "Cove Resort Palau",
-      "hotel_name_zh": "帛琉海灣度假村 · 山景豪華房",
-      "hotel_room": "山景豪華雙人房",
-      "weather": "☀️ 32°/26°",
+      "label_zh": "曼德勒 → 茵萊湖",
+      "day_query": "Inle Lake boat",
+      "hotel_name": "Sanctum Inle Resort",
+      "hotel_name_zh": "茵萊聖殿度假村 · 湖景豪華別墅",
+      "hotel_room": "湖景豪華別墅",
+      "weather": "☀️ 30°/22°",
       "rain_pct": "20%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🍽️ 飯店自助早餐 · 悠閒享用"
+          "time": "07:00",
+          "desc": "🥐 酒店早餐 · 辦理退房"
+        },
+        {
+          "time": "08:30",
+          "desc": "✈️ 曼德勒國內機場（MDL）→ 海霍機場（HEH）· 飛行 1 小時 · NT$4,000/人"
         },
         {
           "time": "09:30",
-          "desc": "🏖️ 飯店私人沙灘 · 躺椅 · 閱讀 · 浮潛"
+          "desc": "🚗 海霍機場包車前往娘水鎮 Nyaung Shwe（約 1 小時 · NT$1,200）"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏨 入住 Sanctum Inle Resort · 湖景別墅 · 享用迎賓飲料"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 飯店午餐 · 簡餐沙拉"
+          "desc": "🍜 午餐：Shan Kitchen · 撣族米線（NT$600）"
         },
         {
           "time": "14:00",
-          "desc": "💆 飯店SPA · 情侶按摩療程（NT$4,000/人 · 60分鐘）"
+          "desc": "🚣 私人長尾船遊湖（約 3 小時 · NT$2,500/船）· 參觀浮動花園、茵達族村落"
         },
         {
-          "time": "16:00",
-          "desc": "🏊 泳池時光 · 無邊際泳池欣賞海景"
+          "time": "17:00",
+          "desc": "🌅 在湖上欣賞日落 · 船夫會停在最佳觀賞點"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 科羅爾市區最後晚餐 · 推薦：Elilai Restaurant 或 The Rock Island Café"
+          "time": "18:30",
+          "desc": "🍽️ 晚餐：酒店湖景餐廳 · 緬式風味套餐（NT$2,000）"
         },
         {
-          "time": "20:00",
-          "desc": "🌙 市區最後採購 · 購買紀念品 · 返回飯店整理行李"
+          "time": "20:30",
+          "desc": "🌙 別墅陽台觀星 · 聆聽湖聲"
         }
       ],
       "day_photo": ""
@@ -541,49 +689,245 @@
     {
       "day": 8,
       "date": "Aug 17 · Mon",
-      "label_zh": "回程 · 帛琉再見",
-      "day_query": "Palau International Airport departure",
-      "hotel_name": "Cove Resort Palau",
-      "hotel_name_zh": "帛琉海灣度假村 · 山景豪華房",
-      "hotel_room": "山景豪華雙人房",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "10%",
+      "label_zh": "茵萊湖 · 水上風情",
+      "day_query": "Inle Lake floating garden",
+      "hotel_name": "Sanctum Inle Resort",
+      "hotel_name_zh": "茵萊聖殿度假村 · 湖景豪華別墅",
+      "hotel_room": "湖景豪華別墅",
+      "weather": "☀️ 29°/21°",
+      "rain_pct": "30%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🍽️ 飯店自助早餐"
+          "time": "06:00",
+          "desc": "🌅 酒店碼頭看日出 · 湖面晨霧"
+        },
+        {
+          "time": "07:30",
+          "desc": "🥐 酒店早餐"
         },
         {
           "time": "08:30",
-          "desc": "🏨 辦理退房 · 寄放行李（若時間允許）"
+          "desc": "🚣 乘船前往 Indein 村（約 1 小時）· 參觀千佛塔群 · 爬階梯欣賞佛塔遺跡"
         },
         {
-          "time": "09:00",
-          "desc": "🚐 最後景點：KB大橋 KB Bridge · 拍照留念"
-        },
-        {
-          "time": "10:00",
-          "desc": "🛍️ 科羅爾市區購物 · 買咖啡、手工藝品"
+          "time": "11:00",
+          "desc": "🛕 參觀跳貓寺 Nga Phe Kyaung · 觀賞水上寺廟"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 午餐：The Rock Island Café 輕食"
+          "desc": "🍜 午餐：湖上漂浮餐廳（NT$800）· 品嚐湖魚料理"
         },
         {
           "time": "14:00",
-          "desc": "🚐 前往帛琉國際機場"
+          "desc": "🚣 拜訪蓮花絲綢工坊（Lotus Silk Weaving）· 觀看從蓮花莖抽絲的過程"
+        },
+        {
+          "time": "16:00",
+          "desc": "🛍️ 娘水鎮市場 · 購買手工藝品與紀念品"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 晚餐：Shan Kitchen（NT$600）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 酒店 SPA · 緬式按摩（NT$1,800/人）"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 9,
+      "date": "Aug 18 · Tue",
+      "label_zh": "茵萊湖 · 單車漫遊",
+      "day_query": "Inle Lake cycling",
+      "hotel_name": "Sanctum Inle Resort",
+      "hotel_name_zh": "茵萊聖殿度假村 · 湖景豪華別墅",
+      "hotel_room": "湖景豪華別墅",
+      "weather": "☀️ 30°/22°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚲 騎自行車探索娘水鎮周邊 · 穿過村莊與稻田"
+        },
+        {
+          "time": "09:30",
+          "desc": "🛕 參觀紅山葡萄酒莊 Red Mountain Estate · 品酒（NT$500/人）· 俯瞰湖景"
+        },
+        {
+          "time": "11:30",
+          "desc": "🍜 午餐：酒店內輕食（NT$600）"
+        },
+        {
+          "time": "13:00",
+          "desc": "🚣 划獨木舟（酒店免費提供）· 在酒店前的湖區探索"
         },
         {
           "time": "15:00",
-          "desc": "✈️ 辦理登機 · 出境 · 免稅店購物"
+          "desc": "💆 酒店泳池畔放鬆 · 享受下午茶"
+        },
+        {
+          "time": "17:00",
+          "desc": "🌅 前往 Maing Thauk 村 · 走過木橋 · 欣賞湖上日落"
         },
         {
           "time": "19:00",
-          "desc": "✈️ CI 027 起飛 · 返回台灣"
+          "desc": "🍽️ 晚餐：酒店湖景餐廳 · 浪漫燭光晚餐（NT$2,500）"
         },
         {
-          "time": "22:10",
-          "desc": "✈️ 抵達桃園機場 · 結束夢幻帛琉之旅"
+          "time": "21:00",
+          "desc": "🌙 別墅內休息 · 收拾行李"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 10,
+      "date": "Aug 19 · Wed",
+      "label_zh": "茵萊湖 → 仰光",
+      "day_query": "Shwedagon Pagoda",
+      "hotel_name": "Sule Shangri-La Yangon",
+      "hotel_name_zh": "仰光蘇雷香格里拉 · 豪華城市景觀房",
+      "hotel_room": "豪華城市景觀房",
+      "weather": "☀️ 32°/25°",
+      "rain_pct": "40%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店早餐 · 辦理退房"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚗 包車前往海霍機場（1 小時）"
+        },
+        {
+          "time": "10:00",
+          "desc": "✈️ 海霍 → 仰光 · 飛行 1 小時 · NT$3,500/人"
+        },
+        {
+          "time": "11:30",
+          "desc": "🏨 入住 Sule Shangri-La Yangon · 享用酒店設施"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍜 午餐：The Strand Café · 緬式咖啡與輕食（NT$700）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛕 參觀仰光地標：大金塔 Shwedagon Pagoda（門票 NT$500/人）· 金碧輝煌"
+        },
+        {
+          "time": "16:30",
+          "desc": "🛕 參觀蘇雷佛塔 Sule Pagoda · 位於市中心"
+        },
+        {
+          "time": "18:00",
+          "desc": "🛍️ 昂山市場 Bogyoke Aung San Market · 購買玉石、手工藝品"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：Le Planteur 法式餐廳 · 浪漫晚餐（NT$3,500）"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店 · 享用酒店泳池"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 11,
+      "date": "Aug 20 · Thu",
+      "label_zh": "仰光 · 殖民風情",
+      "day_query": "Yangon colonial architecture",
+      "hotel_name": "Sule Shangri-La Yangon",
+      "hotel_name_zh": "仰光蘇雷香格里拉 · 豪華城市景觀房",
+      "hotel_room": "豪華城市景觀房",
+      "weather": "☀️ 32°/25°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "08:30",
+          "desc": "🏛️ 殖民建築徒步之旅 · 參觀市政廳、高等法院、聖瑪利亞大教堂"
+        },
+        {
+          "time": "10:30",
+          "desc": "☕ The Strand Café 享受第二個下午茶 · 品嚐英式司康"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍜 午餐：999 Shan Noodle · 撣族米線（NT$300）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛕 參觀喬達基臥佛寺 Chaukhtatgyi Buddha · 巨大臥佛"
+        },
+        {
+          "time": "16:00",
+          "desc": "🛍️ 最後購物 · 在 Junction City 商場購買紀念品"
+        },
+        {
+          "time": "18:00",
+          "desc": "🌅 仰光河夕陽遊船（預訂 1.5 小時 · NT$1,500/人）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：酒店中餐廳 Shang Palace · 緬式中式料理（NT$2,000）"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 收拾行李 · 準備明日返程"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 12,
+      "date": "Aug 21 · Fri",
+      "label_zh": "返程 · 返回台灣",
+      "day_query": "Yangon airport departure",
+      "hotel_name": "Sule Shangri-La Yangon",
+      "hotel_name_zh": "仰光蘇雷香格里拉 · 豪華城市景觀房",
+      "hotel_room": "豪華城市景觀房",
+      "weather": "☀️ 32°/25°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "06:00",
+          "desc": "🥐 酒店早餐盒（提前準備）· 辦理退房"
+        },
+        {
+          "time": "07:00",
+          "desc": "🚕 搭計程車前往仰光機場（約 30 分鐘 · NT$500）"
+        },
+        {
+          "time": "08:00",
+          "desc": "✈️ 辦理登機 · 搭乘 MA 2 前往曼谷"
+        },
+        {
+          "time": "10:00",
+          "desc": "✈️ 起飛前往曼谷"
+        },
+        {
+          "time": "12:00",
+          "desc": "✈️ 抵達曼谷 · 轉機 2 小時 · 可在免稅店購物"
+        },
+        {
+          "time": "14:00",
+          "desc": "✈️ 搭乘 CI 7916 返回台灣"
+        },
+        {
+          "time": "21:30",
+          "desc": "🛬 抵達桃園機場 · 結束浪漫緬甸之旅"
         }
       ],
       "day_photo": ""
@@ -591,12 +935,16 @@
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票",
+      "label": "✈️ 國際來回機票",
       "amount_ntd": 52000
     },
     {
+      "label": "✈️ 國內航班（蒲甘、曼德勒、海霍、仰光）",
+      "amount_ntd": 28000
+    },
+    {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 150000
+      "amount_ntd": 164000
     },
     {
       "label": "🍽️ 餐飲",
@@ -604,62 +952,58 @@
     },
     {
       "label": "🎫 景點門票與活動",
-      "amount_ntd": 85000
+      "amount_ntd": 35000
     },
     {
-      "label": "🚐 交通與接駁",
-      "amount_ntd": 15000
-    },
-    {
-      "label": "💆 SPA & 其他",
-      "amount_ntd": 12000
+      "label": "🚇 交通（包車、計程車、船）",
+      "amount_ntd": 18000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 20000
+      "amount_ntd": 15000
     }
   ],
-  "cost_total_ntd": 379000,
-  "budget_remaining_ntd": 121000,
+  "cost_total_ntd": 357000,
+  "budget_remaining_ntd": 143000,
   "photos": {
     "hero": [
       {
         "url": "",
-        "label": "Palau skyline landmark"
+        "label": "Bagan skyline landmark"
       },
       {
         "url": "",
-        "label": "Palau skyline landmark"
+        "label": "Bagan skyline landmark"
       }
     ],
     "destination": [
       {
         "url": "",
-        "label": "Palau travel scenery"
+        "label": "Bagan travel scenery"
       },
       {
         "url": "",
-        "label": "Palau travel scenery"
+        "label": "Bagan travel scenery"
       },
       {
         "url": "",
-        "label": "Palau travel scenery"
+        "label": "Bagan travel scenery"
       },
       {
         "url": "",
-        "label": "Palau travel scenery"
+        "label": "Bagan travel scenery"
       },
       {
         "url": "",
-        "label": "Palau travel scenery"
+        "label": "Bagan travel scenery"
       },
       {
         "url": "",
-        "label": "Palau travel scenery"
+        "label": "Bagan travel scenery"
       }
     ]
   },
-  "chat_hash": "4c0e227bf0b487ebbb7d7fba79600c83faf8ee2629ef3d98668987adab85b0a6",
+  "chat_hash": "7b1d253d470e510b218652b75ac117f15afbd5ed43dfe37dabadd94b98b71841",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-01T15:25:14.975738"
+  "generated_at": "2026-06-01T16:10:59.601085"
 }
