@@ -1,74 +1,113 @@
 {
-  "destination_en": "Donggang, Pingtung",
-  "title_zh": "東港黑鮪魚奢華一日遊",
-  "date_range": "2026/06/07",
-  "start_date": "2026-06-07",
-  "end_date": "2026-06-07",
-  "departure": "苗栗縣頭份市",
-  "departure_code": "MIA",
-  "destination_code": "PIF",
-  "travelers": 4,
-  "days": 1,
-  "budget_ntd": 100000,
+  "destination_en": "Palau",
+  "title_zh": "帛琉 · 夢幻藍色珊瑚礁之旅",
+  "date_range": "2026/08/10–08/17",
+  "start_date": "2026-08-10",
+  "end_date": "2026-08-17",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "ROR",
+  "travelers": 2,
+  "days": 8,
+  "budget_ntd": 500000,
   "flight": {
-    "airline": "台灣高鐵",
-    "departure_date": "6月7日",
-    "return_date": "6月7日",
-    "total_price_ntd": 11480,
+    "airline": "中華航空 China Airlines",
+    "departure_date": "8月10日",
+    "return_date": "8月17日",
+    "total_price_ntd": 52000,
     "outbound": {
-      "flight_no": "高鐵 0803 車次",
-      "route": "苗栗 → 左營 直達",
-      "depart_time": "09:00",
-      "arrive_time": "10:35",
-      "duration": "1h 35m",
-      "class": "標準車廂對號座"
+      "flight_no": "CI 028",
+      "route": "TPE → ROR 直飛",
+      "depart_time": "13:00",
+      "arrive_time": "18:00",
+      "duration": "4h 00m",
+      "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "高鐵 0666 車次",
-      "route": "左營 → 苗栗 直達",
-      "depart_time": "18:30",
-      "arrive_time": "20:05",
-      "duration": "1h 35m",
-      "class": "標準車廂對號座"
+      "flight_no": "CI 027",
+      "route": "ROR → TPE 直飛",
+      "depart_time": "19:00",
+      "arrive_time": "22:10",
+      "duration": "4h 10m",
+      "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "無住宿（一日遊）",
-      "name_zh": "無住宿（一日遊）",
-      "district": "東港",
-      "day_range": "1",
-      "nights": 0,
-      "price_ntd": 0,
-      "stars": "",
-      "room_type": "",
-      "breakfast": "",
-      "amenities": "",
-      "search_query": "",
+      "name": "Palau Pacific Resort",
+      "name_zh": "帛琉太平洋度假酒店",
+      "district": "科羅爾 · 馬拉卡爾島",
+      "day_range": "1–4",
+      "nights": 4,
+      "price_ntd": 96000,
+      "stars": "★★★★★",
+      "room_type": "海景豪華雙人房",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 無邊際泳池 · 🛶 獨木舟 · 🌴 私人沙灘 · 💆 SPA · 🎣 碼頭",
+      "search_query": "Palau Pacific Resort Koror",
       "photos": [
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Palau"
         },
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Palau"
         },
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Palau"
         },
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Palau"
         },
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Palau"
         },
         {
           "url": "",
-          "label": "luxury hotel Donggang"
+          "label": "luxury hotel Palau"
+        }
+      ]
+    },
+    {
+      "name": "Cove Resort Palau",
+      "name_zh": "帛琉海灣度假村",
+      "district": "科羅爾 · 阿拉卡貝山",
+      "day_range": "5–7",
+      "nights": 3,
+      "price_ntd": 54000,
+      "stars": "★★★★☆",
+      "room_type": "山景豪華雙人房",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 泳池 · 🍽️ 海景餐廳 · 🌺 熱帶花園 · 🚴 自行車租借",
+      "search_query": "Cove Resort Palau",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Palau"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Palau"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Palau"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Palau"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Palau"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Palau"
         }
       ]
     }
@@ -76,81 +115,81 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "東港佳珍海鮮餐廳",
-        "name_zh": "東港佳珍海鮮餐廳 · 黑鮪魚全席",
-        "stars": "⭐⭐",
-        "dish": "🐟 招牌：黑鮪魚生魚片拼盤 · 烤下巴 · 魚頭味噌湯",
-        "address": "屏東縣東港鎮光復路二段45號",
-        "price_ntd": 8000,
-        "price_label": "四人黑鮪魚套餐 NT$8,000",
-        "hours": "11:00–14:30 / 17:00–21:00",
-        "search_query": "佳珍海鮮餐廳 東港 黑鮪魚",
+        "name": "The Penthouse Restaurant",
+        "name_zh": "頂樓餐廳 · 帛琉最高級景觀餐廳",
+        "stars": "",
+        "dish": "🦞 招牌：龍蝦牛排套餐 · 帛琉鮮魚料理",
+        "address": "Palau Pacific Resort 內",
+        "price_ntd": 3500,
+        "price_label": "雙人套餐 NT$3,500",
+        "hours": "18:00–21:30 · 需預約",
+        "search_query": "Penthouse restaurant Palau Pacific Resort",
         "photos": [
           {
             "url": "",
-            "label": "fine dining food Donggang"
+            "label": "fine dining food Palau"
           },
           {
             "url": "",
-            "label": "fine dining food Donggang"
+            "label": "fine dining food Palau"
           },
           {
             "url": "",
-            "label": "fine dining food Donggang"
+            "label": "fine dining food Palau"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "東港華僑市場·阿義生魚片",
-        "name_zh": "華僑市場 · 阿義生魚片",
+        "name": "Elilai Restaurant & Bar",
+        "name_zh": "艾萊餐廳酒吧 · 懸崖海景",
         "stars": "",
-        "dish": "🐟 招牌：黑鮪魚腹肉生魚片 · 海膽 · 甜蝦",
-        "address": "屏東縣東港鎮朝隆路39號（華僑市場內）",
-        "price_ntd": 3000,
-        "price_label": "四人份 NT$3,000",
-        "hours": "11:00–19:00",
-        "search_query": "華僑市場 東港 黑鮪魚",
+        "dish": "🐟 招牌：椰汁咖哩魚 · 烤龍蝦",
+        "address": "Cove Resort Palau 內",
+        "price_ntd": 2800,
+        "price_label": "雙人晚餐 NT$2,800",
+        "hours": "17:00–22:00 · 建議預約",
+        "search_query": "Elilai restaurant Palau",
         "photos": [
           {
             "url": "",
-            "label": "bistros food Donggang"
+            "label": "bistros food Palau"
           },
           {
             "url": "",
-            "label": "bistros food Donggang"
+            "label": "bistros food Palau"
           },
           {
             "url": "",
-            "label": "bistros food Donggang"
+            "label": "bistros food Palau"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "東港福灣莊園咖啡",
-        "name_zh": "福灣莊園·午茶時光",
+        "name": "The Rock Island Café",
+        "name_zh": "洛克群島咖啡館",
         "stars": "",
-        "dish": "☕ 招牌：屏東可可飲 · 鳳梨酥 · 巧克力蛋糕",
-        "address": "屏東縣東港鎮大鵬路100號",
-        "price_ntd": 2000,
-        "price_label": "四人下午茶 NT$2,000",
-        "hours": "14:00–17:00",
-        "search_query": "福灣莊園 東港 下午茶",
+        "dish": "☕ 招牌：冰拿鐵 · 椰子蛋糕 · 三明治",
+        "address": "科羅爾市中心",
+        "price_ntd": 800,
+        "price_label": "雙人輕食飲品 NT$800",
+        "hours": "07:00–18:00",
+        "search_query": "Rock Island Cafe Palau",
         "photos": [
           {
             "url": "",
-            "label": "cafe coffee Donggang"
+            "label": "cafe coffee Palau"
           },
           {
             "url": "",
-            "label": "cafe coffee Donggang"
+            "label": "cafe coffee Palau"
           },
           {
             "url": "",
-            "label": "cafe coffee Donggang"
+            "label": "cafe coffee Palau"
           }
         ]
       }
@@ -159,58 +198,392 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "June 7 · Sun",
-      "label_zh": "黑鮪魚盛宴 · 東港一日",
-      "day_query": "Donggang tuna fish market",
-      "hotel_name": "無住宿 - 當日來回",
-      "hotel_name_zh": "無住宿 - 當日來回",
-      "hotel_room": "",
-      "weather": "☀️ 32°/28°",
-      "rain_pct": "5%",
+      "date": "Aug 10 · Mon",
+      "label_zh": "抵達 · 帛琉歡迎",
+      "day_query": "Palau arrival airport",
+      "hotel_name": "Palau Pacific Resort",
+      "hotel_name_zh": "帛琉太平洋度假酒店 · 海景豪華房",
+      "hotel_room": "海景豪華雙人房",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "20%",
       "slots": [
         {
-          "time": "08:30",
-          "desc": "🚗 從苗栗縣頭份市出發，開車前往高鐵苗栗站（約15分鐘）· 建議停車於高鐵站停車場（每日上限NT$150）"
+          "time": "10:00",
+          "desc": "🏠 從台灣家中出發 · 前往桃園機場第二航廈"
+        },
+        {
+          "time": "11:00",
+          "desc": "✈️ 抵達桃園機場 · 辦理登機手續 · 出境"
+        },
+        {
+          "time": "13:00",
+          "desc": "✈️ CI 028 準時起飛 · 飛行時間約4小時 · 機上享用午餐"
+        },
+        {
+          "time": "18:00",
+          "desc": "✈️ 抵達帛琉國際機場 (ROR) · 入境通關 · 取行李"
+        },
+        {
+          "time": "19:00",
+          "desc": "🚐 飯店接駁車前往 Palau Pacific Resort（約20分鐘）"
+        },
+        {
+          "time": "19:30",
+          "desc": "🏨 抵達飯店 · 辦理入住 · 歡迎飲料 · 欣賞海景"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 飯店內晚餐 · 享用帛琉特色料理（自費）"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 海灘散步 · 星空下放鬆 · 早點休息迎接明日浮潛"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 2,
+      "date": "Aug 11 · Tue",
+      "label_zh": "洛克群島 · 水母湖 & 牛奶湖",
+      "day_query": "Jellyfish Lake Palau",
+      "hotel_name": "Palau Pacific Resort",
+      "hotel_name_zh": "帛琉太平洋度假酒店 · 海景豪華房",
+      "hotel_room": "海景豪華雙人房",
+      "weather": "☀️ 33°/27°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "06:30",
+          "desc": "🌅 晨間沙灘散步 · 欣賞日出"
+        },
+        {
+          "time": "07:00",
+          "desc": "🍽️ 飯店自助早餐 · 補充體力"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚤 集合 · 參加洛克群島一日浮潛行程（飯店碼頭出發）"
         },
         {
           "time": "09:00",
-          "desc": "🚄 搭乘高鐵 0803 車次 · 苗栗 → 左營 · 09:00–10:35 · 1h35m · 每人NT$1,435 · 共NT$5,740"
+          "desc": "🪼 抵達水母湖 Jellyfish Lake · 與數百萬無毒黃金水母共游（門票US$50/人 + 許可證US$100）"
         },
         {
-          "time": "10:35",
-          "desc": "🚉 抵達高鐵左營站 · 步行至台鐵新左營站轉乘區間車（約10分鐘）· 或直接搭乘計程車前往東港（約40分鐘，NT$1,200）"
-        },
-        {
-          "time": "11:30",
-          "desc": "🐟 抵達東港華僑市場 · 參觀黑鮪魚拍賣及漁獲 · 品嚐現切黑鮪魚生魚片（阿義生魚片，四人份NT$3,000）"
+          "time": "11:00",
+          "desc": "🛶 牛奶湖 Milky Way · 敷天然火山泥SPA · 拍照"
         },
         {
           "time": "12:30",
-          "desc": "🍽️ 東港佳珍海鮮餐廳 · 黑鮪魚全席午餐 · 四人套餐NT$8,000 · 必吃：黑鮪魚生魚片、烤魚下巴、魚頭味噌湯"
+          "desc": "🍱 無人島午餐 · 燒烤BBQ · 沙灘休息"
         },
         {
           "time": "14:00",
-          "desc": "🚶 東港鎮漫步 · 參觀東隆宮（著名王船廟）· 拍照祈福 · 感受在地信仰文化"
+          "desc": "🐠 藍色珊瑚礁 Blue Corner · 浮潛觀賞豐富魚群與珊瑚"
         },
         {
-          "time": "15:00",
-          "desc": "☕ 福灣莊園下午茶 · 品嚐屏東巧克力與可可飲 · 四人份NT$2,000 · 享受莊園悠閒時光"
-        },
-        {
-          "time": "16:30",
-          "desc": "🛍️ 東港伴手禮採購 · 推薦：黑鮪魚鬆、櫻花蝦、雙糕潤 · 預算NT$2,000"
-        },
-        {
-          "time": "17:30",
-          "desc": "🚕 搭乘計程車前往高鐵左營站（約40分鐘 · NT$1,200）· 預留充足時間"
+          "time": "16:00",
+          "desc": "🚤 返回飯店 · 梳洗休息"
         },
         {
           "time": "18:30",
-          "desc": "🚄 搭乘高鐵 0666 車次 · 左營 → 苗栗 · 18:30–20:05 · 1h35m · 每人NT$1,435 · 共NT$5,740"
+          "desc": "🍽️ The Penthouse Restaurant 頂樓餐廳 · 龍蝦牛排雙人套餐（NT$3,500）"
         },
         {
-          "time": "20:05",
-          "desc": "🚗 返回頭份市 · 結束奢華黑鮪魚一日遊 · 滿載而歸"
+          "time": "21:00",
+          "desc": "🌙 飯店泳池畔小酌 · 星空電影院"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 3,
+      "date": "Aug 12 · Wed",
+      "label_zh": "大斷層 · 鯊魚城 & 干貝城",
+      "day_query": "Big Drop Off Palau diving",
+      "hotel_name": "Palau Pacific Resort",
+      "hotel_name_zh": "帛琉太平洋度假酒店 · 海景豪華房",
+      "hotel_room": "海景豪華雙人房",
+      "weather": "☀️ 33°/27°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "06:30",
+          "desc": "🍽️ 飯店自助早餐"
+        },
+        {
+          "time": "07:30",
+          "desc": "🚤 出海 · 今日行程：大斷層 + 鯊魚城 + 干貝城"
+        },
+        {
+          "time": "09:00",
+          "desc": "🐠 大斷層 Big Drop Off · 世界級浮潛點 · 垂直懸崖珊瑚牆 · 色彩繽紛"
+        },
+        {
+          "time": "11:00",
+          "desc": "🦈 鯊魚城 Shark City · 近距離觀賞黑鰭礁鯊（安全浮潛）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍱 無人島午餐 · 現烤海鮮"
+        },
+        {
+          "time": "14:00",
+          "desc": "🐚 干貝城 Clam City · 巨型硨磲貝 · 觸摸體驗"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚤 返回飯店 · 自由時間 · 可使用泳池或沙灘"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 飯店內晚餐 · 帛琉風味自助餐（約NT$1,800/人）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 沙灘漫步 · 觀星 · 聆聽海浪聲"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 4,
+      "date": "Aug 13 · Thu",
+      "label_zh": "安德茂瀑布 · 叢林探險",
+      "day_query": "Ngardmau Waterfall Palau",
+      "hotel_name": "Palau Pacific Resort",
+      "hotel_name_zh": "帛琉太平洋度假酒店 · 海景豪華房",
+      "hotel_room": "海景豪華雙人房",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🍽️ 飯店自助早餐"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚐 接駁車前往北島 · 安德茂瀑布 Ngardmau Waterfall"
+        },
+        {
+          "time": "09:30",
+          "desc": "🌿 叢林健行 · 約30分鐘 · 穿越熱帶雨林"
+        },
+        {
+          "time": "10:00",
+          "desc": "💧 安德茂瀑布 · 帛琉最大瀑布 · 游泳消暑 · 拍照"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍱 瀑布旁野餐（自備輕食）"
+        },
+        {
+          "time": "13:30",
+          "desc": "🚐 返回飯店 · 途中參觀帛琉國家博物館（門票US$10/人）"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏨 回飯店休息 · 享受飯店設施（泳池、獨木舟）"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 科羅爾市區晚餐 · 推薦：The Rock Island Café（輕食）或 Elilai Restaurant（懸崖海景）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 市區散步 · 購買紀念品 · 返回飯店"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 5,
+      "date": "Aug 14 · Fri",
+      "label_zh": "飯店換宿 · 海豚灣 & 長沙灘",
+      "day_query": "Dolphin Pacific Palau",
+      "hotel_name": "Cove Resort Palau",
+      "hotel_name_zh": "帛琉海灣度假村 · 山景豪華房",
+      "hotel_room": "山景豪華雙人房",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🍽️ 最後一次在 Palau Pacific Resort 享用早餐"
+        },
+        {
+          "time": "08:00",
+          "desc": "🐬 參加海豚灣 Dolphin Pacific 互動體驗 · 與海豚共游（NT$3,000/人）"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏖️ 長沙灘 Long Beach · 退潮時出現的夢幻沙洲 · 拍照"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍱 返回飯店 · 收拾行李 · 辦理退房"
+        },
+        {
+          "time": "13:00",
+          "desc": "🚐 前往 Cove Resort Palau（約15分鐘車程）· 辦理入住"
+        },
+        {
+          "time": "14:00",
+          "desc": "🏨 入住 Cove Resort · 山景房 · 欣賞阿拉卡貝山景"
+        },
+        {
+          "time": "15:00",
+          "desc": "🚴 飯店免費自行車 · 騎乘探索周邊"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ Elilai Restaurant & Bar · 懸崖海景晚餐 · 烤龍蝦與椰汁咖哩魚（NT$2,800）"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌙 飯店泳池夜泳 · 星空下放鬆"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 6,
+      "date": "Aug 15 · Sat",
+      "label_zh": "潛水者天堂 · 藍洞 & 德國水道",
+      "day_query": "German Channel Palau manta rays",
+      "hotel_name": "Cove Resort Palau",
+      "hotel_name_zh": "帛琉海灣度假村 · 山景豪華房",
+      "hotel_room": "山景豪華雙人房",
+      "weather": "☀️ 33°/27°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "06:30",
+          "desc": "🍽️ 飯店自助早餐"
+        },
+        {
+          "time": "07:30",
+          "desc": "🚤 出海 · 今日潛水/浮潛行程：藍洞 + 德國水道"
+        },
+        {
+          "time": "09:00",
+          "desc": "🕳️ 藍洞 Blue Hole · 獨特水下洞穴 · 光線夢幻（需有潛水證或教練陪同）"
+        },
+        {
+          "time": "11:00",
+          "desc": "🌊 德國水道 German Channel · 觀賞蝠魟 Manta Ray · 魚群風暴"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍱 無人島午餐 · 現烤魚"
+        },
+        {
+          "time": "14:00",
+          "desc": "🐢 海龜灣 Turtle Cove · 與海龜共游"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚤 返回飯店 · 休息"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 飯店內晚餐 · 海鮮拼盤（NT$2,200/人）"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌙 飯店酒吧 · 調酒時光 · 欣賞夜景"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 7,
+      "date": "Aug 16 · Sun",
+      "label_zh": "自由日 · 沙灘放空 & SPA",
+      "day_query": "Palau beach relaxation",
+      "hotel_name": "Cove Resort Palau",
+      "hotel_name_zh": "帛琉海灣度假村 · 山景豪華房",
+      "hotel_room": "山景豪華雙人房",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🍽️ 飯店自助早餐 · 悠閒享用"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏖️ 飯店私人沙灘 · 躺椅 · 閱讀 · 浮潛"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 飯店午餐 · 簡餐沙拉"
+        },
+        {
+          "time": "14:00",
+          "desc": "💆 飯店SPA · 情侶按摩療程（NT$4,000/人 · 60分鐘）"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏊 泳池時光 · 無邊際泳池欣賞海景"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 科羅爾市區最後晚餐 · 推薦：Elilai Restaurant 或 The Rock Island Café"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 市區最後採購 · 購買紀念品 · 返回飯店整理行李"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 8,
+      "date": "Aug 17 · Mon",
+      "label_zh": "回程 · 帛琉再見",
+      "day_query": "Palau International Airport departure",
+      "hotel_name": "Cove Resort Palau",
+      "hotel_name_zh": "帛琉海灣度假村 · 山景豪華房",
+      "hotel_room": "山景豪華雙人房",
+      "weather": "☀️ 32°/26°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🍽️ 飯店自助早餐"
+        },
+        {
+          "time": "08:30",
+          "desc": "🏨 辦理退房 · 寄放行李（若時間允許）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚐 最後景點：KB大橋 KB Bridge · 拍照留念"
+        },
+        {
+          "time": "10:00",
+          "desc": "🛍️ 科羅爾市區購物 · 買咖啡、手工藝品"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 午餐：The Rock Island Café 輕食"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚐 前往帛琉國際機場"
+        },
+        {
+          "time": "15:00",
+          "desc": "✈️ 辦理登機 · 出境 · 免稅店購物"
+        },
+        {
+          "time": "19:00",
+          "desc": "✈️ CI 027 起飛 · 返回台灣"
+        },
+        {
+          "time": "22:10",
+          "desc": "✈️ 抵達桃園機場 · 結束夢幻帛琉之旅"
         }
       ],
       "day_photo": ""
@@ -218,75 +591,75 @@
   ],
   "costs": [
     {
-      "label": "🚄 高鐵來回車票（4人）",
-      "amount_ntd": 11480
+      "label": "✈️ 來回機票",
+      "amount_ntd": 52000
     },
     {
-      "label": "🚕 東港計程車接駁",
-      "amount_ntd": 2400
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 150000
     },
     {
-      "label": "🍽️ 佳珍黑鮪魚午餐",
-      "amount_ntd": 8000
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 45000
     },
     {
-      "label": "🐟 華僑市場生魚片",
-      "amount_ntd": 3000
+      "label": "🎫 景點門票與活動",
+      "amount_ntd": 85000
     },
     {
-      "label": "☕ 福灣莊園下午茶",
-      "amount_ntd": 2000
+      "label": "🚐 交通與接駁",
+      "amount_ntd": 15000
     },
     {
-      "label": "🛍️ 伴手禮",
-      "amount_ntd": 2000
+      "label": "💆 SPA & 其他",
+      "amount_ntd": 12000
     },
     {
-      "label": "🚗 停車費",
-      "amount_ntd": 150
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 20000
     }
   ],
-  "cost_total_ntd": 29030,
-  "budget_remaining_ntd": 70970,
+  "cost_total_ntd": 379000,
+  "budget_remaining_ntd": 121000,
   "photos": {
     "hero": [
       {
         "url": "",
-        "label": "Donggang skyline landmark"
+        "label": "Palau skyline landmark"
       },
       {
         "url": "",
-        "label": "Donggang skyline landmark"
+        "label": "Palau skyline landmark"
       }
     ],
     "destination": [
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Palau travel scenery"
       },
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Palau travel scenery"
       },
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Palau travel scenery"
       },
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Palau travel scenery"
       },
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Palau travel scenery"
       },
       {
         "url": "",
-        "label": "Donggang travel scenery"
+        "label": "Palau travel scenery"
       }
     ]
   },
-  "chat_hash": "354dab4335b5c515a22eb0ed0dcb11f0251cff9d3e7c541cce65d7ca72aa7474",
+  "chat_hash": "4c0e227bf0b487ebbb7d7fba79600c83faf8ee2629ef3d98668987adab85b0a6",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-01T02:39:58.006490"
+  "generated_at": "2026-06-01T15:25:14.975738"
 }
