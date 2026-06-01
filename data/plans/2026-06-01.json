@@ -1,0 +1,292 @@
+{
+  "destination_en": "Donggang, Pingtung",
+  "title_zh": "東港黑鮪魚奢華一日遊",
+  "date_range": "2026/06/07",
+  "start_date": "2026-06-07",
+  "end_date": "2026-06-07",
+  "departure": "苗栗縣頭份市",
+  "departure_code": "MIA",
+  "destination_code": "PIF",
+  "travelers": 4,
+  "days": 1,
+  "budget_ntd": 100000,
+  "flight": {
+    "airline": "台灣高鐵",
+    "departure_date": "6月7日",
+    "return_date": "6月7日",
+    "total_price_ntd": 11480,
+    "outbound": {
+      "flight_no": "高鐵 0803 車次",
+      "route": "苗栗 → 左營 直達",
+      "depart_time": "09:00",
+      "arrive_time": "10:35",
+      "duration": "1h 35m",
+      "class": "標準車廂對號座"
+    },
+    "inbound": {
+      "flight_no": "高鐵 0666 車次",
+      "route": "左營 → 苗栗 直達",
+      "depart_time": "18:30",
+      "arrive_time": "20:05",
+      "duration": "1h 35m",
+      "class": "標準車廂對號座"
+    }
+  },
+  "hotels": [
+    {
+      "name": "無住宿（一日遊）",
+      "name_zh": "無住宿（一日遊）",
+      "district": "東港",
+      "day_range": "1",
+      "nights": 0,
+      "price_ntd": 0,
+      "stars": "",
+      "room_type": "",
+      "breakfast": "",
+      "amenities": "",
+      "search_query": "",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Donggang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Donggang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Donggang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Donggang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Donggang"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Donggang"
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "東港佳珍海鮮餐廳",
+        "name_zh": "東港佳珍海鮮餐廳 · 黑鮪魚全席",
+        "stars": "⭐⭐",
+        "dish": "🐟 招牌：黑鮪魚生魚片拼盤 · 烤下巴 · 魚頭味噌湯",
+        "address": "屏東縣東港鎮光復路二段45號",
+        "price_ntd": 8000,
+        "price_label": "四人黑鮪魚套餐 NT$8,000",
+        "hours": "11:00–14:30 / 17:00–21:00",
+        "search_query": "佳珍海鮮餐廳 東港 黑鮪魚",
+        "photos": [
+          {
+            "url": "",
+            "label": "fine dining food Donggang"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Donggang"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Donggang"
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "東港華僑市場·阿義生魚片",
+        "name_zh": "華僑市場 · 阿義生魚片",
+        "stars": "",
+        "dish": "🐟 招牌：黑鮪魚腹肉生魚片 · 海膽 · 甜蝦",
+        "address": "屏東縣東港鎮朝隆路39號（華僑市場內）",
+        "price_ntd": 3000,
+        "price_label": "四人份 NT$3,000",
+        "hours": "11:00–19:00",
+        "search_query": "華僑市場 東港 黑鮪魚",
+        "photos": [
+          {
+            "url": "",
+            "label": "bistros food Donggang"
+          },
+          {
+            "url": "",
+            "label": "bistros food Donggang"
+          },
+          {
+            "url": "",
+            "label": "bistros food Donggang"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "東港福灣莊園咖啡",
+        "name_zh": "福灣莊園·午茶時光",
+        "stars": "",
+        "dish": "☕ 招牌：屏東可可飲 · 鳳梨酥 · 巧克力蛋糕",
+        "address": "屏東縣東港鎮大鵬路100號",
+        "price_ntd": 2000,
+        "price_label": "四人下午茶 NT$2,000",
+        "hours": "14:00–17:00",
+        "search_query": "福灣莊園 東港 下午茶",
+        "photos": [
+          {
+            "url": "",
+            "label": "cafe coffee Donggang"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Donggang"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Donggang"
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "June 7 · Sun",
+      "label_zh": "黑鮪魚盛宴 · 東港一日",
+      "day_query": "Donggang tuna fish market",
+      "hotel_name": "無住宿 - 當日來回",
+      "hotel_name_zh": "無住宿 - 當日來回",
+      "hotel_room": "",
+      "weather": "☀️ 32°/28°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🚗 從苗栗縣頭份市出發，開車前往高鐵苗栗站（約15分鐘）· 建議停車於高鐵站停車場（每日上限NT$150）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚄 搭乘高鐵 0803 車次 · 苗栗 → 左營 · 09:00–10:35 · 1h35m · 每人NT$1,435 · 共NT$5,740"
+        },
+        {
+          "time": "10:35",
+          "desc": "🚉 抵達高鐵左營站 · 步行至台鐵新左營站轉乘區間車（約10分鐘）· 或直接搭乘計程車前往東港（約40分鐘，NT$1,200）"
+        },
+        {
+          "time": "11:30",
+          "desc": "🐟 抵達東港華僑市場 · 參觀黑鮪魚拍賣及漁獲 · 品嚐現切黑鮪魚生魚片（阿義生魚片，四人份NT$3,000）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 東港佳珍海鮮餐廳 · 黑鮪魚全席午餐 · 四人套餐NT$8,000 · 必吃：黑鮪魚生魚片、烤魚下巴、魚頭味噌湯"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚶 東港鎮漫步 · 參觀東隆宮（著名王船廟）· 拍照祈福 · 感受在地信仰文化"
+        },
+        {
+          "time": "15:00",
+          "desc": "☕ 福灣莊園下午茶 · 品嚐屏東巧克力與可可飲 · 四人份NT$2,000 · 享受莊園悠閒時光"
+        },
+        {
+          "time": "16:30",
+          "desc": "🛍️ 東港伴手禮採購 · 推薦：黑鮪魚鬆、櫻花蝦、雙糕潤 · 預算NT$2,000"
+        },
+        {
+          "time": "17:30",
+          "desc": "🚕 搭乘計程車前往高鐵左營站（約40分鐘 · NT$1,200）· 預留充足時間"
+        },
+        {
+          "time": "18:30",
+          "desc": "🚄 搭乘高鐵 0666 車次 · 左營 → 苗栗 · 18:30–20:05 · 1h35m · 每人NT$1,435 · 共NT$5,740"
+        },
+        {
+          "time": "20:05",
+          "desc": "🚗 返回頭份市 · 結束奢華黑鮪魚一日遊 · 滿載而歸"
+        }
+      ],
+      "day_photo": ""
+    }
+  ],
+  "costs": [
+    {
+      "label": "🚄 高鐵來回車票（4人）",
+      "amount_ntd": 11480
+    },
+    {
+      "label": "🚕 東港計程車接駁",
+      "amount_ntd": 2400
+    },
+    {
+      "label": "🍽️ 佳珍黑鮪魚午餐",
+      "amount_ntd": 8000
+    },
+    {
+      "label": "🐟 華僑市場生魚片",
+      "amount_ntd": 3000
+    },
+    {
+      "label": "☕ 福灣莊園下午茶",
+      "amount_ntd": 2000
+    },
+    {
+      "label": "🛍️ 伴手禮",
+      "amount_ntd": 2000
+    },
+    {
+      "label": "🚗 停車費",
+      "amount_ntd": 150
+    }
+  ],
+  "cost_total_ntd": 29030,
+  "budget_remaining_ntd": 70970,
+  "photos": {
+    "hero": [
+      {
+        "url": "",
+        "label": "Donggang skyline landmark"
+      },
+      {
+        "url": "",
+        "label": "Donggang skyline landmark"
+      }
+    ],
+    "destination": [
+      {
+        "url": "",
+        "label": "Donggang travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Donggang travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Donggang travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Donggang travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Donggang travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Donggang travel scenery"
+      }
+    ]
+  },
+  "chat_hash": "354dab4335b5c515a22eb0ed0dcb11f0251cff9d3e7c541cce65d7ca72aa7474",
+  "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
+  "generated_at": "2026-06-01T02:39:58.006490"
+}
