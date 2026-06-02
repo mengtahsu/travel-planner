@@ -1,0 +1,423 @@
+{
+  "destination_en": "Taiwan, Taiwan",
+  "title_zh": "暑假台灣五天三夜 · 五人家庭之旅",
+  "date_range": "2026/08/01–08/03",
+  "start_date": "2026-08-01",
+  "end_date": "2026-08-03",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "TPE",
+  "travelers": 5,
+  "days": 3,
+  "budget_ntd": 100000,
+  "flight": {
+    "airline": "無需飛行",
+    "departure_date": "8月1日",
+    "return_date": "8月3日",
+    "total_price_ntd": 0,
+    "outbound": {
+      "flight_no": "N/A",
+      "route": "台北市內出發",
+      "depart_time": "08:00",
+      "arrive_time": "08:30",
+      "duration": "30分鐘",
+      "class": "N/A"
+    },
+    "inbound": {
+      "flight_no": "N/A",
+      "route": "返回台北",
+      "depart_time": "17:00",
+      "arrive_time": "17:30",
+      "duration": "30分鐘",
+      "class": "N/A"
+    }
+  },
+  "hotels": [
+    {
+      "name": "Hotel Royal Chiao Hsi",
+      "name_zh": "礁溪老爺酒店",
+      "district": "宜蘭礁溪",
+      "day_range": "1–2",
+      "nights": 1,
+      "price_ntd": 12000,
+      "stars": "★★★★★",
+      "room_type": "家庭和洋房（兩大兩小）",
+      "breakfast": "含自助早餐",
+      "amenities": "♨️ 溫泉 · 🏊 戶外泳池 · 🎯 親子活動 · 🚲 免費自行車",
+      "search_query": "Hotel Royal Chiao Hsi Yilan",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        }
+      ]
+    },
+    {
+      "name": "Le Meridien Taipei",
+      "name_zh": "台北寒舍艾美酒店",
+      "district": "台北信義區",
+      "day_range": "2–3",
+      "nights": 1,
+      "price_ntd": 8000,
+      "stars": "★★★★★",
+      "room_type": "家庭雙床房（兩大一小沙發床）",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 室內泳池 · 🏋️ 健身中心 · 🍽️ 探索廚房 · 🛍️ 信義商圈",
+      "search_query": "Le Meridien Taipei Xinyi",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Taiwan"
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "Ming Court (礁溪)",
+        "name_zh": "明宮中餐廳 · 礁溪老爺酒店",
+        "stars": "⭐⭐",
+        "dish": "🦐 招牌：櫻桃鴨五吃 · 龍蝦海鮮鍋",
+        "address": "礁溪老爺酒店內",
+        "price_ntd": 4500,
+        "price_label": "五人合菜 NT$4,500 · 需預約",
+        "hours": "11:30–14:00 / 17:30–21:00",
+        "search_query": "Ming Court Yilan duck",
+        "photos": [
+          {
+            "url": "",
+            "label": "fine dining food Taiwan"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Taiwan"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Taiwan"
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "Din Tai Fung (信義)",
+        "name_zh": "鼎泰豐 · 信義本店",
+        "stars": "⭐",
+        "dish": "🥟 招牌：小籠包 · 蝦仁燒賣 · 酸辣湯",
+        "address": "台北市信義路二段194號",
+        "price_ntd": 2500,
+        "price_label": "五人套餐 NT$2,500",
+        "hours": "10:00–21:30 · 建議預約",
+        "search_query": "Din Tai Fung Taipei Xinyi",
+        "photos": [
+          {
+            "url": "",
+            "label": "bistros food Taiwan"
+          },
+          {
+            "url": "",
+            "label": "bistros food Taiwan"
+          },
+          {
+            "url": "",
+            "label": "bistros food Taiwan"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Cafe Fudgetori (礁溪)",
+        "name_zh": "咖啡糖 · 礁溪老街",
+        "stars": "",
+        "dish": "☕ 招牌：手工蛋糕 · 冰滴咖啡 · 水果鬆餅",
+        "address": "宜蘭縣礁溪鄉德陽路24號",
+        "price_ntd": 1000,
+        "price_label": "五人下午茶 NT$1,000",
+        "hours": "10:00–18:00 · 週末人多",
+        "search_query": "Cafe Fudgetori Jiaoxi",
+        "photos": [
+          {
+            "url": "",
+            "label": "cafe coffee Taiwan"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Taiwan"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Taiwan"
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "Aug 1 · Sat",
+      "label_zh": "第一天 · 礁溪溫泉之旅",
+      "day_query": "Jiaoxi hot spring Yilan",
+      "hotel_name": "Hotel Royal Chiao Hsi",
+      "hotel_name_zh": "礁溪老爺酒店 · 家庭和洋房",
+      "hotel_room": "家庭和洋房（兩大兩小）",
+      "weather": "☀️ 33°/26°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🚗 台北出發 · 自駕或包車走國道五號（約 50 分鐘）· 建議租車 NT$3,000/天"
+        },
+        {
+          "time": "09:30",
+          "desc": "🛤️ 抵達礁溪 · 先逛湯圍溝溫泉公園 · 免費泡腳池 · 適合全家放鬆"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏨 入住礁溪老爺酒店 · 寄放行李 · 享用迎賓飲料"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 明宮中餐廳午餐 · 預約櫻桃鴨五吃 · 五人 NT$4,500"
+        },
+        {
+          "time": "14:00",
+          "desc": "♨️ 飯店溫泉設施 · 戶外泳池 · 兒童戲水區 · 親子同樂"
+        },
+        {
+          "time": "16:30",
+          "desc": "☕ 咖啡糖下午茶 · 手工蛋糕 + 冰滴咖啡 · 五人 NT$1,000"
+        },
+        {
+          "time": "18:00",
+          "desc": "🚶 礁溪老街散步 · 買溫泉空心菜、溫泉蛋、牛舌餅"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍜 晚餐：樂山拉麵（平價 NT$800/五人）· 湯頭濃郁"
+        },
+        {
+          "time": "21:00",
+          "desc": "♨️ 返回飯店 · 夜間溫泉泡湯 · 星空下放鬆"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 就寢 · 家庭和洋房 · 榻榻米鋪床體驗"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 2,
+      "date": "Aug 2 · Sun",
+      "label_zh": "第二天 · 宜蘭自然與台北夜市",
+      "day_query": "Taipei 101 night view",
+      "hotel_name": "Le Meridien Taipei",
+      "hotel_name_zh": "台北寒舍艾美酒店 · 家庭雙床房",
+      "hotel_room": "家庭雙床房（兩大一小沙發床）",
+      "weather": "⛅ 32°/25°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🥐 飯店自助早餐 · 豐富多樣 · 必吃：現做歐姆蛋、現煮擔仔麵"
+        },
+        {
+          "time": "09:00",
+          "desc": "🏨 退房 · 行李寄放櫃檯或放車上"
+        },
+        {
+          "time": "09:30",
+          "desc": "🌲 宜蘭傳統藝術中心（門票 NT$300/人）· 捏麵人DIY、布袋戲"
+        },
+        {
+          "time": "12:00",
+          "desc": "🚗 前往台北 · 車程約 1 小時"
+        },
+        {
+          "time": "13:00",
+          "desc": "🏨 入住台北寒舍艾美酒店 · 信義區精華地段"
+        },
+        {
+          "time": "14:00",
+          "desc": "🍽️ 鼎泰豐信義本店午餐 · 小籠包、蝦仁燒賣 · 五人 NT$2,500"
+        },
+        {
+          "time": "15:30",
+          "desc": "🗼 台北101觀景台（門票 NT$600/人）· 俯瞰大台北"
+        },
+        {
+          "time": "17:00",
+          "desc": "🛍️ 信義商圈逛街 · 新光三越、誠品書店、ATT 4 FUN"
+        },
+        {
+          "time": "18:30",
+          "desc": "🌙 寧夏夜市（捷運至雙連站）· 必吃：蚵仔煎、滷肉飯、甘草芭樂 · 五人 NT$1,500"
+        },
+        {
+          "time": "21:00",
+          "desc": "🏨 返回艾美酒店 · 可使用泳池或健身房"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 就寢 · 家庭雙床房"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 3,
+      "date": "Aug 3 · Mon",
+      "label_zh": "第三天 · 台北文化與返程",
+      "day_query": "National Palace Museum Taipei",
+      "hotel_name": "Le Meridien Taipei",
+      "hotel_name_zh": "台北寒舍艾美酒店 · 家庭雙床房",
+      "hotel_room": "家庭雙床房（兩大一小沙發床）",
+      "weather": "☀️ 34°/27°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 飯店自助早餐 · 退房並寄放行李"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏛️ 國立故宮博物院（門票 NT$350/人）· 翠玉白菜、肉形石"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍜 午餐：故宮晶華（NT$3,000/五人）· 國寶宴特色套餐"
+        },
+        {
+          "time": "14:00",
+          "desc": "🌳 士林官邸散步 · 玫瑰花園 · 拍照留念"
+        },
+        {
+          "time": "15:30",
+          "desc": "🛍️ 迪化街買伴手禮 · 烏魚子、鳳梨酥、茶葉（預算 NT$5,000）"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚗 返回艾美酒店取行李 · 準備返家"
+        },
+        {
+          "time": "17:30",
+          "desc": "🚗 自駕或包車返回家中 · 行程結束"
+        }
+      ],
+      "day_photo": ""
+    }
+  ],
+  "costs": [
+    {
+      "label": "🚗 交通（租車+油資）",
+      "amount_ntd": 9000
+    },
+    {
+      "label": "🏨 住宿（礁溪老爺+艾美）",
+      "amount_ntd": 20000
+    },
+    {
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 18000
+    },
+    {
+      "label": "🎫 景點門票",
+      "amount_ntd": 10000
+    },
+    {
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 5000
+    },
+    {
+      "label": "♨️ 其他（小吃、停車、雜支）",
+      "amount_ntd": 8000
+    }
+  ],
+  "cost_total_ntd": 70000,
+  "budget_remaining_ntd": 30000,
+  "photos": {
+    "hero": [
+      {
+        "url": "",
+        "label": "Taiwan skyline landmark"
+      },
+      {
+        "url": "",
+        "label": "Taiwan skyline landmark"
+      }
+    ],
+    "destination": [
+      {
+        "url": "",
+        "label": "Taiwan travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Taiwan travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Taiwan travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Taiwan travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Taiwan travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Taiwan travel scenery"
+      }
+    ]
+  },
+  "chat_hash": "ee013e0bef2ad6f94ed1167710ec0e1bd956782c2b9eb23184f900cc79d5be53",
+  "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
+  "generated_at": "2026-06-02T14:22:32.526809"
+}
