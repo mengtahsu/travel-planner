@@ -406,8 +406,8 @@ def validate_plan(plan: dict[str, Any]) -> dict[str, Any]:
     for cat in ("fine_dining", "bistros", "cafes"):
         if cat not in cats or not isinstance(cats[cat], list):
             raise ValueError(f"AI response: restaurants.{cat} must be a list")
-    if not isinstance(plan.get("flight"), dict) or "airline" not in plan.get("flight", {}):
-        raise ValueError("AI response: flight must be an object with airline field")
+    if not isinstance(plan.get("flight"), dict):
+        raise ValueError("AI response: flight must be an object")
     return plan
 
 
