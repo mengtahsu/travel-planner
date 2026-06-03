@@ -4,6 +4,11 @@ on:
   repository_dispatch:
     types: [chat_saved]
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force regeneration (skip hash check)'
+        type: boolean
+        default: false
 
 # Grant GITHUB_TOKEN the permissions required
 permissions:
@@ -29,12 +34,13 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install duckduckgo_search
+          pip install ddgs
 
       - name: Run generator
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          FORCE_REGENERATE: ${{ github.event.inputs.force || 'false' }}
         run: python generator.py
 
       - name: Commit generated files to main
