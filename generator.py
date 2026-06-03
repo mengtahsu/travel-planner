@@ -450,7 +450,10 @@ def search_ddg_images(query: str, count: int = 4) -> list[dict[str, str]]:
         return True
 
     try:
-        from duckduckgo_search import DDGS
+        try:
+            from duckduckgo_search import DDGS
+        except ImportError:
+            from ddgs import DDGS
         results = list(DDGS().images(query, max_results=max(count * 4, 20)))
         photos = []
         seen = set()
