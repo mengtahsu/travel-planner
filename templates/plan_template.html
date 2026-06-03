@@ -47,6 +47,7 @@
   </div>
 
   <!-- ✈️ FLIGHT -->
+  {% if plan.flight %}
   <div class="full-card">
     <div class="full-card-header">
       <h2>✈️ 航班 Flight</h2>
@@ -79,6 +80,7 @@
       來回 NT$ <strong>{{ plan.flight.total_price_ntd | format_number }}</strong> / {{ plan.travelers }}人
     </div>
   </div>
+  {% endif %}
 
   <!-- 🏨 HOTELS -->
   <div class="full-card">
