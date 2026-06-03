@@ -386,7 +386,7 @@ def call_ai(prompt: str) -> dict[str, Any]:
 REQUIRED_PLAN_FIELDS = [
     "destination_en", "title_zh", "date_range", "start_date", "end_date",
     "departure", "departure_code", "destination_code", "travelers", "days",
-    "budget_ntd", "flight", "hotels", "restaurants", "itinerary",
+    "budget_ntd", "hotels", "restaurants", "itinerary",
     "costs", "cost_total_ntd", "budget_remaining_ntd",
 ]
 
@@ -406,8 +406,11 @@ def validate_plan(plan: dict[str, Any]) -> dict[str, Any]:
     for cat in ("fine_dining", "bistros", "cafes"):
         if cat not in cats or not isinstance(cats[cat], list):
             raise ValueError(f"AI response: restaurants.{cat} must be a list")
-    if not isinstance(plan.get("flight"), dict):
-        raise ValueError("AI response: flight must be an object")
+    if isinstance(plan.get("flight"), dict):
+        if "airline" not in plan["flight"]:
+            plan["flight"] = None  # incomplete flight → treat as no flight
+    elif "flight" in plan and plan["flight"] is not None:
+        plan["flight"] = None  # non-dict flight → treat as no flight
     return plan
 
 
