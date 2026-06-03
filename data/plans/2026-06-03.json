@@ -1,6 +1,6 @@
 {
-  "destination_en": "Alishan, Yunlin, Taiwan",
-  "title_zh": "阿里山雲林 · 三天兩夜親子自然之旅",
+  "destination_en": "Alishan and Yunlin, Taiwan",
+  "title_zh": "阿里山雲林 · 三天兩夜家庭之旅",
   "date_range": "2026/08/21–08/23",
   "start_date": "2026-08-21",
   "end_date": "2026-08-23",
@@ -11,64 +11,103 @@
   "days": 3,
   "budget_ntd": 100000,
   "flight": {
-    "airline": "無需飛行",
+    "airline": "台灣高鐵 Taiwan High Speed Rail",
     "departure_date": "8月21日",
     "return_date": "8月23日",
-    "total_price_ntd": 0,
+    "total_price_ntd": 7000,
     "outbound": {
-      "flight_no": "N/A",
-      "route": "TPE → 嘉義高鐵站（高鐵）",
-      "depart_time": "07:30",
-      "arrive_time": "09:00",
-      "duration": "1h 30m",
+      "flight_no": "高鐵 0805",
+      "route": "台北 → 嘉義 直達",
+      "depart_time": "10:11",
+      "arrive_time": "11:38",
+      "duration": "1h 27m",
       "class": "標準車廂"
     },
     "inbound": {
-      "flight_no": "N/A",
-      "route": "嘉義高鐵站 → TPE（高鐵）",
-      "depart_time": "17:00",
-      "arrive_time": "18:30",
-      "duration": "1h 30m",
+      "flight_no": "高鐵 0666",
+      "route": "雲林 → 台北 直達",
+      "depart_time": "18:00",
+      "arrive_time": "19:32",
+      "duration": "1h 32m",
       "class": "標準車廂"
     }
   },
   "hotels": [
     {
-      "name": "阿里山賓館 (Alishan House)",
+      "name": "阿里山賓館 Alishan House",
       "name_zh": "阿里山賓館",
       "district": "阿里山森林遊樂區",
       "day_range": "1–2",
-      "nights": 2,
-      "price_ntd": 18000,
+      "nights": 1,
+      "price_ntd": 8500,
       "stars": "★★★★☆",
-      "room_type": "兩間標準雙人房（可加床）",
+      "room_type": "兩間雙人房（一間加床）",
       "breakfast": "含自助早餐",
-      "amenities": "🏔️ 山景 · ♨️ 公共湯屋 · 🍽️ 中式餐廳 · 🌲 森林步道",
+      "amenities": "🌲 森林景觀 · ♨️ 檜木湯屋 · 🍽️ 中餐廳 · 🅿️ 免費停車",
       "search_query": "Alishan House hotel Taiwan",
       "photos": [
         {
           "url": "",
-          "label": "luxury hotel Alishan"
+          "label": "luxury hotel Alishan and Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan"
+          "label": "luxury hotel Alishan and Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan"
+          "label": "luxury hotel Alishan and Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan"
+          "label": "luxury hotel Alishan and Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan"
+          "label": "luxury hotel Alishan and Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan"
+          "label": "luxury hotel Alishan and Yunlin"
+        }
+      ]
+    },
+    {
+      "name": "雲林劍湖山渡假大飯店 Janfusun Resort Hotel",
+      "name_zh": "劍湖山渡假大飯店",
+      "district": "雲林古坑",
+      "day_range": "2–3",
+      "nights": 1,
+      "price_ntd": 6000,
+      "stars": "★★★★☆",
+      "room_type": "兩間家庭客房（各含兩大床）",
+      "breakfast": "含自助早餐",
+      "amenities": "🎢 劍湖山世界 · 🏊 戶外泳池 · 🧖 三溫暖 · 🅿️ 免費停車",
+      "search_query": "Janfusun Resort Hotel Yunlin Taiwan",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Alishan and Yunlin"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Alishan and Yunlin"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Alishan and Yunlin"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Alishan and Yunlin"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Alishan and Yunlin"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Alishan and Yunlin"
         }
       ]
     }
@@ -76,81 +115,81 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "阿里山賓館中餐廳 (Alishan House Chinese Restaurant)",
+        "name": "阿里山賓館中餐廳 Alishan House Chinese Restaurant",
         "name_zh": "阿里山賓館中餐廳",
         "stars": "",
-        "dish": "🍄 招牌：阿里山筍乾燉雞 · 高山蔬菜拼盤",
-        "address": "阿里山鄉中正村阿里山1號",
-        "price_ntd": 3000,
-        "price_label": "合菜 NT$3,000/桌（5人）",
-        "hours": "11:30–14:00 · 17:30–20:00",
-        "search_query": "Alishan House Chinese restaurant",
+        "dish": "🍲 招牌：阿里山筍殼魚 · 山葵豆腐 · 茶油雞",
+        "address": "阿里山賓館內",
+        "price_ntd": 2500,
+        "price_label": "五人和菜 NT$2,500",
+        "hours": "11:30–14:00 / 17:30–20:30",
+        "search_query": "Alishan House Chinese restaurant food Taiwan",
         "photos": [
           {
             "url": "",
-            "label": "fine dining food Alishan"
+            "label": "fine dining food Alishan and Yunlin"
           },
           {
             "url": "",
-            "label": "fine dining food Alishan"
+            "label": "fine dining food Alishan and Yunlin"
           },
           {
             "url": "",
-            "label": "fine dining food Alishan"
+            "label": "fine dining food Alishan and Yunlin"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "山賓土雞城 (Shan Bin Tu Ji Cheng)",
-        "name_zh": "山賓土雞城",
+        "name": "奮起湖老街便當 Fenqihu Old Street Bento",
+        "name_zh": "奮起湖大飯店便當",
         "stars": "",
-        "dish": "🐔 招牌：桶仔雞 · 竹筒飯 · 山蘇",
-        "address": "嘉義縣阿里山鄉樂野村4鄰149號",
-        "price_ntd": 2500,
-        "price_label": "合菜 NT$2,500/桌（5人）",
-        "hours": "11:00–20:00",
-        "search_query": "Shan Bin Tu Ji Cheng Alishan",
+        "dish": "🍱 招牌：奮起湖鐵路便當 · 滷排骨 · 高山蔬菜",
+        "address": "奮起湖老街",
+        "price_ntd": 800,
+        "price_label": "每人便當 NT$160 × 5人 = NT$800",
+        "hours": "10:00–17:00",
+        "search_query": "Fenqihu bento Taiwan food",
         "photos": [
           {
             "url": "",
-            "label": "bistros food Alishan"
+            "label": "bistros food Alishan and Yunlin"
           },
           {
             "url": "",
-            "label": "bistros food Alishan"
+            "label": "bistros food Alishan and Yunlin"
           },
           {
             "url": "",
-            "label": "bistros food Alishan"
+            "label": "bistros food Alishan and Yunlin"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "阿里山火車站咖啡廳 (Alishan Station Cafe)",
-        "name_zh": "阿里山火車站咖啡廳",
+        "name": "雲林古坑咖啡 Wenlin Gukeng Coffee",
+        "name_zh": "古坑咖啡 · 華山咖啡大街",
         "stars": "",
-        "dish": "☕ 招牌：阿里山咖啡 · 手工餅乾",
-        "address": "阿里山鄉中正村阿里山火車站2樓",
-        "price_ntd": 600,
-        "price_label": "5人飲品點心 NT$600",
-        "hours": "08:00–17:00",
-        "search_query": "Alishan Station Cafe",
+        "dish": "☕ 招牌：台灣古坑咖啡 · 咖啡凍 · 手工餅乾",
+        "address": "雲林古坑華山",
+        "price_ntd": 500,
+        "price_label": "五人咖啡點心 NT$500",
+        "hours": "09:00–18:00",
+        "search_query": "Gukeng coffee Yunlin Taiwan",
         "photos": [
           {
             "url": "",
-            "label": "cafe coffee Alishan"
+            "label": "cafe coffee Alishan and Yunlin"
           },
           {
             "url": "",
-            "label": "cafe coffee Alishan"
+            "label": "cafe coffee Alishan and Yunlin"
           },
           {
             "url": "",
-            "label": "cafe coffee Alishan"
+            "label": "cafe coffee Alishan and Yunlin"
           }
         ]
       }
@@ -159,120 +198,178 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Aug 21 · Fri",
-      "label_zh": "第一天 · 阿里山森林浴 & 雲林古坑咖啡",
-      "day_query": "Alishan forest railway Taiwan",
+      "date": "8月21日 · 週五",
+      "label_zh": "阿里山森林 · 夕陽與星空",
+      "day_query": "Alishan Forest Recreation Area Taiwan",
       "hotel_name": "阿里山賓館 Alishan House",
-      "hotel_name_zh": "阿里山賓館",
-      "hotel_room": "兩間標準雙人房（加床）",
+      "hotel_name_zh": "阿里山賓館 · 兩間房（一間加床）",
+      "hotel_room": "兩間雙人房（一間加床）",
       "weather": "☁️ 22°/15°",
       "rain_pct": "30%",
       "slots": [
         {
-          "time": "07:00",
-          "desc": "🚄 台北車站集合 · 搭乘高鐵 07:30 前往嘉義（標準車廂 · NT$2,800/5人）"
-        },
-        {
           "time": "09:00",
-          "desc": "🚌 抵達嘉義高鐵站 · 轉乘台灣好行阿里山線（09:30發車 · 車程約2.5小時 · NT$1,000/5人）"
+          "desc": "🛌 睡到九點 · 起床洗漱 · 收拾輕便行李"
         },
         {
-          "time": "11:30",
-          "desc": "🏨 抵達阿里山森林遊樂區 · 阿里山賓館辦理入住 · 寄放行李"
+          "time": "09:30",
+          "desc": "🥐 在台北車站附近用簡單早餐（摩斯漢堡或阜杭豆漿）"
+        },
+        {
+          "time": "10:11",
+          "desc": "🚄 高鐵台北站出發 · 車次 0805 · 直達嘉義（1h27m）· 車上可補眠"
+        },
+        {
+          "time": "11:38",
+          "desc": "🚉 抵達高鐵嘉義站 · 出站至2號出口 · 轉乘台灣好行阿里山線（12:00發車）"
         },
         {
           "time": "12:00",
-          "desc": "🍽️ 阿里山賓館中餐廳午餐 · 合菜：筍乾燉雞、高山蔬菜（NT$3,000）"
+          "desc": "🚌 台灣好行巴士前往阿里山（約2.5小時）· 車上欣賞沿途山景"
         },
         {
-          "time": "13:30",
-          "desc": "🚂 搭乘阿里山森林小火車至沼平車站（單程NT$100/人 · 約7分鐘）· 沿途欣賞神木與雲海"
+          "time": "14:30",
+          "desc": "🏨 抵達阿里山森林遊樂區 · 入住阿里山賓館 · 兩間房（一間加床給三位女兒）"
         },
         {
-          "time": "14:00",
-          "desc": "🌲 沼平公園 → 姊妹潭 → 受鎮宮 · 森林步道漫步（約2小時）"
+          "time": "15:00",
+          "desc": "🚶 漫步巨木群棧道 · 參觀香林神木 · 三代木 · 吸收森林芬多精"
         },
         {
-          "time": "16:30",
-          "desc": "☕ 阿里山火車站咖啡廳休息 · 品嚐阿里山咖啡與手工餅乾（NT$600）"
+          "time": "17:00",
+          "desc": "☕ 阿里山賓館下午茶 · 品嚐高山烏龍茶與茶點"
         },
         {
           "time": "18:00",
-          "desc": "🍽️ 山賓土雞城晚餐 · 桶仔雞、竹筒飯、山蘇（NT$2,500）"
+          "desc": "🍽️ 阿里山賓館中餐廳 · 享用五人和菜（筍殼魚、山葵豆腐、茶油雞）"
         },
         {
-          "time": "20:00",
-          "desc": "♨️ 返回阿里山賓館 · 享受公共湯屋 · 觀星（帶外套，夜間約15°C）"
+          "time": "19:30",
+          "desc": "🌌 夜間觀星 · 阿里山無光害星空 · 可至小笠原山觀景台（需自備手電筒）"
         },
         {
-          "time": "21:30",
-          "desc": "🌙 就寢 · 為明日日出做準備"
+          "time": "21:00",
+          "desc": "🛁 回房泡檜木湯屋 · 放鬆入睡"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 2,
-      "date": "Aug 22 · Sat",
-      "label_zh": "第二天 · 阿里山日出 & 雲林古坑",
+      "date": "8月22日 · 週六",
+      "label_zh": "阿里山日出 · 奮起湖 · 轉往雲林",
       "day_query": "Alishan sunrise Zhushan platform",
-      "hotel_name": "阿里山賓館 Alishan House",
-      "hotel_name_zh": "阿里山賓館",
-      "hotel_room": "兩間標準雙人房（加床）",
-      "weather": "🌤️ 25°/16°",
-      "rain_pct": "20%",
+      "hotel_name": "劍湖山渡假大飯店 Janfusun Resort Hotel",
+      "hotel_name_zh": "劍湖山渡假大飯店 · 兩間家庭客房",
+      "hotel_room": "兩間家庭客房（各含兩大床）",
+      "weather": "☀️ 24°/16°",
+      "rain_pct": "10%",
       "slots": [
         {
-          "time": "04:00",
-          "desc": "⏰ 起床 · 飯店大廳集合 · 搭乘祝山線小火車（04:30發車 · NT$150/人）"
-        },
-        {
-          "time": "05:10",
-          "desc": "🌅 祝山觀日平台 · 欣賞阿里山日出（約05:30）· 必拍：雲海與曙光"
-        },
-        {
-          "time": "06:30",
-          "desc": "🚶 步行下山經對高岳步道 · 約1小時 · 沿途欣賞高山植物"
-        },
-        {
-          "time": "07:30",
-          "desc": "🍽️ 返回阿里山賓館享用自助早餐（含房費）"
-        },
-        {
           "time": "09:00",
-          "desc": "🛍️ 阿里山商店街購物 · 購買山葵、茶葉、蜂蜜伴手禮（預算NT$2,000）"
+          "desc": "🛌 睡到九點 · 起床 · 前往阿里山賓館餐廳享用自助早餐"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚶 搭乘阿里山小火車至沼平車站 · 欣賞櫻花（8月有繡球花）"
         },
         {
           "time": "10:30",
-          "desc": "🚌 退房 · 搭乘台灣好行前往嘉義高鐵站（11:00發車 · NT$1,000/5人）"
+          "desc": "📸 沼平公園 · 姊妹潭 · 拍照留念"
         },
         {
-          "time": "13:00",
-          "desc": "🚄 嘉義高鐵站 → 雲林高鐵站（13:30–13:50 · NT$700/5人）"
+          "time": "11:30",
+          "desc": "🧳 退房 · 寄放行李在櫃檯"
+        },
+        {
+          "time": "12:00",
+          "desc": "🚌 搭乘台灣好行前往奮起湖（約40分鐘）"
+        },
+        {
+          "time": "12:45",
+          "desc": "🍱 奮起湖老街 · 享用奮起湖大飯店鐵路便當 · 逛老街買伴手禮（火車餅、愛玉）"
         },
         {
           "time": "14:00",
-          "desc": "🚕 雲林高鐵站 → 古坑綠色隧道（計程車約20分鐘 · NT$400）"
+          "desc": "🚌 搭乘台灣好行返回阿里山（約40分鐘）"
         },
         {
-          "time": "14:30",
-          "desc": "🌳 古坑綠色隧道 · 騎腳踏車（租車NT$200/人 · 約1小時）· 情人橋拍照"
+          "time": "14:45",
+          "desc": "🧳 取行李 · 搭乘預約接駁車前往雲林（約2小時）"
         },
         {
-          "time": "16:00",
-          "desc": "☕ 古坑華山咖啡大街 · 參觀咖啡烘豆體驗（NT$300/人）· 品嚐台灣咖啡"
+          "time": "17:00",
+          "desc": "🏨 抵達雲林劍湖山渡假大飯店 · 辦理入住 · 兩間家庭客房"
         },
         {
-          "time": "17:30",
-          "desc": "🍽️ 華山小吃部晚餐 · 推薦：咖啡雞、苦茶油雞（NT$2,000）"
+          "time": "18:00",
+          "desc": "🎢 劍湖山世界夜間遊園（週六延長至21:00）· 玩摩天輪、雲霄飛車"
         },
         {
-          "time": "19:00",
-          "desc": "🚕 返回雲林高鐵站 · 搭乘高鐵20:00回台北（NT$3,500/5人）"
+          "time": "20:00",
+          "desc": "🍽️ 劍湖山園區內餐廳 · 五人和菜或各自點餐"
         },
         {
           "time": "21:30",
-          "desc": "🏠 抵達台北車站 · 結束旅程"
+          "desc": "🏊 飯店泳池夜游 · 三溫暖"
+        },
+        {
+          "time": "22:30",
+          "desc": "🛌 回房休息"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 3,
+      "date": "8月23日 · 週日",
+      "label_zh": "古坑咖啡 · 斗六老街 · 返程",
+      "day_query": "Gukeng Coffee Street Yunlin Taiwan",
+      "hotel_name": "返家",
+      "hotel_name_zh": "返家",
+      "hotel_room": "",
+      "weather": "☀️ 30°/24°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "🛌 睡到九點 · 起床享用飯店自助早餐"
+        },
+        {
+          "time": "10:00",
+          "desc": "🧳 退房 · 行李寄放飯店櫃檯"
+        },
+        {
+          "time": "10:30",
+          "desc": "☕ 前往古坑華山咖啡大街 · 品嚐台灣古坑咖啡 · 女兒們喝冰拿鐵、吃咖啡凍"
+        },
+        {
+          "time": "12:00",
+          "desc": "🚗 搭計程車至斗六市區（約30分鐘）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍜 斗六老街 · 午餐吃在地小吃（斗六肉圓、魷魚羹、碗粿）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛍️ 逛斗六太平老街 · 買伴手禮（醬油、花生糖）"
+        },
+        {
+          "time": "15:30",
+          "desc": "🚕 搭計程車返回劍湖山飯店取行李（約30分鐘）"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚕 搭計程車前往雲林高鐵站（約20分鐘）"
+        },
+        {
+          "time": "18:00",
+          "desc": "🚄 高鐵雲林站出發 · 車次 0666 · 直達台北（1h32m）"
+        },
+        {
+          "time": "19:32",
+          "desc": "🚉 抵達台北 · 各自返家 · 結束愉快的家庭旅行"
         }
       ],
       "day_photo": ""
@@ -280,75 +377,71 @@
   ],
   "costs": [
     {
-      "label": "🚄 高鐵（台北↔嘉義↔雲林）",
-      "amount_ntd": 8000
+      "label": "🚄 高鐵來回（5人）",
+      "amount_ntd": 7000
     },
     {
-      "label": "🚌 台灣好行阿里山線",
-      "amount_ntd": 2000
+      "label": "🏨 住宿（兩晚兩間房）",
+      "amount_ntd": 14500
     },
     {
-      "label": "🏨 住宿（阿里山賓館兩間房兩晚）",
-      "amount_ntd": 36000
+      "label": "🚌 阿里山台灣好行＋接駁車",
+      "amount_ntd": 5000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 14000
+      "amount_ntd": 10000
     },
     {
-      "label": "🎫 景點門票（小火車、腳踏車、體驗）",
-      "amount_ntd": 6000
+      "label": "🎫 阿里山門票＋小火車＋劍湖山門票",
+      "amount_ntd": 8000
     },
     {
-      "label": "🚕 計程車",
-      "amount_ntd": 2000
-    },
-    {
-      "label": "🛍️ 購物伴手禮",
+      "label": "🛍️ 伴手禮與雜支",
       "amount_ntd": 5000
     }
   ],
-  "cost_total_ntd": 73000,
-  "budget_remaining_ntd": 27000,
+  "cost_total_ntd": 49500,
+  "budget_remaining_ntd": 50500,
   "photos": {
     "hero": [
       {
         "url": "",
-        "label": "Alishan skyline landmark"
+        "label": "Alishan and Yunlin skyline landmark"
       },
       {
         "url": "",
-        "label": "Alishan skyline landmark"
+        "label": "Alishan and Yunlin skyline landmark"
       }
     ],
     "destination": [
       {
         "url": "",
-        "label": "Alishan travel scenery"
+        "label": "Alishan and Yunlin travel scenery"
       },
       {
         "url": "",
-        "label": "Alishan travel scenery"
+        "label": "Alishan and Yunlin travel scenery"
       },
       {
         "url": "",
-        "label": "Alishan travel scenery"
+        "label": "Alishan and Yunlin travel scenery"
       },
       {
         "url": "",
-        "label": "Alishan travel scenery"
+        "label": "Alishan and Yunlin travel scenery"
       },
       {
         "url": "",
-        "label": "Alishan travel scenery"
+        "label": "Alishan and Yunlin travel scenery"
       },
       {
         "url": "",
-        "label": "Alishan travel scenery"
+        "label": "Alishan and Yunlin travel scenery"
       }
     ]
   },
-  "chat_hash": "bcfeb9df13e296807b6c2fdc24dcae50bbdfce66c8518edd8bf821c87718c9dd",
+  "chat_hash": "aee058135f9e2c8d83e6d9632499987472fb751d5b6810c740bfd22d421881c7",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-03T12:50:43.540020"
+  "generated_at": "2026-06-03T12:54:52.544132"
 }
