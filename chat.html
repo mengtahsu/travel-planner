@@ -185,9 +185,10 @@ function fetchWorkflowAndShowLog(token, logEl, statusEl) {
 
   fetch('https://api.github.com/repos/' + REPO + '/dispatches', {
     method: 'POST',
-    headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+    headers: {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json'},
     body: JSON.stringify({event_type: 'chat_saved'})
-  }).then(function() {
+  }).then(function(r) {
+    if (!r.ok) { logEl.innerHTML = '<span style=\"color:#e88;\">Dispatch 失敗: HTTP ' + r.status + '</span>'; return; }
     logEl.innerHTML = '<span style=\"color:#888;\">搜尋 workflow run…</span>';
     var tries = 0;
     var poll = setInterval(function() {
