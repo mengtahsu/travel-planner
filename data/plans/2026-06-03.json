@@ -1,9 +1,9 @@
 {
   "destination_en": "Alishan and Yunlin, Taiwan",
-  "title_zh": "阿里山與雲林 · 三天兩夜奢華家庭之旅",
-  "date_range": "2026/07/14–07/16",
-  "start_date": "2026-07-14",
-  "end_date": "2026-07-16",
+  "title_zh": "阿里山雲林 · 夏日避暑三天兩夜家庭之旅",
+  "date_range": "2026/07/15–07/17",
+  "start_date": "2026-07-15",
+  "end_date": "2026-07-17",
   "departure": "頭份 (Toufen)",
   "departure_code": "TPE",
   "destination_code": "CYI",
@@ -12,102 +12,102 @@
   "budget_ntd": 100000,
   "flight": {
     "airline": "自駕 (Self-drive)",
-    "departure_date": "7月14日",
-    "return_date": "7月16日",
-    "total_price_ntd": 6000,
+    "departure_date": "7月15日",
+    "return_date": "7月17日",
+    "total_price_ntd": 5000,
     "outbound": {
-      "flight_no": "N/A",
-      "route": "頭份 → 阿里山 (自駕約3小時)",
+      "flight_no": "自駕",
+      "route": "頭份 → 阿里山 (台3線 + 台18線)",
       "depart_time": "09:00",
-      "arrive_time": "12:00",
-      "duration": "3h",
+      "arrive_time": "12:30",
+      "duration": "3h 30m",
       "class": "自駕"
     },
     "inbound": {
-      "flight_no": "N/A",
-      "route": "雲林 → 頭份 (自駕約2小時)",
-      "depart_time": "16:00",
-      "arrive_time": "18:00",
-      "duration": "2h",
+      "flight_no": "自駕",
+      "route": "雲林 → 頭份 (國道1號)",
+      "depart_time": "15:00",
+      "arrive_time": "17:30",
+      "duration": "2h 30m",
       "class": "自駕"
     }
   },
   "hotels": [
     {
-      "name": "阿里山賓館 (Alishan Hotel)",
+      "name": "阿里山賓館 (Alishan House)",
       "name_zh": "阿里山賓館",
-      "district": "阿里山國家森林遊樂區",
-      "day_range": "1",
+      "district": "阿里山森林遊樂區內",
+      "day_range": "1–2",
       "nights": 1,
-      "price_ntd": 18000,
+      "price_ntd": 28000,
       "stars": "★★★★★",
-      "room_type": "豪華家庭房 (兩間房)",
-      "breakfast": "含自助式早餐",
-      "amenities": "🌲 森林景觀 · 🛁 私人浴缸 · 🍽️ 館內餐廳 · 🅿️ 免費停車",
-      "search_query": "Alishan Hotel luxury family room",
+      "room_type": "兩間豪華雙人房 (2間)",
+      "breakfast": "含自助早餐",
+      "amenities": "🌲 森林景觀 · 🛁 按摩浴缸 · 🍽️ 中餐廳 · 🧖 蒸氣室",
+      "search_query": "Alishan House hotel Taiwan",
       "photos": [
         {
-          "url": "https://digital.ihg.com/is/image/ihg/hotel-indigo-chiayi-county-8146137936-2x1",
-          "label": "Hotel Indigo Alishan | A Family Escape in Nature and Culture"
+          "url": "https://ak-d.tripcdn.com/images/1mc0s12000elhcldy2268_R_960_660_R5_D.jpg",
+          "label": "Alishan House(嘉义阿里山宾馆) in Chiayi County - 2026 Prices & Reviews | Trip.com"
         },
         {
-          "url": "https://hospitalitysnapshots.com/wp-content/uploads/sites/3/2023/07/20221123-阿里山indigo93002-HDR.jpg",
-          "label": "The Indigo Hotel Alishan - Hospitality Snapshots"
+          "url": "https://www.marimari.com/hotel/taiwan/alishan/alishan_house/images/alisan_hotel2.jpg",
+          "label": "Alishan House Hotel,Alishan,Taiwan - Super Low Rate"
         },
         {
-          "url": "https://hospitalitysnapshots.com/wp-content/uploads/sites/3/2023/07/20221123-阿里山indigo92710-HDR.jpg",
-          "label": "The Indigo Hotel Alishan - Hospitality Snapshots"
+          "url": "https://www.bambootravel.co.uk/files/img_cache/40097/1400__1500389423_AlishanHouse2.jpg?1500389487",
+          "label": "Alishan House | Bamboo Travel"
         },
         {
-          "url": "https://www.alishanhotel.com.tw/upload/room_list_pic/DSC_8367-1__24F25qkZ86.jpg",
-          "label": "front page-Alishan Hotel"
+          "url": "https://media.pangeatravel.nl/groot/groot/taiwan_0230_PT.jpg",
+          "label": "Chao Li Alishan House - Taiwan | PANGEA Travel"
         },
         {
-          "url": "https://www.alishanhotel.com.tw/upload/room_list_pic/enL_room_24B02_jpe4RSJB1r.jpg",
-          "label": "Accommodation-Alishan Hotel"
+          "url": "https://www.taiwan-roads.fr/wp-content/uploads/2025/01/alishan-guest-house-3.jpg",
+          "label": "Alishan Guest House, a hotel in the Alishan region - Taiwan"
         },
         {
-          "url": "https://taiwanderers.com/wp-content/uploads/2025/03/alishan-sunrise-20.jpg",
-          "label": "Best Hotels Inside Alishan National Forest Recreation Area - Taiwanderers"
+          "url": "https://images.trvl-media.com/hotels/11000000/10390000/10389400/10389342/0f3af5d3_z.jpg",
+          "label": "Alishan House in Alishan | Best Rates & Deals on Orbitz"
         }
       ]
     },
     {
-      "name": "雲林三好國際酒店 (Sun Hao Hotel)",
-      "name_zh": "三好國際酒店",
-      "district": "雲林斗六",
-      "day_range": "2",
+      "name": "雲品酒店 (Yunlin Grand View Hotel)",
+      "name_zh": "雲品酒店",
+      "district": "雲林斗六市",
+      "day_range": "2–3",
       "nights": 1,
-      "price_ntd": 15000,
+      "price_ntd": 22000,
       "stars": "★★★★★",
-      "room_type": "豪華家庭房 (兩間房)",
-      "breakfast": "含自助式早餐",
-      "amenities": "🏊 戶外泳池 · 💆 SPA · 🍽️ 高級餐廳 · 🅿️ 免費停車",
-      "search_query": "Sun Hao Hotel Yunlin luxury",
+      "room_type": "兩間高級家庭房 (2間)",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 室外泳池 · 🎠 兒童遊戲室 · 🍽️ 義式餐廳 · 🧖 三溫暖",
+      "search_query": "Yunlin Grand View Hotel Taiwan",
       "photos": [
         {
-          "url": "https://media.licdn.com/dms/image/sync/v2/D4D27AQGeMCGuuGp-Rg/articleshare-shrink_800/articleshare-shrink_800/0/1712034167111?e=2147483647&v=beta&t=U28ENEnAtdX_WsnIpRmvk5sZbkM5Xk_E-RSkJdHDrs4",
-          "label": "Wendy H. on LinkedIn: Hotel Indigo Alishan - World Luxury Hotel Awards"
+          "url": "https://amilliontravels.com/wp-content/uploads/2023/08/Alishan-hotel-booking.jpg",
+          "label": "GUIDE TO ALISHAN TRAIN, SUNRISE & BEST TRAILS - TAIWAN"
         },
         {
-          "url": "https://besthotelsresortsawards.com/wp-content/uploads/2024/04/Hotel-Indigo-Alishan-700x500.jpeg",
-          "label": "Hotel Indigo Alishan: Taiwan's Leading Sustainability Hotel 2024 - Best ..."
+          "url": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcf5sn3aX8Kv3S3_s6X9H84cPc5pwc4Kg52RQSQkhws5boTzdlBvp0rg8rXv7RrNX8AtNUrl9wZ8eOSAr-iGdH9CoejzvyxmJJSangCVaa-SonIUQj99jqa4xq7m_sF6_hJDVUoCg?key=FrKto5Qe6fbUwEK4GfpSUFFP",
+          "label": "Alishan Two-Day Tour Guide｜The Best Way to Fully Experience Taiwan’s ..."
         },
         {
-          "url": "https://hospitalitysnapshots.com/wp-content/uploads/sites/3/2023/07/20221123-阿里山indigo92671-HDR-1200x800-compact.jpg",
-          "label": "The Indigo Hotel Alishan - Hospitality Snapshots"
+          "url": "https://digital.ihg.com/is/image/ihg/hotel-indigo-chiayi-county-8519563103-2x1",
+          "label": "Hotel Indigo Alishan | A Family Escape in Nature and Culture"
         },
         {
-          "url": "https://outoftownblog.com/wp-content/uploads/2023/11/Dafong-Hotel-700x524.jpeg",
-          "label": "Alishan Travel Guide: A Comprehensive Guide to Taiwan's Scenic ..."
+          "url": "https://taiwanderers.com/wp-content/uploads/2025/03/alishan-sunrise-20.jpg",
+          "label": "Best Hotels Inside Alishan National Forest Recreation Area - Taiwanderers"
+        },
+        {
+          "url": "https://besthotelsresortsawards.com/wp-content/uploads/2023/12/Hotel-Indigo-Alishan-5.jpeg",
+          "label": "The Grand Ceremony of Best Hotels & Resorts Awards 2024 Sets the Stage ..."
         },
         {
           "url": "https://besthotelsresortsawards.com/wp-content/uploads/2023/12/Hotel-Indigo-Alishan-4.jpeg",
           "label": "The Grand Ceremony of Best Hotels & Resorts Awards 2024 Sets the Stage ..."
-        },
-        {
-          "url": "https://img.superatours.com/signet/prod/picture/2c9280867c7381a2017ca1a987f47bae.jpg",
-          "label": "Taiwan's Heartland: Alishan + Sun Moon Lake 2026 | 8 Days | Supera ..."
         }
       ]
     }
@@ -115,156 +115,156 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "阿里山賓館雲霧餐廳 (Cloud Mist Restaurant)",
-        "name_zh": "雲霧餐廳",
-        "stars": "無",
-        "dish": "🍲 招牌：阿里山高山蔬菜鍋 · 烤山豬肉",
+        "name": "阿里山賓館 · 雲霧中餐廳",
+        "name_zh": "阿里山賓館 · 雲霧中餐廳",
+        "stars": "⭐",
+        "dish": "🍲 招牌：砂鍋阿里山筍雞湯 · 茶油燜雞",
         "address": "阿里山賓館內",
-        "price_ntd": 4000,
-        "price_label": "晚餐套餐 NT$800/人 x 5人 · NT$4,000",
+        "price_ntd": 6000,
+        "price_label": "家庭合菜 NT$6,000 (5人)",
         "hours": "17:30–20:30 · 需預約",
-        "search_query": "Alishan Hotel restaurant Cloud Mist",
+        "search_query": "Alishan House Chinese restaurant",
         "photos": [
           {
-            "url": "https://www.bespokefood.uk/wp-content/uploads/2024/11/Fine-dining-min.jpg",
-            "label": "Hospitality, Fine Dining & Events | Bespoke Food Group"
+            "url": "https://ak-d.tripcdn.com/images/1mc0s12000elhcldy2268_R_960_660_R5_D.jpg",
+            "label": "Alishan House(嘉义阿里山宾馆) in Chiayi County - 2026 Prices & Reviews | Trip.com"
           },
           {
-            "url": "https://digital.ihg.com/is/image/ihg/hotel-indigo-chiayi-county-8302359295-2x1",
-            "label": "Dining | Hotel Indigo Hotel Indigo Alishan"
+            "url": "https://www.marimari.com/hotel/taiwan/alishan/alishan_house/images/alisan_chineserest.jpg",
+            "label": "Alishan House Hotel,Alishan,Taiwan - Super Low Rate"
           },
           {
-            "url": "https://cdn.yemek.com/uploads/2025/11/fine-dining-shutter3.jpg",
-            "label": "Fine Dining Nedir? Fine Dining Restoranların Özellikleri ve Menü ..."
+            "url": "https://www.bambootravel.co.uk/files/img_cache/40095/1400__1500389279_AlishanHouse1.jpg?1500389487",
+            "label": "Alishan House | Bamboo Travel"
           }
         ]
       },
       {
-        "name": "三好國際酒店晶饌廳 (Jing Zhuan Hall)",
-        "name_zh": "晶饌廳",
-        "stars": "無",
-        "dish": "🦐 招牌：龍蝦套餐 · 和牛牛排",
-        "address": "三好國際酒店內",
-        "price_ntd": 10000,
-        "price_label": "晚餐套餐 NT$2,000/人 x 5人 · NT$10,000",
-        "hours": "18:00–21:00 · 需預約",
-        "search_query": "Sun Hao Hotel Jing Zhuan restaurant",
+        "name": "菊園日本料理 (Kikuen)",
+        "name_zh": "菊園日本料理",
+        "stars": "⭐",
+        "dish": "🍣 招牌：綜合握壽司 · 龍蝦沙拉",
+        "address": "雲林縣斗六市成功路168號",
+        "price_ntd": 8000,
+        "price_label": "家庭套餐 NT$8,000 (5人)",
+        "hours": "11:30–14:00 / 17:30–21:00 · 需預約",
+        "search_query": "Kikuen Japanese restaurant Yunlin",
         "photos": [
           {
-            "url": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/143285405.jpg?k=8722aa9aaec269cdecdeba8283410bc96d8032468f75310fbeacb2c1f42213f6&o=",
-            "label": "【2023年最新優惠】三好行旅 (Sun Hao Hotel.Taichung) | 台中市住宿推薦 - Agoda"
+            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1444649877391304",
+            "label": "Kiku... - Kiku Japanese Restaurant ร้านอาหารญี่ปุ่น คิขุ"
           },
           {
-            "url": "https://res.klook.com/image/upload/v1619000900/hotel/gqlk7uereduyx3tm2e5m.jpg",
-            "label": "Sun Hao Hotel.Taichung in Taichung | 2024 Updated prices, deals - Klook ..."
+            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=845341193988845",
+            "label": "Kiku Japanese Restaurant ร้านอาหารญี่ปุ่น คิขุ"
           },
           {
-            "url": "https://scbear269.com/wp-content/uploads/2024/01/Douliu-Sun-Hao-International-Hotel-breakfast016.jpg",
-            "label": "【斗六】「三好國際酒店Sun Hao International Hotel．三好米旗下，位在棒球場旁的星級飯店（露天游泳池/健身房/腳踏車 ..."
+            "url": "https://images.squarespace-cdn.com/content/v1/68c91747fd3df464284ea836/c0f675fc-e889-47eb-8063-3add2a778f5e/DSC00472.jpeg?format=750w",
+            "label": "Kiku-Japanese-Cuisine.com"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "奮起湖老街便當 (Fenchihu Old Street Bento)",
-        "name_zh": "奮起湖老街便當",
-        "stars": "無",
-        "dish": "🍱 招牌：奮起湖便當 · 竹筍湯",
+        "name": "奮起湖老街小吃",
+        "name_zh": "奮起湖老街小吃",
+        "stars": "",
+        "dish": "🍱 招牌：奮起湖便當 · 草仔粿 · 愛玉冰",
         "address": "嘉義縣竹崎鄉奮起湖",
-        "price_ntd": 1250,
-        "price_label": "便當 NT$250/人 x 5人 · NT$1,250",
+        "price_ntd": 1000,
+        "price_label": "家庭小吃 NT$1,000 (5人)",
         "hours": "10:00–17:00",
-        "search_query": "Fenchihu bento old street",
+        "search_query": "Fenqihu street food Alishan",
         "photos": [
           {
-            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=532121731853835",
-            "label": "Asian Bistros II Bethlehem... - Asian Bistros II Bethlehem"
+            "url": "https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/www.taiwanobsessed.com/wp-content/uploads/2024/06/fenqihu-train-station-bento-boxes-300x225.jpg",
+            "label": "Fenqihu Old Street: Bentos, Bamboo & Fireflies in Alishan Region ..."
           },
           {
-            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=527574622707294",
-            "label": "Asian Bistros II Bethlehem... - Asian Bistros II Bethlehem"
+            "url": "https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/www.taiwanobsessed.com/wp-content/uploads/2024/06/beautiful-fenqihu-bento-boxes-768x576.jpg",
+            "label": "Fenqihu Old Street: Bentos, Bamboo & Fireflies in Alishan Region ..."
           },
           {
-            "url": "https://stockphotodesign.com/wp-content/uploads/2024/02/Bistro-Restaurant-Food-Business.jpg",
-            "label": "Bistro Restaurant - Food Business - Just Useful Stock Images"
+            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZyv1XLzgufPCx-z5W1JyJQi29QRTqsghGWF7595zw0h9eZEnGdCH1SpkJODxakd8nTBAYDtHC6Lb6UV0Y_lrD5KPuiVY_nIvG5srrtGJB88dRsDtmlTqu98HQCz7FwxGye7L_2HqXjnE/s1600/0-0+4+Must+Eats+Food+in+Fenqihu.JPG",
+            "label": "Endless Traveling Map: 4 Must-Eat Food In Fenqihu, Taiwan"
           }
         ]
       },
       {
-        "name": "雲林西螺祖傳麻糬 (Xiluo Traditional Mochi)",
-        "name_zh": "西螺祖傳麻糬",
-        "stars": "無",
-        "dish": "🍡 招牌：手工麻糬 · 花生粉",
+        "name": "西螺老街小吃",
+        "name_zh": "西螺老街小吃",
+        "stars": "",
+        "dish": "🍜 招牌：西螺米糕 · 蚵嗲 · 豆花",
         "address": "雲林縣西螺鎮延平路",
-        "price_ntd": 500,
-        "price_label": "麻糬禮盒 NT$500",
-        "hours": "08:00–18:00",
-        "search_query": "Xiluo mochi traditional",
+        "price_ntd": 800,
+        "price_label": "家庭小吃 NT$800 (5人)",
+        "hours": "10:00–18:00",
+        "search_query": "Xiluo old street food Yunlin",
         "photos": [
           {
-            "url": "https://cdn.realfakeblogs.com/bc977489-52f4-4bc3-8800-2f31a06cb676/normal/c5929c83925344928ec60612cbd5039c.jpg",
-            "label": "Japanese Mochi: Understanding Traditional Rice Cakes | INDULGE"
+            "url": "https://blogger.googleusercontent.com/img/a/AVvXsEgw-XI-Y8eutsK6HSUWcsrUorVQctWVUh_CyoMuvfPTp3a_4xrxbtI4nZi9yErUpXus09bBhhOK_JIV2s-Q3PvFdK51tciIynhdxzRe7RSeO2tuDlSJOBWovvS12-avm1xDl2m44PQ6MB2ZOpaxMENgHgN1QfprpjOSz50CeGoZijb0GuZlP3I5vQvb=w480-h640",
+            "label": "Yunlin Travel: Xiluo Old Street and Fuxing Temple - My Life Abroad"
           },
           {
-            "url": "https://www.tasteatlas.com/Images/Dishes/60ced13084f246e188b5ab1e24573dcf.jpg",
-            "label": "Japanese Mochi"
+            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEsEEogbp-nVHEzf555jU6DW6duliYETcxxwweLnDfE39CcTs7DQrX_17y6-YfdlsDPa0OrZS9nAVZ-oQmt3cabo2ygFi5pgMOYj7hmbWmW8KBLBWAqyHxWMe85d0HwPpT7VdAg4PbxXJhHNVqcZL_qxBLfLilhHi2voql7HD_nI9k7o4vphFhjmyq/s2050/6E5B13DB-B3DD-439E-BE7D-2F2391024848.jpeg",
+            "label": "Yunlin Travel: Xiluo Old Street during Lunar New Year - My Life Abroad"
           },
           {
-            "url": "https://www.tasteatlas.com/images/dishes/7cce87e6040347f5930f6356a6b4ab52.jpg",
-            "label": "How To Cook Japanese Mochi"
+            "url": "https://as1.ftcdn.net/v2/jpg/05/26/00/70/1000_F_526007078_4S00Arup0MjYM6hNDeKVUuK1sRAYD05G.jpg",
+            "label": "Yunlin, Taiwan- December 11, 2021: Building view of Yenping Old Street ..."
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "阿里山賓館咖啡廳 (Alishan Hotel Cafe)",
-        "name_zh": "阿里山賓館咖啡廳",
-        "stars": "無",
-        "dish": "☕ 招牌：阿里山咖啡 · 手工餅乾",
-        "address": "阿里山賓館1樓",
-        "price_ntd": 1000,
-        "price_label": "下午茶 NT$200/人 x 5人 · NT$1,000",
+        "name": "阿里山賓館 · 雲端咖啡廳",
+        "name_zh": "阿里山賓館 · 雲端咖啡廳",
+        "stars": "",
+        "dish": "☕ 招牌：阿里山咖啡 · 手工餅乾 · 茶凍",
+        "address": "阿里山賓館內",
+        "price_ntd": 1200,
+        "price_label": "家庭下午茶 NT$1,200 (5人)",
         "hours": "14:00–17:00",
-        "search_query": "Alishan Hotel cafe",
+        "search_query": "Alishan House cafe",
         "photos": [
           {
-            "url": "https://www.alishanhotel.com.tw/upload/fac_list_pic/enL_fac_24C19_YG4clbGTlk.jpg",
-            "label": "Facilities-Alishan Hotel"
+            "url": "https://www.getmetotaiwan.com/wp-content/uploads/2022/10/nature-chiayi-ajang-home-23-coffee-house-entrance.jpg",
+            "label": "Treasures in the Alishan Mountains - Get Me To Taiwan"
           },
           {
-            "url": "https://taiwanderers.com/wp-content/uploads/2025/03/alishan-hotel-2.jpg",
-            "label": "Best Hotels Inside Alishan National Forest Recreation Area - Taiwanderers"
+            "url": "https://www.getmetotaiwan.com/wp-content/uploads/2022/10/nature-chiayi-ajang-home-23-coffee-house-683x1024.jpg",
+            "label": "Treasures in the Alishan Mountains - Get Me To Taiwan"
           },
           {
-            "url": "https://www.regent-holidays.co.uk/upload-files/product-hotels-gallery/alishan-hotel-taiwan_2_alishan-hotel.jpg",
-            "label": "Alishan Hotel | Alishan | Regent Holidays"
+            "url": "https://taiwaneverything.cc/wp-content/uploads/2020/03/00-1.png",
+            "label": "ALISHAN - Tea and Coffee - Taiwan Everything"
           }
         ]
       },
       {
-        "name": "雲林斗六老街咖啡 (Douliu Old Street Cafe)",
-        "name_zh": "斗六老街咖啡",
-        "stars": "無",
+        "name": "斗六太平老街咖啡館",
+        "name_zh": "斗六太平老街咖啡館",
+        "stars": "",
         "dish": "☕ 招牌：單品手沖咖啡 · 提拉米蘇",
         "address": "雲林縣斗六市太平路",
-        "price_ntd": 750,
-        "price_label": "咖啡+甜點 NT$150/人 x 5人 · NT$750",
+        "price_ntd": 800,
+        "price_label": "家庭咖啡 NT$800 (5人)",
         "hours": "10:00–18:00",
-        "search_query": "Douliu old street coffee",
+        "search_query": "Douliu coffee street Yunlin",
         "photos": [
           {
-            "url": "https://as2.ftcdn.net/v2/jpg/04/01/38/45/1000_F_401384541_oBZErA0zvmSB2Nd6VvmxrqmGfTELW09B.jpg",
-            "label": "December 20, 2020: Taiping old street, the main commercial area of ..."
+            "url": "https://live.staticflickr.com/2217/1674387399_be15444710_b.jpg",
+            "label": "斗六 DouLiu, Yunlin County 02 | Old houses and shops on the ol… | Flickr"
+          },
+          {
+            "url": "https://live.staticflickr.com/2372/1675234096_41a805070f_b.jpg",
+            "label": "斗六 DouLiu, Yunlin County 03 | Old houses and shops on the ol… | Flickr"
           },
           {
             "url": "https://www.tgc-coffee.com/upload-files/temperature-cafe/douliu-1.jpg",
             "label": "Nuanyunlin Good Festival | Douliu Living Settlement | TGC Taiwan Coffee ..."
-          },
-          {
-            "url": "http://www.foreignersintaiwan.com/uploads/5/4/3/2/54326073/taipingosdouliu-1_orig.jpg",
-            "label": "Douliu Taiping Old Street 斗六太平老街 - Foreigners in Taiwan - 外國人在臺灣"
           }
         ]
       }
@@ -273,210 +273,210 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "July 14 · Tue",
-      "label_zh": "第一天 · 阿里山森林浴",
-      "day_query": "Alishan Forest Railway Taiwan",
-      "hotel_name": "阿里山賓館 (Alishan Hotel)",
-      "hotel_name_zh": "阿里山賓館 · 豪華家庭房 (兩間房)",
-      "hotel_room": "豪華家庭房 (兩間房)",
-      "weather": "🌤️ 22°/14°",
+      "date": "Jul 15 · Wed",
+      "label_zh": "第一天 · 頭份出發 → 阿里山",
+      "day_query": "Alishan forest recreation area Taiwan",
+      "hotel_name": "阿里山賓館 (Alishan House)",
+      "hotel_name_zh": "阿里山賓館 · 兩間豪華雙人房",
+      "hotel_room": "兩間豪華雙人房",
+      "weather": "⛅ 22°/14° (山上涼爽)",
       "rain_pct": "20%",
       "slots": [
         {
           "time": "09:00",
-          "desc": "🚗 從頭份出發，自駕前往阿里山（約3小時）· 沿途於國道3號休息站稍作停留"
-        },
-        {
-          "time": "12:00",
-          "desc": "🏨 抵達阿里山賓館 · 辦理入住 · 行李放進兩間豪華家庭房"
+          "desc": "🚗 從頭份出發，自駕前往阿里山 (台3線接台18線，約3.5小時)"
         },
         {
           "time": "12:30",
-          "desc": "🍱 前往奮起湖老街享用便當午餐 · 品嚐經典奮起湖便當（NT$250/人）"
+          "desc": "🍱 抵達奮起湖老街，享用奮起湖便當、草仔粿、愛玉冰 (NT$1,000/5人)"
         },
         {
-          "time": "14:00",
-          "desc": "🚂 搭乘阿里山森林小火車（沼平線）· 欣賞神木與雲海（來回票 NT$300/人）"
+          "time": "13:30",
+          "desc": "🚶 在奮起湖老街散步，逛百年老街、火車站，拍照留念"
         },
         {
-          "time": "15:30",
-          "desc": "🌲 漫步巨木群棧道 · 參觀三代木 · 香林神木 · 慈雲寺"
-        },
-        {
-          "time": "17:30",
-          "desc": "☕ 返回飯店咖啡廳享用下午茶 · 阿里山咖啡配手工餅乾"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ 飯店雲霧餐廳晚餐 · 預約18:30 · 高山蔬菜鍋與烤山豬肉"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 飯店內散步 · 觀星（阿里山無光害）· 返回房間休息"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 2,
-      "date": "July 15 · Wed",
-      "label_zh": "第二天 · 阿里山日出 → 雲林文化之旅",
-      "day_query": "Yunlin Beigang Chaotian Temple Taiwan",
-      "hotel_name": "雲林三好國際酒店 (Sun Hao Hotel)",
-      "hotel_name_zh": "三好國際酒店 · 豪華家庭房 (兩間房)",
-      "hotel_room": "豪華家庭房 (兩間房)",
-      "weather": "☀️ 28°/23°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "🌅 睡到自然醒 · 在房內享用早餐（飯店提供送餐服務）"
-        },
-        {
-          "time": "10:00",
-          "desc": "🚶 退房 · 步行至阿里山車站 · 搭乘小火車至祝山觀景台（但今日不趕日出，輕鬆散步）"
-        },
-        {
-          "time": "11:00",
-          "desc": "🌲 參觀阿里山博物館 · 了解鄒族文化"
-        },
-        {
-          "time": "12:00",
-          "desc": "🚗 自駕前往雲林（約2小時）· 沿途經台18線與台3線"
-        },
-        {
-          "time": "14:00",
-          "desc": "🏨 抵達雲林三好國際酒店 · 辦理入住 · 兩間豪華家庭房"
+          "time": "14:30",
+          "desc": "🚗 驅車前往阿里山森林遊樂區 (約30分鐘)"
         },
         {
           "time": "15:00",
-          "desc": "🛕 參觀北港朝天宮（車程30分鐘）· 台灣媽祖信仰重鎮"
+          "desc": "🏨 抵達阿里山賓館，辦理入住兩間豪華雙人房，稍作休息"
         },
         {
-          "time": "16:30",
-          "desc": "🍡 西螺老街品嚐祖傳麻糬 · 購買伴手禮"
+          "time": "16:00",
+          "desc": "☕ 在賓館雲端咖啡廳享用下午茶，品嚐阿里山咖啡與茶凍 (NT$1,200/5人)"
         },
         {
           "time": "18:00",
-          "desc": "🍽️ 返回飯店 · 晶饌廳享用高檔晚餐（龍蝦套餐與和牛）"
+          "desc": "🌲 飯店周邊森林步道散步 (巨木群棧道)，享受芬多精"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 在阿里山賓館 · 雲霧中餐廳享用家庭合菜 (NT$6,000)，招牌砂鍋筍雞湯"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 返回房間，使用按摩浴缸放鬆，早點休息"
+        }
+      ],
+      "day_photo": "https://peakvisor.com/photo/Alishan-National-Forest-Recreation-Area-Rope-sunset.jpg"
+    },
+    {
+      "day": 2,
+      "date": "Jul 16 · Thu",
+      "label_zh": "第二天 · 阿里山 → 雲林",
+      "day_query": "Alishan sunrise and sea of clouds",
+      "hotel_name": "雲品酒店 (Yunlin Grand View Hotel)",
+      "hotel_name_zh": "雲品酒店 · 兩間高級家庭房",
+      "hotel_room": "兩間高級家庭房",
+      "weather": "⛅ 23°/15° (上午多雲)",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "☀️ 睡到自然醒，在阿里山賓館享用自助早餐"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚶 輕鬆步行至阿里山火車站，搭乘森林小火車至沼平站 (單程 NT$100/人)"
+        },
+        {
+          "time": "10:30",
+          "desc": "🌲 沼平公園賞花、姊妹潭、受鎮宮，輕鬆散步約1.5小時"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍱 返回阿里山賓館，退房並在飯店簡單午餐 (自費)"
+        },
+        {
+          "time": "13:00",
+          "desc": "🚗 自駕下山，前往雲林斗六 (約2小時)"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏨 抵達雲品酒店，辦理入住兩間高級家庭房，稍作休息"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏊 帶女兒們到飯店泳池戲水，或使用兒童遊戲室"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 前往菊園日本料理享用家庭套餐 (NT$8,000)，品嚐綜合握壽司"
         },
         {
           "time": "20:00",
-          "desc": "🏊 飯店泳池戲水 · SPA放鬆 · 返回房間"
+          "desc": "🌙 返回飯店，享受三溫暖或散步斗六市區"
         }
       ],
-      "day_photo": "https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_2249_12.jpg"
+      "day_photo": "https://www.ali-nsa.net/content/images/static/unit-sunset-md.jpg"
     },
     {
       "day": 3,
-      "date": "July 16 · Thu",
-      "label_zh": "第三天 · 雲林悠閒時光 · 返程",
-      "day_query": "Douliu Taiping Old Street Yunlin",
-      "hotel_name": "雲林三好國際酒店 (Sun Hao Hotel)",
-      "hotel_name_zh": "三好國際酒店 · 豪華家庭房 (兩間房) (已退房)",
-      "hotel_room": "豪華家庭房 (兩間房) (已退房)",
-      "weather": "☀️ 30°/25°",
+      "date": "Jul 17 · Fri",
+      "label_zh": "第三天 · 雲林探索 → 回頭份",
+      "day_query": "Xiluo old street Yunlin Taiwan",
+      "hotel_name": "雲品酒店 (Yunlin Grand View Hotel)",
+      "hotel_name_zh": "雲品酒店 · 兩間高級家庭房",
+      "hotel_room": "兩間高級家庭房",
+      "weather": "☀️ 32°/25° (雲林炎熱)",
       "rain_pct": "5%",
       "slots": [
         {
           "time": "09:00",
-          "desc": "🌅 睡到自然醒 · 飯店自助式早餐（至10:00）"
+          "desc": "☀️ 睡到自然醒，在雲品酒店享用自助早餐"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚗 退房，自駕前往西螺老街 (約20分鐘)"
         },
         {
           "time": "10:30",
-          "desc": "🚶 退房 · 行李寄放飯店"
+          "desc": "🍜 逛西螺老街，品嚐西螺米糕、蚵嗲、豆花 (NT$800/5人)"
         },
         {
-          "time": "11:00",
-          "desc": "☕ 斗六太平老街散步 · 品嚐老街咖啡與提拉米蘇"
+          "time": "11:30",
+          "desc": "📸 參觀西螺福興宮、延平老街，拍照留念"
         },
         {
-          "time": "12:00",
-          "desc": "🍜 午餐：斗六老街小吃（肉圓、魷魚羹）NT$500"
-        },
-        {
-          "time": "13:30",
-          "desc": "🎨 參觀雲林故事館（日式建築）· 了解雲林歷史"
+          "time": "12:30",
+          "desc": "🚗 自駕返回頭份 (國道1號，約2.5小時)"
         },
         {
           "time": "15:00",
-          "desc": "🛍️ 前往西螺延平老街 · 購買醬油與麻糬伴手禮"
-        },
-        {
-          "time": "16:00",
-          "desc": "🚗 自駕返回頭份（約2小時）· 結束旅程"
+          "desc": "🏠 抵達頭份，結束愉快的三天兩夜旅程"
         }
       ],
-      "day_photo": "https://spectralcodex.com/img/_x/douliu-taiping-old-street-8.TLVskzSM_ZEBo9x.jpg"
+      "day_photo": ""
     }
   ],
   "costs": [
     {
-      "label": "🚗 自駕油資與過路費",
-      "amount_ntd": 6000
+      "label": "🚗 交通 (油費 + 過路費)",
+      "amount_ntd": 5000
     },
     {
-      "label": "🏨 住宿（阿里山賓館 + 三好酒店）",
-      "amount_ntd": 33000
+      "label": "🏨 住宿 (阿里山賓館 1晚 + 雲品酒店 1晚)",
+      "amount_ntd": 50000
     },
     {
-      "label": "🍽️ 餐飲（雲霧餐廳+晶饌廳+小吃+咖啡）",
-      "amount_ntd": 18500
+      "label": "🍽️ 餐飲 (含小吃、下午茶、合菜、套餐)",
+      "amount_ntd": 20000
     },
     {
-      "label": "🎫 景點門票（小火車+博物館）",
-      "amount_ntd": 3000
+      "label": "🎫 景點門票 (阿里山森林遊樂區 + 小火車)",
+      "amount_ntd": 5000
     },
     {
-      "label": "🚇 交通（停車費、接駁）",
-      "amount_ntd": 1000
+      "label": "🛍️ 購物伴手禮 (阿里山茶、西螺醬油)",
+      "amount_ntd": 8000
     },
     {
-      "label": "🛍️ 購物伴手禮（麻糬、醬油）",
-      "amount_ntd": 2500
+      "label": "💰 其他 (停車費、零食)",
+      "amount_ntd": 2000
     }
   ],
-  "cost_total_ntd": 64000,
-  "budget_remaining_ntd": 36000,
+  "cost_total_ntd": 90000,
+  "budget_remaining_ntd": 10000,
   "photos": {
     "hero": [
       {
-        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtB_ZNMQ2thcauebhZCdrQ5s4u8uhF66ZCo6_VAeBuqVoKAnJiCMcd7hk5qmVf7Hg3UAhRuSt_gmKLS9DnjzIPp00HRHkwkoVxJ3eWuKIbBhvVT-a_24R66hGqed0GWpvzdu9MBqz1z-gS1lnFS74reKBQZ4U0GdsWfRJZL-yiyX94KMzbgpzxmBuC2P_3/w1200-h630-p-k-no-nu/_alishan-sunrise-viewpoint.jpg",
-        "label": "Hiking in Alishan and the best views of Yushan (Jade Mountain), Taiwan ..."
+        "url": "https://www.justaiwantour.com/wp-content/uploads/2025/11/Alishan-Chiayi-Sunrise-1024x682.jpg",
+        "label": "Yunlin & Chiayi: Discover the Delights of Culture and Cuisine ..."
       },
       {
-        "url": "https://taiwanderers.com/wp-content/uploads/2025/03/alishan-21-768x968.jpg",
-        "label": "Alishan Itinerary - 2 to 3 Days in Alishan, Taiwan Guide 2025 ..."
+        "url": "https://www.ali-nsa.net/content/images/static/ali-img-2-md.jpg",
+        "label": "Get to Know Alishan | Alishan National Scenic Area"
       }
     ],
     "destination": [
       {
-        "url": "https://travel80.com/wp-content/uploads/2025/06/2025-06-16-003-alishan-scenic-railway.png",
-        "label": "Riding the Iconic Alishan Scenic Railway: A Journey Through Nature"
+        "url": "",
+        "label": "Alishan and Yunlin travel scenery"
       },
       {
-        "url": "https://theamazingtaiwan.com/wp-content/uploads/2025/01/best-sunrise-spots-in-alishan-taiwan-vxf.jpg",
-        "label": "What Are The Best Sunrise Spots In Alishan National Scenic Area, Taiwan ..."
+        "url": "",
+        "label": "Alishan and Yunlin travel scenery"
       },
       {
-        "url": "https://eng.taiwan.net.tw/pic.ashx?qp=2/big_journey/pic_821.jpg&sizetype=2",
-        "label": "Alishan National Scenic Area - Chukou Visitor Center > Scenic Spot ..."
+        "url": "",
+        "label": "Alishan and Yunlin travel scenery"
       },
       {
-        "url": "http://travel80.com/wp-content/uploads/2025/06/2025-06-16-012-alishan-day-trip-itinerary.png",
-        "label": "Perfect Alishan Day Trip Itinerary: Key Sights and Activities"
+        "url": "",
+        "label": "Alishan and Yunlin travel scenery"
       },
       {
-        "url": "https://as2.ftcdn.net/v2/jpg/01/58/44/01/1000_F_158440182_49yQuCDUYShb7uDmYD1xR3w6gMY3m8ih.jpg",
-        "label": "Alishan National Scenic Area"
+        "url": "",
+        "label": "Alishan and Yunlin travel scenery"
       },
       {
-        "url": "https://kevinstravelblog.com/wp-content/uploads/2016/03/DSC6432-768x512.jpg",
-        "label": "Alishan National Scenic Area | Kevin's Travel Blog"
+        "url": "",
+        "label": "Alishan and Yunlin travel scenery"
       }
     ]
   },
-  "chat_hash": "759d244cbd6c15fc52cd34a24878c6fa703f91d2978cc1d68cf26d97d4ed1d85",
+  "chat_hash": "7a80c4126a5c9907df093122825f599f1cbdd68f28be770c457fd305e20a5214",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-03T15:32:59.066868"
+  "generated_at": "2026-06-03T15:39:18.207376"
 }
