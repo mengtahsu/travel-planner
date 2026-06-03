@@ -1,74 +1,74 @@
 {
-  "destination_en": "Alishan and Yunlin, Taiwan",
-  "title_zh": "阿里山雲林 · 三天兩夜家庭輕奢之旅",
+  "destination_en": "Alishan & Yunlin, Taiwan",
+  "title_zh": "阿里山雲林 · 三天兩夜豪華家庭之旅",
   "date_range": "2026/08/10–08/12",
   "start_date": "2026-08-10",
   "end_date": "2026-08-12",
-  "departure": "頭份 (Toufen)",
-  "departure_code": "TFE",
+  "departure": "頭份 (Miaoli)",
+  "departure_code": "TPE",
   "destination_code": "CYI",
   "travelers": 5,
   "days": 3,
   "budget_ntd": 100000,
   "flight": {
-    "airline": "自駕 (Self-drive)",
+    "airline": "自駕 / 高鐵",
     "departure_date": "8月10日",
     "return_date": "8月12日",
-    "total_price_ntd": 0,
+    "total_price_ntd": 8000,
     "outbound": {
-      "flight_no": "N/A",
-      "route": "頭份 → 阿里山 (自行開車)",
+      "flight_no": "自駕 / 高鐵 頭份→嘉義",
+      "route": "頭份 → 嘉義高鐵站 (自駕約2小時)",
       "depart_time": "09:00",
-      "arrive_time": "12:30",
-      "duration": "3h 30m",
-      "class": "N/A"
+      "arrive_time": "11:00",
+      "duration": "2小時",
+      "class": "商務車廂"
     },
     "inbound": {
-      "flight_no": "N/A",
-      "route": "雲林 → 頭份 (自行開車)",
+      "flight_no": "自駕 / 高鐵 嘉義→頭份",
+      "route": "嘉義 → 頭份 (自駕約2小時)",
       "depart_time": "16:00",
-      "arrive_time": "18:30",
-      "duration": "2h 30m",
-      "class": "N/A"
+      "arrive_time": "18:00",
+      "duration": "2小時",
+      "class": "商務車廂"
     }
   },
   "hotels": [
     {
-      "name": "阿里山賓館 (Alishan House)",
+      "name": "阿里山賓館 (Alishan Hotel)",
       "name_zh": "阿里山賓館",
-      "district": "阿里山森林遊樂區內",
+      "district": "阿里山森林遊樂區",
       "day_range": "1",
       "nights": 1,
       "price_ntd": 18000,
       "stars": "★★★★☆",
-      "room_type": "豪華家庭房 (兩大床，可住4人) + 單人房",
-      "breakfast": "含自助式早餐",
-      "amenities": "🌲 森林景觀 · 🧖 三溫暖 · 🍽️ 中餐廳 · 🅿️ 免費停車",
-      "search_query": "Alishan House Taiwan",
+      "room_type": "兩間豪華雙人房 (一間含兩床)",
+      "breakfast": "含自助早餐",
+      "amenities": "🏔️ 山景陽台 · 🛁 按摩浴缸 · 🍽️ 中餐廳 · 🌲 森林步道",
+      "search_query": "Alishan Hotel Taiwan luxury",
       "photos": [
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         }
       ]
     },
@@ -78,36 +78,36 @@
       "district": "雲林古坑",
       "day_range": "2",
       "nights": 1,
-      "price_ntd": 15000,
+      "price_ntd": 12000,
       "stars": "★★★★☆",
-      "room_type": "豪華家庭房 (兩大床) + 精緻雙人房",
-      "breakfast": "含自助式早餐",
-      "amenities": "🎢 劍湖山世界主題樂園 · 🏊 戶外泳池 · ♨️ 溫泉SPA · 🅿️ 免費停車",
+      "room_type": "兩間豪華家庭房",
+      "breakfast": "含自助早餐",
+      "amenities": "🎢 劍湖山世界 · 🏊 戶外泳池 · 💆 SPA · 🍽️ 景觀餐廳",
       "search_query": "Janfusun Resort Hotel Yunlin",
       "photos": [
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         },
         {
           "url": "",
-          "label": "luxury hotel Alishan and Yunlin"
+          "label": "luxury hotel Alishan & Yunlin"
         }
       ]
     }
@@ -115,156 +115,156 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "阿里山賓館中餐廳 (Alishan House Chinese Restaurant)",
-        "name_zh": "阿里山賓館中餐廳",
-        "stars": "",
-        "dish": "🍲 招牌：阿里山筍殼魚 · 山藥雞湯 · 茶油麵線",
-        "address": "阿里山鄉香林村16號 (阿里山賓館內)",
-        "price_ntd": 3500,
-        "price_label": "六菜一湯合菜 NT$3,500/桌 (5人)",
-        "hours": "11:30–14:00 · 17:30–20:00",
-        "search_query": "Alishan House restaurant",
+        "name": "阿里山賓館 · 中餐廳",
+        "name_zh": "阿里山賓館中餐廳 · 高山料理",
+        "stars": "★★★★",
+        "dish": "🍲 招牌：阿里山奮起湖便當 · 山葵豆腐 · 高山蔬菜",
+        "address": "阿里山森林遊樂區內",
+        "price_ntd": 5000,
+        "price_label": "五人晚餐 · NT$5,000",
+        "hours": "18:00–20:30 · 需預約",
+        "search_query": "Alishan Hotel Chinese restaurant",
         "photos": [
           {
-            "url": "",
-            "label": "fine dining food Alishan and Yunlin"
+            "url": "https://www.alishanhotel.com.tw/upload/fac_b/ALL_fac_24D19_6jLqDzrHuF.jpg",
+            "label": "Chinese Restaurant-Alishan Hotel"
           },
           {
-            "url": "",
-            "label": "fine dining food Alishan and Yunlin"
+            "url": "https://www.alishanhotel.com.tw/upload/fac_b/ALL_fac_24D19_SbCsNrQt5i.jpg",
+            "label": "Chinese Restaurant-Alishan Hotel"
           },
           {
-            "url": "",
-            "label": "fine dining food Alishan and Yunlin"
+            "url": "https://www.alishanhotel.com.tw/upload/fac_b/ALL_fac_24D19_7pFXhHSmYp.jpg",
+            "label": "Chinese Restaurant-Alishan Hotel"
           }
         ]
       },
       {
-        "name": "菊園日式料理 (Kikuen Japanese Cuisine)",
-        "name_zh": "菊園日式料理",
-        "stars": "",
-        "dish": "🍣 招牌：綜合生魚片 · 鰻魚飯 · 龍蝦沙拉",
-        "address": "雲林縣斗六市中山路88號",
-        "price_ntd": 5000,
-        "price_label": "豪華套餐 NT$5,000/桌 (5人)",
-        "hours": "11:30–14:00 · 17:00–21:00",
-        "search_query": "Kikuen Japanese Yunlin",
+        "name": "雲林古坑 · 蜜蜂故事館餐廳",
+        "name_zh": "蜜蜂故事館 · 蜂蜜創意料理",
+        "stars": "★★★★",
+        "dish": "🍯 招牌：蜂蜜烤雞 · 百花蜜沙拉 · 蜜汁豬肋排",
+        "address": "雲林縣古坑鄉湳仔路",
+        "price_ntd": 4000,
+        "price_label": "五人晚餐 · NT$4,000",
+        "hours": "11:00–20:00",
+        "search_query": "Bee Story House Yunlin",
         "photos": [
           {
-            "url": "",
-            "label": "fine dining food Alishan and Yunlin"
+            "url": "https://cdn.britannica.com/15/240415-050-FFA90839/red-mason-bee.jpg",
+            "label": "Bee | Definition, Description, Hymenoptera, Types, & Facts | Britannica"
           },
           {
-            "url": "",
-            "label": "fine dining food Alishan and Yunlin"
+            "url": "https://bwars.com/sites/default/files/species_images/andrena+apicata+female+IMG_3925.JPG",
+            "label": "BWARS | Bees, Wasps & Ants Recording Society"
           },
           {
-            "url": "",
-            "label": "fine dining food Alishan and Yunlin"
+            "url": "https://api-backend-assets.s3.eu-south-1.amazonaws.com/private/filer_public/56/55/5655ba5a-74d2-476d-9a56-9419168ef18e/767a818d-0aee-463e-8a84-7ce115b237fb.jpg",
+            "label": "Communicating corporate sustainability with 3Bee"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "奮起湖大飯店 (Fenchihu Hotel Restaurant)",
-        "name_zh": "奮起湖大飯店餐廳",
-        "stars": "",
-        "dish": "🍱 招牌：奮起湖便當 · 竹筍湯 · 山豬肉",
-        "address": "嘉義縣竹崎鄉中和村奮起湖178-1號",
-        "price_ntd": 2000,
-        "price_label": "便當套餐 NT$200/人 · 合菜 NT$2,000/桌",
-        "hours": "11:00–19:00",
-        "search_query": "Fenchihu lunch box",
+        "name": "奮起湖老街 · 鐵路便當",
+        "name_zh": "奮起湖老街 · 百年鐵路便當",
+        "stars": "★★★",
+        "dish": "🍱 招牌：奮起湖便當 · 滷排骨 · 燉雞腿",
+        "address": "奮起湖老街",
+        "price_ntd": 1500,
+        "price_label": "五人午餐 · NT$1,500",
+        "hours": "11:00–14:00",
+        "search_query": "Fenqihu bento Alishan",
         "photos": [
           {
             "url": "",
-            "label": "bistros food Alishan and Yunlin"
+            "label": "bistros food Alishan & Yunlin"
           },
           {
             "url": "",
-            "label": "bistros food Alishan and Yunlin"
+            "label": "bistros food Alishan & Yunlin"
           },
           {
             "url": "",
-            "label": "bistros food Alishan and Yunlin"
+            "label": "bistros food Alishan & Yunlin"
           }
         ]
       },
       {
-        "name": "阿國師燉雞 (A-Guo Shi Stewed Chicken)",
-        "name_zh": "阿國師燉雞",
-        "stars": "",
-        "dish": "🍗 招牌：四物燉雞 · 麻油雞 · 雞油飯",
-        "address": "雲林縣古坑鄉朝陽路1-8號",
-        "price_ntd": 2500,
-        "price_label": "五人合菜 NT$2,500",
-        "hours": "11:00–20:00",
-        "search_query": "A-Guo Shi Chicken Yunlin",
+        "name": "雲林斗六 · 老街碗粿",
+        "name_zh": "斗六老街碗粿 · 古早味小吃",
+        "stars": "★★★",
+        "dish": "🍜 招牌：碗粿 · 魷魚羹 · 肉圓",
+        "address": "雲林縣斗六市太平路",
+        "price_ntd": 800,
+        "price_label": "五人午餐 · NT$800",
+        "hours": "10:00–18:00",
+        "search_query": "Douliu bowl rice cake",
         "photos": [
           {
-            "url": "",
-            "label": "bistros food Alishan and Yunlin"
+            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQcMeYqY-RzoNBy4APOGtcuwoY00rBx16Hz2UfdA8fdlQ7kgypGstULuzYcR9lY5DgfiAX1tptCu0ekdLs8uIKHCZXRvWNgr4tQm5qNADwZdhkFbAaxlCSOUZlGfHGNn6dgOH7WuyauDRI/s1600/DSC_0005+carrot+cake.jpg",
+            "label": "Veronica's Kitchen: Steamed Small Bowl Rice Cake (Wan Kuih)- 碗糕"
           },
           {
-            "url": "",
-            "label": "bistros food Alishan and Yunlin"
+            "url": "https://rasamalaysia.com/wp-content/uploads/2023/05/spicy-korean-rice-cake-tteokbokki1.jpg",
+            "label": "How To Boil Korean Rice Cakes"
           },
           {
-            "url": "",
-            "label": "bistros food Alishan and Yunlin"
+            "url": "https://www.worldmarket.com/on/demandware.static/-/Sites-wm-master-catalog/default/dwea24a746/images/large/113656_XXX_v1.tif",
+            "label": "Rice Cake Soup Bowl at Deborah Grant blog"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "阿里山賓館咖啡廳 (Alishan House Café)",
-        "name_zh": "阿里山賓館咖啡廳",
+        "name": "阿里山 · 沼平車站咖啡廳",
+        "name_zh": "沼平車站咖啡 · 雲海景觀",
         "stars": "",
         "dish": "☕ 招牌：阿里山咖啡 · 手工餅乾 · 茶凍",
-        "address": "阿里山賓館一樓",
-        "price_ntd": 500,
-        "price_label": "咖啡+點心 NT$500/5人",
-        "hours": "09:00–21:00",
-        "search_query": "Alishan coffee",
+        "address": "沼平車站二樓",
+        "price_ntd": 1200,
+        "price_label": "五人下午茶 · NT$1,200",
+        "hours": "09:00–17:00",
+        "search_query": "Zhaoping Station coffee Alishan",
         "photos": [
           {
             "url": "",
-            "label": "cafe coffee Alishan and Yunlin"
+            "label": "cafe coffee Alishan & Yunlin"
           },
           {
             "url": "",
-            "label": "cafe coffee Alishan and Yunlin"
+            "label": "cafe coffee Alishan & Yunlin"
           },
           {
             "url": "",
-            "label": "cafe coffee Alishan and Yunlin"
+            "label": "cafe coffee Alishan & Yunlin"
           }
         ]
       },
       {
-        "name": "古坑綠色隧道咖啡館 (Gukeng Green Tunnel Café)",
-        "name_zh": "古坑綠色隧道咖啡館",
+        "name": "雲林古坑 · 華山咖啡街",
+        "name_zh": "華山咖啡 · 台灣咖啡原鄉",
         "stars": "",
-        "dish": "☕ 招牌：古坑咖啡 · 鬆餅 · 冰淇淋",
-        "address": "雲林縣古坑鄉湳仔村綠色隧道",
-        "price_ntd": 800,
-        "price_label": "咖啡+甜點 NT$800/5人",
-        "hours": "09:00–18:00",
-        "search_query": "Gukeng Green Tunnel café",
+        "dish": "☕ 招牌：台灣咖啡 · 手工蛋糕 · 烤布蕾",
+        "address": "雲林縣古坑鄉華山村",
+        "price_ntd": 1000,
+        "price_label": "五人下午茶 · NT$1,000",
+        "hours": "10:00–18:00",
+        "search_query": "Huashan coffee Yunlin",
         "photos": [
           {
-            "url": "",
-            "label": "cafe coffee Alishan and Yunlin"
+            "url": "https://www.tgc-coffee.com/upload-files/Taiwanese_specialty_coffee/drip/4/LINE_ALBUM______________230216_6.jpg",
+            "label": "【TGC】Taiwan Alishan Drip Coffee Gift Box/20pcs | Yunlin Gukeng Coffee ..."
           },
           {
-            "url": "",
-            "label": "cafe coffee Alishan and Yunlin"
+            "url": "https://www.ali-nsa.net/content/images/static/unit-coffee-4.jpg",
+            "label": "Lingering sweetness of good tea, Diffuse aroma of coffee | Alishan ..."
           },
           {
-            "url": "",
-            "label": "cafe coffee Alishan and Yunlin"
+            "url": "https://www.getmetotaiwan.com/wp-content/uploads/2022/10/nature-chiayi-ajang-home-23-coffee-house-683x1024.jpg",
+            "label": "Treasures in the Alishan Mountains - Get Me To Taiwan"
           }
         ]
       }
@@ -273,142 +273,130 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "8月10日 · 一",
-      "label_zh": "第一天 · 阿里山森林漫遊",
+      "date": "8月10日 · 週一",
+      "label_zh": "第一天 · 阿里山森林邂逅",
       "day_query": "Alishan Forest Railway Taiwan",
-      "hotel_name": "阿里山賓館 (Alishan House)",
-      "hotel_name_zh": "阿里山賓館 · 豪華家庭房 + 單人房",
-      "hotel_room": "豪華家庭房 + 單人房",
-      "weather": "⛅ 22°/15°",
+      "hotel_name": "阿里山賓館 (Alishan Hotel)",
+      "hotel_name_zh": "阿里山賓館",
+      "hotel_room": "兩間豪華雙人房",
+      "weather": "🌤️ 22°/15° · 涼爽舒適",
       "rain_pct": "20%",
       "slots": [
         {
           "time": "09:00",
-          "desc": "🚗 從頭份出發，自駕前往阿里山 (國道3號 → 台18線) · 車程約3.5小時 · 沿途可於中埔休息站小憩"
+          "desc": "🛌 睡到自然醒 · 從頭份出發 · 自駕前往阿里山 (約2.5小時) · 沿途可停靠嘉義市區買伴手禮"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚗 抵達阿里山森林遊樂區 · 停車於旅客中心 · 開始步行探索"
         },
         {
           "time": "12:30",
-          "desc": "🅿️ 抵達阿里山森林遊樂區 · 停車於阿里山賓館停車場 · 辦理入住 · 行李放房間"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 阿里山賓館中餐廳午餐 · 品嚐在地山產料理 (合菜NT$3,500)"
-        },
-        {
-          "time": "14:30",
-          "desc": "🚂 搭乘阿里山森林小火車 (沼平線) · 從阿里山站到沼平站 · 沿途欣賞神木與雲海 (來回票NT$100/人)"
-        },
-        {
-          "time": "15:30",
-          "desc": "🌲 漫步沼平公園 · 姊妹潭 · 受鎮宮 · 森林浴步道 (約1.5小時) · 氣溫涼爽舒適"
-        },
-        {
-          "time": "17:00",
-          "desc": "☕ 阿里山賓館咖啡廳下午茶 · 阿里山咖啡 + 茶凍 (NT$500/5人) · 享受午後悠閒"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ 阿里山賓館中餐廳晚餐 · 預約合菜 (NT$3,500) · 推薦：山藥雞湯、茶油麵線"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 夜晚觀星 · 阿里山無光害 · 可至賓館觀景台欣賞星空 · 早點休息"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 2,
-      "date": "8月11日 · 二",
-      "label_zh": "第二天 · 奮起湖懷舊 → 雲林古坑",
-      "day_query": "Fenchihu old street Taiwan",
-      "hotel_name": "劍湖山渡假大飯店 (Janfusun Resort Hotel)",
-      "hotel_name_zh": "劍湖山渡假大飯店 · 豪華家庭房 + 精緻雙人房",
-      "hotel_room": "豪華家庭房 + 精緻雙人房",
-      "weather": "⛅ 24°/18°",
-      "rain_pct": "15%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "🛌 睡到自然醒 · 阿里山賓館自助早餐 (07:00–10:00) · 享受森林晨光"
-        },
-        {
-          "time": "10:30",
-          "desc": "🚗 退房 · 自駕前往奮起湖 (車程約30分鐘)"
-        },
-        {
-          "time": "11:00",
-          "desc": "🏘️ 奮起湖老街漫步 · 參觀奮起湖車站 · 品嚐奮起湖便當 (NT$200/人) · 購買特產"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ 奮起湖大飯店餐廳午餐 · 合菜NT$2,000 · 推薦：竹筍湯、山豬肉"
+          "desc": "🍱 午餐：奮起湖老街 · 品嚐百年鐵路便當 · 每人NT$300 · 共NT$1,500"
         },
         {
           "time": "14:00",
-          "desc": "🚗 驅車前往雲林古坑 (台18線 → 國道3號 → 古坑交流道) · 車程約1.5小時"
+          "desc": "🚂 搭乘阿里山森林小火車 (沼平線) · 欣賞神木群與雲海 · 車程約20分鐘"
         },
         {
-          "time": "15:30",
-          "desc": "🏨 抵達劍湖山渡假大飯店 · 辦理入住 · 兩間房 · 稍作休息"
+          "time": "15:00",
+          "desc": "☕ 沼平車站咖啡廳 · 俯瞰山谷 · 享用阿里山咖啡與茶點"
         },
         {
           "time": "16:30",
-          "desc": "🎢 劍湖山世界主題樂園 (飯店住客優惠票NT$399/人) · 遊玩摩天輪、雲霄飛車等 · 適合青少年"
+          "desc": "🏨 入住阿里山賓館 · 兩間豪華雙人房 · 稍作休息 · 享受按摩浴缸"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 阿里山賓館中餐廳 · 高山料理晚餐 · 預約18:00 · 五人NT$5,000"
+        },
+        {
+          "time": "19:30",
+          "desc": "🌙 夜間觀星 · 阿里山無光害星空 · 可自備望遠鏡或參加飯店導覽"
+        }
+      ],
+      "day_photo": "https://taiwaneverything.cc/wp-content/uploads/2021/12/21-1170x650.jpg"
+    },
+    {
+      "day": 2,
+      "date": "8月11日 · 週二",
+      "label_zh": "第二天 · 雲林古坑慢活",
+      "day_query": "Yunlin Janfusun Resort",
+      "hotel_name": "劍湖山渡假大飯店 (Janfusun Resort Hotel)",
+      "hotel_name_zh": "劍湖山渡假大飯店",
+      "hotel_room": "兩間豪華家庭房",
+      "weather": "🌤️ 30°/24° · 晴朗舒適",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "🛌 睡到自然醒 · 在阿里山賓館享用自助早餐 (07:00–10:00)"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚗 退房 · 自駕前往雲林古坑 (約1.5小時) · 沿途欣賞嘉南平原風光"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍜 午餐：斗六老街碗粿 · 品嚐古早味小吃 · 五人NT$800"
+        },
+        {
+          "time": "13:30",
+          "desc": "☕ 華山咖啡街 · 台灣咖啡原鄉 · 品嚐手沖台灣咖啡 · 五人NT$1,000"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏨 入住劍湖山渡假大飯店 · 兩間豪華家庭房 · 稍作休息"
+        },
+        {
+          "time": "16:00",
+          "desc": "🎢 劍湖山世界主題樂園 (飯店住客免費入場) · 遊玩雲霄飛車、摩天輪等設施"
         },
         {
           "time": "18:30",
-          "desc": "🍽️ 菊園日式料理晚餐 (斗六市) · 豪華套餐NT$5,000/5人 · 車程約20分鐘 · 享受新鮮生魚片與鰻魚飯"
+          "desc": "🍽️ 蜜蜂故事館餐廳 · 蜂蜜創意料理晚餐 · 五人NT$4,000"
         },
         {
-          "time": "20:30",
-          "desc": "🌙 返回飯店 · 享受飯店SPA溫泉 (戶外泳池+溫泉) · 放鬆身心"
+          "time": "20:00",
+          "desc": "💆 飯店SPA或泳池 · 放鬆身心 · 享受夜晚"
         }
       ],
       "day_photo": ""
     },
     {
       "day": 3,
-      "date": "8月12日 · 三",
-      "label_zh": "第三天 · 古坑綠色隧道 · 甜蜜返家",
-      "day_query": "Gukeng Green Tunnel Yunlin",
-      "hotel_name": "N/A (返家)",
-      "hotel_name_zh": "返家",
-      "hotel_room": "N/A",
-      "weather": "☀️ 30°/22°",
-      "rain_pct": "10%",
+      "date": "8月12日 · 週三",
+      "label_zh": "第三天 · 悠閒返程",
+      "day_query": "Yunlin honey bee farm",
+      "hotel_name": "劍湖山渡假大飯店 (Janfusun Resort Hotel)",
+      "hotel_name_zh": "劍湖山渡假大飯店",
+      "hotel_room": "兩間豪華家庭房",
+      "weather": "🌤️ 31°/25° · 晴朗",
+      "rain_pct": "5%",
       "slots": [
         {
           "time": "09:00",
-          "desc": "🛌 睡到自然醒 · 劍湖山渡假大飯店自助早餐 (07:00–10:00)"
+          "desc": "🛌 睡到自然醒 · 在飯店享用自助早餐 (07:00–10:00)"
         },
         {
           "time": "10:30",
-          "desc": "🚗 退房 · 前往古坑綠色隧道 (車程約20分鐘)"
-        },
-        {
-          "time": "11:00",
-          "desc": "🌳 古坑綠色隧道散步 · 兩旁芒果樹蔭 · 騎腳踏車或漫步 · 逛市集"
+          "desc": "🏊 飯店泳池或遊戲室 · 孩子們可繼續玩樂"
         },
         {
           "time": "12:00",
-          "desc": "☕ 古坑綠色隧道咖啡館 · 品嚐古坑咖啡與鬆餅 (NT$800/5人) · 悠閒時光"
+          "desc": "🍽️ 午餐：飯店內景觀餐廳 · 輕食或套餐 · 五人NT$2,000"
         },
         {
-          "time": "13:00",
-          "desc": "🍽️ 阿國師燉雞午餐 (古坑鄉) · 四物燉雞、麻油雞 (合菜NT$2,500) · 補充體力"
+          "time": "13:30",
+          "desc": "🛍️ 古坑綠色隧道 · 購買當地農產品與咖啡伴手禮"
         },
         {
-          "time": "14:30",
-          "desc": "🛍️ 古坑街上採買伴手禮 · 古坑咖啡、鳳梨酥、蜂蜜等"
+          "time": "15:00",
+          "desc": "🚗 退房 · 自駕返回頭份 (約2小時) · 結束愉快旅程"
         },
         {
-          "time": "16:00",
-          "desc": "🚗 驅車返回頭份 (國道3號) · 車程約2.5小時 · 預計18:30抵達"
-        },
-        {
-          "time": "18:30",
-          "desc": "🏡 抵達頭份 · 結束愉快旅程 · 滿載回憶與特產"
+          "time": "17:00",
+          "desc": "🏠 抵達頭份 · 回到溫暖的家"
         }
       ],
       "day_photo": ""
@@ -416,71 +404,71 @@
   ],
   "costs": [
     {
-      "label": "🏨 住宿（阿里山賓館 + 劍湖山飯店）",
-      "amount_ntd": 33000
+      "label": "🚗 交通 (油費/高鐵/停車)",
+      "amount_ntd": 8000
     },
     {
-      "label": "🍽️ 餐飲（6餐+咖啡點心）",
-      "amount_ntd": 17800
+      "label": "🏨 住宿 (阿里山賓館1晚 + 劍湖山1晚)",
+      "amount_ntd": 30000
     },
     {
-      "label": "🎫 景點門票（阿里山森林遊樂區、小火車、劍湖山）",
-      "amount_ntd": 7000
+      "label": "🍽️ 餐飲 (含早午晚餐)",
+      "amount_ntd": 20000
     },
     {
-      "label": "⛽ 交通（油資 + 過路費）",
-      "amount_ntd": 5000
+      "label": "🎫 景點門票 (小火車/劍湖山)",
+      "amount_ntd": 6000
     },
     {
       "label": "🛍️ 購物伴手禮",
       "amount_ntd": 5000
     },
     {
-      "label": "💰 其他（停車、零食、雜支）",
-      "amount_ntd": 3000
+      "label": "💆 SPA/其他",
+      "amount_ntd": 5000
     }
   ],
-  "cost_total_ntd": 70800,
-  "budget_remaining_ntd": 29200,
+  "cost_total_ntd": 74000,
+  "budget_remaining_ntd": 26000,
   "photos": {
     "hero": [
       {
         "url": "",
-        "label": "Alishan and Yunlin skyline landmark"
+        "label": "Alishan & Yunlin skyline landmark"
       },
       {
         "url": "",
-        "label": "Alishan and Yunlin skyline landmark"
+        "label": "Alishan & Yunlin skyline landmark"
       }
     ],
     "destination": [
       {
         "url": "",
-        "label": "Alishan and Yunlin travel scenery"
+        "label": "Alishan & Yunlin travel scenery"
       },
       {
         "url": "",
-        "label": "Alishan and Yunlin travel scenery"
+        "label": "Alishan & Yunlin travel scenery"
       },
       {
         "url": "",
-        "label": "Alishan and Yunlin travel scenery"
+        "label": "Alishan & Yunlin travel scenery"
       },
       {
         "url": "",
-        "label": "Alishan and Yunlin travel scenery"
+        "label": "Alishan & Yunlin travel scenery"
       },
       {
         "url": "",
-        "label": "Alishan and Yunlin travel scenery"
+        "label": "Alishan & Yunlin travel scenery"
       },
       {
         "url": "",
-        "label": "Alishan and Yunlin travel scenery"
+        "label": "Alishan & Yunlin travel scenery"
       }
     ]
   },
-  "chat_hash": "d9579dc05d06d36bdde991986aa482425448324fe3e2d3c5d725089993f6c631",
+  "chat_hash": "55e0e35cf091d622431262ab3d5c7b606a1f67f2173123abc4518962ff90ebd7",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-03T14:08:37.529035"
+  "generated_at": "2026-06-03T14:23:02.144298"
 }
