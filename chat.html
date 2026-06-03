@@ -46,6 +46,7 @@
     <div style="font-size:0.7rem;margin-top:0.4rem;" id="token-status"></div>
     <button class="save-btn" style="margin-top:0.75rem;" onclick="saveChat()">💾 儲存修改 Save Notes</button>
     <div id="save-status" style="font-size:0.85rem;margin-top:0.75rem;font-family:'Noto Serif TC',serif;"></div>
+    <pre id="gh-log" style="display:none;background:#1a1a2e;color:#0f0;font-size:0.7rem;padding:0.75rem;border-radius:8px;max-height:300px;overflow-y:auto;margin-top:0.5rem;white-space:pre-wrap;word-break:break-all;font-family:monospace;"></pre>
   </div>
 </div>
 
@@ -155,19 +156,11 @@ async function saveChat() {
       var statusEl = document.getElementById('save-status');
       statusEl.innerHTML = '⚡ 已儲存 · 觸發生成中…';
       statusEl.style.color = '#c9a84c';
-      // Trigger GitHub Action via repository_dispatch
-      fetch('https://api.github.com/repos/' + REPO + '/dispatches', {
-        method: 'POST',
-        headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
-        body: JSON.stringify({event_type: 'chat_saved'})
-      }).then(function() {
-        statusEl.innerHTML = '✅ 已觸發！GitHub Actions 正在生成新計畫…約 60 秒';
-        statusEl.style.color = '#4a9';
-        pollForNewBuild();
-      }).catch(function(e) {
-        statusEl.innerHTML = '⚠️ 觸發失敗: ' + e.message + '<br>請確認 Token 有 workflow 權限';
-        statusEl.style.color = '#e88';
-      });
+      var logEl = document.getElementById('gh-log');
+      logEl.style.display = 'block';
+      logEl.textContent = '🚀 Triggering GitHub Actions…\n';
+      // Trigger and show live log
+      fetchWorkflowAndShowLog(token, logEl, statusEl);
     } else {
       const body = await resp.text();
       if(resp.status === 401) {
@@ -181,6 +174,70 @@ async function saveChat() {
   } catch(e) {
     alert('⚠️ 已暫存到瀏覽器，但無法連接 GitHub。');
   }
+}
+
+function fetchWorkflowAndShowLog(token, logEl, statusEl) {
+  var apiBase = 'https://api.github.com/repos/' + REPO + '/actions';
+  var h = {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json'};
+
+  // Step 1: Trigger dispatch
+  fetch('https://api.github.com/repos/' + REPO + '/dispatches', {
+    method: 'POST',
+    headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+    body: JSON.stringify({event_type: 'chat_saved'})
+  }).then(function() {
+    logEl.textContent += '✅ Dispatch sent. Waiting for workflow to start…\n';
+    // Step 2: Poll for the workflow run
+    var runPoll = setInterval(function() {
+      fetch(apiBase + '/runs?per_page=3&event=repository_dispatch', {headers: h})
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var runs = data.workflow_runs || [];
+          var latest = runs[0];
+          if (!latest || latest.status === 'completed') {
+            clearInterval(runPoll);
+            if (latest && latest.conclusion === 'success') {
+              logEl.textContent += '✅ Workflow completed successfully!\n';
+              statusEl.innerHTML = '🎉 生成完成！<a href=\"index.html?t=' + Date.now() + '\" style=\"color:var(--gold);font-size:1rem;\">↗ 查看新計畫</a>';
+              statusEl.style.color = '#4a9';
+            } else if (latest && latest.conclusion === 'failure') {
+              logEl.textContent += '❌ Workflow failed. Check log above.\n';
+              statusEl.innerHTML = '❌ 生成失敗 · 查看上方 log';
+              statusEl.style.color = '#e88';
+            }
+            return;
+          }
+          // Step 3: Fetch logs when job is running
+          if (latest.jobs_url) {
+            fetch(latest.jobs_url, {headers: h})
+              .then(function(r) { return r.json(); })
+              .then(function(jdata) {
+                var jobs = jdata.jobs || [];
+                if (jobs.length > 0 && jobs[0].id) {
+                  var logUrl = apiBase + '/jobs/' + jobs[0].id + '/logs';
+                  fetch(logUrl, {headers: h})
+                    .then(function(lr) { return lr.text(); })
+                    .then(function(logText) {
+                      var clean = logText.replace(/\r/g, '').split('\n');
+                      // Show last 20 relevant lines
+                      var filtered = clean.filter(function(l) {
+                        return !l.includes('[command]') && !l.includes('##[group]') && l.trim();
+                      }).slice(-25);
+                      if (filtered.length > 0) {
+                        logEl.textContent = filtered.join('\n');
+                        logEl.scrollTop = logEl.scrollHeight;
+                      }
+                    }).catch(function(){});
+                }
+              }).catch(function(){});
+          }
+        }).catch(function(){});
+    }, 3000);
+    // Safety: stop polling after 3 min
+    setTimeout(function() { clearInterval(runPoll); }, 180000);
+  }).catch(function(e) {
+    logEl.textContent += '❌ Dispatch failed: ' + e.message + '\n';
+  });
 }
 
 function pollForNewBuild() {
