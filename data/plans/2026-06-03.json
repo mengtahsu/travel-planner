@@ -1,0 +1,354 @@
+{
+  "destination_en": "Alishan, Yunlin, Taiwan",
+  "title_zh": "阿里山雲林 · 三天兩夜親子自然之旅",
+  "date_range": "2026/08/21–08/23",
+  "start_date": "2026-08-21",
+  "end_date": "2026-08-23",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "CYI",
+  "travelers": 5,
+  "days": 3,
+  "budget_ntd": 100000,
+  "flight": {
+    "airline": "無需飛行",
+    "departure_date": "8月21日",
+    "return_date": "8月23日",
+    "total_price_ntd": 0,
+    "outbound": {
+      "flight_no": "N/A",
+      "route": "TPE → 嘉義高鐵站（高鐵）",
+      "depart_time": "07:30",
+      "arrive_time": "09:00",
+      "duration": "1h 30m",
+      "class": "標準車廂"
+    },
+    "inbound": {
+      "flight_no": "N/A",
+      "route": "嘉義高鐵站 → TPE（高鐵）",
+      "depart_time": "17:00",
+      "arrive_time": "18:30",
+      "duration": "1h 30m",
+      "class": "標準車廂"
+    }
+  },
+  "hotels": [
+    {
+      "name": "阿里山賓館 (Alishan House)",
+      "name_zh": "阿里山賓館",
+      "district": "阿里山森林遊樂區",
+      "day_range": "1–2",
+      "nights": 2,
+      "price_ntd": 18000,
+      "stars": "★★★★☆",
+      "room_type": "兩間標準雙人房（可加床）",
+      "breakfast": "含自助早餐",
+      "amenities": "🏔️ 山景 · ♨️ 公共湯屋 · 🍽️ 中式餐廳 · 🌲 森林步道",
+      "search_query": "Alishan House hotel Taiwan",
+      "photos": [
+        {
+          "url": "",
+          "label": "luxury hotel Alishan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Alishan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Alishan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Alishan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Alishan"
+        },
+        {
+          "url": "",
+          "label": "luxury hotel Alishan"
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [
+      {
+        "name": "阿里山賓館中餐廳 (Alishan House Chinese Restaurant)",
+        "name_zh": "阿里山賓館中餐廳",
+        "stars": "",
+        "dish": "🍄 招牌：阿里山筍乾燉雞 · 高山蔬菜拼盤",
+        "address": "阿里山鄉中正村阿里山1號",
+        "price_ntd": 3000,
+        "price_label": "合菜 NT$3,000/桌（5人）",
+        "hours": "11:30–14:00 · 17:30–20:00",
+        "search_query": "Alishan House Chinese restaurant",
+        "photos": [
+          {
+            "url": "",
+            "label": "fine dining food Alishan"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Alishan"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Alishan"
+          }
+        ]
+      }
+    ],
+    "bistros": [
+      {
+        "name": "山賓土雞城 (Shan Bin Tu Ji Cheng)",
+        "name_zh": "山賓土雞城",
+        "stars": "",
+        "dish": "🐔 招牌：桶仔雞 · 竹筒飯 · 山蘇",
+        "address": "嘉義縣阿里山鄉樂野村4鄰149號",
+        "price_ntd": 2500,
+        "price_label": "合菜 NT$2,500/桌（5人）",
+        "hours": "11:00–20:00",
+        "search_query": "Shan Bin Tu Ji Cheng Alishan",
+        "photos": [
+          {
+            "url": "",
+            "label": "bistros food Alishan"
+          },
+          {
+            "url": "",
+            "label": "bistros food Alishan"
+          },
+          {
+            "url": "",
+            "label": "bistros food Alishan"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "阿里山火車站咖啡廳 (Alishan Station Cafe)",
+        "name_zh": "阿里山火車站咖啡廳",
+        "stars": "",
+        "dish": "☕ 招牌：阿里山咖啡 · 手工餅乾",
+        "address": "阿里山鄉中正村阿里山火車站2樓",
+        "price_ntd": 600,
+        "price_label": "5人飲品點心 NT$600",
+        "hours": "08:00–17:00",
+        "search_query": "Alishan Station Cafe",
+        "photos": [
+          {
+            "url": "",
+            "label": "cafe coffee Alishan"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Alishan"
+          },
+          {
+            "url": "",
+            "label": "cafe coffee Alishan"
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "Aug 21 · Fri",
+      "label_zh": "第一天 · 阿里山森林浴 & 雲林古坑咖啡",
+      "day_query": "Alishan forest railway Taiwan",
+      "hotel_name": "阿里山賓館 Alishan House",
+      "hotel_name_zh": "阿里山賓館",
+      "hotel_room": "兩間標準雙人房（加床）",
+      "weather": "☁️ 22°/15°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🚄 台北車站集合 · 搭乘高鐵 07:30 前往嘉義（標準車廂 · NT$2,800/5人）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚌 抵達嘉義高鐵站 · 轉乘台灣好行阿里山線（09:30發車 · 車程約2.5小時 · NT$1,000/5人）"
+        },
+        {
+          "time": "11:30",
+          "desc": "🏨 抵達阿里山森林遊樂區 · 阿里山賓館辦理入住 · 寄放行李"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 阿里山賓館中餐廳午餐 · 合菜：筍乾燉雞、高山蔬菜（NT$3,000）"
+        },
+        {
+          "time": "13:30",
+          "desc": "🚂 搭乘阿里山森林小火車至沼平車站（單程NT$100/人 · 約7分鐘）· 沿途欣賞神木與雲海"
+        },
+        {
+          "time": "14:00",
+          "desc": "🌲 沼平公園 → 姊妹潭 → 受鎮宮 · 森林步道漫步（約2小時）"
+        },
+        {
+          "time": "16:30",
+          "desc": "☕ 阿里山火車站咖啡廳休息 · 品嚐阿里山咖啡與手工餅乾（NT$600）"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍽️ 山賓土雞城晚餐 · 桶仔雞、竹筒飯、山蘇（NT$2,500）"
+        },
+        {
+          "time": "20:00",
+          "desc": "♨️ 返回阿里山賓館 · 享受公共湯屋 · 觀星（帶外套，夜間約15°C）"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 就寢 · 為明日日出做準備"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 2,
+      "date": "Aug 22 · Sat",
+      "label_zh": "第二天 · 阿里山日出 & 雲林古坑",
+      "day_query": "Alishan sunrise Zhushan platform",
+      "hotel_name": "阿里山賓館 Alishan House",
+      "hotel_name_zh": "阿里山賓館",
+      "hotel_room": "兩間標準雙人房（加床）",
+      "weather": "🌤️ 25°/16°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "04:00",
+          "desc": "⏰ 起床 · 飯店大廳集合 · 搭乘祝山線小火車（04:30發車 · NT$150/人）"
+        },
+        {
+          "time": "05:10",
+          "desc": "🌅 祝山觀日平台 · 欣賞阿里山日出（約05:30）· 必拍：雲海與曙光"
+        },
+        {
+          "time": "06:30",
+          "desc": "🚶 步行下山經對高岳步道 · 約1小時 · 沿途欣賞高山植物"
+        },
+        {
+          "time": "07:30",
+          "desc": "🍽️ 返回阿里山賓館享用自助早餐（含房費）"
+        },
+        {
+          "time": "09:00",
+          "desc": "🛍️ 阿里山商店街購物 · 購買山葵、茶葉、蜂蜜伴手禮（預算NT$2,000）"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚌 退房 · 搭乘台灣好行前往嘉義高鐵站（11:00發車 · NT$1,000/5人）"
+        },
+        {
+          "time": "13:00",
+          "desc": "🚄 嘉義高鐵站 → 雲林高鐵站（13:30–13:50 · NT$700/5人）"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚕 雲林高鐵站 → 古坑綠色隧道（計程車約20分鐘 · NT$400）"
+        },
+        {
+          "time": "14:30",
+          "desc": "🌳 古坑綠色隧道 · 騎腳踏車（租車NT$200/人 · 約1小時）· 情人橋拍照"
+        },
+        {
+          "time": "16:00",
+          "desc": "☕ 古坑華山咖啡大街 · 參觀咖啡烘豆體驗（NT$300/人）· 品嚐台灣咖啡"
+        },
+        {
+          "time": "17:30",
+          "desc": "🍽️ 華山小吃部晚餐 · 推薦：咖啡雞、苦茶油雞（NT$2,000）"
+        },
+        {
+          "time": "19:00",
+          "desc": "🚕 返回雲林高鐵站 · 搭乘高鐵20:00回台北（NT$3,500/5人）"
+        },
+        {
+          "time": "21:30",
+          "desc": "🏠 抵達台北車站 · 結束旅程"
+        }
+      ],
+      "day_photo": ""
+    }
+  ],
+  "costs": [
+    {
+      "label": "🚄 高鐵（台北↔嘉義↔雲林）",
+      "amount_ntd": 8000
+    },
+    {
+      "label": "🚌 台灣好行阿里山線",
+      "amount_ntd": 2000
+    },
+    {
+      "label": "🏨 住宿（阿里山賓館兩間房兩晚）",
+      "amount_ntd": 36000
+    },
+    {
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 14000
+    },
+    {
+      "label": "🎫 景點門票（小火車、腳踏車、體驗）",
+      "amount_ntd": 6000
+    },
+    {
+      "label": "🚕 計程車",
+      "amount_ntd": 2000
+    },
+    {
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 5000
+    }
+  ],
+  "cost_total_ntd": 73000,
+  "budget_remaining_ntd": 27000,
+  "photos": {
+    "hero": [
+      {
+        "url": "",
+        "label": "Alishan skyline landmark"
+      },
+      {
+        "url": "",
+        "label": "Alishan skyline landmark"
+      }
+    ],
+    "destination": [
+      {
+        "url": "",
+        "label": "Alishan travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Alishan travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Alishan travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Alishan travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Alishan travel scenery"
+      },
+      {
+        "url": "",
+        "label": "Alishan travel scenery"
+      }
+    ]
+  },
+  "chat_hash": "bcfeb9df13e296807b6c2fdc24dcae50bbdfce66c8518edd8bf821c87718c9dd",
+  "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
+  "generated_at": "2026-06-03T12:50:43.540020"
+}
