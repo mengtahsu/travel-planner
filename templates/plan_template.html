@@ -306,6 +306,15 @@ async function toggleSave() {
   if(!resp.ok) {
     alert('Save flag failed (HTTP ' + resp.status + '). Check your token permissions in Settings.');
     cb.checked = !checked;
+    return;
+  }
+  // Trigger generator to archive plan immediately
+  if(checked) {
+    fetch('https://api.github.com/repos/' + REPO_S + '/dispatches', {
+      method: 'POST',
+      headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+      body: JSON.stringify({event_type: 'chat_saved'})
+    }).catch(function(){});
   }
 }
 
