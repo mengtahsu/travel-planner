@@ -179,90 +179,94 @@ async function saveChat() {
 function fetchWorkflowAndShowLog(token, logEl, statusEl) {
   var apiBase = 'https://api.github.com/repos/' + REPO + '/actions';
   var h = {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json'};
-  var lastLogLen = 0;
+  var shownRunId = null;
 
-  // Step 1: Trigger dispatch
   fetch('https://api.github.com/repos/' + REPO + '/dispatches', {
     method: 'POST',
     headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
     body: JSON.stringify({event_type: 'chat_saved'})
   }).then(function() {
-    logEl.textContent = '🚀 Triggered. Waiting for workflow…\n';
-    // Step 2: Poll for the workflow run
+    logEl.textContent = '🚀 已觸發 · 等待 workflow 啟動…\n';
+    var dots = 0;
+    var dotTimer = setInterval(function() {
+      dots++; logEl.textContent = logEl.textContent.replace(/\.+$/, '') + '.'.repeat(dots % 4 || 4);
+    }, 500);
+
     var runPoll = setInterval(function() {
-      fetch(apiBase + '/runs?per_page=5', {headers: h})
+      fetch(apiBase + '/runs?per_page=10', {headers: h})
         .then(function(r) { return r.json(); })
         .then(function(data) {
           var runs = data.workflow_runs || [];
-          var latest = runs[0];
-          // Only handle Regenerate Plan runs
-          if (!latest || latest.name !== 'Regenerate Plan') return;
+          var latest = null;
+          for (var i = 0; i < runs.length; i++) {
+            if (runs[i].name === 'Regenerate Plan') { latest = runs[i]; break; }
+          }
+          if (!latest) return;
 
-          if (latest.status === 'completed') {
-            clearInterval(runPoll);
-            fetchLogs(latest, true);
-            if (latest.conclusion === 'success') {
-              logEl.textContent += '\n━━━ ✅ COMPLETED ━━━\n';
-              statusEl.innerHTML = '🎉 完成！<a href=\"index.html?t=' + Date.now() + '\" style=\"color:var(--gold);font-size:1rem;\">↗ 查看新計畫</a>';
-              statusEl.style.color = '#4a9';
-            } else {
-              logEl.textContent += '\n━━━ ❌ FAILED ━━━\n';
-              statusEl.innerHTML = '❌ 生成失敗 · 查看上方 log';
-              statusEl.style.color = '#e88';
+          var status = latest.status;
+          // Update status line
+          var statusLine = '🔄 ' + status;
+          if (status === 'in_progress') statusLine = '⚙️ Running generator…';
+          if (status === 'completed') { clearInterval(runPoll); clearInterval(dotTimer); }
+
+          if (!shownRunId || shownRunId !== latest.id) {
+            shownRunId = latest.id;
+            // Fetch full log
+            if (latest.jobs_url) {
+              fetch(latest.jobs_url, {headers: h})
+                .then(function(r) { return r.json(); })
+                .then(function(jdata) {
+                  var jobs = jdata.jobs || [];
+                  if (jobs.length === 0) { logEl.textContent = statusLine + '\n(Waiting for job…)'; return; }
+                  fetch(apiBase + '/jobs/' + jobs[0].id + '/logs', {headers: h})
+                    .then(function(lr) { return lr.text(); })
+                    .then(function(raw) {
+                      var clean = raw.replace(/\x1b\[[0-9;]*m/g, '');
+                      var lines = clean.split('\n').filter(function(l) {
+                        var t = l.trim();
+                        if (!t) return false;
+                        if (t.startsWith('[command]')) return false;
+                        if (t.startsWith('git ') && (t.includes('config') || t.includes('add') || t.includes('commit') || t.includes('push') || t.includes('pull') || t.includes('submodule') || t.includes('version'))) return false;
+                        if (t.startsWith('Temporarily overriding')) return false;
+                        if (t.startsWith('Adding repository')) return false;
+                        if (t.startsWith('Cleaning up')) return false;
+                        if (t.startsWith('Post job')) return false;
+                        if (t.startsWith('##[warning]')) return false;
+                        if (t.startsWith('setup-')) return false;
+                        if (t.startsWith('Run ')) return false;
+                        if (t.includes('::group::')) return false;
+                        if (t.includes('::endgroup::')) return false;
+                        return true;
+                      });
+                      if (lines.length > 0) {
+                        logEl.textContent = lines.join('\n');
+                        logEl.scrollTop = logEl.scrollHeight;
+                      } else {
+                        logEl.textContent = statusLine + '\n(Log loading…)';
+                      }
+                      if (status === 'completed') {
+                        logEl.textContent += '\n\n━━━ ' + (latest.conclusion === 'success' ? '✅ 生成完成' : '❌ 失敗') + ' ━━━';
+                        if (latest.conclusion === 'success') {
+                          statusEl.innerHTML = '🎉 <a href=\"index.html?t=' + Date.now() + '\" style=\"color:var(--gold);font-size:1rem;\">↗ 查看新計畫</a>';
+                          statusEl.style.color = '#4a9';
+                        } else {
+                          statusEl.innerHTML = '❌ 失敗 · 看 log';
+                          statusEl.style.color = '#e88';
+                        }
+                      }
+                    }).catch(function() {
+                      logEl.textContent = statusLine + '\n(Fetching log…)';
+                    });
+                }).catch(function() {
+                  logEl.textContent = statusLine + '\n(Waiting for job…)';
+                });
             }
-            return;
-          }
-          // Show status
-          if (latest.status === 'queued' || latest.status === 'waiting') {
-            if (logEl.textContent.indexOf('⏳') === -1 || logEl.textContent.split('⏳').length < 3) {
-              logEl.textContent += '⏳ ' + latest.status + '…\n';
-            }
-          }
-          // Fetch logs while running
-          if (latest.jobs_url) {
-            fetchLogs(latest, false);
           }
         }).catch(function(){});
     }, 3000);
-    setTimeout(function() { clearInterval(runPoll); }, 300000);
-
-    function fetchLogs(run, isFinal) {
-      fetch(run.jobs_url, {headers: h})
-        .then(function(r) { return r.json(); })
-        .then(function(jdata) {
-          var jobs = jdata.jobs || [];
-          if (jobs.length === 0) return;
-          var logUrl = apiBase + '/jobs/' + jobs[0].id + '/logs';
-          fetch(logUrl, {headers: h})
-            .then(function(lr) { return lr.text(); })
-            .then(function(logText) {
-              // Strip ANSI colors
-              var clean = logText.replace(/\x1b\[[0-9;]*m/g, '');
-              // Show only generator output lines (those with actual content)
-              var lines = clean.split('\n').filter(function(l) {
-                var t = l.trim();
-                if (!t) return false;
-                // Skip git command noise
-                if (t.startsWith('[command]')) return false;
-                if (t.startsWith('git ')) return false;
-                if (t.startsWith('Temporarily overriding')) return false;
-                if (t.startsWith('Adding repository')) return false;
-                if (t.startsWith('Cleaning up')) return false;
-                if (t.startsWith('Post job')) return false;
-                if (t.startsWith('##[warning]')) return false;
-                return true;
-              });
-              var newContent = lines.join('\n');
-              if (newContent.length > lastLogLen || isFinal) {
-                logEl.textContent = newContent;
-                logEl.scrollTop = logEl.scrollHeight;
-                lastLogLen = newContent.length;
-              }
-            }).catch(function(){});
-        }).catch(function(){});
-    }
+    setTimeout(function() { clearInterval(runPoll); clearInterval(dotTimer); }, 300000);
   }).catch(function(e) {
-    logEl.textContent += '❌ Dispatch failed: ' + e.message + '\n';
+    logEl.textContent += '\n❌ Dispatch failed: ' + e.message;
   });
 }
 
