@@ -308,13 +308,76 @@ async function toggleSave() {
     cb.checked = !checked;
     return;
   }
-  // Trigger generator to archive plan immediately
+  // Trigger generator to archive plan immediately + show log
   if(checked) {
+    // Create log display if not exists
+    var logEl = document.getElementById('gh-log');
+    var statusEl = document.getElementById('save-status');
+    if (!statusEl) {
+      statusEl = document.createElement('div');
+      statusEl.id = 'save-status';
+      statusEl.style.cssText = 'text-align:center;margin-top:0.5rem;font-size:0.85rem;font-family:Noto Serif TC,serif;';
+      cb.parentElement.parentElement.appendChild(statusEl);
+    }
+    if (!logEl) {
+      logEl = document.createElement('pre');
+      logEl.id = 'gh-log';
+      logEl.style.cssText = 'background:#1a1a2e;color:#0f0;font-size:0.65rem;padding:0.5rem;border-radius:6px;max-height:150px;overflow-y:auto;margin:0.5rem auto 0;white-space:pre-wrap;word-break:break-all;font-family:monospace;max-width:600px;text-align:left;';
+      cb.parentElement.parentElement.appendChild(logEl);
+    }
+    logEl.style.display = 'block';
+    statusEl.style.color = '#c9a84c';
+    // Reuse the same log pattern as chat page
+    var dispatchTime = Date.now();
+    var foundRun = false;
+    var done = false;
+    var h = {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json'};
+    var apiBase = 'https://api.github.com/repos/' + REPO_S + '/actions';
     fetch('https://api.github.com/repos/' + REPO_S + '/dispatches', {
       method: 'POST',
-      headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
+      headers: {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json'},
       body: JSON.stringify({event_type: 'chat_saved'})
-    }).catch(function(){});
+    }).then(function() {
+      var startTime = Date.now();
+      var timerInterval = setInterval(function() {
+        if (foundRun || done) { clearInterval(timerInterval); return; }
+        var secs = Math.floor((Date.now() - startTime) / 1000);
+        logEl.innerHTML = '<span style=\"color:#888;\">⏳ 等待 workflow 啟動… ' + secs + ' 秒</span>';
+      }, 1000);
+      var poll = setInterval(function() {
+        if (done) { clearInterval(poll); return; }
+        fetch(apiBase + '/runs?per_page=10', {headers: h}).then(function(r){return r.json()}).then(function(data){
+          var runs = data.workflow_runs || [];
+          for (var i = 0; i < runs.length; i++) {
+            if (runs[i].name !== 'Regenerate Plan') continue;
+            var rt = new Date(runs[i].created_at).getTime();
+            if (rt < dispatchTime - 5000) continue;
+            var run = runs[i];
+            if (!foundRun) {
+              foundRun = true;
+              clearInterval(timerInterval);
+              var url = 'https://github.com/' + REPO_S + '/actions/runs/' + run.id;
+              logEl.innerHTML = '🚀 <a href=\"' + url + '\" target=\"_blank\" style=\"color:#58a6ff;font-size:1rem;\">↗ 開啟 GitHub 即時 Log</a>';
+              statusEl.innerHTML = '⚙️ 存檔中… <a href=\"' + url + '\" target=\"_blank\" style=\"color:var(--gold);\">看進度</a>';
+            }
+            if (run.status === 'completed') {
+              done = true;
+              clearInterval(poll);
+              clearInterval(timerInterval);
+              if (run.conclusion === 'success') {
+                statusEl.innerHTML = '🎉 存檔完成！<a href=\"log.html\" style=\"color:var(--gold);\">查看存檔</a>';
+                statusEl.style.color = '#4a9';
+              } else {
+                statusEl.innerHTML = '❌ 失敗 · <a href=\"' + url + '\" target=\"_blank\" style=\"color:var(--gold);\">看 log</a>';
+                statusEl.style.color = '#e88';
+              }
+            }
+            return;
+          }
+        }).catch(function(){});
+      }, 3000);
+      setTimeout(function(){ done = true; clearInterval(poll); clearInterval(timerInterval); }, 300000);
+    });
   }
 }
 
