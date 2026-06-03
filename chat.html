@@ -179,81 +179,89 @@ async function saveChat() {
 function fetchWorkflowAndShowLog(token, logEl, statusEl) {
   var apiBase = 'https://api.github.com/repos/' + REPO + '/actions';
   var h = {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json'};
-  var lastLogText = '';
+  var dispatchTime = Date.now();
+  var watchingRunId = null;
+  var lastLogLen = 0;
 
   fetch('https://api.github.com/repos/' + REPO + '/dispatches', {
     method: 'POST',
     headers: {'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'},
     body: JSON.stringify({event_type: 'chat_saved'})
   }).then(function() {
-    logEl.textContent = '🚀 已觸發 · 等待 runner 啟動…';
+    logEl.textContent = '🚀 已觸發 · 等待 workflow…';
 
     var runPoll = setInterval(function() {
       fetch(apiBase + '/runs?per_page=10', {headers: h})
         .then(function(r) { return r.json(); })
         .then(function(data) {
           var runs = data.workflow_runs || [];
-          var latest = null;
+          // Find the newest Regenerate Plan run created AFTER our dispatch
+          var newest = null;
           for (var i = 0; i < runs.length; i++) {
-            if (runs[i].name === 'Regenerate Plan') { latest = runs[i]; break; }
+            if (runs[i].name !== 'Regenerate Plan') continue;
+            var runTime = new Date(runs[i].created_at).getTime();
+            if (runTime > dispatchTime - 5000) { // 5s buffer for clock skew
+              newest = runs[i];
+              break;
+            }
           }
-          if (!latest) return;
-          if (!latest.jobs_url) return;
+          if (!newest || !newest.jobs_url) return;
 
-          fetch(latest.jobs_url, {headers: h})
+          // Only watch this run
+          if (watchingRunId && watchingRunId !== newest.id) return;
+
+          var run = newest;
+          fetch(run.jobs_url, {headers: h})
             .then(function(r) { return r.json(); })
             .then(function(jdata) {
               var jobs = jdata.jobs || [];
               if (jobs.length === 0) return;
               var job = jobs[0];
 
-              // Only fetch logs when job is actually running (in_progress or completed)
+              // Show status while waiting
               if (job.status === 'queued' || job.status === 'waiting') {
-                if (lastLogText === '') logEl.textContent = '⏳ 等待 runner (' + job.status + ')…';
+                if (!watchingRunId) {
+                  watchingRunId = run.id;
+                  logEl.textContent = '🚀 已觸發\n⏳ 等待 runner… (' + job.status + ')';
+                }
                 return;
               }
+
+              // Job is running or done — fetch logs
+              if (!watchingRunId) watchingRunId = run.id;
 
               fetch(apiBase + '/jobs/' + job.id + '/logs', {headers: h})
                 .then(function(lr) { return lr.text(); })
                 .then(function(raw) {
-                  // Show only the actual generator output
                   var clean = raw.replace(/\x1b\[[0-9;]*m/g, '');
-                  var out = '';
-                  // Extract content after "Run generator" section
-                  var runIdx = clean.indexOf('Run generator');
-                  if (runIdx >= 0) {
-                    var afterRun = clean.substring(runIdx);
-                    // Remove the group header line
-                    var lines = afterRun.split('\n');
-                    var capturing = false;
-                    var outLines = [];
-                    for (var i = 0; i < lines.length; i++) {
-                      var l = lines[i].trim();
-                      if (l.indexOf('endgroup') >= 0) { capturing = true; continue; }
-                      if (l.indexOf('Run python generator.py') >= 0) continue;
-                      if (l.indexOf('Run git config') >= 0) { capturing = false; }
-                      if (l.indexOf('Run Setup Pages') >= 0) { capturing = false; }
-                      if (l.indexOf('Run Upload Pages') >= 0) { capturing = false; }
-                      if (l.indexOf('Run Deploy to GitHub') >= 0) { capturing = false; }
-                      if (capturing && l) outLines.push(l);
-                    }
-                    out = outLines.join('\n');
+                  // Strip timestamp prefixes and ANSI noise
+                  var lines = clean.split('\n');
+                  var out = [];
+                  for (var i = 0; i < lines.length; i++) {
+                    var l = lines[i];
+                    // Remove ISO timestamp prefix if present
+                    l = l.replace(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+Z /, '');
+                    var t = l.trim();
+                    if (!t) continue;
+                    // Skip infrastructure noise
+                    if (t.startsWith('##[')) continue;
+                    if (t.startsWith('[command]')) continue;
+                    if (t.indexOf('::group::') >= 0) continue;
+                    if (t.indexOf('::endgroup::') >= 0) continue;
+                    out.push(t);
                   }
-                  // Fallback: show whole log minus noise
-                  if (!out) {
-                    out = clean;
-                  }
-                  if (out !== lastLogText) {
-                    lastLogText = out;
-                    logEl.textContent = out;
+                  var text = out.join('\n');
+                  if (text.length > lastLogLen) {
+                    lastLogLen = text.length;
+                    logEl.textContent = text;
                     logEl.scrollTop = logEl.scrollHeight;
                   }
 
-                  // Handle completion
                   if (job.status === 'completed') {
                     clearInterval(runPoll);
-                    logEl.textContent += '\n\n━━━ ' + (latest.conclusion === 'success' ? '✅ 完成' : '❌ 失敗') + ' ━━━';
-                    if (latest.conclusion === 'success') {
+                    var ok = run.conclusion === 'success';
+                    logEl.textContent = text + '\n\n' + (ok ? '✅ 生成完成' : '❌ 失敗');
+                    if (ok) {
                       statusEl.innerHTML = '🎉 <a href=\"index.html?t=' + Date.now() + '\" style=\"color:var(--gold);font-size:1rem;\">↗ 查看新計畫</a>';
                       statusEl.style.color = '#4a9';
                     } else {
@@ -261,12 +269,10 @@ function fetchWorkflowAndShowLog(token, logEl, statusEl) {
                       statusEl.style.color = '#e88';
                     }
                   }
-                }).catch(function() {
-                  // Log blob not ready yet
-                });
+                }).catch(function(){});
             }).catch(function(){});
         }).catch(function(){});
-    }, 4000);
+    }, 3000);
     setTimeout(function() { clearInterval(runPoll); }, 300000);
   }).catch(function(e) {
     logEl.textContent += '\n❌ Dispatch failed: ' + e.message;
