@@ -450,10 +450,7 @@ def search_ddg_images(query: str, count: int = 4) -> list[dict[str, str]]:
         return True
 
     try:
-        try:
-            from duckduckgo_search import DDGS
-        except ImportError:
-            from ddgs import DDGS
+        from ddgs import DDGS
         results = list(DDGS().images(query, max_results=max(count * 4, 20)))
         photos = []
         seen = set()
@@ -845,8 +842,9 @@ def main() -> None:
     progress(12, "Checking for changes...")
     changed, chat_text, chat_hash, config_hash = has_changes()
     plan_exists = (PLANS_DIR / f"{today}.json").exists()
+    force = os.environ.get("FORCE_REGENERATE", "").lower() == "true"
 
-    if not changed and plan_exists:
+    if not changed and plan_exists and not force:
         progress(100, "No changes — skipping generation.")
         log_run("skipped", "No changes detected")
         # Only push if an archive was just created (avoid overwhelming Pages)
