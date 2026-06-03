@@ -188,12 +188,16 @@ function fetchWorkflowAndShowLog(token, logEl, statusEl) {
     headers: {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json'},
     body: JSON.stringify({event_type: 'chat_saved'})
   }).then(function(r) {
-    if (!r.ok) { logEl.innerHTML = '<span style=\"color:#e88;\">Dispatch 失敗: HTTP ' + r.status + '</span>'; return; }
-    logEl.innerHTML = '<span style=\"color:#888;\">搜尋 workflow run…</span>';
-    var tries = 0;
+    if (!r.ok) { logEl.innerHTML = '<span style=\"color:#e88;\">發送失敗: HTTP ' + r.status + '</span>'; return; }
+    // Count-up timer
+    var startTime = Date.now();
+    var timerInterval = setInterval(function() {
+      if (foundRun || done) { clearInterval(timerInterval); return; }
+      var secs = Math.floor((Date.now() - startTime) / 1000);
+      logEl.innerHTML = '<span style=\"color:#888;\">⏳ 等待 workflow 啟動… ' + secs + ' 秒</span>';
+    }, 1000);
     var poll = setInterval(function() {
       if (done) { clearInterval(poll); return; }
-      tries++;
       fetch(apiBase + '/runs?per_page=10', {headers: h})
         .then(function(r) { return r.json(); })
         .then(function(data) {
@@ -205,6 +209,7 @@ function fetchWorkflowAndShowLog(token, logEl, statusEl) {
             var run = runs[i];
             if (!foundRun) {
               foundRun = true;
+              clearInterval(timerInterval);
               var url = 'https://github.com/' + REPO + '/actions/runs/' + run.id;
               logEl.innerHTML = '🚀 <a href=\"' + url + '\" target=\"_blank\" style=\"color:#58a6ff;font-size:1.1rem;\">↗ 開啟 GitHub 即時 Log</a>';
               statusEl.innerHTML = '⚙️ 生成中… <a href=\"' + url + '\" target=\"_blank\" style=\"color:var(--gold);\">看進度</a>';
@@ -213,6 +218,7 @@ function fetchWorkflowAndShowLog(token, logEl, statusEl) {
             if (run.status === 'completed') {
               done = true;
               clearInterval(poll);
+              clearInterval(timerInterval);
               if (run.conclusion === 'success') {
                 statusEl.innerHTML = '🎉 <a href=\"index.html?t=' + Date.now() + '\" style=\"color:var(--gold);font-size:1rem;\">↗ 查看新計畫</a>';
                 statusEl.style.color = '#4a9';
@@ -223,12 +229,9 @@ function fetchWorkflowAndShowLog(token, logEl, statusEl) {
             }
             return;
           }
-          if (!foundRun && tries > 5) {
-            logEl.innerHTML = '<span style=\"color:#e88;\">找不到 workflow run。Token 有 workflow 權限嗎？</span>';
-          }
         }).catch(function(){});
     }, 3000);
-    setTimeout(function() { done = true; clearInterval(poll); }, 300000);
+    setTimeout(function() { done = true; clearInterval(poll); clearInterval(timerInterval); }, 300000);
   });
 }
 
