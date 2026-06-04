@@ -1,113 +1,92 @@
 {
-  "destination_en": "Bali, Indonesia",
-  "title_zh": "峇里島奢華浪漫寒假之旅",
-  "date_range": "2026/02/14–02/19",
-  "start_date": "2026-02-14",
-  "end_date": "2026-02-19",
-  "departure": "Taiwan (TPE)",
+  "destination_en": "Alishan, Taiwan",
+  "title_zh": "暑假阿里山 · 三代同堂豪華美食之旅",
+  "date_range": "2026/07/15–07/17",
+  "start_date": "2026-07-15",
+  "end_date": "2026-07-17",
+  "departure": "頭份 (Miaoli)",
   "departure_code": "TPE",
-  "destination_code": "DPS",
-  "travelers": 2,
-  "days": 6,
-  "budget_ntd": 400000,
-  "flight": {
-    "airline": "中華航空 China Airlines",
-    "departure_date": "2月14日",
-    "return_date": "2月19日",
-    "total_price_ntd": 36000,
-    "outbound": {
-      "flight_no": "CI 771",
-      "route": "TPE → DPS 直飛",
-      "depart_time": "09:00",
-      "arrive_time": "14:30",
-      "duration": "5h 30m",
-      "class": "豪華經濟艙"
-    },
-    "inbound": {
-      "flight_no": "CI 772",
-      "route": "DPS → TPE 直飛",
-      "depart_time": "15:30",
-      "arrive_time": "21:00",
-      "duration": "5h 30m",
-      "class": "豪華經濟艙"
-    }
-  },
+  "destination_code": "CYI",
+  "travelers": 5,
+  "days": 3,
+  "budget_ntd": 100000,
+  "flight": null,
   "hotels": [
     {
-      "name": "The St. Regis Bali Resort",
-      "name_zh": "瑞吉巴里度假村",
-      "district": "努沙杜瓦 Nusa Dua",
-      "day_range": "1–3",
-      "nights": 3,
-      "price_ntd": 105000,
+      "name": "阿里山賓館 (Alishan House)",
+      "name_zh": "阿里山賓館 · 歷史館",
+      "district": "阿里山森林遊樂區",
+      "day_range": "1–2",
+      "nights": 1,
+      "price_ntd": 18000,
       "stars": "★★★★★",
-      "room_type": "花園泳池別墅",
-      "breakfast": "含每日自助早餐",
-      "amenities": "🏊 私人泳池 · 🧖‍♂️ 瑞吉水療 · 🍽️ 海鮮燒烤餐廳 · 🛥️ 管家服務",
-      "search_query": "St Regis Bali Resort Nusa Dua",
+      "room_type": "豪華雙人房 ×2",
+      "breakfast": "含自助早餐",
+      "amenities": "🏔️ 雲海觀景台 · 🛁 檜木浴缸 · ❄️ 高山暖氣 · 🌲 森林步道",
+      "search_query": "Alishan House hotel Taiwan luxury",
       "photos": [
         {
-          "url": "https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2018/09/THE-ST-REGIS-BALIS-RESORT-NUSA-DUA.jpg?ssl=1",
-          "label": "Top 10 best luxury hotels & resorts in Bali - the Luxury Travel Expert"
+          "url": "https://www.bambootravel.co.uk/files/img_cache/40095/1400__1500389279_AlishanHouse1.jpg?1500389487",
+          "label": "Alishan House | Bamboo Travel"
         },
         {
-          "url": "https://www.theluxevoyager.com/wp-content/uploads/2020/02/The-Legian-Bali-Seminyak-Pool.jpg",
-          "label": "The Legian Bali: 5 Star Luxury Hotel, Beach Resort & Spa in Seminyak"
+          "url": "https://ak-d.tripcdn.com/images/1mc0s12000elhcldy2268_R_960_660_R5_D.jpg",
+          "label": "Alishan House(嘉义阿里山宾馆) in Chiayi County - 2026 Prices & Reviews | Trip.com"
         },
         {
-          "url": "https://www.travelonline.com/bali/accommodation/double-six-luxury-hotel-seminyak/pool-beach-66742-crop.jpg",
-          "label": "Double-Six Luxury Hotel Seminyak Bali | Best Beachfront Stays"
+          "url": "https://www.bambootravel.co.uk/files/img_cache/40097/1400__1500389423_AlishanHouse2.jpg?1500389487",
+          "label": "Alishan House | Bamboo Travel"
         },
         {
-          "url": "https://lh5.googleusercontent.com/UW8zc9anMtUGUV9B_RN4Qg3bWbJ3W_oFsjqKhwxWkrFP5Pfj418g5OfjcSlwQkx0b5OTtGD_26PfCGWCaOVEDg3fBqUSYKaDz8OjpLsNJDKjGzp_fvNSTokeKIrmJrx-Raj5UfmSraVjvK2lYg",
-          "label": "The Ten Best Luxury Family Resorts In Bali: Unbelievable Places On An ..."
+          "url": "https://besthotelsresortsawards.com/wp-content/uploads/2023/12/Hotel-Indigo-Alishan-5.jpeg",
+          "label": "The Grand Ceremony of Best Hotels & Resorts Awards 2024 Sets the Stage ..."
         },
         {
-          "url": "https://bali.com/wp-content/uploads/2020/10/jcr_content-1.jpg",
-          "label": "Bvlgari Resort Bali - Bali.com"
+          "url": "https://www.wendyweitours.com/wp-content/uploads/2023/03/alishan-hotel-07_orig.jpg",
+          "label": "Best Alishan Hotels - Wendy Wei Tours"
         },
         {
-          "url": "https://www.travelplusstyle.com/wp-content/gallery/amankila-bali/rs2059_amankila-04-kila-three-tier-pool.jpg",
-          "label": "Amankila, Bali, Indonesia • Luxury Hotel Review by TravelPlusStyle"
+          "url": "https://besthotelsresortsawards.com/wp-content/uploads/2024/04/Hotel-Indigo-Alishan.jpeg",
+          "label": "Hotel Indigo Alishan: Taiwan's Leading Sustainability Hotel 2024 - Best ..."
         }
       ]
     },
     {
-      "name": "Four Seasons Resort Bali at Sayan",
-      "name_zh": "四季山妍度假村",
-      "district": "烏布 Ubud",
-      "day_range": "4–5",
-      "nights": 2,
-      "price_ntd": 72000,
+      "name": "阿里山賓館 (Alishan House) 現代館",
+      "name_zh": "阿里山賓館 · 現代館",
+      "district": "阿里山森林遊樂區",
+      "day_range": "1–2",
+      "nights": 1,
+      "price_ntd": 22000,
       "stars": "★★★★★",
-      "room_type": "河景泳池別墅",
-      "breakfast": "含每日單點早餐",
-      "amenities": "🏊 無邊際泳池 · 🌿 瑜珈課程 · 🍽️ 河畔餐廳 · 🚣 阿勇河漂流",
-      "search_query": "Four Seasons Sayan Ubud Bali",
+      "room_type": "豪華家庭房 ×1 + 豪華雙人房 ×1",
+      "breakfast": "含自助早餐",
+      "amenities": "🏊 室內溫水泳池 · 🎮 遊戲室 · 🍽️ 景觀餐廳 · 🧖 三溫暖",
+      "search_query": "Alishan House modern wing luxury",
       "photos": [
         {
-          "url": "http://cdn.designrulz.com/wp-content/uploads/2016/08/Four-Seasons-Resort-at-Sayan-designrulz-1.jpg",
-          "label": "Four Seasons Resort Bali at Sayan"
+          "url": "https://ik.imagekit.io/tvlk/apr-asset/p8EuABHS2sbhHoBGG5-47sW9QD93WhQr5VVZ6b4cXGI=/giata/bigger/21/212311/212311a_hb_f_001.jpg?tr=q-80,c-at_max,w-1280,h-720&_src=imagekit",
+          "label": "Alishan House - The Modern House - Diskon s.d 30% & Harga Promo"
         },
         {
-          "url": "https://www.fourseasons.com/alt/img-opt/~70.1530.0,0000-245,0491-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/UBU/UBU_655_original.jpg",
-          "label": "Bali Luxury Resort | Villa Resort Ubud | Four Seasons Bali at Sayan"
+          "url": "https://images.trvl-media.com/hotels/11000000/10390000/10389400/10389342/6a667645_z.jpg",
+          "label": "Alishan House in Alishan | Best Rates & Deals on Orbitz"
         },
         {
-          "url": "https://www.fourseasons.com/alt/img-opt/~70.1530.2,2446-157,4903-2997,7554-1686,2374/publish/content/dam/fourseasons/images/web/UBU/UBU_323_original.jpg",
-          "label": "Bali Luxury Resort | Villa Resort Ubud | Four Seasons Bali at Sayan"
+          "url": "https://planetescape.pl/app/uploads/2020/09/Alishan-House2.jpg",
+          "label": "Tajwan (Alishan) – Alishan House - Planet Escape"
         },
         {
-          "url": "https://www.travelplusstyle.com/wp-content/gallery/four-seasons-resort-bali-at-sayan/four-seasons-sayan.jpg",
-          "label": "Four Seasons Resort Bali at Sayan • Review by TravelPlusStyle"
+          "url": "https://www.boncity.com/s/img/infos/22546_2.jpg?20171123033541",
+          "label": "阿里山賓館(Alishan House)"
         },
         {
-          "url": "https://images.blacktomato.com/2014/11/Pool-Villa.jpg?auto=compress,format&fit=crop&h=800&ixlib=php-3.3.1&q=82&w=1520&s=42139446b2c3baabab5e9972b1f7b3f5",
-          "label": "Four Seasons Resort Bali at Sayan, Ubud | Luxury Hotels in Indonesia ..."
+          "url": "https://cdn.worldota.net/t/640x400/content/93/d8/93d8e3721b5148563f263fa3ae563a748e27bd45.JPEG",
+          "label": "Alishan House - The Modern House in Alishan — Book now on ZenHotels.com"
         },
         {
-          "url": "https://www.travelplusstyle.com/wp-content/gallery/four-seasons-resort-bali-at-sayan/ubu_294.jpg",
-          "label": "Four Seasons Resort Bali at Sayan • Review by TravelPlusStyle"
+          "url": "https://cdn.worldota.net/t/640x400/content/ea/93/ea936575b82e777059acb65187ce3879088a60e4.JPEG",
+          "label": "Alishan House - The Modern House in Alishan — Book now on ZenHotels.com"
         }
       ]
     }
@@ -115,81 +94,81 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Kayuputi",
-        "name_zh": "瑞吉度假村內 · 高級海鮮餐廳",
+        "name": "阿里山賓館 · 雲頂餐廳",
+        "name_zh": "雲頂餐廳 · 阿里山賓館",
         "stars": "⭐",
-        "dish": "🦞 招牌：龍蝦濃湯 · 和牛牛排",
-        "address": "Kawasan Pariwisata Nusa Dua, 80363",
-        "price_ntd": 6000,
-        "price_label": "晚餐套餐 €170/人 · NT$6,000",
-        "hours": "18:00–22:00 · 需預約",
-        "search_query": "Kayuputi restaurant St Regis Bali",
+        "dish": "🍲 招牌：阿里山烏龍茶燻雞 · 山葵豆腐",
+        "address": "阿里山賓館 5樓",
+        "price_ntd": 1200,
+        "price_label": "晚餐套餐 NT$1,200/人",
+        "hours": "17:30–20:30 · 需預約",
+        "search_query": "Yunding Restaurant Alishan House food",
         "photos": [
           {
-            "url": "https://indonesiaexpat.id/wp-content/uploads/2023/09/Kayuputi-Exterior-e1694064624597-615x400.jpg",
-            "label": "Kayuputi, St. Regis Bali: Weekend Brunch with Flavour and Flair"
+            "url": "https://taiwanderers.com/wp-content/uploads/2025/03/alishan-31-768x968.jpg",
+            "label": "Alishan Itinerary - 2 to 3 Days in Alishan, Taiwan Guide 2025 ..."
           },
           {
-            "url": "https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2024/11/27/5893f7e9-1aef-4772-8867-f1e518871653_a3b478f4.jpg",
-            "label": "On the Menu | Fine dining, cocktails and barbecue at St Regis Bali ..."
+            "url": "https://img.restaurantguru.com/c01f-Restaurant-Alishan-Food-Station-ramen.jpg",
+            "label": "Alishan Food Station restaurant, Hong Kong - Restaurant reviews"
           },
           {
-            "url": "https://img-highend.okezone.com/library/images/Kayuputi+Restaurant.jpg",
-            "label": "Dinner Premium Berkonsep Budaya Bali Di Kayuputi Restaurant, St. Regis ..."
+            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3539567214002377283",
+            "label": "Alishan Restaurant (@alishan.restaurant) • Instagram photos and videos"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Locavore",
-        "name_zh": "米其林一星 · 在地食材創意料理",
-        "stars": "⭐",
-        "dish": "🌿 招牌：峇里香料套餐 · 12道驚喜",
-        "address": "Jl. Dewi Sita, Ubud",
-        "price_ntd": 3500,
-        "price_label": "品嚐菜單 IDR 750,000/人 · NT$3,500",
-        "hours": "18:30–21:30 · 需預約",
-        "search_query": "Locavore Ubud Bali Michelin",
+        "name": "山之美餐廳",
+        "name_zh": "山之美原住民風味餐",
+        "stars": "",
+        "dish": "🍖 招牌：烤山豬肉 · 馬告香腸 · 竹筒飯",
+        "address": "阿里山鄉中正村 42 號",
+        "price_ntd": 800,
+        "price_label": "合菜 NT$800/人",
+        "hours": "11:00–19:00",
+        "search_query": "Shan Zhi Mei restaurant Alishan",
         "photos": [
           {
-            "url": "https://images.squarespace-cdn.com/content/v1/55ecf301e4b049db23e1ecba/1486109382503-9RBLKL5F05NKG4ZJEKCX/Locavore+Ubud+Bali",
-            "label": "Locavore Restaurant Ubud, Bali (Asia's 50 Best Restaurant) — Perth Blogger"
+            "url": "https://www.mycebu.ph/wp-content/uploads/2017/01/alishan-shan-bin.jpg",
+            "label": "Taiwan’s Alishan: Scenic views, glorious sunrise, beautiful nature"
           },
           {
-            "url": "https://baliluxurytravel.com/wp-content/uploads/2023/07/Locavore-Ubud-Indonesia-03.jpeg",
-            "label": "Top Michelin Star Dining in Bali: Ultimate Guide"
+            "url": "https://www.alishanhotel.com.tw/upload/fac_b/ALL_fac_24D19_SbCsNrQt5i.jpg",
+            "label": "Chinese Restaurant-Alishan Hotel"
           },
           {
-            "url": "https://www.akasakabali.com/blog/wp-content/uploads/2024/12/fine-dining-restaurant-locavore-restaurant-bali.webp",
-            "label": "5 Fine Dining Restaurant Terbaik Dengan Chef Bintang Michelin"
+            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1121225526711079",
+            "label": "蒸膳渼 Zheng Shan Mei Restaurant | Kuching"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Seniman Coffee Studio",
-        "name_zh": "烏布文青咖啡館",
+        "name": "阿里山受鎮宮咖啡",
+        "name_zh": "受鎮宮旁 · 雲端咖啡",
         "stars": "",
-        "dish": "☕ 招牌：冷萃咖啡 · 峇里式鬆餅",
-        "address": "Jl. Sriwedari No.5, Ubud",
-        "price_ntd": 600,
-        "price_label": "兩人咖啡輕食 IDR 130,000 · NT$600",
-        "hours": "07:00–22:00 · 免費WiFi",
-        "search_query": "Seniman Coffee Ubud",
+        "dish": "☕ 招牌：阿里山咖啡 · 手工愛玉",
+        "address": "阿里山森林遊樂區內",
+        "price_ntd": 300,
+        "price_label": "咖啡+愛玉 NT$300/人",
+        "hours": "08:00–17:00",
+        "search_query": "Alishan coffee shop Shouzhen Temple",
         "photos": [
           {
-            "url": "https://www.lowonganhotelbali.com/wp-content/uploads/2022/05/Seniman-Coffee-Studio-Ubud-25-mei-1200x676.png",
-            "label": "Seniman Coffee Studio Ubud - Lowongan Hotel Bali | Loker Hotel Bali ..."
+            "url": "https://i.ytimg.com/vi/TS-EPSKb4qU/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLAcqAN0tGuDhcuZBSQvlcvnymnkPg",
+            "label": "Alishan Shouzhen Temple阿里山受鎮宮 - YouTube"
           },
           {
-            "url": "https://thebaliguideline.com/build/blog/img/best-cafes-ubud-seniman-coffee.jpg",
-            "label": "The Best Cafes in Ubud for Your Brunch Fix - The Bali Guideline"
+            "url": "https://www.thepoortraveler.net/wp-content/uploads/2020/04/Alishan-Shouzhen-Temple-1042x695.jpg",
+            "label": "ALISHAN ITINERARY: 12 Best Things to Do & Places to Visit | The Poor ..."
           },
           {
-            "url": "https://images.squarespace-cdn.com/content/v1/56c13cc00442627a08632989/1592779876261-GCRJ4MNQFFJP4JZWOMD5/senimanubud",
-            "label": "Sip and Savor at Seniman Coffee in Ubud"
+            "url": "https://www.nickkembel.com/wp-content/uploads/2019/01/shouzhen-temple-alishan.jpg",
+            "label": "Alishan, Taiwan: Best Sunrise Spots, Hiking Trails and Tea Farms ..."
           }
         ]
       }
@@ -198,340 +177,242 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Feb 14 · Sat",
-      "label_zh": "抵達 · 努沙杜瓦奢華開端",
-      "day_query": "St Regis Bali Resort Nusa Dua",
-      "hotel_name": "The St. Regis Bali Resort",
-      "hotel_name_zh": "瑞吉巴里度假村 · 花園泳池別墅",
-      "hotel_room": "花園泳池別墅",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "10%",
+      "date": "2026/07/15 · 週三",
+      "label_zh": "第一天 · 頭份出發 → 阿里山",
+      "day_query": "Alishan Forest Railway",
+      "hotel_name": "阿里山賓館 · 歷史館 + 現代館",
+      "hotel_name_zh": "阿里山賓館 · 兩館雙房型",
+      "hotel_room": "豪華雙人房×2 + 豪華家庭房×1",
+      "weather": "🌤️ 山區 22°/13° · 午後陣雨機率 30%",
+      "rain_pct": "30",
       "slots": [
         {
           "time": "09:00",
-          "desc": "✈️ 桃園機場 TPE 出發 · 中華航空 CI771 · 09:00 起飛"
-        },
-        {
-          "time": "14:30",
-          "desc": "🛬 抵達峇里島伍拉賴機場 (DPS) · 通關取行李 · 專人接機"
-        },
-        {
-          "time": "15:30",
-          "desc": "🚗 專車接送至瑞吉度假村（約 20 分鐘）· 沿途欣賞海景"
-        },
-        {
-          "time": "16:00",
-          "desc": "🏨 入住 The St. Regis Bali · 管家歡迎飲料 · 入住花園泳池別墅"
-        },
-        {
-          "time": "17:00",
-          "desc": "🏊 享受私人泳池 · 放鬆休息 · 管家服務"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ Kayuputi 高級海鮮餐廳 · 預約 18:30 · 龍蝦濃湯 + 和牛牛排"
-        },
-        {
-          "time": "20:30",
-          "desc": "🌙 海灘散步 · 瑞吉酒吧享用睡前雞尾酒"
-        },
-        {
-          "time": "22:00",
-          "desc": "💤 回別墅休息 · 晚安"
-        }
-      ],
-      "day_photo": "https://www.theluxevoyager.com/wp-content/uploads/2018/02/St-Regis-Bali-1000x546.jpg"
-    },
-    {
-      "day": 2,
-      "date": "Feb 15 · Sun",
-      "label_zh": "海神廟 · 文化與SPA日",
-      "day_query": "Tanah Lot Temple Bali sunset",
-      "hotel_name": "The St. Regis Bali Resort",
-      "hotel_name_zh": "瑞吉巴里度假村 · 花園泳池別墅",
-      "hotel_room": "花園泳池別墅",
-      "weather": "☀️ 33°/27°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "😴 睡到自然醒 · 客房早餐服務（可選印尼炒飯或班尼迪克蛋）"
-        },
-        {
-          "time": "10:30",
-          "desc": "🚗 專車前往海神廟 Tanah Lot（車程約 1 小時）"
-        },
-        {
-          "time": "11:30",
-          "desc": "🏛️ 海神廟參觀 · 建於海中的千年寺廟 · 門票 IDR 60,000/人"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 海神廟旁餐廳午餐 · 烤豬肋排 + 椰子水 · 約 NT$1,200"
-        },
-        {
-          "time": "14:30",
-          "desc": "🚗 返回度假村 · 車上小憩"
-        },
-        {
-          "time": "16:00",
-          "desc": "💆 瑞吉水療中心 · 峇里式按摩 90 分鐘 · 每人 IDR 1,200,000"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ 度假村內海鮮燒烤晚餐 · 沙嗲 + 烤龍蝦"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 別墅泳池夜泳 · 星空下放鬆"
-        }
-      ],
-      "day_photo": "https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-a-beauty-of-sunset-on-tanah-lot-temple-in-bali-image_15668030.jpg"
-    },
-    {
-      "day": 3,
-      "date": "Feb 16 · Mon",
-      "label_zh": "烏布轉移 · 梯田與猴林",
-      "day_query": "Tegalalang Rice Terrace Ubud",
-      "hotel_name": "Four Seasons Resort Bali at Sayan",
-      "hotel_name_zh": "四季山妍度假村 · 河景泳池別墅",
-      "hotel_room": "河景泳池別墅",
-      "weather": "⛅ 30°/24°",
-      "rain_pct": "20%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "😴 睡到自然醒 · 瑞吉自助早餐"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏊 最後一次享受別墅泳池 · 打包行李"
-        },
-        {
-          "time": "11:30",
-          "desc": "🚗 退房 · 專車前往烏布（車程約 1 小時）"
-        },
-        {
-          "time": "12:30",
-          "desc": "🏨 入住四季山妍度假村 · 河景泳池別墅 · 迎賓飲料"
-        },
-        {
-          "time": "13:30",
-          "desc": "🍽️ 度假村餐廳午餐 · 印尼炒麵 + 新鮮果汁"
-        },
-        {
-          "time": "15:00",
-          "desc": "🌾 德哥拉朗梯田 Tegalalang Rice Terrace · 拍照 · 鞦韆體驗"
-        },
-        {
-          "time": "17:00",
-          "desc": "🐒 聖猴森林 Sacred Monkey Forest · 門票 IDR 80,000/人"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ Locavore 米其林一星晚餐 · 預約 19:00 · 12 道驚喜套餐"
-        },
-        {
-          "time": "21:30",
-          "desc": "🌙 回度假村 · 河畔散步 · 晚安"
-        }
-      ],
-      "day_photo": "https://gowanderly.com/site-content/uploads/2021/05/Rice-Terrace-at-Tegalalang-in-Bali.jpg"
-    },
-    {
-      "day": 4,
-      "date": "Feb 17 · Tue",
-      "label_zh": "烏布藝術 · 皇宮與市集",
-      "day_query": "Ubud Palace Bali",
-      "hotel_name": "Four Seasons Resort Bali at Sayan",
-      "hotel_name_zh": "四季山妍度假村 · 河景泳池別墅",
-      "hotel_room": "河景泳池別墅",
-      "weather": "☀️ 31°/25°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "😴 睡到自然醒 · 四季單點早餐 · 推薦峇里式炒飯"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏛️ 烏布皇宮 Ubud Palace · 免費參觀 · 感受傳統建築"
-        },
-        {
-          "time": "11:30",
-          "desc": "🛍️ 烏布市集 Ubud Market · 手工藝品 · 殺價樂趣"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 烏布市集旁午餐 · 烤雞飯 + 酪梨果汁 · 約 NT$800"
-        },
-        {
-          "time": "14:30",
-          "desc": "☕ Seniman Coffee Studio · 冷萃咖啡 + 鬆餅"
-        },
-        {
-          "time": "16:00",
-          "desc": "🌿 烏布植物園 Botanical Garden · 散步 · 門票 IDR 50,000/人"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ 度假村河畔餐廳晚餐 · 印尼風味套餐"
-        },
-        {
-          "time": "20:30",
-          "desc": "🌙 別墅內享受私人泳池 · 晚安"
-        }
-      ],
-      "day_photo": "https://finnsbeachclub.com/wp-content/uploads/2023/12/ubudpalacebulgarihotelscom-1536x864.jpg"
-    },
-    {
-      "day": 5,
-      "date": "Feb 18 · Wed",
-      "label_zh": "阿勇河漂流 · 最後的奢華",
-      "day_query": "Ayung River rafting Bali",
-      "hotel_name": "Four Seasons Resort Bali at Sayan",
-      "hotel_name_zh": "四季山妍度假村 · 河景泳池別墅",
-      "hotel_room": "河景泳池別墅",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "😴 睡到自然醒 · 四季早餐"
+          "desc": "🛌 起床 · 頭份家中享用輕早餐（建議先準備三明治）"
         },
         {
           "time": "10:00",
-          "desc": "🚣 阿勇河漂流 Ayung River Rafting（度假村安排）· 2 小時 · 每人 IDR 600,000"
+          "desc": "🚗 頭份出發 · 國道 1 號南下 → 台 18 線（阿里山公路）· 車程約 3 小時"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 漂流後簡餐 · 度假村內"
+          "time": "11:30",
+          "desc": "🛑 中途停靠：觸口天長地久橋（休息 20 分鐘 · 拍照 · 買釋迦）"
         },
         {
-          "time": "14:00",
-          "desc": "💆 四季水療 · 情侶按摩 60 分鐘 · 每人 IDR 1,500,000"
+          "time": "13:00",
+          "desc": "🍽️ 山之美餐廳午餐 · 青少年必吃烤山豬肉串 · 竹筒飯 · 馬告香腸"
         },
         {
-          "time": "16:00",
-          "desc": "🏊 無邊際泳池游泳 · 俯瞰河谷"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍽️ 度假村內浪漫晚餐 · 河景燭光晚餐"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 最後一夜 · 泳池畔星空"
-        }
-      ],
-      "day_photo": "https://www.balibestdaytour.com/media/Rafting-on-Ayung-River-Ubud.jpg"
-    },
-    {
-      "day": 6,
-      "date": "Feb 19 · Thu",
-      "label_zh": "返程 · 滿載回憶",
-      "day_query": "Ngurah Rai Airport Bali",
-      "hotel_name": "",
-      "hotel_name_zh": "",
-      "hotel_room": "",
-      "weather": "☀️ 33°/27°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "😴 睡到自然醒 · 最後一次四季早餐"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏊 別墅泳池最後暢遊 · 打包行李"
-        },
-        {
-          "time": "12:00",
-          "desc": "🚗 退房 · 專車前往機場（車程約 1.5 小時）"
-        },
-        {
-          "time": "13:30",
-          "desc": "🛍️ 機場免稅店最後購物 · 峇里咖啡、精油"
+          "time": "14:30",
+          "desc": "🏨 抵達阿里山賓館 · 辦理入住（歷史館 2 間雙人房 + 現代館 1 間家庭房）· 青少年可先到現代館遊戲室放電"
         },
         {
           "time": "15:30",
-          "desc": "✈️ 中華航空 CI772 · 15:30 起飛回台灣"
+          "desc": "🚂 阿里山森林鐵路 · 沼平線（單程約 7 分鐘）· 青少年最愛小火車體驗"
         },
         {
-          "time": "21:00",
-          "desc": "🛬 抵達桃園機場 · 結束完美旅程"
+          "time": "16:30",
+          "desc": "🌲 沼平公園 → 姊妹潭 · 環湖步道（1.2 公里 · 輕鬆好走）"
+        },
+        {
+          "time": "18:00",
+          "desc": "🏨 返回賓館 · 稍作盥洗"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 雲頂餐廳晚餐 · 預約 18:30 · 品嚐烏龍茶燻雞 · 山葵豆腐 · 高山蔬菜"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌙 夜間活動：青少年可到現代館游泳（室內溫水泳池）· 長輩泡三溫暖"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌃 歷史館觀星平台 · 無光害星空（帶星座APP）· 早點休息"
         }
       ],
-      "day_photo": "https://content.r9cdn.net/rimg/dimg/47/f1/47904643-ap-DPS-16fa4e7bc05.jpg?width=2160&height=1215&xhint=3189&yhint=2016&crop=true"
+      "day_photo": "https://taiwaneverything.cc/wp-content/uploads/2021/12/21-1170x650.jpg"
+    },
+    {
+      "day": 2,
+      "date": "2026/07/16 · 週四",
+      "label_zh": "第二天 · 阿里山深度遊",
+      "day_query": "Yushan National Park Alishan sunrise",
+      "hotel_name": "阿里山賓館 · 歷史館 + 現代館",
+      "hotel_name_zh": "阿里山賓館 · 續住",
+      "hotel_room": "豪華雙人房×2 + 豪華家庭房×1",
+      "weather": "🌥️ 清晨 8°/5° · 白天 18° · 午後多雲",
+      "rain_pct": "20",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "🛌 起床 · 注意：想看日出可 04:30 起床（但青少年可能不想，自由選擇）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🍳 阿里山賓館自助早餐 · 稀飯 · 高山蔬菜 · 現烤麵包"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚶 巨木群棧道（1.5 公里 · 約 40 分鐘）· 神木 28 號 · 樹齡 2000 年"
+        },
+        {
+          "time": "11:30",
+          "desc": "☕ 受鎮宮旁雲端咖啡 · 阿里山咖啡 + 手工愛玉 · 青少年可買紀念品"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：阿里山賓館簡餐或自備野餐（推薦：烤肉飯糰 · 茶葉蛋）"
+        },
+        {
+          "time": "13:30",
+          "desc": "🚗 自駕前往：玉山國家公園塔塔加（車程約 40 分鐘）· 沿途看獼猴"
+        },
+        {
+          "time": "14:30",
+          "desc": "🏔️ 塔塔加遊客中心 · 鹿林山步道（青少年友善 · 來回 1 小時）"
+        },
+        {
+          "time": "16:30",
+          "desc": "🚗 返回阿里山 · 途中停靠：夫妻樹 · 拍照"
+        },
+        {
+          "time": "17:30",
+          "desc": "🏨 回賓館休息 · 青少年可再去游泳或遊戲室"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 晚餐：山之美餐廳（外帶或內用）· 推薦：桶仔雞 · 炒山蘇"
+        },
+        {
+          "time": "20:00",
+          "desc": "🎮 青少年時間：現代館遊戲室（Switch · 桌遊）· 長輩泡茶賞夜景"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 晚安"
+        }
+      ],
+      "day_photo": "https://peakvisor.com/photo/Yushan-National-Park-Taiwan-Peak.jpg"
+    },
+    {
+      "day": 3,
+      "date": "2026/07/17 · 週五",
+      "label_zh": "第三天 · 阿里山 → 北返（順路）",
+      "day_query": "Xitou Nature Education Area",
+      "hotel_name": "無住宿",
+      "hotel_name_zh": "無住宿 · 當日北返",
+      "hotel_room": "",
+      "weather": "🌤️ 山區 20°/14° · 平地 32°",
+      "rain_pct": "10",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "🛌 起床 · 收拾行李 · 退房（兩館同時辦理）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🍳 阿里山賓館最後早餐 · 吃飽再上路"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚗 出發北返 · 台 18 線下山 → 台 3 線（往北）"
+        },
+        {
+          "time": "11:30",
+          "desc": "🛑 中途停靠：水里（車程約 1.5 小時）· 吃水里肉圓 · 董家肉圓（青少年友善）"
+        },
+        {
+          "time": "13:00",
+          "desc": "🌳 溪頭自然教育園區（車程 30 分鐘）· 青少年景點：空中走廊（7 層樓高）· 大學池"
+        },
+        {
+          "time": "14:30",
+          "desc": "🚶 溪頭神木步道 · 竹廬 · 銀杏林"
+        },
+        {
+          "time": "16:00",
+          "desc": "🍽️ 溪頭附近：妖怪村（免費入場）· 吃枯麻燒 · 買伴手禮"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚗 繼續北返 · 國道 3 號 → 頭份（車程約 1.5 小時）"
+        },
+        {
+          "time": "18:30",
+          "desc": "🏠 抵達頭份家中 · 行程結束"
+        }
+      ],
+      "day_photo": "https://eng.taiwan.net.tw/att/1/big_scenic_spots/pic_2101_14.jpg"
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票",
-      "amount_ntd": 36000
+      "label": "🏨 住宿（阿里山賓館兩館兩晚）",
+      "amount_ntd": 40000
     },
     {
-      "label": "🏨 住宿（總計）",
-      "amount_ntd": 177000
+      "label": "🍽️ 餐飲（三餐+小吃）",
+      "amount_ntd": 25000
     },
     {
-      "label": "🍽️ 餐飲",
-      "amount_ntd": 35000
+      "label": "🎫 景點門票（阿里山+小火車+溪頭）",
+      "amount_ntd": 5000
     },
     {
-      "label": "🎫 景點門票",
-      "amount_ntd": 8000
+      "label": "🚗 交通（油費+過路費+停車）",
+      "amount_ntd": 5000
     },
     {
-      "label": "🚗 交通",
+      "label": "🛍️ 購物伴手禮（茶葉+愛玉+妖怪村）",
       "amount_ntd": 15000
     },
     {
-      "label": "💆 SPA",
-      "amount_ntd": 24000
-    },
-    {
-      "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 20000
+      "label": "🎮 青少年娛樂（遊戲室+游泳）",
+      "amount_ntd": 2000
     }
   ],
-  "cost_total_ntd": 315000,
-  "budget_remaining_ntd": 85000,
+  "cost_total_ntd": 92000,
+  "budget_remaining_ntd": 8000,
   "photos": {
     "hero": [
       {
-        "url": "https://as1.ftcdn.net/jpg/17/64/51/74/1000_F_1764517414_2Syv48NSykubrZXwjCO9m9ZzHscjyB7S.jpg",
-        "label": "Bali Skyline Hand Drawn Sketch with Cultural Landmarks for Tourism ..."
+        "url": "https://www.willflyforfood.net/wp-content/uploads/2019/12/alishan-shouzhen-temple.jpg",
+        "label": "Alishan National Scenic Area"
       },
       {
-        "url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/1-bali-indonesia-skyline-towseef-dar.jpg",
-        "label": "Bali Indonesia Skyline Mixed Media by NextWay Art - Fine Art America"
+        "url": "https://taiwanderers.com/wp-content/uploads/2025/03/alishan-sunrise-36-768x512.jpg",
+        "label": "Alishan Itinerary - 2 to 3 Days in Alishan, Taiwan Guide 2025 ..."
       }
     ],
     "destination": [
       {
-        "url": "https://thegoldstay.com/wp-content/uploads/2026/01/file_00000000bdcc71fa8cf8d053bcec67596460907640796605038.png",
-        "label": "Complete Bali Travel Guide: Tips, Stays, and Experiences for Every Traveler"
+        "url": "https://travel80.com/wp-content/uploads/2025/06/2025-06-16-003-alishan-scenic-railway.png",
+        "label": "Riding the Iconic Alishan Scenic Railway: A Journey Through Nature"
       },
       {
-        "url": "https://cdn.travelinntour.com/wp-content/uploads/2022/11/10-best-scenic-spots-in-Bali.jpg",
-        "label": "10 Best Scenic Spots in Bali for Your Next Holiday"
+        "url": "https://theamazingtaiwan.com/wp-content/uploads/2025/01/best-sunrise-spots-in-alishan-taiwan-vxf.jpg",
+        "label": "What Are The Best Sunrise Spots In Alishan National Scenic Area, Taiwan ..."
       },
       {
-        "url": "https://static.thehoneycombers.com/wp-content/uploads/sites/4/2019/08/Ulun-Danu-Beratan-in-Bedugul-Bali-Indonesia-.jpg",
-        "label": "30 Most Beautiful Places in Bali: Must Visit in 2026 (with Maps!)"
+        "url": "http://travel80.com/wp-content/uploads/2025/06/2025-06-16-012-alishan-day-trip-itinerary.png",
+        "label": "Perfect Alishan Day Trip Itinerary: Key Sights and Activities"
       },
       {
-        "url": "https://www.hdwallpapers.in/download/temple_in_water_with_reflection_bali_indonesia_pura_ulun_danu_bratan_during_sunset_hd_travel-1920x1080.jpg",
-        "label": "73+ Terpopuler Bali Wallpaper Hd Iphone, Gambar Pemandangan"
+        "url": "https://livingnomads.com/wp-content/uploads/2019/08/24/Alishan-National-Scenic-Areaalishan-autumn-4.jpg",
+        "label": "Alishan National Scenic Area,alishan autumn (4) - Living + Nomads ..."
       },
       {
-        "url": "https://foreverlivingyes.com/wp-content/uploads/2024/01/Bali-stock-5-1000x667.jpeg",
-        "label": "BALI – BEAUTIFUL AREAS & THE BEST THINGS TO SEE! | Forever Living Yes"
+        "url": "https://travel80.com/wp-content/uploads/2025/06/2025-06-16-009-alishan-forest-recreation-area.png",
+        "label": "Exploring the Alishan Forest Recreation Area: Nature’s Hidden Gem"
+      },
+      {
+        "url": "https://as2.ftcdn.net/v2/jpg/01/58/44/01/1000_F_158440182_49yQuCDUYShb7uDmYD1xR3w6gMY3m8ih.jpg",
+        "label": "Alishan National Scenic Area"
       }
     ]
   },
-  "chat_hash": "86713e1963b259d043fb3646b9593718b501c918e0f97a50a2eaf4ba8b43744f",
+  "chat_hash": "1a31d45b8ad56571b086716e254b2f95816ca749504e6c8c47408cc38abdc589",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-04T12:54:22.328852"
+  "generated_at": "2026-06-04T23:33:22.246616"
 }
