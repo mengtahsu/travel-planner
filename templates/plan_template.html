@@ -410,6 +410,14 @@ restoreCheckbox();
   </label>
 </div>
 <div style="text-align:center;padding:0.5rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
+  {% if plan.chat_input %}
+  <div style="text-align:center;padding:1rem 0 0.5rem;">
+    <details style="display:inline-block;text-align:left;max-width:700px;width:100%;">
+      <summary style="cursor:pointer;font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">📝 產生此計畫的 Chat 輸入</summary>
+      <pre style="background:var(--soft-white);border:1px solid rgba(201,168,76,0.15);border-radius:8px;padding:0.75rem;font-size:0.85rem;white-space:pre-wrap;word-break:break-word;font-family:'Noto Serif TC','Cormorant Garamond',serif;color:var(--ink);max-height:200px;overflow-y:auto;margin-top:0.5rem;">{{ plan.chat_input }}</pre>
+    </details>
+  </div>
+  {% endif %}
   build {{ build_tag }}
 </div>
 </body>
