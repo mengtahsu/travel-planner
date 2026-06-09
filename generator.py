@@ -869,6 +869,7 @@ def main() -> None:
     progress(25, "Calling AI (DeepSeek) — this takes ~30–60s...")
     plan = call_ai(prompt)
     validate_plan(plan)
+    plan["chat_input"] = chat_text  # preserve for display on plan page
     progress(65, "AI response received!")
     print(f"        Destination: {plan.get('destination_en')} — {plan.get('title_zh')}")
 
