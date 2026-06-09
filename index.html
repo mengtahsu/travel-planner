@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https://api.github.com https://raw.githubusercontent.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
-<title>峇里島奢華五天 · 海神廟與虹夕諾雅放空之旅 — Travel Planner</title>
-<meta property="og:title" content="峇里島奢華五天 · 海神廟與虹夕諾雅放空之旅 — Travel Planner">
+<title>峇里島豪華五天 · 海神廟與烏布虹夕諾雅放空之旅 — Travel Planner</title>
+<meta property="og:title" content="峇里島豪華五天 · 海神廟與烏布虹夕諾雅放空之旅 — Travel Planner">
 <meta property="og:description" content="Bali, Indonesia · 2027/01/30–02/03 · 5人 · NT$400,000">
 
 <meta property="og:image" content="https://as1.ftcdn.net/jpg/17/64/51/74/1000_F_1764517414_2Syv48NSykubrZXwjCO9m9ZzHscjyB7S.jpg">
@@ -72,21 +72,25 @@
 
   /* ─── IMAGE SLIDER ─── */
   .slider {
-    overflow: hidden;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
     white-space: nowrap;
     border-radius: 10px;
     margin-bottom: 1rem;
     -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
   }
+  .slider::-webkit-scrollbar { display: none; }
   .slider-track {
-    display: inline-flex;
+    display: flex;
   }
   .slider-track img {
     width: 100%; height: 320px;
     border-radius: 8px;
-    margin-right: 6px;
+    margin-right: 0;
     object-fit: cover;
     flex-shrink: 0;
+    scroll-snap-align: start;
   }
 
   /* ─── HERO SLIDER ─── */
@@ -137,8 +141,9 @@
     display: flex;
   }
   .hotel-slider .slider-track img {
-    width: 100%; height: 240px; margin-right: 4px;
+    width: 100%; height: 240px; margin-right: 0;
     object-fit: cover; flex-shrink: 0;
+    scroll-snap-align: start;
   }
 
   /* ─── DINING SLIDER ─── */
@@ -152,8 +157,9 @@
     width: 100%; flex-shrink: 0; display: block;
   }
   .dining-slider .slider-track img {
-    width: 100%; height: 240px; margin-right: 4px;
+    width: 100%; height: 240px; margin-right: 0;
     object-fit: cover; flex-shrink: 0;
+    scroll-snap-align: start;
   }
   .dining-card .dining-slider { border-radius: 0; }
 
@@ -713,9 +719,7 @@
         
         <img src="https://thegoldstay.com/wp-content/uploads/2026/01/file_00000000bdcc71fa8cf8d053bcec67596460907640796605038.png" alt="Complete Bali Travel Guide: Tips, Stays, and Experiences for Every Traveler">
         
-        <img src="https://www.hdwallpapers.in/download/temple_in_water_with_reflection_bali_indonesia_pura_ulun_danu_bratan_during_sunset_hd_travel-1920x1080.jpg" alt="Temple In Water With Reflection Bali Indonesia Pura Ulun Danu Bratan ...">
-        
-        <img src="https://wallpapers.com/images/file/sunset-scenery-temple-bali-indonesia-l32p1v00xot0gxyq.jpg" alt="Download Sunset Scenery Temple Bali Indonesia Wallpaper | Wallpapers.com">
+        <img src="https://www.hdwallpapers.in/download/temple_in_water_with_reflection_bali_indonesia_pura_ulun_danu_bratan_during_sunset_hd_travel-1920x1080.jpg" alt="73+ Terpopuler Bali Wallpaper Hd Iphone, Gambar Pemandangan">
         
         <img src="https://static.thehoneycombers.com/wp-content/uploads/sites/4/2019/08/Ulun-Danu-Beratan-in-Bedugul-Bali-Indonesia-.jpg" alt="70 Best Things To Do In Bali In 2025">
         
@@ -725,7 +729,7 @@
     </div>
     <div class="hero-overlay">
       <h1>Bali, Indonesia</h1>
-      <div class="zh-title">峇里島奢華五天 · 海神廟與虹夕諾雅放空之旅</div>
+      <div class="zh-title">峇里島豪華五天 · 海神廟與烏布虹夕諾雅放空之旅</div>
       <div class="hero-stats">
         <span>✈️ 2027/01/30–02/03</span>
         <span>👥 5 人</span>
@@ -749,7 +753,7 @@
         <div class="airline">中華航空 China Airlines</div>
         <div style="margin-top:0.5rem;">
           <span style="font-weight:600;">CI 771</span> · TPE → DPS 直飛<br>
-          09:15 出發 · 14:45 抵達<br>
+          09:00 出發 · 14:30 抵達<br>
           飛行 5h 30m · 經濟艙
         </div>
       </div>
@@ -765,7 +769,7 @@
       </div>
     </div>
     <div style="text-align:right; margin-top:1rem; font-size:0.9rem;">
-      來回 NT$ <strong>85,000</strong> / 5人
+      來回 NT$ <strong>150,000</strong> / 5人
     </div>
   </div>
   
@@ -783,39 +787,39 @@
     <div class="hotel-card" style="margin-bottom:1.5rem;">
       <!-- Hotel photo gallery — full-width slider on top, matching dining card layout -->
       
-      <a href="https://www.google.com/search?tbm=isch&q=The%20Legian%20Bali%20Seminyak" target="_blank" title="More photos of The Legian Bali">
+      <a href="https://www.google.com/search?tbm=isch&q=Ayana%20Resort%20Bali" target="_blank" title="More photos of Ayana Resort and Spa Bali">
       <div class="hotel-slider">
         <div class="slider-track">
           
           
           
           
-          <img src="https://balistarisland.com/wp-content/uploads/2017/10/legian-bali-resort-seminyak.jpg" alt="The Legian Bali - Seminyak Beach Front Hotels Deals | Bali Star Island">
+          <img src="https://www.executivetraveller.com/photos/view/size:1500,844/6674fe82ebb044319db75500dd799465-ayana-resort-outlook.jpg" alt="Review: Ayana Resort Bali, where relaxation comes naturally - Executive ...">
           
           
           
           
-          <img src="https://www.theluxevoyager.com/wp-content/uploads/2020/02/The-Legian-Bali-Seminyak-Pool.jpg" alt="The Legian Seminyak _ The Legian Seminyak Bali スミニャック – TSAUXR">
+          <img src="https://bali.com/wp-content/uploads/2024/01/AYANA-RESORT.jpg" alt="RIMBA by Ayana Resort Bali - 5star Luxury in Jimbaran">
           
           
           
           
-          <img src="https://www.johansens.com/wp-content/uploads/2018/02/AS-Indonesia-Bali-The-Legian-Bali-3.jpg" alt="The Legian Seminyak, Bali | Hotel, Luxury Spa | Condé Nast Johansens">
+          <img src="https://du-lich.chudu24.com/f/m/2209/07/ayana-resort-and-spa-6.jpg?w=1200&amp;h=800" alt="AYANA Resort Bali | Bali - Chudu24">
           
           
           
           
-          <img src="https://www.myboutiquehotel.com/photos/5761/the-legian-bali-seminyak-014-01982-2220x1400.jpg" alt="The Legian Bali, a Design Boutique Hotel Seminyak, Indonesia">
+          <img src="https://1.bp.blogspot.com/-EedE4gNhfbI/XVx1rPbME9I/AAAAAAAAQcc/6TMDBpLmuoQ1gzgAJO-WkyanMLAMRtJ5gCLcBGAs/s1600/IMG_6583-min.jpg" alt="AYANA Resort &amp; Spa | Jimbaran, Indonesia | Wanderlust Beauty Dreams">
           
           
           
           
-          <img src="https://cdn.audleytravel.com/3507/2505/79/532256-the-legian-seminyak.jpg" alt="The Legian | Hotels in Seminyak | Audley Travel US">
+          <img src="https://www.infinitypools.holiday/wp-content/uploads/2012/08/AYANA-Resort.jpg" alt="AYANA Resort and Spa Bali, Bali - Infinity Pools">
           
           
           
           
-          <img src="https://bali.com/wp-content/uploads/2022/01/The-Legian-Seminyak-Bali-1021.jpg" alt="Legian | Hotels, Resorts, Villas - Bali.com">
+          <img src="https://i2.wp.com/thetalesofatraveler.com/wp-content/uploads/2017/03/wp-1488328274582-e1488380920676.jpg?fit=1024,768&amp;ssl=1" alt="Ayana Resort Spa Bali Review">
           
           
         </div>
@@ -824,57 +828,57 @@
       
       <div class="hotel-info" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.5rem;">
         <div>
-          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">The Legian Bali</h3>
-          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">峇里島雷吉安酒店 · Seminyak 水明漾</div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Ayana Resort and Spa Bali</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">阿雅娜度假村 · 金巴蘭 Jimbaran</div>
         </div>
         <div style="text-align:right;">
           <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">DAY 1–2</div>
           <div style="font-size:0.8rem;color:var(--warm-gray);">2 晚</div>
-          <div style="font-size:1.1rem;font-weight:600;">NT$ 72,000</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 80,000</div>
         </div>
       </div>
       <div class="hotel-info" style="font-size:0.85rem;color:var(--ink);">
-        ★★★★★ · 兩間豪華海景套房 · 含國際自助早餐<br>
-        🏊 無邊際泳池 · 💆 SPA · 🍽️ 海景餐廳 · 🌴 私人沙灘
+        ★★★★★ · 兩間海景豪華房 · 含自助早餐<br>
+        🏊 12座泳池 · 💆 岩石酒吧 · 🌊 私人沙灘 · 🍽️ 7間餐廳
       </div>
     </div>
     
     <div class="hotel-card" style="margin-bottom:1rem;">
       <!-- Hotel photo gallery — full-width slider on top, matching dining card layout -->
       
-      <a href="https://www.google.com/search?tbm=isch&q=Hoshinoya%20Ubud%20Bali" target="_blank" title="More photos of HOSHINOYA Ubud">
+      <a href="https://www.google.com/search?tbm=isch&q=Hoshinoya%20Bali%20Ubud" target="_blank" title="More photos of Hoshinoya Bali">
       <div class="hotel-slider">
         <div class="slider-track">
           
           
           
           
-          <img src="https://i0.wp.com/theluxurytravelexpert.com/wp-content/uploads/2018/09/THE-ST-REGIS-BALIS-RESORT-NUSA-DUA.jpg?ssl=1" alt="Top 10 best luxury hotels &amp; resorts in Bali - the Luxury Travel Expert">
+          <img src="https://d3s3ousecbrwfp.cloudfront.net/images/2013/10/20073911/7fa140e41fd37ceb9afb324640975e99.jpg" alt="HOSHINOYA Bali | Hoshino Resorts [Official]">
           
           
           
           
-          <img src="https://www.travelonline.com/bali/accommodation/double-six-luxury-hotel-seminyak/pool-beach-66742-crop.jpg" alt="Double-Six Luxury Hotel Seminyak Bali | Best Beachfront Stays">
+          <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/627942145.jpg?k=17657cccf43f017425ab602f9fa1c06ff98356824d7837a92321de05d2a6a3a3&amp;o=" alt="Hoshinoya Bali, Ubud (updated prices 2026)">
           
           
           
           
-          <img src="https://lh5.googleusercontent.com/UW8zc9anMtUGUV9B_RN4Qg3bWbJ3W_oFsjqKhwxWkrFP5Pfj418g5OfjcSlwQkx0b5OTtGD_26PfCGWCaOVEDg3fBqUSYKaDz8OjpLsNJDKjGzp_fvNSTokeKIrmJrx-Raj5UfmSraVjvK2lYg" alt="The Ten Best Luxury Family Resorts In Bali: Unbelievable Places On An ...">
+          <img src="https://www.thehotelguru.com/_images/d4/e7/d4e70386b3e353509164ac4bfb4febb1/hoshinoya-bali-s1180x560.jpg" alt="Hoshinoya Bali, Ubud (Bali), Indonesia. Expert reviews and highlights ...">
           
           
           
           
-          <img src="https://bali.com/wp-content/uploads/2022/05/renaissance-hero-shot-1131.jpg" alt="Luxury Hotels &amp; Resorts in Bali - Best 5star Experiences">
+          <img src="https://www.theluxevoyager.com/wp-content/uploads/2020/04/Hoshinoya-Hotel-Bali-Pool-2-970x546.jpg" alt="Hoshinoya Bali: 5 Star Luxury Boutique Hotel &amp; Spa Resort in Ubud">
           
           
           
           
-          <img src="https://www.viceroybali.com/wp-content/uploads/2024/12/Most-Luxury-resorts-in-the-world-2-1024x577.png" alt="Most Luxury Resorts in the World - The Ultimate List of Hotels">
+          <img src="https://www.theluxevoyager.com/wp-content/uploads/2020/04/Hoshinoya-Hotel-Bali-Pool-970x546.jpg" alt="Hoshinoya Bali: 5 Star Luxury Boutique Hotel &amp; Spa Resort in Ubud">
           
           
           
           
-          <img src="https://www.travelplusstyle.com/wp-content/gallery/amankila-bali/rs2059_amankila-04-kila-three-tier-pool.jpg" alt="Amankila, Bali, Indonesia • Luxury Hotel Review by TravelPlusStyle">
+          <img src="https://www.myboutiquehotel.com/photos/107780/hoshinoya-bali-ubud-006-25806-2220x1400.jpg" alt="Hoshinoya Bali, a Design Boutique Hotel Ubud, Indonesia">
           
           
         </div>
@@ -883,18 +887,18 @@
       
       <div class="hotel-info" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.5rem;">
         <div>
-          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">HOSHINOYA Ubud</h3>
-          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">虹夕諾雅 峇里島烏布 · Ubud 烏布</div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">Hoshinoya Bali</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">虹夕諾雅 峇里島 · 烏布 Ubud</div>
         </div>
         <div style="text-align:right;">
           <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">DAY 3–4</div>
           <div style="font-size:0.8rem;color:var(--warm-gray);">2 晚</div>
-          <div style="font-size:1.1rem;font-weight:600;">NT$ 175,000</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 140,000</div>
         </div>
       </div>
       <div class="hotel-info" style="font-size:0.85rem;color:var(--ink);">
-        ★★★★★ · 兩間 Joglo 泳池別墅 · 含日式/峇里式早餐<br>
-        🏊 私人泳池 · 🌿 河谷景觀 · 🧘 晨間瑜伽 · 🍽️ 在地美食
+        ★★★★★ · 兩間泳池別墅 · 含日式/峇里島式早餐<br>
+        🏊 私人泳池 · 💆 虹夕諾雅SPA · 🌿 河谷景觀 · 🍽️ 餐廳
       </div>
     </div>
     
@@ -913,6 +917,53 @@
     
     <div style="margin-bottom:1.5rem;">
       <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 米其林星級 Fine Dining</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <a href="https://www.google.com/search?tbm=isch&q=Kubu%20restaurant%20Mandapa%20Bali" target="_blank" title="More photos of Kubu at Mandapa">
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://bali.com/wp-content/uploads/2022/01/Kubu-Restaurant-Area-1080.jpg" alt="Kubu at Mandapa" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://www.luxurylifestylemag.co.uk/wp-content/uploads/2025/10/KUBU-AT-MANDAPA-A-RITZ-CARLTON-RESERVE.jpg" alt="Kubu at Mandapa" onerror="this.style.display='none'">
+            
+            
+            
+            
+            <img src="https://backpackeroo.com/wp-content/uploads/2022/11/Kubu-at-Mandapa-1.jpg" alt="Kubu at Mandapa" onerror="this.style.display='none'">
+            
+            
+            </div>
+          </div>
+          </a>
+          
+          <div class="dining-info">
+            <h4>Kubu at Mandapa</h4>
+            <div class="zh-name">庫布河畔餐廳 · 麗思卡爾頓 · ⭐⭐</div>
+            <div class="dish">🦞 招牌：龍蝦慕斯 · 烤乳豬</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Kubu%20at%20Mandapa+Mandapa%20Ritz-Carlton%2C%20Ubud" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Mandapa Ritz-Carlton, Ubud</a><br>
+              💰 晚餐套餐 IDR 1,200,000/人 · NT$3,000<br>
+              🕐 18:00–22:00 · 需預約
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 法式小館 Bistros &amp; Casual</h3>
       <div class="dining-grid">
         
         <div class="dining-card">
@@ -943,35 +994,12 @@
           
           <div class="dining-info">
             <h4>Merah Putih</h4>
-            <div class="zh-name">Merah Putih 印尼精緻料理</div>
-            <div class="dish">🦀 招牌：螃蟹咖哩 · 烤乳豬</div>
+            <div class="zh-name">梅拉普蒂 · 印尼精緻料理 · ⭐</div>
+            <div class="dish">🥩 招牌：巴東牛肉 · 椰漿飯</div>
             <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
-              📍 <a href="https://www.google.com/maps/search/?api=1&query=Merah%20Putih+Jl.%20Petitenget%20No.100X%2C%20Seminyak" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Jl. Petitenget No.100X, Seminyak</a><br>
-              💰 套餐約 IDR 350,000/人 · NT$750<br>
-              🕐 12:00–15:00 / 18:00–23:00 · 需預約
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-    
-    
-    
-    <div style="margin-bottom:1.5rem;">
-      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 法式小館 Bistros &amp; Casual</h3>
-      <div class="dining-grid">
-        
-        <div class="dining-card">
-          
-          <div class="dining-info">
-            <h4>Locavore</h4>
-            <div class="zh-name">Locavore 米其林綠星 · 在地食材</div>
-            <div class="dish">🥗 招牌：發酵蔬菜塔 · 香草烤鴨</div>
-            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
-              📍 <a href="https://www.google.com/maps/search/?api=1&query=Locavore+Jl.%20Dewi%20Sita%2C%20Ubud" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Jl. Dewi Sita, Ubud</a><br>
-              💰 品嚐菜單 IDR 680,000/人 · NT$6,000<br>
-              🕐 18:00–22:30 · 需預約
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Merah%20Putih+Jl.%20Petitenget%2C%20Seminyak" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Jl. Petitenget, Seminyak</a><br>
+              💰 午餐套餐 IDR 500,000/人 · NT$1,200<br>
+              🕐 11:00–23:00
             </div>
           </div>
         </div>
@@ -987,9 +1015,14 @@
         
         <div class="dining-card">
           
-          <a href="https://www.google.com/search?tbm=isch&q=Seniman%20Coffee%20Ubud" target="_blank" title="More photos of Seniman Coffee Studio">
+          <a href="https://www.google.com/search?tbm=isch&q=Seniman%20Coffee%20Studio%20Ubud" target="_blank" title="More photos of Seniman Coffee Studio">
           <div class="dining-slider">
             <div class="slider-track">
+            
+            
+            
+            
+            <img src="https://awsimages.detik.net.id/community/media/visual/2020/02/14/2fc0970e-e722-4a3b-badf-b741dc5c09e9.jpeg?w=700&amp;q=90" alt="Seniman Coffee Studio" onerror="this.style.display='none'">
             
             
             
@@ -1002,23 +1035,18 @@
             <img src="https://petualang.travelingyuk.com/uploads/2019/10/Seniman-Coffee-Ubud-1.jpg" alt="Seniman Coffee Studio" onerror="this.style.display='none'">
             
             
-            
-            
-            <img src="https://thebaliguideline.com/build/blog/img/best-cafes-ubud-seniman-coffee.jpg" alt="Seniman Coffee Studio" onerror="this.style.display='none'">
-            
-            
             </div>
           </div>
           </a>
           
           <div class="dining-info">
             <h4>Seniman Coffee Studio</h4>
-            <div class="zh-name">Seniman 咖啡工作室</div>
-            <div class="dish">☕ 招牌：冷萃咖啡 · 酪梨吐司</div>
+            <div class="zh-name">森尼曼咖啡工作室</div>
+            <div class="dish">☕ 招牌：冷萃咖啡 · 椰子拿鐵 · 酪梨吐司</div>
             <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
-              📍 <a href="https://www.google.com/maps/search/?api=1&query=Seniman%20Coffee%20Studio+Jl.%20Sri%20Wedari%20No.5%2C%20Ubud" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Jl. Sri Wedari No.5, Ubud</a><br>
-              💰 兩人咖啡+輕食 IDR 150,000 · NT$800<br>
-              🕐 08:00–18:00
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Seniman%20Coffee%20Studio+Jl.%20Sri%20Wedari%2C%20Ubud" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">Jl. Sri Wedari, Ubud</a><br>
+              💰 兩人早午餐 IDR 150,000 · NT$400<br>
+              🕐 07:00–18:00 · 文青風格
             </div>
           </div>
         </div>
@@ -1035,6 +1063,18 @@
         
         
         
+        <img src="https://bali.com/wp-content/uploads/2022/01/Kubu-Restaurant-Area-1080.jpg" alt="Bamboo Restaurant Bali">
+        
+        
+        
+        <img src="https://www.luxurylifestylemag.co.uk/wp-content/uploads/2025/10/KUBU-AT-MANDAPA-A-RITZ-CARLTON-RESERVE.jpg" alt="Restaurant review: Kubu at Mandapa, a Ritz Carlton Reserve, Bali in ...">
+        
+        
+        
+        
+        
+        
+        
         <img src="https://luxvillasgetaway.com/wp-content/uploads/2025/06/merah-putih-seminyak-best-restaurants-1920-1536x1024.jpg" alt="Merah Putih Restaurant Seminyak: A Standout in Bali’s Fine Dining Scene">
         
         
@@ -1047,19 +1087,11 @@
         
         
         
-        
-        
-        
-        
-        
+        <img src="https://awsimages.detik.net.id/community/media/visual/2020/02/14/2fc0970e-e722-4a3b-badf-b741dc5c09e9.jpeg?w=700&amp;q=90" alt="Seniman Coffee Studio : Kopi Lokal dan Creme Brule Berjodoh di Sini">
         
         
         
         <img src="https://www.lowonganhotelbali.com/wp-content/uploads/2022/05/Seniman-Coffee-Studio-Ubud-25-mei-1200x676.png" alt="Seniman Coffee Studio Ubud - Lowongan Hotel Bali | Loker Hotel Bali ...">
-        
-        
-        
-        <img src="https://petualang.travelingyuk.com/uploads/2019/10/Seniman-Coffee-Ubud-1.jpg" alt="Seniman Coffee Studio Ubud, Ada Kursi Plastik Seharga Rp1,5 Juta!">
         
         
         
@@ -1080,43 +1112,103 @@
       <div>
         <div class="day-num">1</div>
         <div class="day-label">Jan 30 · Sat</div>
-        <div class="day-zh">抵達 · 水明漾海灘夕陽</div>
-        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 雷吉安酒店</div>
+        <div class="day-zh">抵達 · 金巴蘭日落</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 阿雅娜度假村</div>
       </div>
       <div class="day-schedule">
         
-        <img class="day-photo" src="https://blog.inivie.com/wp-content/uploads/2025/03/THUMBNAIL-12.jpg" alt="抵達 · 水明漾海灘夕陽" onerror="this.style.display='none'">
+        <img class="day-photo" src="https://www.executivetraveller.com/photos/view/size:1500,844/6674fe82ebb044319db75500dd799465-ayana-resort-outlook.jpg" alt="抵達 · 金巴蘭日落" onerror="this.style.display='none'">
         
         
         
-        <div class="time-slot"><span class="time">09:00</span> ✈️ 桃園機場 T1 集合 · 搭乘 CI 771 直飛峇里島</div>
+        <div class="time-slot"><span class="time">09:00</span> ✈️ 桃園TPE出發 · 中華航空CI771 · 直飛峇里島</div>
         
         
         
-        <div class="time-slot"><span class="time">14:45</span> 🛬 抵達峇里島伍拉賴機場 · 專人接機（預約接送）· 車程約 30 分鐘至水明漾</div>
+        <div class="time-slot"><span class="time">14:30</span> 🛬 抵達峇里島DPS · 入境通關 · 專車接機（包車 NT$2,500）</div>
         
         
         
-        <div class="time-slot"><span class="time">15:30</span> 🏨 入住 The Legian Bali · 兩間豪華海景套房 · 稍作休息</div>
+        <div class="time-slot"><span class="time">15:30</span> 🚗 前往阿雅娜度假村（車程約20分鐘）</div>
         
         
         
-        <div class="time-slot"><span class="time">17:00</span> 🌊 海灘散步 · 水明漾海灘夕陽 · 拍照打卡</div>
+        <div class="time-slot"><span class="time">16:00</span> 🏨 入住阿雅娜 · 兩間海景豪華房 · 稍作休息</div>
         
         
         
-        <div class="time-slot"><span class="time">18:30</span> 🍽️ Merah Putih 精緻印尼料理 · 螃蟹咖哩、烤乳豬 · 預約 18:30</div>
+        <div class="time-slot"><span class="time">17:00</span> 🌅 岩石酒吧 Rock Bar · 每人一杯雞尾酒（約NT$500/人）· 欣賞金巴蘭日落</div>
         
         
         
-        <div class="time-slot"><span class="time">20:30</span> 🛍️ 水明漾大街逛街 · 買伴手禮、沙龍</div>
+        <div class="time-slot"><span class="time">19:00</span> 🍽️ 度假村內晚餐 · 選擇Dava牛排館或Sami Sami義式餐廳 · 每人NT$1,500</div>
         
         
         
-        <div class="time-slot"><span class="time">22:00</span> 🌙 返回酒店 · 在無邊際泳池畔小酌</div>
+        <div class="time-slot"><span class="time">21:00</span> 🌙 泳池畔散步 · 回房休息 · 明日行程：海神廟</div>
         
         
-        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> The Legian Bali · 兩間豪華海景套房</div>
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Ayana Resort and Spa Bali · 兩間海景豪華房</div>
+      </div>
+      <div class="day-weather">
+        ☀️ 31°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 5%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">2</div>
+        <div class="day-label">Jan 31 · Sun</div>
+        <div class="day-zh">海神廟 · 轉往烏布</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 阿雅娜</div>
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://finnsbeachclub.com/wp-content/uploads/2023/03/tanah-lot-temple-bali.jpg" alt="海神廟 · 轉往烏布" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🛌 睡到九點起床 · 享用阿雅娜自助早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:30</span> 🏨 退房 · 行李寄放櫃檯</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> 🚗 專車前往海神廟（車程約45分鐘）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🛕 海神廟 Tanah Lot · 參觀廟宇 · 拍照（門票NT$200/人）· 注意：廟宇區域較熱，請攜帶防曬</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:00</span> 🍽️ 海神廟附近午餐 · 推薦「Dewi Sinta」餐廳 · 髒鴨餐 · 每人NT$400</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> 🚗 專車前往烏布虹夕諾雅（車程約1.5小時）</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:00</span> 🏨 抵達虹夕諾雅峇里島 · 辦理入住 · 兩間泳池別墅 · 酒店服務人員引導</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🌿 酒店內漫步 · 參觀河谷景觀 · 泳池放鬆</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:00</span> 🍽️ 虹夕諾雅餐廳晚餐 · 峇里島套餐 · 每人NT$2,000</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🌙 別墅內泳池泡水 · 晚安</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Ayana Resort and Spa Bali → Hoshinoya Bali · 退房 → 兩間泳池別墅</div>
       </div>
       <div class="day-weather">
         ☀️ 32°/26°<br>
@@ -1126,107 +1218,51 @@
     
     <div class="day-card">
       <div>
-        <div class="day-num">2</div>
-        <div class="day-label">Jan 31 · Sun</div>
-        <div class="day-zh">海神廟 · 轉往烏布</div>
-        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 雷吉安酒店</div>
-      </div>
-      <div class="day-schedule">
-        
-        <img class="day-photo" src="https://thingstodoinbali.com/wp-content/uploads/Pura-Tanah-Lot-Bali.jpg" alt="海神廟 · 轉往烏布" onerror="this.style.display='none'">
-        
-        
-        
-        <div class="time-slot"><span class="time">09:00</span> ☀️ 睡到九點 · 在房間享用早餐（客房服務）</div>
-        
-        
-        
-        <div class="time-slot"><span class="time">10:30</span> 🚗 包車前往海神廟 Tanah Lot（車程約 1 小時）· 沿途經過梯田風景</div>
-        
-        
-        
-        <div class="time-slot"><span class="time">11:30</span> 🛕 海神廟 Tanah Lot · 退潮可走到廟前 · 門票 IDR 60,000/人 ≈ NT$500</div>
-        
-        
-        
-        <div class="time-slot"><span class="time">13:00</span> 🍽️ 海神廟附近餐廳午餐 · 推薦 The Beach House Bali · 海鮮拼盤</div>
-        
-        
-        
-        <div class="time-slot"><span class="time">14:30</span> 🚗 返回酒店 · 整理行李 · 退房</div>
-        
-        
-        
-        <div class="time-slot"><span class="time">16:00</span> 🚗 轉往烏布（車程約 1.5 小時）· 入住虹夕諾雅</div>
-        
-        
-        
-        <div class="time-slot"><span class="time">17:30</span> 🏨 抵達 HOSHINOYA Ubud · 入住兩間 Joglo 泳池別墅 · 享受河谷景觀</div>
-        
-        
-        
-        <div class="time-slot"><span class="time">19:00</span> 🍽️ 虹夕諾雅館內晚餐 · 峇里式套餐 · 預約 19:00</div>
-        
-        
-        
-        <div class="time-slot"><span class="time">21:00</span> 🌙 私人泳池泡水 · 星空下放空</div>
-        
-        
-        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> The Legian Bali · 兩間豪華海景套房</div>
-      </div>
-      <div class="day-weather">
-        ☀️ 33°/27°<br>
-        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 5%</span>
-      </div>
-    </div>
-    
-    <div class="day-card">
-      <div>
         <div class="day-num">3</div>
         <div class="day-label">Feb 1 · Mon</div>
-        <div class="day-zh">虹夕諾雅全日放空</div>
-        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 虹夕諾雅烏布</div>
+        <div class="day-zh">虹夕諾雅放空日</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 虹夕諾雅峇里島</div>
       </div>
       <div class="day-schedule">
         
         
         
-        <div class="time-slot"><span class="time">09:00</span> ☀️ 睡到九點 · 在別墅享用日式/峇里式早餐</div>
+        <div class="time-slot"><span class="time">09:00</span> 🛌 睡到九點起床 · 別墅內享用日式/峇里島式早餐</div>
         
         
         
-        <div class="time-slot"><span class="time">10:30</span> 🧘 參加飯店免費晨間瑜伽（可選）</div>
+        <div class="time-slot"><span class="time">10:00</span> 🏊 私人泳池放空 · 或參加酒店免費晨間瑜伽（需預約）</div>
         
         
         
-        <div class="time-slot"><span class="time">12:00</span> 🍽️ 館內午餐 · 推薦 Nusantara 餐廳 · 印尼炒飯、沙爹</div>
+        <div class="time-slot"><span class="time">12:00</span> 🍽️ 酒店午餐 · 輕食沙拉 · 每人NT$800</div>
         
         
         
-        <div class="time-slot"><span class="time">14:00</span> 🏊 私人泳池游泳 · 或在河谷涼亭閱讀、發呆</div>
+        <div class="time-slot"><span class="time">14:00</span> 💆 虹夕諾雅SPA · 選擇峇里島按摩（90分鐘 · NT$4,000/人）</div>
         
         
         
-        <div class="time-slot"><span class="time">16:00</span> 💆 飯店 SPA 體驗（自費）· 峇里式按摩 60 分鐘 IDR 1,200,000 ≈ NT$10,000</div>
+        <div class="time-slot"><span class="time">16:00</span> ☕ 酒店咖啡廳下午茶 · 甜品拼盤 · 每人NT$600</div>
         
         
         
-        <div class="time-slot"><span class="time">18:00</span> 🌅 河谷散步 · 欣賞日落</div>
+        <div class="time-slot"><span class="time">18:00</span> 🌅 河谷觀景台欣賞日落</div>
         
         
         
-        <div class="time-slot"><span class="time">19:30</span> 🍽️ 館內晚餐 · 主廚套餐 · 預約 19:30</div>
+        <div class="time-slot"><span class="time">19:30</span> 🍽️ 酒店晚餐 · 印尼風味套餐 · 每人NT$2,000</div>
         
         
         
-        <div class="time-slot"><span class="time">21:30</span> 🌙 星空電影院或回別墅泡澡</div>
+        <div class="time-slot"><span class="time">21:00</span> 🌙 別墅內星空泳池 · 放鬆入睡</div>
         
         
-        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> HOSHINOYA Ubud · 兩間 Joglo 泳池別墅</div>
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hoshinoya Bali · 兩間泳池別墅</div>
       </div>
       <div class="day-weather">
-        ⛅ 30°/24°<br>
-        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+        ☀️ 30°/25°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
       </div>
     </div>
     
@@ -1234,50 +1270,50 @@
       <div>
         <div class="day-num">4</div>
         <div class="day-label">Feb 2 · Tue</div>
-        <div class="day-zh">虹夕諾雅全日放空</div>
-        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 虹夕諾雅烏布</div>
+        <div class="day-zh">虹夕諾雅最後放空 · 烏布市區</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 虹夕諾雅峇里島</div>
       </div>
       <div class="day-schedule">
         
-        <img class="day-photo" src="https://travel80.com/wp-content/uploads/2025/08/2025-10-07-009-ubud-rice-terraces.png" alt="虹夕諾雅全日放空" onerror="this.style.display='none'">
+        <img class="day-photo" src="https://baliventur.b-cdn.net/wp-content/uploads/2023/10/ultimate-ubud-shopping-experience-1024x585.jpg.webp" alt="虹夕諾雅最後放空 · 烏布市區" onerror="this.style.display='none'">
         
         
         
-        <div class="time-slot"><span class="time">09:00</span> ☀️ 睡到九點 · 在別墅享用早餐</div>
+        <div class="time-slot"><span class="time">09:00</span> 🛌 睡到九點起床 · 別墅早餐</div>
         
         
         
-        <div class="time-slot"><span class="time">10:30</span> 🚶 飯店導覽活動：參觀旁邊的梯田與寺廟（免費）</div>
+        <div class="time-slot"><span class="time">10:00</span> 🚶 可選：步行至烏布市區（酒店免費接駁）· 逛逛烏布市集（紀念品）</div>
         
         
         
-        <div class="time-slot"><span class="time">12:00</span> 🍽️ 館內午餐 · 輕食沙拉、果汁</div>
+        <div class="time-slot"><span class="time">12:00</span> 🍽️ Seniman Coffee Studio 早午餐 · 冷萃咖啡 · 酪梨吐司 · 每人NT$400</div>
         
         
         
-        <div class="time-slot"><span class="time">14:00</span> 🏊 私人泳池 · 或參加飯店文化活動：蠟染、編織</div>
+        <div class="time-slot"><span class="time">13:30</span> 🚶 烏布皇宮 · 參觀（免費）· 拍照</div>
         
         
         
-        <div class="time-slot"><span class="time">16:00</span> ☕ Seniman Coffee Studio 外送咖啡到別墅</div>
+        <div class="time-slot"><span class="time">15:00</span> 🚗 返回虹夕諾雅 · 泳池放鬆</div>
         
         
         
-        <div class="time-slot"><span class="time">18:00</span> 🌅 河谷畔享用迎賓雞尾酒</div>
+        <div class="time-slot"><span class="time">17:00</span> 💆 可再加選SPA療程 · 或繼續放空</div>
         
         
         
-        <div class="time-slot"><span class="time">19:30</span> 🍽️ 館內晚餐 · 燒烤之夜（週二限定）· 預約 19:30</div>
+        <div class="time-slot"><span class="time">19:00</span> 🍽️ 酒店最後晚餐 · 主廚精選 · 每人NT$2,500</div>
         
         
         
-        <div class="time-slot"><span class="time">21:30</span> 🌙 最後一夜 · 泳池畔聊天</div>
+        <div class="time-slot"><span class="time">21:00</span> 🌙 打包行李 · 別墅內最後一夜</div>
         
         
-        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> HOSHINOYA Ubud · 兩間 Joglo 泳池別墅</div>
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hoshinoya Bali · 兩間泳池別墅</div>
       </div>
       <div class="day-weather">
-        ⛅ 30°/24°<br>
+        ☀️ 31°/25°<br>
         <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 15%</span>
       </div>
     </div>
@@ -1286,42 +1322,38 @@
       <div>
         <div class="day-num">5</div>
         <div class="day-label">Feb 3 · Wed</div>
-        <div class="day-zh">返程 · 依依不捨</div>
-        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 虹夕諾雅烏布</div>
+        <div class="day-zh">返程 · 回台灣</div>
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 虹夕諾雅峇里島</div>
       </div>
       <div class="day-schedule">
         
-        <img class="day-photo" src="https://sanurbaliguide.com/wp-content/uploads/2020/03/Bali-airport-departures.png" alt="返程 · 依依不捨" onerror="this.style.display='none'">
+        <img class="day-photo" src="https://sanurbaliguide.com/wp-content/uploads/2020/03/Bali-airport-departures.png" alt="返程 · 回台灣" onerror="this.style.display='none'">
         
         
         
-        <div class="time-slot"><span class="time">09:00</span> ☀️ 睡到九點 · 在別墅享用最後早餐</div>
+        <div class="time-slot"><span class="time">09:00</span> 🛌 睡到九點起床 · 最後一次別墅早餐</div>
         
         
         
-        <div class="time-slot"><span class="time">10:30</span> 🏊 最後一次游泳 · 打包行李</div>
+        <div class="time-slot"><span class="time">10:30</span> 🏨 退房 · 專車接送前往機場（車程約2小時）</div>
         
         
         
-        <div class="time-slot"><span class="time">12:00</span> 🏨 退房 · 搭乘專車前往機場（車程約 2 小時）</div>
+        <div class="time-slot"><span class="time">12:30</span> 🛬 抵達峇里島機場 · 辦理登機 · 免稅店購物</div>
         
         
         
-        <div class="time-slot"><span class="time">14:00</span> 🛬 抵達伍拉賴機場 · 辦理登機</div>
+        <div class="time-slot"><span class="time">15:45</span> ✈️ 中華航空CI772 · 返回台灣</div>
         
         
         
-        <div class="time-slot"><span class="time">15:45</span> ✈️ 搭乘 CI 772 返回台灣</div>
+        <div class="time-slot"><span class="time">21:15</span> 🛬 抵達桃園TPE · 行程結束</div>
         
         
-        
-        <div class="time-slot"><span class="time">21:15</span> 🛬 抵達桃園機場 · 行程結束</div>
-        
-        
-        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> HOSHINOYA Ubud · 兩間 Joglo 泳池別墅</div>
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> Hoshinoya Bali · 退房</div>
       </div>
       <div class="day-weather">
-        ☀️ 32°/26°<br>
+        ☀️ 31°/25°<br>
         <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
       </div>
     </div>
@@ -1335,24 +1367,24 @@
       <span style="font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">所有金額以新台幣 NTD 計算</span>
     </div>
     
-    <div class="cost-row"><span>✈️ 來回機票（5人）</span><span>NT$ <strong>85,000</strong></span></div>
+    <div class="cost-row"><span>✈️ 來回機票（5人）</span><span>NT$ <strong>150,000</strong></span></div>
     
-    <div class="cost-row"><span>🏨 住宿（總計）</span><span>NT$ <strong>247,000</strong></span></div>
+    <div class="cost-row"><span>🏨 住宿（總計）</span><span>NT$ <strong>220,000</strong></span></div>
     
-    <div class="cost-row"><span>🍽️ 餐飲</span><span>NT$ <strong>45,000</strong></span></div>
+    <div class="cost-row"><span>🍽️ 餐飲</span><span>NT$ <strong>50,000</strong></span></div>
     
-    <div class="cost-row"><span>🎫 景點門票</span><span>NT$ <strong>2,500</strong></span></div>
+    <div class="cost-row"><span>🎫 景點門票</span><span>NT$ <strong>5,000</strong></span></div>
     
-    <div class="cost-row"><span>🚇 交通（包車+接送）</span><span>NT$ <strong>12,000</strong></span></div>
+    <div class="cost-row"><span>🚗 交通（包車/接送）</span><span>NT$ <strong>15,000</strong></span></div>
     
-    <div class="cost-row"><span>💆 SPA 及其他</span><span>NT$ <strong>10,000</strong></span></div>
+    <div class="cost-row"><span>💆 SPA</span><span>NT$ <strong>40,000</strong></span></div>
     
     <div class="cost-row" style="font-weight:600; border-top:2px solid var(--gold); padding-top:0.5rem; margin-top:0.2rem;">
-      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>399,500</strong></span>
+      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>400,000</strong></span>
     </div>
     <div class="cost-bar"><div class="cost-bar-fill" style="width:100.0%"></div></div>
     <div style="text-align:right; font-size:0.8rem; color:var(--warm-gray);">
-      NT$ 399,500 / NT$ 400,000 · 剩餘 NT$ 500
+      NT$ 400,000 / NT$ 400,000 · 剩餘 NT$ 0
     </div>
   </div>
 
@@ -1500,7 +1532,7 @@ async function toggleSave() {
     return;
   }
   const checked = cb.checked;
-  const flag = JSON.stringify(Object.assign({save: checked}, {"date": "2027/01/30\u201302/03", "dest": "Bali, Indonesia", "title": "\u5cc7\u91cc\u5cf6\u5962\u83ef\u4e94\u5929 \u00b7 \u6d77\u795e\u5edf\u8207\u8679\u5915\u8afe\u96c5\u653e\u7a7a\u4e4b\u65c5"}));
+  const flag = JSON.stringify(Object.assign({save: checked}, {"date": "2027/01/30\u201302/03", "dest": "Bali, Indonesia", "title": "\u5cc7\u91cc\u5cf6\u8c6a\u83ef\u4e94\u5929 \u00b7 \u6d77\u795e\u5edf\u8207\u70cf\u5e03\u8679\u5915\u8afe\u96c5\u653e\u7a7a\u4e4b\u65c5"}));
   const content = b64Encode(flag);
   let sha = '';
   try {
@@ -1594,24 +1626,24 @@ async function toggleSave() {
 
 restoreCheckbox();
 
-// Auto-slide — pause 4s, then quick slide
+// Auto-slide hero only — 4s interval, pauses on touch
 (function(){
-  document.querySelectorAll('.slider-track').forEach(function(track){
-    var imgs = track.querySelectorAll('img');
-    if(imgs.length < 2) return;
-    var idx = 0;
-    function slide(){
-      var imgW = imgs[0].offsetWidth;
-      if(imgW === 0) return;
-      var margin = parseInt(getComputedStyle(imgs[0]).marginRight) || 0;
-      var step = imgW + margin;
-      idx++;
-      if(idx >= imgs.length) idx = 0;
-      track.style.transition = 'transform 0.35s ease-in-out';
-      track.style.transform = 'translateX(-' + (idx * step) + 'px)';
-    }
-    setInterval(slide, 4000);
-  });
+  var heroTrack = document.querySelector('.hero-slider .slider-track');
+  if (!heroTrack) return;
+  var imgs = heroTrack.querySelectorAll('img');
+  if (imgs.length < 2) return;
+  var idx = 0;
+  var autoTimer = null;
+  function slide(){
+    idx++;
+    if (idx >= imgs.length) idx = 0;
+    heroTrack.scrollTo({left: idx * heroTrack.offsetWidth, behavior: 'smooth'});
+  }
+  function startAuto(){ autoTimer = setInterval(slide, 4000); }
+  function stopAuto(){ clearInterval(autoTimer); }
+  heroTrack.addEventListener('touchstart', stopAuto);
+  heroTrack.addEventListener('touchend', function(){ stopAuto(); startAuto(); });
+  startAuto();
 })();
 </script>
 <div style="text-align:center;padding:2rem 0 0.5rem;">
@@ -1629,7 +1661,7 @@ restoreCheckbox();
     </details>
   </div>
   
-  build 260609.131934
+  build 260609.134156
 </div>
 </body>
 </html>
