@@ -383,24 +383,24 @@ async function toggleSave() {
 
 restoreCheckbox();
 
-// Auto-slide — pause 4s, then quick slide
+// Auto-slide hero only — 4s interval, pauses on touch
 (function(){
-  document.querySelectorAll('.slider-track').forEach(function(track){
-    var imgs = track.querySelectorAll('img');
-    if(imgs.length < 2) return;
-    var idx = 0;
-    function slide(){
-      var imgW = imgs[0].offsetWidth;
-      if(imgW === 0) return;
-      var margin = parseInt(getComputedStyle(imgs[0]).marginRight) || 0;
-      var step = imgW + margin;
-      idx++;
-      if(idx >= imgs.length) idx = 0;
-      track.style.transition = 'transform 0.35s ease-in-out';
-      track.style.transform = 'translateX(-' + (idx * step) + 'px)';
-    }
-    setInterval(slide, 4000);
-  });
+  var heroTrack = document.querySelector('.hero-slider .slider-track');
+  if (!heroTrack) return;
+  var imgs = heroTrack.querySelectorAll('img');
+  if (imgs.length < 2) return;
+  var idx = 0;
+  var autoTimer = null;
+  function slide(){
+    idx++;
+    if (idx >= imgs.length) idx = 0;
+    heroTrack.scrollTo({left: idx * heroTrack.offsetWidth, behavior: 'smooth'});
+  }
+  function startAuto(){ autoTimer = setInterval(slide, 4000); }
+  function stopAuto(){ clearInterval(autoTimer); }
+  heroTrack.addEventListener('touchstart', stopAuto);
+  heroTrack.addEventListener('touchend', function(){ stopAuto(); startAuto(); });
+  startAuto();
 })();
 </script>
 <div style="text-align:center;padding:2rem 0 0.5rem;">
