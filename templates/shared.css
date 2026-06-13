@@ -141,6 +141,7 @@
     overflow-x: auto; scroll-snap-type: x mandatory;
     scrollbar-width: none; white-space: nowrap;
     touch-action: pan-x;
+  }
   .dining-slider .slider-track {
     display: flex;
   }
