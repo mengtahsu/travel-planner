@@ -536,10 +536,12 @@
       letter-spacing: 1px;
     }
 
-    /* Full-bleed sliders + images on mobile — ignore parent padding */
+    /* Full-bleed sliders + images on mobile */
     .hero-slider, .hotel-slider, .dining-slider {
-      margin-left: calc(-50vw + 50%) !important;
-      margin-right: calc(-50vw + 50%) !important;
+      position: relative;
+      left: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
       width: 100vw !important;
     }
     .slider-track img, .day-photo {
