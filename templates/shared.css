@@ -536,15 +536,13 @@
       letter-spacing: 1px;
     }
 
-    .day-card, .hotel-card { overflow: visible; }
-    /* Full-width images on mobile */
-    .slider-track img { display: block; width: 100%; }
-    .hero-slider .slider-track img { display: block; width: 100%; }
-    .hotel-slider .slider-track img,
-    .hotel-slider .slider-track a { display: block; width: 100%; }
-    .dining-slider .slider-track img,
+    /* Full-bleed sliders on mobile */
+    .hero-slider { margin-left: -0.75rem; margin-right: -0.75rem; width: calc(100% + 1.5rem); border-radius: 0; }
+    .hero-slider .slider { border-radius: 0; }
+    .hotel-slider, .dining-slider { margin-left: -1rem; margin-right: -1rem; width: calc(100% + 2rem); }
+    .day-photo { margin-left: -1rem; margin-right: -1rem; width: calc(100% + 2rem); max-width: calc(100% + 2rem); }
+    .hotel-slider .slider-track a,
     .dining-slider .slider-track a { display: block; width: 100%; }
-    .day-photo { display: block; width: 100% !important; height: auto; }
     /* Hero — shorter */
     .hero-slider .slider-track img { height: 260px; }
     .hero-overlay { padding: 1.25rem 1rem; }
