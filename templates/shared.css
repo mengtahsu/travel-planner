@@ -535,16 +535,15 @@
       letter-spacing: 1px;
     }
 
-    /* Force all slider + day images to viewport width */
-    .hero-slider .slider-track img,
-    .hotel-slider .slider-track img,
-    .dining-slider .slider-track img,
-    .slider-track img,
-    .day-photo { width: 100vw !important; min-width: 100vw; max-width: 100vw; object-fit: cover; }
-    /* Push sliders to full width by offsetting container padding */
-    .hero-slider { margin-left: -0.75rem; margin-right: -0.75rem; width: 100vw; }
-    .hotel-slider, .dining-slider, .day-photo { margin-left: -1rem; margin-right: -1rem; width: 100vw; }
     .day-card, .hotel-card { overflow: visible; }
+    /* Full-width images on mobile */
+    .slider-track img { display: block; width: 100%; }
+    .hero-slider .slider-track img { display: block; width: 100%; }
+    .hotel-slider .slider-track img,
+    .hotel-slider .slider-track a { display: block; width: 100%; }
+    .dining-slider .slider-track img,
+    .dining-slider .slider-track a { display: block; width: 100%; }
+    .day-photo { display: block; width: 100% !important; height: auto; }
     /* Hero — shorter */
     .hero-slider .slider-track img { height: 260px; }
     .hero-overlay { padding: 1.25rem 1rem; }
