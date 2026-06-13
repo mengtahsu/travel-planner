@@ -95,19 +95,17 @@
     <div class="hotel-card" style="margin-bottom:{% if not loop.last %}1.5rem{% else %}1rem{% endif %};">
       <!-- Hotel photo gallery — full-width slider on top, matching dining card layout -->
       {% if hotel.photos %}
-      <a href="https://www.google.com/search?tbm=isch&q={{ (hotel.search_query or hotel.name) | urlencode }}" target="_blank" title="More photos of {{ hotel.name }}">
       <div class="hotel-slider">
         <div class="slider-track">
           {% set shown = [] %}
           {% for photo in hotel.photos %}
           {% if photo.url and photo.url not in shown %}
           {% set _ = shown.append(photo.url) %}
-          <img src="{{ photo.url }}" alt="{{ photo.label }}">
+          <a href="https://www.google.com/search?tbm=isch&q={{ (hotel.search_query or hotel.name) | urlencode }}" target="_blank" title="More photos of {{ hotel.name }}" style="touch-action:pan-x;"><img src="{{ photo.url }}" alt="{{ photo.label }}"></a>
           {% endif %}
           {% endfor %}
         </div>
       </div>
-      </a>
       {% endif %}
       <div class="hotel-info" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.5rem;">
         <div>
@@ -149,19 +147,17 @@
         {% for r in plan.restaurants[cat_key] %}
         <div class="dining-card">
           {% if r.photos and r.photos[0].url %}
-          <a href="https://www.google.com/search?tbm=isch&q={{ (r.search_query or r.name) | urlencode }}" target="_blank" title="More photos of {{ r.name }}">
           <div class="dining-slider">
             <div class="slider-track">
             {% set shown = [] %}
             {% for p in r.photos[:3] %}
             {% if p.url and p.url not in shown %}
             {% set _ = shown.append(p.url) %}
-            <img src="{{ p.url }}" alt="{{ r.name }}" onerror="this.style.display='none'">
+            <a href="https://www.google.com/search?tbm=isch&q={{ (r.search_query or r.name) | urlencode }}" target="_blank" title="More photos of {{ r.name }}" style="touch-action:pan-x;"><img src="{{ p.url }}" alt="{{ r.name }}" onerror="this.style.display='none'"></a>
             {% endif %}
             {% endfor %}
             </div>
           </div>
-          </a>
           {% endif %}
           <div class="dining-info">
             <h4>{{ r.name }}</h4>
