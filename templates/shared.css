@@ -622,7 +622,9 @@
       font-size: 0.8rem;
       margin-left: auto;
     }
-    .day-schedule { font-size: 1rem; }
+    .day-card { overflow: hidden; }
+    .day-schedule { font-size: 1rem; overflow-wrap: break-word; word-break: break-word; }
+    .day-photo { max-width: 100%; }
     .time-slot .time {
       font-size: 0.75rem;
       min-width: 46px;
@@ -700,8 +702,12 @@
     margin-right: -50vw;
     width: 100vw !important;
   }
-  .slider-track img, .day-photo {
+  .slider-track img {
     width: 100vw !important;
+  }
+  .day-photo {
+    width: 100%;
+    max-width: 100%;
   }
   .hotel-slider .slider-track a,
   .dining-slider .slider-track a { display: block; width: 100%; }
