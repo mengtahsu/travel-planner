@@ -536,11 +536,15 @@
       letter-spacing: 1px;
     }
 
-    /* Full-bleed sliders on mobile */
-    .hero-slider { margin-left: -0.75rem; margin-right: -0.75rem; width: calc(100% + 1.5rem); border-radius: 0; }
-    .hero-slider .slider { border-radius: 0; }
-    .hotel-slider, .dining-slider { margin-left: -1rem; margin-right: -1rem; width: calc(100% + 2rem); }
-    .day-photo { margin-left: -1rem; margin-right: -1rem; width: calc(100% + 2rem); max-width: calc(100% + 2rem); }
+    /* Full-bleed sliders + images on mobile — ignore parent padding */
+    .hero-slider, .hotel-slider, .dining-slider {
+      margin-left: calc(-50vw + 50%) !important;
+      margin-right: calc(-50vw + 50%) !important;
+      width: 100vw !important;
+    }
+    .slider-track img, .day-photo {
+      width: 100vw !important;
+    }
     .hotel-slider .slider-track a,
     .dining-slider .slider-track a { display: block; width: 100%; }
     /* Hero — shorter */
