@@ -536,19 +536,6 @@
       letter-spacing: 1px;
     }
 
-    /* Full-bleed sliders + images on mobile */
-    .hero-slider, .hotel-slider, .dining-slider {
-      position: relative;
-      left: 50%;
-      margin-left: -50vw;
-      margin-right: -50vw;
-      width: 100vw !important;
-    }
-    .slider-track img, .day-photo {
-      width: 100vw !important;
-    }
-    .hotel-slider .slider-track a,
-    .dining-slider .slider-track a { display: block; width: 100%; }
     /* Hero — shorter */
     .hero-slider .slider-track img { height: 260px; }
     .hero-overlay { padding: 1.25rem 1rem; }
@@ -703,3 +690,18 @@
       letter-spacing: 0.5px;
     }
   }
+/* Full-bleed sliders on mobile */
+@media (max-width: 768px) {
+  .hero-slider, .hotel-slider, .dining-slider {
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw !important;
+  }
+  .slider-track img, .day-photo {
+    width: 100vw !important;
+  }
+  .hotel-slider .slider-track a,
+  .dining-slider .slider-track a { display: block; width: 100%; }
+}
