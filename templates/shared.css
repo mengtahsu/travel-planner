@@ -540,7 +540,11 @@
     .hotel-slider .slider-track img,
     .dining-slider .slider-track img,
     .slider-track img,
-    .day-photo { width: 100vw !important; max-width: 100vw; object-fit: cover; border-radius: 0; }
+    .day-photo { width: 100vw !important; min-width: 100vw; max-width: 100vw; object-fit: cover; }
+    /* Push sliders to full width by offsetting container padding */
+    .hero-slider { margin-left: -0.75rem; margin-right: -0.75rem; width: 100vw; }
+    .hotel-slider, .dining-slider, .day-photo { margin-left: -1rem; margin-right: -1rem; width: 100vw; }
+    .day-card, .hotel-card { overflow: visible; }
     /* Hero — shorter */
     .hero-slider .slider-track img { height: 260px; }
     .hero-overlay { padding: 1.25rem 1rem; }
