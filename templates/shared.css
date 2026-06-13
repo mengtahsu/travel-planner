@@ -65,6 +65,7 @@
     margin-bottom: 1rem;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    touch-action: pan-x;
   }
   .slider::-webkit-scrollbar { display: none; }
   .slider-track {
@@ -117,11 +118,14 @@
     background: var(--soft-white); border-radius: 12px; overflow: hidden;
     border: 1px solid rgba(201,168,76,0.12);
   }
+  a:has(.hotel-slider), a:has(.dining-slider) { touch-action: pan-x; display: block; }
   .hotel-info { padding: 0 1.25rem; }
   .hotel-info:first-of-type { padding-top: 1rem; }
   .hotel-card > :last-child { padding-bottom: 1.25rem; }
   .hotel-slider {
-    overflow: hidden; white-space: nowrap;
+    overflow-x: auto; scroll-snap-type: x mandatory;
+    scrollbar-width: none; white-space: nowrap;
+    touch-action: pan-x;
   }
   .hotel-slider .slider-track {
     display: flex;
@@ -134,8 +138,9 @@
 
   /* ─── DINING SLIDER ─── */
   .dining-slider {
-    overflow: hidden; white-space: nowrap;
-  }
+    overflow-x: auto; scroll-snap-type: x mandatory;
+    scrollbar-width: none; white-space: nowrap;
+    touch-action: pan-x;
   .dining-slider .slider-track {
     display: flex;
   }
