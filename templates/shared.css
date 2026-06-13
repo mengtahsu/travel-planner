@@ -118,7 +118,6 @@
     background: var(--soft-white); border-radius: 12px; overflow: hidden;
     border: 1px solid rgba(201,168,76,0.12);
   }
-  a:has(.hotel-slider), a:has(.dining-slider) { touch-action: pan-x; display: block; }
   .hotel-info { padding: 0 1.25rem; }
   .hotel-info:first-of-type { padding-top: 1rem; }
   .hotel-card > :last-child { padding-bottom: 1.25rem; }
