@@ -381,33 +381,29 @@ restoreCheckbox();
 
 // Auto-slide hero, hotel, and food sliders — 4s interval, pauses on touch
 (function(){
-  // 1. Hero slider
-  // 2. Hotel sliders
-  // 3. Food slider (last .slider in dining card)
-  var tracks = [
-    document.querySelector('.hero-slider .slider-track')
-  ];
-  document.querySelectorAll('.hotel-slider .slider-track').forEach(function(t){ tracks.push(t); });
-  var foodSlider = document.querySelector('.full-card .slider:last-of-type .slider-track');
-  if (foodSlider) tracks.push(foodSlider);
-
-  tracks.forEach(function(track) {
-    if (!track) return;
-    var imgs = track.querySelectorAll('img');
+  function autoSlide(container) {
+    if (!container) return;
+    var imgs = container.querySelectorAll('img');
     if (imgs.length < 2) return;
     var idx = 0;
     var autoTimer = null;
     function slide(){
       idx++;
       if (idx >= imgs.length) idx = 0;
-      track.scrollTo({left: idx * track.offsetWidth, behavior: 'smooth'});
+      container.scrollTo({left: idx * container.offsetWidth, behavior: 'smooth'});
     }
     function startAuto(){ autoTimer = setInterval(slide, 4000); }
     function stopAuto(){ clearInterval(autoTimer); }
-    track.addEventListener('touchstart', stopAuto);
-    track.addEventListener('touchend', function(){ stopAuto(); startAuto(); });
+    container.addEventListener('touchstart', stopAuto);
+    container.addEventListener('touchend', function(){ stopAuto(); startAuto(); });
     startAuto();
-  });
+  }
+  // 1. Hero slider — container is .hero-slider .slider
+  autoSlide(document.querySelector('.hero-slider .slider'));
+  // 2. Hotel sliders — container is .hotel-slider
+  document.querySelectorAll('.hotel-slider').forEach(autoSlide);
+  // 3. Food slider — container is the last .slider inside dining card
+  autoSlide(document.querySelector('.full-card .slider:last-of-type'));
 })();
 </script>
 <div style="text-align:center;padding:2rem 0 0.5rem;">
