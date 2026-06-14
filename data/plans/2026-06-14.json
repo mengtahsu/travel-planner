@@ -1,6 +1,6 @@
 {
-  "destination_en": "Kyoto, Japan",
-  "title_zh": "六月京都 · 嵐山與虹夕諾雅浪漫之旅",
+  "destination_en": "Kyoto & Osaka, Japan",
+  "title_zh": "六月京都 · 嵐山虹夕諾雅浪漫之旅",
   "date_range": "2026/06/18–06/22",
   "start_date": "2026-06-18",
   "end_date": "2026-06-22",
@@ -11,10 +11,10 @@
   "days": 5,
   "budget_ntd": 400000,
   "flight": {
-    "airline": "捷星航空 Jetstar / 樂陶航空 Peach Aviation",
+    "airline": "捷星航空 Jetstar Japan / 樂陶航空 Peach Aviation",
     "departure_date": "6月18日",
     "return_date": "6月22日",
-    "total_price_ntd": 12000,
+    "total_price_ntd": 18000,
     "outbound": {
       "flight_no": "GK 50",
       "route": "TPE → KIX 直飛",
@@ -24,90 +24,90 @@
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "MM 23",
+      "flight_no": "MM 29",
       "route": "KIX → TPE 直飛",
       "depart_time": "07:50",
-      "arrive_time": "09:55",
-      "duration": "3h 05m",
+      "arrive_time": "09:50",
+      "duration": "3h 00m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "GRIDS PREMIUM HOTEL",
-      "name_zh": "格麗茲高級飯店",
-      "district": "京都四條",
+      "name": "GRIDS PREMIUM HOTEL Namba",
+      "name_zh": "格利茲高級飯店難波",
+      "district": "大阪難波",
       "day_range": "1 & 4",
       "nights": 2,
-      "price_ntd": 10000,
+      "price_ntd": 16000,
       "stars": "★★★☆☆",
       "room_type": "標準雙人房",
       "breakfast": "不含早餐",
-      "amenities": "🚇 近地鐵站 · 💻 免費WiFi · 🧳 行李寄存",
-      "search_query": "GRIDS PREMIUM HOTEL Kyoto Japan",
+      "amenities": "🚿 淋浴間 · 📶 免費WiFi · 🧳 行李寄存",
+      "search_query": "GRIDS PREMIUM HOTEL Namba Osaka Japan",
       "photos": [
         {
-          "url": "https://secure.s.forbestravelguide.com/img/properties/hotel-the-mitsui-kyoto/extra-large/hotel-the-mitsui-kyoto-lounge.jpg",
-          "label": "HOTEL THE MITSUI KYOTO, A Luxury Collection Hotel & Spa - Kyoto Hotels ..."
+          "url": "",
+          "label": "luxury hotel Kyoto & Osaka"
         },
         {
-          "url": "https://secure.s.forbestravelguide.com/img/properties/roku-kyoto-lxr-hotels-resorts/roku-kyoto-lxr-hotels-resorts-Exterior.jpg",
-          "label": "Kyoto Luxury Hotels - Forbes Travel Guide"
+          "url": "",
+          "label": "luxury hotel Kyoto & Osaka"
         },
         {
-          "url": "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/20/00/a2000754/img/en/a2000754_parts_6413f0b21997e.jpg?20230317133558&q=80",
-          "label": "The 15 Best Luxury Hotels in Kyoto: Enjoy a Spectacular Stay in Japan's ..."
+          "url": "",
+          "label": "luxury hotel Kyoto & Osaka"
         },
         {
-          "url": "https://secure.s.forbestravelguide.com/img/properties/the-hotel-seiryu-kyoto-kiyomizu/the-hotel-seiryu-kyoto-kiyomizu-suite-bedroom.jpg",
-          "label": "Kyoto Luxury Hotels - Forbes Travel Guide"
+          "url": "",
+          "label": "luxury hotel Kyoto & Osaka"
         },
         {
-          "url": "https://luxuryhotelkyoto.com/wp-content/uploads/2021/08/hotel-the-mitsui-kyoto.jpg",
-          "label": "HOTEL THE MITSUI KYOTO, a Luxury Collection Hotel & Spa | Best Luxury ..."
+          "url": "",
+          "label": "luxury hotel Kyoto & Osaka"
         },
         {
-          "url": "https://images.lifestyleasia.com/wp-content/uploads/sites/5/2022/11/02120545/ezgif-com-gif-maker-27-806x560.jpeg",
-          "label": "Where to stay in Japan: 9 luxury hotels in Kyoto to book on your trip"
+          "url": "",
+          "label": "luxury hotel Kyoto & Osaka"
         }
       ]
     },
     {
       "name": "虹夕諾雅 京都 Hoshinoya Kyoto",
       "name_zh": "虹夕諾雅 京都",
-      "district": "嵐山",
+      "district": "京都嵐山",
       "day_range": "2–3",
       "nights": 2,
       "price_ntd": 120000,
       "stars": "★★★★★",
-      "room_type": "水之音雙人房",
+      "room_type": "水之音 雙人房",
       "breakfast": "含日式早餐",
-      "amenities": "♨️ 露天風呂 · 🍽️ 懷石料理 · 🛶 嵐山渡月橋接送 · 🌿 日式庭園",
-      "search_query": "Hoshinoya Kyoto luxury ryokan",
+      "amenities": "♨️ 露天溫泉 · 🛶 渡船接送 · 🍵 茶室 · 🌿 庭園",
+      "search_query": "Hoshinoya Kyoto Japan",
       "photos": [
-        {
-          "url": "https://static.wixstatic.com/media/60507d_8c127c8d788c490c8938c366a4c6cbd4~mv2.jpg/v1/fill/w_749,h_499,al_c,q_90/60507d_8c127c8d788c490c8938c366a4c6cbd4~mv2.jpg",
-          "label": "The Most Exclusive Ryokan In Kyoto - Hoshinoya"
-        },
         {
           "url": "https://robbreport.com.my/wp-content/uploads/2023/06/FEAT_Travel-Hoshinoya-Kyoto-Ritz-Carlton-Reserve-LEAD.jpg",
           "label": "Hoshinoya Kyoto Is The Perfect Luxury Riverside Ryokan Retreat In ..."
         },
         {
+          "url": "https://www.thewanderinglens.com/wp-content/uploads/2020/01/Hoshinoya-Kyoto-Japan-4.jpg",
+          "label": "Hoshinoya Kyoto, A Hidden Gem in Japan"
+        },
+        {
+          "url": "https://www.thewanderinglens.com/wp-content/uploads/2020/01/Hoshinoya-Kyoto-Japan-7.jpg",
+          "label": "Hoshinoya Kyoto, A Hidden Gem in Japan"
+        },
+        {
+          "url": "https://www.thewanderinglens.com/wp-content/uploads/2020/01/Hoshinoya-Kyoto-Japan-5-1157x771.jpg",
+          "label": "Hoshinoya Kyoto, A Hidden Gem in Japan"
+        },
+        {
+          "url": "https://www.premium-j.jp/wp-content/uploads/2024/09/0046_DAIDO-1.jpg",
+          "label": "Hoshinoya Kyoto: Part 1000 - A waterfront villa that blends into the ..."
+        },
+        {
           "url": "https://images.squarespace-cdn.com/content/v1/65315ef4aad48c3173fad775/1697734393931-ZO15405TZ6C2LDB61M6A/Hoshinoya_KYOTO.jpg",
           "label": "Hoshinoya Kyoto — TripScaper"
-        },
-        {
-          "url": "https://intojapan.co.uk/wp-content/uploads/2017/01/hoshinoya3.jpg",
-          "label": "Hoshinoya Kyoto - Into Japan"
-        },
-        {
-          "url": "https://images.lifestyleasia.com/wp-content/uploads/2019/01/14210604/hoshinoya.jpg",
-          "label": "7 of the best luxury ryokans in Kyoto to experience old Japan"
-        },
-        {
-          "url": "https://wil-assets.spicyweb.net.au/main/GLOBAL/JAPAN/JAPAN-ACCOMM/HOSHINOYA-KYOTO/_1000x1000_crop_center-center_none/Hoshinoya-Kyoto-Interior-Relaxation.jpg",
-          "label": "Hoshinoya Kyoto | Luxury Ryokan Arashiyama, Japan | Walk Into Luxury"
         }
       ]
     }
@@ -115,54 +115,54 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Kitcho Arashiyama",
-        "name_zh": "吉兆 嵐山本店 · 米其林三星懷石",
+        "name": "瓢亭 Kitcho Arashiyama",
+        "name_zh": "瓢亭 · 嵐山米其林三星",
         "stars": "⭐⭐⭐",
-        "dish": "🍣 招牌：季節懷石料理 · 鮑魚與和牛",
-        "address": "58 Susukinobaba-cho, Saga Tenryuji, Ukyo-ku, Kyoto",
-        "price_ntd": 22000,
-        "price_label": "晚餐懷石 ¥50,000/人 · NT$22,000",
-        "hours": "12:00–15:00 / 17:30–21:00 · 需預約",
-        "search_query": "Kitcho Arashiyama Kyoto Michelin",
+        "dish": "🍣 招牌：季節懷石料理 · 鮑魚蒸飯",
+        "address": "京都府京都市右京区嵯峨天龍寺芒ノ馬場町",
+        "price_ntd": 18000,
+        "price_label": "晚餐懷石 ¥40,000/人 · NT$18,000",
+        "hours": "12:00–15:00 · 17:00–21:00 · 需預約",
+        "search_query": "Kitcho Arashiyama Kyoto restaurant",
         "photos": [
-          {
-            "url": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_800/w_74,x_13,y_13,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/xuphobnbeddyibg2jf5f/KYOTOKITCHO Arashiyama(吉兆嵐山)inKyoto-MichelinThreeStarredKaisekiRestaurant.jpg",
-            "label": "Kyoto Kitcho Arashiyama, Michelin three starred Kaiseki - Klook"
-          },
-          {
-            "url": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1920,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/vvaldkxrnk1saylitfrc/KYOTOKITCHO Arashiyama(吉兆嵐山)inKyoto-MichelinThreeStarredKaisekiRestaurant.jpg",
-            "label": "Kyoto Kitcho Arashiyama, Michelin three starred Kaiseki - Klook India India"
-          },
           {
             "url": "https://kyoto-kitcho.com/en/files/img/restaurant/arashiyama/img_topphoto_sp_02.jpg",
             "label": "Arashiyama｜KYOTO KITCHO｜Japanese Cuisine Restaurants"
+          },
+          {
+            "url": "https://kyoto-kitcho.com/en/files/img/restaurant/arashiyama/room_01_01.jpg",
+            "label": "Rooms｜Arashiyama｜KYOTO KITCHO｜Japanese Cuisine Restaurants"
+          },
+          {
+            "url": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_800/w_74,x_13,y_13,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/xuphobnbeddyibg2jf5f/KYOTOKITCHO Arashiyama(吉兆嵐山)inKyoto-MichelinThreeStarredKaisekiRestaurant.jpg",
+            "label": "Kyoto Kitcho Arashiyama, Michelin three starred Kaiseki - Klook"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Tempura Matsu",
-        "name_zh": "天婦羅 松 · 米其林一星",
+        "name": "うなぎ 廣川 Unagi Hirokawa",
+        "name_zh": "鰻魚廣川 · 嵐山名店",
         "stars": "⭐",
-        "dish": "🍤 招牌：天婦羅套餐 · 穴子與海膽",
-        "address": "〒605-0074 京都市東山区祇園町南側570-120",
-        "price_ntd": 8800,
-        "price_label": "午餐套餐 ¥20,000/人 · NT$8,800",
-        "hours": "11:30–14:00 / 17:00–22:00 · 需預約",
-        "search_query": "Tempura Matsu Gion Kyoto",
+        "dish": "🐟 招牌：備長炭烤鰻魚飯（うな重）",
+        "address": "京都府京都市右京区嵯峨天龍寺北造路町44-1",
+        "price_ntd": 3600,
+        "price_label": "午餐鰻魚飯 ¥4,000/人 · NT$1,800",
+        "hours": "11:30–14:30 · 17:00–20:00 · 週三休息",
+        "search_query": "Unagi Hirokawa Arashiyama",
         "photos": [
           {
-            "url": "https://d3nrav7vo3lya8.cloudfront.net/profile_photos/tempura/53p.webp",
-            "label": "Tempura Matsu | Kyoto | zenDine"
+            "url": "https://photos.smugmug.com/Kyoto/Unagi-Hirokawa/i-PDH7S69/0/XL/unagi-hirokawa-2-XL.jpg",
+            "label": "Unagi Hirokawa - Arashiyama - Inside Kyoto"
           },
           {
-            "url": "https://www.datocms-assets.com/101439/1703749502-tempura-japanese-food.webp?auto=format&h=1000&w=2000",
-            "label": "Our Guide to Japanese Cuisine in Kyoto - Trip To Japan - Trip To Japan"
+            "url": "https://theordinarykatalog.com/wp-content/uploads/2023/01/2022-Apr-Unagiya-Horikawa-FI-v3.jpg",
+            "label": "Unagi Hirokawa Review: Our Honest Experience at Kyoto's Famous Eel ..."
           },
           {
-            "url": "https://images.squarespace-cdn.com/content/v1/52086719e4b0f09210ea805a/1415671096032-8VYJSAP059MR0FI4INU0/image-asset.jpeg",
-            "label": "tempura matsu : kyoto, japan - 2014 — supergoood"
+            "url": "https://photos.smugmug.com/Kyoto/Unagi-Hirokawa/i-sXB7H45/0/L/unagi-hirokawa-8-L.jpg",
+            "label": "Unagi Hirokawa - Arashiyama - Inside Kyoto"
           }
         ]
       }
@@ -170,26 +170,26 @@
     "cafes": [
       {
         "name": "% Arabica Kyoto Arashiyama",
-        "name_zh": "% Arabica 嵐山店",
+        "name_zh": "% Arabica 嵐山咖啡",
         "stars": "",
         "dish": "☕ 招牌：拿鐵 · 抹茶拿鐵 · 可頌",
-        "address": "3-47 Sagatenryuji Kurumamichicho, Ukyo-ku, Kyoto",
-        "price_ntd": 600,
-        "price_label": "兩人飲品與輕食 ¥1,400 · NT$600",
-        "hours": "08:00–18:00 · 嵐山渡月橋旁",
-        "search_query": "Arabica coffee Arashiyama Kyoto",
+        "address": "京都府京都市右京区嵯峨天龍寺芒ノ馬場町3-47",
+        "price_ntd": 360,
+        "price_label": "兩杯拿鐵 ¥800 · NT$360",
+        "hours": "08:00–18:00 · 風景絕佳",
+        "search_query": "Arabica Kyoto Arashiyama coffee",
         "photos": [
           {
-            "url": "http://schemata.jp/wordpress/wp-content/uploads/BCKR_111_DC52586_S.jpg",
-            "label": "Blue Bottle Coffee Kyoto Rokkaku Cafe at Benjamin Downie blog"
+            "url": "https://www.travelcaffeine.com/wp-content/uploads/2019/04/arabica-coffee-shop-kyoto-japan-1183.jpg",
+            "label": "%ARABICA - Kyoto, Japan's Most Popular Coffee Shop - Travel Caffeine"
           },
           {
-            "url": "https://thecoffeevine.com/wp-content/uploads/2016/10/weekenders-3.jpg",
-            "label": "The Kyoto Coffee Guide | 4 cafés we really love in this Japanese city"
+            "url": "https://ilseonthego.com/wp-content/uploads/2024/10/Arabica-Best-Coffee-Shops-Kyoto-49-1-768x1024.jpg",
+            "label": "Best Coffee Shops In Kyoto For Coffee And Design Lovers - Ilse On The Go"
           },
           {
-            "url": "http://leibal.com/wp-content/uploads/2018/05/leibal_blue-bottle-kyoto_schemata-architects_11.jpg",
-            "label": "Blue Bottle Coffee Kyoto Cafe | Leibal"
+            "url": "http://retaildesignblog.net/wp-content/uploads/2017/01/ARABICA-Kyoto-ARASHIYAMA-by-PUDDLE-Kyoto-Japan03.jpg",
+            "label": "ARABICA Kyoto ARASHIYAMA shop by PUDDLE, Kyoto – Japan"
           }
         ]
       }
@@ -198,319 +198,327 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "June 18 · Thu",
-      "label_zh": "出發 · 抵達京都",
-      "day_query": "Gion district Kyoto evening",
-      "hotel_name": "GRIDS PREMIUM HOTEL",
-      "hotel_name_zh": "格麗茲高級飯店",
+      "date": "Jun 18 · Thu",
+      "label_zh": "出發 · 抵達大阪",
+      "day_query": "Dotonbori Osaka night",
+      "hotel_name": "GRIDS PREMIUM HOTEL Namba",
+      "hotel_name_zh": "格利茲高級飯店難波 · 標準雙人房",
       "hotel_room": "標準雙人房",
-      "weather": "☁️ 26°/20°",
-      "rain_pct": "30%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "☀️ 睡到自然醒 · 整理行李 · 從台北家中出發"
-        },
-        {
-          "time": "12:00",
-          "desc": "🚕 搭乘計程車前往桃園機場第一航廈（約40分鐘 · NT$1,200）"
-        },
-        {
-          "time": "14:00",
-          "desc": "✈️ 抵達桃園機場 · 辦理登機 · 捷星航空 GK 50 · 前往關西機場"
-        },
-        {
-          "time": "18:20",
-          "desc": "✈️ 起飛 · 機上提供飲料（無餐食）· 建議先在機場用晚餐"
-        },
-        {
-          "time": "22:00",
-          "desc": "🛬 抵達關西國際機場 KIX · 入境通關取行李"
-        },
-        {
-          "time": "22:45",
-          "desc": "🚄 搭乘 HARUKA 特急列車前往京都站（約75分鐘 · ¥3,600/人 · NT$1,600）"
-        },
-        {
-          "time": "00:15",
-          "desc": "🚇 京都站轉地鐵烏丸線至四條站（2分鐘 · ¥210/人 · NT$95）· 步行3分鐘至飯店"
-        },
-        {
-          "time": "00:30",
-          "desc": "🏨 抵達 GRIDS PREMIUM HOTEL · 辦理入住 · 休息"
-        }
-      ],
-      "day_photo": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/people-at-night-in-gion-district-of-kyoto-hanamikoji-dori-histor-awen-fine-art-prints.jpg"
-    },
-    {
-      "day": 2,
-      "date": "June 19 · Fri",
-      "label_zh": "嵐山一日 · 入住虹夕諾雅",
-      "day_query": "Arashiyama Bamboo Grove Kyoto",
-      "hotel_name": "虹夕諾雅 京都",
-      "hotel_name_zh": "虹夕諾雅 京都",
-      "hotel_room": "水之音雙人房",
-      "weather": "⛅ 27°/21°",
+      "weather": "🌤 28°/21°",
       "rain_pct": "20%",
       "slots": [
         {
           "time": "09:00",
-          "desc": "☀️ 睡到九點起床 · 在 GRIDS PREMIUM 享用自備早餐（飯店無早餐）"
+          "desc": "☀️ 睡到自然醒 · 在台灣家中悠閒準備行李 · 確認護照、機票"
         },
         {
-          "time": "10:00",
-          "desc": "🚇 從四條站搭乘地鐵烏丸線至京都站（2分鐘）· 轉 JR 嵯峨野線至嵐山站（15分鐘 · ¥240/人 · NT$110）"
+          "time": "12:00",
+          "desc": "🥟 在家享用輕午餐 · 最後檢查行李"
+        },
+        {
+          "time": "15:00",
+          "desc": "🚕 搭乘計程車前往桃園機場第一航廈（約40分鐘 · NT$1,200）"
+        },
+        {
+          "time": "16:20",
+          "desc": "✈️ 抵達桃園機場 · 辦理捷星航空 check-in · 過安檢"
+        },
+        {
+          "time": "18:20",
+          "desc": "✈️ 捷星航空 GK50 起飛前往大阪關西機場"
+        },
+        {
+          "time": "22:00",
+          "desc": "🛬 抵達關西機場第一航廈 · 入境通關 · 取行李（約30分鐘）"
+        },
+        {
+          "time": "23:00",
+          "desc": "🚌 搭乘南海電鐵空港急行前往難波站（約45分鐘 · ¥970/人 · NT$440/人）· 下車步行5分鐘"
+        },
+        {
+          "time": "23:50",
+          "desc": "🏨 抵達 GRIDS PREMIUM HOTEL Namba · 辦理入住 · 放行李 · 附近便利商店買宵夜"
+        },
+        {
+          "time": "00:30",
+          "desc": "🌙 就寢 · 養足精神"
+        }
+      ],
+      "day_photo": "https://blog.japanwondertravel.com/wp-content/uploads/2020/04/dotonbori-osaka-1-1200x801.jpeg"
+    },
+    {
+      "day": 2,
+      "date": "Jun 19 · Fri",
+      "label_zh": "嵐山 · 入住虹夕諾雅",
+      "day_query": "Arashiyama Bamboo Grove Kyoto",
+      "hotel_name": "虹夕諾雅 京都 Hoshinoya Kyoto",
+      "hotel_name_zh": "虹夕諾雅 京都 · 水之音雙人房",
+      "hotel_room": "水之音 雙人房",
+      "weather": "🌤 27°/20°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "☀️ 睡到自然醒 · 在 GRIDS PREMIUM 退房 · 寄放行李（可免費寄放至下午）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🥐 在難波站附近咖啡店吃早餐（推薦：丸福咖啡 · 約¥1,500/兩人 · NT$340）"
         },
         {
           "time": "10:30",
-          "desc": "🎋 嵐山竹林之道 · 清晨人潮較少 · 拍照絕佳"
+          "desc": "🚇 從難波站搭乘大阪地鐵御堂筋線至梅田站（¥290/人 · NT$65）· 轉乘JR京都線新快速至京都站（¥580/人 · NT$130）· 再轉JR山陰本線至嵯峨嵐山站（¥240/人 · NT$55）· 全程約1小時15分鐘"
         },
         {
-          "time": "11:30",
-          "desc": "☕ % Arabica 嵐山店 · 品嚐招牌拿鐵與可頌 · 欣賞渡月橋景色"
+          "time": "12:00",
+          "desc": "🎋 抵達嵐山 · 漫步竹林小徑 · 參觀天龍寺（門票¥500/人 · NT$115）"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 午餐：天婦羅 松（米其林一星）· 預約12:30 · 品嚐天婦羅套餐"
+          "time": "13:00",
+          "desc": "🍽️ 午餐：うなぎ 廣川 · 享用備長炭烤鰻魚飯（排隊約30分鐘 · ¥4,000/人 · NT$1,800）"
         },
         {
-          "time": "14:00",
-          "desc": "🏛️ 天龍寺 · 世界遺產 · 參觀曹源池庭園（¥500/人 · NT$225）"
+          "time": "14:30",
+          "desc": "☕ 在% Arabica 嵐山店喝杯拿鐵（¥400/杯 · NT$90）· 欣賞桂川風景"
         },
         {
           "time": "15:30",
-          "desc": "🚶 渡月橋散步 · 嵐山公園 · 感受夏日涼風"
+          "desc": "🛶 前往虹夕諾雅京都專用碼頭（位於渡月橋旁）· 搭乘飯店專屬接駁船前往旅館（約10分鐘 · 免費）· 辦理入住 · 享受迎賓抹茶"
         },
         {
           "time": "16:30",
-          "desc": "🛶 從嵐山渡月橋搭乘虹夕諾雅專屬接駁船 · 沿大堰川前往旅館（約10分鐘 · 免費）"
+          "desc": "♨️ 在房內露天溫泉泡湯 · 欣賞保津川景色 · 換上浴衣"
         },
         {
-          "time": "17:00",
-          "desc": "🏨 抵達虹夕諾雅 京都 · 辦理入住 · 迎賓抹茶與和菓子"
+          "time": "18:30",
+          "desc": "🍽️ 晚餐：瓢亭 · 米其林三星懷石料理（飯店接駁車送至餐廳 · 約10分鐘）· 預約18:30 · ¥40,000/人 · NT$18,000"
         },
         {
-          "time": "18:00",
-          "desc": "♨️ 享受露天風呂 · 眺望嵐山溪谷 · 放鬆身心"
-        },
-        {
-          "time": "19:30",
-          "desc": "🍽️ 旅館內懷石料理晚餐（預約制 · 含在房費內）· 品嚐季節食材"
+          "time": "21:00",
+          "desc": "🌙 返回虹夕諾雅 · 夜間在庭園散步 · 聆聽蟲鳴 · 就寢"
         }
       ],
       "day_photo": "https://www.touristinjapan.com/wp-content/uploads/2019/03/arashiyama-bamboo-forest.jpg"
     },
     {
       "day": 3,
-      "date": "June 20 · Sat",
-      "label_zh": "虹夕諾雅全日放鬆",
-      "day_query": "Hoshinoya Kyoto onsen ryokan interior",
-      "hotel_name": "虹夕諾雅 京都",
-      "hotel_name_zh": "虹夕諾雅 京都",
-      "hotel_room": "水之音雙人房",
-      "weather": "☀️ 30°/23°",
+      "date": "Jun 20 · Sat",
+      "label_zh": "虹夕諾雅 · 全日館內享受",
+      "day_query": "Hoshinoya Kyoto hot spring",
+      "hotel_name": "虹夕諾雅 京都 Hoshinoya Kyoto",
+      "hotel_name_zh": "虹夕諾雅 京都 · 水之音雙人房",
+      "hotel_room": "水之音 雙人房",
+      "weather": "🌤 28°/21°",
       "rain_pct": "10%",
       "slots": [
         {
           "time": "09:00",
-          "desc": "☀️ 睡到九點起床 · 享用旅館日式早餐（含在房費內）"
+          "desc": "☀️ 睡到自然醒 · 在房內享用日式早餐（含在房價內 · 由管家送至房間）"
         },
         {
           "time": "10:00",
-          "desc": "🧘 參加旅館晨間瑜伽（需預約 · 免費）· 在庭園中舒展身心"
+          "desc": "🧘 參加旅館免費早晨瑜珈課程（需預約 · 約1小時 · 在茶室旁）"
         },
         {
           "time": "11:30",
-          "desc": "♨️ 再次享受露天風呂 · 或預約私人風呂（¥5,000/50分鐘 · NT$2,250）"
+          "desc": "♨️ 泡公共露天溫泉（男女分開）· 或預約私人湯屋（¥5,000/45分鐘 · NT$1,125）"
         },
         {
-          "time": "12:30",
-          "desc": "🍽️ 旅館內午餐 · 輕食便當（¥3,000/人 · NT$1,350）"
+          "time": "13:00",
+          "desc": "🍽️ 午餐：旅館內餐廳「水音」· 輕食套餐（¥6,000/人 · NT$1,350）"
         },
         {
-          "time": "14:00",
-          "desc": "📚 圖書館休息區 · 品茶閱讀 · 欣賞大堰川景致"
+          "time": "14:30",
+          "desc": "📚 在圖書室閱讀 · 或參加茶道體驗（¥3,000/人 · NT$675）"
         },
         {
-          "time": "15:30",
-          "desc": "🌿 旅館內日式庭園散步 · 參加茶道體驗（需預約 · ¥2,000/人 · NT$900）"
-        },
-        {
-          "time": "17:00",
-          "desc": "🛶 搭乘旅館小船至對岸 · 嵐山街區漫步 · 購買紀念品"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ 旅館內懷石料理晚餐（第二晚 · 菜色不同）"
-        },
-        {
-          "time": "20:30",
-          "desc": "🌙 夜間露天風呂 · 星空下泡湯 · 完美收尾"
-        }
-      ],
-      "day_photo": "https://wil-assets.spicyweb.net.au/main/GLOBAL/JAPAN/JAPAN-ACCOMM/HOSHINOYA-KYOTO/_1000x1000_crop_center-center_none/Hoshinoya-Kyoto-Interior-Relaxation.jpg"
-    },
-    {
-      "day": 4,
-      "date": "June 21 · Sun",
-      "label_zh": "心齋橋購物 · 返回大阪",
-      "day_query": "Shinsaibashi shopping Osaka",
-      "hotel_name": "GRIDS PREMIUM HOTEL",
-      "hotel_name_zh": "格麗茲高級飯店",
-      "hotel_room": "標準雙人房",
-      "weather": "☁️ 28°/22°",
-      "rain_pct": "40%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "☀️ 睡到九點起床 · 享用旅館日式早餐（含在房費內）"
-        },
-        {
-          "time": "10:00",
-          "desc": "🛶 辦理退房 · 搭乘旅館接駁船至嵐山渡月橋"
-        },
-        {
-          "time": "10:30",
-          "desc": "🚄 從嵐山站搭乘 JR 嵯峨野線至京都站（15分鐘）· 轉 JR 新快速至大阪站（30分鐘 · ¥580/人 · NT$260）"
-        },
-        {
-          "time": "11:30",
-          "desc": "🚇 從大阪站搭乘地鐵御堂筋線至心齋橋站（5分鐘 · ¥230/人 · NT$105）"
-        },
-        {
-          "time": "12:00",
-          "desc": "🏨 先至 GRIDS PREMIUM HOTEL 心齋橋店辦理入住（地址：大阪市中央區心齋橋筋2-7-12）· 寄放行李"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ 午餐：大阪燒 美津の（心齋橋本店）· 招牌：摩登燒（¥1,500/人 · NT$675）"
-        },
-        {
-          "time": "13:30",
-          "desc": "🛍️ 心齋橋筋商店街購物 · 藥妝、服飾、雜貨 · 推薦：大國藥妝、Uniqlo、迪士尼商店"
-        },
-        {
-          "time": "15:00",
-          "desc": "🛍️ 繼續購物 · 可至大丸百貨心齋橋店（免稅服務）· 或逛美國村"
+          "time": "16:00",
+          "desc": "🌸 在旅館庭園散步 · 欣賞季節花卉 · 拍照留念"
         },
         {
           "time": "17:30",
-          "desc": "☕ 下午茶：HARBS 心齋橋店 · 招牌水果千層蛋糕（¥1,200/人 · NT$540）"
+          "desc": "🛶 搭乘接駁船前往嵐山商店街 · 購買伴手禮（約1小時）· 返回旅館"
         },
         {
-          "time": "18:30",
-          "desc": "🛍️ 最後採買 · 道頓堀散步 · 拍固力果跑跑人"
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：旅館內懷石料理（含在房價內 · 由管家送至房間）· 享受私人用餐時光"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 夜間泡湯 · 仰望星空 · 就寢"
+        }
+      ],
+      "day_photo": "https://cdn.luxatic.com/wp-content/uploads/2014/02/Hoshinoya-Karuizawa-9.jpg"
+    },
+    {
+      "day": 4,
+      "date": "Jun 21 · Sun",
+      "label_zh": "心齋橋購物 · 大阪美食",
+      "day_query": "Shinsaibashi shopping Osaka",
+      "hotel_name": "GRIDS PREMIUM HOTEL Namba",
+      "hotel_name_zh": "格利茲高級飯店難波 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "🌤 29°/22°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "☀️ 睡到自然醒 · 在虹夕諾雅享用最後的日式早餐"
+        },
+        {
+          "time": "10:00",
+          "desc": "🛶 辦理退房 · 搭乘飯店接駁船至嵐山碼頭 · 步行至嵯峨嵐山站"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚇 從嵯峨嵐山站搭乘JR山陰本線至京都站（¥240/人 · NT$55）· 轉JR京都線新快速至大阪站（¥580/人 · NT$130）· 轉地鐵御堂筋線至難波站（¥290/人 · NT$65）"
+        },
+        {
+          "time": "12:00",
+          "desc": "🏨 抵達 GRIDS PREMIUM HOTEL Namba · 辦理入住 · 寄放行李"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍜 午餐：一蘭拉麵 道頓堀店（¥1,490/人 · NT$335）· 步行5分鐘"
+        },
+        {
+          "time": "13:30",
+          "desc": "🛍️ 心齋橋商店街購物 · 推薦：大丸百貨、UNIQLO、藥妝店（松本清）· 預算NT$30,000"
+        },
+        {
+          "time": "16:00",
+          "desc": "☕ 下午茶：Pablo 起司蛋糕（¥800/片 · NT$180）· 在戎橋旁享用"
+        },
+        {
+          "time": "18:00",
+          "desc": "🛍️ 繼續購物 · 前往美國村 · 探索古著店"
         },
         {
           "time": "20:00",
-          "desc": "🍽️ 晚餐：一蘭拉麵 道頓堀店（¥1,490/人 · NT$670）"
+          "desc": "🍽️ 晚餐：燒肉力丸 千日前店（吃到飽 ¥3,980/人 · NT$895）"
         },
         {
-          "time": "21:30",
-          "desc": "🏨 返回 GRIDS PREMIUM HOTEL · 整理行李 · 休息"
+          "time": "22:00",
+          "desc": "🌙 返回飯店 · 整理行李 · 就寢"
         }
       ],
       "day_photo": "https://cdn.prod.website-files.com/63b68194bb4b0152e60727ee/63d23ba3517e0b6fa93e75b1_thumbnail+(26).jpg"
     },
     {
       "day": 5,
-      "date": "June 22 · Mon",
-      "label_zh": "返回台灣",
-      "day_query": "Kansai Airport KIX terminal",
-      "hotel_name": "GRIDS PREMIUM HOTEL",
-      "hotel_name_zh": "格麗茲高級飯店",
-      "hotel_room": "標準雙人房",
-      "weather": "☁️ 27°/21°",
-      "rain_pct": "30%",
+      "date": "Jun 22 · Mon",
+      "label_zh": "返台 · 清晨出發",
+      "day_query": "Kansai Airport KIX",
+      "hotel_name": "",
+      "hotel_name_zh": "",
+      "hotel_room": "",
+      "weather": "🌤 27°/21°",
+      "rain_pct": "10%",
       "slots": [
         {
           "time": "05:00",
-          "desc": "⏰ 早起 · 辦理退房 · 步行至心齋橋站"
+          "desc": "⏰ 起床 · 最後收拾行李 · 確認護照"
         },
         {
-          "time": "05:15",
-          "desc": "🚇 搭乘地鐵御堂筋線至難波站（2分鐘）· 轉南海電鐵空港線至關西機場（45分鐘 · ¥930/人 · NT$420）"
+          "time": "05:30",
+          "desc": "🏨 辦理退房 · 步行至南海難波站（5分鐘）"
         },
         {
-          "time": "06:15",
-          "desc": "🛬 抵達關西機場 · 辦理登機 · 樂陶航空 MM 23"
+          "time": "05:45",
+          "desc": "🚌 搭乘南海電鐵空港急行前往關西機場（約45分鐘 · ¥970/人 · NT$440/人）"
+        },
+        {
+          "time": "06:40",
+          "desc": "🛬 抵達關西機場第二航廈（樂陶航空櫃檯）· 辦理 check-in · 托運行李"
+        },
+        {
+          "time": "07:15",
+          "desc": "✈️ 通過安檢 · 前往登機門"
         },
         {
           "time": "07:50",
-          "desc": "✈️ 起飛 · 機上提供飲料"
+          "desc": "✈️ 樂陶航空 MM29 起飛返回台灣"
         },
         {
-          "time": "09:55",
-          "desc": "🛬 抵達桃園機場 · 入境通關 · 返回溫暖的家"
+          "time": "09:50",
+          "desc": "🛬 抵達桃園機場第一航廈 · 入境 · 取行李"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚕 搭乘計程車返回家中（約40分鐘 · NT$1,200）· 旅程結束 🎉"
         }
       ],
-      "day_photo": "https://www.tripindicator.com/images/airports/maps/kix-1-3.jpg"
+      "day_photo": "https://cdn.osaka-info.jp/page_translation/content/56fd075a-58ad-11e8-bff5-0af0cba29dd8.jpeg"
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（捷星+樂陶）",
-      "amount_ntd": 12000
+      "label": "✈️ 來回機票",
+      "amount_ntd": 18000
     },
     {
-      "label": "🏨 住宿（GRIDS PREMIUM 2晚 + 虹夕諾雅2晚）",
-      "amount_ntd": 130000
+      "label": "🏨 住宿（總計）",
+      "amount_ntd": 136000
     },
     {
-      "label": "🍽️ 餐飲（含虹夕諾雅懷石晚餐2晚）",
-      "amount_ntd": 90000
+      "label": "🍽️ 餐飲",
+      "amount_ntd": 50000
     },
     {
       "label": "🎫 景點門票",
-      "amount_ntd": 3000
+      "amount_ntd": 8000
     },
     {
-      "label": "🚇 交通（HARUKA、JR、地鐵、接駁船）",
-      "amount_ntd": 8000
+      "label": "🚇 交通",
+      "amount_ntd": 12000
     },
     {
       "label": "🛍️ 購物伴手禮",
       "amount_ntd": 50000
     }
   ],
-  "cost_total_ntd": 293000,
-  "budget_remaining_ntd": 107000,
-  "chat_input": "6月18日去京都嵐山，兩個人，晚上6:20搭乘捷星航空出發到大阪，6月22號早上7:50搭乘樂陶航空出發回台台灣。預算400,000。6月18日跟6月21日入住GRIDS PREMIUM HOTEL，六月19 20入住南山虹夕諾亞，20日應該都在旅館內享受。每天睡到九點起床幫我詳細介紹交通方式。6月21日幫我多留一些時間在心齋橋購物",
+  "cost_total_ntd": 274000,
+  "budget_remaining_ntd": 126000,
+  "chat_input": "6月18日去京都嵐山，兩個人，晚上6:20搭乘捷星航空出發到大阪，6月22號早上7:50搭乘樂陶航空出發回台台灣。預算400,000。6月18日跟6月21日入住難波GRIDS PREMIUM HOTEL，六月19 20入住南山虹夕諾亞，20日應該都在旅館內享受。每天睡到九點起床幫我詳細介紹交通方式。6月21日幫我多留一些時間在心齋橋購物",
   "photos": {
     "hero": [
       {
-        "url": "https://imgc.allpostersimages.com/img/posters/kyoto-japan-skyline-and-landmark-towers-at-dusk_u-l-q1sqmza0.jpg?artHeight=550&artPerspective=n&artWidth=550&background=ffffff",
-        "label": "Kyoto, Japan skyline and landmark towers at dusk Photo | AllPosters.com"
+        "url": "https://enjyu-japan.travel/wp-content/uploads/2025/05/osaka-castle-japan-scaled.webp",
+        "label": "Japan's Golden Route: A First-Timer's Guide to Tokyo, Kyoto, Osaka & More"
+      },
+      {
+        "url": "https://cdn.kimkim.com/files/a/content_articles/featured_photos/16da7dc9c655cc0c0628865e541c84c5c9963e19/big-ac7976b328d8b6a8a182491ddd3f0248.jpg",
+        "label": "Japan's Big Four: Tokyo, Kyoto, Osaka & Hiroshima - 10 Days | kimkim"
       }
     ],
     "destination": [
+      {
+        "url": "https://www.youcouldtravel.com/u/k/kyoto-vs-osaka-which-one-to-visit.jpg",
+        "label": "Osaka kyoto tourist attractions 60 photos - Morilly.com"
+      },
+      {
+        "url": "https://res.klook.com/image/upload/q_85/c_fill,w_1360/v1733999048/msmgv5zgdvalnv0w69uy.jpg",
+        "label": "Osaka to Kyoto Travel Guide: Best Routes & Must-See Tourist Spots ..."
+      },
+      {
+        "url": "https://thenavigatio.com/wp-content/uploads/2023/01/osaka-vs-kyoto.png",
+        "label": "Osaka kyoto tourist attractions 60 photos - Morilly.com"
+      },
+      {
+        "url": "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1671713678/blog/q5afpj7j3d4i2grpvvgs.jpg",
+        "label": "Your Ultimate Guide to Using The Kyoto-Osaka Sightseeing Pass - Klook ..."
+      },
       {
         "url": "https://www.explore.com/img/gallery/one-of-kyotos-best-most-visited-sites-is-a-serene-walk-through-a-breathtaking-bamboo-forest/how-to-visit-kyoto-1741455213.jpg",
         "label": "Explore One of Kyoto's Top Attractions: A Tranquil Stroll Through a ..."
       },
       {
-        "url": "https://cdn.generationvoyage.fr/2024/06/Ceremonie-du-the-traditionnelle-a-Kyoto-Japon.jpeg",
-        "label": "Les 5 temples emblématiques à visiter à Kyoto"
-      },
-      {
-        "url": "https://jw-webmagazine.com/wp-content/uploads/2022/10/Kyoto-main-image-min.jpg",
-        "label": "Kyoto best sightseeing 60 photos - Morilly.com"
-      },
-      {
-        "url": "https://www.neverendingvoyage.com/wp-content/uploads/2019/09/kyoto-japan-26.jpg",
-        "label": "26 Unforgettable Things to Do in Kyoto, Japan"
-      },
-      {
-        "url": "https://images.travelandleisureasia.com/wp-content/uploads/sites/5/2023/04/24114730/kyoto-japan-hero-image.jpeg",
-        "label": "Kyoto Travel Guide: Explore Japan’s Scenic, Spiritual City"
-      },
-      {
-        "url": "https://cdn.japan-travel-note.com/images/00131/thumbnail-en.png",
-        "label": "Complete Guide to Arashiyama, Kyoto: Best Attractions, Scenic Spots ..."
+        "url": "https://nara-sightseeing.com/ns/wp-content/uploads/2020/02/kyoto_202002.jpg",
+        "label": "January | KANSAI NARA Treasure Travel (Nara/Kyoto/Osaka Japan)"
       }
     ]
   },
-  "chat_hash": "f2ae7d372c14363f43138eb3455225fe80f39fb87ce02b760a381ebaabcd997f",
+  "chat_hash": "e05d386328d5bea2c1550b63c5b0b0ea2fdc6bffd59bab269488def9fc44b995",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-14T12:25:15.504156"
+  "generated_at": "2026-06-14T12:32:29.714677"
 }
