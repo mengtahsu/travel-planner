@@ -1,113 +1,113 @@
 {
-  "destination_en": "Bali, Indonesia",
-  "title_zh": "峇里島 · 六天五夜豪華之旅",
-  "date_range": "2027/01/30–2027/02/04",
-  "start_date": "2027-01-30",
-  "end_date": "2027-02-04",
+  "destination_en": "Paris, France",
+  "title_zh": "巴黎之戀 · 十一天秋日浪漫之旅",
+  "date_range": "2026/10/01–10/11",
+  "start_date": "2026-10-01",
+  "end_date": "2026-10-11",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "DPS",
-  "travelers": 4,
-  "days": 6,
-  "budget_ntd": 400000,
+  "destination_code": "CDG",
+  "travelers": 2,
+  "days": 11,
+  "budget_ntd": 500000,
   "flight": {
-    "airline": "中華航空 China Airlines",
-    "departure_date": "1月30日",
-    "return_date": "2月4日",
-    "total_price_ntd": 120000,
+    "airline": "長榮航空 EVA Air",
+    "departure_date": "10月1日",
+    "return_date": "10月11日",
+    "total_price_ntd": 76000,
     "outbound": {
-      "flight_no": "CI 771",
-      "route": "TPE → DPS 直飛",
-      "depart_time": "09:00",
-      "arrive_time": "14:30",
-      "duration": "5h 30m",
+      "flight_no": "BR 87",
+      "route": "TPE → CDG 直飛",
+      "depart_time": "23:40",
+      "arrive_time": "07:30 (+1)",
+      "duration": "13h 50m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "CI 772",
-      "route": "DPS → TPE 直飛",
-      "depart_time": "15:30",
-      "arrive_time": "21:00",
-      "duration": "5h 30m",
+      "flight_no": "BR 88",
+      "route": "CDG → TPE 直飛",
+      "depart_time": "11:20",
+      "arrive_time": "06:30 (+1)",
+      "duration": "13h 10m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Sheraton Bali Kuta Resort",
-      "name_zh": "峇里島庫塔喜來登度假酒店",
-      "district": "庫塔 Kuta",
-      "day_range": "1–2",
-      "nights": 2,
-      "price_ntd": 32000,
-      "stars": "★★★★★",
-      "room_type": "兩間豪華海景客房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏊 海景泳池 · 🏖️ 私人沙灘 · 💆 SPA · 🍽️ 海濱餐廳",
-      "search_query": "Sheraton Bali Kuta Resort",
+      "name": "Hôtel Le Narcisse Blanc & Spa",
+      "name_zh": "水仙花白酒店",
+      "district": "巴黎 6 區",
+      "day_range": "1–5",
+      "nights": 5,
+      "price_ntd": 65000,
+      "stars": "★★★★☆",
+      "room_type": "經典豪華雙人房",
+      "breakfast": "含法式早餐",
+      "amenities": "🏊 室內泳池 · 💆 SPA & 土耳其浴 · 🍽️ 庭院餐廳 · 🌿 私密花園",
+      "search_query": "Hôtel Le Narcisse Blanc Paris France",
       "photos": [
         {
-          "url": "https://media-cdn.holidaycheck.com/w_1280,h_720,c_fill,q_80/ugc/images/3df13fc8-5e64-4b3d-b76d-f4173f3c3bc2",
-          "label": "Sheraton Bali Kuta Resort (Kuta) • HolidayCheck (Bali | Indonesien)"
+          "url": "http://3.bp.blogspot.com/-1byge6qgzN8/UoopoSL0oqI/AAAAAAAAe24/ZaT8D8DHHJw/s1600/Paris-Luxury-Hotel-Sofitel-passion4luxury-10.jpg",
+          "label": "Passion For Luxury : Sofitel Paris Arc de Triomphe hotel"
         },
         {
-          "url": "https://images.travelandleisureasia.com/wp-content/uploads/sites/7/2024/11/27161033/sheraton-bali-kuta-resort_aerial-view_014-e1732694307238-1024x575.jpeg",
-          "label": "How the Stunning Sheraton Bali Kuta Resort is Upgrading the Total Guest ..."
+          "url": "https://phgcdn.com/images/uploads/PARLT/corporatemasthead/PARLT_Exterior_overview.jpg",
+          "label": "La Trémoille | Five Star Paris Hotel | Luxury Hotels in Paris"
         },
         {
-          "url": "http://et-envirotec.com/wp-content/media/2016/09/SH_REAL-PICS_01.jpg",
-          "label": "Sheraton Bali Kuta Resort Hotel Dalchaebi"
+          "url": "https://i1.wp.com/theluxurytravelexpert.com/wp-content/uploads/2018/02/LE-BRISTOL-PARIS.jpg?ssl=1",
+          "label": "Top 10 best luxury hotels in Paris - The Luxury Travel Expert"
         },
         {
-          "url": "https://media-cdn.holidaycheck.com/w_1280,h_720,c_fit,q_auto,f_auto/ugc/images/9770832c-8061-4cb2-92f1-baad9f888b69",
-          "label": "\"Außenansicht\" Sheraton Bali Kuta Resort (Kuta) • HolidayCheck (Bali ..."
+          "url": "https://lajollamom.com/wp-content/uploads/2017/08/shangri-la-paris-luxury-hotel.jpg",
+          "label": "Small Luxury Hotels Paris | IUCN Water"
         },
         {
-          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/463637573.jpg?k=0664dd3893ca42de47ac0228a388f17a7d320d7a0c58f994835dc77367139e5a&o=&hp=1",
-          "label": "Four Points by Sheraton Bali, Kuta, Kuta (updated prices 2026)"
+          "url": "https://www.thehotelfocus.com/assets/uploads/bvlgari-paris-new-luxury-hotel-penthouse-1024x576.jpeg.webp",
+          "label": "Unveiling 2025’s 13 Hottest New Luxury Hotels in Paris | The Hotel Focus"
         },
         {
-          "url": "https://www.wandernesia.com/wp-content/uploads/2018/06/Sheraton-Bali-Kuta-Resort.jpg",
-          "label": "The Most Outstanding and Comfortable of Bali Kuta Resort - Wandernesia"
+          "url": "https://digital.ihg.com/is/image/ihg/intercontinental-paris-6974192225-2x1",
+          "label": "5 Star Luxury Hotels In Paris | InterContinental Hotel - Le Grand Hotel"
         }
       ]
     },
     {
-      "name": "Hoshinoya Bali",
-      "name_zh": "虹夕諾雅 峇里島",
-      "district": "烏布 Ubud",
-      "day_range": "3–5",
-      "nights": 3,
-      "price_ntd": 135000,
+      "name": "La Réserve Paris Hotel & Spa",
+      "name_zh": "拉瑞瑟夫酒店",
+      "district": "巴黎 16 區",
+      "day_range": "6–10",
+      "nights": 5,
+      "price_ntd": 120000,
       "stars": "★★★★★",
-      "room_type": "兩間泳池別墅 (Pool Villa)",
-      "breakfast": "含精緻日式/峇里式早餐",
-      "amenities": "🏊 私人泳池 · 🌿 熱帶花園 · 💆 日式SPA · 🍽️ 餐廳 & 酒吧",
-      "search_query": "Hoshinoya Bali Ubud",
+      "room_type": "豪華套房",
+      "breakfast": "含自助早餐",
+      "amenities": "🏋️ 健身房 · 🧖 頂級SPA · 🍷 私人酒窖 · 🎭 管家服務",
+      "search_query": "La Réserve Paris Hotel Spa",
       "photos": [
         {
-          "url": "https://d3s3ousecbrwfp.cloudfront.net/images/2013/10/20073911/7fa140e41fd37ceb9afb324640975e99.jpg",
-          "label": "HOSHINOYA Bali | Hoshino Resorts [Official]"
+          "url": "https://www.courtneyprice.com/wp-content/uploads/2019/08/La-Reserve-Paris-Welcome.jpg",
+          "label": "La Réserve Paris Hotel and Spa | Courtney Price"
         },
         {
-          "url": "https://www.thehotelguru.com/_images/d4/e7/d4e70386b3e353509164ac4bfb4febb1/hoshinoya-bali-s1180x560.jpg",
-          "label": "Hoshinoya Bali, Ubud (Bali), Indonesia. Expert reviews and highlights ..."
+          "url": "https://www.myboutiquehotel.com/photos/113694/la-reserve-paris-hotel-spa-paris-121-1702654730-2220x1400.jpg",
+          "label": "La Réserve Paris Hotel & Spa, a Design Boutique Hotel Paris, France"
         },
         {
-          "url": "https://www.theluxevoyager.com/wp-content/uploads/2020/04/Hoshinoya-Hotel-Bali-Pool-2-970x546.jpg",
-          "label": "Hoshinoya Bali: 5 Star Luxury Boutique Hotel & Spa Resort in Ubud"
+          "url": "https://cdn1.i-scmp.com/sites/default/files/images/methode/2019/03/05/1c96d218-3e2f-11e9-b20a-0cdc8de4a6f4_1320x770_231716.jpg",
+          "label": "Why is ‘Europe’s best hotel’, La Réserve Paris – built for a relative ..."
         },
         {
-          "url": "https://www.theluxevoyager.com/wp-content/uploads/2020/04/Hoshinoya-Hotel-Bali-Pool-970x546.jpg",
-          "label": "Hoshinoya Bali: 5 Star Luxury Boutique Hotel & Spa Resort in Ubud"
+          "url": "https://www.lareserve-paris.com/wp-content/uploads/2020/11/g8h0635-768x576.jpg",
+          "label": "La Réserve Paris | 5 Star Luxury Hotel & Spa in Paris"
         },
         {
-          "url": "https://www.myboutiquehotel.com/photos/107780/hoshinoya-bali-ubud-010-25807-2220x1400.jpg",
-          "label": "Hoshinoya Bali, a Design Boutique Hotel Ubud, Indonesia"
+          "url": "https://www.myboutiquehotel.com/photos/113694/la-reserve-paris-hotel-spa-paris-114-1702654729-2220x1400.jpg",
+          "label": "La Réserve Paris Hotel & Spa, a Design Boutique Hotel Paris, France"
         },
         {
-          "url": "https://www.theluxevoyager.com/wp-content/uploads/2020/04/Hoshinoya-Hotel-Bali-3-862x546.jpg",
-          "label": "Hoshinoya Bali: 5 Star Luxury Boutique Hotel & Spa Resort in Ubud"
+          "url": "https://www.lareserve-paris.com/wp-content/uploads/2020/11/junior_u9a5866.jpg",
+          "label": "Photo Gallery | La Réserve Hotel & Spa Paris"
         }
       ]
     }
@@ -115,81 +115,156 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Mozaic Restaurant",
-        "name_zh": "米其林風格創意料理 · 烏布",
-        "stars": "⭐⭐",
-        "dish": "🍽️ 招牌：峇里香料烤鴨 · 分子料理甜點",
-        "address": "Jl. Raya Sanggingan, Ubud",
-        "price_ntd": 3500,
-        "price_label": "套餐 IDR 1,200,000/人 · NT$3,500",
-        "hours": "18:00–22:00 · 需預約",
-        "search_query": "Mozaic Restaurant Ubud Bali",
+        "name": "Le Cinq",
+        "name_zh": "四季酒店米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🦞 招牌：龍蝦濃湯佐黑松露",
+        "address": "31 Av. George V, 8區",
+        "price_ntd": 10000,
+        "price_label": "晚餐套餐 €145/人 · NT$10,000",
+        "hours": "19:00–22:00 · 需預約",
+        "search_query": "Le Cinq restaurant Four Seasons Paris food",
         "photos": [
           {
-            "url": "https://www.mozaic-bali.com/wp-content/uploads/2023/12/IMG_4607-1024x700-1.jpg",
-            "label": "Experiences - Mozaic Gastronomic Restaurant - Ubud Bali"
+            "url": "https://cuisinevoila.com/wp-content/uploads/2024/11/paris-fine-dining.webp",
+            "label": "Paris Fine Dining: A Culinary Journey to Remember"
           },
           {
-            "url": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630,f_auto/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ipi76mwmxl4on8gp7uxe/MozaicRestaurantdiUbud.jpg",
-            "label": "Mozaic Restaurant, Ubud"
+            "url": "https://wheretianatravels.com/wp-content/uploads/2024/09/fine-dining-on-a-budget-in-paris.jpg",
+            "label": "How to Experience Fine Dining in Paris on a Budget"
           },
           {
-            "url": "https://www.balidiscovery.com/wp-content/uploads/2022/11/Mozaic3garden-scaled.jpg",
-            "label": "Mozaic Restaurant in Ubud Bali Reopens | Bali Discovery"
+            "url": "https://assets-global.website-files.com/619776e2e737e7a8e46f94af/65450f878a3f9e958725b9f4_world-of-mouth-fine-dining-paris.jpg",
+            "label": "The 20 Best Fine Dining Restaurants in Paris - World of Mouth"
+          }
+        ]
+      },
+      {
+        "name": "L'Ambroisie",
+        "name_zh": "安布羅西餐廳 · 米其林三星",
+        "stars": "⭐⭐⭐",
+        "dish": "🐟 招牌：海鱸魚佐魚子醬",
+        "address": "9 Pl. des Vosges, 4區",
+        "price_ntd": 14000,
+        "price_label": "晚餐套餐 €200/人 · NT$14,000",
+        "hours": "12:00–13:30 / 20:00–21:30 · 需提前一個月預約",
+        "search_query": "L'Ambroisie Paris Place des Vosges",
+        "photos": [
+          {
+            "url": "",
+            "label": "fine dining food Paris"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Paris"
+          },
+          {
+            "url": "",
+            "label": "fine dining food Paris"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Mamasan Bali",
-        "name_zh": "亞洲風味小酒館 · 水明漾",
-        "stars": "",
-        "dish": "🍜 招牌：印尼炒飯 · 軟殼蟹沙拉 · 椰香咖哩",
-        "address": "Jl. Kayu Aya No.22, Seminyak",
-        "price_ntd": 1500,
-        "price_label": "兩人套餐 IDR 500,000 · NT$1,500",
-        "hours": "12:00–22:00",
-        "search_query": "Mamasan Bali Seminyak",
+        "name": "Septime",
+        "name_zh": "新派法式小酒館 · 米其林一星",
+        "stars": "⭐",
+        "dish": "🥩 招牌：熟成肋眼牛排 · 煙燻甜菜根",
+        "address": "80 Rue de Charonne, 11區",
+        "price_ntd": 3800,
+        "price_label": "午餐套餐 €55/人 · NT$3,800",
+        "hours": "12:15–14:00 / 19:30–22:00",
+        "search_query": "Septime restaurant Paris food",
         "photos": [
           {
-            "url": "https://neverneverlandinbali.com/wp-content/uploads/2021/10/1-3.jpg",
-            "label": "Mama San Bali – Seminyak 12:00-22:00 東南亞餐 OK – NeverneverLand in Bali 你的忘憂地"
+            "url": "",
+            "label": "bistros food Paris"
           },
           {
-            "url": "https://indonesiaexpat.id/wp-content/uploads/2021/07/mamasan-downstairs-hd-01-960x640.jpg",
-            "label": "Mama San Bali, the Island's Brightest Culinary Icon – Indonesia Expat"
+            "url": "",
+            "label": "bistros food Paris"
           },
           {
-            "url": "https://mamasanbali.com/wp-content/uploads/2025/01/mama-san-bali-downstairs-dinner-time-006.webp",
-            "label": "Mama San Bali | Modern Southeast Asian Restaurant, Seminyak"
+            "url": "",
+            "label": "bistros food Paris"
+          }
+        ]
+      },
+      {
+        "name": "Le Comptoir du Relais",
+        "name_zh": "聖日耳曼德佩小酒館",
+        "stars": "",
+        "dish": "🍗 招牌：油封鴨腿 · 烤布蕾",
+        "address": "9 Carrefour de l'Odéon, 6區",
+        "price_ntd": 2800,
+        "price_label": "晚餐套餐 €80/人 · NT$2,800",
+        "hours": "12:00–14:30 / 19:00–22:30",
+        "search_query": "Le Comptoir du Relais Paris",
+        "photos": [
+          {
+            "url": "https://i0.wp.com/www.parisfoodaffair.com/wp-content/uploads/2018/10/Bistrot-Paul-Bert-steak-au-poivre-and-sole-meuniere.jpg",
+            "label": "The Ultimate Guide to Classic French Restaurants & Bistros in Paris (2024)"
+          },
+          {
+            "url": "https://cdn.fodors.com/wp-content/uploads/2018/02/Paris-Bistros-Hero.jpg",
+            "label": "French Bistro Menu Paris at Jamie Gibb blog"
+          },
+          {
+            "url": "https://www.diningandcooking.com/wp-content/uploads/2025/10/0620Fontaine20de20Mars.jpg",
+            "label": "6 of the Best Bistros in Paris - Dining and Cooking"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Seniman Coffee Studio",
-        "name_zh": "烏布精品咖啡館",
+        "name": "Café de Flore",
+        "name_zh": "花神咖啡館 · 1887年開業",
         "stars": "",
-        "dish": "☕ 招牌：峇里冰咖啡 · 手沖單品 · 香蕉鬆餅",
-        "address": "Jl. Sriwedari No.5, Ubud",
-        "price_ntd": 500,
-        "price_label": "兩人咖啡+點心 IDR 175,000 · NT$500",
-        "hours": "07:00–18:00",
-        "search_query": "Seniman Coffee Studio Ubud",
+        "dish": "☕ 招牌：熱巧克力 · 可頌 · 焦糖布丁",
+        "address": "172 Bd Saint-Germain, 6區",
+        "price_ntd": 1200,
+        "price_label": "兩人早午餐 €35 · NT$1,200",
+        "hours": "07:30–01:30 · 文人雅士最愛",
+        "search_query": "Cafe de Flore Paris interior",
         "photos": [
           {
-            "url": "https://awsimages.detik.net.id/community/media/visual/2020/02/14/2fc0970e-e722-4a3b-badf-b741dc5c09e9.jpeg?w=700&q=90",
-            "label": "Seniman Coffee Studio : Kopi Lokal dan Creme Brule Berjodoh di Sini"
+            "url": "https://i0.wp.com/www.theluxurylowdown.com/wp-content/uploads/2021/10/The_Luxury_Lowdown_Cafe_de_Flore_12.jpg?resize=1024,683&ssl=1",
+            "label": "Paris Café Series: Café de Flore Review (#3) - The Luxury Lowdown"
           },
           {
-            "url": "https://bali.com/wp-content/uploads/2021/12/seniman-kopi.jpg",
-            "label": "Seniman Coffee Studio - Bali.com"
+            "url": "https://i0.wp.com/www.theluxurylowdown.com/wp-content/uploads/2021/10/The_Luxury_Lowdown_Cafe_de_Flore_13.jpg?resize=1024,683&ssl=1",
+            "label": "Paris Café Series: Café de Flore Review (#3) - The Luxury Lowdown"
           },
           {
-            "url": "https://2.bp.blogspot.com/-_NsaOPfu1wo/VUODmqExEKI/AAAAAAAAMwI/yZoSu_zzB-A/s1600/IMG_4225.JPG",
-            "label": "Review Seniman Coffee Studio Ubud, Bali"
+            "url": "https://thecoffeeguru.net/storage/2023/07/inside_the_cafe__an_atmosphere_of_timeless_elegance.webp",
+            "label": "Café de Flore Paris: A Timeless Emblem of French Café Culture"
+          }
+        ]
+      },
+      {
+        "name": "Angelina Paris",
+        "name_zh": "安吉麗娜 · 百年甜點沙龍",
+        "stars": "",
+        "dish": "🍫 招牌：蒙布朗栗子蛋糕 · 非洲熱巧克力",
+        "address": "226 Rue de Rivoli, 1區",
+        "price_ntd": 1400,
+        "price_label": "兩人下午茶 €40 · NT$1,400",
+        "hours": "08:00–19:00 · 可外帶",
+        "search_query": "Angelina Paris Mont Blanc",
+        "photos": [
+          {
+            "url": "https://i0.wp.com/www.letribunal.com/wp-content/uploads/2017/05/mont-blanc-angelina-1-tdg.jpg?fit=1080,1067",
+            "label": "Le Mont-Blanc par Angelina - LE TRIBUNAL DES GÂTEAUX"
+          },
+          {
+            "url": "https://solli-kanani.com/wp-content/uploads/2013/04/mont-blanc-angelina-paris-4.jpg",
+            "label": "Mont Blanc at Angelina in Paris - Blog About Paris, Food & Travel"
+          },
+          {
+            "url": "http://solli-kanani.com/wp-content/uploads/2013/04/mont-blanc-angelina-paris.jpg",
+            "label": "Mont Blanc at Angelina in Paris - Blog About Paris , Fashion, Food & Travel"
           }
         ]
       }
@@ -198,369 +273,587 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Jan 30 · Sat",
-      "label_zh": "抵達 · 庫塔海灘夕陽",
-      "day_query": "Kuta Beach Bali sunset",
-      "hotel_name": "Sheraton Bali Kuta Resort",
-      "hotel_name_zh": "峇里島庫塔喜來登度假酒店 · 兩間豪華海景客房",
-      "hotel_room": "兩間豪華海景客房",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "15%",
+      "date": "10月1日 · 週四",
+      "label_zh": "抵達 · 巴黎初印象",
+      "day_query": "Eiffel Tower Paris landmark",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "⛅ 18°/10°",
+      "rain_pct": "10%",
       "slots": [
         {
+          "time": "07:30",
+          "desc": "✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李（預計 30–45 分鐘）"
+        },
+        {
           "time": "09:00",
-          "desc": "✈️ 桃園機場 TPE 出發 · 中華航空 CI771 · 09:00 起飛 → 14:30 抵達峇里島"
+          "desc": "🚕 搭乘計程車前往酒店（約 45 分鐘 · €55）· 沿途欣賞巴黎市郊風光"
         },
         {
-          "time": "14:30",
-          "desc": "🛬 抵達伍拉·賴國際機場 (DPS) · 辦理落地簽證 · 提領行李"
+          "time": "10:00",
+          "desc": "🏨 抵達 Hôtel Le Narcisse Blanc · 辦理入住 · 稍作休息"
         },
         {
-          "time": "15:30",
-          "desc": "🚕 搭乘預約接駁車前往庫塔喜來登（車程約15分鐘）· 沿途欣賞庫塔街景"
+          "time": "11:30",
+          "desc": "🥐 Café de Flore 早午餐 · 花神經典歐蕾 + 可頌 + 法式洋蔥湯 · NT$1,200"
         },
         {
-          "time": "16:00",
-          "desc": "🏨 抵達 Sheraton Bali Kuta Resort · 辦理入住 · 分配兩間客房 · 稍作整理"
+          "time": "14:00",
+          "desc": "🎨 羅浮宮 Musée du Louvre（預約票 €17/人）· 必看：蒙娜麗莎、勝利女神"
         },
         {
-          "time": "17:00",
-          "desc": "🏖️ 庫塔海灘散步 · 享受日落美景 · 拍照留念"
+          "time": "17:30",
+          "desc": "🚶 杜樂麗花園散步 · 協和廣場 · 欣賞夕陽下的方尖碑"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 喜來登海濱餐廳晚餐 · 品嚐峇里島風味海鮮燒烤 · 每桌 IDR 1,000,000"
-        },
-        {
-          "time": "20:00",
-          "desc": "🌙 庫塔市區漫步 · 逛 Discovery Mall 購物中心 · 購買紀念品"
+          "time": "19:30",
+          "desc": "🍽️ Le Cinq 米其林三星晚餐 · 預約 19:30 · 品嚐主廚招牌龍蝦濃湯 · NT$10,000"
         },
         {
           "time": "22:00",
-          "desc": "🛌 返回酒店 · 休息 · 準備明天行程"
+          "desc": "🌙 返回酒店 · 途經亞歷山大三世橋欣賞夜間燈光"
+        }
+      ],
+      "day_photo": "https://c.pxhere.com/photos/ee/40/eiffel_tower_tower_monument_tall_building_paris-15190.jpg!d"
+    },
+    {
+      "day": 2,
+      "date": "10月2日 · 週五",
+      "label_zh": "蒙馬特 · 藝術與愛情",
+      "day_query": "Sacre Coeur Montmartre Paris",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "☀️ 20°/12°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店享用法式早餐 · 含可頌、咖啡、新鮮果汁"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚇 地鐵至 Abbesses 站 · 步行探索蒙馬特"
+        },
+        {
+          "time": "10:00",
+          "desc": "⛪ 聖心堂 Basilique du Sacré-Cœur · 俯瞰巴黎全景 · 免費入場"
+        },
+        {
+          "time": "11:30",
+          "desc": "🎨 畫家廣場 Place du Tertre · 看街頭畫家創作 · 可為兩人畫一幅肖像（約 €30）"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ Le Comptoir du Relais 午餐 · 油封鴨腿 · NT$2,800"
+        },
+        {
+          "time": "15:00",
+          "desc": "💞 愛牆 Le Mur des Je t'aime · 用300種語言寫下我愛你"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚶 紅磨坊 Moulin Rouge 外觀拍照 · 散步回地鐵站"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：L'Ambroisie 米其林三星 · 位於孚日廣場 · NT$14,000"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店 · 享受酒店 SPA 土耳其浴（需預約）"
+        }
+      ],
+      "day_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/1280px-Le_sacre_coeur.jpg"
+    },
+    {
+      "day": 3,
+      "date": "10月3日 · 週六",
+      "label_zh": "凡爾賽宮 · 皇家奢華一日",
+      "day_query": "Palace of Versailles gardens",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "☀️ 22°/14°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "07:30",
+          "desc": "🥐 酒店早餐 · 提早出發避開人潮"
+        },
+        {
+          "time": "08:30",
+          "desc": "🚄 從蒙帕納斯車站搭乘 RER C 至 Versailles Château（約 45 分鐘 · 來回 €8/人）"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏰 凡爾賽宮 Château de Versailles · 預約票 €21/人 · 含語音導覽"
+        },
+        {
+          "time": "12:00",
+          "desc": "🌳 凡爾賽花園 · 大運河畔散步 · 秋季落葉如詩"
+        },
+        {
+          "time": "13:30",
+          "desc": "🍽️ 花園內餐廳午餐 · 簡餐約 €30/人 · NT$2,100"
+        },
+        {
+          "time": "15:00",
+          "desc": "👑 小特里亞農宮 · 瑪麗安東尼的私人莊園"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚄 返回巴黎 · 酒店休息片刻"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ Septime 米其林一星小酒館晚餐 · 熟成牛排 · NT$3,800"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 塞納河畔夜遊 · 從新橋散步至聖母院"
+        }
+      ],
+      "day_photo": "https://cdn-imgix.headout.com/mircobrands-content/image/d897431f89d3db6225fcb5a7451f7e75-Paris+in+September-+Versailles+Palace.jpg"
+    },
+    {
+      "day": 4,
+      "date": "10月4日 · 週日",
+      "label_zh": "瑪黑區 · 文藝漫步",
+      "day_query": "Place des Vosges Marais Paris",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "⛅ 19°/11°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚶 步行至聖日耳曼德佩教堂 · 巴黎最古老教堂之一"
+        },
+        {
+          "time": "10:30",
+          "desc": "🎨 畢卡索博物館 Musée Picasso（€12/人）· 收藏豐富"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：Angelina Paris 下午茶 · 蒙布朗栗子蛋糕 · NT$1,400"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛍️ 瑪黑區逛街 · 獨立設計師小店 · 如 Merci 概念店"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏛️ 孚日廣場 Place des Vosges · 雨果故居免費參觀"
+        },
+        {
+          "time": "18:00",
+          "desc": "🍷 孚日廣場旁品酒 · 參加一小時品酒課程（€25/人）"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：Bistrot Paul Bert · 經典法式牛排薯條 · €50/人 · NT$3,500"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店"
         }
       ],
       "day_photo": ""
     },
     {
-      "day": 2,
-      "date": "Jan 31 · Sun",
-      "label_zh": "海神廟 · 水明漾美食",
-      "day_query": "Tanah Lot Temple Bali",
-      "hotel_name": "Sheraton Bali Kuta Resort",
-      "hotel_name_zh": "峇里島庫塔喜來登度假酒店 · 兩間豪華海景客房",
-      "hotel_room": "兩間豪華海景客房",
-      "weather": "☀️ 33°/27°",
-      "rain_pct": "10%",
+      "day": 5,
+      "date": "10月5日 · 週一",
+      "label_zh": "羅丹美術館 · 奧賽博物館",
+      "day_query": "Musée Rodin Paris sculpture",
+      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
+      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
+      "hotel_room": "經典豪華雙人房",
+      "weather": "☁️ 17°/9°",
+      "rain_pct": "30%",
       "slots": [
         {
-          "time": "09:00",
-          "desc": "🛌 睡到自然醒 · 在酒店享用自助早餐（07:00–10:30）"
+          "time": "08:00",
+          "desc": "🥐 酒店早餐"
         },
         {
-          "time": "10:30",
-          "desc": "🚗 包車前往海神廟 Tanah Lot（車程約1小時）· 沿途欣賞峇里鄉村風光"
-        },
-        {
-          "time": "11:30",
-          "desc": "🏛️ 海神廟 Tanah Lot · 參觀著名海上寺廟 · 拍照 · 逛周邊市集（門票 IDR 60,000/人）"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 海神廟附近餐廳午餐 · 品嚐印尼炒飯 & 沙嗲串 · 每人 IDR 150,000"
-        },
-        {
-          "time": "14:30",
-          "desc": "🚗 返回庫塔 · 前往水明漾區 Seminyak"
-        },
-        {
-          "time": "15:30",
-          "desc": "🛍️ 水明漾逛街 · 逛精品服飾店 & 手工藝品店（如 Biasa、Milo's）"
-        },
-        {
-          "time": "17:30",
-          "desc": "☕ 水明漾咖啡館小憩 · 喝杯峇里冰咖啡"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ Mamasan Bali 晚餐 · 亞洲風味小酒館 · 品嚐軟殼蟹沙拉 & 印尼炒飯"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 返回庫塔喜來登 · 享受酒店泳池夜遊"
-        },
-        {
-          "time": "22:30",
-          "desc": "🛌 休息 · 準備明天退房前往烏布"
-        }
-      ],
-      "day_photo": "https://finnsbeachclub.com/wp-content/uploads/2023/03/tanah-lot-temple-bali.jpg"
-    },
-    {
-      "day": 3,
-      "date": "Feb 1 · Mon",
-      "label_zh": "烏布 · 虹夕諾雅入住",
-      "day_query": "Hoshinoya Bali Ubud",
-      "hotel_name": "Hoshinoya Bali",
-      "hotel_name_zh": "虹夕諾雅 峇里島 · 兩間泳池別墅",
-      "hotel_room": "兩間泳池別墅",
-      "weather": "☀️ 30°/24°",
-      "rain_pct": "20%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "🛌 睡到自然醒 · 在喜來登享用最後一頓自助早餐"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏨 辦理退房 · 將行李寄放櫃檯或直接上包車"
-        },
-        {
-          "time": "11:00",
-          "desc": "🚗 包車前往烏布（車程約1.5小時）· 沿途參觀德哥拉朗梯田 Tegallalang Rice Terrace"
-        },
-        {
-          "time": "12:00",
-          "desc": "🌾 德哥拉朗梯田 · 漫步稻田 · 拍照 · 欣賞壯觀梯田景觀（門票 IDR 50,000/人）"
-        },
-        {
-          "time": "13:30",
-          "desc": "🍽️ 梯田附近餐廳午餐 · 品嚐髒鴨餐 Bebek Bengil · 每人 IDR 200,000"
-        },
-        {
-          "time": "15:00",
-          "desc": "🏨 抵達虹夕諾雅 峇里島 · 辦理入住 · 兩間泳池別墅 · 享受私人泳池"
-        },
-        {
-          "time": "17:00",
-          "desc": "💆 虹夕諾雅SPA · 預約60分鐘峇里式按摩 · 每人 IDR 800,000"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 虹夕諾雅餐廳晚餐 · 日式會席料理 · 每套 IDR 1,500,000"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 別墅內私人泳池戲水 · 享受寧靜夜晚"
-        },
-        {
-          "time": "22:30",
-          "desc": "🛌 休息"
-        }
-      ],
-      "day_photo": "https://d3s3ousecbrwfp.cloudfront.net/images/2013/10/20073911/7fa140e41fd37ceb9afb324640975e99.jpg"
-    },
-    {
-      "day": 4,
-      "date": "Feb 2 · Tue",
-      "label_zh": "烏布文化之旅 · 梯田",
-      "day_query": "Tegallalang Rice Terrace Bali",
-      "hotel_name": "Hoshinoya Bali",
-      "hotel_name_zh": "虹夕諾雅 峇里島 · 兩間泳池別墅",
-      "hotel_room": "兩間泳池別墅",
-      "weather": "☀️ 31°/25°",
-      "rain_pct": "15%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "🛌 睡到自然醒 · 在虹夕諾雅享用精緻早餐（日式或峇里式）"
-        },
-        {
-          "time": "10:00",
-          "desc": "🚶 烏布皇宮 Ubud Palace · 參觀傳統建築 · 免費入場"
-        },
-        {
-          "time": "11:00",
-          "desc": "🛍️ 烏布傳統市場 Ubud Market · 購買手工藝品 · 紗龍 · 木雕"
+          "time": "09:30",
+          "desc": "🎨 奧賽博物館 Musée d'Orsay（預約票 €16/人）· 印象派畫作 · 梵谷、莫內"
         },
         {
           "time": "12:30",
-          "desc": "☕ Seniman Coffee Studio 午餐+咖啡 · 品嚐峇里冰咖啡 & 香蕉鬆餅"
-        },
-        {
-          "time": "14:00",
-          "desc": "🌾 再次造訪德哥拉朗梯田 · 更深處探索 · 拍照 · 享受田園風光"
-        },
-        {
-          "time": "16:00",
-          "desc": "🚗 返回虹夕諾雅 · 休息 · 享受別墅泳池"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍽️ Mozaic Restaurant 晚餐 · 米其林風格創意料理 · 需預約"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 虹夕諾雅夜間散步 · 聆聽蟲鳴 · 星空觀賞"
-        },
-        {
-          "time": "22:30",
-          "desc": "🛌 休息"
-        }
-      ],
-      "day_photo": "https://authentic-indonesia.com/wp-content/uploads/2023/07/beautiful-view-of-Tegallalang-Rice-Terrace.jpg"
-    },
-    {
-      "day": 5,
-      "date": "Feb 3 · Wed",
-      "label_zh": "烏布放鬆日 · SPA",
-      "day_query": "Ubud Monkey Forest Bali",
-      "hotel_name": "Hoshinoya Bali",
-      "hotel_name_zh": "虹夕諾雅 峇里島 · 兩間泳池別墅",
-      "hotel_room": "兩間泳池別墅",
-      "weather": "☀️ 30°/24°",
-      "rain_pct": "20%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "🛌 睡到自然醒 · 享用虹夕諾雅早餐"
-        },
-        {
-          "time": "10:00",
-          "desc": "🐒 烏布猴子森林 Ubud Monkey Forest · 門票 IDR 80,000/人 · 注意隨身物品"
-        },
-        {
-          "time": "11:30",
-          "desc": "🚶 烏布藝術村散步 · 參觀畫廊（如 Neka Art Museum）"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 烏布市區午餐 · 品嚐印尼炒麵 & 鮮榨果汁 · 每人 IDR 150,000"
+          "desc": "🍽️ 博物館餐廳午餐 · 精緻法餐 · €35/人 · NT$2,450"
         },
         {
           "time": "14:30",
-          "desc": "💆 虹夕諾雅SPA（第二次）· 熱石按摩 · 每人 IDR 1,000,000"
+          "desc": "🗿 羅丹美術館 Musée Rodin · 沉思者、地獄之門 · 花園超美"
         },
         {
           "time": "16:30",
-          "desc": "🏊 別墅私人泳池 · 游泳 · 享受度假時光"
+          "desc": "🚶 傷兵院 Les Invalides · 拿破崙陵墓 · 外觀拍照"
         },
         {
           "time": "18:00",
-          "desc": "🍽️ 虹夕諾雅餐廳晚餐 · 峇里島特色套餐 · 每套 IDR 1,200,000"
+          "desc": "🍷 酒店休息 · 享受 SPA 一小時按摩（€120/人 · NT$4,200）"
         },
         {
           "time": "20:00",
-          "desc": "🌙 烏布夜間散步 · 逛逛夜間市集 · 買些伴手禮"
+          "desc": "🍽️ 晚餐：Le Cinq 再次造訪或選擇 Le Taillevent 米其林二星（€150/人）"
         },
         {
-          "time": "22:00",
-          "desc": "🛌 打包行李 · 準備明天退房回台灣"
+          "time": "22:30",
+          "desc": "🌙 返回酒店"
         }
       ],
-      "day_photo": "https://trava.id/wp-content/uploads/2024/05/wisata-monkey-forest-ubud-pelastarian-alam-dan-budaya-bali.jpg"
+      "day_photo": "https://cdn.sortiraparis.com/images/80/76970/344300-rodin-et-la-danse-au-musee-rodin.jpg"
     },
     {
       "day": 6,
-      "date": "Feb 4 · Thu",
-      "label_zh": "返程 · 滿載回憶",
-      "day_query": "Bali airport departure",
-      "hotel_name": "Hoshinoya Bali",
-      "hotel_name_zh": "虹夕諾雅 峇里島 · 兩間泳池別墅",
-      "hotel_room": "兩間泳池別墅",
-      "weather": "☀️ 32°/26°",
+      "date": "10月6日 · 週二",
+      "label_zh": "換酒店 · 盧森堡公園",
+      "day_query": "Luxembourg Garden Paris autumn",
+      "hotel_name": "La Réserve Paris Hotel & Spa",
+      "hotel_name_zh": "拉瑞瑟夫酒店 · 豪華套房",
+      "hotel_room": "豪華套房",
+      "weather": "☀️ 18°/10°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "09:00",
-          "desc": "🛌 睡到自然醒 · 最後一頓虹夕諾雅早餐"
+          "time": "08:00",
+          "desc": "🥐 水仙花白酒店最後早餐 · 收拾行李"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏨 退房 · 寄存行李於前台"
         },
         {
           "time": "10:00",
-          "desc": "🏨 辦理退房 · 搭乘包車前往機場（車程約1.5小時）"
+          "desc": "🌳 盧森堡公園 Jardin du Luxembourg · 秋季落葉 · 划小船"
         },
         {
-          "time": "11:30",
-          "desc": "🛍️ 機場免稅店購物 · 購買峇里島咖啡、精油、手工藝品"
+          "time": "12:00",
+          "desc": "🍽️ 公園旁 Café de la Mairie 午餐 · 三明治沙拉 · €20/人"
         },
         {
-          "time": "13:00",
-          "desc": "✈️ 抵達伍拉·賴國際機場 · 辦理登機 · 通關"
+          "time": "14:00",
+          "desc": "🚕 搭乘計程車至拉瑞瑟夫酒店 · 車程 15 分鐘 · €20"
         },
         {
-          "time": "15:30",
-          "desc": "🛫 中華航空 CI772 · 15:30 起飛 → 21:00 抵達桃園"
+          "time": "14:30",
+          "desc": "🏨 入住 La Réserve Paris · 豪華套房 · 享受迎賓香檳"
+        },
+        {
+          "time": "16:00",
+          "desc": "🛍️ 香榭麗舍大道逛街 · LV 旗艦店 · 蒙田大道精品店"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 酒店內餐廳 La Réserve 晚餐 · 米其林一星 · €120/人 · NT$8,400"
         },
         {
           "time": "21:00",
-          "desc": "🛬 抵達台灣 · 行程結束 · 滿載美好回憶"
+          "desc": "🌙 酒店頂樓露台欣賞巴黎夜景 · 艾菲爾鐵塔燈光秀"
         }
       ],
-      "day_photo": "https://b772872.smushcdn.com/772872/wp-content/uploads/2024/06/bali-airport-terminal.jpeg?lossy=1&strip=1&webp=1"
+      "day_photo": "https://media01.stockfood.com/largepreviews/NDM3MTU4MTU2/14101876-France-Paris-Luxembourg-Garden-in-Autumn.jpg"
+    },
+    {
+      "day": 7,
+      "date": "10月7日 · 週三",
+      "label_zh": "艾菲爾鐵塔 · 塞納河遊船",
+      "day_query": "Eiffel Tower sunset view",
+      "hotel_name": "La Réserve Paris Hotel & Spa",
+      "hotel_name_zh": "拉瑞瑟夫酒店 · 豪華套房",
+      "hotel_room": "豪華套房",
+      "weather": "☀️ 20°/12°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🥐 酒店自助早餐 · 含現做可麗餅"
+        },
+        {
+          "time": "09:30",
+          "desc": "🗼 艾菲爾鐵塔 Tour Eiffel · 預約登頂門票 €28/人 · 俯瞰巴黎"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 鐵塔內米其林一星餐廳 Le Jules Verne 午餐 · €100/人 · NT$7,000"
+        },
+        {
+          "time": "14:30",
+          "desc": "🚢 塞納河遊船 Bateaux Parisiens · 1小時 · 含語音導覽 · €15/人"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏛️ 巴黎聖母院 Cathédrale Notre-Dame · 外觀重建中 · 周邊散步"
+        },
+        {
+          "time": "17:30",
+          "desc": "🍰 Angelina Paris 再次享用 · 外帶蒙布朗回酒店"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：L'Ambroisie 米其林三星 · 第二次體驗 · NT$14,000"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店 · 享受管家服務 · 泡澡放鬆"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 8,
+      "date": "10月8日 · 週四",
+      "label_zh": "吉維尼 · 莫內花園",
+      "day_query": "Monet Garden Giverny autumn",
+      "hotel_name": "La Réserve Paris Hotel & Spa",
+      "hotel_name_zh": "拉瑞瑟夫酒店 · 豪華套房",
+      "hotel_room": "豪華套房",
+      "weather": "☀️ 19°/11°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "07:00",
+          "desc": "🥐 酒店早餐 · 提早出發"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚄 從聖拉薩爾車站搭火車至 Vernon（約 45 分鐘 · 來回 €30/人）"
+        },
+        {
+          "time": "09:15",
+          "desc": "🚌 轉乘接駁車至吉維尼（約 15 分鐘 · €5/人）"
+        },
+        {
+          "time": "10:00",
+          "desc": "🌸 莫內花園 & 故居 Fondation Monet · 秋季睡蓮池 · 門票 €11/人"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 吉維尼小鎮午餐 · 花園餐廳 Les Nymphéas · €25/人"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚶 小鎮散步 · 參觀印象派博物館"
+        },
+        {
+          "time": "16:00",
+          "desc": "🚄 返回巴黎 · 酒店休息"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：Septime 再次造訪 · 品嚐不同菜單 · NT$3,800"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 酒店 SPA 情侶按摩（€150/人 · NT$5,250）"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 9,
+      "date": "10月9日 · 週五",
+      "label_zh": "楓丹白露 · 秋日森林",
+      "day_query": "Château de Fontainebleau forest",
+      "hotel_name": "La Réserve Paris Hotel & Spa",
+      "hotel_name_zh": "拉瑞瑟夫酒店 · 豪華套房",
+      "hotel_room": "豪華套房",
+      "weather": "⛅ 17°/9°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🥐 酒店早餐"
+        },
+        {
+          "time": "09:00",
+          "desc": "🚄 從里昂車站搭火車至 Fontainebleau Avon（約 40 分鐘 · 來回 €20/人）"
+        },
+        {
+          "time": "10:00",
+          "desc": "🏰 楓丹白露宮 Château de Fontainebleau · 門票 €14/人 · 拿破崙退位處"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 宮殿旁餐廳午餐 · €30/人"
+        },
+        {
+          "time": "14:00",
+          "desc": "🌲 楓丹白露森林散步 · 秋季彩林 · 適合情侶健行"
+        },
+        {
+          "time": "16:30",
+          "desc": "🚄 返回巴黎"
+        },
+        {
+          "time": "18:00",
+          "desc": "🛍️ 老佛爺百貨 Galeries Lafayette · 頂樓露台免費觀景"
+        },
+        {
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：Le Comptoir du Relais 再次造訪 · NT$2,800"
+        },
+        {
+          "time": "22:00",
+          "desc": "🌙 返回酒店 · 整理行李"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 10,
+      "date": "10月10日 · 週六",
+      "label_zh": "最後一日 · 自由探索",
+      "day_query": "Montmartre vineyard Paris",
+      "hotel_name": "La Réserve Paris Hotel & Spa",
+      "hotel_name_zh": "拉瑞瑟夫酒店 · 豪華套房",
+      "hotel_room": "豪華套房",
+      "weather": "☀️ 18°/10°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🥐 酒店最後早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚶 蒙馬特葡萄園 Clos Montmartre · 巴黎唯一葡萄園"
+        },
+        {
+          "time": "10:30",
+          "desc": "🛍️ 蒙馬特紀念品店 · 挑選伴手禮"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍽️ 午餐：Café de Flore 告別餐 · 法式洋蔥湯 · NT$1,200"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚕 返回酒店取行李"
+        },
+        {
+          "time": "15:00",
+          "desc": "✈️ 前往機場 · 車程 45 分鐘 · €55"
+        },
+        {
+          "time": "16:30",
+          "desc": "🛂 CDG 機場辦理退稅 · 免稅店購物"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 機場貴賓室休息（持信用卡免費）"
+        },
+        {
+          "time": "23:20",
+          "desc": "✈️ BR 88 返回台灣 · 11日06:30 抵達"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 11,
+      "date": "10月11日 · 週日",
+      "label_zh": "返抵台灣",
+      "day_query": "Taiwan Taoyuan Airport",
+      "hotel_name": "N/A",
+      "hotel_name_zh": "無住宿",
+      "hotel_room": "無",
+      "weather": "☀️ 28°",
+      "rain_pct": "0%",
+      "slots": [
+        {
+          "time": "06:30",
+          "desc": "✈️ 抵達桃園機場 TPE · 通關領行李"
+        },
+        {
+          "time": "08:00",
+          "desc": "🚕 返回溫暖的家 · 旅程結束"
+        }
+      ],
+      "day_photo": "https://ckshotel.com.tw/wp-content/uploads/2023/12/Taiwan-Taoyuan-International-Airport-Terminal-Ring-Road-Corridor-2048x1365.jpg"
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（4人）",
-      "amount_ntd": 120000
+      "label": "✈️ 來回機票",
+      "amount_ntd": 76000
     },
     {
       "label": "🏨 住宿（總計）",
-      "amount_ntd": 167000
+      "amount_ntd": 185000
     },
     {
       "label": "🍽️ 餐飲",
-      "amount_ntd": 60000
+      "amount_ntd": 85000
     },
     {
       "label": "🎫 景點門票",
-      "amount_ntd": 15000
-    },
-    {
-      "label": "🚗 交通（包車+接駁）",
       "amount_ntd": 25000
     },
     {
-      "label": "💆 SPA",
-      "amount_ntd": 30000
+      "label": "🚇 交通",
+      "amount_ntd": 20000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 20000
+      "amount_ntd": 40000
+    },
+    {
+      "label": "💆 SPA & 其他",
+      "amount_ntd": 30000
     }
   ],
-  "cost_total_ntd": 437000,
-  "budget_remaining_ntd": -37000,
-  "chat_input": "2027年1月30日前往峇里島6天，四個人需要兩個房間，前兩晚住在喜來登，後三晚住在屋布的虹夕諾雅。預算400,000台幣。每天睡到九點起床，不要太熱的行程，必去的地方有海神廟跟梯田。吃好睡好吃美食走豪華行程。",
+  "cost_total_ntd": 461000,
+  "budget_remaining_ntd": 39000,
+  "chat_input": "去法國兩個人，秋天去，去十天，預算500,000",
   "photos": {
     "hero": [
       {
-        "url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/1-bali-indonesia-skyline-towseef-dar.jpg",
-        "label": "Bali Indonesia Skyline Mixed Media by NextWay Art - Fine Art America"
+        "url": "",
+        "label": "Paris skyline landmark"
       },
       {
-        "url": "https://i.etsystatic.com/10670210/r/il/433e76/997780408/il_1588xN.997780408_geuw.jpg",
-        "label": "Bali Skyline Poster - Fine Art Print Landmarks Skyline Poster Gift ..."
+        "url": "",
+        "label": "Paris skyline landmark"
       }
     ],
     "destination": [
       {
-        "url": "",
-        "label": "Bali travel scenery"
+        "url": "https://getsready.com/wp-content/uploads/2016/10/best-scenery-at-paris.jpg",
+        "label": "Paris The City of Love - Gets Ready"
       },
       {
-        "url": "",
-        "label": "Bali travel scenery"
+        "url": "http://wallup.net/wp-content/uploads/2014/10/nature/Paris_Landscape.jpg",
+        "label": "Paris Landscape Wallpapers HD / Desktop and Mobile Backgrounds"
       },
       {
-        "url": "",
-        "label": "Bali travel scenery"
+        "url": "https://png.pngtree.com/thumb_back/fh260/background/20230414/pngtree-scenery-aerial-view-from-the-eiffel-tower-height-over-the-paris-photo-image_2424748.jpg",
+        "label": "Paris Scenery Background Images, HD Pictures and Wallpaper For Free ..."
       },
       {
-        "url": "",
-        "label": "Bali travel scenery"
+        "url": "https://hips.hearstapps.com/hmg-prod/images/high-angle-view-of-paris-skyline-at-sunset-royalty-free-image-1575587641.jpg",
+        "label": "VERANDA's Love Letter to Paris - Design Guide to Paris"
       },
       {
-        "url": "",
-        "label": "Bali travel scenery"
+        "url": "https://wheretianatravels.com/wp-content/uploads/2022/04/Screen-Shot-2022-04-08-at-5.10.02-PM.jpg",
+        "label": "Scenic Paris Tours: 7 Best Guided Tours of The City of Lights | Where ..."
       },
       {
-        "url": "",
-        "label": "Bali travel scenery"
+        "url": "https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_1024,h_683/https://www.therepublicofrose.com/wp-content/uploads/2023/10/DSC01792-1024x683.jpg",
+        "label": "Perfect Paris Travel Itinerary in 3 to 5 Days - The Republic of Rose"
       }
     ]
   },
-  "chat_hash": "ea9ab0538e71066207a896c3c5f2b54d2097bbb992e8f0725aa937d0b6e020b6",
+  "chat_hash": "d2e7e96e208fbbf73d2bfd08d953f07212f927c729e393e895d2abf1ab0fc314",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-14T03:52:32.778252"
+  "generated_at": "2026-06-14T04:57:31.443062"
 }
