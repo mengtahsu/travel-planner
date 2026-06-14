@@ -1,113 +1,113 @@
 {
-  "destination_en": "Paris, France",
-  "title_zh": "巴黎之戀 · 十一天秋日浪漫之旅",
-  "date_range": "2026/10/01–10/11",
-  "start_date": "2026-10-01",
-  "end_date": "2026-10-11",
+  "destination_en": "Osaka, Japan",
+  "title_zh": "六月大阪 · 浪漫五天之旅",
+  "date_range": "2026/06/18–06/22",
+  "start_date": "2026-06-18",
+  "end_date": "2026-06-22",
   "departure": "Taiwan (TPE)",
   "departure_code": "TPE",
-  "destination_code": "CDG",
+  "destination_code": "KIX",
   "travelers": 2,
-  "days": 11,
-  "budget_ntd": 500000,
+  "days": 5,
+  "budget_ntd": 400000,
   "flight": {
-    "airline": "長榮航空 EVA Air",
-    "departure_date": "10月1日",
-    "return_date": "10月11日",
-    "total_price_ntd": 76000,
+    "airline": "捷星航空 / 樂桃航空",
+    "departure_date": "6月18日",
+    "return_date": "6月22日",
+    "total_price_ntd": 12000,
     "outbound": {
-      "flight_no": "BR 87",
-      "route": "TPE → CDG 直飛",
-      "depart_time": "23:40",
-      "arrive_time": "07:30 (+1)",
-      "duration": "13h 50m",
+      "flight_no": "GK 50",
+      "route": "TPE → KIX 直飛",
+      "depart_time": "18:20",
+      "arrive_time": "22:00",
+      "duration": "2h 40m",
       "class": "經濟艙"
     },
     "inbound": {
-      "flight_no": "BR 88",
-      "route": "CDG → TPE 直飛",
-      "depart_time": "11:20",
-      "arrive_time": "06:30 (+1)",
-      "duration": "13h 10m",
+      "flight_no": "MM 23",
+      "route": "KIX → TPE 直飛",
+      "depart_time": "07:50",
+      "arrive_time": "09:50",
+      "duration": "2h 00m",
       "class": "經濟艙"
     }
   },
   "hotels": [
     {
-      "name": "Hôtel Le Narcisse Blanc & Spa",
-      "name_zh": "水仙花白酒店",
-      "district": "巴黎 6 區",
-      "day_range": "1–5",
-      "nights": 5,
-      "price_ntd": 65000,
+      "name": "GRIDS PREMIUM HOTEL Osaka Namba",
+      "name_zh": "格利茲高級飯店 大阪難波",
+      "district": "難波 / 心齋橋",
+      "day_range": "1 & 4",
+      "nights": 2,
+      "price_ntd": 12000,
       "stars": "★★★★☆",
-      "room_type": "經典豪華雙人房",
-      "breakfast": "含法式早餐",
-      "amenities": "🏊 室內泳池 · 💆 SPA & 土耳其浴 · 🍽️ 庭院餐廳 · 🌿 私密花園",
-      "search_query": "Hôtel Le Narcisse Blanc Paris France",
+      "room_type": "標準雙人房",
+      "breakfast": "不含早餐",
+      "amenities": "🏋️ 健身房 · 🧳 行李寄存 · 📶 免費WiFi · 🚿 24小時櫃檯",
+      "search_query": "GRIDS PREMIUM HOTEL Osaka Namba Japan",
       "photos": [
         {
-          "url": "http://3.bp.blogspot.com/-1byge6qgzN8/UoopoSL0oqI/AAAAAAAAe24/ZaT8D8DHHJw/s1600/Paris-Luxury-Hotel-Sofitel-passion4luxury-10.jpg",
-          "label": "Passion For Luxury : Sofitel Paris Arc de Triomphe hotel"
+          "url": "https://gridshotel.com/osaka-namba/img/top/visual_img_01.jpg",
+          "label": "HOME - 【公式】グリッズプレミアムホテル大阪なんば / GRIDS PREMIUM HOTEL OSAKA NAMBA"
         },
         {
-          "url": "https://phgcdn.com/images/uploads/PARLT/corporatemasthead/PARLT_Exterior_overview.jpg",
-          "label": "La Trémoille | Five Star Paris Hotel | Luxury Hotels in Paris"
+          "url": "https://ak-d.tripcdn.com/images/0201t120008sh24h8FBBE_R_960_660_R5_D.jpg",
+          "label": "Grids Premium Hotel Osaka Namba, Osaka - 2026 Prices & Reviews | Trip.com"
         },
         {
-          "url": "https://i1.wp.com/theluxurytravelexpert.com/wp-content/uploads/2018/02/LE-BRISTOL-PARIS.jpg?ssl=1",
-          "label": "Top 10 best luxury hotels in Paris - The Luxury Travel Expert"
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/696391980.jpg?k=425b24b281f91d91307b212a95315508704a0d85ad7f0ba321bb51a4a2c91477&o=",
+          "label": "GRIDS PREMIUM HOTEL OSAKA NAMBA, Osaka (updated prices 2025)"
         },
         {
-          "url": "https://lajollamom.com/wp-content/uploads/2017/08/shangri-la-paris-luxury-hotel.jpg",
-          "label": "Small Luxury Hotels Paris | IUCN Water"
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/294205548.jpg?k=9e1d035cba1ac49b40321b47af0d6e956ae285d578ca88a3eb4b626d31911bf3&o=&hp=1",
+          "label": "GRIDS PREMIUM HOTEL OSAKA NAMBA, Osaka (updated prices 2024)"
         },
         {
-          "url": "https://www.thehotelfocus.com/assets/uploads/bvlgari-paris-new-luxury-hotel-penthouse-1024x576.jpeg.webp",
-          "label": "Unveiling 2025’s 13 Hottest New Luxury Hotels in Paris | The Hotel Focus"
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/460265873.jpg?k=e2d3ba06e60ff9e865029a03e92dd992f39da6fb9502c5e04c6d9dbd3987d75e&o=",
+          "label": "GRIDS PREMIUM HOTEL OSAKA NAMBA, Osaka (updated prices 2025)"
         },
         {
-          "url": "https://digital.ihg.com/is/image/ihg/intercontinental-paris-6974192225-2x1",
-          "label": "5 Star Luxury Hotels In Paris | InterContinental Hotel - Le Grand Hotel"
+          "url": "https://i.travelapi.com/lodging/54000000/53580000/53576400/53576329/a0d1b26d_z.jpg",
+          "label": "GRIDS PREMIUM HOTEL OSAKA NAMBA in Osaka | 2025 Updated prices, deals - Klook United States"
         }
       ]
     },
     {
-      "name": "La Réserve Paris Hotel & Spa",
-      "name_zh": "拉瑞瑟夫酒店",
-      "district": "巴黎 16 區",
-      "day_range": "6–10",
-      "nights": 5,
-      "price_ntd": 120000,
+      "name": "虹夕諾雅 京都",
+      "name_zh": "虹夕諾雅 京都",
+      "district": "嵐山",
+      "day_range": "2–3",
+      "nights": 2,
+      "price_ntd": 80000,
       "stars": "★★★★★",
-      "room_type": "豪華套房",
-      "breakfast": "含自助早餐",
-      "amenities": "🏋️ 健身房 · 🧖 頂級SPA · 🍷 私人酒窖 · 🎭 管家服務",
-      "search_query": "La Réserve Paris Hotel Spa",
+      "room_type": "雙人房 (榻榻米)",
+      "breakfast": "含日式早餐",
+      "amenities": "♨️ 天然溫泉 · 🍵 茶室 · 🚤 專屬接駁船 · 🌿 日式庭園",
+      "search_query": "Hoshinoya Kyoto Japan",
       "photos": [
         {
-          "url": "https://www.courtneyprice.com/wp-content/uploads/2019/08/La-Reserve-Paris-Welcome.jpg",
-          "label": "La Réserve Paris Hotel and Spa | Courtney Price"
+          "url": "https://www.thewanderinglens.com/wp-content/uploads/2020/01/Hoshinoya-Kyoto-Japan-4.jpg",
+          "label": "Hoshinoya Kyoto, A Hidden Gem in Japan"
         },
         {
-          "url": "https://www.myboutiquehotel.com/photos/113694/la-reserve-paris-hotel-spa-paris-121-1702654730-2220x1400.jpg",
-          "label": "La Réserve Paris Hotel & Spa, a Design Boutique Hotel Paris, France"
+          "url": "https://robbreport.com.my/wp-content/uploads/2023/06/FEAT_Travel-Hoshinoya-Kyoto-Ritz-Carlton-Reserve-LEAD.jpg",
+          "label": "Hoshinoya Kyoto Is The Perfect Luxury Riverside Ryokan Retreat In Arashiyama | Robb Report Malaysia"
         },
         {
-          "url": "https://cdn1.i-scmp.com/sites/default/files/images/methode/2019/03/05/1c96d218-3e2f-11e9-b20a-0cdc8de4a6f4_1320x770_231716.jpg",
-          "label": "Why is ‘Europe’s best hotel’, La Réserve Paris – built for a relative ..."
+          "url": "https://www.thewanderinglens.com/wp-content/uploads/2020/01/Hoshinoya-Kyoto-Japan-7.jpg",
+          "label": "Hoshinoya Kyoto, A Hidden Gem in Japan"
         },
         {
-          "url": "https://www.lareserve-paris.com/wp-content/uploads/2020/11/g8h0635-768x576.jpg",
-          "label": "La Réserve Paris | 5 Star Luxury Hotel & Spa in Paris"
+          "url": "https://intojapan.co.uk/wp-content/uploads/2017/01/hoshinoya2.jpg",
+          "label": "Hoshinoya Kyoto - Into Japan"
         },
         {
-          "url": "https://www.myboutiquehotel.com/photos/113694/la-reserve-paris-hotel-spa-paris-114-1702654729-2220x1400.jpg",
-          "label": "La Réserve Paris Hotel & Spa, a Design Boutique Hotel Paris, France"
+          "url": "https://www.firstclassmagazine.co/wp-content/uploads/2021/07/HOSHINOYA-Kyoto-Garden.jpg",
+          "label": "The Hoshinoya Kyoto, Japan, brings the Edo period of nobility alive in exquisite luxury"
         },
         {
-          "url": "https://www.lareserve-paris.com/wp-content/uploads/2020/11/junior_u9a5866.jpg",
-          "label": "Photo Gallery | La Réserve Hotel & Spa Paris"
+          "url": "https://mai-ko.com/wp-content/uploads/2021/01/Hoshinoya_Kyoto-1024x709.jpg",
+          "label": "9 Best Luxury Ryokans in Japan - Tea Ceremony Japan Experiences MAIKOYA"
         }
       ]
     }
@@ -115,156 +115,81 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Le Cinq",
-        "name_zh": "四季酒店米其林三星",
+        "name": "Kikunoi",
+        "name_zh": "菊乃井 · 米其林三星懷石",
         "stars": "⭐⭐⭐",
-        "dish": "🦞 招牌：龍蝦濃湯佐黑松露",
-        "address": "31 Av. George V, 8區",
-        "price_ntd": 10000,
-        "price_label": "晚餐套餐 €145/人 · NT$10,000",
-        "hours": "19:00–22:00 · 需預約",
-        "search_query": "Le Cinq restaurant Four Seasons Paris food",
+        "dish": "🍣 招牌：季節懷石料理 ・ 鮑魚蒸飯",
+        "address": "459 Shimokawara-cho, 東山區",
+        "price_ntd": 8800,
+        "price_label": "午餐懷石 ¥20,000/人 · NT$8,800",
+        "hours": "12:00–14:00 (需預約)",
+        "search_query": "Kikunoi Kyoto Michelin three star",
         "photos": [
           {
-            "url": "https://cuisinevoila.com/wp-content/uploads/2024/11/paris-fine-dining.webp",
-            "label": "Paris Fine Dining: A Culinary Journey to Remember"
+            "url": "https://www.silverspoonlondon.co.uk/wp-content/uploads/2016/06/DSC_5337-1000x668.jpg",
+            "label": "Three Michelin-Starred Kaiseki cuisine at Kikunoi, Kyoto - SilverSpoon London"
           },
           {
-            "url": "https://wheretianatravels.com/wp-content/uploads/2024/09/fine-dining-on-a-budget-in-paris.jpg",
-            "label": "How to Experience Fine Dining in Paris on a Budget"
+            "url": "http://www.silverspoonlondon.co.uk/wp-content/uploads/2016/06/DSC_5332.jpg",
+            "label": "Three Michelin-Starred Kaiseki cuisine at Kikunoi, Kyoto - SilverSpoon London"
           },
           {
-            "url": "https://assets-global.website-files.com/619776e2e737e7a8e46f94af/65450f878a3f9e958725b9f4_world-of-mouth-fine-dining-paris.jpg",
-            "label": "The 20 Best Fine Dining Restaurants in Paris - World of Mouth"
-          }
-        ]
-      },
-      {
-        "name": "L'Ambroisie",
-        "name_zh": "安布羅西餐廳 · 米其林三星",
-        "stars": "⭐⭐⭐",
-        "dish": "🐟 招牌：海鱸魚佐魚子醬",
-        "address": "9 Pl. des Vosges, 4區",
-        "price_ntd": 14000,
-        "price_label": "晚餐套餐 €200/人 · NT$14,000",
-        "hours": "12:00–13:30 / 20:00–21:30 · 需提前一個月預約",
-        "search_query": "L'Ambroisie Paris Place des Vosges",
-        "photos": [
-          {
-            "url": "",
-            "label": "fine dining food Paris"
-          },
-          {
-            "url": "",
-            "label": "fine dining food Paris"
-          },
-          {
-            "url": "",
-            "label": "fine dining food Paris"
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/1c4033fe1c994ad4a6cea21dc807fa86.jpeg?width=1000",
+            "label": "Kikunoi Roan - Kyoto - a MICHELIN Guide Restaurant"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Septime",
-        "name_zh": "新派法式小酒館 · 米其林一星",
+        "name": "Kushikatsu Daruma",
+        "name_zh": "串炸達摩 · 新世界總本店",
         "stars": "⭐",
-        "dish": "🥩 招牌：熟成肋眼牛排 · 煙燻甜菜根",
-        "address": "80 Rue de Charonne, 11區",
-        "price_ntd": 3800,
-        "price_label": "午餐套餐 €55/人 · NT$3,800",
-        "hours": "12:15–14:00 / 19:30–22:00",
-        "search_query": "Septime restaurant Paris food",
+        "dish": "🍢 招牌：串炸拼盤 ・ 牛筋燉煮",
+        "address": "2-3-9 Ebisuhigashi, 浪速區",
+        "price_ntd": 1800,
+        "price_label": "兩人套餐 ¥4,000 · NT$1,800",
+        "hours": "11:00–22:30",
+        "search_query": "Kushikatsu Daruma Osaka",
         "photos": [
           {
-            "url": "",
-            "label": "bistros food Paris"
+            "url": "https://photos.smugmug.com/Osaka/Tennoji/i-gDVczDh/0/6b896987/L/Tennoji-Abeno_PTE_KushikatsuDaruma2-L.jpg",
+            "label": "Kushikatsu Daruma - Inside Osaka"
           },
           {
-            "url": "",
-            "label": "bistros food Paris"
+            "url": "https://www.howgoodisitactually.com/wp-content/uploads/2023/01/Daruma-Kushikatsu-Osaka-7-Exterior-1.jpg",
+            "label": "Kushikatsu Daruma - How Good Is It Actually? - How Good is it Actually"
           },
           {
-            "url": "",
-            "label": "bistros food Paris"
-          }
-        ]
-      },
-      {
-        "name": "Le Comptoir du Relais",
-        "name_zh": "聖日耳曼德佩小酒館",
-        "stars": "",
-        "dish": "🍗 招牌：油封鴨腿 · 烤布蕾",
-        "address": "9 Carrefour de l'Odéon, 6區",
-        "price_ntd": 2800,
-        "price_label": "晚餐套餐 €80/人 · NT$2,800",
-        "hours": "12:00–14:30 / 19:00–22:30",
-        "search_query": "Le Comptoir du Relais Paris",
-        "photos": [
-          {
-            "url": "https://i0.wp.com/www.parisfoodaffair.com/wp-content/uploads/2018/10/Bistrot-Paul-Bert-steak-au-poivre-and-sole-meuniere.jpg",
-            "label": "The Ultimate Guide to Classic French Restaurants & Bistros in Paris (2024)"
-          },
-          {
-            "url": "https://cdn.fodors.com/wp-content/uploads/2018/02/Paris-Bistros-Hero.jpg",
-            "label": "French Bistro Menu Paris at Jamie Gibb blog"
-          },
-          {
-            "url": "https://www.diningandcooking.com/wp-content/uploads/2025/10/0620Fontaine20de20Mars.jpg",
-            "label": "6 of the Best Bistros in Paris - Dining and Cooking"
+            "url": "https://images.squarespace-cdn.com/content/v1/5fa1522044bdda192713063c/de10ccd4-cb96-4286-a566-f507b8cfb33a/Kushikatsu+Daruma+Main+branch",
+            "label": "Kushikatsu Daruma | Most Famous Kushikatsu Restaurant in Osaka — King Tolentino"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Café de Flore",
-        "name_zh": "花神咖啡館 · 1887年開業",
+        "name": "Starbucks Reserve Roastery Osaka",
+        "name_zh": "星巴克臻選烘焙工坊 大阪",
         "stars": "",
-        "dish": "☕ 招牌：熱巧克力 · 可頌 · 焦糖布丁",
-        "address": "172 Bd Saint-Germain, 6區",
-        "price_ntd": 1200,
-        "price_label": "兩人早午餐 €35 · NT$1,200",
-        "hours": "07:30–01:30 · 文人雅士最愛",
-        "search_query": "Cafe de Flore Paris interior",
+        "dish": "☕ 招牌：虹吸咖啡 ・ 提拉米蘇",
+        "address": "2-3-18 Nishi-Shinsaibashi, 中央區",
+        "price_ntd": 900,
+        "price_label": "兩人咖啡甜點 ¥2,000 · NT$900",
+        "hours": "07:00–22:30",
+        "search_query": "Starbucks Reserve Roastery Osaka interior",
         "photos": [
           {
-            "url": "https://i0.wp.com/www.theluxurylowdown.com/wp-content/uploads/2021/10/The_Luxury_Lowdown_Cafe_de_Flore_12.jpg?resize=1024,683&ssl=1",
-            "label": "Paris Café Series: Café de Flore Review (#3) - The Luxury Lowdown"
+            "url": "https://assets-global.website-files.com/6580c76ebe70d1634558a7c2/65cc540bd22fd1444105d287_132-48906.webp",
+            "label": "Visit | Starbucks Reserve®"
           },
           {
-            "url": "https://i0.wp.com/www.theluxurylowdown.com/wp-content/uploads/2021/10/The_Luxury_Lowdown_Cafe_de_Flore_13.jpg?resize=1024,683&ssl=1",
-            "label": "Paris Café Series: Café de Flore Review (#3) - The Luxury Lowdown"
+            "url": "https://mustsharenews.com/wp-content/uploads/2019/02/starbucks-roastery-tokyo-inside.jpg",
+            "label": "New Japan Starbucks Is World's Largest With A 4-Storey Coffee Cask"
           },
           {
-            "url": "https://thecoffeeguru.net/storage/2023/07/inside_the_cafe__an_atmosphere_of_timeless_elegance.webp",
-            "label": "Café de Flore Paris: A Timeless Emblem of French Café Culture"
-          }
-        ]
-      },
-      {
-        "name": "Angelina Paris",
-        "name_zh": "安吉麗娜 · 百年甜點沙龍",
-        "stars": "",
-        "dish": "🍫 招牌：蒙布朗栗子蛋糕 · 非洲熱巧克力",
-        "address": "226 Rue de Rivoli, 1區",
-        "price_ntd": 1400,
-        "price_label": "兩人下午茶 €40 · NT$1,400",
-        "hours": "08:00–19:00 · 可外帶",
-        "search_query": "Angelina Paris Mont Blanc",
-        "photos": [
-          {
-            "url": "https://i0.wp.com/www.letribunal.com/wp-content/uploads/2017/05/mont-blanc-angelina-1-tdg.jpg?fit=1080,1067",
-            "label": "Le Mont-Blanc par Angelina - LE TRIBUNAL DES GÂTEAUX"
-          },
-          {
-            "url": "https://solli-kanani.com/wp-content/uploads/2013/04/mont-blanc-angelina-paris-4.jpg",
-            "label": "Mont Blanc at Angelina in Paris - Blog About Paris, Food & Travel"
-          },
-          {
-            "url": "http://solli-kanani.com/wp-content/uploads/2013/04/mont-blanc-angelina-paris.jpg",
-            "label": "Mont Blanc at Angelina in Paris - Blog About Paris , Fashion, Food & Travel"
+            "url": "https://content-prod-live.cert.starbucks.com/binary/v2/asset/132-45783.jpg",
+            "label": "Visit | Starbucks Reserve"
           }
         ]
       }
@@ -273,587 +198,355 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "10月1日 · 週四",
-      "label_zh": "抵達 · 巴黎初印象",
-      "day_query": "Eiffel Tower Paris landmark",
-      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
-      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
-      "hotel_room": "經典豪華雙人房",
-      "weather": "⛅ 18°/10°",
+      "date": "June 18 · Thu",
+      "label_zh": "抵達大阪 · 夜遊道頓堀",
+      "day_query": "Dotonbori Osaka night",
+      "hotel_name": "GRIDS PREMIUM HOTEL Osaka Namba",
+      "hotel_name_zh": "格利茲高級飯店 大阪難波 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "☀️ 28°/22°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "✈️ 抵達 CDG 戴高樂機場 Terminal 1 · 入境通關取行李（預計 30–45 分鐘）"
-        },
-        {
           "time": "09:00",
-          "desc": "🚕 搭乘計程車前往酒店（約 45 分鐘 · €55）· 沿途欣賞巴黎市郊風光"
-        },
-        {
-          "time": "10:00",
-          "desc": "🏨 抵達 Hôtel Le Narcisse Blanc · 辦理入住 · 稍作休息"
-        },
-        {
-          "time": "11:30",
-          "desc": "🥐 Café de Flore 早午餐 · 花神經典歐蕾 + 可頌 + 法式洋蔥湯 · NT$1,200"
+          "desc": "🌅 睡到自然醒 · 起床梳洗準備出發"
         },
         {
           "time": "14:00",
-          "desc": "🎨 羅浮宮 Musée du Louvre（預約票 €17/人）· 必看：蒙娜麗莎、勝利女神"
+          "desc": "🏠 從台灣家中出發 · 前往桃園機場第二航廈"
         },
         {
-          "time": "17:30",
-          "desc": "🚶 杜樂麗花園散步 · 協和廣場 · 欣賞夕陽下的方尖碑"
+          "time": "16:00",
+          "desc": "✈️ 抵達桃園機場 · 辦理登機手續 · 捷星航空櫃檯"
         },
         {
-          "time": "19:30",
-          "desc": "🍽️ Le Cinq 米其林三星晚餐 · 預約 19:30 · 品嚐主廚招牌龍蝦濃湯 · NT$10,000"
+          "time": "18:20",
+          "desc": "✈️ 捷星航空 GK50 準時起飛 · 飛往大阪關西機場"
         },
         {
           "time": "22:00",
-          "desc": "🌙 返回酒店 · 途經亞歷山大三世橋欣賞夜間燈光"
+          "desc": "🛬 抵達關西機場 · 入境通關取行李 (約30分鐘)"
+        },
+        {
+          "time": "22:45",
+          "desc": "🚌 搭乘南海電鐵空港急行 · 難波站下車 (約45分鐘 · ¥1,200/人)"
+        },
+        {
+          "time": "23:30",
+          "desc": "🏨 步行至 GRIDS PREMIUM HOTEL · 辦理入住 · 放行李"
+        },
+        {
+          "time": "00:00",
+          "desc": "🍜 道頓堀散步 · 吃一蘭拉麵 (24小時) · 欣賞格力高跑跑人看板"
+        },
+        {
+          "time": "01:30",
+          "desc": "🌙 返回飯店休息 · 準備明天嵐山之旅"
         }
       ],
-      "day_photo": "https://c.pxhere.com/photos/ee/40/eiffel_tower_tower_monument_tall_building_paris-15190.jpg!d"
+      "day_photo": "https://travel2next.com/wp-content/uploads/osaka-at-night-dotonbori.jpg"
     },
     {
       "day": 2,
-      "date": "10月2日 · 週五",
-      "label_zh": "蒙馬特 · 藝術與愛情",
-      "day_query": "Sacre Coeur Montmartre Paris",
-      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
-      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
-      "hotel_room": "經典豪華雙人房",
-      "weather": "☀️ 20°/12°",
+      "date": "June 19 · Fri",
+      "label_zh": "嵐山竹林 · 虹夕諾雅入住",
+      "day_query": "Arashiyama Bamboo Grove Kyoto",
+      "hotel_name": "虹夕諾雅 京都",
+      "hotel_name_zh": "虹夕諾雅 京都 · 雙人房 (榻榻米)",
+      "hotel_room": "雙人房 (榻榻米)",
+      "weather": "☀️ 30°/24°",
       "rain_pct": "5%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🥐 酒店享用法式早餐 · 含可頌、咖啡、新鮮果汁"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚇 地鐵至 Abbesses 站 · 步行探索蒙馬特"
+          "time": "09:00",
+          "desc": "🌅 睡到自然醒 · 起床梳洗"
         },
         {
           "time": "10:00",
-          "desc": "⛪ 聖心堂 Basilique du Sacré-Cœur · 俯瞰巴黎全景 · 免費入場"
+          "desc": "🏨 退房 · 寄放行李於 GRIDS 櫃檯 (可保管至下午)"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚃 步行至難波站 · 搭乘大阪地鐵御堂筋線至新大阪站 (¥290/人)"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚄 新大阪站搭乘 JR 東海道新幹線 のぞみ 至京都站 (約15分鐘 · ¥3,000/人)"
         },
         {
           "time": "11:30",
-          "desc": "🎨 畫家廣場 Place du Tertre · 看街頭畫家創作 · 可為兩人畫一幅肖像（約 €30）"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ Le Comptoir du Relais 午餐 · 油封鴨腿 · NT$2,800"
-        },
-        {
-          "time": "15:00",
-          "desc": "💞 愛牆 Le Mur des Je t'aime · 用300種語言寫下我愛你"
-        },
-        {
-          "time": "17:00",
-          "desc": "🚶 紅磨坊 Moulin Rouge 外觀拍照 · 散步回地鐵站"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：L'Ambroisie 米其林三星 · 位於孚日廣場 · NT$14,000"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 返回酒店 · 享受酒店 SPA 土耳其浴（需預約）"
-        }
-      ],
-      "day_photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/1280px-Le_sacre_coeur.jpg"
-    },
-    {
-      "day": 3,
-      "date": "10月3日 · 週六",
-      "label_zh": "凡爾賽宮 · 皇家奢華一日",
-      "day_query": "Palace of Versailles gardens",
-      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
-      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
-      "hotel_room": "經典豪華雙人房",
-      "weather": "☀️ 22°/14°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "07:30",
-          "desc": "🥐 酒店早餐 · 提早出發避開人潮"
-        },
-        {
-          "time": "08:30",
-          "desc": "🚄 從蒙帕納斯車站搭乘 RER C 至 Versailles Château（約 45 分鐘 · 來回 €8/人）"
-        },
-        {
-          "time": "09:30",
-          "desc": "🏰 凡爾賽宮 Château de Versailles · 預約票 €21/人 · 含語音導覽"
+          "desc": "🚃 京都站轉乘 JR 嵯峨野線 至 嵯峨嵐山站 (約15分鐘 · ¥240/人)"
         },
         {
           "time": "12:00",
-          "desc": "🌳 凡爾賽花園 · 大運河畔散步 · 秋季落葉如詩"
+          "desc": "🍜 嵐山午餐 · よしむら蕎麥麵 (天婦羅蕎麥麵 ¥1,800/人)"
         },
         {
           "time": "13:30",
-          "desc": "🍽️ 花園內餐廳午餐 · 簡餐約 €30/人 · NT$2,100"
+          "desc": "🎋 嵐山竹林之道 · 天龍寺 (庭園 ¥500/人) · 野宮神社"
         },
         {
-          "time": "15:00",
-          "desc": "👑 小特里亞農宮 · 瑪麗安東尼的私人莊園"
+          "time": "15:30",
+          "desc": "🚤 前往虹夕諾雅專屬碼頭 · 搭乘接駁船前往飯店 (免費 · 約10分鐘)"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏨 抵達虹夕諾雅 京都 · 辦理入住 · 享用迎賓抹茶與和菓子"
         },
         {
           "time": "17:00",
-          "desc": "🚄 返回巴黎 · 酒店休息片刻"
-        },
-        {
-          "time": "19:30",
-          "desc": "🍽️ Septime 米其林一星小酒館晚餐 · 熟成牛排 · NT$3,800"
-        },
-        {
-          "time": "21:30",
-          "desc": "🌙 塞納河畔夜遊 · 從新橋散步至聖母院"
-        }
-      ],
-      "day_photo": "https://cdn-imgix.headout.com/mircobrands-content/image/d897431f89d3db6225fcb5a7451f7e75-Paris+in+September-+Versailles+Palace.jpg"
-    },
-    {
-      "day": 4,
-      "date": "10月4日 · 週日",
-      "label_zh": "瑪黑區 · 文藝漫步",
-      "day_query": "Place des Vosges Marais Paris",
-      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
-      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
-      "hotel_room": "經典豪華雙人房",
-      "weather": "⛅ 19°/11°",
-      "rain_pct": "20%",
-      "slots": [
-        {
-          "time": "08:30",
-          "desc": "🥐 酒店早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚶 步行至聖日耳曼德佩教堂 · 巴黎最古老教堂之一"
-        },
-        {
-          "time": "10:30",
-          "desc": "🎨 畢卡索博物館 Musée Picasso（€12/人）· 收藏豐富"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ 午餐：Angelina Paris 下午茶 · 蒙布朗栗子蛋糕 · NT$1,400"
-        },
-        {
-          "time": "14:00",
-          "desc": "🛍️ 瑪黑區逛街 · 獨立設計師小店 · 如 Merci 概念店"
-        },
-        {
-          "time": "16:00",
-          "desc": "🏛️ 孚日廣場 Place des Vosges · 雨果故居免費參觀"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍷 孚日廣場旁品酒 · 參加一小時品酒課程（€25/人）"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：Bistrot Paul Bert · 經典法式牛排薯條 · €50/人 · NT$3,500"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 返回酒店"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 5,
-      "date": "10月5日 · 週一",
-      "label_zh": "羅丹美術館 · 奧賽博物館",
-      "day_query": "Musée Rodin Paris sculpture",
-      "hotel_name": "Hôtel Le Narcisse Blanc & Spa",
-      "hotel_name_zh": "水仙花白酒店 · 經典豪華雙人房",
-      "hotel_room": "經典豪華雙人房",
-      "weather": "☁️ 17°/9°",
-      "rain_pct": "30%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🎨 奧賽博物館 Musée d'Orsay（預約票 €16/人）· 印象派畫作 · 梵谷、莫內"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ 博物館餐廳午餐 · 精緻法餐 · €35/人 · NT$2,450"
-        },
-        {
-          "time": "14:30",
-          "desc": "🗿 羅丹美術館 Musée Rodin · 沉思者、地獄之門 · 花園超美"
-        },
-        {
-          "time": "16:30",
-          "desc": "🚶 傷兵院 Les Invalides · 拿破崙陵墓 · 外觀拍照"
-        },
-        {
-          "time": "18:00",
-          "desc": "🍷 酒店休息 · 享受 SPA 一小時按摩（€120/人 · NT$4,200）"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：Le Cinq 再次造訪或選擇 Le Taillevent 米其林二星（€150/人）"
-        },
-        {
-          "time": "22:30",
-          "desc": "🌙 返回酒店"
-        }
-      ],
-      "day_photo": "https://cdn.sortiraparis.com/images/80/76970/344300-rodin-et-la-danse-au-musee-rodin.jpg"
-    },
-    {
-      "day": 6,
-      "date": "10月6日 · 週二",
-      "label_zh": "換酒店 · 盧森堡公園",
-      "day_query": "Luxembourg Garden Paris autumn",
-      "hotel_name": "La Réserve Paris Hotel & Spa",
-      "hotel_name_zh": "拉瑞瑟夫酒店 · 豪華套房",
-      "hotel_room": "豪華套房",
-      "weather": "☀️ 18°/10°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 水仙花白酒店最後早餐 · 收拾行李"
-        },
-        {
-          "time": "09:30",
-          "desc": "🏨 退房 · 寄存行李於前台"
-        },
-        {
-          "time": "10:00",
-          "desc": "🌳 盧森堡公園 Jardin du Luxembourg · 秋季落葉 · 划小船"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 公園旁 Café de la Mairie 午餐 · 三明治沙拉 · €20/人"
-        },
-        {
-          "time": "14:00",
-          "desc": "🚕 搭乘計程車至拉瑞瑟夫酒店 · 車程 15 分鐘 · €20"
-        },
-        {
-          "time": "14:30",
-          "desc": "🏨 入住 La Réserve Paris · 豪華套房 · 享受迎賓香檳"
-        },
-        {
-          "time": "16:00",
-          "desc": "🛍️ 香榭麗舍大道逛街 · LV 旗艦店 · 蒙田大道精品店"
+          "desc": "♨️ 享受飯店天然溫泉 · 眺望大堰川美景"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 酒店內餐廳 La Réserve 晚餐 · 米其林一星 · €120/人 · NT$8,400"
+          "desc": "🍽️ 飯店內懷石料理晚餐 (預約制 · 每人¥15,000 · 另計)"
         },
         {
           "time": "21:00",
-          "desc": "🌙 酒店頂樓露台欣賞巴黎夜景 · 艾菲爾鐵塔燈光秀"
+          "desc": "🌙 夜間庭院散步 · 聆聽蟲鳴 · 回房休息"
         }
       ],
-      "day_photo": "https://media01.stockfood.com/largepreviews/NDM3MTU4MTU2/14101876-France-Paris-Luxembourg-Garden-in-Autumn.jpg"
+      "day_photo": "https://www.touristinjapan.com/wp-content/uploads/2019/03/arashiyama-bamboo-forest.jpg"
     },
     {
-      "day": 7,
-      "date": "10月7日 · 週三",
-      "label_zh": "艾菲爾鐵塔 · 塞納河遊船",
-      "day_query": "Eiffel Tower sunset view",
-      "hotel_name": "La Réserve Paris Hotel & Spa",
-      "hotel_name_zh": "拉瑞瑟夫酒店 · 豪華套房",
-      "hotel_room": "豪華套房",
-      "weather": "☀️ 20°/12°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "08:30",
-          "desc": "🥐 酒店自助早餐 · 含現做可麗餅"
-        },
-        {
-          "time": "09:30",
-          "desc": "🗼 艾菲爾鐵塔 Tour Eiffel · 預約登頂門票 €28/人 · 俯瞰巴黎"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍽️ 鐵塔內米其林一星餐廳 Le Jules Verne 午餐 · €100/人 · NT$7,000"
-        },
-        {
-          "time": "14:30",
-          "desc": "🚢 塞納河遊船 Bateaux Parisiens · 1小時 · 含語音導覽 · €15/人"
-        },
-        {
-          "time": "16:00",
-          "desc": "🏛️ 巴黎聖母院 Cathédrale Notre-Dame · 外觀重建中 · 周邊散步"
-        },
-        {
-          "time": "17:30",
-          "desc": "🍰 Angelina Paris 再次享用 · 外帶蒙布朗回酒店"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：L'Ambroisie 米其林三星 · 第二次體驗 · NT$14,000"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 返回酒店 · 享受管家服務 · 泡澡放鬆"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 8,
-      "date": "10月8日 · 週四",
-      "label_zh": "吉維尼 · 莫內花園",
-      "day_query": "Monet Garden Giverny autumn",
-      "hotel_name": "La Réserve Paris Hotel & Spa",
-      "hotel_name_zh": "拉瑞瑟夫酒店 · 豪華套房",
-      "hotel_room": "豪華套房",
-      "weather": "☀️ 19°/11°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "07:00",
-          "desc": "🥐 酒店早餐 · 提早出發"
-        },
-        {
-          "time": "08:00",
-          "desc": "🚄 從聖拉薩爾車站搭火車至 Vernon（約 45 分鐘 · 來回 €30/人）"
-        },
-        {
-          "time": "09:15",
-          "desc": "🚌 轉乘接駁車至吉維尼（約 15 分鐘 · €5/人）"
-        },
-        {
-          "time": "10:00",
-          "desc": "🌸 莫內花園 & 故居 Fondation Monet · 秋季睡蓮池 · 門票 €11/人"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ 吉維尼小鎮午餐 · 花園餐廳 Les Nymphéas · €25/人"
-        },
-        {
-          "time": "14:00",
-          "desc": "🚶 小鎮散步 · 參觀印象派博物館"
-        },
-        {
-          "time": "16:00",
-          "desc": "🚄 返回巴黎 · 酒店休息"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：Septime 再次造訪 · 品嚐不同菜單 · NT$3,800"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌙 酒店 SPA 情侶按摩（€150/人 · NT$5,250）"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 9,
-      "date": "10月9日 · 週五",
-      "label_zh": "楓丹白露 · 秋日森林",
-      "day_query": "Château de Fontainebleau forest",
-      "hotel_name": "La Réserve Paris Hotel & Spa",
-      "hotel_name_zh": "拉瑞瑟夫酒店 · 豪華套房",
-      "hotel_room": "豪華套房",
-      "weather": "⛅ 17°/9°",
+      "day": 3,
+      "date": "June 20 · Sat",
+      "label_zh": "京都經典 · 清水寺與祇園",
+      "day_query": "Kiyomizudera Temple Kyoto",
+      "hotel_name": "虹夕諾雅 京都",
+      "hotel_name_zh": "虹夕諾雅 京都 · 雙人房 (榻榻米)",
+      "hotel_room": "雙人房 (榻榻米)",
+      "weather": "⛅ 29°/23°",
       "rain_pct": "20%",
       "slots": [
-        {
-          "time": "08:00",
-          "desc": "🥐 酒店早餐"
-        },
         {
           "time": "09:00",
-          "desc": "🚄 從里昂車站搭火車至 Fontainebleau Avon（約 40 分鐘 · 來回 €20/人）"
-        },
-        {
-          "time": "10:00",
-          "desc": "🏰 楓丹白露宮 Château de Fontainebleau · 門票 €14/人 · 拿破崙退位處"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍽️ 宮殿旁餐廳午餐 · €30/人"
-        },
-        {
-          "time": "14:00",
-          "desc": "🌲 楓丹白露森林散步 · 秋季彩林 · 適合情侶健行"
-        },
-        {
-          "time": "16:30",
-          "desc": "🚄 返回巴黎"
-        },
-        {
-          "time": "18:00",
-          "desc": "🛍️ 老佛爺百貨 Galeries Lafayette · 頂樓露台免費觀景"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：Le Comptoir du Relais 再次造訪 · NT$2,800"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 返回酒店 · 整理行李"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 10,
-      "date": "10月10日 · 週六",
-      "label_zh": "最後一日 · 自由探索",
-      "day_query": "Montmartre vineyard Paris",
-      "hotel_name": "La Réserve Paris Hotel & Spa",
-      "hotel_name_zh": "拉瑞瑟夫酒店 · 豪華套房",
-      "hotel_room": "豪華套房",
-      "weather": "☀️ 18°/10°",
-      "rain_pct": "5%",
-      "slots": [
-        {
-          "time": "08:30",
-          "desc": "🥐 酒店最後早餐"
-        },
-        {
-          "time": "09:30",
-          "desc": "🚶 蒙馬特葡萄園 Clos Montmartre · 巴黎唯一葡萄園"
+          "desc": "🌅 睡到自然醒 · 享用飯店精緻日式早餐 (7:00–9:30)"
         },
         {
           "time": "10:30",
-          "desc": "🛍️ 蒙馬特紀念品店 · 挑選伴手禮"
+          "desc": "🚤 搭乘接駁船返回嵐山渡月橋碼頭 · 步行至阪急嵐山站"
         },
         {
-          "time": "12:00",
-          "desc": "🍽️ 午餐：Café de Flore 告別餐 · 法式洋蔥湯 · NT$1,200"
+          "time": "11:00",
+          "desc": "🚃 搭乘阪急嵐山線至桂站 · 轉乘阪急京都線至河原町站 (¥330/人)"
         },
         {
-          "time": "14:00",
-          "desc": "🚕 返回酒店取行李"
+          "time": "11:45",
+          "desc": "⛩️ 步行至八坂神社 · 祇園花見小路散步"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 菊乃井本店 · 米其林三星懷石午餐 (預約12:30 · 約2小時)"
         },
         {
           "time": "15:00",
-          "desc": "✈️ 前往機場 · 車程 45 分鐘 · €55"
+          "desc": "🏯 步行至清水寺 (門票 ¥400/人) · 地主神社 · 音羽瀑布"
         },
         {
-          "time": "16:30",
-          "desc": "🛂 CDG 機場辦理退稅 · 免稅店購物"
+          "time": "17:00",
+          "desc": "🌸 三年坂・二年坂散步 · 購買抹茶甜點・七味家本舖"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ 機場貴賓室休息（持信用卡免費）"
+          "time": "18:30",
+          "desc": "🚃 從清水寺步行至祇園四條站 · 搭乘京阪本線至淀屋橋站 (¥430/人)"
         },
         {
-          "time": "23:20",
-          "desc": "✈️ BR 88 返回台灣 · 11日06:30 抵達"
+          "time": "19:30",
+          "desc": "🍜 大阪難波 · 串炸達摩 新世界總本店 (¥2,000/人)"
+        },
+        {
+          "time": "21:00",
+          "desc": "🚃 搭乘大阪地鐵御堂筋線至梅田站 · 轉JR至京都站 (¥580/人)"
+        },
+        {
+          "time": "22:00",
+          "desc": "🚃 京都站轉乘JR嵯峨野線至嵯峨嵐山站 (¥240/人)"
+        },
+        {
+          "time": "22:30",
+          "desc": "🚤 最後一班接駁船 (22:40) 返回虹夕諾雅 · 休息"
         }
       ],
       "day_photo": ""
     },
     {
-      "day": 11,
-      "date": "10月11日 · 週日",
-      "label_zh": "返抵台灣",
-      "day_query": "Taiwan Taoyuan Airport",
-      "hotel_name": "N/A",
-      "hotel_name_zh": "無住宿",
-      "hotel_room": "無",
-      "weather": "☀️ 28°",
+      "day": 4,
+      "date": "June 21 · Sun",
+      "label_zh": "心齋橋購物 · 大阪美食",
+      "day_query": "Shinsaibashi Osaka shopping",
+      "hotel_name": "GRIDS PREMIUM HOTEL Osaka Namba",
+      "hotel_name_zh": "格利茲高級飯店 大阪難波 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "☀️ 31°/25°",
       "rain_pct": "0%",
       "slots": [
         {
-          "time": "06:30",
-          "desc": "✈️ 抵達桃園機場 TPE · 通關領行李"
+          "time": "09:00",
+          "desc": "🌅 睡到自然醒 · 享用飯店日式早餐 (7:00–9:30)"
         },
         {
-          "time": "08:00",
-          "desc": "🚕 返回溫暖的家 · 旅程結束"
+          "time": "10:30",
+          "desc": "🏨 退房 · 搭乘接駁船至嵐山碼頭"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚃 步行至阪急嵐山站 · 搭乘阪急嵐山線至桂站 · 轉乘阪急京都線至淡路站 · 再轉乘阪急千里線至天下茶屋站 (¥1,100/人)"
+        },
+        {
+          "time": "12:00",
+          "desc": "🚃 天下茶屋站轉乘南海本線空港急行至難波站 (¥210/人)"
+        },
+        {
+          "time": "12:30",
+          "desc": "🏨 抵達 GRIDS PREMIUM HOTEL · 辦理入住 · 寄放行李"
+        },
+        {
+          "time": "13:00",
+          "desc": "🛍️ 心齋橋筋商店街購物 · 藥妝店・UNIQLO・迪士尼商店"
+        },
+        {
+          "time": "15:00",
+          "desc": "☕ 星巴克臻選烘焙工坊 · 虹吸咖啡 + 提拉米蘇"
+        },
+        {
+          "time": "16:00",
+          "desc": "🛍️ 繼續購物 · 大丸百貨・PARCO・美國村"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍣 晚餐 · 迴轉壽司 くら寿司 心齋橋店 (¥2,500/人)"
+        },
+        {
+          "time": "20:00",
+          "desc": "🌃 道頓堀遊船 (¥1,200/人) · 欣賞霓虹夜景"
+        },
+        {
+          "time": "21:30",
+          "desc": "🛍️ 最後採購 · 唐吉訶德驚安殿堂"
+        },
+        {
+          "time": "23:00",
+          "desc": "🌙 返回飯店 · 整理行李 · 準備明早回台"
         }
       ],
-      "day_photo": "https://ckshotel.com.tw/wp-content/uploads/2023/12/Taiwan-Taoyuan-International-Airport-Terminal-Ring-Road-Corridor-2048x1365.jpg"
+      "day_photo": "https://www.willflyforfood.net/uploads/food-travel4/japan/osaka/shinsaibashi-dotonbori/shinsaibashi-dotonbori6.jpg"
+    },
+    {
+      "day": 5,
+      "date": "June 22 · Mon",
+      "label_zh": "回台 · 早安台灣",
+      "day_query": "Kansai Airport KIX",
+      "hotel_name": "GRIDS PREMIUM HOTEL Osaka Namba",
+      "hotel_name_zh": "格利茲高級飯店 大阪難波 · 標準雙人房",
+      "hotel_room": "標準雙人房",
+      "weather": "☀️ 28°/22°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "05:00",
+          "desc": "🌅 起床 · 梳洗 · 最後確認行李"
+        },
+        {
+          "time": "05:30",
+          "desc": "🏨 退房 · 步行至難波站"
+        },
+        {
+          "time": "05:45",
+          "desc": "🚌 搭乘南海電鐵空港急行 首班車 (05:45發) · 前往關西機場 (約45分鐘 · ¥1,200/人)"
+        },
+        {
+          "time": "06:30",
+          "desc": "🛬 抵達關西機場第一航廈 · 辦理登機手續 · 樂桃航空櫃檯"
+        },
+        {
+          "time": "07:00",
+          "desc": "🛂 出境安檢 · 免稅店最後採購 (Royce巧克力・薯條三兄弟)"
+        },
+        {
+          "time": "07:50",
+          "desc": "✈️ 樂桃航空 MM23 準時起飛 · 返回台灣"
+        },
+        {
+          "time": "09:50",
+          "desc": "🛬 抵達桃園機場 · 入境 · 領行李"
+        },
+        {
+          "time": "11:00",
+          "desc": "🏠 返回溫暖的家 · 旅程結束 🎉"
+        }
+      ],
+      "day_photo": "https://aviationa2z.com/wp-content/uploads/2025/04/kix_common01.webp"
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票",
-      "amount_ntd": 76000
+      "label": "✈️ 來回機票 (捷星+樂桃)",
+      "amount_ntd": 12000
     },
     {
-      "label": "🏨 住宿（總計）",
-      "amount_ntd": 185000
+      "label": "🏨 住宿 (GRIDS 2晚 + 虹夕諾雅 2晚)",
+      "amount_ntd": 92000
     },
     {
-      "label": "🍽️ 餐飲",
-      "amount_ntd": 85000
+      "label": "🍽️ 餐飲 (含菊乃井懷石)",
+      "amount_ntd": 35000
     },
     {
-      "label": "🎫 景點門票",
-      "amount_ntd": 25000
+      "label": "🎫 景點門票 (天龍寺・清水寺等)",
+      "amount_ntd": 2000
     },
     {
-      "label": "🚇 交通",
-      "amount_ntd": 20000
+      "label": "🚇 交通 (新幹線・地鐵・接駁船)",
+      "amount_ntd": 15000
     },
     {
       "label": "🛍️ 購物伴手禮",
       "amount_ntd": 40000
-    },
-    {
-      "label": "💆 SPA & 其他",
-      "amount_ntd": 30000
     }
   ],
-  "cost_total_ntd": 461000,
-  "budget_remaining_ntd": 39000,
-  "chat_input": "去法國兩個人，秋天去，去十天，預算500,000",
+  "cost_total_ntd": 196000,
+  "budget_remaining_ntd": 204000,
+  "chat_input": "6月18日去大阪，兩個人，晚上6:20搭乘捷星航空出發到大阪，6月22號早上7:50搭乘樂陶航空出發回台台灣。預算400,000。6月18日跟6月21日入住GRIDS PREMIUM HOTEL，六月19 20入住南山虹夕諾亞。每天睡到九點起床幫我詳細介紹交通方式。6月21日幫我多留一些時間在心齋橋購物。",
   "photos": {
     "hero": [
       {
-        "url": "",
-        "label": "Paris skyline landmark"
+        "url": "https://as1.ftcdn.net/jpg/15/94/63/08/1000_F_1594630872_CLQtQhCiHk27iiC9wktrQRENGJSlVGxm.jpg",
+        "label": "Tsutenkaku tower Osaka landmark Cityscape panorama view Japan Travel : Osaka, Japan- Jul 1, 2025 ..."
       },
       {
-        "url": "",
-        "label": "Paris skyline landmark"
+        "url": "https://enjyu-japan.travel/wp-content/uploads/2025/05/osaka-castle-japan-scaled.webp",
+        "label": "Japan’s Golden Route: A First-Timer’s Guide to Tokyo, Kyoto, Osaka & More"
       }
     ],
     "destination": [
       {
-        "url": "https://getsready.com/wp-content/uploads/2016/10/best-scenery-at-paris.jpg",
-        "label": "Paris The City of Love - Gets Ready"
+        "url": "https://www.jal.co.jp/in/en/guide-to-japan/destinations/articles/osaka/must-see-osaka-attractions/_jcr_content/root/responsivegrid/sectioncontainer/image_295720536.coreimg.jpeg/1660800144182.jpeg",
+        "label": "Must-See Osaka Attractions: 3 Things You Must Do in Japan's Third Largest City - JAPAN AIRLINES ..."
       },
       {
-        "url": "http://wallup.net/wp-content/uploads/2014/10/nature/Paris_Landscape.jpg",
-        "label": "Paris Landscape Wallpapers HD / Desktop and Mobile Backgrounds"
+        "url": "https://xqvnmkjynbkcujcrtubi.supabase.co/storage/v1/object/public/article-images/9b7ac039-46f4-451c-940e-6f0a5820b673/article-9b7ac039-46f4-451c-940-a-high-quality-realistic-photograph-collage-featur-1-4y7vcn.jpg",
+        "label": "9 Unmissable Osaka Japan Attractions to Explore in 2026 - Jasumo"
       },
       {
-        "url": "https://png.pngtree.com/thumb_back/fh260/background/20230414/pngtree-scenery-aerial-view-from-the-eiffel-tower-height-over-the-paris-photo-image_2424748.jpg",
-        "label": "Paris Scenery Background Images, HD Pictures and Wallpaper For Free ..."
+        "url": "https://www.travelodgehotels.asia/wp-content/uploads/2023/03/Blog_Osaka-castle.jpg",
+        "label": "7 καλύτερα μέρη για να δείτε άνθη κερασιάς στην Οσάκα - Travelodge Asia Hotels"
       },
       {
-        "url": "https://hips.hearstapps.com/hmg-prod/images/high-angle-view-of-paris-skyline-at-sunset-royalty-free-image-1575587641.jpg",
-        "label": "VERANDA's Love Letter to Paris - Design Guide to Paris"
+        "url": "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/v1755071491/destination/rln18ze4qicniwhvxwu5.jpg",
+        "label": "Best Osaka Tours 2026"
       },
       {
-        "url": "https://wheretianatravels.com/wp-content/uploads/2022/04/Screen-Shot-2022-04-08-at-5.10.02-PM.jpg",
-        "label": "Scenic Paris Tours: 7 Best Guided Tours of The City of Lights | Where ..."
+        "url": "https://res-1.cloudinary.com/jnto/image/upload/w_750,h_750,c_fill,f_auto,fl_lossy,q_auto/v1/media/filer_public/e2/06/e206caf2-aaf8-4e64-9ff6-48b5e076dc92/header_osaka_castle_osaka_page-min_iz97ch",
+        "label": "Ultimate must-see guide to Osaka"
       },
       {
-        "url": "https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_1024,h_683/https://www.therepublicofrose.com/wp-content/uploads/2023/10/DSC01792-1024x683.jpg",
-        "label": "Perfect Paris Travel Itinerary in 3 to 5 Days - The Republic of Rose"
+        "url": "https://livingnomads.com/wp-content/uploads/2025/02/19/cherry-blossom-osaka_11-696x463.jpg",
+        "label": "22+ top tourist attractions & must see places in Osaka - Living + Nomads – Travel tips, Guides ..."
       }
     ]
   },
-  "chat_hash": "d2e7e96e208fbbf73d2bfd08d953f07212f927c729e393e895d2abf1ab0fc314",
+  "chat_hash": "1535e49a4b71f76b07d5b1002f55ae6b525c9420d93b959cb62123bceb3c751a",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-14T04:57:31.443062"
+  "generated_at": "2026-06-14T08:51:48.085485"
 }
