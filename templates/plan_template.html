@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https://api.github.com https://raw.githubusercontent.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https://api.github.com https://raw.githubusercontent.com; frame-ancestors 'none'; frame-src https://flipbook-clone-five.vercel.app; base-uri 'self'; form-action 'self'">
 <title>{{ plan.title_zh }} — Travel Planner</title>
 <meta property="og:title" content="{{ plan.title_zh }} — Travel Planner">
 <meta property="og:description" content="{{ plan.destination_en }} · {{ plan.date_range }} · {{ plan.travelers }}人 · NT${{ plan.budget_ntd | format_number }}">
