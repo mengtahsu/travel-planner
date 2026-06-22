@@ -41,7 +41,7 @@ jobs:
 
       - name: Run generator
         env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           FORCE_REGENERATE: ${{ github.event.inputs.force || 'false' }}
         run: python generator.py
