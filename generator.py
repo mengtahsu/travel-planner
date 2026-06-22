@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 import requests
-from openai import OpenAI
+import anthropic
 from jinja2 import Environment, FileSystemLoader
 
 # Fix console encoding to avoid cp1252 crashes with Chinese output
@@ -43,7 +43,7 @@ def _load_key(filename: str, env_name: str) -> str:
         return key_file.read_text(encoding="utf-8").strip()
     return os.environ.get(env_name, "")
 
-DEEPSEEK_API_KEY = _load_key("deep_seek_api_key.txt", "DEEPSEEK_API_KEY")
+ANTHROPIC_API_KEY = _load_key("anthropic_api_key.txt", "ANTHROPIC_API_KEY")
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -363,23 +363,20 @@ IMPORTANT:
 
 
 def call_ai(prompt: str) -> dict[str, Any]:
-    if not DEEPSEEK_API_KEY:
-        raise RuntimeError("DEEPSEEK_API_KEY not set in environment")
-    client = OpenAI(
-        api_key=DEEPSEEK_API_KEY,
-        base_url="https://api.deepseek.com/v1"
-    )
-    response = client.chat.completions.create(
-        model="deepseek-chat",
+    if not ANTHROPIC_API_KEY:
+        raise RuntimeError("ANTHROPIC_API_KEY not set in environment")
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+    response = client.messages.create(
+        model="claude-sonnet-4-6",
         max_tokens=8192,
         temperature=0.7,
         messages=[{"role": "user", "content": prompt}]
     )
-    text = response.choices[0].message.content
+    text = response.content[0].text
     start = text.find("{")
     end = text.rfind("}") + 1
     if start == -1 or end <= start:
-        raise ValueError(f"Could not find JSON in DeepSeek response: {text[:200]}...")
+        raise ValueError(f"Could not find JSON in AI response: {text[:200]}...")
     return json.loads(text[start:end])
 
 
@@ -866,7 +863,7 @@ def main() -> None:
     progress(20, "Building AI prompt...")
     prompt = build_prompt(config, chat_text, rates)
 
-    progress(25, "Calling AI (DeepSeek) — this takes ~30–60s...")
+    progress(25, "Calling AI (Claude) — this takes ~30–60s...")
     plan = call_ai(prompt)
     validate_plan(plan)
     plan["chat_input"] = chat_text  # preserve for display on plan page
