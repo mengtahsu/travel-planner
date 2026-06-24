@@ -17,6 +17,16 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == "/run":
+            # CSRF guard: /run shells out to generator.py, so a malicious page
+            # the user visits must not be able to trigger it via the browser.
+            # Legitimate local callers (curl, same-machine tools) send no Origin
+            # or a localhost one; a remote site's fetch carries its own Origin.
+            if self._is_cross_site():
+                self.send_response(403)
+                self._cors()
+                self.end_headers()
+                self.wfile.write(b'forbidden: cross-site request')
+                return
             self._run_generator()
         elif self.path == "/health":
             self.send_response(200)
@@ -28,8 +38,19 @@ class Handler(BaseHTTPRequestHandler):
             self._cors()
             self.end_headers()
 
+    def _is_cross_site(self) -> bool:
+        """True if the request carries an Origin/Referer that isn't localhost."""
+        for header in ("Origin", "Referer"):
+            value = self.headers.get(header)
+            if value and not (
+                "://localhost" in value or "://127.0.0.1" in value
+            ):
+                return True
+        return False
+
     def _cors(self):
-        self.send_header("Access-Control-Allow-Origin", "*")
+        # Restrict to localhost — this is a same-machine dev tool, not a public API.
+        self.send_header("Access-Control-Allow-Origin", "http://localhost")
         self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "*")
 
