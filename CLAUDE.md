@@ -6,16 +6,22 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 # Install dependencies
-pip install -r requirements.txt
-pip install duckduckgo_search  # DDG image search (not in requirements.txt)
+pip install -r requirements.txt   # anthropic, jinja2, requests
+pip install ddgs                  # DDG image search (imported as `from ddgs import DDGS`, not in requirements.txt)
 
-# Required secret files (create manually, one key per line, no trailing newline):
-#   github_token.txt     — GitHub fine-grained PAT (contents:read/write on repo)
-#   deep_seek_api_key.txt — DeepSeek API key
+# Secrets — provide EITHER a local file (gitignored) OR an env var. File wins if present.
+#   anthropic_api_key.txt  | ANTHROPIC_API_KEY  — Claude API key (required)
+#   github_token.txt       | GITHUB_TOKEN       — GitHub fine-grained PAT (contents:read/write on repo)
 
 # Run manually
 python generator.py
 # Output logged to logs/generator.log (UTF-8, tee'd from stdout/stderr)
+
+# Generate a placeholder index.html with mock Paris data (no API calls — for first deploy / template work)
+python generate_first.py
+
+# Local "regenerate now" server (chat.html's "Run now" button hits http://localhost:8766/run)
+python trigger_server.py
 
 # Auto-run chain (Windows Task Scheduler, every 10 min):
 #   Task Scheduler → run_generator.vbs (silent, no console)
@@ -32,7 +38,7 @@ User's PC (Windows Task Scheduler, every 10 min)
   run_generator.vbs → run_generator.bat → generator.py
   ├── Reads: config/settings.json (GitHub API first, local fallback)
   ├── Reads: data/chat/YYYY-MM-DD.txt (GitHub API first, local fallback, 7-day fallback)
-  ├── Calls: DeepSeek API + DDG Image Search (duckduckgo_search)
+  ├── Calls: Anthropic Claude API (claude-sonnet-4-6) + DDG Image Search (ddgs)
   ├── Writes: data/plans/YYYY-MM-DD.json
   ├── Writes: index.html (full plan page with inline CSS/JS)
   ├── Logs: logs/generator.log (UTF-8, tee'd)
@@ -53,6 +59,9 @@ GitHub Repo (mengtahsu/travel-planner)
   └── generator.py            ← the main engine
 ```
 
+> **NOTE:** The site is served from GitHub Pages (and mirrored on Netlify). The generator runs on the
+> user's Windows PC and pushes to GitHub via the REST API — there is no server-side build step.
+
 ## Key Files
 
 | File | Purpose |
@@ -64,7 +73,9 @@ GitHub Repo (mengtahsu/travel-planner)
 | `chat.html` | Chat editor — one textarea per day, saves to `data/chat/YYYY-MM-DD.txt` via GitHub API + localStorage fallback |
 | `settings.html` | Settings form — saves to `config/settings.json` via GitHub API |
 | `log.html` | Renders saved plans list + run history from GitHub raw URLs (IIFE, promise chains, HTML escaping) |
-| `requirements.txt` | Python deps: `openai`, `jinja2`, `requests` (note: `duckduckgo_search` also required) |
+| `requirements.txt` | Python deps: `anthropic`, `jinja2`, `requests` (note: `ddgs` also required for image search) |
+| `generate_first.py` | One-off: renders `index.html` from hardcoded mock Paris plan via `generator.render_html` — no API/network |
+| `trigger_server.py` | Local HTTP server on port 8766 — `GET /run` shells out to `generator.py` for on-demand regeneration (chat.html "Run now") |
 | `config/settings.json` | User settings (local fallback when GitHub API unavailable) |
 | `netlify.toml` | Netlify deploy config — publishes root, `Cache-Control: no-cache` on all files |
 | `run_generator.vbs` | Silent VBS wrapper for Task Scheduler — no console window |
@@ -80,7 +91,7 @@ GitHub Repo (mengtahsu/travel-planner)
    d. Checks `data/save_flag.json` — if set, archives current `index.html` to `data/saved/` before overwriting
    e. Syncs saved files with GitHub (removes locally-deleted files, cleans orphans)
    f. Fetches live exchange rates from frankfurter.app
-   g. If changed: calls DeepSeek API → generates plan JSON (~30-60s)
+   g. If changed: calls Claude API → generates plan JSON, then `validate_plan()` checks required fields (~30-60s)
    h. Fetches DDG image links for destination landmarks, hotels, restaurants, day-by-day photos
    i. Renders `index.html` via Jinja2 template (inlines shared.css + shared.js)
    j. Pushes all changed files to GitHub via REST API (checks SHA to avoid conflicts)
@@ -94,9 +105,10 @@ GitHub Repo (mengtahsu/travel-planner)
 - `get_chat_text(today_key)` — Reads chat from GitHub → local → 7-day lookback
 - `has_changes()` — Compares current chat/config hashes with stored hashes; returns `(changed, chat_text, chat_hash, config_hash)`
 - `get_exchange_rates()` — Fetches live NTD→foreign rates from frankfurter.app, with hardcoded fallbacks
-- `build_prompt(config, chat_text, rates)` — Constructs the full DeepSeek prompt with live exchange rates
-- `call_ai(prompt)` — Calls DeepSeek API (`deepseek-chat` model), extracts JSON from response
-- `search_google_images(query, count)` — Searches DDG for images, filters watermarks/stock/ad sites, returns `[{url, label}]` (links only)
+- `build_prompt(config, chat_text, rates)` — Constructs the full Claude prompt with live exchange rates
+- `call_ai(prompt)` — Calls Claude API (`claude-sonnet-4-6`, max_tokens 8192), extracts the first `{...}` JSON block from response
+- `validate_plan(plan)` — Asserts required plan fields exist (see `REQUIRED_PLAN_FIELDS`); raises `ValueError` on missing/empty `itinerary`/`hotels`
+- `search_ddg_images(query, count)` — Searches DDG for images, filters watermarks/stock/ad sites, returns `[{url, label}]` (links only)
 - `resolve_all_photos(plan)` — Resolves photos for hero, destination, hotels, restaurants, day-by-day
 - `render_html(plan)` — Renders `index.html` from Jinja2 template (with `build_tag` timestamp)
 - `push_via_api(today_key)` — Pushes files to GitHub via REST API (PUT with SHA to avoid conflicts)
@@ -107,7 +119,7 @@ GitHub Repo (mengtahsu/travel-planner)
 
 ## Photo System
 
-- **Source:** DuckDuckGo Image Search (via `ddgs` Python package — `duckduckgo_search` on PyPI)
+- **Source:** DuckDuckGo Image Search (via the `ddgs` PyPI package — `from ddgs import DDGS`)
 - **No API key needed** — scrapes DDG image search results
 - **Links only** — direct image URLs embedded in HTML, no file downloads
 - **Filtering:** Blocks watermarks (alamy, shutterstock, gettyimages, etc.), stock sites, travel booking ads, Pinterest
