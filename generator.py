@@ -366,13 +366,21 @@ def call_ai(prompt: str) -> dict[str, Any]:
     if not ANTHROPIC_API_KEY:
         raise RuntimeError("ANTHROPIC_API_KEY not set in environment")
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-    response = client.messages.create(
+    # The plan JSON (itinerary + hotels + restaurants + day-by-day, heavy in
+    # Chinese) regularly exceeds 8K output tokens. claude-sonnet-4-6 allows up
+    # to 64K; values above ~16K must be streamed or the SDK hits an HTTP timeout.
+    with client.messages.stream(
         model="claude-sonnet-4-6",
-        max_tokens=8192,
+        max_tokens=32000,
         temperature=0.7,
         messages=[{"role": "user", "content": prompt}]
-    )
-    text = response.content[0].text
+    ) as stream:
+        response = stream.get_final_message()
+    if response.stop_reason == "max_tokens":
+        raise ValueError(
+            "AI response hit max_tokens (truncated JSON). Raise max_tokens or trim the prompt."
+        )
+    text = next((b.text for b in response.content if b.type == "text"), "")
     start = text.find("{")
     end = text.rfind("}") + 1
     if start == -1 or end <= start:
