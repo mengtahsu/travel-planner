@@ -44,6 +44,7 @@ def _load_key(filename: str, env_name: str) -> str:
     return os.environ.get(env_name, "")
 
 ANTHROPIC_API_KEY = _load_key("anthropic_api_key.txt", "ANTHROPIC_API_KEY")
+SERPER_API_KEY = _load_key("serper_api_key.txt", "SERPER_API_KEY")
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -420,98 +421,138 @@ def validate_plan(plan: dict[str, Any]) -> dict[str, Any]:
 
 
 # ═══════════════════════════════════════════════════════════════
-# DDG image search photo resolution
+# Image search — Serper (Google Images) primary, DDG fallback
 # ═══════════════════════════════════════════════════════════════
 
-def search_ddg_images(query: str, count: int = 4) -> list[dict[str, str]]:
-    """Search images via DDG. Filters watermarks, ads, irrelevant results. Returns list of {url, label} dicts."""
-    # Domains to block: watermarks, stock photo sites, ads, travel booking (ad-heavy)
-    _BAD_PATTERNS = [
-        "alamy.com", "shutterstock", "gettyimages", "istockphoto", "dreamstime",
-        "123rf.com", "depositphotos", "adobe.stock", "stock.adobe",
-        "vecteezy", "freepik", "watermark", "logo", "icon", "vector",
-        "pinterest", "pinimg.com",
-        "booking.com", "agoda", "expedia", "tripadvisor", "hotels.com",
-        "trivago", "kayak", "skyscanner", "orbitz", "priceline",
-        "sponsored", "promoted", "affiliate", "banner", "popup",
-    ]
-    def _is_good_photo(r):
-        url = (r.get("image") or "").lower()
-        for bad in _BAD_PATTERNS:
-            if bad in url:
-                return False
-        # Reject URLs ending in very common ad/tracker suffixes
-        if any(url.endswith(x) for x in [".gif", ".svg"]):
-            return False
-        # Reject extremely short URLs (likely ads/trackers)
-        if len(url) < 60:
-            return False
-        # Basic relevance: at least one significant query word should appear in title+url
-        title = (r.get("title") or "").lower()
-        combined = (title + " " + url).lower()
-        query_words = [w for w in query.lower().split() if len(w) > 2]
-        if query_words and not any(w in combined for w in query_words[:3]):
-            return False
-        return True
+# Domains/keywords to block: watermarks, stock photo sites, ads, booking (ad-heavy)
+_BAD_PATTERNS = [
+    "alamy.com", "shutterstock", "gettyimages", "istockphoto", "dreamstime",
+    "123rf.com", "depositphotos", "adobe.stock", "stock.adobe",
+    "vecteezy", "freepik", "watermark", "logo", "icon", "vector",
+    "pinterest", "pinimg.com",
+    "booking.com", "agoda", "expedia", "tripadvisor", "hotels.com",
+    "trivago", "kayak", "skyscanner", "orbitz", "priceline",
+    "sponsored", "promoted", "affiliate", "banner", "popup",
+]
 
+
+def _is_good_photo(url: str, title: str, query: str) -> bool:
+    """Shared relevance/quality filter used by both image backends."""
+    url = (url or "").lower()
+    for bad in _BAD_PATTERNS:
+        if bad in url:
+            return False
+    # Reject vector/animated formats
+    if any(url.endswith(x) for x in [".gif", ".svg"]):
+        return False
+    # Reject extremely short URLs (likely ads/trackers)
+    if len(url) < 60:
+        return False
+    # Basic relevance: at least one significant query word should appear in title+url
+    combined = ((title or "") + " " + url).lower()
+    query_words = [w for w in query.lower().split() if len(w) > 2]
+    if query_words and not any(w in combined for w in query_words[:3]):
+        return False
+    return True
+
+
+def _collect(raw: list, url_key: str, title_key: str, query: str, count: int) -> list[dict[str, str]]:
+    """Filter + dedupe raw backend results into [{url, label}], up to count."""
+    photos = []
+    seen = set()
+    for r in raw:
+        url = r.get(url_key, "") or ""
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        if _is_good_photo(url, r.get(title_key, ""), query):
+            photos.append({"url": url, "label": r.get(title_key, "") or query})
+            if len(photos) >= count:
+                break
+    return photos
+
+
+def _serper_images(query: str, count: int) -> list[dict[str, str]] | None:
+    """Search Google Images via Serper. Returns photos, or None to signal fallback."""
+    try:
+        resp = requests.post(
+            "https://google.serper.dev/images",
+            headers={"X-API-KEY": SERPER_API_KEY, "Content-Type": "application/json"},
+            data=json.dumps({"q": query, "num": max(count * 4, 20)}),
+            timeout=20,
+        )
+        if resp.status_code in (402, 429):  # out of credits / rate limited → fall back
+            print(f"        Serper quota/limit (HTTP {resp.status_code}) — falling back to DDG")
+            return None
+        resp.raise_for_status()
+        return _collect(resp.json().get("images", []), "imageUrl", "title", query, count)
+    except Exception as e:
+        print(f"        Serper Images: {type(e).__name__}: {e} — falling back to DDG")
+        return None
+
+
+def _ddg_images(query: str, count: int = 4) -> list[dict[str, str]]:
+    """Search images via DDG. Best-effort; never raises (degrades to placeholders)."""
     try:
         from ddgs import DDGS
-        results = list(DDGS().images(query, max_results=max(count * 4, 20)))
-        photos = []
-        seen = set()
-        for r in results:
-            url = r.get("image", "")
-            if not url or url in seen:
-                continue
-            seen.add(url)
-            if _is_good_photo(r):
-                photos.append({"url": url, "label": r.get("title", query)})
-                if len(photos) >= count:
-                    break
+        raw = list(DDGS().images(query, max_results=max(count * 4, 20)))
+        photos = _collect(raw, "image", "title", query, count)
         if not photos:
             return [{"url": "", "label": query}] * max(count, 1)
         return photos
     except Exception as e:
-        # DDG image search is best-effort — a missing package, an empty result
-        # (DDGSException "No results found."), rate limiting, or a network error
-        # must not crash the whole generation. Degrade to placeholders.
+        # Missing package, empty result (DDGSException "No results found."),
+        # rate limiting, or a network error must not crash the whole generation.
         print(f"        DDG Images: {type(e).__name__}: {e}")
         return [{"url": "", "label": query}] * max(count, 1)
+
+
+def search_images(query: str, count: int = 4) -> list[dict[str, str]]:
+    """Resolve photos: Serper (Google) primary, DDG fallback, placeholders last."""
+    if SERPER_API_KEY:
+        photos = _serper_images(query, count)
+        if photos:
+            return photos
+    return _ddg_images(query, count)
 
 
 def resolve_all_photos(plan: dict[str, Any]) -> dict[str, Any]:
     dest = plan.get("destination_en", "travel")
     city = dest.split(",")[0].strip()
 
+    # Cover/hotels/restaurants use Serper (Google) for accuracy; reuse the first
+    # cover image for the hero/og:image instead of a separate search.
+    destination = search_images(f"{city} travel scenery", 6)
     plan["photos"] = {
-        "hero": search_ddg_images(f"{city} skyline landmark", 2),
-        "destination": search_ddg_images(f"{city} travel scenery", 6),
+        "hero": destination[:1],
+        "destination": destination,
     }
 
     for hotel in plan.get("hotels", []):
         name = hotel.get("name", "")
         q = hotel.get("search_query", f"{name} {city}")
-        photos = search_ddg_images(q, 6)
+        photos = search_images(q, 6)
         if not photos or not photos[0]["url"]:
-            photos = search_ddg_images(f"luxury hotel {city}", 6)
+            photos = search_images(f"luxury hotel {city}", 6)
         hotel["photos"] = photos
 
     for category in ["fine_dining", "bistros", "cafes"]:
         for r in plan.get("restaurants", {}).get(category, []):
             name = r.get("name", "")
             q = r.get("search_query", f"{name} {city}")
-            photos = search_ddg_images(q, 3)
+            photos = search_images(q, 3)
             if not photos or not photos[0]["url"]:
                 if category == "cafes":
-                    photos = search_ddg_images(f"cafe coffee {city}", 3)
+                    photos = search_images(f"cafe coffee {city}", 3)
                 else:
-                    photos = search_ddg_images(f"{category.replace('_',' ')} food {city}", 3)
+                    photos = search_images(f"{category.replace('_',' ')} food {city}", 3)
             r["photos"] = photos
 
-    # Day-by-day photos (one per day of the most important place)
+    # Day-by-day photos are generic filler — source from DDG directly so they
+    # stay free and don't consume the Serper quota.
     for day in plan.get("itinerary", []):
         q = day.get("day_query", f"{city} travel")
-        day_photos = search_ddg_images(q, 1)
+        day_photos = _ddg_images(q, 1)
         day["day_photo"] = day_photos[0]["url"] if day_photos and day_photos[0]["url"] else ""
 
     return plan

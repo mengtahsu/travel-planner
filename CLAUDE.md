@@ -12,6 +12,7 @@ pip install ddgs                  # DDG image search (imported as `from ddgs imp
 # Secrets — provide EITHER a local file (gitignored) OR an env var. File wins if present.
 #   anthropic_api_key.txt  | ANTHROPIC_API_KEY  — Claude API key (required)
 #   github_token.txt       | GITHUB_TOKEN       — GitHub fine-grained PAT (contents:read/write on repo)
+#   serper_api_key.txt     | SERPER_API_KEY     — Serper.dev key for Google image search (optional; falls back to DDG)
 
 # Run manually
 python generator.py
@@ -108,8 +109,8 @@ GitHub Repo (mengtahsu/travel-planner)
 - `build_prompt(config, chat_text, rates)` — Constructs the full Claude prompt with live exchange rates
 - `call_ai(prompt)` — Calls Claude API (`claude-sonnet-4-6`, max_tokens 8192), extracts the first `{...}` JSON block from response
 - `validate_plan(plan)` — Asserts required plan fields exist (see `REQUIRED_PLAN_FIELDS`); raises `ValueError` on missing/empty `itinerary`/`hotels`
-- `search_ddg_images(query, count)` — Searches DDG for images, filters watermarks/stock/ad sites, returns `[{url, label}]` (links only)
-- `resolve_all_photos(plan)` — Resolves photos for hero, destination, hotels, restaurants, day-by-day
+- `search_images(query, count)` — Photo dispatcher: Serper (Google) primary, DDG fallback, placeholders last; returns `[{url, label}]` (links only). Backends: `_serper_images()` (returns `None` to signal fallback), `_ddg_images()` (never raises); shared `_is_good_photo()`/`_collect()` filter+dedupe
+- `resolve_all_photos(plan)` — Resolves photos: cover/hotels/restaurants via `search_images`, day-by-day via `_ddg_images` (hero reuses cover[0])
 - `render_html(plan)` — Renders `index.html` from Jinja2 template (with `build_tag` timestamp)
 - `push_via_api(today_key)` — Pushes files to GitHub via REST API (PUT with SHA to avoid conflicts)
 - `_sync_saved_files()` — Syncs saved HTML files: removes local orphans not in index, cleans up GitHub-deleted files
@@ -119,8 +120,8 @@ GitHub Repo (mengtahsu/travel-planner)
 
 ## Photo System
 
-- **Source:** DuckDuckGo Image Search (via the `ddgs` PyPI package — `from ddgs import DDGS`)
-- **No API key needed** — scrapes DDG image search results
+- **Primary source:** Serper.dev (real Google Images) for cover, hotels, restaurants — `POST https://google.serper.dev/images` with `X-API-KEY` (key via `serper_api_key.txt` | `SERPER_API_KEY`). Returns direct image URLs (no key in URL, no expiry).
+- **DDG (`ddgs`)** is used for day-by-day photos (generic filler, off the Serper quota) **and** as the automatic fallback when `SERPER_API_KEY` is missing or Serper hits quota/error (HTTP 402/429). Functions: `search_images()` (dispatcher) → `_serper_images()` / `_ddg_images()`, sharing `_is_good_photo()`/`_collect()`.
 - **Links only** — direct image URLs embedded in HTML, no file downloads
 - **Filtering:** Blocks watermarks (alamy, shutterstock, gettyimages, etc.), stock sites, travel booking ads, Pinterest
 - **Deduplication** by URL — never show same photo twice
