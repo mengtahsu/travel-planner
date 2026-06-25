@@ -472,6 +472,26 @@ def _collect(raw: list, url_key: str, title_key: str, query: str, count: int) ->
     return photos
 
 
+# Tracks Serper outcomes within a run so the Log page can flag quota/fallback.
+# Reset implicitly each run (the generator is a fresh process per invocation).
+_SERPER_STATS = {"ok": 0, "quota": 0, "error": 0}
+
+
+def photo_status() -> str:
+    """Summarize this run's image-source health for the run log.
+    'serper' = all good · 'quota' = credits exhausted (fell back to DDG)
+    'error' = Serper errored (fell back to DDG) · 'ddg' = Serper not used."""
+    if not SERPER_API_KEY:
+        return "ddg"
+    if _SERPER_STATS["quota"]:
+        return "quota"
+    if _SERPER_STATS["error"]:
+        return "error"
+    if _SERPER_STATS["ok"]:
+        return "serper"
+    return "ddg"
+
+
 def _serper_images(query: str, count: int) -> list[dict[str, str]] | None:
     """Search Google Images via Serper. Returns photos, or None to signal fallback."""
     try:
@@ -482,11 +502,15 @@ def _serper_images(query: str, count: int) -> list[dict[str, str]] | None:
             timeout=20,
         )
         if resp.status_code in (402, 429):  # out of credits / rate limited → fall back
+            _SERPER_STATS["quota"] += 1
             print(f"        Serper quota/limit (HTTP {resp.status_code}) — falling back to DDG")
             return None
         resp.raise_for_status()
-        return _collect(resp.json().get("images", []), "imageUrl", "title", query, count)
+        photos = _collect(resp.json().get("images", []), "imageUrl", "title", query, count)
+        _SERPER_STATS["ok"] += 1
+        return photos
     except Exception as e:
+        _SERPER_STATS["error"] += 1
         print(f"        Serper Images: {type(e).__name__}: {e} — falling back to DDG")
         return None
 
@@ -750,7 +774,8 @@ def push_via_api(today_key: str) -> None:
 
 RUNS_LOG = ROOT / "data" / "runs.json"
 
-def log_run(status: str, summary: str = "", destination: str = "", chat_chars: int = 0) -> None:
+def log_run(status: str, summary: str = "", destination: str = "", chat_chars: int = 0,
+            photos: str = "") -> None:
     """Append a run entry to runs.json (keeps last 90 days)."""
     runs = []
     if RUNS_LOG.exists():
@@ -764,7 +789,8 @@ def log_run(status: str, summary: str = "", destination: str = "", chat_chars: i
         "status": status,
         "summary": summary,
         "destination": destination,
-        "chat_chars": chat_chars
+        "chat_chars": chat_chars,
+        "photos": photos,  # "serper" | "quota" | "error" | "ddg" | ""
     }
     runs.insert(0, entry)
 
@@ -941,7 +967,8 @@ def main() -> None:
     log_run("generated",
             summary=plan.get("title_zh", ""),
             destination=plan.get("destination_en", ""),
-            chat_chars=len(chat_text))
+            chat_chars=len(chat_text),
+            photos=photo_status())
 
     # Push to GitHub
     progress(90, "Pushing to GitHub...")

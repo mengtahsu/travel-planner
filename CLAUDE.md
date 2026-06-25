@@ -115,7 +115,8 @@ GitHub Repo (mengtahsu/travel-planner)
 - `push_via_api(today_key)` — Pushes files to GitHub via REST API (PUT with SHA to avoid conflicts)
 - `_sync_saved_files()` — Syncs saved HTML files: removes local orphans not in index, cleans up GitHub-deleted files
 - `check_and_archive()` — Archives current plan to `data/saved/` when `save_flag.json` is set, then clears the flag
-- `log_run()` — Appends run entry to `data/runs.json` (prunes to last 90 days)
+- `log_run()` — Appends run entry to `data/runs.json` (prunes to last 90 days); records a `photos` field (`serper`/`quota`/`error`/`ddg`) from `photo_status()` so `log.html` can flag when Serper fell back to DDG
+- `photo_status()` — Returns this run's image-source health from `_SERPER_STATS` (`serper` = ok, `quota` = credits exhausted, `error` = Serper errored, `ddg` = Serper not used)
 - `safe_print()` — Print wrapper that handles UnicodeEncodeError on Windows consoles
 
 ## Photo System

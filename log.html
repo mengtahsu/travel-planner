@@ -80,9 +80,18 @@
       var icon = r.status === 'skipped' ? '-' : '+';
       var desc = r.status === 'skipped' ? 'No changes - skipped' : (r.summary || r.destination || 'Generated');
       var chat = r.chat_chars > 0 ? r.chat_chars + ' chars' : '-';
+      // Photo-source marker — only flag problems (quota/error/no-key); happy path stays clean.
+      var photoNote = '';
+      if (r.photos === 'quota') {
+        photoNote = ' <span style="color:#e88;font-size:0.72rem;">⚠️ Serper 額度用完 · 改用 DDG</span>';
+      } else if (r.photos === 'error') {
+        photoNote = ' <span style="color:#e8a;font-size:0.72rem;">⚠️ Serper 異常 · 改用 DDG</span>';
+      } else if (r.photos === 'ddg') {
+        photoNote = ' <span style="color:#888;font-size:0.72rem;">· 圖片用 DDG</span>';
+      }
       html += '<tr style="border-bottom:1px solid rgba(255,255,255,0.05);">' +
         '<td style="padding:6px 10px;white-space:nowrap;font-family:monospace;font-size:0.8rem;">' + esc(r.ts) + '</td>' +
-        '<td style="padding:6px 10px;">' + esc(icon + ' ' + desc) + '</td>' +
+        '<td style="padding:6px 10px;">' + esc(icon + ' ' + desc) + photoNote + '</td>' +
         '<td style="padding:6px 10px;font-size:0.75rem;">' + esc(chat) + '</td>' +
       '</tr>';
     }
