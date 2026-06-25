@@ -1,6 +1,6 @@
 {
   "destination_en": "Bali, Indonesia",
-  "title_zh": "峇里島六日 · 奢華四人度假之旅",
+  "title_zh": "峇里島六日 · 奢華四人慢旅",
   "date_range": "2027/01/29–02/03",
   "start_date": "2027-01-29",
   "end_date": "2027-02-03",
@@ -21,7 +21,7 @@
       "depart_time": "09:10",
       "arrive_time": "14:25",
       "duration": "5h 15m",
-      "class": "經濟艙豪華座位 Premium Economy"
+      "class": "商務艙 Business Class"
     },
     "inbound": {
       "flight_no": "CI 772",
@@ -29,85 +29,85 @@
       "depart_time": "15:45",
       "arrive_time": "20:55",
       "duration": "5h 10m",
-      "class": "經濟艙豪華座位 Premium Economy"
+      "class": "商務艙 Business Class"
     }
   },
   "hotels": [
     {
-      "name": "The Layar – Private Villas Seminyak",
-      "name_zh": "萊雅私人別墅 · 水明漾",
+      "name": "The St. Regis Bali Resort",
+      "name_zh": "峇里島瑞吉酒店",
       "district": "水明漾 Seminyak",
       "day_range": "1–2",
       "nights": 2,
-      "price_ntd": 64000,
+      "price_ntd": 96000,
       "stars": "★★★★★",
-      "room_type": "2臥室私人泳池別墅 × 1棟（可住4人）",
-      "breakfast": "含每日豪華早餐",
-      "amenities": "🏊 私人無邊際泳池 · 🧖 專屬管家服務 · 🌿 熱帶花園 · 🍹 迎賓雞尾酒 · 🚗 機場接送",
-      "search_query": "The Layar Private Villas Seminyak Bali pool villa",
+      "room_type": "Ocean Suite 海景套房（兩間）",
+      "breakfast": "含豪華早餐 Butler Service",
+      "amenities": "🏊 無邊際泳池 · 💆 Iridium Spa · 🍽️ Kayuputi 海鮮餐廳 · 🛎️ 24小時管家服務 · 🌊 私人海灘",
+      "search_query": "St Regis Bali Resort Seminyak pool ocean",
       "photos": [
         {
-          "url": "https://www.ministryofvillas.com/wp-content/uploads/2013/09/bali-thelayar-38-800x530.jpg",
-          "label": "The Layar | Seminyak, Bali | Indonesia"
+          "url": "https://www.thehotelguru.com/_images/d4/e1/d4e1d4fee503fafcbb6c36211b748ac6/original.jpg",
+          "label": "St Regis Bali Resort, Bali. Expert reviews and highlights | The Hotel Guru"
         },
         {
-          "url": "https://www.elitehavens.com/images/gallery/mobile/TheLayar10/01%20The%20Layar%20-%203%20bedroom%20-%20The%20Villa.jpg",
-          "label": "The Layar - three bedroom villa - Seminyak, Bali, Indonesia - Elite Havens"
+          "url": "https://cdn.kiwicollection.com/media/room_images/PR006528/ll/xr-dpsxr-lagoon-villa-pool-view-34397-classic-hor1.jpg",
+          "label": "The St. Regis Bali Resort, Nusa Dua, Bali"
         },
         {
-          "url": "https://balivillaescapes.com.au/wp-content/uploads/2014/03/The-Layar-1Br-Poolside.jpg",
-          "label": "The Layar Seminyak, Bali | 1br | Best Price 2026 👍"
+          "url": "https://images.trvl-media.com/lodging/3000000/2080000/2076200/2076186/cfeb2375.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+          "label": "The St. Regis Bali Resort - Nusa Dua | Check Latest Reviews 2026 | Expedia"
         },
         {
-          "url": "https://www.thelayar.com/wp-content/uploads/2024/03/home-page-the-layer.jpg",
-          "label": "Two Bedroom Villas - The Layar"
+          "url": "https://cache.marriott.com/is/image/marriotts7prod/xr-dpsxr-expansive-salt-water-lago-10306:Feature-Hor?wid=1920&fit=constrain",
+          "label": "Experiences | The St. Regis Bali Resort"
         },
         {
-          "url": "https://q-xx.bstatic.com/xdata/images/hotel/max500/793942544.jpg?k=b65afbef7e6f2ebac0e577163fab1e0ff7f1e7363147d49ff5d3a7de0e13f35e&o=",
-          "label": "The Layar - Designer Villas and Spa, Bali | 2026 Updated Prices, Deals"
+          "url": "https://media.privateupgrades.com/_data/default-room_image/35/177194/oceanfront-strand-private-pool-villa-the-st-regis-bali-resort-4_400x400_auto.jpg",
+          "label": "⭐ Book The St. Regis Bali Resort | Indonesia With VIP Benefits"
         },
         {
-          "url": "https://balivillaescapes.com.au/wp-content/uploads/2014/03/The-Layar-3Br-Modern-luxury.jpg",
-          "label": "The Layar Seminyak, Bali | 3 br | Best Price 2026 👍"
+          "url": "https://cdn.kiwicollection.com/media/room_images/PR006528/xl/xr-dpsxr-grand-astor-suite-pool-37777-classic-hor.jpg",
+          "label": "The St. Regis Bali Resort, Nusa Dua, Bali"
         }
       ]
     },
     {
       "name": "Hoshinoya Bali",
       "name_zh": "虹夕諾雅峇里島",
-      "district": "烏布 Ubud 河谷",
+      "district": "烏布 Ubud · Ayung River Valley",
       "day_range": "3–5",
       "nights": 3,
       "price_ntd": 108000,
       "stars": "★★★★★",
-      "room_type": "河谷景觀套房 × 2間（Ayung Valley Suite）",
-      "breakfast": "含每日日式懷石早餐",
-      "amenities": "🏊 無邊際泳池 · 💆 星のや SPA療程 · 🍱 日式懷石料理 · 🌊 阿勇河谷景觀 · 🎋 冥想瑜珈課程 · 🚗 專屬接送",
-      "search_query": "Hoshinoya Bali resort Ubud valley pool",
+      "room_type": "Villa with Private Pool 私人泳池別墅（兩棟）",
+      "breakfast": "含日式懷石早餐",
+      "amenities": "🌿 叢林河谷景觀 · 🏊 私人泳池 · 💆 森林SPA · 🍵 茶道體驗 · 🎋 冥想瑜伽 · 🚤 河谷接駁船",
+      "search_query": "Hoshinoya Bali villa jungle river valley pool",
       "photos": [
+        {
+          "url": "https://lenjourneys.com/wp-content/uploads/2022/11/hoshinoya-bali-jungle-river.jpg",
+          "label": "Hoshinoya Bali: A Forest Sanctuary - LEN Journeys"
+        },
         {
           "url": "https://www.thehotelguru.com/_images/e2/0e/e20e8575495f5fde358d09b4ef22a891/s440x440.jpg",
           "label": "Hoshinoya Bali, Ubud (Bali), Indonesia. Expert reviews and highlights | The  Hotel Guru"
+        },
+        {
+          "url": "https://indochinatravel.com/country/indonesia/hotel/1140-hoshinoya-bali-pool-and-jungle.webp",
+          "label": "Bali Hoshinoya Resort | Indochina Travel"
+        },
+        {
+          "url": "https://www.thetimes.com/imageserver/image/61621f3e-96ba-45c9-b180-50dcc5ad73cb.jpg?strip=all&format=webp&resize=2360",
+          "label": "My night at the Bali hotel that's hidden in the jungle"
         },
         {
           "url": "https://live-less-ordinary.com/wp-content/uploads/2019/05/Luxury-Pool-Villas-at-HOSHINOYA-Bali-Ubud-Resort-6-765x551.jpg?ssl=1",
           "label": "HOSHINOYA Bali Resort: Luxury Pool Villas in the Valleys of Ubud Bali"
         },
         {
-          "url": "https://media.hoshinoresorts.com/image/authenticated/s--hye5eghJ--/c_fill,g_auto,h_630,w_1200/f_auto,q_auto/v1745283174/Untitled_design_5_wpbkax.png",
-          "label": "HOSHINOYA Bali - Official Site"
-        },
-        {
-          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/223865064.jpg?k=f4250afbe68ce7287ee4ffd5c6c839f18b4b6e5c4e6df3f91d808a949a0bf1fa&o=",
-          "label": "Hoshinoya Bali, Ubud (updated prices 2026)"
-        },
-        {
           "url": "https://media.hoshinoresorts.com/image/authenticated/s--_s1HUivO--/c_fill,g_auto,h_1080/f_auto,q_auto/v1695789181/bali_room_3-1_ledsyo.jpg",
           "label": "HOSHINOYA Bali - Official Site"
-        },
-        {
-          "url": "https://indochinatravel.com/country/indonesia/hotel/1140-hoshinoya-bali-pool-and-jungle.webp",
-          "label": "Bali Hoshinoya Resort | Indochina Travel"
         }
       ]
     }
@@ -115,66 +115,97 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "Locavore",
-        "name_zh": "洛卡沃爾 · 峇里島最佳餐廳",
+        "name": "Kayuputi",
+        "name_zh": "瑞吉酒店 Kayuputi 海鮮餐廳",
         "stars": "⭐⭐",
-        "dish": "🦞 招牌：峇里島在地食材主廚發想菜單 · 烤乳豬佐棕櫚糖醬 · 火山鹽焗海鮮",
-        "address": "Jl. Dewi Sita No.10, Ubud",
-        "price_ntd": 7200,
-        "price_label": "晚餐主廚套餐 $120/人 · NT$3,600/人 · 4人共NT$14,400",
-        "hours": "12:00–15:00 / 18:30–22:00 · 強烈建議提前預約",
-        "search_query": "Locavore restaurant Ubud Bali fine dining",
+        "dish": "🦞 招牌：炭烤龍蝦佐番紅花醬 · 峇里島海鮮拼盤",
+        "address": "The St. Regis Bali, Seminyak",
+        "price_ntd": 8000,
+        "price_label": "晚餐套餐 $270/2人 · NT$8,000",
+        "hours": "18:30–22:30 · 強烈建議提前預約",
+        "search_query": "Kayuputi restaurant St Regis Bali seafood",
         "photos": [
           {
-            "url": "https://www.theworlds50best.com/discovery/filestore/jpg/Locavore%20NXT-Dining%20room%201.jpg",
-            "label": "Locavore NXT - Bali - Restaurant - 50Best Discovery"
+            "url": "https://www.epicureasia.com/wp-content/uploads/2019/10/Fruit-De-Mer-at-Kayuputi-3.jpg",
+            "label": "Living the beach life with The St. Regis Bali Resort's Fruit de Mer lunch |  epicure Magazine"
           },
           {
-            "url": "https://www.secret-retreats.com/wp-content/uploads/2024/04/secret-tables-bali-locavore-nxt-atmosphere-03.jpg",
-            "label": "Locavore - Fine Dining in Ubud Bali - Secret Tables"
+            "url": "https://mds-assets.marriott.com/cdn-cgi/image/f=auto/cms-platform-for-marriott/dpsxr-kayuputi/website-assets/menu-photo.jpg?width=430&height=325",
+            "label": "Nusa Dua Bars | Kayuputi"
           },
           {
-            "url": "https://msihua.com/wp-content/uploads/2019/05/locavore_1.jpg",
-            "label": "Locavore @ Ubud, Bali | Ms I-Hua & The Boy"
+            "url": "https://mds-assets.marriott.com/cdn-cgi/image/f=auto/cms-platform-for-marriott/dpsxr-kayuputi/website-assets/menu-photo-4.jpg?width=430&height=325",
+            "label": "Nusa Dua Bars | Kayuputi"
           }
         ]
       },
       {
-        "name": "Swept Away at COMO Shambhala",
-        "name_zh": "科摩香巴拉度假村 · 河畔精緻餐廳",
-        "stars": "⭐",
-        "dish": "🌿 招牌：有機健康料理 · 烤峇里島黑豬肉 · 椰漿咖哩海鮮",
-        "address": "Banjar Begawan, Ubud",
-        "price_ntd": 5600,
-        "price_label": "晚餐套餐 $140/4人 · NT$5,600",
-        "hours": "07:00–22:00",
-        "search_query": "Swept Away COMO Shambhala Ubud river dining Bali",
+        "name": "Mozaic Restaurant Gastronomique",
+        "name_zh": "莫扎克法式創意料理 · 烏布名店",
+        "stars": "⭐⭐",
+        "dish": "🌿 招牌：峇里島香料鴨胸 · 熱帶水果甜點塔",
+        "address": "Jl. Raya Sanggingan, Ubud",
+        "price_ntd": 7200,
+        "price_label": "晚餐套餐 $240/2人 · NT$7,200",
+        "hours": "18:30–22:00 · 需提前預約",
+        "search_query": "Mozaic restaurant Ubud Bali fine dining",
         "photos": [
           {
-            "url": "https://images.pickyourtrail.com/swept_away_ubud_dcf3626279.jpg?auto=format&fit=crop&w=1200&q=75",
-            "label": "Swept Away at The Samaya, Ubud: Riverside Dining Experience | Pickyourtrail"
+            "url": "https://www.mozaic-bali.com/wp-content/uploads/2024/07/CRZ02892-1-scaled.jpg",
+            "label": "Ubud Fine Dining: A Beautiful Tapestry for The Senses - Mozaic Gastronomic  Restaurant - Ubud Bali"
           },
           {
-            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2443584493093914883",
-            "label": "Swept Away Restaurant | 100 candle light dinner on the spot 😍  #thesweptawayrestaurant #wine #restaurant #cooking #romanticdinner  #supportlocalbusiness | Instagram"
+            "url": "https://www.nowbali.co.id/wp-content/uploads/2022/12/Mozaic-Bali-Garden-Dining-Area.jpg",
+            "label": "Mozaic Ubud Reborn: The Pioneering Fine-Dining Restaurant Reopens - NOW!  Bali"
           },
           {
-            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3011896398170637481",
-            "label": "Swept Away Restaurant (@sweptawayrestaurant) · Ubud"
+            "url": "https://www.theyumlist.net/wp-content/uploads/2014/07/Mosaic-Chris-Salans-Ubud.jpg",
+            "label": "Mozaic, French Cuisine, Local Ingredients, Ubud - The Yum List"
           }
         ]
       },
+      {
+        "name": "Hoshinoya Bali Dining",
+        "name_zh": "虹夕諾雅峇里島 · 日式懷石料理",
+        "stars": "⭐⭐",
+        "dish": "🍱 招牌：峇里島食材懷石套餐 · 抹茶甜點 · 清酒配對",
+        "address": "Hoshinoya Bali, Ubud",
+        "price_ntd": 9600,
+        "price_label": "懷石晚餐 $320/2人 · NT$9,600",
+        "hours": "18:00–21:00 · 住客優先",
+        "search_query": "Hoshinoya Bali kaiseki dinner restaurant",
+        "photos": [
+          {
+            "url": "https://media.hoshinoresorts.com/image/authenticated/s--SRyl45CD--/c_fill,g_auto,h_630,w_1200/f_auto,q_auto/v1677569059/HOSHINOYA_Bali_Dining_dinner_1_icxufn.jpg",
+            "label": "Dining | HOSHINOYA Bali - Official Site"
+          },
+          {
+            "url": "https://indochinatravel.com/country/indonesia/hotel/1140-hoshinoya-kaiseki-dishes.webp",
+            "label": "Bali Hoshinoya Resort | Indochina Travel"
+          },
+          {
+            "url": "https://hoshinoresorts.com/wpadmin2022/wp-content/uploads/2024/05/997fe5dec9f142de5ab583fe9cffdb33.jpg",
+            "label": "HOSHINOYA Bali : Bali Harmony Set Course Dinner | Press Center | Hoshino  Resorts"
+          }
+        ]
+      }
+    ],
+    "bistros": [
       {
         "name": "Merah Putih",
-        "name_zh": "梅拉普提 · 水明漾印尼精緻料理",
+        "name_zh": "紅白餐廳 · 峇里島現代印尼料理",
         "stars": "⭐",
-        "dish": "🍢 招牌：印尼群島風味拼盤 · 峇里島烤雞 · 蘇門答臘辣牛肉燉",
+        "dish": "🍛 招牌：烤乳豬飯 · 峇里島沙嗲 · 椰漿咖哩",
         "address": "Jl. Petitenget No.100X, Seminyak",
-        "price_ntd": 6000,
-        "price_label": "晚餐套餐 $150/4人 · NT$6,000",
-        "hours": "12:00–23:00 · 需預約",
+        "price_ntd": 4800,
+        "price_label": "晚餐 $160/4人 · NT$4,800",
+        "hours": "12:00–23:00",
         "search_query": "Merah Putih restaurant Seminyak Bali interior",
         "photos": [
+          {
+            "url": "https://www.bali-interiors.com/wp-content/uploads/2016/09/MP-13.jpg",
+            "label": "Merah Putih - Bali Interiors"
+          },
           {
             "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3631619560545041971",
             "label": "When amazing food meets magical decor and impeccable service;  @merahputihbali was such a beautiful discovery. Yes we had the omnipresent  Nasi Campur but it was truly elevated and incredibly delicious. ..."
@@ -182,139 +213,83 @@
           {
             "url": "https://merahputihbali.com/wp-content/uploads/2022/11/merah-putih-restaurant-8-1.jpeg",
             "label": "Merah Putih Bali | Concept"
-          },
-          {
-            "url": "https://www.bali-interiors.com/wp-content/uploads/2016/09/MP-13.jpg",
-            "label": "Merah Putih - Bali Interiors"
-          }
-        ]
-      }
-    ],
-    "bistros": [
-      {
-        "name": "Sardine",
-        "name_zh": "沙丁魚餐廳 · 稻田景觀",
-        "stars": "",
-        "dish": "🐟 招牌：現烤新鮮沙丁魚 · 稻田景觀海鮮燒烤 · 椰子冰沙",
-        "address": "Jl. Petitenget No.21, Seminyak",
-        "price_ntd": 4400,
-        "price_label": "午餐 $110/4人 · NT$4,400",
-        "hours": "12:00–23:00",
-        "search_query": "Sardine restaurant Seminyak Bali rice field view",
-        "photos": [
-          {
-            "url": "https://www.kclubgroup.com/_next/image?url=https%3A%2F%2Fwww.kclubgroup.com%2Fapi%2Fmedia%2Ffile%2FDSC00437%20(1).webp&w=3840&q=75",
-            "label": "Chic Seafood Restaurant in Petitenget - Sardine"
-          },
-          {
-            "url": "https://www.kclubgroup.com/api/media/file/sunday-brunch-001-25-800x534.jpg",
-            "label": "Chic Seafood Restaurant in Petitenget - Sardine"
-          },
-          {
-            "url": "https://luxvillasgetaway.com/wp-content/uploads/2025/07/sardine-restaurant-seminyak-bali1920.jpg",
-            "label": "Sardine Restaurant Seminyak: A Lush Fine Dining Escape in the Heart of Bali"
           }
         ]
       },
       {
-        "name": "Naughty Nuri's Warung",
-        "name_zh": "諾蒂努里 · 烏布必吃烤豬肋排",
-        "stars": "",
-        "dish": "🥩 招牌：峇里島烤豬肋排 · 自製BBQ醬 · 炒飯",
-        "address": "Jl. Raya Sanggingan, Ubud",
-        "price_ntd": 2400,
-        "price_label": "午餐 $60/4人 · NT$2,400",
-        "hours": "11:00–22:00",
-        "search_query": "Naughty Nuri's Warung Ubud Bali pork ribs",
-        "photos": [
-          {
-            "url": "https://danielfooddiary.com/wp-content/uploads/2020/02/Nuris.jpg",
-            "label": "Naughty Nuri's, BALI – Home To Ubud's Best Barbecued Pork Ribs And “Best  Martinis In The World” | DanielFoodDiary.com"
-          },
-          {
-            "url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1609644739047362",
-            "label": "Bali Famous Naughty Nuri inspired BBQ Pork Ribs] —- For best viewing  experience, open your YouTube app & search Spice n Pans Bali Ribs. Seeya  there! —- Though I've never been to"
-          },
-          {
-            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3383766066894836018",
-            "label": "Ubud's Pork Ribs Paradise Awaits at Naughty Nuri's Warung! Escape to Our  Hidden Gem and Indulge in Succulent, Fall-Off-The-Bone Ribs Smothered in  Our Signature Balinese Spice Blend. Paradise Has Never Tasted So"
-          }
-        ]
-      },
-      {
-        "name": "Mozaic Restaurant",
-        "name_zh": "馬賽克餐廳 · 烏布花園餐廳",
+        "name": "Locavore",
+        "name_zh": "在地食材創意餐廳 · 烏布人氣名店",
         "stars": "⭐",
-        "dish": "🌺 招牌：法式融合峇里島料理 · 花園燭光晚餐 · 主廚品嚐菜單",
-        "address": "Jl. Raya Sanggingan, Ubud",
-        "price_ntd": 9200,
-        "price_label": "晚餐品嚐菜單 $230/4人 · NT$9,200",
-        "hours": "18:30–22:00 · 需預約",
-        "search_query": "Mozaic Restaurant Ubud Bali garden dining",
+        "dish": "🥗 招牌：峇里島本地蔬菜沙拉 · 慢燉豬肋排",
+        "address": "Jl. Dewisita No.10, Ubud",
+        "price_ntd": 5600,
+        "price_label": "午餐套餐 $187/4人 · NT$5,600",
+        "hours": "12:00–14:30 / 18:30–22:00",
+        "search_query": "Locavore restaurant Ubud Bali food",
         "photos": [
           {
-            "url": "https://www.nowbali.co.id/wp-content/uploads/2022/12/Mozaic-Bali-Garden-Dining-Area.jpg",
-            "label": "Mozaic Ubud Reborn: The Pioneering Fine-Dining Restaurant Reopens - NOW!  Bali"
+            "url": "https://cdn.sanity.io/images/n3bn5042/production/0c6d1adce8bb8ead78e55ba49bcc2276dcfbb6c3-3000x2000.jpg?w=2000&fm=webp&q=75&auto=format",
+            "label": "Nusantara • Locavore NXT®"
           },
           {
-            "url": "https://www.mozaic-bali.com/wp-content/uploads/2024/07/CRZ02878-scaled.jpg",
-            "label": "Try Our Unique Garden Setting Restaurant for the Most Romantic Dinner in  Ubud - Mozaic Gastronomic Restaurant - Ubud Bali"
+            "url": "http://decisivecravings.com.au/wp-content/uploads/2017/05/Locavore-Restaurant-Ubud-cover.jpg",
+            "label": "Re-visiting Locavore Restaurant Ubud - Decisive Cravings"
           },
           {
-            "url": "https://www.theyumlist.net/wp-content/uploads/2014/07/Mosaic-Chris-Salans-Ubud.jpg",
-            "label": "Mozaic, French Cuisine, Local Ingredients, Ubud - The Yum List"
+            "url": "https://www.theworlds50best.com/discovery/filestore/jpg/Locavore%20NXT-Savory%20fruit.jpg",
+            "label": "Locavore NXT - Bali - Restaurant - 50Best Discovery"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Sari Organik",
-        "name_zh": "有機沙里咖啡廳 · 稻田間的早餐",
-        "stars": "",
-        "dish": "🌾 招牌：有機稻田早餐 · 新鮮果汁 · 峇里島咖啡 · 香蕉煎餅",
-        "address": "Jl. Subak Sok Wayah, Ubud",
-        "price_ntd": 1600,
-        "price_label": "早午餐 $40/4人 · NT$1,600",
-        "hours": "08:00–17:00 · 稻田步道需步行10分鐘",
-        "search_query": "Sari Organik cafe Ubud Bali rice field breakfast",
-        "photos": [
-          {
-            "url": "https://www.wheregoesrose.com/wp-content/uploads/2020/01/BB2FF44E-530D-4092-8D3B-99F8241E314F-2-768x1024.jpeg",
-            "label": "A Day Cafe-Hopping in Ubud's Rice Fields - Where Goes Rose?"
-          },
-          {
-            "url": "https://www.wheregoesrose.com/wp-content/uploads/2020/01/1CA6FB1A-B32C-4873-8621-E4AF1567A2A3-2-1024x768.jpeg",
-            "label": "A Day Cafe-Hopping in Ubud's Rice Fields - Where Goes Rose?"
-          },
-          {
-            "url": "https://images.happycow.net/venues/1024/15/71/hcmp15712_78593.jpeg",
-            "label": "CLOSED: Sari Organik - Ubud Bali Restaurant - HappyCow"
-          }
-        ]
-      },
-      {
         "name": "Revolver Espresso",
-        "name_zh": "左輪手槍咖啡 · 水明漾網紅咖啡廳",
+        "name_zh": "左輪手槍咖啡 · 水明漾網紅咖啡館",
         "stars": "",
-        "dish": "☕ 招牌：峇里島單品手沖咖啡 · 酪梨吐司 · 莓果鬆餅",
-        "address": "Gg. Seminyak No.8, Seminyak",
+        "dish": "☕ 招牌：峇里島單品手沖 · 酪梨吐司 · 班尼迪克蛋",
+        "address": "Jl. Kayu Aya No.3, Seminyak",
         "price_ntd": 1200,
-        "price_label": "早餐 $30/4人 · NT$1,200",
-        "hours": "07:00–17:00",
-        "search_query": "Revolver Espresso Seminyak Bali coffee",
+        "price_label": "四人早午餐 $40 · NT$1,200",
+        "hours": "07:00–22:00",
+        "search_query": "Revolver Espresso Seminyak Bali cafe",
         "photos": [
-          {
-            "url": "https://revolverbali.com/cdn/shop/files/BABY-edited-2_1_3723x.jpg?v=1754975843",
-            "label": "Baby Revs – Revolver Bali"
-          },
           {
             "url": "https://cdn-gbadh.nitrocdn.com/SmbrybYTCdOrNjeHyowQKsbvGzNEbOjR/assets/images/optimized/rev-2933dcf/www.bali-interiors.com/wp-content/uploads/2025/05/DSCF6256.jpg",
             "label": "Revolver Seminyak: Bali's Original Iconic Coffee Institution - Bali  Interiors"
           },
           {
-            "url": "https://danielfooddiary.com/wp-content/uploads/2025/09/revolverespresso18.jpg",
-            "label": "Revolver Espresso BALI – One of Seminyak's Best Coffee Spots for Serious  Brews and Hearty Brunch | DanielFoodDiary.com"
+            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3688097739424075151",
+            "label": "There are cafés I visit, and then there's Revolver: the kind of place I  return to again and again. I've been sipping their bold brews since the  early days in Seminyak, when"
+          },
+          {
+            "url": "https://revolverbali.com/cdn/shop/files/BABY-edited-2_1_3723x.jpg?v=1754975843",
+            "label": "Baby Revs – Revolver Bali"
+          }
+        ]
+      },
+      {
+        "name": "Seniman Coffee Studio",
+        "name_zh": "藝術家咖啡工作室 · 烏布文青咖啡",
+        "stars": "",
+        "dish": "☕ 招牌：峇里島精品咖啡 · 香蕉煎餅 · 椰子奶昔",
+        "address": "Jl. Sri Wedari No.5, Ubud",
+        "price_ntd": 1000,
+        "price_label": "四人下午茶 $33 · NT$1,000",
+        "hours": "07:00–21:00",
+        "search_query": "Seniman Coffee Studio Ubud Bali",
+        "photos": [
+          {
+            "url": "https://sprudge.com/wp-content/uploads/2014/11/Seniman-Coffee-Bali-3.jpg",
+            "label": "Seniman Coffee Studio: Artful Coffee In The Heart of Bali | Sprudge Coffee"
+          },
+          {
+            "url": "https://slingadventures.com/wp-content/uploads/seniman-inside-bar.jpg",
+            "label": "Seniman Coffee Studio - a good digital nomad work space café in Ubud"
+          },
+          {
+            "url": "https://bali.com/wp-content/uploads/2021/12/seniman-kopi.jpg",
+            "label": "Seniman Coffee Studio - Bali.com"
           }
         ]
       }
@@ -323,304 +298,300 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Jan 29 · Fri · 1月29日 週五",
-      "label_zh": "抵達峇里島 · 水明漾入住 · 海灘日落",
-      "day_query": "Seminyak Beach Bali sunset",
-      "hotel_name": "The Layar – Private Villas Seminyak",
-      "hotel_name_zh": "萊雅私人別墅 · 2臥室泳池別墅",
-      "hotel_room": "2臥室私人泳池別墅",
-      "weather": "⛅ 30°/24° · 午後短暫陣雨",
+      "date": "Jan 29 · Fri · 第一天",
+      "label_zh": "抵達水明漾 · 瑞吉奢華入住",
+      "day_query": "St Regis Bali Resort Seminyak pool sunset",
+      "hotel_name": "The St. Regis Bali Resort",
+      "hotel_name_zh": "峇里島瑞吉酒店 · Ocean Suite 海景套房",
+      "hotel_room": "Ocean Suite 海景套房（兩間）",
+      "weather": "⛅ 29°/24° · 午後偶有短暫陣雨",
       "rain_pct": "40%",
       "slots": [
         {
           "time": "09:10",
-          "desc": "✈️ 搭乘中華航空 CI 771 從桃園機場 T1 出發 · 建議提前2.5小時到機場辦理登機 · 帶好護照、簽證（峇里島落地簽 $35/人 · NT$1,050/人）"
+          "desc": "✈️ 桃園機場 T1 搭乘 CI 771 出發 · 建議提前2小時抵達 · 商務艙可使用華航貴賓室 · 享用早餐與淋浴"
         },
         {
           "time": "14:25",
-          "desc": "🛬 抵達峇里島伍拉萊國際機場 DPS · 辦理落地簽（每人約 IDR 500,000 ≈ NT$1,050）· 入境通關取行李約45分鐘"
+          "desc": "🛬 抵達峇里島 Ngurah Rai 國際機場 DPS · 四人入境通關 · 建議事先辦好 Visa on Arrival（$35/人，約NT$1,050/人）或電子簽證"
         },
         {
-          "time": "15:30",
-          "desc": "🚗 The Layar 別墅專屬接送司機在出口等候（舉牌接機）· 前往水明漾約25分鐘 · 沿途可見峇里島熱帶風情"
-        },
-        {
-          "time": "16:15",
-          "desc": "🏡 抵達 The Layar 私人別墅 · 辦理入住 · 管家奉上迎賓雞尾酒與冰鎮毛巾 · 別墅設有私人泳池、兩間臥室、戶外客廳 · 安頓行李稍作休息"
-        },
-        {
-          "time": "17:30",
-          "desc": "🌅 步行5分鐘前往水明漾海灘 Seminyak Beach 欣賞峇里島著名日落 · 可在沙灘椅上點一杯新鮮椰子（約 IDR 30,000 ≈ NT$63）· 拍攝日落美照"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍹 前往 Potato Head Beach Club（步行8分鐘）享用 Sunset Cocktail Hour · 海景雞尾酒 + 小食 · 氛圍絕佳 · 人均約 IDR 200,000 ≈ NT$420 · 4人共約 NT$1,680"
-        },
-        {
-          "time": "20:30",
-          "desc": "🍽️ 前往 Merah Putih 梅拉普提印尼精緻餐廳晚餐（步行或叫 Grab 約5分鐘 NT$60）· 品嚐印尼群島風味拼盤與峇里島烤雞 · 4人晚餐約 NT$6,000 · 需提前預約"
-        },
-        {
-          "time": "22:30",
-          "desc": "🌙 返回別墅 · 在私人泳池旁小酌 · 感受峇里島熱帶夜晚 · 明日可睡到9點盡情休息"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 2,
-      "date": "Jan 30 · Sat · 1月30日 週六",
-      "label_zh": "水明漾悠閒日 · 海神廟日落朝聖",
-      "day_query": "Tanah Lot Temple Bali sunset",
-      "hotel_name": "The Layar – Private Villas Seminyak",
-      "hotel_name_zh": "萊雅私人別墅 · 2臥室泳池別墅",
-      "hotel_room": "2臥室私人泳池別墅",
-      "weather": "☀️ 31°/25° · 晴朗舒適",
-      "rain_pct": "20%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "🛏️ 悠閒起床 · 在別墅私人泳池畔享用管家送上的豪華早餐 · 新鮮熱帶水果拼盤、印尼炒飯 Nasi Goreng、現煮峇里島咖啡 · 含早餐無需額外費用"
-        },
-        {
-          "time": "10:30",
-          "desc": "🏊 在私人泳池游泳放鬆 · 或預約別墅內 In-villa Spa 峇里島傳統按摩（90分鐘 IDR 600,000/人 ≈ NT$1,260/人 · 4人共 NT$5,040）· 強烈推薦"
-        },
-        {
-          "time": "12:30",
-          "desc": "🥗 步行前往 Sardine 沙丁魚餐廳午餐 · 享用稻田景觀海鮮料理 · 現烤沙丁魚佐椰子飯 · 4人午餐約 NT$4,400 · 氣候涼爽適合戶外用餐"
-        },
-        {
-          "time": "14:30",
-          "desc": "🛍️ 水明漾精品購物 · 沿 Jl. Petitenget 逛設計師小店 · 推薦：Biasa（峇里島設計師品牌）· Drifter Surf Shop · 手工藝品市集 · 預算 NT$3,000–5,000"
+          "time": "15:15",
+          "desc": "🚐 酒店專屬豪華接送車 · 瑞吉酒店已安排私人 MPV 接機（含歡迎冷毛巾與飲料）· 車程約30–40分鐘至水明漾"
         },
         {
           "time": "16:00",
-          "desc": "🚗 包車前往海神廟 Tanah Lot（車程約40分鐘 · 包車費用 NT$1,200 來回）· 這是峇里島最著名的海上廟宇 · 建於海中岩石上 · 傍晚是最美時刻"
-        },
-        {
-          "time": "17:00",
-          "desc": "🛕 抵達海神廟 Tanah Lot · 門票 IDR 75,000/人 ≈ NT$158/人 · 4人共 NT$632 · 漲潮時廟宇四面環海如浮島 · 欣賞壯觀日落景色 · 建議在廟前廣場佔好位置等待日落"
-        },
-        {
-          "time": "18:30",
-          "desc": "🌅 海神廟日落是峇里島最經典的畫面 · 夕陽西下時廟宇剪影倒映海面 · 絕對值得等待 · 在附近小攤喝椰子水（IDR 20,000 ≈ NT$42）"
-        },
-        {
-          "time": "19:30",
-          "desc": "🚗 包車返回水明漾 · 途中可在 Jl. Raya Seminyak 路邊小店買些峇里島伴手禮"
-        },
-        {
-          "time": "20:30",
-          "desc": "🍽️ 在別墅附近的 La Lucciola 海灘餐廳享用輕鬆晚餐 · 地中海風味 · 海景用餐 · 4人約 NT$4,000 · 或叫外賣在別墅泳池畔用餐更浪漫"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 返回別墅 · 享受私人泳池夜泳 · 明日需退房前往虹夕諾雅 · 提醒整理行李"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 3,
-      "date": "Jan 31 · Sun · 1月31日 週日",
-      "label_zh": "退房水明漾 · 前往虹夕諾雅 · 烏布梯田",
-      "day_query": "Tegallalang Rice Terrace Ubud Bali",
-      "hotel_name": "Hoshinoya Bali",
-      "hotel_name_zh": "虹夕諾雅峇里島 · 河谷景觀套房",
-      "hotel_room": "河谷景觀套房 Ayung Valley Suite × 2間",
-      "weather": "⛅ 28°/22° · 山區涼爽宜人",
-      "rain_pct": "35%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "🛏️ 悠閒起床 · 在別墅享用最後一次豪華早餐 · 新鮮熱帶水果、印尼煎餅 Martabak、現榨果汁"
-        },
-        {
-          "time": "10:30",
-          "desc": "🧳 整理行李退房（Check-out 11:00）· 感謝管家服務 · 別墅管家協助搬運行李 · 虹夕諾雅專屬包車已在門口等候"
-        },
-        {
-          "time": "11:00",
-          "desc": "🚗 包車前往烏布（車程約1.5小時 · 含司機費用已含在虹夕諾雅接送服務中）· 沿途欣賞峇里島鄉村風光、椰林稻田"
-        },
-        {
-          "time": "12:30",
-          "desc": "🍖 抵達烏布前先在 Naughty Nuri's Warung 享用午餐 · 峇里島最著名的烤豬肋排 · 外皮酥脆肉質嫩滑 · 4人午餐約 NT$2,400 · 人氣超旺建議提早到"
-        },
-        {
-          "time": "14:00",
-          "desc": "🌾 前往德哥拉朗梯田 Tegallalang Rice Terrace（車程15分鐘）· 門票 IDR 50,000/人 ≈ NT$105 · 4人共 NT$420 · 峇里島最壯觀的梯田景觀 · 翠綠層疊梯田是必拍打卡景點 · 可走步道深入梯田間"
-        },
-        {
-          "time": "15:30",
-          "desc": "📸 梯田鞦韆體驗（Bali Swing · IDR 350,000/人 ≈ NT$735 · 4人共 NT$2,940）· 在梯田上空盪鞦韆是峇里島最熱門體驗 · 早午時段較涼爽舒適"
-        },
-        {
-          "time": "16:30",
-          "desc": "🏨 抵達虹夕諾雅峇里島 Hoshinoya Bali · 辦理入住 · 接待人員奉上歡迎茶與和菓子 · 欣賞阿勇河谷 Ayung River 壯闊景觀 · 兩間河谷套房分配房間"
+          "desc": "🏨 抵達 The St. Regis Bali · 辦理入住兩間 Ocean Suite · 管家服務迎賓 · 享用歡迎飲品與水果拼盤 · 稍作梳洗休息"
         },
         {
           "time": "17:30",
-          "desc": "🌿 自由探索虹夕諾雅 · 漫步日式庭園 · 欣賞河谷景色 · 感受靜謐奢華氛圍 · 可在無邊際泳池游泳 · 池畔景色令人屏息"
+          "desc": "🌅 步行至酒店私人海灘 · 欣賞水明漾日落（峇里島西岸日落約18:00–18:30）· 可在沙灘吧台點一杯 Sunset Cocktail（約NT$450/杯）"
         },
         {
-          "time": "19:00",
-          "desc": "🍱 在虹夕諾雅餐廳 Mana 享用晚餐 · 主廚以日式懷石技法結合峇里島食材 · 推薦：峇里島黑豬涮涮鍋、烤海鮮懷石套餐 · 4人晚餐約 NT$8,000（含酒水）"
+          "time": "18:30",
+          "desc": "🛁 回房梳洗換裝 · 管家可協助準備泡浴花瓣浴缸 · 享受抵達後的第一個放鬆時刻"
         },
         {
-          "time": "21:00",
-          "desc": "🌙 返回套房 · 在私人陽台聆聽阿勇河流水聲 · 仰望峇里島星空 · 感受虹夕諾雅獨特的寧靜奢華"
+          "time": "19:30",
+          "desc": "🍽️ 酒店內 Kayuputi 餐廳晚餐 · 峇里島最頂級海鮮餐廳之一 · 推薦炭烤龍蝦、海鮮拼盤、峇里島黑米甜點 · 四人預算約NT$16,000 · 請提前請管家預訂"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 餐後漫步酒店花園 · 或回到無邊際泳池旁小坐 · 享受峇里島夜晚微風 · 明日可睡到9點再起床，不需要早起"
         }
       ],
-      "day_photo": ""
+      "day_photo": "https://www.fivestarviews.co/wp-content/uploads/2024/11/Aerial-View-of-The-St.-Regis-Bali-Resort-at-Sunset.webp"
     },
     {
-      "day": 4,
-      "date": "Feb 1 · Mon · 2月1日 週一",
-      "label_zh": "虹夕諾雅放空日 · SPA · 烏布市場輕遊",
-      "day_query": "Hoshinoya Bali infinity pool Ayung River valley",
-      "hotel_name": "Hoshinoya Bali",
-      "hotel_name_zh": "虹夕諾雅峇里島 · 河谷景觀套房",
-      "hotel_room": "河谷景觀套房 Ayung Valley Suite × 2間",
-      "weather": "⛅ 27°/21° · 山區涼爽 · 午後偶有雲",
+      "day": 2,
+      "date": "Jan 30 · Sat · 第二天",
+      "label_zh": "海神廟日落 · 水明漾奢華漫遊",
+      "day_query": "Tanah Lot temple Bali sunset ocean",
+      "hotel_name": "The St. Regis Bali Resort",
+      "hotel_name_zh": "峇里島瑞吉酒店 · Ocean Suite 海景套房",
+      "hotel_room": "Ocean Suite 海景套房（兩間）",
+      "weather": "☀️ 30°/25° · 午前晴朗 · 傍晚多雲",
       "rain_pct": "30%",
       "slots": [
         {
           "time": "09:00",
-          "desc": "🍵 悠閒起床 · 享用虹夕諾雅招牌日式懷石早餐 · 在餐廳或要求送餐至房間 · 白粥配多樣小菜、味噌湯、烤魚、新鮮水果 · 邊吃邊欣賞河谷晨霧美景"
-        },
-        {
-          "time": "10:00",
-          "desc": "🧘 參加虹夕諾雅每日晨間瑜珈課程（免費 · 需提前預約 · 在河谷景觀平台進行）· 清晨山風徐徐 · 配合呼吸感受峇里島大自然能量"
-        },
-        {
-          "time": "11:00",
-          "desc": "💆 預約虹夕諾雅 SPA 療程 · 推薦：峇里島傳統按摩 90分鐘（IDR 900,000/人 ≈ NT$1,890）+ 花瓣浴 · 4人共約 NT$7,560 · 使用在地草藥精油 · 絕對放鬆身心"
-        },
-        {
-          "time": "13:00",
-          "desc": "🥗 在虹夕諾雅 Pool Bar 享用輕食午餐 · 無邊際泳池畔用餐 · 三明治、沙拉、新鮮果汁 · 4人約 NT$2,400 · 飯後可直接跳入泳池"
-        },
-        {
-          "time": "14:30",
-          "desc": "🏊 在虹夕諾雅無邊際泳池盡情放空 · 泳池懸浮於阿勇河谷之上 · 景色無與倫比 · 備有毛巾、防曬服務 · 完全放鬆不安排任何行程"
-        },
-        {
-          "time": "16:00",
-          "desc": "🛕 如有精力可包車前往烏布皇宮 Puri Saren Agung（車程15分鐘 · 包車 NT$600 來回）· 門票免費 · 或在虹夕諾雅繼續放空 · 完全尊重個人選擇"
-        },
-        {
-          "time": "17:30",
-          "desc": "🌄 回到虹夕諾雅 · 在套房陽台欣賞阿勇河谷黃昏 · 點上香氛蠟燭 · 叫一杯 Room Service 雞尾酒（IDR 150,000 ≈ NT$315）"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 前往 Locavore 洛卡沃爾享用峇里島最佳餐廳晚餐（包車15分鐘 NT$600）· 主廚發想菜單 · 在地食材創意料理 · 4人晚餐約 NT$14,400 · 必須提前預約 · 是烏布最難訂位的餐廳"
-        },
-        {
-          "time": "21:30",
-          "desc": "🌙 包車返回虹夕諾雅 · 沿途欣賞烏布夜景 · 回到套房享受虹夕諾雅的靜謐夜晚 · 聆聽河谷水聲入眠"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 5,
-      "date": "Feb 2 · Tue · 2月2日 週二",
-      "label_zh": "虹夕諾雅深度放空 · 烏布聖泉寺 · 花園晚餐",
-      "day_query": "Tirta Empul Temple Bali holy spring",
-      "hotel_name": "Hoshinoya Bali",
-      "hotel_name_zh": "虹夕諾雅峇里島 · 河谷景觀套房",
-      "hotel_room": "河谷景觀套房 Ayung Valley Suite × 2間",
-      "weather": "🌤️ 28°/22° · 晴時多雲",
-      "rain_pct": "25%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "☕ 悠閒起床 · 在套房享用 Room Service 早餐 · 日式早餐套餐送至陽台 · 邊享用早餐邊欣賞晨霧中的阿勇河谷 · 這是虹夕諾雅最奢華的早晨體驗"
+          "desc": "🌅 悠閒起床 · 享用瑞吉酒店豪華早餐 · 可選擇在房內管家送餐（In-Room Dining）或前往餐廳 · 推薦峇里島傳統早餐 Nasi Goreng + 新鮮熱帶水果拼盤 + 現打果汁"
         },
         {
           "time": "10:30",
-          "desc": "🌿 參加虹夕諾雅「峇里島文化體驗」活動 · 選項：峇里島花環製作 Canang Sari · 或峇里島傳統布染 Batik 課程 · 費用含在住宿中 · 深入了解峇里島文化"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍱 在虹夕諾雅主餐廳 Mana 享用午餐 · 推薦：峇里島香料炒飯 + 烤海鮮 + 椰奶咖哩 · 4人午餐約 NT$3,600 · 餐廳三面環繞熱帶植物"
-        },
-        {
-          "time": "14:00",
-          "desc": "🛕 包車前往聖泉寺 Tirta Empul（車程20分鐘 · 包車 NT$800 來回）· 門票 IDR 50,000/人 ≈ NT$105 · 這是峇里島最神聖的印度教聖泉廟宇 · 可觀看信徒在聖泉中淨身儀式 · 氛圍莊嚴神秘"
-        },
-        {
-          "time": "15:30",
-          "desc": "🎨 順道前往烏布藝術市場 Ubud Art Market（步行可達或車程5分鐘）· 選購手工藝品、峇里島畫作、木雕、絲巾 · 記得殺價 · 預算 NT$2,000–4,000"
-        },
-        {
-          "time": "17:00",
-          "desc": "🚗 返回虹夕諾雅 · 在無邊際泳池享受下午時光 · 點一杯熱帶雞尾酒 · 完全放空 · 這是在虹夕諾雅的最後一個下午"
-        },
-        {
-          "time": "18:30",
-          "desc": "🛁 回套房梳洗換裝 · 享用虹夕諾雅提供的峇里島香料浴 · 在浴缸中放入玫瑰花瓣與香料 · 為最後一晚增添儀式感"
-        },
-        {
-          "time": "19:30",
-          "desc": "🌺 前往 Mozaic 馬賽克花園餐廳享用最後一晚精緻晚餐（包車10分鐘 NT$600）· 法式融合峇里島料理 · 花園燭光氛圍 · 4人晚餐約 NT$9,200 · 需提前預約 · 是烏布最浪漫的晚餐選擇"
-        },
-        {
-          "time": "21:30",
-          "desc": "🌙 返回虹夕諾雅 · 在套房陽台小酌 · 回顧這幾天的美好時光 · 整理行李準備明日退房 · 聆聽阿勇河谷最後一夜的流水聲"
-        }
-      ],
-      "day_photo": ""
-    },
-    {
-      "day": 6,
-      "date": "Feb 3 · Wed · 2月3日 週三",
-      "label_zh": "退房 · 最後的峇里島時光 · 返台",
-      "day_query": "Bali airport departure tropical farewell",
-      "hotel_name": "— 返台日 —",
-      "hotel_name_zh": "— 返台日 · 無需住宿 —",
-      "hotel_room": "返台日",
-      "weather": "☀️ 30°/24° · 晴朗",
-      "rain_pct": "15%",
-      "slots": [
-        {
-          "time": "09:00",
-          "desc": "🛏️ 最後一次悠閒起床 · 享用虹夕諾雅豐盛日式早餐 · 慢慢品嚐每一道料理 · 欣賞阿勇河谷最後的晨景 · 依依不捨地道別"
-        },
-        {
-          "time": "10:30",
-          "desc": "🧳 整理行李 · 辦理退房（Check-out 11:00）· 感謝虹夕諾雅全體員工的貼心服務 · 行李寄存大廳"
-        },
-        {
-          "time": "11:00",
-          "desc": "🚗 虹夕諾雅安排包車前往機場（車程約1.5小時 · 接送服務含在住宿中）· 途中可在烏布市區停留購買最後的伴手禮"
-        },
-        {
-          "time": "11:30",
-          "desc": "🛍️ 在烏布市區最後採購 · 推薦：Bali Buda 有機超市購買峇里島咖啡、香料、椰子油 · 預算 NT$1,500–2,500 · 時間約30分鐘"
+          "desc": "🏊 酒店無邊際泳池時光 · 或預約 Iridium Spa 上午療程（推薦：峇里島傳統按摩90分鐘，約NT$3,500/人）· 避開中午最熱時段"
         },
         {
           "time": "12:30",
-          "desc": "🥗 在水明漾或機場附近享用最後一頓午餐 · 推薦 Revolver Espresso 輕食 + 峇里島咖啡 · 或在機場 Puri Bali Restaurant 用餐 · 4人約 NT$2,000"
+          "desc": "🥗 酒店 The Patio 露台午餐 · 輕食沙拉、三明治、峇里島風味輕食 · 四人約NT$4,000 · 在棕櫚樹蔭下用餐，涼爽舒適"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚐 包車前往水明漾精品街區 Seminyak Square & Jl. Kayu Aya · 逛逛設計師品牌、峇里島手工藝品 · 可在 Revolver Espresso 喝下午咖啡（四人約NT$1,200）· 包車半天約NT$1,500"
+        },
+        {
+          "time": "15:30",
+          "desc": "🚐 包車前往【海神廟 Tanah Lot】· 車程約30–40分鐘 · 海神廟是峇里島最著名地標之一，建於16世紀的海上岩石神廟 · 門票約NT$200/人"
+        },
+        {
+          "time": "16:00",
+          "desc": "🌊 抵達海神廟 · 建議16:00–17:30之間參觀 · 可在退潮時步行至神廟岩石旁 · 廟內有神聖海蛇（Poleng）可觀賞 · 周邊有傳統市集可購買伴手禮"
+        },
+        {
+          "time": "17:30",
+          "desc": "🌅 在海神廟欣賞峇里島最美日落 · 神廟剪影倒映在金色海面上 · 此為峇里島必拍絕景 · 建議帶相機或請包車司機協助拍照"
+        },
+        {
+          "time": "19:00",
+          "desc": "🚐 包車返回水明漾 · 前往 Merah Putih 紅白餐廳晚餐 · 峇里島現代印尼料理 · 推薦烤乳豬飯（Babi Guling）、峇里島沙嗲 · 四人約NT$4,800"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 返回瑞吉酒店 · 管家已備好夜床服務（Turndown Service）· 可在私人陽台享用迷你吧飲品 · 欣賞夜晚海景 · 明日早上9點起床後將前往虹夕諾雅"
+        }
+      ],
+      "day_photo": "https://png.pngtree.com/thumb_back/fw800/background/20240522/pngtree-a-beauty-of-sunset-on-tanah-lot-temple-in-bali-image_15668030.jpg"
+    },
+    {
+      "day": 3,
+      "date": "Jan 31 · Sun · 第三天",
+      "label_zh": "梯田巡禮 · 移住虹夕諾雅",
+      "day_query": "Tegallalang rice terrace Ubud Bali green",
+      "hotel_name": "Hoshinoya Bali",
+      "hotel_name_zh": "虹夕諾雅峇里島 · 私人泳池別墅",
+      "hotel_room": "Villa with Private Pool 私人泳池別墅（兩棟）",
+      "weather": "⛅ 27°/22° · 山區涼爽 · 偶有雲霧",
+      "rain_pct": "45%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "🌅 悠閒起床 · 享用瑞吉最後一次豪華早餐 · 推薦在海景餐廳用餐 · 盡情享用龍蝦蛋捲、法式吐司、熱帶水果"
+        },
+        {
+          "time": "10:30",
+          "desc": "🧳 退房 Check-out · 管家協助搬運行李 · 酒店安排私人豪華 MPV 送往烏布（車程約1.5小時）· 四人包車含司機約NT$2,500"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚐 出發前往烏布 · 途中可請司機在 Tanah Lot 附近的 Canggu 咖啡館稍作停留喝杯咖啡"
+        },
+        {
+          "time": "12:00",
+          "desc": "🌾 抵達【德哥拉朗梯田 Tegallalang Rice Terrace】· 峇里島最壯觀的水稻梯田景觀 · UNESCO 世界文化遺產的傳統 Subak 灌溉系統 · 門票約NT$60/人 · 建議穿著舒適鞋子，路面有些崎嶇"
+        },
+        {
+          "time": "12:30",
+          "desc": "📸 梯田拍照漫步 · 可在梯田旁的咖啡館（如 Kopi Desa）俯瞰梯田全景享用午餐 · 推薦峇里島炒飯、沙嗲、椰子水 · 四人約NT$1,600 · 中午有遮蔭，不會太熱"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚐 包車前往烏布市場 Ubud Market 快速逛逛（約30分鐘）· 購買峇里島傳統布料、木雕、銀飾伴手禮 · 注意需議價"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏨 抵達【虹夕諾雅峇里島 Hoshinoya Bali】· 辦理入住兩棟私人泳池別墅 · 酒店位於 Ayung 河谷懸崖邊，需搭乘專屬接駁船（Gondola）進入，充滿秘境感 · 歡迎儀式含抹茶與和菓子"
+        },
+        {
+          "time": "16:00",
+          "desc": "🌿 探索虹夕諾雅 · 別墅私人泳池泡水 · 欣賞 Ayung 河谷叢林景觀 · 感受日式禪意與峇里島自然融合的獨特氛圍 · 酒店提供浴衣（Yukata）可換上放鬆"
+        },
+        {
+          "time": "17:30",
+          "desc": "🧘 參加酒店傍晚瑜伽課程（免費，住客專屬）· 在叢林景觀平台進行，配合日落時分，身心極度放鬆"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍱 虹夕諾雅餐廳日式懷石晚餐 · 以峇里島在地食材結合日本料理技法 · 推薦：峇里島鮪魚刺身、松葉蟹、抹茶甜點 · 四人約NT$19,200 · 請提前預約"
+        },
+        {
+          "time": "21:00",
+          "desc": "🌙 回到別墅 · 在私人泳池旁躺椅小酌 · 仰望峇里島星空 · 叢林蟲鳴聲入眠 · 明日可完全在酒店放空"
+        }
+      ],
+      "day_photo": "https://www.antararentalbali.com/wp-content/uploads/2025/07/Tegallalang-rice-terrace-scaled.webp"
+    },
+    {
+      "day": 4,
+      "date": "Feb 1 · Mon · 第四天",
+      "label_zh": "虹夕諾雅完全放空日 · 不出門",
+      "day_query": "Hoshinoya Bali private pool villa jungle relaxation",
+      "hotel_name": "Hoshinoya Bali",
+      "hotel_name_zh": "虹夕諾雅峇里島 · 私人泳池別墅",
+      "hotel_room": "Villa with Private Pool 私人泳池別墅（兩棟）",
+      "weather": "🌤️ 27°/22° · 山區涼爽舒適",
+      "rain_pct": "35%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "🌸 悠閒起床 · 管家送來日式懷石早餐至別墅 · 含味噌湯、烤魚、白米飯、醃漬小菜、和菓子 · 在私人泳池旁用早餐 · 今日完全不出門，盡情放空"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏊 別墅私人泳池時光 · 浮在水中聆聽 Ayung 河谷的流水聲與鳥鳴 · 可在泳池旁閱讀或小睡 · 酒店提供防曬乳、冷毛巾服務"
+        },
+        {
+          "time": "12:00",
+          "desc": "🍱 酒店餐廳輕食午餐 · 推薦：峇里島風味沙拉、壽司卷、冷麵 · 或請管家安排 In-Villa Dining 在別墅用餐 · 四人約NT$6,000"
         },
         {
           "time": "13:30",
-          "desc": "🛬 抵達峇里島伍拉萊機場 DPS · 辦理中華航空 CI 772 登機手續 · 建議提前2小時到達 · 行李托運 · 通過安檢"
+          "desc": "💆 預約虹夕諾雅 SPA 森林療癒療程 · 推薦：峇里島傳統 Jamu 草藥按摩（90分鐘，約NT$4,500/人）· 在叢林景觀療癒室進行，聆聽河谷流水聲，極致放鬆"
+        },
+        {
+          "time": "15:30",
+          "desc": "🍵 日式茶道體驗（酒店免費住客活動）· 學習抹茶點茶儀式 · 在茶室俯瞰 Ayung 河谷 · 配合和菓子品嚐"
+        },
+        {
+          "time": "17:00",
+          "desc": "🛁 回別墅享用花瓣浴 · 可請管家準備峇里島傳統花瓣泡浴 · 含薑黃、茉莉、玫瑰花瓣 · 搭配精油蠟燭，浪漫至極"
+        },
+        {
+          "time": "18:30",
+          "desc": "🌅 在別墅私人陽台欣賞 Ayung 河谷日落 · 叢林金光灑落，景色絕美 · 管家送來 Sunset Cocktail 與峇里島小點心"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍱 虹夕諾雅懷石晚餐 · 今日主廚特選：峇里島龍蝦、和牛薄片涮涮鍋、季節性甜點 · 四人約NT$19,200 · 燭光晚餐氛圍，適合拍照留念"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 餐後在酒店公共區域散步 · 欣賞夜間叢林燈光 · 或回別墅在泳池旁小酌清酒 · 今日徹底放空，身心完全充電"
+        }
+      ],
+      "day_photo": "https://lenjourneys.com/wp-content/uploads/2022/11/hoshinoya-bali-villa-gazebo-1024x768.jpg?is-pending-load=1"
+    },
+    {
+      "day": 5,
+      "date": "Feb 2 · Tue · 第五天",
+      "label_zh": "烏布聖泉寺 · 虹夕諾雅最終夜",
+      "day_query": "Tirta Empul temple holy spring Ubud Bali",
+      "hotel_name": "Hoshinoya Bali",
+      "hotel_name_zh": "虹夕諾雅峇里島 · 私人泳池別墅",
+      "hotel_room": "Villa with Private Pool 私人泳池別墅（兩棟）",
+      "weather": "⛅ 28°/23° · 早晨涼爽 · 午後舒適",
+      "rain_pct": "40%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "🌸 悠閒起床 · 享用別墅送餐早餐 · 今日行程輕鬆，上午先在酒店放鬆，不需要趕路"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚐 酒店安排包車出發 · 前往【聖泉寺 Tirta Empul】· 車程約20分鐘 · 這是峇里島最神聖的印度教聖水廟，建於西元962年 · 門票約NT$90/人"
+        },
+        {
+          "time": "11:00",
+          "desc": "🛕 參觀聖泉寺 · 可選擇參加傳統淨化儀式（需穿著沙龍，廟方提供租借）· 在24個聖水泉口進行祈福淨化儀式，是峇里島最獨特的靈性體驗之一"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 包車前往烏布 Locavore 餐廳午餐 · 峇里島最受好評的創意料理餐廳 · 使用100%在地食材 · 四人約NT$5,600 · 需提前預約"
         },
         {
           "time": "14:30",
-          "desc": "🛒 在機場免稅店最後購物 · 推薦：Kopi Luwak 麝香貓咖啡、峇里島手工巧克力、Joger 峇里島紀念T恤 · 預算 NT$2,000–3,000"
+          "desc": "☕ 步行至 Seniman Coffee Studio 下午茶 · 峇里島精品咖啡 + 椰子奶昔 + 香蕉煎餅 · 四人約NT$1,000 · 在文青咖啡館感受烏布藝術氛圍"
+        },
+        {
+          "time": "15:30",
+          "desc": "🎨 參觀烏布皇宮 Puri Saren Agung（免費）· 感受峇里島傳統王室建築之美 · 周邊有藝術畫廊可逛 · 若有興趣可購買當地藝術家手作畫作"
+        },
+        {
+          "time": "17:00",
+          "desc": "🚐 包車返回虹夕諾雅 · 在別墅泳池享受最後一個下午 · 管家準備迎賓點心與飲料"
+        },
+        {
+          "time": "18:30",
+          "desc": "🧘 參加酒店傍晚冥想課程（住客免費）· 在河谷景觀平台進行 · 引導式冥想讓身心徹底沉澱"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍱 虹夕諾雅最後一晚懷石晚餐 · 主廚特別安排告別套餐 · 含峇里島鴨肉料理、季節刺身、特製甜點 · 四人約NT$19,200 · 可請酒店安排別墅私人燭光晚餐（需提前預約，加收服務費）"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 最後一晚在別墅私人泳池下小酌 · 回顧這幾天的美好時光 · 整理行李 · 明日需於合理時間退房前往機場"
+        }
+      ],
+      "day_photo": "https://cdn.generationvoyage.fr/2025/04/Le-temple-de-Tirta-Empul.jpeg"
+    },
+    {
+      "day": 6,
+      "date": "Feb 3 · Wed · 第六天",
+      "label_zh": "依依不捨 · 返回台灣",
+      "day_query": "Bali airport departure tropical farewell",
+      "hotel_name": "— 返程日 —",
+      "hotel_name_zh": "返程日 · 無住宿",
+      "hotel_room": "—",
+      "weather": "☀️ 29°/24° · 晴朗",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "🌸 最後一次悠閒起床 · 享用虹夕諾雅最後一頓日式早餐 · 在別墅陽台慢慢品味，不要急"
+        },
+        {
+          "time": "10:30",
+          "desc": "🧳 退房 Check-out · 管家協助搬運行李 · 搭乘酒店接駁船離開 · 與虹夕諾雅依依不捨道別"
+        },
+        {
+          "time": "11:00",
+          "desc": "🚐 酒店安排豪華 MPV 接送前往機場 · 車程約1.5小時 · 建議11:00出發確保充裕時間 · 途中可請司機在路邊攤購買最後一杯新鮮椰子水（約NT$60）"
+        },
+        {
+          "time": "12:30",
+          "desc": "🛫 抵達 Ngurah Rai 機場 · CI 772 航班建議提前3小時報到 · 使用華航商務艙快速通關與優先托運 · 前往貴賓室休息"
+        },
+        {
+          "time": "13:00",
+          "desc": "✈️ 機場貴賓室 Lounge · 享用午餐、沐浴、放鬆 · 購買最後一批免稅伴手禮（峇里島咖啡、Lulur 身體磨砂膏、峇里島海鹽）"
         },
         {
           "time": "15:45",
-          "desc": "✈️ 搭乘中華航空 CI 772 從峇里島出發 · 帶著滿滿的美好回憶與伴手禮 · 享受5小時10分鐘的舒適回程"
+          "desc": "✈️ CI 772 起飛 · DPS → TPE · 商務艙享用機上精緻餐點 · 飛行時間約5小時10分鐘"
         },
         {
           "time": "20:55",
-          "desc": "🏠 抵達桃園機場 T1 · 入境取行李 · 結束這趟難忘的峇里島奢華之旅 · 心中已開始期待下一次的峇里島之約"
+          "desc": "🛬 抵達桃園機場 T1 · 通關取行李 · 帶著滿滿的峇里島記憶與充電後的身心返家 · 建議搭乘計程車或預訂接機服務返家"
         }
       ],
       "day_photo": ""
@@ -628,49 +599,45 @@
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（4人 · Premium Economy）",
+      "label": "✈️ 來回機票（4人商務艙）",
       "amount_ntd": 72000
     },
     {
-      "label": "🏨 The Layar 私人別墅 2晚（2臥室泳池別墅）",
-      "amount_ntd": 64000
+      "label": "🏨 瑞吉酒店 2晚（兩間套房）",
+      "amount_ntd": 96000
     },
     {
-      "label": "🏨 虹夕諾雅峇里島 3晚（河谷套房 × 2間）",
+      "label": "🏨 虹夕諾雅峇里島 3晚（兩棟別墅）",
       "amount_ntd": 108000
     },
     {
-      "label": "🍽️ 餐飲（6天 · 含精緻餐廳、咖啡廳、小食）",
-      "amount_ntd": 68000
+      "label": "🍽️ 餐飲（6天精緻餐食）",
+      "amount_ntd": 62000
     },
     {
-      "label": "🎫 景點門票（海神廟、梯田、聖泉寺等）",
-      "amount_ntd": 4000
+      "label": "💆 SPA 療程（虹夕諾雅 4人）",
+      "amount_ntd": 18000
     },
     {
-      "label": "🚗 包車交通（含機場接送、景點往返）",
+      "label": "🚐 包車交通（全程）",
       "amount_ntd": 12000
     },
     {
-      "label": "💆 SPA 療程（虹夕諾雅 + The Layar · 4人）",
-      "amount_ntd": 12600
+      "label": "🎫 景點門票（海神廟、梯田、聖泉寺等）",
+      "amount_ntd": 3000
     },
     {
       "label": "🛍️ 購物伴手禮",
-      "amount_ntd": 14000
+      "amount_ntd": 15000
     },
     {
-      "label": "📋 峇里島落地簽（4人 × NT$1,050）",
+      "label": "📋 峇里島落地簽（4人）",
       "amount_ntd": 4200
-    },
-    {
-      "label": "🎡 峇里島鞦韆體驗（4人）",
-      "amount_ntd": 2940
     }
   ],
-  "cost_total_ntd": 361740,
-  "budget_remaining_ntd": 38260,
-  "chat_input": "2027年1月29日前往峇里島6天5夜，1/29搭華航9:10出發，2/3搭華航15:45回來。4個人可能需要兩個房間，前兩晚住在水明漾海灘，後3晚住在虹夕諾雅峇里島，他們打算盡量在虹夕諾雅放空。預算400,000台幣。每天睡到九點起床，不要太熱的行程，必去的地方有海神廟跟梯田。吃好睡好吃美食走豪華行程。",
+  "cost_total_ntd": 390200,
+  "budget_remaining_ntd": 9800,
+  "chat_input": "2027年1月29日前往峇里島6天5夜，1/29搭華航9:10出發，2/3搭華航15:45回來。4個人可能需要兩個房間，前兩晚住在水明漾附近超高檔酒店，後3晚住在虹夕諾雅峇里島，他們打算盡量在虹夕諾雅放空，可以有一天不出門。預算400,000台幣。每天睡到九點起床，不要太熱的行程，必去的地方有海神廟跟梯田。吃好睡好吃美食走豪華行程。",
   "photos": {
     "hero": [
       {
@@ -696,16 +663,16 @@
         "label": "First-timers Guide to Bali Travel: 11 Tips You Need to Know"
       },
       {
-        "url": "https://specials-images.forbesimg.com/imageserve/675172642/960x0.jpg",
-        "label": "Top 7 Reasons To Visit Bali"
-      },
-      {
         "url": "https://i0.wp.com/greeneyedtraveller.com/wp-content/uploads/2023/07/kellingking.png?resize=1080%2C675&ssl=1",
         "label": "12 beautiful places to visit in Bali - Green Eyed Traveller"
+      },
+      {
+        "url": "https://res.klook.com/image/upload/q_85/c_fill,w_750/v1654586251/blog/wsnqunszlajd5ypjo29l.jpg",
+        "label": "17 Surprising and Important Things You Should Know Before Your First Trip  to Bali - Klook Travel Blog"
       }
     ]
   },
-  "chat_hash": "4ad78b407a3927ec9150fb82307c2c57d4dbdb61adaa2d9eb24c00c28eb22c7e",
+  "chat_hash": "0e725eabd46af93bbfa0897ab940db1fe22bcd891b17ed2400f8a21e9357f32c",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-06-25T15:36:16.036102"
+  "generated_at": "2026-06-25T15:41:08.788756"
 }
