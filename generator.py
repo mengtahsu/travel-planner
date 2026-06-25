@@ -471,8 +471,11 @@ def search_ddg_images(query: str, count: int = 4) -> list[dict[str, str]]:
         if not photos:
             return [{"url": "", "label": query}] * max(count, 1)
         return photos
-    except ImportError as e:
-        print(f"        DDG Images: {e}")
+    except Exception as e:
+        # DDG image search is best-effort — a missing package, an empty result
+        # (DDGSException "No results found."), rate limiting, or a network error
+        # must not crash the whole generation. Degrade to placeholders.
+        print(f"        DDG Images: {type(e).__name__}: {e}")
         return [{"url": "", "label": query}] * max(count, 1)
 
 
