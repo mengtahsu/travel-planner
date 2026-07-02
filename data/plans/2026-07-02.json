@@ -1,74 +1,74 @@
 {
   "destination_en": "Tainan, Taiwan",
-  "title_zh": "台南夏日悠閒吃貨與購物 · 大二生自駕三天兩夜之旅",
+  "title_zh": "台南三天兩夜 · 大二生青春自駕吃貨街頭之旅",
   "date_range": "2026/08/14–08/16",
   "start_date": "2026-08-14",
   "end_date": "2026-08-16",
-  "departure": "Zhunan, Miaoli (Self-drive) / 苗栗竹南 (自駕)",
-  "departure_code": "Zunan",
+  "departure": "Zhunan, Miaoli (竹南)",
+  "departure_code": "ZHN",
   "destination_code": "TNN",
   "travelers": 4,
   "days": 3,
   "budget_ntd": 25000,
   "flight": {
-    "airline": "Self-drive (National Highway 1) / 自駕往返 (國道一號)",
+    "airline": "自駕往返 (Self-Drive Private Car)",
     "departure_date": "8月14日",
     "return_date": "8月16日",
-    "total_price_ntd": 3500,
+    "total_price_ntd": 3200,
     "outbound": {
-      "flight_no": "Car Rental & Fuel / 租車與油資",
-      "route": "Zhunan → Tainan / 竹南 → 台南",
+      "flight_no": "🚗 自駕",
+      "route": "竹南 Zhunan → 台南 Tainan",
       "depart_time": "08:30",
       "arrive_time": "11:30",
       "duration": "3h 00m",
-      "class": "SUV / 轎車"
+      "class": "國道一號 (National Highway No. 1)"
     },
     "inbound": {
-      "flight_no": "Car Rental & Fuel / 租車與油資",
-      "route": "Tainan → Zhunan / 台南 → 竹南",
-      "depart_time": "15:00",
-      "arrive_time": "18:00",
+      "flight_no": "🚗 自駕",
+      "route": "台南 Tainan → 竹南 Zhunan",
+      "depart_time": "15:30",
+      "arrive_time": "18:30",
       "duration": "3h 00m",
-      "class": "SUV / 轎車"
+      "class": "國道三號 (National Highway No. 3)"
     }
   },
   "hotels": [
     {
       "name": "U.I.J Hotel & Hostel",
       "name_zh": "UIJ 友愛街旅館",
-      "district": "West Central District / 中西區",
+      "district": "中西區 West Central District",
       "day_range": "1–3",
       "nights": 2,
-      "price_ntd": 11000,
+      "price_ntd": 10500,
       "stars": "★★★★☆",
-      "room_type": "Friendly Quadruple Room / 友樂四人房 (一間房)",
-      "breakfast": "Excludes breakfast (Great for local food hunting) / 不含早 (方便品嚐在地早餐)",
-      "amenities": "🌐 Free Wi-Fi · ☕ Shared Kitchen & Salon · 🌿 Outdoor Terrace · 🚗 Parking Space / 免費無線網路 · 共享廚房與沙龍 · 戶外露臺 · 特約停車場",
-      "search_query": "UIJ Hotel Hostel Tainan room",
+      "room_type": "友樂客房 (四人房) / Quadruple Room",
+      "breakfast": "不含早餐 (保留胃口吃台南在地小吃)",
+      "amenities": "🌐 免費高鐵接駁車 (不適用) · 🛋️ 共享黑膠樂空間 · 🍳 共享廚房 · 🌿 戶外露臺",
+      "search_query": "UIJ Hotel Hostel Tainan Taiwan",
       "photos": [
         {
-          "url": "https://images.trvl-media.com/lodging/22000000/21220000/21213100/21213036/04f53d78.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
-          "label": "U.I.J Hotel & Hostel - Tainan : prix et avis 2026 | Hotels.com"
-        },
-        {
-          "url": "https://res.klook.com/klook-hotel/image/upload/w_750,c_fill,q_85/travelapi/22000000/21220000/21213100/21213036/9cbd3162_z.jpg",
-          "label": "U.I.J Hotel & Hostel in Tainan | 2026 Updated prices, deals - Klook  Australia"
-        },
-        {
-          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/821755974.jpg?k=a33b9075a9ab730851a0e467024e62204480b9cfc3714987ee8ec333161afa79&o=",
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/590552273.jpg?k=596b3d3a255b289f3274c5678c30528bf911c6dc3b0222c3fa7498a6e0f65e16&o=",
           "label": "U.I.J Hotel & Hostel, Tainan (updated prices 2026)"
         },
         {
-          "url": "https://image.kkday.com/v2/image/get/c_fit%2Cq_55%2Ct_webp%2Cw_960/s1.kkday.com/product_129745/20230110090016_VA9yL/jpg",
-          "label": "Tainan U.I.J Hotel & Hostel Stay | Butler Tour & Cake Making - KKday"
-        },
-        {
-          "url": "https://images.trvl-media.com/lodging/22000000/21220000/21213100/21213036/50eee4bf.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+          "url": "https://images.trvl-media.com/lodging/22000000/21220000/21213100/21213036/4486208a.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "label": "U.I.J Hotel & Hostel, Tainan: Hotel Reviews, Rooms & Prices | Hotels.com"
         },
         {
-          "url": "https://images.trvl-media.com/lodging/22000000/21220000/21213100/21213036/4c0501e2.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+          "url": "https://ak-d.tripcdn.com/images/1mc2z12000fd8f6le92EE_R_960_660_R5_D.jpg",
+          "label": "U.I.J Hotel & Hostel (Tainan) - 2026 Prices, Reviews & Deals | Trip.com"
+        },
+        {
+          "url": "https://images.trvl-media.com/lodging/22000000/21220000/21213100/21213036/10ebcf26.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
           "label": "U.I.J Hotel & Hostel Reviews, Deals & Photos 2026 - Expedia.com"
+        },
+        {
+          "url": "https://res.klook.com/klook-hotel/image/upload/w_750,c_fill,q_85/travelapi/22000000/21220000/21213100/21213036/9cbd3162_z.jpg",
+          "label": "U.I.J Hotel & Hostel in Tainan | 2026 Updated prices, deals - Klook United  States"
+        },
+        {
+          "url": "https://images.trvl-media.com/lodging/22000000/21220000/21213100/21213036/cd9759dd.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+          "label": "U.I.J Hotel & Hostel, Tainan: Hotel Reviews, Rooms & Prices | Hotels.com"
         }
       ]
     }
@@ -76,81 +76,81 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "A SHA Restaurant",
-        "name_zh": "阿霞飯店",
-        "stars": "⭐",
-        "dish": "🦀 Signature: Crab Glutinous Rice / 招牌：紅蟳米糕、鱔魚意麵",
-        "address": "No. 7, Lane 84, Section 2, Minquan Rd, West Central District",
-        "price_ntd": 3200,
-        "price_label": "Set menu for 4 / 四人合菜約 NT$3,200",
-        "hours": "11:00–14:30 / 17:00–21:00",
-        "search_query": "A SHA Restaurant Tainan",
+        "name": "A-Yu Beef Shabu Shabu",
+        "name_zh": "阿裕牛肉涮涮鍋 (崑崙店)",
+        "stars": "⭐⭐",
+        "dish": "🥩 招牌：現切溫體牛肉、牛雜鍋底",
+        "address": "台南市仁德區崑崙路733-1號",
+        "price_ntd": 2800,
+        "price_label": "四人用餐約 NT$2,800",
+        "hours": "11:00–14:00 / 17:00–21:00",
+        "search_query": "A-Yu Beef Shabu Shabu Tainan",
         "photos": [
           {
-            "url": "https://image.kkday.com/v2/image/get/c_fit%2Cq_55%2Ct_webp%2Cw_960/s1.kkday.com/product_130374/20220616115012_JmUJf/jpg",
-            "label": "Tainan Axia Hotel Dining: Exclusive Set Meals for 2 or 4 People - KKday"
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b315f22b0e594070a68dd6a2bef0e685.jpeg?width=1000",
+            "label": "A-Yu Beef Shabu Shabu – Tainan - a MICHELIN Guide Restaurant"
           },
           {
-            "url": "http://ashadrynoodle.com/cdn/shop/products/08-22-2021_A-SHA_TAINAN-ORIGINAL_0405_300dpi_1200x.jpg?v=1636031893",
-            "label": "Tainan Thin Noodles - Original Flavor"
+            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5cdd255677b64ef7ae7e8dbc40a8dbfc.jpeg",
+            "label": "A-Yu Beef Shabu Shabu – Tainan - a MICHELIN Guide Restaurant"
           },
           {
-            "url": "https://ashadrynoodle.com/cdn/shop/products/08-22-2021_A-SHA_TAINAN_ORIGINAL_0432_72dpi_1500x.jpg?v=1720822198",
-            "label": "Tainan Thin Noodles - Original Flavor"
+            "url": "https://image.kkday.com/v2/image/get/c_fit%2Cq_55%2Ct_webp%2Cw_960/s1.kkday.com/product_130363/20220616091452_2O6FH/jpg",
+            "label": "Reservations to Skip the Line • Michelin Bib Gourmand Recommendation] Tainan  | A-Yu Beef Shabu-Shabu, Kunlun Branch | Hot Pot - KKday"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Bar T.C.R.C.",
-        "name_zh": "Bar T.C.R.C. 前科累累俱樂部",
-        "stars": "",
-        "dish": "🍹 Custom Cocktails & Finger Foods / 招牌：客製化調酒、炸物拼盤",
-        "address": "No. 109, Xinmei St, West Central District",
-        "price_ntd": 2000,
-        "price_label": "Average NT$500/person / 每人均消約 NT$500",
-        "hours": "20:00–02:00",
-        "search_query": "Bar TCRC Tainan",
+        "name": "Lola Cold Drink Shop",
+        "name_zh": "Lola 蘿拉冷飲店 (老屋餐酒館)",
+        "stars": "⭐",
+        "dish": "🍕 招牌：薄脆披薩、特調調酒、手工炸物",
+        "address": "台南市中西區信義街110號",
+        "price_ntd": 1800,
+        "price_label": "四人消費約 NT$1,800",
+        "hours": "18:00–01:00 (週一公休)",
+        "search_query": "Lola Cold Drink Shop Tainan",
         "photos": [
           {
-            "url": "https://www.theworlds50best.com/discovery/filestore/jpg/TCRC-Tianan-Taiwan-01.jpg",
-            "label": "TCRC - Tainan - Bar - 50Best Discovery"
+            "url": "https://images.getbento.com/accounts/3cdab285cbe63f6f792de823e4c9a2e6/media/images/1746638694962.png?w=1000&fit=max&auto=compress,format&cs=origin&h=1000",
+            "label": "LOTUS ENERGY | Lola Beans | Coffee Shop in TN"
           },
           {
-            "url": "https://www.englishintaiwan.com/wp-content/uploads/2019/09/tcrc_coctail_bar_tainan.jpg",
-            "label": "Tainan Cocktail Bar-TCRC is #1 - EIT"
+            "url": "https://images.getbento.com/accounts/3cdab285cbe63f6f792de823e4c9a2e6/media/images/1746638528702.png?w=1000&fit=max&auto=compress,format&cs=origin&h=1000",
+            "label": "LOLA FAVES | Lola Beans | Coffee Shop in TN"
           },
           {
-            "url": "https://www.theworlds50best.com/discovery/filestore/jpg/TCRC-Tianan-Taiwan-02.jpg",
-            "label": "TCRC - Tainan - Bar - 50Best Discovery"
+            "url": "https://images.getbento.com/accounts/3cdab285cbe63f6f792de823e4c9a2e6/media/images/1716306373527.png?w=1000&fit=max&auto=compress,format&h=1000",
+            "label": "TREATS | Lola Beans | Coffee Shop in TN"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Kadoya Patisserie",
-        "name_zh": "Kadoya 吃茶店",
+        "name": "Paripari apt.",
+        "name_zh": "Paripari パリパリ APARTMENT",
         "stars": "",
-        "dish": "🍰 Lemon Tart & Cream Puffs / 招牌：李組長檸檬塔、焦糖達克瓦茲",
-        "address": "No. 36, Shulin St Section 1, East District",
+        "dish": "☕ 招牌：手沖咖啡、日式焦糖布丁、宇治抹茶歐蕾",
+        "address": "台南市中西區忠義路二段158巷9號",
         "price_ntd": 1000,
-        "price_label": "Afternoon tea NT$250/person / 下午茶每人約 NT$250",
-        "hours": "13:00–20:00",
-        "search_query": "Kadoya Patisserie Tainan",
+        "price_label": "四人下午茶約 NT$1,000",
+        "hours": "11:00–18:00",
+        "search_query": "Paripari apt Tainan cafe",
         "photos": [
           {
-            "url": "https://cdn.rtaiwanr.com/uploads/images/cover_image/11096/9j4SVuRXhpZgAASUkqAA",
-            "label": "Kadoya - Tainan Attractions Recommended | Round Taiwan Round"
+            "url": "https://www.hafh.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fhafh-prod-travel_story_stay_image%2F7zyx9ko3jonoly5kltbdco0vyclr&w=1920&q=75",
+            "label": "Real Guest Stories from 《Paripari apt. 》| HafH"
           },
           {
-            "url": "https://cdn.rtaiwanr.com/uploads/images/23833/9j4RmvRXhpZgAASUkqAA",
-            "label": "Kadoya - Tainan Attractions Recommended | Round Taiwan Round"
+            "url": "https://www.hafh.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fhafh-prod-property_image%2F2ilb5twssma4x14hlx6jc4gqxnr5&w=1920&q=75",
+            "label": "Paripari apt. 》– Real Guest Stories & Booking Info | HafH"
           },
           {
-            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3858246158142112232",
-            "label": "KADOYA | カドヤ喫茶店(@kadoya.tw) · Tainan"
+            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3402377898130932441",
+            "label": "PARIPARI パリパリ APARTMENT (@paripariapt) · Tainan"
           }
         ]
       }
@@ -160,45 +160,49 @@
     {
       "day": 1,
       "date": "Aug 14 · Fri",
-      "label_zh": "出發台南 · 國華街美食與神農街散策",
+      "label_zh": "出發台南 · 國華街美食與神農老街散策",
       "day_query": "Shennong Street Tainan night",
       "hotel_name": "U.I.J Hotel & Hostel",
       "hotel_name_zh": "UIJ 友愛街旅館",
-      "hotel_room": "Friendly Quadruple Room / 友樂四人房",
+      "hotel_room": "友樂客房 (四人房)",
       "weather": "☀️ 32°/26°",
       "rain_pct": "20%",
       "slots": [
         {
           "time": "08:30",
-          "desc": "🚗 Depart from Zhunan by car, heading south on National Highway 1 / 竹南出發自駕，沿國道一號南下前往台南"
+          "desc": "🚗 竹南出發 · 四人輪流開車上國道，展開熱血的台南公路旅行（約 3 小時）"
         },
         {
           "time": "11:30",
-          "desc": "🍜 Arrive in Tainan, head straight to Guohua Street for lunch / 抵達台南，直奔國華街品嚐小吃（邱家小卷米粉、富盛號碗粿）"
+          "desc": "🅿️ 抵達台南，將車停至 UIJ 友愛街旅館專屬停車場 · 辦理行李寄放"
         },
         {
-          "time": "13:30",
-          "desc": "🛍️ Stroll and shop around Zhengxing Street & Shennong Street / 漫步正興街與神農街，逛文創小店、買文青小物"
+          "time": "12:00",
+          "desc": "🍜 步行前往國華街美食一級戰區 · 必吃：邱家小卷米粉、富盛號碗粿、金得春捲"
+        },
+        {
+          "time": "14:00",
+          "desc": "🥤 散步至正興街，買杯「雙全紅茶」或吃「蜷尾家」甘味處散步甜食"
         },
         {
           "time": "15:30",
-          "desc": "🏨 Check-in at U.I.J Hotel & Hostel, park the car / 至 UIJ 友愛街旅館辦理入住，停放車輛並置放行李"
+          "desc": "🏨 返回 UIJ 友愛街旅館辦理 Check-in · 在超美的共享大廳與黑膠唱片區拍照留念"
         },
         {
           "time": "16:30",
-          "desc": "☕ Japanese retro afternoon tea at Kadoya Patisserie / 前往 Kadoya 吃茶店，品嚐招牌甜點與享受日式復古氛圍"
+          "desc": "🚶 散步至神農街 · 欣賞傍晚點燈後的復古老街，逛逛文創選物店與手作小鋪"
         },
         {
           "time": "18:30",
-          "desc": "🍽️ Classic Tainan dinner at A SHA Restaurant / 享用阿霞飯店經典台菜（紅蟳米糕、鱔魚意麵，需提前預約）"
+          "desc": "🛍️ 步行至林百貨 (Hayashi Department Store) · 登上頂樓看日治神社，採購文青伴手禮"
         },
         {
-          "time": "20:30",
-          "desc": "🛍️ Night shopping at Hayashi Department Store / 逛林百貨，欣賞復古電梯與選購台南特色文創伴手禮"
+          "time": "20:00",
+          "desc": "🍽️ 晚餐：阿明豬心冬粉（現場排隊，體驗台南經典宵夜魅力）"
         },
         {
           "time": "22:00",
-          "desc": "🌙 Late-night snacks at Da Dong East Night Market / 開車前往大東東夜市（週五營業），吃地瓜球與二師兄滷味"
+          "desc": "🌙 返回旅館 · 在 3 樓戶外露臺吹著夏日微風聊天，享受大學生的悠閒夜晚"
         }
       ],
       "day_photo": "https://res.cloudinary.com/rehash-studio/image/upload/f_jpg,q_60,w_auto/if_w_gt_1200,w_1200/files/lgvcgvrqbkunggwpv6dj.jpg"
@@ -206,144 +210,152 @@
     {
       "day": 2,
       "date": "Aug 15 · Sat",
-      "label_zh": "睡到自然醒 · 藍晒圖購物與漁光島夕陽",
-      "day_query": "Yuguang Island sunset Tainan",
+      "label_zh": "安平海風 · 漁光島夕陽與花園夜市大暴食",
+      "day_query": "Yuguang Island Tainan sunset",
       "hotel_name": "U.I.J Hotel & Hostel",
       "hotel_name_zh": "UIJ 友愛街旅館",
-      "hotel_room": "Friendly Quadruple Room / 友樂四人房",
-      "weather": "⛅ 33°/27°",
-      "rain_pct": "10%",
+      "hotel_room": "友樂客房 (四人房)",
+      "weather": "⛅ 31°/26°",
+      "rain_pct": "30%",
       "slots": [
         {
-          "time": "09:30",
-          "desc": "🥣 Traditional beef soup breakfast nearby / 睡到自然醒，散步去吃在地排隊美食「文章牛肉湯」或「阿堂鹹粥」"
+          "time": "10:00",
+          "desc": "🍳 睡到自然醒 · 步行前往吃台南在地早餐：包成羊肉 或 阿堂鹹粥"
         },
         {
-          "time": "11:00",
-          "desc": "🛍️ Shopping at Shinkong Mitsukoshi & Blueprint Creative Park / 逛新光三越西門店與藍晒圖文創園區，吹冷氣避暑購物"
+          "time": "11:30",
+          "desc": "🚗 開車前往安平區 · 避開炎熱正午，直接前往「文章牛肉湯」享用鮮甜溫體牛"
         },
         {
           "time": "13:00",
-          "desc": "🦐 Lunch: Zhou's Shrimp Rolls in Anping / 開車前往安平，品嚐周氏蝦捲、同記安平豆花"
+          "desc": "🛍️ 逛安平老街 · 不進古蹟，主要買蜜餞（蜜餞物產行）、蝦餅，邊吃邊逛"
         },
         {
           "time": "14:30",
-          "desc": "🌊 Sea breeze and sunset at Yuguang Island / 抵達漁光島林蔭步道散步、沙灘踏浪，等待絕美夕陽（不逛博物館）"
+          "desc": "🍧 甜點時間 · 吃同記安平豆花（竹炭黑豆花超消暑）"
         },
         {
-          "time": "17:30",
-          "desc": "🏨 Return to hotel to freshen up / 返回旅館稍作休息，準備晚上精彩的夜生活"
+          "time": "16:00",
+          "desc": "🏖️ 驅車前往漁光島 · 漫步林間步道，到沙灘上吹海風、踏浪，看全台最美落日"
         },
         {
-          "time": "19:00",
-          "desc": "🍽️ Dinner: Local street food around West Central District / 晚餐於旅館周邊隨意吃（阿明豬心冬粉、落成米糕）"
+          "time": "18:30",
+          "desc": "🍟 挑戰全台最大「花園夜市」（週六限定） · 必吃：統大碳烤雞排、二師兄滷味、陳記麻辣鴨血"
         },
         {
-          "time": "21:00",
-          "desc": "🍹 Award-winning cocktails at Bar T.C.R.C. / 步行至 Bar T.C.R.C. 享受客製化調酒（需提早線上排隊登記）"
+          "time": "21:30",
+          "desc": "🍹 晚上來到信義街的 Lola 蘿拉冷飲店 · 在充滿黑膠與老電影氛圍的餐酒館喝杯調酒放鬆"
         },
         {
           "time": "23:30",
-          "desc": "🌙 Chatting at hotel's shared salon / 外帶炭烤與鹽酥雞，回到 UIJ 超美共享沙龍聊天吃宵夜"
+          "desc": "🚗 安全駕駛載大家返回 UIJ 友愛街旅館休息"
         }
       ],
-      "day_photo": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/bbjjm1bhkbphjekxpeby/Tainan｜Yuguang+Island｜Sunset+at+Crescent+Bay.jpg"
+      "day_photo": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_960,h_640/w_59,x_11,y_11,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/brmxmhq6kgsdh1h7lmwu/TainanYuguangIslandSunsetShuttleBus.jpg"
     },
     {
       "day": 3,
       "date": "Aug 16 · Sun",
-      "label_zh": "老宅早午餐 · 伴手禮採購與輕鬆返程",
-      "day_query": "Tainan old house cafe",
+      "label_zh": "文青選物店巡禮 · 買好買滿回竹南",
+      "day_query": "Blueprint Cultural and Creative Park Tainan",
       "hotel_name": "U.I.J Hotel & Hostel",
-      "hotel_name_zh": "UIJ 友愛街旅館",
-      "hotel_room": "Friendly Quadruple Room / 友樂四人房",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "20%",
+      "hotel_name_zh": "UIJ 友愛街旅館（已退房）",
+      "hotel_room": "無 (已辦理退房)",
+      "weather": "☀️ 33°/27°",
+      "rain_pct": "10%",
       "slots": [
         {
           "time": "10:00",
-          "desc": "🍳 Relaxed brunch at Tin Drum Cafe / 睡飽退房前，前往「錫鼓 Tin Drum」日式老宅享受豐盛早午餐"
+          "desc": "🏨 辦理退房手續 · 行李先寄放車上 · 步行至藍晒圖文創園區拍照打卡"
         },
         {
-          "time": "12:00",
-          "desc": "🏨 Check-out from hotel, store luggage in car / 辦理退房，將行李放上車，準備最後採購"
+          "time": "11:00",
+          "desc": "☕ 到 Paripari apt. 享用日式昭和風下午茶與手沖咖啡，逛 1 樓的古道具選物"
         },
         {
           "time": "13:00",
-          "desc": "🛍️ Buy famous Tainan souvenirs / 前往連得堂餅家買手工煎餅、堯平買濃郁巧克力布朗尼"
+          "desc": "🛍️ 前往衛民街與萬昌街一帶 · 這裡有許多潮流服飾店、古著店與手搖飲，非常適合大學生逛街"
         },
         {
           "time": "14:30",
-          "desc": "☕ Grab a cold brew coffee for the road / 買杯「雙生綠豆沙牛奶」或精品冷萃咖啡，準備開車北返"
+          "desc": "🍪 伴手禮最後補貨：連得堂煎餅（現場排隊一人限購兩包）、義豐冬瓜茶"
         },
         {
-          "time": "15:00",
-          "desc": "🚗 Drive back to Zhunan / 啟程北返，避開傍晚北上塞車潮"
+          "time": "15:30",
+          "desc": "🚗 帶著滿滿的戰利品與美食回憶，開車啟程返回竹南"
         },
         {
-          "time": "18:00",
-          "desc": "🏡 Arrive safely in Zhunan / 平安抵達苗栗竹南，結束悠閒又充實的吃貨之旅"
+          "time": "17:00",
+          "desc": "⛽ 中途停靠清水服務區 · 休息、買個點心、上洗手間"
+        },
+        {
+          "time": "18:30",
+          "desc": "🏡 安全抵達竹南 · 結束三天兩夜充實又不緊湊的台南之旅"
         }
       ],
-      "day_photo": "https://www.orgyness.com/wp-content/uploads/2018/11/tainan-old-house-restaurant-taiwan-2.jpg"
+      "day_photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwHst5zyd4w1Xv78FpGFqM4769YPlXEPnFI_Cwnlx3mAgoQm2DuEQcmOY-UIYL2ABzatPsWRU2Dd9VpdMT7l-v_JhoeTeIqOZuAuS27N6jQ0NMNb_Nr0f8zkRXMbH8HJpXq36N74-3rs2R/s1600/tainan_bcp_1.jpg"
     }
   ],
   "costs": [
     {
-      "label": "🚗 交通（自駕油資、過路費、停車費）",
-      "amount_ntd": 3500
+      "label": "🚗 自駕油資與國道通行費",
+      "amount_ntd": 3200
     },
     {
-      "label": "🏨 住宿（UIJ 四人房兩晚）",
-      "amount_ntd": 11000
+      "label": "🏨 UIJ 友愛街旅館 (四人房兩晚)",
+      "amount_ntd": 10500
     },
     {
-      "label": "🍽️ 餐飲（阿霞飯店、TCRC酒吧、小吃與早午餐）",
+      "label": "🍽️ 餐廳與夜市小吃 (四人總計)",
       "amount_ntd": 7500
     },
     {
-      "label": "🛍️ 購物與伴手禮",
-      "amount_ntd": 2500
+      "label": "🛍️ 逛街購物與伴手禮",
+      "amount_ntd": 3000
+    },
+    {
+      "label": "🅿️ 市區停車費",
+      "amount_ntd": 500
     }
   ],
-  "cost_total_ntd": 24500,
-  "budget_remaining_ntd": 500,
+  "cost_total_ntd": 24700,
+  "budget_remaining_ntd": 300,
   "chat_input": "台南三天兩夜 四個大二生 自駕 行程不用太滿 不喜歡博物館 主要想吃東西逛街，2026年8月，一間房，預算2.5萬，從竹南出發",
   "photos": {
     "hero": [
       {
         "url": "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/v1755071635/destination/xu0ndw0qlfscu5gcrcwj.jpg",
-        "label": "Tainan 2026: Top Places to Visit & Must-See Attractions"
+        "label": "Best Places To Visit in Tainan"
       }
     ],
     "destination": [
       {
         "url": "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/v1755071635/destination/xu0ndw0qlfscu5gcrcwj.jpg",
-        "label": "Tainan 2026: Top Places to Visit & Must-See Attractions"
+        "label": "Best Places To Visit in Tainan"
+      },
+      {
+        "url": "https://www.creativindie.com/wp-content/uploads/2024/03/tesocraderek_taiwan_best_spots_for_digital_nomads_cute_Instagra_77eed48e-7b14-4860-97fe-e62807f1dee3.png",
+        "label": "Living the Dream in Tainan: A Digital Nomad's Travel Guide to Taiwan -  Creativindie"
       },
       {
         "url": "https://image.taiwantoday.tw/images/content/img20240108120114843.jpg",
         "label": "Tainan one of CNN Travel's top 24 best places to visit in 2024 - Taiwan  Today"
       },
       {
+        "url": "https://images.trvl-media.com/place/6331780/a8e19d8e-78d3-4ccf-84b2-98d14b06a7c2.jpg",
+        "label": "Visit Tainan: Best of Tainan Tourism | Expedia Travel Guide"
+      },
+      {
         "url": "https://www.taiwanobsessed.com/wp-content/uploads/2023/08/tainan-taiwan.jpg",
         "label": "A Travel Guide to Tainan, Taiwan's Original Capital - Taiwan Obsessed"
       },
       {
-        "url": "https://girleatworld.net/wp-content/uploads/2023/05/tainan-shennong-street-01.jpg",
+        "url": "https://girleatworld.net/wp-content/uploads/2023/05/tainan-shennong-street-03.jpg",
         "label": "Tainan Travel Guide: Things to Do, What to Eat and Where to Stay in Tainan  — Girl Eat World"
-      },
-      {
-        "url": "https://taiwanderers.com/wp-content/uploads/2024/09/TAINAN-new-27-1-635x800.jpg",
-        "label": "Tainan, Taiwan – 30+ Things To Do Guide + Photos - Taiwanderers"
-      },
-      {
-        "url": "https://images.trvl-media.com/place/6331780/a8e19d8e-78d3-4ccf-84b2-98d14b06a7c2.jpg",
-        "label": "Visit Tainan: Best of Tainan Tourism | Expedia Travel Guide"
       }
     ]
   },
   "chat_hash": "90bb633182bac1d1954a17a372a18114b50d934a8ea3fa2a5874fb5b7c863c3e",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-07-02T02:39:43.889954"
+  "generated_at": "2026-07-02T02:56:56.228463"
 }
