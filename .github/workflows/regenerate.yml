@@ -41,7 +41,7 @@ jobs:
 
       - name: Run generator
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           FORCE_REGENERATE: ${{ github.event.inputs.force || 'false' }}

@@ -6,11 +6,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 # Install dependencies
-pip install -r requirements.txt   # anthropic, jinja2, requests
+pip install -r requirements.txt   # jinja2, requests
 pip install ddgs                  # DDG image search (imported as `from ddgs import DDGS`, not in requirements.txt)
 
 # Secrets — provide EITHER a local file (gitignored) OR an env var. File wins if present.
-#   anthropic_api_key.txt  | ANTHROPIC_API_KEY  — Claude API key (required)
+#   gemini_api_key.txt     | GEMINI_API_KEY      — Google Gemini API key (required; free tier)
 #   github_token.txt       | GITHUB_TOKEN       — GitHub fine-grained PAT (contents:read/write on repo)
 #   serper_api_key.txt     | SERPER_API_KEY     — Serper.dev key for Google image search (optional; falls back to DDG)
 
@@ -39,7 +39,7 @@ User's PC (Windows Task Scheduler, every 10 min)
   run_generator.vbs → run_generator.bat → generator.py
   ├── Reads: config/settings.json (GitHub API first, local fallback)
   ├── Reads: data/chat/YYYY-MM-DD.txt (GitHub API first, local fallback, 7-day fallback)
-  ├── Calls: Anthropic Claude API (claude-sonnet-4-6) + DDG Image Search (ddgs)
+  ├── Calls: Google Gemini API (gemini-3.5-flash, JSON mode) + Serper/DDG Image Search
   ├── Writes: data/plans/YYYY-MM-DD.json
   ├── Writes: index.html (full plan page with inline CSS/JS)
   ├── Logs: logs/generator.log (UTF-8, tee'd)
@@ -74,7 +74,7 @@ GitHub Repo (mengtahsu/travel-planner)
 | `chat.html` | Chat editor — one textarea per day, saves to `data/chat/YYYY-MM-DD.txt` via GitHub API + localStorage fallback |
 | `settings.html` | Settings form — saves to `config/settings.json` via GitHub API |
 | `log.html` | Renders saved plans list + run history from GitHub raw URLs (IIFE, promise chains, HTML escaping) |
-| `requirements.txt` | Python deps: `anthropic`, `jinja2`, `requests` (note: `ddgs` also required for image search) |
+| `requirements.txt` | Python deps: `jinja2`, `requests` (note: `ddgs` also required for image search; Gemini is called over raw REST via `requests`) |
 | `generate_first.py` | One-off: renders `index.html` from hardcoded mock Paris plan via `generator.render_html` — no API/network |
 | `trigger_server.py` | Local HTTP server on port 8766 — `GET /run` shells out to `generator.py` for on-demand regeneration (chat.html "Run now") |
 | `config/settings.json` | User settings (local fallback when GitHub API unavailable) |
@@ -92,7 +92,7 @@ GitHub Repo (mengtahsu/travel-planner)
    d. Checks `data/save_flag.json` — if set, archives current `index.html` to `data/saved/` before overwriting
    e. Syncs saved files with GitHub (removes locally-deleted files, cleans orphans)
    f. Fetches live exchange rates from frankfurter.app
-   g. If changed: calls Claude API → generates plan JSON, then `validate_plan()` checks required fields (~30-60s)
+   g. If changed: calls Gemini API → generates plan JSON, then `validate_plan()` checks required fields (~30-60s)
    h. Fetches DDG image links for destination landmarks, hotels, restaurants, day-by-day photos
    i. Renders `index.html` via Jinja2 template (inlines shared.css + shared.js)
    j. Pushes all changed files to GitHub via REST API (checks SHA to avoid conflicts)
@@ -106,8 +106,8 @@ GitHub Repo (mengtahsu/travel-planner)
 - `get_chat_text(today_key)` — Reads chat from GitHub → local → 7-day lookback
 - `has_changes()` — Compares current chat/config hashes with stored hashes; returns `(changed, chat_text, chat_hash, config_hash)`
 - `get_exchange_rates()` — Fetches live NTD→foreign rates from frankfurter.app, with hardcoded fallbacks
-- `build_prompt(config, chat_text, rates)` — Constructs the full Claude prompt with live exchange rates
-- `call_ai(prompt)` — Calls Claude API (`claude-sonnet-4-6`, max_tokens 8192), extracts the first `{...}` JSON block from response
+- `build_prompt(config, chat_text, rates)` — Constructs the full LLM prompt with live exchange rates
+- `call_ai(prompt)` — Calls the Google Gemini API over raw REST (`GEMINI_MODEL` = `gemini-3.5-flash`, JSON mode via `responseMimeType: application/json`, `maxOutputTokens` 32768); raises on `finishReason == MAX_TOKENS`; extracts the first `{...}` JSON block from response
 - `validate_plan(plan)` — Asserts required plan fields exist (see `REQUIRED_PLAN_FIELDS`); raises `ValueError` on missing/empty `itinerary`/`hotels`
 - `search_images(query, count)` — Photo dispatcher: Serper (Google) primary, DDG fallback, placeholders last; returns `[{url, label}]` (links only). Backends: `_serper_images()` (returns `None` to signal fallback), `_ddg_images()` (never raises); shared `_is_good_photo()`/`_collect()` filter+dedupe
 - `resolve_all_photos(plan)` — Resolves photos: cover/hotels/restaurants via `search_images`, day-by-day via `_ddg_images` (hero reuses cover[0])

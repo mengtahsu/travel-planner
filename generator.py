@@ -12,7 +12,6 @@ from pathlib import Path
 from typing import Any
 
 import requests
-import anthropic
 from jinja2 import Environment, FileSystemLoader
 
 # Fix console encoding to avoid cp1252 crashes with Chinese output
@@ -43,7 +42,7 @@ def _load_key(filename: str, env_name: str) -> str:
         return key_file.read_text(encoding="utf-8").strip()
     return os.environ.get(env_name, "")
 
-ANTHROPIC_API_KEY = _load_key("anthropic_api_key.txt", "ANTHROPIC_API_KEY")
+GEMINI_API_KEY = _load_key("gemini_api_key.txt", "GEMINI_API_KEY")
 SERPER_API_KEY = _load_key("serper_api_key.txt", "SERPER_API_KEY")
 
 
@@ -363,29 +362,44 @@ IMPORTANT:
 """
 
 
+GEMINI_MODEL = "gemini-3.5-flash"
+
+
 def call_ai(prompt: str) -> dict[str, Any]:
-    if not ANTHROPIC_API_KEY:
-        raise RuntimeError("ANTHROPIC_API_KEY not set in environment")
-    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
-    # The plan JSON (itinerary + hotels + restaurants + day-by-day, heavy in
-    # Chinese) regularly exceeds 8K output tokens. claude-sonnet-4-6 allows up
-    # to 64K; values above ~16K must be streamed or the SDK hits an HTTP timeout.
-    with client.messages.stream(
-        model="claude-sonnet-4-6",
-        max_tokens=32000,
-        temperature=0.7,
-        messages=[{"role": "user", "content": prompt}]
-    ) as stream:
-        response = stream.get_final_message()
-    if response.stop_reason == "max_tokens":
+    if not GEMINI_API_KEY:
+        raise RuntimeError("GEMINI_API_KEY not set in environment")
+    # Gemini JSON mode returns pure JSON. maxOutputTokens is generous because the
+    # bilingual plan (itinerary + hotels + restaurants) is large; a finishReason
+    # of MAX_TOKENS means it was truncated.
+    resp = requests.post(
+        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
+        params={"key": GEMINI_API_KEY},
+        json={
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": {
+                "responseMimeType": "application/json",
+                "maxOutputTokens": 32768,
+                "temperature": 0.7,
+            },
+        },
+        timeout=180,
+    )
+    resp.raise_for_status()
+    data = resp.json()
+    if "error" in data:
+        raise RuntimeError(f"Gemini API error: {data['error']}")
+    cand = (data.get("candidates") or [{}])[0]
+    if cand.get("finishReason") == "MAX_TOKENS":
         raise ValueError(
-            "AI response hit max_tokens (truncated JSON). Raise max_tokens or trim the prompt."
+            "Gemini response hit MAX_TOKENS (truncated JSON). Raise maxOutputTokens or trim the prompt."
         )
-    text = next((b.text for b in response.content if b.type == "text"), "")
+    text = "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", []))
+    if not text:
+        raise ValueError(f"Gemini returned no text (finishReason={cand.get('finishReason')})")
     start = text.find("{")
     end = text.rfind("}") + 1
     if start == -1 or end <= start:
-        raise ValueError(f"Could not find JSON in AI response: {text[:200]}...")
+        raise ValueError(f"Could not find JSON in Gemini response: {text[:200]}...")
     return json.loads(text[start:end])
 
 
