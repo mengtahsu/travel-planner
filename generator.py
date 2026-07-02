@@ -545,13 +545,51 @@ def _ddg_images(query: str, count: int = 4) -> list[dict[str, str]]:
         return [{"url": "", "label": query}] * max(count, 1)
 
 
+# Photo cache: persists resolved Serper results across runs so re-generating a
+# plan with the same venues costs no Serper credits — only new/changed venues
+# hit the API. DDG fallbacks are NOT cached, so Serper is retried once it's
+# available again (accuracy over a locked-in fallback).
+PHOTO_CACHE = ROOT / "data" / "photo_cache.json"
+_PHOTO_CACHE_MAX = 1000
+
+
+def _load_photo_cache() -> dict:
+    if PHOTO_CACHE.exists():
+        try:
+            return json.loads(PHOTO_CACHE.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            return {}
+    return {}
+
+
+def _save_photo_cache(cache: dict) -> None:
+    # dict preserves insertion order → drop oldest entries when it grows too large.
+    if len(cache) > _PHOTO_CACHE_MAX:
+        for k in list(cache)[: len(cache) - _PHOTO_CACHE_MAX]:
+            del cache[k]
+    PHOTO_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    PHOTO_CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+_PHOTO_CACHE = _load_photo_cache()
+_PHOTO_CACHE_DIRTY = False
+
+
 def search_images(query: str, count: int = 4) -> list[dict[str, str]]:
-    """Resolve photos: Serper (Google) primary, DDG fallback, placeholders last."""
+    """Resolve photos: cache → Serper (Google) → DDG → placeholders.
+    Cached hits cost no Serper credit; only Serper-sourced results are cached."""
+    global _PHOTO_CACHE_DIRTY
+    key = f"{query}|{count}"
+    cached = _PHOTO_CACHE.get(key)
+    if cached:
+        return cached
     if SERPER_API_KEY:
         photos = _serper_images(query, count)
-        if photos:
+        if photos:  # Serper succeeded → cache permanently
+            _PHOTO_CACHE[key] = photos
+            _PHOTO_CACHE_DIRTY = True
             return photos
-    return _ddg_images(query, count)
+    return _ddg_images(query, count)  # DDG fallback — not cached, retry Serper next run
 
 
 def resolve_all_photos(plan: dict[str, Any]) -> dict[str, Any]:
@@ -592,6 +630,9 @@ def resolve_all_photos(plan: dict[str, Any]) -> dict[str, Any]:
         q = day.get("day_query", f"{city} travel")
         day_photos = _ddg_images(q, 1)
         day["day_photo"] = day_photos[0]["url"] if day_photos and day_photos[0]["url"] else ""
+
+    if _PHOTO_CACHE_DIRTY:
+        _save_photo_cache(_PHOTO_CACHE)
 
     return plan
 
@@ -715,6 +756,10 @@ def push_via_api(today_key: str) -> None:
     # Push run log
     if RUNS_LOG.exists():
         files_to_push["data/runs.json"] = RUNS_LOG
+
+    # Push photo cache so cached Serper results persist across runs
+    if PHOTO_CACHE.exists():
+        files_to_push["data/photo_cache.json"] = PHOTO_CACHE
 
     # Push saved plans — only new files (avoid pushing 100+ duplicates)
     owner = "mengtahsu"
