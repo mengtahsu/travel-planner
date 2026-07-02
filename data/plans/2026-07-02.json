@@ -1,74 +1,113 @@
 {
-  "destination_en": "Tainan, Taiwan",
-  "title_zh": "台南三天兩夜 · 大二生青春自駕吃貨街頭之旅",
-  "date_range": "2026/08/14–08/16",
-  "start_date": "2026-08-14",
-  "end_date": "2026-08-16",
-  "departure": "Zhunan, Miaoli (竹南)",
-  "departure_code": "ZHN",
-  "destination_code": "TNN",
+  "destination_en": "Bali, Indonesia",
+  "title_zh": "奢華峇里島 · 虹夕諾雅與W飯店雙奢華慢活六天五夜之旅",
+  "date_range": "2027/01/29–02/03",
+  "start_date": "2027-01-29",
+  "end_date": "2027-02-03",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "DPS",
   "travelers": 4,
-  "days": 3,
-  "budget_ntd": 25000,
+  "days": 6,
+  "budget_ntd": 400000,
   "flight": {
-    "airline": "自駕往返 (Self-Drive Private Car)",
-    "departure_date": "8月14日",
-    "return_date": "8月16日",
-    "total_price_ntd": 3200,
+    "airline": "中華航空 China Airlines",
+    "departure_date": "1月29日",
+    "return_date": "2月3日",
+    "total_price_ntd": 100000,
     "outbound": {
-      "flight_no": "🚗 自駕",
-      "route": "竹南 Zhunan → 台南 Tainan",
-      "depart_time": "08:30",
-      "arrive_time": "11:30",
-      "duration": "3h 00m",
-      "class": "國道一號 (National Highway No. 1)"
+      "flight_no": "CI 771",
+      "route": "TPE → DPS 直飛",
+      "depart_time": "09:15",
+      "arrive_time": "14:40",
+      "duration": "5h 25m",
+      "class": "經濟艙 (含豪華選位)"
     },
     "inbound": {
-      "flight_no": "🚗 自駕",
-      "route": "台南 Tainan → 竹南 Zhunan",
-      "depart_time": "15:30",
-      "arrive_time": "18:30",
-      "duration": "3h 00m",
-      "class": "國道三號 (National Highway No. 3)"
+      "flight_no": "CI 772",
+      "route": "DPS → TPE 直飛",
+      "depart_time": "15:40",
+      "arrive_time": "21:05",
+      "duration": "5h 25m",
+      "class": "經濟艙 (含豪華選位)"
     }
   },
   "hotels": [
     {
-      "name": "U.I.J Hotel & Hostel",
-      "name_zh": "UIJ 友愛街旅館",
-      "district": "中西區 West Central District",
+      "name": "W Bali - Seminyak",
+      "name_zh": "峇里島塞米亞克 W 飯店",
+      "district": "塞米亞克 Seminyak",
       "day_range": "1–3",
       "nights": 2,
-      "price_ntd": 10500,
-      "stars": "★★★★☆",
-      "room_type": "友樂客房 (四人房) / Quadruple Room",
-      "breakfast": "不含早餐 (保留胃口吃台南在地小吃)",
-      "amenities": "🌐 免費高鐵接駁車 (不適用) · 🛋️ 共享黑膠樂空間 · 🍳 共享廚房 · 🌿 戶外露臺",
-      "search_query": "UIJ Hotel Hostel Tainan Taiwan",
+      "price_ntd": 60000,
+      "stars": "★★★★★",
+      "room_type": "奇幻海洋雙人房 (2間房) Wonderful Ocean Facing Room",
+      "breakfast": "含豐盛自助早餐",
+      "amenities": "🏊 面海無邊際泳池 · 💆 24小時 AWAY Spa · 🍹 Woobar 絕美夕陽酒吧 · 🛍️ 直通水明漾沙灘",
+      "search_query": "W Bali Seminyak resort pool",
       "photos": [
         {
-          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/590552273.jpg?k=596b3d3a255b289f3274c5678c30528bf911c6dc3b0222c3fa7498a6e0f65e16&o=",
-          "label": "U.I.J Hotel & Hostel, Tainan (updated prices 2026)"
+          "url": "https://www.myboutiquehotel.com/photos/6541/w-bali-seminyak-seminyak-154-08103-900x570.jpg",
+          "label": "W Bali - Seminyak, a Design Boutique Hotel Seminyak, Indonesia"
         },
         {
-          "url": "https://images.trvl-media.com/lodging/22000000/21220000/21213100/21213036/4486208a.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
-          "label": "U.I.J Hotel & Hostel, Tainan: Hotel Reviews, Rooms & Prices | Hotels.com"
+          "url": "https://www.threesixtyguides.com/wp-content/uploads/2020/01/W-Bali.jpg",
+          "label": "Putting the Wow in Welcome – 24 hours at W-Bali in Seminyak. - Bali travel  guide for smart travellers"
         },
         {
-          "url": "https://ak-d.tripcdn.com/images/1mc2z12000fd8f6le92EE_R_960_660_R5_D.jpg",
-          "label": "U.I.J Hotel & Hostel (Tainan) - 2026 Prices, Reviews & Deals | Trip.com"
+          "url": "https://cache.marriott.com/content/dam/marriott-renditions/DPSWH/dpswh-bedroom-pool-1744-hor-feat.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1920px:*",
+          "label": "W Bali - Seminyak | Modern Luxury Hotel in Seminyak"
         },
         {
-          "url": "https://images.trvl-media.com/lodging/22000000/21220000/21213100/21213036/10ebcf26.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
-          "label": "U.I.J Hotel & Hostel Reviews, Deals & Photos 2026 - Expedia.com"
+          "url": "https://upgradedpoints.com/wp-content/uploads/2023/08/W-Seminyak-Bali-pool-area.jpeg",
+          "label": "6 Reasons To Stay at the W Bali - Seminyak When Visiting Bali"
         },
         {
-          "url": "https://res.klook.com/klook-hotel/image/upload/w_750,c_fill,q_85/travelapi/22000000/21220000/21213100/21213036/9cbd3162_z.jpg",
-          "label": "U.I.J Hotel & Hostel in Tainan | 2026 Updated prices, deals - Klook United  States"
+          "url": "https://images.squarespace-cdn.com/content/v1/52ccee75e4b00bc0dba03f46/fa3ddfe3-98d5-463c-9591-01f669f4372f/W+Bali+Seminyak+Review+2022-03.jpg",
+          "label": "Hotel Review: W Bali - Seminyak (Spectacular Ocean Facing Room) - Great  Property in Seminyak with Fantastic Location! — The Shutterwhale"
         },
         {
-          "url": "https://images.trvl-media.com/lodging/22000000/21220000/21213100/21213036/cd9759dd.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
-          "label": "U.I.J Hotel & Hostel, Tainan: Hotel Reviews, Rooms & Prices | Hotels.com"
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/600168332.jpg?k=07a0d10ef0353b094b89e04abaebf461348f59bdc5961e2930fde084fbb60881&o=",
+          "label": "W Bali - Seminyak, Seminyak (updated prices 2026)"
+        }
+      ]
+    },
+    {
+      "name": "Hoshinoya Bali",
+      "name_zh": "虹夕諾雅 峇里島",
+      "district": "烏布 Ubud",
+      "day_range": "3–6",
+      "nights": 3,
+      "price_ntd": 138000,
+      "stars": "★★★★★",
+      "room_type": "「Soka」鳥巢露台運河別墅 (2間房) Soka Villa",
+      "breakfast": "含日式/印尼式精緻早餐",
+      "amenities": "🌿 懸空鳥巢 Gazebo · 🏊 運河景觀半私家泳池 · 💆 溪谷景觀 SPA · 🍵 每日免費文化體驗",
+      "search_query": "Hoshinoya Bali resort gazebo",
+      "photos": [
+        {
+          "url": "https://media.hoshinoresorts.com/image/authenticated/s--th297b5R--/c_fill,g_auto,h_630,w_1200/f_auto,q_auto/v1709182466/%E7%84%A1%E9%A1%8C_2_jlln7a.png",
+          "label": "HOSHINOYA Bali | Surrounded by the jungle in the comfort of the Café Gazebo  | HOSHINOYA Bali - Official Site"
+        },
+        {
+          "url": "https://treehousemap.com/wp-content/uploads/2025/11/Cafe-Gazebo-HOSHINOYA-Bali-4-1024x683.jpg",
+          "label": "Café Gazebo at HOSHINOYA Bali | Booking.com Treehouse Hotels, Luxury  Treehouse Hotels, Treehouse Hotels in Bali | Treehousemap"
+        },
+        {
+          "url": "https://treehousemap.com/wp-content/uploads/2025/11/Guest-Room-.jpeg",
+          "label": "Café Gazebo at HOSHINOYA Bali | Booking.com Treehouse Hotels, Luxury  Treehouse Hotels, Treehouse Hotels in Bali | Treehousemap"
+        },
+        {
+          "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2732034164043174192",
+          "label": "Tranquil, secluded with an amazing view from our gazebo @hoshinoyabali .  ... Tempat yang tenang, terpencil dengan pemandangan menakjubkan dari gazebo  kami di @hoshinoyabali __ Tap the link in bio to find"
+        },
+        {
+          "url": "https://exquisite-taste-magazine.com/wp-content/uploads/2023/01/Ubud-Jungle-Dinner-HOSHINOYA-Bali.jpg",
+          "label": "Gazebo Grazing - Exquisite Taste Magazine"
+        },
+        {
+          "url": "https://www.wtravelmagazine.com/wp-content/uploads/2024/08/304321-HOSHINOYA-Balis-Cafe-Gazebo.jpg",
+          "label": "Where to Stay in Bali: The Luxurious HOSHINOYA Bali in Ubud"
         }
       ]
     }
@@ -76,81 +115,106 @@
   "restaurants": {
     "fine_dining": [
       {
-        "name": "A-Yu Beef Shabu Shabu",
-        "name_zh": "阿裕牛肉涮涮鍋 (崑崙店)",
-        "stars": "⭐⭐",
-        "dish": "🥩 招牌：現切溫體牛肉、牛雜鍋底",
-        "address": "台南市仁德區崑崙路733-1號",
-        "price_ntd": 2800,
-        "price_label": "四人用餐約 NT$2,800",
-        "hours": "11:00–14:00 / 17:00–21:00",
-        "search_query": "A-Yu Beef Shabu Shabu Tainan",
+        "name": "Apéritif Restaurant & Bar",
+        "name_zh": "烏布奢華殖民風法式細緻料理",
+        "stars": "⭐⭐⭐",
+        "dish": "🥩 招牌：和牛韃靼、煙燻鴨胸、法式松露鴿肉",
+        "address": "Jl. Lanyahan, Nuan, Ubud",
+        "price_ntd": 22000,
+        "price_label": "4人頂級主廚套餐 · 約 NT$22,000",
+        "hours": "12:00–14:00 / 17:30–21:00",
+        "search_query": "Aperitif Restaurant Ubud fine dining",
         "photos": [
           {
-            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/b315f22b0e594070a68dd6a2bef0e685.jpeg?width=1000",
-            "label": "A-Yu Beef Shabu Shabu – Tainan - a MICHELIN Guide Restaurant"
+            "url": "https://www.aperitif.com/wp-content/uploads/2024/03/Fine-Dining-Ubud-scaled.jpg",
+            "label": "Fine Dining Ubud - Upscale Dining at Apéritif Restaurant"
           },
           {
-            "url": "https://axwwgrkdco.cloudimg.io/v7/__gmpics3__/5cdd255677b64ef7ae7e8dbc40a8dbfc.jpeg",
-            "label": "A-Yu Beef Shabu Shabu – Tainan - a MICHELIN Guide Restaurant"
+            "url": "https://www.baliholidaysecrets.com/wp-content/uploads/2025/01/Aperitif-Restaurant-Best-Fine-Dining-Restaurant-in-Ubud.jpg",
+            "label": "Apéritif Restaurant - Premier Fine Dining in Ubud"
           },
           {
-            "url": "https://image.kkday.com/v2/image/get/c_fit%2Cq_55%2Ct_webp%2Cw_960/s1.kkday.com/product_130363/20220616091452_2O6FH/jpg",
-            "label": "Reservations to Skip the Line • Michelin Bib Gourmand Recommendation] Tainan  | A-Yu Beef Shabu-Shabu, Kunlun Branch | Hot Pot - KKday"
+            "url": "https://www.aperitif.com/wp-content/uploads/2024/07/Fancy-Restaurant-Ubud-3.jpg",
+            "label": "Fancy Restaurant Ubud | Fancy Dinner Ubud | Apéritif Restaurant"
+          }
+        ]
+      },
+      {
+        "name": "Starfish Bloo",
+        "name_zh": "W飯店招牌海鮮景觀餐廳",
+        "stars": "⭐⭐",
+        "dish": "🦞 招牌：現烤龍蝦、印尼風味海鮮拼盤",
+        "address": "W Bali - Seminyak, Jl. Petitenget",
+        "price_ntd": 12000,
+        "price_label": "4人海陸晚宴 · 約 NT$12,000",
+        "hours": "12:00–23:00",
+        "search_query": "Starfish Bloo W Bali food",
+        "photos": [
+          {
+            "url": "https://www.starfishbloorestaurant.com/resourcefiles/home-overview-section/best-sunday-brunch.jpg",
+            "label": "Starfish Bloo | Best Beachfront Dining in Seminyak"
+          },
+          {
+            "url": "https://dineandwinebali.com/site/assets/files/1449/04-dineandwinebali_com_restaurant_guide_starfish-bloo-w-bali-seminyak-9-01-1.jpg?nc=1654083738",
+            "label": "Starfish Bloo W Bali Seminyak - Best Brunch Seminyak"
+          },
+          {
+            "url": "https://exquisite-taste-magazine.com/wp-content/uploads/2022/10/Starfish-Bloo-Brunch.jpg",
+            "label": "The Winner of Exquisite Awards 2022 – Best Upscale Brunch Bali: Starfish  Bloo at W Bali - Seminyak - Exquisite Taste Magazine"
           }
         ]
       }
     ],
     "bistros": [
       {
-        "name": "Lola Cold Drink Shop",
-        "name_zh": "Lola 蘿拉冷飲店 (老屋餐酒館)",
+        "name": "Merah Putih",
+        "name_zh": "奢華挑高玻璃屋印尼現代料理",
         "stars": "⭐",
-        "dish": "🍕 招牌：薄脆披薩、特調調酒、手工炸物",
-        "address": "台南市中西區信義街110號",
-        "price_ntd": 1800,
-        "price_label": "四人消費約 NT$1,800",
-        "hours": "18:00–01:00 (週一公休)",
-        "search_query": "Lola Cold Drink Shop Tainan",
+        "dish": "🍛 招牌：巴東牛肉、印尼香料烤魚、香蘭葉布丁",
+        "address": "Jl. Petitenget No.109, Seminyak",
+        "price_ntd": 8000,
+        "price_label": "4人經典印尼饗宴 · 約 NT$8,000",
+        "hours": "12:00–15:00 / 17:30–23:00",
+        "search_query": "Merah Putih restaurant Bali interior",
         "photos": [
           {
-            "url": "https://images.getbento.com/accounts/3cdab285cbe63f6f792de823e4c9a2e6/media/images/1746638694962.png?w=1000&fit=max&auto=compress,format&cs=origin&h=1000",
-            "label": "LOTUS ENERGY | Lola Beans | Coffee Shop in TN"
+            "url": "https://merahputihbali.com/wp-content/uploads/2022/11/merah-putih-restaurant-dinner.jpeg",
+            "label": "Merah Putih Bali | Concept"
           },
           {
-            "url": "https://images.getbento.com/accounts/3cdab285cbe63f6f792de823e4c9a2e6/media/images/1746638528702.png?w=1000&fit=max&auto=compress,format&cs=origin&h=1000",
-            "label": "LOLA FAVES | Lola Beans | Coffee Shop in TN"
+            "url": "https://merahputihbali.com/wp-content/uploads/2022/08/photo1657512614-1.jpeg",
+            "label": "Merah Putih Bali | Book A Table"
           },
           {
-            "url": "https://images.getbento.com/accounts/3cdab285cbe63f6f792de823e4c9a2e6/media/images/1716306373527.png?w=1000&fit=max&auto=compress,format&h=1000",
-            "label": "TREATS | Lola Beans | Coffee Shop in TN"
+            "url": "https://merahputihbali.com/wp-content/uploads/2022/11/merah-putih-restaurant-8-1.jpeg",
+            "label": "Merah Putih Bali | Concept"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Paripari apt.",
-        "name_zh": "Paripari パリパリ APARTMENT",
+        "name": "Tis Cafe Ubud",
+        "name_zh": "德格拉朗梯田景觀網美咖啡廳",
         "stars": "",
-        "dish": "☕ 招牌：手沖咖啡、日式焦糖布丁、宇治抹茶歐蕾",
-        "address": "台南市中西區忠義路二段158巷9號",
-        "price_ntd": 1000,
-        "price_label": "四人下午茶約 NT$1,000",
-        "hours": "11:00–18:00",
-        "search_query": "Paripari apt Tainan cafe",
+        "dish": "🍹 招牌：熱帶水果冰沙、松露野菇燉飯、網美鞦韆",
+        "address": "Jl. Raya Tegallalang, Ubud",
+        "price_ntd": 4000,
+        "price_label": "4人梯田景觀午餐 · 約 NT$4,000",
+        "hours": "09:00–21:00",
+        "search_query": "Tis Cafe Tegallalang Ubud",
         "photos": [
           {
-            "url": "https://www.hafh.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fhafh-prod-travel_story_stay_image%2F7zyx9ko3jonoly5kltbdco0vyclr&w=1920&q=75",
-            "label": "Real Guest Stories from 《Paripari apt. 》| HafH"
+            "url": "https://tisrestaurant.com/wp-content/uploads/2024/07/230626_PiB_KSK04458-scaled.jpg",
+            "label": "TIS CAFE UBUD – Best Asian Fusion Restaurant in Ubud"
           },
           {
-            "url": "https://www.hafh.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fhafh-prod-property_image%2F2ilb5twssma4x14hlx6jc4gqxnr5&w=1920&q=75",
-            "label": "Paripari apt. 》– Real Guest Stories & Booking Info | HafH"
+            "url": "https://tisrestaurant.com/wp-content/uploads/2021/07/relax-1.png",
+            "label": "Restaurant – TIS CAFE UBUD"
           },
           {
-            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3402377898130932441",
-            "label": "PARIPARI パリパリ APARTMENT (@paripariapt) · Tainan"
+            "url": "https://tisrestaurant.com/wp-content/uploads/2024/07/230624_PiB_DJI_0941-scaled.jpg",
+            "label": "TIS CAFE UBUD – Best Asian Fusion Restaurant in Ubud"
           }
         ]
       }
@@ -159,203 +223,341 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Aug 14 · Fri",
-      "label_zh": "出發台南 · 國華街美食與神農老街散策",
-      "day_query": "Shennong Street Tainan night",
-      "hotel_name": "U.I.J Hotel & Hostel",
-      "hotel_name_zh": "UIJ 友愛街旅館",
-      "hotel_room": "友樂客房 (四人房)",
-      "weather": "☀️ 32°/26°",
-      "rain_pct": "20%",
-      "slots": [
-        {
-          "time": "08:30",
-          "desc": "🚗 竹南出發 · 四人輪流開車上國道，展開熱血的台南公路旅行（約 3 小時）"
-        },
-        {
-          "time": "11:30",
-          "desc": "🅿️ 抵達台南，將車停至 UIJ 友愛街旅館專屬停車場 · 辦理行李寄放"
-        },
-        {
-          "time": "12:00",
-          "desc": "🍜 步行前往國華街美食一級戰區 · 必吃：邱家小卷米粉、富盛號碗粿、金得春捲"
-        },
-        {
-          "time": "14:00",
-          "desc": "🥤 散步至正興街，買杯「雙全紅茶」或吃「蜷尾家」甘味處散步甜食"
-        },
-        {
-          "time": "15:30",
-          "desc": "🏨 返回 UIJ 友愛街旅館辦理 Check-in · 在超美的共享大廳與黑膠唱片區拍照留念"
-        },
-        {
-          "time": "16:30",
-          "desc": "🚶 散步至神農街 · 欣賞傍晚點燈後的復古老街，逛逛文創選物店與手作小鋪"
-        },
-        {
-          "time": "18:30",
-          "desc": "🛍️ 步行至林百貨 (Hayashi Department Store) · 登上頂樓看日治神社，採購文青伴手禮"
-        },
-        {
-          "time": "20:00",
-          "desc": "🍽️ 晚餐：阿明豬心冬粉（現場排隊，體驗台南經典宵夜魅力）"
-        },
-        {
-          "time": "22:00",
-          "desc": "🌙 返回旅館 · 在 3 樓戶外露臺吹著夏日微風聊天，享受大學生的悠閒夜晚"
-        }
-      ],
-      "day_photo": "https://res.cloudinary.com/rehash-studio/image/upload/f_jpg,q_60,w_auto/if_w_gt_1200,w_1200/files/lgvcgvrqbkunggwpv6dj.jpg"
-    },
-    {
-      "day": 2,
-      "date": "Aug 15 · Sat",
-      "label_zh": "安平海風 · 漁光島夕陽與花園夜市大暴食",
-      "day_query": "Yuguang Island Tainan sunset",
-      "hotel_name": "U.I.J Hotel & Hostel",
-      "hotel_name_zh": "UIJ 友愛街旅館",
-      "hotel_room": "友樂客房 (四人房)",
-      "weather": "⛅ 31°/26°",
+      "date": "2027-01-29 · Fri",
+      "label_zh": "啟程直飛峇里島 · 迎著海風入住熱情 W 飯店",
+      "day_query": "W Bali Seminyak sunset Woobar",
+      "hotel_name": "W Bali - Seminyak",
+      "hotel_name_zh": "峇里島塞米亞克 W 飯店",
+      "hotel_room": "奇幻海洋雙人房 (2間房)",
+      "weather": "🌦️ 29°/24°",
       "rain_pct": "30%",
       "slots": [
         {
-          "time": "10:00",
-          "desc": "🍳 睡到自然醒 · 步行前往吃台南在地早餐：包成羊肉 或 阿堂鹹粥"
+          "time": "09:15",
+          "desc": "✈️ 搭乘中華航空 CI 771 直飛前往峇里島，享受舒適的飛行與機上娛樂"
         },
         {
-          "time": "11:30",
-          "desc": "🚗 開車前往安平區 · 避開炎熱正午，直接前往「文章牛肉湯」享用鮮甜溫體牛"
-        },
-        {
-          "time": "13:00",
-          "desc": "🛍️ 逛安平老街 · 不進古蹟，主要買蜜餞（蜜餞物產行）、蝦餅，邊吃邊逛"
-        },
-        {
-          "time": "14:30",
-          "desc": "🍧 甜點時間 · 吃同記安平豆花（竹炭黑豆花超消暑）"
-        },
-        {
-          "time": "16:00",
-          "desc": "🏖️ 驅車前往漁光島 · 漫步林間步道，到沙灘上吹海風、踏浪，看全台最美落日"
-        },
-        {
-          "time": "18:30",
-          "desc": "🍟 挑戰全台最大「花園夜市」（週六限定） · 必吃：統大碳烤雞排、二師兄滷味、陳記麻辣鴨血"
-        },
-        {
-          "time": "21:30",
-          "desc": "🍹 晚上來到信義街的 Lola 蘿拉冷飲店 · 在充滿黑膠與老電影氛圍的餐酒館喝杯調酒放鬆"
-        },
-        {
-          "time": "23:30",
-          "desc": "🚗 安全駕駛載大家返回 UIJ 友愛街旅館休息"
-        }
-      ],
-      "day_photo": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_960,h_640/w_59,x_11,y_11,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/brmxmhq6kgsdh1h7lmwu/TainanYuguangIslandSunsetShuttleBus.jpg"
-    },
-    {
-      "day": 3,
-      "date": "Aug 16 · Sun",
-      "label_zh": "文青選物店巡禮 · 買好買滿回竹南",
-      "day_query": "Blueprint Cultural and Creative Park Tainan",
-      "hotel_name": "U.I.J Hotel & Hostel",
-      "hotel_name_zh": "UIJ 友愛街旅館（已退房）",
-      "hotel_room": "無 (已辦理退房)",
-      "weather": "☀️ 33°/27°",
-      "rain_pct": "10%",
-      "slots": [
-        {
-          "time": "10:00",
-          "desc": "🏨 辦理退房手續 · 行李先寄放車上 · 步行至藍晒圖文創園區拍照打卡"
-        },
-        {
-          "time": "11:00",
-          "desc": "☕ 到 Paripari apt. 享用日式昭和風下午茶與手沖咖啡，逛 1 樓的古道具選物"
-        },
-        {
-          "time": "13:00",
-          "desc": "🛍️ 前往衛民街與萬昌街一帶 · 這裡有許多潮流服飾店、古著店與手搖飲，非常適合大學生逛街"
-        },
-        {
-          "time": "14:30",
-          "desc": "🍪 伴手禮最後補貨：連得堂煎餅（現場排隊一人限購兩包）、義豐冬瓜茶"
+          "time": "14:40",
+          "desc": "🛬 抵達登巴薩伍拉·賴國際機場 (DPS) · 安排專屬 VIP 機場快速通關與行李提取服務"
         },
         {
           "time": "15:30",
-          "desc": "🚗 帶著滿滿的戰利品與美食回憶，開車啟程返回竹南"
+          "desc": "🚗 搭乘專屬豪華冷氣七人座商務車前往水明漾 (Seminyak)，避開炎熱的戶外，車內備有冰鎮毛巾與礦泉水"
         },
         {
-          "time": "17:00",
-          "desc": "⛽ 中途停靠清水服務區 · 休息、買個點心、上洗手間"
+          "time": "16:30",
+          "desc": "🏨 抵達 W Bali - Seminyak 辦理入住手續，入住景觀極佳的「奇幻海洋雙人房」兩間"
+        },
+        {
+          "time": "17:30",
+          "desc": "🍹 漫步至飯店著名的 Woobar 享用迎賓夕陽雞尾酒，躺在沙發椅上吹著涼爽海風欣賞絕美日落"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 於飯店內 Starfish Bloo 餐廳享用精緻海鮮晚餐，品嚐現烤龍蝦與精緻印尼風味海陸拼盤"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 散步回房，聽著溫柔的浪濤聲入眠，開啟奢華慵懶的度假模式"
+        }
+      ],
+      "day_photo": "https://static.thehoneycombers.com/wp-content/uploads/sites/4/2022/11/woobar-w-bali-best-beach-bar-seminyak-indonesia-club-900x643.jpg"
+    },
+    {
+      "day": 2,
+      "date": "2027-01-30 · Sat",
+      "label_zh": "慢活水明漾 · AWAY 奢華水療 · 傍晚海神廟唯美落日",
+      "day_query": "Tanah Lot temple Bali sunset",
+      "hotel_name": "W Bali - Seminyak",
+      "hotel_name_zh": "峇里島塞米亞克 W 飯店",
+      "hotel_room": "奇幻海洋雙人房 (2間房)",
+      "weather": "🌤️ 30°/24°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "⏰ 睡到自然醒，避開清晨烈日。在 Starfish Bloo 享用豐盛的半自助式現點現做早餐"
+        },
+        {
+          "time": "11:00",
+          "desc": "💆 預約 W 飯店招牌 AWAY Spa 進行 90 分鐘深度放鬆按摩，在冷氣房內享受極致的療癒時光"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 乘車前往 Merah Putih 奢華挑高玻璃屋餐廳，在充滿綠意的冷氣環境中享用精緻印尼現代料理"
+        },
+        {
+          "time": "15:30",
+          "desc": "🚗 搭乘專屬冷氣商務車前往著名景點：海神廟 (Tanah Lot)。此時氣溫漸降，最適合拍照與散步"
+        },
+        {
+          "time": "16:30",
+          "desc": "⛩️ 抵達海神廟，在專屬導遊帶領下，於最佳觀景台欣賞矗立於波濤中的神聖寺廟，捕捉金色夕陽"
         },
         {
           "time": "18:30",
-          "desc": "🏡 安全抵達竹南 · 結束三天兩夜充實又不緊湊的台南之旅"
+          "desc": "🚗 避開塞車，舒適乘車返回市區"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 於水明漾頂級餐廳 Sarong 享用精緻亞洲融合料理晚餐，環境浪漫且極具私密性"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 返回 W 飯店，可在池畔散步，享受愜意的水明漾之夜"
         }
       ],
-      "day_photo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwHst5zyd4w1Xv78FpGFqM4769YPlXEPnFI_Cwnlx3mAgoQm2DuEQcmOY-UIYL2ABzatPsWRU2Dd9VpdMT7l-v_JhoeTeIqOZuAuS27N6jQ0NMNb_Nr0f8zkRXMbH8HJpXq36N74-3rs2R/s1600/tainan_bcp_1.jpg"
+      "day_photo": "https://png.pngtree.com/thumb_back/fw800/background/20240522/pngtree-a-beauty-of-sunset-on-tanah-lot-temple-in-bali-image_15668030.jpg"
+    },
+    {
+      "day": 3,
+      "date": "2027-01-31 · Sun",
+      "label_zh": "前進綠意烏布 · 頂級法式午宴 · 入住夢幻虹夕諾雅",
+      "day_query": "Hoshinoya Bali jungle resort",
+      "hotel_name": "Hoshinoya Bali",
+      "hotel_name_zh": "虹夕諾雅 峇里島",
+      "hotel_room": "「Soka」鳥巢露台運河別墅 (2間房)",
+      "weather": "⛅ 28°/23°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "⏰ 悠閒起床，於 W 飯店享用最後一次美味早餐，並在房內打包行李"
+        },
+        {
+          "time": "11:00",
+          "desc": "🔑 辦理退房。搭乘專屬冷氣商務車前往充滿藝術與芬多精的烏布 (Ubud) 山區"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 於烏布頂級 Apéritif Restaurant 享用奢華殖民風法式細緻料理（8道菜主廚套餐），視覺與味覺的雙重饗宴"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏨 抵達 Hoshinoya Bali 辦理入住。服務人員奉上冰鎮草本茶，入住極具禪意的「Soka」運河別墅 2 間"
+        },
+        {
+          "time": "16:00",
+          "desc": "🏊 別墅直通長達 70 公尺的半私家運河泳池。在涼爽的溪谷樹蔭下暢泳，或在客房露台發呆"
+        },
+        {
+          "time": "17:30",
+          "desc": "🍵 體驗虹夕諾雅招牌的「Café Gazebo」懸空鳥巢下午茶，在懸掛於叢林溪谷之上的包廂內享用精緻點心"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 於虹夕諾雅餐廳享用日印融合精緻晚餐，品嚐主廚將日式細膩手法融入峇里島在地食材的創意料理"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 在靜謐的烏布叢林蟲鳴聲中，享受極致寧靜的睡眠環境"
+        }
+      ],
+      "day_photo": "https://www.luxe-infinity.com/wp-content/uploads/2023/03/Hoshinoya-Bali-1.jpg"
+    },
+    {
+      "day": 4,
+      "date": "2027-02-01 · Mon",
+      "label_zh": "德格拉朗綠浪梯田 · 網美景觀午餐 · 皇家級奢華 SPA",
+      "day_query": "Tegallalang Rice Terrace Ubud green",
+      "hotel_name": "Hoshinoya Bali",
+      "hotel_name_zh": "虹夕諾雅 峇里島",
+      "hotel_room": "「Soka」鳥巢露台運河別墅 (2間房)",
+      "weather": "⛅ 28°/23°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "⏰ 睡到自然醒。在懸空於叢林之上的 Café Gazebo 享用專屬日式或印尼式早餐，晨光灑落極為浪漫"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚗 搭乘專車前往德格拉朗梯田 (Tegallalang Rice Terrace)，欣賞如綠色波浪般的壯麗梯田景觀"
+        },
+        {
+          "time": "11:00",
+          "desc": "📸 抵達 Tis Cafe，不需辛苦爬梯田，在冷氣景觀座位或遮陽露台輕鬆俯瞰梯田，並可體驗安全的網美鞦韆拍照"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 於 Tis Cafe 享用精緻的梯田景觀午餐，喝著冰涼的椰子汁，享受微風吹拂"
+        },
+        {
+          "time": "14:30",
+          "desc": "🚗 乘車前往烏布頂級 Royal Kirana Spa（由資生堂經營，面向阿勇河谷）"
+        },
+        {
+          "time": "15:00",
+          "desc": "💆 享受 120 分鐘皇家級奢華雙人 SPA 療程，在半開放式的奢華別墅內，一邊聽著河谷溪流聲一邊放鬆身心"
+        },
+        {
+          "time": "18:00",
+          "desc": "🚗 乘車返回虹夕諾雅度假村"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 於度假村內享用輕鬆的單點晚餐，或在房內呼叫 Room Service，享受不受打擾的四人溫馨時光"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 浸泡在備有草本浴包的浴缸中，放鬆全身肌群"
+        }
+      ],
+      "day_photo": "https://www.antararentalbali.com/wp-content/uploads/2025/07/Tegallalang-rice-terrace-scaled.webp"
+    },
+    {
+      "day": 5,
+      "date": "2027-02-02 · Tue",
+      "label_zh": "虹夕諾雅慢活時光 · 晨間伸展 · 禪意文化手作體驗",
+      "day_query": "Hoshinoya Bali canang sari workshop",
+      "hotel_name": "Hoshinoya Bali",
+      "hotel_name_zh": "虹夕諾雅 峇里島",
+      "hotel_room": "「Soka」鳥巢露台運河別墅 (2間房)",
+      "weather": "⛅ 27°/22°",
+      "rain_pct": "10%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "⏰ 睡到九點起床，前往度假村的瑜珈平台參加溫和的晨間伸展與呼吸冥想，喚醒身體活力"
+        },
+        {
+          "time": "10:00",
+          "desc": "🍽️ 於度假村主餐廳享用精緻早餐，品嚐每日更換的現榨新鮮果汁與特色蛋料理"
+        },
+        {
+          "time": "11:30",
+          "desc": "🎨 在冷氣圖書館內，免費參加度假村的 Canang Sari (峇里島傳統花卉祭品) 手作體驗，感受在地文化"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 在度假村內享用輕食午餐，品嚐日式烏龍麵或印尼炒飯"
+        },
+        {
+          "time": "14:30",
+          "desc": "🏊 享受別墅直通泳池，或在度假村的公共無邊際泳池畔閱讀、放空，極盡慵懶"
+        },
+        {
+          "time": "16:30",
+          "desc": "🍵 再次預約 Café Gazebo 懸空鳥巢，享用日式抹茶與和菓子下午茶，欣賞夕陽餘暉穿透叢林"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 告別晚宴：於度假村餐廳品嚐頂級「九重葛」主題套餐，慶祝這次完美的峇里島奢華之旅"
+        },
+        {
+          "time": "21:30",
+          "desc": "🌙 整理行李，在滿天星斗下享受最後一晚的烏布寧靜夜色"
+        }
+      ],
+      "day_photo": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=735133428748258"
+    },
+    {
+      "day": 6,
+      "date": "2027-02-03 · Wed",
+      "label_zh": "珍重再見峇里島 · 金巴蘭海景午宴 · 滿載美好回憶歸國",
+      "day_query": "Sundara Bali Jimbaran beach",
+      "hotel_name": "Hoshinoya Bali",
+      "hotel_name_zh": "虹夕諾雅 峇里島",
+      "hotel_room": "「Soka」鳥巢露台運河別墅 (2間房)",
+      "weather": "🌦️ 29°/24°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "⏰ 悠閒起床，於虹夕諾雅享用最後一餐豐盛早餐，在別墅露台做最後巡禮與拍照留念"
+        },
+        {
+          "time": "11:30",
+          "desc": "🔑 辦理退房手續。搭乘專屬冷氣商務車前往機場方向"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 抵達金巴蘭四季酒店的 Sundara 餐廳，在冷氣海景包廂內享用精緻的現代亞洲風味午餐，欣賞無邊海景"
+        },
+        {
+          "time": "14:15",
+          "desc": "🚗 乘車前往伍拉·賴國際機場 (DPS)，避開午後高溫"
+        },
+        {
+          "time": "14:30",
+          "desc": "✈️ 抵達機場，專人協助辦理登機與行李託運，使用機場貴賓室休息，享用冷飲與輕食"
+        },
+        {
+          "time": "15:40",
+          "desc": "🛫 搭乘中華航空 CI 772 直航班機啟程返回台灣"
+        },
+        {
+          "time": "21:05",
+          "desc": "🛬 順利抵達台灣桃園國際機場 (TPE)，結束六天五夜極致奢華、不疾不徐的峇里島慢活假期"
+        }
+      ],
+      "day_photo": "https://d22ir9aoo7cbf6.cloudfront.net/wp-content/uploads/sites/4/2019/03/theglobewanderer.jpg"
     }
   ],
   "costs": [
     {
-      "label": "🚗 自駕油資與國道通行費",
-      "amount_ntd": 3200
+      "label": "✈️ 中華航空來回機票 (4人)",
+      "amount_ntd": 100000
     },
     {
-      "label": "🏨 UIJ 友愛街旅館 (四人房兩晚)",
-      "amount_ntd": 10500
+      "label": "🏨 W Bali - Seminyak 住宿 (2間房 · 2晚)",
+      "amount_ntd": 60000
     },
     {
-      "label": "🍽️ 餐廳與夜市小吃 (四人總計)",
-      "amount_ntd": 7500
+      "label": "🏨 Hoshinoya Bali 住宿 (2間房 · 3晚)",
+      "amount_ntd": 138000
     },
     {
-      "label": "🛍️ 逛街購物與伴手禮",
-      "amount_ntd": 3000
+      "label": "🍽️ 頂級餐飲 (Apéritif, Starfish Bloo, Merah Putih等)",
+      "amount_ntd": 56000
     },
     {
-      "label": "🅿️ 市區停車費",
-      "amount_ntd": 500
+      "label": "💆 頂級 SPA 與活動門票 (AWAY Spa, Royal Kirana Spa, 網美鞦韆)",
+      "amount_ntd": 32000
+    },
+    {
+      "label": "🚗 全程專屬豪華七人座商務車接送與包車 (含司機、油資、小費)",
+      "amount_ntd": 12000
     }
   ],
-  "cost_total_ntd": 24700,
-  "budget_remaining_ntd": 300,
-  "chat_input": "台南三天兩夜 四個大二生 自駕 行程不用太滿 不喜歡博物館 主要想吃東西逛街，2026年8月，一間房，預算2.5萬，從竹南出發",
+  "cost_total_ntd": 398000,
+  "budget_remaining_ntd": 2000,
+  "chat_input": "2027年1月29日前往峇里島五天四夜，1/29搭華航CI0771, 2/3華航CI0772, 4個人需要兩個房間，前兩晚住在W Hotel，後3晚住在屋布的虹夕諾雅。預算400,000台幣。每天睡到九點起床，不要太熱的行程，必去的地方有海神廟跟梯田。吃好睡好吃美食走豪華行程。",
   "photos": {
     "hero": [
       {
-        "url": "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/v1755071635/destination/xu0ndw0qlfscu5gcrcwj.jpg",
-        "label": "Best Places To Visit in Tainan"
+        "url": "https://cdn.audleytravel.com/2478/1770/79/16027396-pura-ulun-danu-bratan-bali.jpg",
+        "label": "Places to visit in Bali | Tailor-Made Bali Vacations | Audley Travel US"
       }
     ],
     "destination": [
       {
-        "url": "https://res.klook.com/image/upload/fl_lossy.progressive,q_60/v1755071635/destination/xu0ndw0qlfscu5gcrcwj.jpg",
-        "label": "Best Places To Visit in Tainan"
+        "url": "https://cdn.audleytravel.com/2478/1770/79/16027396-pura-ulun-danu-bratan-bali.jpg",
+        "label": "Places to visit in Bali | Tailor-Made Bali Vacations | Audley Travel US"
       },
       {
-        "url": "https://www.creativindie.com/wp-content/uploads/2024/03/tesocraderek_taiwan_best_spots_for_digital_nomads_cute_Instagra_77eed48e-7b14-4860-97fe-e62807f1dee3.png",
-        "label": "Living the Dream in Tainan: A Digital Nomad's Travel Guide to Taiwan -  Creativindie"
+        "url": "https://s3.amazonaws.com/iexplore_web/images/assets/000/005/790/original/bali.jpg?1442936248",
+        "label": "Bali Travel Guide"
       },
       {
-        "url": "https://image.taiwantoday.tw/images/content/img20240108120114843.jpg",
-        "label": "Tainan one of CNN Travel's top 24 best places to visit in 2024 - Taiwan  Today"
+        "url": "https://www.outlooktravelmag.com/media/bali-1-1679062958.profileImage.2x-1536x884.webp",
+        "label": "Bali Tourism | Travel Guides"
       },
       {
-        "url": "https://images.trvl-media.com/place/6331780/a8e19d8e-78d3-4ccf-84b2-98d14b06a7c2.jpg",
-        "label": "Visit Tainan: Best of Tainan Tourism | Expedia Travel Guide"
+        "url": "https://www.viceroybali.com/wp-content/uploads/2024/10/first-timers-guide-to-bali-travel-11-tips-you-need-to-know-1.png",
+        "label": "First-timers Guide to Bali Travel: 11 Tips You Need to Know"
       },
       {
-        "url": "https://www.taiwanobsessed.com/wp-content/uploads/2023/08/tainan-taiwan.jpg",
-        "label": "A Travel Guide to Tainan, Taiwan's Original Capital - Taiwan Obsessed"
+        "url": "https://res.klook.com/image/upload/q_85/c_fill,w_750/v1654586251/blog/wsnqunszlajd5ypjo29l.jpg",
+        "label": "17 Surprising and Important Things You Should Know Before Your First Trip  to Bali - Klook Travel Blog"
       },
       {
-        "url": "https://girleatworld.net/wp-content/uploads/2023/05/tainan-shennong-street-03.jpg",
-        "label": "Tainan Travel Guide: Things to Do, What to Eat and Where to Stay in Tainan  — Girl Eat World"
+        "url": "https://i0.wp.com/greeneyedtraveller.com/wp-content/uploads/2023/07/kellingking.png?resize=1080%2C675&ssl=1",
+        "label": "12 beautiful places to visit in Bali - Green Eyed Traveller"
       }
     ]
   },
-  "chat_hash": "90bb633182bac1d1954a17a372a18114b50d934a8ea3fa2a5874fb5b7c863c3e",
+  "chat_hash": "7861fc87c3645354692d3dbed570cf1aabba60448bc5f46ef18dcd599ece864a",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-07-02T02:56:56.228463"
+  "generated_at": "2026-07-02T06:23:53.120954"
 }
