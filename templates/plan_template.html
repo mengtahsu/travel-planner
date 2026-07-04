@@ -205,7 +205,9 @@
         <div class="day-num">{{ day.day }}</div>
         <div class="day-label">{{ day.date }}</div>
         <div class="day-zh">{{ day.label_zh }}</div>
+        {% if day.hotel_name_zh %}
         <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 {{ day.hotel_name_zh.split('·')[0].strip() if '·' in day.hotel_name_zh else day.hotel_name_zh.split(' ')[0] }}</div>
+        {% endif %}
       </div>
       <div class="day-schedule">
         {% if day.day_photo %}
