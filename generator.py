@@ -364,6 +364,10 @@ IMPORTANT:
 
 GEMINI_MODEL = "gemini-3.5-flash"
 
+# Free-tier quotas are per model, so on 429/503 we fall through to models with
+# separate quota buckets instead of failing the run (same chain as flipbook).
+GEMINI_MODEL_CHAIN = [GEMINI_MODEL, "gemini-flash-lite-latest", "gemini-2.5-flash"]
+
 
 def call_ai(prompt: str) -> dict[str, Any]:
     if not GEMINI_API_KEY:
@@ -371,19 +375,25 @@ def call_ai(prompt: str) -> dict[str, Any]:
     # Gemini JSON mode returns pure JSON. maxOutputTokens is generous because the
     # bilingual plan (itinerary + hotels + restaurants) is large; a finishReason
     # of MAX_TOKENS means it was truncated.
-    resp = requests.post(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
-        params={"key": GEMINI_API_KEY},
-        json={
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {
-                "responseMimeType": "application/json",
-                "maxOutputTokens": 32768,
-                "temperature": 0.7,
+    resp = None
+    for model in GEMINI_MODEL_CHAIN:
+        resp = requests.post(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+            params={"key": GEMINI_API_KEY},
+            json={
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {
+                    "responseMimeType": "application/json",
+                    "maxOutputTokens": 32768,
+                    "temperature": 0.7,
+                },
             },
-        },
-        timeout=180,
-    )
+            timeout=180,
+        )
+        if resp.status_code in (429, 503):
+            safe_print(f"        Gemini {model} HTTP {resp.status_code} — trying next model")
+            continue
+        break
     resp.raise_for_status()
     data = resp.json()
     if "error" in data:
