@@ -365,8 +365,23 @@ IMPORTANT:
 GEMINI_MODEL = "gemini-3.5-flash"
 
 # Free-tier quotas are per model, so on 429/503 we fall through to models with
-# separate quota buckets instead of failing the run (same chain as flipbook).
-GEMINI_MODEL_CHAIN = [GEMINI_MODEL, "gemini-flash-lite-latest", "gemini-2.5-flash"]
+# separate quota buckets instead of failing the run (same idea as flipbook).
+# 2.5-flash before flash-lite: the plan is a large structured JSON and lite
+# has produced truncated/multi-object garbage on it (run 28711311698).
+GEMINI_MODEL_CHAIN = [GEMINI_MODEL, "gemini-2.5-flash", "gemini-flash-lite-latest"]
+
+
+def _parse_plan_json(text: str) -> dict[str, Any]:
+    """Extract and parse the first JSON object in the model output.
+    raw_decode tolerates trailing extra data (some models emit junk after
+    the object); the result is still validated by validate_plan()."""
+    start = text.find("{")
+    if start == -1:
+        raise ValueError(f"Could not find JSON in Gemini response: {text[:200]}...")
+    plan, _ = json.JSONDecoder().raw_decode(text[start:])
+    if not isinstance(plan, dict):
+        raise ValueError(f"Gemini JSON is not an object: {type(plan).__name__}")
+    return plan
 
 
 def call_ai(prompt: str) -> dict[str, Any]:
@@ -374,8 +389,9 @@ def call_ai(prompt: str) -> dict[str, Any]:
         raise RuntimeError("GEMINI_API_KEY not set in environment")
     # Gemini JSON mode returns pure JSON. maxOutputTokens is generous because the
     # bilingual plan (itinerary + hotels + restaurants) is large; a finishReason
-    # of MAX_TOKENS means it was truncated.
-    resp = None
+    # of MAX_TOKENS means it was truncated. A rate-limited, erroring, or
+    # garbage-emitting model falls through to the next one in the chain.
+    last_err: Exception | None = None
     for model in GEMINI_MODEL_CHAIN:
         resp = requests.post(
             f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
@@ -392,25 +408,29 @@ def call_ai(prompt: str) -> dict[str, Any]:
         )
         if resp.status_code in (429, 503):
             safe_print(f"        Gemini {model} HTTP {resp.status_code} — trying next model")
+            last_err = RuntimeError(f"Gemini {model} HTTP {resp.status_code}")
             continue
-        break
-    resp.raise_for_status()
-    data = resp.json()
-    if "error" in data:
-        raise RuntimeError(f"Gemini API error: {data['error']}")
-    cand = (data.get("candidates") or [{}])[0]
-    if cand.get("finishReason") == "MAX_TOKENS":
-        raise ValueError(
-            "Gemini response hit MAX_TOKENS (truncated JSON). Raise maxOutputTokens or trim the prompt."
-        )
-    text = "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", []))
-    if not text:
-        raise ValueError(f"Gemini returned no text (finishReason={cand.get('finishReason')})")
-    start = text.find("{")
-    end = text.rfind("}") + 1
-    if start == -1 or end <= start:
-        raise ValueError(f"Could not find JSON in Gemini response: {text[:200]}...")
-    return json.loads(text[start:end])
+        try:
+            resp.raise_for_status()
+            data = resp.json()
+            if "error" in data:
+                raise RuntimeError(f"Gemini API error: {data['error']}")
+            cand = (data.get("candidates") or [{}])[0]
+            if cand.get("finishReason") == "MAX_TOKENS":
+                raise ValueError(
+                    "Gemini response hit MAX_TOKENS (truncated JSON). Raise maxOutputTokens or trim the prompt."
+                )
+            text = "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", []))
+            if not text:
+                raise ValueError(f"Gemini returned no text (finishReason={cand.get('finishReason')})")
+            # Validate here so a model that returns well-formed-but-wrong JSON
+            # also falls through to the next model instead of failing the run.
+            return validate_plan(_parse_plan_json(text))
+        except (ValueError, RuntimeError, requests.RequestException) as e:
+            safe_print(f"        Gemini {model} bad response — trying next model ({e})")
+            last_err = e
+            continue
+    raise RuntimeError(f"All Gemini models failed; last error: {last_err}")
 
 
 REQUIRED_PLAN_FIELDS = [
