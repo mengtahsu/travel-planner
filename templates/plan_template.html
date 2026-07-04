@@ -251,8 +251,9 @@
     <div class="full-card-header">
       <h2>📖 探索 {{ plan.destination_en }}</h2>
     </div>
-    <iframe src="https://flipbook-clone-five.vercel.app?q={{ plan.destination_en | urlencode }}&embed=1"
-            width="100%" height="500" frameborder="0"
+    <iframe id="flipbook-frame"
+            src="https://flipbook-clone-five.vercel.app?q={{ plan.destination_en | urlencode }}&embed=1"
+            width="100%" height="700" frameborder="0" scrolling="no"
             style="border:none; border-radius:10px; box-shadow:0 2px 16px rgba(0,0,0,0.05);">
     </iframe>
   </div>

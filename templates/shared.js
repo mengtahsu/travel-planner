@@ -104,3 +104,19 @@ document.addEventListener('error', function(e){
 
   window.addEventListener('load', function(){ collectImages(); });
 })();
+
+// Flipbook embed auto-resize: the iframe grows to fit the content height
+// posted by the flipbook (embed mode), so nothing gets clipped.
+(function() {
+  window.addEventListener('message', function(e) {
+    if (e.origin !== 'https://flipbook-clone-five.vercel.app') return;
+    var d = e.data;
+    if (!d || d.type !== 'flipbook-height' || typeof d.height !== 'number') return;
+    var frame = document.getElementById('flipbook-frame');
+    if (!frame) return;
+    var h = Math.round(d.height);
+    if (h < 300) h = 300;
+    if (h > 1600) h = 1600;
+    frame.style.height = h + 'px';
+  });
+})();
