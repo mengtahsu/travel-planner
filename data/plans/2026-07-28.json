@@ -1,6 +1,6 @@
 {
   "destination_en": "Jeju Island, South Korea",
-  "title_zh": "秋意濟州 · 奢華家庭尊榮六日之旅",
+  "title_zh": "濟州島奢華秋色 · 頂級雙度假村與自然美景六天家族之旅",
   "date_range": "2026/10/14–10/19",
   "start_date": "2026-10-14",
   "end_date": "2026-10-19",
@@ -11,41 +11,84 @@
   "days": 6,
   "budget_ntd": 400000,
   "flight": {
-    "airline": "長榮航空 EVA Air + 聯程優質航空",
+    "airline": "中華航空 China Airlines",
     "departure_date": "10月14日",
     "return_date": "10月19日",
-    "total_price_ntd": 140000,
+    "total_price_ntd": 120000,
     "outbound": {
-      "flight_no": "BR 170 / Connect",
-      "route": "TPE → ICN → CJU 轉機聯程",
+      "flight_no": "CI 148",
+      "route": "TPE → CJU 直飛",
       "depart_time": "07:30",
-      "arrive_time": "14:30",
-      "duration": "6h 00m",
-      "class": "商務艙/尊榮客艙"
+      "arrive_time": "10:35",
+      "duration": "2h 05m",
+      "class": "商務艙"
     },
     "inbound": {
-      "flight_no": "Connect / BR 159",
-      "route": "CJU → GMP / ICN → TPE 轉機聯程",
-      "depart_time": "13:00",
-      "arrive_time": "21:25",
-      "duration": "9h 25m",
-      "class": "商務艙/尊榮客艙"
+      "flight_no": "CI 149",
+      "route": "CJU → TPE 直飛",
+      "depart_time": "11:40",
+      "arrive_time": "12:50",
+      "duration": "2h 10m",
+      "class": "商務艙"
     }
   },
   "hotels": [
     {
-      "name": "JW Marriott Jeju Resort & Spa",
-      "name_zh": "濟州島萬豪度假酒店",
-      "district": "西歸浦市 Seogwipo",
+      "name": "Grand Hyatt Jeju",
+      "name_zh": "濟州君悅酒店",
+      "district": "Jeju City 濟州市區",
       "day_range": "1–3",
       "nights": 3,
-      "price_ntd": 114000,
+      "price_ntd": 108000,
       "stars": "★★★★★",
-      "room_type": "海景豪華雙床房兩間 (Family Ocean Deluxe Twin)",
-      "breakfast": "含每日精緻早餐",
-      "amenities": "🏊 無邊際懸崖泳池 · 💆 頂級 SPA · 🧘 晨間瑜珈 · 🍽️ 頂級米其林概念餐廳",
-      "search_query": "JW Marriott Jeju Resort Spa luxury ocean view",
+      "room_type": "2間 豪華大床房 (1 King Bed Deluxe Room x 2)",
+      "breakfast": "含五星級自助早餐",
+      "amenities": "🏊 無邊際溫水泳池 · 🛍️ 直通時尚商場 · 🍽️ 14 間特色餐廳 · 🌆 38樓高空觀景台",
+      "search_query": "Grand Hyatt Jeju resort room view",
       "photos": [
+        {
+          "url": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2021/02/22/2100/CJUGH-P056-Twin-Guestroom-Sea-View.jpg/CJUGH-P056-Twin-Guestroom-Sea-View.16x9.jpg",
+          "label": "Luxury hotel room and suite I Grand Hyatt Jeju"
+        },
+        {
+          "url": "https://images.trvl-media.com/lodging/59000000/58190000/58181100/58181007/c4c84388.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+          "label": "Grand Hyatt Jeju - View Rooms & Prices - Expedia"
+        },
+        {
+          "url": "https://images.trvl-media.com/lodging/59000000/58190000/58181100/58181007/9666a058.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+          "label": "Grand Hyatt Jeju - View Rooms & Prices - Expedia"
+        },
+        {
+          "url": "https://images.trvl-media.com/lodging/59000000/58190000/58181100/58181007/aa59803d.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+          "label": "Grand Hyatt Jeju - View Rooms & Prices - Expedia"
+        },
+        {
+          "url": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2021/02/22/2059/CJUGH-P046-Guestroom-City-View-Sitting-Area-Sofa.jpg/CJUGH-P046-Guestroom-City-View-Sitting-Area-Sofa.16x9.jpg",
+          "label": "Luxury hotel room and suite I Grand Hyatt Jeju"
+        },
+        {
+          "url": "https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2021/02/22/2059/CJUGH-P050-King-Guestroom-City-View.jpg/CJUGH-P050-King-Guestroom-City-View.4x3.jpg",
+          "label": "Luxury hotel room and suite I Grand Hyatt Jeju"
+        }
+      ]
+    },
+    {
+      "name": "JW Marriott Jeju Resort & Spa",
+      "name_zh": "濟州島萬豪度假酒店",
+      "district": "Seogwipo 西歸浦區",
+      "day_range": "4–5",
+      "nights": 2,
+      "price_ntd": 100000,
+      "stars": "★★★★★",
+      "room_type": "2間 尊貴海景房 (Premium Ocean View Room x 2)",
+      "breakfast": "含精緻單點式早餐",
+      "amenities": "🌊 懸崖海景無邊際泳池 · 💆 頂級奢華 SPA · 🧘 晨間瑜珈課程 · 🌿 偶來小路直通",
+      "search_query": "JW Marriott Jeju Resort Spa ocean view",
+      "photos": [
+        {
+          "url": "https://www.travelandleisure.com/thmb/SwjASWwpCruSj_RJwwknHVn1yZg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-jw-marriott-jeju-resort-spa-suite-JWJEJU1023-48c2cd7edbb641c092bc2d1bede1c011.jpg",
+          "label": "JW Marriott Jeju Resort & Spa Review: This New Jeju Island Resort Is a  Peaceful Getaway From Seoul — With Ocean Views, Seaside Hikes, and  Shellfish Diving"
+        },
         {
           "url": "https://www.travelandleisure.com/thmb/YChn13G4iJdgIUuKdRR8IH4ntxo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-jw-marriott-jeju-resort-spa-outdoor-dining-JWJEJU1023-1aa664169fba4afbbb38f41c0fea888f.jpg",
           "label": "JW Marriott Jeju Resort & Spa Review: This New Jeju Island Resort Is a  Peaceful Getaway From Seoul — With Ocean Views, Seaside Hikes, and  Shellfish Diving"
@@ -55,59 +98,16 @@
           "label": "JW Marriott Jeju Resort & Spa, Jeju Island. Expert reviews and highlights | The  Hotel Guru"
         },
         {
-          "url": "https://cache.marriott.com/is/image/marriotts7prod/jw-cjuju-exterior-32244:Classic-Hor?wid=1200&fit=constrain",
-          "label": "JW Marriott Jeju Resort & Spa | Luxury Hotel"
+          "url": "https://cache.marriott.com/is/image/marriotts7prod/jw-cjuju-outdoor-pool-40714:Feature-Hor?wid=1920&fit=constrain",
+          "label": "Experiences | JW Marriott Jeju Resort & Spa"
         },
         {
-          "url": "https://cache.marriott.com/is/image/marriotts7prod/jw-cjuju-outdoor-pool-2-13846:Classic-Hor?wid=1300&fit=constrain",
-          "label": "JW Marriott Jeju Resort & Spa | Luxury Hotel"
+          "url": "https://travelport.leonardocontentcloud.com/imageRepo/7/0/156/808/441/jw-cjuju-jw-cjuju-exterior-09453_Classic-Hor_S.jpg",
+          "label": "JW Marriott Jeju Resort & Spa | Wota Luxe | Club Wota"
         },
         {
-          "url": "https://www.travelandleisure.com/thmb/SwjASWwpCruSj_RJwwknHVn1yZg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-jw-marriott-jeju-resort-spa-suite-JWJEJU1023-48c2cd7edbb641c092bc2d1bede1c011.jpg",
-          "label": "JW Marriott Jeju Resort & Spa Review: This New Jeju Island Resort Is a  Peaceful Getaway From Seoul — With Ocean Views, Seaside Hikes, and  Shellfish Diving"
-        },
-        {
-          "url": "https://cache.marriott.com/content/dam/marriott-digital/jw/apec/hws/c/cjuju/en_us/photo/unlimited/assets/jw-cjuju-jw-cjuju-exterior-09453.jpg",
-          "label": "JW Marriott Jeju Resort & Spa | Luxury Hotel"
-        }
-      ]
-    },
-    {
-      "name": "The Shilla Jeju",
-      "name_zh": "濟州新羅酒店",
-      "district": "中文觀光園區 Jungmun",
-      "day_range": "4–5",
-      "nights": 2,
-      "price_ntd": 80000,
-      "stars": "★★★★★",
-      "room_type": "露台家庭套房兩間 (Terrace Family Suite)",
-      "breakfast": "含豪華自助早餐",
-      "amenities": "🌴 溫水露天泳池 · 🎬 星空露天電影院 · 🧸 專屬露營烤肉區 · 🚶 直通中文海灘步道",
-      "search_query": "The Shilla Jeju luxury hotel garden",
-      "photos": [
-        {
-          "url": "https://d3g2yh83to8qa2.cloudfront.net/wp-content/uploads/sites/45/2023/09/11062742/%EC%A3%BC%EA%B2%BD-2-990x590.jpg",
-          "label": "The Shilla Jeju (Alliance Hotel) | Luxury Hotel in Jeju"
-        },
-        {
-          "url": "https://d3g2yh83to8qa2.cloudfront.net/wp-content/uploads/sites/45/2016/04/24071214/The-Shilla-Jeju_Poolside-bar_02-990x590.jpg",
-          "label": "The Shilla Jeju (Alliance Hotel) | Luxury Hotel in Jeju"
-        },
-        {
-          "url": "https://d3g2yh83to8qa2.cloudfront.net/wp-content/uploads/sites/45/2016/04/24071229/jejushilla_adultpool03-990x590.jpg",
-          "label": "The Shilla Jeju (Alliance Hotel) | Luxury Hotel in Jeju"
-        },
-        {
-          "url": "https://d3g2yh83to8qa2.cloudfront.net/wp-content/uploads/sites/45/2016/04/24071031/jejushilla_adultpool06-990x590.jpg",
-          "label": "The Shilla Jeju (Alliance Hotel) | Luxury Hotel in Jeju"
-        },
-        {
-          "url": "https://alovelettertoasia.com/wp-content/uploads/2023/12/shilla-hotel-jeju-island-grounds.jpg",
-          "label": "The Shilla Hotel Jeju Review - alovelettertoasia.com"
-        },
-        {
-          "url": "https://alovelettertoasia.com/wp-content/uploads/2024/02/shilla-hotel-garden-paths.jpg",
-          "label": "The Shilla Hotel Jeju Review - alovelettertoasia.com"
+          "url": "https://cache.marriott.com/is/image/marriotts7prod/jw-cjuju-panorama-suite-39865:Classic-Hor?wid=1300&fit=constrain",
+          "label": "Luxury Rooms & Suites | JW Marriott Jeju Resort & Spa"
         }
       ]
     }
@@ -116,13 +116,13 @@
     "fine_dining": [
       {
         "name": "The Flying Hog",
-        "name_zh": "JW萬豪奢華黑豬肉木炭烤餐廳",
+        "name_zh": "JW 萬豪飛豬餐廳 · 柴燒黑豬肉精緻料理",
         "stars": "⭐⭐⭐",
-        "dish": "🥩 招牌：頂級黑豬肉多道式炭烤盛宴 · 柴燒熟成鴨胸",
-        "address": "西歸浦市 濟州萬豪 3樓",
-        "price_ntd": 14000,
-        "price_label": "四人奢華饗宴 NT$14,000",
-        "hours": "18:00–22:00 · 需提前預約",
+        "dish": "🥩 招牌：七道式柴燒濟州黑豬肉與熟成鴨肉饗宴",
+        "address": "JW Marriott Jeju, Seogwipo",
+        "price_ntd": 18000,
+        "price_label": "四人奢華晚宴 約 KRW 720,000 · NT$18,000",
+        "hours": "18:00–22:00 · 需預約",
         "search_query": "The Flying Hog JW Marriott Jeju food",
         "photos": [
           {
@@ -138,83 +138,83 @@
             "label": "The Flying Hog | Seogwipo-si Restaurant | Marriott Bonvoy"
           }
         ]
-      },
-      {
-        "name": "The Parkview",
-        "name_zh": "新羅酒店 The Parkview 奢華自助餐廳",
-        "stars": "⭐⭐",
-        "dish": "🦞 招牌：現烤頂級龍蝦 · 頂級韓牛牛排 · 鮮美鮑魚粥",
-        "address": "西歸浦市 中文觀光路 72街 75",
-        "price_ntd": 16000,
-        "price_label": "四人晚餐自助餐 NT$16,000",
-        "hours": "18:00–21:30",
-        "search_query": "The Parkview Shilla Jeju buffet luxury",
-        "photos": [
-          {
-            "url": "https://res.klook.com/images/w_1200,h_630,c_fill,q_65/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/jaccccnq6nuol0zv4rbq/Discounted%20Dinner%20Buffet%20at%20The%20Parkview%20at%20the%20Hotel%20Shilla%20in%20Jeju.jpg",
-            "label": "Discounted Dinner Buffet at The Parkview at the Hotel Shilla in Jeju - Klook"
-          },
-          {
-            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTQhDhqzycE7A_6bKWFkLdMgS8B3gyxMTWboXLDmKBv755thPlTfClSOuWSuMJRO0pi1fnmSF34MUebTyrvQLpR4Ndsv7i4O67MUlhwx3ZewsOcr7Quz6tKfCcZnMjztw1SEECiE8YzbP2/s1600/DSC06714.JPG",
-            "label": "Review: Seoul's Best Buffet, The Parkview at Shilla Hotel"
-          },
-          {
-            "url": "https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/sqyvgrdruawbpz1zeb6a.jpg",
-            "label": "Discounted Dinner Buffet at The Parkview at the Hotel Shilla in Jeju - Klook"
-          }
-        ]
       }
     ],
     "bistros": [
       {
-        "name": "Gobaji Black Pork",
-        "name_zh": "高巴基炭火黑豬肉專賣店",
+        "name": "Donsadon",
+        "name_zh": "豚似專 · 本店 (濟州黑豬肉排隊名店)",
         "stars": "⭐",
-        "dish": "🥓 招牌：熟成黑五花肉 · 濟州漢拿山燒酒配肉",
-        "address": "西歸浦市 西好中央路 55",
-        "price_ntd": 4800,
-        "price_label": "四人豪華黑豬肉套餐 NT$4,800",
+        "dish": "🥩 招牌：厚切炭烤黑豬肉五花肉與梅花肉",
+        "address": "15 Gwangpyeongdong-ro, Jeju-si",
+        "price_ntd": 5200,
+        "price_label": "四人飽足套餐 約 KRW 208,000 · NT$5,200",
         "hours": "12:00–22:00",
-        "search_query": "Jeju Gobaji black pork BBQ",
+        "search_query": "Donsadon Jeju black pork barbecue",
         "photos": [
           {
-            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3226607652756800398",
-            "label": "Flew to Jeju Island to have Black Pork BBQ cooked by the King of Pork  himself 🐷👑 Thank you @koreanenglishman This was just insane 💙🐽 I'm  salivating just now thinking about it."
+            "url": "http://static1.squarespace.com/static/5c311ba2697a98937f5a1a98/5c313452ff02eccedc329ba3/636d6e06d8bf101718e7a580/1678676467299/Black-Pork-at-Donsadon-in-South-Korea-3.jpg?format=1500w",
+            "label": "Donsadon (돈사돈): Home of Jeju Black Pig — Ngo Your Meal"
           },
           {
-            "url": "https://www.themanual.com/tachyon/sites/9/2021/09/jeju-black-pork-on-the-grill.jpg?resize=800%2C800",
-            "label": "What To Know About Jeju Black Pig, the Kobe Beef of Pork - The Manual"
+            "url": "https://images.squarespace-cdn.com/content/v1/5c311ba2697a98937f5a1a98/1668116405917-M0D6AH9VHQ5OJ59U8K9F/Salt-Garlic-Ssamjang-at-Donsadon-in-South-Korea.jpg",
+            "label": "Donsadon (돈사돈): Home of Jeju Black Pig — Ngo Your Meal"
           },
           {
-            "url": "https://english.visitkorea.or.kr/public/images/2023/10/31/b267864a5e65471cbf2f9019915352fa.jpg",
-            "label": "Grilled Black Pork (흑돼지구이 / Heukdwaejigui)- VISITKOREA"
+            "url": "https://ugc-images.catchtable.co.kr/shop/manager/images/65b3ac04d098417d8ccb2da1b1c97264?detail750",
+            "label": "Donsadon, Jungmun - Korea - Restaurant Reservation & Booking , Menu &  Price, Review & Photo - CATCHTABLE"
+          }
+        ]
+      },
+      {
+        "name": "Myeongjin Jeonbok",
+        "name_zh": "明進鮑魚 · 海景排隊名店",
+        "stars": "",
+        "dish": "🍲 招牌：鮑魚石鍋飯 · 烤鮑魚 · 鮑魚粥",
+        "address": "1282 Haeaji-ro, Gujwa-eup",
+        "price_ntd": 3800,
+        "price_label": "四人鮑魚全席 約 KRW 152,000 · NT$3,800",
+        "hours": "09:30–21:30 · 週二公休",
+        "search_query": "Myeongjin Jeonbok Jeju abalone",
+        "photos": [
+          {
+            "url": "https://tong.visitkorea.or.kr/cms/resource/59/2675159_image2_1.jpg",
+            "label": "Myeongjin Jeonbok (명진전복)- VISITKOREA"
+          },
+          {
+            "url": "https://danielfooddiary.com/wp-content/uploads/2018/05/myeongjinjeonbok02.jpg",
+            "label": "Myeong Jin Jeon Bok 명진전복 – Famed Abalone Feast At Jeju Island With Grilled  Abalone & Abalone Porridge | DanielFoodDiary.com"
+          },
+          {
+            "url": "https://danielfooddiary.com/wp-content/uploads/2018/05/myeongjinjeonbok10.jpg",
+            "label": "Myeong Jin Jeon Bok 명진전복 – Famed Abalone Feast At Jeju Island With Grilled  Abalone & Abalone Porridge | DanielFoodDiary.com"
           }
         ]
       }
     ],
     "cafes": [
       {
-        "name": "Osulloc Tea Museum Cafe",
-        "name_zh": "噢雪綠茶博物館景觀咖啡廳",
+        "name": "Osulloc Tea Stone",
+        "name_zh": "綠茶博物館 · 茶石 VIP 高級茶道體驗",
         "stars": "",
-        "dish": "🍵 招牌：漢拿山綠茶冰淇淋 · 綠茶千層蛋糕 · 柑橘氣泡茶",
-        "address": "西歸浦市 安德面 神話歷史路 15",
-        "price_ntd": 2400,
-        "price_label": "四人精緻午茶點心 NT$2,400",
-        "hours": "09:00–18:00",
-        "search_query": "Osulloc Tea Museum Jeju cafe",
+        "dish": "🍵 招牌：現泡頂級有機綠茶 · 抹茶霜淇淋 · 綠茶千層蛋糕",
+        "address": "15 Sinhwayeoksa-ro, Andeok-myeon",
+        "price_ntd": 4800,
+        "price_label": "四人 VIP 茶道體驗與茶點 約 KRW 192,000 · NT$4,800",
+        "hours": "09:00–18:00 · 需提前預約",
+        "search_query": "Osulloc Tea Stone Jeju interior",
         "photos": [
           {
-            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3216191292082576491",
-            "label": "🍴𝐎𝐬𝐮𝐥𝐥𝐨𝐜 𝐓𝐞𝐚 𝐌𝐮𝐬𝐞𝐮𝐦 오설록 티 뮤지엄 #jovieatsJeju This place is  on everybody's itinerary when visiting Jeju. Can you really say you went to  Jeju without paying a visit to the Osulloc Tea"
-          },
-          {
-            "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjstI4YYBjsEO80lJGXY2rRMvN2pGzRmZ6CzRNvoSy96chPprkNQwm8WC1XiMN2hOhmEZ56JWmf9T9Je4gwsT0G57oVNJCjc_88KhwfxtTuJoXidfuqLAj-Deuvw0K5EkiWOxgQYJUHXSwD/s1600/Jeju_OsullocTeaMuseum_Cafe_Menu1.JPG",
-            "label": "Jeju - Seogwipo] OSULLOC Tea Museum Cafe 오설록티뮤지엄 - Green Tea Ice Cream!"
-          },
-          {
-            "url": "https://images.adsttc.com/media/images/5321/ea47/c07a/8043/e100/0097/large_jpg/Tea_Stone_012_sm.jpg?1394731581",
+            "url": "https://images.adsttc.com/media/images/5321/eadd/c07a/8043/e100/00a1/newsletter/Tea_Stone_018_sm.jpg?1394731733",
             "label": "Osulloc Tea House Pavilions / Mass Studies | ArchDaily"
+          },
+          {
+            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3648124735591146503",
+            "label": "Tea Stone Cellar reopens beneath OSULLOC Tea Museum in Jeju. A space where  tea, wood, and time converge— offering aged teas matured in camphor, cedar,  and oak casks. Step inside and experience"
+          },
+          {
+            "url": "https://front.global/wp-content/uploads/2014/03/Osulloc_Tea-Stone_06_800x800jpg.jpg",
+            "label": "Tea Stone Pavilion, Osulloc Tea Museum - Front"
           }
         ]
       }
@@ -223,306 +223,310 @@
   "itinerary": [
     {
       "day": 1,
-      "date": "Oct 14 · Wed",
-      "label_zh": "奢華啟航 · 抵達濟州島最美度假村",
-      "day_query": "JW Marriott Jeju Resort Spa architecture exterior",
-      "hotel_name": "JW Marriott Jeju Resort & Spa",
-      "hotel_name_zh": "濟州島萬豪度假酒店",
-      "hotel_room": "海景豪華雙床房兩間",
-      "weather": "☀️ 21°/15°",
+      "date": "2026-10-14 · Wed",
+      "label_zh": "抵達濟州 · 涯月海岸與黑豬肉名店",
+      "day_query": "Aewol Handam Coastal Walk Jeju sunset",
+      "hotel_name": "Grand Hyatt Jeju",
+      "hotel_name_zh": "濟州君悅酒店",
+      "hotel_room": "豪華大床房 (2間)",
+      "weather": "☀️ 21°/14°",
       "rain_pct": "5%",
       "slots": [
         {
-          "time": "07:30",
-          "desc": "✈️ 於桃園機場搭乘長榮航空商務艙前往首爾轉機，享受尊榮貴賓室服務"
+          "time": "10:35",
+          "desc": "✈️ 抵達濟州國際機場 (CJU) · 快速通關並提取行李"
+        },
+        {
+          "time": "11:15",
+          "desc": "🚐 專屬豪華商務保姆車 (Mercedes Sprinter) 司機於大廳迎接"
+        },
+        {
+          "time": "12:00",
+          "desc": "🏨 前往濟州君悅酒店辦理 Check-in 手續，寄存行李"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：於酒店內『Noknamu 綠樹』享用精緻韓式排骨湯與冷麵（約 NT$3,200）"
         },
         {
           "time": "14:30",
-          "desc": "🛬 抵達濟州國際機場（CJU）· 專屬中文私人司機與豪華 9 人座保姆車在機場大廳迎賓"
-        },
-        {
-          "time": "15:00",
-          "desc": "🚗 搭乘私人保姆車前往西歸浦，沿途欣賞蔚藍海岸風光（車程約 50 分鐘）"
+          "desc": "🌊 乘車前往「涯月漢潭海岸散步路」· 欣賞漸層藍色海洋與黑色玄武岩"
         },
         {
           "time": "16:00",
-          "desc": "🏨 抵達 JW Marriott Jeju · 由專人辦理入住手續並奉上迎賓柑橘茶"
+          "desc": "☕ 拜訪網紅咖啡廳 Cafe Aewol Monsant · 享用氣泡飲與甜點，拍出時尚大片"
         },
         {
-          "time": "17:00",
-          "desc": "🚶 漫步於萬豪度假村著名的懸崖步道，俯瞰太平洋海景與著名的「外石」"
+          "time": "18:00",
+          "desc": "🍽️ 晚餐：黑豬肉名店『Donsadon 豚似專』享用多汁的頂級炭烤黑豬肉"
         },
         {
-          "time": "18:30",
-          "desc": "🍽️ 於度假村內 The Flying Hog 享用頂級木炭烤黑豬肉晚宴（已預約，NT$14,000）"
-        },
-        {
-          "time": "21:00",
-          "desc": "🌌 帶女兒們在度假村露天溫泉泡湯，欣賞滿天星空，洗去旅途疲憊"
-        },
-        {
-          "time": "22:30",
-          "desc": "🌙 返回海景套房休息，準備明天的自然奇景之旅"
+          "time": "20:30",
+          "desc": "🏨 返回君悅酒店 · 帶女兒們前往 8 樓露天溫水無邊際泳池欣賞濟州市夜景"
         }
       ],
-      "day_photo": "https://www.aspirantsg.com/wp-content/uploads/2024/04/JW-Marriott-Jeju-Resort-Spa-Arial-View-AspirantSG-2048x1151.jpg"
+      "day_photo": "https://themigratorybirds.com/wp-content/uploads/2023/08/man-on-handam-coastal-walk.jpg"
     },
     {
       "day": 2,
-      "date": "Oct 15 · Thu",
-      "label_zh": "蔚藍海岸奇景 · 柱狀節理與瀑布巡禮",
-      "day_query": "Daepo Jusangjeolli Cliff Jeju ocean",
-      "hotel_name": "JW Marriott Jeju Resort & Spa",
-      "hotel_name_zh": "濟州島萬豪度假酒店",
-      "hotel_room": "海景豪華雙床房兩間",
-      "weather": "☀️ 22°/16°",
-      "rain_pct": "0%",
-      "slots": [
-        {
-          "time": "08:30",
-          "desc": "🍳 享用 JW Marriott 奢華單點式自助早餐，品嚐新鮮濟州海鮮粥與精緻法式糕點"
-        },
-        {
-          "time": "10:00",
-          "desc": "🚗 專車前往大浦海岸「柱狀節理帶」（Jusangjeolli Cliffs），欣賞大自然鬼斧神工的玄武岩石柱"
-        },
-        {
-          "time": "11:30",
-          "desc": "🌊 參觀「天地淵瀑布」，在茂密的亞熱帶森林中漫步，享受芬多精與清涼瀑布"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 午餐：享用濟州傳統高檔海鮮鍋，品嚐活鮑魚、帝王蟹與新鮮貝類（NT$6,000）"
-        },
-        {
-          "time": "15:00",
-          "desc": "☕ 前往著名網紅海景咖啡廳 The Cliff，一邊喝著特調飲品一邊眺望中文海灘的衝浪者"
-        },
-        {
-          "time": "17:00",
-          "desc": "🛒 參觀西歸浦每日偶來市場，帶女兒們體驗在地小吃，品嚐柑橘大福與現烤年糕"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：於 Gobaji Black Pork 享用高檔炭火黑豬肉（NT$4,800）"
-        },
-        {
-          "time": "21:00",
-          "desc": "🏨 返回 JW Marriott 享受夜間室內恆溫泳池與水療 SPA"
-        }
-      ],
-      "day_photo": "https://www.expatolife.com/wp-content/uploads/2021/07/Daepo-Jusangjeolli-Cliff-Jeju-Island-South-Korea.jpg"
-    },
-    {
-      "day": 3,
-      "date": "Oct 16 · Fri",
-      "label_zh": "世界自然遺產 · 城山日出峰與粉紅黛子草",
+      "date": "2026-10-15 · Thu",
+      "label_zh": "絕美東海岸 · 城山日出峰與史努比樂園",
       "day_query": "Seongsan Ilchulbong Jeju autumn",
-      "hotel_name": "JW Marriott Jeju Resort & Spa",
-      "hotel_name_zh": "濟州島萬豪度假酒店",
-      "hotel_room": "海景豪華雙床房兩間",
-      "weather": "⛅ 20°/14°",
+      "hotel_name": "Grand Hyatt Jeju",
+      "hotel_name_zh": "濟州君悅酒店",
+      "hotel_room": "豪華大床房 (2間)",
+      "weather": "⛅ 20°/13°",
       "rain_pct": "10%",
       "slots": [
         {
-          "time": "08:00",
-          "desc": "🧘 參加 JW Marriott 晨間草地瑜珈課程，呼吸太平洋最純淨的空氣"
+          "time": "08:30",
+          "desc": "🍳 享用君悅 Grand Kitchen 超豐盛五星級自助早餐"
         },
         {
           "time": "09:30",
-          "desc": "🚗 專車出發前往東海岸，秋季限定的粉紅黛子草花海（休愛里自然生活公園，門票已含）"
+          "desc": "🚐 專車出發前往東海岸 · 沿途欣賞秋季芒草盛開的公路景致"
         },
         {
-          "time": "11:30",
-          "desc": "⛰️ 抵達世界自然遺產「城山日出峰」，全家人一同登上山頂俯瞰巨大的火山噴火口"
+          "time": "10:45",
+          "desc": "⛰️ 抵達世界自然遺產「城山日出峰」· 沿著木棧道輕鬆步行至觀景台（約 40 分鐘）"
         },
         {
-          "time": "13:30",
-          "desc": "🍽️ 午餐：在日出峰山腳下享用「海女之家」現撈海鮮鮑魚飯與烤章魚（NT$4,000）"
+          "time": "12:30",
+          "desc": "🍽️ 午餐：『明進鮑魚』享用香氣濃郁的鮑魚石鍋飯與酥脆烤青魚"
         },
         {
-          "time": "15:00",
-          "desc": "🌾 前往涉地可支（Seopjikoji），欣賞秋季滿山遍野的銀芒草（Silver Grass）與唯美燈塔"
+          "time": "14:30",
+          "desc": "🐶 前往女兒最愛的「Snoopy Garden 史努比樂園」· 超萌室內展館與遼闊戶外森林花園"
         },
         {
-          "time": "16:30",
-          "desc": "🎨 參觀「Snoopy Garden」（史努比庭園），青少年女兒最愛的拍照打卡聖地"
+          "time": "17:00",
+          "desc": "🌅 涉地可支 (Seopjikoji) 散步 · 欣賞安藤忠雄設計的 Glass House 與絕美夕陽"
         },
         {
           "time": "19:00",
-          "desc": "🍽️ 晚餐：於東部著名的精緻韓式定食餐廳享用頂級帶魚料理（NT$5,500）"
+          "desc": "🍽️ 晚餐：城山附近精緻海鮮餐廳享用「活帝王蟹與海鮮鍋」饗宴（約 NT$8,500）"
         },
         {
           "time": "21:30",
-          "desc": "🏨 乘專車返回萬豪酒店休息"
+          "desc": "🏨 乘車返回君悅酒店休息 · 享受舒適的客房泡澡空間"
         }
       ],
       "day_photo": "https://livingnomads.com/wp-content/uploads/2019/09/11/Seongsan-Ilchulbong-Peak-autumn-3-840x420.jpg"
     },
     {
-      "day": 4,
-      "date": "Oct 17 · Sat",
-      "label_zh": "奢華酒店轉移 · 綠茶莊園與沉浸式藝術體驗",
+      "day": 3,
+      "date": "2026-10-16 · Fri",
+      "label_zh": "科技美學與綠茶香氣 · 沉浸式藝術之旅",
       "day_query": "Arte Museum Jeju media art",
-      "hotel_name": "The Shilla Jeju",
-      "hotel_name_zh": "濟州新羅酒店",
-      "hotel_room": "露台家庭套房兩間",
-      "weather": "☀️ 21°/15°",
-      "rain_pct": "5%",
+      "hotel_name": "Grand Hyatt Jeju",
+      "hotel_name_zh": "濟州君悅酒店",
+      "hotel_room": "豪華大床房 (2間)",
+      "weather": "☀️ 22°/15°",
+      "rain_pct": "0%",
       "slots": [
         {
           "time": "09:00",
-          "desc": "🏨 在 JW Marriott 辦理退房，專車接載行李與全家人"
+          "desc": "🍳 於 38 樓 Pocha 餐廳享用高空景觀早餐 · 俯瞰飛機起降與海景"
         },
         {
           "time": "10:00",
-          "desc": "🍵 參觀 Osulloc 茶博物館，漫步於無邊無際的綠茶園，並於 Innisfree 濟州小屋體驗手工皂"
+          "desc": "🚐 專車前往「Arte Museum Jeju」· 韓國最大沉浸式數位藝術美術館，視覺震撼十足"
         },
         {
-          "time": "11:30",
-          "desc": "🍰 於 Osulloc Cafe 享用精緻綠茶午茶點心與輕食（NT$2,400）"
+          "time": "12:30",
+          "desc": "🍽️ 午餐：品嚐濟州傳統「白帶魚料理」· 長達一公尺的無刺烤帶魚（約 NT$4,500）"
         },
         {
-          "time": "13:00",
-          "desc": "🎨 前往 ARTE MUSEUM JEJU，體驗震撼感官的沉浸式數位光影藝術展（門票已含）"
+          "time": "14:30",
+          "desc": "🍵 抵達「Osulloc 綠茶博物館」· 參加 VIP 專屬 Tea Stone 茶道與調茶手作體驗"
         },
         {
-          "time": "15:30",
-          "desc": "🏨 抵達 The Shilla Jeju 辦理入住，這是一家以極致服務著稱的頂級度假酒店"
+          "time": "16:00",
+          "desc": "🌿 漫步於隔壁的 Innisfree Jeju House · 體驗手工火山泥皂製作，採購限定版美妝"
         },
         {
-          "time": "16:30",
-          "desc": "🚶 散步於新羅酒店的私家花園，直通中文海灘，欣賞夕陽餘暉"
+          "time": "17:30",
+          "desc": "🛍️ 返回市區 · 於君悅直通的 Lotte Duty Free 免稅店與潮流服飾區自由購物"
         },
         {
-          "time": "18:00",
-          "desc": "🍽️ 晚餐：於新羅酒店 The Parkview 享用全濟州島最頂級的豪華自助晚宴（已預約，NT$16,000）"
+          "time": "19:30",
+          "desc": "🍽️ 晚餐：君悅 38 樓『Yumeyama 夢山』日式鐵板燒/壽司高級料理（約 NT$12,000）"
         },
         {
-          "time": "20:30",
-          "desc": "🎬 帶女兒們在新羅酒店著名的溫水泳池一邊游泳一邊觀看星空露天電影，享受極致愜意"
+          "time": "22:00",
+          "desc": "🌙 散步至蓮洞商圈感受濟州夜生活，或於酒店酒吧小酌"
         }
       ],
       "day_photo": "https://cindiriyanika.com/wp-content/uploads/2024/01/ARTE-MUSEUM-JEJU-1-1-1.jpeg"
     },
     {
-      "day": 5,
-      "date": "Oct 18 · Sun",
-      "label_zh": "西海岸唯美落日 · 網紅咖啡廳與豪華遊艇出海",
-      "day_query": "Jeju luxury yacht sunset tour",
-      "hotel_name": "The Shilla Jeju",
-      "hotel_name_zh": "濟州新羅酒店",
-      "hotel_room": "露台家庭套房兩間",
-      "weather": "☀️ 22°/16°",
-      "rain_pct": "0%",
-      "slots": [
-        {
-          "time": "08:30",
-          "desc": "🍳 享用 The Shilla 頂級自助早餐，品嚐現煎歐姆蛋與精緻中西式料理"
-        },
-        {
-          "time": "10:00",
-          "desc": "🌊 前往唯美的「狹才海灘」（Hyeopjae Beach），沙灘潔白細緻，海水呈夢幻的漸層果凍色"
-        },
-        {
-          "time": "11:30",
-          "desc": "🚶 漫步於翰林公園（Hallim Park），欣賞秋季盛開的菊花展與熱帶植物園"
-        },
-        {
-          "time": "13:00",
-          "desc": "🍽️ 午餐：在西海岸人氣海景餐廳品嚐鮑魚排骨湯與石鍋飯（NT$4,500）"
-        },
-        {
-          "time": "15:00",
-          "desc": "⛵ 抵達中文遊艇碼頭，搭乘「專屬私人豪華遊艇」出海，體驗海釣、香檳，並有機會看到海豚（NT$12,000）"
-        },
-        {
-          "time": "17:30",
-          "desc": "🌅 在遊艇上欣賞太平洋壯麗的日落，為全家人留下最美的合影"
-        },
-        {
-          "time": "19:00",
-          "desc": "🍽️ 晚餐：於新羅酒店內「天池」餐廳享用頂級正宗韓式宮廷料理（NT$10,000）"
-        },
-        {
-          "time": "21:30",
-          "desc": "🌙 在新羅酒店著名的「Glamping Area」散步，圍著營火享受溫馨的家庭時光"
-        }
-      ],
-      "day_photo": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_863/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/borzuagrjc7uji98cule/JejuGrandeBleuSunsetYachtExperience.jpg"
-    },
-    {
-      "day": 6,
-      "date": "Oct 19 · Mon",
-      "label_zh": "最後採購 · 依依不捨告別神話之島",
-      "day_query": "Jeju international airport departure lounge",
-      "hotel_name": "The Shilla Jeju",
-      "hotel_name_zh": "濟州新羅酒店",
-      "hotel_room": "露台家庭套房兩間",
+      "day": 4,
+      "date": "2026-10-17 · Sat",
+      "label_zh": "入住懸崖奢華萬豪 · 南海岸壯麗奇景",
+      "day_query": "JW Marriott Jeju cliff pool view",
+      "hotel_name": "JW Marriott Jeju Resort & Spa",
+      "hotel_name_zh": "濟州島萬豪度假酒店",
+      "hotel_room": "尊貴海景房 (2間)",
       "weather": "⛅ 20°/14°",
       "rain_pct": "10%",
       "slots": [
         {
           "time": "09:00",
-          "desc": "🍳 悠閒享用新羅酒店的最後一頓奢華早餐，並在花園做最後巡禮"
+          "desc": "🏨 辦理退房辦理 · 帶著行李登上專車，一路向南前住西歸浦"
         },
         {
-          "time": "11:00",
-          "desc": "🏨 辦理退房手續，行李由專車妥善安置"
+          "time": "10:00",
+          "desc": "🌊 參觀「大浦柱狀節理帶」· 驚嘆於大自然鬼斧神工的黑色玄武岩石柱"
         },
         {
           "time": "11:30",
-          "desc": "🚗 專車前往濟州市區，進行最後的伴手禮採購，購買濟州橘子巧克力、漢拿峰柑橘塔等"
+          "desc": "🌊 漫步至「天地淵瀑布」· 享受山谷間的芬多精與清涼瀑布水氣"
         },
         {
-          "time": "13:00",
-          "desc": "✈️ 抵達濟州國際機場，專人協助辦理登機與行李託運手續"
+          "time": "12:30",
+          "desc": "🍽️ 午餐：西歸浦名店享用「鮑魚海鮮砂鍋與烤玉鯛」（約 NT$3,500）"
         },
         {
-          "time": "14:00",
-          "desc": "🛍️ 於機場免稅店進行最後的精品與化妝品採購（給女兒們買心儀的韓系彩妝）"
+          "time": "14:30",
+          "desc": "🏨 抵達超奢華「JW Marriott Jeju」辦理 Check-in · 迎賓茶點與無敵海景大廳"
         },
         {
           "time": "15:30",
-          "desc": "🛫 搭乘聯程優質航空班機經首爾轉機，返回台灣"
+          "desc": "📸 酒店導覽與自由活動 · 沿著直通的「偶來小路第7段」散步，欣賞獨立岩美景"
         },
         {
-          "time": "21:25",
-          "desc": "🛬 順利抵達桃園國際機場，結束六天完美且尊榮的濟州島奢華家庭之旅"
+          "time": "18:00",
+          "desc": "🍽️ 晚餐：預約酒店招牌『The Flying Hog』柴燒黑豬肉精緻晚宴 · 一場味覺與視覺的交響樂"
+        },
+        {
+          "time": "20:30",
+          "desc": "💆 安排老婆與女兒體驗 JW 頂級 Spa 水療，爸爸享受桑拿放鬆（Spa 約 NT$16,000）"
         }
       ],
-      "day_photo": "https://knaviation.net/wp-content/uploads/2017/11/Asiana-Lounge-Jeju-1750px-2.jpg"
+      "day_photo": "https://cache.marriott.com/is/image/marriotts7prod/jw-cjuju-outdoor-pool-40714:Classic-Hor?wid=856&fit=constrain"
+    },
+    {
+      "day": 5,
+      "date": "2026-10-18 · Sun",
+      "label_zh": "漢拏山芒草與秋葉 · 萬豪奢華午後時光",
+      "day_query": "Hallasan autumn foliage Jeju trail",
+      "hotel_name": "JW Marriott Jeju Resort & Spa",
+      "hotel_name_zh": "濟州島萬豪度假酒店",
+      "hotel_room": "尊貴海景房 (2間)",
+      "weather": "☀️ 19°/12°",
+      "rain_pct": "5%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🧘 自由參加酒店安排的「晨間崖畔瑜珈」· 面朝大海舒展身心"
+        },
+        {
+          "time": "09:00",
+          "desc": "🍳 享用 JW Marriott 招牌單點式精緻魚子醬香檳早餐"
+        },
+        {
+          "time": "10:30",
+          "desc": "🏔️ 專車前往「漢拏山御里牧步道」入口 · 輕度健行，欣賞漫山遍野的秋季紅葉與芒草"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 午餐：山腳下享用熱騰騰的「韓式土雞鍋與蕎麥煎餅」（約 NT$3,000）"
+        },
+        {
+          "time": "15:00",
+          "desc": "🏨 返回酒店 · 於大廳酒吧享用「JW 經典英式雙人下午茶」（兩套約 NT$4,000）"
+        },
+        {
+          "time": "16:30",
+          "desc": "🏊 享受酒店著名的室內外溫水海景泳池、溫泉按摩池，徹底放鬆"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：酒店頂級義式餐廳『The Island Kitchen』享用海鮮義大利麵與牛排（約 NT$9,000）"
+        },
+        {
+          "time": "21:30",
+          "desc": "🍷 露台小酌 · 伴著太平洋的浪濤聲，享受溫馨的家族暢談時光"
+        }
+      ],
+      "day_photo": "https://www.directasia.com/sites/default/files/2024-08/Hallasan+Jeju+Autumn.jpg"
+    },
+    {
+      "day": 6,
+      "date": "2026-10-19 · Mon",
+      "label_zh": "東門市場採購 · 依依不捨返台",
+      "day_query": "Jeju Dongmun Market mandarin orange",
+      "hotel_name": "JW Marriott Jeju Resort & Spa",
+      "hotel_name_zh": "濟州島萬豪度假酒店",
+      "hotel_room": "尊貴海景房 (2間)",
+      "weather": "☁️ 20°/13°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🍳 悠閒享用最後一次萬豪精緻早餐"
+        },
+        {
+          "time": "09:30",
+          "desc": "🏨 辦理退房，登上專車前往濟州市區"
+        },
+        {
+          "time": "10:15",
+          "desc": "🍊 抵達「東門傳統市場」· 採購濟州特產柑橘巧克力、漢拏峰柑橘乾與特色文創商品"
+        },
+        {
+          "time": "11:40",
+          "desc": "✈️ 抵達濟州國際機場 · 辦理登機與退稅手續"
+        },
+        {
+          "time": "12:50",
+          "desc": "🛫 搭乘中華航空 CI 149 直飛商務艙回台，於機上享用精緻午餐"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛬 抵達台灣桃園國際機場 (TPE) · 結束奢華完美的濟州島家族假期"
+        }
+      ],
+      "day_photo": "https://pureglutton.com/wp-content/uploads/2018/10/market1.jpg"
     }
   ],
   "costs": [
     {
-      "label": "✈️ 來回機票（長榮航空商務艙/聯程四人）",
-      "amount_ntd": 140000
+      "label": "✈️ 中華航空來回商務艙 (4人)",
+      "amount_ntd": 120000
     },
     {
-      "label": "🏨 住宿（JW萬豪3晚 + 新羅2晚，各兩間房）",
-      "amount_ntd": 194000
+      "label": "🏨 濟州君悅酒店 (3晚/2房)",
+      "amount_ntd": 108000
     },
     {
-      "label": "🍽️ 餐飲（含米其林黑豬肉、新羅自助餐、海鮮大餐）",
-      "amount_ntd": 37700
+      "label": "🏨 濟州島萬豪度假酒店 (2晚/2房)",
+      "amount_ntd": 100000
     },
     {
-      "label": "🎫 景點門票與豪華私人遊艇出海",
-      "amount_ntd": 15000
+      "label": "🚐 專屬豪華商務車與司機 (6天)",
+      "amount_ntd": 42000
     },
     {
-      "label": "🚗 交通（全程專屬豪華保姆車與中文司機）",
-      "amount_ntd": 11000
+      "label": "🍽️ 全程頂級餐飲與下午茶",
+      "amount_ntd": 45000
+    },
+    {
+      "label": "🎫 景點門票與手作體驗 (含 Snoopy Garden, 茶道等)",
+      "amount_ntd": 12000
+    },
+    {
+      "label": "💆 JW 頂級 Spa 水療放鬆",
+      "amount_ntd": 16000
     },
     {
       "label": "🛍️ 購物與伴手禮預算",
-      "amount_ntd": 1000
+      "amount_ntd": 10000
     }
   ],
-  "cost_total_ntd": 398700,
-  "budget_remaining_ntd": 1300,
-  "chat_input": "我跟我老婆，2個青少年的女兒，想在最適合去濟州島的季節去玩，玩幾天就最適合的幾天，然後預算40萬吧，想要把那裡最好最美的地方玩遍。不要搭廉航，不要大韓航空，不要韓亞航空 。介紹最有名的景點。住宿要高檔",
+  "cost_total_ntd": 393000,
+  "budget_remaining_ntd": 7000,
+  "chat_input": "我跟我老婆，2個青少年的女兒，想在最適合去濟州島的季節去玩，玩幾天就最適合的幾天，然後預算40萬吧，想要把那裡最好最美的地方玩遍。不要搭廉航，不要大韓航空，不要韓亞航空，不要轉機 。介紹最有名的景點。住宿要高檔",
   "photos": {
     "hero": [
       {
@@ -557,7 +561,7 @@
       }
     ]
   },
-  "chat_hash": "884e5679dbf4083a3b4c37614dd6c193e4ee54e08a6b704aef7ca2ccaf91a294",
+  "chat_hash": "d7783a0e149b7ff9bc13096a7e6fd305e4e03bab8650648ddeb433c53a2213c1",
   "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
-  "generated_at": "2026-07-28T08:43:58.532880"
+  "generated_at": "2026-07-28T08:46:31.577485"
 }
