@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; connect-src 'self' https://api.github.com https://raw.githubusercontent.com; frame-ancestors 'none'; frame-src https://flipbook-clone-five.vercel.app; base-uri 'self'; form-action 'self'">
+<title>東京青春平價玩 · 三人閨蜜五天小資之旅 — Travel Planner</title>
+<meta property="og:title" content="東京青春平價玩 · 三人閨蜜五天小資之旅 — Travel Planner">
+<meta property="og:description" content="Tokyo, Japan · 2026/08/13–08/17 · 3人 · NT$100,000">
+
+<meta property="og:image" content="https://www.travelcaffeine.com/wp-content/uploads/2018/06/sunset-tokyo-tower-zojoji-temple-japan-bricker.jpg">
+
+<meta property="og:type" content="website">
+<style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400&family=Noto+Serif+TC:wght@300;400;600&display=swap');
+
+  :root {
+    --gold: #c9a84c;
+    --rose: #d4a0a0;
+    --cream: #faf7f2;
+    --ink: #2c2416;
+    --warm-gray: #8c8273;
+    --soft-white: #fffdf8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 20px;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  /* ─── NAVIGATION ─── */
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 1rem;
+    background: var(--soft-white);
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  nav a {
+    text-decoration: none;
+    color: var(--warm-gray);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: color 0.3s;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid transparent;
+    flex-shrink: 0;
+  }
+  nav a:hover, nav a.active {
+    color: var(--gold);
+    border-bottom-color: var(--gold);
+  }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 1.25rem; }
+
+  /* ─── IMAGE SLIDER ─── */
+  .slider {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    touch-action: pan-x;
+  }
+  .slider::-webkit-scrollbar { display: none; }
+  .slider-track {
+    display: flex;
+  }
+  .slider-track img {
+    display: block;
+    width: 100%; height: 320px;
+    border-radius: 8px;
+    margin-right: 0;
+    object-fit: cover;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+
+  /* ─── HERO SLIDER ─── */
+  .hero-slider {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+  .hero-slider .slider { margin-bottom: 0; border-radius: 0; }
+  .hero-slider .slider-track img {
+    width: 100%; height: 420px; margin-right: 0; border-radius: 0;
+  }
+  .hero-overlay {
+    position: absolute; bottom: 0; left: 0; right: 0; z-index: 2;
+    background: linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 80%);
+    display: flex; flex-direction: column; justify-content: flex-end;
+    padding: 2rem 1.5rem;
+  }
+  .hero-overlay h1 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 2.5rem; font-weight: 400;
+    color: #fff; text-shadow: 0 2px 12px rgba(0,0,0,0.3);
+  }
+  .hero-overlay .zh-title {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.1rem; color: rgba(255,255,255,0.9);
+    margin-top: 0.25rem;
+  }
+  .hero-stats {
+    display: flex; flex-wrap: wrap; gap: 1rem 1.5rem;
+    margin-top: 0.75rem;
+    color: rgba(255,255,255,0.9);
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+  }
+  /* ─── HOTEL CARD + SLIDER ─── */
+  .hotel-card {
+    background: var(--soft-white); border-radius: 12px; overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .hotel-info { padding: 0 1.25rem; }
+  .hotel-info:first-of-type { padding-top: 1rem; }
+  .hotel-card > :last-child { padding-bottom: 1.25rem; }
+  .hotel-slider {
+    overflow-x: auto; scroll-snap-type: x mandatory;
+    scrollbar-width: none; white-space: nowrap;
+    touch-action: pan-x;
+  }
+  .hotel-slider .slider-track {
+    display: flex;
+  }
+  .hotel-slider .slider-track img {
+    width: 100%; height: 240px; margin-right: 0;
+    object-fit: cover; flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+
+  /* ─── DINING SLIDER ─── */
+  .dining-slider {
+    overflow-x: auto; scroll-snap-type: x mandatory;
+    scrollbar-width: none; white-space: nowrap;
+    touch-action: pan-x;
+  }
+  .dining-slider .slider-track {
+    display: flex;
+  }
+  .dining-slider .slider-track a {
+    width: 100%; flex-shrink: 0; display: block;
+  }
+  .dining-slider .slider-track img {
+    width: 100%; height: 240px; margin-right: 0;
+    object-fit: cover; flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+  .dining-card .dining-slider { border-radius: 0; }
+
+  /* ─── SECTION HEADER ─── */
+  .section-title {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.9rem; color: var(--ink); margin-bottom: 0.5rem;
+    position: relative;
+  }
+  .section-title::after {
+    content: ''; position: absolute; bottom: -6px; left: 0;
+    width: 36px; height: 2px; background: var(--gold);
+  }
+  .section-sub {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.05rem; color: var(--warm-gray); margin-bottom: 1.25rem;
+  }
+
+  /* ─── FULL CARDS ─── */
+  .full-card {
+    background: var(--soft-white);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+    box-shadow: 0 2px 16px rgba(0,0,0,0.03);
+  }
+  .full-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .full-card-header h2 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.6rem; font-weight: 500;
+  }
+  .external-btn {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    padding: 0.55rem 1.1rem;
+    background: var(--ink); color: #fff;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    text-transform: uppercase; letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+    border: none; cursor: pointer;
+    white-space: nowrap;
+  }
+  .external-btn.google { background: #4285f4; }
+  .external-btn.agoda { background: #e12b52; }
+  .external-btn:hover { opacity: 0.88; }
+
+  /* ─── FLIGHT ─── */
+  .flight-detail {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .flight-detail .divider {
+    width: 1px; height: 50px;
+    background: linear-gradient(to bottom, transparent, var(--gold), transparent);
+    justify-self: center;
+  }
+  .flight-info { font-size: 1.05rem; }
+  .flight-info .label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--warm-gray);
+  }
+  .flight-info .airline {
+    font-family: 'Playfair Display', serif; font-size: 1.3rem;
+    color: var(--ink); margin: 0.2rem 0;
+  }
+
+  /* ─── DINING ─── */
+  .dining-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .dining-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .dining-info {
+    padding: 1rem;
+  }
+  .dining-info h4 {
+    font-family: 'Playfair Display', 'Noto Serif TC', serif;
+    font-size: 1.1rem; margin-bottom: 0.15rem;
+  }
+  .dining-info .zh-name {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.95rem; color: var(--warm-gray);
+  }
+  .dining-info .dish {
+    font-size: 0.9rem; color: var(--gold);
+    font-style: italic; margin-top: 0.25rem;
+  }
+
+  /* ─── TIMELINE ─── */
+  .day-card {
+    background: var(--soft-white);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+    box-shadow: 0 1px 8px rgba(0,0,0,0.02);
+    display: grid;
+    grid-template-columns: 80px auto 90px;
+    gap: 1rem;
+    align-items: start;
+  }
+  .day-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem; color: var(--gold);
+    text-align: center; line-height: 1;
+  }
+  .day-label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); text-align: center;
+  }
+  .day-zh {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.85rem; color: var(--ink); text-align: center;
+    margin-top: 0.2rem;
+  }
+  .day-photo {
+    width: 100%; height: 220px; object-fit: cover; border-radius: 8px;
+    margin-bottom: 0.75rem; display: block;
+  }
+  .day-schedule { font-size: 1.15rem; }
+  .day-schedule .time-slot {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    display: flex; gap: 0.6rem; align-items: baseline;
+  }
+  .time-slot .time {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem; color: var(--gold);
+    min-width: 58px; letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  .day-weather {
+    font-size: 0.9rem; color: var(--warm-gray);
+    text-align: right; padding-top: 0.25rem;
+  }
+
+.cost-row {
+    display: flex; justify-content: space-between;
+    padding: 0.5rem 0; font-size: 1.05rem;
+    border-bottom: 1px solid rgba(0,0,0,0.03);
+    flex-wrap: wrap;
+  }
+  .cost-bar {
+    height: 6px; border-radius: 3px;
+    background: rgba(201,168,76,0.15); margin: 0.75rem 0;
+  }
+  .cost-bar-fill {
+    height: 100%; border-radius: 3px;
+    background: linear-gradient(to right, var(--gold), var(--rose));
+    width: 94%;
+  }
+
+  /* ─── PAGES ─── */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* ─── SETTINGS ─── */
+  .settings-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .setting-group {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .setting-group label {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); display: block; margin-bottom: 0.3rem;
+  }
+  .setting-group .zh-label {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 0.8rem; color: var(--ink); margin-bottom: 0.5rem;
+  }
+  .setting-group input, .setting-group select {
+    width: 100%; padding: 0.75rem 0.85rem;
+    border: 1px solid rgba(201,168,76,0.3); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    -webkit-appearance: none;
+  }
+  .setting-group input:focus, .setting-group select:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+  }
+  .save-btn {
+    background: linear-gradient(135deg, var(--gold), #b8942f);
+    color: #fff; border: none;
+    padding: 0.8rem 2rem; border-radius: 8px;
+    font-family: 'Inter', sans-serif; font-size: 0.85rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    cursor: pointer; margin-top: 1.25rem;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+  }
+  .save-btn:hover { opacity: 0.9; }
+
+  /* ─── LOG ─── */
+  .log-entry {
+    background: var(--soft-white);
+    border-radius: 12px; padding: 1.25rem; margin-bottom: 0.75rem;
+    border: 1px solid rgba(201,168,76,0.1);
+  }
+  .log-date {
+    font-family: 'Inter', sans-serif; font-size: 0.7rem;
+    text-transform: uppercase; letter-spacing: 2px; color: var(--gold);
+  }
+  .log-status {
+    display: inline-block; padding: 0.15rem 0.6rem; border-radius: 10px;
+    font-family: 'Inter', sans-serif; font-size: 0.7rem; margin-left: 0.4rem;
+  }
+  .log-status.generated { background: rgba(76,175,80,0.12); color: #388e3c; }
+  .log-status.chatting { background: rgba(201,168,76,0.15); color: #8b6914; }
+
+  /* ─── CHAT ─── */
+  .chat-box {
+    background: var(--soft-white);
+    border-radius: 14px; padding: 1.5rem;
+    border: 1px solid rgba(201,168,76,0.12);
+  }
+  .chat-date-label {
+    font-family: 'Inter', sans-serif; font-size: 0.65rem;
+    text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--warm-gray); margin-bottom: 0.5rem;
+  }
+  .chat-box textarea {
+    width: 100%; height: 200px; padding: 1rem;
+    border: 1px solid rgba(201,168,76,0.2); border-radius: 8px;
+    font-family: 'Cormorant Garamond', 'Noto Serif TC', serif;
+    font-size: 1.15rem; background: var(--cream); color: var(--ink);
+    line-height: 1.8; resize: vertical;
+    -webkit-appearance: none;
+  }
+  .chat-box textarea:focus {
+    outline: none; border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
+  }
+  .chat-hint {
+    font-family: 'Inter', sans-serif; font-size: 0.8rem;
+    color: var(--warm-gray); margin-top: 0.4rem; font-style: italic;
+  }
+
+  /* ─── LIGHTBOX ─── */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .lightbox.open { display: flex; }
+  .lbox-img-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 85vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    transition: opacity 0.2s;
+    cursor: default;
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .lightbox img {
+      max-width: 96vw;
+      max-height: 82vh;
+    }
+    .lightbox .lbox-arrow { font-size: 2rem; margin: 0 6px; }
+  }
+  .lightbox .counter {
+    color: rgba(255,255,255,0.7);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    margin-top: 0.75rem;
+    z-index: 2;
+    position: relative;
+  }
+  .lightbox .close-btn {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.08);
+    border: none;
+    line-height: 1;
+  }
+  .lightbox .close-btn:hover { background: rgba(255,255,255,0.18); }
+  /* Nav zones — only inside the image wrapper, not full screen */
+  .lightbox .lbox-left,
+  .lightbox .lbox-right {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 50%;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+  .lightbox .lbox-left  { left: 0;  justify-content: flex-start; }
+  .lightbox .lbox-right { right: 0; justify-content: flex-end; }
+  .lightbox .lbox-arrow {
+    color: rgba(255,255,255,0.4);
+    font-size: 2.5rem;
+    margin: 0 16px;
+    pointer-events: none;
+    user-select: none;
+  }
+  .lightbox .lbox-left:hover .lbox-arrow,
+  .lightbox .lbox-right:hover .lbox-arrow {
+    color: rgba(255,255,255,0.9);
+  }
+
+  /* ─── SAVE PLAN CHECKBOX ─── */
+  .save-plan-label {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 0.75rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    user-select: none;
+  }
+  .save-plan-label input[type="checkbox"] {
+    width: 16px; height: 16px;
+    accent-color: var(--gold);
+    cursor: pointer;
+  }
+
+  /* ─── BROKEN IMAGES ─── */
+  img.broken { display: none !important; }
+
+  /* ═══════════════ MOBILE: iPhone ───────────────────── */
+  @media (max-width: 768px) {
+
+    .container { padding: 0.75rem; }
+
+    /* Nav — compact scrollable */
+    nav {
+      gap: 1rem;
+      padding: 0.7rem 0.75rem;
+    }
+    nav a {
+      font-size: 0.72rem;
+      letter-spacing: 1px;
+    }
+
+    /* Hero — shorter */
+    .hero-slider .slider-track img { height: 260px; }
+    .hero-overlay { padding: 1.25rem 1rem; }
+    .hero-overlay h1 { font-size: 1.7rem; }
+    .hero-overlay .zh-title { font-size: 0.95rem; }
+    .hero-stats { font-size: 0.75rem; gap: 0.5rem 1rem; }
+
+    /* Hotel & dining sliders — shorter */
+    .hotel-slider .slider-track img,
+    .dining-slider .slider-track img { height: 180px; }
+
+    /* Slider — smaller images */
+    .slider-track img {
+      height: 200px;
+      margin-right: 6px;
+    }
+
+    /* Full card — tighter padding */
+    .full-card {
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+    }
+    .full-card-header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .full-card-header h2 {
+      font-size: 1.3rem;
+    }
+
+    /* Flight — stack vertically */
+    .flight-detail {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .flight-detail .divider {
+      width: 80%;
+      height: 1px;
+      justify-self: center;
+    }
+
+    /* Hotel — already responsive via flex-wrap */
+
+    /* Dining — single column, smaller images */
+    .dining-grid {
+      grid-template-columns: 1fr;
+      gap: 0.75rem;
+    }
+    /* Dining text — bump up for readability */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.82rem !important; }
+    .dining-info .dish { font-size: 0.78rem !important; }
+
+    /* Timeline — single column, date on top */
+    .day-card {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+      padding: 1rem;
+    }
+    .day-card > :first-child {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+    .day-num {
+      font-size: 1.1rem;
+      color: var(--gold);
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+    }
+    .day-label {
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+    }
+    .day-zh {
+      font-size: 0.8rem;
+      margin-top: 0;
+    }
+    .day-weather {
+      text-align: left;
+      font-size: 0.8rem;
+      margin-left: auto;
+    }
+    .day-card { overflow: hidden; }
+    .day-schedule { font-size: 1rem; overflow-wrap: break-word; word-break: break-word; }
+    .day-photo { max-width: 100%; }
+    .time-slot .time {
+      font-size: 0.75rem;
+      min-width: 46px;
+    }
+    .time-slot {
+      gap: 0.3rem;
+    }
+
+    /* Settings — single column */
+    .settings-grid {
+      grid-template-columns: 1fr;
+    }
+
+    /* Cost — tighten */
+    .cost-row {
+      font-size: 0.95rem;
+    }
+    .cost-section {
+      padding: 1rem;
+    }
+
+    /* Chat */
+    .chat-box textarea {
+      height: 180px;
+      font-size: 1.05rem;
+    }
+
+    /* Section titles */
+    .section-title {
+      font-size: 1.4rem;
+    }
+    .section-sub {
+      font-size: 0.9rem;
+    }
+
+    /* External buttons — full width */
+    .external-btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 0.75rem;
+      padding: 0.55rem 1rem;
+    }
+  }
+
+  /* ═══════════════ SMALL PHONES ────────────────────── */
+  @media (max-width: 390px) {
+    .hero-slider .slider-track img { height: 220px; }
+    .hero-overlay h1 { font-size: 1.45rem; }
+    .hero-overlay .zh-title {
+      font-size: 0.85rem;
+    }
+    .day-card {
+      grid-template-columns: 1fr;
+      padding: 0.85rem;
+    }
+    .day-num {
+      font-size: 1rem;
+    }
+    .day-schedule { font-size: 0.9rem; }
+    /* Dining text — bigger on iPhone */
+    .dining-info h4 { font-size: 1rem !important; }
+    .dining-info .zh-name { font-size: 0.8rem !important; }
+    .dining-info .dish { font-size: 0.76rem !important; }
+    nav a {
+      font-size: 0.65rem;
+      letter-spacing: 0.5px;
+    }
+  }
+/* Full-bleed sliders on mobile */
+@media (max-width: 768px) {
+  .hero-slider, .hotel-slider, .dining-slider {
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw !important;
+  }
+  .slider-track img {
+    width: 100vw !important;
+  }
+  .day-photo {
+    width: 100%;
+    max-width: 100%;
+  }
+  .hotel-slider .slider-track a,
+  .dining-slider .slider-track a { display: block; width: 100%; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Destination slider + overlay (merged hero) -->
+  <div class="hero-slider">
+    <div class="slider">
+      <div class="slider-track">
+        
+        <img src="https://www.travelcaffeine.com/wp-content/uploads/2018/06/sunset-tokyo-tower-zojoji-temple-japan-bricker.jpg" alt="Ultimate 2025 Tokyo, Japan City Guide - Travel Caffeine">
+        
+        <img src="https://www.gotokyo.org/en/see-and-do/attractions/images/9_0102_2.jpg" alt="Top tourist attractions in Tokyo: the best sightseeing spots | The Official Tokyo  Travel Guide, GO TOKYO">
+        
+        <img src="https://www.travelcaffeine.com/wp-content/uploads/2023/01/sarah-tom-bricker-shibuya-sky-sunset-japan-11.jpg" alt="Ultimate 2025 Tokyo, Japan City Guide - Travel Caffeine">
+        
+        <img src="https://i.natgeofe.com/n/92c9807e-cf05-4603-a0fb-20bc43726522/Chidorigafuchi%20Imperial%20Palace%20.jpg?wp=1&amp;w=1084.125&amp;h=724.5" alt="This is Tokyo: 10 nature escapes without leaving the metropolis | National  Geographic">
+        
+        <img src="https://www.holidaytourstravel.com/wp-content/uploads/2022/11/sora-sagano-8sOZJ8JF0S8-unsplash-scaled.jpg" alt="Top 10 Useful Tips To Know For Your Next Tokyo Travel | Holiday Tours &amp;  Travel">
+        
+        <img src="https://www.gotokyo.org/en/see-and-do/attractions/images/pixta_54645855_l.jpg" alt="Top tourist attractions in Tokyo: the best sightseeing spots | The Official Tokyo  Travel Guide, GO TOKYO">
+        
+      </div>
+    </div>
+    <div class="hero-overlay">
+      <h1>Tokyo, Japan</h1>
+      <div class="zh-title">東京青春平價玩 · 三人閨蜜五天小資之旅</div>
+      <div class="hero-stats">
+        <span>✈️ 2026/08/13–08/17</span>
+        <span>👥 3 人</span>
+        <span>💰 NT$100,000</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ✈️ FLIGHT -->
+  
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>✈️ 航班 Flight</h2>
+      <a class="external-btn google" href="https://www.google.com/travel/flights?q=Flights+to+NRT+from+TPE+2026-08-13" target="_blank">
+        ↗ Google Flights 搜尋更多航班
+      </a>
+    </div>
+    <div class="flight-detail">
+      <div class="flight-info">
+        <div class="label">出發 Departure · 8月13日</div>
+        <div class="airline">台灣虎航 Tigerair Taiwan</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">IT 202</span> · TPE → NRT 直飛<br>
+          14:15 出發 · 18:35 抵達<br>
+          飛行 3h 20m · 經濟艙 (含手提與20kg行李)
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="flight-info">
+        <div class="label">回程 Return · 8月17日</div>
+        <div class="airline">台灣虎航 Tigerair Taiwan</div>
+        <div style="margin-top:0.5rem;">
+          <span style="font-weight:600;">IT 203</span> · NRT → TPE 直飛<br>
+          19:30 出發 · 22:15 抵達<br>
+          飛行 3h 45m · 經濟艙 (含手提與25kg行李)
+        </div>
+      </div>
+    </div>
+    <div style="text-align:right; margin-top:1rem; font-size:0.9rem;">
+      來回 NT$ <strong>33,000</strong> / 3人
+    </div>
+  </div>
+  
+
+  <!-- 🏨 HOTELS -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🏨 住宿 Hotel</h2>
+      <a class="external-btn agoda" href="https://www.agoda.com/zh-tw/city/tokyo-fr.html?checkIn=2026-08-13&amp;checkOut=2026-08-17&amp;adults=3" target="_blank">
+        ↗ Agoda 搜尋更多住宿
+      </a>
+    </div>
+
+    
+    <div class="hotel-card" style="margin-bottom:1rem;">
+      <!-- Hotel photo gallery — full-width slider on top, matching dining card layout -->
+      
+      <div class="hotel-slider">
+        <div class="slider-track">
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=GRIDS%20TOKYO%20UENO%20Hotel%20Hostel" target="_blank" title="More photos of GRIDS TOKYO UENO Hotel &amp; Hostel" style="touch-action:pan-x;"><img src="https://grids-hostel.com/hostels/ueno/img/index/private_img2.jpg" alt="GRIDS HOTEL＋HOSTEL TOKYOUENO"></a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=GRIDS%20TOKYO%20UENO%20Hotel%20Hostel" target="_blank" title="More photos of GRIDS TOKYO UENO Hotel &amp; Hostel" style="touch-action:pan-x;"><img src="https://grids-hostel.com/hostels/ueno/img/room/private_a5bed_slide1.jpg" alt="ROOM TYPES &amp; FACILITY | GRIDS HOTEL＋HOSTEL TOKYOUENO"></a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=GRIDS%20TOKYO%20UENO%20Hotel%20Hostel" target="_blank" title="More photos of GRIDS TOKYO UENO Hotel &amp; Hostel" style="touch-action:pan-x;"><img src="https://images.trvl-media.com/lodging/37000000/36470000/36462200/36462137/c7ee959d.jpg?impolicy=resizecrop&amp;rw=575&amp;rh=575&amp;ra=fill" alt="Grids Tokyo Ueno Hotel &amp; Hostel, Tokyo: Hotel Reviews, Rooms &amp; Prices |  Hotels.com"></a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=GRIDS%20TOKYO%20UENO%20Hotel%20Hostel" target="_blank" title="More photos of GRIDS TOKYO UENO Hotel &amp; Hostel" style="touch-action:pan-x;"><img src="https://images.trvl-media.com/lodging/37000000/36470000/36462200/36462137/4d215eb4.jpg?impolicy=resizecrop&amp;rw=575&amp;rh=575&amp;ra=fill" alt="Grids Tokyo Ueno Hotel &amp; Hostel Reviews, Deals &amp; Photos 2026 - Expedia.com"></a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=GRIDS%20TOKYO%20UENO%20Hotel%20Hostel" target="_blank" title="More photos of GRIDS TOKYO UENO Hotel &amp; Hostel" style="touch-action:pan-x;"><img src="https://ak-d.tripcdn.com/images/200u180000015fsth9336_R_960_660_R5_D.jpg" alt="Grids Tokyo Ueno Hotel&amp;Hostel (Tokyo) - 2026 Prices, Reviews &amp; Deals |  Trip.com"></a>
+          
+          
+          
+          
+          <a href="https://www.google.com/search?tbm=isch&q=GRIDS%20TOKYO%20UENO%20Hotel%20Hostel" target="_blank" title="More photos of GRIDS TOKYO UENO Hotel &amp; Hostel" style="touch-action:pan-x;"><img src="https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/562679647.jpg?k=0e4a4f8e9b51f6a4325db74e00c223aab051b6e4e1bd80e23c1c655f8b445801&amp;o=" alt="Grids Tokyo Ueno Hotel&amp;Hostel, Tokyo | 2026 Updated Prices, Deals"></a>
+          
+          
+        </div>
+      </div>
+      
+      <div class="hotel-info" style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:0.75rem;margin-bottom:0.5rem;">
+        <div>
+          <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1.15rem;margin-bottom:0.15rem;">GRIDS TOKYO UENO Hotel &amp; Hostel</h3>
+          <div style="font-family:'Noto Serif TC',serif;font-size:0.85rem;color:var(--warm-gray);">東京上野格里茲酒店及青年旅館 · 台東區東上野 (Ueno)</div>
+        </div>
+        <div style="text-align:right;">
+          <div style="font-size:0.7rem;color:var(--gold);font-weight:600;">DAY 1–5</div>
+          <div style="font-size:0.8rem;color:var(--warm-gray);">4 晚</div>
+          <div style="font-size:1.1rem;font-weight:600;">NT$ 18,000</div>
+        </div>
+      </div>
+      <div class="hotel-info" style="font-size:0.85rem;color:var(--ink);">
+        ★★★☆☆ · 獨立三人房 (Private Triple Room) · 不含早餐 (可自費或超商購買)<br>
+        📶 免費高鐵 Wi-Fi · 🧺 自助洗衣房 · ☕ 共享廚房與大廳 · 🚶 近上野站步行5分鐘
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 🍽️ DINING -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>🍽️ 美食 Dining</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">5天 · 3 間餐廳 · NT$0</span>
+    </div>
+
+    
+
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 米其林星級 Fine Dining</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <a href="https://www.google.com/search?tbm=isch&q=Gyukatsu%20Motomura%20Ueno%20Tokyo" target="_blank" title="More photos of Gyukatsu Motomura Ueno" style="touch-action:pan-x;"><img src="https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3097054068376307586" alt="Gyukatsu Motomura Ueno" onerror="this.style.display='none'"></a>
+            
+            
+            
+            
+            <a href="https://www.google.com/search?tbm=isch&q=Gyukatsu%20Motomura%20Ueno%20Tokyo" target="_blank" title="More photos of Gyukatsu Motomura Ueno" style="touch-action:pan-x;"><img src="https://tblg.k-img.com/restaurant/images/Rvw/143183/640x640_rect_143183302.jpg" alt="Gyukatsu Motomura Ueno" onerror="this.style.display='none'"></a>
+            
+            
+            
+            
+            <a href="https://www.google.com/search?tbm=isch&q=Gyukatsu%20Motomura%20Ueno%20Tokyo" target="_blank" title="More photos of Gyukatsu Motomura Ueno" style="touch-action:pan-x;"><img src="https://tblg.k-img.com/restaurant/images/Rvw/153490/640x640_rect_153490687.jpg" alt="Gyukatsu Motomura Ueno" onerror="this.style.display='none'"></a>
+            
+            
+            </div>
+          </div>
+          
+          <div class="dining-info">
+            <h4>Gyukatsu Motomura Ueno</h4>
+            <div class="zh-name">炸牛元村 上野店 (人氣排隊美食) · ⭐⭐⭐⭐</div>
+            <div class="dish">🥩 招牌：石板炙燒炸牛排定食 (Gyukatsu Set)</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Gyukatsu%20Motomura%20Ueno+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8D%80%E4%B8%8A%E9%87%8E4%E4%B8%81%E7%9B%AE10-17" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">東京都台東區上野4丁目10-17</a><br>
+              💰 三人份套餐 約 ¥5,800 · NT$1,300<br>
+              🕐 11:00–22:00 · 現場排隊
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:1.5rem;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 法式小館 Bistros &amp; Casual</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <a href="https://www.google.com/search?tbm=isch&q=Torikizoku%20Ueno%20Tokyo" target="_blank" title="More photos of Torikizoku Ueno Chuo-dori" style="touch-action:pan-x;"><img src="https://tblg.k-img.com/resize/640x360c/restaurant/images/Rvw/159841/159841558.jpg?token=f24ebae&amp;api=v2" alt="Torikizoku Ueno Chuo-dori" onerror="this.style.display='none'"></a>
+            
+            
+            
+            
+            <a href="https://www.google.com/search?tbm=isch&q=Torikizoku%20Ueno%20Tokyo" target="_blank" title="More photos of Torikizoku Ueno Chuo-dori" style="touch-action:pan-x;"><img src="https://tblg.k-img.com/resize/640x360c/restaurant/images/Rvw/261462/a17ce1036f1d5898a6269144106641b4.jpg?token=b3b5215&amp;api=v2" alt="Torikizoku Ueno Chuo-dori" onerror="this.style.display='none'"></a>
+            
+            
+            
+            
+            <a href="https://www.google.com/search?tbm=isch&q=Torikizoku%20Ueno%20Tokyo" target="_blank" title="More photos of Torikizoku Ueno Chuo-dori" style="touch-action:pan-x;"><img src="https://welcome.torikizoku.co.jp/wp-content/themes/torikizoku_en/img/mv3.jpg" alt="Torikizoku Ueno Chuo-dori" onerror="this.style.display='none'"></a>
+            
+            
+            </div>
+          </div>
+          
+          <div class="dining-info">
+            <h4>Torikizoku Ueno Chuo-dori</h4>
+            <div class="zh-name">鳥貴族 上野中央通店 (平價串燒) · ⭐⭐⭐</div>
+            <div class="dish">🍢 招牌：醬燒雞肉串、金黃炸雞、生啤酒</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=Torikizoku%20Ueno%20Chuo-dori+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8D%80%E4%B8%8A%E9%87%8E2%E4%B8%81%E7%9B%AE1-13%204F" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">東京都台東區上野2丁目1-13 4F</a><br>
+              💰 三人均分飽餐 約 ¥7,200 · NT$1,600<br>
+              🕐 17:00–05:00 · 宵夜首選
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    
+    <div style="margin-bottom:0;">
+      <h3 style="font-family:'Playfair Display','Noto Serif TC',serif;font-size:1rem;color:var(--gold);margin-bottom:0.75rem;">✦ 咖啡甜點 Cafés &amp; Sweets</h3>
+      <div class="dining-grid">
+        
+        <div class="dining-card">
+          
+          <div class="dining-slider">
+            <div class="slider-track">
+            
+            
+            
+            
+            <a href="https://www.google.com/search?tbm=isch&q=HARBS%20cafe%20Tokyo%20cake" target="_blank" title="More photos of HARBS Ueno Yamashiroya" style="touch-action:pan-x;"><img src="https://www.bring-you.info/imgs/2019/05/harbs_shinjuku7-900x600.jpg" alt="HARBS Ueno Yamashiroya" onerror="this.style.display='none'"></a>
+            
+            
+            
+            
+            <a href="https://www.google.com/search?tbm=isch&q=HARBS%20cafe%20Tokyo%20cake" target="_blank" title="More photos of HARBS Ueno Yamashiroya" style="touch-action:pan-x;"><img src="https://i0.wp.com/www.foodlovergirl.com/wp-content/uploads/2018/02/IMG_2027.jpg" alt="HARBS Ueno Yamashiroya" onerror="this.style.display='none'"></a>
+            
+            
+            
+            
+            <a href="https://www.google.com/search?tbm=isch&q=HARBS%20cafe%20Tokyo%20cake" target="_blank" title="More photos of HARBS Ueno Yamashiroya" style="touch-action:pan-x;"><img src="https://rimage.hitosara.com/gg/image/0004023492/0004023492F1.jpg" alt="HARBS Ueno Yamashiroya" onerror="this.style.display='none'"></a>
+            
+            
+            </div>
+          </div>
+          
+          <div class="dining-info">
+            <h4>HARBS Ueno Yamashiroya</h4>
+            <div class="zh-name">HARBS 上野店 (招牌千層蛋糕) · ⭐⭐⭐⭐</div>
+            <div class="dish">🍰 招牌：水果千層蛋糕 (Mille Crepes) · 皇家奶茶</div>
+            <div style="font-size:0.75rem;color:var(--warm-gray);margin-top:0.25rem;">
+              📍 <a href="https://www.google.com/maps/search/?api=1&query=HARBS%20Ueno%20Yamashiroya+%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%8F%B0%E6%9D%B1%E5%8D%80%E4%B8%8A%E9%87%8E3%E4%B8%81%E7%9B%AE24-6%20%28%E6%9D%BE%E5%9D%82%E5%B1%8B%E4%B8%8A%E9%87%8E%E5%BA%97%202F%29" target="_blank" style="color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--gold);">東京都台東區上野3丁目24-6 (松坂屋上野店 2F)</a><br>
+              💰 三人下午茶 約 ¥4,000 · NT$900<br>
+              🕐 10:00–20:00
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+
+    <!-- Food image slider -->
+    <div class="slider" style="margin-top:1rem;">
+      <div class="slider-track">
+        
+        
+        
+        
+        <img src="https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3097054068376307586" alt="Gyukatsu Motomura 📍 Ueno, Tokyo 🥩 Do yourself a favor and bookmark this  spot because this is an ABSOLUTE must try in Japan. There&#39;s multiple  locations throughout Japan, but be prepared to">
+        
+        
+        
+        <img src="https://tblg.k-img.com/restaurant/images/Rvw/143183/640x640_rect_143183302.jpg" alt="Gyukatsu Motomura Ueno ten - Keisei Ueno/Beef cutlet | Tabelog">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://tblg.k-img.com/resize/640x360c/restaurant/images/Rvw/159841/159841558.jpg?token=f24ebae&amp;api=v2" alt="Tori Kizoku Ueno shouwadoori ten Reservation - Keisei Ueno/Yakitori  (Grilled chicken skewers) | Tabelog">
+        
+        
+        
+        <img src="https://tblg.k-img.com/resize/640x360c/restaurant/images/Rvw/261462/a17ce1036f1d5898a6269144106641b4.jpg?token=b3b5215&amp;api=v2" alt="Tori Kizoku Ueno shouwadoori ten Reservation - Keisei Ueno/Yakitori  (Grilled chicken skewers) | Tabelog">
+        
+        
+        
+        
+        
+        
+        
+        <img src="https://www.bring-you.info/imgs/2019/05/harbs_shinjuku7-900x600.jpg" alt="HARBS LUMINE EST Shinjuku: Tokyo&#39;s Must-Try Fruit Mille-Feuille Cake |  BringYou">
+        
+        
+        
+        <img src="https://i0.wp.com/www.foodlovergirl.com/wp-content/uploads/2018/02/IMG_2027.jpg" alt="HARBS - Food Lover Girl">
+        
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- 📅 DAY BY DAY -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>📅 每日行程 Day by Day</h2>
+      <span style="font-family:'Inter',sans-serif;font-size:0.7rem;color:var(--warm-gray);">2026-08-13 – 2026-08-17</span>
+    </div>
+
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">1</div>
+        <div class="day-label">Aug 13 · Thu</div>
+        <div class="day-zh">出發東京 · 抵達上野與平價串燒狂歡</div>
+        
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 東京上野格里茲酒店及青年旅館</div>
+        
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/rsfit19201280gsm/events/2026/02/17/b4c0e384-0c4c-411c-b445-7656f0f87f61-1771277703934-5e85124072139da6598f6d1059f08408.jpg" alt="出發東京 · 抵達上野與平價串燒狂歡" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🎒 桃園機場第一航廈集合 · 辦理虎航登機與行李託運手續</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:15</span> ✈️ 搭乘台灣虎航 IT 202 航班前往東京成田機場 (NRT)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:35</span> 🇯🇵 抵達成田機場第二航廈 · 快速通關並領取行李</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:15</span> 🎫 購買 京成電鐵 Skyliner 特急券 (約 NT$550/人) 直達上野</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:00</span> 🚄 搭乘 Skyliner 快速前往京成上野站 (車程約 41 分鐘)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🏨 抵達 GRIDS TOKYO UENO 辦理入住 · 置放行李與整理儀容</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:30</span> 🍢 宵夜：前往鳥貴族 (Torikizoku) 享受均一價平價串燒與氣泡飲，慶祝旅程開始</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">23:30</span> 🏪 順路在 7-Eleven 購買明日早餐與飲料，步行返回旅館休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> GRIDS TOKYO UENO Hotel &amp; Hostel · 獨立三人房 (Private Triple Room)</div>
+      </div>
+      <div class="day-weather">
+        ☀ 30°/25°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">2</div>
+        <div class="day-label">Aug 14 · Fri</div>
+        <div class="day-zh">經典淺草雷門 · 晴空塔散策與美味炸牛排</div>
+        
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 東京上野格里茲酒店及青年旅館</div>
+        
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://www.japan365days.com/img/tokyo/sensoji_temple/sensoji-temple-asakusa-tokyo.jpg" alt="經典淺草雷門 · 晴空塔散策與美味炸牛排" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">08:30</span> 🥐 在旅館大廳享用超商買的日式飯糰與香蕉鮮乳早餐</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:15</span> 🚇 搭乘東京地鐵銀座線，從上野站直達淺草站 (約 5 分鐘)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 📸 淺草寺雷門拍照留念 · 漫步仲見世通商店街品嚐人形燒與人形最中</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍜 午餐：淺草名代宇奈toto (Unatoto) 享用超平價鰻魚飯 (只需約 NT$250/人)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:30</span> 🚶 沿著隅田川步道散步前往東京晴空塔 (Tokyo Skytree) · 沿途拍美照</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> 🛍️ 晴空塔城 (Solamachi) 逛街 · 專攻吉卜力共和國與寶可夢中心</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:30</span> 🚇 搭乘地鐵返回上野 · 前往阿美橫町 (Ameyoko) 感受在地市集風情</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:30</span> 🥩 晚餐：排隊享用「炸牛元村」· 滋滋作響的石板烤肉讓人垂涎三尺</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">21:00</span> 🛒 二木的菓子 (Niki no Kashi) 瘋狂採購便宜的日本零食與泡麵</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">22:30</span> 🚶 散步回旅館，在共享大廳一邊吃零食一邊聊天分享照片</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> GRIDS TOKYO UENO Hotel &amp; Hostel · 獨立三人房 (Private Triple Room)</div>
+      </div>
+      <div class="day-weather">
+        ☀ 31°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 15%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">3</div>
+        <div class="day-label">Aug 15 · Sat</div>
+        <div class="day-zh">潮流原宿 · 澀谷十字路口與絕美百萬夜景</div>
+        
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 東京上野格里茲酒店及青年旅館</div>
+        
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://www.travelcaffeine.com/wp-content/uploads/2023/01/sarah-tom-bricker-shibuya-sky-sunset-japan-11.jpg" alt="潮流原宿 · 澀谷十字路口與絕美百萬夜景" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚇 使用東京地鐵 72 小時券，搭乘地鐵前往明治神宮前站</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 🌲 漫步於明治神宮的巨大鳥居與森林步道中，享受夏日清晨的芬多精</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:00</span> 🛍️ 逛原宿竹下通 (Takeshita Street) · 體驗日本女高中的流行飾品與平價服飾</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:30</span> 🥞 午餐：原宿排隊名店 Eggs &#39;n Things 享用超大份量鮮奶油鬆餅與鹹食</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:30</span> 🚶 散步前往表參道與貓街 (Cat Street) · 探訪文青特色小店</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> 🚇 搭乘地鐵至澀谷站 · 前往 SHIBUYA SKY 展望台 (已提早預約 17:00 入場門票)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🌇 SHIBUYA SKY 360度無遮蔽觀景台，俯瞰著名的澀谷十字路口與落日餘暉</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:00</span> 🍜 晚餐：一蘭拉麵澀谷店 · 經典豚骨拉麵加半熟鹽味蛋</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:30</span> 🐧 逛澀谷 Mega Don Quijote 旗艦店 · 藥妝與美妝小鋪大採購</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">22:30</span> 🚇 搭乘地鐵返回上野旅館休息</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> GRIDS TOKYO UENO Hotel &amp; Hostel · 獨立三人房 (Private Triple Room)</div>
+      </div>
+      <div class="day-weather">
+        ☁ 29°/24°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">4</div>
+        <div class="day-label">Aug 16 · Sun</div>
+        <div class="day-zh">鎌倉江之島一日遊 · 灌籃高手經典平交道與海邊夕陽</div>
+        
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 東京上野格里茲酒店及青年旅館</div>
+        
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://as2.ftcdn.net/jpg/07/05/41/83/1000_F_705418320_gEPrMIxKEovb3CDF6vMTH2Bpu1iWn2og.jpg" alt="鎌倉江之島一日遊 · 灌籃高手經典平交道與海邊夕陽" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">07:30</span> 🚇 從上野搭乘 JR 上野東京線前往藤澤站 (約 50 分鐘)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">08:40</span> 🎫 於藤澤站購買「江之電一日券」(約 NT$180/人) 開啟鐵道浪漫之旅</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:15</span> 🚃 搭乘復古的江之電電車，前往「鎌倉高校前」站</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:30</span> 📸 灌籃高手經典平交道拍照 (請注意交通安全與禮讓車輛)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">10:30</span> 🚃 前往「長谷站」參觀宏偉的鎌倉大佛 (高德院)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">12:00</span> 🍛 午餐：江之島知名平價名產「しらす問屋 とびっちょ」享用新鮮魩仔魚丼飯</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">14:00</span> ⛩️ 步行跨越江之島大橋，探索江之島神社與老街，沿途吃女夫饅頭</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">17:00</span> 🌅 在片瀨江之島海岸欣賞夢幻的太平洋落日，拍攝唯美逆光閨蜜照</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">18:30</span> 🚃 搭乘江之電返回藤澤，轉乘 JR 返回上野</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">20:30</span> 🍱 晚餐：在上野車站旁松屋 (Matsuya) 享用平價美味的牛丼定食</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">22:00</span> 🏨 返回旅館，開始整理行李並打包戰利品</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> GRIDS TOKYO UENO Hotel &amp; Hostel · 獨立三人房 (Private Triple Room)</div>
+      </div>
+      <div class="day-weather">
+        ☀ 30°/25°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 10%</span>
+      </div>
+    </div>
+    
+    <div class="day-card">
+      <div>
+        <div class="day-num">5</div>
+        <div class="day-label">Aug 17 · Mon</div>
+        <div class="day-zh">築地海鮮早午餐 · 銀座奢華窗口與最後採購</div>
+        
+        <div style="font-size:0.6rem;color:var(--gold);text-align:center;margin-top:0.15rem;font-family:'Inter',sans-serif;letter-spacing:0.5px;">🏨 東京上野格里茲酒店及青年旅館</div>
+        
+      </div>
+      <div class="day-schedule">
+        
+        <img class="day-photo" src="https://www.planmyjapan.com/wp-content/uploads/2024/05/Tsukiji-Outer-Market-Tokyo-5-768x968.jpg" alt="築地海鮮早午餐 · 銀座奢華窗口與最後採購" onerror="this.style.display='none'">
+        
+        
+        
+        <div class="time-slot"><span class="time">08:30</span> 🏨 辦理退房手續 (Check-out) · 將大件行李寄放於旅館櫃檯</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:00</span> 🚇 搭乘日比谷線地鐵直達築地站 (約 12 分鐘)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">09:20</span> 🍣 築地場外市場享用豪華海鮮早午餐 · 必吃玉子燒 (¥150)、烤扇貝與海鮮丼</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">11:30</span> 🚇 步行前往高級地段銀座 (Ginza) · 參觀 Uniqlo 全球旗艦店</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">13:30</span> 🍰 下午茶：前往 HARBS 上野店，享用夢幻的水果千層蛋糕</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:00</span> 🏨 返回上野旅館領取行李 · 步行前往京成上野站</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">15:40</span> 🚄 搭乘 Skyliner 特急列車前往成田機場第二航廈</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">16:30</span> ✈️ 抵達機場 · 辦理虎航登機與行李託運手續 · 進行免稅店最後補貨</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">19:30</span> 🛫 搭乘台灣虎航 IT 203 班機返回台北 (TPE)</div>
+        
+        
+        
+        <div class="time-slot"><span class="time">22:15</span> 🇹🇼 順利抵達桃園機場 · 結束超值又充實的東京五天閨蜜之旅</div>
+        
+        
+        <div class="time-slot" style="border-top:1px dashed var(--gold);margin-top:0.4rem;padding-top:0.5rem;"><span class="time" style="color:var(--rose);">🏨</span> GRIDS TOKYO UENO Hotel &amp; Hostel · 獨立三人房 (Private Triple Room)</div>
+      </div>
+      <div class="day-weather">
+        ☁ 31°/26°<br>
+        <span style="font-size:0.7rem;color:var(--warm-gray);">降雨 20%</span>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- 💰 COST BREAKDOWN -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>💰 花費明細 Cost</h2>
+      <span style="font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">所有金額以新台幣 NTD 計算</span>
+    </div>
+    
+    <div class="cost-row"><span>✈️ 台灣虎航來回機票 (3人)</span><span>NT$ <strong>33,000</strong></span></div>
+    
+    <div class="cost-row"><span>🏨 格里茲青年旅館 4晚 (三人房)</span><span>NT$ <strong>18,000</strong></span></div>
+    
+    <div class="cost-row"><span>🍽️ 全程餐飲與小吃 (3人)</span><span>NT$ <strong>16,500</strong></span></div>
+    
+    <div class="cost-row"><span>🚇 交通票券與 Skyliner (3人)</span><span>NT$ <strong>6,800</strong></span></div>
+    
+    <div class="cost-row"><span>🎫 景點門票 (SHIBUYA SKY等 3人)</span><span>NT$ <strong>1,800</strong></span></div>
+    
+    <div class="cost-row"><span>🛍️ 藥妝、零食與伴手禮購物額度</span><span>NT$ <strong>21,000</strong></span></div>
+    
+    <div class="cost-row" style="font-weight:600; border-top:2px solid var(--gold); padding-top:0.5rem; margin-top:0.2rem;">
+      <span>💰 總計</span><span style="font-size:1.05rem;">NT$ <strong>97,100</strong></span>
+    </div>
+    <div class="cost-bar"><div class="cost-bar-fill" style="width:97.0%"></div></div>
+    <div style="text-align:right; font-size:0.8rem; color:var(--warm-gray);">
+      NT$ 97,100 / NT$ 100,000 · 剩餘 NT$ 2,900
+    </div>
+  </div>
+
+  <!-- 📖 Flipbook -->
+  <div class="full-card">
+    <div class="full-card-header">
+      <h2>📖 探索 Tokyo, Japan</h2>
+    </div>
+    <iframe id="flipbook-frame"
+            src="https://flipbook-clone-five.vercel.app?q=Tokyo%2C%20Japan&embed=1"
+            width="100%" height="700" frameborder="0" scrolling="no"
+            style="border:none; border-radius:10px; box-shadow:0 2px 16px rgba(0,0,0,0.05);">
+    </iframe>
+  </div>
+
+</div>
+
+<script>
+// Shared JS for all Travel Planner pages
+// Lightbox, broken image handler, base64 utilities
+
+/** Encode string as base64 (UTF-8 safe). */
+function b64Encode(str) {
+  var bytes = new TextEncoder().encode(str);
+  var binStr = Array.from(bytes, function(b) { return String.fromCharCode(b); }).join('');
+  return btoa(binStr);
+}
+
+/** Decode base64 to string (UTF-8 safe). */
+function b64Decode(b64) {
+  var bytes = Uint8Array.from(atob(b64), function(c) { return c.charCodeAt(0); });
+  return new TextDecoder().decode(bytes);
+}
+
+// Hide broken images globally
+document.addEventListener('error', function(e){
+  if(e.target.tagName === 'IMG'){
+    e.target.classList.add('broken');
+  }
+}, true);
+
+// ═══ LIGHTBOX ═══
+(function(){
+  var images = [];
+  var currentIdx = 0;
+  var lb = null;
+  var lbImg = null;
+  var lbCounter = null;
+
+  function buildLightbox() {
+    lb = document.createElement('div');
+    lb.className = 'lightbox';
+    lb.innerHTML =
+      '<button class="close-btn">&times;</button>' +
+      '<div class="lbox-img-wrap">' +
+        '<div class="lbox-left"><span class="lbox-arrow">&#8249;</span></div>' +
+        '<img src="" alt="">' +
+        '<div class="lbox-right"><span class="lbox-arrow">&#8250;</span></div>' +
+      '</div>' +
+      '<div class="counter"></div>';
+    document.body.appendChild(lb);
+    lbImg = lb.querySelector('img');
+    lbCounter = lb.querySelector('.counter');
+
+    lb.querySelector('.close-btn').addEventListener('click', close);
+    lb.querySelector('.lbox-left').addEventListener('click', function(e){ e.stopPropagation(); prev(); });
+    lb.querySelector('.lbox-right').addEventListener('click', function(e){ e.stopPropagation(); next(); });
+    lb.addEventListener('click', function(e){ if(e.target === lb) close(); });
+    document.addEventListener('keydown', function(e){
+      if(!lb.classList.contains('open')) return;
+      if(e.key === 'Escape') close();
+      if(e.key === 'ArrowLeft') prev();
+      if(e.key === 'ArrowRight') next();
+    });
+  }
+
+  function collectImages() {
+    images = [];
+    var all = document.querySelectorAll('.slider-track img, .food-imgs img, .hero-placeholder, .dining-card img, .lightbox-clickable');
+    all.forEach(function(img, i){
+      // Skip images inside Google Images links — let the browser follow the link
+      if(img.closest('a[href*="google.com/search?tbm=isch"]')) return;
+      if(img.naturalWidth > 0 || img.complete) {
+        images.push(img);
+        img.style.cursor = 'pointer';
+        img.setAttribute('data-lb-idx', images.length - 1);
+        if(!img.hasLbListener) {
+          img.addEventListener('click', function(e){
+            e.stopPropagation();
+            open(img.getAttribute('data-lb-idx'));
+          });
+          img.hasLbListener = true;
+        }
+      }
+    });
+  }
+
+  function open(idx) {
+    if(!lb) buildLightbox();
+    collectImages();
+    idx = parseInt(idx);
+    if(idx < 0) idx = images.length - 1;
+    if(idx >= images.length) idx = 0;
+    currentIdx = idx;
+    var src = images[currentIdx].src || images[currentIdx].getAttribute('src');
+    // strip Unsplash size params for full resolution
+    src = src.replace(/[?&]w=\d+/g, '').replace(/[?&]h=\d+/g, '').replace(/[?&]fit=crop/g, '');
+    if(src.indexOf('?') === -1) src += '?w=1400'; else src += '&w=1400';
+    lbImg.src = src;
+    lbCounter.textContent = (currentIdx + 1) + ' / ' + images.length;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    lb.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function next() { open(currentIdx + 1); }
+  function prev() { open(currentIdx - 1); }
+
+  window.addEventListener('load', function(){ collectImages(); });
+})();
+
+// Flipbook embed auto-resize: the iframe grows to fit the content height
+// posted by the flipbook (embed mode), so nothing gets clipped.
+(function() {
+  window.addEventListener('message', function(e) {
+    if (e.origin !== 'https://flipbook-clone-five.vercel.app') return;
+    var d = e.data;
+    if (!d || d.type !== 'flipbook-height' || typeof d.height !== 'number') return;
+    var frame = document.getElementById('flipbook-frame');
+    if (!frame) return;
+    var h = Math.round(d.height);
+    if (h < 300) h = 300;
+    if (h > 1600) h = 1600;
+    frame.style.height = h + 'px';
+  });
+})();
+</script>
+<div style="text-align:center;padding:2rem 0 0.5rem;">
+  </div>
+<div style="text-align:center;padding:0.5rem 0 1rem;font-family:monospace;font-size:0.65rem;color:var(--warm-gray);opacity:0.5;">
+  
+  <div style="text-align:center;padding:1rem 0 0.5rem;">
+    <details style="display:inline-block;text-align:left;max-width:700px;width:100%;">
+      <summary style="cursor:pointer;font-family:'Noto Serif TC',serif;font-size:0.8rem;color:var(--warm-gray);">📝 產生此計畫的 Chat 輸入</summary>
+      <pre style="background:var(--soft-white);border:1px solid rgba(201,168,76,0.15);border-radius:8px;padding:0.75rem;font-size:0.85rem;white-space:pre-wrap;word-break:break-word;font-family:'Noto Serif TC','Cormorant Garamond',serif;color:var(--ink);max-height:200px;overflow-y:auto;margin-top:0.5rem;">今年暑假，8月12日之後，三個少女，東京窮游。總預算10萬，要找最便宜的機票，4天到5天</pre>
+    </details>
+  </div>
+  
+  build 260807.094525
+</div>
+</body>
+</html>
