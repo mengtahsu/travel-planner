@@ -1,0 +1,543 @@
+{
+  "destination_en": "Tokyo, Japan",
+  "title_zh": "東京夏日少女窮遊六日之旅",
+  "date_range": "2026/08/04–08/09",
+  "start_date": "2026-08-04",
+  "end_date": "2026-08-09",
+  "departure": "Taiwan (TPE)",
+  "departure_code": "TPE",
+  "destination_code": "NRT",
+  "travelers": 3,
+  "days": 6,
+  "budget_ntd": 100000,
+  "flight": {
+    "airline": "樂桃航空 Peach Aviation",
+    "departure_date": "8月4日",
+    "return_date": "8月9日",
+    "total_price_ntd": 21000,
+    "outbound": {
+      "flight_no": "MM860",
+      "route": "TPE → NRT 直飛",
+      "depart_time": "11:40",
+      "arrive_time": "16:00",
+      "duration": "3h 20m",
+      "class": "經濟艙 (含一件手提行李)"
+    },
+    "inbound": {
+      "flight_no": "MM859",
+      "route": "NRT → TPE 直飛",
+      "depart_time": "17:00",
+      "arrive_time": "19:50",
+      "duration": "3h 50m",
+      "class": "經濟艙 (含一件手提行李)"
+    }
+  },
+  "hotels": [
+    {
+      "name": "APA Hotel Ueno Ekimae",
+      "name_zh": "APA飯店 上野站前",
+      "district": "上野, 台東區",
+      "day_range": "1–6",
+      "nights": 5,
+      "price_ntd": 14000,
+      "stars": "★★★",
+      "room_type": "三人房 (Triple Room)",
+      "breakfast": "不含早餐",
+      "amenities": "📶 免費Wi-Fi · 🚿 獨立衛浴 · 💰 投幣式洗衣機 · 🏪 樓下有便利商店",
+      "search_query": "APA Hotel Ueno Ekimae Tokyo",
+      "photos": [
+        {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/309135102.jpg?k=4ee89f0770b1f65130b60abc8d563b39e80ad7352fafdd94f1f85ce0133674da&o=",
+          "label": "APA Hotel Ueno Ekimae, Tokyo (updated prices 2026)"
+        },
+        {
+          "url": "https://images.trvl-media.com/lodging/101000000/100940000/100939200/100939129/39506100.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+          "label": "APA Hotel Ueno Okachimachi Ekimae Minami Reviews, Deals & Photos 2026 -  Expedia.com"
+        },
+        {
+          "url": "https://images.trvl-media.com/lodging/70000000/69270000/69266800/69266746/8aeda456.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+          "label": "APA Hotel Ueno Ekimae Reviews, Deals & Photos 2026 - Expedia"
+        },
+        {
+          "url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/553705267.jpg?k=d3fecd7622fef9f4592d2c1197a97a6be336d916b40bb2d7ed560c928d7ccbe4&o=",
+          "label": "APA Hotel Ueno Ekimae, Tokyo (updated prices 2026)"
+        },
+        {
+          "url": "https://images.trvl-media.com/lodging/70000000/69270000/69266800/69266746/b33ee903.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+          "label": "APA Hotel Ueno Ekimae, Tokyo: Hotel Reviews, Rooms & Prices | Hotels.com"
+        },
+        {
+          "url": "https://images.trvl-media.com/lodging/14000000/13100000/13094200/13094145/a79d817c.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill",
+          "label": "APA Hotel Keisei Ueno Ekimae (Tokyo, ), Tokyo hotel discounts | Hotels.com"
+        }
+      ]
+    }
+  ],
+  "restaurants": {
+    "fine_dining": [],
+    "bistros": [
+      {
+        "name": "Ichiran Ramen",
+        "name_zh": "一蘭拉麵",
+        "stars": "",
+        "dish": "🍜 招牌：豚骨拉麵 · 客製化口味",
+        "address": "東京多家分店 (新宿、澀谷等)",
+        "price_ntd": 800,
+        "price_label": "拉麵 ¥1000-1200/人 · 約 NT$220-265/人",
+        "hours": "24小時營業 (依分店而異)",
+        "search_query": "Ichiran Ramen Tokyo",
+        "photos": [
+          {
+            "url": "https://cdn.gaijinpot.com/app/uploads/sites/4/2014/06/ichiran_hd.jpg",
+            "label": "Ichiran Ramen: Eating Without a Word"
+          },
+          {
+            "url": "https://ichiran.com/shop/assets_c/2022/03/1ba9223fc1fd4808e8cfd8f12fafecf4affcb1f2-thumb-autox400-4551.jpg",
+            "label": "東京の一蘭｜店舗のご案内｜天然とんこつラーメン 一蘭"
+          },
+          {
+            "url": "https://static.wixstatic.com/media/1815be_ea80c281872348daa29ce482ec6698d1~mv2.jpg/v1/fill/w_1000,h_666,al_c,q_85,usm_0.66_1.00_0.01/1815be_ea80c281872348daa29ce482ec6698d1~mv2.jpg",
+            "label": "My Take on Ichiran Ramen"
+          }
+        ]
+      },
+      {
+        "name": "Sushiro",
+        "name_zh": "スシロー 迴轉壽司",
+        "stars": "",
+        "dish": "🍣 招牌：多樣化迴轉壽司 · 茶碗蒸",
+        "address": "東京多家分店",
+        "price_ntd": 1000,
+        "price_label": "平均 ¥1500/人 · 約 NT$330/人",
+        "hours": "11:00–22:00 (依分店而異)",
+        "search_query": "Sushiro Tokyo",
+        "photos": [
+          {
+            "url": "https://www.akindo-sushiro.co.jp/en/img/top/store_ph02_03_sp.jpg?20240527",
+            "label": "SUSHIRO - No.1 SUSHI sales in Japan"
+          },
+          {
+            "url": "https://photos.smugmug.com/Tokyo/n-S6Q5Pp/Great-Sushi-Near-Tokyo-Station/i-CPw5NQs/0/LGjSRtWd7Q84hhzN3v5X9ZDmVZ3XgvTmvZX4DtzvP/L/02-sushiro-yaechika-entrance-L.png",
+            "label": "Sushiro Yaechika"
+          },
+          {
+            "url": "https://photos.smugmug.com/Tokyo/n-S6Q5Pp/Great-Sushi-Near-Tokyo-Station/i-mQ6SdQZ/0/LZ8QfR8FjVV2LTr6c8jR36x2RFCMt5tzmxgL6MMHb/L/04-sushiro-yaechika-sushi-L.png",
+            "label": "Sushiro Yaechika"
+          }
+        ]
+      },
+      {
+        "name": "Yoshinoya",
+        "name_zh": "吉野家",
+        "stars": "",
+        "dish": "🍚 招牌：牛丼 · 豬肉丼",
+        "address": "東京多家分店",
+        "price_ntd": 400,
+        "price_label": "丼飯套餐 ¥500-700/人 · 約 NT$110-155/人",
+        "hours": "24小時營業 (依分店而異)",
+        "search_query": "Yoshinoya Tokyo",
+        "photos": [
+          {
+            "url": "https://old-tokyo.info/wp-content/uploads/2018/07/2018-03-09-11.37.04-1200x756.jpg",
+            "label": "Oldest fast food chain in the world? Yoshinoya in Tokyo - Exploring Old  Tokyo"
+          },
+          {
+            "url": "https://old-tokyo.info/wp-content/uploads/2018/07/2018-03-09-11.24.06.jpg",
+            "label": "Oldest fast food chain in the world? Yoshinoya in Tokyo - Exploring Old  Tokyo"
+          },
+          {
+            "url": "https://www.yoshinoya.com/assets/images/multilingual/thum01.jpg",
+            "label": "ENGLISH | 吉野家公式ホームページ"
+          }
+        ]
+      }
+    ],
+    "cafes": [
+      {
+        "name": "Doutor Coffee",
+        "name_zh": "ドトールコーヒー",
+        "stars": "",
+        "dish": "☕ 招牌：冰咖啡 · 熱狗堡 · 三明治",
+        "address": "東京多家分店",
+        "price_ntd": 350,
+        "price_label": "飲品輕食 ¥500/人 · 約 NT$110/人",
+        "hours": "07:00–21:00 (依分店而異)",
+        "search_query": "Doutor Coffee Tokyo",
+        "photos": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Doutor_Coffee_Shop_Kita-Shinsaibashi%2C_Osaka_in_201509.JPG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            "label": "Doutor Coffee - Wikipedia"
+          },
+          {
+            "url": "https://cdn.shopify.com/s/files/1/0530/5145/7703/files/Doutor_Coffee_-_Everything_You_Need_to_Know.jpg?v=1652676430",
+            "label": "Doutor Coffee: Japan's Beloved Coffee Chain - Japanese Coffee Co."
+          },
+          {
+            "url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3297452208336782621",
+            "label": "Doutor: Into Japan Coffee Scene, Discover Doutor, the heart of Japan's  coffee love. Enjoy the taste of tradition and new flavors in every sip.  With Doutor, you explore more than coffee; you find a ..."
+          }
+        ]
+      }
+    ]
+  },
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "Aug 04 · Tue",
+      "label_zh": "抵達 · 上野/秋葉原初體驗",
+      "day_query": "Ueno Ameya-Yokocho Market",
+      "hotel_name": "APA Hotel Ueno Ekimae",
+      "hotel_name_zh": "APA飯店 上野站前",
+      "hotel_room": "三人房",
+      "weather": "☀️ 32°/25°",
+      "rain_pct": "30%",
+      "slots": [
+        {
+          "time": "16:00",
+          "desc": "✈️ 抵達 NRT 成田機場 Terminal 2 · 入境通關取行李（預計 45-60 分鐘）"
+        },
+        {
+          "time": "17:30",
+          "desc": "🚆 搭乘 Skyliner 前往京成上野站 (約 45 分鐘, ¥2580/人, 約 NT$573/人)。購買 Suica/Pasmo 卡並儲值 (¥2000/人, 約 NT$444/人)"
+        },
+        {
+          "time": "18:30",
+          "desc": "🏨 抵達 APA Hotel Ueno Ekimae · 辦理入住 · 稍作休息"
+        },
+        {
+          "time": "19:30",
+          "desc": "🚶‍♀️ 阿美橫丁 (Ameya-Yokocho) 散步 · 感受熱鬧氛圍，尋找街頭小吃 (章魚燒、可樂餅等)"
+        },
+        {
+          "time": "20:30",
+          "desc": "🍽️ 晚餐：吉野家 (Yoshinoya) 或松屋 (Matsuya) 等平價丼飯 (約 ¥600/人, 約 NT$133/人)"
+        },
+        {
+          "time": "21:30",
+          "desc": "🛍️ 驚安殿堂唐吉訶德 (Don Quijote) 上野店 · 採購零食、藥妝 (自由購物)"
+        },
+        {
+          "time": "22:30",
+          "desc": "🌙 返回酒店 · 整理行李，為明日行程做準備"
+        }
+      ],
+      "day_photo": ""
+    },
+    {
+      "day": 2,
+      "date": "Aug 05 · Wed",
+      "label_zh": "淺草文化巡禮 & Skytree夜景",
+      "day_query": "Senso-ji Temple Asakusa",
+      "hotel_name": "APA Hotel Ueno Ekimae",
+      "hotel_name_zh": "APA飯店 上野站前",
+      "hotel_room": "三人房",
+      "weather": "☀️ 33°/26°",
+      "rain_pct": "25%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "☕ 酒店附近 Doutor Coffee 或便利商店享用早餐 (約 ¥500/人, 約 NT$111/人)"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚇 搭乘地鐵前往淺草 (約 10 分鐘, ¥180/人, 約 NT$40/人)"
+        },
+        {
+          "time": "10:30",
+          "desc": "⛩️ 淺草寺 (Senso-ji Temple) · 穿越雷門、仲見世商店街 (Nakamise-dori) 逛特色小店、品嚐人形燒"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 午餐：淺草附近平價蕎麥麵/烏龍麵 (約 ¥900/人, 約 NT$200/人)"
+        },
+        {
+          "time": "14:30",
+          "desc": "🚶‍♀️ 隅田川公園散步 · 欣賞晴空塔美景 · 可考慮搭乘水上巴士 (自費, 約 ¥1000/人, 約 NT$222/人)"
+        },
+        {
+          "time": "16:00",
+          "desc": "🗼 東京晴空塔 (Tokyo Skytree) · 在晴空街道 (Solamachi) 購物中心逛街，從外部欣賞晴空塔"
+        },
+        {
+          "time": "18:00",
+          "desc": "📸 晴空塔夜景拍攝 · 在附近尋找最佳角度捕捉夜間點燈"
+        },
+        {
+          "time": "19:30",
+          "desc": "🍽️ 晚餐：晴空街道內美食廣場或附近連鎖餐廳 (約 ¥1500/人, 約 NT$333/人)"
+        },
+        {
+          "time": "21:00",
+          "desc": "🚇 搭乘地鐵返回上野酒店"
+        }
+      ],
+      "day_photo": "https://www.touristinjapan.com/wp-content/uploads/2018/06/39574872171_e8020cece7_k-1020x600.jpg"
+    },
+    {
+      "day": 3,
+      "date": "Aug 06 · Thu",
+      "label_zh": "澀谷潮流 & 原宿時尚",
+      "day_query": "Shibuya Crossing Harajuku Takeshita Street",
+      "hotel_name": "APA Hotel Ueno Ekimae",
+      "hotel_name_zh": "APA飯店 上野站前",
+      "hotel_room": "三人房",
+      "weather": "☀️ 34°/27°",
+      "rain_pct": "35%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "🥐 便利商店購買早餐 · 節省時間與預算"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚇 搭乘地鐵前往澀谷 (約 20 分鐘, ¥200/人, 約 NT$44/人)"
+        },
+        {
+          "time": "10:00",
+          "desc": "🚶‍♀️ 澀谷交叉路口 (Shibuya Crossing) · 體驗世界最繁忙的十字路口 · 忠犬八公像合影"
+        },
+        {
+          "time": "11:00",
+          "desc": "🛍️ 澀谷 109 百貨 · 逛街購物，感受東京年輕潮流文化"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 午餐：澀谷平價拉麵店 (如：一蘭拉麵 Ichiran Ramen, 約 ¥1200/人, 約 NT$266/人)"
+        },
+        {
+          "time": "14:30",
+          "desc": "🚶‍♀️ 步行前往原宿 (約 15 分鐘)"
+        },
+        {
+          "time": "15:00",
+          "desc": "🌸 明治神宮 (Meiji Jingu Shrine) · 在都市叢林中感受寧靜的日式庭園"
+        },
+        {
+          "time": "16:30",
+          "desc": "🛍️ 竹下通 (Takeshita Street) · 逛街、品嚐可麗餅、大頭貼體驗"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：原宿附近特色小店或速食店 (約 ¥1000/人, 約 NT$222/人)"
+        },
+        {
+          "time": "20:30",
+          "desc": "🚇 搭乘地鐵返回上野酒店"
+        }
+      ],
+      "day_photo": "https://www.datocms-assets.com/101439/1759150039-shibuya-crossing.jpg?auto=format&h=1000&w=1000"
+    },
+    {
+      "day": 4,
+      "date": "Aug 07 · Fri",
+      "label_zh": "新宿都會 & 都廳夜景",
+      "day_query": "Shinjuku Gyoen National Garden Tokyo Metropolitan Government Building",
+      "hotel_name": "APA Hotel Ueno Ekimae",
+      "hotel_name_zh": "APA飯店 上野站前",
+      "hotel_room": "三人房",
+      "weather": "⛅ 31°/24°",
+      "rain_pct": "40%",
+      "slots": [
+        {
+          "time": "08:30",
+          "desc": "☕ 酒店附近 Doutor Coffee 或便利商店享用早餐 (約 ¥500/人, 約 NT$111/人)"
+        },
+        {
+          "time": "09:30",
+          "desc": "🚇 搭乘地鐵前往新宿 (約 15 分鐘, ¥180/人, 約 NT$40/人)"
+        },
+        {
+          "time": "10:00",
+          "desc": "🌳 新宿御苑 (Shinjuku Gyoen National Garden) · 享受日式、法式、英式庭園風光 (門票 ¥500/人, 約 NT$111/人)"
+        },
+        {
+          "time": "12:30",
+          "desc": "🍽️ 午餐：新宿 LUMINE EST 或 Mylord 內美食街 (約 ¥1000/人, 約 NT$222/人)"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛍️ 新宿東口逛街 · 藥妝店、服飾店 (如 BIC CAMERA、Yodobashi Camera 電器行)"
+        },
+        {
+          "time": "17:00",
+          "desc": "🏢 東京都廳舍 (Tokyo Metropolitan Government Building) · 免費展望台欣賞東京日景與夕陽"
+        },
+        {
+          "time": "19:00",
+          "desc": "🍽️ 晚餐：新宿歌舞伎町附近居酒屋或特色餐廳 (約 ¥1800/人, 約 NT$400/人)"
+        },
+        {
+          "time": "20:30",
+          "desc": "🌃 東京都廳舍夜景 · 欣賞東京璀璨夜色 (免費)"
+        },
+        {
+          "time": "21:30",
+          "desc": "🚇 搭乘地鐵返回上野酒店"
+        }
+      ],
+      "day_photo": "https://www.planmyjapan.com/wp-content/uploads/2024/05/Shinjuku-Gyoen-National-Garden-7.jpg"
+    },
+    {
+      "day": 5,
+      "date": "Aug 08 · Sat",
+      "label_zh": "築地海鮮 & 台場未來感",
+      "day_query": "Tsukiji Outer Market Odaiba DiverCity Tokyo Plaza",
+      "hotel_name": "APA Hotel Ueno Ekimae",
+      "hotel_name_zh": "APA飯店 上野站前",
+      "hotel_room": "三人房",
+      "weather": "☀️ 30°/23°",
+      "rain_pct": "20%",
+      "slots": [
+        {
+          "time": "08:00",
+          "desc": "🚇 搭乘地鐵前往築地市場 (約 15 分鐘, ¥180/人, 約 NT$40/人)"
+        },
+        {
+          "time": "08:30",
+          "desc": "🐟 築地場外市場 (Tsukiji Outer Market) · 享用海鮮丼、玉子燒、壽司等新鮮早餐/早午餐 (約 ¥2000/人, 約 NT$444/人)"
+        },
+        {
+          "time": "10:30",
+          "desc": "🚶‍♀️ 築地市場周邊散步 · 體驗日式傳統市場氛圍"
+        },
+        {
+          "time": "11:30",
+          "desc": "🚇 搭乘地鐵前往新橋站，轉乘百合海鷗號前往台場 (約 30 分鐘, ¥500/人, 約 NT$111/人)"
+        },
+        {
+          "time": "12:30",
+          "desc": "🗽 台場自由女神像、彩虹大橋 (Rainbow Bridge) · 拍照留念"
+        },
+        {
+          "time": "14:00",
+          "desc": "🛍️ DiverCity Tokyo Plaza (台場購物廣場) · 參觀巨型鋼彈立像 (Gundam Base)"
+        },
+        {
+          "time": "16:00",
+          "desc": "🎡 台場海濱公園 · 欣賞東京灣景色，或考慮搭乘摩天輪 (自費, 約 ¥1000/人, 約 NT$222/人)"
+        },
+        {
+          "time": "18:30",
+          "desc": "🍽️ 晚餐：DiverCity 或 Aqua City 台場內餐廳 (約 ¥1800/人, 約 NT$400/人)"
+        },
+        {
+          "time": "20:30",
+          "desc": "🚇 搭乘百合海鷗號返回新橋，轉乘地鐵回上野酒店"
+        }
+      ],
+      "day_photo": "https://www.tsukiji.or.jp/assets/images/english/top/slide01.jpg"
+    },
+    {
+      "day": 6,
+      "date": "Aug 09 · Sun",
+      "label_zh": "伴手禮採購 & 賦歸",
+      "day_query": "Narita Airport shopping",
+      "hotel_name": "APA Hotel Ueno Ekimae",
+      "hotel_name_zh": "APA飯店 上野站前",
+      "hotel_room": "三人房",
+      "weather": "☀️ 32°/25°",
+      "rain_pct": "15%",
+      "slots": [
+        {
+          "time": "09:00",
+          "desc": "☕ 酒店附近 Doutor Coffee 或便利商店享用早餐 (約 ¥500/人, 約 NT$111/人)"
+        },
+        {
+          "time": "10:00",
+          "desc": "🛍️ 上野車站周邊最後採購 · 可在車站內或附近百貨公司購買伴手禮 (如東京芭娜娜、薯條三兄弟等)"
+        },
+        {
+          "time": "12:00",
+          "desc": "🧳 返回酒店辦理退房手續 · 將行李寄放酒店或車站置物櫃"
+        },
+        {
+          "time": "13:00",
+          "desc": "🍽️ 午餐：上野車站內或附近平價餐廳 (約 ¥1000/人, 約 NT$222/人)"
+        },
+        {
+          "time": "14:00",
+          "desc": "🚆 從京成上野站搭乘 Skyliner 前往 NRT 成田機場 Terminal 2 (約 45 分鐘, ¥2580/人, 約 NT$573/人)"
+        },
+        {
+          "time": "15:30",
+          "desc": "✈️ 抵達成田機場 · 辦理登機手續、托運行李 (建議提早抵達)"
+        },
+        {
+          "time": "16:00",
+          "desc": "🛍️ 機場免稅店最後購物 · 購買特色點心、紀念品"
+        },
+        {
+          "time": "19:50",
+          "desc": "🛫 搭乘樂桃航空 MM859 返回台灣"
+        }
+      ],
+      "day_photo": "https://narita-airport.imagewave.pictures/b6EVXotP5JqvLduy9UJpaB?width=3840"
+    }
+  ],
+  "costs": [
+    {
+      "label": "✈️ 來回機票 (3人)",
+      "amount_ntd": 21000
+    },
+    {
+      "label": "🏨 住宿 (5晚三人房)",
+      "amount_ntd": 14000
+    },
+    {
+      "label": "🍽️ 餐飲 (6天3人)",
+      "amount_ntd": 21600
+    },
+    {
+      "label": "🚇 交通 (Skyliner、地鐵、Suica儲值)",
+      "amount_ntd": 12000
+    },
+    {
+      "label": "🎫 景點門票 (新宿御苑、其他自選)",
+      "amount_ntd": 1000
+    },
+    {
+      "label": "🛍️ 購物伴手禮",
+      "amount_ntd": 30000
+    }
+  ],
+  "cost_total_ntd": 99600,
+  "budget_remaining_ntd": 400,
+  "chat_input": "今年暑假，8月，三個少女，東京窮游。總預算10萬",
+  "photos": {
+    "hero": [
+      {
+        "url": "https://www.travelcaffeine.com/wp-content/uploads/2018/06/sunset-tokyo-tower-zojoji-temple-japan-bricker.jpg",
+        "label": "Ultimate 2025 Tokyo, Japan City Guide - Travel Caffeine"
+      }
+    ],
+    "destination": [
+      {
+        "url": "https://www.travelcaffeine.com/wp-content/uploads/2018/06/sunset-tokyo-tower-zojoji-temple-japan-bricker.jpg",
+        "label": "Ultimate 2025 Tokyo, Japan City Guide - Travel Caffeine"
+      },
+      {
+        "url": "https://www.gotokyo.org/en/see-and-do/attractions/images/9_0102_2.jpg",
+        "label": "Top tourist attractions in Tokyo: the best sightseeing spots | The Official Tokyo  Travel Guide, GO TOKYO"
+      },
+      {
+        "url": "https://www.travelcaffeine.com/wp-content/uploads/2023/01/sarah-tom-bricker-shibuya-sky-sunset-japan-11.jpg",
+        "label": "Ultimate 2025 Tokyo, Japan City Guide - Travel Caffeine"
+      },
+      {
+        "url": "https://i.natgeofe.com/n/92c9807e-cf05-4603-a0fb-20bc43726522/Chidorigafuchi%20Imperial%20Palace%20.jpg?wp=1&w=1084.125&h=724.5",
+        "label": "This is Tokyo: 10 nature escapes without leaving the metropolis | National  Geographic"
+      },
+      {
+        "url": "https://www.holidaytourstravel.com/wp-content/uploads/2022/11/sora-sagano-8sOZJ8JF0S8-unsplash-scaled.jpg",
+        "label": "Top 10 Useful Tips To Know For Your Next Tokyo Travel | Holiday Tours &  Travel"
+      },
+      {
+        "url": "https://www.gotokyo.org/en/see-and-do/attractions/images/pixta_54645855_l.jpg",
+        "label": "Top tourist attractions in Tokyo: the best sightseeing spots | The Official Tokyo  Travel Guide, GO TOKYO"
+      }
+    ]
+  },
+  "chat_hash": "195ef56b3c63084bfa7963ac4dc72a02be22065c665035bb1f147840f5b7ff7c",
+  "config_hash": "ebb16a67c2e7bf8a3a583b9b514d59306b7a22092d570b20b2e724761e3e00bb",
+  "generated_at": "2026-08-07T09:30:13.893997"
+}
